@@ -1,0 +1,222 @@
+name: E-MU Xtreme Lead-1
+manufacturer: E-mu Systems, Inc.
+category: 64-Voice Dance & Techno Synthesizer (50 Z-Plane Filters & SuperBEATS)
+release_year: 2000
+hardware:
+  form_factor: 1U 19-inch Rackmount
+  polyphony: 64
+  multitimbral_parts: 16
+  sound_memory: 32 MB 'X-Lead' Sound ROM (Cutting-edge synth leads, acid basses, punchy
+    drums, rave hits)
+  filter: 50 12-pole Z-Plane morphing resonant filters with dynamic resonance and
+    formant interpolation
+  beats_engine: 16-track SuperBEATS interactive loop sequencer with real-time X-Factor
+    groove crossfade
+  arpeggiator: 16 simultaneous synchronized polyphonic arpeggiator engines
+  knobs: 4 real-time multi-function knobs controlling 12 parameters (Layers A-D, E-H,
+    I-L)
+  outputs: '6 polyphonic outputs (3 stereo pairs: Main, Sub 1, Sub 2)'
+  chassis: Deep cyber violet/purple faceplate with neon cyan and lime-yellow graphics
+midi:
+  manufacturer_id:
+  - 24
+  product_id: 15
+  model_id: 7
+  default_device_id: 0
+  bank_select:
+    msb_cc: 0
+    msb_val: 0
+    lsb_cc: 32
+    banks:
+      0: User Bank 0 / XLEAD Bank 0
+      1: User Bank 1 / XLEAD Bank 1
+      2: User Bank 2 / XLEAD Bank 2
+      3: User Bank 3 / XLEAD Bank 3
+sysex:
+  header:
+  - 240
+  - 24
+  - 15
+  - '{device_id}'
+  special_editor_byte: 85
+  commands:
+    parameter_edit: 1
+    generic_editor_message: 85
+  parameter_edit_format:
+    header:
+    - 240
+    - 24
+    - 15
+    - '{device_id}'
+    - 85
+    - 1
+    - 2
+    - '{param_lsb}'
+    - '{param_msb}'
+    - '{val_lsb}'
+    - '{val_msb}'
+    - 247
+ui_theme:
+  style: hardware_chassis
+  background_color: '#1e0b36'
+  accent_purple: '#7c3aed'
+  accent_cyan: '#00f0ff'
+  accent_lime: '#a3e635'
+  lcd_backlight: '#08282f'
+  lcd_text: '#00f0ff'
+  knob_style: knurled_metallic
+parameters:
+- id: filter_cutoff
+  name: Z-Plane Filter Cutoff
+  page: filter
+  param_id: 384
+  type: linear
+  range:
+  - 0
+  - 255
+  default: 82
+  unit: steps
+- id: filter_resonance
+  name: Z-Plane Resonance (Q)
+  page: filter
+  param_id: 385
+  type: linear
+  range:
+  - 0
+  - 15
+  default: 8
+  unit: steps
+- id: filter_morph
+  name: Formant Morph / Peak
+  page: filter
+  param_id: 386
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 64
+- id: filter_type
+  name: Z-Plane Filter Model (50 Types)
+  page: filter
+  param_id: 387
+  type: enum
+  range:
+  - 0
+  - 49
+  default: 0
+  options:
+    0: 12-Pole Swept Lowpass
+    1: Acid TB-303 Lowpass Q
+    2: Dual Peak Vocal Formant A-E-I-O-U
+    3: Trance Rave Bandpass Matrix
+    4: Sub-Heavy 4-Pole Dance Notch
+- id: beats_mode
+  name: SuperBEATS Mode Status
+  page: beats
+  param_id: 10
+  type: enum
+  range:
+  - 0
+  - 2
+  default: 1
+  options:
+    0: 'Off'
+    1: SuperBEATS Active
+    2: Song Play
+- id: beats_xfactor
+  name: X-Factor Groove Crossfade
+  page: beats
+  param_id: 13
+  type: linear
+  range:
+  - 0
+  - 100
+  default: 50
+  unit: '%'
+- id: beats_tempo
+  name: Beats / Arp Tempo
+  page: beats
+  param_id: 12
+  type: linear
+  range:
+  - 40
+  - 240
+  default: 138
+  unit: BPM
+- id: beats_transpose
+  name: Beats Key Transposition
+  page: beats
+  param_id: 14
+  type: bipolar
+  range:
+  - -24
+  - 24
+  default: 0
+  unit: ST
+- id: knob_a_cutoff
+  name: 'Knob A: Filter Cutoff'
+  page: knobs
+  param_id: 500
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 82
+- id: knob_b_reso
+  name: 'Knob B: Resonance / Q'
+  page: knobs
+  param_id: 501
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 64
+- id: knob_c_morph
+  name: 'Knob C: Filter Morph'
+  page: knobs
+  param_id: 502
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 64
+- id: knob_d_movement
+  name: 'Knob D: LFO / Movement'
+  page: knobs
+  param_id: 503
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 40
+- id: arp_master_mode
+  name: Arpeggiator Master Status
+  page: arpeggiator
+  param_id: 60
+  type: enum
+  range:
+  - 0
+  - 2
+  default: 1
+  options:
+    0: 'Off'
+    1: On (Per-Channel Sync)
+    2: Master Arp
+- id: arp_pattern_mode
+  name: Arp Pattern Type
+  page: arpeggiator
+  param_id: 61
+  type: enum
+  range:
+  - 0
+  - 7
+  default: 2
+  options:
+    0: Up
+    1: Down
+    2: Up / Down
+    3: Forward Assign
+    4: Backward Assign
+    5: Random
+    6: Acid Glissando
+    7: Custom Riff

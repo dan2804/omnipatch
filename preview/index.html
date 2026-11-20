@@ -134,6 +134,9 @@
         <button onclick="switchView('emax2')" id="nav-emax2" class="px-4 py-1.5 transition text-zinc-400 hover:text-white hover:bg-zinc-800/60 border-b-2 border-transparent">
           E-MU Emax II
         </button>
+        <button onclick="switchView('xl1')" id="nav-xl1" class="px-4 py-1.5 transition text-zinc-400 hover:text-white hover:bg-zinc-800/60 border-b-2 border-transparent">
+          E-MU XL-1
+        </button>
         <button onclick="switchView('librarian')" id="nav-librarian" class="px-4 py-1.5 transition text-zinc-400 hover:text-white hover:bg-zinc-800/60 border-b-2 border-transparent">
           Patch Librarian
         </button>
@@ -392,6 +395,33 @@
             <div class="flex justify-between text-xs font-mono text-zinc-400">
               <span class="text-amber-400 font-semibold">Quad Preset Stacking</span>
               <span class="text-amber-300">SysEx (18 05)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tile: E-MU Xtreme Lead-1 (Live & Clickable) -->
+        <div onclick="switchView('xl1')" class="md:col-span-2 bg-[#1b082e] hover:bg-[#250d3d] border-l-4 border-[#a855f7] p-5 cursor-pointer metro-tile flex flex-col justify-between shadow-lg relative overflow-hidden group">
+          <div class="absolute -right-4 -bottom-4 w-28 h-28 bg-[#a855f7]/15 rounded-full blur-xl pointer-events-none"></div>
+          <div>
+            <div class="flex items-center justify-between">
+              <span class="text-xs uppercase tracking-widest text-purple-400 font-semibold">Dance & Techno Synthesizer</span>
+              <span class="flex items-center gap-1.5 bg-black/40 px-2 py-0.5 text-[11px] text-purple-300">
+                <span class="w-2 h-2 rounded-full bg-purple-400 led-green"></span> Port 8 (Online)
+              </span>
+            </div>
+            <h3 class="text-2xl font-bold text-white mt-3 tracking-tight flex items-baseline gap-2">
+              E-MU XL-1 <span class="text-xs font-normal text-zinc-400 font-mono">(2000)</span>
+            </h3>
+            <p class="text-zinc-400 text-xs mt-1">64 Voices • 50 Z-Plane Filters • SuperBEATS • 512 Presets</p>
+          </div>
+          <div class="space-y-2 mt-6">
+            <div class="bg-black/50 p-2 text-xs flex justify-between items-center border border-purple-950">
+              <span class="text-zinc-400">Preset:</span>
+              <span class="font-mono text-purple-300 font-bold" id="dashboard-xl1-patch">000 syn:ORiON</span>
+            </div>
+            <div class="flex justify-between text-xs font-mono text-zinc-400">
+              <span class="text-cyan-400 font-semibold">SuperBEATS: 138 BPM</span>
+              <span class="text-purple-400">SysEx (18 0F)</span>
             </div>
           </div>
         </div>
@@ -3036,6 +3066,304 @@
 
     </section>
 
+
+    <!-- VIEW: E-MU XTREME LEAD-1 (DANCE & TECHNO SYNTHESIZER) -->
+    <section id="view-xl1" class="hidden space-y-4">
+
+      <!-- XL-1 Cyber Violet Chassis Header -->
+      <div class="bg-[#140624] border border-purple-900/60 rounded-sm p-4 shadow-2xl flex flex-col md:flex-row md:items-center justify-between gap-4">
+        <div class="flex items-center gap-4">
+          <!-- Heavy Rack Bracket -->
+          <div class="w-3 h-14 bg-zinc-900 rounded-sm flex flex-col justify-between py-1 px-0.5 border border-zinc-700 shadow-inner">
+            <div class="w-2 h-2 rounded-full bg-black border border-zinc-600"></div>
+            <div class="w-2 h-2 rounded-full bg-black border border-zinc-600"></div>
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="text-xs font-black tracking-widest text-purple-400 bg-purple-950 px-2 py-0.5 rounded border border-purple-800">E-MU SYSTEMS</span>
+              <span class="text-xs text-cyan-300 font-mono tracking-wider">MODEL 9081 • 64-VOICE DANCE SYNTH</span>
+            </div>
+            <h2 class="text-3xl font-extrabold tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-fuchsia-300 to-cyan-300 mt-1">
+              XTREME LEAD-1
+            </h2>
+            <p class="text-xs text-zinc-400 font-medium">32MB X-Lead Sound ROM • 50 Z-Plane Morphing Filters • SuperBEATS 16-Track Sequencer</p>
+          </div>
+        </div>
+
+        <!-- Authentic 2x24 Cyan/Green LCD Display -->
+        <div class="bg-[#031518] border-2 border-cyan-800/80 px-4 py-2.5 rounded shadow-[inset_0_0_12px_rgba(6,182,212,0.3)] font-mono min-w-[340px]">
+          <div class="flex justify-between text-xs text-cyan-300 font-bold tracking-wider">
+            <span id="xl1-lcd-line1">C01 Vol127 Pan=00  000 syn:ORiON</span>
+            <span class="text-purple-400 font-semibold" id="xl1-lcd-bank">B0:XLEAD</span>
+          </div>
+          <div class="flex justify-between text-xs text-cyan-400/90 mt-1 border-t border-cyan-900/60 pt-1">
+            <span id="xl1-lcd-line2">Fc:082 Q:08 Morph:064  138 BPM</span>
+            <span id="xl1-lcd-xf" class="text-pink-400 font-bold">XF: 50%</span>
+          </div>
+        </div>
+
+        <!-- Master Controls & Audition -->
+        <div class="flex items-center gap-2">
+          <button onclick="auditionXl1()" class="bg-gradient-to-r from-cyan-600 to-teal-600 hover:from-cyan-500 hover:to-teal-500 text-white px-4 py-2 text-xs font-bold shadow-md transition flex items-center gap-1.5 rounded">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            Audition Dance Synth
+          </button>
+          <button onclick="toggleXl1Beats()" id="btn-xl1-beats" class="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-white px-4 py-2 text-xs font-black shadow-md transition rounded">
+            ▶ PLAY SuperBEATS
+          </button>
+        </div>
+      </div>
+
+      <!-- MAIN XL-1 WORKSTATION (TWO COLUMN) -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-5">
+
+        <!-- LEFT COLUMN: SuperBEATS & 50 Z-PLANE FILTERS (7 COLS) -->
+        <div class="lg:col-span-7 space-y-4">
+
+          <!-- SuperBEATS INTERACTIVE CONSOLE -->
+          <div class="bg-[#17072a] border border-purple-900/50 rounded-sm p-4 shadow-xl space-y-3">
+            <div class="flex items-center justify-between border-b border-purple-900/60 pb-2">
+              <div class="flex items-center gap-2">
+                <span class="w-3 h-3 rounded-full bg-fuchsia-500 shadow-[0_0_8px_#d946ef]"></span>
+                <h3 class="text-sm font-bold tracking-wide uppercase text-fuchsia-300">SuperBEATS™ Interactive Dance Sequencer</h3>
+              </div>
+              <div class="flex items-center gap-3 text-xs">
+                <span class="text-zinc-400">16 Synced Tracks</span>
+                <span class="bg-black/60 px-2 py-0.5 text-cyan-400 font-mono rounded border border-purple-950 font-bold">16 ARPS SYNC</span>
+              </div>
+            </div>
+
+            <!-- Tempo & X-Factor Controls -->
+            <div class="grid grid-cols-1 sm:grid-cols-12 gap-3 items-center bg-black/40 p-3 rounded border border-purple-950">
+              <div class="sm:col-span-7 space-y-2">
+                <div class="flex justify-between text-[11px] font-mono">
+                  <span class="text-purple-300 font-bold uppercase">X-Factor™ Polyrhythmic Groove Morpher</span>
+                  <span id="val-xl1-xf" class="text-pink-400 font-bold">50%</span>
+                </div>
+                <input type="range" id="slider-xl1-xf" min="0" max="100" value="50" oninput="updateXl1XFactor(this.value)" class="w-full h-1.5 bg-zinc-800 rounded accent-pink-500 cursor-pointer">
+              </div>
+
+              <!-- BPM Slider & Tap -->
+              <div class="sm:col-span-5 flex items-center gap-2">
+                <div class="flex-1">
+                  <div class="flex justify-between text-[11px] text-zinc-400 mb-0.5 font-mono">
+                    <span>TEMPO</span>
+                    <span id="val-xl1-bpm" class="text-cyan-300 font-bold">138 BPM</span>
+                  </div>
+                  <input type="range" id="slider-xl1-bpm" min="40" max="240" value="138" oninput="updateXl1Bpm(this.value)" class="w-full h-1.5 bg-zinc-800 rounded accent-cyan-400 cursor-pointer">
+                </div>
+                <button onclick="tapXl1Tempo()" class="bg-purple-900/60 hover:bg-purple-800 text-cyan-300 border border-purple-700 px-2.5 py-1.5 text-[10px] font-bold rounded mt-3">
+                  TAP
+                </button>
+              </div>
+            </div>
+
+            <!-- 8 EDM MULTI-TRACK MUTE / SOLO MATRIX -->
+            <div>
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-xs uppercase tracking-wider text-purple-300 font-semibold">16-Track SuperBEATS Enable / Mute Matrix</span>
+                <span class="text-[10px] text-zinc-400 font-mono">Click pad to Mute/Unmute in real-time</span>
+              </div>
+              <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
+                <div id="pad-xl1-0" onclick="toggleXl1Track(0)" class="bg-[#240a42] hover:bg-[#310f57] border-2 border-purple-600/80 p-2.5 rounded cursor-pointer transition select-none flex items-center justify-between">
+                  <div>
+                    <div class="text-[10px] text-purple-400 font-bold">TRK 1</div>
+                    <div class="text-xs text-white font-semibold">909 Kick Sub</div>
+                    <div class="text-[9px] text-zinc-400">Deep 4/4 Floor</div>
+                  </div>
+                  <span id="led-xl1-0" class="w-3 h-3 rounded-full bg-purple-400 led-green"></span>
+                </div>
+
+                <div id="pad-xl1-1" onclick="toggleXl1Track(1)" class="bg-[#240a42] hover:bg-[#310f57] border-2 border-purple-600/80 p-2.5 rounded cursor-pointer transition select-none flex items-center justify-between">
+                  <div>
+                    <div class="text-[10px] text-purple-400 font-bold">TRK 2</div>
+                    <div class="text-xs text-white font-semibold">Snare & Clap</div>
+                    <div class="text-[9px] text-zinc-400">Punchy 909 Clap</div>
+                  </div>
+                  <span id="led-xl1-1" class="w-3 h-3 rounded-full bg-purple-400 led-green"></span>
+                </div>
+
+                <div id="pad-xl1-2" onclick="toggleXl1Track(2)" class="bg-[#240a42] hover:bg-[#310f57] border-2 border-purple-600/80 p-2.5 rounded cursor-pointer transition select-none flex items-center justify-between">
+                  <div>
+                    <div class="text-[10px] text-cyan-400 font-bold">TRK 3</div>
+                    <div class="text-xs text-white font-semibold">16th Hi-Hats</div>
+                    <div class="text-[9px] text-zinc-400">Trance Offbeat</div>
+                  </div>
+                  <span id="led-xl1-2" class="w-3 h-3 rounded-full bg-cyan-400 led-green"></span>
+                </div>
+
+                <div id="pad-xl1-3" onclick="toggleXl1Track(3)" class="bg-[#240a42] hover:bg-[#310f57] border-2 border-purple-600/80 p-2.5 rounded cursor-pointer transition select-none flex items-center justify-between">
+                  <div>
+                    <div class="text-[10px] text-cyan-400 font-bold">TRK 4</div>
+                    <div class="text-xs text-white font-semibold">TB-303 Acid</div>
+                    <div class="text-[9px] text-zinc-400">Resonant Squelch</div>
+                  </div>
+                  <span id="led-xl1-3" class="w-3 h-3 rounded-full bg-cyan-400 led-green"></span>
+                </div>
+
+                <div id="pad-xl1-4" onclick="toggleXl1Track(4)" class="bg-[#240a42] hover:bg-[#310f57] border-2 border-purple-600/80 p-2.5 rounded cursor-pointer transition select-none flex items-center justify-between">
+                  <div>
+                    <div class="text-[10px] text-fuchsia-400 font-bold">TRK 5</div>
+                    <div class="text-xs text-white font-semibold">SuperSaw Lead</div>
+                    <div class="text-[9px] text-zinc-400">Euphoric Trance</div>
+                  </div>
+                  <span id="led-xl1-4" class="w-3 h-3 rounded-full bg-fuchsia-400 led-green"></span>
+                </div>
+
+                <div id="pad-xl1-5" onclick="toggleXl1Track(5)" class="bg-[#240a42] hover:bg-[#310f57] border-2 border-purple-600/80 p-2.5 rounded cursor-pointer transition select-none flex items-center justify-between">
+                  <div>
+                    <div class="text-[10px] text-fuchsia-400 font-bold">TRK 6</div>
+                    <div class="text-xs text-white font-semibold">Vocal Chops</div>
+                    <div class="text-[9px] text-zinc-400">Rave Shouts</div>
+                  </div>
+                  <span id="led-xl1-5" class="w-3 h-3 rounded-full bg-fuchsia-400 led-green"></span>
+                </div>
+
+                <div id="pad-xl1-6" onclick="toggleXl1Track(6)" class="bg-[#240a42] hover:bg-[#310f57] border-2 border-purple-600/80 p-2.5 rounded cursor-pointer transition select-none flex items-center justify-between">
+                  <div>
+                    <div class="text-[10px] text-amber-400 font-bold">TRK 7</div>
+                    <div class="text-xs text-white font-semibold">Rave Hoover</div>
+                    <div class="text-[9px] text-zinc-400">Alpha Juno Stab</div>
+                  </div>
+                  <span id="led-xl1-6" class="w-3 h-3 rounded-full bg-amber-400 led-green"></span>
+                </div>
+
+                <div id="pad-xl1-7" onclick="toggleXl1Track(7)" class="bg-[#240a42] hover:bg-[#310f57] border-2 border-purple-600/80 p-2.5 rounded cursor-pointer transition select-none flex items-center justify-between">
+                  <div>
+                    <div class="text-[10px] text-amber-400 font-bold">TRK 8</div>
+                    <div class="text-xs text-white font-semibold">Cyber Noise FX</div>
+                    <div class="text-[9px] text-zinc-400">Riser / Drop</div>
+                  </div>
+                  <span id="led-xl1-7" class="w-3 h-3 rounded-full bg-amber-400 led-green"></span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- 50 Z-PLANE MORPHING FILTER CONSOLE -->
+          <div class="bg-[#17072a] border border-purple-900/50 rounded-sm p-4 shadow-xl space-y-3">
+            <div class="flex items-center justify-between border-b border-purple-900/60 pb-2">
+              <div class="flex items-center gap-2">
+                <span class="w-3 h-3 rounded-full bg-cyan-400 shadow-[0_0_8px_#00f0ff]"></span>
+                <h3 class="text-sm font-bold tracking-wide uppercase text-cyan-300">50 Z-Plane 12-Pole Morphing Filters</h3>
+              </div>
+              <span class="text-[10px] text-zinc-400 font-mono">Dynamic Formant Morphing</span>
+            </div>
+
+            <!-- Dynamic Filter Curve Canvas -->
+            <div class="h-24 w-full bg-[#051119] rounded border border-cyan-900/80 overflow-hidden relative">
+              <canvas id="xl1-zplane-canvas" width="450" height="96" class="w-full h-full"></canvas>
+            </div>
+
+            <!-- Filter Controls -->
+            <div class="grid grid-cols-1 sm:grid-cols-4 gap-3 bg-black/40 p-3 rounded border border-purple-950 items-center">
+              <div>
+                <label class="text-[10px] text-zinc-400 block font-mono uppercase mb-1">Filter Model</label>
+                <select id="xl1-filter-model" onchange="updateXl1FilterModel(this.value)" class="w-full bg-[#0a0314] text-cyan-300 border border-purple-800 text-xs px-2 py-1 rounded font-mono">
+                  <option value="0">12-Pole Swept Lowpass</option>
+                  <option value="1">Acid TB-303 Lowpass Q</option>
+                  <option value="2">Vocal Formant A-E-I-O-U</option>
+                  <option value="3">Trance Rave Bandpass</option>
+                  <option value="4">Sub Dance Notch</option>
+                </select>
+              </div>
+
+              <div>
+                <div class="flex justify-between text-[10px] text-zinc-400 font-mono mb-1">
+                  <span>CUTOFF (Fc)</span>
+                  <span id="val-xl1-fc" class="text-cyan-300 font-bold">82</span>
+                </div>
+                <input type="range" min="0" max="255" value="82" oninput="updateXl1Cutoff(this.value)" class="w-full h-1.5 bg-zinc-800 rounded accent-cyan-400 cursor-pointer">
+              </div>
+
+              <div>
+                <div class="flex justify-between text-[10px] text-zinc-400 font-mono mb-1">
+                  <span>RESONANCE (Q)</span>
+                  <span id="val-xl1-q" class="text-fuchsia-300 font-bold">08</span>
+                </div>
+                <input type="range" min="0" max="15" value="8" oninput="updateXl1Reso(this.value)" class="w-full h-1.5 bg-zinc-800 rounded accent-fuchsia-400 cursor-pointer">
+              </div>
+
+              <div>
+                <div class="flex justify-between text-[10px] text-zinc-400 font-mono mb-1">
+                  <span>FORMANT MORPH</span>
+                  <span id="val-xl1-morph" class="text-purple-300 font-bold">64</span>
+                </div>
+                <input type="range" min="0" max="127" value="64" oninput="updateXl1Morph(this.value)" class="w-full h-1.5 bg-zinc-800 rounded accent-purple-400 cursor-pointer">
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- RIGHT COLUMN: 512 PRESET VAULT & LIVE SYSEX (5 COLS) -->
+        <div class="lg:col-span-5 space-y-4">
+
+          <!-- 512 PRESET VAULT -->
+          <div class="bg-[#17072a] border border-purple-900/50 rounded-sm p-4 shadow-xl">
+            <div class="flex items-center justify-between border-b border-purple-900/60 pb-2">
+              <div class="flex items-center gap-2">
+                <span class="text-xs uppercase tracking-wider text-purple-400 font-semibold">Preset Vault (512 Presets)</span>
+                <span class="text-[10px] bg-purple-950 text-purple-300 font-mono px-1.5 py-0.5 rounded border border-purple-800">4 Banks</span>
+              </div>
+              <span class="text-xs text-zinc-400 font-mono">32MB X-Lead Sound ROM</span>
+            </div>
+
+            <!-- Bank Selector Dropdown -->
+            <div class="mt-3">
+              <label class="text-[11px] text-zinc-400 uppercase tracking-wider font-semibold block mb-1">X-Lead Bank</label>
+              <select id="xl1-bank-select" onchange="changeXl1Bank(this.value)" class="w-full bg-[#0a0314] text-purple-300 border border-purple-800 text-xs px-3 py-2 font-mono focus:outline-none focus:border-purple-400 rounded">
+                <option value="User Bank 0 / XLEAD Bank 0">User Bank 0 / XLEAD Bank 0 (Rave, Leads, Acid Basses)</option>
+                <option value="User Bank 1 / XLEAD Bank 1">User Bank 1 / XLEAD Bank 1 (Pads, Strings, Dance Arps)</option>
+                <option value="User Bank 2 / XLEAD Bank 2">User Bank 2 / XLEAD Bank 2 (BPM Synths, Hits, Industrial)</option>
+                <option value="User Bank 3 / XLEAD Bank 3">User Bank 3 / XLEAD Bank 3 (SuperBEATS & Drum Construction)</option>
+              </select>
+            </div>
+
+            <!-- Search Filter -->
+            <div class="mt-3">
+              <input type="text" id="xl1-preset-search" placeholder="Filter 128 presets in this bank..." oninput="filterXl1Presets(this.value)" class="w-full bg-black/60 border border-purple-900 text-white text-xs px-3 py-1.5 rounded font-mono placeholder:text-zinc-600 focus:outline-none focus:border-purple-500">
+            </div>
+
+            <!-- Preset List Selector -->
+            <div class="mt-2">
+              <select id="xl1-preset-select" size="8" onchange="selectXl1Preset(parseInt(this.value))" class="w-full bg-black/60 border border-purple-900/80 text-zinc-200 text-xs p-1 font-mono rounded h-40 focus:outline-none focus:border-purple-500">
+                <!-- Dynamically populated -->
+              </select>
+            </div>
+
+            <!-- Active Patch readout -->
+            <div class="mt-3 p-2 bg-black/50 rounded border border-purple-950 text-xs flex justify-between items-center font-mono">
+              <span class="text-zinc-400">Current Program:</span>
+              <span id="xl1-active-patch-name" class="text-cyan-300 font-bold">000: syn:ORiON</span>
+            </div>
+          </div>
+
+          <!-- REAL-TIME SYSEX STREAM INSPECTOR -->
+          <div class="bg-[#140624] border border-purple-900/50 rounded-sm p-4 shadow-xl space-y-3">
+            <div class="flex items-center justify-between border-b border-purple-900/60 pb-2">
+              <span class="text-xs uppercase tracking-wider text-purple-400 font-semibold">Proteus 2000 SysEx Protocol</span>
+              <span class="text-[10px] text-zinc-400 font-mono">E-mu XL-1 (0x18 0x0F)</span>
+            </div>
+
+            <div class="space-y-2 text-xs font-mono">
+              <div class="bg-black/70 p-2.5 rounded border border-purple-950 break-all text-cyan-300 font-bold" id="xl1-sysex-hex">
+                F0 18 0F 00 55 01 02 00 03 52 00 F7
+              </div>
+              <div class="text-zinc-400 italic text-[11px]" id="xl1-sysex-expl">
+                [Ready - E-mu Xtreme Lead-1 Z-Plane Parameter Stream]
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
     <!-- VIEW 3: LIBRARIAN & BANK MANAGER -->
     <section id="view-librarian" class="hidden space-y-4">
       <div class="flex items-baseline justify-between border-b border-zinc-800 pb-3">
@@ -3208,7 +3536,7 @@
 
     // View Switching
     function switchView(viewName) {
-      ['dashboard', 'editor', 'ax60', 'audity', 'b3', 'carnaval', 'emax', 'emax2', 'librarian', 'midi'].forEach(v => {
+      ['dashboard', 'editor', 'ax60', 'audity', 'b3', 'carnaval', 'emax', 'emax2', 'xl1', 'librarian', 'midi'].forEach(v => {
         const el = document.getElementById('view-' + v);
         const nav = document.getElementById('nav-' + v);
         if (el && nav) {
@@ -3225,6 +3553,9 @@
       });
       if (viewName === 'editor') {
         drawEnvelopes();
+      }
+      if (viewName === 'xl1') {
+        drawXl1ZPlaneCurve();
       }
       if (viewName === 'emax2') {
         drawEmax2Envelopes();
@@ -5280,6 +5611,388 @@
       if (hexDisplay && explDisplay) {
         hexDisplay.innerText = '90 3C 7F  90 40 70  90 43 68 (C Major 16-Bit Stereo Chord)';
         explDisplay.innerText = '[Audition: 16-Bit Stereo Linear Sampling + 32-Voice Resonant VCF Active]';
+      }
+    }
+
+    
+    // ================= E-MU XTREME LEAD-1 LOGIC & PRESETS =================
+    const xl1PresetsMap = {"User Bank 0 / XLEAD Bank 0": ["syn:ORiON", "bts:Trancer", "raw:Basic Saw", "bpm:Boogy Synth", "arp:X-light", "edg:BoXT mono", "wal:Raverotic", "bas:1 Shot mono", "pad:Strings Box", "led:Wet", "air:Bat Pann", "bts:Perception", "kit:Hide & Seek", "bas:SquareV mono", "nse:DISTRUCTOR", "arp:Glory", "hit:Hittite", "bpm:UnderClaSS", "sfx:Moby's Trip", "raw:Rave Organ", "syn:70-64", "syn:Synthex 80's", "syn:Super Saw", "syn:XtoZ", "syn:Spiders mono", "syn:Brass Juice", "syn:Raved Pass", "syn:South Euro 1", "syn:South Euro 2", "syn:Digitell", "syn:Quadralike", "syn:BigDandyBoy", "syn:Riverdancing", "syn:Rendalaw", "syn:Dappy", "syn:Saw On High", "syn:Tink Or Toys", "syn:C Z O", "syn:OBX", "syn:SinEnsemble", "syn:CZ BIG", "syn:Wide Load", "syn:Cvox", "syn:Weezeled", "syn:Post Modern", "syn:JourneyMan", "syn:Skouls", "syn:Kyng Doam", "syn:Nordica Comp", "syn:Geaxoils", "syn:DarkShadows", "syn:AudKlav", "syn:Syn Chaos", "syn:R&B Syncomp", "syn:Octivate", "syn:Smooth Saw", "syn:Saint-A.", "syn:Grindin Me!", "syn:Calmer", "syn:Zionate", "syn:Synterval", "syn:ObieLand", "syn:SWELL", "syn:Air Age", "syn:SMAK", "syn:Tink", "syn:FizzeeString", "bas:P-dg mono", "bas:Ring Bassox", "bas:Saws Normal", "bas:T-Dance mono", "bas:Bongo-B", "bas:Top Tri mono", "bas:Hard X", "bas:Hupper mono", "bas:POLY", "bas:2000 mono", "bas:F16 mono", "bas:Bounce", "bas:FATSO mono", "bas:H20 mono", "bas:SuB DuH mono", "bas:RingCycle", "bas:Ripin mono", "bas:REZvsSINE", "bas:Love Bee", "bas:Sven Analog", "bas:B-Acer mono", "bas:Henny-P mono", "bas:Pinhead", "bas:SlappyFlange", "bas:FinGruzzer", "bas:Goin'Lo mono", "bas:Go Long mono", "bas:M-Deep mono", "bas:CReePeR mono", "bas:KEVLAR mono", "bas:Mango", "bas:JUMPUP mono", "bas:Acid Vox", "bas:ReedBass", "bas:FuzzBizz", "bas:Ventolator", "bas:Reso TB mono", "bas:A.D. 3033", "bas:Tugboat", "bas:Interference", "bas:TaurusT mono", "bas:DistTB1 mono", "bas:Bullit mono", "bas:Mo'", "bas:HybridPhased", "bas:UKshoot mono", "hit:Dinkness", "hit:PolyClavWOrm", "hit:Organist", "hit:Orgy Hitts", "hit:DeepStall", "hit:More Cheez", "hit:PLATINUM", "hit:Guit Hits", "hit:EP Rolls", "hit:Enrezzle", "hit:Lowy Techno", "hit:Dreamer Tags", "hit:FoonZoom", "hit:Ghost Organ", "hit:Brazzy Hits"], "User Bank 1 / XLEAD Bank 1": ["raw:Classic Tri", "raw:Sync4Seqence", "raw:Prophety", "raw:Ringer mono", "raw:Play Sawcomp", "raw:Drama", "raw:Big Synthy", "raw:Syn Brass", "raw:MortalSynth", "raw:Farzy Sync", "raw:SLICER", "raw:Rez Zip mono", "raw:3 O 3 mono", "raw:Acid Blomp", "raw:Booty Qooty", "raw:Ubo mono", "raw:Euro Noise", "raw:SweeTDreaM", "raw:Edge", "raw:Mini 2000", "raw:Basic Dodo", "raw:Basic Buzz", "raw:Basic 2600", "raw:Low SawSweep", "raw:Low CL2Sweep", "raw:BLAHSOM", "raw:Flaps", "raw:TeeTH", "raw:Prophet", "raw:Profit Braz", "pad:BP Strings", "pad:Slow Dance", "pad:Astrology", "pad:DARK CITY", "pad:Enoze Tri", "pad:Hi&LowLights", "pad:Danube", "pad:Vespers", "pad:Jumpy Brass", "pad:Rio Dulce", "pad:Big Aud'Pad", "pad:Gorgontastic", "pad:SlogritStrng", "pad:Daddy's Girl", "pad:Ice Dreams", "pad:SaturnRings", "pad:Smoovie", "pad:Aki's World", "pad:Low Back", "pad:Warm&Lush", "pad:Lonely Space", "pad:Pure Synth", "pad:HarmonicLift", "pad:Sawpipe", "pad:www.f mono", "pad:Spelunkers", "pad:aRt DeKo", "pad:Shaku High", "pad:Symphonix", "pad:Softaflange", "pad:Lifedream", "edg:Spawn mono", "edg:HlywdINative", "edg:PUNISH mono", "edg:Prephad", "edg:SCRAPE mono", "edg:REZANATOR", "edg:ACiDOP mono", "edg:Ringer mono", "edg:FuzzGrinder", "edg:BAD A mono", "edg:B-CUDA mono", "edg:Swervy", "edg:Love All", "edg:Space Komper", "edg:SynkerSteppr", "edg:SQUEAKE mono", "edg:Syncked", "edg:2Flange mono", "edg:Listoller", "edg:Reptoa", "edg:TotalControl", "edg:Growly Glide", "edg:Small Town", "edg:Zorkon", "edg:Skreecher", "edg:Low Edge", "edg:Love II mono", "edg:Bare Edge", "edg:Honker", "edg:Mr.Edge", "edg:19inch Nails", "vox:Zephyr", "vox:Air Voices", "vox:SIRRUS", "vox:Future Vox", "vox:Bliss", "vox:ARMAGEDDON", "vox:ANGELIKA", "vox:Galaxal", "vox:Bandvoxxe", "vox:Exploration", "vox:AfterShock", "vox:SUrFaCinG", "vox:Ethereal", "vox:Suffocating", "vox:Space Voxxal", "vox:Upper Bottom", "air:GhostStories", "air:Breath Stack", "air:Tibet", "air:Futura", "air:Air Surf :-)", "air:Eastern Mist", "air:Vampirella", "air:Sonar Ghost", "air:Druidz Song", "air:Digital Noiz", "air:Scary Noise", "air:StickyFinger", "air:LeaveMeAlone", "air:Breathless", "air:FluteState", "led:More Senses", "led:Hisynk Lead", "led:P5 Zentropa", "led:Funky-B mono", "led:Solo Environ"], "User Bank 2 / XLEAD Bank 2": ["bpm:Synthex 80's", "bpm:Tempo LFOs", "bpm:Cult-feel", "bpm:SakuraTime", "bpm:\"Carpe Diem\"", "bpm:Monster", "bpm:Love 1", "bpm:Bouncerette", "bpm:L'room mono", "bpm:Reepeter", "bpm:HOUSE", "bpm:GRITS", "bpm:TRIPPER", "bpm:Higher Power", "bpm:Solace", "bpm:Lunar Pad", "bpm:CReeP mono", "bpm:Trashy", "bpm:Mercy", "bpm:Wading", "bpm:Multisteps", "bpm:Squeapels", "bpm:Grinded", "bpm:SteppedDream", "bpm:Clocking Out", "bpm:Bubbler", "bpm:End", "bpm:Wicked Low", "bpm:RadioDaze", "bpm:Panhandel", "bpm:Sparkle", "bpm:Square Rise", "arp:Hollographik", "arp:Pele", "arp:C2 Dmachine", "arp:Lust up mono", "arp:Bottom Perc", "arp:You Know It", "arp:Toxic Vox", "arp:Deeper Love", "arp:Full Time", "arp:OrbisTabula1", "arp:OrbisPitcher", "arp:Dreamer", "arp:Palomar", "arp:theGrind", "arp:Fundamentals", "arp:Tron X", "arp:XL Feel", "arp:B-loid", "arp:Glider", "arp:Axis One", "arp:Bouchete", "arp:Saw Standard", "arp:Tekno Cheep", "arp:Phrophetics", "arp:SineDrum", "arp:CricketGruve", "arp:Whisper", "arp:Gut-P mono", "arp:MooGie-D", "arp:No Lo                     mono", "arp:Trip Hard", "arp:Sanctuary", "arp:LITTLE Guy", "arp:Kosy Love", "arp:Bust In", "arp:Uroboros", "arp:Mighty Pulse", "arp:JUNOsis", "arp:C2-Play me", "arp:C2-Play me2", "arp:T-2000", "arp:HardNormlMom", "arp:On The Run", "arp:Pissto Hi", "arp:Byg Stryngs", "arp:Space Coast", "arp:Futura", "wal:Ripped", "wal:Balls2The...", "wal:W6 3sEvEn", "wal:Field", "wal:ABYSS", "wal:DonkeyBreath", "wal:GoSpeedRacer", "wal:REZARECT", "wal:Tension", "wal:Arrival", "wal:Maryland", "wal:ByzantineNze", "wal:Thickets", "wal:Big Wall", "wal:Silkness", "wal:Marvs Modulo", "wal:Luscious", "wal:BACKDRAFT", "wal:I made it", "wal:DailyBread", "wal:Clavonate", "wal:HoverCraft", "wal:C-Ride mono", "wal:Duckfuzz", "wal:MaMMoTH", "wal:Ice Ring", "wal:Love 2bee", "wal:Uncle Fester", "wal:THE MACHEEN", "wal:Strangled", "wal:DOOM 2020", "led:JungleX mono", "led:Hypass Ditty", "led:Mono PolyFX", "led:Muffle Sync", "led:CazioTone", "led:Groove Wow", "led:Technoval", "led:Krane mono", "led:Wormsine", "led:Dreamlead", "led:Tunnelituar", "led:Crunchette", "led:Blizzer", "led:Junosquare", "led:Multisync", "led:WiggleWorm", "led:Levita Brass", "led:DesertTrance"], "User Bank 3 / XLEAD Bank 3": ["KEY-C3.mid", "AIR-Bat Pann", "AIR-Breathless", "AIR-Futura", "BAS-1 Shot", "BAS-2600x", "BAS-3O3x", "BAS-Acid Mono", "BAS-BadTubex", "BAS-Bullit", "BAS-Dist TB1", "BAS-DistortoTBx", "BAS-DoFi", "BAS-Filter 1", "BAS-Filter 2", "BAS-Filter 3", "BAS-Heavy M", "BAS-Interfear", "BAS-Lo-Za", "BAS-Metal Heartx", "BAS-Mini Morex", "BAS-Pdg", "BAS-Q Bassx", "BAS-SE Microx", "BAS-Say Whatx", "BAS-Shiftx", "BAS-Sub Corex", "BEL-Bellsa", "BEL-Modular", "BEL-Mystery", "BPM-Boogy", "BPM-Bounce", "BPM-UnderC", "BTS-007 1", "BTS-4am flyin 1", "BTS-808 Street 1", "BTS-Acid 1", "BTS-Big Body 1", "BTS-Big Shaker 1", "BTS-BlackHouse1", "BTS-D&B Smooth 2", "BTS-D&B Tight 1", "BTS-D-House 1", "BTS-DJ-A.mid", "BTS-Dark Hero 1", "BTS-Dist Treo 1", "BTS-DoFi 1", "BTS-Drumatic 1.mid", "BTS-Elbowroom 1", "BTS-Europiavis1", "BTS-Frantikk 1.mid", "BTS-Ginger 1", "BTS-Groove II 1", "BTS-Groove IT 1", "BTS-HBtoo 3", "BTS-Heaven 3", "BTS-HiHo 1", "BTS-Indy-T 1", "BTS-Jump Hard 1", "BTS-Kraftwork 1", "BTS-L-101 1", "BTS-Light-R 1.smf", "BTS-Lo-Z 1", "BTS-LoFi 1", "BTS-Logic1", "BTS-Mind Game 2", "BTS-Mind Game 3", "BTS-Peak777 1", "BTS-Perception 1", "BTS-RollerGirl 1.mid", "BTS-Rush 1", "BTS-Semi-Time 2", "BTS-System X 1", "BTS-TeknoTribe 1", "BTS-The Beast 1.mid", "BTS-Trancer 1", "BTS-TranzAmbient", "BTS-Unhooked 1", "BTS-X-Mox 1.smf", "BTS-Xie-racy 1", "BTS-HI-NRG", "BTS-Trance Date 1", "BTS-Club it 1", "BTS-Lily's Rage", "BTS-Rocket", "EDG-Boxt filter", "EDG-FilterQ", "GTR-Chuckinx", "HIT-Enrezzle", "HIT-Guit Hits", "HIT-Orgy Hitts", "HIT-Tite", "KEY-C Triad.mid", "KEY-C2 (2 Bars)", "KEY-C2 (4 Bars)", "KEY-C3 (2 Bars).mid", "KEY-C3 (4 Bars).mid", "KEY-C4.mid", "KEY-Cm7.mid", "KEY-Cm9.mid", "KEY-Cmaj7.mid", "KEY-CUp-Down.mid", "KEY-Cs Up.mid", "KEY-DxJx", "KEY-Groove", "KEY-Organik", "KEY-Synhiss", "KIT-80's 4track", "KIT-Boom 4track", "KIT-Compre 4track", "KIT-Dirt 5track", "KIT-G 4track", "KIT-Hide 4track", "KIT-K'werk 4track", "KIT-Mant 4track", "LED-Boxt mono", "LED-Krane", "LED-More S", "LED-Tunnel", "LED-Wet", "NSE-LucyF", "PAD-BP Strings", "PAD-Danube", "PAD-Dark City", "PRC-Construct", "PRC-Crash Head", "RAW-Drama", "SYN- 7064"]};
+    let currentXl1Bank = 'User Bank 0 / XLEAD Bank 0';
+    let currentXl1PresetIdx = 0;
+    let xl1BeatsPlaying = false;
+    let xl1Bpm = 138;
+    let xl1XFactor = 50;
+    let xl1Cutoff = 82;
+    let xl1Reso = 8;
+    let xl1Morph = 64;
+    let xl1FilterModelIdx = 0;
+    let xl1TracksActive = [true, true, true, true, true, true, true, true];
+    let xl1BeatsTimer = null;
+    let xl1BeatsStep = 0;
+
+    function populateXl1Presets(bankName) {
+      const select = document.getElementById('xl1-preset-select');
+      if (!select) return;
+      select.innerHTML = '';
+      const list = xl1PresetsMap[bankName] || [];
+      list.forEach((name, i) => {
+        const opt = document.createElement('option');
+        opt.value = i;
+        opt.text = String(i).padStart(3, '0') + ': ' + name;
+        select.appendChild(opt);
+      });
+      select.value = currentXl1PresetIdx;
+    }
+
+    function changeXl1Bank(bankName) {
+      currentXl1Bank = bankName;
+      currentXl1PresetIdx = 0;
+      populateXl1Presets(bankName);
+      selectXl1Preset(0);
+
+      const bCode = bankName.startsWith('User Bank 0') ? 'B0:XLEAD' :
+                    bankName.startsWith('User Bank 1') ? 'B1:XLEAD' :
+                    bankName.startsWith('User Bank 2') ? 'B2:XLEAD' : 'B3:XLEAD';
+      const lcdBank = document.getElementById('xl1-lcd-bank');
+      if (lcdBank) lcdBank.innerText = bCode;
+    }
+
+    function filterXl1Presets(term) {
+      const select = document.getElementById('xl1-preset-select');
+      if (!select) return;
+      select.innerHTML = '';
+      const list = xl1PresetsMap[currentXl1Bank] || [];
+      const lower = term.toLowerCase().trim();
+      list.forEach((name, i) => {
+        if (!lower || name.toLowerCase().includes(lower) || String(i).includes(lower)) {
+          const opt = document.createElement('option');
+          opt.value = i;
+          opt.text = String(i).padStart(3, '0') + ': ' + name;
+          select.appendChild(opt);
+        }
+      });
+      if (select.options.length > 0) {
+        select.selectedIndex = 0;
+        selectXl1Preset(parseInt(select.value));
+      }
+    }
+
+    function selectXl1Preset(idx) {
+      currentXl1PresetIdx = idx;
+      const list = xl1PresetsMap[currentXl1Bank] || [];
+      const name = list[idx] || "syn:ORiON";
+
+      const patchDisp = document.getElementById('xl1-active-patch-name');
+      if (patchDisp) patchDisp.innerText = String(idx).padStart(3, '0') + ': ' + name;
+
+      const lcd1 = document.getElementById('xl1-lcd-line1');
+      if (lcd1) {
+        lcd1.innerText = 'C01 Vol127 Pan=00  ' + String(idx).padStart(3, '0') + ' ' + name.substring(0, 10);
+      }
+
+      const dashPatch = document.getElementById('dashboard-xl1-patch');
+      if (dashPatch) {
+        dashPatch.innerText = String(idx).padStart(3, '0') + ' ' + name;
+      }
+
+      transmitXl1Param(0x0100, idx, 'Preset Select (' + name + ')');
+    }
+
+    function toggleXl1Track(trkIdx) {
+      xl1TracksActive[trkIdx] = !xl1TracksActive[trkIdx];
+      const pad = document.getElementById('pad-xl1-' + trkIdx);
+      const led = document.getElementById('led-xl1-' + trkIdx);
+      if (pad && led) {
+        if (xl1TracksActive[trkIdx]) {
+          pad.classList.remove('opacity-40', 'border-zinc-800');
+          pad.classList.add('border-purple-600/80');
+          led.className = 'w-3 h-3 rounded-full bg-purple-400 led-green';
+        } else {
+          pad.classList.add('opacity-40', 'border-zinc-800');
+          pad.classList.remove('border-purple-600/80');
+          led.className = 'w-3 h-3 rounded-full bg-zinc-700';
+        }
+      }
+      transmitXl1Param(0x0030 + trkIdx, xl1TracksActive[trkIdx] ? 1 : 0, 'SuperBEATS Track ' + (trkIdx + 1));
+    }
+
+    function updateXl1Cutoff(val) {
+      xl1Cutoff = parseInt(val);
+      const lbl = document.getElementById('val-xl1-fc');
+      if (lbl) lbl.innerText = xl1Cutoff;
+      drawXl1ZPlaneCurve();
+      updateXl1LcdLine2();
+      transmitXl1Param(384, xl1Cutoff, 'Z-Plane Filter Cutoff');
+    }
+
+    function updateXl1Reso(val) {
+      xl1Reso = parseInt(val);
+      const lbl = document.getElementById('val-xl1-q');
+      if (lbl) lbl.innerText = String(xl1Reso).padStart(2, '0');
+      drawXl1ZPlaneCurve();
+      updateXl1LcdLine2();
+      transmitXl1Param(385, xl1Reso, 'Z-Plane Filter Resonance');
+    }
+
+    function updateXl1Morph(val) {
+      xl1Morph = parseInt(val);
+      const lbl = document.getElementById('val-xl1-morph');
+      if (lbl) lbl.innerText = xl1Morph;
+      drawXl1ZPlaneCurve();
+      updateXl1LcdLine2();
+      transmitXl1Param(386, xl1Morph, 'Formant Morph');
+    }
+
+    function updateXl1FilterModel(val) {
+      xl1FilterModelIdx = parseInt(val);
+      drawXl1ZPlaneCurve();
+      transmitXl1Param(387, xl1FilterModelIdx, 'Filter Model Select');
+    }
+
+    function updateXl1XFactor(val) {
+      xl1XFactor = parseInt(val);
+      const lbl = document.getElementById('val-xl1-xf');
+      if (lbl) lbl.innerText = xl1XFactor + '%';
+      const lcdXf = document.getElementById('xl1-lcd-xf');
+      if (lcdXf) lcdXf.innerText = 'XF: ' + xl1XFactor + '%';
+      transmitXl1Param(13, xl1XFactor, 'X-Factor Groove Crossfade');
+    }
+
+    function updateXl1Bpm(bpm) {
+      xl1Bpm = parseInt(bpm);
+      const lbl = document.getElementById('val-xl1-bpm');
+      if (lbl) lbl.innerText = xl1Bpm + ' BPM';
+      updateXl1LcdLine2();
+      transmitXl1Param(12, xl1Bpm, 'SuperBEATS Tempo');
+      if (xl1BeatsPlaying) {
+        restartXl1BeatsTimer();
+      }
+    }
+
+    let lastXl1Tap = 0;
+    function tapXl1Tempo() {
+      const now = Date.now();
+      if (lastXl1Tap > 0) {
+        const diff = now - lastXl1Tap;
+        if (diff > 250 && diff < 2000) {
+          const calcBpm = Math.round(60000 / diff);
+          const clamped = Math.max(40, Math.min(240, calcBpm));
+          document.getElementById('slider-xl1-bpm').value = clamped;
+          updateXl1Bpm(clamped);
+        }
+      }
+      lastXl1Tap = now;
+    }
+
+    function updateXl1LcdLine2() {
+      const lcd2 = document.getElementById('xl1-lcd-line2');
+      if (lcd2) {
+        const fcStr = String(xl1Cutoff).padStart(3, '0');
+        const qStr = String(xl1Reso).padStart(2, '0');
+        const mStr = String(xl1Morph).padStart(3, '0');
+        lcd2.innerText = 'Fc:' + fcStr + ' Q:' + qStr + ' Morph:' + mStr + '  ' + xl1Bpm + ' BPM';
+      }
+    }
+
+    function toggleXl1Beats() {
+      xl1BeatsPlaying = !xl1BeatsPlaying;
+      const btn = document.getElementById('btn-xl1-beats');
+      if (xl1BeatsPlaying) {
+        btn.innerText = '■ STOP SuperBEATS';
+        btn.className = 'bg-gradient-to-r from-pink-600 to-rose-600 hover:from-pink-500 hover:to-rose-500 text-white px-4 py-2 text-xs font-black shadow-md transition rounded';
+        restartXl1BeatsTimer();
+        transmitXl1Param(10, 1, 'SuperBEATS Run (MIDI FA Start)');
+      } else {
+        btn.innerText = '▶ PLAY SuperBEATS';
+        btn.className = 'bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-white px-4 py-2 text-xs font-black shadow-md transition rounded';
+        if (xl1BeatsTimer) clearInterval(xl1BeatsTimer);
+        xl1BeatsTimer = null;
+        transmitXl1Param(10, 0, 'SuperBEATS Stop (MIDI FC Stop)');
+      }
+    }
+
+    function restartXl1BeatsTimer() {
+      if (xl1BeatsTimer) clearInterval(xl1BeatsTimer);
+      const stepIntervalMs = (60000 / xl1Bpm) / 4; // 16th notes
+      xl1BeatsStep = 0;
+      xl1BeatsTimer = setInterval(runXl1BeatsStep, stepIntervalMs);
+    }
+
+    function runXl1BeatsStep() {
+      const step = xl1BeatsStep % 16;
+      // 909 Kick on 0, 4, 8, 12
+      if (xl1TracksActive[0] && step % 4 === 0) {
+        playPercussionSound('surdo'); // 909 kick emulation
+      }
+      // Clap on 4, 12
+      if (xl1TracksActive[1] && (step === 4 || step === 12)) {
+        playPercussionSound('timbale'); // sharp clap/snare
+      }
+      // Hi-Hats on 2, 6, 10, 14 (offbeat)
+      if (xl1TracksActive[2] && (step % 2 === 0)) {
+        playPercussionSound('agogo'); // hihat metallic
+      }
+      // TB-303 Acid Bassline
+      if (xl1TracksActive[3] && (step === 0 || step === 3 || step === 6 || step === 10 || step === 13)) {
+        playXl1AcidBass(step);
+      }
+      xl1BeatsStep++;
+    }
+
+    function playXl1AcidBass(step) {
+      try {
+        const ctx = getAudioContext();
+        const now = ctx.currentTime;
+        const osc = ctx.createOscillator();
+        const vcf = ctx.createBiquadFilter();
+        const vca = ctx.createGain();
+
+        const notes = [65.41, 77.78, 65.41, 87.31, 65.41, 98.00];
+        osc.type = 'sawtooth';
+        osc.frequency.setValueAtTime(notes[step % notes.length], now);
+
+        vcf.type = 'lowpass';
+        const cutoff = (xl1Cutoff / 255) * 3500 + 150;
+        vcf.frequency.setValueAtTime(cutoff * 2.5, now);
+        vcf.frequency.exponentialRampToValueAtTime(cutoff, now + 0.12);
+        vcf.Q.value = (xl1Reso / 15) * 14 + 1.0;
+
+        vca.gain.setValueAtTime(0.5, now);
+        vca.gain.exponentialRampToValueAtTime(0.001, now + 0.14);
+
+        osc.connect(vcf);
+        vcf.connect(vca);
+        vca.connect(ctx.destination);
+
+        osc.start(now);
+        osc.stop(now + 0.15);
+      } catch (e) {}
+    }
+
+    function drawXl1ZPlaneCurve() {
+      const canvas = document.getElementById('xl1-zplane-canvas');
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      const w = canvas.width;
+      const h = canvas.height;
+      ctx.clearRect(0, 0, w, h);
+
+      // Grid Lines
+      ctx.strokeStyle = '#1a0b2e';
+      ctx.lineWidth = 1;
+      for (let y = 15; y < h; y += 20) {
+        ctx.beginPath();
+        ctx.moveTo(0, y); ctx.lineTo(w, y);
+        ctx.stroke();
+      }
+
+      // 12-Pole Z-Plane Curve with Morph Peaks
+      const cutNorm = xl1Cutoff / 255;
+      const cutX = cutNorm * (w - 40) + 20;
+      const resoHeight = (xl1Reso / 15) * 45;
+      const morphFactor = xl1Morph / 127;
+
+      ctx.beginPath();
+      ctx.moveTo(0, h * 0.7);
+
+      for (let x = 0; x <= w; x += 3) {
+        let y = h * 0.7;
+        // Peak 1: Cutoff
+        const d1 = Math.abs(x - cutX);
+        if (d1 < 50) {
+          y -= Math.cos((d1 / 50) * Math.PI * 0.5) * resoHeight;
+        }
+        // Peak 2: Formant Morph
+        const morphX = cutX + (morphFactor - 0.5) * 80;
+        const d2 = Math.abs(x - morphX);
+        if (d2 < 35) {
+          y -= Math.cos((d2 / 35) * Math.PI * 0.5) * (resoHeight * 0.75);
+        }
+        // Steep 12-pole roll-off
+        if (x > cutX + 30) {
+          y += Math.pow((x - (cutX + 30)) / (w - cutX), 1.8) * 45;
+        }
+        y = Math.max(10, Math.min(h - 5, y));
+        ctx.lineTo(x, y);
+      }
+
+      // Neon Gradient Fill
+      const grad = ctx.createLinearGradient(0, 0, 0, h);
+      grad.addColorStop(0, '#00f0ff88');
+      grad.addColorStop(0.5, '#a855f744');
+      grad.addColorStop(1, '#00000000');
+      ctx.fillStyle = grad;
+      ctx.lineTo(w, h);
+      ctx.lineTo(0, h);
+      ctx.closePath();
+      ctx.fill();
+
+      // Stroke Neon Line
+      ctx.strokeStyle = '#00f0ff';
+      ctx.lineWidth = 2.5;
+      ctx.stroke();
+    }
+
+    function transmitXl1Param(paramId, val, label) {
+      const numVal = parseInt(val);
+      // E-MU XL-1: F0 18 0F 00 55 01 02 <p_lsb> <p_msb> <v_lsb> <v_msb> F7
+      const pLsb = (paramId & 0x7F).toString(16).toUpperCase().padStart(2, '0');
+      const pMsb = ((paramId >> 7) & 0x7F).toString(16).toUpperCase().padStart(2, '0');
+      const vLsb = (numVal & 0x7F).toString(16).toUpperCase().padStart(2, '0');
+      const vMsb = ((numVal >> 7) & 0x7F).toString(16).toUpperCase().padStart(2, '0');
+
+      const hexStr = 'F0 18 0F 00 55 01 02 ' + pLsb + ' ' + pMsb + ' ' + vLsb + ' ' + vMsb + ' F7';
+      const hexDisplay = document.getElementById('xl1-sysex-hex');
+      const explDisplay = document.getElementById('xl1-sysex-expl');
+      if (hexDisplay && explDisplay) {
+        hexDisplay.innerText = hexStr;
+        explDisplay.innerText = '[SysEx XL-1: ' + label + ' = ' + numVal + ' (Param 0x' + paramId.toString(16).toUpperCase().padStart(4, '0') + ')]';
+      }
+    }
+
+    function auditionXl1() {
+      try {
+        const ctx = getAudioContext();
+        const now = ctx.currentTime;
+
+        // Trance SuperSaw Lead + 909 Kick
+        playPercussionSound('surdo'); // 909 kick
+        setTimeout(() => playPercussionSound('timbale'), 220); // snare
+
+        const osc1 = ctx.createOscillator();
+        const osc2 = ctx.createOscillator();
+        const osc3 = ctx.createOscillator();
+        const vcf = ctx.createBiquadFilter();
+        const vca = ctx.createGain();
+
+        osc1.type = 'sawtooth'; osc1.frequency.setValueAtTime(440, now); // A4
+        osc2.type = 'sawtooth'; osc2.frequency.setValueAtTime(442.2, now); // Detune +
+        osc3.type = 'sawtooth'; osc3.frequency.setValueAtTime(437.8, now); // Detune -
+
+        vcf.type = 'lowpass';
+        const cutoff = (xl1Cutoff / 255) * 5500 + 300;
+        vcf.frequency.setValueAtTime(cutoff, now);
+        vcf.frequency.exponentialRampToValueAtTime(cutoff * 1.6, now + 0.15);
+        vcf.frequency.exponentialRampToValueAtTime(cutoff, now + 0.8);
+        vcf.Q.value = (xl1Reso / 15) * 12 + 1;
+
+        vca.gain.setValueAtTime(0.001, now);
+        vca.gain.linearRampToValueAtTime(0.65, now + 0.05);
+        vca.gain.exponentialRampToValueAtTime(0.001, now + 0.85);
+
+        osc1.connect(vcf); osc2.connect(vcf); osc3.connect(vcf);
+        vcf.connect(vca);
+        vca.connect(ctx.destination);
+
+        osc1.start(now); osc2.start(now); osc3.start(now);
+        osc1.stop(now + 0.9); osc2.stop(now + 0.9); osc3.stop(now + 0.9);
+      } catch (e) {}
+
+      const hexDisplay = document.getElementById('xl1-sysex-hex');
+      const explDisplay = document.getElementById('xl1-sysex-expl');
+      if (hexDisplay && explDisplay) {
+        hexDisplay.innerText = '90 45 7F  90 48 78  90 4C 72 (A Minor SuperSaw Rave Chord)';
+        explDisplay.innerText = '[Audition: 64-Voice X-Lead SuperSaw + 12-Pole Z-Plane Filter Triggered]';
       }
     }
 
