@@ -220,7 +220,7 @@ fn main() -> Result<()> {
                     ]);
                     println!("Raw SysEx:  {}", msg.to_hex_string().bright_yellow().bold());
                     println!("Parsed Msg: Manufacturer: E-mu Systems (18), Device: Carnaval (0A), Command: Param Edit (01)");
-                } else if device.to_lowercase().contains("audity") || device.to_lowercase().contains("b3") || device.to_lowercase().contains("b-3") || device.to_lowercase().contains("proteus") || device.to_lowercase().contains("xl-1") || device.to_lowercase().contains("xl1") || device.to_lowercase().contains("xtreme") {
+                } else if device.to_lowercase().contains("audity") || device.to_lowercase().contains("b3") || device.to_lowercase().contains("b-3") || device.to_lowercase().contains("proteus") || device.to_lowercase().contains("xl-1") || device.to_lowercase().contains("xl1") || device.to_lowercase().contains("xtreme") || device.to_lowercase().contains("xl-7") || device.to_lowercase().contains("xl7") || device.to_lowercase().contains("command") {
                     let pid: u16 = if param_id.starts_with("0x") {
                         u16::from_str_radix(&param_id[2..], 16).unwrap_or(0x0180)
                     } else {
@@ -232,7 +232,7 @@ fn main() -> Result<()> {
                         0xF0, 0x18, 0x0F, 0x00, 0x55, 0x01, 0x02, p_lsb, p_msb, v_lsb, v_msb, 0xF7,
                     ]);
                     println!("Raw SysEx:  {}", msg.to_hex_string().bright_yellow().bold());
-                    println!("Parsed Msg: Manufacturer: E-mu Systems (18), Device: Proteus/B-3/XL-1 Family (0F)");
+                    println!("Parsed Msg: Manufacturer: E-mu Systems (18), Device: Proteus/Command Station Family (0F)");
                 } else if device.to_lowercase().contains("ax60") {
                     let cc: u8 = param_id.parse().unwrap_or(74);
                     println!("AX60 (Tauntek): Real-time parameter transmitted via MIDI CC:");

@@ -137,6 +137,9 @@
         <button onclick="switchView('xl1')" id="nav-xl1" class="px-4 py-1.5 transition text-zinc-400 hover:text-white hover:bg-zinc-800/60 border-b-2 border-transparent">
           E-MU XL-1
         </button>
+        <button onclick="switchView('xl7')" id="nav-xl7" class="px-4 py-1.5 transition text-zinc-400 hover:text-white hover:bg-zinc-800/60 border-b-2 border-transparent">
+          E-MU XL-7
+        </button>
         <button onclick="switchView('librarian')" id="nav-librarian" class="px-4 py-1.5 transition text-zinc-400 hover:text-white hover:bg-zinc-800/60 border-b-2 border-transparent">
           Patch Librarian
         </button>
@@ -422,6 +425,33 @@
             <div class="flex justify-between text-xs font-mono text-zinc-400">
               <span class="text-cyan-400 font-semibold">SuperBEATS: 138 BPM</span>
               <span class="text-purple-400">SysEx (18 0F)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tile: E-MU XL-7 Command Station (Live & Clickable) -->
+        <div onclick="switchView('xl7')" class="md:col-span-2 bg-[#160728] hover:bg-[#200a38] border-l-4 border-[#eab308] p-5 cursor-pointer metro-tile flex flex-col justify-between shadow-lg relative overflow-hidden group">
+          <div class="absolute -right-4 -bottom-4 w-28 h-28 bg-[#eab308]/15 rounded-full blur-xl pointer-events-none"></div>
+          <div>
+            <div class="flex items-center justify-between">
+              <span class="text-xs uppercase tracking-widest text-amber-400 font-semibold">Desktop Command Station</span>
+              <span class="flex items-center gap-1.5 bg-black/40 px-2 py-0.5 text-[11px] text-amber-300">
+                <span class="w-2 h-2 rounded-full bg-amber-400 led-green"></span> Port 9 (Online)
+              </span>
+            </div>
+            <h3 class="text-2xl font-bold text-white mt-3 tracking-tight flex items-baseline gap-2">
+              E-MU XL-7 <span class="text-xs font-normal text-zinc-400 font-mono">(2001)</span>
+            </h3>
+            <p class="text-zinc-400 text-xs mt-1">128 Voices • 16 Pads • 16 Knobs • 16-Track 384 PPQN • 512 Presets</p>
+          </div>
+          <div class="space-y-2 mt-6">
+            <div class="bg-black/50 p-2 text-xs flex justify-between items-center border border-amber-950">
+              <span class="text-zinc-400">Preset:</span>
+              <span class="font-mono text-amber-300 font-bold" id="dashboard-xl7-patch">000 kit:K-0</span>
+            </div>
+            <div class="flex justify-between text-xs font-mono text-zinc-400">
+              <span class="text-lime-400 font-semibold">Command Station: 138 BPM</span>
+              <span class="text-amber-400">SysEx (18 0F 0E)</span>
             </div>
           </div>
         </div>
@@ -3364,6 +3394,567 @@
 
     </section>
 
+    <!-- VIEW: E-MU XL-7 COMMAND STATION (DESKTOP WORKSTATION & SEQUENCER) -->
+    <section id="view-xl7" class="hidden space-y-4">
+
+      <!-- XL-7 Command Station Console Header -->
+      <div class="bg-[#130522] border border-amber-500/40 rounded-sm p-4 shadow-2xl flex flex-col md:flex-row md:items-center justify-between gap-4">
+        <div class="flex items-center gap-4">
+          <!-- Gooseneck BNC Lamp Socket Graphic -->
+          <div class="w-9 h-9 rounded-full bg-[#200e33] border-2 border-zinc-600 flex items-center justify-center shadow-inner relative group" title="12V BNC Gooseneck Lamp Socket">
+            <div class="w-3.5 h-3.5 rounded-full bg-zinc-800 border border-zinc-500"></div>
+            <div class="absolute -top-1 -right-1 w-2.5 h-2.5 rounded-full bg-amber-400 led-green"></div>
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="text-xs font-bold uppercase tracking-wider text-amber-400 bg-amber-950/70 px-2 py-0.5 border border-amber-600/40">E-mu Systems</span>
+              <span class="text-xs font-mono text-lime-400">COMMAND STATION • 128-VOICE WORKSTATION</span>
+            </div>
+            <h2 class="text-2xl font-black text-white tracking-wider flex items-center gap-2 mt-0.5">
+              XL-7 <span class="text-sm font-normal text-amber-400/80 tracking-normal font-sans">Command Station Desktop Sequencer</span>
+            </h2>
+          </div>
+        </div>
+
+        <!-- Hardware Specs & Badges -->
+        <div class="flex items-center gap-3">
+          <div class="text-right font-mono text-[11px] text-zinc-400 hidden sm:block">
+            <div class="text-amber-300 font-bold">128 Voices • 32 MIDI Ch (A/B)</div>
+            <div class="text-zinc-500">384 PPQN • 50 Z-Plane Filters • 4 SIMMs</div>
+          </div>
+          <button onclick="auditionXL7Sound()" class="bg-gradient-to-r from-amber-600 to-lime-600 hover:from-amber-500 hover:to-lime-500 text-black font-bold text-xs px-4 py-2 rounded-sm shadow-lg flex items-center gap-2 transition active:scale-95">
+            <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            AUDITION WORKSTATION
+          </button>
+        </div>
+      </div>
+
+      <!-- Main Slanted Console Layout: 2 Columns (Left: LCD & Knobs & Pads, Right: Z-Plane & Presets) -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-4">
+
+        <!-- Left Column: Console Panel (Display, Transport, 16 Knobs, 16 Pads, 16 Tracks) -->
+        <div class="lg:col-span-8 space-y-4">
+
+          <!-- Upper Console: 2x24 LCD & Master Section -->
+          <div class="bg-[#19092d] border border-purple-950 p-4 shadow-xl rounded-sm">
+            <div class="flex flex-col md:flex-row items-center gap-4 justify-between">
+              
+              <!-- 2x24 High-Contrast Cyan Backlit LCD Display -->
+              <div class="w-full md:w-3/5 bg-[#051c22] border-2 border-zinc-700 p-3 shadow-inner rounded-sm relative overflow-hidden font-mono">
+                <div class="flex justify-between items-center text-[10px] text-cyan-400/80 border-b border-cyan-900/60 pb-1 mb-1.5 uppercase tracking-wider">
+                  <span id="xl7-lcd-bank">U0: XL-7 Bank 0</span>
+                  <span class="text-amber-400">PTN:042 DANCE 138BPM</span>
+                  <span class="text-lime-400">128-VOICE</span>
+                </div>
+                <div class="flex justify-between items-baseline">
+                  <div class="text-lg font-bold text-[#00f0ff] tracking-wide" id="xl7-lcd-preset">000 kit:K-0</div>
+                  <div class="text-xs text-amber-300 font-semibold uppercase" id="xl7-lcd-category">Drum Kit</div>
+                </div>
+                <div class="mt-1 flex justify-between text-[10px] text-cyan-300/80">
+                  <span>TRK: 01 (KICK)</span>
+                  <span id="xl7-lcd-zplane">Z: 12-Pole Z-Plane Lead</span>
+                  <span class="text-lime-300" id="xl7-lcd-status">SEQ: STOPPED</span>
+                </div>
+              </div>
+
+              <!-- Master Volume & Data Dial -->
+              <div class="flex items-center gap-4 w-full md:w-auto justify-end">
+                <div class="text-center">
+                  <div class="text-[10px] font-mono text-zinc-400 uppercase tracking-widest mb-1">Master Vol</div>
+                  <input type="range" min="0" max="127" value="110" class="w-20 accent-amber-500 cursor-pointer" oninput="document.getElementById('xl7-vol-val').innerText = this.value; sendXL7Param('0x0010', this.value);">
+                  <div class="text-[10px] font-mono text-amber-400" id="xl7-vol-val">110</div>
+                </div>
+                <!-- Data Entry Jog Wheel -->
+                <div class="text-center">
+                  <div class="text-[10px] font-mono text-zinc-400 uppercase tracking-widest mb-1">Data Entry</div>
+                  <div class="w-12 h-12 rounded-full bg-gradient-to-br from-zinc-700 to-zinc-900 border-2 border-zinc-600 shadow-lg flex items-center justify-center cursor-pointer active:rotate-12 transition">
+                    <div class="w-3 h-3 rounded-full bg-amber-400"></div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Hardware Transport Console -->
+            <div class="mt-4 pt-3 border-t border-purple-900/50 flex flex-wrap items-center justify-between gap-2">
+              <div class="flex items-center gap-1.5">
+                <button onclick="xl7Transport('rewind')" class="bg-zinc-800 hover:bg-zinc-700 active:scale-95 text-zinc-300 px-3 py-1.5 rounded-sm text-xs font-mono font-bold border border-zinc-600 flex items-center gap-1">
+                  |&lt;&lt; REW
+                </button>
+                <button onclick="xl7Transport('ffwd')" class="bg-zinc-800 hover:bg-zinc-700 active:scale-95 text-zinc-300 px-3 py-1.5 rounded-sm text-xs font-mono font-bold border border-zinc-600 flex items-center gap-1">
+                  &gt;&gt;| FWD
+                </button>
+                <button onclick="xl7Transport('stop')" id="xl7-btn-stop" class="bg-zinc-800 hover:bg-zinc-700 active:scale-95 text-zinc-200 px-3 py-1.5 rounded-sm text-xs font-mono font-bold border border-zinc-600 flex items-center gap-1">
+                  ■ STOP
+                </button>
+                <button onclick="xl7Transport('play')" id="xl7-btn-play" class="bg-emerald-950 hover:bg-emerald-900 text-emerald-400 px-4 py-1.5 rounded-sm text-xs font-mono font-bold border border-emerald-600/60 flex items-center gap-1 active:scale-95 shadow">
+                  <span class="w-2 h-2 rounded-full bg-emerald-500 inline-block mr-1" id="xl7-led-play"></span>
+                  ► PLAY
+                </button>
+                <button onclick="xl7Transport('record')" id="xl7-btn-rec" class="bg-red-950 hover:bg-red-900 text-red-400 px-3 py-1.5 rounded-sm text-xs font-mono font-bold border border-red-700/60 flex items-center gap-1 active:scale-95">
+                  <span class="w-2 h-2 rounded-full bg-red-500 inline-block mr-1"></span>
+                  ● REC
+                </button>
+                <button onclick="xl7TapTempo()" class="bg-amber-950 hover:bg-amber-900 text-amber-300 px-3 py-1.5 rounded-sm text-xs font-mono font-bold border border-amber-600/60 active:scale-95">
+                  TAP TEMPO
+                </button>
+              </div>
+
+              <div class="flex items-center gap-3 font-mono text-xs">
+                <span class="text-zinc-400">TEMPO:</span>
+                <input type="range" min="40" max="240" value="138" class="w-24 accent-amber-500 cursor-pointer" id="xl7-bpm-slider" oninput="document.getElementById('xl7-bpm-display').innerText = this.value + ' BPM'; sendXL7Param('0x0201', this.value);">
+                <span class="text-amber-400 font-bold" id="xl7-bpm-display">138 BPM</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 16 Realtime Controller Knobs (4x4 Matrix) with Quick-Edit Layers -->
+          <div class="bg-[#17082b] border border-purple-900/60 p-4 shadow-xl rounded-sm">
+            <div class="flex justify-between items-center mb-3 border-b border-purple-900/60 pb-2">
+              <div class="flex items-center gap-2">
+                <span class="w-2.5 h-2.5 rounded-full bg-amber-400"></span>
+                <h3 class="text-xs uppercase tracking-widest font-bold text-amber-300">16 Continuous Controller Knobs</h3>
+              </div>
+              <div class="flex gap-1.5 text-[10px] font-mono">
+                <button class="px-2 py-0.5 bg-amber-500 text-black font-bold rounded-xs">LAYER A-D</button>
+                <button class="px-2 py-0.5 bg-zinc-800 text-zinc-400 hover:text-white rounded-xs">LAYER E-H</button>
+                <button class="px-2 py-0.5 bg-zinc-800 text-zinc-400 hover:text-white rounded-xs">LAYER I-L</button>
+                <button class="px-2 py-0.5 bg-zinc-800 text-zinc-400 hover:text-white rounded-xs">LAYER M-P</button>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 text-center">
+              
+              <!-- Knob 1: Cutoff -->
+              <div class="bg-black/40 border border-purple-950 p-2.5 rounded-sm">
+                <div class="text-[10px] font-mono text-cyan-300 uppercase truncate">1. Filter Cutoff</div>
+                <input type="range" min="0" max="255" value="190" class="w-full mt-1.5 accent-cyan-400 cursor-pointer" id="xl7-k1" oninput="updateXL7Knob(1, this.value, '0x0180')">
+                <div class="text-[10px] font-mono text-zinc-400 mt-1 flex justify-between">
+                  <span>0-255</span>
+                  <span class="text-cyan-400 font-bold" id="xl7-k1-val">190</span>
+                </div>
+              </div>
+
+              <!-- Knob 2: Resonance -->
+              <div class="bg-black/40 border border-purple-950 p-2.5 rounded-sm">
+                <div class="text-[10px] font-mono text-cyan-300 uppercase truncate">2. Filter Q / Res</div>
+                <input type="range" min="0" max="255" value="90" class="w-full mt-1.5 accent-cyan-400 cursor-pointer" id="xl7-k2" oninput="updateXL7Knob(2, this.value, '0x0181')">
+                <div class="text-[10px] font-mono text-zinc-400 mt-1 flex justify-between">
+                  <span>0-255</span>
+                  <span class="text-cyan-400 font-bold" id="xl7-k2-val">90</span>
+                </div>
+              </div>
+
+              <!-- Knob 3: Filter Attack -->
+              <div class="bg-black/40 border border-purple-950 p-2.5 rounded-sm">
+                <div class="text-[10px] font-mono text-cyan-300 uppercase truncate">3. Filter Attack</div>
+                <input type="range" min="0" max="100" value="4" class="w-full mt-1.5 accent-cyan-400 cursor-pointer" id="xl7-k3" oninput="updateXL7Knob(3, this.value, '0x0188')">
+                <div class="text-[10px] font-mono text-zinc-400 mt-1 flex justify-between">
+                  <span>0-100%</span>
+                  <span class="text-cyan-400 font-bold" id="xl7-k3-val">4%</span>
+                </div>
+              </div>
+
+              <!-- Knob 4: Filter Decay -->
+              <div class="bg-black/40 border border-purple-950 p-2.5 rounded-sm">
+                <div class="text-[10px] font-mono text-cyan-300 uppercase truncate">4. Filter Decay</div>
+                <input type="range" min="0" max="100" value="65" class="w-full mt-1.5 accent-cyan-400 cursor-pointer" id="xl7-k4" oninput="updateXL7Knob(4, this.value, '0x0189')">
+                <div class="text-[10px] font-mono text-zinc-400 mt-1 flex justify-between">
+                  <span>0-100%</span>
+                  <span class="text-cyan-400 font-bold" id="xl7-k4-val">65%</span>
+                </div>
+              </div>
+
+              <!-- Knob 5: Amp Attack -->
+              <div class="bg-black/40 border border-purple-950 p-2.5 rounded-sm">
+                <div class="text-[10px] font-mono text-lime-300 uppercase truncate">5. Amp Attack</div>
+                <input type="range" min="0" max="100" value="0" class="w-full mt-1.5 accent-lime-400 cursor-pointer" id="xl7-k5" oninput="updateXL7Knob(5, this.value, '0x0120')">
+                <div class="text-[10px] font-mono text-zinc-400 mt-1 flex justify-between">
+                  <span>0-100%</span>
+                  <span class="text-lime-400 font-bold" id="xl7-k5-val">0%</span>
+                </div>
+              </div>
+
+              <!-- Knob 6: Amp Decay -->
+              <div class="bg-black/40 border border-purple-950 p-2.5 rounded-sm">
+                <div class="text-[10px] font-mono text-lime-300 uppercase truncate">6. Amp Decay</div>
+                <input type="range" min="0" max="100" value="45" class="w-full mt-1.5 accent-lime-400 cursor-pointer" id="xl7-k6" oninput="updateXL7Knob(6, this.value, '0x0121')">
+                <div class="text-[10px] font-mono text-zinc-400 mt-1 flex justify-between">
+                  <span>0-100%</span>
+                  <span class="text-lime-400 font-bold" id="xl7-k6-val">45%</span>
+                </div>
+              </div>
+
+              <!-- Knob 7: Amp Sustain -->
+              <div class="bg-black/40 border border-purple-950 p-2.5 rounded-sm">
+                <div class="text-[10px] font-mono text-lime-300 uppercase truncate">7. Amp Sustain</div>
+                <input type="range" min="0" max="100" value="75" class="w-full mt-1.5 accent-lime-400 cursor-pointer" id="xl7-k7" oninput="updateXL7Knob(7, this.value, '0x0122')">
+                <div class="text-[10px] font-mono text-zinc-400 mt-1 flex justify-between">
+                  <span>0-100%</span>
+                  <span class="text-lime-400 font-bold" id="xl7-k7-val">75%</span>
+                </div>
+              </div>
+
+              <!-- Knob 8: Amp Release -->
+              <div class="bg-black/40 border border-purple-950 p-2.5 rounded-sm">
+                <div class="text-[10px] font-mono text-lime-300 uppercase truncate">8. Amp Release</div>
+                <input type="range" min="0" max="100" value="35" class="w-full mt-1.5 accent-lime-400 cursor-pointer" id="xl7-k8" oninput="updateXL7Knob(8, this.value, '0x0123')">
+                <div class="text-[10px] font-mono text-zinc-400 mt-1 flex justify-between">
+                  <span>0-100%</span>
+                  <span class="text-lime-400 font-bold" id="xl7-k8-val">35%</span>
+                </div>
+              </div>
+
+              <!-- Knob 9: Velocity -> Amp -->
+              <div class="bg-black/40 border border-purple-950 p-2.5 rounded-sm">
+                <div class="text-[10px] font-mono text-amber-300 uppercase truncate">9. Vel -&gt; Amp</div>
+                <input type="range" min="0" max="100" value="65" class="w-full mt-1.5 accent-amber-400 cursor-pointer" id="xl7-k9" oninput="updateXL7Knob(9, this.value, '0x0128')">
+                <div class="text-[10px] font-mono text-zinc-400 mt-1 flex justify-between">
+                  <span>0-100%</span>
+                  <span class="text-amber-400 font-bold" id="xl7-k9-val">65%</span>
+                </div>
+              </div>
+
+              <!-- Knob 10: Velocity -> Filter -->
+              <div class="bg-black/40 border border-purple-950 p-2.5 rounded-sm">
+                <div class="text-[10px] font-mono text-amber-300 uppercase truncate">10. Vel -&gt; Filter</div>
+                <input type="range" min="0" max="100" value="55" class="w-full mt-1.5 accent-amber-400 cursor-pointer" id="xl7-k10" oninput="updateXL7Knob(10, this.value, '0x018C')">
+                <div class="text-[10px] font-mono text-zinc-400 mt-1 flex justify-between">
+                  <span>0-100%</span>
+                  <span class="text-amber-400 font-bold" id="xl7-k10-val">55%</span>
+                </div>
+              </div>
+
+              <!-- Knob 11: LFO 2 Amount -->
+              <div class="bg-black/40 border border-purple-950 p-2.5 rounded-sm">
+                <div class="text-[10px] font-mono text-amber-300 uppercase truncate">11. LFO 2 Amount</div>
+                <input type="range" min="0" max="100" value="25" class="w-full mt-1.5 accent-amber-400 cursor-pointer" id="xl7-k11" oninput="updateXL7Knob(11, this.value, '0x0161')">
+                <div class="text-[10px] font-mono text-zinc-400 mt-1 flex justify-between">
+                  <span>0-100%</span>
+                  <span class="text-amber-400 font-bold" id="xl7-k11-val">25%</span>
+                </div>
+              </div>
+
+              <!-- Knob 12: LFO 2 Rate -->
+              <div class="bg-black/40 border border-purple-950 p-2.5 rounded-sm">
+                <div class="text-[10px] font-mono text-amber-300 uppercase truncate">12. LFO 2 Rate</div>
+                <input type="range" min="0" max="127" value="50" class="w-full mt-1.5 accent-amber-400 cursor-pointer" id="xl7-k12" oninput="updateXL7Knob(12, this.value, '0x0160')">
+                <div class="text-[10px] font-mono text-zinc-400 mt-1 flex justify-between">
+                  <span>0-127</span>
+                  <span class="text-amber-400 font-bold" id="xl7-k12-val">50</span>
+                </div>
+              </div>
+
+              <!-- Knob 13: Aux Mod 1 -->
+              <div class="bg-black/40 border border-purple-950 p-2.5 rounded-sm">
+                <div class="text-[10px] font-mono text-purple-300 uppercase truncate">13. Aux Mod 1</div>
+                <input type="range" min="0" max="127" value="64" class="w-full mt-1.5 accent-purple-400 cursor-pointer" id="xl7-k13" oninput="updateXL7Knob(13, this.value, '0x019A')">
+                <div class="text-[10px] font-mono text-zinc-400 mt-1 flex justify-between">
+                  <span>0-127</span>
+                  <span class="text-purple-400 font-bold" id="xl7-k13-val">64</span>
+                </div>
+              </div>
+
+              <!-- Knob 14: Aux Mod 2 -->
+              <div class="bg-black/40 border border-purple-950 p-2.5 rounded-sm">
+                <div class="text-[10px] font-mono text-purple-300 uppercase truncate">14. Aux Mod 2</div>
+                <input type="range" min="0" max="127" value="64" class="w-full mt-1.5 accent-purple-400 cursor-pointer" id="xl7-k14" oninput="updateXL7Knob(14, this.value, '0x019B')">
+                <div class="text-[10px] font-mono text-zinc-400 mt-1 flex justify-between">
+                  <span>0-127</span>
+                  <span class="text-purple-400 font-bold" id="xl7-k14-val">64</span>
+                </div>
+              </div>
+
+              <!-- Knob 15: FX Send 1 -->
+              <div class="bg-black/40 border border-purple-950 p-2.5 rounded-sm">
+                <div class="text-[10px] font-mono text-purple-300 uppercase truncate">15. FX Send 1</div>
+                <input type="range" min="0" max="100" value="30" class="w-full mt-1.5 accent-purple-400 cursor-pointer" id="xl7-k15" oninput="updateXL7Knob(15, this.value, '0x01E0')">
+                <div class="text-[10px] font-mono text-zinc-400 mt-1 flex justify-between">
+                  <span>0-100%</span>
+                  <span class="text-purple-400 font-bold" id="xl7-k15-val">30%</span>
+                </div>
+              </div>
+
+              <!-- Knob 16: FX Send 2 -->
+              <div class="bg-black/40 border border-purple-950 p-2.5 rounded-sm">
+                <div class="text-[10px] font-mono text-purple-300 uppercase truncate">16. FX Send 2</div>
+                <input type="range" min="0" max="100" value="20" class="w-full mt-1.5 accent-purple-400 cursor-pointer" id="xl7-k16" oninput="updateXL7Knob(16, this.value, '0x01E1')">
+                <div class="text-[10px] font-mono text-zinc-400 mt-1 flex justify-between">
+                  <span>0-100%</span>
+                  <span class="text-purple-400 font-bold" id="xl7-k16-val">20%</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- 16 Dynamic Velocity & Pressure Trigger Pads (4x4 Matrix) -->
+          <div class="bg-[#18082e] border border-amber-600/50 p-4 shadow-xl rounded-sm">
+            <div class="flex justify-between items-center mb-3 border-b border-purple-900/60 pb-2">
+              <div class="flex items-center gap-2">
+                <span class="w-2.5 h-2.5 rounded-full bg-lime-400 led-green"></span>
+                <h3 class="text-xs uppercase tracking-widest font-bold text-amber-300">16 Dynamic Velocity & Pressure Sensitive Pads</h3>
+              </div>
+              <div class="flex items-center gap-2 text-[10px] font-mono">
+                <span class="text-zinc-400">VELOCITY:</span>
+                <button onclick="setXL7PadVel(64)" class="px-2 py-0.5 bg-zinc-800 text-zinc-300 rounded-xs hover:bg-zinc-700">MED (64)</button>
+                <button onclick="setXL7PadVel(100)" class="px-2 py-0.5 bg-zinc-800 text-zinc-300 rounded-xs hover:bg-zinc-700">HARD (100)</button>
+                <button onclick="setXL7PadVel(127)" class="px-2 py-0.5 bg-amber-500 text-black font-bold rounded-xs">FULL (127)</button>
+              </div>
+            </div>
+
+            <!-- 4x4 Grid of Tactile Backlit Pads -->
+            <div class="grid grid-cols-4 gap-2.5">
+              
+              <!-- Row 1: Drums 1-4 -->
+              <button onclick="triggerXL7Pad(1, 'kick1')" id="xl7-pad-1" class="h-16 bg-[#250d3b] hover:bg-[#381457] active:bg-amber-400 active:text-black border-2 border-purple-800/80 rounded-sm p-1.5 flex flex-col justify-between text-left transition shadow group">
+                <div class="flex justify-between items-center text-[10px] font-mono text-purple-300 group-hover:text-amber-300">
+                  <span>01</span>
+                  <span class="text-[9px] text-zinc-400">C1</span>
+                </div>
+                <div class="text-xs font-bold text-white group-hover:text-amber-200">KICK 1</div>
+              </button>
+
+              <button onclick="triggerXL7Pad(2, 'kick2')" id="xl7-pad-2" class="h-16 bg-[#250d3b] hover:bg-[#381457] active:bg-amber-400 active:text-black border-2 border-purple-800/80 rounded-sm p-1.5 flex flex-col justify-between text-left transition shadow group">
+                <div class="flex justify-between items-center text-[10px] font-mono text-purple-300 group-hover:text-amber-300">
+                  <span>02</span>
+                  <span class="text-[9px] text-zinc-400">C#1</span>
+                </div>
+                <div class="text-xs font-bold text-white group-hover:text-amber-200">KICK 2</div>
+              </button>
+
+              <button onclick="triggerXL7Pad(3, 'snare1')" id="xl7-pad-3" class="h-16 bg-[#250d3b] hover:bg-[#381457] active:bg-amber-400 active:text-black border-2 border-purple-800/80 rounded-sm p-1.5 flex flex-col justify-between text-left transition shadow group">
+                <div class="flex justify-between items-center text-[10px] font-mono text-purple-300 group-hover:text-amber-300">
+                  <span>03</span>
+                  <span class="text-[9px] text-zinc-400">D1</span>
+                </div>
+                <div class="text-xs font-bold text-white group-hover:text-amber-200">SNARE 1</div>
+              </button>
+
+              <button onclick="triggerXL7Pad(4, 'snare2')" id="xl7-pad-4" class="h-16 bg-[#250d3b] hover:bg-[#381457] active:bg-amber-400 active:text-black border-2 border-purple-800/80 rounded-sm p-1.5 flex flex-col justify-between text-left transition shadow group">
+                <div class="flex justify-between items-center text-[10px] font-mono text-purple-300 group-hover:text-amber-300">
+                  <span>04</span>
+                  <span class="text-[9px] text-zinc-400">D#1</span>
+                </div>
+                <div class="text-xs font-bold text-white group-hover:text-amber-200">SNARE 2</div>
+              </button>
+
+              <!-- Row 2: Percussion 5-8 -->
+              <button onclick="triggerXL7Pad(5, 'claps')" id="xl7-pad-5" class="h-16 bg-[#250d3b] hover:bg-[#381457] active:bg-amber-400 active:text-black border-2 border-purple-800/80 rounded-sm p-1.5 flex flex-col justify-between text-left transition shadow group">
+                <div class="flex justify-between items-center text-[10px] font-mono text-purple-300 group-hover:text-amber-300">
+                  <span>05</span>
+                  <span class="text-[9px] text-zinc-400">E1</span>
+                </div>
+                <div class="text-xs font-bold text-white group-hover:text-amber-200">CLAPS</div>
+              </button>
+
+              <button onclick="triggerXL7Pad(6, 'hihat_cl')" id="xl7-pad-6" class="h-16 bg-[#250d3b] hover:bg-[#381457] active:bg-amber-400 active:text-black border-2 border-purple-800/80 rounded-sm p-1.5 flex flex-col justify-between text-left transition shadow group">
+                <div class="flex justify-between items-center text-[10px] font-mono text-purple-300 group-hover:text-amber-300">
+                  <span>06</span>
+                  <span class="text-[9px] text-zinc-400">F1</span>
+                </div>
+                <div class="text-xs font-bold text-white group-hover:text-amber-200">HIHAT CL</div>
+              </button>
+
+              <button onclick="triggerXL7Pad(7, 'hihat_op')" id="xl7-pad-7" class="h-16 bg-[#250d3b] hover:bg-[#381457] active:bg-amber-400 active:text-black border-2 border-purple-800/80 rounded-sm p-1.5 flex flex-col justify-between text-left transition shadow group">
+                <div class="flex justify-between items-center text-[10px] font-mono text-purple-300 group-hover:text-amber-300">
+                  <span>07</span>
+                  <span class="text-[9px] text-zinc-400">F#1</span>
+                </div>
+                <div class="text-xs font-bold text-white group-hover:text-amber-200">HIHAT OP</div>
+              </button>
+
+              <button onclick="triggerXL7Pad(8, 'perc')" id="xl7-pad-8" class="h-16 bg-[#250d3b] hover:bg-[#381457] active:bg-amber-400 active:text-black border-2 border-purple-800/80 rounded-sm p-1.5 flex flex-col justify-between text-left transition shadow group">
+                <div class="flex justify-between items-center text-[10px] font-mono text-purple-300 group-hover:text-amber-300">
+                  <span>08</span>
+                  <span class="text-[9px] text-zinc-400">G1</span>
+                </div>
+                <div class="text-xs font-bold text-white group-hover:text-amber-200">PERCUSSION</div>
+              </button>
+
+              <!-- Row 3: Bass & Low Synths 9-12 -->
+              <button onclick="triggerXL7Pad(9, 'bass1')" id="xl7-pad-9" class="h-16 bg-[#2b1043] hover:bg-[#401963] active:bg-lime-400 active:text-black border-2 border-lime-700/60 rounded-sm p-1.5 flex flex-col justify-between text-left transition shadow group">
+                <div class="flex justify-between items-center text-[10px] font-mono text-lime-300 group-hover:text-lime-200">
+                  <span>09</span>
+                  <span class="text-[9px] text-zinc-400">G#1</span>
+                </div>
+                <div class="text-xs font-bold text-white group-hover:text-lime-200">SUB BASS</div>
+              </button>
+
+              <button onclick="triggerXL7Pad(10, 'bass2')" id="xl7-pad-10" class="h-16 bg-[#2b1043] hover:bg-[#401963] active:bg-lime-400 active:text-black border-2 border-lime-700/60 rounded-sm p-1.5 flex flex-col justify-between text-left transition shadow group">
+                <div class="flex justify-between items-center text-[10px] font-mono text-lime-300 group-hover:text-lime-200">
+                  <span>10</span>
+                  <span class="text-[9px] text-zinc-400">A1</span>
+                </div>
+                <div class="text-xs font-bold text-white group-hover:text-lime-200">ACID 303</div>
+              </button>
+
+              <button onclick="triggerXL7Pad(11, 'lead1')" id="xl7-pad-11" class="h-16 bg-[#231542] hover:bg-[#341f62] active:bg-cyan-400 active:text-black border-2 border-cyan-700/60 rounded-sm p-1.5 flex flex-col justify-between text-left transition shadow group">
+                <div class="flex justify-between items-center text-[10px] font-mono text-cyan-300 group-hover:text-cyan-200">
+                  <span>11</span>
+                  <span class="text-[9px] text-zinc-400">A#1</span>
+                </div>
+                <div class="text-xs font-bold text-white group-hover:text-cyan-200">X-LEAD 1</div>
+              </button>
+
+              <button onclick="triggerXL7Pad(12, 'lead2')" id="xl7-pad-12" class="h-16 bg-[#231542] hover:bg-[#341f62] active:bg-cyan-400 active:text-black border-2 border-cyan-700/60 rounded-sm p-1.5 flex flex-col justify-between text-left transition shadow group">
+                <div class="flex justify-between items-center text-[10px] font-mono text-cyan-300 group-hover:text-cyan-200">
+                  <span>12</span>
+                  <span class="text-[9px] text-zinc-400">B1</span>
+                </div>
+                <div class="text-xs font-bold text-white group-hover:text-cyan-200">RAVER LEAD</div>
+              </button>
+
+              <!-- Row 4: Synths, Stabs & FX 13-16 -->
+              <button onclick="triggerXL7Pad(13, 'stab1')" id="xl7-pad-13" class="h-16 bg-[#231542] hover:bg-[#341f62] active:bg-cyan-400 active:text-black border-2 border-cyan-700/60 rounded-sm p-1.5 flex flex-col justify-between text-left transition shadow group">
+                <div class="flex justify-between items-center text-[10px] font-mono text-cyan-300 group-hover:text-cyan-200">
+                  <span>13</span>
+                  <span class="text-[9px] text-zinc-400">C2</span>
+                </div>
+                <div class="text-xs font-bold text-white group-hover:text-cyan-200">DANCE STAB</div>
+              </button>
+
+              <button onclick="triggerXL7Pad(14, 'stab2')" id="xl7-pad-14" class="h-16 bg-[#231542] hover:bg-[#341f62] active:bg-cyan-400 active:text-black border-2 border-cyan-700/60 rounded-sm p-1.5 flex flex-col justify-between text-left transition shadow group">
+                <div class="flex justify-between items-center text-[10px] font-mono text-cyan-300 group-hover:text-cyan-200">
+                  <span>14</span>
+                  <span class="text-[9px] text-zinc-400">C#2</span>
+                </div>
+                <div class="text-xs font-bold text-white group-hover:text-cyan-200">ORiON SYN</div>
+              </button>
+
+              <button onclick="triggerXL7Pad(15, 'fx1')" id="xl7-pad-15" class="h-16 bg-[#331139] hover:bg-[#4d1857] active:bg-amber-400 active:text-black border-2 border-amber-700/60 rounded-sm p-1.5 flex flex-col justify-between text-left transition shadow group">
+                <div class="flex justify-between items-center text-[10px] font-mono text-amber-300 group-hover:text-amber-200">
+                  <span>15</span>
+                  <span class="text-[9px] text-zinc-400">D2</span>
+                </div>
+                <div class="text-xs font-bold text-white group-hover:text-amber-200">LASER FX</div>
+              </button>
+
+              <button onclick="triggerXL7Pad(16, 'fx2')" id="xl7-pad-16" class="h-16 bg-[#331139] hover:bg-[#4d1857] active:bg-amber-400 active:text-black border-2 border-amber-700/60 rounded-sm p-1.5 flex flex-col justify-between text-left transition shadow group">
+                <div class="flex justify-between items-center text-[10px] font-mono text-amber-300 group-hover:text-amber-200">
+                  <span>16</span>
+                  <span class="text-[9px] text-zinc-400">D#2</span>
+                </div>
+                <div class="text-xs font-bold text-white group-hover:text-amber-200">NOISE RISER</div>
+              </button>
+
+            </div>
+          </div>
+
+          <!-- 16 Dedicated Track Enable / Mute Buttons -->
+          <div class="bg-[#140624] border border-purple-950 p-3 rounded-sm shadow-xl">
+            <div class="flex justify-between items-center mb-2">
+              <span class="text-[11px] font-mono text-zinc-400 uppercase tracking-wider font-bold">16 Track Enable / Mute Grid</span>
+              <span class="text-[10px] font-mono text-lime-400">ALL TRACKS ACTIVE (CLICK TO MUTE)</span>
+            </div>
+            <div class="grid grid-cols-8 sm:grid-cols-16 gap-1.5 text-center font-mono">
+              <!-- Tracks 1 to 16 -->
+              <div id="xl7-trk-wrap-1"><button onclick="toggleXL7Track(1)" id="xl7-trk-1" class="w-full py-1.5 bg-emerald-950 border border-emerald-500/60 text-emerald-300 text-[10px] font-bold rounded-xs shadow">01</button></div>
+              <div id="xl7-trk-wrap-2"><button onclick="toggleXL7Track(2)" id="xl7-trk-2" class="w-full py-1.5 bg-emerald-950 border border-emerald-500/60 text-emerald-300 text-[10px] font-bold rounded-xs shadow">02</button></div>
+              <div id="xl7-trk-wrap-3"><button onclick="toggleXL7Track(3)" id="xl7-trk-3" class="w-full py-1.5 bg-emerald-950 border border-emerald-500/60 text-emerald-300 text-[10px] font-bold rounded-xs shadow">03</button></div>
+              <div id="xl7-trk-wrap-4"><button onclick="toggleXL7Track(4)" id="xl7-trk-4" class="w-full py-1.5 bg-emerald-950 border border-emerald-500/60 text-emerald-300 text-[10px] font-bold rounded-xs shadow">04</button></div>
+              <div id="xl7-trk-wrap-5"><button onclick="toggleXL7Track(5)" id="xl7-trk-5" class="w-full py-1.5 bg-emerald-950 border border-emerald-500/60 text-emerald-300 text-[10px] font-bold rounded-xs shadow">05</button></div>
+              <div id="xl7-trk-wrap-6"><button onclick="toggleXL7Track(6)" id="xl7-trk-6" class="w-full py-1.5 bg-emerald-950 border border-emerald-500/60 text-emerald-300 text-[10px] font-bold rounded-xs shadow">06</button></div>
+              <div id="xl7-trk-wrap-7"><button onclick="toggleXL7Track(7)" id="xl7-trk-7" class="w-full py-1.5 bg-emerald-950 border border-emerald-500/60 text-emerald-300 text-[10px] font-bold rounded-xs shadow">07</button></div>
+              <div id="xl7-trk-wrap-8"><button onclick="toggleXL7Track(8)" id="xl7-trk-8" class="w-full py-1.5 bg-emerald-950 border border-emerald-500/60 text-emerald-300 text-[10px] font-bold rounded-xs shadow">08</button></div>
+              <div id="xl7-trk-wrap-9"><button onclick="toggleXL7Track(9)" id="xl7-trk-9" class="w-full py-1.5 bg-emerald-950 border border-emerald-500/60 text-emerald-300 text-[10px] font-bold rounded-xs shadow">09</button></div>
+              <div id="xl7-trk-wrap-10"><button onclick="toggleXL7Track(10)" id="xl7-trk-10" class="w-full py-1.5 bg-emerald-950 border border-emerald-500/60 text-emerald-300 text-[10px] font-bold rounded-xs shadow">10</button></div>
+              <div id="xl7-trk-wrap-11"><button onclick="toggleXL7Track(11)" id="xl7-trk-11" class="w-full py-1.5 bg-emerald-950 border border-emerald-500/60 text-emerald-300 text-[10px] font-bold rounded-xs shadow">11</button></div>
+              <div id="xl7-trk-wrap-12"><button onclick="toggleXL7Track(12)" id="xl7-trk-12" class="w-full py-1.5 bg-emerald-950 border border-emerald-500/60 text-emerald-300 text-[10px] font-bold rounded-xs shadow">12</button></div>
+              <div id="xl7-trk-wrap-13"><button onclick="toggleXL7Track(13)" id="xl7-trk-13" class="w-full py-1.5 bg-emerald-950 border border-emerald-500/60 text-emerald-300 text-[10px] font-bold rounded-xs shadow">13</button></div>
+              <div id="xl7-trk-wrap-14"><button onclick="toggleXL7Track(14)" id="xl7-trk-14" class="w-full py-1.5 bg-emerald-950 border border-emerald-500/60 text-emerald-300 text-[10px] font-bold rounded-xs shadow">14</button></div>
+              <div id="xl7-trk-wrap-15"><button onclick="toggleXL7Track(15)" id="xl7-trk-15" class="w-full py-1.5 bg-emerald-950 border border-emerald-500/60 text-emerald-300 text-[10px] font-bold rounded-xs shadow">15</button></div>
+              <div id="xl7-trk-wrap-16"><button onclick="toggleXL7Track(16)" id="xl7-trk-16" class="w-full py-1.5 bg-emerald-950 border border-emerald-500/60 text-emerald-300 text-[10px] font-bold rounded-xs shadow">16</button></div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Column: 50 Z-Plane Filter Visualizer & 512 Preset Explorer -->
+        <div class="lg:col-span-4 space-y-4">
+
+          <!-- 50 12-Pole Z-Plane Morphing Filter Curve Canvas -->
+          <div class="bg-[#18082e] border border-cyan-800/60 p-4 shadow-xl rounded-sm">
+            <div class="flex justify-between items-center mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider text-cyan-400 font-mono">Z-Plane Morphing Filter</span>
+              <span class="text-[10px] font-mono text-zinc-400">50 MODELS</span>
+            </div>
+            
+            <select id="xl7-zplane-model" class="w-full bg-black/60 border border-cyan-900/60 text-cyan-300 font-mono text-xs px-2.5 py-1.5 rounded-sm mb-2" onchange="drawXL7ZPlane(parseInt(this.value)); sendXL7Param('0x0183', this.value);">
+              <option value="0">00: 12-Pole Swept Lowpass</option>
+              <option value="1">01: Acid TB-303 Lowpass Q</option>
+              <option value="2">02: Dual Peak Vocal Formant A-E-I-O-U</option>
+              <option value="3">03: Techno Highpass 24dB</option>
+              <option value="4">04: Bandpass Swept Morph</option>
+              <option value="5">05: Resonant Comb Flange</option>
+              <option value="12" selected>12: Extreme Lead 12-Pole Z-Plane</option>
+              <option value="16">16: Phazer Morph 8-Stage</option>
+              <option value="20">20: Vocal Ah-Oh Formant</option>
+              <option value="25">25: Distorted Lowpass 18dB</option>
+              <option value="30">30: Notch Shift Morph</option>
+              <option value="49">49: Bottom End Sub Boost</option>
+            </select>
+
+            <div class="relative bg-[#061219] border border-cyan-950 rounded-sm p-1 shadow-inner">
+              <canvas id="xl7-zplane-canvas" width="360" height="150" class="w-full h-[150px] block"></canvas>
+            </div>
+            <div class="flex justify-between text-[10px] font-mono text-zinc-400 mt-1.5">
+              <span>20 Hz</span>
+              <span class="text-cyan-400" id="xl7-filter-readout">Cutoff: 190 | Q: 90</span>
+              <span>20 kHz</span>
+            </div>
+          </div>
+
+          <!-- 512 Preset Bank Explorer -->
+          <div class="bg-[#18082e] border border-purple-900/60 p-4 shadow-xl rounded-sm">
+            <div class="flex justify-between items-center mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider text-amber-300 font-mono">512 Factory Presets</span>
+              <span class="text-[10px] font-mono text-zinc-400">4 BANKS x 128</span>
+            </div>
+
+            <div class="space-y-2">
+              <div>
+                <label class="text-[10px] font-mono text-zinc-400 uppercase">Bank Selection</label>
+                <select id="xl7-bank-select" class="w-full bg-black/60 border border-purple-900/60 text-amber-300 font-mono text-xs px-2.5 py-1.5 rounded-sm" onchange="populateXL7Presets(this.value)">
+                  <option value="User Bank 0 / XL-7 Bank 0">Bank 0: Kits, Percussion & Hits</option>
+                  <option value="User Bank 1 / XL-7 Bank 1">Bank 1: Synths, Leads & Pads</option>
+                  <option value="User Bank 2 / XL-7 Bank 2">Bank 2: Basses, Edges, Walls & FX</option>
+                  <option value="User Bank 3 / XL-7 Bank 3">Bank 3: Arps, BPM Clocks, Air & Vocals</option>
+                </select>
+              </div>
+
+              <div>
+                <input type="text" id="xl7-preset-search" placeholder="Filter presets (e.g. kit, bas, syn)..." class="w-full bg-black/60 border border-purple-950 text-white font-mono text-xs px-2.5 py-1.5 rounded-sm" oninput="filterXL7Presets(this.value)">
+              </div>
+
+              <div class="max-h-56 overflow-y-auto space-y-1 pr-1 font-mono text-xs" id="xl7-preset-list">
+                <!-- Injected via JavaScript -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Proteus Command Station SysEx Stream Inspector -->
+          <div class="bg-[#140624] border border-amber-950 p-3 rounded-sm shadow-xl font-mono text-xs">
+            <div class="flex justify-between items-center text-[10px] text-zinc-400 mb-1 border-b border-amber-950 pb-1">
+              <span class="text-amber-400 font-bold uppercase">SysEx Monitor (Proteus 14-Bit)</span>
+              <span class="text-lime-400">ONLINE</span>
+            </div>
+            <div class="bg-black/70 p-2 text-amber-300 text-[11px] break-all border border-amber-950 rounded-xs" id="xl7-sysex-hex">
+              F0 18 0F 00 55 01 02 00 03 3E 01 F7
+            </div>
+            <div class="text-[10px] text-zinc-400 mt-1.5 flex justify-between">
+              <span id="xl7-sysex-expl">[Param Edit: Cutoff = 190 (LSB: 3E, MSB: 01)]</span>
+              <span class="text-cyan-400">Dev ID: 00</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
     <!-- VIEW 3: LIBRARIAN & BANK MANAGER -->
     <section id="view-librarian" class="hidden space-y-4">
       <div class="flex items-baseline justify-between border-b border-zinc-800 pb-3">
@@ -3536,7 +4127,7 @@
 
     // View Switching
     function switchView(viewName) {
-      ['dashboard', 'editor', 'ax60', 'audity', 'b3', 'carnaval', 'emax', 'emax2', 'xl1', 'librarian', 'midi'].forEach(v => {
+      ['dashboard', 'editor', 'ax60', 'audity', 'b3', 'carnaval', 'emax', 'emax2', 'xl1', 'xl7', 'librarian', 'midi'].forEach(v => {
         const el = document.getElementById('view-' + v);
         const nav = document.getElementById('nav-' + v);
         if (el && nav) {
@@ -5994,6 +6585,362 @@
         hexDisplay.innerText = '90 45 7F  90 48 78  90 4C 72 (A Minor SuperSaw Rave Chord)';
         explDisplay.innerText = '[Audition: 64-Voice X-Lead SuperSaw + 12-Pole Z-Plane Filter Triggered]';
       }
+    }
+
+
+    // === E-MU XL-7 COMMAND STATION JAVASCRIPT ENGINE ===
+    const xl7Presets = {"User Bank 0 / XL-7 Bank 0": ["kit:K-0", "kit:K-1", "kit:K-2", "kit:K-3", "kit:K-4", "kit:K-5", "kit:K-6", "kit:K-7", "kit:K-8", "kit:K-9", "kit:K-10", "kit:K-11", "kit:K-12", "kit:K-13", "kit:K-14", "kit:K-15", "kit:K-16", "kit:K-17", "kit:K-808", "kit:K-909", "kit:Acoustic 1", "kit:Acoustic 2", "kit:Hybrid", "kit:Hard 1", "kit:Hard 2", "kit:K-1 HPF", "kit:K-1 up 9", "kit:K-2 millini", "kit:K-3 LFO~LPF", "kit:K-4 LFO~AMP", "kit:K-5 Octave", "kit:K-5 up 7", "kit:K-5 Klub", "kit:K-6 Chorus", "kit:K-7 LFO~REZ", "kit:K-8 16tsPan", "kit:K-8~8 go", "kit:K-9 D-Pan", "kit:K-9 up 12", "kit:K-10 D-Up", "kit:K-10 High Q", "kit:K-11 T-Dly", "kit:K-12 Q-Dly", "kit:K-13 QP-Dly", "kit:K-14 D-Down", "kit:K-15 D-D2", "kit:K-16 Tremor", "kit:808 Delay", "kit:Envelope", "prc:Kicks 1", "prc:Kicks 2", "prc:Solo Kick 1", "prc:Solo Kick 2", "prc:Snares 1", "prc:Snares 2", "prc:Snares 1 +7", "prc:Snares 2 Eff", "prc:Snares 2 Rev", "prc:Snare Fill 1", "prc:Snare Fill 2", "prc:Ambi Snare", "prc:Toms & Stuff", "prc:Congas etc 1", "prc:Congas etc 2", "prc:Hats 1", "prc:Hats 2", "prc:Solo Hat 1", "prc:Solo Hat 2", "prc:Tambs", "prc:Cymbals", "prc:Shakers etc.", "prc:Bells", "prc:Blocks", "prc:Claps/Snaps", "prc:Misc", "prc:Warehouse", "prc:Scratches 1", "prc:Scratches 2", "prc:Tic a Tak", "prc:Ubu Delay FX", "hit:Enrezzle", "hit:PLATINUM", "hit:Voxy", "hit:Krunchy", "hit:Dreamer Tags", "hit:Boink-King", "hit:Nice 1", "hit:Nice 2", "hit:Nice 3", "hit:Logger", "hit:Dance 1", "hit:Dance 2", "hit:Dance 3", "hit:Dance 4", "hit:Dance 8", "hit:Dance 11", "hit:Dance 12", "hit:Dance 14", "hit:Dance 16", "hit:Dance 20", "hit:Dance 21", "hit:Dance 22", "hit:Dance 23", "hit:Dance 24", "hit:Dance 25", "hit:Dance 26", "hit:Organ 3", "hit:Organ 4", "hit:Organ 5", "hit:Organ 6", "hit:UnisonString", "hit:Unison Brass", "hit:Brass 6", "hit:Brass 7", "hit:Brass 9", "hit:Brass 18", "hit:Trumpet FX 1", "hit:Trumpet FX 2", "hit:Sax FX", "hit:Blipp", "hit:Buzz Blip", "hit:Game", "hit:Bell", "hit:CMI", "hit:Bass Stab", "hit:H G", "hit:H G Dive", "hit:Drum Stab"], "User Bank 1 / XL-7 Bank 1": ["syn:Basic Saw", "syn:ORiON", "syn:Spiders", "syn:Nordica", "syn:Sync4Sequenc", "syn:Tink Or Toy", "syn:Kyng Doam", "syn:70-64", "syn:12-30", "syn:Trancer", "syn:MortalSynth", "syn:The Grid", "syn:Calmer", "syn:Cyborg", "syn:South Euro 1", "syn:South Euro 2", "syn:Big E", "syn:Riverdancing", "syn:Air Age", "syn:Trem String", "syn:OBX", "syn:40-10", "syn:12-20", "syn:3 O 3", "syn:Geaxoils", "syn:XtoZ", "syn:Munster", "syn:Booty Qooty", "syn:Uborator", "syn:Prophety", "syn:Raved Pass", "syn:D Pee", "syn:Jesuasynth", "syn:Wavetable", "syn:Minor Evil", "syn:Profit Brass", "syn:Sweepy", "syn:Glider", "syn:Grumpy", "syn:Gothica", "syn:Too Big", "syn:Echoing", "syn:Screamer", "syn:Electric", "syn:CZ BIG", "syn:SinEnsemble", "syn:BigDandyBoy", "syn:Willy 4", "syn:R&B Stegas", "syn:60-30", "syn:SweetDream", "led:Wet", "led:Cyber 1", "led:Cyber 5", "led:Cyber 6", "led:Cyber 7", "led:Saturn", "led:More Senses", "led:Wormy 2", "led:Wormy 3", "led:Zeaxy 2", "led:Brixx 2", "led:Apoly 1", "led:Fat S12", "led:Fat CL1", "led:Fat INT", "led:Groove Wow", "led:Alter 4", "led:Alter 6", "led:Synrg 7", "led:Synrg 9", "led:Fat Saw", "led:Scizy 2", "led:Scizy 4", "led:Jungle X", "led:Hypass Ditty", "led:Heavy", "led:Dreamlead", "led:Duzbe 2", "led:Fuzzer", "led:Weezel", "led:Noise F", "led:P Mod 1", "led:DesertTrance", "led:TB 2", "led:Metallic", "led:PureSaw", "led:Wormsine", "led:Technoval", "led:Falling", "led:Scizy 2", "pad:Rumble Pad", "pad:Super Pad", "pad:ARK Covet", "pad:E P I C", "pad:Sleepy", "pad:Tecnorise", "pad:Cvox", "pad:Soft Trace", "pad:Ice Dreams", "pad:Big Chief", "pad:Slow Dance", "pad:Warm&Lush", "pad:Art Deko", "pad:Daddy's Girl", "pad:Strings Box", "pad:Hi&LowLight", "pad:Vespers", "pad:Ambi Pad", "pad:Pure Synth", "pad:HarmonicLift", "pad:Lunar Trail", "pad:Cryo Stasus", "pad:Genesis", "pad:Dark City", "pad:SlogritStrng", "pad:SaturnRings", "pad:Smoovie", "pad:Aki's World", "pad:Low Back", "pad:www.f mono", "pad:Spelunkers", "pad:Lifedream", "pad:Perception", "pad:Involved", "pad:Lo Fi String", "pad:AmbString 1", "pad:AmbString 2"], "User Bank 2 / XL-7 Bank 2": ["bas:Top Tri", "bas:UK shoota", "bas:Love Bee", "bas:Jump Up", "bas:Sub Duh", "bas:Hybrid Phase", "bas:A.D. 3033", "bas:Vortex", "bas:Saws Normal", "bas:1 Shot", "bas:Hard X", "bas:Pinhead", "bas:Go Long", "bas:Square V", "bas:H20", "bas:Interference", "bas:B-Acer", "bas:P-dg", "bas:Fatso", "bas:F16", "bas:Acid 7", "bas:Sonic", "bas:Bullit", "bas:Dance II", "bas:Rippedbass", "bas:Depth", "bas:Arplikebass", "bas:Fat Arc", "bas:PPX 1", "bas:PPX 2", "bas:Jungle Sub", "bas:Fat Juno", "bas:Smooth", "bas:Heavy B", "bas:Sub E", "bas:S-Bass", "bas:Thwip", "bas:Log Bass", "bas:Disser", "bas:Sunny", "bas:HardHouse", "bas:Garage Sub", "bas:Planet X", "edg:Boxt", "edg:Matrix", "edg:Honker", "edg:Analog Beast", "edg:Zorkon", "edg:AudKlav", "edg:Scrape", "edg:Hlywd Native", "edg:Ringer", "edg:Bare Edge", "edg:Spawn", "edg:Rez Zip", "edg:FuzzGrinder", "edg:Love All", "edg:Squeake", "edg:2 Flange", "edg:Teeth", "edg:Slicer", "edg:Skreecher", "edg:Love Hurts", "wal:Strangled", "wal:The Macheen", "wal:Duckfuzz", "wal:C-Ride", "wal:HoverCraft", "wal:Clavonate", "wal:DailyBread", "wal:I made it", "wal:Backdraft", "wal:Mammoth", "wal:Maryland", "wal:Thickets", "wal:Ice Ring", "wal:Silkness", "wal:Byzantine", "wal:Raverotic", "wal:Ripped", "wal:Balls2The..", "wal:W6 3sEvEn", "wal:Abyss", "wal:GoSpeedRacer", "wal:Tension", "wal:Big Wall", "wal:Luscious", "nse:Interfear", "nse:Diffuser", "nse:Radon Shield", "nse:That'sCreepy", "nse:Future Steps", "nse:LittleWeasel", "nse:Martians", "nse:Cast", "nse:SpottedWhite", "nse:Heavy Mental", "nse:Hadrian's", "nse:Machined", "nse:Rezawrect", "nse:Massive", "nse:Soline 7x", "nse:Quiet Wall", "nse:Bottom Floor", "nse:Distructor", "nse:Undertaker", "nse:Coyote", "nse:Turbonic", "nse:GrainyPixel", "nse:Faucet Drip", "nse:Psychic Sea", "nse:Aarno Ldt", "key:Smarm Organ", "key:Disca Queen", "key:Rave Organ", "key:Organik", "key:SynhissOrgan", "key:Deep Organ", "key:P-soul", "key:TechnoGrand", "key:Ocean", "key:HybridTine", "key:EP Roll 1", "key:EP Roll 2", "key:EP Fog", "gtr:Guit Hits", "gtr:Univibe", "gtr:Clicky Picky"], "User Bank 3 / XL-7 Bank 3": ["arp:Deeper Love", "arp:Glider", "arp:Alloy M", "arp:JUNOsis", "arp:A Trip", "arp:Dreamer", "arp:Palomar", "arp:Raving", "arp:Robo Trace", "arp:Glory II", "arp:Hollographic", "arp:Pele", "arp:Lust II", "arp:Bottom Perc", "arp:You Know It", "arp:X-light II", "arp:OrbisTabula", "arp:OrbisPitcher", "arp:The Grind", "arp:Tron X", "arp:Dry Wastland", "arp:Axis One", "arp:Bouchete", "arp:Saw Standard", "arp:Phrophetics", "arp:Sine Drum", "arp:Gutter Punk", "arp:MooGie-D", "arp:No Lo", "arp:Sanctuary", "arp:Pissto Hi", "arp:T-2000", "bpm:Bouncerette", "bpm:Traveler", "bpm:Boogy Synth", "bpm:Lighter", "bpm:End", "bpm:E Room", "bpm:Monster", "bpm:Peak 7", "bpm:Cult-feel", "bpm:Love II", "bpm:Synthex 90'", "bpm:Underclass", "bpm:Tempo LFOs", "bpm:Carpe Diem", "bpm:L Room", "bpm:Reepeter", "bpm:Solace", "bpm:GRITS", "bpm:TRIPPER", "bpm:Higher Power", "bpm:Trashy", "bpm:Vision", "bpm:Wading", "bpm:Grinded", "bpm:Electon", "bpm:Bubbler", "bpm:End", "bpm:Wicked Low", "bpm:RadioDaze", "bpm:Panhandel", "bpm:Minator", "bpm:Lucy-Q", "air:Bat Pann", "air:GhostStories", "air:Breath Stack", "air:Tibet", "air:Futura", "air:Air Surf", "air:Eastern Mist", "air:Vampirella", "air:Floater", "air:Warm Chill", "air:Digital Noiz", "air:Scary Noise", "air:StickyFinger", "air:LeaveMeAlone", "air:Breathless", "air:FluteState", "vox:LuciferDom", "vox:Upper Bottom", "vox:QVoxDelay", "vox:Aah Eeh", "vox:Choirish", "vox:Ooh,Voices!", "vox:Lushorch Vox", "vox:Toxic Vox", "vox:Zephyr", "vox:Air Voices", "vox:SIRRUS", "vox:Future Vox", "vox:Bliss", "vox:ARMAGEDDON", "vox:ANGELIKA", "vox:Galaxal", "vox:Bandvoxxe", "vox:Exploration", "vox:AfterShock", "vox:Surfacing", "vox:Ethereal", "vox:Suffocating", "vox:Space Voxxal", "sfx:Moby's Trip", "sfx:Odd Quasar", "sfx:S-METAL", "sfx:Zoned", "sfx:OverTheEdge", "sfx:Granules", "sfx:Glassers", "sfx:Alienator", "sfx:Ripped Lazer", "sfx:FoldingSpace", "sfx:Uncertainty", "sfx:CosmicCompny", "sfx:REZA'S LaB", "sfx:TerrorZoNE", "sfx:LupeDeKool", "sfx:CyberSience", "bel:Modular Ring", "bel:Efemm Bellsa", "bel:Mult-A-Metal", "bel:Mystery Bell", "bel:NordicCalm", "bel:Rainbellz", "bel:Agualla Bell", "bel:Capsulate", ":XL-7 default"]};
+    let xl7CurrentBank = "User Bank 0 / XL-7 Bank 0";
+    let xl7CurrentPreset = 0;
+    let xl7PadVel = 127;
+    let xl7Cutoff = 190;
+    let xl7Reso = 90;
+    let xl7IsPlaying = false;
+    let xl7PlayInterval = null;
+    let xl7SeqStep = 0;
+    let xl7Tracks = new Array(16).fill(true);
+
+    function populateXL7Presets(bankName) {
+      xl7CurrentBank = bankName;
+      const listEl = document.getElementById('xl7-preset-list');
+      if (!listEl) return;
+      listEl.innerHTML = '';
+      const presets = xl7Presets[bankName] || [];
+      presets.forEach((p, idx) => {
+        const btn = document.createElement('button');
+        btn.className = 'w-full text-left px-2 py-1 bg-black/40 hover:bg-amber-950/40 rounded-xs flex justify-between items-center transition ' + (idx === xl7CurrentPreset ? 'border-l-2 border-amber-400 bg-amber-950/60 text-amber-200 font-bold' : 'text-zinc-300');
+        btn.onclick = () => selectXL7Preset(idx);
+        btn.innerHTML = `<span><span class="text-zinc-500 mr-1.5">${String(idx).padStart(3, '0')}</span>${p}</span>`;
+        listEl.appendChild(btn);
+      });
+      const bankLcd = document.getElementById('xl7-lcd-bank');
+      if (bankLcd) {
+        bankLcd.innerText = bankName.split('/')[1]?.trim() || bankName;
+      }
+    }
+
+    function filterXL7Presets(query) {
+      const listEl = document.getElementById('xl7-preset-list');
+      if (!listEl) return;
+      listEl.innerHTML = '';
+      const presets = xl7Presets[xl7CurrentBank] || [];
+      const q = query.toLowerCase();
+      presets.forEach((p, idx) => {
+        if (p.toLowerCase().includes(q) || String(idx).includes(q)) {
+          const btn = document.createElement('button');
+          btn.className = 'w-full text-left px-2 py-1 bg-black/40 hover:bg-amber-950/40 rounded-xs flex justify-between items-center transition ' + (idx === xl7CurrentPreset ? 'border-l-2 border-amber-400 bg-amber-950/60 text-amber-200 font-bold' : 'text-zinc-300');
+          btn.onclick = () => selectXL7Preset(idx);
+          btn.innerHTML = `<span><span class="text-zinc-500 mr-1.5">${String(idx).padStart(3, '0')}</span>${p}</span>`;
+          listEl.appendChild(btn);
+        }
+      });
+    }
+
+    function selectXL7Preset(idx) {
+      xl7CurrentPreset = idx;
+      const presets = xl7Presets[xl7CurrentBank] || [];
+      const p = presets[idx] || 'kit:K-0';
+      
+      const lcdPreset = document.getElementById('xl7-lcd-preset');
+      const lcdCat = document.getElementById('xl7-lcd-category');
+      const dashPatch = document.getElementById('dashboard-xl7-patch');
+      
+      if (lcdPreset) lcdPreset.innerText = String(idx).padStart(3, '0') + ' ' + p;
+      if (dashPatch) dashPatch.innerText = String(idx).padStart(3, '0') + ' ' + p;
+
+      if (lcdCat) {
+        const prefix = p.split(':')[0].toLowerCase();
+        const catMap = {
+          kit: 'Drum Kit', prc: 'Percussion', hit: 'Synth Hit',
+          syn: 'Synthesizer', led: 'Synth Lead', pad: 'Ambient Pad',
+          bas: 'Bass', edg: 'Edgy Cutting', wal: 'Harmonic Wall',
+          nse: 'Noise FX', key: 'Keyboard/Organ', gtr: 'Guitar',
+          arp: 'Arpeggiator', bpm: 'BPM Clock', air: 'Wind/Atmos',
+          vox: 'Vocal', sfx: 'Sound FX', bel: 'Bell'
+        };
+        lcdCat.innerText = catMap[prefix] || 'Dance Sound';
+      }
+
+      // Refresh preset list highlighting
+      populateXL7Presets(xl7CurrentBank);
+
+      // Send SysEx Program Change
+      const pLsb = idx & 0x7F;
+      const pMsb = (idx >> 7) & 0x7F;
+      const hex = `F0 18 0F 00 01 00 00 ${pLsb.toString(16).padStart(2, '0').toUpperCase()} ${pMsb.toString(16).padStart(2, '0').toUpperCase()} F7`;
+      const hexEl = document.getElementById('xl7-sysex-hex');
+      const explEl = document.getElementById('xl7-sysex-expl');
+      if (hexEl && explEl) {
+        hexEl.innerText = hex;
+        explEl.innerText = `[Preset Select: #${idx} (${p})]`;
+      }
+    }
+
+    function updateXL7Knob(knobIndex, value, paramId) {
+      const valEl = document.getElementById(`xl7-k${knobIndex}-val`);
+      if (valEl) {
+        valEl.innerText = (knobIndex >= 3 && knobIndex <= 11) ? value + '%' : value;
+      }
+      if (knobIndex === 1) {
+        xl7Cutoff = parseInt(value);
+        drawXL7ZPlane();
+      } else if (knobIndex === 2) {
+        xl7Reso = parseInt(value);
+        drawXL7ZPlane();
+      }
+      sendXL7Param(paramId, value);
+    }
+
+    function sendXL7Param(paramHex, value) {
+      const pid = parseInt(paramHex, 16);
+      const pLsb = pid & 0x7F;
+      const pMsb = (pid >> 7) & 0x7F;
+      const val = parseInt(value);
+      const vLsb = val & 0x7F;
+      const vMsb = (val >> 7) & 0x7F;
+      
+      const hex = `F0 18 0F 00 55 01 02 ${pLsb.toString(16).padStart(2, '0').toUpperCase()} ${pMsb.toString(16).padStart(2, '0').toUpperCase()} ${vLsb.toString(16).padStart(2, '0').toUpperCase()} ${vMsb.toString(16).padStart(2, '0').toUpperCase()} F7`;
+      const hexEl = document.getElementById('xl7-sysex-hex');
+      const explEl = document.getElementById('xl7-sysex-expl');
+      if (hexEl && explEl) {
+        hexEl.innerText = hex;
+        explEl.innerText = `[Param ${paramHex}: Value ${val} (LSB:${vLsb.toString(16)}, MSB:${vMsb.toString(16)})]`;
+      }
+    }
+
+    function setXL7PadVel(vel) {
+      xl7PadVel = vel;
+    }
+
+    function triggerXL7Pad(padNum, soundType) {
+      const padEl = document.getElementById(`xl7-pad-${padNum}`);
+      if (padEl) {
+        padEl.classList.add('ring-2', 'ring-amber-400', 'scale-95');
+        setTimeout(() => padEl.classList.remove('ring-2', 'ring-amber-400', 'scale-95'), 140);
+      }
+
+      try {
+        const ctx = getAudioContext();
+        const now = ctx.currentTime;
+        const velGain = xl7PadVel / 127;
+
+        if (soundType.startsWith('kick')) {
+          const osc = ctx.createOscillator();
+          const gain = ctx.createGain();
+          osc.frequency.setValueAtTime(140, now);
+          osc.frequency.exponentialRampToValueAtTime(38, now + 0.12);
+          gain.gain.setValueAtTime(0.9 * velGain, now);
+          gain.gain.exponentialRampToValueAtTime(0.001, now + 0.28);
+          osc.connect(gain); gain.connect(ctx.destination);
+          osc.start(now); osc.stop(now + 0.3);
+        } else if (soundType.startsWith('snare') || soundType === 'claps') {
+          // Noise Snare
+          const bufferSize = ctx.sampleRate * 0.2;
+          const buffer = ctx.createBuffer(1, bufferSize, ctx.sampleRate);
+          const data = buffer.getChannelData(0);
+          for (let i = 0; i < bufferSize; i++) data[i] = Math.random() * 2 - 1;
+          const noise = ctx.createBufferSource();
+          noise.buffer = buffer;
+          const filter = ctx.createBiquadFilter();
+          filter.type = 'highpass'; filter.frequency.value = 850;
+          const gain = ctx.createGain();
+          gain.gain.setValueAtTime(0.7 * velGain, now);
+          gain.gain.exponentialRampToValueAtTime(0.001, now + 0.22);
+          noise.connect(filter); filter.connect(gain); gain.connect(ctx.destination);
+          noise.start(now);
+        } else if (soundType.startsWith('hihat')) {
+          // Crisp 909 Hat
+          const bufferSize = ctx.sampleRate * 0.08;
+          const buffer = ctx.createBuffer(1, bufferSize, ctx.sampleRate);
+          const data = buffer.getChannelData(0);
+          for (let i = 0; i < bufferSize; i++) data[i] = Math.random() * 2 - 1;
+          const noise = ctx.createBufferSource();
+          noise.buffer = buffer;
+          const filter = ctx.createBiquadFilter();
+          filter.type = 'highpass'; filter.frequency.value = 6500;
+          const gain = ctx.createGain();
+          gain.gain.setValueAtTime(0.5 * velGain, now);
+          gain.gain.exponentialRampToValueAtTime(0.001, now + (soundType === 'hihat_op' ? 0.25 : 0.06));
+          noise.connect(filter); filter.connect(gain); gain.connect(ctx.destination);
+          noise.start(now);
+        } else if (soundType.startsWith('bass')) {
+          // Resonant Acid 303 Bass
+          const osc = ctx.createOscillator();
+          const vcf = ctx.createBiquadFilter();
+          const gain = ctx.createGain();
+          osc.type = soundType === 'bass2' ? 'sawtooth' : 'square';
+          osc.frequency.setValueAtTime(55, now); // A1
+          vcf.type = 'lowpass';
+          vcf.frequency.setValueAtTime((xl7Cutoff / 255) * 3500 + 150, now);
+          vcf.frequency.exponentialRampToValueAtTime(100, now + 0.35);
+          vcf.Q.value = (xl7Reso / 255) * 18 + 1;
+          gain.gain.setValueAtTime(0.8 * velGain, now);
+          gain.gain.exponentialRampToValueAtTime(0.001, now + 0.4);
+          osc.connect(vcf); vcf.connect(gain); gain.connect(ctx.destination);
+          osc.start(now); osc.stop(now + 0.42);
+        } else {
+          // Synth Lead & Stabs
+          const osc1 = ctx.createOscillator();
+          const osc2 = ctx.createOscillator();
+          const vcf = ctx.createBiquadFilter();
+          const gain = ctx.createGain();
+          osc1.type = 'sawtooth'; osc1.frequency.setValueAtTime(440, now);
+          osc2.type = 'sawtooth'; osc2.frequency.setValueAtTime(443, now);
+          vcf.type = 'lowpass';
+          vcf.frequency.setValueAtTime((xl7Cutoff / 255) * 5000 + 300, now);
+          vcf.Q.value = (xl7Reso / 255) * 12 + 1;
+          gain.gain.setValueAtTime(0.6 * velGain, now);
+          gain.gain.exponentialRampToValueAtTime(0.001, now + 0.45);
+          osc1.connect(vcf); osc2.connect(vcf); vcf.connect(gain); gain.connect(ctx.destination);
+          osc1.start(now); osc2.start(now);
+          osc1.stop(now + 0.5); osc2.stop(now + 0.5);
+        }
+      } catch (e) {}
+
+      const hexEl = document.getElementById('xl7-sysex-hex');
+      const explEl = document.getElementById('xl7-sysex-expl');
+      if (hexEl && explEl) {
+        const note = 35 + padNum;
+        hexEl.innerText = `90 ${note.toString(16).toUpperCase()} ${xl7PadVel.toString(16).toUpperCase()} (Pad #${padNum} [${soundType.toUpperCase()}] Note On)`;
+        explEl.innerText = `[MIDI Dynamic Pad #${padNum}: Velocity ${xl7PadVel}]`;
+      }
+    }
+
+    function toggleXL7Track(trkNum) {
+      xl7Tracks[trkNum - 1] = !xl7Tracks[trkNum - 1];
+      const btn = document.getElementById(`xl7-trk-${trkNum}`);
+      if (btn) {
+        if (xl7Tracks[trkNum - 1]) {
+          btn.className = 'w-full py-1.5 bg-emerald-950 border border-emerald-500/60 text-emerald-300 text-[10px] font-bold rounded-xs shadow';
+        } else {
+          btn.className = 'w-full py-1.5 bg-zinc-900 border border-zinc-700/60 text-zinc-600 text-[10px] font-bold rounded-xs line-through';
+        }
+      }
+    }
+
+    function xl7Transport(action) {
+      const lcdStatus = document.getElementById('xl7-lcd-status');
+      const ledPlay = document.getElementById('xl7-led-play');
+      const btnPlay = document.getElementById('xl7-btn-play');
+
+      if (action === 'play') {
+        if (xl7IsPlaying) return;
+        xl7IsPlaying = true;
+        if (lcdStatus) lcdStatus.innerText = 'SEQ: RUNNING';
+        if (ledPlay) ledPlay.className = 'w-2 h-2 rounded-full bg-emerald-400 led-green inline-block mr-1';
+        if (btnPlay) btnPlay.className = 'bg-emerald-800 text-white px-4 py-1.5 rounded-sm text-xs font-mono font-bold border border-emerald-400 flex items-center gap-1 active:scale-95 shadow-lg';
+
+        xl7SeqStep = 0;
+        const bpm = parseInt(document.getElementById('xl7-bpm-slider')?.value || '138');
+        const stepMs = (60000 / bpm) / 4; // 16th notes
+
+        xl7PlayInterval = setInterval(() => {
+          // Flashing track step indicator
+          const currentTrk = (xl7SeqStep % 16) + 1;
+          if (xl7Tracks[currentTrk - 1]) {
+            // Trigger sample on active tracks
+            if (currentTrk === 1 || currentTrk === 5 || currentTrk === 9 || currentTrk === 13) {
+              triggerXL7Pad(1, 'kick1');
+            } else if (currentTrk === 3 || currentTrk === 7 || currentTrk === 11 || currentTrk === 15) {
+              triggerXL7Pad(6, 'hihat_cl');
+            } else if (currentTrk === 4 || currentTrk === 12) {
+              triggerXL7Pad(3, 'snare1');
+            }
+          }
+          xl7SeqStep++;
+        }, stepMs);
+
+      } else if (action === 'stop' || action === 'rewind') {
+        xl7IsPlaying = false;
+        clearInterval(xl7PlayInterval);
+        if (lcdStatus) lcdStatus.innerText = 'SEQ: STOPPED';
+        if (ledPlay) ledPlay.className = 'w-2 h-2 rounded-full bg-emerald-500 inline-block mr-1';
+        if (btnPlay) btnPlay.className = 'bg-emerald-950 hover:bg-emerald-900 text-emerald-400 px-4 py-1.5 rounded-sm text-xs font-mono font-bold border border-emerald-600/60 flex items-center gap-1 active:scale-95 shadow';
+        xl7SeqStep = 0;
+      }
+    }
+
+    function xl7TapTempo() {
+      const bpmSlider = document.getElementById('xl7-bpm-slider');
+      const bpmDisp = document.getElementById('xl7-bpm-display');
+      if (bpmSlider && bpmDisp) {
+        let bpm = parseInt(bpmSlider.value) + 2;
+        if (bpm > 180) bpm = 128;
+        bpmSlider.value = bpm;
+        bpmDisp.innerText = bpm + ' BPM';
+        sendXL7Param('0x0201', bpm);
+      }
+    }
+
+    function drawXL7ZPlane(modelIndex = 12) {
+      const canvas = document.getElementById('xl7-zplane-canvas');
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      const w = canvas.width;
+      const h = canvas.height;
+
+      ctx.clearRect(0, 0, w, h);
+
+      // Grid
+      ctx.strokeStyle = '#0d222b';
+      ctx.lineWidth = 1;
+      for (let x = 30; x < w; x += 40) {
+        ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, h); ctx.stroke();
+      }
+      for (let y = 25; y < h; y += 30) {
+        ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(w, y); ctx.stroke();
+      }
+
+      // Z-Plane Morph Curve
+      const cutoffNorm = xl7Cutoff / 255;
+      const resoNorm = xl7Reso / 255;
+      const cutoffX = cutoffNorm * (w - 70) + 35;
+      const peakY = (1 - resoNorm) * (h - 40) + 10;
+
+      const grad = ctx.createLinearGradient(0, 0, w, 0);
+      grad.addColorStop(0, '#00f0ff');
+      grad.addColorStop(0.5, '#a3e635');
+      grad.addColorStop(1, '#eab308');
+
+      ctx.beginPath();
+      ctx.moveTo(10, h - 30);
+      ctx.lineTo(cutoffX * 0.6, h - 35);
+      // Resonant 12-pole formant peaks
+      ctx.bezierCurveTo(cutoffX - 30, h - 35, cutoffX - 12, peakY, cutoffX, peakY);
+      ctx.bezierCurveTo(cutoffX + 15, peakY, cutoffX + 35, h - 15, w - 10, h - 8);
+
+      ctx.strokeStyle = grad;
+      ctx.lineWidth = 3;
+      ctx.stroke();
+
+      // Filled gradient area under curve
+      ctx.lineTo(w - 10, h);
+      ctx.lineTo(10, h);
+      ctx.closePath();
+      const fillGrad = ctx.createLinearGradient(0, 0, 0, h);
+      fillGrad.addColorStop(0, 'rgba(0, 240, 255, 0.25)');
+      fillGrad.addColorStop(1, 'rgba(6, 18, 25, 0)');
+      ctx.fillStyle = fillGrad;
+      ctx.fill();
+
+      // Draw Peak Dot
+      ctx.beginPath();
+      ctx.arc(cutoffX, peakY, 4, 0, Math.PI * 2);
+      ctx.fillStyle = '#fef08a';
+      ctx.fill();
+
+      // Readout
+      const readout = document.getElementById('xl7-filter-readout');
+      if (readout) {
+        readout.innerText = `Cutoff: ${xl7Cutoff} | Q: ${xl7Reso} (Peak: ${Math.round(cutoffNorm * 18000 + 40)} Hz)`;
+      }
+    }
+
+    function auditionXL7Sound() {
+      triggerXL7Pad(1, 'kick1');
+      setTimeout(() => triggerXL7Pad(3, 'snare1'), 220);
+      setTimeout(() => triggerXL7Pad(10, 'bass2'), 300);
+      setTimeout(() => triggerXL7Pad(11, 'lead1'), 440);
     }
 
     window.onload = () => {

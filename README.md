@@ -32,6 +32,7 @@ Inspired by Sound Quest's **Midi Quest 13**, **OmniPatch** combines a clean, fas
 | **E-MU Emax** | 12-Bit Analog VCF Sampler | 24 | 72 | SSM2047 24dB/oct resonant analog filters, dual AHDSR envs, dual voice stack, MIDI SDS |
 | **E-MU Emax II** | 16-Bit Stereo Workstation | 24 | 80 | 32-voice stereo sampling, digital resonant 4-pole VCF, Spectrum Interpolation, 4-layer stack |
 | **E-MU Xtreme Lead-1** | 64-Voice Dance & Techno Synth | 14 | 512 | 50 12-Pole Z-Plane morphing filters, 16-track SuperBEATS sequencer with X-Factor groove, 16-engine poly arpeggiator |
+| **E-MU XL-7** | 128-Voice Desktop Workstation | 18 | 512 | 16 Dynamic Velocity/Pressure Pads, 16 Knobs, 16-Track Sequencer (384 PPQN), 50 Z-Plane Filters, 4 SIMMs |
 
 ---
 
@@ -61,6 +62,9 @@ Inspired by Sound Quest's **Midi Quest 13**, **OmniPatch** combines a clean, fas
 ### E-MU Xtreme Lead-1 (Dance & Techno Synthesizer with SuperBEATS)
 ![E-MU Xtreme Lead-1 Hardware Editor](assets/screenshots/emu_xl1.png)
 
+### E-MU XL-7 (Command Station Desktop Workstation & Sequencer)
+![E-MU XL-7 Command Station](assets/screenshots/emu_xl7.png)
+
 ---
 
 ## Workspace Architecture
@@ -84,7 +88,8 @@ omnipatch/
 │       ├── carnaval/         # profile.yaml, factory_presets.json
 │       ├── emax/             # profile.yaml, factory_presets.json
 │       ├── emax-ii/          # profile.yaml, factory_presets.json
-│       └── xtreme-lead-1/    # profile.yaml, factory_presets.json
+│       ├── xtreme-lead-1/    # profile.yaml, factory_presets.json
+│       └── xl-7/             # profile.yaml, factory_presets.json
 ├── preview/                  # Interactive Metro UI prototype (open in browser)
 └── tools/                    # Automated PDF manual ingestion tool (Python)
 ```
@@ -114,25 +119,26 @@ cargo build --release
 ./target/release/omnipatch devices list --dir devices/
 
 # Inspect specific synth parameters
-./target/release/omnipatch devices show "E-MU B-3" --dir devices/
+./target/release/omnipatch devices show "E-MU XL-7" --dir devices/
 
 # Generate bit-perfect SysEx parameter edit
 ./target/release/omnipatch sysex param-edit "audity" "0x0144" 95
 ./target/release/omnipatch sysex param-edit "b3" "0x0180" 8
 ./target/release/omnipatch sysex param-edit "xl1" "0x0144" 80
+./target/release/omnipatch sysex param-edit "xl7" "0x0180" 190
 
 # Import all factory presets into local SQLite librarian
 ./target/release/omnipatch librarian import-presets --dir devices/ -b library.db
 
 # Search patches by name or category
+./target/release/omnipatch librarian search "Deeper Love" -b library.db
 ./target/release/omnipatch librarian search "Trancer" -b library.db
 ./target/release/omnipatch librarian search "888" -b library.db
-./target/release/omnipatch librarian search "Bass" -b library.db
 ```
 
 ### Interactive UI Preview
 
-Open `preview/index.html` in any modern web browser to interact with the **Windows 8 Metro UI Studio Hub** and authentic hardware panels for Access Virus A, Akai AX60, E-MU Audity 2000, E-MU B-3, E-MU Carnaval, E-MU Emax, E-MU Emax II, and E-MU Xtreme Lead-1!
+Open `preview/index.html` in any modern web browser to interact with the **Windows 8 Metro UI Studio Hub** and authentic hardware panels for Access Virus A, Akai AX60, E-MU Audity 2000, E-MU B-3, E-MU Carnaval, E-MU Emax, E-MU Emax II, E-MU Xtreme Lead-1, and E-MU XL-7 Command Station!
 
 ---
 
