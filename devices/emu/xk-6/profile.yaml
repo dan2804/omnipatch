@@ -1,0 +1,176 @@
+name: E-MU XK-6
+manufacturer: E-mu Systems, Inc.
+category: 61-Key Dance Performance Synthesizer (64-Voice, 50 Z-Plane Filters & SuperBEATS)
+release_year: 2001
+hardware:
+  form_factor: 61-Key Performance Keyboard
+  polyphony: 64
+  multitimbral_parts: 16
+  sound_memory: 32 MB 'X-Lead' Sound ROM (Cutting-edge synth leads, acid basses, punchy drums, rave hits)
+  filter: 50 12-pole Z-Plane morphing resonant filters
+  beats_engine: 16-track SuperBEATS interactive loop sequencer with real-time X-Factor groove crossfade
+  arpeggiator: 16 simultaneous synchronized polyphonic arpeggiator engines
+  knobs: 4 real-time multi-function knobs (12 virtual controllers via 3 layer modes)
+  keys: 61 synth-action keys with velocity and channel aftertouch
+  controllers: 'Pitch and Mod Wheels, 4 Real-time Knobs, Footswitch input'
+  outputs: '4 polyphonic outputs (2 stereo pairs: Main L/R, Sub L/R)'
+  chassis: Grey keyboard chassis with electric yellow background control section and black tactile buttons
+midi:
+  manufacturer_id:
+  - 24
+  product_id: 15
+  model_id: 18
+  default_device_id: 0
+  bank_select:
+    msb_cc: 0
+    msb_val: 0
+    lsb_cc: 32
+    banks:
+      0: User Bank 0 / XLEAD Bank 0
+      1: User Bank 1 / XLEAD Bank 1
+      2: User Bank 2 / XLEAD Bank 2
+      3: User Bank 3 / XLEAD Bank 3
+sysex:
+  header:
+  - 240
+  - 24
+  - 15
+  - '{device_id}'
+  special_editor_byte: 85
+  commands:
+    parameter_edit: 1
+    generic_editor_message: 85
+  parameter_edit_format:
+    header:
+    - 240
+    - 24
+    - 15
+    - '{device_id}'
+    - 85
+    - 1
+    - 2
+    - '{param_lsb}'
+    - '{param_msb}'
+    - '{val_lsb}'
+    - '{val_msb}'
+    - 247
+ui_theme:
+  style: hardware_chassis
+  chassis_color: '#475569'
+  panel_color: '#eab308'
+  chassis_type: grey_keyboard_yellow_panel
+  knobs: black_knurled
+  buttons: tactile_black
+  button_color: '#18181b'
+  accent_color: '#eab308'
+  lcd_backlight: '#08282f'
+  lcd_text: '#00f0ff'
+parameters:
+- id: filter_cutoff
+  name: Z-Plane Filter Cutoff
+  page: filter
+  param_id: 384
+  type: linear
+  range:
+  - 0
+  - 255
+  default: 82
+  unit: steps
+- id: filter_resonance
+  name: Z-Plane Resonance (Q)
+  page: filter
+  param_id: 385
+  type: linear
+  range:
+  - 0
+  - 15
+  default: 8
+  unit: steps
+- id: filter_morph
+  name: Formant Morph / Peak
+  page: filter
+  param_id: 386
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 64
+- id: filter_type
+  name: Z-Plane Filter Model (50 Types)
+  page: filter
+  param_id: 387
+  type: enum
+  options:
+  - Smooth 2-Pole Lowpass
+  - Classic 4-Pole Lowpass
+  - Deep 6-Pole Lowpass
+  - Acid TB-303 Diode Resonator
+  - Vocal Formant A-E-I-O-U
+  - Techno Morph Sweep
+  - Razor Resonant Highpass
+  - Bandpass 4-Pole
+  - Flange Morph Delay
+  - Dual Resonance Notch
+  - 12-Pole Z-Plane Club Lead
+  - Freak Rez Distortion
+  default: 3
+- id: amp_attack
+  name: Amp Envelope Attack
+  page: envelope
+  param_id: 512
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 0
+  unit: ms
+- id: amp_decay
+  name: Amp Envelope Decay
+  page: envelope
+  param_id: 513
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 72
+  unit: ms
+- id: amp_sustain
+  name: Amp Envelope Sustain
+  page: envelope
+  param_id: 514
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 95
+  unit: steps
+- id: amp_release
+  name: Amp Envelope Release
+  page: envelope
+  param_id: 515
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 32
+  unit: ms
+- id: beats_groove
+  name: SuperBEATS Groove Rate
+  page: beats
+  param_id: 640
+  type: linear
+  range:
+  - 50
+  - 200
+  default: 134
+  unit: bpm
+- id: arpeggiator_pattern
+  name: Polyphonic Arp Pattern
+  page: beats
+  param_id: 641
+  type: linear
+  range:
+  - 0
+  - 300
+  default: 42
+  unit: pattern

@@ -33,6 +33,10 @@ Inspired by Sound Quest's **Midi Quest 13**, **OmniPatch** combines a clean, fas
 | **E-MU Emax II** | 16-Bit Stereo Workstation | 24 | 80 | 32-voice stereo sampling, digital resonant 4-pole VCF, Spectrum Interpolation, 4-layer stack |
 | **E-MU Xtreme Lead-1** | 64-Voice Dance & Techno Synth | 14 | 512 | Electric yellow chassis, black knobs & buttons, 50 Z-Plane filters, 16-track SuperBEATS |
 | **E-MU XL-7** | 128-Voice Desktop Workstation | 18 | 512 | Electric yellow console, 16 black rubber pads, 16 black knobs, 16-track sequencer (384 PPQN) |
+| **E-MU XK-6** | 61-Key Dance Performance Keyboard | 10 | 512 | Grey chassis with electric yellow control section, black buttons/knobs, 61 synth-action keys, SuperBEATS |
+| **E-MU Virtuoso 2000** | 128-Voice Virtual Orchestra | 10 | 512 | Light silver-grey 1U faceplate, black buttons, 64MB Orchestral Sessions Vol 1 & 2 ROMs, 50 Z-Plane filters |
+| **E-MU Vintage Pro** | 128-Voice Vintage Workstation | 10 | 512 | Two-tone Rhodes faceplate (satin black top / brushed grey bottom), fluted knobs, Rhodes/Moog/Prophet |
+| **E-MU Vintage Keys** | 32-Voice Vintage Keyboard Module | 10 | 512 | Matte black 1990s 1U chassis, green E-mu logo, retro 2x16 green LCD, classic SysEx ID 0x04 |
 
 ---
 
@@ -65,6 +69,18 @@ Inspired by Sound Quest's **Midi Quest 13**, **OmniPatch** combines a clean, fas
 ### E-MU XL-7 (Command Station Desktop Workstation & Sequencer)
 ![E-MU XL-7 Command Station](assets/screenshots/emu_xl7.png)
 
+### E-MU XK-6 (61-Key Dance Performance Keyboard)
+![E-MU XK-6 Hardware Editor](assets/screenshots/emu_xk6.png)
+
+### E-MU Virtuoso 2000 (128-Voice Virtual Orchestra Sound Module)
+![E-MU Virtuoso 2000 Hardware Editor](assets/screenshots/emu_virtuoso_2000.png)
+
+### E-MU Vintage Pro (128-Voice Vintage Workstation Rack)
+![E-MU Vintage Pro Hardware Editor](assets/screenshots/emu_vintage_pro.png)
+
+### E-MU Vintage Keys (Classic 1993 1U Rack Sound Module)
+![E-MU Vintage Keys Hardware Editor](assets/screenshots/emu_vintage_keys.png)
+
 ---
 
 ## Workspace Architecture
@@ -88,8 +104,12 @@ omnipatch/
 │       ├── carnaval/         # profile.yaml, factory_presets.json
 │       ├── emax/             # profile.yaml, factory_presets.json
 │       ├── emax-ii/          # profile.yaml, factory_presets.json
-│       ├── xtreme-lead-1/    # profile.yaml, factory_presets.json
-│       └── xl-7/             # profile.yaml, factory_presets.json
+│       ├── vintage-keys/     # profile.yaml, factory_presets.json
+│       ├── vintage-pro/      # profile.yaml, factory_presets.json
+│       ├── virtuoso-2000/    # profile.yaml, factory_presets.json
+│       ├── xk-6/             # profile.yaml, factory_presets.json
+│       ├── xl-7/             # profile.yaml, factory_presets.json
+│       └── xtreme-lead-1/    # profile.yaml, factory_presets.json
 ├── preview/                  # Interactive Metro UI prototype (open in browser)
 └── tools/                    # Automated PDF manual ingestion tool (Python)
 ```
@@ -126,19 +146,24 @@ cargo build --release
 ./target/release/omnipatch sysex param-edit "b3" "0x0180" 8
 ./target/release/omnipatch sysex param-edit "xl1" "0x0144" 80
 ./target/release/omnipatch sysex param-edit "xl7" "0x0180" 190
+./target/release/omnipatch sysex param-edit "xk6" "0x0180" 82
+./target/release/omnipatch sysex param-edit "virtuoso" "0x0180" 120
+./target/release/omnipatch sysex param-edit "vintpro" "0x0180" 128
+./target/release/omnipatch sysex param-edit "vintage keys" "16" 110
 
-# Import all factory presets into local SQLite librarian
+# Import all factory presets into local SQLite librarian (4,928 presets)
 ./target/release/omnipatch librarian import-presets --dir devices/ -b library.db
 
 # Search patches by name or category
-./target/release/omnipatch librarian search "Deeper Love" -b library.db
+./target/release/omnipatch librarian search "Leg Str" -b library.db
+./target/release/omnipatch librarian search "Vintage" -b library.db
+./target/release/omnipatch librarian search "Hmnd B3" -b library.db
 ./target/release/omnipatch librarian search "Trancer" -b library.db
-./target/release/omnipatch librarian search "888" -b library.db
 ```
 
 ### Interactive UI Preview
 
-Open `preview/index.html` in any modern web browser to interact with the **Windows 8 Metro UI Studio Hub** and authentic hardware panels for Access Virus A, Akai AX60, E-MU Audity 2000, E-MU B-3, E-MU Carnaval, E-MU Emax, E-MU Emax II, E-MU Xtreme Lead-1, and E-MU XL-7 Command Station!
+Open `preview/index.html` in any modern web browser to interact with the **Windows 8 Metro UI Studio Hub** and authentic hardware panels for Access Virus A, Akai AX60, E-MU Audity 2000, E-MU B-3, E-MU Carnaval, E-MU Emax, E-MU Emax II, E-MU Xtreme Lead-1, E-MU XL-7 Command Station, E-MU XK-6 Performance Keyboard, E-MU Virtuoso 2000, E-MU Vintage Pro, and E-MU Vintage Keys!
 
 ---
 

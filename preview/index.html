@@ -140,6 +140,18 @@
         <button onclick="switchView('xl7')" id="nav-xl7" class="px-4 py-1.5 transition text-zinc-400 hover:text-white hover:bg-zinc-800/60 border-b-2 border-transparent">
           E-MU XL-7
         </button>
+        <button onclick="switchView('xk6')" id="nav-xk6" class="px-4 py-1.5 transition text-zinc-400 hover:text-white hover:bg-zinc-800/60 border-b-2 border-transparent">
+          E-MU XK-6
+        </button>
+        <button onclick="switchView('virtuoso')" id="nav-virtuoso" class="px-4 py-1.5 transition text-zinc-400 hover:text-white hover:bg-zinc-800/60 border-b-2 border-transparent">
+          E-MU Virtuoso 2000
+        </button>
+        <button onclick="switchView('vintagepro')" id="nav-vintagepro" class="px-4 py-1.5 transition text-zinc-400 hover:text-white hover:bg-zinc-800/60 border-b-2 border-transparent">
+          E-MU Vintage Pro
+        </button>
+        <button onclick="switchView('vintagekeys')" id="nav-vintagekeys" class="px-4 py-1.5 transition text-zinc-400 hover:text-white hover:bg-zinc-800/60 border-b-2 border-transparent">
+          E-MU Vintage Keys
+        </button>
         <button onclick="switchView('librarian')" id="nav-librarian" class="px-4 py-1.5 transition text-zinc-400 hover:text-white hover:bg-zinc-800/60 border-b-2 border-transparent">
           Patch Librarian
         </button>
@@ -452,6 +464,114 @@
             <div class="flex justify-between text-xs font-mono text-zinc-400">
               <span class="text-lime-400 font-semibold">Command Station: 138 BPM</span>
               <span class="text-yellow-400">SysEx (18 0F 0E)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tile: E-MU XK-6 Keyboard (Live & Clickable) -->
+        <div onclick="switchView('xk6')" class="md:col-span-2 bg-[#2d3748] hover:bg-[#3b4758] border-l-4 border-[#eab308] p-5 cursor-pointer metro-tile flex flex-col justify-between shadow-lg relative overflow-hidden group">
+          <div class="absolute -right-4 -bottom-4 w-28 h-28 bg-[#eab308]/20 rounded-full blur-xl pointer-events-none"></div>
+          <div>
+            <div class="flex items-center justify-between">
+              <span class="text-xs uppercase tracking-widest text-yellow-400 font-semibold">Grey Chassis • Yellow Panel • 61 Keys</span>
+              <span class="flex items-center gap-1.5 bg-black/40 px-2 py-0.5 text-[11px] text-yellow-300">
+                <span class="w-2 h-2 rounded-full bg-yellow-400 led-green"></span> Port 10 (Online)
+              </span>
+            </div>
+            <h3 class="text-2xl font-bold text-white mt-3 tracking-tight flex items-baseline gap-2">
+              E-MU XK-6 <span class="text-xs font-normal text-zinc-400 font-mono">(2001)</span>
+            </h3>
+            <p class="text-yellow-200/70 text-xs mt-1">61 Velocity/Aftertouch Keys • Pitch & Mod Wheels • SuperBEATS</p>
+          </div>
+          <div class="space-y-2 mt-6">
+            <div class="bg-black/50 p-2 text-xs flex justify-between items-center border border-yellow-950">
+              <span class="text-zinc-400">Preset:</span>
+              <span class="font-mono text-yellow-300 font-bold" id="dashboard-xk6-patch">000 syn:ORiON</span>
+            </div>
+            <div class="flex justify-between text-xs font-mono text-zinc-400">
+              <span class="text-cyan-400 font-semibold">64 Voices • 50 Z-Plane</span>
+              <span class="text-yellow-400">SysEx (18 0F 12)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tile: E-MU Virtuoso 2000 (Live & Clickable) -->
+        <div onclick="switchView('virtuoso')" class="md:col-span-2 bg-[#334155] hover:bg-[#475569] border-l-4 border-[#cbd5e1] p-5 cursor-pointer metro-tile flex flex-col justify-between shadow-lg relative overflow-hidden group">
+          <div class="absolute -right-4 -bottom-4 w-28 h-28 bg-[#38bdf8]/15 rounded-full blur-xl pointer-events-none"></div>
+          <div>
+            <div class="flex items-center justify-between">
+              <span class="text-xs uppercase tracking-widest text-sky-300 font-semibold">Light Grey Rack • Black Buttons</span>
+              <span class="flex items-center gap-1.5 bg-black/40 px-2 py-0.5 text-[11px] text-sky-200">
+                <span class="w-2 h-2 rounded-full bg-sky-400 led-green"></span> Port 11 (Online)
+              </span>
+            </div>
+            <h3 class="text-2xl font-bold text-white mt-3 tracking-tight flex items-baseline gap-2">
+              E-MU Virtuoso 2000 <span class="text-xs font-normal text-zinc-400 font-mono">(2000)</span>
+            </h3>
+            <p class="text-slate-200/80 text-xs mt-1">128 Voices • 64MB Orchestral Sessions ROMs • 32 MIDI Channels</p>
+          </div>
+          <div class="space-y-2 mt-6">
+            <div class="bg-black/50 p-2 text-xs flex justify-between items-center border border-slate-700">
+              <span class="text-zinc-400">Preset:</span>
+              <span class="font-mono text-cyan-300 font-bold" id="dashboard-virtuoso-patch">000 vln:16 Leg Str</span>
+            </div>
+            <div class="flex justify-between text-xs font-mono text-zinc-400">
+              <span class="text-sky-300 font-semibold">512 Orchestral Presets</span>
+              <span class="text-cyan-400">SysEx (18 0F 08)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tile: E-MU Vintage Pro (Live & Clickable) -->
+        <div onclick="switchView('vintagepro')" class="md:col-span-2 bg-[#1e293b] hover:bg-[#283548] border-l-4 border-[#94a3b8] p-5 cursor-pointer metro-tile flex flex-col justify-between shadow-lg relative overflow-hidden group">
+          <div class="absolute -right-4 -bottom-4 w-28 h-28 bg-[#10b981]/15 rounded-full blur-xl pointer-events-none"></div>
+          <div>
+            <div class="flex items-center justify-between">
+              <span class="text-xs uppercase tracking-widest text-emerald-400 font-semibold">Two-Tone Rhodes Top Black / Grey Bottom</span>
+              <span class="flex items-center gap-1.5 bg-black/40 px-2 py-0.5 text-[11px] text-emerald-300">
+                <span class="w-2 h-2 rounded-full bg-emerald-400 led-green"></span> Port 12 (Online)
+              </span>
+            </div>
+            <h3 class="text-2xl font-bold text-white mt-3 tracking-tight flex items-baseline gap-2">
+              E-MU Vintage Pro <span class="text-xs font-normal text-zinc-400 font-mono">(2002)</span>
+            </h3>
+            <p class="text-zinc-300 text-xs mt-1">128 Voices • 32MB Vintage Collection ROM • Rhodes / Wurli / Moog</p>
+          </div>
+          <div class="space-y-2 mt-6">
+            <div class="bg-black/50 p-2 text-xs flex justify-between items-center border border-zinc-700">
+              <span class="text-zinc-400">Preset:</span>
+              <span class="font-mono text-emerald-300 font-bold" id="dashboard-vintagepro-patch">000 syn:Vintage</span>
+            </div>
+            <div class="flex justify-between text-xs font-mono text-zinc-400">
+              <span class="text-emerald-400 font-semibold">512 Vintage Presets</span>
+              <span class="text-emerald-300">SysEx (18 0F 16)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tile: E-MU Vintage Keys (Live & Clickable) -->
+        <div onclick="switchView('vintagekeys')" class="md:col-span-2 bg-[#141416] hover:bg-[#1a1a1e] border-l-4 border-[#22c55e] p-5 cursor-pointer metro-tile flex flex-col justify-between shadow-lg relative overflow-hidden group">
+          <div class="absolute -right-4 -bottom-4 w-28 h-28 bg-[#22c55e]/15 rounded-full blur-xl pointer-events-none"></div>
+          <div>
+            <div class="flex items-center justify-between">
+              <span class="text-xs uppercase tracking-widest text-emerald-400 font-semibold">1990s Matte Black 1U Rack • Green LCD</span>
+              <span class="flex items-center gap-1.5 bg-black/40 px-2 py-0.5 text-[11px] text-green-300">
+                <span class="w-2 h-2 rounded-full bg-emerald-400 led-green"></span> Port 13 (Online)
+              </span>
+            </div>
+            <h3 class="text-2xl font-bold text-white mt-3 tracking-tight flex items-baseline gap-2">
+              E-MU Vintage Keys <span class="text-xs font-normal text-zinc-400 font-mono">(1993)</span>
+            </h3>
+            <p class="text-zinc-400 text-xs mt-1">32 Voices • 8MB Vintage Sample ROM • Dual Chorus & Stereo Delay</p>
+          </div>
+          <div class="space-y-2 mt-6">
+            <div class="bg-black/50 p-2 text-xs flex justify-between items-center border border-zinc-800">
+              <span class="text-zinc-400">Preset:</span>
+              <span class="font-mono text-green-400 font-bold" id="dashboard-vintagekeys-patch">000 Hmnd B3 01</span>
+            </div>
+            <div class="flex justify-between text-xs font-mono text-zinc-400">
+              <span class="text-green-400 font-semibold">512 Classic Patches</span>
+              <span class="text-green-300">SysEx (18 04)</span>
             </div>
           </div>
         </div>
@@ -3955,6 +4075,2590 @@
     </section>
 
 
+
+    <!-- ======================================================== -->
+    <!-- VIEW: E-MU XK-6 PERFORMANCE KEYBOARD                     -->
+    <!-- Grey chassis with yellow background control section      -->
+    <!-- ======================================================== -->
+    <section id="view-xk6" class="hidden space-y-4">
+      <!-- XK-6 Hardware Header -->
+      <div class="bg-gradient-to-r from-[#334155] via-[#475569] to-[#334155] border-2 border-[#1e293b] rounded-sm p-4 shadow-2xl flex flex-col md:flex-row md:items-center justify-between gap-4 text-white">
+        <div class="flex items-center gap-4">
+          <div class="w-3 h-14 bg-black rounded-sm flex flex-col justify-between py-1 px-0.5 border border-zinc-700">
+            <div class="w-2 h-2 rounded-full bg-zinc-800 border border-zinc-600"></div>
+            <div class="w-2 h-2 rounded-full bg-zinc-800 border border-zinc-600"></div>
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="text-xs font-black tracking-widest text-black bg-[#eab308] px-2 py-0.5 rounded font-bold">E-MU SYSTEMS</span>
+              <span class="text-xs text-yellow-300 font-mono tracking-wider">XK-6 • 61-KEY DANCE PERFORMANCE KEYBOARD</span>
+            </div>
+            <h2 class="text-3xl font-extrabold tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-amber-200 to-yellow-400 mt-1">
+              XK-6 KEYBOARD SYNTHESIZER
+            </h2>
+            <p class="text-xs text-zinc-300 font-medium">61 Velocity/Aftertouch Keys • 32MB X-Lead ROM • 50 Z-Plane Filters • SuperBEATS</p>
+          </div>
+        </div>
+
+        <!-- 2x24 Cyan LCD -->
+        <div class="bg-[#031518] border-2 border-cyan-800/80 px-4 py-2.5 rounded shadow-[inset_0_0_12px_rgba(6,182,212,0.3)] font-mono min-w-[340px]">
+          <div class="flex justify-between text-xs text-cyan-300 font-bold tracking-wider">
+            <span id="xk6-lcd-line1">C01 Vol127 Pan=00  000 syn:ORiON</span>
+            <span class="text-yellow-400 font-semibold" id="xk6-lcd-bank">B0:XLEAD</span>
+          </div>
+          <div class="flex justify-between text-xs text-cyan-400/90 mt-1 border-t border-cyan-900/60 pt-1">
+            <span id="xk6-lcd-line2">Fc:082 Q:08 BPM:134  ARP:OFF</span>
+            <span class="text-yellow-300 font-bold">KEYS: 61-SYNTH</span>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <button onclick="auditionXk6()" class="bg-[#eab308] hover:bg-[#ca8a04] text-black px-4 py-2 text-xs font-black shadow-md transition flex items-center gap-1.5 rounded">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            Audition XK-6
+          </button>
+        </div>
+      </div>
+
+      <!-- Control Section with Yellow Background & Black Knobs/Buttons -->
+      <div class="bg-[#eab308] border-2 border-[#a16207] p-5 rounded-sm shadow-xl text-black">
+        <div class="flex items-center justify-between pb-3 border-b-2 border-black/20 mb-4">
+          <div class="flex items-center gap-2">
+            <span class="w-3 h-3 rounded-full bg-black"></span>
+            <h3 class="text-sm font-black tracking-wider uppercase text-black">XK-6 Real-Time Control Section (Yellow Silkscreen Face)</h3>
+          </div>
+          <span class="text-xs font-mono font-bold bg-black text-yellow-300 px-2 py-0.5 rounded">4 Knobs x 3 Layers (12 Parameters)</span>
+        </div>
+
+        <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-4">
+          <div class="bg-black/10 p-3 rounded border border-black/20 flex flex-col items-center">
+            <span class="text-[11px] font-bold uppercase mb-1">Filter Cutoff</span>
+            <input type="range" id="xk6-cutoff" min="0" max="255" value="82" oninput="updateXk6Param('cutoff', this.value)" class="w-full accent-black cursor-pointer">
+            <div class="flex justify-between w-full text-[10px] font-mono mt-1 font-bold">
+              <span>0</span><span id="val-xk6-cutoff">82</span><span>255</span>
+            </div>
+          </div>
+          <div class="bg-black/10 p-3 rounded border border-black/20 flex flex-col items-center">
+            <span class="text-[11px] font-bold uppercase mb-1">Filter Res (Q)</span>
+            <input type="range" id="xk6-res" min="0" max="15" value="8" oninput="updateXk6Param('resonance', this.value)" class="w-full accent-black cursor-pointer">
+            <div class="flex justify-between w-full text-[10px] font-mono mt-1 font-bold">
+              <span>0</span><span id="val-xk6-res">8</span><span>15</span>
+            </div>
+          </div>
+          <div class="bg-black/10 p-3 rounded border border-black/20 flex flex-col items-center">
+            <span class="text-[11px] font-bold uppercase mb-1">Formant Morph</span>
+            <input type="range" id="xk6-morph" min="0" max="127" value="64" oninput="updateXk6Param('morph', this.value)" class="w-full accent-black cursor-pointer">
+            <div class="flex justify-between w-full text-[10px] font-mono mt-1 font-bold">
+              <span>0</span><span id="val-xk6-morph">64</span><span>127</span>
+            </div>
+          </div>
+          <div class="bg-black/10 p-3 rounded border border-black/20 flex flex-col items-center">
+            <span class="text-[11px] font-bold uppercase mb-1">Attack</span>
+            <input type="range" id="xk6-attack" min="0" max="127" value="0" oninput="updateXk6Param('attack', this.value)" class="w-full accent-black cursor-pointer">
+            <div class="flex justify-between w-full text-[10px] font-mono mt-1 font-bold">
+              <span>0ms</span><span id="val-xk6-attack">0</span><span>127</span>
+            </div>
+          </div>
+          <div class="bg-black/10 p-3 rounded border border-black/20 flex flex-col items-center">
+            <span class="text-[11px] font-bold uppercase mb-1">Release</span>
+            <input type="range" id="xk6-release" min="0" max="127" value="32" oninput="updateXk6Param('release', this.value)" class="w-full accent-black cursor-pointer">
+            <div class="flex justify-between w-full text-[10px] font-mono mt-1 font-bold">
+              <span>0ms</span><span id="val-xk6-release">32</span><span>127</span>
+            </div>
+          </div>
+          <div class="bg-black/10 p-3 rounded border border-black/20 flex flex-col items-center">
+            <span class="text-[11px] font-bold uppercase mb-1">BPM Rate</span>
+            <input type="range" id="xk6-bpm" min="50" max="220" value="134" oninput="updateXk6Param('bpm', this.value)" class="w-full accent-black cursor-pointer">
+            <div class="flex justify-between w-full text-[10px] font-mono mt-1 font-bold">
+              <span>50</span><span id="val-xk6-bpm">134</span><span>220</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Interactive 61-Key Keyboard Bed & Wheels -->
+      <div class="bg-[#1e293b] border-4 border-[#0f172a] rounded-b-md p-4 shadow-2xl flex gap-4 items-stretch">
+        <!-- Pitch & Mod Wheels -->
+        <div class="w-20 bg-[#0f172a] p-2 rounded flex flex-col justify-between items-center border border-zinc-700">
+          <div class="text-[9px] font-bold text-yellow-400 text-center">WHEELS</div>
+          <div class="flex flex-col items-center gap-1">
+            <span class="text-[8px] text-zinc-400">PITCH</span>
+            <input type="range" id="xk6-pitchwheel" min="-8192" max="8191" value="0" class="h-20 w-8 -rotate-90 accent-yellow-400">
+          </div>
+          <div class="flex flex-col items-center gap-1">
+            <span class="text-[8px] text-zinc-400">MOD</span>
+            <input type="range" id="xk6-modwheel" min="0" max="127" value="0" class="h-20 w-8 -rotate-90 accent-cyan-400">
+          </div>
+        </div>
+
+        <!-- 2 Octaves of Clickable Keys -->
+        <div class="flex-1 bg-black p-2 rounded flex items-start justify-center relative overflow-x-auto shadow-inner select-none h-40">
+          <div class="flex relative">
+            <!-- C3..B4 White keys -->
+            <div onclick="playKeyNote(48)" class="w-10 h-36 bg-white hover:bg-yellow-100 active:bg-yellow-300 border border-zinc-400 rounded-b cursor-pointer flex items-end justify-center pb-2 text-[10px] font-bold text-zinc-700">C3</div>
+            <div onclick="playKeyNote(50)" class="w-10 h-36 bg-white hover:bg-yellow-100 active:bg-yellow-300 border border-zinc-400 rounded-b cursor-pointer flex items-end justify-center pb-2 text-[10px] font-bold text-zinc-700">D3</div>
+            <div onclick="playKeyNote(52)" class="w-10 h-36 bg-white hover:bg-yellow-100 active:bg-yellow-300 border border-zinc-400 rounded-b cursor-pointer flex items-end justify-center pb-2 text-[10px] font-bold text-zinc-700">E3</div>
+            <div onclick="playKeyNote(53)" class="w-10 h-36 bg-white hover:bg-yellow-100 active:bg-yellow-300 border border-zinc-400 rounded-b cursor-pointer flex items-end justify-center pb-2 text-[10px] font-bold text-zinc-700">F3</div>
+            <div onclick="playKeyNote(55)" class="w-10 h-36 bg-white hover:bg-yellow-100 active:bg-yellow-300 border border-zinc-400 rounded-b cursor-pointer flex items-end justify-center pb-2 text-[10px] font-bold text-zinc-700">G3</div>
+            <div onclick="playKeyNote(57)" class="w-10 h-36 bg-white hover:bg-yellow-100 active:bg-yellow-300 border border-zinc-400 rounded-b cursor-pointer flex items-end justify-center pb-2 text-[10px] font-bold text-zinc-700">A3</div>
+            <div onclick="playKeyNote(59)" class="w-10 h-36 bg-white hover:bg-yellow-100 active:bg-yellow-300 border border-zinc-400 rounded-b cursor-pointer flex items-end justify-center pb-2 text-[10px] font-bold text-zinc-700">B3</div>
+            <div onclick="playKeyNote(60)" class="w-10 h-36 bg-white hover:bg-yellow-100 active:bg-yellow-300 border border-zinc-400 rounded-b cursor-pointer flex items-end justify-center pb-2 text-[10px] font-bold text-zinc-700">C4</div>
+            <div onclick="playKeyNote(62)" class="w-10 h-36 bg-white hover:bg-yellow-100 active:bg-yellow-300 border border-zinc-400 rounded-b cursor-pointer flex items-end justify-center pb-2 text-[10px] font-bold text-zinc-700">D4</div>
+            <div onclick="playKeyNote(64)" class="w-10 h-36 bg-white hover:bg-yellow-100 active:bg-yellow-300 border border-zinc-400 rounded-b cursor-pointer flex items-end justify-center pb-2 text-[10px] font-bold text-zinc-700">E4</div>
+            <div onclick="playKeyNote(65)" class="w-10 h-36 bg-white hover:bg-yellow-100 active:bg-yellow-300 border border-zinc-400 rounded-b cursor-pointer flex items-end justify-center pb-2 text-[10px] font-bold text-zinc-700">F4</div>
+            <div onclick="playKeyNote(67)" class="w-10 h-36 bg-white hover:bg-yellow-100 active:bg-yellow-300 border border-zinc-400 rounded-b cursor-pointer flex items-end justify-center pb-2 text-[10px] font-bold text-zinc-700">G4</div>
+            <div onclick="playKeyNote(69)" class="w-10 h-36 bg-white hover:bg-yellow-100 active:bg-yellow-300 border border-zinc-400 rounded-b cursor-pointer flex items-end justify-center pb-2 text-[10px] font-bold text-zinc-700">A4</div>
+            <div onclick="playKeyNote(71)" class="w-10 h-36 bg-white hover:bg-yellow-100 active:bg-yellow-300 border border-zinc-400 rounded-b cursor-pointer flex items-end justify-center pb-2 text-[10px] font-bold text-zinc-700">B4</div>
+
+            <!-- Black Keys overlaid -->
+            <div onclick="playKeyNote(49)" class="w-6 h-24 bg-black hover:bg-zinc-800 active:bg-yellow-500 absolute left-7 top-0 z-10 rounded-b cursor-pointer shadow-md"></div>
+            <div onclick="playKeyNote(51)" class="w-6 h-24 bg-black hover:bg-zinc-800 active:bg-yellow-500 absolute left-17 top-0 z-10 rounded-b cursor-pointer shadow-md"></div>
+            <div onclick="playKeyNote(54)" class="w-6 h-24 bg-black hover:bg-zinc-800 active:bg-yellow-500 absolute left-37 top-0 z-10 rounded-b cursor-pointer shadow-md"></div>
+            <div onclick="playKeyNote(56)" class="w-6 h-24 bg-black hover:bg-zinc-800 active:bg-yellow-500 absolute left-47 top-0 z-10 rounded-b cursor-pointer shadow-md"></div>
+            <div onclick="playKeyNote(58)" class="w-6 h-24 bg-black hover:bg-zinc-800 active:bg-yellow-500 absolute left-57 top-0 z-10 rounded-b cursor-pointer shadow-md"></div>
+            <div onclick="playKeyNote(61)" class="w-6 h-24 bg-black hover:bg-zinc-800 active:bg-yellow-500 absolute left-77 top-0 z-10 rounded-b cursor-pointer shadow-md"></div>
+            <div onclick="playKeyNote(63)" class="w-6 h-24 bg-black hover:bg-zinc-800 active:bg-yellow-500 absolute left-87 top-0 z-10 rounded-b cursor-pointer shadow-md"></div>
+            <div onclick="playKeyNote(66)" class="w-6 h-24 bg-black hover:bg-zinc-800 active:bg-yellow-500 absolute left-107 top-0 z-10 rounded-b cursor-pointer shadow-md"></div>
+            <div onclick="playKeyNote(68)" class="w-6 h-24 bg-black hover:bg-zinc-800 active:bg-yellow-500 absolute left-117 top-0 z-10 rounded-b cursor-pointer shadow-md"></div>
+            <div onclick="playKeyNote(70)" class="w-6 h-24 bg-black hover:bg-zinc-800 active:bg-yellow-500 absolute left-127 top-0 z-10 rounded-b cursor-pointer shadow-md"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Presets & SysEx Telemetry -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-4">
+        <div class="lg:col-span-6 bg-[#18181b] p-4 rounded border border-zinc-800 space-y-2">
+          <label class="text-xs uppercase font-bold text-yellow-400">XK-6 Preset Library (512 Presets)</label>
+          <select id="xk6-preset-select" onchange="selectXk6Preset(this.value)" class="w-full bg-black border border-zinc-700 text-white p-2 text-xs rounded font-mono">
+            <optgroup label="User Bank 0 / XLEAD Bank 0">
+<option value="0">000 syn:ORiON</option>
+<option value="1">001 bts:Trancer</option>
+<option value="2">002 raw:Basic Saw</option>
+<option value="3">003 bpm:Boogy Synth</option>
+<option value="4">004 arp:X-light</option>
+<option value="5">005 edg:BoXT mono</option>
+<option value="6">006 wal:Raverotic</option>
+<option value="7">007 bas:1 Shot mono</option>
+<option value="8">008 pad:Strings Box</option>
+<option value="9">009 led:Wet</option>
+<option value="10">010 air:Bat Pann</option>
+<option value="11">011 bts:Perception</option>
+<option value="12">012 kit:Hide & Seek</option>
+<option value="13">013 bas:SquareV mono</option>
+<option value="14">014 nse:DISTRUCTOR</option>
+<option value="15">015 arp:Glory</option>
+<option value="16">016 hit:Hittite</option>
+<option value="17">017 bpm:UnderClaSS</option>
+<option value="18">018 sfx:Moby's Trip</option>
+<option value="19">019 raw:Rave Organ</option>
+<option value="20">020 syn:70-64</option>
+<option value="21">021 syn:Synthex 80's</option>
+<option value="22">022 syn:Super Saw</option>
+<option value="23">023 syn:XtoZ</option>
+<option value="24">024 syn:Spiders mono</option>
+<option value="25">025 syn:Brass Juice</option>
+<option value="26">026 syn:Raved Pass</option>
+<option value="27">027 syn:South Euro 1</option>
+<option value="28">028 syn:South Euro 2</option>
+<option value="29">029 syn:Digitell</option>
+<option value="30">030 syn:Quadralike</option>
+<option value="31">031 syn:BigDandyBoy</option>
+<option value="32">032 syn:Riverdancing</option>
+<option value="33">033 syn:Rendalaw</option>
+<option value="34">034 syn:Dappy</option>
+<option value="35">035 syn:Saw On High</option>
+<option value="36">036 syn:Tink Or Toys</option>
+<option value="37">037 syn:C Z O</option>
+<option value="38">038 syn:OBX</option>
+<option value="39">039 syn:SinEnsemble</option>
+<option value="40">040 syn:CZ BIG</option>
+<option value="41">041 syn:Wide Load</option>
+<option value="42">042 syn:Cvox</option>
+<option value="43">043 syn:Weezeled</option>
+<option value="44">044 syn:Post Modern</option>
+<option value="45">045 syn:JourneyMan</option>
+<option value="46">046 syn:Skouls</option>
+<option value="47">047 syn:Kyng Doam</option>
+<option value="48">048 syn:Nordica Comp</option>
+<option value="49">049 syn:Geaxoils</option>
+<option value="50">050 syn:DarkShadows</option>
+<option value="51">051 syn:AudKlav</option>
+<option value="52">052 syn:Syn Chaos</option>
+<option value="53">053 syn:R&B Syncomp</option>
+<option value="54">054 syn:Octivate</option>
+<option value="55">055 syn:Smooth Saw</option>
+<option value="56">056 syn:Saint-A.</option>
+<option value="57">057 syn:Grindin Me!</option>
+<option value="58">058 syn:Calmer</option>
+<option value="59">059 syn:Zionate</option>
+<option value="60">060 syn:Synterval</option>
+<option value="61">061 syn:ObieLand</option>
+<option value="62">062 syn:SWELL</option>
+<option value="63">063 syn:Air Age</option>
+<option value="64">064 syn:SMAK</option>
+<option value="65">065 syn:Tink</option>
+<option value="66">066 syn:FizzeeString</option>
+<option value="67">067 bas:P-dg mono</option>
+<option value="68">068 bas:Ring Bassox</option>
+<option value="69">069 bas:Saws Normal</option>
+<option value="70">070 bas:T-Dance mono</option>
+<option value="71">071 bas:Bongo-B</option>
+<option value="72">072 bas:Top Tri mono</option>
+<option value="73">073 bas:Hard X</option>
+<option value="74">074 bas:Hupper mono</option>
+<option value="75">075 bas:POLY</option>
+<option value="76">076 bas:2000 mono</option>
+<option value="77">077 bas:F16 mono</option>
+<option value="78">078 bas:Bounce</option>
+<option value="79">079 bas:FATSO mono</option>
+<option value="80">080 bas:H20 mono</option>
+<option value="81">081 bas:SuB DuH mono</option>
+<option value="82">082 bas:RingCycle</option>
+<option value="83">083 bas:Ripin mono</option>
+<option value="84">084 bas:REZvsSINE</option>
+<option value="85">085 bas:Love Bee</option>
+<option value="86">086 bas:Sven Analog</option>
+<option value="87">087 bas:B-Acer mono</option>
+<option value="88">088 bas:Henny-P mono</option>
+<option value="89">089 bas:Pinhead</option>
+<option value="90">090 bas:SlappyFlange</option>
+<option value="91">091 bas:FinGruzzer</option>
+<option value="92">092 bas:Goin'Lo mono</option>
+<option value="93">093 bas:Go Long mono</option>
+<option value="94">094 bas:M-Deep mono</option>
+<option value="95">095 bas:CReePeR mono</option>
+<option value="96">096 bas:KEVLAR mono</option>
+<option value="97">097 bas:Mango</option>
+<option value="98">098 bas:JUMPUP mono</option>
+<option value="99">099 bas:Acid Vox</option>
+<option value="100">100 bas:ReedBass</option>
+<option value="101">101 bas:FuzzBizz</option>
+<option value="102">102 bas:Ventolator</option>
+<option value="103">103 bas:Reso TB mono</option>
+<option value="104">104 bas:A.D. 3033</option>
+<option value="105">105 bas:Tugboat</option>
+<option value="106">106 bas:Interference</option>
+<option value="107">107 bas:TaurusT mono</option>
+<option value="108">108 bas:DistTB1 mono</option>
+<option value="109">109 bas:Bullit mono</option>
+<option value="110">110 bas:Mo'</option>
+<option value="111">111 bas:HybridPhased</option>
+<option value="112">112 bas:UKshoot mono</option>
+<option value="113">113 hit:Dinkness</option>
+<option value="114">114 hit:PolyClavWOrm</option>
+<option value="115">115 hit:Organist</option>
+<option value="116">116 hit:Orgy Hitts</option>
+<option value="117">117 hit:DeepStall</option>
+<option value="118">118 hit:More Cheez</option>
+<option value="119">119 hit:PLATINUM</option>
+<option value="120">120 hit:Guit Hits</option>
+<option value="121">121 hit:EP Rolls</option>
+<option value="122">122 hit:Enrezzle</option>
+<option value="123">123 hit:Lowy Techno</option>
+<option value="124">124 hit:Dreamer Tags</option>
+<option value="125">125 hit:FoonZoom</option>
+<option value="126">126 hit:Ghost Organ</option>
+<option value="127">127 hit:Brazzy Hits</option>
+</optgroup>
+<optgroup label="User Bank 1 / XLEAD Bank 1">
+<option value="0">000 raw:Classic Tri</option>
+<option value="1">001 raw:Sync4Seqence</option>
+<option value="2">002 raw:Prophety</option>
+<option value="3">003 raw:Ringer mono</option>
+<option value="4">004 raw:Play Sawcomp</option>
+<option value="5">005 raw:Drama</option>
+<option value="6">006 raw:Big Synthy</option>
+<option value="7">007 raw:Syn Brass</option>
+<option value="8">008 raw:MortalSynth</option>
+<option value="9">009 raw:Farzy Sync</option>
+<option value="10">010 raw:SLICER</option>
+<option value="11">011 raw:Rez Zip mono</option>
+<option value="12">012 raw:3 O 3 mono</option>
+<option value="13">013 raw:Acid Blomp</option>
+<option value="14">014 raw:Booty Qooty</option>
+<option value="15">015 raw:Ubo mono</option>
+<option value="16">016 raw:Euro Noise</option>
+<option value="17">017 raw:SweeTDreaM</option>
+<option value="18">018 raw:Edge</option>
+<option value="19">019 raw:Mini 2000</option>
+<option value="20">020 raw:Basic Dodo</option>
+<option value="21">021 raw:Basic Buzz</option>
+<option value="22">022 raw:Basic 2600</option>
+<option value="23">023 raw:Low SawSweep</option>
+<option value="24">024 raw:Low CL2Sweep</option>
+<option value="25">025 raw:BLAHSOM</option>
+<option value="26">026 raw:Flaps</option>
+<option value="27">027 raw:TeeTH</option>
+<option value="28">028 raw:Prophet</option>
+<option value="29">029 raw:Profit Braz</option>
+<option value="30">030 pad:BP Strings</option>
+<option value="31">031 pad:Slow Dance</option>
+<option value="32">032 pad:Astrology</option>
+<option value="33">033 pad:DARK CITY</option>
+<option value="34">034 pad:Enoze Tri</option>
+<option value="35">035 pad:Hi&LowLights</option>
+<option value="36">036 pad:Danube</option>
+<option value="37">037 pad:Vespers</option>
+<option value="38">038 pad:Jumpy Brass</option>
+<option value="39">039 pad:Rio Dulce</option>
+<option value="40">040 pad:Big Aud'Pad</option>
+<option value="41">041 pad:Gorgontastic</option>
+<option value="42">042 pad:SlogritStrng</option>
+<option value="43">043 pad:Daddy's Girl</option>
+<option value="44">044 pad:Ice Dreams</option>
+<option value="45">045 pad:SaturnRings</option>
+<option value="46">046 pad:Smoovie</option>
+<option value="47">047 pad:Aki's World</option>
+<option value="48">048 pad:Low Back</option>
+<option value="49">049 pad:Warm&Lush</option>
+<option value="50">050 pad:Lonely Space</option>
+<option value="51">051 pad:Pure Synth</option>
+<option value="52">052 pad:HarmonicLift</option>
+<option value="53">053 pad:Sawpipe</option>
+<option value="54">054 pad:www.f mono</option>
+<option value="55">055 pad:Spelunkers</option>
+<option value="56">056 pad:aRt DeKo</option>
+<option value="57">057 pad:Shaku High</option>
+<option value="58">058 pad:Symphonix</option>
+<option value="59">059 pad:Softaflange</option>
+<option value="60">060 pad:Lifedream</option>
+<option value="61">061 edg:Spawn mono</option>
+<option value="62">062 edg:HlywdINative</option>
+<option value="63">063 edg:PUNISH mono</option>
+<option value="64">064 edg:Prephad</option>
+<option value="65">065 edg:SCRAPE mono</option>
+<option value="66">066 edg:REZANATOR</option>
+<option value="67">067 edg:ACiDOP mono</option>
+<option value="68">068 edg:Ringer mono</option>
+<option value="69">069 edg:FuzzGrinder</option>
+<option value="70">070 edg:BAD A mono</option>
+<option value="71">071 edg:B-CUDA mono</option>
+<option value="72">072 edg:Swervy</option>
+<option value="73">073 edg:Love All</option>
+<option value="74">074 edg:Space Komper</option>
+<option value="75">075 edg:SynkerSteppr</option>
+<option value="76">076 edg:SQUEAKE mono</option>
+<option value="77">077 edg:Syncked</option>
+<option value="78">078 edg:2Flange mono</option>
+<option value="79">079 edg:Listoller</option>
+<option value="80">080 edg:Reptoa</option>
+<option value="81">081 edg:TotalControl</option>
+<option value="82">082 edg:Growly Glide</option>
+<option value="83">083 edg:Small Town</option>
+<option value="84">084 edg:Zorkon</option>
+<option value="85">085 edg:Skreecher</option>
+<option value="86">086 edg:Low Edge</option>
+<option value="87">087 edg:Love II mono</option>
+<option value="88">088 edg:Bare Edge</option>
+<option value="89">089 edg:Honker</option>
+<option value="90">090 edg:Mr.Edge</option>
+<option value="91">091 edg:19inch Nails</option>
+<option value="92">092 vox:Zephyr</option>
+<option value="93">093 vox:Air Voices</option>
+<option value="94">094 vox:SIRRUS</option>
+<option value="95">095 vox:Future Vox</option>
+<option value="96">096 vox:Bliss</option>
+<option value="97">097 vox:ARMAGEDDON</option>
+<option value="98">098 vox:ANGELIKA</option>
+<option value="99">099 vox:Galaxal</option>
+<option value="100">100 vox:Bandvoxxe</option>
+<option value="101">101 vox:Exploration</option>
+<option value="102">102 vox:AfterShock</option>
+<option value="103">103 vox:SUrFaCinG</option>
+<option value="104">104 vox:Ethereal</option>
+<option value="105">105 vox:Suffocating</option>
+<option value="106">106 vox:Space Voxxal</option>
+<option value="107">107 vox:Upper Bottom</option>
+<option value="108">108 air:GhostStories</option>
+<option value="109">109 air:Breath Stack</option>
+<option value="110">110 air:Tibet</option>
+<option value="111">111 air:Futura</option>
+<option value="112">112 air:Air Surf :-)</option>
+<option value="113">113 air:Eastern Mist</option>
+<option value="114">114 air:Vampirella</option>
+<option value="115">115 air:Sonar Ghost</option>
+<option value="116">116 air:Druidz Song</option>
+<option value="117">117 air:Digital Noiz</option>
+<option value="118">118 air:Scary Noise</option>
+<option value="119">119 air:StickyFinger</option>
+<option value="120">120 air:LeaveMeAlone</option>
+<option value="121">121 air:Breathless</option>
+<option value="122">122 air:FluteState</option>
+<option value="123">123 led:More Senses</option>
+<option value="124">124 led:Hisynk Lead</option>
+<option value="125">125 led:P5 Zentropa</option>
+<option value="126">126 led:Funky-B mono</option>
+<option value="127">127 led:Solo Environ</option>
+</optgroup>
+<optgroup label="User Bank 2 / XLEAD Bank 2">
+<option value="0">000 bpm:Synthex 80's</option>
+<option value="1">001 bpm:Tempo LFOs</option>
+<option value="2">002 bpm:Cult-feel</option>
+<option value="3">003 bpm:SakuraTime</option>
+<option value="4">004 bpm:"Carpe Diem"</option>
+<option value="5">005 bpm:Monster</option>
+<option value="6">006 bpm:Love 1</option>
+<option value="7">007 bpm:Bouncerette</option>
+<option value="8">008 bpm:L'room mono</option>
+<option value="9">009 bpm:Reepeter</option>
+<option value="10">010 bpm:HOUSE</option>
+<option value="11">011 bpm:GRITS</option>
+<option value="12">012 bpm:TRIPPER</option>
+<option value="13">013 bpm:Higher Power</option>
+<option value="14">014 bpm:Solace</option>
+<option value="15">015 bpm:Lunar Pad</option>
+<option value="16">016 bpm:CReeP mono</option>
+<option value="17">017 bpm:Trashy</option>
+<option value="18">018 bpm:Mercy</option>
+<option value="19">019 bpm:Wading</option>
+<option value="20">020 bpm:Multisteps</option>
+<option value="21">021 bpm:Squeapels</option>
+<option value="22">022 bpm:Grinded</option>
+<option value="23">023 bpm:SteppedDream</option>
+<option value="24">024 bpm:Clocking Out</option>
+<option value="25">025 bpm:Bubbler</option>
+<option value="26">026 bpm:End</option>
+<option value="27">027 bpm:Wicked Low</option>
+<option value="28">028 bpm:RadioDaze</option>
+<option value="29">029 bpm:Panhandel</option>
+<option value="30">030 bpm:Sparkle</option>
+<option value="31">031 bpm:Square Rise</option>
+<option value="32">032 arp:Hollographik</option>
+<option value="33">033 arp:Pele</option>
+<option value="34">034 arp:C2 Dmachine</option>
+<option value="35">035 arp:Lust up mono</option>
+<option value="36">036 arp:Bottom Perc</option>
+<option value="37">037 arp:You Know It</option>
+<option value="38">038 arp:Toxic Vox</option>
+<option value="39">039 arp:Deeper Love</option>
+<option value="40">040 arp:Full Time</option>
+<option value="41">041 arp:OrbisTabula1</option>
+<option value="42">042 arp:OrbisPitcher</option>
+<option value="43">043 arp:Dreamer</option>
+<option value="44">044 arp:Palomar</option>
+<option value="45">045 arp:theGrind</option>
+<option value="46">046 arp:Fundamentals</option>
+<option value="47">047 arp:Tron X</option>
+<option value="48">048 arp:XL Feel</option>
+<option value="49">049 arp:B-loid</option>
+<option value="50">050 arp:Glider</option>
+<option value="51">051 arp:Axis One</option>
+<option value="52">052 arp:Bouchete</option>
+<option value="53">053 arp:Saw Standard</option>
+<option value="54">054 arp:Tekno Cheep</option>
+<option value="55">055 arp:Phrophetics</option>
+<option value="56">056 arp:SineDrum</option>
+<option value="57">057 arp:CricketGruve</option>
+<option value="58">058 arp:Whisper</option>
+<option value="59">059 arp:Gut-P mono</option>
+<option value="60">060 arp:MooGie-D</option>
+<option value="61">061 arp:No Lo                     mono</option>
+<option value="62">062 arp:Trip Hard</option>
+<option value="63">063 arp:Sanctuary</option>
+<option value="64">064 arp:LITTLE Guy</option>
+<option value="65">065 arp:Kosy Love</option>
+<option value="66">066 arp:Bust In</option>
+<option value="67">067 arp:Uroboros</option>
+<option value="68">068 arp:Mighty Pulse</option>
+<option value="69">069 arp:JUNOsis</option>
+<option value="70">070 arp:C2-Play me</option>
+<option value="71">071 arp:C2-Play me2</option>
+<option value="72">072 arp:T-2000</option>
+<option value="73">073 arp:HardNormlMom</option>
+<option value="74">074 arp:On The Run</option>
+<option value="75">075 arp:Pissto Hi</option>
+<option value="76">076 arp:Byg Stryngs</option>
+<option value="77">077 arp:Space Coast</option>
+<option value="78">078 arp:Futura</option>
+<option value="79">079 wal:Ripped</option>
+<option value="80">080 wal:Balls2The...</option>
+<option value="81">081 wal:W6 3sEvEn</option>
+<option value="82">082 wal:Field</option>
+<option value="83">083 wal:ABYSS</option>
+<option value="84">084 wal:DonkeyBreath</option>
+<option value="85">085 wal:GoSpeedRacer</option>
+<option value="86">086 wal:REZARECT</option>
+<option value="87">087 wal:Tension</option>
+<option value="88">088 wal:Arrival</option>
+<option value="89">089 wal:Maryland</option>
+<option value="90">090 wal:ByzantineNze</option>
+<option value="91">091 wal:Thickets</option>
+<option value="92">092 wal:Big Wall</option>
+<option value="93">093 wal:Silkness</option>
+<option value="94">094 wal:Marvs Modulo</option>
+<option value="95">095 wal:Luscious</option>
+<option value="96">096 wal:BACKDRAFT</option>
+<option value="97">097 wal:I made it</option>
+<option value="98">098 wal:DailyBread</option>
+<option value="99">099 wal:Clavonate</option>
+<option value="100">100 wal:HoverCraft</option>
+<option value="101">101 wal:C-Ride mono</option>
+<option value="102">102 wal:Duckfuzz</option>
+<option value="103">103 wal:MaMMoTH</option>
+<option value="104">104 wal:Ice Ring</option>
+<option value="105">105 wal:Love 2bee</option>
+<option value="106">106 wal:Uncle Fester</option>
+<option value="107">107 wal:THE MACHEEN</option>
+<option value="108">108 wal:Strangled</option>
+<option value="109">109 wal:DOOM 2020</option>
+<option value="110">110 led:JungleX mono</option>
+<option value="111">111 led:Hypass Ditty</option>
+<option value="112">112 led:Mono PolyFX</option>
+<option value="113">113 led:Muffle Sync</option>
+<option value="114">114 led:CazioTone</option>
+<option value="115">115 led:Groove Wow</option>
+<option value="116">116 led:Technoval</option>
+<option value="117">117 led:Krane mono</option>
+<option value="118">118 led:Wormsine</option>
+<option value="119">119 led:Dreamlead</option>
+<option value="120">120 led:Tunnelituar</option>
+<option value="121">121 led:Crunchette</option>
+<option value="122">122 led:Blizzer</option>
+<option value="123">123 led:Junosquare</option>
+<option value="124">124 led:Multisync</option>
+<option value="125">125 led:WiggleWorm</option>
+<option value="126">126 led:Levita Brass</option>
+<option value="127">127 led:DesertTrance</option>
+</optgroup>
+<optgroup label="User Bank 3 / XLEAD Bank 3">
+<option value="0">000 KEY-C3.mid</option>
+<option value="1">001 AIR-Bat Pann</option>
+<option value="2">002 AIR-Breathless</option>
+<option value="3">003 AIR-Futura</option>
+<option value="4">004 BAS-1 Shot</option>
+<option value="5">005 BAS-2600x</option>
+<option value="6">006 BAS-3O3x</option>
+<option value="7">007 BAS-Acid Mono</option>
+<option value="8">008 BAS-BadTubex</option>
+<option value="9">009 BAS-Bullit</option>
+<option value="10">010 BAS-Dist TB1</option>
+<option value="11">011 BAS-DistortoTBx</option>
+<option value="12">012 BAS-DoFi</option>
+<option value="13">013 BAS-Filter 1</option>
+<option value="14">014 BAS-Filter 2</option>
+<option value="15">015 BAS-Filter 3</option>
+<option value="16">016 BAS-Heavy M</option>
+<option value="17">017 BAS-Interfear</option>
+<option value="18">018 BAS-Lo-Za</option>
+<option value="19">019 BAS-Metal Heartx</option>
+<option value="20">020 BAS-Mini Morex</option>
+<option value="21">021 BAS-Pdg</option>
+<option value="22">022 BAS-Q Bassx</option>
+<option value="23">023 BAS-SE Microx</option>
+<option value="24">024 BAS-Say Whatx</option>
+<option value="25">025 BAS-Shiftx</option>
+<option value="26">026 BAS-Sub Corex</option>
+<option value="27">027 BEL-Bellsa</option>
+<option value="28">028 BEL-Modular</option>
+<option value="29">029 BEL-Mystery</option>
+<option value="30">030 BPM-Boogy</option>
+<option value="31">031 BPM-Bounce</option>
+<option value="32">032 BPM-UnderC</option>
+<option value="33">033 BTS-007 1</option>
+<option value="34">034 BTS-4am flyin 1</option>
+<option value="35">035 BTS-808 Street 1</option>
+<option value="36">036 BTS-Acid 1</option>
+<option value="37">037 BTS-Big Body 1</option>
+<option value="38">038 BTS-Big Shaker 1</option>
+<option value="39">039 BTS-BlackHouse1</option>
+<option value="40">040 BTS-D&B Smooth 2</option>
+<option value="41">041 BTS-D&B Tight 1</option>
+<option value="42">042 BTS-D-House 1</option>
+<option value="43">043 BTS-DJ-A.mid</option>
+<option value="44">044 BTS-Dark Hero 1</option>
+<option value="45">045 BTS-Dist Treo 1</option>
+<option value="46">046 BTS-DoFi 1</option>
+<option value="47">047 BTS-Drumatic 1.mid</option>
+<option value="48">048 BTS-Elbowroom 1</option>
+<option value="49">049 BTS-Europiavis1</option>
+<option value="50">050 BTS-Frantikk 1.mid</option>
+<option value="51">051 BTS-Ginger 1</option>
+<option value="52">052 BTS-Groove II 1</option>
+<option value="53">053 BTS-Groove IT 1</option>
+<option value="54">054 BTS-HBtoo 3</option>
+<option value="55">055 BTS-Heaven 3</option>
+<option value="56">056 BTS-HiHo 1</option>
+<option value="57">057 BTS-Indy-T 1</option>
+<option value="58">058 BTS-Jump Hard 1</option>
+<option value="59">059 BTS-Kraftwork 1</option>
+<option value="60">060 BTS-L-101 1</option>
+<option value="61">061 BTS-Light-R 1.smf</option>
+<option value="62">062 BTS-Lo-Z 1</option>
+<option value="63">063 BTS-LoFi 1</option>
+<option value="64">064 BTS-Logic1</option>
+<option value="65">065 BTS-Mind Game 2</option>
+<option value="66">066 BTS-Mind Game 3</option>
+<option value="67">067 BTS-Peak777 1</option>
+<option value="68">068 BTS-Perception 1</option>
+<option value="69">069 BTS-RollerGirl 1.mid</option>
+<option value="70">070 BTS-Rush 1</option>
+<option value="71">071 BTS-Semi-Time 2</option>
+<option value="72">072 BTS-System X 1</option>
+<option value="73">073 BTS-TeknoTribe 1</option>
+<option value="74">074 BTS-The Beast 1.mid</option>
+<option value="75">075 BTS-Trancer 1</option>
+<option value="76">076 BTS-TranzAmbient</option>
+<option value="77">077 BTS-Unhooked 1</option>
+<option value="78">078 BTS-X-Mox 1.smf</option>
+<option value="79">079 BTS-Xie-racy 1</option>
+<option value="80">080 BTS-HI-NRG</option>
+<option value="81">081 BTS-Trance Date 1</option>
+<option value="82">082 BTS-Club it 1</option>
+<option value="83">083 BTS-Lily's Rage</option>
+<option value="84">084 BTS-Rocket</option>
+<option value="85">085 EDG-Boxt filter</option>
+<option value="86">086 EDG-FilterQ</option>
+<option value="87">087 GTR-Chuckinx</option>
+<option value="88">088 HIT-Enrezzle</option>
+<option value="89">089 HIT-Guit Hits</option>
+<option value="90">090 HIT-Orgy Hitts</option>
+<option value="91">091 HIT-Tite</option>
+<option value="92">092 KEY-C Triad.mid</option>
+<option value="93">093 KEY-C2 (2 Bars)</option>
+<option value="94">094 KEY-C2 (4 Bars)</option>
+<option value="95">095 KEY-C3 (2 Bars).mid</option>
+<option value="96">096 KEY-C3 (4 Bars).mid</option>
+<option value="97">097 KEY-C4.mid</option>
+<option value="98">098 KEY-Cm7.mid</option>
+<option value="99">099 KEY-Cm9.mid</option>
+<option value="100">100 KEY-Cmaj7.mid</option>
+<option value="101">101 KEY-CUp-Down.mid</option>
+<option value="102">102 KEY-Cs Up.mid</option>
+<option value="103">103 KEY-DxJx</option>
+<option value="104">104 KEY-Groove</option>
+<option value="105">105 KEY-Organik</option>
+<option value="106">106 KEY-Synhiss</option>
+<option value="107">107 KIT-80's 4track</option>
+<option value="108">108 KIT-Boom 4track</option>
+<option value="109">109 KIT-Compre 4track</option>
+<option value="110">110 KIT-Dirt 5track</option>
+<option value="111">111 KIT-G 4track</option>
+<option value="112">112 KIT-Hide 4track</option>
+<option value="113">113 KIT-K'werk 4track</option>
+<option value="114">114 KIT-Mant 4track</option>
+<option value="115">115 LED-Boxt mono</option>
+<option value="116">116 LED-Krane</option>
+<option value="117">117 LED-More S</option>
+<option value="118">118 LED-Tunnel</option>
+<option value="119">119 LED-Wet</option>
+<option value="120">120 NSE-LucyF</option>
+<option value="121">121 PAD-BP Strings</option>
+<option value="122">122 PAD-Danube</option>
+<option value="123">123 PAD-Dark City</option>
+<option value="124">124 PRC-Construct</option>
+<option value="125">125 PRC-Crash Head</option>
+<option value="126">126 RAW-Drama</option>
+<option value="127">127 SYN- 7064</option>
+</optgroup>
+          </select>
+        </div>
+        <div class="lg:col-span-6 bg-[#18181b] p-4 rounded border border-zinc-800 space-y-2">
+          <span class="text-xs uppercase font-bold text-yellow-400">Live SysEx Telemetry (XK-6 Model 0x12)</span>
+          <div class="bg-black/80 p-2 text-yellow-300 font-mono text-xs rounded border border-zinc-800 break-all" id="xk6-sysex-hex">
+            F0 18 0F 00 55 01 02 00 03 52 00 F7
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================== -->
+    <!-- VIEW: E-MU VIRTUOSO 2000 VIRTUAL ORCHESTRA               -->
+    <!-- Light silver-grey 1U faceplate with black buttons        -->
+    <!-- ======================================================== -->
+    <section id="view-virtuoso" class="hidden space-y-4">
+      <!-- Virtuoso 2000 Silver-Grey Faceplate -->
+      <div class="bg-gradient-to-r from-[#cbd5e1] via-[#e2e8f0] to-[#cbd5e1] border-2 border-[#94a3b8] rounded-sm p-4 shadow-2xl flex flex-col md:flex-row md:items-center justify-between gap-4 text-black">
+        <div class="flex items-center gap-4">
+          <div class="w-3 h-14 bg-black rounded-sm flex flex-col justify-between py-1 px-0.5 border border-zinc-700 shadow-inner">
+            <div class="w-2 h-2 rounded-full bg-zinc-900 border border-zinc-600"></div>
+            <div class="w-2 h-2 rounded-full bg-zinc-900 border border-zinc-600"></div>
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="text-xs font-black tracking-widest text-white bg-black px-2 py-0.5 rounded font-bold">E-MU SYSTEMS</span>
+              <span class="text-xs text-sky-800 font-mono tracking-wider font-bold">MODEL 9080 • 128-VOICE VIRTUAL ORCHESTRA</span>
+            </div>
+            <h2 class="text-3xl font-extrabold tracking-wider text-slate-900 mt-1 italic font-serif">
+              Virtuoso 2000
+            </h2>
+            <p class="text-xs text-slate-700 font-medium">64MB Orchestral Sessions Vol. 1 & 2 • 50 Z-Plane Filters • 32 MIDI Channels</p>
+          </div>
+        </div>
+
+        <!-- 2x24 Cyan LCD -->
+        <div class="bg-[#031518] border-2 border-cyan-800/80 px-4 py-2.5 rounded shadow-[inset_0_0_12px_rgba(6,182,212,0.3)] font-mono min-w-[340px]">
+          <div class="flex justify-between text-xs text-cyan-300 font-bold tracking-wider">
+            <span id="virtuoso-lcd-line1">U0: 000 vln:16 Leg Str</span>
+            <span class="text-sky-300 font-semibold">128-VOICE</span>
+          </div>
+          <div class="flex justify-between text-xs text-cyan-400/90 mt-1 border-t border-cyan-900/60 pt-1">
+            <span id="virtuoso-lcd-line2">Fc:120 Q:02 Expression:64</span>
+            <span class="text-amber-400 font-bold">REVERB: CONCERT</span>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <button onclick="auditionVirtuoso()" class="bg-[#0284c7] hover:bg-[#0369a1] text-white px-4 py-2 text-xs font-bold shadow-md transition flex items-center gap-1.5 rounded">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            Audition Strings
+          </button>
+        </div>
+      </div>
+
+      <!-- Controls: Black Knobs on Silver-Grey Chassis -->
+      <div class="bg-[#1e293b] border border-slate-700 p-5 rounded-sm shadow-xl space-y-4">
+        <div class="flex items-center justify-between pb-3 border-b border-slate-700">
+          <h3 class="text-sm font-bold tracking-wider uppercase text-sky-300">Orchestral Acoustic Resonator & Expression Controls</h3>
+          <span class="text-xs font-mono text-zinc-400">128 Polyphonic Voices • Dual MIDI Ports A/B</span>
+        </div>
+
+        <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-4">
+          <div class="bg-black/30 p-3 rounded border border-slate-800 flex flex-col items-center">
+            <span class="text-[11px] font-bold text-sky-200 uppercase mb-1">Acoustic Cutoff</span>
+            <input type="range" id="virtuoso-cutoff" min="0" max="255" value="120" oninput="updateVirtuosoParam('cutoff', this.value)" class="w-full accent-sky-400 cursor-pointer">
+            <div class="flex justify-between w-full text-[10px] font-mono mt-1 text-zinc-400">
+              <span>0</span><span id="val-virtuoso-cutoff">120</span><span>255</span>
+            </div>
+          </div>
+          <div class="bg-black/30 p-3 rounded border border-slate-800 flex flex-col items-center">
+            <span class="text-[11px] font-bold text-sky-200 uppercase mb-1">Resonance (Q)</span>
+            <input type="range" id="virtuoso-res" min="0" max="15" value="2" oninput="updateVirtuosoParam('resonance', this.value)" class="w-full accent-sky-400 cursor-pointer">
+            <div class="flex justify-between w-full text-[10px] font-mono mt-1 text-zinc-400">
+              <span>0</span><span id="val-virtuoso-res">2</span><span>15</span>
+            </div>
+          </div>
+          <div class="bg-black/30 p-3 rounded border border-slate-800 flex flex-col items-center">
+            <span class="text-[11px] font-bold text-sky-200 uppercase mb-1">Morph / Expression</span>
+            <input type="range" id="virtuoso-morph" min="0" max="127" value="64" oninput="updateVirtuosoParam('morph', this.value)" class="w-full accent-sky-400 cursor-pointer">
+            <div class="flex justify-between w-full text-[10px] font-mono mt-1 text-zinc-400">
+              <span>0</span><span id="val-virtuoso-morph">64</span><span>127</span>
+            </div>
+          </div>
+          <div class="bg-black/30 p-3 rounded border border-slate-800 flex flex-col items-center">
+            <span class="text-[11px] font-bold text-sky-200 uppercase mb-1">Orch Attack</span>
+            <input type="range" id="virtuoso-attack" min="0" max="127" value="25" oninput="updateVirtuosoParam('attack', this.value)" class="w-full accent-sky-400 cursor-pointer">
+            <div class="flex justify-between w-full text-[10px] font-mono mt-1 text-zinc-400">
+              <span>0ms</span><span id="val-virtuoso-attack">25</span><span>127</span>
+            </div>
+          </div>
+          <div class="bg-black/30 p-3 rounded border border-slate-800 flex flex-col items-center">
+            <span class="text-[11px] font-bold text-sky-200 uppercase mb-1">Orch Release</span>
+            <input type="range" id="virtuoso-release" min="0" max="127" value="45" oninput="updateVirtuosoParam('release', this.value)" class="w-full accent-sky-400 cursor-pointer">
+            <div class="flex justify-between w-full text-[10px] font-mono mt-1 text-zinc-400">
+              <span>0ms</span><span id="val-virtuoso-release">45</span><span>127</span>
+            </div>
+          </div>
+          <div class="bg-black/30 p-3 rounded border border-slate-800 flex flex-col items-center">
+            <span class="text-[11px] font-bold text-sky-200 uppercase mb-1">Concert Reverb</span>
+            <input type="range" id="virtuoso-reverb" min="0" max="127" value="64" oninput="updateVirtuosoParam('reverb', this.value)" class="w-full accent-sky-400 cursor-pointer">
+            <div class="flex justify-between w-full text-[10px] font-mono mt-1 text-zinc-400">
+              <span>0</span><span id="val-virtuoso-reverb">64</span><span>127</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Presets & SysEx -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-4">
+        <div class="lg:col-span-6 bg-[#18181b] p-4 rounded border border-zinc-800 space-y-2">
+          <label class="text-xs uppercase font-bold text-sky-400">Virtuoso 2000 Preset Library (512 Presets)</label>
+          <select id="virtuoso-preset-select" onchange="selectVirtuosoPreset(this.value)" class="w-full bg-black border border-zinc-700 text-white p-2 text-xs rounded font-mono">
+            <optgroup label="User Bank 0 / ORCH1 Bank 0 (Strings & Winds)">
+<option value="0">000 vln:16 Leg Str</option>
+<option value="1">001 vln:16 Leg Mono1</option>
+<option value="2">002 vln:16 Leg Mono2</option>
+<option value="3">003 vln:16 Leg HiPas</option>
+<option value="4">004 vln:16 Xpression</option>
+<option value="5">005 vln:16 Xprssn *</option>
+<option value="6">006 vln:16 Leg Oct 1</option>
+<option value="7">007 vln:16 Leg Oct 2</option>
+<option value="8">008 vln:FullViolins1</option>
+<option value="9">009 vln:16 Trems Str</option>
+<option value="10">010 vln:16 Trems Mno</option>
+<option value="11">011 vln:16 Leg&Trems</option>
+<option value="12">012 vln:16 Lg&TrmMno</option>
+<option value="13">013 vln:Stereo Pizz</option>
+<option value="14">014 vln:16 Pizz Mno</option>
+<option value="15">015 vln:16 Pizz Long</option>
+<option value="16">016 vln:16 Leg/Pzz w</option>
+<option value="17">017 vln:16 Pizz/Trem</option>
+<option value="18">018 vln:16 Pizz Plus</option>
+<option value="19">019 vln:16 Leg/Spicv</option>
+<option value="20">020 vln:16 Dark</option>
+<option value="21">021 vln:16 Sim Bow</option>
+<option value="22">022 vln:16 Sleepy</option>
+<option value="23">023 vln:5 Leg Str</option>
+<option value="24">024 vln:5 Leg Mno</option>
+<option value="25">025 vln:5 Xpression</option>
+<option value="26">026 vln:5 Leg Octave</option>
+<option value="27">027 vln:FullViolins2</option>
+<option value="28">028 vln:5 Trems Str</option>
+<option value="29">029 vln:5 Trems Mno</option>
+<option value="30">030 vln:5 Leg Str</option>
+<option value="31">031 vln:5 Pizz Mno</option>
+<option value="32">032 vln:5 Leg/Pizz w</option>
+<option value="33">033 vln:5 Pizz/Trems</option>
+<option value="34">034 vln:5 Spiccato</option>
+<option value="35">035 vln:5 Leg/Spic v</option>
+<option value="36">036 vln:5 Pizz/Spicv</option>
+<option value="37">037 vln:5 Leg/Spic w</option>
+<option value="38">038 vln:5 Dark</option>
+<option value="39">039 vln:5 Sleepy</option>
+<option value="40">040 vln:5 Lg Studio</option>
+<option value="41">041 vln:5 LgStdXprsn</option>
+<option value="42">042 vln:5 LgStd Oct</option>
+<option value="43">043 vln:FullViolins3</option>
+<option value="44">044 vln:5 SpicStudio</option>
+<option value="45">045 vln:5 Lg/SpcStdv</option>
+<option value="46">046 vln:5 Lg/SpcStdw</option>
+<option value="47">047 vln:5 Std Slow</option>
+<option value="48">048 vla:15 Leg Str</option>
+<option value="49">049 vla:15 Leg Mono</option>
+<option value="50">050 vla:15 Legato *</option>
+<option value="51">051 vla:15 Leg Oct</option>
+<option value="52">052 vla:FullViolas 1</option>
+<option value="53">053 vla:15 Leg/Trems</option>
+<option value="54">054 vla:15 Pizz</option>
+<option value="55">055 vla:15 Leg/Pzz w</option>
+<option value="56">056 vla:10 Dreams</option>
+<option value="57">057 vla:5 Leg Str</option>
+<option value="58">058 vla:5 Leg Mno</option>
+<option value="59">059 vla:5 Xpression</option>
+<option value="60">060 vla:5 Leg Oct</option>
+<option value="61">061 vla:FullViolas 2</option>
+<option value="62">062 vla:5 Trems Str</option>
+<option value="63">063 vla:5 Trems Mno</option>
+<option value="64">064 vla:5 Leg&Trems</option>
+<option value="65">065 vla:5 Pizzicato</option>
+<option value="66">066 vla:5 Leg/Pizz w</option>
+<option value="67">067 vla:5 Spiccato</option>
+<option value="68">068 vla:5 Leg/Spic v</option>
+<option value="69">069 vla:5 Lg Studio</option>
+<option value="70">070 vla:5 Std Xprsn</option>
+<option value="71">071 vla:5 Lg Std Oct</option>
+<option value="72">072 vla:FullViolas 3</option>
+<option value="73">073 vla:5 Std Spic</option>
+<option value="74">074 vla:5 StdLg/Spcv</option>
+<option value="75">075 cel:10 Leg Str</option>
+<option value="76">076 cel:10 Leg Mno</option>
+<option value="77">077 cel:10 Legato *</option>
+<option value="78">078 cel:10 Xpression</option>
+<option value="79">079 cel:10 Leg Oct</option>
+<option value="80">080 cel:10 Trems Str</option>
+<option value="81">081 cel:10 Trems Mno</option>
+<option value="82">082 cel:10 Leg/Trems</option>
+<option value="83">083 cel:10 Deepness</option>
+<option value="84">084 cel:10 Pizzicato</option>
+<option value="85">085 cel:10 Leg/Pzz w</option>
+<option value="86">086 cel:10 Spiccato</option>
+<option value="87">087 cel:10 Lg/Spic v</option>
+<option value="88">088 cel:5 Leg Str</option>
+<option value="89">089 cel:5 Leg Mno</option>
+<option value="90">090 cel:5 Xpression</option>
+<option value="91">091 cel:5 Leg Oct</option>
+<option value="92">092 cel:5 Leg/Trems</option>
+<option value="93">093 cel:5 Pizzicato</option>
+<option value="94">094 cel:5 Leg/Pizz w</option>
+<option value="95">095 cel:5 Spiccato</option>
+<option value="96">096 cel:5 Leg/Spic v</option>
+<option value="97">097 cel:5 Lg Studio</option>
+<option value="98">098 cel:5 Std Xprsn</option>
+<option value="99">099 cel:5 Std Spic 1</option>
+<option value="100">100 cel:5 Std Spic 2</option>
+<option value="101">101 bas:6 Leg Str</option>
+<option value="102">102 bas:6 Xpression</option>
+<option value="103">103 bas:6 Legato *</option>
+<option value="104">104 bas:3 Legato</option>
+<option value="105">105 bas:6&3 Leg/Spic</option>
+<option value="106">106 bas:6&3 Leg Oct</option>
+<option value="107">107 bas:4 Trems</option>
+<option value="108">108 bas:6Leg&4Trems</option>
+<option value="109">109 bas:3Leg&4Trems</option>
+<option value="110">110 bas:3 Spiccato</option>
+<option value="111">111 bas:3 Leg/Spic v</option>
+<option value="112">112 bas:3 Pizzicato</option>
+<option value="113">113 bas:3 Leg/Pizz w</option>
+<option value="114">114 bas:3 Lg Studio</option>
+<option value="115">115 bas:3 Std Xprssn</option>
+<option value="116">116 bas:Full House</option>
+<option value="117">117 bas:Full Depth</option>
+<option value="118">118 cmb:Bss&CelliTrm</option>
+<option value="119">119 str:SynthString1</option>
+<option value="120">120 str:SynthString2</option>
+<option value="121">121 str:SynthString3</option>
+<option value="122">122 str:SynthString4</option>
+<option value="123">123 str:SynthString5</option>
+<option value="124">124 str:SynthString6</option>
+<option value="125">125 str:SynthString7</option>
+<option value="126">126 str:SynthString8</option>
+<option value="127">127 str:SlackLgStdSt</option>
+</optgroup>
+<optgroup label="User Bank 1 / ORCH1 Bank 1 (Brass & Section)">
+<option value="0">000 str:Virtuoso</option>
+<option value="1">001 orc:Symphony</option>
+<option value="2">002 orc:Orchestra</option>
+<option value="3">003 orc:Ensemble</option>
+<option value="4">004 wnd:Woodwinds</option>
+<option value="5">005 brs:Brass</option>
+<option value="6">006 prc:Batterie</option>
+<option value="7">007 hrp:Harp</option>
+<option value="8">008 str:Mass Strings</option>
+<option value="9">009 str:Hall Pizz</option>
+<option value="10">010 str:HallSpiccato</option>
+<option value="11">011 str:Chamber</option>
+<option value="12">012 cmb:Bell Strings</option>
+<option value="13">013 cmb:String&Woods</option>
+<option value="14">014 cmb:String&Brass</option>
+<option value="15">015 cmb:Brass&Woods</option>
+<option value="16">016 orc:Unison Orch</option>
+<option value="17">017 wnd:Soft Winds</option>
+<option value="18">018 wnd:HallWindSect</option>
+<option value="19">019 wnd:Flute Beauty</option>
+<option value="20">020 wnd:Bassoon Hall</option>
+<option value="21">021 brs:Big Brass</option>
+<option value="22">022 cmb:SoloBone&Wnd</option>
+<option value="23">023 brs:Trumpet</option>
+<option value="24">024 str:Quartet</option>
+<option value="25">025 prc:Bells</option>
+<option value="26">026 str:Leg/Spicv</option>
+<option value="27">027 str:Studio Leg</option>
+<option value="28">028 str:StudioXprssn</option>
+<option value="29">029 str:Hall Pizz 2</option>
+<option value="30">030 str:Studio Spic</option>
+<option value="31">031 str:Combo Spic</option>
+<option value="32">032 str:Hall Trems</option>
+<option value="33">033 str:Chamber 2</option>
+<option value="34">034 str:Solo&HallStr</option>
+<option value="35">035 str:Solo & Orch</option>
+<option value="36">036 str:Solo Quartet</option>
+<option value="37">037 str:Solo Pizz 1</option>
+<option value="38">038 str:Pizz Combo</option>
+<option value="39">039 hrp:Harp&Strings</option>
+<option value="40">040 str:Voice String</option>
+<option value="41">041 cmb:SynBrass&Pad</option>
+<option value="42">042 org:Pipe Organ</option>
+<option value="43">043 org:Voice Organ1</option>
+<option value="44">044 str:Solo Vibrato</option>
+<option value="45">045 cmb:FrenchString</option>
+<option value="46">046 sfx:THZ *</option>
+<option value="47">047 sfx:Flutedream</option>
+<option value="48">048 sfx:extrinsic</option>
+<option value="49">049 hrp:HarpFantasy</option>
+<option value="50">050 prc:Bss/Snr/Crsh</option>
+<option value="51">051 prc:Pitched Timp</option>
+<option value="52">052 prc:All Timpani</option>
+<option value="53">053 prc:All Piatti</option>
+<option value="54">054 prc:All Snares</option>
+<option value="55">055 prc:All BassDrum</option>
+<option value="56">056 prc:Batterie 2</option>
+<option value="57">057 prc:Orch Bells</option>
+<option value="58">058 prc:TubularBells</option>
+<option value="59">059 prc:Celesta</option>
+<option value="60">060 prc:Xylophone</option>
+<option value="61">061 prc:Marimba</option>
+<option value="62">062 prc:Marimba&Pizz</option>
+<option value="63">063 prc:Mallets</option>
+<option value="64">064 str:HallLgSctn1</option>
+<option value="65">065 str:HallLgSctn2</option>
+<option value="66">066 str:FulLegHall</option>
+<option value="67">067 str:HallXprsOct1</option>
+<option value="68">068 str:HallXprsOct2</option>
+<option value="69">069 str:Hall Lg Plus</option>
+<option value="70">070 str:Hall Vel Leg</option>
+<option value="71">071 str:Hall Marcato</option>
+<option value="72">072 str:Vln/Celli 1</option>
+<option value="73">073 str:Vln/Celli 2</option>
+<option value="74">074 str:Bass/Violin1</option>
+<option value="75">075 str:Bass/Violin2</option>
+<option value="76">076 str:Vln&Viola 1</option>
+<option value="77">077 str:Vln&Viola 2</option>
+<option value="78">078 str:Viola/Celli</option>
+<option value="79">079 str:Bass/Celli</option>
+<option value="80">080 str:Hall Trems 2</option>
+<option value="81">081 str:Hall Trems 3</option>
+<option value="82">082 str:HallLgw/Tmp</option>
+<option value="83">083 str:Hall Spic 2</option>
+<option value="84">084 str:Hall Spic 3</option>
+<option value="85">085 str:Hall Spic 4</option>
+<option value="86">086 str:Hall Pizz 3</option>
+<option value="87">087 str:Hall Pizz 4</option>
+<option value="88">088 str:Hall Pizz 5</option>
+<option value="89">089 str:HallPizzOct</option>
+<option value="90">090 str:HallSpicPizz</option>
+<option value="91">091 str:HallLegato</option>
+<option value="92">092 str:Hall5Sectn 2</option>
+<option value="93">093 str:Hall5Sectn 3</option>
+<option value="94">094 str:Hall5Sectn 4</option>
+<option value="95">095 str:Hall5SectOct</option>
+<option value="96">096 str:Hall5SctExpr</option>
+<option value="97">097 str:Hall5SctDark</option>
+<option value="98">098 str:Hll5VlnViola</option>
+<option value="99">099 str:Hll5VlnCelli</option>
+<option value="100">100 str:Hll5VlaCelli</option>
+<option value="101">101 str:Hll5VlaBass</option>
+<option value="102">102 str:Hll5BssCelli</option>
+<option value="103">103 str:Studio Leg 2</option>
+<option value="104">104 str:Studio Leg 3</option>
+<option value="105">105 str:Studio Leg 4</option>
+<option value="106">106 str:Studio Leg 5</option>
+<option value="107">107 str:Std Marcato</option>
+<option value="108">108 str:Std Leg Plus</option>
+<option value="109">109 str:Std5VioCello</option>
+<option value="110">110 str:Std5VlaCello</option>
+<option value="111">111 str:Std5VlnBass</option>
+<option value="112">112 str:StudioSpic 1</option>
+<option value="113">113 str:StudioSpic 2</option>
+<option value="114">114 str:StudioSpic 3</option>
+<option value="115">115 str:StdSpicPizz</option>
+<option value="116">116 str:Combo5VlaVio</option>
+<option value="117">117 str:Leg Combo</option>
+<option value="118">118 str:Marc Combo</option>
+<option value="119">119 str:LegComboOct1</option>
+<option value="120">120 str:LegComboOct2</option>
+<option value="121">121 lnk:ComboPitzLnk</option>
+<option value="122">122 lnk:BssSnrCshLnk</option>
+<option value="123">123 lnk:Chamber1Link</option>
+<option value="124">124 lnk:Chamber2Link</option>
+<option value="125">125 lnk:UniOrch Link</option>
+<option value="126">126 lnk:OrchLink</option>
+<option value="127">127 lnk:PtchdTimpLnk</option>
+</optgroup>
+<optgroup label="User Bank 2 / ORCH2 Bank 0 (Percussion & Solos)">
+<option value="0">000 str:Second Mass</option>
+<option value="1">001 str:Pizz Orch</option>
+<option value="2">002 str:HallLgTremWh</option>
+<option value="3">003 str:Solo&Hll5Str</option>
+<option value="4">004 cmb:String/Timp</option>
+<option value="5">005 cmb:Str/Timp/Wnd</option>
+<option value="6">006 cmb:Str/Timp/Brs</option>
+<option value="7">007 cmb:Str/Harp 1</option>
+<option value="8">008 str:Hall Spic 5</option>
+<option value="9">009 str:HallXprssn</option>
+<option value="10">010 str:Wind&HallStr</option>
+<option value="11">011 cmb:WSec/Hall 1</option>
+<option value="12">012 cmb:WSec/Hall2w</option>
+<option value="13">013 str:SoloStr&Wind</option>
+<option value="14">014 str:S.Wnd&S.Str</option>
+<option value="15">015 cmb:BSec/Hall</option>
+<option value="16">016 wnd:Woodwinds 1</option>
+<option value="17">017 wnd:Woodwinds 2</option>
+<option value="18">018 wnd:Woodwinds 3</option>
+<option value="19">019 wnd:Woodwinds 4</option>
+<option value="20">020 wnd:Woodwinds 5</option>
+<option value="21">021 wnd:Woodwinds 6</option>
+<option value="22">022 wnd:Warm Winds</option>
+<option value="23">023 wnd:BsClar/CtraB</option>
+<option value="24">024 wnd:mf WoodSectn</option>
+<option value="25">025 wnd:Mega-Woods</option>
+<option value="26">026 wnd:Deep Woods</option>
+<option value="27">027 cmb:SoloBone&Wnd</option>
+<option value="28">028 cmb:Brass&Reeds</option>
+<option value="29">029 cmb:Winds&Brass</option>
+<option value="30">030 cmb:WarmBrssWind</option>
+<option value="31">031 brs:Dyna Brass</option>
+<option value="32">032 brs:Sfz Brass</option>
+<option value="33">033 brs:SectionBrass</option>
+<option value="34">034 brs:Big Brass 2</option>
+<option value="35">035 brs:FrenchHorns2</option>
+<option value="36">036 brs:FHornsp/mf/f</option>
+<option value="37">037 brs:Trmptsp/m/f</option>
+<option value="38">038 brs:Trumpets</option>
+<option value="39">039 brs:Warm Bones</option>
+<option value="40">040 brs:Tbones p/m/f</option>
+<option value="41">041 brs:BTbones p/mf</option>
+<option value="42">042 brs:Trumpet *</option>
+<option value="43">043 brs:Trombone *</option>
+<option value="44">044 brs:FrenchHorn *</option>
+<option value="45">045 brs:Brass 1 *</option>
+<option value="46">046 brs:Brass 2 *</option>
+<option value="47">047 brs:Brass 3 *</option>
+<option value="48">048 brs:Brass 4 *</option>
+<option value="49">049 wnd:Piccolo *</option>
+<option value="50">050 wnd:Flute *</option>
+<option value="51">051 wnd:AltoFlute*</option>
+<option value="52">052 wnd:Clarinet *</option>
+<option value="53">053 wnd:English Hn *</option>
+<option value="54">054 wnd:BassClar *</option>
+<option value="55">055 wnd:Bassoon *</option>
+<option value="56">056 wnd:Full Wood 1*</option>
+<option value="57">057 wnd:Full Wood 2*</option>
+<option value="58">058 cmb:Flt/Clar w *</option>
+<option value="59">059 prc:Batterie 3</option>
+<option value="60">060 prc:Batterie *</option>
+<option value="61">061 prc:Dual Batt's</option>
+<option value="62">062 prc:The Timps</option>
+<option value="63">063 prc:VeloTimp 1</option>
+<option value="64">064 prc:VeloTimp 2</option>
+<option value="65">065 prc:VeloTimp 3</option>
+<option value="66">066 prc:VeloTimp 4</option>
+<option value="67">067 prc:Velo Timp1/2</option>
+<option value="68">068 prc:Velo Timp3/4</option>
+<option value="69">069 prc:Bass Drums</option>
+<option value="70">070 prc:Bass Drm *</option>
+<option value="71">071 prc:Velo Bass 1</option>
+<option value="72">072 prc:Velo Bass 2</option>
+<option value="73">073 prc:Velo Bass 3</option>
+<option value="74">074 prc:Q'd Snares</option>
+<option value="75">075 prc:Snare Drm *</option>
+<option value="76">076 prc:Velo Snare 1</option>
+<option value="77">077 prc:Velo Snare 2</option>
+<option value="78">078 prc:Velo Snare 3</option>
+<option value="79">079 prc:Timps&Snares</option>
+<option value="80">080 prc:Timp&Cymbl 1</option>
+<option value="81">081 prc:Timp&Cymbl 2</option>
+<option value="82">082 prc:Timp&Cymbl 3</option>
+<option value="83">083 prc:VelTimpDrms1</option>
+<option value="84">084 prc:Clockworx</option>
+<option value="85">085 prc:Piatti Metal</option>
+<option value="86">086 prc:Velo Piatti</option>
+<option value="87">087 prc:Timps&Patti</option>
+<option value="88">088 prc:OrchBells</option>
+<option value="89">089 prc:OrchBells *</option>
+<option value="90">090 prc:TublrBells</option>
+<option value="91">091 prc:TublrBells *</option>
+<option value="92">092 prc:Bell Tree</option>
+<option value="93">093 prc:Bell Tree *</option>
+<option value="94">094 prc:Celesta</option>
+<option value="95">095 prc:Celesta *</option>
+<option value="96">096 prc:The Bells</option>
+<option value="97">097 prc:Xylophone</option>
+<option value="98">098 prc:Xylophone *</option>
+<option value="99">099 prc:Marimba</option>
+<option value="100">100 prc:Marimba *</option>
+<option value="101">101 prc:Marimba&Xylo</option>
+<option value="102">102 hrp:Harp 2</option>
+<option value="103">103 hrp:Harp 3</option>
+<option value="104">104 hrp:Harp 4</option>
+<option value="105">105 hrp:Magic Harps</option>
+<option value="106">106 cmb:Pizz/Harp/Mb</option>
+<option value="107">107 org:Simple Organ</option>
+<option value="108">108 org:Voice Organ2</option>
+<option value="109">109 brs:SynthBrass 1</option>
+<option value="110">110 brs:SynthBrass 2</option>
+<option value="111">111 brs:SynthBrass 3</option>
+<option value="112">112 brs:SynthBrass 4</option>
+<option value="113">113 brs:Synth Wind</option>
+<option value="114">114 brs:4th Trump</option>
+<option value="115">115 sfx:Bowed Radio</option>
+<option value="116">116 sfx:Orchbella</option>
+<option value="117">117 sfx:Reedone</option>
+<option value="118">118 sfx:Lodown Bass</option>
+<option value="119">119 sfx:Richdelay</option>
+<option value="120">120 sfx:Voxcycle</option>
+<option value="121">121 sfx:D Tudor</option>
+<option value="122">122 sfx:Multipizz</option>
+<option value="123">123 sfx:Orion</option>
+<option value="124">124 prc:Timberell</option>
+<option value="125">125 prc:Childbells</option>
+<option value="126">126 lnk:VelTmpDm1Lnk</option>
+<option value="127">127 :V2K 1.2</option>
+</optgroup>
+<optgroup label="User Bank 3 / ORCH2 Bank 1 (Ensembles & Combos)">
+<option value="0">000 wnd:All Winds</option>
+<option value="1">001 wnd:Reed Group1</option>
+<option value="2">002 wnd:Reed Group2</option>
+<option value="3">003 wnd:Reed Group3</option>
+<option value="4">004 wnd:FluteSection</option>
+<option value="5">005 wnd:Simple Woods</option>
+<option value="6">006 wnd:Light Winds</option>
+<option value="7">007 wnd:Woods Room</option>
+<option value="8">008 wnd:LoSoft Woods</option>
+<option value="9">009 wnd:Woodwinds1</option>
+<option value="10">010 wnd:Woodwinds2</option>
+<option value="11">011 brs:All Brass 1</option>
+<option value="12">012 brs:All Brass 2</option>
+<option value="13">013 brs:All Brass 3</option>
+<option value="14">014 brs:Large Brass</option>
+<option value="15">015 brs:OctTrumpets</option>
+<option value="16">016 brs:OctBrassSect</option>
+<option value="17">017 cmb:Vln/Oboe w</option>
+<option value="18">018 cmb:Cel/Bassn w</option>
+<option value="19">019 cmb:Bss/CntBsn w</option>
+<option value="20">020 cmb:Flt/Clar w</option>
+<option value="21">021 cmb:Flt/Oboe w</option>
+<option value="22">022 wnd:2 AFlutes mf</option>
+<option value="23">023 str:Quartet 1</option>
+<option value="24">024 str:Quartet 2</option>
+<option value="25">025 str:Group Pizz 1</option>
+<option value="26">026 str:Group Pizz 2</option>
+<option value="27">027 str:Group Pizz 3</option>
+<option value="28">028 str:Group Pizz 4</option>
+<option value="29">029 vln:SoloVibrato1</option>
+<option value="30">030 vln:SoloVibrato2</option>
+<option value="31">031 vln:Solo Pizz</option>
+<option value="32">032 vln:Solo/Pizz w</option>
+<option value="33">033 vla:SoloVibrato1</option>
+<option value="34">034 vla:SoloVibrato2</option>
+<option value="35">035 vla:SoloVibrato3</option>
+<option value="36">036 vla:Sad Viola</option>
+<option value="37">037 vla:Solo Pizz</option>
+<option value="38">038 vla:Solo/Pizz w</option>
+<option value="39">039 cel:SoloVibrato1</option>
+<option value="40">040 cel:SoloVibrato2</option>
+<option value="41">041 cel:Solo Pizz</option>
+<option value="42">042 cel:Solo/Pizz w</option>
+<option value="43">043 bas:SoloVibrato1</option>
+<option value="44">044 bas:SoloVibrato2</option>
+<option value="45">045 bas:Solo Pizz</option>
+<option value="46">046 bas:Solo/Pizz w</option>
+<option value="47">047 str:BassClloDeep</option>
+<option value="48">048 wnd:Piccolo</option>
+<option value="49">049 wnd:Piccolo p</option>
+<option value="50">050 wnd:Atk Piccolo</option>
+<option value="51">051 wnd:Real Piccolo</option>
+<option value="52">052 wnd:Piccolo Hall</option>
+<option value="53">053 wnd:Flute</option>
+<option value="54">054 wnd:Flute p</option>
+<option value="55">055 wnd:Room Flute</option>
+<option value="56">056 wnd:Chiff Flute</option>
+<option value="57">057 wnd:Click Flute</option>
+<option value="58">058 wnd:Hall Flute</option>
+<option value="59">059 wnd:AltoFlute</option>
+<option value="60">060 wnd:AltoFlute p</option>
+<option value="61">061 wnd:A.Flt w/Hall</option>
+<option value="62">062 wnd:Click A.Flte</option>
+<option value="63">063 wnd:AltoFlteHall</option>
+<option value="64">064 wnd:Oboe</option>
+<option value="65">065 wnd:Oboe p</option>
+<option value="66">066 wnd:Soft Oboe</option>
+<option value="67">067 wnd:Oboe w/Hall</option>
+<option value="68">068 wnd:Oboe Hall</option>
+<option value="69">069 wnd:English Horn</option>
+<option value="70">070 wnd:E.Horn p</option>
+<option value="71">071 wnd:Dyna-EHorn</option>
+<option value="72">072 wnd:E.Horn w/Hll</option>
+<option value="73">073 wnd:E.Horn Hall</option>
+<option value="74">074 wnd:Clarinet</option>
+<option value="75">075 wnd:Clarinet p</option>
+<option value="76">076 wnd:Clarinette</option>
+<option value="77">077 wnd:Clar w/Hall</option>
+<option value="78">078 wnd:DynaClarinet</option>
+<option value="79">079 wnd:ClarinetHall</option>
+<option value="80">080 wnd:BassClarinet</option>
+<option value="81">081 wnd:B.Clar p</option>
+<option value="82">082 wnd:B.Clar Atk</option>
+<option value="83">083 wnd:B.Clar w/Hll</option>
+<option value="84">084 wnd:B.Clar Hall</option>
+<option value="85">085 wnd:Bassoon</option>
+<option value="86">086 wnd:Bassoon p</option>
+<option value="87">087 wnd:Bassoon Dark</option>
+<option value="88">088 wnd:Bassoon Soft</option>
+<option value="89">089 wnd:Dyna-Bassoon</option>
+<option value="90">090 wnd:Bassoon Hall</option>
+<option value="91">091 wnd:ContraBassn</option>
+<option value="92">092 wnd:ContraBssn p</option>
+<option value="93">093 wnd:CntraBssnDrk</option>
+<option value="94">094 wnd:Dyna-CntBssn</option>
+<option value="95">095 wnd:CntrBssnHall</option>
+<option value="96">096 brs:Soft FHorn</option>
+<option value="97">097 brs:MezzFHorn</option>
+<option value="98">098 brs:PairOfHorns</option>
+<option value="99">099 brs:Full Horns</option>
+<option value="100">100 brs:Velo French</option>
+<option value="101">101 brs:FHorns Hall</option>
+<option value="102">102 brs:FHorn p/mf/f</option>
+<option value="103">103 brs:Dyna-French</option>
+<option value="104">104 brs:Trumpet mf</option>
+<option value="105">105 brs:Soft Trumpet</option>
+<option value="106">106 brs:Trumpet ff</option>
+<option value="107">107 brs:Trumpet 1</option>
+<option value="108">108 brs:Trumpet 2</option>
+<option value="109">109 brs:2 Trumpets</option>
+<option value="110">110 brs:Trumpets</option>
+<option value="111">111 brs:Soft TrmBone</option>
+<option value="112">112 brs:Trombone mf</option>
+<option value="113">113 brs:Bright Tbone</option>
+<option value="114">114 brs:Trombone</option>
+<option value="115">115 brs:Velo-TrmBone</option>
+<option value="116">116 brs:Dyna-Bone</option>
+<option value="117">117 brs:Tbone p/m/f</option>
+<option value="118">118 brs:Bass Tbone</option>
+<option value="119">119 brs:Bass TrmBone</option>
+<option value="120">120 brs:Velo BsTbone</option>
+<option value="121">121 brs:DynaBsTbone</option>
+<option value="122">122 brs:BTbone p/mf</option>
+<option value="123">123 brs:Tuba 1</option>
+<option value="124">124 brs:Dyna-Tuba</option>
+<option value="125">125 brs:Tuba 2</option>
+<option value="126">126 brs:Velo Tuba</option>
+<option value="127">127 brs:Tuba p/mf/ff</option>
+</optgroup>
+          </select>
+        </div>
+        <div class="lg:col-span-6 bg-[#18181b] p-4 rounded border border-zinc-800 space-y-2">
+          <span class="text-xs uppercase font-bold text-sky-400">Live SysEx Telemetry (Virtuoso 2000 Model 0x08)</span>
+          <div class="bg-black/80 p-2 text-cyan-300 font-mono text-xs rounded border border-zinc-800 break-all" id="virtuoso-sysex-hex">
+            F0 18 0F 00 55 01 02 00 03 78 00 F7
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================== -->
+    <!-- VIEW: E-MU VINTAGE PRO WORKSTATION                       -->
+    <!-- Two-tone Rhodes faceplate (top black / bottom grey)      -->
+    <!-- ======================================================== -->
+    <section id="view-vintagepro" class="hidden space-y-4">
+      <!-- Vintage Pro Authentic Two-Tone Rhodes Faceplate -->
+      <div class="rounded-sm shadow-2xl border-2 border-zinc-800 overflow-hidden">
+        <!-- Top Half: Satin Black -->
+        <div class="bg-[#111827] px-5 py-3 border-b-2 border-zinc-700 flex flex-col md:flex-row md:items-center justify-between gap-4 text-white">
+          <div class="flex items-center gap-4">
+            <div class="flex items-center gap-2">
+              <span class="text-xs font-black tracking-widest text-emerald-400 bg-black px-2 py-0.5 rounded border border-emerald-600 font-bold">E-MU</span>
+              <span class="text-xs text-zinc-300 font-mono tracking-wider font-semibold">MODEL 9095 • 128-VOICE VINTAGE WORKSTATION</span>
+            </div>
+          </div>
+          <!-- Vintage Green LCD -->
+          <div class="bg-[#052e16] border-2 border-emerald-600/80 px-4 py-2 rounded shadow-[inset_0_0_12px_rgba(16,185,129,0.3)] font-mono min-w-[320px]">
+            <div class="flex justify-between text-xs text-emerald-300 font-bold tracking-wider">
+              <span id="vintagepro-lcd-line1">000 syn:Vintage</span>
+              <span class="text-amber-400 font-semibold">VROM B0</span>
+            </div>
+            <div class="flex justify-between text-xs text-emerald-400 mt-1 border-t border-emerald-800 pt-1">
+              <span id="vintagepro-lcd-line2">Tube:48  Chorus:55  Cutoff:128</span>
+              <span class="text-emerald-300 font-bold">128 VOICES</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom Half: Brushed Silver-Grey (Rhodes Mark I Aesthetic) -->
+        <div class="bg-gradient-to-r from-[#94a3b8] via-[#cbd5e1] to-[#94a3b8] px-5 py-3 flex flex-col md:flex-row md:items-center justify-between gap-4 text-black">
+          <div>
+            <h2 class="text-2xl font-black tracking-wider text-slate-900 uppercase">
+              Vintage Pro
+            </h2>
+            <p class="text-[11px] text-slate-700 font-bold">32MB Vintage Collection ROM • Rhodes, Wurli, Clav, B-3, Mellotron, Moog, Prophet, SEM</p>
+          </div>
+          <button onclick="auditionVintagePro()" class="bg-[#059669] hover:bg-[#047857] text-white px-4 py-2 text-xs font-black shadow-md transition flex items-center gap-1.5 rounded">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            Audition Vintage Rhodes
+          </button>
+        </div>
+      </div>
+
+      <!-- Controls: Fluted Vintage Knobs & Overdrive -->
+      <div class="bg-[#1f2937] border border-zinc-700 p-5 rounded-sm shadow-xl space-y-4">
+        <div class="flex items-center justify-between pb-3 border-b border-zinc-700">
+          <h3 class="text-sm font-bold tracking-wider uppercase text-emerald-400">Vintage Tone Sculpting & Analog Saturation</h3>
+          <span class="text-xs font-mono text-zinc-400">Moog 4-Pole • Oberheim SEM • Rotary Speaker</span>
+        </div>
+
+        <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-4">
+          <div class="bg-black/40 p-3 rounded border border-zinc-800 flex flex-col items-center">
+            <span class="text-[11px] font-bold text-emerald-300 uppercase mb-1">Moog VCF Cutoff</span>
+            <input type="range" id="vintagepro-cutoff" min="0" max="255" value="128" oninput="updateVintageProParam('cutoff', this.value)" class="w-full accent-emerald-500 cursor-pointer">
+            <div class="flex justify-between w-full text-[10px] font-mono mt-1 text-zinc-400">
+              <span>0</span><span id="val-vintagepro-cutoff">128</span><span>255</span>
+            </div>
+          </div>
+          <div class="bg-black/40 p-3 rounded border border-zinc-800 flex flex-col items-center">
+            <span class="text-[11px] font-bold text-emerald-300 uppercase mb-1">Resonance (Q)</span>
+            <input type="range" id="vintagepro-res" min="0" max="15" value="6" oninput="updateVintageProParam('resonance', this.value)" class="w-full accent-emerald-500 cursor-pointer">
+            <div class="flex justify-between w-full text-[10px] font-mono mt-1 text-zinc-400">
+              <span>0</span><span id="val-vintagepro-res">6</span><span>15</span>
+            </div>
+          </div>
+          <div class="bg-black/40 p-3 rounded border border-zinc-800 flex flex-col items-center">
+            <span class="text-[11px] font-bold text-emerald-300 uppercase mb-1">Tube Drive</span>
+            <input type="range" id="vintagepro-drive" min="0" max="127" value="48" oninput="updateVintageProParam('drive', this.value)" class="w-full accent-amber-500 cursor-pointer">
+            <div class="flex justify-between w-full text-[10px] font-mono mt-1 text-zinc-400">
+              <span>0</span><span id="val-vintagepro-drive">48</span><span>127</span>
+            </div>
+          </div>
+          <div class="bg-black/40 p-3 rounded border border-zinc-800 flex flex-col items-center">
+            <span class="text-[11px] font-bold text-emerald-300 uppercase mb-1">Chorus / Trem</span>
+            <input type="range" id="vintagepro-chorus" min="0" max="127" value="55" oninput="updateVintageProParam('chorus', this.value)" class="w-full accent-emerald-500 cursor-pointer">
+            <div class="flex justify-between w-full text-[10px] font-mono mt-1 text-zinc-400">
+              <span>0</span><span id="val-vintagepro-chorus">55</span><span>127</span>
+            </div>
+          </div>
+          <div class="bg-black/40 p-3 rounded border border-zinc-800 flex flex-col items-center">
+            <span class="text-[11px] font-bold text-emerald-300 uppercase mb-1">Attack</span>
+            <input type="range" id="vintagepro-attack" min="0" max="127" value="5" oninput="updateVintageProParam('attack', this.value)" class="w-full accent-emerald-500 cursor-pointer">
+            <div class="flex justify-between w-full text-[10px] font-mono mt-1 text-zinc-400">
+              <span>0ms</span><span id="val-vintagepro-attack">5</span><span>127</span>
+            </div>
+          </div>
+          <div class="bg-black/40 p-3 rounded border border-zinc-800 flex flex-col items-center">
+            <span class="text-[11px] font-bold text-emerald-300 uppercase mb-1">Release</span>
+            <input type="range" id="vintagepro-release" min="0" max="127" value="40" oninput="updateVintageProParam('release', this.value)" class="w-full accent-emerald-500 cursor-pointer">
+            <div class="flex justify-between w-full text-[10px] font-mono mt-1 text-zinc-400">
+              <span>0ms</span><span id="val-vintagepro-release">40</span><span>127</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Presets & SysEx -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-4">
+        <div class="lg:col-span-6 bg-[#18181b] p-4 rounded border border-zinc-800 space-y-2">
+          <label class="text-xs uppercase font-bold text-emerald-400">Vintage Pro Preset Library (512 Presets)</label>
+          <select id="vintagepro-preset-select" onchange="selectVintageProPreset(this.value)" class="w-full bg-black border border-zinc-700 text-white p-2 text-xs rounded font-mono">
+            <optgroup label="User Bank 0 / VROM Bank 0 (EPs, Organs & Clavinets)">
+<option value="0">000 syn:Vintage</option>
+<option value="1">001 epo:Classic EP</option>
+<option value="2">002 epo:CP Seventy</option>
+<option value="3">003 epo:Wurly</option>
+<option value="4">004 key:Clavinet</option>
+<option value="5">005 org:B-3 OvrDrive</option>
+<option value="6">006 epo:Mello Tines</option>
+<option value="7">007 vox:BigTronChoir</option>
+<option value="8">008 led:BeginAgain</option>
+<option value="9">009 bas:TaurusPedals</option>
+<option value="10">010 str:Tron Violins</option>
+<option value="11">011 brs:'99 Brass</option>
+<option value="12">012 syn:SEM</option>
+<option value="13">013 syn:Airscopix</option>
+<option value="14">014 syn:OB Glider</option>
+<option value="15">015 kit:Electra</option>
+<option value="16">016 syn:Analogic</option>
+<option value="17">017 epo:Dyno Vox</option>
+<option value="18">018 epo:CP Pad</option>
+<option value="19">019 org:Jazz Pro</option>
+<option value="20">020 key:Clav Flanger</option>
+<option value="21">021 org:Old Red Top</option>
+<option value="22">022 pad:Sentinels</option>
+<option value="23">023 vox:Light Aahs</option>
+<option value="24">024 syn:Back at U</option>
+<option value="25">025 bas:Mini Snap</option>
+<option value="26">026 cmb:Flute/String</option>
+<option value="27">027 brs:Thick Brass</option>
+<option value="28">028 syn:Synth Stack</option>
+<option value="29">029 syn:OB-Xa</option>
+<option value="30">030 brs:Tron Brass</option>
+<option value="31">031 kit:FusionMover</option>
+<option value="32">032 epo:Dyno Piano</option>
+<option value="33">033 epo:Chorus Dyno</option>
+<option value="34">034 epo:Lite Dyno</option>
+<option value="35">035 epo:Heavy Dyno</option>
+<option value="36">036 epo:StudioDyno1</option>
+<option value="37">037 epo:StudioDyno2</option>
+<option value="38">038 epo:DynoStcase</option>
+<option value="39">039 epo:DynoChorus</option>
+<option value="40">040 epo:Stereo EP</option>
+<option value="41">041 epo:DynoOdd</option>
+<option value="42">042 epo:Dyno Soft</option>
+<option value="43">043 epo:String EP</option>
+<option value="44">044 epo:MetalBars</option>
+<option value="45">045 epo:MetalBarsXfd</option>
+<option value="46">046 epo:EP Silver</option>
+<option value="47">047 epo:Canada</option>
+<option value="48">048 epo:Toyo</option>
+<option value="49">049 epo:MarshMello</option>
+<option value="50">050 epo:Mello EP1</option>
+<option value="51">051 epo:Mello EP2</option>
+<option value="52">052 epo:Mellow Pop</option>
+<option value="53">053 epo:OB Tine EP</option>
+<option value="54">054 epo:OB EP</option>
+<option value="55">055 epo:FM Tines</option>
+<option value="56">056 epo:FM SimpleEP</option>
+<option value="57">057 epo:FM Delicate</option>
+<option value="58">058 epo:FM Phase</option>
+<option value="59">059 epo:FM Flanger</option>
+<option value="60">060 epo:Dynamic FM</option>
+<option value="61">061 epo:Analog FM</option>
+<option value="62">062 epo:Wurlilayer</option>
+<option value="63">063 epo:Mama'sWurli</option>
+<option value="64">064 epo:Real CP</option>
+<option value="65">065 epo:ClassicCP</option>
+<option value="66">066 epo:CP 70</option>
+<option value="67">067 epo:CP Layer</option>
+<option value="68">068 epo:Vintage CP</option>
+<option value="69">069 epo:Rock CP</option>
+<option value="70">070 epo:Stage CP</option>
+<option value="71">071 epo:CP Light</option>
+<option value="72">072 epo:CP Tight</option>
+<option value="73">073 epo:CP Uptown</option>
+<option value="74">074 epo:Lullaby</option>
+<option value="75">075 epo:AOR Ballad</option>
+<option value="76">076 key:Clav 1</option>
+<option value="77">077 key:Clav 2</option>
+<option value="78">078 key:Clav 3</option>
+<option value="79">079 key:Clav1&2</option>
+<option value="80">080 key:StereoClav 2</option>
+<option value="81">081 key:Buzzy Clav</option>
+<option value="82">082 key:FunkMaster</option>
+<option value="83">083 key:PhaseClav</option>
+<option value="84">084 key:SynthClav</option>
+<option value="85">085 key:PhaseClav2</option>
+<option value="86">086 key:Phase Clav3</option>
+<option value="87">087 key:TwoClavs</option>
+<option value="88">088 key:ThinClav</option>
+<option value="89">089 key:Clavsichord</option>
+<option value="90">090 key:Monster Clav</option>
+<option value="91">091 key:AnaClav</option>
+<option value="92">092 key:Klav Mav</option>
+<option value="93">093 key:WakTclav</option>
+<option value="94">094 key:Clav Freak</option>
+<option value="95">095 key:Kloid's Jam</option>
+<option value="96">096 key:Clav Wah 1</option>
+<option value="97">097 key:Clav Wah 2</option>
+<option value="98">098 key:Clavicle</option>
+<option value="99">099 key:P5Hrpsichrd</option>
+<option value="100">100 key:Clavitzer</option>
+<option value="101">101 org:All Out</option>
+<option value="102">102 org:1st3 2ndPerc</option>
+<option value="103">103 org:1st3 3rdPerc</option>
+<option value="104">104 org:1st4 Vib</option>
+<option value="105">105 org:1st4Vib2Perc</option>
+<option value="106">106 org:1st4Vib3Perc</option>
+<option value="107">107 org:Six Out</option>
+<option value="108">108 org:Jazz'n Jimmy</option>
+<option value="109">109 org:1st3HiDrBr</option>
+<option value="110">110 org:1st3FullDist</option>
+<option value="111">111 org:1st4VFullDis</option>
+<option value="112">112 org:Pipe Organ</option>
+<option value="113">113 org:Far Away</option>
+<option value="114">114 org:Clicky</option>
+<option value="115">115 org:Comp</option>
+<option value="116">116 org:PortaVib</option>
+<option value="117">117 org:PortaVibSt</option>
+<option value="118">118 org:Shimmer</option>
+<option value="119">119 org:OBX Organ</option>
+<option value="120">120 org:PlasticOrg</option>
+<option value="121">121 org:MelloCombo</option>
+<option value="122">122 org:BrashCombo</option>
+<option value="123">123 org:ComboTrem</option>
+<option value="124">124 org:Dr. Please</option>
+<option value="125">125 org:Grindo</option>
+<option value="126">126 org:Smooth</option>
+<option value="127">127 org:Perc Three</option>
+</optgroup>
+<optgroup label="User Bank 1 / VROM Bank 1 (Analog Synths & Leads)">
+<option value="0">000 syn:Wide OB</option>
+<option value="1">001 syn:P10</option>
+<option value="2">002 syn:Juno</option>
+<option value="3">003 syn:Rogue</option>
+<option value="4">004 syn:Huge SEM</option>
+<option value="5">005 syn:Round Mini</option>
+<option value="6">006 syn:Big Mini</option>
+<option value="7">007 syn:Juno Pulse</option>
+<option value="8">008 syn:10101</option>
+<option value="9">009 syn:Profit/Loss</option>
+<option value="10">010 syn:FuzzBell</option>
+<option value="11">011 syn:Random OB</option>
+<option value="12">012 syn:Phase1Alert</option>
+<option value="13">013 syn:JX Oct Split</option>
+<option value="14">014 syn:JunoOctSplit</option>
+<option value="15">015 syn:Syrupy JP</option>
+<option value="16">016 syn:ProphetPiano</option>
+<option value="17">017 syn:ArpClarinet</option>
+<option value="18">018 syn:JupyPad</option>
+<option value="19">019 syn:MoogShrtPuls</option>
+<option value="20">020 syn:Poly ARP</option>
+<option value="21">021 syn:SEM Bat Fuzz</option>
+<option value="22">022 syn:Juno & DX</option>
+<option value="23">023 syn:Deep Sky</option>
+<option value="24">024 syn:80zFuzzPad</option>
+<option value="25">025 syn:P10 SkySweep</option>
+<option value="26">026 syn:Nephilim</option>
+<option value="27">027 syn:P5 PolySync</option>
+<option value="28">028 syn:OB Glider2</option>
+<option value="29">029 syn:Power Juno</option>
+<option value="30">030 syn:OBSEMFuzz1</option>
+<option value="31">031 syn:OBSEMFuzz2</option>
+<option value="32">032 syn:Vin Syn</option>
+<option value="33">033 syn:Regbit</option>
+<option value="34">034 syn:Stabber</option>
+<option value="35">035 syn:Distant</option>
+<option value="36">036 syn:Synth Ringer</option>
+<option value="37">037 syn:Late 80z</option>
+<option value="38">038 syn:Late 80z 2</option>
+<option value="39">039 syn:NoteOffChime</option>
+<option value="40">040 syn:Nunzio</option>
+<option value="41">041 syn:FiltrBrass1</option>
+<option value="42">042 syn:FiltrBrass2</option>
+<option value="43">043 syn:Robot ca1960</option>
+<option value="44">044 syn:Glass Pipe</option>
+<option value="45">045 syn:Merlot</option>
+<option value="46">046 syn:AirCommand</option>
+<option value="47">047 syn:Ex-plorer</option>
+<option value="48">048 syn:Sneaker Flap</option>
+<option value="49">049 syn:Poly Mono</option>
+<option value="50">050 syn:Angel Eyes</option>
+<option value="51">051 syn:Little</option>
+<option value="52">052 syn:Lush</option>
+<option value="53">053 syn:OBeast Sync</option>
+<option value="54">054 syn:ArmyOJunos</option>
+<option value="55">055 syn:OB Saw Octs</option>
+<option value="56">056 syn:Wall O Saws</option>
+<option value="57">057 syn:TouchRez</option>
+<option value="58">058 syn:X Tron</option>
+<option value="59">059 syn:Shade Pad</option>
+<option value="60">060 syn:Total Recall</option>
+<option value="61">061 syn:Ice Eyes</option>
+<option value="62">062 syn:Enchanted</option>
+<option value="63">063 syn:Chimelope</option>
+<option value="64">064 syn:S&Holding</option>
+<option value="65">065 syn:Runner</option>
+<option value="66">066 syn:Weild 5ths</option>
+<option value="67">067 syn:NightTime</option>
+<option value="68">068 syn:Perc Rouge</option>
+<option value="69">069 syn:MiniSaw Octs</option>
+<option value="70">070 syn:ProFive Octs</option>
+<option value="71">071 syn:Arp Octs</option>
+<option value="72">072 syn:Modular Octs</option>
+<option value="73">073 syn:Mucho Octs</option>
+<option value="74">074 syn:RogueSawOcts</option>
+<option value="75">075 syn:SySaPhUs</option>
+<option value="76">076 syn:P5 Sync 1</option>
+<option value="77">077 syn:P5 Sync 2</option>
+<option value="78">078 syn:P5 Sync 3</option>
+<option value="79">079 syn:Morpheus</option>
+<option value="80">080 syn:Synphonix 1</option>
+<option value="81">081 syn:Synphonix 2</option>
+<option value="82">082 syn:KotoRize</option>
+<option value="83">083 syn:Arp Axxe</option>
+<option value="84">084 syn:Sin Brass</option>
+<option value="85">085 syn:Megasync</option>
+<option value="86">086 syn:Sawphony</option>
+<option value="87">087 syn:AnalogBell</option>
+<option value="88">088 syn:D Fiftease</option>
+<option value="89">089 syn:VS Ghost</option>
+<option value="90">090 syn:Now & Zen</option>
+<option value="91">091 syn:Metasynth1</option>
+<option value="92">092 syn:Metasynth2</option>
+<option value="93">093 led:Sonic Six</option>
+<option value="94">094 led:Muddy Sync</option>
+<option value="95">095 led:RhaspyClickr</option>
+<option value="96">096 led:BigSoloSqr</option>
+<option value="97">097 led:Pulse</option>
+<option value="98">098 led:M12</option>
+<option value="99">099 led:OBX SyncMono</option>
+<option value="100">100 led:PortaLead</option>
+<option value="101">101 led:Power Mini</option>
+<option value="102">102 led:WickedSquare</option>
+<option value="103">103 led:OverDrive101</option>
+<option value="104">104 led:Frank Stein</option>
+<option value="105">105 led:Odd Lead</option>
+<option value="106">106 led:Soft&Round</option>
+<option value="107">107 led:Glass Rim</option>
+<option value="108">108 led:Spike</option>
+<option value="109">109 led:Oh Boy</option>
+<option value="110">110 led:JunoOvrDrive</option>
+<option value="111">111 led:OB Lead</option>
+<option value="112">112 led:Mean Wheel</option>
+<option value="113">113 led:PulseFlanger</option>
+<option value="114">114 led:Zawi</option>
+<option value="115">115 led:Stinger</option>
+<option value="116">116 led:Raspy</option>
+<option value="117">117 led:Mini Soul</option>
+<option value="118">118 led:SawsOfOld</option>
+<option value="119">119 led:ThinPotent</option>
+<option value="120">120 led:OB Pulser</option>
+<option value="121">121 led:Full Body</option>
+<option value="122">122 led:Squawky OB</option>
+<option value="123">123 led:Skware!!</option>
+<option value="124">124 led:GrowlySynth</option>
+<option value="125">125 led:Big ARP</option>
+<option value="126">126 led:E-MU Modular</option>
+<option value="127">127 led:Funky Junk</option>
+</optgroup>
+<optgroup label="User Bank 2 / VROM Bank 2 (Mellotrons, Strings & Pads)">
+<option value="0">000 pad:ChifferPad</option>
+<option value="1">001 pad:Thin Lad</option>
+<option value="2">002 pad:Lunar</option>
+<option value="3">003 pad:Believe</option>
+<option value="4">004 pad:Angel Eyes</option>
+<option value="5">005 pad:PreSamplers</option>
+<option value="6">006 pad:Sentinels2</option>
+<option value="7">007 pad:Ghost Vox</option>
+<option value="8">008 pad:O.D.</option>
+<option value="9">009 pad:Liquid 1</option>
+<option value="10">010 pad:Liquid 2</option>
+<option value="11">011 pad:Liquid 3</option>
+<option value="12">012 pad:Beauteous</option>
+<option value="13">013 pad:ProfitMargin</option>
+<option value="14">014 pad:Tri Res</option>
+<option value="15">015 pad:QuietSaws</option>
+<option value="16">016 pad:Lunar 2</option>
+<option value="17">017 pad:Slippery</option>
+<option value="18">018 pad:Matches</option>
+<option value="19">019 pad:Poly Pad</option>
+<option value="20">020 pad:iBubble</option>
+<option value="21">021 pad:M12 Skyline</option>
+<option value="22">022 pad:Raindance</option>
+<option value="23">023 pad:Horizons</option>
+<option value="24">024 pad:Big Pad</option>
+<option value="25">025 pad:SlitherPad</option>
+<option value="26">026 pad:HarshSwell</option>
+<option value="27">027 pad:Grainy</option>
+<option value="28">028 pad:GrimFemVox</option>
+<option value="29">029 pad:Pipey</option>
+<option value="30">030 pad:Organ Synth</option>
+<option value="31">031 pad:Fem Strings</option>
+<option value="32">032 str:MemMoogStrng</option>
+<option value="33">033 str:Solina</option>
+<option value="34">034 str:Elka Combo</option>
+<option value="35">035 str:SuperElka</option>
+<option value="36">036 str:Lush70'sFade</option>
+<option value="37">037 str:Big M12</option>
+<option value="38">038 str:Ensemble</option>
+<option value="39">039 str:Muffled</option>
+<option value="40">040 str:Sepiatone</option>
+<option value="41">041 str:Analog Harp</option>
+<option value="42">042 str:Old Time1</option>
+<option value="43">043 str:Old Time2</option>
+<option value="44">044 str:Old Time3</option>
+<option value="45">045 str:String Vox</option>
+<option value="46">046 str:String Flute</option>
+<option value="47">047 str:VeloBows</option>
+<option value="48">048 str:String Box</option>
+<option value="49">049 str:Elka & Mtron</option>
+<option value="50">050 str:Celli Sect</option>
+<option value="51">051 str:Smooth&Wide</option>
+<option value="52">052 str:String Fever</option>
+<option value="53">053 str:Its The Pitz</option>
+<option value="54">054 str:ClosetCleanR</option>
+<option value="55">055 str:String Cheez</option>
+<option value="56">056 str:Filtron</option>
+<option value="57">057 vox:Tron Males</option>
+<option value="58">058 vox:Cluttex</option>
+<option value="59">059 vox:SnowBound</option>
+<option value="60">060 vox:Chiffer</option>
+<option value="61">061 vox:BreathBlow 2</option>
+<option value="62">062 vox:TronMalesSt</option>
+<option value="63">063 vox:TronMixSt</option>
+<option value="64">064 vox:VS Ghost</option>
+<option value="65">065 vox:ThroatEnergy</option>
+<option value="66">066 vox:TalkBox Pro</option>
+<option value="67">067 vox:Moon Flute</option>
+<option value="68">068 brs:FullTrnBrass</option>
+<option value="69">069 brs:WindyBrass</option>
+<option value="70">070 brs:E2 Brass</option>
+<option value="71">071 brs:Big Swell</option>
+<option value="72">072 brs:Big Swell 2</option>
+<option value="73">073 brs:Rich Brass</option>
+<option value="74">074 brs:ElegantBrass</option>
+<option value="75">075 brs:F-Hrns</option>
+<option value="76">076 brs:Coronation</option>
+<option value="77">077 brs:HugeOB Brass</option>
+<option value="78">078 brs:BrassKicker</option>
+<option value="79">079 brs:Brassitude</option>
+<option value="80">080 wnd:StereoMtron</option>
+<option value="81">081 wnd:Flute Sect</option>
+<option value="82">082 wnd:Tron Flute</option>
+<option value="83">083 wnd:Flute Bed</option>
+<option value="84">084 wnd:SoftFlutes</option>
+<option value="85">085 wnd:LoFi Flute</option>
+<option value="86">086 wnd:Flooting</option>
+<option value="87">087 wnd:Dark Satyr</option>
+<option value="88">088 wnd:Reedy</option>
+<option value="89">089 cmb:Produkshun</option>
+<option value="90">090 cmb:CP/Strings</option>
+<option value="91">091 cmb:FM/Strings</option>
+<option value="92">092 cmb:EPJunoTron</option>
+<option value="93">093 cmb:Juno/P5</option>
+<option value="94">094 cmb:TronVoxStrng</option>
+<option value="95">095 cmb:Str & Brass</option>
+<option value="96">096 cmb:Dyno B to B</option>
+<option value="97">097 cmb:Flute&String</option>
+<option value="98">098 cmb:B3/EP</option>
+<option value="99">099 cmb:PulseMadness</option>
+<option value="100">100 cmb:Rogue Mini</option>
+<option value="101">101 cmb:Taurus&Strng</option>
+<option value="102">102 cmb:TarusStngVox</option>
+<option value="103">103 cmb:Gymnosticks</option>
+<option value="104">104 cmb:Wurli & Roti</option>
+<option value="105">105 cmb:Dyn Logic</option>
+<option value="106">106 cmb:TV Stack</option>
+<option value="107">107 cmb:Wurly B</option>
+<option value="108">108 cmb:SynStr+SynBs</option>
+<option value="109">109 cmb:Many Junos</option>
+<option value="110">110 cmb:80sStackBass</option>
+<option value="111">111 cmb:GtrStrings</option>
+<option value="112">112 cmb:C P R</option>
+<option value="113">113 cmb:MachineHeart</option>
+<option value="114">114 jam:DX Style</option>
+<option value="115">115 jam:CP Stage</option>
+<option value="116">116 jam:Clav</option>
+<option value="117">117 jam:Lush</option>
+<option value="118">118 jam:Latin</option>
+<option value="119">119 jam:Funkersize</option>
+<option value="120">120 bpm:Beat Row 1</option>
+<option value="121">121 bpm:Beat Row 2</option>
+<option value="122">122 bpm:Spinner</option>
+<option value="123">123 bpm:El Effo Sr.</option>
+<option value="124">124 bpm:Q Noiz Klock</option>
+<option value="125">125 bpm:S/H Operator</option>
+<option value="126">126 bpm:Q PulseKlock</option>
+<option value="127">127 bpm:RoboJive</option>
+</optgroup>
+<optgroup label="User Bank 3 / VROM Bank 3 (Vintage Basses, Kits & Beats)">
+<option value="0">000 bas:Big Taurus</option>
+<option value="1">001 bas:Big FM Bass</option>
+<option value="2">002 bas:Bottom 101</option>
+<option value="3">003 bas:Warm SEM</option>
+<option value="4">004 bas:Arpy Bass</option>
+<option value="5">005 bas:Mini Snap 2</option>
+<option value="6">006 bas:Arp Snap</option>
+<option value="7">007 bas:BigSnap</option>
+<option value="8">008 bas:FatFingers</option>
+<option value="9">009 bas:Deep End 1</option>
+<option value="10">010 bas:Deep End 2</option>
+<option value="11">011 bas:Wide & Deep</option>
+<option value="12">012 bas:ThiklySettld</option>
+<option value="13">013 bas:VintSynBass1</option>
+<option value="14">014 bas:MurkySweep</option>
+<option value="15">015 bas:LayerBass</option>
+<option value="16">016 bas:Expressive</option>
+<option value="17">017 bas:Taurnado</option>
+<option value="18">018 bas:Picote</option>
+<option value="19">019 bas:Finger</option>
+<option value="20">020 bas:Pilot</option>
+<option value="21">021 bas:Hummer</option>
+<option value="22">022 bas:Bagg</option>
+<option value="23">023 bas:TS Mini</option>
+<option value="24">024 bas:MonoMe</option>
+<option value="25">025 bas:MonoMe2</option>
+<option value="26">026 bas:Bounce</option>
+<option value="27">027 bas:303 Saws</option>
+<option value="28">028 bas:303 Squares</option>
+<option value="29">029 bas:Phatt Taurus</option>
+<option value="30">030 bas:So Lo Pro</option>
+<option value="31">031 gtr:Hackettism</option>
+<option value="32">032 gtr:Spy vs Spy</option>
+<option value="33">033 gtr:AirGuitar</option>
+<option value="34">034 gtr:Hit It</option>
+<option value="35">035 gtr:Wacka 1</option>
+<option value="36">036 gtr:Wacka 2</option>
+<option value="37">037 gtr:Jazzy</option>
+<option value="38">038 gtr:Clav Guitar</option>
+<option value="39">039 gtr:HarmonicTone</option>
+<option value="40">040 sfx:Evil Saws</option>
+<option value="41">041 sfx:DragonBreath</option>
+<option value="42">042 sfx:SpaceMuffin</option>
+<option value="43">043 sfx:GorgeousCrzy</option>
+<option value="44">044 sfx:Nepatunism</option>
+<option value="45">045 sfx:The Dead See</option>
+<option value="46">046 sfx:Hold Up</option>
+<option value="47">047 sfx:The Garden</option>
+<option value="48">048 sfx:Acid Rain</option>
+<option value="49">049 sfx:NoZ</option>
+<option value="50">050 arp:Loopy Gruv</option>
+<option value="51">051 arp:Drifter</option>
+<option value="52">052 arp:Classic</option>
+<option value="53">053 arp:Downtown</option>
+<option value="54">054 arp:Khord</option>
+<option value="55">055 arp:Tracker</option>
+<option value="56">056 arp:MinorHorns</option>
+<option value="57">057 arp:Sparkle</option>
+<option value="58">058 arp:DrumPitchy</option>
+<option value="59">059 arp:SquareThumpr</option>
+<option value="60">060 arp:MinorFinale</option>
+<option value="61">061 arp:HiPassCmputr</option>
+<option value="62">062 arp:EMU 2 Live!</option>
+<option value="63">063 arp:BowCircuit</option>
+<option value="64">064 arp:HardRepeat</option>
+<option value="65">065 arp:Tribal Toms</option>
+<option value="66">066 arp:DrumRoller</option>
+<option value="67">067 arp:ZipTripper</option>
+<option value="68">068 arp:Log Funk</option>
+<option value="69">069 bts:FastRock</option>
+<option value="70">070 bts:RockFunk</option>
+<option value="71">071 bts:Shuffle</option>
+<option value="72">072 bts:Chill Room</option>
+<option value="73">073 bts:Teardrop</option>
+<option value="74">074 bts:Evolution</option>
+<option value="75">075 bts:The Pulse</option>
+<option value="76">076 bts:Dreamland</option>
+<option value="77">077 bts:Fusion</option>
+<option value="78">078 bts:Jazz</option>
+<option value="79">079 bts:DropBeatBglu</option>
+<option value="80">080 kit:Acoustic GM</option>
+<option value="81">081 kit:Acoustic 2</option>
+<option value="82">082 kit:El GM Kit 1</option>
+<option value="83">083 kit:El GM Kit 2</option>
+<option value="84">084 kit:808</option>
+<option value="85">085 kit:909</option>
+<option value="86">086 kit:MS20</option>
+<option value="87">087 kit:MS20 #2</option>
+<option value="88">088 kit:SK-1</option>
+<option value="89">089 kit:SP1200</option>
+<option value="90">090 kit:Electronic 1</option>
+<option value="91">091 kit:Electronic 2</option>
+<option value="92">092 kit:Electronic 3</option>
+<option value="93">093 kit:Electronic 4</option>
+<option value="94">094 kit:Electronic 5</option>
+<option value="95">095 kit:HighBoy</option>
+<option value="96">096 kit:Double Kit</option>
+<option value="97">097 kit:VintagePhase</option>
+<option value="98">098 kit:Flashback</option>
+<option value="99">099 kit:Stadium</option>
+<option value="100">100 kit:Soft Fuzz</option>
+<option value="101">101 kit:NickleMix</option>
+<option value="102">102 kit:Soul Power</option>
+<option value="103">103 kit:Beef Cake</option>
+<option value="104">104 kit:BrightMoment</option>
+<option value="105">105 kit:Lil Popper</option>
+<option value="106">106 kit:InTheAir</option>
+<option value="107">107 kit:B Boy</option>
+<option value="108">108 prc:All Kicks</option>
+<option value="109">109 prc:All Snares</option>
+<option value="110">110 prc:All Toms</option>
+<option value="111">111 prc:All Hats</option>
+<option value="112">112 prc:All Cymbals</option>
+<option value="113">113 prc:Shakers</option>
+<option value="114">114 prc:Snaps</option>
+<option value="115">115 prc:Congas</option>
+<option value="116">116 prc:Misc</option>
+<option value="117">117 prc:Few ChoreMen</option>
+<option value="118">118 prc:Steeely 1</option>
+<option value="119">119 prc:Steeely 2</option>
+<option value="120">120 prc:Arnold 1</option>
+<option value="121">121 prc:8bit Blocks</option>
+<option value="122">122 prc:Air Strike</option>
+<option value="123">123 bts:Reggae</option>
+<option value="124">124 prc:A Sine</option>
+<option value="125">125 bts:NeoLatinRock</option>
+<option value="126">126 bts:NuRocker</option>
+<option value="127">127 :Default v1.0</option>
+</optgroup>
+          </select>
+        </div>
+        <div class="lg:col-span-6 bg-[#18181b] p-4 rounded border border-zinc-800 space-y-2">
+          <span class="text-xs uppercase font-bold text-emerald-400">Live SysEx Telemetry (Vintage Pro Model 0x16)</span>
+          <div class="bg-black/80 p-2 text-emerald-400 font-mono text-xs rounded border border-zinc-800 break-all" id="vintagepro-sysex-hex">
+            F0 18 0F 00 55 01 02 00 03 80 00 F7
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================== -->
+    <!-- VIEW: E-MU VINTAGE KEYS (CLASSIC 1993 1U RACK)           -->
+    <!-- Matte black 1990s chassis with green LCD & E-mu logo     -->
+    <!-- ======================================================== -->
+    <section id="view-vintagekeys" class="hidden space-y-4">
+      <!-- Classic 1993 Matte Black 1U Rack Header -->
+      <div class="bg-[#121214] border-2 border-zinc-800 rounded-sm p-4 shadow-2xl flex flex-col md:flex-row md:items-center justify-between gap-4 text-white">
+        <div class="flex items-center gap-4">
+          <div class="w-3 h-14 bg-black rounded-sm flex flex-col justify-between py-1 px-0.5 border border-zinc-700 shadow-inner">
+            <div class="w-2 h-2 rounded-full bg-zinc-900 border border-zinc-600"></div>
+            <div class="w-2 h-2 rounded-full bg-zinc-900 border border-zinc-600"></div>
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="text-xs font-black tracking-widest text-[#22c55e] border border-[#22c55e] px-2 py-0.5 rounded font-mono font-bold">E-mu</span>
+              <span class="text-xs text-zinc-400 font-mono tracking-wider">MODEL 9010 • 32-VOICE VINTAGE SOUND MODULE</span>
+            </div>
+            <h2 class="text-3xl font-extrabold tracking-wider text-white mt-1 font-mono">
+              VINTAGE KEYS
+            </h2>
+            <p class="text-xs text-zinc-400 font-medium">8MB Sample ROM • 249 Instruments • Dynamic VCF • Dual Stereo Chorus Processor</p>
+          </div>
+        </div>
+
+        <!-- Classic 2x16 Green Backlit Dot-Matrix LCD -->
+        <div class="bg-[#022c22] border-2 border-emerald-600 px-4 py-2 rounded shadow-[inset_0_0_12px_rgba(34,197,94,0.4)] font-mono min-w-[280px]">
+          <div class="text-xs text-[#4ade80] font-bold tracking-widest">
+            <span id="vintagekeys-lcd-line1">000 Hmnd B3 01</span>
+          </div>
+          <div class="flex justify-between text-xs text-[#4ade80]/90 mt-1 border-t border-emerald-900 pt-1 font-mono">
+            <span id="vintagekeys-lcd-line2">Fc:110  Q:04</span>
+            <span class="text-emerald-300 font-bold">CHORUS: ON</span>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <button onclick="auditionVintageKeys()" class="bg-[#16a34a] hover:bg-[#15803d] text-white px-4 py-2 text-xs font-bold shadow-md transition flex items-center gap-1.5 rounded">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            Audition Hammond B3
+          </button>
+        </div>
+      </div>
+
+      <!-- Controls: 1993 Classic Synth Edit -->
+      <div class="bg-[#18181b] border border-zinc-800 p-5 rounded-sm shadow-xl space-y-4">
+        <div class="flex items-center justify-between pb-3 border-b border-zinc-800">
+          <h3 class="text-sm font-bold tracking-wider uppercase text-emerald-400">1993 Parameter Edit (Classic SysEx ID 0x04)</h3>
+          <span class="text-xs font-mono text-zinc-400">32 Voices • 16-Bit Linear • 39 kHz Sample Playback</span>
+        </div>
+
+        <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-4">
+          <div class="bg-black/50 p-3 rounded border border-zinc-800 flex flex-col items-center">
+            <span class="text-[11px] font-bold text-zinc-300 uppercase mb-1">VCF Cutoff</span>
+            <input type="range" id="vintagekeys-cutoff" min="0" max="127" value="110" oninput="updateVintageKeysParam('cutoff', this.value)" class="w-full accent-green-500 cursor-pointer">
+            <div class="flex justify-between w-full text-[10px] font-mono mt-1 text-zinc-400">
+              <span>0</span><span id="val-vintagekeys-cutoff">110</span><span>127</span>
+            </div>
+          </div>
+          <div class="bg-black/50 p-3 rounded border border-zinc-800 flex flex-col items-center">
+            <span class="text-[11px] font-bold text-zinc-300 uppercase mb-1">VCF Resonance</span>
+            <input type="range" id="vintagekeys-res" min="0" max="15" value="4" oninput="updateVintageKeysParam('resonance', this.value)" class="w-full accent-green-500 cursor-pointer">
+            <div class="flex justify-between w-full text-[10px] font-mono mt-1 text-zinc-400">
+              <span>0</span><span id="val-vintagekeys-res">4</span><span>15</span>
+            </div>
+          </div>
+          <div class="bg-black/50 p-3 rounded border border-zinc-800 flex flex-col items-center">
+            <span class="text-[11px] font-bold text-zinc-300 uppercase mb-1">Chorus Amount</span>
+            <input type="range" id="vintagekeys-chorus" min="0" max="15" value="8" oninput="updateVintageKeysParam('chorus', this.value)" class="w-full accent-green-500 cursor-pointer">
+            <div class="flex justify-between w-full text-[10px] font-mono mt-1 text-zinc-400">
+              <span>0</span><span id="val-vintagekeys-chorus">8</span><span>15</span>
+            </div>
+          </div>
+          <div class="bg-black/50 p-3 rounded border border-zinc-800 flex flex-col items-center">
+            <span class="text-[11px] font-bold text-zinc-300 uppercase mb-1">Chorus Width</span>
+            <input type="range" id="vintagekeys-width" min="0" max="15" value="12" oninput="updateVintageKeysParam('width', this.value)" class="w-full accent-green-500 cursor-pointer">
+            <div class="flex justify-between w-full text-[10px] font-mono mt-1 text-zinc-400">
+              <span>0</span><span id="val-vintagekeys-width">12</span><span>15</span>
+            </div>
+          </div>
+          <div class="bg-black/50 p-3 rounded border border-zinc-800 flex flex-col items-center">
+            <span class="text-[11px] font-bold text-zinc-300 uppercase mb-1">Attack</span>
+            <input type="range" id="vintagekeys-attack" min="0" max="99" value="0" oninput="updateVintageKeysParam('attack', this.value)" class="w-full accent-green-500 cursor-pointer">
+            <div class="flex justify-between w-full text-[10px] font-mono mt-1 text-zinc-400">
+              <span>0</span><span id="val-vintagekeys-attack">0</span><span>99</span>
+            </div>
+          </div>
+          <div class="bg-black/50 p-3 rounded border border-zinc-800 flex flex-col items-center">
+            <span class="text-[11px] font-bold text-zinc-300 uppercase mb-1">Release</span>
+            <input type="range" id="vintagekeys-release" min="0" max="99" value="35" oninput="updateVintageKeysParam('release', this.value)" class="w-full accent-green-500 cursor-pointer">
+            <div class="flex justify-between w-full text-[10px] font-mono mt-1 text-zinc-400">
+              <span>0</span><span id="val-vintagekeys-release">35</span><span>99</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Presets & SysEx -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-4">
+        <div class="lg:col-span-6 bg-[#18181b] p-4 rounded border border-zinc-800 space-y-2">
+          <label class="text-xs uppercase font-bold text-green-400">Vintage Keys Preset Library (512 Presets)</label>
+          <select id="vintagekeys-preset-select" onchange="selectVintageKeysPreset(this.value)" class="w-full bg-black border border-zinc-700 text-white p-2 text-xs rounded font-mono">
+            <optgroup label="Bank 0 (RAM User Presets 0-127)">
+<option value="0">000 Hmnd B3 01</option>
+<option value="1">001 Fndr Rds 01</option>
+<option value="2">002 Wurli</option>
+<option value="3">003 Clav</option>
+<option value="4">004 B3 Hi Fast ................................ B3 Organ, High Drawbars, Fast Rotor</option>
+<option value="5">005 B3 Full Slow ............................. B3 Organ, Full Drawbars, Slow Rotor</option>
+<option value="6">006 Bass: Moog 01</option>
+<option value="7">007 Pad: Moog 55</option>
+<option value="8">008 Preset 008</option>
+<option value="9">009 Hmnd B3 02</option>
+<option value="10">010 Hmnd B3 03</option>
+<option value="11">011 Hmnd B3 04</option>
+<option value="12">012 Hmnd B3 05</option>
+<option value="13">013 Hmnd B3 06</option>
+<option value="14">014 Hmnd B3 07</option>
+<option value="15">015 Hmnd B3 08</option>
+<option value="16">016 Hmnd B3 09</option>
+<option value="17">017 Hmnd B3 10</option>
+<option value="18">018 Hmnd B3 11</option>
+<option value="19">019 Fndr Rds 02</option>
+<option value="20">020 Fndr Rds 03</option>
+<option value="21">021 Fndr Rds 04</option>
+<option value="22">022 Fndr Rds 05</option>
+<option value="23">023 Fndr Rds 06</option>
+<option value="24">024 Fndr Rds 07</option>
+<option value="25">025 Fndr Rds 08</option>
+<option value="26">026 Fndr Rds 09</option>
+<option value="27">027 Fndr Rds 10</option>
+<option value="28">028 Fndr Rds 11</option>
+<option value="29">029 Wurli 02</option>
+<option value="30">030 Wurli 03</option>
+<option value="31">031 Wurli 04</option>
+<option value="32">032 Wurli 05</option>
+<option value="33">033 Wurli 06</option>
+<option value="34">034 Wurli 07</option>
+<option value="35">035 Wurli 08</option>
+<option value="36">036 Wurli 09</option>
+<option value="37">037 Wurli 10</option>
+<option value="38">038 Wurli 11</option>
+<option value="39">039 Clav 02</option>
+<option value="40">040 Clav 03</option>
+<option value="41">041 Clav 04</option>
+<option value="42">042 Clav 05</option>
+<option value="43">043 Clav 06</option>
+<option value="44">044 Clav 07</option>
+<option value="45">045 Clav 08</option>
+<option value="46">046 Clav 09</option>
+<option value="47">047 Preset 047</option>
+<option value="48">048 Preset 048</option>
+<option value="49">049 TronStrng 02</option>
+<option value="50">050 TronStrng 03</option>
+<option value="51">051 Preset 051</option>
+<option value="52">052 TronFlute 02</option>
+<option value="53">053 TronFlute 03</option>
+<option value="54">054 TronChoir 01</option>
+<option value="55">055 TronChoir 02</option>
+<option value="56">056 TronChoir 03</option>
+<option value="57">057 Tron Str/Chr</option>
+<option value="58">058 Tron Str/Brs</option>
+<option value="59">059 CP Grand 02</option>
+<option value="60">060 CP Grand 03</option>
+<option value="61">061 CP Grand 04</option>
+<option value="62">062 CP Grand 05</option>
+<option value="63">063 CP Grand 06</option>
+<option value="64">064 CP Grand 07</option>
+<option value="65">065 CP Grand 08</option>
+<option value="66">066 CP Grand 09</option>
+<option value="67">067 CP Grand 10</option>
+<option value="68">068 CP Grand 11</option>
+<option value="69">069 Bass: Moog 02</option>
+<option value="70">070 Bass: Moog 03</option>
+<option value="71">071 Bass: Moog 04</option>
+<option value="72">072 Bass: Moog 05</option>
+<option value="73">073 Bass: Moog 06</option>
+<option value="74">074 Bass: MicroMg</option>
+<option value="75">075 Bass: Taurus</option>
+<option value="76">076 Bass: M12 01</option>
+<option value="77">077 Bass: M12 02</option>
+<option value="78">078 Bass: Arp2600</option>
+<option value="79">079 Pad: MoogBras</option>
+<option value="80">080 Pad: P5String</option>
+<option value="81">081 Pad: M12Strng</option>
+<option value="82">082 Pad: ArpStrng</option>
+<option value="83">083 Pad: Obx Saws</option>
+<option value="84">084 Pad: Arp 2600</option>
+<option value="85">085 Pad: PolyMoog</option>
+<option value="86">086 Pad: Fairlight</option>
+<option value="87">087 Pad: OB Port</option>
+<option value="88">088 Pad: P5 Piper</option>
+<option value="89">089 Lead: Moog 01</option>
+<option value="90">090 Preset 090</option>
+<option value="91">091 Preset 091</option>
+<option value="92">092 Lead: Arp 01</option>
+<option value="93">093 Lead: Arp 02</option>
+<option value="94">094 Preset 094</option>
+<option value="95">095 Lead: SEM 01</option>
+<option value="96">096 Lead: SEM 02</option>
+<option value="97">097 Lead: EMU Tri</option>
+<option value="98">098 Lead: EMUSaws</option>
+<option value="99">099 Lead: EMUSqrs</option>
+<option value="100">100 Hmnd B3 12</option>
+<option value="101">101 Syn Bass 01</option>
+<option value="102">102 Soft Pad 01</option>
+<option value="103">103 Hard Pad 01</option>
+<option value="104">104 Syn Lead 01</option>
+<option value="105">105 Intrvl Ld 01</option>
+<option value="106">106 Misc Cool 01</option>
+<option value="107">107 Swell FX 01</option>
+<option value="108">108 Clock FX 01</option>
+<option value="109">109 Hmnd B3 13</option>
+<option value="110">110 Hmnd B3 14</option>
+<option value="111">111 Hmnd B3 15</option>
+<option value="112">112 Hmnd B3 16</option>
+<option value="113">113 Hmnd B3 17</option>
+<option value="114">114 Hmnd B3 18</option>
+<option value="115">115 Hmnd B3 19</option>
+<option value="116">116 Hmnd B3 20</option>
+<option value="117">117 Hmnd B3 21</option>
+<option value="118">118 Hmnd B3 22</option>
+<option value="119">119 Syn Bass 02</option>
+<option value="120">120 Syn Bass 03</option>
+<option value="121">121 Syn Bass 04</option>
+<option value="122">122 Syn Bass 05</option>
+<option value="123">123 Syn Bass 06</option>
+<option value="124">124 Syn Bass 07</option>
+<option value="125">125 Syn Bass 08</option>
+<option value="126">126 Syn Bass 09</option>
+<option value="127">127 Syn Bass 10</option>
+</optgroup>
+<optgroup label="Bank 1 (RAM User Presets 128-255)">
+<option value="0">000 Syn Bass 11</option>
+<option value="1">001 Soft Pad 02</option>
+<option value="2">002 Soft Pad 03</option>
+<option value="3">003 Soft Pad 04</option>
+<option value="4">004 Soft Pad 05</option>
+<option value="5">005 Soft Pad 06</option>
+<option value="6">006 Soft Pad 07</option>
+<option value="7">007 Soft Pad 08</option>
+<option value="8">008 Soft Pad 09</option>
+<option value="9">009 Soft Pad 10</option>
+<option value="10">010 Soft Pad 11</option>
+<option value="11">011 Hard Pad 02</option>
+<option value="12">012 Hard Pad 03</option>
+<option value="13">013 Hard Pad 04</option>
+<option value="14">014 Hard Pad 05</option>
+<option value="15">015 Hard Pad 06</option>
+<option value="16">016 Hard Pad 07</option>
+<option value="17">017 Hard Pad 08</option>
+<option value="18">018 Hard Pad 09</option>
+<option value="19">019 Hard Pad 10</option>
+<option value="20">020 Hard Pad 11</option>
+<option value="21">021 Syn Lead 02</option>
+<option value="22">022 Syn Lead 03</option>
+<option value="23">023 Syn Lead 04</option>
+<option value="24">024 Syn Lead 05</option>
+<option value="25">025 Syn Lead 06</option>
+<option value="26">026 Syn Lead 07</option>
+<option value="27">027 Syn Lead 08</option>
+<option value="28">028 Syn Lead 09</option>
+<option value="29">029 Syn Lead 10</option>
+<option value="30">030 Syn Lead 11</option>
+<option value="31">031 Intrvl Ld 02</option>
+<option value="32">032 Preset 160</option>
+<option value="33">033 Intrvl Ld 04</option>
+<option value="34">034 Intrvl Ld 05</option>
+<option value="35">035 Intrvl Ld 06</option>
+<option value="36">036 Intrvl Ld 07</option>
+<option value="37">037 Intrvl Ld 08</option>
+<option value="38">038 Intrvl Ld 09</option>
+<option value="39">039 Intrvl Ld 10</option>
+<option value="40">040 Intrvl Ld 11</option>
+<option value="41">041 Misc Cool 02</option>
+<option value="42">042 Misc Cool 03</option>
+<option value="43">043 Misc Cool 04</option>
+<option value="44">044 Misc Cool 05</option>
+<option value="45">045 Misc Cool 06</option>
+<option value="46">046 Misc Cool 07</option>
+<option value="47">047 Misc Cool 08</option>
+<option value="48">048 Misc Cool 09</option>
+<option value="49">049 Misc Cool 10</option>
+<option value="50">050 Misc Cool 11</option>
+<option value="51">051 Swell FX 02</option>
+<option value="52">052 Swell FX 03</option>
+<option value="53">053 Swell FX 04</option>
+<option value="54">054 Swell FX 05</option>
+<option value="55">055 Swell FX 06</option>
+<option value="56">056 Swell FX 07</option>
+<option value="57">057 Swell FX 08</option>
+<option value="58">058 Swell FX 09</option>
+<option value="59">059 Swell FX 10</option>
+<option value="60">060 Swell FX 11</option>
+<option value="61">061 Clock FX 02</option>
+<option value="62">062 Clock FX 03</option>
+<option value="63">063 Clock FX 04</option>
+<option value="64">064 Clock FX 05</option>
+<option value="65">065 Clock FX 06</option>
+<option value="66">066 Clock FX 07</option>
+<option value="67">067 Clock FX 08</option>
+<option value="68">068 Clock FX 09</option>
+<option value="69">069 Clock FX 10</option>
+<option value="70">070 Clock FX 11</option>
+<option value="71">071 Clock FX 12</option>
+<option value="72">072 Drum Kit 01</option>
+<option value="73">073 Drum Kit 02</option>
+<option value="74">074 Drum Kit 03</option>
+<option value="75">075 Preset 203</option>
+<option value="76">076 Drum Kit 05</option>
+<option value="77">077 Drum Kit 06</option>
+<option value="78">078 Drum Kit 07</option>
+<option value="79">079 Perc Loop</option>
+<option value="80">080 Bass Gtr 01</option>
+<option value="81">081 Bass Gtr 02</option>
+<option value="82">082 Bass Gtr 03</option>
+<option value="83">083 Bass Gtr 04</option>
+<option value="84">084 Bass Gtr 05</option>
+<option value="85">085 Elec Gtr 01</option>
+<option value="86">086 Elec Gtr 02</option>
+<option value="87">087 Elec Gtr 03</option>
+<option value="88">088 Elec Gtr 04</option>
+<option value="89">089 Bass/Guitar</option>
+<option value="90">090 CoolLink 11a</option>
+<option value="91">091 CoolLink 11b</option>
+<option value="92">092 Super Nova</option>
+<option value="93">093 TronBrasLink</option>
+<option value="94">094 HiBarLink L</option>
+<option value="95">095 HiBarLink M</option>
+<option value="96">096 HiBarLink S</option>
+<option value="97">097 MidBarLink L</option>
+<option value="98">098 MidBarLink M</option>
+<option value="99">099 MidBarLink S</option>
+<option value="100">100 LoBarLink L</option>
+<option value="101">101 LoBarLink M</option>
+<option value="102">102 LoBarLink S</option>
+<option value="103">103 2ndPercLink L</option>
+<option value="104">104 2ndPercLinkM</option>
+<option value="105">105 2ndPercLink S</option>
+<option value="106">106 3rdPercLink L</option>
+<option value="107">107 3rdPercLink M</option>
+<option value="108">108 3rdPercLink S</option>
+<option value="109">109 B3 12 Link A</option>
+<option value="110">110 B3 12 Link B</option>
+<option value="111">111 Swell 3 Link</option>
+<option value="112">112 - default -</option>
+<option value="113">113 - default -</option>
+<option value="114">114 - default -</option>
+<option value="115">115 - default -</option>
+<option value="116">116 - default -</option>
+<option value="117">117 - default -</option>
+<option value="118">118 Preset 246</option>
+<option value="119">119 - default -</option>
+<option value="120">120 - default -</option>
+<option value="121">121 - default -</option>
+<option value="122">122 - default -</option>
+<option value="123">123 - default -</option>
+<option value="124">124 - default -</option>
+<option value="125">125 - default -</option>
+<option value="126">126 - default -</option>
+<option value="127">127 - default -</option>
+</optgroup>
+<optgroup label="Bank 2 (ROM Factory Presets 256-383)">
+<option value="0">000 Hmnd B3</option>
+<option value="1">001 Fndr Rds</option>
+<option value="2">002 Wurli</option>
+<option value="3">003 Soft Pad</option>
+<option value="4">004 Preset 260</option>
+<option value="5">005 Preset 261</option>
+<option value="6">006 Syn Lead.</option>
+<option value="7">007 Preset 263</option>
+<option value="8">008 Syn Bass</option>
+<option value="9">009 Drum Kit</option>
+<option value="10">010 Farfisa</option>
+<option value="11">011 Hard Pad</option>
+<option value="12">012 Wurli</option>
+<option value="13">013 Soft Pad</option>
+<option value="14">014 Clock FX</option>
+<option value="15">015 Swell FX</option>
+<option value="16">016 Intrvl Ld</option>
+<option value="17">017 Swell FX</option>
+<option value="18">018 Syn Bass</option>
+<option value="19">019 Drum Kit</option>
+<option value="20">020 Hmnd B3</option>
+<option value="21">021 Wurli</option>
+<option value="22">022 Preset 278</option>
+<option value="23">023 TronFlute</option>
+<option value="24">024 TronChoir</option>
+<option value="25">025 Soft Pad</option>
+<option value="26">026 Soft Pad</option>
+<option value="27">027 Soft Pad</option>
+<option value="28">028 Syn Bass</option>
+<option value="29">029 Drum Kit</option>
+<option value="30">030 Hmnd B3</option>
+<option value="31">031 CP Grand</option>
+<option value="32">032 Toy Piano</option>
+<option value="33">033 Soft Pad</option>
+<option value="34">034 Soft Pad</option>
+<option value="35">035 Misc Cool</option>
+<option value="36">036 Soft Pad</option>
+<option value="37">037 Soft Pad</option>
+<option value="38">038 Clav</option>
+<option value="39">039 Percussion</option>
+<option value="40">040 Hmnd B3</option>
+<option value="41">041 Clav</option>
+<option value="42">042 Fndr Rds</option>
+<option value="43">043 Soft Pad</option>
+<option value="44">044 Hard Pad</option>
+<option value="45">045 Hard Pad</option>
+<option value="46">046 Syn Lead</option>
+<option value="47">047 Preset 303</option>
+<option value="48">048 Preset 304</option>
+<option value="49">049 Percussion</option>
+<option value="50">050 Preset 306</option>
+<option value="51">051 CP Grand</option>
+<option value="52">052 Vox Cont</option>
+<option value="53">053 Clock FX</option>
+<option value="54">054 Syn Lead</option>
+<option value="55">055 Swell FX</option>
+<option value="56">056 Swell FX</option>
+<option value="57">057 Elec Gtr</option>
+<option value="58">058 Syn Bass</option>
+<option value="59">059 Drum Kit</option>
+<option value="60">060 Hmnd B3</option>
+<option value="61">061 Clav</option>
+<option value="62">062 Hmnd B3</option>
+<option value="63">063 Syn Lead</option>
+<option value="64">064 Hmnd B3</option>
+<option value="65">065 Preset 321</option>
+<option value="66">066 Hmnd B3</option>
+<option value="67">067 Fndr Rds</option>
+<option value="68">068 Clock FX</option>
+<option value="69">069 Swell FX</option>
+<option value="70">070 Hmnd B3</option>
+<option value="71">071 Hard Pad</option>
+<option value="72">072 CP Grand</option>
+<option value="73">073 Hard Pad</option>
+<option value="74">074 Misc Cool</option>
+<option value="75">075 Soft Pad</option>
+<option value="76">076 Drum Kit</option>
+<option value="77">077 Drum Link</option>
+<option value="78">078 Drum Link</option>
+<option value="79">079 Drum Kit</option>
+<option value="80">080 Hmnd B3</option>
+<option value="81">081 Wurli</option>
+<option value="82">082 Soft Pad</option>
+<option value="83">083 Soft Pad</option>
+<option value="84">084 Hard Pad</option>
+<option value="85">085 Hard Pad</option>
+<option value="86">086 Soft Pad</option>
+<option value="87">087 Soft Pad</option>
+<option value="88">088 Syn Bass</option>
+<option value="89">089 Percussion</option>
+<option value="90">090 Preset 346</option>
+<option value="91">091 Preset 347</option>
+<option value="92">092 Soft Pad</option>
+<option value="93">093 Preset 349</option>
+<option value="94">094 Soft Pad</option>
+<option value="95">095 Percussion</option>
+<option value="96">096 Syn Lead</option>
+<option value="97">097 Hmnd Link B</option>
+<option value="98">098 Syn Bass</option>
+<option value="99">099 Hmnd Link C</option>
+<option value="100">100 Hmnd B3</option>
+<option value="101">101 TronStrng 05</option>
+<option value="102">102 Drum Link C</option>
+<option value="103">103 Drum Link D</option>
+<option value="104">104 Drum Link</option>
+<option value="105">105 Percussion</option>
+<option value="106">106 Hmnd B3</option>
+<option value="107">107 Hard Pad</option>
+<option value="108">108 Preset 364</option>
+<option value="109">109 Syn Bass</option>
+<option value="110">110 Syn Bass</option>
+<option value="111">111 Syn Bass</option>
+<option value="112">112 Hmnd B3</option>
+<option value="113">113 Hard Pad</option>
+<option value="114">114 Percussion</option>
+<option value="115">115 Hmnd B3</option>
+<option value="116">116 Hmnd B3</option>
+<option value="117">117 Hmnd Link D</option>
+<option value="118">118 Hmnd B3</option>
+<option value="119">119 Hmnd Link E</option>
+<option value="120">120 Hmnd Link F</option>
+<option value="121">121 Hmnd B3</option>
+<option value="122">122 Hmnd B3</option>
+<option value="123">123 Hmnd Link G</option>
+<option value="124">124 Hmnd B3</option>
+<option value="125">125 Hmnd Link H</option>
+<option value="126">126 Hmnd B3</option>
+<option value="127">127 —default—</option>
+</optgroup>
+<optgroup label="Bank 3 (ROM Factory Presets 384-511)">
+<option value="0">000 Link to 419</option>
+<option value="1">001 Bass Gtr</option>
+<option value="2">002 Bass Gtr</option>
+<option value="3">003 Percussion</option>
+<option value="4">004 Percussion</option>
+<option value="5">005 Drum Kit</option>
+<option value="6">006 Drum Kit</option>
+<option value="7">007 Drum Kit</option>
+<option value="8">008 Drum Kit</option>
+<option value="9">009 Drum Kit</option>
+<option value="10">010 Drum Kit</option>
+<option value="11">011 Clock FX</option>
+<option value="12">012 Clock FX</option>
+<option value="13">013 Clock FX</option>
+<option value="14">014 Clock FX</option>
+<option value="15">015 Clock FX</option>
+<option value="16">016 Clock FX</option>
+<option value="17">017 Misc Cool 14</option>
+<option value="18">018 Misc Cool 15</option>
+<option value="19">019 Misc Cool 16</option>
+<option value="20">020 Misc Cool 17</option>
+<option value="21">021 Misc Cool 18</option>
+<option value="22">022 Misc Cool 19</option>
+<option value="23">023 Misc Cool 20</option>
+<option value="24">024 Musical Box</option>
+<option value="25">025 Swell FX</option>
+<option value="26">026 Swell FX</option>
+<option value="27">027 Swell FX</option>
+<option value="28">028 Clav</option>
+<option value="29">029 CP Grand 15</option>
+<option value="30">030 CP Grand 16</option>
+<option value="31">031 CP Grand 17</option>
+<option value="32">032 CP Grand 18</option>
+<option value="33">033 Hard Pad</option>
+<option value="34">034 Hard Pad</option>
+<option value="35">035 Hard Pad</option>
+<option value="36">036 Hard Pad</option>
+<option value="37">037 Hard Pad</option>
+<option value="38">038 Hard Pad</option>
+<option value="39">039 Hard Pad</option>
+<option value="40">040 Hard Pad</option>
+<option value="41">041 Hard Pad</option>
+<option value="42">042 Soft Pad</option>
+<option value="43">043 Soft Pad</option>
+<option value="44">044 Soft Pad</option>
+<option value="45">045 Soft Pad</option>
+<option value="46">046 Soft Pad</option>
+<option value="47">047 Soft Pad</option>
+<option value="48">048 Soft Pad</option>
+<option value="49">049 Soft Pad</option>
+<option value="50">050 Soft Pad</option>
+<option value="51">051 Syn Bass</option>
+<option value="52">052 Syn Bass</option>
+<option value="53">053 Syn Bass</option>
+<option value="54">054 Syn Bass</option>
+<option value="55">055 Syn Bass</option>
+<option value="56">056 Syn Bass</option>
+<option value="57">057 Syn Lead</option>
+<option value="58">058 Syn Lead</option>
+<option value="59">059 Syn Lead</option>
+<option value="60">060 Syn Lead</option>
+<option value="61">061 Syn Lead</option>
+<option value="62">062 Syn Lead</option>
+<option value="63">063 Syn Lead</option>
+<option value="64">064 TronChoir 05</option>
+<option value="65">065 TronChoir 06</option>
+<option value="66">066 TronStrng 06</option>
+<option value="67">067 Wurli</option>
+<option value="68">068 Wurli</option>
+<option value="69">069 Hmnd B3</option>
+<option value="70">070 Hmnd B3</option>
+<option value="71">071 Hmnd B3</option>
+<option value="72">072 Hmnd B3</option>
+<option value="73">073 Rococo Hair</option>
+<option value="74">074 Rococo Link</option>
+<option value="75">075 Hmnd Link</option>
+<option value="76">076 Hmnd Link K</option>
+<option value="77">077 OrgSpltLinkA</option>
+<option value="78">078 OrgSpltLinkB</option>
+<option value="79">079 OrgSpltLinkC</option>
+<option value="80">080 BGtr1 4Split</option>
+<option value="81">081 BGtr2 4Split</option>
+<option value="82">082 BGtr3 4Split</option>
+<option value="83">083 BGtr4 4Split</option>
+<option value="84">084 BGtr5 4Split</option>
+<option value="85">085 SBas1 4Split</option>
+<option value="86">086 SBas2 4Split</option>
+<option value="87">087 SBas3 4Split</option>
+<option value="88">088 SBas4 4Split</option>
+<option value="89">089 SBas5 4Split</option>
+<option value="90">090 SBas4/Lead1</option>
+<option value="91">091 BGtr1/Lead2</option>
+<option value="92">092 BGtr3/Lead3</option>
+<option value="93">093 Pad5/Lead4</option>
+<option value="94">094 Orgn10/Lead5</option>
+<option value="95">095 Pad7/Lead6</option>
+<option value="96">096 Pad8/Lead7</option>
+<option value="97">097 Pad2/Lead8</option>
+<option value="98">098 BGtr3/Pad1</option>
+<option value="99">099 BGtr2/Pad2</option>
+<option value="100">100 SBas3/Pad3</option>
+<option value="101">101 BGtr1/Pad4</option>
+<option value="102">102 Pad5/Pad6</option>
+<option value="103">103 Pad3/Pad6</option>
+<option value="104">104 SBas4/Pad7</option>
+<option value="105">105 BGtr1/Pad8</option>
+<option value="106">106 SBas2/Pad9</option>
+<option value="107">107 Pad10/Lead2</option>
+<option value="108">108 Pad11/Lead1</option>
+<option value="109">109 SBas5/Pad12</option>
+<option value="110">110 BGtr3/CP-01</option>
+<option value="111">111 BGtr4/CP-02</option>
+<option value="112">112 BGtr3/CP-03</option>
+<option value="113">113 BGtr2/ElPno1</option>
+<option value="114">114 BGtr3/ElPno2</option>
+<option value="115">115 BGtr3/ElPno3</option>
+<option value="116">116 BGtr3/ElPno4</option>
+<option value="117">117 BGtr2/Orgn01</option>
+<option value="118">118 BGtr1/Orgn02</option>
+<option value="119">119 BGtr3/Orgn03</option>
+<option value="120">120 BGtr2/Orgn04</option>
+<option value="121">121 BGtr1/Orgn05</option>
+<option value="122">122 SBas3/Orgn06</option>
+<option value="123">123 BGtr3/Orgn07</option>
+<option value="124">124 BGtr3/Orgn08</option>
+<option value="125">125 BGtr3/Orgn09</option>
+<option value="126">126 BGtr3/Orgn10</option>
+<option value="127">127 - default -</option>
+</optgroup>
+          </select>
+        </div>
+        <div class="lg:col-span-6 bg-[#18181b] p-4 rounded border border-zinc-800 space-y-2">
+          <span class="text-xs uppercase font-bold text-green-400">Live SysEx Telemetry (Classic Product ID 0x04)</span>
+          <div class="bg-black/80 p-2 text-green-400 font-mono text-xs rounded border border-zinc-800 break-all" id="vintagekeys-sysex-hex">
+            F0 18 04 00 01 10 00 6E 00 F7
+          </div>
+        </div>
+      </div>
+    </section>
+
+
     <!-- VIEW 3: LIBRARIAN & BANK MANAGER -->
     <section id="view-librarian" class="hidden space-y-4">
       <div class="flex items-baseline justify-between border-b border-zinc-800 pb-3">
@@ -4127,7 +6831,7 @@
 
     // View Switching
     function switchView(viewName) {
-      ['dashboard', 'editor', 'ax60', 'audity', 'b3', 'carnaval', 'emax', 'emax2', 'xl1', 'xl7', 'librarian', 'midi'].forEach(v => {
+      ['dashboard', 'editor', 'ax60', 'audity', 'b3', 'carnaval', 'emax', 'emax2', 'xl1', 'xl7', 'xk6', 'virtuoso', 'vintagepro', 'vintagekeys', 'librarian', 'midi'].forEach(v => {
         const el = document.getElementById('view-' + v);
         const nav = document.getElementById('nav-' + v);
         if (el && nav) {
@@ -6957,8 +9661,108 @@
       renderMultimodeChannels();
       drawArpStepSequencer(1);
       drawVelocityCurve(0);
+
+      const urlParams = new URLSearchParams(window.location.search);
+      if (urlParams.has('view')) {
+        switchView(urlParams.get('view'));
+      }
     };
 
-    </script>
+  
+    // ==========================================
+    // XK-6, VIRTUOSO, VINTAGE PRO, VINTAGE KEYS JS
+    // ==========================================
+    function updateXk6Param(param, val) {
+      document.getElementById('val-xk6-' + param).innerText = val;
+      if (param === 'cutoff') {
+        const hexVal = parseInt(val).toString(16).padStart(2, '0').toUpperCase();
+        document.getElementById('xk6-sysex-hex').innerText = `F0 18 0F 00 55 01 02 00 03 ${hexVal} 00 F7`;
+        document.getElementById('xk6-lcd-line2').innerText = `Fc:${val.padStart(3, '0')} Q:08 BPM:134 ARP:OFF`;
+      }
+    }
+    function selectXk6Preset(idx) {
+      const sel = document.getElementById('xk6-preset-select');
+      const text = sel.options[sel.selectedIndex].text;
+      document.getElementById('xk6-lcd-line1').innerText = `C01 Vol127 Pan=00  ${text}`;
+      document.getElementById('dashboard-xk6-patch').innerText = text;
+    }
+    function auditionXk6() {
+      playKeyNote(60);
+    }
+
+    function updateVirtuosoParam(param, val) {
+      document.getElementById('val-virtuoso-' + param).innerText = val;
+      if (param === 'cutoff') {
+        const hexVal = parseInt(val).toString(16).padStart(2, '0').toUpperCase();
+        document.getElementById('virtuoso-sysex-hex').innerText = `F0 18 0F 00 55 01 02 00 03 ${hexVal} 00 F7`;
+        document.getElementById('virtuoso-lcd-line2').innerText = `Fc:${val.padStart(3, '0')} Q:02 Expression:64`;
+      }
+    }
+    function selectVirtuosoPreset(idx) {
+      const sel = document.getElementById('virtuoso-preset-select');
+      const text = sel.options[sel.selectedIndex].text;
+      document.getElementById('virtuoso-lcd-line1').innerText = `U0: ${text}`;
+      document.getElementById('dashboard-virtuoso-patch').innerText = text;
+    }
+    function auditionVirtuoso() {
+      playKeyNote(57);
+    }
+
+    function updateVintageProParam(param, val) {
+      document.getElementById('val-vintagepro-' + param).innerText = val;
+      if (param === 'cutoff') {
+        const hexVal = parseInt(val).toString(16).padStart(2, '0').toUpperCase();
+        document.getElementById('vintagepro-sysex-hex').innerText = `F0 18 0F 00 55 01 02 00 03 ${hexVal} 00 F7`;
+        document.getElementById('vintagepro-lcd-line2').innerText = `Tube:48 Chorus:55 Cutoff:${val}`;
+      }
+    }
+    function selectVintageProPreset(idx) {
+      const sel = document.getElementById('vintagepro-preset-select');
+      const text = sel.options[sel.selectedIndex].text;
+      document.getElementById('vintagepro-lcd-line1').innerText = text;
+      document.getElementById('dashboard-vintagepro-patch').innerText = text;
+    }
+    function auditionVintagePro() {
+      playKeyNote(64);
+    }
+
+    function updateVintageKeysParam(param, val) {
+      document.getElementById('val-vintagekeys-' + param).innerText = val;
+      if (param === 'cutoff') {
+        const hexVal = parseInt(val).toString(16).padStart(2, '0').toUpperCase();
+        document.getElementById('vintagekeys-sysex-hex').innerText = `F0 18 04 00 01 10 00 ${hexVal} 00 F7`;
+        document.getElementById('vintagekeys-lcd-line2').innerText = `Fc:${val} Q:04`;
+      }
+    }
+    function selectVintageKeysPreset(idx) {
+      const sel = document.getElementById('vintagekeys-preset-select');
+      const text = sel.options[sel.selectedIndex].text;
+      document.getElementById('vintagekeys-lcd-line1').innerText = text;
+      document.getElementById('dashboard-vintagekeys-patch').innerText = text;
+    }
+    function auditionVintageKeys() {
+      playKeyNote(53);
+    }
+
+    function playKeyNote(midiNote) {
+      try {
+        const ctx = new (window.AudioContext || window.webkitAudioContext)();
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+        const freq = 440 * Math.pow(2, (midiNote - 69) / 12);
+        osc.frequency.setValueAtTime(freq, ctx.currentTime);
+        osc.type = 'sawtooth';
+        gain.gain.setValueAtTime(0.3, ctx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 1.2);
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.start();
+        osc.stop(ctx.currentTime + 1.2);
+      } catch(e) {
+        console.log("Audio not allowed without gesture", e);
+      }
+    }
+
+  </script>
 </body>
 </html>

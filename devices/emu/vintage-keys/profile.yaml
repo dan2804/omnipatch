@@ -1,0 +1,161 @@
+name: E-MU Vintage Keys
+manufacturer: E-mu Systems, Inc.
+category: 32-Voice Vintage Keyboard Sound Module (Classic 1993 1U Rack)
+release_year: 1993
+hardware:
+  form_factor: 1U 19-inch Rackmount
+  polyphony: 32
+  multitimbral_parts: 16
+  sound_memory: 8 MB Sound ROM (249 classic keyboard & synthesizer samples)
+  filter: Dynamic lowpass resonant digital filters with real-time modulation
+  effects: Integrated dual stereo chorus & delay processor
+  outputs: '6 polyphonic outputs (3 stereo pairs: Main, Sub 1, Sub 2)'
+  chassis: Matte black 1990s 1U chassis with emerald green E-mu logo and retro 2x16 green backlit LCD
+midi:
+  manufacturer_id:
+  - 24
+  product_id: 4
+  model_id: 1
+  default_device_id: 0
+  bank_select:
+    msb_cc: 0
+    msb_val: 0
+    lsb_cc: 32
+    banks:
+      0: Bank 0 (RAM User Presets 0-127)
+      1: Bank 1 (RAM User Presets 128-255)
+      2: Bank 2 (ROM Factory Presets 256-383)
+      3: Bank 3 (ROM Factory Presets 384-511)
+sysex:
+  header:
+  - 240
+  - 24
+  - 4
+  - '{device_id}'
+  special_editor_byte: 1
+  commands:
+    parameter_edit: 1
+  parameter_edit_format:
+    header:
+    - 240
+    - 24
+    - 4
+    - '{device_id}'
+    - 1
+    - '{param_lsb}'
+    - '{param_msb}'
+    - '{val_lsb}'
+    - '{val_msb}'
+    - 247
+ui_theme:
+  style: hardware_chassis
+  chassis_color: '#18181b'
+  panel_color: '#27272a'
+  chassis_type: vintage_1990s_black_rack
+  knobs: black_knurled
+  buttons: tactile_black
+  button_color: '#27272a'
+  accent_color: '#22c55e'
+  lcd_backlight: '#064e3b'
+  lcd_text: '#4ade80'
+parameters:
+- id: filter_cutoff
+  name: VCF Cutoff Frequency
+  page: filter
+  param_id: 16
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 110
+  unit: steps
+- id: filter_resonance
+  name: VCF Resonance (Q)
+  page: filter
+  param_id: 17
+  type: linear
+  range:
+  - 0
+  - 15
+  default: 4
+  unit: steps
+- id: filter_envelope_amount
+  name: Filter Envelope Amount
+  page: filter
+  param_id: 18
+  type: linear
+  range:
+  - -64
+  - 63
+  default: 20
+  unit: steps
+- id: chorus_amount
+  name: Stereo Chorus Amount
+  page: fx
+  param_id: 32
+  type: linear
+  range:
+  - 0
+  - 15
+  default: 8
+  unit: steps
+- id: chorus_width
+  name: Stereo Chorus Width
+  page: fx
+  param_id: 33
+  type: linear
+  range:
+  - 0
+  - 15
+  default: 12
+  unit: steps
+- id: amp_attack
+  name: Primary Layer Attack
+  page: envelope
+  param_id: 48
+  type: linear
+  range:
+  - 0
+  - 99
+  default: 0
+  unit: steps
+- id: amp_hold
+  name: Primary Layer Hold
+  page: envelope
+  param_id: 49
+  type: linear
+  range:
+  - 0
+  - 99
+  default: 0
+  unit: steps
+- id: amp_decay
+  name: Primary Layer Decay
+  page: envelope
+  param_id: 50
+  type: linear
+  range:
+  - 0
+  - 99
+  default: 50
+  unit: steps
+- id: amp_sustain
+  name: Primary Layer Sustain
+  page: envelope
+  param_id: 51
+  type: linear
+  range:
+  - 0
+  - 99
+  default: 90
+  unit: steps
+- id: amp_release
+  name: Primary Layer Release
+  page: envelope
+  param_id: 52
+  type: linear
+  range:
+  - 0
+  - 99
+  default: 35
+  unit: steps

@@ -1,0 +1,172 @@
+name: E-MU Vintage Pro
+manufacturer: E-mu Systems, Inc.
+category: 128-Voice Vintage Workstation Rack (32 MB Vintage Collection ROM)
+release_year: 2002
+hardware:
+  form_factor: 1U 19-inch Rackmount
+  polyphony: 128
+  multitimbral_parts: 32
+  sound_memory: "32 MB 'Vintage Collection' Sound ROM (Rhodes, Wurli, Clavinet, B-3, Mellotron, MiniMoog, Prophet, SEM)"
+  filter: 50 12-pole Z-Plane morphing resonant filters
+  beats_engine: 16-track SuperBEATS interactive loop sequencer
+  arpeggiator: 16 simultaneous polyphonic arpeggiator engines
+  knobs: 4 real-time multi-function knobs controlling 12 parameters
+  outputs: '6 polyphonic outputs (3 stereo pairs: Main, Sub 1, Sub 2)'
+  chassis: Two-tone vintage faceplate (top half satin black, bottom half brushed silver-grey, classic Rhodes Mark I aesthetic)
+midi:
+  manufacturer_id:
+  - 24
+  product_id: 15
+  model_id: 22
+  default_device_id: 0
+  bank_select:
+    msb_cc: 0
+    msb_val: 0
+    lsb_cc: 32
+    banks:
+      0: User Bank 0 / VROM Bank 0 (EPs, Organs & Clavinets)
+      1: User Bank 1 / VROM Bank 1 (Analog Synths & Leads)
+      2: User Bank 2 / VROM Bank 2 (Mellotrons, Strings & Pads)
+      3: User Bank 3 / VROM Bank 3 (Vintage Basses, Kits & Beats)
+sysex:
+  header:
+  - 240
+  - 24
+  - 15
+  - '{device_id}'
+  special_editor_byte: 85
+  commands:
+    parameter_edit: 1
+    generic_editor_message: 85
+  parameter_edit_format:
+    header:
+    - 240
+    - 24
+    - 15
+    - '{device_id}'
+    - 85
+    - 1
+    - 2
+    - '{param_lsb}'
+    - '{param_msb}'
+    - '{val_lsb}'
+    - '{val_msb}'
+    - 247
+ui_theme:
+  style: hardware_chassis
+  chassis_color: '#1e293b'
+  panel_color: '#94a3b8'
+  chassis_type: rhodes_two_tone_rack
+  knobs: black_fluted_chrome_cap
+  buttons: tactile_black
+  button_color: '#111827'
+  accent_color: '#10b981'
+  lcd_backlight: '#064e3b'
+  lcd_text: '#34d399'
+parameters:
+- id: filter_cutoff
+  name: Z-Plane Filter Cutoff
+  page: filter
+  param_id: 384
+  type: linear
+  range:
+  - 0
+  - 255
+  default: 128
+  unit: steps
+- id: filter_resonance
+  name: Z-Plane Resonance (Q)
+  page: filter
+  param_id: 385
+  type: linear
+  range:
+  - 0
+  - 15
+  default: 6
+  unit: steps
+- id: filter_morph
+  name: Formant Morph / Drive
+  page: filter
+  param_id: 386
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 64
+- id: filter_type
+  name: Z-Plane Filter Model (50 Types)
+  page: filter
+  param_id: 387
+  type: enum
+  options:
+  - Smooth 2-Pole Lowpass
+  - Classic 4-Pole Moog Ladder
+  - Prophet 4-Pole Resonant Lowpass
+  - Oberheim SEM 2-Pole State-Variable
+  - Oberheim OB-Xa 4-Pole Highpass
+  - Mellotron Bandpass Formant
+  - Rotary Speaker Horn Simulation
+  - Valve Saturation Model
+  - 12-Pole Z-Plane Morphing Vowel
+  - Deep Sub Bass Peak
+  default: 1
+- id: amp_attack
+  name: Amp Envelope Attack
+  page: envelope
+  param_id: 512
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 5
+  unit: ms
+- id: amp_decay
+  name: Amp Envelope Decay
+  page: envelope
+  param_id: 513
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 90
+  unit: ms
+- id: amp_sustain
+  name: Amp Envelope Sustain
+  page: envelope
+  param_id: 514
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 85
+  unit: steps
+- id: amp_release
+  name: Amp Envelope Release
+  page: envelope
+  param_id: 515
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 40
+  unit: ms
+- id: chorus_depth
+  name: Vintage Chorus / Tremolo Depth
+  page: fx
+  param_id: 640
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 55
+  unit: steps
+- id: tube_overdrive
+  name: Classic Tube Overdrive / Grit
+  page: fx
+  param_id: 641
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 48
+  unit: steps

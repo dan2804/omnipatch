@@ -1,0 +1,173 @@
+name: E-MU Virtuoso 2000
+manufacturer: E-mu Systems, Inc.
+category: 128-Voice Virtual Orchestra Sound Module (64 MB ROM & 50 Z-Plane Filters)
+release_year: 2000
+hardware:
+  form_factor: 1U 19-inch Rackmount
+  polyphony: 128
+  multitimbral_parts: 32
+  sound_memory: 64 MB Sound ROM across two 32MB SIMMs (Orchestral Sessions Vol. 1 & Vol. 2)
+  filter: 50 12-pole Z-Plane morphing resonant filters
+  arpeggiator: 16 simultaneous polyphonic arpeggiator engines
+  knobs: 4 real-time multi-function knobs controlling 12 parameters
+  outputs: '6 polyphonic outputs (3 stereo pairs: Main, Sub 1, Sub 2)'
+  chassis: Light silver-grey 1U faceplate with black buttons and cyan phosphor LCD
+midi:
+  manufacturer_id:
+  - 24
+  product_id: 15
+  model_id: 8
+  default_device_id: 0
+  bank_select:
+    msb_cc: 0
+    msb_val: 0
+    lsb_cc: 32
+    banks:
+      0: User Bank 0 / ORCH1 Bank 0 (Strings & Winds)
+      1: User Bank 1 / ORCH1 Bank 1 (Brass & Section)
+      2: User Bank 2 / ORCH2 Bank 0 (Percussion & Solos)
+      3: User Bank 3 / ORCH2 Bank 1 (Ensembles & Combos)
+sysex:
+  header:
+  - 240
+  - 24
+  - 15
+  - '{device_id}'
+  special_editor_byte: 85
+  commands:
+    parameter_edit: 1
+    generic_editor_message: 85
+  parameter_edit_format:
+    header:
+    - 240
+    - 24
+    - 15
+    - '{device_id}'
+    - 85
+    - 1
+    - 2
+    - '{param_lsb}'
+    - '{param_msb}'
+    - '{val_lsb}'
+    - '{val_msb}'
+    - 247
+ui_theme:
+  style: hardware_chassis
+  chassis_color: '#cbd5e1'
+  panel_color: '#94a3b8'
+  chassis_type: light_grey_orchestral_rack
+  knobs: black_knurled
+  buttons: tactile_black
+  button_color: '#1e293b'
+  accent_color: '#38bdf8'
+  lcd_backlight: '#08282f'
+  lcd_text: '#38bdf8'
+parameters:
+- id: filter_cutoff
+  name: Z-Plane Filter Cutoff
+  page: filter
+  param_id: 384
+  type: linear
+  range:
+  - 0
+  - 255
+  default: 120
+  unit: steps
+- id: filter_resonance
+  name: Z-Plane Resonance (Q)
+  page: filter
+  param_id: 385
+  type: linear
+  range:
+  - 0
+  - 15
+  default: 2
+  unit: steps
+- id: filter_morph
+  name: Formant Morph / Expression
+  page: filter
+  param_id: 386
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 64
+- id: filter_type
+  name: Z-Plane Filter Model (50 Types)
+  page: filter
+  param_id: 387
+  type: enum
+  options:
+  - Smooth 2-Pole Lowpass
+  - Classic 4-Pole Lowpass
+  - Deep 6-Pole Lowpass
+  - Vocal Formant Ah-Eh
+  - Vocal Formant Oh-Oo
+  - String Body Resonator
+  - Brass Horn Acoustic Model
+  - Woodwind Pipe Resonator
+  - Highpass 4-Pole
+  - Bandpass 4-Pole
+  - Notch Morph
+  - 12-Pole Z-Plane Concert Hall
+  default: 0
+- id: amp_attack
+  name: Orchestral Envelope Attack
+  page: envelope
+  param_id: 512
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 25
+  unit: ms
+- id: amp_decay
+  name: Orchestral Envelope Decay
+  page: envelope
+  param_id: 513
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 80
+  unit: ms
+- id: amp_sustain
+  name: Orchestral Envelope Sustain
+  page: envelope
+  param_id: 514
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 100
+  unit: steps
+- id: amp_release
+  name: Orchestral Envelope Release
+  page: envelope
+  param_id: 515
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 45
+  unit: ms
+- id: concert_reverb_decay
+  name: Concert Hall Reverb Decay
+  page: fx
+  param_id: 640
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 64
+  unit: steps
+- id: reverb_mix
+  name: Master Reverb Send Mix
+  page: fx
+  param_id: 641
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 40
+  unit: steps
