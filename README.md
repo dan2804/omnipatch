@@ -5,6 +5,8 @@
 
 Inspired by Sound Quest's **Midi Quest 13**, **OmniPatch** combines a clean, fast **Windows 8 Metro / Modern UI** navigation hub with authentic, hardware-tailored skins for vintage analog, virtual analog, and digital rackmount synthesizers.
 
+![OmniPatch Windows 8 Metro UI Studio Hub](assets/screenshots/studio_hub.png)
+
 ---
 
 ## Features
@@ -29,6 +31,31 @@ Inspired by Sound Quest's **Midi Quest 13**, **OmniPatch** combines a clean, fas
 | **E-MU Carnaval** | 32-Voice Latin & World Percussion | 24 | 640 | BEATS interactive drum machine, X-Factor polyrhythmic groove crossfade, 5 Banks |
 | **E-MU Emax** | 12-Bit Analog VCF Sampler | 24 | 72 | SSM2047 24dB/oct resonant analog filters, dual AHDSR envs, dual voice stack, MIDI SDS |
 | **E-MU Emax II** | 16-Bit Stereo Workstation | 24 | 80 | 32-voice stereo sampling, digital resonant 4-pole VCF, Spectrum Interpolation, 4-layer stack |
+
+---
+
+## Hardware Editor Screenshots
+
+### Access Virus A (Virtual Analog Synthesizer)
+![Access Virus A Hardware Editor](assets/screenshots/access_virus_a.png)
+
+### Akai AX60 (Polyphonic Analog Synthesizer)
+![Akai AX60 Hardware Editor](assets/screenshots/akai_ax60.png)
+
+### E-MU Audity 2000 (Z-Plane Modular Rack Synthesizer)
+![E-MU Audity 2000 Hardware Editor](assets/screenshots/emu_audity_2000.png)
+
+### E-MU B-3 (Tonewheel Organ & Leslie 122 Rotary Cabinet)
+![E-MU B-3 Tonewheel Organ](assets/screenshots/emu_b3.png)
+
+### E-MU Carnaval (Latin & World Percussion with BEATS Engine)
+![E-MU Carnaval BEATS Console](assets/screenshots/emu_carnaval.png)
+
+### E-MU Emax (12-Bit Linear Sampler with SSM2047 Analog VCF)
+![E-MU Emax Analog VCF Sampler](assets/screenshots/emu_emax.png)
+
+### E-MU Emax II (16-Bit Stereo Digital Sampling Workstation)
+![E-MU Emax II Digital Sampler](assets/screenshots/emu_emax_ii.png)
 
 ---
 
