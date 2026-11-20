@@ -26,13 +26,13 @@ Inspired by Sound Quest's **Midi Quest 13**, **OmniPatch** combines a clean, fas
 | :--- | :--- | :---: | :---: | :--- |
 | **Access Virus A** | Virtual Analog (DSP56303) | 17 | 256 | Multi-page SysEx (Pages A, B, C), 256-byte dumps, 7-bit checksum |
 | **Akai AX60** | 6-Voice Polyphonic Analog | 23 | 64 | Curtis CEM3394 engine, Tauntek CC mapping (CC 14–74), 3,445B Bank SysEx |
-| **E-MU Audity 2000 (v2)** | 64-Voice Modular Rack | 53 | 640 | 4 Midi Quest modules: MultiMode (16-Ch), Preset Editor, Arp/RPG, Master FX |
-| **E-MU B-3** | 64-Voice Tonewheel Organ | 25 | 384 | 9 Hammond Drawbars, Leslie 122 Rotary Cabinet, Harmonic Percussion, Scanner Vibrato |
+| **E-MU Audity 2000 (v2)** | 64-Voice Modular Rack | 53 | 640 | Light blue metallic chassis, greyish-white buttons, 4 modules (MultiMode, Presets, Arp, FX) |
+| **E-MU B-3** | 64-Voice Tonewheel Organ | 25 | 384 | Brownish-white parchment panel, black buttons, 9 Hammond Drawbars, Leslie 122 Rotary |
 | **E-MU Carnaval** | 32-Voice Latin & World Percussion | 24 | 640 | BEATS interactive drum machine, X-Factor polyrhythmic groove crossfade, 5 Banks |
 | **E-MU Emax** | 12-Bit Analog VCF Sampler | 24 | 72 | SSM2047 24dB/oct resonant analog filters, dual AHDSR envs, dual voice stack, MIDI SDS |
 | **E-MU Emax II** | 16-Bit Stereo Workstation | 24 | 80 | 32-voice stereo sampling, digital resonant 4-pole VCF, Spectrum Interpolation, 4-layer stack |
-| **E-MU Xtreme Lead-1** | 64-Voice Dance & Techno Synth | 14 | 512 | 50 12-Pole Z-Plane morphing filters, 16-track SuperBEATS sequencer with X-Factor groove, 16-engine poly arpeggiator |
-| **E-MU XL-7** | 128-Voice Desktop Workstation | 18 | 512 | 16 Dynamic Velocity/Pressure Pads, 16 Knobs, 16-Track Sequencer (384 PPQN), 50 Z-Plane Filters, 4 SIMMs |
+| **E-MU Xtreme Lead-1** | 64-Voice Dance & Techno Synth | 14 | 512 | Electric yellow chassis, black knobs & buttons, 50 Z-Plane filters, 16-track SuperBEATS |
+| **E-MU XL-7** | 128-Voice Desktop Workstation | 18 | 512 | Electric yellow console, 16 black rubber pads, 16 black knobs, 16-track sequencer (384 PPQN) |
 
 ---
 

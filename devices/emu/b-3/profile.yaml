@@ -59,9 +59,12 @@ sysex:
     - '{val_msb}'
     - 247
 ui_theme:
-  style: vintage_hammond_b3_woodgrain
-  cabinet_color: '#160b06'
-  woodgrain_accent: '#3d1e11'
+  style: vintage_hammond_b3_parchment
+  chassis_color: '#dfd7cb'
+  chassis_type: brownish_white_vintage_organ
+  woodgrain_accent: '#3b1e10'
+  buttons: tactile_black
+  button_color: '#18181b'
   drawbar_brown: '#8b4513'
   drawbar_white: '#f4f1ea'
   drawbar_black: '#1c1c1c'
@@ -120,7 +123,7 @@ parameters:
   default: 0
   unit: position
 - id: drawbar_2
-  name: Drawbar 2' (Blockflöte)
+  name: "Drawbar 2' (Blockfl\xF6te)"
   param_id: 389
   cc: 17
   type: linear
@@ -150,7 +153,7 @@ parameters:
   default: 0
   unit: position
 - id: drawbar_1
-  name: Drawbar 1' (Sifflöte)
+  name: "Drawbar 1' (Siffl\xF6te)"
   param_id: 392
   cc: 20
   type: linear

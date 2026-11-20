@@ -58,13 +58,14 @@ sysex:
     - 247
 ui_theme:
   style: hardware_chassis
-  background_color: '#1e0b36'
-  accent_purple: '#7c3aed'
+  chassis_color: '#eab308'
+  chassis_type: electric_yellow_dance_rack
+  knobs: black_knurled
+  buttons: tactile_black
+  button_color: '#18181b'
   accent_cyan: '#00f0ff'
-  accent_lime: '#a3e635'
   lcd_backlight: '#08282f'
   lcd_text: '#00f0ff'
-  knob_style: knurled_metallic
 parameters:
 - id: filter_cutoff
   name: Z-Plane Filter Cutoff

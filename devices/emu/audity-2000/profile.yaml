@@ -62,11 +62,13 @@ sysex:
   - 247
 ui_theme:
   style: emu_audity_rack
-  bezel_color: '#b8b4a6'
-  chassis_dark: '#12151b'
+  chassis_color: '#3d6880'
+  chassis_type: metallic_light_blue_rack
+  accent_color: '#78b3d4'
+  buttons: greyish_white
+  button_color: '#e2e8f0'
   lcd_backlight: '#0a2d37'
   lcd_text: '#00f0ff'
-  accent_blue: '#0078d7'
   jog_wheel: silver_knurled
 bank_presets:
   User Bank 0 / ROM Bank 5:

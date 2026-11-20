@@ -54,16 +54,17 @@ sysex:
     <val_msb> F7
 ui_theme:
   style: desktop_command_station
-  background_color: '#160728'
-  accent_purple: '#9333ea'
-  accent_yellow: '#eab308'
+  chassis_color: '#eab308'
+  chassis_type: electric_yellow_console
+  pads: black_rubber
+  pad_color: '#18181b'
+  knobs: black_continuous
+  buttons: tactile_black
+  button_color: '#18181b'
+  accent_cyan: '#00f0ff'
   accent_lime: '#84cc16'
-  accent_cyan: '#06b6d4'
   lcd_backlight: '#08282f'
   lcd_text: '#00f0ff'
-  pad_color: '#2a1245'
-  pad_glow: '#c084fc'
-  knob_style: command_station_rotary
 parameters:
 - id: filter_cutoff
   name: Filter Cutoff / Morph (Knob 1 / A)
