@@ -1,9 +1,9 @@
-# SynthQuest
+# OmniPatch
 
-> **Modern Open-Source Cross-Platform MIDI/SysEx Librarian & Patch Editor in Rust**
+> **Universal Cross-Platform MIDI/SysEx Librarian & Patch Editor in Rust**
 > Compatible with **Windows, macOS, Linux, FreeBSD, and OpenBSD**.
 
-Inspired by Sound Quest's **Midi Quest 13**, **SynthQuest** combines a clean, fast **Windows 8 Metro / Modern UI** navigation hub with authentic, hardware-tailored skins for vintage analog, virtual analog, and digital rackmount synthesizers.
+Inspired by Sound Quest's **Midi Quest 13**, **OmniPatch** combines a clean, fast **Windows 8 Metro / Modern UI** navigation hub with authentic, hardware-tailored skins for vintage analog, virtual analog, and digital rackmount synthesizers.
 
 ---
 
@@ -32,17 +32,17 @@ Inspired by Sound Quest's **Midi Quest 13**, **SynthQuest** combines a clean, fa
 ## Cargo Workspace Architecture
 
 ```
-synthquest/
+omnipatch/
 ├── crates/
-│   ├── synthquest-core/       # SysEx encoding, 7-bit checksums, throttling & timing
-│   ├── synthquest-profile/    # YAML profile deserialization & parameter validation
-│   ├── synthquest-midi/       # Cross-platform MIDI I/O via midir with virtual fallback
-│   ├── synthquest-librarian/  # Embedded SQLite patch database & indexing
-│   └── synthquest-cli/        # Command-line interface for device inspection & SysEx testing
-├── devices/                   # Declarative YAML profiles for supported synths
-├── presets/                   # Extracted factory preset libraries (.json)
-├── preview/                   # Interactive Metro UI prototype (open in browser)
-└── tools/                     # Automated PDF manual ingestion tool (Python)
+│   ├── omnipatch-core/       # SysEx encoding, 7-bit checksums, throttling & timing
+│   ├── omnipatch-profile/    # YAML profile deserialization & parameter validation
+│   ├── omnipatch-midi/       # Cross-platform MIDI I/O via midir with virtual fallback
+│   ├── omnipatch-librarian/  # Embedded SQLite patch database & indexing
+│   └── omnipatch-cli/        # Command-line interface for device inspection & SysEx testing
+├── devices/                  # Declarative YAML profiles for supported synths
+├── presets/                  # Extracted factory preset libraries (.json)
+├── preview/                  # Interactive Metro UI prototype (open in browser)
+└── tools/                    # Automated PDF manual ingestion tool (Python)
 ```
 
 ---
@@ -53,8 +53,8 @@ synthquest/
 
 ```bash
 # Clone the repository
-git clone https://github.com/dan2804/synthquest.git
-cd synthquest
+git clone https://github.com/dan2804/omnipatch.git
+cd omnipatch
 
 # Run all unit tests
 cargo test
@@ -67,21 +67,21 @@ cargo build --release
 
 ```bash
 # List all loaded synth profiles
-./target/release/synthquest-cli devices list --dir devices/
+./target/release/omnipatch devices list --dir devices/
 
 # Inspect specific synth parameters
-./target/release/synthquest-cli devices show "E-MU B-3" --dir devices/
+./target/release/omnipatch devices show "E-MU B-3" --dir devices/
 
 # Generate bit-perfect SysEx parameter edit
-./target/release/synthquest-cli sysex param-edit "audity" "0x0144" 95
-./target/release/synthquest-cli sysex param-edit "b3" "0x0180" 8
+./target/release/omnipatch sysex param-edit "audity" "0x0144" 95
+./target/release/omnipatch sysex param-edit "b3" "0x0180" 8
 
 # Import all factory presets into local SQLite librarian
-./target/release/synthquest-cli librarian import-presets --dir devices/ -b library.db
+./target/release/omnipatch librarian import-presets --dir devices/ -b library.db
 
 # Search patches by name or drawbar registration
-./target/release/synthquest-cli librarian search "888" -b library.db
-./target/release/synthquest-cli librarian search "Bass" -b library.db
+./target/release/omnipatch librarian search "888" -b library.db
+./target/release/omnipatch librarian search "Bass" -b library.db
 ```
 
 ### Interactive UI Preview
@@ -92,8 +92,4 @@ Open `preview/index.html` in any modern web browser to interact with the **Windo
 
 ## License
 
-Licensed under either of:
-- Apache License, Version 2.0 ([LICENSE-APACHE](LICENSE-APACHE) or http://www.apache.org/licenses/LICENSE-2.0)
-- MIT license ([LICENSE-MIT](LICENSE-MIT) or http://opensource.org/licenses/MIT)
-
-at your option.
+Open-source under MIT or Apache 2.0.

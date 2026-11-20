@@ -1,14 +1,16 @@
 [package]
-name = "synthquest-librarian"
+name = "omnipatch-midi"
 version.workspace = true
 edition.workspace = true
 authors.workspace = true
 license.workspace = true
 
+[features]
+default = []
+native-midi = ["dep:midir"]
+
 [dependencies]
-synthquest-core = { path = "../synthquest-core" }
-rusqlite.workspace = true
-serde.workspace = true
-serde_json.workspace = true
+omnipatch-core = { path = "../omnipatch-core" }
+midir = { workspace = true, optional = true }
 thiserror.workspace = true
 log.workspace = true

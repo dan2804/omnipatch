@@ -1,6 +1,5 @@
 use thiserror::Error;
-use std::time::Duration;
-use synthquest_core::throttle::PacingConfig;
+use omnipatch_core::throttle::PacingConfig;
 
 #[derive(Error, Debug)]
 pub enum MidiError {

@@ -1,16 +1,13 @@
 [package]
-name = "synthquest-midi"
+name = "omnipatch-profile"
 version.workspace = true
 edition.workspace = true
 authors.workspace = true
 license.workspace = true
 
-[features]
-default = []
-native-midi = ["dep:midir"]
-
 [dependencies]
-synthquest-core = { path = "../synthquest-core" }
-midir = { workspace = true, optional = true }
+omnipatch-core = { path = "../omnipatch-core" }
+serde.workspace = true
+serde_yaml.workspace = true
 thiserror.workspace = true
 log.workspace = true

@@ -1,15 +1,19 @@
 [package]
-name = "synthquest-cli"
+name = "omnipatch-cli"
 version.workspace = true
 edition.workspace = true
 authors.workspace = true
 license.workspace = true
 
+[[bin]]
+name = "omnipatch"
+path = "src/main.rs"
+
 [dependencies]
-synthquest-core = { path = "../synthquest-core" }
-synthquest-profile = { path = "../synthquest-profile" }
-synthquest-midi = { path = "../synthquest-midi" }
-synthquest-librarian = { path = "../synthquest-librarian" }
+omnipatch-core = { path = "../omnipatch-core" }
+omnipatch-profile = { path = "../omnipatch-profile" }
+omnipatch-midi = { path = "../omnipatch-midi" }
+omnipatch-librarian = { path = "../omnipatch-librarian" }
 clap.workspace = true
 colored.workspace = true
 env_logger.workspace = true

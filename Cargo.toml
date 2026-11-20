@@ -1,17 +1,17 @@
 [workspace]
 members = [
-    "crates/synthquest-core",
-    "crates/synthquest-profile",
-    "crates/synthquest-midi",
-    "crates/synthquest-librarian",
-    "crates/synthquest-cli",
+    "crates/omnipatch-core",
+    "crates/omnipatch-profile",
+    "crates/omnipatch-midi",
+    "crates/omnipatch-librarian",
+    "crates/omnipatch-cli",
 ]
 resolver = "2"
 
 [workspace.package]
 version = "0.1.0"
 edition = "2021"
-authors = ["SynthQuest Contributors"]
+authors = ["OmniPatch Contributors"]
 license = "MIT OR Apache-2.0"
 
 [workspace.dependencies]

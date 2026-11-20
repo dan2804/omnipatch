@@ -443,6 +443,65 @@ dependencies = [
 ]
 
 [[package]]
+name = "omnipatch-cli"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "clap",
+ "colored",
+ "env_logger",
+ "hex",
+ "log",
+ "omnipatch-core",
+ "omnipatch-librarian",
+ "omnipatch-midi",
+ "omnipatch-profile",
+ "serde_json",
+]
+
+[[package]]
+name = "omnipatch-core"
+version = "0.1.0"
+dependencies = [
+ "hex",
+ "serde",
+ "thiserror",
+]
+
+[[package]]
+name = "omnipatch-librarian"
+version = "0.1.0"
+dependencies = [
+ "log",
+ "omnipatch-core",
+ "rusqlite",
+ "serde",
+ "serde_json",
+ "thiserror",
+]
+
+[[package]]
+name = "omnipatch-midi"
+version = "0.1.0"
+dependencies = [
+ "log",
+ "midir",
+ "omnipatch-core",
+ "thiserror",
+]
+
+[[package]]
+name = "omnipatch-profile"
+version = "0.1.0"
+dependencies = [
+ "log",
+ "omnipatch-core",
+ "serde",
+ "serde_yaml",
+ "thiserror",
+]
+
+[[package]]
 name = "once_cell"
 version = "1.21.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -639,67 +698,6 @@ dependencies = [
  "proc-macro2",
  "quote",
  "unicode-ident",
-]
-
-[[package]]
-name = "synthquest-cli"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "clap",
- "colored",
- "env_logger",
- "hex",
- "log",
- "serde_json",
- "synthquest-core",
- "synthquest-librarian",
- "synthquest-midi",
- "synthquest-profile",
-]
-
-[[package]]
-name = "synthquest-core"
-version = "0.1.0"
-dependencies = [
- "hex",
- "log",
- "serde",
- "thiserror",
-]
-
-[[package]]
-name = "synthquest-librarian"
-version = "0.1.0"
-dependencies = [
- "log",
- "rusqlite",
- "serde",
- "serde_json",
- "synthquest-core",
- "thiserror",
-]
-
-[[package]]
-name = "synthquest-midi"
-version = "0.1.0"
-dependencies = [
- "log",
- "midir",
- "synthquest-core",
- "thiserror",
-]
-
-[[package]]
-name = "synthquest-profile"
-version = "0.1.0"
-dependencies = [
- "log",
- "serde",
- "serde_json",
- "serde_yaml",
- "synthquest-core",
- "thiserror",
 ]
 
 [[package]]

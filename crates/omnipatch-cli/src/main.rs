@@ -3,13 +3,13 @@ use clap::{Parser, Subcommand};
 use colored::*;
 use std::path::PathBuf;
 
-use synthquest_core::sysex::SysExMessage;
-use synthquest_librarian::{LibrarianDb, PatchRecord};
-use synthquest_midi::MidiManager;
-use synthquest_profile::ProfileRegistry;
+use omnipatch_core::sysex::SysExMessage;
+use omnipatch_librarian::{LibrarianDb, PatchRecord};
+use omnipatch_midi::MidiManager;
+use omnipatch_profile::ProfileRegistry;
 
 #[derive(Parser)]
-#[command(name = "synthquest")]
+#[command(name = "omnipatch")]
 #[command(about = "Modern Cross-Platform MIDI/SysEx Librarian & Patch Editor in Rust", long_about = None)]
 struct Cli {
     #[command(subcommand)]
@@ -77,7 +77,7 @@ enum LibrarianCommands {
     ImportPresets {
         #[arg(short, long, default_value = "devices")]
         dir: PathBuf,
-        #[arg(short = 'b', long, default_value = "synthquest_library.db")]
+        #[arg(short = 'b', long, default_value = "omnipatch_library.db")]
         db: PathBuf,
     },
     /// Search librarian database
@@ -85,7 +85,7 @@ enum LibrarianCommands {
         query: Option<String>,
         #[arg(short, long)]
         device: Option<String>,
-        #[arg(short = 'b', long, default_value = "synthquest_library.db")]
+        #[arg(short = 'b', long, default_value = "omnipatch_library.db")]
         db: PathBuf,
     },
 }
@@ -186,8 +186,8 @@ fn main() -> Result<()> {
                     } else {
                         param_id.parse().unwrap_or(0x0180)
                     };
-                    let (p_lsb, p_msb) = synthquest_core::checksum::emu::encode_14bit(pid);
-                    let (v_lsb, v_msb) = synthquest_core::checksum::emu::encode_14bit(value as u16);
+                    let (p_lsb, p_msb) = omnipatch_core::checksum::emu::encode_14bit(pid);
+                    let (v_lsb, v_msb) = omnipatch_core::checksum::emu::encode_14bit(value as u16);
                     let msg = SysExMessage::new_unchecked(vec![
                         0xF0, 0x18, 0x0F, 0x00, 0x55, 0x01, 0x02, p_lsb, p_msb, v_lsb, v_msb, 0xF7,
                     ]);
