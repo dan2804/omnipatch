@@ -27,6 +27,7 @@ Inspired by Sound Quest's **Midi Quest 13**, **OmniPatch** combines a clean, fas
 | **E-MU Audity 2000 (v2)** | 64-Voice Modular Rack | 53 | 640 | 4 Midi Quest modules: MultiMode (16-Ch), Preset Editor, Arp/RPG, Master FX |
 | **E-MU B-3** | 64-Voice Tonewheel Organ | 25 | 384 | 9 Hammond Drawbars, Leslie 122 Rotary Cabinet, Harmonic Percussion, Scanner Vibrato |
 | **E-MU Carnaval** | 32-Voice Latin & World Percussion | 24 | 640 | BEATS interactive drum machine, X-Factor polyrhythmic groove crossfade, 5 Banks |
+| **E-MU Emax** | 12-Bit Analog VCF Sampler | 24 | 72 | SSM2047 24dB/oct resonant analog filters, dual AHDSR envs, dual voice stack, MIDI SDS |
 
 ---
 
@@ -48,7 +49,8 @@ omnipatch/
 │   └── emu/
 │       ├── audity-2000/      # profile.yaml, factory_presets.json
 │       ├── b-3/              # profile.yaml, factory_presets.json
-│       └── carnaval/         # profile.yaml, factory_presets.json
+│       ├── carnaval/         # profile.yaml, factory_presets.json
+│       └── emax/             # profile.yaml, factory_presets.json
 ├── preview/                  # Interactive Metro UI prototype (open in browser)
 └── tools/                    # Automated PDF manual ingestion tool (Python)
 ```

@@ -128,6 +128,9 @@
         <button onclick="switchView('carnaval')" id="nav-carnaval" class="px-4 py-1.5 transition text-zinc-400 hover:text-white hover:bg-zinc-800/60 border-b-2 border-transparent">
           E-MU Carnaval
         </button>
+        <button onclick="switchView('emax')" id="nav-emax" class="px-4 py-1.5 transition text-zinc-400 hover:text-white hover:bg-zinc-800/60 border-b-2 border-transparent">
+          E-MU Emax
+        </button>
         <button onclick="switchView('librarian')" id="nav-librarian" class="px-4 py-1.5 transition text-zinc-400 hover:text-white hover:bg-zinc-800/60 border-b-2 border-transparent">
           Patch Librarian
         </button>
@@ -332,6 +335,33 @@
             <div class="flex justify-between text-xs font-mono text-zinc-400">
               <span class="text-amber-400 font-semibold" id="dashboard-carnaval-beat">Beats: 00 Salsa Caliente</span>
               <span class="text-emerald-400">SysEx (18 0A)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tile: E-MU Emax (Live & Clickable) -->
+        <div onclick="switchView('emax')" class="md:col-span-2 bg-[#101418] hover:bg-[#151b20] border-l-4 border-[#00d2ff] p-5 cursor-pointer metro-tile flex flex-col justify-between shadow-lg relative overflow-hidden group">
+          <div class="absolute -right-4 -bottom-4 w-28 h-28 bg-[#00d2ff]/10 rounded-full blur-xl pointer-events-none"></div>
+          <div>
+            <div class="flex items-center justify-between">
+              <span class="text-xs uppercase tracking-widest text-[#00d2ff] font-semibold">12-Bit Analog VCF Sampler</span>
+              <span class="flex items-center gap-1.5 bg-black/40 px-2 py-0.5 text-[11px] text-cyan-300">
+                <span class="w-2 h-2 rounded-full bg-cyan-400 led-green"></span> Port 6 (Online)
+              </span>
+            </div>
+            <h3 class="text-2xl font-bold text-white mt-3 tracking-tight flex items-baseline gap-2">
+              E-MU Emax <span class="text-xs font-normal text-zinc-400 font-mono">(1986)</span>
+            </h3>
+            <p class="text-zinc-400 text-xs mt-1">16 Voices • SSM2047 24dB/oct Filters • AHDSR Envelopes</p>
+          </div>
+          <div class="space-y-2 mt-6">
+            <div class="bg-black/50 p-2 text-xs flex justify-between items-center border border-cyan-950">
+              <span class="text-zinc-400">Preset:</span>
+              <span class="font-mono text-cyan-300 font-bold" id="dashboard-emax-patch">Disk 501: P01 Full Strings</span>
+            </div>
+            <div class="flex justify-between text-xs font-mono text-zinc-400">
+              <span class="text-amber-400 font-semibold">SSM2047 Analog VCF</span>
+              <span class="text-cyan-400">SysEx (18 02)</span>
             </div>
           </div>
         </div>
@@ -2374,6 +2404,307 @@
 
     </section>
 
+
+    <!-- VIEW: E-MU EMAX (12-BIT SAMPLER WITH SSM2047 ANALOG FILTERS) -->
+    <section id="view-emax" class="hidden space-y-4">
+
+      <!-- Emax Chassis Header -->
+      <div class="bg-[#101317] border border-cyan-900/60 rounded-sm p-4 shadow-2xl flex flex-col md:flex-row md:items-center justify-between gap-4">
+        <div class="flex items-center gap-4">
+          <!-- Rack Bracket -->
+          <div class="w-3 h-14 bg-zinc-800 rounded-sm flex flex-col justify-between py-1 px-0.5 border border-zinc-700 shadow-inner">
+            <div class="w-2 h-2 rounded-full bg-black border border-zinc-600"></div>
+            <div class="w-2 h-2 rounded-full bg-black border border-zinc-600"></div>
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="text-xs font-black tracking-widest text-cyan-400 bg-cyan-950 px-2 py-0.5 rounded border border-cyan-800">E-MU SYSTEMS</span>
+              <span class="text-xs text-amber-400 font-mono tracking-wider">DIGITAL SAMPLING KEYBOARD • 12-BIT</span>
+            </div>
+            <h2 class="text-3xl font-extrabold tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 via-sky-200 to-amber-200 mt-1">
+              EMAX
+            </h2>
+            <p class="text-xs text-zinc-400 font-medium">16-Voice Sampling Synthesizer with SSM2047 24dB/oct Analog 4-Pole Low-Pass Filters</p>
+          </div>
+        </div>
+
+        <!-- Authentic 2x16 Backlit Blue/Green Alphanumeric LCD Display -->
+        <div class="bg-[#041a20] border-2 border-cyan-800/80 px-4 py-2.5 rounded shadow-[inset_0_0_12px_rgba(0,210,255,0.3)] font-mono min-w-[340px]">
+          <div class="flex justify-between text-xs text-cyan-300 font-bold tracking-wider">
+            <span id="emax-lcd-line1">A: A H D S R   01:FullStrings</span>
+            <span class="text-amber-400 font-semibold" id="emax-lcd-disk">D501</span>
+          </div>
+          <div class="flex justify-between text-xs text-cyan-400/90 mt-1 border-t border-cyan-900/60 pt-1">
+            <span id="emax-lcd-line2">Fc:095 Q:06 Env:+45 Trk:100%</span>
+            <span id="emax-lcd-chorus" class="text-emerald-400 font-bold">CH:WIDE</span>
+          </div>
+        </div>
+
+        <!-- Master Controls & Audition -->
+        <div class="flex items-center gap-2">
+          <button onclick="auditionEmax()" class="bg-gradient-to-r from-cyan-600 to-sky-700 hover:from-cyan-500 hover:to-sky-600 text-white px-4 py-2 text-xs font-bold shadow-md transition flex items-center gap-1.5 rounded">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            Audition Sound
+          </button>
+          <button onclick="toggleEmaxDualVoice()" id="btn-emax-dual" class="bg-amber-600 hover:bg-amber-500 text-black px-3.5 py-2 text-xs font-black shadow-md transition rounded">
+            DUAL VOICE: ON
+          </button>
+        </div>
+      </div>
+
+      <!-- MAIN EMAX WORKSTATION (TWO COLUMN) -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-5">
+
+        <!-- LEFT COLUMN: ANALOG PROCESSING (SSM2047 VCF & AHDSR ENVELOPES) (7 COLS) -->
+        <div class="lg:col-span-7 space-y-4">
+
+          <!-- MODULE: ANALOG PROCESSING 13 & 14 (VCF & FILTER ENVELOPE) -->
+          <div class="bg-[#12161b] border border-cyan-900/50 rounded-sm p-4 shadow-xl space-y-3">
+            <div class="flex items-center justify-between border-b border-cyan-900/60 pb-2">
+              <div class="flex items-center gap-2">
+                <span class="w-3 h-3 rounded-full bg-cyan-400 shadow-[0_0_8px_#00d2ff]"></span>
+                <h3 class="text-sm font-bold tracking-wide uppercase text-cyan-300">SSM2047 Analog VCF (24dB/oct Low-Pass)</h3>
+              </div>
+              <span class="text-[10px] text-zinc-400 font-mono">Analog Processing 13 & 14</span>
+            </div>
+
+            <!-- VCF Main Knobs / Sliders -->
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 bg-black/40 p-3 rounded border border-cyan-950">
+              <div>
+                <div class="flex justify-between text-[11px] text-zinc-400 font-mono mb-1">
+                  <span>CUTOFF (Fc)</span>
+                  <span id="val-emax-fc" class="text-cyan-300 font-bold">95</span>
+                </div>
+                <input type="range" min="0" max="127" value="95" oninput="updateEmaxVcfCutoff(this.value)" class="w-full h-1.5 bg-zinc-800 rounded accent-cyan-400 cursor-pointer">
+              </div>
+
+              <div>
+                <div class="flex justify-between text-[11px] text-zinc-400 font-mono mb-1">
+                  <span>RESONANCE (Q)</span>
+                  <span id="val-emax-q" class="text-cyan-300 font-bold">06</span>
+                </div>
+                <input type="range" min="0" max="15" value="6" oninput="updateEmaxVcfQ(this.value)" class="w-full h-1.5 bg-zinc-800 rounded accent-cyan-400 cursor-pointer">
+              </div>
+
+              <div>
+                <div class="flex justify-between text-[11px] text-zinc-400 font-mono mb-1">
+                  <span>ENV AMOUNT</span>
+                  <span id="val-emax-envamt" class="text-amber-300 font-bold">+45</span>
+                </div>
+                <input type="range" min="-127" max="127" value="45" oninput="updateEmaxVcfEnvAmt(this.value)" class="w-full h-1.5 bg-zinc-800 rounded accent-amber-500 cursor-pointer">
+              </div>
+
+              <div>
+                <div class="flex justify-between text-[11px] text-zinc-400 font-mono mb-1">
+                  <span>KEY TRACK</span>
+                  <span id="val-emax-trk" class="text-emerald-300 font-bold">100%</span>
+                </div>
+                <input type="range" min="0" max="200" value="100" oninput="updateEmaxVcfTracking(this.value)" class="w-full h-1.5 bg-zinc-800 rounded accent-emerald-500 cursor-pointer">
+              </div>
+            </div>
+
+            <!-- FILTER AHDSR ENVELOPE (CANVAS + CONTROLS) -->
+            <div class="bg-black/50 p-3 rounded border border-cyan-950 space-y-2">
+              <div class="flex justify-between items-center">
+                <span class="text-xs uppercase tracking-wider text-cyan-300 font-semibold">Filter AHDSR Envelope (Module 14)</span>
+                <span class="text-[10px] text-zinc-500 font-mono">Attack • Hold • Decay • Sustain • Release</span>
+              </div>
+              <div class="h-20 w-full bg-[#071317] rounded border border-cyan-900/80 overflow-hidden relative">
+                <canvas id="emax-vcf-env-canvas" width="400" height="80" class="w-full h-full"></canvas>
+              </div>
+              <div class="grid grid-cols-5 gap-2 pt-1">
+                <div>
+                  <span class="text-[9px] text-zinc-400 block font-mono">ATTACK</span>
+                  <input type="range" id="emax-fe-a" min="0" max="31" value="2" oninput="drawEmaxEnvelopes(); transmitEmaxParam(140, this.value, 'Filter Env Attack')" class="w-full h-1 bg-zinc-800 accent-cyan-400">
+                </div>
+                <div>
+                  <span class="text-[9px] text-zinc-400 block font-mono">HOLD</span>
+                  <input type="range" id="emax-fe-h" min="0" max="31" value="0" oninput="drawEmaxEnvelopes(); transmitEmaxParam(141, this.value, 'Filter Env Hold')" class="w-full h-1 bg-zinc-800 accent-cyan-400">
+                </div>
+                <div>
+                  <span class="text-[9px] text-zinc-400 block font-mono">DECAY</span>
+                  <input type="range" id="emax-fe-d" min="0" max="31" value="16" oninput="drawEmaxEnvelopes(); transmitEmaxParam(142, this.value, 'Filter Env Decay')" class="w-full h-1 bg-zinc-800 accent-cyan-400">
+                </div>
+                <div>
+                  <span class="text-[9px] text-zinc-400 block font-mono">SUSTAIN</span>
+                  <input type="range" id="emax-fe-s" min="0" max="31" value="20" oninput="drawEmaxEnvelopes(); transmitEmaxParam(143, this.value, 'Filter Env Sustain')" class="w-full h-1 bg-zinc-800 accent-cyan-400">
+                </div>
+                <div>
+                  <span class="text-[9px] text-zinc-400 block font-mono">RELEASE</span>
+                  <input type="range" id="emax-fe-r" min="0" max="31" value="12" oninput="drawEmaxEnvelopes(); transmitEmaxParam(144, this.value, 'Filter Env Release')" class="w-full h-1 bg-zinc-800 accent-cyan-400">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- MODULE: ANALOG PROCESSING 12 (VCA ENVELOPE) & CHORUS -->
+          <div class="bg-[#12161b] border border-cyan-900/50 rounded-sm p-4 shadow-xl space-y-3">
+            <div class="flex items-center justify-between border-b border-cyan-900/60 pb-2">
+              <div class="flex items-center gap-2">
+                <span class="w-3 h-3 rounded-full bg-amber-400 shadow-[0_0_8px_#f59e0b]"></span>
+                <h3 class="text-sm font-bold tracking-wide uppercase text-amber-300">VCA Dynamics & Analog BBD Chorus</h3>
+              </div>
+              <span class="text-[10px] text-zinc-400 font-mono">Analog Processing 12 & 20</span>
+            </div>
+
+            <!-- VCA AHDSR ENVELOPE CANVAS -->
+            <div class="bg-black/50 p-3 rounded border border-cyan-950 space-y-2">
+              <div class="flex justify-between items-center">
+                <span class="text-xs uppercase tracking-wider text-amber-300 font-semibold">VCA Amplitude Envelope (Module 12)</span>
+                <span class="text-[10px] text-zinc-500 font-mono">AHDSR Dynamics</span>
+              </div>
+              <div class="h-20 w-full bg-[#181205] rounded border border-amber-900/80 overflow-hidden relative">
+                <canvas id="emax-vca-env-canvas" width="400" height="80" class="w-full h-full"></canvas>
+              </div>
+              <div class="grid grid-cols-5 gap-2 pt-1">
+                <div>
+                  <span class="text-[9px] text-zinc-400 block font-mono">ATTACK</span>
+                  <input type="range" id="emax-ve-a" min="0" max="31" value="1" oninput="drawEmaxEnvelopes(); transmitEmaxParam(120, this.value, 'VCA Env Attack')" class="w-full h-1 bg-zinc-800 accent-amber-500">
+                </div>
+                <div>
+                  <span class="text-[9px] text-zinc-400 block font-mono">HOLD</span>
+                  <input type="range" id="emax-ve-h" min="0" max="31" value="0" oninput="drawEmaxEnvelopes(); transmitEmaxParam(121, this.value, 'VCA Env Hold')" class="w-full h-1 bg-zinc-800 accent-amber-500">
+                </div>
+                <div>
+                  <span class="text-[9px] text-zinc-400 block font-mono">DECAY</span>
+                  <input type="range" id="emax-ve-d" min="0" max="31" value="24" oninput="drawEmaxEnvelopes(); transmitEmaxParam(122, this.value, 'VCA Env Decay')" class="w-full h-1 bg-zinc-800 accent-amber-500">
+                </div>
+                <div>
+                  <span class="text-[9px] text-zinc-400 block font-mono">SUSTAIN</span>
+                  <input type="range" id="emax-ve-s" min="0" max="31" value="28" oninput="drawEmaxEnvelopes(); transmitEmaxParam(123, this.value, 'VCA Env Sustain')" class="w-full h-1 bg-zinc-800 accent-amber-500">
+                </div>
+                <div>
+                  <span class="text-[9px] text-zinc-400 block font-mono">RELEASE</span>
+                  <input type="range" id="emax-ve-r" min="0" max="31" value="14" oninput="drawEmaxEnvelopes(); transmitEmaxParam(124, this.value, 'VCA Env Release')" class="w-full h-1 bg-zinc-800 accent-amber-500">
+                </div>
+              </div>
+            </div>
+
+            <!-- CHORUS & LFO BAR -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 bg-black/40 p-3 rounded border border-cyan-950 items-center">
+              <div>
+                <label class="text-[10px] text-zinc-400 block font-mono uppercase mb-1">Analog Chorus Mode</label>
+                <select id="emax-chorus-select" onchange="updateEmaxChorus(this.value)" class="w-full bg-[#08171c] text-emerald-300 border border-cyan-900 text-xs px-2 py-1 rounded font-mono">
+                  <option value="0">Off (Direct Voice)</option>
+                  <option value="1">Subtle Warmth</option>
+                  <option value="2" selected>Wide Stereo Ensemble</option>
+                </select>
+              </div>
+
+              <div>
+                <div class="flex justify-between text-[10px] text-zinc-400 font-mono mb-1">
+                  <span>LFO RATE</span>
+                  <span id="val-emax-lfo-rate" class="text-cyan-300 font-bold">14 Hz</span>
+                </div>
+                <input type="range" min="0" max="31" value="14" oninput="updateEmaxLfoRate(this.value)" class="w-full h-1.5 bg-zinc-800 rounded accent-cyan-400 cursor-pointer">
+              </div>
+
+              <div>
+                <div class="flex justify-between text-[10px] text-zinc-400 font-mono mb-1">
+                  <span>LFO -> VCF WAH</span>
+                  <span id="val-emax-lfo-vcf" class="text-cyan-300 font-bold">00</span>
+                </div>
+                <input type="range" min="0" max="15" value="0" oninput="updateEmaxParam(161, this.value, 'val-emax-lfo-vcf', 'LFO to Filter Fc')" class="w-full h-1.5 bg-zinc-800 rounded accent-cyan-400 cursor-pointer">
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- RIGHT COLUMN: FACTORY DISKS & PRESET BROWSER (5 COLS) -->
+        <div class="lg:col-span-5 space-y-4">
+
+          <!-- EMAX FACTORY DISKS VAULT -->
+          <div class="bg-[#12161b] border border-cyan-900/50 rounded-sm p-4 shadow-xl">
+            <div class="flex items-center justify-between border-b border-cyan-900/60 pb-2">
+              <div class="flex items-center gap-2">
+                <span class="text-xs uppercase tracking-wider text-cyan-400 font-semibold">Sound Disk Archives</span>
+                <span class="text-[10px] bg-cyan-950 text-cyan-300 font-mono px-1.5 py-0.5 rounded border border-cyan-800">9 Disks</span>
+              </div>
+              <span class="text-xs text-zinc-400 font-mono">12-Bit Vintage Samples</span>
+            </div>
+
+            <!-- Disk Selector Dropdown -->
+            <div class="mt-3">
+              <label class="text-[11px] text-zinc-400 uppercase tracking-wider font-semibold block mb-1">Floppy Disk / Bank</label>
+              <select id="emax-disk-select" onchange="changeEmaxDisk(this.value)" class="w-full bg-[#05181e] text-cyan-300 border border-cyan-800 text-xs px-3 py-2 font-mono focus:outline-none focus:border-cyan-400 rounded">
+                <option value="Disk 501: Arco Strings">Disk 501: Arco Strings (Concert & Chamber Ensemble)</option>
+                <option value="Disk 502: French Horn & Brass Section">Disk 502: French Horn & Orchestral Brass</option>
+                <option value="Disk 503: Grand Piano (Steinway)">Disk 503: Grand Piano (Steinway D Concert)</option>
+                <option value="Disk 504: Choirs & Vowel Voices">Disk 504: Choirs & Ethereal Vowel Voices</option>
+                <option value="Disk 505: Bass Collection">Disk 505: Bass Collection (Moog, Slap, P-Bass, Upright)</option>
+                <option value="Disk 506: Acoustic & Electric Guitars">Disk 506: Acoustic & Electric Guitars (Martin D-28, Strat)</option>
+                <option value="Disk 507: Electronic & World Drums">Disk 507: Electronic Drums (TR-808, TR-909, Simmons)</option>
+                <option value="Disk 508: Pipe & Tonewheel Organs">Disk 508: Pipe & Tonewheel Organs (Cathedral, B-3)</option>
+                <option value="Disk 510: Synthesizer Classics">Disk 510: Synthesizer Classics (Minimoog, Prophet-5, OB-Xa)</option>
+              </select>
+            </div>
+
+            <!-- Preset List Selector -->
+            <div class="mt-3">
+              <label class="text-[11px] text-zinc-400 uppercase tracking-wider font-semibold block mb-1">Preset Program</label>
+              <select id="emax-preset-select" size="8" onchange="selectEmaxPreset(parseInt(this.value))" class="w-full bg-black/60 border border-cyan-900/80 text-zinc-200 text-xs p-1 font-mono rounded h-40 focus:outline-none focus:border-cyan-500">
+                <!-- Dynamically populated -->
+              </select>
+            </div>
+
+            <!-- Active Patch readout -->
+            <div class="mt-3 p-2 bg-black/50 rounded border border-cyan-950 text-xs flex justify-between items-center font-mono">
+              <span class="text-zinc-400">Current Voice:</span>
+              <span id="emax-active-patch-name" class="text-amber-300 font-bold">P01: Full Concert Strings</span>
+            </div>
+          </div>
+
+          <!-- ARPEGGIATOR SETUP & LIVE SYSEX MONITOR -->
+          <div class="bg-[#101317] border border-cyan-900/50 rounded-sm p-4 shadow-xl space-y-3">
+            <div class="flex items-center justify-between border-b border-cyan-900/60 pb-2">
+              <span class="text-xs uppercase tracking-wider text-cyan-400 font-semibold">Arpeggiator & Realtime SysEx</span>
+              <span class="text-[10px] text-zinc-400 font-mono">MIDI SDS + E-mu 0x18 0x02</span>
+            </div>
+
+            <div class="grid grid-cols-2 gap-2 bg-black/40 p-2.5 rounded border border-cyan-950">
+              <div>
+                <span class="text-[10px] text-zinc-400 block font-mono mb-1">ARP MODE</span>
+                <select id="emax-arp-mode" onchange="updateEmaxParam(60, this.value, null, 'Arp Mode')" class="w-full bg-[#05181e] text-cyan-300 border border-cyan-900 text-xs px-2 py-1 rounded font-mono">
+                  <option value="0">Off</option>
+                  <option value="1">Up</option>
+                  <option value="2">Down</option>
+                  <option value="3" selected>Up / Down</option>
+                  <option value="4">Forward Assign</option>
+                  <option value="5">Random</option>
+                </select>
+              </div>
+
+              <div>
+                <span class="text-[10px] text-zinc-400 block font-mono mb-1">SAMPLE RATE</span>
+                <select class="w-full bg-[#05181e] text-cyan-300 border border-cyan-900 text-xs px-2 py-1 rounded font-mono">
+                  <option value="0">27.778 kHz (Standard)</option>
+                  <option value="1">39.062 kHz (High-Fi)</option>
+                  <option value="2">17.857 kHz (Lo-Fi Vintage)</option>
+                  <option value="3">10.000 kHz (Gritty 12-Bit)</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Live SysEx Monitor -->
+            <div class="space-y-2 text-xs font-mono">
+              <div class="bg-black/70 p-2.5 rounded border border-cyan-950 break-all text-amber-300 font-bold" id="emax-sysex-hex">
+                F0 18 02 00 01 82 5F 00 F7
+              </div>
+              <div class="text-zinc-400 italic text-[11px]" id="emax-sysex-expl">
+                [Ready - E-MU Emax 12-Bit SSM2047 Parameter Stream]
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
     <!-- VIEW 3: LIBRARIAN & BANK MANAGER -->
     <section id="view-librarian" class="hidden space-y-4">
       <div class="flex items-baseline justify-between border-b border-zinc-800 pb-3">
@@ -2546,7 +2877,7 @@
 
     // View Switching
     function switchView(viewName) {
-      ['dashboard', 'editor', 'ax60', 'audity', 'b3', 'carnaval', 'librarian', 'midi'].forEach(v => {
+      ['dashboard', 'editor', 'ax60', 'audity', 'b3', 'carnaval', 'emax', 'librarian', 'midi'].forEach(v => {
         const el = document.getElementById('view-' + v);
         const nav = document.getElementById('nav-' + v);
         if (el && nav) {
@@ -2563,6 +2894,9 @@
       });
       if (viewName === 'editor') {
         drawEnvelopes();
+      }
+      if (viewName === 'emax') {
+        drawEmaxEnvelopes();
       }
       if (viewName === 'audity') {
         drawZPlaneCurve(82, 45, 64);
@@ -4046,6 +4380,282 @@
       if (hexDisplay && explDisplay) {
         hexDisplay.innerText = '90 3C 7F  90 40 70  90 43 68 (Latin Percussion Hit)';
         explDisplay.innerText = '[Audition: Brazilian Carnaval Percussion Ensemble Triggered]';
+      }
+    }
+
+    
+    // ================= E-MU EMAX LOGIC & PRESETS =================
+    const emaxPresetsMap = {"Disk 501: Arco Strings": ["P01: Full Concert Strings", "P02: Marcato Violins & Violas", "P03: Legato Cellos Section", "P04: Double Bass Spiccato", "P05: Tremolo Chamber Strings", "P06: Pizzicato Studio Ensemble", "P07: Solitary Cello Solo", "P08: Octave Symphonic Strings"], "Disk 502: French Horn & Brass Section": ["P01: French Horn Majestic", "P02: Orchestral Brass Tutti", "P03: Dual Horn Ensemble", "P04: Trumpet Section Muted", "P05: Staccato Horn Rip", "P06: Trombone Warm Sustain", "P07: Tuba & Low Bones", "P08: Fanfare Brass Hits"], "Disk 503: Grand Piano (Steinway)": ["P01: Concert Grand Steinway D", "P02: Bright Rock Grand", "P03: Warm Mellow Piano", "P04: Dual Voice Detuned Grand", "P05: Piano & Pad Layer", "P06: Honky Tonk Saloon", "P07: Compressed Studio Grand", "P08: Ambient Hall Grand"], "Disk 504: Choirs & Vowel Voices": ["P01: Sacred Mixed Choir Aahs", "P02: Ethereal Boys Choir Oohs", "P03: Gregorian Monks Chant", "P04: Vocal Breath Pad", "P05: Pop Vowel Lead Mmm", "P06: Velvet Space Choir", "P07: Resonant Formant Solo", "P08: Angelic Sotto Voce"], "Disk 505: Bass Collection": ["P01: Moog Rogue Analog Sub", "P02: Fender Precision Fingerstyle", "P03: Marcus Slap & Pop Bass", "P04: Rickenbacker 4001 Picked", "P05: Upright Jazz Acoustic Bass", "P06: Fretless Bass Slide", "P07: 808 Boom Synth Sub", "P08: Acid Reso CEM/SSM Bass"], "Disk 506: Acoustic & Electric Guitars": ["P01: Martin D-28 Acoustic Strum", "P02: Spanish Nylon Fingerpick", "P03: Fender Strat Clean Chorus", "P04: Gibson Les Paul Crunch", "P05: 12-String Acoustic Chimes", "P06: Muted Electric Funk Wah", "P07: Distorted Power Fifth", "P08: Ambient Shimmer Guitar"], "Disk 507: Electronic & World Drums": ["P01: TR-808 Kit Extended", "P02: TR-909 Studio Punch", "P03: Simmons Hexagon Electronic", "P04: LinnDrum Classic 80s", "P05: Afro-Cuban Congas & Timbales", "P06: Gated Snare Arena Kit", "P07: Ambient Industrial Metals", "P08: Reverse Cymbals & FX"], "Disk 508: Pipe & Tonewheel Organs": ["P01: B-3 Full 888888888 Chorus", "P02: Cathedral Pipe Organ Plenum", "P03: Gospel Organ Percussive", "P04: Farfisa Compact Combo", "P05: Vox Continental British", "P06: Church Flute 8ft + 4ft", "P07: Mellow Jazz Organ 888000", "P08: Theater Organ Tremulant"], "Disk 510: Synthesizer Classics": ["P01: Minimoog 3-Osc Fat Lead", "P02: Prophet-5 Analog Brass", "P03: Oberheim OB-Xa Huge Pad", "P04: Jupiter-8 Arpeggio Sync", "P05: PPG Wave 2.2 Digital Chime", "P06: Fairlight CMI Vox Arr1", "P07: ARP Odyssey Sync Lead", "P08: Blade Runner CS-80 Brass"]};
+    let currentEmaxDisk = 'Disk 501: Arco Strings';
+    let currentEmaxPresetIdx = 0;
+    let emaxDualVoice = true;
+    let emaxVcfFc = 95;
+    let emaxVcfQ = 6;
+    let emaxVcfEnvAmt = 45;
+    let emaxVcfTracking = 100;
+    let emaxChorusMode = 2; // 0=Off, 1=Subtle, 2=Wide
+
+    function populateEmaxPresets(diskName) {
+      const select = document.getElementById('emax-preset-select');
+      if (!select) return;
+      select.innerHTML = '';
+      const list = emaxPresetsMap[diskName] || [];
+      list.forEach((name, i) => {
+        const opt = document.createElement('option');
+        opt.value = i;
+        opt.text = name;
+        select.appendChild(opt);
+      });
+      select.value = currentEmaxPresetIdx;
+    }
+
+    function changeEmaxDisk(diskName) {
+      currentEmaxDisk = diskName;
+      currentEmaxPresetIdx = 0;
+      populateEmaxPresets(diskName);
+      selectEmaxPreset(0);
+
+      const diskCode = diskName.substring(0, 8).replace('Disk ', 'D');
+      const lcdDisk = document.getElementById('emax-lcd-disk');
+      if (lcdDisk) lcdDisk.innerText = diskCode;
+    }
+
+    function selectEmaxPreset(idx) {
+      currentEmaxPresetIdx = idx;
+      const list = emaxPresetsMap[currentEmaxDisk] || [];
+      const name = list[idx] || "P01: Full Concert Strings";
+
+      const patchDisp = document.getElementById('emax-active-patch-name');
+      if (patchDisp) patchDisp.innerText = name;
+
+      const lcd1 = document.getElementById('emax-lcd-line1');
+      if (lcd1) {
+        lcd1.innerText = 'A: A H D S R   ' + name.substring(0, 14);
+      }
+
+      const dashPatch = document.getElementById('dashboard-emax-patch');
+      if (dashPatch) {
+        dashPatch.innerText = currentEmaxDisk.substring(0, 8) + ': ' + name;
+      }
+
+      transmitEmaxParam(0x01, idx, 'Preset Select (' + name + ')');
+    }
+
+    function toggleEmaxDualVoice() {
+      emaxDualVoice = !emaxDualVoice;
+      const btn = document.getElementById('btn-emax-dual');
+      if (btn) {
+        btn.innerText = emaxDualVoice ? 'DUAL VOICE: ON' : 'DUAL VOICE: OFF';
+        btn.className = emaxDualVoice ? 'bg-amber-600 hover:bg-amber-500 text-black px-3.5 py-2 text-xs font-black shadow-md transition rounded'
+                                      : 'bg-zinc-800 text-zinc-400 px-3.5 py-2 text-xs font-bold rounded';
+      }
+      transmitEmaxParam(40, emaxDualVoice ? 1 : 0, 'Dual Voice Stacking (Detuned 8-Voice Mode)');
+    }
+
+    function updateEmaxVcfCutoff(val) {
+      emaxVcfFc = parseInt(val);
+      const lbl = document.getElementById('val-emax-fc');
+      if (lbl) lbl.innerText = emaxVcfFc;
+      updateEmaxLcdLine2();
+      transmitEmaxParam(130, emaxVcfFc, 'SSM2047 Filter Cutoff (Fc)');
+    }
+
+    function updateEmaxVcfQ(val) {
+      emaxVcfQ = parseInt(val);
+      const lbl = document.getElementById('val-emax-q');
+      if (lbl) lbl.innerText = String(emaxVcfQ).padStart(2, '0');
+      updateEmaxLcdLine2();
+      transmitEmaxParam(131, emaxVcfQ, 'SSM2047 Filter Resonance (Q)');
+    }
+
+    function updateEmaxVcfEnvAmt(val) {
+      emaxVcfEnvAmt = parseInt(val);
+      const lbl = document.getElementById('val-emax-envamt');
+      if (lbl) lbl.innerText = (emaxVcfEnvAmt >= 0 ? '+' : '') + emaxVcfEnvAmt;
+      updateEmaxLcdLine2();
+      transmitEmaxParam(132, emaxVcfEnvAmt + 128, 'Filter Envelope Amount');
+    }
+
+    function updateEmaxVcfTracking(val) {
+      emaxVcfTracking = parseInt(val);
+      const lbl = document.getElementById('val-emax-trk');
+      if (lbl) lbl.innerText = emaxVcfTracking + '%';
+      updateEmaxLcdLine2();
+      transmitEmaxParam(133, emaxVcfTracking, 'Filter Keyboard Tracking');
+    }
+
+    function updateEmaxChorus(val) {
+      emaxChorusMode = parseInt(val);
+      const names = ['OFF', 'SUBTLE', 'WIDE'];
+      const lcdChorus = document.getElementById('emax-lcd-chorus');
+      if (lcdChorus) lcdChorus.innerText = 'CH:' + names[emaxChorusMode];
+      transmitEmaxParam(200, emaxChorusMode, 'Analog BBD Chorus (' + names[emaxChorusMode] + ')');
+    }
+
+    function updateEmaxLfoRate(val) {
+      const numVal = parseInt(val);
+      const lbl = document.getElementById('val-emax-lfo-rate');
+      if (lbl) lbl.innerText = numVal + ' Hz';
+      transmitEmaxParam(150, numVal, 'LFO Rate');
+    }
+
+    function updateEmaxParam(paramId, val, lblId, labelName) {
+      const numVal = parseInt(val);
+      if (lblId) {
+        const lbl = document.getElementById(lblId);
+        if (lbl) lbl.innerText = numVal;
+      }
+      transmitEmaxParam(paramId, numVal, labelName);
+    }
+
+    function updateEmaxLcdLine2() {
+      const lcd2 = document.getElementById('emax-lcd-line2');
+      if (lcd2) {
+        const fcStr = String(emaxVcfFc).padStart(3, '0');
+        const qStr = String(emaxVcfQ).padStart(2, '0');
+        const envStr = (emaxVcfEnvAmt >= 0 ? '+' : '') + emaxVcfEnvAmt;
+        lcd2.innerText = 'Fc:' + fcStr + ' Q:' + qStr + ' Env:' + envStr + ' Trk:' + emaxVcfTracking + '%';
+      }
+    }
+
+    function drawEmaxEnvelopes() {
+      // VCF Envelope
+      drawADSR_Emax('emax-vcf-env-canvas',
+        parseInt(document.getElementById('emax-fe-a') ? document.getElementById('emax-fe-a').value : 2),
+        parseInt(document.getElementById('emax-fe-h') ? document.getElementById('emax-fe-h').value : 0),
+        parseInt(document.getElementById('emax-fe-d') ? document.getElementById('emax-fe-d').value : 16),
+        parseInt(document.getElementById('emax-fe-s') ? document.getElementById('emax-fe-s').value : 20),
+        parseInt(document.getElementById('emax-fe-r') ? document.getElementById('emax-fe-r').value : 12),
+        '#00d2ff'
+      );
+      // VCA Envelope
+      drawADSR_Emax('emax-vca-env-canvas',
+        parseInt(document.getElementById('emax-ve-a') ? document.getElementById('emax-ve-a').value : 1),
+        parseInt(document.getElementById('emax-ve-h') ? document.getElementById('emax-ve-h').value : 0),
+        parseInt(document.getElementById('emax-ve-d') ? document.getElementById('emax-ve-d').value : 24),
+        parseInt(document.getElementById('emax-ve-s') ? document.getElementById('emax-ve-s').value : 28),
+        parseInt(document.getElementById('emax-ve-r') ? document.getElementById('emax-ve-r').value : 14),
+        '#f59e0b'
+      );
+    }
+
+    function drawADSR_Emax(canvasId, a, h, d, s, r, color) {
+      const canvas = document.getElementById(canvasId);
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      const w = canvas.width;
+      const height = canvas.height;
+      ctx.clearRect(0, 0, w, height);
+
+      // Grid Lines
+      ctx.strokeStyle = '#1b262c';
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      ctx.moveTo(0, height / 2); ctx.lineTo(w, height / 2);
+      ctx.stroke();
+
+      const totalTime = Math.max(1, a + h + d + 20 + r);
+      const xA = (a / totalTime) * (w - 20) + 10;
+      const xH = xA + (h / totalTime) * (w - 20);
+      const xD = xH + (d / totalTime) * (w - 20);
+      const xS = xD + (20 / totalTime) * (w - 20);
+      const xR = Math.min(w - 5, xS + (r / totalTime) * (w - 20));
+
+      const ySustain = height - 10 - (s / 31) * (height - 20);
+
+      // Gradient Fill
+      const grad = ctx.createLinearGradient(0, 0, 0, height);
+      grad.addColorStop(0, color + '55');
+      grad.addColorStop(1, color + '00');
+
+      ctx.beginPath();
+      ctx.moveTo(10, height - 10);
+      ctx.lineTo(xA, 10);
+      ctx.lineTo(xH, 10);
+      ctx.lineTo(xD, ySustain);
+      ctx.lineTo(xS, ySustain);
+      ctx.lineTo(xR, height - 10);
+      ctx.closePath();
+      ctx.fillStyle = grad;
+      ctx.fill();
+
+      // Stroke line
+      ctx.strokeStyle = color;
+      ctx.lineWidth = 2.5;
+      ctx.beginPath();
+      ctx.moveTo(10, height - 10);
+      ctx.lineTo(xA, 10);
+      ctx.lineTo(xH, 10);
+      ctx.lineTo(xD, ySustain);
+      ctx.lineTo(xS, ySustain);
+      ctx.lineTo(xR, height - 10);
+      ctx.stroke();
+    }
+
+    function transmitEmaxParam(paramId, val, label) {
+      const numVal = parseInt(val);
+      // E-MU Emax: F0 18 02 <dev> 01 <p_id> <v_lsb> <v_msb> F7
+      const pByte = (paramId & 0x7F).toString(16).toUpperCase().padStart(2, '0');
+      const vLsb = (numVal & 0x7F).toString(16).toUpperCase().padStart(2, '0');
+      const vMsb = ((numVal >> 7) & 0x7F).toString(16).toUpperCase().padStart(2, '0');
+
+      const hexStr = 'F0 18 02 00 01 ' + pByte + ' ' + vLsb + ' ' + vMsb + ' F7';
+      const hexDisplay = document.getElementById('emax-sysex-hex');
+      const explDisplay = document.getElementById('emax-sysex-expl');
+      if (hexDisplay && explDisplay) {
+        hexDisplay.innerText = hexStr;
+        explDisplay.innerText = '[SysEx Emax: ' + label + ' = ' + numVal + ' (Param 0x' + pByte + ')]';
+      }
+    }
+
+    function auditionEmax() {
+      try {
+        const ctx = getAudioContext();
+        const now = ctx.currentTime;
+
+        // 12-Bit Sample Emulation (Dual Detuned Saw/Square into Resonant 24dB Lowpass)
+        const osc1 = ctx.createOscillator();
+        const osc2 = ctx.createOscillator();
+        const vcf = ctx.createBiquadFilter();
+        const vca = ctx.createGain();
+
+        osc1.type = 'sawtooth';
+        osc1.frequency.setValueAtTime(220, now); // A3
+
+        osc2.type = 'sawtooth';
+        osc2.frequency.setValueAtTime(emaxDualVoice ? 221.2 : 220, now); // Detuned second voice
+
+        // SSM2047 Filter Setup
+        vcf.type = 'lowpass';
+        const cutoffFreq = (emaxVcfFc / 127) * 4500 + 150;
+        vcf.frequency.setValueAtTime(cutoffFreq, now);
+        vcf.frequency.exponentialRampToValueAtTime(cutoffFreq * 1.5, now + 0.1);
+        vcf.frequency.exponentialRampToValueAtTime(cutoffFreq, now + 0.6);
+        vcf.Q.value = (emaxVcfQ / 15) * 12 + 0.7;
+
+        // VCA Envelope
+        vca.gain.setValueAtTime(0.001, now);
+        vca.gain.linearRampToValueAtTime(0.6, now + 0.05);
+        vca.gain.exponentialRampToValueAtTime(0.001, now + 0.8);
+
+        osc1.connect(vcf);
+        osc2.connect(vcf);
+        vcf.connect(vca);
+        vca.connect(ctx.destination);
+
+        osc1.start(now);
+        osc2.start(now);
+        osc1.stop(now + 0.85);
+        osc2.stop(now + 0.85);
+      } catch (e) {
+        // silent fallback
+      }
+
+      const hexDisplay = document.getElementById('emax-sysex-hex');
+      const explDisplay = document.getElementById('emax-sysex-expl');
+      if (hexDisplay && explDisplay) {
+        hexDisplay.innerText = '90 39 7F  90 40 70  90 45 68 (A-E-A String Triad)';
+        explDisplay.innerText = '[Audition: 12-Bit Linear Sample + SSM2047 Analog 24dB/oct VCF Active]';
       }
     }
 

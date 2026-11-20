@@ -180,6 +180,19 @@ fn main() -> Result<()> {
                     ]);
                     println!("Raw SysEx:  {}", msg.to_hex_string().bright_yellow().bold());
                     println!("Parsed Msg: Manufacturer ID: Access Music (00 20 33)");
+                } else if device.to_lowercase().contains("emax") {
+                    // E-MU Emax: F0 18 02 <dev> 01 <p_id> <v_lsb> <v_msb> F7
+                    let pid: u8 = if param_id.starts_with("0x") {
+                        u8::from_str_radix(&param_id[2..], 16).unwrap_or(0x82)
+                    } else {
+                        param_id.parse().unwrap_or(130)
+                    };
+                    let (v_lsb, v_msb) = omnipatch_core::checksum::emu::encode_14bit(value as u16);
+                    let msg = SysExMessage::new_unchecked(vec![
+                        0xF0, 0x18, 0x02, 0x00, 0x01, pid, v_lsb, v_msb, 0xF7,
+                    ]);
+                    println!("Raw SysEx:  {}", msg.to_hex_string().bright_yellow().bold());
+                    println!("Parsed Msg: Manufacturer: E-mu Systems (18), Device: Emax Sampler (02), Command: Parameter Edit (01)");
                 } else if device.to_lowercase().contains("carnaval") {
                     // E-MU Carnaval: F0 18 0A <dev> 01 <p_lsb> <p_msb> <v_lsb> <v_msb> F7
                     let pid: u16 = if param_id.starts_with("0x") {

@@ -1,0 +1,301 @@
+name: E-MU Emax
+manufacturer: E-mu Systems, Inc.
+category: 12-Bit Sampling Synthesizer (SSM2047 Analog 24dB/oct Filters)
+release_year: 1986
+hardware:
+  architecture: 12-bit linear companded digital sampling into true SSM2047 analog
+    4-pole low-pass filters per voice
+  polyphony: 16
+  sample_rates:
+  - 10.000 kHz
+  - 14.286 kHz
+  - 17.857 kHz
+  - 20.833 kHz
+  - 27.778 kHz
+  - 31.250 kHz
+  - 39.062 kHz
+  filter: SSM2047 24dB/oct 4-pole resonant low-pass filter with AHDSR envelope and
+    key tracking
+  vca: Analog VCA with AHDSR envelope and velocity sensitivity
+  lfo: Triangle/sine LFO with initial rate, delay, and variation
+  chorus: True analog BBD stereo chorus / doubling circuit
+  chassis: Charcoal matte grey with ice-blue typography and 2x16 alphanumeric backlit
+    LCD
+midi:
+  manufacturer_id:
+  - 24
+  device_id: 0
+  product_id: 2
+  channel: 1
+  sample_dump_standard: true
+  supermode: Polyphonic multi-timbral reception across 16 channels
+  pitch_bend: true
+  aftertouch: true
+sysex:
+  header:
+  - 240
+  - 24
+  - 2
+  - '{device_id}'
+  commands:
+    parameter_edit: 1
+    voice_data_request: 2
+    voice_data_dump: 3
+    preset_data_request: 4
+    preset_data_dump: 5
+    sample_dump_header: 6
+    sample_dump_data: 7
+  parameter_edit_format:
+    header:
+    - 240
+    - 24
+    - 2
+    - '{device_id}'
+    - 1
+    - '{param_id}'
+    - '{val_lsb}'
+    - '{val_msb}'
+    - 247
+ui_theme:
+  style: hardware_chassis
+  background_color: '#121417'
+  accent_cyan: '#00d2ff'
+  accent_gold: '#eab308'
+  lcd_backlight: '#082a32'
+  lcd_text: '#00f0ff'
+  slider_cap: '#262b32'
+parameters:
+- id: vcf_cutoff
+  name: Filter Cutoff (Fc)
+  page: analog_processing
+  param_id: 130
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 95
+  unit: steps
+- id: vcf_resonance
+  name: Filter Resonance (Q)
+  page: analog_processing
+  param_id: 131
+  type: linear
+  range:
+  - 0
+  - 15
+  default: 6
+  unit: steps
+- id: vcf_env_amount
+  name: Filter Envelope Amount
+  page: analog_processing
+  param_id: 132
+  type: bipolar
+  range:
+  - -127
+  - 127
+  default: 45
+- id: vcf_tracking
+  name: Filter Keyboard Tracking
+  page: analog_processing
+  param_id: 133
+  type: linear
+  range:
+  - 0
+  - 200
+  default: 100
+  unit: '%'
+- id: vcf_attack
+  name: Filter Env Attack
+  page: analog_processing
+  param_id: 140
+  type: linear
+  range:
+  - 0
+  - 31
+  default: 2
+- id: vcf_hold
+  name: Filter Env Hold
+  page: analog_processing
+  param_id: 141
+  type: linear
+  range:
+  - 0
+  - 31
+  default: 0
+- id: vcf_decay
+  name: Filter Env Decay
+  page: analog_processing
+  param_id: 142
+  type: linear
+  range:
+  - 0
+  - 31
+  default: 16
+- id: vcf_sustain
+  name: Filter Env Sustain
+  page: analog_processing
+  param_id: 143
+  type: linear
+  range:
+  - 0
+  - 31
+  default: 20
+- id: vcf_release
+  name: Filter Env Release
+  page: analog_processing
+  param_id: 144
+  type: linear
+  range:
+  - 0
+  - 31
+  default: 12
+- id: vca_attack
+  name: VCA Env Attack
+  page: analog_processing
+  param_id: 120
+  type: linear
+  range:
+  - 0
+  - 31
+  default: 1
+- id: vca_hold
+  name: VCA Env Hold
+  page: analog_processing
+  param_id: 121
+  type: linear
+  range:
+  - 0
+  - 31
+  default: 0
+- id: vca_decay
+  name: VCA Env Decay
+  page: analog_processing
+  param_id: 122
+  type: linear
+  range:
+  - 0
+  - 31
+  default: 24
+- id: vca_sustain
+  name: VCA Env Sustain
+  page: analog_processing
+  param_id: 123
+  type: linear
+  range:
+  - 0
+  - 31
+  default: 28
+- id: vca_release
+  name: VCA Env Release
+  page: analog_processing
+  param_id: 124
+  type: linear
+  range:
+  - 0
+  - 31
+  default: 14
+- id: lfo_rate
+  name: LFO Initial Rate
+  page: analog_processing
+  param_id: 150
+  type: linear
+  range:
+  - 0
+  - 31
+  default: 14
+  unit: Hz
+- id: lfo_delay
+  name: LFO Delay Time
+  page: analog_processing
+  param_id: 151
+  type: linear
+  range:
+  - 0
+  - 31
+  default: 6
+- id: lfo_variation
+  name: LFO Variation / Jitter
+  page: analog_processing
+  param_id: 152
+  type: linear
+  range:
+  - 0
+  - 31
+  default: 0
+- id: lfo_vibrato
+  name: LFO -> Pitch (Vibrato)
+  page: analog_processing
+  param_id: 160
+  type: linear
+  range:
+  - 0
+  - 15
+  default: 3
+- id: lfo_filter
+  name: LFO -> Filter Fc (Wah)
+  page: analog_processing
+  param_id: 161
+  type: linear
+  range:
+  - 0
+  - 15
+  default: 0
+- id: lfo_tremolo
+  name: LFO -> VCA (Tremolo)
+  page: analog_processing
+  param_id: 162
+  type: linear
+  range:
+  - 0
+  - 15
+  default: 0
+- id: lfo_pan
+  name: LFO -> Panning (Auto-Pan)
+  page: analog_processing
+  param_id: 163
+  type: linear
+  range:
+  - 0
+  - 15
+  default: 0
+- id: analog_chorus
+  name: Analog BBD Chorus
+  page: analog_processing
+  param_id: 200
+  type: enum
+  range:
+  - 0
+  - 2
+  default: 1
+  options:
+    0: 'Off'
+    1: Subtle Warmth
+    2: Wide Stereo Ensemble
+- id: dual_voice
+  name: Dual Voice Mode (Stack/Detune)
+  page: preset_definition
+  param_id: 40
+  type: enum
+  range:
+  - 0
+  - 1
+  default: 1
+  options:
+    0: Single Voice (16 Voices Polyphony)
+    1: Dual Voice (8 Voices Layered & Detuned)
+- id: arpeggiator_mode
+  name: Arpeggiator Mode
+  page: preset_definition
+  param_id: 60
+  type: enum
+  range:
+  - 0
+  - 5
+  default: 0
+  options:
+    0: 'Off'
+    1: Up
+    2: Down
+    3: Up / Down
+    4: Forward Assign
+    5: Random
