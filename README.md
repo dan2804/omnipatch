@@ -26,21 +26,29 @@ Inspired by Sound Quest's **Midi Quest 13**, **OmniPatch** combines a clean, fas
 | **Akai AX60** | 6-Voice Polyphonic Analog | 23 | 64 | Curtis CEM3394 engine, Tauntek CC mapping (CC 14–74), 3,445B Bank SysEx |
 | **E-MU Audity 2000 (v2)** | 64-Voice Modular Rack | 53 | 640 | 4 Midi Quest modules: MultiMode (16-Ch), Preset Editor, Arp/RPG, Master FX |
 | **E-MU B-3** | 64-Voice Tonewheel Organ | 25 | 384 | 9 Hammond Drawbars, Leslie 122 Rotary Cabinet, Harmonic Percussion, Scanner Vibrato |
+| **E-MU Carnaval** | 32-Voice Latin & World Percussion | 24 | 640 | BEATS interactive drum machine, X-Factor polyrhythmic groove crossfade, 5 Banks |
 
 ---
 
-## Cargo Workspace Architecture
+## Workspace Architecture
 
 ```
 omnipatch/
 ├── crates/
 │   ├── omnipatch-core/       # SysEx encoding, 7-bit checksums, throttling & timing
-│   ├── omnipatch-profile/    # YAML profile deserialization & parameter validation
+│   ├── omnipatch-profile/    # Recursive profile discovery & parameter validation
 │   ├── omnipatch-midi/       # Cross-platform MIDI I/O via midir with virtual fallback
 │   ├── omnipatch-librarian/  # Embedded SQLite patch database & indexing
 │   └── omnipatch-cli/        # Command-line interface for device inspection & SysEx testing
-├── devices/                  # Declarative YAML profiles for supported synths
-├── presets/                  # Extracted factory preset libraries (.json)
+├── devices/                  # Self-contained instrument packages: <manufacturer>/<model>/
+│   ├── access/
+│   │   └── virus-a/          # profile.yaml, factory_presets.json
+│   ├── akai/
+│   │   └── ax60/             # profile.yaml, factory_presets.json
+│   └── emu/
+│       ├── audity-2000/      # profile.yaml, factory_presets.json
+│       ├── b-3/              # profile.yaml, factory_presets.json
+│       └── carnaval/         # profile.yaml, factory_presets.json
 ├── preview/                  # Interactive Metro UI prototype (open in browser)
 └── tools/                    # Automated PDF manual ingestion tool (Python)
 ```

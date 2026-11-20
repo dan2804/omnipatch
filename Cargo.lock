@@ -495,8 +495,8 @@ name = "omnipatch-profile"
 version = "0.1.0"
 dependencies = [
  "log",
- "omnipatch-core",
  "serde",
+ "serde_json",
  "serde_yaml",
  "thiserror",
 ]
