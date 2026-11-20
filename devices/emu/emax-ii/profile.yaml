@@ -1,0 +1,302 @@
+name: E-MU Emax II
+manufacturer: E-mu Systems, Inc.
+category: 16-Bit Stereo Digital Sampling Synthesizer & Workstation
+release_year: 1989
+hardware:
+  architecture: 16-bit linear stereo digital sampling with 32-voice polyphony into
+    digital resonant 4-pole low-pass filters
+  polyphony: 32
+  sample_rates:
+  - 20.000 kHz
+  - 22.050 kHz
+  - 31.250 kHz
+  - 39.000 kHz
+  - 44.100 kHz (CD Quality)
+  memory: Up to 8 MB Sample RAM with internal SCSI hard drive support
+  filter: Digital 24dB/oct 4-pole resonant low-pass filter with AHDSR envelope and
+    key tracking
+  vca: Digital VCA with AHDSR dynamics and velocity sensitivity
+  synthesis: Spectrum Interpolation (additive harmonic synthesis), Transform Multiplication,
+    SE Sample Editing
+  stack_mode: Preset Stacking (layer up to 4 presets simultaneously across the keyboard)
+  chorus: Digital stereo chorus / spatial doubling processor
+  chassis: Sleek black/charcoal with gold/yellow typography and yellow-green backlit
+    2x16 LCD
+midi:
+  manufacturer_id:
+  - 24
+  device_id: 0
+  product_id: 5
+  channel: 1
+  sample_dump_standard: true
+  supermode: 16-channel polyphonic multitimbral sequencer/MIDI reception
+  pitch_bend: true
+  aftertouch: true
+sysex:
+  header:
+  - 240
+  - 24
+  - 5
+  - '{device_id}'
+  commands:
+    parameter_edit: 1
+    voice_data_request: 2
+    voice_data_dump: 3
+    preset_data_request: 4
+    preset_data_dump: 5
+    sample_dump_header: 6
+    sample_dump_data: 7
+    spectrum_synthesis_request: 8
+  parameter_edit_format:
+    header:
+    - 240
+    - 24
+    - 5
+    - '{device_id}'
+    - 1
+    - '{param_id}'
+    - '{val_lsb}'
+    - '{val_msb}'
+    - 247
+ui_theme:
+  style: hardware_chassis
+  background_color: '#0d0f12'
+  accent_gold: '#eab308'
+  accent_cyan: '#00d2ff'
+  panel_border: '#22272e'
+  lcd_backlight: '#1f2605'
+  lcd_text: '#e2f939'
+  slider_cap: '#1c2128'
+parameters:
+- id: vcf_cutoff
+  name: Filter Cutoff (Fc)
+  page: dynamic_processing
+  param_id: 130
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 115
+  unit: steps
+- id: vcf_resonance
+  name: Filter Resonance (Q)
+  page: dynamic_processing
+  param_id: 131
+  type: linear
+  range:
+  - 0
+  - 15
+  default: 8
+  unit: steps
+- id: vcf_env_amount
+  name: Filter Envelope Amount
+  page: dynamic_processing
+  param_id: 132
+  type: bipolar
+  range:
+  - -128
+  - 127
+  default: 50
+- id: vcf_tracking
+  name: Filter Keyboard Tracking
+  page: dynamic_processing
+  param_id: 133
+  type: linear
+  range:
+  - 0
+  - 200
+  default: 100
+  unit: '%'
+- id: vcf_attack
+  name: Filter Env Attack
+  page: dynamic_processing
+  param_id: 140
+  type: linear
+  range:
+  - 0
+  - 99
+  default: 4
+- id: vcf_hold
+  name: Filter Env Hold
+  page: dynamic_processing
+  param_id: 141
+  type: linear
+  range:
+  - 0
+  - 99
+  default: 0
+- id: vcf_decay
+  name: Filter Env Decay
+  page: dynamic_processing
+  param_id: 142
+  type: linear
+  range:
+  - 0
+  - 99
+  default: 48
+- id: vcf_sustain
+  name: Filter Env Sustain
+  page: dynamic_processing
+  param_id: 143
+  type: linear
+  range:
+  - 0
+  - 99
+  default: 65
+- id: vcf_release
+  name: Filter Env Release
+  page: dynamic_processing
+  param_id: 144
+  type: linear
+  range:
+  - 0
+  - 99
+  default: 35
+- id: vca_attack
+  name: VCA Env Attack
+  page: dynamic_processing
+  param_id: 120
+  type: linear
+  range:
+  - 0
+  - 99
+  default: 2
+- id: vca_hold
+  name: VCA Env Hold
+  page: dynamic_processing
+  param_id: 121
+  type: linear
+  range:
+  - 0
+  - 99
+  default: 0
+- id: vca_decay
+  name: VCA Env Decay
+  page: dynamic_processing
+  param_id: 122
+  type: linear
+  range:
+  - 0
+  - 99
+  default: 70
+- id: vca_sustain
+  name: VCA Env Sustain
+  page: dynamic_processing
+  param_id: 123
+  type: linear
+  range:
+  - 0
+  - 99
+  default: 90
+- id: vca_release
+  name: VCA Env Release
+  page: dynamic_processing
+  param_id: 124
+  type: linear
+  range:
+  - 0
+  - 99
+  default: 40
+- id: lfo_rate
+  name: LFO Rate
+  page: dynamic_processing
+  param_id: 150
+  type: linear
+  range:
+  - 0
+  - 99
+  default: 42
+- id: lfo_delay
+  name: LFO Delay
+  page: dynamic_processing
+  param_id: 151
+  type: linear
+  range:
+  - 0
+  - 99
+  default: 18
+- id: lfo_variation
+  name: LFO Variation
+  page: dynamic_processing
+  param_id: 152
+  type: linear
+  range:
+  - 0
+  - 99
+  default: 0
+- id: lfo_vibrato
+  name: LFO -> Pitch (Vibrato)
+  page: dynamic_processing
+  param_id: 160
+  type: linear
+  range:
+  - 0
+  - 15
+  default: 4
+- id: lfo_filter
+  name: LFO -> Filter Cutoff
+  page: dynamic_processing
+  param_id: 161
+  type: linear
+  range:
+  - 0
+  - 15
+  default: 0
+- id: lfo_tremolo
+  name: LFO -> VCA Amplitude
+  page: dynamic_processing
+  param_id: 162
+  type: linear
+  range:
+  - 0
+  - 15
+  default: 0
+- id: lfo_pan
+  name: LFO -> Stereo Panning
+  page: dynamic_processing
+  param_id: 163
+  type: linear
+  range:
+  - 0
+  - 15
+  default: 0
+- id: digital_chorus
+  name: Digital Stereo Chorus
+  page: dynamic_processing
+  param_id: 200
+  type: enum
+  range:
+  - 0
+  - 2
+  default: 2
+  options:
+    0: 'Off'
+    1: Subtle Width
+    2: Wide Spatial Ensemble
+- id: stack_presets
+  name: Preset Stacking (4 Layers)
+  page: preset_definition
+  param_id: 10
+  type: enum
+  range:
+  - 0
+  - 3
+  default: 1
+  options:
+    0: Single Preset (32 Voices Polyphony)
+    1: Dual Stack (16 Stereo Voices)
+    2: Triple Stack (10 Voices)
+    3: Quad Stack (8 Voices Massive Wall)
+- id: stereo_panning
+  name: Stereo Panning
+  page: dynamic_processing
+  param_id: 190
+  type: linear
+  range:
+  - 0
+  - 15
+  default: 7
+  options:
+    0: Hard Left
+    7: Center
+    15: Hard Right
