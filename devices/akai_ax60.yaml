@@ -1,0 +1,272 @@
+name: "Akai AX60"
+manufacturer: "Akai Professional"
+category: "6-Voice Polyphonic Analog Synthesizer (Curtis CEM3394)"
+release_year: 1986
+
+firmware_support:
+  factory_stock:
+    notes: "Original v1.0-v1.2 firmware has limited MIDI (Note On/Off, Pitch Bend, Mod Wheel CC1, Volume CC7, PrgChg 1-64). Patch backup originally via Cassette Tape."
+  tauntek_upgrade:
+    supported: true
+    notes: "Supports 3,445-byte Bank SysEx dump/load and full real-time slider control via MIDI CCs."
+
+midi:
+  channel: 1
+  bank_select: null
+  program_change:
+    range: [1, 64]
+    display_format: "akai_matrix" # 8 banks x 8 programs (11..88)
+
+sysex:
+  # Tauntek SysEx Bank Dump is 3,445 bytes containing all 64 patches + splits
+  bank_dump_size: 3445
+  dump_trigger_notes: "On AX60, press [Tape] -> [Save] -> [All/I/II] to stream Bank SysEx over MIDI Out."
+
+# Real-time control via MIDI CC (Tauntek protocol)
+control_protocol: "midi_cc"
+
+ui_theme:
+  style: "akai_industrial_sliders"
+  chassis_color: "#1a1c1e"
+  stripe_cyan: "#00b4d8"      # VCO & LFO
+  stripe_orange: "#f77f00"    # VCF (CEM3394 Filter)
+  stripe_yellow: "#fcbf49"    # VCA & Envelopes
+  stripe_white: "#e0e0e0"     # Arpeggiator & Chorus
+  led_display: "seven_segment_red"
+
+parameters:
+  # ================= VCO SECTION (Cyan) =================
+  - id: "vco_octave"
+    name: "Octave"
+    cc: 15
+    type: "enum"
+    range: [0, 4]
+    options:
+      0: "32'"
+      1: "16'"
+      2: "8'"
+      3: "4'"
+      4: "2'"
+    default: 2
+    widget: "slider"
+    group: "VCO"
+
+  - id: "vco_waveform"
+    name: "Waveform"
+    cc: 14
+    type: "enum"
+    range: [0, 3]
+    options:
+      0: "Sawtooth"
+      1: "Triangle"
+      2: "Square / Pulse"
+      3: "Saw + Triangle"
+    default: 0
+    widget: "slider"
+    group: "VCO"
+
+  - id: "vco_pulse_width"
+    name: "Pulse Width"
+    cc: 16
+    type: "integer"
+    range: [0, 127]
+    default: 64
+    widget: "slider"
+    group: "VCO"
+
+  - id: "vco_pwm_speed"
+    name: "PW Mod Speed"
+    cc: 17
+    type: "integer"
+    range: [0, 127]
+    default: 30
+    widget: "slider"
+    group: "VCO"
+
+  - id: "vco_sub_noise"
+    name: "Noise Generator"
+    cc: 19
+    type: "boolean"
+    range: [0, 1]
+    default: 0
+    widget: "toggle"
+    group: "VCO"
+
+  # ================= VCF (CEM3394 24dB FILTER) =================
+  - id: "vcf_cutoff"
+    name: "Cutoff Frequency"
+    cc: 74
+    type: "integer"
+    range: [0, 127]
+    default: 85
+    widget: "slider"
+    group: "VCF"
+
+  - id: "vcf_resonance"
+    name: "Resonance"
+    cc: 71
+    type: "integer"
+    range: [0, 127]
+    default: 45
+    widget: "slider"
+    group: "VCF"
+
+  - id: "vcf_vco_mod"
+    name: "VCO Mod (Filter FM)"
+    cc: 23
+    type: "integer"
+    range: [0, 127]
+    default: 0
+    widget: "slider"
+    notes: "Audio-rate modulation of filter cutoff by VCO for aggressive metallic growl."
+    group: "VCF"
+
+  - id: "vcf_hpf"
+    name: "High Pass Filter"
+    cc: 24
+    type: "integer"
+    range: [0, 127]
+    default: 0
+    widget: "slider"
+    group: "VCF"
+
+  - id: "vcf_key_follow"
+    name: "Key Follow"
+    cc: 22
+    type: "integer"
+    range: [0, 127]
+    default: 64
+    widget: "slider"
+    group: "VCF"
+
+  - id: "vcf_eg_polarity"
+    name: "VCF EG Polarity"
+    cc: 25
+    type: "enum"
+    range: [0, 1]
+    options:
+      0: "Positive (+)"
+      1: "Negative (-)"
+    default: 0
+    widget: "toggle"
+    group: "VCF"
+
+  # ================= ENVELOPES (VCF & VCA) =================
+  - id: "vcf_attack"
+    name: "VCF Attack"
+    cc: 27
+    type: "integer"
+    range: [0, 127]
+    default: 10
+    widget: "slider"
+    group: "VCF Envelope"
+
+  - id: "vcf_decay"
+    name: "VCF Decay"
+    cc: 28
+    type: "integer"
+    range: [0, 127]
+    default: 60
+    widget: "slider"
+    group: "VCF Envelope"
+
+  - id: "vcf_sustain"
+    name: "VCF Sustain"
+    cc: 29
+    type: "integer"
+    range: [0, 127]
+    default: 70
+    widget: "slider"
+    group: "VCF Envelope"
+
+  - id: "vcf_release"
+    name: "VCF Release"
+    cc: 30
+    type: "integer"
+    range: [0, 127]
+    default: 35
+    widget: "slider"
+    group: "VCF Envelope"
+
+  - id: "vca_attack"
+    name: "VCA Attack"
+    cc: 73
+    type: "integer"
+    range: [0, 127]
+    default: 0
+    widget: "slider"
+    group: "VCA Envelope"
+
+  - id: "vca_decay"
+    name: "VCA Decay"
+    cc: 32
+    type: "integer"
+    range: [0, 127]
+    default: 45
+    widget: "slider"
+    group: "VCA Envelope"
+
+  - id: "vca_sustain"
+    name: "VCA Sustain"
+    cc: 33
+    type: "integer"
+    range: [0, 127]
+    default: 100
+    widget: "slider"
+    group: "VCA Envelope"
+
+  - id: "vca_release"
+    name: "VCA Release"
+    cc: 72
+    type: "integer"
+    range: [0, 127]
+    default: 30
+    widget: "slider"
+    group: "VCA Envelope"
+
+  # ================= LFO & EFFECTS =================
+  - id: "lfo_waveform"
+    name: "LFO Waveform"
+    cc: 40
+    type: "enum"
+    range: [0, 4]
+    options:
+      0: "Down Saw"
+      1: "Up Saw"
+      2: "Triangle"
+      3: "Square"
+      4: "Random"
+    default: 2
+    widget: "slider"
+    group: "LFO"
+
+  - id: "lfo_speed"
+    name: "LFO Speed"
+    cc: 42
+    type: "integer"
+    range: [0, 127]
+    default: 50
+    widget: "slider"
+    group: "LFO"
+
+  - id: "lfo_depth"
+    name: "LFO Depth"
+    cc: 41
+    type: "integer"
+    range: [0, 127]
+    default: 0
+    widget: "slider"
+    group: "LFO"
+
+  - id: "chorus_mode"
+    name: "Stereo Chorus"
+    cc: 44
+    type: "enum"
+    range: [0, 2]
+    options:
+      0: "Off"
+      1: "Chorus 1"
+      2: "Chorus 2"
+    default: 1
+    widget: "buttons"
+    group: "Chorus"

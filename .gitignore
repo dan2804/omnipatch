@@ -1,0 +1,8 @@
+/target
+**/*.rs.bk
+*.db
+*.sqlite
+*.sqlite3
+*.pdf
+.DS_Store
+Thumbs.db

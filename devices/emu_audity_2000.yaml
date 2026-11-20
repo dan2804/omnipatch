@@ -1,0 +1,3065 @@
+name: E-MU Audity 2000
+manufacturer: E-mu Systems, Inc.
+category: 64-Voice Modular Rack Synthesizer (Z-Plane Filter Engine)
+release_year: 1998
+hardware:
+  form_factor: 1U 19-inch Rackmount
+  polyphony: 64
+  multitimbral_parts: 16
+  filters: 50 Z-Plane Multimode & Morphing Filters (up to 12-pole / 14-pole)
+  modulation: 24 Virtual PatchCords per Preset
+  arpeggiator: 16 Simultaneous Independent Arpeggiators
+midi:
+  manufacturer_id:
+  - 24
+  product_id: 15
+  device_family:
+  - 4
+  - 4
+  device_member:
+  - 2
+  - 0
+  default_device_id: 0
+  broadcast_device_id: 127
+  bank_select:
+    msb_cc: 0
+    msb_val: 0
+    lsb_cc: 32
+    banks:
+      0: User Bank 0 (RAM)
+      1: User Bank 1 (RAM)
+      2: ROM Bank 2
+      3: ROM Bank 3
+      4: ROM Bank 4
+      5: ROM Bank 0
+      6: ROM Bank 1
+sysex:
+  header:
+  - 240
+  - 24
+  - 15
+  - '{device_id}'
+  - 85
+  commands:
+    parameter_value_edit: 1
+    parameter_value_request: 2
+    parameter_min_max_default: 3
+    parameter_min_max_request: 4
+    preset_dump: 16
+    tuning_dump: 8
+  parameter_edit_format:
+  - 240
+  - 24
+  - 15
+  - '{device_id}'
+  - 85
+  - 1
+  - 2
+  - '{param_id_lsb}'
+  - '{param_id_msb}'
+  - '{value_lsb}'
+  - '{value_msb}'
+  - 247
+ui_theme:
+  style: emu_audity_rack
+  bezel_color: '#b8b4a6'
+  chassis_dark: '#12151b'
+  lcd_backlight: '#0a2d37'
+  lcd_text: '#00f0ff'
+  accent_blue: '#0078d7'
+  jog_wheel: silver_knurled
+bank_presets:
+  User Bank 0 / ROM Bank 5:
+  - index: 0
+    category: edg
+    name: BARRACUDA
+    full_name: edg:BARRACUDA
+  - index: 1
+    category: arp
+    name: Hollographik
+    full_name: arp:Hollographik
+  - index: 2
+    category: edg
+    name: Love All
+    full_name: edg:Love All
+  - index: 3
+    category: lfo
+    name: Scuzzy
+    full_name: lfo:Scuzzy
+  - index: 4
+    category: wal
+    name: LARD
+    full_name: wal:LARD
+  - index: 5
+    category: pad
+    name: Astrology
+    full_name: pad:Astrology
+  - index: 6
+    category: syn
+    name: Mercy
+    full_name: syn:Mercy
+  - index: 7
+    category: bas
+    name: '2000'
+    full_name: bas:2000
+  - index: 8
+    category: sfx
+    name: Air Motion
+    full_name: sfx:Air Motion
+  - index: 9
+    category: prc
+    name: Bottom Perc
+    full_name: prc:Bottom Perc
+  - index: 10
+    category: arp
+    name: Lust up
+    full_name: arp:Lust up
+  - index: 11
+    category: edg
+    name: REZARECT
+    full_name: edg:REZARECT
+  - index: 12
+    category: edg
+    name: Zonk
+    full_name: edg:Zonk
+  - index: 13
+    category: edg
+    name: Spawn
+    full_name: edg:Spawn
+  - index: 14
+    category: syn
+    name: SynkerSteppr
+    full_name: syn:SynkerSteppr
+  - index: 15
+    category: syn
+    name: Boogy Synth
+    full_name: syn:Boogy Synth
+  - index: 16
+    category: pad
+    name: Sawpipe
+    full_name: pad:Sawpipe
+  - index: 17
+    category: led
+    name: Buckzawz
+    full_name: led:Buckzawz
+  - index: 18
+    category: led
+    name: CReeP
+    full_name: led:CReeP
+  - index: 19
+    category: led
+    name: Jester
+    full_name: led:Jester
+  - index: 20
+    category: led
+    name: Alley Kat
+    full_name: led:Alley Kat
+  - index: 21
+    category: lfo
+    name: '"Carpe Diem"'
+    full_name: lfo:"Carpe Diem"
+  - index: 22
+    category: lfo
+    name: Tempo LFOs
+    full_name: lfo:Tempo LFOs
+  - index: 23
+    category: lfo
+    name: Oscillo Box
+    full_name: lfo:Oscillo Box
+  - index: 24
+    category: lfo
+    name: FLutter
+    full_name: lfo:FLutter
+  - index: 25
+    category: bas
+    name: FAT ALBERT
+    full_name: bas:FAT ALBERT
+  - index: 26
+    category: bas
+    name: Limbo
+    full_name: bas:Limbo
+  - index: 27
+    category: bas
+    name: POLY
+    full_name: bas:POLY
+  - index: 28
+    category: bas
+    name: Trashy
+    full_name: bas:Trashy
+  - index: 29
+    category: nse
+    name: PARANOIA
+    full_name: nse:PARANOIA
+  - index: 30
+    category: wal
+    name: ThroughVapor
+    full_name: wal:ThroughVapor
+  - index: 31
+    category: vox
+    name: AfterShock
+    full_name: vox:AfterShock
+  - index: 32
+    category: vox
+    name: We Are Evil
+    full_name: vox:We Are Evil
+  - index: 33
+    category: sfx
+    name: Ripped Lazer
+    full_name: sfx:Ripped Lazer
+  - index: 34
+    category: sfx
+    name: Audacity
+    full_name: sfx:Audacity
+  - index: 35
+    category: sfx
+    name: FoldingSpace
+    full_name: sfx:FoldingSpace
+  - index: 36
+    category: scr
+    name: Pressure Scr
+    full_name: scr:Pressure Scr
+  - index: 37
+    category: prc
+    name: CONSTRUCT
+    full_name: prc:CONSTRUCT
+  - index: 38
+    category: prc
+    name: DRUMATIX
+    full_name: prc:DRUMATIX
+  - index: 39
+    category: prc
+    name: MANTIS
+    full_name: prc:MANTIS
+  - index: 40
+    category: arp
+    name: You Know It
+    full_name: arp:You Know It
+  - index: 41
+    category: arp
+    name: Toxic Vox
+    full_name: arp:Toxic Vox
+  - index: 42
+    category: arp
+    name: Deeper Love
+    full_name: arp:Deeper Love
+  - index: 43
+    category: arp
+    name: OrbisTabula1
+    full_name: arp:OrbisTabula1
+  - index: 44
+    category: arp
+    name: OrbisTabula2
+    full_name: arp:OrbisTabula2
+  - index: 45
+    category: arp
+    name: Key Hole
+    full_name: arp:Key Hole
+  - index: 46
+    category: arp
+    name: NewsAtTen
+    full_name: arp:NewsAtTen
+  - index: 47
+    category: arp
+    name: Palomar
+    full_name: arp:Palomar
+  - index: 48
+    category: arp
+    name: Tension
+    full_name: arp:Tension
+  - index: 49
+    category: arp
+    name: theGrind
+    full_name: arp:theGrind
+  - index: 50
+    category: arp
+    name: Fundamentals
+    full_name: arp:Fundamentals
+  - index: 51
+    category: arp
+    name: Tronix
+    full_name: arp:Tronix
+  - index: 52
+    category: arp
+    name: Uplift
+    full_name: arp:Uplift
+  - index: 53
+    category: arp
+    name: Vice
+    full_name: arp:Vice
+  - index: 54
+    category: arp
+    name: Aud Feel
+    full_name: arp:Aud Feel
+  - index: 55
+    category: arp
+    name: Bassoloid
+    full_name: arp:Bassoloid
+  - index: 56
+    category: arp
+    name: Classic Base
+    full_name: arp:Classic Base
+  - index: 57
+    category: arp
+    name: Glissynth
+    full_name: arp:Glissynth
+  - index: 58
+    category: arp
+    name: Glider
+    full_name: arp:Glider
+  - index: 59
+    category: arp
+    name: LooseSynq
+    full_name: arp:LooseSynq
+  - index: 60
+    category: arp
+    name: Anthill
+    full_name: arp:Anthill
+  - index: 61
+    category: arp
+    name: Axis Saw
+    full_name: arp:Axis Saw
+  - index: 62
+    category: arp
+    name: Bouchete
+    full_name: arp:Bouchete
+  - index: 63
+    category: arp
+    name: Risen
+    full_name: arp:Risen
+  - index: 64
+    category: arp
+    name: Saw Standard
+    full_name: arp:Saw Standard
+  - index: 65
+    category: arp
+    name: Tekno Cheep
+    full_name: arp:Tekno Cheep
+  - index: 66
+    category: arp
+    name: Squeaky
+    full_name: arp:Squeaky
+  - index: 67
+    category: arp
+    name: Eden
+    full_name: arp:Eden
+  - index: 68
+    category: arp
+    name: Phrophetics
+    full_name: arp:Phrophetics
+  - index: 69
+    category: arp
+    name: Micro Sync
+    full_name: arp:Micro Sync
+  - index: 70
+    category: arp
+    name: Wire
+    full_name: arp:Wire
+  - index: 71
+    category: arp
+    name: Plastik
+    full_name: arp:Plastik
+  - index: 72
+    category: arp
+    name: SineDrum
+    full_name: arp:SineDrum
+  - index: 73
+    category: arp
+    name: Exel
+    full_name: arp:Exel
+  - index: 74
+    category: arp
+    name: CricketGruve
+    full_name: arp:CricketGruve
+  - index: 75
+    category: arp
+    name: Seed Saw
+    full_name: arp:Seed Saw
+  - index: 76
+    category: arp
+    name: Beat Queen
+    full_name: arp:Beat Queen
+  - index: 77
+    category: arp
+    name: LowRideGruve
+    full_name: arp:LowRideGruve
+  - index: 78
+    category: arp
+    name: Trance
+    full_name: arp:Trance
+  - index: 79
+    category: arp
+    name: Whisper
+    full_name: arp:Whisper
+  - index: 80
+    category: raw
+    name: Basic Saw
+    full_name: raw:Basic Saw
+  - index: 81
+    category: raw
+    name: Classic Tri
+    full_name: raw:Classic Tri
+  - index: 82
+    category: raw
+    name: Synk Slave
+    full_name: raw:Synk Slave
+  - index: 83
+    category: raw
+    name: Audity Arp
+    full_name: raw:Audity Arp
+  - index: 84
+    category: raw
+    name: Play Sawcomp
+    full_name: raw:Play Sawcomp
+  - index: 85
+    category: raw
+    name: Ring-A-Ling
+    full_name: raw:Ring-A-Ling
+  - index: 86
+    category: raw
+    name: RMI Lark EP
+    full_name: raw:RMI Lark EP
+  - index: 87
+    category: raw
+    name: Mellow PWpad
+    full_name: raw:Mellow PWpad
+  - index: 88
+    category: raw
+    name: Drama
+    full_name: raw:Drama
+  - index: 89
+    category: raw
+    name: Rave Organ
+    full_name: raw:Rave Organ
+  - index: 90
+    category: raw
+    name: Big Synthy
+    full_name: raw:Big Synthy
+  - index: 91
+    category: raw
+    name: Syn Brass
+    full_name: raw:Syn Brass
+  - index: 92
+    category: raw
+    name: MortalSynth
+    full_name: raw:MortalSynth
+  - index: 93
+    category: raw
+    name: Farzy Sync
+    full_name: raw:Farzy Sync
+  - index: 94
+    category: raw
+    name: SLICER
+    full_name: raw:SLICER
+  - index: 95
+    category: raw
+    name: FizzeeString
+    full_name: raw:FizzeeString
+  - index: 96
+    category: raw
+    name: Synthex 80's
+    full_name: raw:Synthex 80's
+  - index: 97
+    category: raw
+    name: PlexiGlass
+    full_name: raw:PlexiGlass
+  - index: 98
+    category: raw
+    name: Rez Zipper
+    full_name: raw:Rez Zipper
+  - index: 99
+    category: raw
+    name: 3 O 3
+    full_name: raw:3 O 3
+  - index: 100
+    category: raw
+    name: Acid Blomp
+    full_name: raw:Acid Blomp
+  - index: 101
+    category: raw
+    name: Mango Bass
+    full_name: raw:Mango Bass
+  - index: 102
+    category: raw
+    name: Booty Qooty
+    full_name: raw:Booty Qooty
+  - index: 103
+    category: raw
+    name: SIRRUS
+    full_name: raw:SIRRUS
+  - index: 104
+    category: raw
+    name: Big Wall
+    full_name: raw:Big Wall
+  - index: 105
+    category: raw
+    name: Euro Noise
+    full_name: raw:Euro Noise
+  - index: 106
+    category: raw
+    name: Sonar,What?
+    full_name: raw:Sonar,What?
+  - index: 107
+    category: raw
+    name: SweeTDreaM
+    full_name: raw:SweeTDreaM
+  - index: 108
+    category: raw
+    name: Edge
+    full_name: raw:Edge
+  - index: 109
+    category: raw
+    name: Space Storm
+    full_name: raw:Space Storm
+  - index: 110
+    category: raw
+    name: Goth
+    full_name: raw:Goth
+  - index: 111
+    category: raw
+    name: Future
+    full_name: raw:Future
+  - index: 112
+    category: raw
+    name: Vertigo
+    full_name: raw:Vertigo
+  - index: 113
+    category: raw
+    name: SpidersOMars
+    full_name: raw:SpidersOMars
+  - index: 114
+    category: raw
+    name: Heli Pad
+    full_name: raw:Heli Pad
+  - index: 115
+    category: raw
+    name: Don'Doo It
+    full_name: raw:Don'Doo It
+  - index: 116
+    category: raw
+    name: Cooleo
+    full_name: raw:Cooleo
+  - index: 117
+    category: raw
+    name: Electric Kit
+    full_name: raw:Electric Kit
+  - index: 118
+    category: raw
+    name: Env Kit
+    full_name: raw:Env Kit
+  - index: 119
+    category: raw
+    name: Found Kit
+    full_name: raw:Found Kit
+  - index: 120
+    category: led
+    name: Multiswept
+    full_name: led:Multiswept
+  - index: 121
+    category: led
+    name: Monogatori
+    full_name: led:Monogatori
+  - index: 122
+    category: led
+    name: El Effo
+    full_name: led:El Effo
+  - index: 123
+    category: led
+    name: Leadin' Soul
+    full_name: led:Leadin' Soul
+  - index: 124
+    category: led
+    name: Mini 2000
+    full_name: led:Mini 2000
+  - index: 125
+    category: led
+    name: Punch Out
+    full_name: led:Punch Out
+  - index: 126
+    category: led
+    name: Quant Pitch
+    full_name: led:Quant Pitch
+  - index: 127
+    category: led
+    name: ShortCircuit
+    full_name: led:ShortCircuit
+  User Bank 1 / ROM Bank 6:
+  - index: 0
+    category: led
+    name: SkreeBrass
+    full_name: led:SkreeBrass
+  - index: 1
+    category: led
+    name: Hisynk Lead
+    full_name: led:Hisynk Lead
+  - index: 2
+    category: led
+    name: Rezcape
+    full_name: led:Rezcape
+  - index: 3
+    category: led
+    name: Slider
+    full_name: led:Slider
+  - index: 4
+    category: led
+    name: Retro Onde
+    full_name: led:Retro Onde
+  - index: 5
+    category: led
+    name: Slap Back
+    full_name: led:Slap Back
+  - index: 6
+    category: led
+    name: Poly Source
+    full_name: led:Poly Source
+  - index: 7
+    category: led
+    name: Robot Love
+    full_name: led:Robot Love
+  - index: 8
+    category: led
+    name: Ring
+    full_name: led:Ring
+  - index: 9
+    category: led
+    name: FutziWhatsi
+    full_name: led:FutziWhatsi
+  - index: 10
+    category: led
+    name: Quantized Bl
+    full_name: led:Quantized Bl
+  - index: 11
+    category: led
+    name: Calculator
+    full_name: led:Calculator
+  - index: 12
+    category: led
+    name: Orleans
+    full_name: led:Orleans
+  - index: 13
+    category: led
+    name: Masses
+    full_name: led:Masses
+  - index: 14
+    category: led
+    name: Sawdust
+    full_name: led:Sawdust
+  - index: 15
+    category: led
+    name: PolyClavWOrm
+    full_name: led:PolyClavWOrm
+  - index: 16
+    category: led
+    name: Irish Moog
+    full_name: led:Irish Moog
+  - index: 17
+    category: led
+    name: Saturn
+    full_name: led:Saturn
+  - index: 18
+    category: led
+    name: HardNormlMom
+    full_name: led:HardNormlMom
+  - index: 19
+    category: led
+    name: P5 Zentropa
+    full_name: led:P5 Zentropa
+  - index: 20
+    category: led
+    name: FM Phaselead
+    full_name: led:FM Phaselead
+  - index: 21
+    category: led
+    name: FM Leadweed
+    full_name: led:FM Leadweed
+  - index: 22
+    category: led
+    name: Ringmodular
+    full_name: led:Ringmodular
+  - index: 23
+    category: led
+    name: Basic Dodo
+    full_name: led:Basic Dodo
+  - index: 24
+    category: led
+    name: Serkel Lead
+    full_name: led:Serkel Lead
+  - index: 25
+    category: led
+    name: Rendalaw
+    full_name: led:Rendalaw
+  - index: 26
+    category: led
+    name: Funky Buzz
+    full_name: led:Funky Buzz
+  - index: 27
+    category: led
+    name: Solo Environ
+    full_name: led:Solo Environ
+  - index: 28
+    category: led
+    name: Trance Lead
+    full_name: led:Trance Lead
+  - index: 29
+    category: led
+    name: TANGERINE
+    full_name: led:TANGERINE
+  - index: 30
+    category: led
+    name: SQUEAKEE
+    full_name: led:SQUEAKEE
+  - index: 31
+    category: led
+    name: JungleWall
+    full_name: led:JungleWall
+  - index: 32
+    category: wav
+    name: ALERT!
+    full_name: wav:ALERT!
+  - index: 33
+    category: wav
+    name: Trumpet2000
+    full_name: wav:Trumpet2000
+  - index: 34
+    category: wav
+    name: ReleaseMe
+    full_name: wav:ReleaseMe
+  - index: 35
+    category: wav
+    name: Super Saw
+    full_name: wav:Super Saw
+  - index: 36
+    category: wav
+    name: JETSONS
+    full_name: wav:JETSONS
+  - index: 37
+    category: wav
+    name: E=MU2
+    full_name: wav:E=MU2
+  - index: 38
+    category: wav
+    name: Syncked
+    full_name: wav:Syncked
+  - index: 39
+    category: wav
+    name: DRIP
+    full_name: wav:DRIP
+  - index: 40
+    category: wav
+    name: XtoZ
+    full_name: wav:XtoZ
+  - index: 41
+    category: wav
+    name: Phazy Square
+    full_name: wav:Phazy Square
+  - index: 42
+    category: wav
+    name: Coyote
+    full_name: wav:Coyote
+  - index: 43
+    category: syn
+    name: Hypass Ditty
+    full_name: syn:Hypass Ditty
+  - index: 44
+    category: syn
+    name: AsultoMate
+    full_name: syn:AsultoMate
+  - index: 45
+    category: syn
+    name: Multisteps
+    full_name: syn:Multisteps
+  - index: 46
+    category: syn
+    name: Squeapels
+    full_name: syn:Squeapels
+  - index: 47
+    category: syn
+    name: Basic Buzz
+    full_name: syn:Basic Buzz
+  - index: 48
+    category: syn
+    name: Mars Attacks
+    full_name: syn:Mars Attacks
+  - index: 49
+    category: syn
+    name: Brass Juice
+    full_name: syn:Brass Juice
+  - index: 50
+    category: syn
+    name: LittleWeasel
+    full_name: syn:LittleWeasel
+  - index: 51
+    category: syn
+    name: Basic 2600
+    full_name: syn:Basic 2600
+  - index: 52
+    category: syn
+    name: Kloksynk
+    full_name: syn:Kloksynk
+  - index: 53
+    category: syn
+    name: Raved Pass
+    full_name: syn:Raved Pass
+  - index: 54
+    category: syn
+    name: Future Harmi
+    full_name: syn:Future Harmi
+  - index: 55
+    category: syn
+    name: Dappy
+    full_name: syn:Dappy
+  - index: 56
+    category: syn
+    name: GHOSTndaSheL
+    full_name: syn:GHOSTndaSheL
+  - index: 57
+    category: syn
+    name: Swirl Jenkin
+    full_name: syn:Swirl Jenkin
+  - index: 58
+    category: syn
+    name: Low SawSweep
+    full_name: syn:Low SawSweep
+  - index: 59
+    category: syn
+    name: Euroflash
+    full_name: syn:Euroflash
+  - index: 60
+    category: syn
+    name: Low CL2Sweep
+    full_name: syn:Low CL2Sweep
+  - index: 61
+    category: syn
+    name: TeKKen
+    full_name: syn:TeKKen
+  - index: 62
+    category: syn
+    name: FutureSteps
+    full_name: syn:FutureSteps
+  - index: 63
+    category: syn
+    name: Digitell
+    full_name: syn:Digitell
+  - index: 64
+    category: syn
+    name: Tahdaaa...
+    full_name: syn:Tahdaaa...
+  - index: 65
+    category: syn
+    name: Wet
+    full_name: syn:Wet
+  - index: 66
+    category: syn
+    name: Silkness
+    full_name: syn:Silkness
+  - index: 67
+    category: syn
+    name: Enigma....
+    full_name: syn:Enigma....
+  - index: 68
+    category: syn
+    name: Extremity
+    full_name: syn:Extremity
+  - index: 69
+    category: syn
+    name: Mono PolyFX
+    full_name: syn:Mono PolyFX
+  - index: 70
+    category: syn
+    name: EQed Swamp
+    full_name: syn:EQed Swamp
+  - index: 71
+    category: syn
+    name: Z-GATE
+    full_name: syn:Z-GATE
+  - index: 72
+    category: syn
+    name: Marvs Modulo
+    full_name: syn:Marvs Modulo
+  - index: 73
+    category: syn
+    name: Grinded
+    full_name: syn:Grinded
+  - index: 74
+    category: syn
+    name: Tha GOOCH
+    full_name: syn:Tha GOOCH
+  - index: 75
+    category: syn
+    name: Damage Maker
+    full_name: syn:Damage Maker
+  - index: 76
+    category: syn
+    name: BLAHSOM
+    full_name: syn:BLAHSOM
+  - index: 77
+    category: syn
+    name: Scarlotta
+    full_name: syn:Scarlotta
+  - index: 78
+    category: syn
+    name: Bat Pann
+    full_name: syn:Bat Pann
+  - index: 79
+    category: syn
+    name: TRON
+    full_name: syn:TRON
+  - index: 80
+    category: syn
+    name: South Euro 1
+    full_name: syn:South Euro 1
+  - index: 81
+    category: syn
+    name: South Euro 2
+    full_name: syn:South Euro 2
+  - index: 82
+    category: syn
+    name: Muffle Sync
+    full_name: syn:Muffle Sync
+  - index: 83
+    category: syn
+    name: SteppedDream
+    full_name: syn:SteppedDream
+  - index: 84
+    category: syn
+    name: Bottom Floor
+    full_name: syn:Bottom Floor
+  - index: 85
+    category: syn
+    name: Luscious
+    full_name: syn:Luscious
+  - index: 86
+    category: syn
+    name: MadeMess
+    full_name: syn:MadeMess
+  - index: 87
+    category: syn
+    name: Digital Noiz
+    full_name: syn:Digital Noiz
+  - index: 88
+    category: syn
+    name: LastManStand
+    full_name: syn:LastManStand
+  - index: 89
+    category: syn
+    name: Feverish
+    full_name: syn:Feverish
+  - index: 90
+    category: syn
+    name: BACKDRAFT
+    full_name: syn:BACKDRAFT
+  - index: 91
+    category: syn
+    name: That'sCreepy
+    full_name: syn:That'sCreepy
+  - index: 92
+    category: syn
+    name: Kaleidoscope
+    full_name: syn:Kaleidoscope
+  - index: 93
+    category: syn
+    name: Phasetoidy
+    full_name: syn:Phasetoidy
+  - index: 94
+    category: syn
+    name: CazioTone
+    full_name: syn:CazioTone
+  - index: 95
+    category: syn
+    name: I made it
+    full_name: syn:I made it
+  - index: 96
+    category: syn
+    name: ORiON
+    full_name: syn:ORiON
+  - index: 97
+    category: syn
+    name: FilterFlange
+    full_name: syn:FilterFlange
+  - index: 98
+    category: syn
+    name: NeBuLA
+    full_name: syn:NeBuLA
+  - index: 99
+    category: syn
+    name: Saw On High
+    full_name: syn:Saw On High
+  - index: 100
+    category: syn
+    name: Tink Or Toys
+    full_name: syn:Tink Or Toys
+  - index: 101
+    category: syn
+    name: Scary Noise
+    full_name: syn:Scary Noise
+  - index: 102
+    category: syn
+    name: Listoller
+    full_name: syn:Listoller
+  - index: 103
+    category: syn
+    name: CavernCreeps
+    full_name: syn:CavernCreeps
+  - index: 104
+    category: syn
+    name: IoN SHoWER
+    full_name: syn:IoN SHoWER
+  - index: 105
+    category: syn
+    name: Uncertainty
+    full_name: syn:Uncertainty
+  - index: 106
+    category: syn
+    name: Groove Wow
+    full_name: syn:Groove Wow
+  - index: 107
+    category: lfo
+    name: Exploration
+    full_name: lfo:Exploration
+  - index: 108
+    category: lfo
+    name: Clocking Out
+    full_name: lfo:Clocking Out
+  - index: 109
+    category: lfo
+    name: Modify
+    full_name: lfo:Modify
+  - index: 110
+    category: lfo
+    name: OliveOil
+    full_name: lfo:OliveOil
+  - index: 111
+    category: lfo
+    name: Rotary
+    full_name: lfo:Rotary
+  - index: 112
+    category: lfo
+    name: DailyBread
+    full_name: lfo:DailyBread
+  - index: 113
+    category: lfo
+    name: AireTyme
+    full_name: lfo:AireTyme
+  - index: 114
+    category: seq
+    name: Synk2Speenar
+    full_name: seq:Synk2Speenar
+  - index: 115
+    category: seq
+    name: Audi Zippie
+    full_name: seq:Audi Zippie
+  - index: 116
+    category: seq
+    name: Arpege me
+    full_name: seq:Arpege me
+  - index: 117
+    category: seq
+    name: Queezey
+    full_name: seq:Queezey
+  - index: 118
+    category: seq
+    name: On The Run
+    full_name: seq:On The Run
+  - index: 119
+    category: seq
+    name: Retro Beep
+    full_name: seq:Retro Beep
+  - index: 120
+    category: seq
+    name: Pissto Hi
+    full_name: seq:Pissto Hi
+  - index: 121
+    category: seq
+    name: Tin PulseMon
+    full_name: seq:Tin PulseMon
+  - index: 122
+    category: hit
+    name: Screeke
+    full_name: hit:Screeke
+  - index: 123
+    category: hit
+    name: Clavi Maniac
+    full_name: hit:Clavi Maniac
+  - index: 124
+    category: hit
+    name: House Chord
+    full_name: hit:House Chord
+  - index: 125
+    category: hit
+    name: Technoval
+    full_name: hit:Technoval
+  - index: 126
+    category: hit
+    name: Organist
+    full_name: hit:Organist
+  - index: 127
+    category: ''
+    name: -default preset-
+    full_name: -default preset-
+  ROM Bank 2:
+  - index: 0
+    category: cmp
+    name: Nordica Comp
+    full_name: cmp:Nordica Comp
+  - index: 1
+    category: cmp
+    name: Squishey
+    full_name: cmp:Squishey
+  - index: 2
+    category: cmp
+    name: BigDandyBoy
+    full_name: cmp:BigDandyBoy
+  - index: 3
+    category: cmp
+    name: Riverdancing
+    full_name: cmp:Riverdancing
+  - index: 4
+    category: cmp
+    name: Sympani
+    full_name: cmp:Sympani
+  - index: 5
+    category: cmp
+    name: AudKlav
+    full_name: cmp:AudKlav
+  - index: 6
+    category: cmp
+    name: Syn Chaos
+    full_name: cmp:Syn Chaos
+  - index: 7
+    category: cmp
+    name: Synclava
+    full_name: cmp:Synclava
+  - index: 8
+    category: cmp
+    name: Wind Up Toi
+    full_name: cmp:Wind Up Toi
+  - index: 9
+    category: cmp
+    name: Malleable EP
+    full_name: cmp:Malleable EP
+  - index: 10
+    category: cmp
+    name: Turbine
+    full_name: cmp:Turbine
+  - index: 11
+    category: cmp
+    name: ShimmerStrng
+    full_name: cmp:ShimmerStrng
+  - index: 12
+    category: cmp
+    name: R&B Syncomp
+    full_name: cmp:R&B Syncomp
+  - index: 13
+    category: cmp
+    name: Gate Girl
+    full_name: cmp:Gate Girl
+  - index: 14
+    category: cmp
+    name: Prephad
+    full_name: cmp:Prephad
+  - index: 15
+    category: cmp
+    name: Sync4Seqence
+    full_name: cmp:Sync4Seqence
+  - index: 16
+    category: cmp
+    name: Wind Up
+    full_name: cmp:Wind Up
+  - index: 17
+    category: cmp
+    name: Analogue Pno
+    full_name: cmp:Analogue Pno
+  - index: 18
+    category: cmp
+    name: Synek Komper
+    full_name: cmp:Synek Komper
+  - index: 19
+    category: cmp
+    name: Octivate
+    full_name: cmp:Octivate
+  - index: 20
+    category: cmp
+    name: Raverotic
+    full_name: cmp:Raverotic
+  - index: 21
+    category: cmp
+    name: Syn O-da Sob
+    full_name: cmp:Syn O-da Sob
+  - index: 22
+    category: cmp
+    name: Syn O-da Son
+    full_name: cmp:Syn O-da Son
+  - index: 23
+    category: cmp
+    name: Shao Lin
+    full_name: cmp:Shao Lin
+  - index: 24
+    category: cmp
+    name: DarkShadows
+    full_name: cmp:DarkShadows
+  - index: 25
+    category: cmp
+    name: Max's Pad
+    full_name: cmp:Max's Pad
+  - index: 26
+    category: cmp
+    name: Mellow Vibe
+    full_name: cmp:Mellow Vibe
+  - index: 27
+    category: cmp
+    name: Kyoto Bullet
+    full_name: cmp:Kyoto Bullet
+  - index: 28
+    category: cmp
+    name: Smooth Saw
+    full_name: cmp:Smooth Saw
+  - index: 29
+    category: cmp
+    name: Blend-O-Comp
+    full_name: cmp:Blend-O-Comp
+  - index: 30
+    category: cmp
+    name: Pop Piano
+    full_name: cmp:Pop Piano
+  - index: 31
+    category: cmp
+    name: Thickets
+    full_name: cmp:Thickets
+  - index: 32
+    category: cmp
+    name: Jethro
+    full_name: cmp:Jethro
+  - index: 33
+    category: org
+    name: 70's Jazzup
+    full_name: org:70's Jazzup
+  - index: 34
+    category: org
+    name: Saint Audity
+    full_name: org:Saint Audity
+  - index: 35
+    category: edg
+    name: SCRAPE
+    full_name: edg:SCRAPE
+  - index: 36
+    category: edg
+    name: REZANATOR
+    full_name: edg:REZANATOR
+  - index: 37
+    category: edg
+    name: Odd Quasar
+    full_name: edg:Odd Quasar
+  - index: 38
+    category: edg
+    name: REZAWRECKT
+    full_name: edg:REZAWRECKT
+  - index: 39
+    category: edg
+    name: UNDERTAKER
+    full_name: edg:UNDERTAKER
+  - index: 40
+    category: edg
+    name: WdcuttrsBall
+    full_name: edg:WdcuttrsBall
+  - index: 41
+    category: edg
+    name: BoXT
+    full_name: edg:BoXT
+  - index: 42
+    category: edg
+    name: SakuraTime
+    full_name: edg:SakuraTime
+  - index: 43
+    category: edg
+    name: BarbWire
+    full_name: edg:BarbWire
+  - index: 44
+    category: edg
+    name: COFFINRIDE
+    full_name: edg:COFFINRIDE
+  - index: 45
+    category: edg
+    name: Turbonic
+    full_name: edg:Turbonic
+  - index: 46
+    category: edg
+    name: DirtyHertz
+    full_name: edg:DirtyHertz
+  - index: 47
+    category: edg
+    name: PUNISHER
+    full_name: edg:PUNISHER
+  - index: 48
+    category: edg
+    name: Heavy Mental
+    full_name: edg:Heavy Mental
+  - index: 49
+    category: edg
+    name: DISTRUCTOR
+    full_name: edg:DISTRUCTOR
+  - index: 50
+    category: edg
+    name: ACiDOPHiLUS
+    full_name: edg:ACiDOPHiLUS
+  - index: 51
+    category: edg
+    name: Duckfuzz
+    full_name: edg:Duckfuzz
+  - index: 52
+    category: edg
+    name: Growly Glide
+    full_name: edg:Growly Glide
+  - index: 53
+    category: edg
+    name: Pele
+    full_name: edg:Pele
+  - index: 54
+    category: edg
+    name: Small Town
+    full_name: edg:Small Town
+  - index: 55
+    category: wal
+    name: ABYSS
+    full_name: wal:ABYSS
+  - index: 56
+    category: edg
+    name: SCRAPMETAL
+    full_name: edg:SCRAPMETAL
+  - index: 57
+    category: edg
+    name: Zorkon
+    full_name: edg:Zorkon
+  - index: 58
+    category: edg
+    name: BASSFLANG
+    full_name: edg:BASSFLANG
+  - index: 59
+    category: edg
+    name: Zoned
+    full_name: edg:Zoned
+  - index: 60
+    category: edg
+    name: Battery
+    full_name: edg:Battery
+  - index: 61
+    category: edg
+    name: Skreecher
+    full_name: edg:Skreecher
+  - index: 62
+    category: edg
+    name: Monster
+    full_name: edg:Monster
+  - index: 63
+    category: edg
+    name: GhostStories
+    full_name: edg:GhostStories
+  - index: 64
+    category: edg
+    name: Inductor
+    full_name: edg:Inductor
+  - index: 65
+    category: edg
+    name: BuZZ KiLL
+    full_name: edg:BuZZ KiLL
+  - index: 66
+    category: edg
+    name: MaMMoTH
+    full_name: edg:MaMMoTH
+  - index: 67
+    category: edg
+    name: Breath Stack
+    full_name: edg:Breath Stack
+  - index: 68
+    category: edg
+    name: OverTheEdge
+    full_name: edg:OverTheEdge
+  - index: 69
+    category: edg
+    name: Low Edge
+    full_name: edg:Low Edge
+  - index: 70
+    category: edg
+    name: Love 1
+    full_name: edg:Love 1
+  - index: 71
+    category: edg
+    name: Love 2
+    full_name: edg:Love 2
+  - index: 72
+    category: edg
+    name: Bare Edge
+    full_name: edg:Bare Edge
+  - index: 73
+    category: edg
+    name: Granules
+    full_name: edg:Granules
+  - index: 74
+    category: edg
+    name: Uncle Fester
+    full_name: edg:Uncle Fester
+  - index: 75
+    category: edg
+    name: Bouncerette
+    full_name: edg:Bouncerette
+  - index: 76
+    category: edg
+    name: THE MACHEEN
+    full_name: edg:THE MACHEEN
+  - index: 77
+    category: edg
+    name: HlywdINative
+    full_name: edg:HlywdINative
+  - index: 78
+    category: edg
+    name: Tibet
+    full_name: edg:Tibet
+  - index: 79
+    category: edg
+    name: UnderClaSS
+    full_name: edg:UnderClaSS
+  - index: 80
+    category: edg
+    name: Honker
+    full_name: edg:Honker
+  - index: 81
+    category: edg
+    name: Mr.Edge
+    full_name: edg:Mr.Edge
+  - index: 82
+    category: edg
+    name: 19inch Nails
+    full_name: edg:19inch Nails
+  - index: 83
+    category: edg
+    name: Strangled
+    full_name: edg:Strangled
+  - index: 84
+    category: edg
+    name: Grindin Me!
+    full_name: edg:Grindin Me!
+  - index: 85
+    category: edg
+    name: Ringer Lead
+    full_name: edg:Ringer Lead
+  - index: 86
+    category: edg
+    name: ClocK WorK
+    full_name: edg:ClocK WorK
+  - index: 87
+    category: edg
+    name: Futura
+    full_name: edg:Futura
+  - index: 88
+    category: bas
+    name: 4Mula
+    full_name: bas:4Mula
+  - index: 89
+    category: bas
+    name: Submarine
+    full_name: bas:Submarine
+  - index: 90
+    category: bas
+    name: Deliver
+    full_name: bas:Deliver
+  - index: 91
+    category: bas
+    name: Germany
+    full_name: bas:Germany
+  - index: 92
+    category: bas
+    name: UKshoota
+    full_name: bas:UKshoota
+  - index: 93
+    category: bas
+    name: Steeper Bass
+    full_name: bas:Steeper Bass
+  - index: 94
+    category: bas
+    name: PUNKCHURE
+    full_name: bas:PUNKCHURE
+  - index: 95
+    category: bas
+    name: Moby3SoloDbl
+    full_name: bas:Moby3SoloDbl
+  - index: 96
+    category: bas
+    name: OminousBass
+    full_name: bas:OminousBass
+  - index: 97
+    category: bas
+    name: Bassasid
+    full_name: bas:Bassasid
+  - index: 98
+    category: bas
+    name: FuzzGrinder
+    full_name: bas:FuzzGrinder
+  - index: 99
+    category: bas
+    name: HybridPhased
+    full_name: bas:HybridPhased
+  - index: 100
+    category: bas
+    name: Distorto
+    full_name: bas:Distorto
+  - index: 101
+    category: bas
+    name: Mo'
+    full_name: bas:Mo'
+  - index: 102
+    category: bas
+    name: Junglist Bs
+    full_name: bas:Junglist Bs
+  - index: 103
+    category: bas
+    name: PoKe
+    full_name: bas:PoKe
+  - index: 104
+    category: bas
+    name: Bullit
+    full_name: bas:Bullit
+  - index: 105
+    category: bas
+    name: PLEX
+    full_name: bas:PLEX
+  - index: 106
+    category: bas
+    name: DistTBSquare
+    full_name: bas:DistTBSquare
+  - index: 107
+    category: bas
+    name: BuzzerFlange
+    full_name: bas:BuzzerFlange
+  - index: 108
+    category: bas
+    name: SlideOnDown
+    full_name: bas:SlideOnDown
+  - index: 109
+    category: bas
+    name: Lo Subb
+    full_name: bas:Lo Subb
+  - index: 110
+    category: bas
+    name: Taurus Tuba
+    full_name: bas:Taurus Tuba
+  - index: 111
+    category: bas
+    name: Slam Master
+    full_name: bas:Slam Master
+  - index: 112
+    category: bas
+    name: MICRO DR0P
+    full_name: bas:MICRO DR0P
+  - index: 113
+    category: bas
+    name: Klang
+    full_name: bas:Klang
+  - index: 114
+    category: bas
+    name: FM Bass
+    full_name: bas:FM Bass
+  - index: 115
+    category: bas
+    name: Interference
+    full_name: bas:Interference
+  - index: 116
+    category: bas
+    name: Dull Dance
+    full_name: bas:Dull Dance
+  - index: 117
+    category: bas
+    name: Bounce
+    full_name: bas:Bounce
+  - index: 118
+    category: bas
+    name: KEVLAR
+    full_name: bas:KEVLAR
+  - index: 119
+    category: bas
+    name: Grinder
+    full_name: bas:Grinder
+  - index: 120
+    category: bas
+    name: Reepeter
+    full_name: bas:Reepeter
+  - index: 121
+    category: bas
+    name: Mongo Bass 1
+    full_name: bas:Mongo Bass 1
+  - index: 122
+    category: bas
+    name: Mongo Bass 2
+    full_name: bas:Mongo Bass 2
+  - index: 123
+    category: bas
+    name: Mongo Bass 3
+    full_name: bas:Mongo Bass 3
+  - index: 124
+    category: bas
+    name: Hollowave
+    full_name: bas:Hollowave
+  - index: 125
+    category: bas
+    name: FuzzBizz
+    full_name: bas:FuzzBizz
+  - index: 126
+    category: bas
+    name: Acidic
+    full_name: bas:Acidic
+  - index: 127
+    category: bas
+    name: BAD ACID
+    full_name: bas:BAD ACID
+  ROM Bank 3:
+  - index: 0
+    category: bas
+    name: Prodigal
+    full_name: bas:Prodigal
+  - index: 1
+    category: bas
+    name: TrafficJam
+    full_name: bas:TrafficJam
+  - index: 2
+    category: bas
+    name: Square Velo
+    full_name: bas:Square Velo
+  - index: 3
+    category: bas
+    name: JUMPUP
+    full_name: bas:JUMPUP
+  - index: 4
+    category: bas
+    name: CReePeR
+    full_name: bas:CReePeR
+  - index: 5
+    category: bas
+    name: Tugboat
+    full_name: bas:Tugboat
+  - index: 6
+    category: bas
+    name: Phatt N' Low
+    full_name: bas:Phatt N' Low
+  - index: 7
+    category: bas
+    name: R&B Bzzybass
+    full_name: bas:R&B Bzzybass
+  - index: 8
+    category: bas
+    name: Ventolator
+    full_name: bas:Ventolator
+  - index: 9
+    category: bas
+    name: Metamorph
+    full_name: bas:Metamorph
+  - index: 10
+    category: bas
+    name: Audity 3033
+    full_name: bas:Audity 3033
+  - index: 11
+    category: bas
+    name: Reso TB V-Sw
+    full_name: bas:Reso TB V-Sw
+  - index: 12
+    category: bas
+    name: ReedBass
+    full_name: bas:ReedBass
+  - index: 13
+    category: bas
+    name: RingCycle
+    full_name: bas:RingCycle
+  - index: 14
+    category: bas
+    name: FLEX
+    full_name: bas:FLEX
+  - index: 15
+    category: bas
+    name: Squelch
+    full_name: bas:Squelch
+  - index: 16
+    category: bas
+    name: Roundy Bass
+    full_name: bas:Roundy Bass
+  - index: 17
+    category: bas
+    name: Dirty Bass
+    full_name: bas:Dirty Bass
+  - index: 18
+    category: bas
+    name: 3003 Weirder
+    full_name: bas:3003 Weirder
+  - index: 19
+    category: bas
+    name: Sweat
+    full_name: bas:Sweat
+  - index: 20
+    category: bas
+    name: FunkyBootsy
+    full_name: bas:FunkyBootsy
+  - index: 21
+    category: bas
+    name: One Shot
+    full_name: bas:One Shot
+  - index: 22
+    category: bas
+    name: ThickyDance
+    full_name: bas:ThickyDance
+  - index: 23
+    category: bas
+    name: Over TheEdge
+    full_name: bas:Over TheEdge
+  - index: 24
+    category: bas
+    name: Bongo Bass 1
+    full_name: bas:Bongo Bass 1
+  - index: 25
+    category: bas
+    name: Bongo Bass 2
+    full_name: bas:Bongo Bass 2
+  - index: 26
+    category: bas
+    name: Bongo Bass 3
+    full_name: bas:Bongo Bass 3
+  - index: 27
+    category: bas
+    name: Razorette
+    full_name: bas:Razorette
+  - index: 28
+    category: bas
+    name: Calmer
+    full_name: bas:Calmer
+  - index: 29
+    category: bas
+    name: Acid line
+    full_name: bas:Acid line
+  - index: 30
+    category: bas
+    name: Ring Bassox
+    full_name: bas:Ring Bassox
+  - index: 31
+    category: bas
+    name: KX Bass
+    full_name: bas:KX Bass
+  - index: 32
+    category: bas
+    name: Roof Top Tri
+    full_name: bas:Roof Top Tri
+  - index: 33
+    category: bas
+    name: Suschi Bass
+    full_name: bas:Suschi Bass
+  - index: 34
+    category: bas
+    name: Hard X
+    full_name: bas:Hard X
+  - index: 35
+    category: nse
+    name: Tunnel Lead
+    full_name: nse:Tunnel Lead
+  - index: 36
+    category: nse
+    name: Auto Motive
+    full_name: nse:Auto Motive
+  - index: 37
+    category: nse
+    name: GrainyPixel
+    full_name: nse:GrainyPixel
+  - index: 38
+    category: nse
+    name: Faucet Drip
+    full_name: nse:Faucet Drip
+  - index: 39
+    category: nse
+    name: Machined
+    full_name: nse:Machined
+  - index: 40
+    category: nse
+    name: DarkForest
+    full_name: nse:DarkForest
+  - index: 41
+    category: nse
+    name: Noise Train
+    full_name: nse:Noise Train
+  - index: 42
+    category: nse
+    name: PsychicSea
+    full_name: nse:PsychicSea
+  - index: 43
+    category: nse
+    name: BirdbraiN
+    full_name: nse:BirdbraiN
+  - index: 44
+    category: nse
+    name: AarnoLdt
+    full_name: nse:AarnoLdt
+  - index: 45
+    category: nse
+    name: Spaced
+    full_name: nse:Spaced
+  - index: 46
+    category: nse
+    name: Ionize
+    full_name: nse:Ionize
+  - index: 47
+    category: nse
+    name: Tweety Boid
+    full_name: nse:Tweety Boid
+  - index: 48
+    category: nse
+    name: SideBands
+    full_name: nse:SideBands
+  - index: 49
+    category: nse
+    name: PLAZMATIC
+    full_name: nse:PLAZMATIC
+  - index: 50
+    category: nse
+    name: LuciferDom
+    full_name: nse:LuciferDom
+  - index: 51
+    category: nse
+    name: Modular Ring
+    full_name: nse:Modular Ring
+  - index: 52
+    category: nse
+    name: SpottedWhite
+    full_name: nse:SpottedWhite
+  - index: 53
+    category: nse
+    name: Uncowardinar
+    full_name: nse:Uncowardinar
+  - index: 54
+    category: nse
+    name: Lizard Skin
+    full_name: nse:Lizard Skin
+  - index: 55
+    category: wal
+    name: Group Chants
+    full_name: wal:Group Chants
+  - index: 56
+    category: wal
+    name: DOOM 2020
+    full_name: wal:DOOM 2020
+  - index: 57
+    category: wal
+    name: Hadrian's
+    full_name: wal:Hadrian's
+  - index: 58
+    category: wal
+    name: Underworld
+    full_name: wal:Underworld
+  - index: 59
+    category: wal
+    name: Banshee
+    full_name: wal:Banshee
+  - index: 60
+    category: wal
+    name: Quiet Wall
+    full_name: wal:Quiet Wall
+  - index: 61
+    category: wal
+    name: Hittite
+    full_name: wal:Hittite
+  - index: 62
+    category: wal
+    name: Darknaohe
+    full_name: wal:Darknaohe
+  - index: 63
+    category: wal
+    name: Dinkness
+    full_name: wal:Dinkness
+  - index: 64
+    category: wal
+    name: KillingField
+    full_name: wal:KillingField
+  - index: 65
+    category: wal
+    name: Ripped
+    full_name: wal:Ripped
+  - index: 66
+    category: wal
+    name: Spunk Dinks
+    full_name: wal:Spunk Dinks
+  - index: 67
+    category: wal
+    name: Warrans
+    full_name: wal:Warrans
+  - index: 68
+    category: wal
+    name: VOID
+    full_name: wal:VOID
+  - index: 69
+    category: wal
+    name: Akiro Rising
+    full_name: wal:Akiro Rising
+  - index: 70
+    category: syn
+    name: EQed Swamp
+    full_name: syn:EQed Swamp
+  - index: 71
+    category: wal
+    name: CrashKlydcup
+    full_name: wal:CrashKlydcup
+  - index: 72
+    category: wal
+    name: Chemical ;-)
+    full_name: wal:Chemical ;-)
+  - index: 73
+    category: wal
+    name: Inferno
+    full_name: wal:Inferno
+  - index: 74
+    category: wal
+    name: Midevilonu!
+    full_name: wal:Midevilonu!
+  - index: 75
+    category: wal
+    name: March2TheWal
+    full_name: wal:March2TheWal
+  - index: 76
+    category: wal
+    name: Gattica
+    full_name: wal:Gattica
+  - index: 77
+    category: wal
+    name: Walball Bass
+    full_name: wal:Walball Bass
+  - index: 78
+    category: wal
+    name: Oily Deity
+    full_name: wal:Oily Deity
+  - index: 79
+    category: wal
+    name: CYBER DEATH
+    full_name: wal:CYBER DEATH
+  - index: 80
+    category: wal
+    name: Transit
+    full_name: wal:Transit
+  - index: 81
+    category: wal
+    name: TunnelVizion
+    full_name: wal:TunnelVizion
+  - index: 82
+    category: wal
+    name: Station
+    full_name: wal:Station
+  - index: 83
+    category: wal
+    name: Balls2The...
+    full_name: wal:Balls2The...
+  - index: 84
+    category: wal
+    name: ICEAGE
+    full_name: wal:ICEAGE
+  - index: 85
+    category: pad
+    name: Moby's Trip
+    full_name: pad:Moby's Trip
+  - index: 86
+    category: pad
+    name: BP Strings
+    full_name: pad:BP Strings
+  - index: 87
+    category: pad
+    name: DARK CITY
+    full_name: pad:DARK CITY
+  - index: 88
+    category: pad
+    name: Chiffity
+    full_name: pad:Chiffity
+  - index: 89
+    category: pad
+    name: Enoze Tri
+    full_name: pad:Enoze Tri
+  - index: 90
+    category: pad
+    name: Hi&LowLights
+    full_name: pad:Hi&LowLights
+  - index: 91
+    category: pad
+    name: Raz
+    full_name: pad:Raz
+  - index: 92
+    category: pad
+    name: Synterval
+    full_name: pad:Synterval
+  - index: 93
+    category: pad
+    name: HOUSE
+    full_name: pad:HOUSE
+  - index: 94
+    category: pad
+    name: Zephyr
+    full_name: pad:Zephyr
+  - index: 95
+    category: pad
+    name: Danube
+    full_name: pad:Danube
+  - index: 96
+    category: pad
+    name: Grumble
+    full_name: pad:Grumble
+  - index: 97
+    category: pad
+    name: Vespers
+    full_name: pad:Vespers
+  - index: 98
+    category: pad
+    name: MetalFriend
+    full_name: pad:MetalFriend
+  - index: 99
+    category: pad
+    name: Air Surf :-)
+    full_name: pad:Air Surf :-)
+  - index: 100
+    category: pad
+    name: GRITS
+    full_name: pad:GRITS
+  - index: 101
+    category: pad
+    name: Ault
+    full_name: pad:Ault
+  - index: 102
+    category: pad
+    name: Jumpy Brass
+    full_name: pad:Jumpy Brass
+  - index: 103
+    category: pad
+    name: W6 3sEvEn
+    full_name: pad:W6 3sEvEn
+  - index: 104
+    category: pad
+    name: TRIPPER
+    full_name: pad:TRIPPER
+  - index: 105
+    category: pad
+    name: AQUANAUT
+    full_name: pad:AQUANAUT
+  - index: 106
+    category: pad
+    name: Wat'na Hell
+    full_name: pad:Wat'na Hell
+  - index: 107
+    category: pad
+    name: PI Solutions
+    full_name: pad:PI Solutions
+  - index: 108
+    category: pad
+    name: Air Voices
+    full_name: pad:Air Voices
+  - index: 109
+    category: pad
+    name: SweepDancer
+    full_name: pad:SweepDancer
+  - index: 110
+    category: pad
+    name: 2ManyDlphins
+    full_name: pad:2ManyDlphins
+  - index: 111
+    category: pad
+    name: Nervousity
+    full_name: pad:Nervousity
+  - index: 112
+    category: pad
+    name: Field
+    full_name: pad:Field
+  - index: 113
+    category: pad
+    name: GLISST
+    full_name: pad:GLISST
+  - index: 114
+    category: pad
+    name: Silk Cut
+    full_name: pad:Silk Cut
+  - index: 115
+    category: pad
+    name: CREST
+    full_name: pad:CREST
+  - index: 116
+    category: pad
+    name: Rio Dulce
+    full_name: pad:Rio Dulce
+  - index: 117
+    category: pad
+    name: RazorSlider
+    full_name: pad:RazorSlider
+  - index: 118
+    category: pad
+    name: OLD-D
+    full_name: pad:OLD-D
+  - index: 119
+    category: pad
+    name: NagaChampa
+    full_name: pad:NagaChampa
+  - index: 120
+    category: pad
+    name: Ice Ring
+    full_name: pad:Ice Ring
+  - index: 121
+    category: pad
+    name: Eastern Mist
+    full_name: pad:Eastern Mist
+  - index: 122
+    category: pad
+    name: Glassers
+    full_name: pad:Glassers
+  - index: 123
+    category: pad
+    name: Scooped Mids
+    full_name: pad:Scooped Mids
+  - index: 124
+    category: pad
+    name: Prophety
+    full_name: pad:Prophety
+  - index: 125
+    category: pad
+    name: ObieLand
+    full_name: pad:ObieLand
+  - index: 126
+    category: pad
+    name: More Senses
+    full_name: pad:More Senses
+  - index: 127
+    category: ''
+    name: Blank Preset
+    full_name: Blank Preset
+  ROM Bank 4:
+  - index: 0
+    category: pad
+    name: SWELL
+    full_name: pad:SWELL
+  - index: 1
+    category: pad
+    name: Solace
+    full_name: pad:Solace
+  - index: 2
+    category: pad
+    name: theMessage
+    full_name: pad:theMessage
+  - index: 3
+    category: pad
+    name: Vampirella
+    full_name: pad:Vampirella
+  - index: 4
+    category: pad
+    name: Big Aud'Pad
+    full_name: pad:Big Aud'Pad
+  - index: 5
+    category: pad
+    name: Sonar Ghost
+    full_name: pad:Sonar Ghost
+  - index: 6
+    category: pad
+    name: SIRRUS
+    full_name: pad:SIRRUS
+  - index: 7
+    category: pad
+    name: Gorgontastic
+    full_name: pad:Gorgontastic
+  - index: 8
+    category: pad
+    name: Druidz Song
+    full_name: pad:Druidz Song
+  - index: 9
+    category: pad
+    name: Air Age
+    full_name: pad:Air Age
+  - index: 10
+    category: pad
+    name: Future Vox
+    full_name: pad:Future Vox
+  - index: 11
+    category: pad
+    name: Swervy
+    full_name: pad:Swervy
+  - index: 12
+    category: pad
+    name: Strings Box
+    full_name: pad:Strings Box
+  - index: 13
+    category: pad
+    name: Daddy's Girl
+    full_name: pad:Daddy's Girl
+  - index: 14
+    category: pad
+    name: Ice Dreams
+    full_name: pad:Ice Dreams
+  - index: 15
+    category: pad
+    name: SaturnRings
+    full_name: pad:SaturnRings
+  - index: 16
+    category: pad
+    name: Lunar Pad
+    full_name: pad:Lunar Pad
+  - index: 17
+    category: pad
+    name: Smoovie
+    full_name: pad:Smoovie
+  - index: 18
+    category: pad
+    name: SMAK
+    full_name: pad:SMAK
+  - index: 19
+    category: pad
+    name: Synthex 80's
+    full_name: pad:Synthex 80's
+  - index: 20
+    category: pad
+    name: Aki's World
+    full_name: pad:Aki's World
+  - index: 21
+    category: pad
+    name: Tink
+    full_name: pad:Tink
+  - index: 22
+    category: pad
+    name: WAVE
+    full_name: pad:WAVE
+  - index: 23
+    category: pad
+    name: G.L.OTekTwin
+    full_name: pad:G.L.OTekTwin
+  - index: 24
+    category: pad
+    name: Cast
+    full_name: pad:Cast
+  - index: 25
+    category: pad
+    name: Low Back
+    full_name: pad:Low Back
+  - index: 26
+    category: pad
+    name: Warm&Lush
+    full_name: pad:Warm&Lush
+  - index: 27
+    category: pad
+    name: Lonely Space
+    full_name: pad:Lonely Space
+  - index: 28
+    category: pad
+    name: Prose Andre
+    full_name: pad:Prose Andre
+  - index: 29
+    category: pad
+    name: Pure Synth
+    full_name: pad:Pure Synth
+  - index: 30
+    category: vox
+    name: We All Leave
+    full_name: vox:We All Leave
+  - index: 31
+    category: vox
+    name: DonkeyBreath
+    full_name: vox:DonkeyBreath
+  - index: 32
+    category: vox
+    name: Speech Boys
+    full_name: vox:Speech Boys
+  - index: 33
+    category: vox
+    name: DreamVoxx
+    full_name: vox:DreamVoxx
+  - index: 34
+    category: vox
+    name: Bliss
+    full_name: vox:Bliss
+  - index: 35
+    category: vox
+    name: Audity
+    full_name: vox:Audity
+  - index: 36
+    category: vox
+    name: Gothem
+    full_name: vox:Gothem
+  - index: 37
+    category: vox
+    name: Rouge Temple
+    full_name: vox:Rouge Temple
+  - index: 38
+    category: vox
+    name: Ka Wire
+    full_name: vox:Ka Wire
+  - index: 39
+    category: vox
+    name: Wally Vox
+    full_name: vox:Wally Vox
+  - index: 40
+    category: vox
+    name: Hey!!!!
+    full_name: vox:Hey!!!!
+  - index: 41
+    category: vox
+    name: Out of Here
+    full_name: vox:Out of Here
+  - index: 42
+    category: vox
+    name: AppleSeeede
+    full_name: vox:AppleSeeede
+  - index: 43
+    category: vox
+    name: HeavyBreathr
+    full_name: vox:HeavyBreathr
+  - index: 44
+    category: vox
+    name: Chronic Komp
+    full_name: vox:Chronic Komp
+  - index: 45
+    category: vox
+    name: Swishy
+    full_name: vox:Swishy
+  - index: 46
+    category: vox
+    name: Middle Ages
+    full_name: vox:Middle Ages
+  - index: 47
+    category: vox
+    name: Chant
+    full_name: vox:Chant
+  - index: 48
+    category: vox
+    name: Ether
+    full_name: vox:Ether
+  - index: 49
+    category: vox
+    name: ARMAGEDDON
+    full_name: vox:ARMAGEDDON
+  - index: 50
+    category: vox
+    name: Humanacomp
+    full_name: vox:Humanacomp
+  - index: 51
+    category: vox
+    name: Noo Sweep
+    full_name: vox:Noo Sweep
+  - index: 52
+    category: vox
+    name: ANGELIKA
+    full_name: vox:ANGELIKA
+  - index: 53
+    category: vox
+    name: Galaxal
+    full_name: vox:Galaxal
+  - index: 54
+    category: vox
+    name: Loah
+    full_name: vox:Loah
+  - index: 55
+    category: vox
+    name: Bandvoxxe
+    full_name: vox:Bandvoxxe
+  - index: 56
+    category: vox
+    name: Flangelo
+    full_name: vox:Flangelo
+  - index: 57
+    category: bel
+    name: Ballerina
+    full_name: bel:Ballerina
+  - index: 58
+    category: bel
+    name: NiteLite
+    full_name: bel:NiteLite
+  - index: 59
+    category: bel
+    name: SAHARA
+    full_name: bel:SAHARA
+  - index: 60
+    category: bel
+    name: Audity Bell
+    full_name: bel:Audity Bell
+  - index: 61
+    category: bel
+    name: ComputerArp
+    full_name: bel:ComputerArp
+  - index: 62
+    category: bel
+    name: TWISTY RING
+    full_name: bel:TWISTY RING
+  - index: 63
+    category: bel
+    name: Efemm Bellsa
+    full_name: bel:Efemm Bellsa
+  - index: 64
+    category: bel
+    name: Bubblies
+    full_name: bel:Bubblies
+  - index: 65
+    category: bel
+    name: PIPER BELL
+    full_name: bel:PIPER BELL
+  - index: 66
+    category: bel
+    name: MONK
+    full_name: bel:MONK
+  - index: 67
+    category: bel
+    name: SweeTDreaM
+    full_name: bel:SweeTDreaM
+  - index: 68
+    category: bel
+    name: WaveBell
+    full_name: bel:WaveBell
+  - index: 69
+    category: bel
+    name: Tinkle Bell
+    full_name: bel:Tinkle Bell
+  - index: 70
+    category: bel
+    name: Mult-A-Metal
+    full_name: bel:Mult-A-Metal
+  - index: 71
+    category: bel
+    name: Mystery Bell
+    full_name: bel:Mystery Bell
+  - index: 72
+    category: bel
+    name: NordicCalm
+    full_name: bel:NordicCalm
+  - index: 73
+    category: bel
+    name: Quasimoto
+    full_name: bel:Quasimoto
+  - index: 74
+    category: bel
+    name: Rainbellz
+    full_name: bel:Rainbellz
+  - index: 75
+    category: bel
+    name: Islander
+    full_name: bel:Islander
+  - index: 76
+    category: bel
+    name: Agualla Bell
+    full_name: bel:Agualla Bell
+  - index: 77
+    category: sfx
+    name: Sambatronica
+    full_name: sfx:Sambatronica
+  - index: 78
+    category: sfx
+    name: TurPeeDogh
+    full_name: sfx:TurPeeDogh
+  - index: 79
+    category: sfx
+    name: Ratchit
+    full_name: sfx:Ratchit
+  - index: 80
+    category: sfx
+    name: DroiD
+    full_name: sfx:DroiD
+  - index: 81
+    category: sfx
+    name: EerieCreep
+    full_name: sfx:EerieCreep
+  - index: 82
+    category: sfx
+    name: NukeMeltDwN
+    full_name: sfx:NukeMeltDwN
+  - index: 83
+    category: sfx
+    name: Diesel
+    full_name: sfx:Diesel
+  - index: 84
+    category: sfx
+    name: Thatwasntme!
+    full_name: sfx:Thatwasntme!
+  - index: 85
+    category: sfx
+    name: Arp Trillz
+    full_name: sfx:Arp Trillz
+  - index: 86
+    category: sfx
+    name: Hard Stop
+    full_name: sfx:Hard Stop
+  - index: 87
+    category: sfx
+    name: PumpkinHead
+    full_name: sfx:PumpkinHead
+  - index: 88
+    category: sfx
+    name: AK-47
+    full_name: sfx:AK-47
+  - index: 89
+    category: sfx
+    name: WARPSHIELD
+    full_name: sfx:WARPSHIELD
+  - index: 90
+    category: sfx
+    name: Landing
+    full_name: sfx:Landing
+  - index: 91
+    category: sfx
+    name: MaRTIaNS
+    full_name: sfx:MaRTIaNS
+  - index: 92
+    category: sfx
+    name: Soline 9x
+    full_name: sfx:Soline 9x
+  - index: 93
+    category: sfx
+    name: Ion Split
+    full_name: sfx:Ion Split
+  - index: 94
+    category: sfx
+    name: Audatious 1
+    full_name: sfx:Audatious 1
+  - index: 95
+    category: sfx
+    name: Audatious 2
+    full_name: sfx:Audatious 2
+  - index: 96
+    category: sfx
+    name: TwelveBells
+    full_name: sfx:TwelveBells
+  - index: 97
+    category: sfx
+    name: Alienator
+    full_name: sfx:Alienator
+  - index: 98
+    category: sfx
+    name: REZANATION
+    full_name: sfx:REZANATION
+  - index: 99
+    category: scr
+    name: DJ UFO
+    full_name: scr:DJ UFO
+  - index: 100
+    category: scr
+    name: GoSpeedRacer
+    full_name: scr:GoSpeedRacer
+  - index: 101
+    category: src
+    name: HighLow
+    full_name: src:HighLow
+  - index: 102
+    category: scr
+    name: Scratch Sw
+    full_name: scr:Scratch Sw
+  - index: 103
+    category: scr
+    name: MartianVinyl
+    full_name: scr:MartianVinyl
+  - index: 104
+    category: scr
+    name: Skratch Diss
+    full_name: scr:Skratch Diss
+  - index: 105
+    category: scr
+    name: ChokeScratch
+    full_name: scr:ChokeScratch
+  - index: 106
+    category: scr
+    name: Reckerd
+    full_name: scr:Reckerd
+  - index: 107
+    category: scr
+    name: Icha-Owcha
+    full_name: scr:Icha-Owcha
+  - index: 108
+    category: prc
+    name: Cooleo
+    full_name: prc:Cooleo
+  - index: 109
+    category: prc
+    name: C1 Dmachine
+    full_name: prc:C1 Dmachine
+  - index: 110
+    category: prc
+    name: BottomDrums
+    full_name: prc:BottomDrums
+  - index: 111
+    category: prc
+    name: Krappy Kit
+    full_name: prc:Krappy Kit
+  - index: 112
+    category: prc
+    name: INYOURFACE
+    full_name: prc:INYOURFACE
+  - index: 113
+    category: prc
+    name: ALTURNET
+    full_name: prc:ALTURNET
+  - index: 114
+    category: prc
+    name: TR 2O2O
+    full_name: prc:TR 2O2O
+  - index: 115
+    category: prc
+    name: Hip Hop kit
+    full_name: prc:Hip Hop kit
+  - index: 116
+    category: prc
+    name: DRUMULATER
+    full_name: prc:DRUMULATER
+  - index: 117
+    category: prc
+    name: B-N-DMonkey
+    full_name: prc:B-N-DMonkey
+  - index: 118
+    category: prc
+    name: SmakMymanup!
+    full_name: prc:SmakMymanup!
+  - index: 119
+    category: prc
+    name: 80's Tones
+    full_name: prc:80's Tones
+  - index: 120
+    category: prc
+    name: Sycoma
+    full_name: prc:Sycoma
+  - index: 121
+    category: prc
+    name: Klonk Perks
+    full_name: prc:Klonk Perks
+  - index: 122
+    category: prc
+    name: Crash Head
+    full_name: prc:Crash Head
+  - index: 123
+    category: prc
+    name: ANGST PicKls
+    full_name: prc:ANGST PicKls
+  - index: 124
+    category: prc
+    name: KalinallCars
+    full_name: prc:KalinallCars
+  - index: 125
+    category: prc
+    name: Drum Shadow
+    full_name: prc:Drum Shadow
+  - index: 126
+    category: prc
+    name: Roge ?!@#&
+    full_name: prc:Roge ?!@#&
+  - index: 127
+    category: prc
+    name: K'werk It
+    full_name: prc:K'werk It
+parameters:
+- id: filter_cutoff
+  name: Z-Plane Cutoff
+  param_id: 324
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 82
+- id: filter_reso
+  name: Z-Plane Resonance
+  param_id: 325
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 45
+- id: filter_morph
+  name: Formant Morph
+  param_id: 326
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 64
+- id: filter_type
+  name: Z-Plane Model
+  param_id: 327
+  type: enum
+  range:
+  - 0
+  - 49
+  default: 12
+- id: amp_attack
+  name: Amp Attack
+  param_id: 336
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 5
+- id: amp_hold
+  name: Amp Hold
+  param_id: 337
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 0
+- id: amp_decay
+  name: Amp Decay
+  param_id: 338
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 40
+- id: amp_sustain
+  name: Amp Sustain
+  param_id: 339
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 100
+- id: amp_release
+  name: Amp Release
+  param_id: 340
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 25
+- id: filt_attack
+  name: Filter Env Attack
+  param_id: 352
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 8
+- id: filt_decay
+  name: Filter Env Decay
+  param_id: 353
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 50
+- id: filt_sustain
+  name: Filter Env Sustain
+  param_id: 354
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 30
+- id: filt_release
+  name: Filter Env Release
+  param_id: 355
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 35
+- id: lfo1_rate
+  name: LFO 1 Rate
+  param_id: 368
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 45
+- id: lfo1_shape
+  name: LFO 1 Shape
+  param_id: 369
+  type: enum
+  range:
+  - 0
+  - 16
+  default: 0
+- id: lfo2_rate
+  name: LFO 2 Rate
+  param_id: 370
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 60
+- id: arp_pattern
+  name: Arp Pattern
+  param_id: 512
+  type: enum
+  range:
+  - 0
+  - 199
+  default: 1
+- id: arp_velocity
+  name: Arp Velocity
+  param_id: 513
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 100
+- id: arp_gate_time
+  name: Arp Gate Time
+  param_id: 514
+  type: linear
+  range:
+  - 0
+  - 100
+  default: 80
+- id: fx_a_algorithm
+  name: FX A Type
+  param_id: 528
+  type: enum
+  range:
+  - 0
+  - 43
+  default: 10
+- id: fx_a_amount
+  name: FX A Send Amount
+  param_id: 529
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 30
+- id: fx_b_algorithm
+  name: FX B Type
+  param_id: 530
+  type: enum
+  range:
+  - 0
+  - 31
+  default: 5
+- id: fx_b_amount
+  name: FX B Send Amount
+  param_id: 531
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 20
+- id: multimode_channel_select
+  name: Multimode Channel Select
+  param_id: 129
+  type: linear
+  range:
+  - 0
+  - 15
+  default: 0
+- id: multimode_preset
+  name: Multimode Preset Select
+  param_id: 130
+  type: linear
+  range:
+  - 0
+  - 895
+  default: 0
+- id: multimode_volume
+  name: Multimode Channel Volume
+  param_id: 131
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 100
+- id: multimode_pan
+  name: Multimode Channel Pan
+  param_id: 132
+  type: bipolar
+  range:
+  - 0
+  - 127
+  default: 64
+- id: multimode_mix_output
+  name: Multimode Mix Output
+  param_id: 133
+  type: enum
+  range:
+  - -1
+  - 2
+  default: 0
+- id: multimode_arp
+  name: Multimode Arp Assign
+  param_id: 134
+  type: enum
+  range:
+  - -2
+  - 1
+  default: -2
+- id: multimode_channel_enable
+  name: Multimode Channel Enable
+  param_id: 135
+  type: enum
+  range:
+  - 0
+  - 1
+  default: 1
+- id: multimode_rcv_prog_change
+  name: Multimode Rcv Prog Change
+  param_id: 137
+  type: enum
+  range:
+  - 0
+  - 1
+  default: 1
+- id: multimode_fx_ctrl_channel
+  name: Multimode FX Control Channel
+  param_id: 140
+  type: enum
+  range:
+  - -1
+  - 15
+  default: -1
+- id: multimode_tempo_ctrl_chan
+  name: Multimode Tempo Control Channel
+  param_id: 141
+  type: linear
+  range:
+  - 0
+  - 15
+  default: 0
+- id: master_tempo
+  name: Master Clock Tempo
+  param_id: 257
+  type: linear
+  range:
+  - 1
+  - 300
+  default: 128
+  unit: BPM
+- id: master_transpose
+  name: Master Transpose
+  param_id: 259
+  type: bipolar
+  range:
+  - -12
+  - 12
+  default: 0
+  unit: semitones
+- id: master_tune
+  name: Master Fine Tuning
+  param_id: 260
+  type: bipolar
+  range:
+  - -64
+  - 64
+  default: 0
+  unit: cents
+- id: master_bend_range
+  name: Master Pitch Bend Range
+  param_id: 261
+  type: linear
+  range:
+  - 0
+  - 12
+  default: 2
+  unit: semitones
+- id: global_velocity_curve
+  name: Global Velocity Curve
+  param_id: 265
+  type: enum
+  range:
+  - 0
+  - 13
+  default: 0
+- id: midi_mode
+  name: MIDI Operating Mode
+  param_id: 385
+  type: enum
+  range:
+  - 0
+  - 2
+  default: 2
+- id: sysex_device_id
+  name: SysEx Device ID
+  param_id: 386
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 0
+- id: master_fx_a_algorithm
+  name: Master FX A Algorithm
+  param_id: 512
+  type: enum
+  range:
+  - 0
+  - 43
+  default: 4
+- id: master_fx_a_decay
+  name: Master FX A Decay Time
+  param_id: 513
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 68
+- id: master_fx_a_hfdamp
+  name: Master FX A High-Frequency Damping
+  param_id: 514
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 42
+- id: master_fx_a_to_b
+  name: Master FX A to B Send Amount
+  param_id: 515
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 32
+- id: master_fx_b_algorithm
+  name: Master FX B Algorithm
+  param_id: 519
+  type: enum
+  range:
+  - 0
+  - 31
+  default: 2
+- id: master_fx_b_feedback
+  name: Master FX B Feedback
+  param_id: 520
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 54
+- id: master_fx_b_lfo_rate
+  name: Master FX B LFO Rate
+  param_id: 521
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 36
+- id: master_fx_b_delay_time
+  name: Master FX B Delay Time
+  param_id: 522
+  type: linear
+  range:
+  - 0
+  - 127
+  default: 75
+- id: arp_master_status
+  name: Arpeggiator Master Status
+  param_id: 641
+  type: enum
+  range:
+  - 0
+  - 1
+  default: 1
+- id: arp_mode
+  name: Arpeggiator Mode
+  param_id: 642
+  type: enum
+  range:
+  - 0
+  - 6
+  default: 6
+- id: arp_note_value
+  name: Arpeggiator Note Value Divisor
+  param_id: 644
+  type: enum
+  range:
+  - 0
+  - 4
+  default: 2
+- id: arp_octave_extension
+  name: Arpeggiator Octave Extension
+  param_id: 647
+  type: linear
+  range:
+  - 1
+  - 4
+  default: 2
+- id: arp_latch_mode
+  name: Arpeggiator Latch (Hold) Mode
+  param_id: 657
+  type: enum
+  range:
+  - 0
+  - 1
+  default: 0

@@ -1,0 +1,214 @@
+name: "Access Virus A"
+manufacturer: "Access Music GmbH"
+category: "Virtual Analog Synthesizer"
+release_year: 1997
+
+midi:
+  manufacturer_id: [0x00, 0x20, 0x33]
+  device_id: 0x10  # 0x10 = Omni, or 0x00..0x0F for specific channel
+  model_id: 0x01   # Virus series
+  
+sysex:
+  # Single dump: F0 00 20 33 01 <dev> 10 <bank> <prog> [256 bytes] <checksum> F7
+  dump_single_cmd: 0x10
+  dump_request_cmd: 0x30
+  single_dump_size: 256
+  checksum_type: "sum_7bit" # 7-bit sum of the 256 bytes & 0x7F
+
+  pages:
+    page_a: 0x70  # Oscillators, Mixer, Filter (128 params)
+    page_b: 0x71  # Envelopes, LFOs, Modulation, Effects (128 params)
+    page_c: 0x72  # Multi & Global settings (128 params)
+
+  parameter_change_format:
+    header: [0xF0, 0x00, 0x20, 0x33, 0x01, "{device_id}", "{page_cmd}", "{part}", "{param_index}", "{value}", 0xF7]
+    part_single_edit_buffer: 0x40
+
+ui_theme:
+  style: "hardware_chassis"
+  background_color: "#18181d"
+  accent_crimson: "#8b1525"
+  panel_border: "#282830"
+  lcd_backlight: "#28341e"
+  lcd_text: "#7cd924"
+  knob_style: "vintage_fluted"
+
+parameters:
+  # ================= OSCILLATORS (Page A) =================
+  - id: "osc1_shape"
+    name: "Osc 1 Shape"
+    page: "page_a"
+    index: 34
+    type: "enum"
+    range: [0, 127]
+    options:
+      0: "Sawtooth"
+      64: "Variable Pulse"
+      127: "Sine / Spectral"
+    default: 0
+    group: "Oscillators"
+
+  - id: "osc1_semitone"
+    name: "Osc 1 Semitone"
+    page: "page_a"
+    index: 33
+    type: "bipolar"
+    range: [-48, 48]
+    wire_offset: 64
+    default: 0
+    unit: "st"
+    group: "Oscillators"
+
+  - id: "osc1_detune"
+    name: "Osc 1 Detune"
+    page: "page_a"
+    index: 35
+    type: "bipolar"
+    range: [-64, 63]
+    wire_offset: 64
+    default: 0
+    group: "Oscillators"
+
+  - id: "osc1_pulse_width"
+    name: "Osc 1 Pulse Width"
+    page: "page_a"
+    index: 18
+    type: "integer"
+    range: [0, 127]
+    default: 64
+    group: "Oscillators"
+
+  - id: "osc2_semitone"
+    name: "Osc 2 Semitone"
+    page: "page_a"
+    index: 36
+    type: "bipolar"
+    range: [-48, 48]
+    wire_offset: 64
+    default: 7
+    unit: "st"
+    group: "Oscillators"
+
+  - id: "osc_sync"
+    name: "Osc Sync"
+    page: "page_a"
+    index: 38
+    type: "boolean"
+    range: [0, 1]
+    default: 0
+    group: "Oscillators"
+
+  - id: "osc_fm_amount"
+    name: "FM Amount"
+    page: "page_a"
+    index: 39
+    type: "integer"
+    range: [0, 127]
+    default: 0
+    group: "Oscillators"
+
+  # ================= FILTERS (Page A) =================
+  - id: "filter1_cutoff"
+    name: "Filter 1 Cutoff"
+    page: "page_a"
+    index: 40
+    type: "integer"
+    range: [0, 127]
+    default: 95
+    widget: "knob"
+    group: "Filters"
+
+  - id: "filter2_cutoff"
+    name: "Filter 2 Cutoff"
+    page: "page_a"
+    index: 41
+    type: "bipolar"
+    range: [-64, 63]
+    wire_offset: 64
+    default: 0
+    widget: "knob"
+    group: "Filters"
+
+  - id: "filter1_resonance"
+    name: "Filter 1 Resonance"
+    page: "page_a"
+    index: 42
+    type: "integer"
+    range: [0, 127]
+    default: 32
+    widget: "knob"
+    group: "Filters"
+
+  - id: "filter_routing"
+    name: "Filter Routing"
+    page: "page_a"
+    index: 49
+    type: "enum"
+    range: [0, 3]
+    options:
+      0: "Serial 4 (24dB)"
+      1: "Serial 6 (36dB)"
+      2: "Parallel 4"
+      3: "Split Stereo"
+    default: 0
+    group: "Filters"
+
+  # ================= ENVELOPES (Page B) =================
+  - id: "filter_env_attack"
+    name: "Filter Env Attack"
+    page: "page_b"
+    index: 47
+    type: "integer"
+    range: [0, 127]
+    default: 8
+    widget: "slider"
+    group: "Envelopes"
+
+  - id: "filter_env_decay"
+    name: "Filter Env Decay"
+    page: "page_b"
+    index: 48
+    type: "integer"
+    range: [0, 127]
+    default: 50
+    widget: "slider"
+    group: "Envelopes"
+
+  - id: "amp_env_attack"
+    name: "Amp Env Attack"
+    page: "page_b"
+    index: 59
+    type: "integer"
+    range: [0, 127]
+    default: 2
+    widget: "slider"
+    group: "Envelopes"
+
+  - id: "amp_env_release"
+    name: "Amp Env Release"
+    page: "page_b"
+    index: 63
+    type: "integer"
+    range: [0, 127]
+    default: 40
+    widget: "slider"
+    group: "Envelopes"
+
+  # ================= EFFECTS (Page A) =================
+  - id: "delay_send"
+    name: "Delay Send"
+    page: "page_a"
+    index: 113
+    type: "integer"
+    range: [0, 127]
+    default: 40
+    group: "Effects"
+
+  - id: "delay_time"
+    name: "Delay Time"
+    page: "page_a"
+    index: 114
+    type: "integer"
+    range: [0, 127]
+    default: 64
+    group: "Effects"

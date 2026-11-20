@@ -1,0 +1,19 @@
+[package]
+name = "synthquest-cli"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+synthquest-core = { path = "../synthquest-core" }
+synthquest-profile = { path = "../synthquest-profile" }
+synthquest-midi = { path = "../synthquest-midi" }
+synthquest-librarian = { path = "../synthquest-librarian" }
+clap.workspace = true
+colored.workspace = true
+env_logger.workspace = true
+log.workspace = true
+anyhow.workspace = true
+serde_json.workspace = true
+hex.workspace = true

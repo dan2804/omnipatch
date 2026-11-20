@@ -1,0 +1,29 @@
+[workspace]
+members = [
+    "crates/synthquest-core",
+    "crates/synthquest-profile",
+    "crates/synthquest-midi",
+    "crates/synthquest-librarian",
+    "crates/synthquest-cli",
+]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+authors = ["SynthQuest Contributors"]
+license = "MIT OR Apache-2.0"
+
+[workspace.dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_yaml = "0.9"
+serde_json = "1.0"
+thiserror = "1.0"
+anyhow = "1.0"
+log = "0.4"
+env_logger = "0.10"
+midir = { version = "0.9", default-features = false }
+rusqlite = { version = "0.31", features = ["bundled"] }
+clap = { version = "4.4", features = ["derive"] }
+hex = "0.4"
+colored = "2.1"
