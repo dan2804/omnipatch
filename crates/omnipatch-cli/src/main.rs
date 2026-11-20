@@ -140,7 +140,7 @@ fn main() -> Result<()> {
         },
         Commands::Midi { action } => match action {
             MidiCommands::Ports => {
-                let mgr = MidiManager::new("SynthQuest");
+                let mgr = MidiManager::new("OmniPatch");
                 println!("{}", "=== MIDI Input Ports ===".cyan().bold());
                 match mgr.list_input_ports() {
                     Ok(inputs) => {
@@ -180,6 +180,20 @@ fn main() -> Result<()> {
                     ]);
                     println!("Raw SysEx:  {}", msg.to_hex_string().bright_yellow().bold());
                     println!("Parsed Msg: Manufacturer ID: Access Music (00 20 33)");
+                } else if device.to_lowercase().contains("carnaval") {
+                    // E-MU Carnaval: F0 18 0A <dev> 01 <p_lsb> <p_msb> <v_lsb> <v_msb> F7
+                    let pid: u16 = if param_id.starts_with("0x") {
+                        u16::from_str_radix(&param_id[2..], 16).unwrap_or(0x0001)
+                    } else {
+                        param_id.parse().unwrap_or(1)
+                    };
+                    let (p_lsb, p_msb) = omnipatch_core::checksum::emu::encode_14bit(pid);
+                    let (v_lsb, v_msb) = omnipatch_core::checksum::emu::encode_14bit(value as u16);
+                    let msg = SysExMessage::new_unchecked(vec![
+                        0xF0, 0x18, 0x0A, 0x00, 0x01, p_lsb, p_msb, v_lsb, v_msb, 0xF7,
+                    ]);
+                    println!("Raw SysEx:  {}", msg.to_hex_string().bright_yellow().bold());
+                    println!("Parsed Msg: Manufacturer: E-mu Systems (18), Device: Carnaval (0A), Command: Param Edit (01)");
                 } else if device.to_lowercase().contains("audity") || device.to_lowercase().contains("b3") || device.to_lowercase().contains("b-3") || device.to_lowercase().contains("proteus") {
                     let pid: u16 = if param_id.starts_with("0x") {
                         u16::from_str_radix(&param_id[2..], 16).unwrap_or(0x0180)

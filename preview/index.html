@@ -102,7 +102,7 @@
         </div>
         <div>
           <h1 class="text-xl font-light tracking-wide text-white flex items-center gap-2">
-            SYNTH<span class="font-bold text-[#0078d7]">QUEST</span>
+            OMNI<span class="font-bold text-[#0078d7]">PATCH</span>
             <span class="text-xs px-2 py-0.5 bg-zinc-800 text-zinc-400 font-mono">v0.1.0-alpha (Rust)</span>
           </h1>
         </div>
@@ -121,6 +121,12 @@
         </button>
         <button onclick="switchView('audity')" id="nav-audity" class="px-4 py-1.5 transition text-zinc-400 hover:text-white hover:bg-zinc-800/60 border-b-2 border-transparent">
           E-MU Audity 2000
+        </button>
+        <button onclick="switchView('b3')" id="nav-b3" class="px-4 py-1.5 transition text-zinc-400 hover:text-white hover:bg-zinc-800/60 border-b-2 border-transparent">
+          E-MU B-3
+        </button>
+        <button onclick="switchView('carnaval')" id="nav-carnaval" class="px-4 py-1.5 transition text-zinc-400 hover:text-white hover:bg-zinc-800/60 border-b-2 border-transparent">
+          E-MU Carnaval
         </button>
         <button onclick="switchView('librarian')" id="nav-librarian" class="px-4 py-1.5 transition text-zinc-400 hover:text-white hover:bg-zinc-800/60 border-b-2 border-transparent">
           Patch Librarian
@@ -299,6 +305,33 @@
             <div class="flex justify-between text-xs font-mono text-zinc-400">
               <span class="text-amber-400 font-semibold">Jimmy Smith Jazz</span>
               <span class="text-amber-300">CC + SysEx (18 0F)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tile: E-MU Carnaval (Live & Clickable) -->
+        <div onclick="switchView('carnaval')" class="md:col-span-2 bg-[#072023] hover:bg-[#0c2f33] border-l-4 border-[#10b981] p-5 cursor-pointer metro-tile flex flex-col justify-between shadow-lg relative overflow-hidden group">
+          <div class="absolute -right-4 -bottom-4 w-28 h-28 bg-[#10b981]/15 rounded-full blur-xl pointer-events-none"></div>
+          <div>
+            <div class="flex items-center justify-between">
+              <span class="text-xs uppercase tracking-widest text-emerald-400 font-semibold">Latin & World Percussion</span>
+              <span class="flex items-center gap-1.5 bg-black/40 px-2 py-0.5 text-[11px] text-emerald-300">
+                <span class="w-2 h-2 rounded-full bg-emerald-400 led-green"></span> Port 5 (Online)
+              </span>
+            </div>
+            <h3 class="text-2xl font-bold text-white mt-3 tracking-tight flex items-baseline gap-2">
+              E-MU Carnaval <span class="text-xs font-normal text-zinc-400 font-mono">(1997)</span>
+            </h3>
+            <p class="text-zinc-400 text-xs mt-1">32 Voices • BEATS Latin Sequencer • 640 Presets</p>
+          </div>
+          <div class="space-y-2 mt-6">
+            <div class="bg-black/50 p-2 text-xs flex justify-between items-center border border-emerald-950">
+              <span class="text-zinc-400">Preset:</span>
+              <span class="font-mono text-emerald-300 font-bold" id="dashboard-carnaval-patch">000 Hit:Brazzy</span>
+            </div>
+            <div class="flex justify-between text-xs font-mono text-zinc-400">
+              <span class="text-amber-400 font-semibold" id="dashboard-carnaval-beat">Beats: 00 Salsa Caliente</span>
+              <span class="text-emerald-400">SysEx (18 0A)</span>
             </div>
           </div>
         </div>
@@ -1980,6 +2013,367 @@
 
     </section>
 
+
+    <!-- VIEW: E-MU CARNAVAL (BEATS LATIN & WORLD PERCUSSION) -->
+    <section id="view-carnaval" class="hidden space-y-4">
+
+      <!-- Carnaval 1U Chassis Header -->
+      <div class="bg-[#051719] border border-emerald-900/60 rounded-sm p-4 shadow-2xl flex flex-col md:flex-row md:items-center justify-between gap-4">
+        <div class="flex items-center gap-4">
+          <!-- 1U Rack Ears & Logo -->
+          <div class="w-3 h-14 bg-zinc-700 rounded-sm flex flex-col justify-between py-1 px-0.5 border border-zinc-600 shadow-inner">
+            <div class="w-2 h-2 rounded-full bg-black border border-zinc-500"></div>
+            <div class="w-2 h-2 rounded-full bg-black border border-zinc-500"></div>
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="text-xs font-black tracking-widest text-emerald-400 bg-emerald-950 px-2 py-0.5 rounded border border-emerald-800">E-MU SYSTEMS</span>
+              <span class="text-xs text-amber-400 font-mono tracking-wider">MODEL 9085 • 32-VOICE</span>
+            </div>
+            <h2 class="text-3xl font-extrabold tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-teal-200 to-amber-300 mt-1">
+              CARNAVAL
+            </h2>
+            <p class="text-xs text-zinc-400 font-medium">Latin & World Percussion Sound Module • Authentic BEATS Engine</p>
+          </div>
+        </div>
+
+        <!-- Authentic 2x16 Emerald Alphanumeric LCD Display -->
+        <div class="bg-[#021310] border-2 border-emerald-800/80 px-4 py-2.5 rounded shadow-[inset_0_0_12px_rgba(16,185,129,0.3)] font-mono min-w-[340px]">
+          <div class="flex justify-between text-xs text-emerald-300 font-bold tracking-wider">
+            <span id="carnaval-lcd-line1">C01 Vol127 Pan=P  000 Hit:Brazzy</span>
+            <span class="text-amber-400 font-semibold" id="carnaval-lcd-bank">B0:RAM</span>
+          </div>
+          <div class="flex justify-between text-xs text-emerald-400/90 mt-1 border-t border-emerald-900/60 pt-1">
+            <span id="carnaval-lcd-line2">Beats: 00 SalsaCal  124 BPM</span>
+            <span id="carnaval-lcd-xf" class="text-pink-400 font-bold">XF: 50%</span>
+          </div>
+        </div>
+
+        <!-- Master Controls & Audition -->
+        <div class="flex items-center gap-2">
+          <button onclick="auditionCarnaval()" class="bg-gradient-to-r from-emerald-600 to-teal-700 hover:from-emerald-500 hover:to-teal-600 text-white px-4 py-2 text-xs font-bold shadow-md transition flex items-center gap-1.5 rounded">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            Audition Sound
+          </button>
+          <button onclick="toggleCarnavalBeats()" id="btn-carnaval-beats-main" class="bg-amber-600 hover:bg-amber-500 text-black px-4 py-2 text-xs font-black shadow-md transition flex items-center gap-1.5 rounded">
+            <span id="carnaval-beats-play-icon">▶</span>
+            <span id="carnaval-beats-play-text">PLAY BEATS</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- MAIN CARNAVAL WORKSTATION (TWO COLUMN) -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-5">
+
+        <!-- LEFT COLUMN: BEATS RHYTHMIC ENGINE CONSOLE (7 COLS) -->
+        <div class="lg:col-span-7 space-y-4">
+
+          <!-- BEATS ENGINE WORKSTATION -->
+          <div class="bg-[#061c1f] border border-emerald-900/50 rounded-sm p-4 shadow-xl">
+            <div class="flex items-center justify-between border-b border-emerald-900/60 pb-3">
+              <div class="flex items-center gap-2">
+                <span class="w-3 h-3 rounded-full bg-pink-500 shadow-[0_0_8px_#ec4899]"></span>
+                <h3 class="text-sm font-bold tracking-wide uppercase text-pink-300">BEATS™ Interactive Drum Machine</h3>
+              </div>
+              <div class="flex items-center gap-3 text-xs">
+                <span class="text-zinc-400">MIDI Clock:</span>
+                <span class="bg-black/60 px-2 py-0.5 text-emerald-400 font-mono rounded border border-emerald-950 font-bold">INTERNAL (F8/FA/FC)</span>
+              </div>
+            </div>
+
+            <!-- Transport & Pattern Selector Bar -->
+            <div class="mt-4 grid grid-cols-1 sm:grid-cols-12 gap-3 items-center bg-black/40 p-3 rounded border border-emerald-950">
+              <div class="sm:col-span-7">
+                <label class="text-[11px] uppercase tracking-wider text-emerald-400 font-semibold block mb-1">Rhythmic Pattern Style (0-99)</label>
+                <select id="carnaval-beat-select" onchange="changeCarnavalBeatPattern(this.value)" class="w-full bg-[#031517] text-white border border-emerald-800 text-xs px-2.5 py-1.5 font-mono focus:outline-none focus:border-emerald-400 rounded">
+                  <option value="0">00: Salsa Caliente (124 BPM) - Puerto Rico / Cuba</option>
+                  <option value="1">01: Mambo Loco (132 BPM) - Palladium Club Style</option>
+                  <option value="2">02: Merengue Fuego (150 BPM) - Dominican Guira Fast</option>
+                  <option value="3">03: Samba Batucada Rio (128 BPM) - Carnival Parade</option>
+                  <option value="4">04: Cumbia Tropical (96 BPM) - Colombian Accordion Feel</option>
+                  <option value="5">05: Bossa Nova Sunset (110 BPM) - Ipanema Smooth</option>
+                  <option value="6">06: Afro-Cuban Guaguanco (118 BPM) - 6/8 Rumba Clave</option>
+                  <option value="7">07: Timba Moderna (105 BPM) - Havana Street Funk</option>
+                  <option value="8">08: Cha Cha Cha Del Mar (112 BPM) - Classic Ballroom</option>
+                  <option value="9">09: Reggaeton Clave Habanera (94 BPM) - Latin Urban</option>
+                </select>
+              </div>
+
+              <!-- BPM Tempo & Tap -->
+              <div class="sm:col-span-5 flex items-center gap-2">
+                <div class="flex-1">
+                  <div class="flex justify-between text-[11px] text-zinc-400 mb-0.5 font-mono">
+                    <span>TEMPO</span>
+                    <span id="carnaval-bpm-val" class="text-amber-300 font-bold">124 BPM</span>
+                  </div>
+                  <input type="range" id="carnaval-bpm-slider" min="40" max="240" value="124" oninput="updateCarnavalBpm(this.value)" class="w-full h-1.5 bg-zinc-800 rounded accent-amber-500 cursor-pointer">
+                </div>
+                <button onclick="tapCarnavalTempo()" class="bg-zinc-800 hover:bg-zinc-700 text-amber-300 border border-zinc-700 px-2 py-1.5 text-[10px] font-bold rounded mt-3">
+                  TAP
+                </button>
+              </div>
+            </div>
+
+            <!-- LATIN MULTI-TRACK MUTE / SOLO MATRIX (8 INSTRUMENTS) -->
+            <div class="mt-4">
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-xs uppercase tracking-wider text-emerald-300 font-semibold">Percussion Track Enable / Mute Matrix</span>
+                <span class="text-[10px] text-zinc-400 font-mono">Click pad to Mute/Unmute in real-time</span>
+              </div>
+              <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
+                <!-- Track 1: Congas -->
+                <div id="pad-track-0" onclick="toggleCarnavalTrack(0)" class="bg-[#0b282c] hover:bg-[#10363b] border-2 border-emerald-600/80 p-2.5 rounded cursor-pointer transition select-none flex items-center justify-between">
+                  <div>
+                    <div class="text-[10px] text-emerald-400 font-bold">TRK 1</div>
+                    <div class="text-xs text-white font-semibold">Congas</div>
+                    <div class="text-[9px] text-zinc-400">Slap / Tumbao</div>
+                  </div>
+                  <span id="led-track-0" class="w-3 h-3 rounded-full bg-emerald-400 led-green"></span>
+                </div>
+
+                <!-- Track 2: Bongos -->
+                <div id="pad-track-1" onclick="toggleCarnavalTrack(1)" class="bg-[#0b282c] hover:bg-[#10363b] border-2 border-emerald-600/80 p-2.5 rounded cursor-pointer transition select-none flex items-center justify-between">
+                  <div>
+                    <div class="text-[10px] text-emerald-400 font-bold">TRK 2</div>
+                    <div class="text-xs text-white font-semibold">Bongos</div>
+                    <div class="text-[9px] text-zinc-400">Martillo Roll</div>
+                  </div>
+                  <span id="led-track-1" class="w-3 h-3 rounded-full bg-emerald-400 led-green"></span>
+                </div>
+
+                <!-- Track 3: Timbales -->
+                <div id="pad-track-2" onclick="toggleCarnavalTrack(2)" class="bg-[#0b282c] hover:bg-[#10363b] border-2 border-emerald-600/80 p-2.5 rounded cursor-pointer transition select-none flex items-center justify-between">
+                  <div>
+                    <div class="text-[10px] text-emerald-400 font-bold">TRK 3</div>
+                    <div class="text-xs text-white font-semibold">Timbales</div>
+                    <div class="text-[9px] text-zinc-400">Cascara / Paila</div>
+                  </div>
+                  <span id="led-track-2" class="w-3 h-3 rounded-full bg-emerald-400 led-green"></span>
+                </div>
+
+                <!-- Track 4: Guiro/Maracas -->
+                <div id="pad-track-3" onclick="toggleCarnavalTrack(3)" class="bg-[#0b282c] hover:bg-[#10363b] border-2 border-emerald-600/80 p-2.5 rounded cursor-pointer transition select-none flex items-center justify-between">
+                  <div>
+                    <div class="text-[10px] text-emerald-400 font-bold">TRK 4</div>
+                    <div class="text-xs text-white font-semibold">Güiro & Shaker</div>
+                    <div class="text-[9px] text-zinc-400">Scrape / Pulse</div>
+                  </div>
+                  <span id="led-track-3" class="w-3 h-3 rounded-full bg-emerald-400 led-green"></span>
+                </div>
+
+                <!-- Track 5: Cuica -->
+                <div id="pad-track-4" onclick="toggleCarnavalTrack(4)" class="bg-[#0b282c] hover:bg-[#10363b] border-2 border-emerald-600/80 p-2.5 rounded cursor-pointer transition select-none flex items-center justify-between">
+                  <div>
+                    <div class="text-[10px] text-pink-400 font-bold">TRK 5</div>
+                    <div class="text-xs text-white font-semibold">Cuíca</div>
+                    <div class="text-[9px] text-zinc-400">Brazilian Squeak</div>
+                  </div>
+                  <span id="led-track-4" class="w-3 h-3 rounded-full bg-emerald-400 led-green"></span>
+                </div>
+
+                <!-- Track 6: Agogo Bells -->
+                <div id="pad-track-5" onclick="toggleCarnavalTrack(5)" class="bg-[#0b282c] hover:bg-[#10363b] border-2 border-emerald-600/80 p-2.5 rounded cursor-pointer transition select-none flex items-center justify-between">
+                  <div>
+                    <div class="text-[10px] text-amber-400 font-bold">TRK 6</div>
+                    <div class="text-xs text-white font-semibold">Agogô Bells</div>
+                    <div class="text-[9px] text-zinc-400">High / Low Bell</div>
+                  </div>
+                  <span id="led-track-5" class="w-3 h-3 rounded-full bg-emerald-400 led-green"></span>
+                </div>
+
+                <!-- Track 7: Surdo / Caixa -->
+                <div id="pad-track-6" onclick="toggleCarnavalTrack(6)" class="bg-[#0b282c] hover:bg-[#10363b] border-2 border-emerald-600/80 p-2.5 rounded cursor-pointer transition select-none flex items-center justify-between">
+                  <div>
+                    <div class="text-[10px] text-teal-400 font-bold">TRK 7</div>
+                    <div class="text-xs text-white font-semibold">Surdo Bass</div>
+                    <div class="text-[9px] text-zinc-400">Low Sub Impact</div>
+                  </div>
+                  <span id="led-track-6" class="w-3 h-3 rounded-full bg-emerald-400 led-green"></span>
+                </div>
+
+                <!-- Track 8: Pandeiro / Clave -->
+                <div id="pad-track-7" onclick="toggleCarnavalTrack(7)" class="bg-[#0b282c] hover:bg-[#10363b] border-2 border-emerald-600/80 p-2.5 rounded cursor-pointer transition select-none flex items-center justify-between">
+                  <div>
+                    <div class="text-[10px] text-emerald-400 font-bold">TRK 8</div>
+                    <div class="text-xs text-white font-semibold">Clave / Pandeiro</div>
+                    <div class="text-[9px] text-zinc-400">Son Clave 3:2</div>
+                  </div>
+                  <span id="led-track-7" class="w-3 h-3 rounded-full bg-emerald-400 led-green"></span>
+                </div>
+              </div>
+            </div>
+
+            <!-- X-FACTOR GROOVE MORPHER & TRANSPOSITION -->
+            <div class="mt-4 p-3 bg-black/40 rounded border border-emerald-950 space-y-3">
+              <div class="flex items-center justify-between">
+                <div>
+                  <span class="text-xs font-bold text-pink-400 uppercase tracking-wider">X-Factor™ Polyrhythmic Crossfade</span>
+                  <p class="text-[10px] text-zinc-400">Morphs continuous polyrhythm density & secondary Afro-Cuban swing feel</p>
+                </div>
+                <span id="carnaval-val-xf" class="text-sm font-mono font-bold text-pink-300">50%</span>
+              </div>
+              <input type="range" id="slider-carnaval-xf" min="0" max="100" value="50" oninput="updateCarnavalXFactor(this.value)" class="w-full h-2 bg-zinc-800 rounded accent-pink-500 cursor-pointer">
+              <div class="flex justify-between text-[10px] font-mono text-zinc-500">
+                <span>0% (Standard Groove)</span>
+                <span>50% (Balanced Crossfade)</span>
+                <span>100% (Dense Complex Swing)</span>
+              </div>
+            </div>
+
+            <!-- Beats Key Transposition & Live Visual Metronome -->
+            <div class="mt-3 flex items-center justify-between bg-[#041618] px-3 py-2 rounded border border-emerald-950">
+              <div class="flex items-center gap-3">
+                <span class="text-xs text-zinc-400 font-semibold">Beats Key Transposition:</span>
+                <button onclick="stepCarnavalKey(-1)" class="w-6 h-6 bg-zinc-800 hover:bg-zinc-700 text-white rounded text-xs font-bold">-</button>
+                <span id="carnaval-key-trans" class="text-xs font-mono font-bold text-amber-300 px-1">0 ST</span>
+                <button onclick="stepCarnavalKey(1)" class="w-6 h-6 bg-zinc-800 hover:bg-zinc-700 text-white rounded text-xs font-bold">+</button>
+              </div>
+
+              <!-- Animated Tempo Metronome LED -->
+              <div class="flex items-center gap-2">
+                <span class="text-[11px] text-zinc-400 font-mono">BEAT PULSE:</span>
+                <div id="carnaval-pulse-led" class="w-3.5 h-3.5 rounded-full bg-emerald-950 border border-emerald-600 transition-all duration-75"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- DUAL-LAYER SOUND & DYNAMIC FILTER MODULE -->
+          <div class="bg-[#061c1f] border border-emerald-900/50 rounded-sm p-4 shadow-xl space-y-4">
+            <div class="flex items-center justify-between border-b border-emerald-900/60 pb-2">
+              <h3 class="text-xs font-bold tracking-wider uppercase text-emerald-400">Dual-Layer Dynamic Sound Shaping</h3>
+              <span class="text-[10px] text-zinc-400 font-mono">32-Voice Polyphony / 8-Pole Filters</span>
+            </div>
+
+            <!-- Layer 1 Controls -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 bg-black/30 p-2.5 rounded border border-emerald-950">
+              <div>
+                <div class="flex justify-between text-[10px] text-zinc-400 font-mono mb-1">
+                  <span>PRI CUTOFF</span>
+                  <span id="val-c-cut1" class="text-emerald-300 font-bold">220</span>
+                </div>
+                <input type="range" min="0" max="255" value="220" oninput="updateCarnavalParam(0x0014, this.value, 'val-c-cut1', 'Primary Cutoff')" class="w-full h-1.5 bg-zinc-800 rounded accent-emerald-500 cursor-pointer">
+              </div>
+
+              <div>
+                <div class="flex justify-between text-[10px] text-zinc-400 font-mono mb-1">
+                  <span>PRI RESO (Q)</span>
+                  <span id="val-c-res1" class="text-emerald-300 font-bold">04</span>
+                </div>
+                <input type="range" min="0" max="15" value="4" oninput="updateCarnavalParam(0x0015, this.value, 'val-c-res1', 'Primary Resonance')" class="w-full h-1.5 bg-zinc-800 rounded accent-emerald-500 cursor-pointer">
+              </div>
+
+              <div>
+                <div class="flex justify-between text-[10px] text-zinc-400 font-mono mb-1">
+                  <span>LAYER TUNING</span>
+                  <span id="val-c-tune" class="text-amber-300 font-bold">0 ST</span>
+                </div>
+                <input type="range" min="-36" max="36" value="0" oninput="updateCarnavalTune(this.value)" class="w-full h-1.5 bg-zinc-800 rounded accent-amber-500 cursor-pointer">
+              </div>
+            </div>
+
+            <!-- Layer 2 & Submix Output Routing -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 bg-black/30 p-2.5 rounded border border-emerald-950">
+              <div>
+                <div class="flex justify-between text-[10px] text-zinc-400 font-mono mb-1">
+                  <span>SEC CUTOFF</span>
+                  <span id="val-c-cut2" class="text-teal-300 font-bold">185</span>
+                </div>
+                <input type="range" min="0" max="255" value="185" oninput="updateCarnavalParam(0x0017, this.value, 'val-c-cut2', 'Secondary Cutoff')" class="w-full h-1.5 bg-zinc-800 rounded accent-teal-500 cursor-pointer">
+              </div>
+
+              <div>
+                <div class="flex justify-between text-[10px] text-zinc-400 font-mono mb-1">
+                  <span>LAYER CROSSFADE</span>
+                  <span id="val-c-mix" class="text-pink-300 font-bold">64</span>
+                </div>
+                <input type="range" min="0" max="127" value="64" oninput="updateCarnavalParam(0x0019, this.value, 'val-c-mix', 'Sound Layer Mix')" class="w-full h-1.5 bg-zinc-800 rounded accent-pink-500 cursor-pointer">
+              </div>
+
+              <div>
+                <div class="text-[10px] text-zinc-400 font-mono mb-1">SUBMIX OUTPUT</div>
+                <select onchange="updateCarnavalSubmix(this.value)" class="w-full bg-[#031517] text-white border border-emerald-900 text-xs px-2 py-1 font-mono rounded">
+                  <option value="0">Main Left/Right Out</option>
+                  <option value="1">Submix 1 (Aux Send)</option>
+                  <option value="2">Submix 2 (FX Loop)</option>
+                </select>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- RIGHT COLUMN: 640 PRESET VAULT & LIVE SYSEX MONITOR (5 COLS) -->
+        <div class="lg:col-span-5 space-y-4">
+
+          <!-- PRESET BROWSER -->
+          <div class="bg-[#061c1f] border border-emerald-900/50 rounded-sm p-4 shadow-xl">
+            <div class="flex items-center justify-between border-b border-emerald-900/60 pb-2">
+              <div class="flex items-center gap-2">
+                <span class="text-xs uppercase tracking-wider text-emerald-400 font-semibold">Preset Vault (640 Presets)</span>
+                <span class="text-[10px] bg-emerald-950 text-emerald-300 font-mono px-1.5 py-0.5 rounded border border-emerald-800">5 Banks</span>
+              </div>
+              <span class="text-xs text-zinc-400 font-mono" id="carnaval-bank-summary">Bank 0: 128</span>
+            </div>
+
+            <!-- Bank Selector Dropdown -->
+            <div class="mt-3">
+              <label class="text-[11px] text-zinc-400 uppercase tracking-wider font-semibold block mb-1">Bank Selection</label>
+              <select id="carnaval-bank-select" onchange="changeCarnavalBank(this.value)" class="w-full bg-[#031517] text-emerald-300 border border-emerald-800 text-xs px-3 py-2 font-mono focus:outline-none focus:border-emerald-400 rounded">
+                <option value="Bank 0 (RAM - Traditional)">Bank 0: RAM (Traditional Latin & World Percussion)</option>
+                <option value="Bank 1 (RAM - Traditional)">Bank 1: RAM (Traditional Latin Ensembles & Solos)</option>
+                <option value="Bank 2 (ROM - Synthesizer)">Bank 2: ROM (Latin Synth Leads, Basses, Horns & Keys)</option>
+                <option value="Bank 3 (ROM - Beats)">Bank 3: ROM (BEATS Pattern Construction Sets)</option>
+                <option value="Bank 4 (ROM - Beats, Demo, Links)">Bank 4: ROM (Beats, Factory Demos & Sound Links)</option>
+              </select>
+            </div>
+
+            <!-- Search Filter -->
+            <div class="mt-3">
+              <input type="text" id="carnaval-preset-search" placeholder="Filter 128 presets in this bank..." oninput="filterCarnavalPresets(this.value)" class="w-full bg-black/60 border border-emerald-900 text-white text-xs px-3 py-1.5 rounded font-mono placeholder:text-zinc-600 focus:outline-none focus:border-emerald-500">
+            </div>
+
+            <!-- Preset List Selector -->
+            <div class="mt-2">
+              <select id="carnaval-preset-select" size="10" onchange="selectCarnavalPreset(parseInt(this.value))" class="w-full bg-black/60 border border-emerald-900/80 text-zinc-200 text-xs p-1 font-mono rounded h-48 focus:outline-none focus:border-emerald-500">
+                <!-- Dynamically populated -->
+              </select>
+            </div>
+
+            <!-- Preset Info Strip -->
+            <div class="mt-3 p-2 bg-black/50 rounded border border-emerald-950 text-xs flex justify-between items-center font-mono">
+              <span class="text-zinc-400">Active Patch:</span>
+              <span id="carnaval-active-patch-name" class="text-amber-300 font-bold">000: Hit:Brazzy</span>
+            </div>
+          </div>
+
+          <!-- REAL-TIME SYSEX STREAM INSPECTOR -->
+          <div class="bg-[#051719] border border-emerald-900/50 rounded-sm p-4 shadow-xl">
+            <div class="flex items-center justify-between border-b border-emerald-900/60 pb-2">
+              <span class="text-xs uppercase tracking-wider text-emerald-400 font-semibold">Live SysEx Parameter Stream</span>
+              <span class="text-[10px] text-zinc-400 font-mono">E-mu Carnaval (0x18 0x0A)</span>
+            </div>
+            <div class="mt-3 space-y-2 text-xs font-mono">
+              <div class="bg-black/70 p-2.5 rounded border border-emerald-950 break-all text-amber-300 font-bold" id="carnaval-sysex-hex">
+                F0 18 0A 00 01 0B 00 00 00 F7
+              </div>
+              <div class="text-zinc-400 italic text-[11px]" id="carnaval-sysex-expl">
+                [Ready - E-mu Carnaval Model 9085 Parameter Stream]
+              </div>
+              <div class="flex justify-between text-[10px] text-zinc-500 pt-1 border-t border-emerald-950">
+                <span>Direct Command: 0x01 (Param Edit)</span>
+                <span>14-Bit LSB/MSB Encoding</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
     <!-- VIEW 3: LIBRARIAN & BANK MANAGER -->
     <section id="view-librarian" class="hidden space-y-4">
       <div class="flex items-baseline justify-between border-b border-zinc-800 pb-3">
@@ -2152,7 +2546,7 @@
 
     // View Switching
     function switchView(viewName) {
-      ['dashboard', 'editor', 'ax60', 'audity', 'librarian', 'midi'].forEach(v => {
+      ['dashboard', 'editor', 'ax60', 'audity', 'b3', 'carnaval', 'librarian', 'midi'].forEach(v => {
         const el = document.getElementById('view-' + v);
         const nav = document.getElementById('nav-' + v);
         if (el && nav) {
@@ -3253,6 +3647,405 @@
       if (hexDisplay && explDisplay) {
         hexDisplay.innerText = '90 3C 64  90 40 64  90 43 64 (C-E-G Tonewheel Chord)';
         explDisplay.innerText = '[Audition C Major Chord -> Leslie Rotor Spinning @ ' + Math.round(currentHornRpm) + ' RPM]';
+      }
+    }
+
+    
+    // ================= E-MU CARNAVAL LOGIC & PRESETS =================
+    const carnavalPresetsMap = {"Bank 0 (RAM - Traditional)": ["Hit:Brazzy", "Kit:Brazil!", "Brs:LaHits", "Sax: Aqui,Oh", "Gtr:2LoNylon", "Sfx:Timbiela", "Kit:AllTraps", "Vox:Brazilia", "Flt:Flauta", "Acc:TubaDuo", "Bas:Baby B", "Brs: & Flute", "Prc:DeepDan", "Lfo:Panituar", "Brs:TrSwell", "Pad:PanSilks", "Pno:Onyx", "Syn:Ying", "Kit:Klango", "Vox:Cutz 1", "Org:Orgnzola", "Kit:Salsa", "Pad:HiaSlow", "Cmp:Sawcomp", "Flt:DreamPan", "Acc:w/Alto", "Acc:Ranchero", "Acc:Octavia", "Acc:Squeeze1", "Acc:w/Bari", "Acc:Keynoise", "Acc:Squeeze2", "Bas:StandUp", "Bas:Chapstik", "Bas:Acustic1", "Bas:DampBass", "Bas:Lele", "Bas:DAcusta", "Bas:Man", "Bas:ACME", "Bas:Slappy", "Bas:DampBaby", "Bas:Changa", "Bas:Fendarr", "Bas:Duo", "Bas:TechSlap", "Bas:Chugo", "Bas:Bandit", "Brs:DosBones", "Brs:Doppel", "Brs: O Audaz", "Brs:BigBlow", "Brs:Tejano", "Brs: Unison", "Brs:Trompa", "Brs:2Trumps", "Brs:SofTrump", "Brs:Tuba", "Brs:HornSect", "Brs:Trumpet", "Brs:Brazzy", "Brs:TrumpOn", "Brs:Filta", "Brs:SumHorns", "Brs:Brite", "Brs:Bone", "Brs:FooSynth", "Brs:El Cheez", "Brs:BiteBraz", "Flt:Fluss", "Flt:w/TRbone", "Flt:DosToots", "Flt:PanFlute", "Flt:TubaFlte", "Flt:TrmpFlte", "Flt:Aire", "Flt:Picollio", "Flt:SynWind", "Flt:Flute.BC", "Flt:PanFl.BC", "Gtr:AcSteel", "Gtr:Guitaron", "Gtr:StrtAlto", "Gtr:Nylon", "Gtr:QuicaPik", "Gtr:Ay Tata", "Gtr:Rusty", "Gtr:BigMexi", "Gtr:Acustica", "Gtr:BellGtr", "Gtr:Stratish", "Gtr:Desperao", "Gtr:Nailon", "Gtr:Manditar", "Gtr:StlVioln", "Gtr:Gringo", "Org:Delico", "Org:Acido", "Org:Cheeze 1", "Org:Key", "Org:Voco", "Org:Cheeze 2", "Org:Boxy", "Org:HammAnd1", "Org:BThreeo", "Org:Lock", "Org:HammAnd2", "Org:anoBar", "Org:Simple", "Org:Stranger", "Org:Weakner", "Org:Pedal", "Org:Perkon 1", "Org:Perkon 2", "Org:Perkon 3", "Org:Perkon 4", "Org:Organi 1", "Org:Organi 2", "Org:Organi 3", "Org:Organi 4", "Pno:Grande", "Pno:TecColor", "Pno:Regular", "Pno:LoTack", "Pno:DeeTune", "Pno:Jango", "Pno:Balada", "Pno:Pno&Strt"], "Bank 1 (RAM - Traditional)": ["Sax:DosTenor", "Sax:Tenorist", "Sax:MorphIt!", "Sax:Alto", "Sax:Barinort", "Sax:HotHorns", "Sax:Baritone", "Sax:StacBari", "Sax:Stacatto", "Sax:TnorTuba", "Sax:MariDuo", "Sax:AltoTrmp", "Sax:Duality", "Sax:Pno&Bari", "Sax:BariTrmp", "Sax:Tenor", "Sax:Barit.BC", "Sax:Tenor.BC", "Sax:Alto .BC", "Spl:Bs&Organ", "Spl:Tuba&Acc", "Spl:Baby&Acc", "Spl:Bs&Piano", "Spl:DuoAcust", "Spl:Bs&Orgn2", "Spl:Tba*Acc", "Spl:Flamenco", "Spl:Lounge", "Spl:Bass&Flu", "Str:MariaVln", "Str:MariChez", "Str:Arcos", "Str:Section", "Str:Fluoro", "Str:Slide", "Str:Futurist", "Str:Smite", "Str:Secti", "Str:Synthpad", "Str:Bowed", "Str:Cynch", "Str:Pesov", "Str:Viol", "Str:SloStrng", "Str:Sombrero", "Str:HiRosin", "Str:Violin", "Str:Celloish", "Hit:Revers", "Hit:Metalika", "Hit:BrsHtz", "Hit:MetalFX", "Hit:Cutz 2", "Hit:Vocal 1", "Hit:Vocal 2", "Hit:Metales", "Hit:VoxBrass", "Hit:Agogohit", "Hit:Bvox", "Hit:BrsFx", "Hit:Trumphet", "Hit:Wistleit", "Hit:Brazolat", "Hit:Symbola", "Kat:DK10 -1-", "Kat:DK10 -2-", "Kat:DK10 -3-", "Kat:DK10 -4-", "Kat:DK10 -5-", "Kat:DK10 -6-", "Kat:DK10 -7-", "Kat:DK10 -8-", "Kat:DK10 -9-", "Kat:DK10 -0-", "Kat:#4Conga", "Kat:#4Timbal", "Kat:Techno-1", "Kat:Techno-2", "Kat:MacaTek", "Kat:Weirdo-1", "Kat:Weirdo-2", "Kat:Klango-1", "Kat:Klango-2", "Kat:Klango-3", "Kat:Groove-1", "Kat:Groove-2", "Kat:Groove-3", "Kat:Groove-4", "Kat:Groove-5", "Kat:Groove-6", "Kat:Groove-7", "Kat:Groove-8", "Kat:Groove-9", "Kat: G-MIDI", "Kat:Banda", "Kat:Tejano", "Prc:DeepDan", "Prc:Amazonik", "Prc:Tamivers", "Prc:MetaSkin", "Prf:Congas", "Prf:Bongos", "Prf:Timbales", "Prf:Guiro", "Prf:Shekere", "Prf:Tambora", "Prf:Agogos", "Prf:Tamborim", "Prf:Surdo", "Prf:Pandeiro", "Prf:Repique", "Prf:Ganza", "Vox:Sabor!", "Vox:VoxTrump", "Vox:Mambo!", "Vox:2Throats", "Vox:Marina", "Vox:WRRRRRRR", "Vox:Pitchit", "Vox: Fx", "Vox: Fx2", "Vox:BreathPd", "Vox:Roars", "Vox:Vayas", "Vox:Yohos", "Vox:LocaSi", "Vox:Larrd", "Vox:Carnival"], "Bank 2 (ROM - Synthesizer)": ["Bas:Roboto", "Bas:SynSq", "Bas:SynMono1", "Bas:SynMono2", "Bas:SynSub", "Bas:Synbass4", "Bas:Synbass5", "Bas:Synbass6", "Bas:Carnie", "Bas:Triangle", "Bas:Subbass", "Cmp:Orinoco", "Cmp:Steelo", "Cmp:Vatacomp", "Cmp:Straton", "Cmp:Brazz", "Cmp:Octal", "Cmp:Melocomp", "Cmp:Korusal", "Cmp:Orano", "Cmp:Sawphaze", "Cmp:Zquence", "Cmp:Voxslap", "Cmp:Halton", "Cmp:Piynanoz", "Cmp:Orgaclav", "Cmp:Clavicle", "Cmp:K\u2019sKorn", "Cmp:SqCompz", "Cmp:Squared", "Cmp:ShStop", "Cmp:EePee", "Led:Nuevolea", "Led:Chezlead", "Led:Minisaw", "Led:MONOBoy", "Led:Analogo", "Led:70s", "Led:SqUp", "Led:Blead", "Led:Sinter", "Led:Synsax 1", "Led:Synsax 2", "Led:HolloMON", "Led:Squarey", "Lfo:Tekacc", "Lfo:Silva", "Lfo:TransAmb", "Lfo:Cuartas", "Lfo:Wobbly", "Lfo:Away", "Lfo:HiSteps", "Lfo:Syntonal", "Lfo:SampleHd", "Lfo:Fuelle", "Lfo:Gate 7", "Lfo:Trans 1", "Lfo:3 vs. 2", "Lfo:BubPeep", "Lfo:PanAccrd", "Lfo:BubTrub", "Lfo:BatFlute", "Lfo:Ambient1", "Lfo:HaBrass", "Pad:ObeeWan", "Pad:EroKiss", "Pad:NycBraz", "Pad:Aerialis", "Pad:Outer", "Pad:Phazzed", "Pad:Chorasa", "Pad:Sierra", "Pad:Simple", "Pad:Stringli", "Pad:Panash", "Pad:Batpad", "Pad:Wiggli", "Pad:SoftShk", "Pad:SloGothk", "Pad:Fizzla", "Sfx:P sweep", "Sfx:SpinDocs", "Sfx:Wasptalk", "Sfx:TekHit", "Sfx:Slipacrd", "Sfx:Minuitia", "Sfx:Chaacaca", "Sfx:Guiroed", "Sfx:Froggs", "Sfx:Euforia", "Sfx:Jean Luc", "Sfx:SqwikBnk", "Sfx:Blades", "Sfx:XL-5", "Sfx:911", "Sfx:Cyborg", "Syn:Gregoria", "Syn:Phasoid", "Syn:HiSynth", "Syn:FiltrBit", "Syn:Smoothy", "Syn:Mekano", "Syn:Indie", "Syn:Squara", "Syn:Megacity", "Syn:El Warpo", "Syn:Popular", "Syn:Dictoman", "Syn:OnOne", "Syn:Chunky", "Syn:Angel", "Syn:Macarela", "Syn:Toota", "Syn:Caliente", "Syn:Choosey", "Syn:Minilike", "Syn:DeeDish", "Syn:Tango", "Syn:Hardcore", "Syn:DropBass", "Syn:Welto", "Syn:Espacio", "Syn:Donde", "Syn:Pantan", "Syn:Zingo", "Syn:Tricorus", "Syn:Pulsend", "Syn:Padova"], "Bank 3 (ROM - Beats)": ["BT:Eurotic", "BT:Eurotic *", "BT:Fiesta!", "BT:Fiesta *", "BT:Brazilia", "BT:Brazilia*", "BT:Kewl It", "BT:Kewl It *", "BT:LaPaz!", "BT:LaPaz! *", "BT:LatinLuv", "BT:LatinLuv*", "BT:MundoLoco", "BT:MundoLoc*", "BT:Mach2", "BT:Mach2 *", "BT:Mach3", "BT:Mach3 *", "BT:Pa Fuera", "BT:Pa Fuera", "BT:Swing It!", "BT:Swing It*", "BT:Raro", "BT:Raro *", "BT:Carnaval", "BT:Rio", "BT:Batuque", "BT:AllBraz *", "BT:Domingo", "BT:Domingo *", "BT:Fogo", "BT:Fogo *", "BT:Coolio", "BT:Coolio *", "BT:Bossa", "BT:Bossa *", "BT:Cascara32", "BT:Cascara *", "BT:Zumbao", "BT:Zumbao *", "BT:Gitano", "BT:Gitano *", "BT:Duende", "BT:Duende *", "BT:Maracuia", "BT:Maracuia*", "BT:Muevelo", "BT:Muevelo *", "BT:Tequila", "BT:Tequila *", "BT:U-Bend", "BT:U-Bend *", "BT:SupaGruv", "BT:SupaGruv*", "BT:Source", "BT:Source *", "BT:Loaded", "BT:Loaded *", "BT:Force", "BT:Force *", "BT:Bhangra", "BT:Bhangra *", "BT:Bhangra2", "BT:Bhangra2*", "BT:Bomba", "BT:Bomba *", "BT:Guaracha", "BT:Guaracha*", "BT:PaloViejo", "BT:AllMrnge*", "BT:Funkonga", "BT:Funkonga*", "BT:Afro", "BT:Afro *", "BT:Mzambique", "BT:Mozambiq*", "BT:MontUno", "BT:MontUno *", "BT:MontDos", "BT:Batucada*", "BT:Plena", "BT:Plena *", "BT:NG Brkdwn", "BT:NG Brkdn*", "BT:Cuidao", "BT:Cuidao *", "BT:Van-ish", "BT:Van-ish", "BT:Mambo 2:3", "BT:Mambo2:3*", "BT:SonTuno", "BT:SM Bldup", "BT:Campaneo", "BT:AllSalsa*", "BT:Tres Dos", "BT:Arriba", "BT:Mas Alla", "BT:Alli Esta", "BT:Merengazo", "BT:AllMrnge*", "BT:FnkyBanda", "BT:SpdyBnda*", "BT:SpdBanda2", "BT:TuBanda", "BT:TuBnda *", "BT:BndaMania", "BT:BndaMnia*", "BT:Cumbia", "BT:Cumbia *", "BT:Cumbiente", "BT:Romantica", "BT:Romantic*", "BT:RumBanda", "BT:RumBanda*", "BT:ReBanda", "BT:Funkabkay", "BT:Funkabky*", "BT:PopBolero", "BT:PopBoler*", "BT:Tejoropo", "BT:Tejoropo*", "BT:Tejano", "BT:Tejano *", "BT:Techno2 *", "BT:Salsa 5 *", "BT:Salsa 1 *", "Brk:Mrengue1", "BT:Chato"], "Bank 4 (ROM - Beats, Demo, Links)": ["BT:Chato *", "BT:Chico", "BT:Chico*", "BT:Ayaee!", "BT:Ayaee! *", "BT:Jefe", "BT:Jefe *", "BT:Alreves", "BT:Alreves *", "BT:Slo Mo", "BT:Slo Mo *", "BT:Afincao 1", "BT:Afincao1*", "BT:Afincao 2", "BT:Afincao2*", "BT:Prefunca", "BT:Prefunc*", "BT:Leon 1*", "BT:Leon 2*", "BT:Leon 3*", "BT:SkiiMond", "BT:SkiiMon*", "BT:SkiiComp", "BT:SkiiCmp*", "BT:Sabroso", "BT:Sabroso*", "BT:Barrio", "BT:Barrio *", "Brk:SalsaInt", "BT:Cascara32", "BT:Dinamita", "BT:Dinamita*", "Brk:>Bells32", "BT:Bells 3:2", "Brk:Bells32a", "BT:AllMrnge*", "Brk:Mrengue2", "Brk:Mrengue3", "Brk:Mrengue4", "BT:Capoeira*", "BT:AllSalsa*", "Brk:3:2>2:3", "BT:Bells 23a", "Brk:Bells23a", "Brk:Bells23b", "BT:Bells 23b", "Brk:Bells23c", "Brk:SalsaTag", "Dmo:BrsFx", "Dmo:Trumpet", "Dmo:SofTrump", "Dmo:Duality", "Dmo:Guiro", "Dmo:Timbales", "Dmo:AllTraps", "Dmo:DK10 -1-", "Dmo:BrsHtz", "Dmo:Shekere", "Dmo:Congas", "Dmo:Fendarr", "Dmo:Stratish", "Dmo:Tejano", "Dmo:BigMexi", "Dmo:Nylon", "Dmo:Euro", "Dmo:Truer", "Dmo:ordiana", "Dmo:SaxButtr", "Dmo:Acustic1", "Dmo:PianoReg", "Dmo:DosBones", "Dmo:Flutuss", "Dmo:Baritone", "Dmo:Tenor.Bc", "Dmo:MetalFX", "Dmo:Vocal 1", "Dmo:Ay Tata", "Dmo:Nailon", "Dmo:Violin", "Dmo:TejanoBr", "Lnk:VoxFX", "Lnk:OrgKey", "Lnk:BairnBs", "Lnk:BanditBs", "Lnk:SqUp", "Lnk:Clavicle", "Lnk:TeknoBs", "Lnk:BabyBass", "Lnk:SalsaPno", "Lnk:Changa", "Lnk:DampBass", "Lnk:Muev", "Dmo:Cheeze 2", "Dmo:Cutz 2", "Lnk:CompDamp", "Lnk:Slappy", "Lnk:Brazilia", "Lnk:StrumGtr", "Lnk:Ranchera", "Lnk:DampBass", "Lnk:BandaBon", "Lnk:2Trumps", "Lnk:Tuba", "Lnk:Shekere", "Dmo:Lele", "Dmo:Alto .BC", "Lnk:ElCheBrs", "Lnk:MacareBT", "Lnk:BasSinte", "Lnk:Acc.Isla", "Lnk:Montuno", "Lnk:OrgB3\"O\u201d", "Lnk:MaderaBs", "Lnk:StringSy", "Lnk:BandaBas", "Lnk:NadaPad", "Lnk:TrueComp", "Lnk:Hey!Maca", "Lnk:GitAron", "Lnk:BigbabyB", "Lnk:SqrCompz", "Lnk:DropBass", "Lnk:BlowChnk", "Lnk:SynSqBas", "Lnk:Subterra", "Lnk:Piano030", "Lnk:EuroOrga", "Init Preset"]};
+    let currentCarnavalBank = 'Bank 0 (RAM - Traditional)';
+    let currentCarnavalPresetIdx = 0;
+    let carnavalBeatsPlaying = false;
+    let carnavalBpm = 124;
+    let carnavalXFactor = 50;
+    let carnavalKeyTranspose = 0;
+    let carnavalBeatPatternIdx = 0;
+    let carnavalTracksActive = [true, true, true, true, true, true, true, true];
+    let beatsStepTimer = null;
+    let beatsStepCount = 0;
+
+    // Web Audio Synthesizer for Latin Beats & Audition
+    let audioCtx = null;
+
+    function getAudioContext() {
+      if (!audioCtx) {
+        const AudioContext = window.AudioContext || window.webkitAudioContext;
+        audioCtx = new AudioContext();
+      }
+      if (audioCtx.state === 'suspended') {
+        audioCtx.resume();
+      }
+      return audioCtx;
+    }
+
+    function playPercussionSound(type) {
+      try {
+        const ctx = getAudioContext();
+        const now = ctx.currentTime;
+
+        if (type === 'surdo') {
+          // Low 808/Surdo sub bass
+          const osc = ctx.createOscillator();
+          const gain = ctx.createGain();
+          osc.type = 'sine';
+          osc.frequency.setValueAtTime(110, now);
+          osc.frequency.exponentialRampToValueAtTime(45, now + 0.18);
+          gain.gain.setValueAtTime(0.8, now);
+          gain.gain.exponentialRampToValueAtTime(0.001, now + 0.28);
+          osc.connect(gain);
+          gain.connect(ctx.destination);
+          osc.start(now);
+          osc.stop(now + 0.3);
+        } else if (type === 'conga') {
+          // Resonant Conga Open / Slap
+          const osc = ctx.createOscillator();
+          const gain = ctx.createGain();
+          osc.type = 'triangle';
+          osc.frequency.setValueAtTime(280, now);
+          osc.frequency.exponentialRampToValueAtTime(175, now + 0.12);
+          gain.gain.setValueAtTime(0.6, now);
+          gain.gain.exponentialRampToValueAtTime(0.001, now + 0.2);
+          osc.connect(gain);
+          gain.connect(ctx.destination);
+          osc.start(now);
+          osc.stop(now + 0.22);
+        } else if (type === 'bongo') {
+          // High Martillo Bongo
+          const osc = ctx.createOscillator();
+          const gain = ctx.createGain();
+          osc.type = 'sine';
+          osc.frequency.setValueAtTime(440, now);
+          osc.frequency.exponentialRampToValueAtTime(320, now + 0.08);
+          gain.gain.setValueAtTime(0.5, now);
+          gain.gain.exponentialRampToValueAtTime(0.001, now + 0.12);
+          osc.connect(gain);
+          gain.connect(ctx.destination);
+          osc.start(now);
+          osc.stop(now + 0.14);
+        } else if (type === 'timbale') {
+          // Sharp Ringing Timbale Cascara
+          const osc = ctx.createOscillator();
+          const gain = ctx.createGain();
+          osc.type = 'square';
+          osc.frequency.setValueAtTime(520, now);
+          osc.frequency.exponentialRampToValueAtTime(410, now + 0.09);
+          gain.gain.setValueAtTime(0.3, now);
+          gain.gain.exponentialRampToValueAtTime(0.001, now + 0.14);
+          osc.connect(gain);
+          gain.connect(ctx.destination);
+          osc.start(now);
+          osc.stop(now + 0.15);
+        } else if (type === 'agogo') {
+          // Metallic Agogo Bell
+          const osc = ctx.createOscillator();
+          const gain = ctx.createGain();
+          osc.type = 'sine';
+          osc.frequency.setValueAtTime(880, now);
+          gain.gain.setValueAtTime(0.4, now);
+          gain.gain.exponentialRampToValueAtTime(0.001, now + 0.15);
+          osc.connect(gain);
+          gain.connect(ctx.destination);
+          osc.start(now);
+          osc.stop(now + 0.16);
+        } else {
+          // Guiro / Maraca Noise Burst
+          const bufferSize = ctx.sampleRate * 0.04;
+          const buffer = ctx.createBuffer(1, bufferSize, ctx.sampleRate);
+          const data = buffer.getChannelData(0);
+          for (let i = 0; i < bufferSize; i++) {
+            data[i] = Math.random() * 2 - 1;
+          }
+          const noise = ctx.createBufferSource();
+          noise.buffer = buffer;
+          const filter = ctx.createBiquadFilter();
+          filter.type = 'bandpass';
+          filter.frequency.value = 4500;
+          const gain = ctx.createGain();
+          gain.gain.setValueAtTime(0.25, now);
+          gain.gain.exponentialRampToValueAtTime(0.001, now + 0.04);
+          noise.connect(filter);
+          filter.connect(gain);
+          gain.connect(ctx.destination);
+          noise.start(now);
+        }
+      } catch (e) {
+        // AudioContext silent fallback
+      }
+    }
+
+    function populateCarnavalPresets(bankName) {
+      const select = document.getElementById('carnaval-preset-select');
+      if (!select) return;
+      select.innerHTML = '';
+      const list = carnavalPresetsMap[bankName] || [];
+      list.forEach((name, i) => {
+        const opt = document.createElement('option');
+        opt.value = i;
+        opt.text = String(i).padStart(3, '0') + ': ' + name;
+        select.appendChild(opt);
+      });
+      select.value = currentCarnavalPresetIdx;
+      const summary = document.getElementById('carnaval-bank-summary');
+      if (summary) {
+        summary.innerText = bankName.split(' ')[0] + ' ' + bankName.split(' ')[1] + ': ' + list.length + ' Presets';
+      }
+    }
+
+    function changeCarnavalBank(bankName) {
+      currentCarnavalBank = bankName;
+      currentCarnavalPresetIdx = 0;
+      populateCarnavalPresets(bankName);
+      selectCarnavalPreset(0);
+      const bShort = bankName.startsWith('Bank 0') ? 'B0:RAM' :
+                     bankName.startsWith('Bank 1') ? 'B1:RAM' :
+                     bankName.startsWith('Bank 2') ? 'B2:ROM' :
+                     bankName.startsWith('Bank 3') ? 'B3:ROM' : 'B4:ROM';
+      const lcdBank = document.getElementById('carnaval-lcd-bank');
+      if (lcdBank) lcdBank.innerText = bShort;
+    }
+
+    function filterCarnavalPresets(term) {
+      const select = document.getElementById('carnaval-preset-select');
+      if (!select) return;
+      select.innerHTML = '';
+      const list = carnavalPresetsMap[currentCarnavalBank] || [];
+      const lower = term.toLowerCase().trim();
+      list.forEach((name, i) => {
+        if (!lower || name.toLowerCase().includes(lower) || String(i).includes(lower)) {
+          const opt = document.createElement('option');
+          opt.value = i;
+          opt.text = String(i).padStart(3, '0') + ': ' + name;
+          select.appendChild(opt);
+        }
+      });
+      if (select.options.length > 0) {
+        select.selectedIndex = 0;
+        selectCarnavalPreset(parseInt(select.value));
+      }
+    }
+
+    function selectCarnavalPreset(idx) {
+      currentCarnavalPresetIdx = idx;
+      const list = carnavalPresetsMap[currentCarnavalBank] || [];
+      const name = list[idx] || "Hit:Brazzy";
+      
+      const patchDisp = document.getElementById('carnaval-active-patch-name');
+      if (patchDisp) patchDisp.innerText = String(idx).padStart(3, '0') + ': ' + name;
+
+      const lcd1 = document.getElementById('carnaval-lcd-line1');
+      if (lcd1) {
+        lcd1.innerText = 'C01 Vol127 Pan=P  ' + String(idx).padStart(3, '0') + ' ' + name.substring(0, 10);
+      }
+
+      const dashPatch = document.getElementById('dashboard-carnaval-patch');
+      if (dashPatch) {
+        dashPatch.innerText = String(idx).padStart(3, '0') + ' ' + name;
+      }
+
+      transmitCarnavalParam(0x0001, idx, 'Preset Select (' + name + ')');
+    }
+
+    function toggleCarnavalTrack(trackIdx) {
+      carnavalTracksActive[trackIdx] = !carnavalTracksActive[trackIdx];
+      const pad = document.getElementById('pad-track-' + trackIdx);
+      const led = document.getElementById('led-track-' + trackIdx);
+      if (pad && led) {
+        if (carnavalTracksActive[trackIdx]) {
+          pad.classList.remove('opacity-40', 'border-zinc-800');
+          pad.classList.add('border-emerald-600/80');
+          led.className = 'w-3 h-3 rounded-full bg-emerald-400 led-green';
+        } else {
+          pad.classList.add('opacity-40', 'border-zinc-800');
+          pad.classList.remove('border-emerald-600/80');
+          led.className = 'w-3 h-3 rounded-full bg-zinc-700';
+        }
+      }
+      // SysEx for Track Mute
+      transmitCarnavalParam(0x0030 + trackIdx, carnavalTracksActive[trackIdx] ? 1 : 0, 'BEATS Track ' + (trackIdx + 1) + ' Enable');
+    }
+
+    function updateCarnavalBpm(bpm) {
+      carnavalBpm = parseInt(bpm);
+      const lbl = document.getElementById('carnaval-bpm-val');
+      if (lbl) lbl.innerText = carnavalBpm + ' BPM';
+      const lcd2 = document.getElementById('carnaval-lcd-line2');
+      if (lcd2) {
+        const beatNames = ['SalsaCal', 'MamboLoc', 'MerenFue', 'SambaRio', 'CumbiaTr', 'BossaNov', 'AfroCuba', 'TimbaMod', 'ChaChaCh', 'Reggaetn'];
+        lcd2.innerText = 'Beats:' + beatNames[carnavalBeatPatternIdx] + ' ' + carnavalBpm + ' BPM';
+      }
+      transmitCarnavalParam(0x000C, carnavalBpm, 'Beats Tempo');
+      if (carnavalBeatsPlaying) {
+        restartBeatsTimer();
+      }
+    }
+
+    let lastTapTime = 0;
+    function tapCarnavalTempo() {
+      const now = Date.now();
+      if (lastTapTime > 0) {
+        const diff = now - lastTapTime;
+        if (diff > 250 && diff < 2000) {
+          const calcBpm = Math.round(60000 / diff);
+          const clamped = Math.max(40, Math.min(240, calcBpm));
+          document.getElementById('carnaval-bpm-slider').value = clamped;
+          updateCarnavalBpm(clamped);
+        }
+      }
+      lastTapTime = now;
+    }
+
+    function updateCarnavalXFactor(val) {
+      carnavalXFactor = parseInt(val);
+      const lbl = document.getElementById('carnaval-val-xf');
+      if (lbl) lbl.innerText = carnavalXFactor + '%';
+      const lcdXf = document.getElementById('carnaval-lcd-xf');
+      if (lcdXf) lcdXf.innerText = 'XF: ' + carnavalXFactor + '%';
+      transmitCarnavalParam(0x000D, carnavalXFactor, 'X-Factor Groove Crossfade');
+    }
+
+    function stepCarnavalKey(dir) {
+      carnavalKeyTranspose = Math.max(-12, Math.min(12, carnavalKeyTranspose + dir));
+      const lbl = document.getElementById('carnaval-key-trans');
+      if (lbl) lbl.innerText = (carnavalKeyTranspose >= 0 ? '+' : '') + carnavalKeyTranspose + ' ST';
+      transmitCarnavalParam(0x000E, carnavalKeyTranspose + 12, 'Beats Key Transpose');
+    }
+
+    function changeCarnavalBeatPattern(idx) {
+      carnavalBeatPatternIdx = parseInt(idx);
+      const beatNames = [
+        '00 Salsa Caliente', '01 Mambo Loco', '02 Merengue Fuego', '03 Samba Batucada',
+        '04 Cumbia Tropical', '05 Bossa Nova Sunset', '06 Afro-Cuban Guaguanco',
+        '07 Timba Moderna', '08 Cha Cha Cha', '09 Reggaeton Clave'
+      ];
+      const lcdBeatNames = ['SalsaCal', 'MamboLoc', 'MerenFue', 'SambaRio', 'CumbiaTr', 'BossaNov', 'AfroCuba', 'TimbaMod', 'ChaChaCh', 'Reggaetn'];
+      
+      const dashBeat = document.getElementById('dashboard-carnaval-beat');
+      if (dashBeat) dashBeat.innerText = 'Beats: ' + beatNames[carnavalBeatPatternIdx];
+
+      const lcd2 = document.getElementById('carnaval-lcd-line2');
+      if (lcd2) {
+        lcd2.innerText = 'Beats:' + lcdBeatNames[carnavalBeatPatternIdx] + ' ' + carnavalBpm + ' BPM';
+      }
+
+      transmitCarnavalParam(0x000B, carnavalBeatPatternIdx, 'Beats Pattern Select (' + beatNames[carnavalBeatPatternIdx] + ')');
+    }
+
+    function toggleCarnavalBeats() {
+      carnavalBeatsPlaying = !carnavalBeatsPlaying;
+      const btn = document.getElementById('btn-carnaval-beats-main');
+      const icon = document.getElementById('carnaval-beats-play-icon');
+      const text = document.getElementById('carnaval-beats-play-text');
+      
+      if (carnavalBeatsPlaying) {
+        btn.className = 'bg-pink-600 hover:bg-pink-500 text-white px-4 py-2 text-xs font-black shadow-md transition flex items-center gap-1.5 rounded';
+        icon.innerText = '■';
+        text.innerText = 'STOP BEATS';
+        restartBeatsTimer();
+        transmitCarnavalParam(0x000A, 1, 'BEATS Engine Run (MIDI FA Start)');
+      } else {
+        btn.className = 'bg-amber-600 hover:bg-amber-500 text-black px-4 py-2 text-xs font-black shadow-md transition flex items-center gap-1.5 rounded';
+        icon.innerText = '▶';
+        text.innerText = 'PLAY BEATS';
+        if (beatsStepTimer) clearInterval(beatsStepTimer);
+        beatsStepTimer = null;
+        const pulse = document.getElementById('carnaval-pulse-led');
+        if (pulse) pulse.className = 'w-3.5 h-3.5 rounded-full bg-emerald-950 border border-emerald-600';
+        transmitCarnavalParam(0x000A, 0, 'BEATS Engine Stop (MIDI FC Stop)');
+      }
+    }
+
+    function restartBeatsTimer() {
+      if (beatsStepTimer) clearInterval(beatsStepTimer);
+      const stepIntervalMs = (60000 / carnavalBpm) / 4; // 16th notes
+      beatsStepCount = 0;
+      beatsStepTimer = setInterval(runBeatsStep, stepIntervalMs);
+    }
+
+    function runBeatsStep() {
+      const step = beatsStepCount % 16;
+      const pulse = document.getElementById('carnaval-pulse-led');
+      
+      // Pulse LED on quarter notes
+      if (step % 4 === 0) {
+        if (pulse) pulse.className = 'w-3.5 h-3.5 rounded-full bg-emerald-400 led-green';
+        setTimeout(() => {
+          if (pulse) pulse.className = 'w-3.5 h-3.5 rounded-full bg-emerald-950 border border-emerald-600';
+        }, 60);
+      }
+
+      // Polyphonic Latin Percussion Patterns
+      if (carnavalTracksActive[0] && (step === 0 || step === 4 || step === 7 || step === 10 || step === 12)) {
+        playPercussionSound('conga');
+      }
+      if (carnavalTracksActive[1] && (step === 2 || step === 6 || step === 14)) {
+        playPercussionSound('bongo');
+      }
+      if (carnavalTracksActive[2] && (step % 2 === 0)) {
+        playPercussionSound('timbale');
+      }
+      if (carnavalTracksActive[3] && (step % 2 === 1)) {
+        playPercussionSound('guiro');
+      }
+      if (carnavalTracksActive[5] && (step === 0 || step === 3 || step === 6 || step === 10)) {
+        playPercussionSound('agogo');
+      }
+      if (carnavalTracksActive[6] && (step === 0 || step === 8)) {
+        playPercussionSound('surdo');
+      }
+
+      beatsStepCount++;
+    }
+
+    function updateCarnavalParam(paramId, val, labelElementId, labelName) {
+      const numVal = parseInt(val);
+      const lbl = document.getElementById(labelElementId);
+      if (lbl) lbl.innerText = numVal;
+      transmitCarnavalParam(paramId, numVal, labelName);
+    }
+
+    function updateCarnavalTune(val) {
+      const numVal = parseInt(val);
+      const lbl = document.getElementById('val-c-tune');
+      if (lbl) lbl.innerText = (numVal >= 0 ? '+' : '') + numVal + ' ST';
+      transmitCarnavalParam(0x0018, numVal + 36, 'Layer Tuning');
+    }
+
+    function updateCarnavalSubmix(val) {
+      const numVal = parseInt(val);
+      const names = ['Main Out', 'Submix 1', 'Submix 2'];
+      transmitCarnavalParam(0x0020, numVal, 'Submix Output Routing (' + names[numVal] + ')');
+    }
+
+    function transmitCarnavalParam(paramId, val, label) {
+      const numVal = parseInt(val);
+      // E-MU Carnaval: F0 18 0A 00 01 <p_lsb> <p_msb> <v_lsb> <v_msb> F7
+      const pLsb = (paramId & 0x7F).toString(16).toUpperCase().padStart(2, '0');
+      const pMsb = ((paramId >> 7) & 0x7F).toString(16).toUpperCase().padStart(2, '0');
+      const vLsb = (numVal & 0x7F).toString(16).toUpperCase().padStart(2, '0');
+      const vMsb = ((numVal >> 7) & 0x7F).toString(16).toUpperCase().padStart(2, '0');
+
+      const hexStr = 'F0 18 0A 00 01 ' + pLsb + ' ' + pMsb + ' ' + vLsb + ' ' + vMsb + ' F7';
+      const hexDisplay = document.getElementById('carnaval-sysex-hex');
+      const explDisplay = document.getElementById('carnaval-sysex-expl');
+      if (hexDisplay && explDisplay) {
+        hexDisplay.innerText = hexStr;
+        explDisplay.innerText = '[SysEx Carnaval: ' + label + ' = ' + numVal + ' (Param 0x' + paramId.toString(16).toUpperCase().padStart(4, '0') + ')]';
+      }
+    }
+
+    function auditionCarnaval() {
+      // Play a quick Latin percussion flourish
+      playPercussionSound('surdo');
+      setTimeout(() => playPercussionSound('conga'), 80);
+      setTimeout(() => playPercussionSound('bongo'), 160);
+      setTimeout(() => playPercussionSound('timbale'), 240);
+      setTimeout(() => playPercussionSound('agogo'), 320);
+
+      const hexDisplay = document.getElementById('carnaval-sysex-hex');
+      const explDisplay = document.getElementById('carnaval-sysex-expl');
+      if (hexDisplay && explDisplay) {
+        hexDisplay.innerText = '90 3C 7F  90 40 70  90 43 68 (Latin Percussion Hit)';
+        explDisplay.innerText = '[Audition: Brazilian Carnaval Percussion Ensemble Triggered]';
       }
     }
 
