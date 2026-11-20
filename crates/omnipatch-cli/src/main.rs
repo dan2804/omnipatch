@@ -99,7 +99,7 @@ fn main() -> Result<()> {
             DevicesCommands::List { dir } => {
                 let mut registry = ProfileRegistry::new();
                 let count = registry.load_dir(&dir)?;
-                println!("{}", format!("=== SynthQuest Device Profiles ({} loaded) ===", count).cyan().bold());
+                println!("{}", format!("=== OmniPatch Device Profiles ({} loaded) ===", count).cyan().bold());
                 for prof in registry.list() {
                     println!(
                         "• {} [{}] - {} parameters",
