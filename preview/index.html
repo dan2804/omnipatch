@@ -160,277 +160,313 @@
         <div class="relative">
           <input type="text" id="sidebar-search" placeholder="Filter synthesizers..." oninput="filterSidebarSynths(this.value)" class="w-full bg-[#090a0d] border border-zinc-700/80 text-xs px-2.5 py-1.5 rounded text-zinc-200 placeholder-zinc-500 font-mono focus:outline-none focus:border-[#0078d7] transition shadow-inner">
         </div>
+        <div class="flex items-center justify-between pt-0.5 text-[10px] font-mono text-zinc-400">
+          <span class="uppercase tracking-wider flex items-center gap-1.5">
+            <span class="text-zinc-500">Group By:</span>
+            <span class="text-white font-bold bg-zinc-800/80 px-1.5 py-0.5 rounded border border-zinc-700/60">Manufacturer</span>
+          </span>
+          <button onclick="toggleAllGroups()" id="btn-toggle-all-groups" class="text-[10px] text-sky-400 hover:text-sky-300 hover:underline transition">
+            Collapse All
+          </button>
+        </div>
       </div>
 
-      <!-- Scrollable Device List -->
-      <div class="flex-1 overflow-y-auto p-2 space-y-1 custom-scroll" id="sidebar-synth-list">
+      <!-- Scrollable Device List Grouped By Manufacturer -->
+      <div class="flex-1 overflow-y-auto p-2 space-y-2.5 custom-scroll" id="sidebar-synth-list">
         
-        <!-- Category: Performance Keyboards -->
-        <div class="px-2 pt-2 pb-1 text-[10px] font-bold uppercase tracking-wider text-zinc-400 font-mono">
-          Performance Keyboards
+        <!-- GROUP 1: ACCESS MUSIC -->
+        <div class="synth-group" id="group-access">
+          <div onclick="toggleGroup('access')" class="flex items-center justify-between px-2 py-1.5 cursor-pointer rounded hover:bg-zinc-800/60 text-zinc-300 select-none group border-b border-zinc-800/50 pb-1">
+            <div class="flex items-center gap-1.5">
+              <svg id="chevron-access" class="w-3 h-3 text-red-400 group-hover:text-red-300 transition-transform duration-150 transform rotate-0" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
+              </svg>
+              <span class="text-[10px] font-bold uppercase tracking-wider font-mono text-red-400">Access Music</span>
+            </div>
+            <span class="text-[9px] font-mono px-1.5 py-0.5 rounded bg-black/60 text-red-300 border border-red-950 font-semibold">1 Synth</span>
+          </div>
+          <div id="content-access" class="space-y-1 pt-1.5">
+            <!-- Access Virus A -->
+            <button onclick="switchView('editor')" id="nav-editor" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
+              <div class="flex items-center gap-2.5 min-w-0">
+                <span class="w-3 h-3 rounded-full bg-[#ef4444] shadow-[0_0_6px_#ef4444] shrink-0"></span>
+                <div class="truncate">
+                  <div class="text-xs font-bold text-white group-hover:text-red-300 truncate">Access Virus A</div>
+                  <div class="text-[10px] text-zinc-400 font-mono truncate">DSP56303 Virtual Analog</div>
+                </div>
+              </div>
+              <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-red-400 border border-zinc-800 shrink-0">P1</span>
+            </button>
+          </div>
         </div>
 
-        <!-- E-MU XK-6 -->
-        <button onclick="switchView('xk6')" id="nav-xk6" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
-          <div class="flex items-center gap-2.5 min-w-0">
-            <span class="w-3 h-3 rounded-full bg-[#eab308] shadow-[0_0_6px_#eab308] shrink-0"></span>
-            <div class="truncate">
-              <div class="text-xs font-bold text-white group-hover:text-yellow-300 truncate">E-MU XK-6</div>
-              <div class="text-[10px] text-zinc-400 font-mono truncate">61-Key Dance Keyboard</div>
+        <!-- GROUP 2: AKAI PROFESSIONAL -->
+        <div class="synth-group pt-1" id="group-akai">
+          <div onclick="toggleGroup('akai')" class="flex items-center justify-between px-2 py-1.5 cursor-pointer rounded hover:bg-zinc-800/60 text-zinc-300 select-none group border-b border-zinc-800/50 pb-1">
+            <div class="flex items-center gap-1.5">
+              <svg id="chevron-akai" class="w-3 h-3 text-cyan-400 group-hover:text-cyan-300 transition-transform duration-150 transform rotate-0" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
+              </svg>
+              <span class="text-[10px] font-bold uppercase tracking-wider font-mono text-cyan-400">Akai Professional</span>
             </div>
+            <span class="text-[9px] font-mono px-1.5 py-0.5 rounded bg-black/60 text-cyan-300 border border-cyan-950 font-semibold">1 Synth</span>
           </div>
-          <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-yellow-400 border border-zinc-800 shrink-0">P10</span>
-        </button>
-
-        <!-- Akai AX60 -->
-        <button onclick="switchView('ax60')" id="nav-ax60" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
-          <div class="flex items-center gap-2.5 min-w-0">
-            <span class="w-3 h-3 rounded-full bg-[#06b6d4] shadow-[0_0_6px_#06b6d4] shrink-0"></span>
-            <div class="truncate">
-              <div class="text-xs font-bold text-white group-hover:text-cyan-300 truncate">Akai AX60</div>
-              <div class="text-[10px] text-zinc-400 font-mono truncate">6-Voice CEM3394 Analog</div>
-            </div>
+          <div id="content-akai" class="space-y-1 pt-1.5">
+            <!-- Akai AX60 -->
+            <button onclick="switchView('ax60')" id="nav-ax60" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
+              <div class="flex items-center gap-2.5 min-w-0">
+                <span class="w-3 h-3 rounded-full bg-[#06b6d4] shadow-[0_0_6px_#06b6d4] shrink-0"></span>
+                <div class="truncate">
+                  <div class="text-xs font-bold text-white group-hover:text-cyan-300 truncate">Akai AX60</div>
+                  <div class="text-[10px] text-zinc-400 font-mono truncate">6-Voice CEM3394 Analog</div>
+                </div>
+              </div>
+              <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-cyan-400 border border-zinc-800 shrink-0">P2</span>
+            </button>
           </div>
-          <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-cyan-400 border border-zinc-800 shrink-0">P2</span>
-        </button>
-
-        <!-- Category: Modular & Rack Synthesizers -->
-        <div class="px-2 pt-3 pb-1 text-[10px] font-bold uppercase tracking-wider text-zinc-400 font-mono">
-          Rack & Sound Modules
         </div>
 
-        <!-- Access Virus A -->
-        <button onclick="switchView('editor')" id="nav-editor" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
-          <div class="flex items-center gap-2.5 min-w-0">
-            <span class="w-3 h-3 rounded-full bg-[#ef4444] shadow-[0_0_6px_#ef4444] shrink-0"></span>
-            <div class="truncate">
-              <div class="text-xs font-bold text-white group-hover:text-red-300 truncate">Access Virus A</div>
-              <div class="text-[10px] text-zinc-400 font-mono truncate">DSP56303 Virtual Analog</div>
+        <!-- GROUP 3: E-MU SYSTEMS -->
+        <div class="synth-group pt-1" id="group-emu">
+          <div onclick="toggleGroup('emu')" class="flex items-center justify-between px-2 py-1.5 cursor-pointer rounded hover:bg-zinc-800/60 text-zinc-300 select-none group border-b border-zinc-800/50 pb-1">
+            <div class="flex items-center gap-1.5">
+              <svg id="chevron-emu" class="w-3 h-3 text-yellow-400 group-hover:text-yellow-300 transition-transform duration-150 transform rotate-0" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
+              </svg>
+              <span class="text-[10px] font-bold uppercase tracking-wider font-mono text-yellow-400">E-MU Systems</span>
             </div>
+            <span class="text-[9px] font-mono px-1.5 py-0.5 rounded bg-black/60 text-yellow-300 border border-yellow-950 font-semibold">19 Synths</span>
           </div>
-          <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-red-400 border border-zinc-800 shrink-0">P1</span>
-        </button>
+          <div id="content-emu" class="space-y-1 pt-1.5">
+            <!-- E-MU Audity 2000 -->
+            <button onclick="switchView('audity')" id="nav-audity" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
+              <div class="flex items-center gap-2.5 min-w-0">
+                <span class="w-3 h-3 rounded-full bg-[#60a5fa] shadow-[0_0_6px_#60a5fa] shrink-0"></span>
+                <div class="truncate">
+                  <div class="text-xs font-bold text-white group-hover:text-sky-300 truncate">E-MU Audity 2000</div>
+                  <div class="text-[10px] text-zinc-400 font-mono truncate">Light Blue • Grey Buttons</div>
+                </div>
+              </div>
+              <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-sky-400 border border-zinc-800 shrink-0">P3</span>
+            </button>
 
-        <!-- E-MU Audity 2000 -->
-        <button onclick="switchView('audity')" id="nav-audity" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
-          <div class="flex items-center gap-2.5 min-w-0">
-            <span class="w-3 h-3 rounded-full bg-[#60a5fa] shadow-[0_0_6px_#60a5fa] shrink-0"></span>
-            <div class="truncate">
-              <div class="text-xs font-bold text-white group-hover:text-sky-300 truncate">E-MU Audity 2000</div>
-              <div class="text-[10px] text-zinc-400 font-mono truncate">Light Blue • Grey Buttons</div>
-            </div>
+            <!-- E-MU B-3 -->
+            <button onclick="switchView('b3')" id="nav-b3" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
+              <div class="flex items-center gap-2.5 min-w-0">
+                <span class="w-3 h-3 rounded-full bg-[#d5c9b7] shadow-[0_0_6px_#d5c9b7] shrink-0"></span>
+                <div class="truncate">
+                  <div class="text-xs font-bold text-white group-hover:text-amber-200 truncate">E-MU B-3</div>
+                  <div class="text-[10px] text-zinc-400 font-mono truncate">Tonewheel & Leslie 122</div>
+                </div>
+              </div>
+              <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-amber-300 border border-zinc-800 shrink-0">P4</span>
+            </button>
+
+            <!-- E-MU Carnaval -->
+            <button onclick="switchView('carnaval')" id="nav-carnaval" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
+              <div class="flex items-center gap-2.5 min-w-0">
+                <span class="w-3 h-3 rounded-full bg-[#14b8a6] shadow-[0_0_6px_#14b8a6] shrink-0"></span>
+                <div class="truncate">
+                  <div class="text-xs font-bold text-white group-hover:text-teal-300 truncate">E-MU Carnaval</div>
+                  <div class="text-[10px] text-zinc-400 font-mono truncate">Latin & World • BEATS</div>
+                </div>
+              </div>
+              <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-teal-400 border border-zinc-800 shrink-0">P5</span>
+            </button>
+
+            <!-- E-MU Emax -->
+            <button onclick="switchView('emax')" id="nav-emax" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
+              <div class="flex items-center gap-2.5 min-w-0">
+                <span class="w-3 h-3 rounded-full bg-[#94a3b8] shadow-[0_0_6px_#94a3b8] shrink-0"></span>
+                <div class="truncate">
+                  <div class="text-xs font-bold text-white group-hover:text-slate-300 truncate">E-MU Emax</div>
+                  <div class="text-[10px] text-zinc-400 font-mono truncate">12-Bit Analog SSM2047</div>
+                </div>
+              </div>
+              <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-slate-300 border border-zinc-800 shrink-0">P6</span>
+            </button>
+
+            <!-- E-MU Emax II -->
+            <button onclick="switchView('emax2')" id="nav-emax2" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
+              <div class="flex items-center gap-2.5 min-w-0">
+                <span class="w-3 h-3 rounded-full bg-[#f59e0b] shadow-[0_0_6px_#f59e0b] shrink-0"></span>
+                <div class="truncate">
+                  <div class="text-xs font-bold text-white group-hover:text-amber-300 truncate">E-MU Emax II</div>
+                  <div class="text-[10px] text-zinc-400 font-mono truncate">16-Bit Stereo Workstation</div>
+                </div>
+              </div>
+              <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-amber-400 border border-zinc-800 shrink-0">P7</span>
+            </button>
+
+            <!-- E-MU Orbit 9090 -->
+            <button onclick="switchView('orbit9090')" id="nav-orbit9090" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
+              <div class="flex items-center gap-2.5 min-w-0">
+                <span class="w-3 h-3 rounded-full bg-[#eab308] shadow-[0_0_6px_#eab308] shrink-0"></span>
+                <div class="truncate">
+                  <div class="text-xs font-bold text-white group-hover:text-yellow-400 truncate">E-MU Orbit 9090</div>
+                  <div class="text-[10px] text-zinc-400 font-mono truncate">Golden Yellow • Dance Planet</div>
+                </div>
+              </div>
+              <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-yellow-400 border border-zinc-800 shrink-0">P21</span>
+            </button>
+
+            <!-- E-MU Orbit-3 -->
+            <button onclick="switchView('orbit3')" id="nav-orbit3" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
+              <div class="flex items-center gap-2.5 min-w-0">
+                <span class="w-3 h-3 rounded-full bg-[#facc15] shadow-[0_0_6px_#facc15] shrink-0"></span>
+                <div class="truncate">
+                  <div class="text-xs font-bold text-white group-hover:text-yellow-300 truncate">E-MU Orbit-3</div>
+                  <div class="text-[10px] text-zinc-400 font-mono truncate">Neon Yellow • Super Dance</div>
+                </div>
+              </div>
+              <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-yellow-300 border border-zinc-800 shrink-0">P20</span>
+            </button>
+
+            <!-- E-MU Planet Earth -->
+            <button onclick="switchView('planetearth')" id="nav-planetearth" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
+              <div class="flex items-center gap-2.5 min-w-0">
+                <span class="w-3 h-3 rounded-full bg-[#14b8a6] shadow-[0_0_6px_#14b8a6] shrink-0"></span>
+                <div class="truncate">
+                  <div class="text-xs font-bold text-white group-hover:text-teal-300 truncate">E-MU Planet Earth</div>
+                  <div class="text-[10px] text-zinc-400 font-mono truncate">Teal Chassis • World Expedition</div>
+                </div>
+              </div>
+              <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-teal-400 border border-zinc-800 shrink-0">P19</span>
+            </button>
+
+            <!-- E-MU Planet Phatt -->
+            <button onclick="switchView('planetphatt')" id="nav-planetphatt" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
+              <div class="flex items-center gap-2.5 min-w-0">
+                <span class="w-3 h-3 rounded-full bg-[#ec4899] shadow-[0_0_6px_#ec4899] shrink-0"></span>
+                <div class="truncate">
+                  <div class="text-xs font-bold text-white group-hover:text-pink-300 truncate">E-MU Planet Phatt</div>
+                  <div class="text-[10px] text-zinc-400 font-mono truncate">Neon Pink • Hip-Hop & Sub</div>
+                </div>
+              </div>
+              <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-pink-400 border border-zinc-800 shrink-0">P18</span>
+            </button>
+
+            <!-- E-MU Proteus 1000 -->
+            <button onclick="switchView('proteus1000')" id="nav-proteus1000" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
+              <div class="flex items-center gap-2.5 min-w-0">
+                <span class="w-3 h-3 rounded-full bg-[#ffffff] shadow-[0_0_6px_#ffffff] shrink-0"></span>
+                <div class="truncate">
+                  <div class="text-xs font-bold text-white group-hover:text-cyan-300 truncate">E-MU Proteus 1000</div>
+                  <div class="text-[10px] text-zinc-400 font-mono truncate">Black Chassis • White Knobs</div>
+                </div>
+              </div>
+              <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-cyan-300 border border-zinc-800 shrink-0">P17</span>
+            </button>
+
+            <!-- E-MU Proteus 2000 -->
+            <button onclick="switchView('proteus2000')" id="nav-proteus2000" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
+              <div class="flex items-center gap-2.5 min-w-0">
+                <span class="w-3 h-3 rounded-full bg-[#f1f5f9] shadow-[0_0_6px_#f1f5f9] shrink-0"></span>
+                <div class="truncate">
+                  <div class="text-xs font-bold text-white group-hover:text-cyan-300 truncate">E-MU Proteus 2000</div>
+                  <div class="text-[10px] text-zinc-400 font-mono truncate">Black Chassis • White Knobs</div>
+                </div>
+              </div>
+              <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-cyan-300 border border-zinc-800 shrink-0">P14</span>
+            </button>
+
+            <!-- E-MU Proteus 2500 -->
+            <button onclick="switchView('proteus2500')" id="nav-proteus2500" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
+              <div class="flex items-center gap-2.5 min-w-0">
+                <span class="w-3 h-3 rounded-full bg-[#0ea5e9] shadow-[0_0_6px_#0ea5e9] shrink-0"></span>
+                <div class="truncate">
+                  <div class="text-xs font-bold text-white group-hover:text-sky-300 truncate">E-MU Proteus 2500</div>
+                  <div class="text-[10px] text-zinc-400 font-mono truncate">Grey Console • Blue Accents</div>
+                </div>
+              </div>
+              <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-sky-400 border border-zinc-800 shrink-0">P15</span>
+            </button>
+
+            <!-- E-MU SP-1200 -->
+            <button onclick="switchView('sp1200')" id="nav-sp1200" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
+              <div class="flex items-center gap-2.5 min-w-0">
+                <span class="w-3 h-3 rounded-full bg-[#2563eb] shadow-[0_0_6px_#2563eb] shrink-0"></span>
+                <div class="truncate">
+                  <div class="text-xs font-bold text-white group-hover:text-blue-300 truncate">E-MU SP-1200</div>
+                  <div class="text-[10px] text-zinc-400 font-mono truncate">Classic Blue & Grey • SSM</div>
+                </div>
+              </div>
+              <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-blue-400 border border-zinc-800 shrink-0">P16</span>
+            </button>
+
+            <!-- E-MU Vintage Keys -->
+            <button onclick="switchView('vintagekeys')" id="nav-vintagekeys" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
+              <div class="flex items-center gap-2.5 min-w-0">
+                <span class="w-3 h-3 rounded-full bg-[#22c55e] shadow-[0_0_6px_#22c55e] shrink-0"></span>
+                <div class="truncate">
+                  <div class="text-xs font-bold text-white group-hover:text-green-300 truncate">E-MU Vintage Keys</div>
+                  <div class="text-[10px] text-zinc-400 font-mono truncate">1993 Matte Black 1U Rack</div>
+                </div>
+              </div>
+              <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-green-400 border border-zinc-800 shrink-0">P13</span>
+            </button>
+
+            <!-- E-MU Vintage Pro -->
+            <button onclick="switchView('vintagepro')" id="nav-vintagepro" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
+              <div class="flex items-center gap-2.5 min-w-0">
+                <span class="w-3 h-3 rounded-full bg-[#10b981] shadow-[0_0_6px_#10b981] shrink-0"></span>
+                <div class="truncate">
+                  <div class="text-xs font-bold text-white group-hover:text-emerald-300 truncate">E-MU Vintage Pro</div>
+                  <div class="text-[10px] text-zinc-400 font-mono truncate">Two-Tone Rhodes Rack</div>
+                </div>
+              </div>
+              <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-emerald-400 border border-zinc-800 shrink-0">P12</span>
+            </button>
+
+            <!-- E-MU Virtuoso 2000 -->
+            <button onclick="switchView('virtuoso')" id="nav-virtuoso" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
+              <div class="flex items-center gap-2.5 min-w-0">
+                <span class="w-3 h-3 rounded-full bg-[#cbd5e1] shadow-[0_0_6px_#cbd5e1] shrink-0"></span>
+                <div class="truncate">
+                  <div class="text-xs font-bold text-white group-hover:text-sky-300 truncate">E-MU Virtuoso 2000</div>
+                  <div class="text-[10px] text-zinc-400 font-mono truncate">128-Voice Virtual Orchestra</div>
+                </div>
+              </div>
+              <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-sky-300 border border-zinc-800 shrink-0">P11</span>
+            </button>
+
+            <!-- E-MU XK-6 -->
+            <button onclick="switchView('xk6')" id="nav-xk6" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
+              <div class="flex items-center gap-2.5 min-w-0">
+                <span class="w-3 h-3 rounded-full bg-[#eab308] shadow-[0_0_6px_#eab308] shrink-0"></span>
+                <div class="truncate">
+                  <div class="text-xs font-bold text-white group-hover:text-yellow-300 truncate">E-MU XK-6</div>
+                  <div class="text-[10px] text-zinc-400 font-mono truncate">61-Key Dance Keyboard</div>
+                </div>
+              </div>
+              <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-yellow-400 border border-zinc-800 shrink-0">P10</span>
+            </button>
+
+            <!-- E-MU XL-1 -->
+            <button onclick="switchView('xl1')" id="nav-xl1" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
+              <div class="flex items-center gap-2.5 min-w-0">
+                <span class="w-3 h-3 rounded-full bg-[#eab308] shadow-[0_0_6px_#eab308] shrink-0"></span>
+                <div class="truncate">
+                  <div class="text-xs font-bold text-white group-hover:text-yellow-300 truncate">E-MU XL-1</div>
+                  <div class="text-[10px] text-zinc-400 font-mono truncate">Yellow Rack • SuperBEATS</div>
+                </div>
+              </div>
+              <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-yellow-400 border border-zinc-800 shrink-0">P8</span>
+            </button>
+
+            <!-- E-MU XL-7 -->
+            <button onclick="switchView('xl7')" id="nav-xl7" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
+              <div class="flex items-center gap-2.5 min-w-0">
+                <span class="w-3 h-3 rounded-full bg-[#facc15] shadow-[0_0_6px_#facc15] shrink-0"></span>
+                <div class="truncate">
+                  <div class="text-xs font-bold text-white group-hover:text-yellow-200 truncate">E-MU XL-7</div>
+                  <div class="text-[10px] text-zinc-400 font-mono truncate">Command Station (16 Pads)</div>
+                </div>
+              </div>
+              <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-yellow-300 border border-zinc-800 shrink-0">P9</span>
+            </button>
           </div>
-          <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-sky-400 border border-zinc-800 shrink-0">P3</span>
-        </button>
-
-        <!-- E-MU Virtuoso 2000 -->
-        <button onclick="switchView('virtuoso')" id="nav-virtuoso" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
-          <div class="flex items-center gap-2.5 min-w-0">
-            <span class="w-3 h-3 rounded-full bg-[#cbd5e1] shadow-[0_0_6px_#cbd5e1] shrink-0"></span>
-            <div class="truncate">
-              <div class="text-xs font-bold text-white group-hover:text-sky-300 truncate">E-MU Virtuoso 2000</div>
-              <div class="text-[10px] text-zinc-400 font-mono truncate">128-Voice Virtual Orchestra</div>
-            </div>
-          </div>
-          <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-sky-300 border border-zinc-800 shrink-0">P11</span>
-        </button>
-
-        <!-- E-MU Vintage Pro -->
-        <button onclick="switchView('vintagepro')" id="nav-vintagepro" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
-          <div class="flex items-center gap-2.5 min-w-0">
-            <span class="w-3 h-3 rounded-full bg-[#10b981] shadow-[0_0_6px_#10b981] shrink-0"></span>
-            <div class="truncate">
-              <div class="text-xs font-bold text-white group-hover:text-emerald-300 truncate">E-MU Vintage Pro</div>
-              <div class="text-[10px] text-zinc-400 font-mono truncate">Two-Tone Rhodes Rack</div>
-            </div>
-          </div>
-          <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-emerald-400 border border-zinc-800 shrink-0">P12</span>
-        </button>
-
-        <!-- E-MU Vintage Keys -->
-        <button onclick="switchView('vintagekeys')" id="nav-vintagekeys" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
-          <div class="flex items-center gap-2.5 min-w-0">
-            <span class="w-3 h-3 rounded-full bg-[#22c55e] shadow-[0_0_6px_#22c55e] shrink-0"></span>
-            <div class="truncate">
-              <div class="text-xs font-bold text-white group-hover:text-green-300 truncate">E-MU Vintage Keys</div>
-              <div class="text-[10px] text-zinc-400 font-mono truncate">1993 Matte Black 1U Rack</div>
-            </div>
-          </div>
-          <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-green-400 border border-zinc-800 shrink-0">P13</span>
-        </button>
-
-        <!-- E-MU B-3 -->
-        <button onclick="switchView('b3')" id="nav-b3" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
-          <div class="flex items-center gap-2.5 min-w-0">
-            <span class="w-3 h-3 rounded-full bg-[#d5c9b7] shadow-[0_0_6px_#d5c9b7] shrink-0"></span>
-            <div class="truncate">
-              <div class="text-xs font-bold text-white group-hover:text-amber-200 truncate">E-MU B-3</div>
-              <div class="text-[10px] text-zinc-400 font-mono truncate">Tonewheel & Leslie 122</div>
-            </div>
-          </div>
-          <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-amber-300 border border-zinc-800 shrink-0">P4</span>
-        </button>
-
-        <!-- E-MU Xtreme Lead-1 -->
-        <button onclick="switchView('xl1')" id="nav-xl1" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
-          <div class="flex items-center gap-2.5 min-w-0">
-            <span class="w-3 h-3 rounded-full bg-[#eab308] shadow-[0_0_6px_#eab308] shrink-0"></span>
-            <div class="truncate">
-              <div class="text-xs font-bold text-white group-hover:text-yellow-300 truncate">E-MU XL-1</div>
-              <div class="text-[10px] text-zinc-400 font-mono truncate">Yellow Rack • SuperBEATS</div>
-            </div>
-          </div>
-          <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-yellow-400 border border-zinc-800 shrink-0">P8</span>
-        </button>
-
-        <!-- E-MU Proteus 2000 -->
-        <button onclick="switchView('proteus2000')" id="nav-proteus2000" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
-          <div class="flex items-center gap-2.5 min-w-0">
-            <span class="w-3 h-3 rounded-full bg-[#f1f5f9] shadow-[0_0_6px_#f1f5f9] shrink-0"></span>
-            <div class="truncate">
-              <div class="text-xs font-bold text-white group-hover:text-cyan-300 truncate">E-MU Proteus 2000</div>
-              <div class="text-[10px] text-zinc-400 font-mono truncate">Black Chassis • White Knobs</div>
-            </div>
-          </div>
-          <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-cyan-300 border border-zinc-800 shrink-0">P14</span>
-        </button>
-
-        <!-- E-MU Carnaval -->
-        <button onclick="switchView('carnaval')" id="nav-carnaval" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
-          <div class="flex items-center gap-2.5 min-w-0">
-            <span class="w-3 h-3 rounded-full bg-[#14b8a6] shadow-[0_0_6px_#14b8a6] shrink-0"></span>
-            <div class="truncate">
-              <div class="text-xs font-bold text-white group-hover:text-teal-300 truncate">E-MU Carnaval</div>
-              <div class="text-[10px] text-zinc-400 font-mono truncate">Latin & World • BEATS</div>
-            </div>
-          </div>
-          <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-teal-400 border border-zinc-800 shrink-0">P5</span>
-        </button>
-
-        <!-- E-MU Proteus 1000 -->
-        <button onclick="switchView('proteus1000')" id="nav-proteus1000" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
-          <div class="flex items-center gap-2.5 min-w-0">
-            <span class="w-3 h-3 rounded-full bg-[#ffffff] shadow-[0_0_6px_#ffffff] shrink-0"></span>
-            <div class="truncate">
-              <div class="text-xs font-bold text-white group-hover:text-cyan-300 truncate">E-MU Proteus 1000</div>
-              <div class="text-[10px] text-zinc-400 font-mono truncate">Black Chassis • White Knobs</div>
-            </div>
-          </div>
-          <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-cyan-300 border border-zinc-800 shrink-0">P17</span>
-        </button>
-
-        <!-- E-MU Planet Phatt -->
-        <button onclick="switchView('planetphatt')" id="nav-planetphatt" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
-          <div class="flex items-center gap-2.5 min-w-0">
-            <span class="w-3 h-3 rounded-full bg-[#ec4899] shadow-[0_0_6px_#ec4899] shrink-0"></span>
-            <div class="truncate">
-              <div class="text-xs font-bold text-white group-hover:text-pink-300 truncate">E-MU Planet Phatt</div>
-              <div class="text-[10px] text-zinc-400 font-mono truncate">Neon Pink • Hip-Hop & Sub</div>
-            </div>
-          </div>
-          <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-pink-400 border border-zinc-800 shrink-0">P18</span>
-        </button>
-
-        <!-- E-MU Planet Earth -->
-        <button onclick="switchView('planetearth')" id="nav-planetearth" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
-          <div class="flex items-center gap-2.5 min-w-0">
-            <span class="w-3 h-3 rounded-full bg-[#14b8a6] shadow-[0_0_6px_#14b8a6] shrink-0"></span>
-            <div class="truncate">
-              <div class="text-xs font-bold text-white group-hover:text-teal-300 truncate">E-MU Planet Earth</div>
-              <div class="text-[10px] text-zinc-400 font-mono truncate">Teal Chassis • World Expedition</div>
-            </div>
-          </div>
-          <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-teal-400 border border-zinc-800 shrink-0">P19</span>
-        </button>
-
-        <!-- E-MU Orbit-3 -->
-        <button onclick="switchView('orbit3')" id="nav-orbit3" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
-          <div class="flex items-center gap-2.5 min-w-0">
-            <span class="w-3 h-3 rounded-full bg-[#facc15] shadow-[0_0_6px_#facc15] shrink-0"></span>
-            <div class="truncate">
-              <div class="text-xs font-bold text-white group-hover:text-yellow-300 truncate">E-MU Orbit-3</div>
-              <div class="text-[10px] text-zinc-400 font-mono truncate">Neon Yellow • Super Dance</div>
-            </div>
-          </div>
-          <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-yellow-300 border border-zinc-800 shrink-0">P20</span>
-        </button>
-
-        <!-- E-MU Orbit 9090 -->
-        <button onclick="switchView('orbit9090')" id="nav-orbit9090" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
-          <div class="flex items-center gap-2.5 min-w-0">
-            <span class="w-3 h-3 rounded-full bg-[#eab308] shadow-[0_0_6px_#eab308] shrink-0"></span>
-            <div class="truncate">
-              <div class="text-xs font-bold text-white group-hover:text-yellow-400 truncate">E-MU Orbit 9090</div>
-              <div class="text-[10px] text-zinc-400 font-mono truncate">Golden Yellow • Dance Planet</div>
-            </div>
-          </div>
-          <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-yellow-400 border border-zinc-800 shrink-0">P21</span>
-        </button>
-
-        <!-- Category: Workstations & Samplers -->
-        <div class="px-2 pt-3 pb-1 text-[10px] font-bold uppercase tracking-wider text-zinc-400 font-mono">
-          Workstations & Samplers
         </div>
-
-        <!-- E-MU Proteus 2500 -->
-        <button onclick="switchView('proteus2500')" id="nav-proteus2500" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
-          <div class="flex items-center gap-2.5 min-w-0">
-            <span class="w-3 h-3 rounded-full bg-[#0ea5e9] shadow-[0_0_6px_#0ea5e9] shrink-0"></span>
-            <div class="truncate">
-              <div class="text-xs font-bold text-white group-hover:text-sky-300 truncate">E-MU Proteus 2500</div>
-              <div class="text-[10px] text-zinc-400 font-mono truncate">Grey Console • Blue Accents</div>
-            </div>
-          </div>
-          <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-sky-400 border border-zinc-800 shrink-0">P15</span>
-        </button>
-
-        <!-- E-MU SP-1200 -->
-        <button onclick="switchView('sp1200')" id="nav-sp1200" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
-          <div class="flex items-center gap-2.5 min-w-0">
-            <span class="w-3 h-3 rounded-full bg-[#2563eb] shadow-[0_0_6px_#2563eb] shrink-0"></span>
-            <div class="truncate">
-              <div class="text-xs font-bold text-white group-hover:text-blue-300 truncate">E-MU SP-1200</div>
-              <div class="text-[10px] text-zinc-400 font-mono truncate">Classic Blue & Grey • SSM</div>
-            </div>
-          </div>
-          <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-blue-400 border border-zinc-800 shrink-0">P16</span>
-        </button>
-
-        <!-- E-MU XL-7 -->
-        <button onclick="switchView('xl7')" id="nav-xl7" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
-          <div class="flex items-center gap-2.5 min-w-0">
-            <span class="w-3 h-3 rounded-full bg-[#facc15] shadow-[0_0_6px_#facc15] shrink-0"></span>
-            <div class="truncate">
-              <div class="text-xs font-bold text-white group-hover:text-yellow-200 truncate">E-MU XL-7</div>
-              <div class="text-[10px] text-zinc-400 font-mono truncate">Command Station (16 Pads)</div>
-            </div>
-          </div>
-          <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-yellow-300 border border-zinc-800 shrink-0">P9</span>
-        </button>
-
-        <!-- E-MU Emax II -->
-        <button onclick="switchView('emax2')" id="nav-emax2" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
-          <div class="flex items-center gap-2.5 min-w-0">
-            <span class="w-3 h-3 rounded-full bg-[#f59e0b] shadow-[0_0_6px_#f59e0b] shrink-0"></span>
-            <div class="truncate">
-              <div class="text-xs font-bold text-white group-hover:text-amber-300 truncate">E-MU Emax II</div>
-              <div class="text-[10px] text-zinc-400 font-mono truncate">16-Bit Stereo Workstation</div>
-            </div>
-          </div>
-          <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-amber-400 border border-zinc-800 shrink-0">P7</span>
-        </button>
-
-        <!-- E-MU Emax -->
-        <button onclick="switchView('emax')" id="nav-emax" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
-          <div class="flex items-center gap-2.5 min-w-0">
-            <span class="w-3 h-3 rounded-full bg-[#94a3b8] shadow-[0_0_6px_#94a3b8] shrink-0"></span>
-            <div class="truncate">
-              <div class="text-xs font-bold text-white group-hover:text-slate-300 truncate">E-MU Emax</div>
-              <div class="text-[10px] text-zinc-400 font-mono truncate">12-Bit Analog SSM2047</div>
-            </div>
-          </div>
-          <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-slate-300 border border-zinc-800 shrink-0">P6</span>
-        </button>
 
       </div>
 
@@ -8537,6 +8573,17 @@
             if (v === viewName) {
               nav.classList.add('bg-[#1e2330]', 'border-l-4', 'border-[#0078d7]', 'text-white', 'shadow-md');
               nav.classList.remove('border-transparent', 'text-zinc-400');
+              // Auto-expand parent group if collapsed
+              const parentGroup = nav.closest('.synth-group');
+              if (parentGroup) {
+                const content = parentGroup.querySelector('[id^="content-"]');
+                const chevron = parentGroup.querySelector('[id^="chevron-"]');
+                if (content && content.classList.contains('hidden')) {
+                  content.classList.remove('hidden');
+                  if (chevron) chevron.classList.remove('-rotate-90');
+                  updateToggleAllBtn();
+                }
+              }
             } else {
               nav.classList.remove('bg-[#1e2330]', 'border-l-4', 'border-[#0078d7]', 'text-white', 'shadow-md');
               nav.classList.add('border-transparent', 'text-zinc-400');
@@ -8721,11 +8768,82 @@
 
     function filterSidebarSynths(query) {
       const q = query.toLowerCase().trim();
-      const buttons = document.querySelectorAll('#sidebar-synth-list button');
-      buttons.forEach(btn => {
-        const text = btn.innerText.toLowerCase();
-        btn.style.display = text.includes(q) ? 'flex' : 'none';
+      const groups = document.querySelectorAll('.synth-group');
+      
+      groups.forEach(group => {
+        const buttons = group.querySelectorAll('button');
+        let groupMatchCount = 0;
+        
+        buttons.forEach(btn => {
+          const text = btn.innerText.toLowerCase();
+          const match = text.includes(q);
+          btn.style.display = match ? 'flex' : 'none';
+          if (match) groupMatchCount++;
+        });
+
+        if (q === '') {
+          group.style.display = '';
+        } else {
+          group.style.display = groupMatchCount > 0 ? '' : 'none';
+          if (groupMatchCount > 0) {
+            const content = group.querySelector('[id^="content-"]');
+            const chevron = group.querySelector('[id^="chevron-"]');
+            if (content && content.classList.contains('hidden')) {
+              content.classList.remove('hidden');
+              if (chevron) chevron.classList.remove('-rotate-90');
+            }
+          }
+        }
       });
+      updateToggleAllBtn();
+    }
+
+    function toggleGroup(id) {
+      const content = document.getElementById('content-' + id);
+      const chevron = document.getElementById('chevron-' + id);
+      if (!content) return;
+      const isHidden = content.classList.toggle('hidden');
+      if (chevron) {
+        if (isHidden) {
+          chevron.classList.add('-rotate-90');
+        } else {
+          chevron.classList.remove('-rotate-90');
+        }
+      }
+      updateToggleAllBtn();
+    }
+
+    function toggleAllGroups() {
+      const groups = ['access', 'akai', 'emu'];
+      const anyOpen = groups.some(id => {
+        const c = document.getElementById('content-' + id);
+        return c && !c.classList.contains('hidden');
+      });
+
+      groups.forEach(id => {
+        const c = document.getElementById('content-' + id);
+        const chev = document.getElementById('chevron-' + id);
+        if (!c) return;
+        if (anyOpen) {
+          c.classList.add('hidden');
+          if (chev) chev.classList.add('-rotate-90');
+        } else {
+          c.classList.remove('hidden');
+          if (chev) chev.classList.remove('-rotate-90');
+        }
+      });
+      updateToggleAllBtn();
+    }
+
+    function updateToggleAllBtn() {
+      const btn = document.getElementById('btn-toggle-all-groups');
+      if (!btn) return;
+      const groups = ['access', 'akai', 'emu'];
+      const anyOpen = groups.some(id => {
+        const c = document.getElementById('content-' + id);
+        return c && !c.classList.contains('hidden');
+      });
+      btn.innerText = anyOpen ? 'Collapse All' : 'Expand All';
     }
 
     function auditionPatch() {
