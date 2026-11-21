@@ -1,0 +1,124 @@
+name: E-MU Proteus 1000
+manufacturer: E-mu Systems, Inc.
+category: 64-Voice 1U Sound Module (32 MB Composer ROM & Z-Plane Filters)
+release_year: 2002
+hardware:
+  form_factor: 1U 19-inch Rackmount
+  polyphony: 64
+  multitimbral_parts: 32
+  sound_memory: 32 MB Composer Sound ROM (expandable via 1 internal 72-pin SIMM slot)
+  filter: 50 12-pole Z-Plane morphing resonant filters with parametric formant interpolation
+  knobs: 4 real-time multi-function controller knobs with 3-row mode selection (controlling 12 virtual parameters A-L)
+  outputs: 4 balanced analog outputs (2 stereo pairs: Main, Sub 1) + S/PDIF stereo digital out
+  midi_io: MIDI In, Out, Thru (32 channels via MIDI A/B)
+  chassis: Midnight black chassis with high-contrast white buttons and knobs, and cyan backlit 2x24 LCD display
+midi:
+  manufacturer_id:
+  - 24
+  product_id: 15
+  model_id: 12
+  default_device_id: 0
+  bank_select:
+    msb_cc: 0
+    msb_val: 0
+    lsb_cc: 32
+    banks:
+      0: User Bank 0 / CMPSR Bank 4 (Pianos, Organs, Bass & Lead)
+      1: User Bank 1 / CMPSR Bank 5 (Strings, Brass, Winds & Ensembles)
+      2: User Bank 2 / CMPSR Bank 6 (Synths, Pads & Z-Plane Sweeps)
+      3: User Bank 3 / CMPSR Bank 7 (Drum Kits, Percussion & Beats)
+sysex:
+  header:
+  - 240
+  - 24
+  - 15
+  - '{device_id}'
+  special_editor_byte: 85
+  commands:
+    parameter_edit: 1
+    generic_editor_message: 85
+  parameter_edit_format: F0 18 0F <dev_id> 55 01 02 <param_lsb> <param_msb> <val_lsb> <val_msb> F7
+ui_theme:
+  style: hardware_chassis
+  chassis_color: '#121316'
+  panel_color: '#1c1d22'
+  chassis_type: black_proteus_white_controls_rack
+  knobs: white_tactile
+  knob_color: '#f8fafc'
+  knob_ring: '#cbd5e1'
+  buttons: tactile_white
+  button_color: '#f1f5f9'
+  button_text: '#0f172a'
+  accent_color: '#38bdf8'
+  lcd_backlight: '#082a36'
+  lcd_text: '#38bdf8'
+parameters:
+- id: filter_cutoff
+  name: Z-Plane Filter Cutoff
+  page: filter
+  param_id: 384
+  type: linear
+  range:
+    min: 0
+    max: 255
+    default: 210
+    unit: semitones
+- id: filter_resonance
+  name: Filter Resonance
+  page: filter
+  param_id: 385
+  type: linear
+  range:
+    min: 0
+    max: 15
+    default: 4
+- id: amp_attack
+  name: Amp Envelope Attack
+  page: envelope
+  param_id: 388
+  type: linear
+  range:
+    min: 0
+    max: 127
+    default: 0
+    unit: ms
+- id: amp_decay
+  name: Amp Envelope Decay
+  page: envelope
+  param_id: 389
+  type: linear
+  range:
+    min: 0
+    max: 127
+    default: 68
+    unit: ms
+- id: amp_release
+  name: Amp Envelope Release
+  page: envelope
+  param_id: 391
+  type: linear
+  range:
+    min: 0
+    max: 127
+    default: 42
+    unit: ms
+- id: aux_send_1
+  name: FX Send 1 (Reverb)
+  page: effects
+  param_id: 412
+  type: linear
+  range:
+    min: 0
+    max: 100
+    default: 25
+    unit: '%'
+- id: tuning_coarse
+  name: Coarse Tuning
+  page: tuning
+  param_id: 396
+  type: linear
+  range:
+    min: -36
+    max: 36
+    default: 0
+    unit: semitones

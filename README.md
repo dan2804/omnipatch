@@ -81,11 +81,26 @@ Inspired by Sound Quest's **Midi Quest 13**, **OmniPatch** combines a clean, fas
 ### E-MU Vintage Keys (Classic 1993 1U Rack Sound Module)
 ![E-MU Vintage Keys Hardware Editor](assets/screenshots/emu_vintage_keys.png)
 
+### E-MU Proteus 1000 (64-Voice 1U Sound Module with White Controls)
+![E-MU Proteus 1000 Hardware Editor](assets/screenshots/emu_proteus_1000.png)
+
 ### E-MU Proteus 2000 (128-Voice Flagship 1U Sound Module with Composer ROM)
 ![E-MU Proteus 2000 Hardware Editor](assets/screenshots/emu_proteus_2000.png)
 
 ### E-MU Proteus 2500 (128-Voice Command Station Console & Sequencer)
 ![E-MU Proteus 2500 Hardware Editor](assets/screenshots/emu_proteus_2500.png)
+
+### E-MU Planet Phatt (64-Voice Hip-Hop / R&B Sound Module with Neon Pink Chassis)
+![E-MU Planet Phatt Hardware Editor](assets/screenshots/emu_planet_phatt.png)
+
+### E-MU Planet Earth (64-Voice World Expedition Sound Module with Teal Chassis)
+![E-MU Planet Earth Hardware Editor](assets/screenshots/emu_planet_earth.png)
+
+### E-MU Orbit-3 (128-Voice Super Dance Module with Neon Yellow Chassis)
+![E-MU Orbit-3 Hardware Editor](assets/screenshots/emu_orbit_3.png)
+
+### E-MU Orbit 9090 (32-Voice 1996 Dance Planet with Golden Yellow Chassis)
+![E-MU Orbit 9090 Hardware Editor](assets/screenshots/emu_orbit_9090.png)
 
 ### E-MU SP-1200 (12-Bit Linear Sampling Drum Machine & SSM2044 Filter)
 ![E-MU SP-1200 Hardware Editor](assets/screenshots/emu_sp_1200.png)
@@ -113,6 +128,11 @@ omnipatch/
 │       ├── carnaval/         # profile.yaml, factory_presets.json
 │       ├── emax/             # profile.yaml, factory_presets.json
 │       ├── emax-ii/          # profile.yaml, factory_presets.json
+│       ├── orbit-3/          # profile.yaml, factory_presets.json
+│       ├── orbit-9090/       # profile.yaml, factory_presets.json
+│       ├── planet-earth/     # profile.yaml, factory_presets.json
+│       ├── planet-phatt/     # profile.yaml, factory_presets.json
+│       ├── proteus-1000/     # profile.yaml, factory_presets.json
 │       ├── proteus-2000/     # profile.yaml, factory_presets.json
 │       ├── proteus-2500/     # profile.yaml, factory_presets.json
 │       ├── sp-1200/          # profile.yaml, factory_presets.json

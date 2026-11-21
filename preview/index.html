@@ -155,7 +155,7 @@
             <span class="w-2 h-2 rounded-full bg-emerald-400 shadow-[0_0_6px_#34d399]"></span>
             <span class="text-[11px] font-bold uppercase tracking-wider text-zinc-300">Device Rack</span>
           </div>
-          <span class="text-[10px] font-mono font-bold bg-[#0078d7] text-white px-2 py-0.5 rounded shadow">16 Synths</span>
+          <span class="text-[10px] font-mono font-bold bg-[#0078d7] text-white px-2 py-0.5 rounded shadow">21 Synths</span>
         </div>
         <div class="relative">
           <input type="text" id="sidebar-search" placeholder="Filter synthesizers..." oninput="filterSidebarSynths(this.value)" class="w-full bg-[#090a0d] border border-zinc-700/80 text-xs px-2.5 py-1.5 rounded text-zinc-200 placeholder-zinc-500 font-mono focus:outline-none focus:border-[#0078d7] transition shadow-inner">
@@ -307,6 +307,66 @@
           <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-teal-400 border border-zinc-800 shrink-0">P5</span>
         </button>
 
+        <!-- E-MU Proteus 1000 -->
+        <button onclick="switchView('proteus1000')" id="nav-proteus1000" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
+          <div class="flex items-center gap-2.5 min-w-0">
+            <span class="w-3 h-3 rounded-full bg-[#ffffff] shadow-[0_0_6px_#ffffff] shrink-0"></span>
+            <div class="truncate">
+              <div class="text-xs font-bold text-white group-hover:text-cyan-300 truncate">E-MU Proteus 1000</div>
+              <div class="text-[10px] text-zinc-400 font-mono truncate">Black Chassis • White Knobs</div>
+            </div>
+          </div>
+          <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-cyan-300 border border-zinc-800 shrink-0">P17</span>
+        </button>
+
+        <!-- E-MU Planet Phatt -->
+        <button onclick="switchView('planetphatt')" id="nav-planetphatt" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
+          <div class="flex items-center gap-2.5 min-w-0">
+            <span class="w-3 h-3 rounded-full bg-[#ec4899] shadow-[0_0_6px_#ec4899] shrink-0"></span>
+            <div class="truncate">
+              <div class="text-xs font-bold text-white group-hover:text-pink-300 truncate">E-MU Planet Phatt</div>
+              <div class="text-[10px] text-zinc-400 font-mono truncate">Neon Pink • Hip-Hop & Sub</div>
+            </div>
+          </div>
+          <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-pink-400 border border-zinc-800 shrink-0">P18</span>
+        </button>
+
+        <!-- E-MU Planet Earth -->
+        <button onclick="switchView('planetearth')" id="nav-planetearth" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
+          <div class="flex items-center gap-2.5 min-w-0">
+            <span class="w-3 h-3 rounded-full bg-[#14b8a6] shadow-[0_0_6px_#14b8a6] shrink-0"></span>
+            <div class="truncate">
+              <div class="text-xs font-bold text-white group-hover:text-teal-300 truncate">E-MU Planet Earth</div>
+              <div class="text-[10px] text-zinc-400 font-mono truncate">Teal Chassis • World Expedition</div>
+            </div>
+          </div>
+          <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-teal-400 border border-zinc-800 shrink-0">P19</span>
+        </button>
+
+        <!-- E-MU Orbit-3 -->
+        <button onclick="switchView('orbit3')" id="nav-orbit3" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
+          <div class="flex items-center gap-2.5 min-w-0">
+            <span class="w-3 h-3 rounded-full bg-[#facc15] shadow-[0_0_6px_#facc15] shrink-0"></span>
+            <div class="truncate">
+              <div class="text-xs font-bold text-white group-hover:text-yellow-300 truncate">E-MU Orbit-3</div>
+              <div class="text-[10px] text-zinc-400 font-mono truncate">Neon Yellow • Super Dance</div>
+            </div>
+          </div>
+          <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-yellow-300 border border-zinc-800 shrink-0">P20</span>
+        </button>
+
+        <!-- E-MU Orbit 9090 -->
+        <button onclick="switchView('orbit9090')" id="nav-orbit9090" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
+          <div class="flex items-center gap-2.5 min-w-0">
+            <span class="w-3 h-3 rounded-full bg-[#eab308] shadow-[0_0_6px_#eab308] shrink-0"></span>
+            <div class="truncate">
+              <div class="text-xs font-bold text-white group-hover:text-yellow-400 truncate">E-MU Orbit 9090</div>
+              <div class="text-[10px] text-zinc-400 font-mono truncate">Golden Yellow • Dance Planet</div>
+            </div>
+          </div>
+          <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-yellow-400 border border-zinc-800 shrink-0">P21</span>
+        </button>
+
         <!-- Category: Workstations & Samplers -->
         <div class="px-2 pt-3 pb-1 text-[10px] font-bold uppercase tracking-wider text-zinc-400 font-mono">
           Workstations & Samplers
@@ -380,7 +440,7 @@
           <span class="w-2 h-2 rounded-full bg-green-500 led-green"></span>
           <span>Rack Status:</span>
         </span>
-        <span class="text-green-400 font-bold">16 ONLINE</span>
+        <span class="text-green-400 font-bold">21 ONLINE</span>
       </div>
 
     </aside>
@@ -860,6 +920,141 @@
             <div class="flex justify-between text-xs font-mono text-zinc-400">
               <span class="text-blue-300 font-semibold">32 Sound Slots (4 Banks)</span>
               <span class="text-emerald-400">SysEx (18 03)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tile: E-MU Proteus 1000 (Live & Clickable) -->
+        <div onclick="switchView('proteus1000')" class="md:col-span-2 bg-[#121316] hover:bg-[#18191f] border-l-4 border-[#ffffff] p-5 cursor-pointer metro-tile flex flex-col justify-between shadow-lg relative overflow-hidden group">
+          <div class="absolute -right-4 -bottom-4 w-28 h-28 bg-[#ffffff]/10 rounded-full blur-xl pointer-events-none"></div>
+          <div>
+            <div class="flex items-center justify-between">
+              <span class="text-xs uppercase tracking-widest text-slate-300 font-semibold">Black Chassis • White Buttons & Knobs</span>
+              <span class="flex items-center gap-1.5 bg-black/40 px-2 py-0.5 text-[11px] text-cyan-300">
+                <span class="w-2 h-2 rounded-full bg-cyan-400 led-green"></span> Port 17 (Online)
+              </span>
+            </div>
+            <h3 class="text-2xl font-bold text-white mt-3 tracking-tight flex items-baseline gap-2">
+              E-MU Proteus 1000 <span class="text-xs font-normal text-zinc-400 font-mono">(2002)</span>
+            </h3>
+            <p class="text-zinc-400 text-xs mt-1">64 Voices • 32MB Composer ROM • White Encoders • 50 Z-Plane</p>
+          </div>
+          <div class="space-y-2 mt-6">
+            <div class="bg-black/50 p-2 text-xs flex justify-between items-center border border-zinc-800">
+              <span class="text-zinc-400">Preset:</span>
+              <span class="font-mono text-cyan-300 font-bold" id="dashboard-proteus1000-patch">000 Composer Grand</span>
+            </div>
+            <div class="flex justify-between text-xs font-mono text-zinc-400">
+              <span class="text-slate-200 font-semibold">White Tactile Controls</span>
+              <span class="text-cyan-400">SysEx (18 0F 0C)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tile: E-MU Planet Phatt (Live & Clickable) -->
+        <div onclick="switchView('planetphatt')" class="md:col-span-2 bg-[#831843] hover:bg-[#9d174d] border-l-4 border-[#ec4899] p-5 cursor-pointer metro-tile flex flex-col justify-between shadow-lg relative overflow-hidden group">
+          <div class="absolute -right-4 -bottom-4 w-28 h-28 bg-[#ec4899]/20 rounded-full blur-xl pointer-events-none"></div>
+          <div>
+            <div class="flex items-center justify-between">
+              <span class="text-xs uppercase tracking-widest text-pink-300 font-semibold">Neon Pink Chassis • Black Buttons</span>
+              <span class="flex items-center gap-1.5 bg-black/40 px-2 py-0.5 text-[11px] text-pink-200">
+                <span class="w-2 h-2 rounded-full bg-pink-400 led-green"></span> Port 18 (Online)
+              </span>
+            </div>
+            <h3 class="text-2xl font-bold text-white mt-3 tracking-tight flex items-baseline gap-2">
+              E-MU Planet Phatt <span class="text-xs font-normal text-zinc-400 font-mono">(1997)</span>
+            </h3>
+            <p class="text-pink-100/80 text-xs mt-1">64 Voices • Hip-Hop & Sub Sound ROM • Black Knobs • Green LCD</p>
+          </div>
+          <div class="space-y-2 mt-6">
+            <div class="bg-black/50 p-2 text-xs flex justify-between items-center border border-pink-900">
+              <span class="text-zinc-400">Preset:</span>
+              <span class="font-mono text-pink-300 font-bold" id="dashboard-planetphatt-patch">000 Planet Phatt</span>
+            </div>
+            <div class="flex justify-between text-xs font-mono text-zinc-400">
+              <span class="text-emerald-400 font-semibold">The Swing System</span>
+              <span class="text-pink-300">SysEx (18 07)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tile: E-MU Planet Earth (Live & Clickable) -->
+        <div onclick="switchView('planetearth')" class="md:col-span-2 bg-[#042f2e] hover:bg-[#0f4a46] border-l-4 border-[#2dd4bf] p-5 cursor-pointer metro-tile flex flex-col justify-between shadow-lg relative overflow-hidden group">
+          <div class="absolute -right-4 -bottom-4 w-28 h-28 bg-[#2dd4bf]/20 rounded-full blur-xl pointer-events-none"></div>
+          <div>
+            <div class="flex items-center justify-between">
+              <span class="text-xs uppercase tracking-widest text-teal-300 font-semibold">Teal Faceplate • Black Buttons & Knobs</span>
+              <span class="flex items-center gap-1.5 bg-black/40 px-2 py-0.5 text-[11px] text-teal-200">
+                <span class="w-2 h-2 rounded-full bg-teal-400 led-green"></span> Port 19 (Online)
+              </span>
+            </div>
+            <h3 class="text-2xl font-bold text-white mt-3 tracking-tight flex items-baseline gap-2">
+              E-MU Planet Earth <span class="text-xs font-normal text-zinc-400 font-mono">(2000)</span>
+            </h3>
+            <p class="text-teal-100/80 text-xs mt-1">64 Voices • 32MB World Expedition ROM • 50 Z-Plane • Turquoise LCD</p>
+          </div>
+          <div class="space-y-2 mt-6">
+            <div class="bg-black/50 p-2 text-xs flex justify-between items-center border border-teal-900">
+              <span class="text-zinc-400">Preset:</span>
+              <span class="font-mono text-teal-300 font-bold" id="dashboard-planetearth-patch">000 World Expedition</span>
+            </div>
+            <div class="flex justify-between text-xs font-mono text-zinc-400">
+              <span class="text-teal-300 font-semibold">Ethnic Strings & Winds</span>
+              <span class="text-teal-400">SysEx (18 0F 06)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tile: E-MU Orbit-3 (Live & Clickable) -->
+        <div onclick="switchView('orbit3')" class="md:col-span-2 bg-[#2d2206] hover:bg-[#3d2e08] border-l-4 border-[#facc15] p-5 cursor-pointer metro-tile flex flex-col justify-between shadow-lg relative overflow-hidden group">
+          <div class="absolute -right-4 -bottom-4 w-28 h-28 bg-[#facc15]/20 rounded-full blur-xl pointer-events-none"></div>
+          <div>
+            <div class="flex items-center justify-between">
+              <span class="text-xs uppercase tracking-widest text-yellow-300 font-semibold">Neon Yellow Chassis • Black Buttons</span>
+              <span class="flex items-center gap-1.5 bg-black/40 px-2 py-0.5 text-[11px] text-yellow-200">
+                <span class="w-2 h-2 rounded-full bg-yellow-400 led-green"></span> Port 20 (Online)
+              </span>
+            </div>
+            <h3 class="text-2xl font-bold text-white mt-3 tracking-tight flex items-baseline gap-2">
+              E-MU Orbit-3 <span class="text-xs font-normal text-zinc-400 font-mono">(2002)</span>
+            </h3>
+            <p class="text-yellow-100/80 text-xs mt-1">128 Voices • Beat Garden & Techno Yard (64MB) • Neon Amber/Green LCD</p>
+          </div>
+          <div class="space-y-2 mt-6">
+            <div class="bg-black/50 p-2 text-xs flex justify-between items-center border border-yellow-900">
+              <span class="text-zinc-400">Preset:</span>
+              <span class="font-mono text-yellow-300 font-bold" id="dashboard-orbit3-patch">000 Orbit-3 Super Dance</span>
+            </div>
+            <div class="flex justify-between text-xs font-mono text-zinc-400">
+              <span class="text-yellow-300 font-semibold">Rob Papen & Techno Yard</span>
+              <span class="text-yellow-400">SysEx (18 0F 11)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tile: E-MU Orbit 9090 (Live & Clickable) -->
+        <div onclick="switchView('orbit9090')" class="md:col-span-2 bg-[#241a04] hover:bg-[#332506] border-l-4 border-[#ca8a04] p-5 cursor-pointer metro-tile flex flex-col justify-between shadow-lg relative overflow-hidden group">
+          <div class="absolute -right-4 -bottom-4 w-28 h-28 bg-[#ca8a04]/20 rounded-full blur-xl pointer-events-none"></div>
+          <div>
+            <div class="flex items-center justify-between">
+              <span class="text-xs uppercase tracking-widest text-yellow-400 font-semibold">Golden Yellow Chassis • Black Buttons</span>
+              <span class="flex items-center gap-1.5 bg-black/40 px-2 py-0.5 text-[11px] text-yellow-300">
+                <span class="w-2 h-2 rounded-full bg-yellow-400 led-green"></span> Port 21 (Online)
+              </span>
+            </div>
+            <h3 class="text-2xl font-bold text-white mt-3 tracking-tight flex items-baseline gap-2">
+              E-MU Orbit 9090 <span class="text-xs font-normal text-zinc-400 font-mono">(1996)</span>
+            </h3>
+            <p class="text-yellow-200/70 text-xs mt-1">32 Voices • The Dance Planet • 909/808/303 Beats • Green Backlit LCD</p>
+          </div>
+          <div class="space-y-2 mt-6">
+            <div class="bg-black/50 p-2 text-xs flex justify-between items-center border border-yellow-900">
+              <span class="text-zinc-400">Preset:</span>
+              <span class="font-mono text-yellow-300 font-bold" id="dashboard-orbit9090-patch">000 Planet Dance 9090</span>
+            </div>
+            <div class="flex justify-between text-xs font-mono text-zinc-400">
+              <span class="text-emerald-400 font-semibold">TR-909 & TB-303 Planet</span>
+              <span class="text-yellow-400">SysEx (18 05)</span>
             </div>
           </div>
         </div>
@@ -7450,6 +7645,691 @@
       </div>
     </section>
 
+    <!-- VIEW: E-MU PROTEUS 1000 -->
+    <section id="view-proteus1000" class="hidden space-y-4">
+      <div class="bg-[#121316] border-t-4 border-[#ffffff] p-4 shadow-2xl relative rounded border border-zinc-800">
+        <div class="flex flex-col lg:flex-row items-center justify-between gap-4 pb-4 border-b border-zinc-800">
+          <div class="flex items-center gap-4">
+            <div class="bg-[#090a0c] px-4 py-2 border border-zinc-700 shadow-inner">
+              <h2 class="text-2xl font-black tracking-widest text-white">E-MU <span class="text-slate-100 font-light">PROTEUS 1000</span></h2>
+              <span class="text-[10px] tracking-widest text-slate-300 uppercase font-semibold">64-Voice 1U Sound Module • White Controls • 50 Z-Plane Filters</span>
+            </div>
+            <div class="hidden sm:block text-xs font-mono text-zinc-400">
+              <div>CHASSIS: <span class="text-white font-semibold">Midnight Black Faceplate</span></div>
+              <div>CONTROLS: <span class="text-slate-100 font-bold">Pure White Knobs & Buttons</span></div>
+            </div>
+          </div>
+
+          <!-- Cyan Phosphor 2x24 LCD Display -->
+          <div class="bg-[#082a36] border-4 border-[#031519] p-3 shadow-inner rounded-sm w-full lg:w-96">
+            <div class="font-lcd text-xl text-cyan-300 tracking-widest leading-none drop-shadow-[0_0_6px_rgba(56,189,248,0.8)]">
+              <div class="flex justify-between">
+                <span id="proteus1000-lcd-line1">U0: 000 Composer Grand</span>
+                <span class="text-xs bg-cyan-950 px-1 py-0.5 rounded text-cyan-200">64V</span>
+              </div>
+              <div class="flex justify-between text-base mt-1 text-cyan-200">
+                <span id="proteus1000-lcd-line2">Fc:210 Q:04 Morph:64</span>
+                <span class="text-xs text-cyan-400">P17 ONLINE</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-2">
+            <button onclick="auditionProteus1000()" class="bg-[#ffffff] hover:bg-slate-200 text-black text-xs px-3 py-2 font-bold rounded shadow transition flex items-center gap-1.5">
+              <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              Audition Note (C4)
+            </button>
+            <button onclick="switchView('dashboard')" class="bg-zinc-800 hover:bg-zinc-700 text-zinc-200 text-xs px-3 py-2 rounded">
+              Exit to Hub
+            </button>
+          </div>
+        </div>
+
+        <!-- 4 Real-Time White Controller Knobs -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-4">
+          <div class="bg-[#18191f] p-3 rounded border border-zinc-800 space-y-2 text-center">
+            <span class="text-[11px] font-mono text-white uppercase block font-semibold">Knob A: Z-Plane Cutoff</span>
+            <div class="flex justify-center py-2">
+              <div class="w-14 h-14 rounded-full bg-gradient-to-b from-[#ffffff] via-[#f1f5f9] to-[#e2e8f0] border-2 border-slate-300 shadow-lg flex items-center justify-center relative cursor-pointer group">
+                <div class="w-1 h-5 bg-black rounded-full absolute top-1.5 transition-transform origin-bottom" id="knob-p1000-cutoff-rot" style="transform: rotate(45deg);"></div>
+                <div class="w-3 h-3 rounded-full bg-slate-300"></div>
+              </div>
+            </div>
+            <input type="range" id="p1000-cutoff" min="0" max="255" value="210" oninput="updateProteus1000Param('cutoff', this.value)" class="w-full accent-white cursor-pointer">
+            <div class="flex justify-between text-[10px] font-mono text-zinc-400">
+              <span>0</span><span id="val-p1000-cutoff" class="text-white font-bold">210</span><span>255</span>
+            </div>
+          </div>
+
+          <div class="bg-[#18191f] p-3 rounded border border-zinc-800 space-y-2 text-center">
+            <span class="text-[11px] font-mono text-white uppercase block font-semibold">Knob B: Resonance</span>
+            <div class="flex justify-center py-2">
+              <div class="w-14 h-14 rounded-full bg-gradient-to-b from-[#ffffff] via-[#f1f5f9] to-[#e2e8f0] border-2 border-slate-300 shadow-lg flex items-center justify-center relative cursor-pointer group">
+                <div class="w-1 h-5 bg-black rounded-full absolute top-1.5 transition-transform origin-bottom" id="knob-p1000-res-rot" style="transform: rotate(-15deg);"></div>
+                <div class="w-3 h-3 rounded-full bg-slate-300"></div>
+              </div>
+            </div>
+            <input type="range" id="p1000-res" min="0" max="15" value="4" oninput="updateProteus1000Param('res', this.value)" class="w-full accent-white cursor-pointer">
+            <div class="flex justify-between text-[10px] font-mono text-zinc-400">
+              <span>0</span><span id="val-p1000-res" class="text-white font-bold">4</span><span>15</span>
+            </div>
+          </div>
+
+          <div class="bg-[#18191f] p-3 rounded border border-zinc-800 space-y-2 text-center">
+            <span class="text-[11px] font-mono text-white uppercase block font-semibold">Knob C: Morph / Shape</span>
+            <div class="flex justify-center py-2">
+              <div class="w-14 h-14 rounded-full bg-gradient-to-b from-[#ffffff] via-[#f1f5f9] to-[#e2e8f0] border-2 border-slate-300 shadow-lg flex items-center justify-center relative cursor-pointer group">
+                <div class="w-1 h-5 bg-black rounded-full absolute top-1.5 transition-transform origin-bottom" id="knob-p1000-morph-rot" style="transform: rotate(0deg);"></div>
+                <div class="w-3 h-3 rounded-full bg-slate-300"></div>
+              </div>
+            </div>
+            <input type="range" id="p1000-morph" min="0" max="127" value="64" oninput="updateProteus1000Param('morph', this.value)" class="w-full accent-white cursor-pointer">
+            <div class="flex justify-between text-[10px] font-mono text-zinc-400">
+              <span>0</span><span id="val-p1000-morph" class="text-white font-bold">64</span><span>127</span>
+            </div>
+          </div>
+
+          <div class="bg-[#18191f] p-3 rounded border border-zinc-800 space-y-2 text-center">
+            <span class="text-[11px] font-mono text-white uppercase block font-semibold">Knob D: Attack Time</span>
+            <div class="flex justify-center py-2">
+              <div class="w-14 h-14 rounded-full bg-gradient-to-b from-[#ffffff] via-[#f1f5f9] to-[#e2e8f0] border-2 border-slate-300 shadow-lg flex items-center justify-center relative cursor-pointer group">
+                <div class="w-1 h-5 bg-black rounded-full absolute top-1.5 transition-transform origin-bottom" id="knob-p1000-attack-rot" style="transform: rotate(-75deg);"></div>
+                <div class="w-3 h-3 rounded-full bg-slate-300"></div>
+              </div>
+            </div>
+            <input type="range" id="p1000-attack" min="0" max="127" value="8" oninput="updateProteus1000Param('attack', this.value)" class="w-full accent-white cursor-pointer">
+            <div class="flex justify-between text-[10px] font-mono text-zinc-400">
+              <span>0ms</span><span id="val-p1000-attack" class="text-white font-bold">8ms</span><span>127</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Presets and SysEx Telemetry -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-4 mt-4">
+          <div class="lg:col-span-6 bg-[#18191f] p-4 rounded border border-zinc-800 space-y-2">
+            <span class="text-xs uppercase font-bold text-white">Proteus 1000 Composer Presets (ROM Bank 0)</span>
+            <select id="p1000-preset-select" onchange="selectProteus1000Preset(this.value)" class="w-full bg-black border border-zinc-700 text-white p-2 text-xs rounded font-mono">
+              <option value="0">000 Composer Grand</option>
+              <option value="1">001 Studio Grand Piano</option>
+              <option value="2">002 Classic Dyno Rhodes</option>
+              <option value="3">003 B3 Drawbar Organ</option>
+              <option value="4">004 Clavinet D6 Funk</option>
+              <option value="5">005 Deep Acoustic Upright</option>
+              <option value="6">006 Fingered Bass Studio</option>
+              <option value="7">007 Slap & Pop Bass</option>
+              <option value="8">008 Minimoog Fat Sub</option>
+              <option value="9">009 Symphonic Strings Warm</option>
+              <option value="10">010 Marcato String Section</option>
+              <option value="11">011 Warm Brass Fanfare</option>
+              <option value="12">012 Miles Muted Trumpet</option>
+              <option value="13">013 Breathy Tenor Sax</option>
+              <option value="14">014 Nylon Acoustic Guitar</option>
+              <option value="15">015 Strat Clean Chorus</option>
+              <option value="16">016 Warm Prophet Analog Pad</option>
+              <option value="17">017 Z-Plane Formant Sweep</option>
+              <option value="18">018 Techno Trance Lead</option>
+              <option value="19">019 Standard Studio Kit</option>
+              <option value="20">020 Proteus Dance Club Kit</option>
+            </select>
+          </div>
+          <div class="lg:col-span-6 bg-[#18191f] p-4 rounded border border-zinc-800 space-y-2">
+            <span class="text-xs uppercase font-bold text-cyan-400">Live SysEx Telemetry (Proteus 1000 Model 0x0C)</span>
+            <div class="bg-black/80 p-2 text-cyan-300 font-mono text-xs rounded border border-zinc-800 break-all" id="proteus1000-sysex-hex">
+              F0 18 0F 00 55 01 02 00 03 D2 00 F7
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW: E-MU PLANET PHATT -->
+    <section id="view-planetphatt" class="hidden space-y-4">
+      <div class="bg-[#db2777] border-t-4 border-[#f472b6] p-4 shadow-2xl relative rounded border border-pink-700">
+        <div class="flex flex-col lg:flex-row items-center justify-between gap-4 pb-4 border-b border-pink-700">
+          <div class="flex items-center gap-4">
+            <div class="bg-[#831843] px-4 py-2 border border-pink-900 shadow-inner">
+              <h2 class="text-2xl font-black tracking-widest text-white">E-MU <span class="text-pink-200 font-light">PLANET PHATT</span></h2>
+              <span class="text-[10px] tracking-widest text-pink-200 uppercase font-semibold">The Swing System • 64-Voice Hip-Hop / R&B Sound Module</span>
+            </div>
+            <div class="hidden sm:block text-xs font-mono text-pink-100">
+              <div>CHASSIS: <span class="text-white font-semibold">Neon Pink Faceplate</span></div>
+              <div>CONTROLS: <span class="text-black bg-pink-200 px-1 py-0.5 rounded font-bold">Black Tactile Buttons</span></div>
+            </div>
+          </div>
+
+          <!-- Classic Retro 2x16 Green LCD Display -->
+          <div class="bg-[#064e3b] border-4 border-[#022c22] p-3 shadow-inner rounded-sm w-full lg:w-96">
+            <div class="font-lcd text-xl text-emerald-300 tracking-widest leading-none drop-shadow-[0_0_6px_rgba(52,211,153,0.8)]">
+              <div class="flex justify-between">
+                <span id="planetphatt-lcd-line1">000 Planet Phatt</span>
+                <span class="text-xs bg-emerald-950 px-1 py-0.5 rounded text-emerald-200">64V</span>
+              </div>
+              <div class="flex justify-between text-base mt-1 text-emerald-200">
+                <span id="planetphatt-lcd-line2">Sub:90 Cutoff:195 Q:06</span>
+                <span class="text-xs text-emerald-400">P18 ONLINE</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-2">
+            <button onclick="auditionPlanetPhatt()" class="bg-[#18181b] hover:bg-black text-pink-300 border border-pink-400 text-xs px-3 py-2 font-bold rounded shadow transition flex items-center gap-1.5">
+              <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              Audition 808 Sub
+            </button>
+            <button onclick="switchView('dashboard')" class="bg-pink-950 hover:bg-pink-900 text-pink-100 text-xs px-3 py-2 rounded border border-pink-700">
+              Exit to Hub
+            </button>
+          </div>
+        </div>
+
+        <!-- Black Knurled Knobs & Sliders -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-4">
+          <div class="bg-[#831843] p-3 rounded border border-pink-700 space-y-2 text-center">
+            <span class="text-[11px] font-mono text-pink-100 uppercase block font-semibold">Filter Cutoff</span>
+            <div class="flex justify-center py-2">
+              <div class="w-14 h-14 rounded-full bg-gradient-to-b from-[#27272a] via-[#18181b] to-[#09090b] border-2 border-pink-500/50 shadow-lg flex items-center justify-center relative cursor-pointer group">
+                <div class="w-1 h-5 bg-pink-400 rounded-full absolute top-1.5 transition-transform origin-bottom" id="knob-pphatt-cutoff-rot" style="transform: rotate(35deg);"></div>
+                <div class="w-3 h-3 rounded-full bg-zinc-700"></div>
+              </div>
+            </div>
+            <input type="range" id="pphatt-cutoff" min="0" max="255" value="195" oninput="updatePlanetPhattParam('cutoff', this.value)" class="w-full accent-pink-400 cursor-pointer">
+            <div class="flex justify-between text-[10px] font-mono text-pink-200">
+              <span>0</span><span id="val-pphatt-cutoff" class="text-white font-bold">195</span><span>255</span>
+            </div>
+          </div>
+
+          <div class="bg-[#831843] p-3 rounded border border-pink-700 space-y-2 text-center">
+            <span class="text-[11px] font-mono text-pink-100 uppercase block font-semibold">Resonance</span>
+            <div class="flex justify-center py-2">
+              <div class="w-14 h-14 rounded-full bg-gradient-to-b from-[#27272a] via-[#18181b] to-[#09090b] border-2 border-pink-500/50 shadow-lg flex items-center justify-center relative cursor-pointer group">
+                <div class="w-1 h-5 bg-pink-400 rounded-full absolute top-1.5 transition-transform origin-bottom" id="knob-pphatt-res-rot" style="transform: rotate(-10deg);"></div>
+                <div class="w-3 h-3 rounded-full bg-zinc-700"></div>
+              </div>
+            </div>
+            <input type="range" id="pphatt-res" min="0" max="15" value="6" oninput="updatePlanetPhattParam('res', this.value)" class="w-full accent-pink-400 cursor-pointer">
+            <div class="flex justify-between text-[10px] font-mono text-pink-200">
+              <span>0</span><span id="val-pphatt-res" class="text-white font-bold">6</span><span>15</span>
+            </div>
+          </div>
+
+          <div class="bg-[#831843] p-3 rounded border border-pink-700 space-y-2 text-center">
+            <span class="text-[11px] font-mono text-pink-100 uppercase block font-semibold">Sub Bass Boost</span>
+            <div class="flex justify-center py-2">
+              <div class="w-14 h-14 rounded-full bg-gradient-to-b from-[#27272a] via-[#18181b] to-[#09090b] border-2 border-pink-500/50 shadow-lg flex items-center justify-center relative cursor-pointer group">
+                <div class="w-1 h-5 bg-pink-400 rounded-full absolute top-1.5 transition-transform origin-bottom" id="knob-pphatt-sub-rot" style="transform: rotate(50deg);"></div>
+                <div class="w-3 h-3 rounded-full bg-zinc-700"></div>
+              </div>
+            </div>
+            <input type="range" id="pphatt-sub" min="0" max="127" value="90" oninput="updatePlanetPhattParam('sub', this.value)" class="w-full accent-pink-400 cursor-pointer">
+            <div class="flex justify-between text-[10px] font-mono text-pink-200">
+              <span>0</span><span id="val-pphatt-sub" class="text-white font-bold">90</span><span>127</span>
+            </div>
+          </div>
+
+          <div class="bg-[#831843] p-3 rounded border border-pink-700 space-y-2 text-center">
+            <span class="text-[11px] font-mono text-pink-100 uppercase block font-semibold">Chorus Amount</span>
+            <div class="flex justify-center py-2">
+              <div class="w-14 h-14 rounded-full bg-gradient-to-b from-[#27272a] via-[#18181b] to-[#09090b] border-2 border-pink-500/50 shadow-lg flex items-center justify-center relative cursor-pointer group">
+                <div class="w-1 h-5 bg-pink-400 rounded-full absolute top-1.5 transition-transform origin-bottom" id="knob-pphatt-chorus-rot" style="transform: rotate(-45deg);"></div>
+                <div class="w-3 h-3 rounded-full bg-zinc-700"></div>
+              </div>
+            </div>
+            <input type="range" id="pphatt-chorus" min="0" max="127" value="32" oninput="updatePlanetPhattParam('chorus', this.value)" class="w-full accent-pink-400 cursor-pointer">
+            <div class="flex justify-between text-[10px] font-mono text-pink-200">
+              <span>0</span><span id="val-pphatt-chorus" class="text-white font-bold">32</span><span>127</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Presets and SysEx Telemetry -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-4 mt-4">
+          <div class="lg:col-span-6 bg-[#831843] p-4 rounded border border-pink-700 space-y-2">
+            <span class="text-xs uppercase font-bold text-pink-100">Planet Phatt Hip-Hop & R&B Presets</span>
+            <select id="pphatt-preset-select" onchange="selectPlanetPhattPreset(this.value)" class="w-full bg-[#18181b] border border-pink-500/50 text-white p-2 text-xs rounded font-mono">
+              <option value="0">000 Planet Phatt</option>
+              <option value="1">001 Big Ol' Sub Bass</option>
+              <option value="2">002 East Coast Boom Bass</option>
+              <option value="3">003 G-Funk Whistle Lead</option>
+              <option value="4">004 R&B Velvet Tines</option>
+              <option value="5">005 Street Preacher Organ</option>
+              <option value="6">006 West Coast Wah Clav</option>
+              <option value="7">007 Phatt Brass Stabs</option>
+              <option value="8">008 808 Sub Drop</option>
+              <option value="9">009 90s Boom Bap Kit</option>
+              <option value="10">010 Trap & Dirty South Kit</option>
+              <option value="11">011 Old School Rhodes Vibe</option>
+              <option value="12">012 Vinyl Scratch & Pluck</option>
+              <option value="13">013 Slow Jam Velvet Strings</option>
+              <option value="14">014 Soul Jazz Flute</option>
+              <option value="15">015 Wah Muted Guitar Chops</option>
+              <option value="16">016 Talkbox Electro Lead</option>
+              <option value="17">017 Dark Boom Bap Piano</option>
+              <option value="18">018 Phatt Moog Solo</option>
+              <option value="19">019 Nu Soul Warm Chords</option>
+              <option value="20">020 Phatt Urban Scratch Kit</option>
+            </select>
+          </div>
+          <div class="lg:col-span-6 bg-[#831843] p-4 rounded border border-pink-700 space-y-2">
+            <span class="text-xs uppercase font-bold text-pink-200">Live SysEx Telemetry (Planet Phatt Product ID 0x07)</span>
+            <div class="bg-black/80 p-2 text-pink-300 font-mono text-xs rounded border border-pink-600/60 break-all" id="planetphatt-sysex-hex">
+              F0 18 07 00 01 10 00 C3 00 F7
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW: E-MU PLANET EARTH -->
+    <section id="view-planetearth" class="hidden space-y-4">
+      <div class="bg-[#0f766e] border-t-4 border-[#2dd4bf] p-4 shadow-2xl relative rounded border border-teal-800">
+        <div class="flex flex-col lg:flex-row items-center justify-between gap-4 pb-4 border-b border-teal-800">
+          <div class="flex items-center gap-4">
+            <div class="bg-[#115e59] px-4 py-2 border border-teal-700 shadow-inner">
+              <h2 class="text-2xl font-black tracking-widest text-white">E-MU <span class="text-teal-200 font-light">PLANET EARTH</span></h2>
+              <span class="text-[10px] tracking-widest text-teal-200 uppercase font-semibold">World Expedition • 64-Voice World Sound Module • 50 Z-Plane Filters</span>
+            </div>
+            <div class="hidden sm:block text-xs font-mono text-teal-100">
+              <div>CHASSIS: <span class="text-white font-semibold">Greenish-Blue / Teal Faceplate</span></div>
+              <div>CONTROLS: <span class="text-black bg-teal-200 px-1 py-0.5 rounded font-bold">Black Buttons & Knobs</span></div>
+            </div>
+          </div>
+
+          <!-- Luminous Turquoise 2x24 LCD Display -->
+          <div class="bg-[#042f2e] border-4 border-[#021a19] p-3 shadow-inner rounded-sm w-full lg:w-96">
+            <div class="font-lcd text-xl text-teal-300 tracking-widest leading-none drop-shadow-[0_0_6px_rgba(45,212,191,0.8)]">
+              <div class="flex justify-between">
+                <span id="planetearth-lcd-line1">000 World Expedition</span>
+                <span class="text-xs bg-teal-950 px-1 py-0.5 rounded text-teal-200">64V</span>
+              </div>
+              <div class="flex justify-between text-base mt-1 text-teal-200">
+                <span id="planetearth-lcd-line2">Fc:205 Q:05 WorldReverb:35</span>
+                <span class="text-xs text-teal-400">P19 ONLINE</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-2">
+            <button onclick="auditionPlanetEarth()" class="bg-[#18181b] hover:bg-black text-teal-300 border border-teal-400 text-xs px-3 py-2 font-bold rounded shadow transition flex items-center gap-1.5">
+              <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              Audition World Sitar
+            </button>
+            <button onclick="switchView('dashboard')" class="bg-teal-950 hover:bg-teal-900 text-teal-100 text-xs px-3 py-2 rounded border border-teal-700">
+              Exit to Hub
+            </button>
+          </div>
+        </div>
+
+        <!-- 4 Real-Time Black Controller Knobs with Teal Ring -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-4">
+          <div class="bg-[#115e59] p-3 rounded border border-teal-700 space-y-2 text-center">
+            <span class="text-[11px] font-mono text-teal-100 uppercase block font-semibold">Knob A: Z-Plane Cutoff</span>
+            <div class="flex justify-center py-2">
+              <div class="w-14 h-14 rounded-full bg-gradient-to-b from-[#27272a] via-[#18181b] to-[#09090b] border-2 border-teal-400 shadow-lg flex items-center justify-center relative cursor-pointer group">
+                <div class="w-1 h-5 bg-teal-300 rounded-full absolute top-1.5 transition-transform origin-bottom" id="knob-pearth-cutoff-rot" style="transform: rotate(40deg);"></div>
+                <div class="w-3 h-3 rounded-full bg-teal-800"></div>
+              </div>
+            </div>
+            <input type="range" id="pearth-cutoff" min="0" max="255" value="205" oninput="updatePlanetEarthParam('cutoff', this.value)" class="w-full accent-teal-400 cursor-pointer">
+            <div class="flex justify-between text-[10px] font-mono text-teal-200">
+              <span>0</span><span id="val-pearth-cutoff" class="text-white font-bold">205</span><span>255</span>
+            </div>
+          </div>
+
+          <div class="bg-[#115e59] p-3 rounded border border-teal-700 space-y-2 text-center">
+            <span class="text-[11px] font-mono text-teal-100 uppercase block font-semibold">Knob B: Resonance</span>
+            <div class="flex justify-center py-2">
+              <div class="w-14 h-14 rounded-full bg-gradient-to-b from-[#27272a] via-[#18181b] to-[#09090b] border-2 border-teal-400 shadow-lg flex items-center justify-center relative cursor-pointer group">
+                <div class="w-1 h-5 bg-teal-300 rounded-full absolute top-1.5 transition-transform origin-bottom" id="knob-pearth-res-rot" style="transform: rotate(-15deg);"></div>
+                <div class="w-3 h-3 rounded-full bg-teal-800"></div>
+              </div>
+            </div>
+            <input type="range" id="pearth-res" min="0" max="15" value="5" oninput="updatePlanetEarthParam('res', this.value)" class="w-full accent-teal-400 cursor-pointer">
+            <div class="flex justify-between text-[10px] font-mono text-teal-200">
+              <span>0</span><span id="val-pearth-res" class="text-white font-bold">5</span><span>15</span>
+            </div>
+          </div>
+
+          <div class="bg-[#115e59] p-3 rounded border border-teal-700 space-y-2 text-center">
+            <span class="text-[11px] font-mono text-teal-100 uppercase block font-semibold">Knob C: World Reverb Send</span>
+            <div class="flex justify-center py-2">
+              <div class="w-14 h-14 rounded-full bg-gradient-to-b from-[#27272a] via-[#18181b] to-[#09090b] border-2 border-teal-400 shadow-lg flex items-center justify-center relative cursor-pointer group">
+                <div class="w-1 h-5 bg-teal-300 rounded-full absolute top-1.5 transition-transform origin-bottom" id="knob-pearth-reverb-rot" style="transform: rotate(-30deg);"></div>
+                <div class="w-3 h-3 rounded-full bg-teal-800"></div>
+              </div>
+            </div>
+            <input type="range" id="pearth-reverb" min="0" max="100" value="35" oninput="updatePlanetEarthParam('reverb', this.value)" class="w-full accent-teal-400 cursor-pointer">
+            <div class="flex justify-between text-[10px] font-mono text-teal-200">
+              <span>0%</span><span id="val-pearth-reverb" class="text-white font-bold">35%</span><span>100%</span>
+            </div>
+          </div>
+
+          <div class="bg-[#115e59] p-3 rounded border border-teal-700 space-y-2 text-center">
+            <span class="text-[11px] font-mono text-teal-100 uppercase block font-semibold">Knob D: Attack Time</span>
+            <div class="flex justify-center py-2">
+              <div class="w-14 h-14 rounded-full bg-gradient-to-b from-[#27272a] via-[#18181b] to-[#09090b] border-2 border-teal-400 shadow-lg flex items-center justify-center relative cursor-pointer group">
+                <div class="w-1 h-5 bg-teal-300 rounded-full absolute top-1.5 transition-transform origin-bottom" id="knob-pearth-attack-rot" style="transform: rotate(-80deg);"></div>
+                <div class="w-3 h-3 rounded-full bg-teal-800"></div>
+              </div>
+            </div>
+            <input type="range" id="pearth-attack" min="0" max="127" value="4" oninput="updatePlanetEarthParam('attack', this.value)" class="w-full accent-teal-400 cursor-pointer">
+            <div class="flex justify-between text-[10px] font-mono text-teal-200">
+              <span>0ms</span><span id="val-pearth-attack" class="text-white font-bold">4ms</span><span>127</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Presets and SysEx Telemetry -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-4 mt-4">
+          <div class="lg:col-span-6 bg-[#115e59] p-4 rounded border border-teal-700 space-y-2">
+            <span class="text-xs uppercase font-bold text-teal-100">World Expedition ROM Presets</span>
+            <select id="pearth-preset-select" onchange="selectPlanetEarthPreset(this.value)" class="w-full bg-[#042f2e] border border-teal-500/50 text-white p-2 text-xs rounded font-mono">
+              <option value="0">000 World Expedition</option>
+              <option value="1">001 Silk Road Guzheng</option>
+              <option value="2">002 Celtic Harp & Low Flute</option>
+              <option value="3">003 Tabla Beats & Dhol</option>
+              <option value="4">004 African Kalimba Thumb</option>
+              <option value="5">005 Balinese Gamelan Gong</option>
+              <option value="6">006 Sitar Dreams Raga</option>
+              <option value="7">007 Andean Pan Flute Chiff</option>
+              <option value="8">008 Trinidad Steel Drum</option>
+              <option value="9">009 Shakuhachi Mountain Mist</option>
+              <option value="10">010 Australian Didgeridoo Drone</option>
+              <option value="11">011 Middle East Oud & Dumbek</option>
+              <option value="12">012 Japanese Koto Ensemble</option>
+              <option value="13">013 Rio Carnival Samba Kit</option>
+              <option value="14">014 Highland Bagpipes & Drone</option>
+              <option value="15">015 World Percussion Shakers</option>
+              <option value="16">016 Tibetan Singing Bowl</option>
+              <option value="17">017 Celtic Fiddle & Whistle</option>
+              <option value="18">018 Moroccan Ney Flute</option>
+              <option value="19">019 Taiko Drums Thunder</option>
+              <option value="20">020 Amazon Rain Forest Mood</option>
+            </select>
+          </div>
+          <div class="lg:col-span-6 bg-[#115e59] p-4 rounded border border-teal-700 space-y-2">
+            <span class="text-xs uppercase font-bold text-teal-200">Live SysEx Telemetry (Planet Earth Model 0x06)</span>
+            <div class="bg-black/80 p-2 text-teal-300 font-mono text-xs rounded border border-teal-600/60 break-all" id="planetearth-sysex-hex">
+              F0 18 0F 00 55 01 02 00 03 CD 00 F7
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW: E-MU ORBIT-3 -->
+    <section id="view-orbit3" class="hidden space-y-4">
+      <div class="bg-[#facc15] border-t-4 border-[#ca8a04] p-4 shadow-2xl relative rounded border border-yellow-600">
+        <div class="flex flex-col lg:flex-row items-center justify-between gap-4 pb-4 border-b border-yellow-600">
+          <div class="flex items-center gap-4">
+            <div class="bg-[#ca8a04] px-4 py-2 border border-yellow-700 shadow-inner">
+              <h2 class="text-2xl font-black tracking-widest text-black">E-MU <span class="text-white font-normal">ORBIT-3</span></h2>
+              <span class="text-[10px] tracking-widest text-black uppercase font-bold">128-Voice Flagship Dance Module • Beat Garden & Techno Yard</span>
+            </div>
+            <div class="hidden sm:block text-xs font-mono text-zinc-900">
+              <div>CHASSIS: <span class="text-black font-extrabold">Neon Yellow Faceplate</span></div>
+              <div>CONTROLS: <span class="text-white bg-black px-1 py-0.5 rounded font-bold">Jet Black Buttons</span></div>
+            </div>
+          </div>
+
+          <!-- High-Contrast Green Backlit 2x24 LCD Display -->
+          <div class="bg-[#14532d] border-4 border-[#052e16] p-3 shadow-inner rounded-sm w-full lg:w-96">
+            <div class="font-lcd text-xl text-lime-300 tracking-widest leading-none drop-shadow-[0_0_6px_rgba(163,230,53,0.8)]">
+              <div class="flex justify-between">
+                <span id="orbit3-lcd-line1">000 Orbit-3 Super Dance</span>
+                <span class="text-xs bg-lime-950 px-1 py-0.5 rounded text-lime-200">128V</span>
+              </div>
+              <div class="flex justify-between text-base mt-1 text-lime-200">
+                <span id="orbit3-lcd-line2">Fc:230 Q:09 Delay:45 BPM:138</span>
+                <span class="text-xs text-lime-400">P20 ONLINE</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-2">
+            <button onclick="auditionOrbit3()" class="bg-black hover:bg-zinc-900 text-yellow-300 border border-yellow-400 text-xs px-3 py-2 font-bold rounded shadow transition flex items-center gap-1.5">
+              <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              Audition Papen Lead
+            </button>
+            <button onclick="switchView('dashboard')" class="bg-yellow-800 hover:bg-yellow-900 text-yellow-100 text-xs px-3 py-2 rounded border border-yellow-700">
+              Exit to Hub
+            </button>
+          </div>
+        </div>
+
+        <!-- 4 Jet Black Encoders with Yellow Accent -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-4">
+          <div class="bg-[#ca8a04] p-3 rounded border border-yellow-600 space-y-2 text-center">
+            <span class="text-[11px] font-mono text-black uppercase block font-extrabold">Knob A: Z-Plane Cutoff</span>
+            <div class="flex justify-center py-2">
+              <div class="w-14 h-14 rounded-full bg-gradient-to-b from-[#27272a] via-[#18181b] to-[#09090b] border-2 border-yellow-400 shadow-lg flex items-center justify-center relative cursor-pointer group">
+                <div class="w-1 h-5 bg-yellow-400 rounded-full absolute top-1.5 transition-transform origin-bottom" id="knob-orbit3-cutoff-rot" style="transform: rotate(60deg);"></div>
+                <div class="w-3 h-3 rounded-full bg-zinc-700"></div>
+              </div>
+            </div>
+            <input type="range" id="orbit3-cutoff" min="0" max="255" value="230" oninput="updateOrbit3Param('cutoff', this.value)" class="w-full accent-black cursor-pointer">
+            <div class="flex justify-between text-[10px] font-mono text-black font-bold">
+              <span>0</span><span id="val-orbit3-cutoff">230</span><span>255</span>
+            </div>
+          </div>
+
+          <div class="bg-[#ca8a04] p-3 rounded border border-yellow-600 space-y-2 text-center">
+            <span class="text-[11px] font-mono text-black uppercase block font-extrabold">Knob B: Resonance</span>
+            <div class="flex justify-center py-2">
+              <div class="w-14 h-14 rounded-full bg-gradient-to-b from-[#27272a] via-[#18181b] to-[#09090b] border-2 border-yellow-400 shadow-lg flex items-center justify-center relative cursor-pointer group">
+                <div class="w-1 h-5 bg-yellow-400 rounded-full absolute top-1.5 transition-transform origin-bottom" id="knob-orbit3-res-rot" style="transform: rotate(25deg);"></div>
+                <div class="w-3 h-3 rounded-full bg-zinc-700"></div>
+              </div>
+            </div>
+            <input type="range" id="orbit3-res" min="0" max="15" value="9" oninput="updateOrbit3Param('res', this.value)" class="w-full accent-black cursor-pointer">
+            <div class="flex justify-between text-[10px] font-mono text-black font-bold">
+              <span>0</span><span id="val-orbit3-res">9</span><span>15</span>
+            </div>
+          </div>
+
+          <div class="bg-[#ca8a04] p-3 rounded border border-yellow-600 space-y-2 text-center">
+            <span class="text-[11px] font-mono text-black uppercase block font-extrabold">Knob C: Tempo Delay Send</span>
+            <div class="flex justify-center py-2">
+              <div class="w-14 h-14 rounded-full bg-gradient-to-b from-[#27272a] via-[#18181b] to-[#09090b] border-2 border-yellow-400 shadow-lg flex items-center justify-center relative cursor-pointer group">
+                <div class="w-1 h-5 bg-yellow-400 rounded-full absolute top-1.5 transition-transform origin-bottom" id="knob-orbit3-delay-rot" style="transform: rotate(-15deg);"></div>
+                <div class="w-3 h-3 rounded-full bg-zinc-700"></div>
+              </div>
+            </div>
+            <input type="range" id="orbit3-delay" min="0" max="100" value="45" oninput="updateOrbit3Param('delay', this.value)" class="w-full accent-black cursor-pointer">
+            <div class="flex justify-between text-[10px] font-mono text-black font-bold">
+              <span>0%</span><span id="val-orbit3-delay">45%</span><span>100%</span>
+            </div>
+          </div>
+
+          <div class="bg-[#ca8a04] p-3 rounded border border-yellow-600 space-y-2 text-center">
+            <span class="text-[11px] font-mono text-black uppercase block font-extrabold">Knob D: Beats / Arp BPM</span>
+            <div class="flex justify-center py-2">
+              <div class="w-14 h-14 rounded-full bg-gradient-to-b from-[#27272a] via-[#18181b] to-[#09090b] border-2 border-yellow-400 shadow-lg flex items-center justify-center relative cursor-pointer group">
+                <div class="w-1 h-5 bg-yellow-400 rounded-full absolute top-1.5 transition-transform origin-bottom" id="knob-orbit3-bpm-rot" style="transform: rotate(20deg);"></div>
+                <div class="w-3 h-3 rounded-full bg-zinc-700"></div>
+              </div>
+            </div>
+            <input type="range" id="orbit3-bpm" min="40" max="240" value="138" oninput="updateOrbit3Param('bpm', this.value)" class="w-full accent-black cursor-pointer">
+            <div class="flex justify-between text-[10px] font-mono text-black font-bold">
+              <span>40</span><span id="val-orbit3-bpm">138 BPM</span><span>240</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Presets and SysEx Telemetry -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-4 mt-4">
+          <div class="lg:col-span-6 bg-[#ca8a04] p-4 rounded border border-yellow-600 space-y-2">
+            <span class="text-xs uppercase font-black text-black">Beat Garden & Techno Yard Presets</span>
+            <select id="orbit3-preset-select" onchange="selectOrbit3Preset(this.value)" class="w-full bg-[#18181b] border border-yellow-400 text-yellow-300 p-2 text-xs rounded font-mono">
+              <option value="0">000 Orbit-3 Super Dance Anthem</option>
+              <option value="1">001 Beat Garden Papen Lead</option>
+              <option value="2">002 Trance Screamer Z-Plane</option>
+              <option value="3">003 Papen Acid TB Squawk</option>
+              <option value="4">004 Hardcore Gabber Thunder Kick</option>
+              <option value="5">005 Eurodance 90s Chord Stab</option>
+              <option value="6">006 Super Saw Hyperspace Sweep</option>
+              <option value="7">007 Electro Vocoder Robotic Vox</option>
+              <option value="8">008 Subterfuge Reese Drum & Bass</option>
+              <option value="9">009 Techno Yard Construction Loop</option>
+              <option value="10">010 Cyber Pluck 140 BPM Arp</option>
+              <option value="11">011 303 Resonant Distortion</option>
+              <option value="12">012 Ambient Chill Space Station</option>
+              <option value="13">013 Massive Drop 808 Sub</option>
+              <option value="14">014 Rotterdam Rave Stab</option>
+              <option value="15">015 Club Nu NRG Electro Kit</option>
+              <option value="16">016 Dark Step Jungle Sub</option>
+              <option value="17">017 Psy-Trance Sonic Spiral</option>
+              <option value="18">018 Goa Sun Reso Bell</option>
+              <option value="19">019 Tech House Minimal Groove</option>
+              <option value="20">020 Modular Chaos Z-Plane Filter</option>
+            </select>
+          </div>
+          <div class="lg:col-span-6 bg-[#ca8a04] p-4 rounded border border-yellow-600 space-y-2">
+            <span class="text-xs uppercase font-black text-black">Live SysEx Telemetry (Orbit-3 Model 0x11)</span>
+            <div class="bg-black/90 p-2 text-yellow-300 font-mono text-xs rounded border border-yellow-400 break-all" id="orbit3-sysex-hex">
+              F0 18 0F 00 55 01 02 00 03 E6 00 F7
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW: E-MU ORBIT 9090 -->
+    <section id="view-orbit9090" class="hidden space-y-4">
+      <div class="bg-[#ca8a04] border-t-4 border-[#eab308] p-4 shadow-2xl relative rounded border border-yellow-700">
+        <div class="flex flex-col lg:flex-row items-center justify-between gap-4 pb-4 border-b border-yellow-700">
+          <div class="flex items-center gap-4">
+            <div class="bg-[#a16207] px-4 py-2 border border-yellow-800 shadow-inner">
+              <h2 class="text-2xl font-black tracking-widest text-white italic">E-MU <span class="text-yellow-200 not-italic font-bold">ORBIT 9090</span></h2>
+              <span class="text-[10px] tracking-widest text-yellow-100 uppercase font-semibold">The Dance Planet • 32-Voice 1996 Classic Dance Module • TR-909 & TB-303</span>
+            </div>
+            <div class="hidden sm:block text-xs font-mono text-yellow-100">
+              <div>CHASSIS: <span class="text-white font-bold">Golden Yellow 1U Faceplate</span></div>
+              <div>CONTROLS: <span class="text-white bg-black px-1 py-0.5 rounded font-bold">Black Tactile Buttons</span></div>
+            </div>
+          </div>
+
+          <!-- Classic Retro 2x16 Green LCD Display -->
+          <div class="bg-[#064e3b] border-4 border-[#022c22] p-3 shadow-inner rounded-sm w-full lg:w-96">
+            <div class="font-lcd text-xl text-green-300 tracking-widest leading-none drop-shadow-[0_0_6px_rgba(74,222,128,0.8)]">
+              <div class="flex justify-between">
+                <span id="orbit9090-lcd-line1">000 Planet Dance 9090</span>
+                <span class="text-xs bg-green-950 px-1 py-0.5 rounded text-green-200">32V</span>
+              </div>
+              <div class="flex justify-between text-base mt-1 text-green-200">
+                <span id="orbit9090-lcd-line2">Fc:215 Q:08 Beats:01 BPM:132</span>
+                <span class="text-xs text-green-400">P21 ONLINE</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-2">
+            <button onclick="auditionOrbit9090()" class="bg-[#18181b] hover:bg-black text-yellow-300 border border-yellow-500 text-xs px-3 py-2 font-bold rounded shadow transition flex items-center gap-1.5">
+              <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              Audition 909 Dance Beat
+            </button>
+            <button onclick="switchView('dashboard')" class="bg-yellow-950 hover:bg-yellow-900 text-yellow-100 text-xs px-3 py-2 rounded border border-yellow-800">
+              Exit to Hub
+            </button>
+          </div>
+        </div>
+
+        <!-- Controls: Cutoff, Resonance, Beats, Tempo -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-4">
+          <div class="bg-[#a16207] p-3 rounded border border-yellow-800 space-y-2 text-center">
+            <span class="text-[11px] font-mono text-yellow-100 uppercase block font-semibold">Filter Cutoff</span>
+            <div class="flex justify-center py-2">
+              <div class="w-14 h-14 rounded-full bg-gradient-to-b from-[#27272a] via-[#18181b] to-[#09090b] border-2 border-yellow-400 shadow-lg flex items-center justify-center relative cursor-pointer group">
+                <div class="w-1 h-5 bg-yellow-400 rounded-full absolute top-1.5 transition-transform origin-bottom" id="knob-orbit9090-cutoff-rot" style="transform: rotate(45deg);"></div>
+                <div class="w-3 h-3 rounded-full bg-zinc-700"></div>
+              </div>
+            </div>
+            <input type="range" id="orbit9090-cutoff" min="0" max="255" value="215" oninput="updateOrbit9090Param('cutoff', this.value)" class="w-full accent-black cursor-pointer">
+            <div class="flex justify-between text-[10px] font-mono text-yellow-100 font-bold">
+              <span>0</span><span id="val-orbit9090-cutoff">215</span><span>255</span>
+            </div>
+          </div>
+
+          <div class="bg-[#a16207] p-3 rounded border border-yellow-800 space-y-2 text-center">
+            <span class="text-[11px] font-mono text-yellow-100 uppercase block font-semibold">Filter Resonance</span>
+            <div class="flex justify-center py-2">
+              <div class="w-14 h-14 rounded-full bg-gradient-to-b from-[#27272a] via-[#18181b] to-[#09090b] border-2 border-yellow-400 shadow-lg flex items-center justify-center relative cursor-pointer group">
+                <div class="w-1 h-5 bg-yellow-400 rounded-full absolute top-1.5 transition-transform origin-bottom" id="knob-orbit9090-res-rot" style="transform: rotate(15deg);"></div>
+                <div class="w-3 h-3 rounded-full bg-zinc-700"></div>
+              </div>
+            </div>
+            <input type="range" id="orbit9090-res" min="0" max="15" value="8" oninput="updateOrbit9090Param('res', this.value)" class="w-full accent-black cursor-pointer">
+            <div class="flex justify-between text-[10px] font-mono text-yellow-100 font-bold">
+              <span>0</span><span id="val-orbit9090-res">8</span><span>15</span>
+            </div>
+          </div>
+
+          <div class="bg-[#a16207] p-3 rounded border border-yellow-800 space-y-2 text-center">
+            <span class="text-[11px] font-mono text-yellow-100 uppercase block font-semibold">Beats Mode Pattern</span>
+            <div class="flex justify-center py-2">
+              <div class="w-14 h-14 rounded-full bg-gradient-to-b from-[#27272a] via-[#18181b] to-[#09090b] border-2 border-yellow-400 shadow-lg flex items-center justify-center relative cursor-pointer group">
+                <div class="w-1 h-5 bg-yellow-400 rounded-full absolute top-1.5 transition-transform origin-bottom" id="knob-orbit9090-groove-rot" style="transform: rotate(-100deg);"></div>
+                <div class="w-3 h-3 rounded-full bg-zinc-700"></div>
+              </div>
+            </div>
+            <input type="range" id="orbit9090-groove" min="0" max="100" value="1" oninput="updateOrbit9090Param('groove', this.value)" class="w-full accent-black cursor-pointer">
+            <div class="flex justify-between text-[10px] font-mono text-yellow-100 font-bold">
+              <span>Off</span><span id="val-orbit9090-groove">Pattern 01</span><span>100</span>
+            </div>
+          </div>
+
+          <div class="bg-[#a16207] p-3 rounded border border-yellow-800 space-y-2 text-center">
+            <span class="text-[11px] font-mono text-yellow-100 uppercase block font-semibold">Beats Tempo (BPM)</span>
+            <div class="flex justify-center py-2">
+              <div class="w-14 h-14 rounded-full bg-gradient-to-b from-[#27272a] via-[#18181b] to-[#09090b] border-2 border-yellow-400 shadow-lg flex items-center justify-center relative cursor-pointer group">
+                <div class="w-1 h-5 bg-yellow-400 rounded-full absolute top-1.5 transition-transform origin-bottom" id="knob-orbit9090-tempo-rot" style="transform: rotate(10deg);"></div>
+                <div class="w-3 h-3 rounded-full bg-zinc-700"></div>
+              </div>
+            </div>
+            <input type="range" id="orbit9090-tempo" min="50" max="200" value="132" oninput="updateOrbit9090Param('tempo', this.value)" class="w-full accent-black cursor-pointer">
+            <div class="flex justify-between text-[10px] font-mono text-yellow-100 font-bold">
+              <span>50</span><span id="val-orbit9090-tempo">132 BPM</span><span>200</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Presets and SysEx Telemetry -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-4 mt-4">
+          <div class="lg:col-span-6 bg-[#a16207] p-4 rounded border border-yellow-800 space-y-2">
+            <span class="text-xs uppercase font-bold text-yellow-100">Orbit 9090 Dance Planet Presets</span>
+            <select id="orbit9090-preset-select" onchange="selectOrbit9090Preset(this.value)" class="w-full bg-[#18181b] border border-yellow-500/60 text-white p-2 text-xs rounded font-mono">
+              <option value="0">000 Planet Dance 9090</option>
+              <option value="1">001 Acid TB-303 Resonance</option>
+              <option value="2">002 909 Pumpin' Dance Beat</option>
+              <option value="3">003 808 Sub Boom Electro</option>
+              <option value="4">004 Rave Stab 96 Anthem</option>
+              <option value="5">005 Organ House Classic Groove</option>
+              <option value="6">006 Hoover Alpha Juno Lead</option>
+              <option value="7">007 Deep Reese DnB Bass</option>
+              <option value="8">008 Cyber Trance Filter Sweep</option>
+              <option value="9">009 Pizzicato Dance Energy</option>
+              <option value="10">010 Jungle Breakbeat 160</option>
+              <option value="11">011 Happy Hardcore Piano Hook</option>
+              <option value="12">012 Filtered Disco French Touch</option>
+              <option value="13">013 Analog Rez Square Bass</option>
+              <option value="14">014 Dance Floor Chime Bell</option>
+              <option value="15">015 Industrial Metallic Perc</option>
+              <option value="16">016 Euro Beat 909 Kick</option>
+              <option value="17">017 Ambient Chill Galaxy Pad</option>
+              <option value="18">018 Voco Dance Robotic Vox</option>
+              <option value="19">019 Sub Bass Floor Shaker</option>
+              <option value="20">020 Orbit Finale Super Arp</option>
+            </select>
+          </div>
+          <div class="lg:col-span-6 bg-[#a16207] p-4 rounded border border-yellow-800 space-y-2">
+            <span class="text-xs uppercase font-bold text-yellow-200">Live SysEx Telemetry (Orbit 9090 Product ID 0x05)</span>
+            <div class="bg-black/80 p-2 text-yellow-300 font-mono text-xs rounded border border-yellow-600/60 break-all" id="orbit9090-sysex-hex">
+              F0 18 05 00 01 10 00 D7 00 F7
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <!-- VIEW 3: LIBRARIAN & BANK MANAGER -->
     <section id="view-librarian" class="hidden space-y-4">
@@ -7625,7 +8505,7 @@
     // View Switching
     function switchView(viewName) {
       const topViews = ['dashboard', 'librarian', 'midi'];
-      const synthViews = ['editor', 'ax60', 'audity', 'b3', 'carnaval', 'emax', 'emax2', 'xl1', 'xl7', 'xk6', 'virtuoso', 'vintagepro', 'vintagekeys', 'proteus2000', 'proteus2500', 'sp1200'];
+      const synthViews = ['editor', 'ax60', 'audity', 'b3', 'carnaval', 'emax', 'emax2', 'xl1', 'xl7', 'xk6', 'virtuoso', 'vintagepro', 'vintagekeys', 'proteus2000', 'proteus2500', 'sp1200', 'proteus1000', 'planetphatt', 'planetearth', 'orbit3', 'orbit9090'];
       const allViews = [...topViews, ...synthViews];
 
       allViews.forEach(v => {
@@ -10822,6 +11702,264 @@
         osc.stop(ctx.currentTime + 1.2);
       } catch(e) {
         console.log("Audio not allowed without gesture", e);
+      }
+    }
+
+    // --- PROTEUS 1000 INTERACTIVITY ---
+    function updateProteus1000Param(param, val) {
+      document.getElementById('val-p1000-' + param).innerText = (param === 'attack') ? (val + 'ms') : val;
+      const knobRot = document.getElementById(`knob-p1000-${param}-rot`);
+      if (knobRot) {
+        let maxVal = (param === 'cutoff') ? 255 : (param === 'res' ? 15 : 127);
+        let deg = -135 + (val / maxVal) * 270;
+        knobRot.style.transform = `rotate(${deg}deg)`;
+      }
+      const cutoff = document.getElementById('p1000-cutoff').value;
+      const res = document.getElementById('p1000-res').value;
+      const morph = document.getElementById('p1000-morph').value;
+      document.getElementById('proteus1000-lcd-line2').innerText = `Fc:${cutoff.padStart(3, '0')} Q:${res.padStart(2, '0')} Morph:${morph}`;
+
+      const hexVal = parseInt(val).toString(16).padStart(2, '0').toUpperCase();
+      let paramIdHex = "00 03";
+      if (param === 'res') paramIdHex = "01 03";
+      if (param === 'morph') paramIdHex = "02 03";
+      if (param === 'attack') paramIdHex = "00 04";
+      document.getElementById('proteus1000-sysex-hex').innerText = `F0 18 0F 00 55 01 02 ${paramIdHex} ${hexVal} 00 F7`;
+    }
+
+    function selectProteus1000Preset(idx) {
+      const sel = document.getElementById('p1000-preset-select');
+      const text = sel.options[sel.selectedIndex].text;
+      document.getElementById('proteus1000-lcd-line1').innerText = `U0: ${text}`;
+      document.getElementById('dashboard-proteus1000-patch').innerText = text;
+    }
+
+    function auditionProteus1000() {
+      playKeyNote(60);
+    }
+
+    // --- PLANET PHATT INTERACTIVITY ---
+    function updatePlanetPhattParam(param, val) {
+      document.getElementById('val-pphatt-' + param).innerText = val;
+      const knobRot = document.getElementById(`knob-pphatt-${param}-rot`);
+      if (knobRot) {
+        let maxVal = (param === 'cutoff') ? 255 : (param === 'res' ? 15 : 127);
+        let deg = -135 + (val / maxVal) * 270;
+        knobRot.style.transform = `rotate(${deg}deg)`;
+      }
+      const cutoff = document.getElementById('pphatt-cutoff').value;
+      const res = document.getElementById('pphatt-res').value;
+      const sub = document.getElementById('pphatt-sub').value;
+      document.getElementById('planetphatt-lcd-line2').innerText = `Sub:${sub} Cutoff:${cutoff} Q:${res.padStart(2, '0')}`;
+
+      const hexVal = parseInt(val).toString(16).padStart(2, '0').toUpperCase();
+      let paramHex = "10";
+      if (param === 'res') paramHex = "11";
+      if (param === 'sub') paramHex = "28";
+      if (param === 'chorus') paramHex = "1E";
+      document.getElementById('planetphatt-sysex-hex').innerText = `F0 18 07 00 01 ${paramHex} 00 ${hexVal} 00 F7`;
+    }
+
+    function selectPlanetPhattPreset(idx) {
+      const sel = document.getElementById('pphatt-preset-select');
+      const text = sel.options[sel.selectedIndex].text;
+      document.getElementById('planetphatt-lcd-line1').innerText = text;
+      document.getElementById('dashboard-planetphatt-patch').innerText = text;
+    }
+
+    function auditionPlanetPhatt() {
+      try {
+        const ctx = new (window.AudioContext || window.webkitAudioContext)();
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+        osc.frequency.setValueAtTime(95, ctx.currentTime);
+        osc.frequency.exponentialRampToValueAtTime(32, ctx.currentTime + 0.6);
+        gain.gain.setValueAtTime(0.8, ctx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.9);
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.start();
+        osc.stop(ctx.currentTime + 0.95);
+      } catch(e) {
+        playKeyNote(36);
+      }
+    }
+
+    // --- PLANET EARTH INTERACTIVITY ---
+    function updatePlanetEarthParam(param, val) {
+      document.getElementById('val-pearth-' + param).innerText = (param === 'attack' ? (val + 'ms') : (param === 'reverb' ? (val + '%') : val));
+      const knobRot = document.getElementById(`knob-pearth-${param}-rot`);
+      if (knobRot) {
+        let maxVal = (param === 'cutoff') ? 255 : (param === 'res' ? 15 : (param === 'reverb' ? 100 : 127));
+        let deg = -135 + (val / maxVal) * 270;
+        knobRot.style.transform = `rotate(${deg}deg)`;
+      }
+      const cutoff = document.getElementById('pearth-cutoff').value;
+      const res = document.getElementById('pearth-res').value;
+      const rev = document.getElementById('pearth-reverb').value;
+      document.getElementById('planetearth-lcd-line2').innerText = `Fc:${cutoff} Q:${res.padStart(2, '0')} WorldReverb:${rev}`;
+
+      const hexVal = parseInt(val).toString(16).padStart(2, '0').toUpperCase();
+      let paramIdHex = "00 03";
+      if (param === 'res') paramIdHex = "01 03";
+      if (param === 'reverb') paramIdHex = "00 06";
+      if (param === 'attack') paramIdHex = "00 04";
+      document.getElementById('planetearth-sysex-hex').innerText = `F0 18 0F 00 55 01 02 ${paramIdHex} ${hexVal} 00 F7`;
+    }
+
+    function selectPlanetEarthPreset(idx) {
+      const sel = document.getElementById('pearth-preset-select');
+      const text = sel.options[sel.selectedIndex].text;
+      document.getElementById('planetearth-lcd-line1').innerText = text;
+      document.getElementById('dashboard-planetearth-patch').innerText = text;
+    }
+
+    function auditionPlanetEarth() {
+      try {
+        const ctx = new (window.AudioContext || window.webkitAudioContext)();
+        [58, 63, 65, 70].forEach((note, i) => {
+          setTimeout(() => {
+            const osc = ctx.createOscillator();
+            const filter = ctx.createBiquadFilter();
+            const gain = ctx.createGain();
+            const freq = 440 * Math.pow(2, (note - 69) / 12);
+            osc.frequency.setValueAtTime(freq, ctx.currentTime);
+            osc.type = 'triangle';
+            filter.type = 'bandpass';
+            filter.frequency.setValueAtTime(freq * 2.5, ctx.currentTime);
+            filter.Q.value = 5;
+            gain.gain.setValueAtTime(0.35, ctx.currentTime);
+            gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.8);
+            osc.connect(filter); filter.connect(gain); gain.connect(ctx.destination);
+            osc.start(); osc.stop(ctx.currentTime + 0.85);
+          }, i * 90);
+        });
+      } catch(e) {
+        playKeyNote(65);
+      }
+    }
+
+    // --- ORBIT-3 INTERACTIVITY ---
+    function updateOrbit3Param(param, val) {
+      document.getElementById('val-orbit3-' + param).innerText = (param === 'bpm' ? (val + ' BPM') : (param === 'delay' ? (val + '%') : val));
+      const knobRot = document.getElementById(`knob-orbit3-${param}-rot`);
+      if (knobRot) {
+        let maxVal = (param === 'cutoff') ? 255 : (param === 'res' ? 15 : (param === 'bpm' ? 240 : 100));
+        let deg = -135 + (val / maxVal) * 270;
+        knobRot.style.transform = `rotate(${deg}deg)`;
+      }
+      const cutoff = document.getElementById('orbit3-cutoff').value;
+      const res = document.getElementById('orbit3-res').value;
+      const delay = document.getElementById('orbit3-delay').value;
+      const bpm = document.getElementById('orbit3-bpm').value;
+      document.getElementById('orbit3-lcd-line2').innerText = `Fc:${cutoff} Q:${res.padStart(2, '0')} Delay:${delay} BPM:${bpm}`;
+
+      const hexVal = parseInt(val).toString(16).padStart(2, '0').toUpperCase();
+      let paramIdHex = "00 03";
+      if (param === 'res') paramIdHex = "01 03";
+      if (param === 'delay') paramIdHex = "00 06";
+      if (param === 'bpm') paramIdHex = "20 03";
+      document.getElementById('orbit3-sysex-hex').innerText = `F0 18 0F 00 55 01 02 ${paramIdHex} ${hexVal} 00 F7`;
+    }
+
+    function selectOrbit3Preset(idx) {
+      const sel = document.getElementById('orbit3-preset-select');
+      const text = sel.options[sel.selectedIndex].text;
+      document.getElementById('orbit3-lcd-line1').innerText = text;
+      document.getElementById('dashboard-orbit3-patch').innerText = text;
+    }
+
+    function auditionOrbit3() {
+      try {
+        const ctx = new (window.AudioContext || window.webkitAudioContext)();
+        [67, 70, 72, 75].forEach((note, i) => {
+          setTimeout(() => {
+            const osc = ctx.createOscillator();
+            const filter = ctx.createBiquadFilter();
+            const gain = ctx.createGain();
+            const freq = 440 * Math.pow(2, (note - 69) / 12);
+            osc.frequency.setValueAtTime(freq, ctx.currentTime);
+            osc.type = 'sawtooth';
+            filter.type = 'lowpass';
+            filter.frequency.setValueAtTime(3200, ctx.currentTime);
+            filter.frequency.exponentialRampToValueAtTime(600, ctx.currentTime + 0.3);
+            filter.Q.value = 9;
+            gain.gain.setValueAtTime(0.4, ctx.currentTime);
+            gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.35);
+            osc.connect(filter); filter.connect(gain); gain.connect(ctx.destination);
+            osc.start(); osc.stop(ctx.currentTime + 0.4);
+          }, i * 110);
+        });
+      } catch(e) {
+        playKeyNote(72);
+      }
+    }
+
+    // --- ORBIT 9090 INTERACTIVITY ---
+    function updateOrbit9090Param(param, val) {
+      if (param === 'groove') {
+        document.getElementById('val-orbit9090-groove').innerText = (val == 0 ? 'Off' : ('Pattern ' + val.padStart(2, '0')));
+      } else if (param === 'tempo') {
+        document.getElementById('val-orbit9090-tempo').innerText = val + ' BPM';
+      } else {
+        document.getElementById('val-orbit9090-' + param).innerText = val;
+      }
+      const knobRot = document.getElementById(`knob-orbit9090-${param}-rot`);
+      if (knobRot) {
+        let maxVal = (param === 'cutoff') ? 255 : (param === 'res' ? 15 : (param === 'tempo' ? 200 : 100));
+        let deg = -135 + (val / maxVal) * 270;
+        knobRot.style.transform = `rotate(${deg}deg)`;
+      }
+      const cutoff = document.getElementById('orbit9090-cutoff').value;
+      const res = document.getElementById('orbit9090-res').value;
+      const groove = document.getElementById('orbit9090-groove').value;
+      const tempo = document.getElementById('orbit9090-tempo').value;
+      document.getElementById('orbit9090-lcd-line2').innerText = `Fc:${cutoff} Q:${res.padStart(2, '0')} Beats:${groove.padStart(2, '0')} BPM:${tempo}`;
+
+      const hexVal = parseInt(val).toString(16).padStart(2, '0').toUpperCase();
+      let paramHex = "10";
+      if (param === 'res') paramHex = "11";
+      if (param === 'groove') paramHex = "32";
+      if (param === 'tempo') paramHex = "34";
+      document.getElementById('orbit9090-sysex-hex').innerText = `F0 18 05 00 01 ${paramHex} 00 ${hexVal} 00 F7`;
+    }
+
+    function selectOrbit9090Preset(idx) {
+      const sel = document.getElementById('orbit9090-preset-select');
+      const text = sel.options[sel.selectedIndex].text;
+      document.getElementById('orbit9090-lcd-line1').innerText = text;
+      document.getElementById('dashboard-orbit9090-patch').innerText = text;
+    }
+
+    function auditionOrbit9090() {
+      try {
+        const ctx = new (window.AudioContext || window.webkitAudioContext)();
+        const kickOsc = ctx.createOscillator();
+        const kickGain = ctx.createGain();
+        kickOsc.frequency.setValueAtTime(150, ctx.currentTime);
+        kickOsc.frequency.exponentialRampToValueAtTime(42, ctx.currentTime + 0.15);
+        kickGain.gain.setValueAtTime(0.8, ctx.currentTime);
+        kickGain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.4);
+        kickOsc.connect(kickGain); kickGain.connect(ctx.destination);
+        kickOsc.start(); kickOsc.stop(ctx.currentTime + 0.4);
+
+        setTimeout(() => {
+          const osc303 = ctx.createOscillator();
+          const vcf303 = ctx.createBiquadFilter();
+          const gain303 = ctx.createGain();
+          osc303.type = 'sawtooth';
+          osc303.frequency.setValueAtTime(110, ctx.currentTime);
+          vcf303.type = 'lowpass';
+          vcf303.frequency.setValueAtTime(2200, ctx.currentTime);
+          vcf303.frequency.exponentialRampToValueAtTime(250, ctx.currentTime + 0.28);
+          vcf303.Q.value = 14;
+          gain303.gain.setValueAtTime(0.5, ctx.currentTime);
+          gain303.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.35);
+          osc303.connect(vcf303); vcf303.connect(gain303); gain303.connect(ctx.destination);
+          osc303.start(); osc303.stop(ctx.currentTime + 0.38);
+        }, 120);
+      } catch(e) {
+        playKeyNote(48);
       }
     }
 

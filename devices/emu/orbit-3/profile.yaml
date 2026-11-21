@@ -1,0 +1,124 @@
+name: E-MU Orbit-3
+manufacturer: E-mu Systems, Inc.
+category: 128-Voice Flagship Dance / Electro Sound Module (64 MB Beat Garden & Techno Yard ROMs)
+release_year: 2002
+hardware:
+  form_factor: 1U 19-inch Rackmount
+  polyphony: 128
+  multitimbral_parts: 32
+  sound_memory: 64 MB Sound ROM (Beat Garden by Rob Papen + Techno Synth Construction Yard)
+  filter: 50 12-pole Z-Plane morphing resonant filters with parametric formant interpolation
+  knobs: 4 real-time multi-function controller knobs with 3-row mode selection (controlling 12 virtual parameters A-L)
+  outputs: 6 balanced analog outputs (3 stereo pairs: Main, Sub 1, Sub 2) + S/PDIF stereo digital out
+  midi_io: Dual independent MIDI In/Out/Thru ports (MIDI A and MIDI B, 32 channels)
+  chassis: Electric neon yellow anodized 1U faceplate with black knobs, tactile buttons, and high-contrast green backlit 2x24 LCD display
+midi:
+  manufacturer_id:
+  - 24
+  product_id: 15
+  model_id: 17
+  default_device_id: 0
+  bank_select:
+    msb_cc: 0
+    msb_val: 0
+    lsb_cc: 32
+    banks:
+      0: User Bank 0 / GARDN Bank 4 (Papen Leads, Acid Synths & Hooks)
+      1: User Bank 1 / GARDN Bank 5 (Trance Pads, Sweeps & Formant Arps)
+      2: User Bank 2 / TECHNO Bank 6 (Hardcore Stabs, Cyber Plucks & Subs)
+      3: User Bank 3 / TECHNO Bank 7 (Industrial Beats, Rotterdam Kicks & Loops)
+sysex:
+  header:
+  - 240
+  - 24
+  - 15
+  - '{device_id}'
+  special_editor_byte: 85
+  commands:
+    parameter_edit: 1
+    generic_editor_message: 85
+  parameter_edit_format: F0 18 0F <dev_id> 55 01 02 <param_lsb> <param_msb> <val_lsb> <val_msb> F7
+ui_theme:
+  style: hardware_chassis
+  chassis_color: '#facc15'
+  panel_color: '#eab308'
+  chassis_type: neon_yellow_dance_rack
+  knobs: black_knurled
+  knob_color: '#18181b'
+  knob_ring: '#ca8a04'
+  buttons: tactile_black
+  button_color: '#18181b'
+  button_text: '#fef08a'
+  accent_color: '#ca8a04'
+  lcd_backlight: '#14532d'
+  lcd_text: '#4ade80'
+parameters:
+- id: filter_cutoff
+  name: Z-Plane Filter Cutoff
+  page: filter
+  param_id: 384
+  type: linear
+  range:
+    min: 0
+    max: 255
+    default: 230
+    unit: semitones
+- id: filter_resonance
+  name: Filter Resonance
+  page: filter
+  param_id: 385
+  type: linear
+  range:
+    min: 0
+    max: 15
+    default: 9
+- id: amp_attack
+  name: Amp Envelope Attack
+  page: envelope
+  param_id: 388
+  type: linear
+  range:
+    min: 0
+    max: 127
+    default: 1
+    unit: ms
+- id: amp_decay
+  name: Amp Envelope Decay
+  page: envelope
+  param_id: 389
+  type: linear
+  range:
+    min: 0
+    max: 127
+    default: 55
+    unit: ms
+- id: amp_release
+  name: Amp Envelope Release
+  page: envelope
+  param_id: 391
+  type: linear
+  range:
+    min: 0
+    max: 127
+    default: 35
+    unit: ms
+- id: dance_delay_send
+  name: Tempo Sync Delay Send
+  page: effects
+  param_id: 412
+  type: linear
+  range:
+    min: 0
+    max: 100
+    default: 45
+    unit: '%'
+- id: beats_tempo
+  name: Arp / Beats BPM
+  page: tempo
+  param_id: 420
+  type: linear
+  range:
+    min: 40
+    max: 240
+    default: 138
+    unit: BPM

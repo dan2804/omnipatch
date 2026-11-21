@@ -1,0 +1,127 @@
+name: E-MU Planet Phatt
+manufacturer: E-mu Systems, Inc.
+category: 64-Voice Hip-Hop / R&B Sound Module (Classic 1U Rack)
+release_year: 1997
+hardware:
+  form_factor: 1U 19-inch Rackmount
+  polyphony: 64
+  multitimbral_parts: 16
+  sound_memory: 16 MB Hip-Hop / Rap / Urban Sound ROM (over 640 presets & drum kits)
+  filter: Dynamic lowpass resonant digital filters with real-time modulation & 32-pole filters
+  effects: Dual 24-bit stereo multi-effects processor
+  outputs: 6 polyphonic outputs (3 stereo pairs: Main, Sub 1, Sub 2)
+  chassis: Electric neon pink anodized 1U faceplate with sleek black buttons, data wheel, and retro green backlit 2x16 LCD display
+midi:
+  manufacturer_id:
+  - 24
+  product_id: 7
+  model_id: 1
+  default_device_id: 0
+  bank_select:
+    msb_cc: 0
+    msb_val: 0
+    lsb_cc: 32
+    banks:
+      0: Bank 0 (RAM User Presets 0-127)
+      1: Bank 1 (RAM User Presets 128-255)
+      2: Bank 2 (ROM Factory Presets 256-383)
+      3: Bank 3 (ROM Factory Presets 384-511)
+sysex:
+  header:
+  - 240
+  - 24
+  - 7
+  - '{device_id}'
+  special_editor_byte: 1
+  commands:
+    parameter_edit: 1
+  parameter_edit_format:
+    header:
+    - 240
+    - 24
+    - 7
+    - '{device_id}'
+    - 1
+    - '{param_lsb}'
+    - '{param_msb}'
+    - '{val_lsb}'
+    - '{val_msb}'
+    - 247
+ui_theme:
+  style: hardware_chassis
+  chassis_color: '#db2777'
+  panel_color: '#be185d'
+  chassis_type: neon_pink_hiphop_rack
+  knobs: black_knurled
+  knob_color: '#18181b'
+  knob_ring: '#475569'
+  buttons: tactile_black
+  button_color: '#18181b'
+  button_text: '#fdf2f8'
+  accent_color: '#f472b6'
+  lcd_backlight: '#064e3b'
+  lcd_text: '#34d399'
+parameters:
+- id: filter_cutoff
+  name: Filter Cutoff
+  page: filter
+  param_id: 16
+  type: linear
+  range:
+    min: 0
+    max: 255
+    default: 195
+- id: filter_resonance
+  name: Filter Resonance
+  page: filter
+  param_id: 17
+  type: linear
+  range:
+    min: 0
+    max: 15
+    default: 6
+- id: attack_time
+  name: Envelope Attack
+  page: envelope
+  param_id: 20
+  type: linear
+  range:
+    min: 0
+    max: 127
+    default: 2
+- id: decay_time
+  name: Envelope Decay
+  page: envelope
+  param_id: 21
+  type: linear
+  range:
+    min: 0
+    max: 127
+    default: 75
+- id: release_time
+  name: Envelope Release
+  page: envelope
+  param_id: 23
+  type: linear
+  range:
+    min: 0
+    max: 127
+    default: 38
+- id: chorus_amount
+  name: Chorus Amount
+  page: effects
+  param_id: 30
+  type: linear
+  range:
+    min: 0
+    max: 127
+    default: 32
+- id: sub_bass_boost
+  name: Sub Bass Boost
+  page: eq
+  param_id: 40
+  type: linear
+  range:
+    min: 0
+    max: 127
+    default: 90
