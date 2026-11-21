@@ -1,0 +1,228 @@
+name: Casio CZ-1000
+manufacturer: Casio Computer Co., Ltd.
+category: 8-Voice Phase Distortion Synthesizer (Full-sized 49-Key CZ-101)
+release_year: 1985
+hardware:
+  form_factor: "49-Key Synthesizer Keyboard"
+  polyphony: "8 voices (1-Line mode), 4 voices (2-Line mode)"
+  oscillators: "8 Phase Distortion DCOs (Dual Lines: Line 1 & Line 2)"
+  waveforms: "8 basic waveforms (Sawtooth, Square, Pulse 1-3, Double Sine, Saw-Pulse, Resonance 1-3)"
+  filters: "2 Digital Controlled Wave (DCW) filter shapers with 8-stage rate/level envelopes"
+  amplifiers: "2 Digital Controlled Amplifier (DCA) units with 8-stage rate/level envelopes"
+  modulation: "Ring Modulator (Line 1 x Line 2), Noise Modulation, Vibrato (Triangle, Saw Up, Saw Down, Square)"
+  keyboard: "49 full-sized keys with pitch bend wheel, portamento, and solo mode"
+  memory: "16 ROM Factory Presets, 16 RAM Internal Memory slots, Cartridge port (RC-10/20)"
+  chassis: "Matte industrial grey chassis with iconic colorful membrane pushbuttons in blue, yellow, and red, high-contrast 2x16 backlit LCD display"
+midi:
+  manufacturer_id:
+  - 68
+  model_id: 2
+  default_device_id: 0
+  bank_select:
+    msb_cc: 0
+    msb_val: 0
+    lsb_cc: 32
+    banks:
+      0: "Preset ROM (Factory Sounds 1-16)"
+      1: "Internal RAM (User Sounds 1-16)"
+sysex:
+  header:
+  - 240
+  - 68
+  - 0
+  - 0
+  - 112
+  commands:
+    parameter_edit: 64
+    tone_dump_request: 4
+    tone_dump: 70
+  parameter_edit_format: "F0 44 00 00 70 <dev_id> <param_id> <val_byte> F7"
+ui_theme:
+  style: hardware_chassis
+  chassis_color: '#373a40'
+  panel_color: '#2b2d32'
+  chassis_type: grey_cz_membrane_keyboard
+  accent_color: '#f59e0b'
+  buttons: tri_color_membrane
+  button_blue: '#2563eb'
+  button_yellow: '#eab308'
+  button_red: '#ef4444'
+  lcd_backlight: '#064e3b'
+  lcd_text: '#34d399'
+parameters:
+- id: line_select
+  name: Line Select Mode
+  page: master
+  param_id: 0
+  type: discrete
+  range: [0, 3]
+  options:
+  - '1'
+  - '2'
+  - 1+2'
+  - 1+1'
+- id: ring_mod
+  name: Ring Modulator
+  page: master
+  param_id: 1
+  type: discrete
+  range: [0, 1]
+  options:
+  - 'Off'
+  - 'On (Line 1 x Line 2)'
+- id: noise_mod
+  name: Noise Modulator
+  page: master
+  param_id: 2
+  type: discrete
+  range: [0, 1]
+  options:
+  - 'Off'
+  - 'On (Line 1 x Noise)'
+- id: dco1_wave1
+  name: DCO 1 First Waveform
+  page: dco1
+  param_id: 10
+  type: discrete
+  range: [1, 8]
+  options:
+  - Sawtooth
+  - Square
+  - Pulse 1
+  - Pulse 2
+  - Pulse 3
+  - Double Sine
+  - Saw-Pulse
+  - Resonance 1
+- id: dco1_wave2
+  name: DCO 1 Second Waveform
+  page: dco1
+  param_id: 11
+  type: discrete
+  range: [0, 8]
+  options:
+  - 'Off'
+  - Sawtooth
+  - Square
+  - Pulse 1
+  - Pulse 2
+  - Pulse 3
+  - Double Sine
+  - Saw-Pulse
+  - Resonance 1
+- id: dcw1_key_follow
+  name: DCW 1 Key Follow
+  page: dcw1
+  param_id: 20
+  type: linear
+  range: [0, 9]
+- id: dcw1_env_rate1
+  name: DCW 1 Envelope Step 1 Rate
+  page: dcw1
+  param_id: 21
+  type: linear
+  range: [0, 99]
+- id: dcw1_env_level1
+  name: DCW 1 Envelope Step 1 Level
+  page: dcw1
+  param_id: 22
+  type: linear
+  range: [0, 99]
+- id: dca1_key_follow
+  name: DCA 1 Key Follow
+  page: dca1
+  param_id: 30
+  type: linear
+  range: [0, 9]
+- id: dca1_env_rate1
+  name: DCA 1 Envelope Step 1 Rate
+  page: dca1
+  param_id: 31
+  type: linear
+  range: [0, 99]
+- id: dca1_env_level1
+  name: DCA 1 Envelope Step 1 Level
+  page: dca1
+  param_id: 32
+  type: linear
+  range: [0, 99]
+- id: dco2_wave1
+  name: DCO 2 First Waveform
+  page: dco2
+  param_id: 40
+  type: discrete
+  range: [1, 8]
+  options:
+  - Sawtooth
+  - Square
+  - Pulse 1
+  - Pulse 2
+  - Pulse 3
+  - Double Sine
+  - Saw-Pulse
+  - Resonance 1
+- id: dco2_detune
+  name: DCO 2 Detune (Line 2 Fine/Oct)
+  page: dco2
+  param_id: 41
+  type: linear
+  range: [-60, 60]
+- id: dcw2_env_rate1
+  name: DCW 2 Envelope Step 1 Rate
+  page: dcw2
+  param_id: 50
+  type: linear
+  range: [0, 99]
+- id: dcw2_env_level1
+  name: DCW 2 Envelope Step 1 Level
+  page: dcw2
+  param_id: 51
+  type: linear
+  range: [0, 99]
+- id: dca2_env_rate1
+  name: DCA 2 Envelope Step 1 Rate
+  page: dca2
+  param_id: 60
+  type: linear
+  range: [0, 99]
+- id: dca2_env_level1
+  name: DCA 2 Envelope Step 1 Level
+  page: dca2
+  param_id: 61
+  type: linear
+  range: [0, 99]
+- id: vibrato_wave
+  name: Vibrato Waveform
+  page: vibrato
+  param_id: 70
+  type: discrete
+  range: [0, 3]
+  options:
+  - Triangle
+  - Sawtooth Up
+  - Sawtooth Down
+  - Square
+- id: vibrato_delay
+  name: Vibrato Delay
+  page: vibrato
+  param_id: 71
+  type: linear
+  range: [0, 99]
+- id: vibrato_rate
+  name: Vibrato Rate
+  page: vibrato
+  param_id: 72
+  type: linear
+  range: [0, 99]
+- id: vibrato_depth
+  name: Vibrato Depth
+  page: vibrato
+  param_id: 73
+  type: linear
+  range: [0, 99]
+- id: portamento_time
+  name: Portamento Time
+  page: performance
+  param_id: 80
+  type: linear
+  range: [0, 99]

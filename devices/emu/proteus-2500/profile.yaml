@@ -63,70 +63,54 @@ parameters:
   page: filter
   param_id: 384
   type: linear
-  range:
-    min: 0
-    max: 255
-    default: 128
+  range: [0, 255]
+  default: 128
 - id: filter_resonance
   name: Z-Plane Filter Resonance
   page: filter
   param_id: 385
   type: linear
-  range:
-    min: 0
-    max: 15
-    default: 2
+  range: [0, 15]
+  default: 2
 - id: filter_morph
   name: Z-Plane Morph Offset
   page: filter
   param_id: 386
   type: linear
-  range:
-    min: 0
-    max: 127
-    default: 64
+  range: [0, 127]
+  default: 64
 - id: amp_attack
   name: Amplifier Envelope Attack
   page: amplifier
   param_id: 512
   type: linear
-  range:
-    min: 0
-    max: 127
-    default: 10
+  range: [0, 127]
+  default: 10
 - id: amp_decay
   name: Amplifier Envelope Decay
   page: amplifier
   param_id: 513
   type: linear
-  range:
-    min: 0
-    max: 127
-    default: 60
+  range: [0, 127]
+  default: 60
 - id: amp_release
   name: Amplifier Envelope Release
   page: amplifier
   param_id: 514
   type: linear
-  range:
-    min: 0
-    max: 127
-    default: 35
+  range: [0, 127]
+  default: 35
 - id: fx_reverb_send
   name: FX Send A (Reverb Engine)
   page: effects
   param_id: 768
   type: linear
-  range:
-    min: 0
-    max: 127
-    default: 45
+  range: [0, 127]
+  default: 45
 - id: fx_chorus_send
   name: FX Send B (Chorus/Flange Engine)
   page: effects
   param_id: 769
   type: linear
-  range:
-    min: 0
-    max: 127
-    default: 30
+  range: [0, 127]
+  default: 30

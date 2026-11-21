@@ -1,0 +1,260 @@
+name: Casio CZ-1
+manufacturer: Casio Computer Co., Ltd.
+category: Flagship 16-DCO Phase Distortion Synthesizer (Velocity & Aftertouch)
+release_year: 1986
+hardware:
+  form_factor: "61-Key Performance Keyboard"
+  polyphony: "8 voices (1-Line mode), 4 voices (2-Line mode)"
+  oscillators: "16 Phase Distortion DCOs (Dual Lines: Line 1 & Line 2)"
+  waveforms: "8 basic waveforms (Sawtooth, Square, Pulse 1-3, Double Sine, Saw-Pulse, Resonance 1-3) with dual-waveform combination per DCO"
+  filters: "2 Digital Controlled Wave (DCW) filter shapers with 8-stage rate/level envelopes"
+  amplifiers: "2 Digital Controlled Amplifier (DCA) units with 8-stage rate/level envelopes"
+  modulation: "Ring Modulator (Line 1 x Line 2), Noise Modulation, Vibrato (Triangle, Saw Up, Saw Down)"
+  keyboard: "61 full-sized keys with Velocity Sensitivity and Aftertouch (assignable to Pitch, Wave/DCW, and Amp/DCA)"
+  effects: "Built-in Stereo Analog BBD Chorus unit"
+  memory: "64 ROM Presets, 64 RAM Internal Tones, 64 Operation Memories (Split, Layer/Tone Mix, Key Transpose)"
+  chassis: "Matte black metal chassis with iconic electric blue parameter buttons, alphanumeric backlit 2x16 LCD display, dual pitch/mod wheels, and numeric entry keypad"
+midi:
+  manufacturer_id:
+  - 68
+  model_id: 3
+  default_device_id: 0
+  bank_select:
+    msb_cc: 0
+    msb_val: 0
+    lsb_cc: 32
+    banks:
+      0: "Preset Bank A (Brass & Reeds)"
+      1: "Preset Bank B (Strings, Guitars & Bass)"
+      2: "Preset Bank C (Pianos, Organs & Mallets)"
+      3: "Preset Bank D (Synth & Sound Effects)"
+sysex:
+  header:
+  - 240
+  - 68
+  - 0
+  - 0
+  - 112
+  commands:
+    parameter_edit: 64
+    tone_dump_request: 4
+    tone_dump: 70
+  parameter_edit_format: "F0 44 00 00 70 <dev_id> <param_id> <val_byte> F7"
+ui_theme:
+  style: hardware_chassis
+  chassis_color: '#18181b'
+  panel_color: '#0f1115'
+  chassis_type: black_cz_flagship_keyboard
+  accent_color: '#00a2e8'
+  buttons: casio_blue_tactile
+  button_color: '#0088cc'
+  button_text: '#ffffff'
+  button_hover: '#00a2e8'
+  lcd_backlight: '#064e3b'
+  lcd_text: '#34d399'
+parameters:
+- id: line_select
+  name: Line Select Mode
+  page: master
+  param_id: 0
+  type: discrete
+  range: [0, 3]
+  options:
+  - '1'
+  - '2'
+  - 1+2'
+  - 1+1'
+- id: ring_mod
+  name: Ring Modulator
+  page: master
+  param_id: 1
+  type: discrete
+  range: [0, 1]
+  options:
+  - 'Off'
+  - 'On (Line 1 x Line 2)'
+- id: noise_mod
+  name: Noise Modulator
+  page: master
+  param_id: 2
+  type: discrete
+  range: [0, 1]
+  options:
+  - 'Off'
+  - 'On (Line 1 x Noise)'
+- id: dco1_wave1
+  name: DCO 1 First Waveform
+  page: dco1
+  param_id: 10
+  type: discrete
+  range: [1, 8]
+  options:
+  - Sawtooth
+  - Square
+  - Pulse 1
+  - Pulse 2
+  - Pulse 3
+  - Double Sine
+  - Saw-Pulse
+  - Resonance 1
+- id: dco1_wave2
+  name: DCO 1 Second Waveform
+  page: dco1
+  param_id: 11
+  type: discrete
+  range: [0, 8]
+  options:
+  - 'Off'
+  - Sawtooth
+  - Square
+  - Pulse 1
+  - Pulse 2
+  - Pulse 3
+  - Double Sine
+  - Saw-Pulse
+  - Resonance 1
+- id: dcw1_key_follow
+  name: DCW 1 Key Follow
+  page: dcw1
+  param_id: 20
+  type: linear
+  range: [0, 9]
+- id: dcw1_env_rate1
+  name: DCW 1 Envelope Step 1 Rate
+  page: dcw1
+  param_id: 21
+  type: linear
+  range: [0, 99]
+- id: dcw1_env_level1
+  name: DCW 1 Envelope Step 1 Level
+  page: dcw1
+  param_id: 22
+  type: linear
+  range: [0, 99]
+- id: dca1_key_follow
+  name: DCA 1 Key Follow
+  page: dca1
+  param_id: 30
+  type: linear
+  range: [0, 9]
+- id: dca1_env_rate1
+  name: DCA 1 Envelope Step 1 Rate
+  page: dca1
+  param_id: 31
+  type: linear
+  range: [0, 99]
+- id: dca1_env_level1
+  name: DCA 1 Envelope Step 1 Level
+  page: dca1
+  param_id: 32
+  type: linear
+  range: [0, 99]
+- id: dco2_wave1
+  name: DCO 2 First Waveform
+  page: dco2
+  param_id: 40
+  type: discrete
+  range: [1, 8]
+  options:
+  - Sawtooth
+  - Square
+  - Pulse 1
+  - Pulse 2
+  - Pulse 3
+  - Double Sine
+  - Saw-Pulse
+  - Resonance 1
+- id: dco2_detune
+  name: DCO 2 Detune (Line 2 Fine/Oct)
+  page: dco2
+  param_id: 41
+  type: linear
+  range: [-60, 60]
+- id: dcw2_env_rate1
+  name: DCW 2 Envelope Step 1 Rate
+  page: dcw2
+  param_id: 50
+  type: linear
+  range: [0, 99]
+- id: dcw2_env_level1
+  name: DCW 2 Envelope Step 1 Level
+  page: dcw2
+  param_id: 51
+  type: linear
+  range: [0, 99]
+- id: dca2_env_rate1
+  name: DCA 2 Envelope Step 1 Rate
+  page: dca2
+  param_id: 60
+  type: linear
+  range: [0, 99]
+- id: dca2_env_level1
+  name: DCA 2 Envelope Step 1 Level
+  page: dca2
+  param_id: 61
+  type: linear
+  range: [0, 99]
+- id: vibrato_wave
+  name: Vibrato Waveform
+  page: vibrato
+  param_id: 70
+  type: discrete
+  range: [0, 3]
+  options:
+  - Triangle
+  - Sawtooth Up
+  - Sawtooth Down
+  - Square
+- id: vibrato_delay
+  name: Vibrato Delay
+  page: vibrato
+  param_id: 71
+  type: linear
+  range: [0, 99]
+- id: vibrato_rate
+  name: Vibrato Rate
+  page: vibrato
+  param_id: 72
+  type: linear
+  range: [0, 99]
+- id: vibrato_depth
+  name: Vibrato Depth
+  page: vibrato
+  param_id: 73
+  type: linear
+  range: [0, 99]
+- id: chorus_mode
+  name: Stereo BBD Chorus
+  page: effects
+  param_id: 80
+  type: discrete
+  range: [0, 3]
+  options:
+  - 'Off'
+  - Chorus 1 (Slow Deep)
+  - Chorus 2 (Fast Shimmer)
+  - Chorus 3 (Wide Ensemble)
+- id: velocity_to_dca
+  name: Velocity Sensitivity -> DCA
+  page: performance
+  param_id: 90
+  type: linear
+  range: [0, 15]
+- id: velocity_to_dcw
+  name: Velocity Sensitivity -> DCW
+  page: performance
+  param_id: 91
+  type: linear
+  range: [0, 15]
+- id: aftertouch_to_dca
+  name: Aftertouch -> DCA Level
+  page: performance
+  param_id: 92
+  type: linear
+  range: [0, 15]
+- id: aftertouch_to_dcw
+  name: Aftertouch -> DCW Modulation
+  page: performance
+  param_id: 93
+  type: linear
+  range: [0, 15]

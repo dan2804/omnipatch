@@ -292,6 +292,22 @@ fn main() -> Result<()> {
                     let cc: u8 = param_id.parse().unwrap_or(74);
                     println!("AX60 (Tauntek): Real-time parameter transmitted via MIDI CC:");
                     println!("Raw MIDI:   {}", format!("B0 {:02X} {:02X}", cc, value & 0x7F).bright_yellow().bold());
+                } else if device.to_lowercase().contains("cz-1000") || device.to_lowercase().contains("cz1000") {
+                    let pid: u8 = param_id.parse().unwrap_or(20);
+                    let val: u8 = (value as u8) & 0x7F;
+                    let msg = SysExMessage::new_unchecked(vec![
+                        0xF0, 0x44, 0x00, 0x00, 0x70, 0x00, pid, val, 0xF7,
+                    ]);
+                    println!("Raw SysEx:  {}", msg.to_hex_string().bright_yellow().bold());
+                    println!("Parsed Msg: Manufacturer: Casio (44), Device: CZ-1000 Phase Distortion Synth, Param: {}, Val: {}", pid, val);
+                } else if device.to_lowercase().contains("cz-1") || device.to_lowercase().contains("cz1") {
+                    let pid: u8 = param_id.parse().unwrap_or(20);
+                    let val: u8 = (value as u8) & 0x7F;
+                    let msg = SysExMessage::new_unchecked(vec![
+                        0xF0, 0x44, 0x00, 0x00, 0x70, 0x00, pid, val, 0xF7,
+                    ]);
+                    println!("Raw SysEx:  {}", msg.to_hex_string().bright_yellow().bold());
+                    println!("Parsed Msg: Manufacturer: Casio (44), Device: CZ-1 Flagship Velocity/Aftertouch Phase Distortion Synth, Param: {}, Val: {}", pid, val);
                 }
             }
         },

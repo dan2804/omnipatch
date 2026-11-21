@@ -9,7 +9,7 @@ hardware:
   sound_memory: 32 MB World Expedition ROM (expandable up to 128 MB via 4 internal 72-pin SIMM slots)
   filter: 50 12-pole Z-Plane morphing resonant filters with parametric formant interpolation
   knobs: 4 real-time multi-function controller knobs with 3-row mode selection (controlling 12 virtual parameters A-L)
-  outputs: 6 balanced analog outputs (3 stereo pairs: Main, Sub 1, Sub 2) + S/PDIF stereo digital out
+  outputs: "6 balanced analog outputs (3 stereo pairs: Main, Sub 1, Sub 2) + S/PDIF stereo digital out"
   midi_io: Dual independent MIDI In/Out/Thru ports (MIDI A and MIDI B, 32 channels)
   chassis: Deep ocean teal / greenish-blue anodized 1U faceplate with black knobs, tactile buttons, and luminous turquoise 2x24 LCD display
 midi:
@@ -58,66 +58,47 @@ parameters:
   page: filter
   param_id: 384
   type: linear
-  range:
-    min: 0
-    max: 255
-    default: 205
-    unit: semitones
+  range: [0, 255]
+  default: 205
 - id: filter_resonance
   name: Filter Resonance
   page: filter
   param_id: 385
   type: linear
-  range:
-    min: 0
-    max: 15
-    default: 5
+  range: [0, 15]
+  default: 5
 - id: amp_attack
   name: Amp Envelope Attack
   page: envelope
   param_id: 388
   type: linear
-  range:
-    min: 0
-    max: 127
-    default: 4
-    unit: ms
+  range: [0, 127]
+  default: 4
 - id: amp_decay
   name: Amp Envelope Decay
   page: envelope
   param_id: 389
   type: linear
-  range:
-    min: 0
-    max: 127
-    default: 80
-    unit: ms
+  range: [0, 127]
+  default: 80
 - id: amp_release
   name: Amp Envelope Release
   page: envelope
   param_id: 391
   type: linear
-  range:
-    min: 0
-    max: 127
-    default: 55
-    unit: ms
+  range: [0, 127]
+  default: 55
 - id: ethnic_percussion_reverb
   name: World Reverb Send
   page: effects
   param_id: 412
   type: linear
-  range:
-    min: 0
-    max: 100
-    default: 35
-    unit: '%'
+  range: [0, 100]
+  default: 35
 - id: tuning_microtonal
   name: Microtonal Scale Tune
   page: tuning
   param_id: 430
   type: linear
-  range:
-    min: 0
-    max: 127
-    default: 0
+  range: [0, 127]
+  default: 0

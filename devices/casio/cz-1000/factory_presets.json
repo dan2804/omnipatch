@@ -1,0 +1,38 @@
+{
+  "Preset ROM": [
+    { "index": 0, "name": "BRASS ENS. 1", "category": "Brass" },
+    { "index": 1, "name": "BRASS ENS. 2", "category": "Brass" },
+    { "index": 2, "name": "TRUMPET", "category": "Brass" },
+    { "index": 3, "name": "VIOLIN", "category": "Strings" },
+    { "index": 4, "name": "STRING ENS.", "category": "Strings" },
+    { "index": 5, "name": "ELEC. PIANO", "category": "Keyboard" },
+    { "index": 6, "name": "ELEC. ORGAN", "category": "Organ" },
+    { "index": 7, "name": "FLUTE", "category": "Reed" },
+    { "index": 8, "name": "SYNTH ENSEMBLE", "category": "Synth" },
+    { "index": 9, "name": "SYNTH SOUND", "category": "Synth" },
+    { "index": 10, "name": "FANTASY", "category": "Synth" },
+    { "index": 11, "name": "SYNTH LEAD", "category": "Synth" },
+    { "index": 12, "name": "MELLOW BRASS", "category": "Brass" },
+    { "index": 13, "name": "STRINGS 2", "category": "Strings" },
+    { "index": 14, "name": "SLAP BASS", "category": "Bass" },
+    { "index": 15, "name": "SYNTH BASS", "category": "Bass" }
+  ],
+  "Internal RAM": [
+    { "index": 16, "name": "WARM STRINGS", "category": "Strings" },
+    { "index": 17, "name": "COSMO LEAD", "category": "Synth" },
+    { "index": 18, "name": "BELL PAD", "category": "Mallet" },
+    { "index": 19, "name": "ANALOG BRASS", "category": "Brass" },
+    { "index": 20, "name": "SUB BASS 808", "category": "Bass" },
+    { "index": 21, "name": "DIGITAL PIANO", "category": "Keyboard" },
+    { "index": 22, "name": "RESO SWEEP", "category": "Synth" },
+    { "index": 23, "name": "SPACE PIPES", "category": "Organ" },
+    { "index": 24, "name": "HARMONIC BELLS", "category": "Mallet" },
+    { "index": 25, "name": "POLYSYNTH VIBE", "category": "Synth" },
+    { "index": 26, "name": "SYNTH CLAV", "category": "Keyboard" },
+    { "index": 27, "name": "OCTAVE LEAD", "category": "Synth" },
+    { "index": 28, "name": "TECHNO CHORD", "category": "Synth" },
+    { "index": 29, "name": "WARPING PAD", "category": "Synth" },
+    { "index": 30, "name": "PULSE BASS", "category": "Bass" },
+    { "index": 31, "name": "SCI-FI FX", "category": "SFX" }
+  ]
+}

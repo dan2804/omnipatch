@@ -54,114 +54,82 @@ parameters:
   page: tuning
   param_id: 1
   type: bipolar
-  range:
-    min: -12
-    max: 12
-    step: 1
-    default: 0
+  range: [-12, 12]
+  default: 0
 - id: pad2_tune
   name: Pad 2 Snare Tuning
   page: tuning
   param_id: 2
   type: bipolar
-  range:
-    min: -12
-    max: 12
-    step: 1
-    default: 0
+  range: [-12, 12]
+  default: 0
 - id: pad3_tune
   name: Pad 3 Hi-Hat Tuning
   page: tuning
   param_id: 3
   type: bipolar
-  range:
-    min: -12
-    max: 12
-    step: 1
-    default: 0
+  range: [-12, 12]
+  default: 0
 - id: pad4_tune
   name: Pad 4 Tom 1 Tuning
   page: tuning
   param_id: 4
   type: bipolar
-  range:
-    min: -12
-    max: 12
-    step: 1
-    default: 0
+  range: [-12, 12]
+  default: 0
 - id: pad5_tune
   name: Pad 5 Tom 2 Tuning
   page: tuning
   param_id: 5
   type: bipolar
-  range:
-    min: -12
-    max: 12
-    step: 1
-    default: 0
+  range: [-12, 12]
+  default: 0
 - id: pad6_tune
   name: Pad 6 Tom 3 Tuning
   page: tuning
   param_id: 6
   type: bipolar
-  range:
-    min: -12
-    max: 12
-    step: 1
-    default: 0
+  range: [-12, 12]
+  default: 0
 - id: pad7_tune
   name: Pad 7 Crash Tuning
   page: tuning
   param_id: 7
   type: bipolar
-  range:
-    min: -12
-    max: 12
-    step: 1
-    default: 0
+  range: [-12, 12]
+  default: 0
 - id: pad8_tune
   name: Pad 8 Rim/Clap Tuning
   page: tuning
   param_id: 8
   type: bipolar
-  range:
-    min: -12
-    max: 12
-    step: 1
-    default: 0
+  range: [-12, 12]
+  default: 0
 - id: filter_ssm_ch1
   name: Ch 1 SSM2044 Dynamic Filter Cutoff
   page: filter
   param_id: 16
   type: linear
-  range:
-    min: 0
-    max: 127
-    default: 96
+  range: [0, 127]
+  default: 96
 - id: decay_snare
   name: Snare Decay Envelope
   page: envelope
   param_id: 32
   type: linear
-  range:
-    min: 0
-    max: 127
-    default: 80
+  range: [0, 127]
+  default: 80
 - id: mix_metronome
   name: Metronome Level
   page: master
   param_id: 48
   type: linear
-  range:
-    min: 0
-    max: 127
-    default: 64
+  range: [0, 127]
+  default: 64
 - id: tempo_bpm
   name: Master Sequence Tempo
   page: sequencer
   param_id: 64
   type: linear
-  range:
-    min: 40
-    max: 240
-    default: 94
+  range: [40, 240]
+  default: 94

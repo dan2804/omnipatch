@@ -9,7 +9,7 @@ hardware:
   sound_memory: 8 MB Sound ROM (249 classic keyboard & synthesizer samples)
   filter: Dynamic lowpass resonant digital filters with real-time modulation
   effects: Integrated dual stereo chorus & delay processor
-  outputs: '6 polyphonic outputs (3 stereo pairs: Main, Sub 1, Sub 2)'
+  outputs: "'6 polyphonic outputs (3 stereo pairs: Main, Sub 1, Sub 2)'"
   chassis: Matte black 1990s 1U chassis with emerald green E-mu logo and retro 2x16 green backlit LCD
 midi:
   manufacturer_id:

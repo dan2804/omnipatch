@@ -37,6 +37,16 @@ Inspired by Sound Quest's **Midi Quest 13**, **OmniPatch** combines a clean, fas
 | **E-MU Virtuoso 2000** | 128-Voice Virtual Orchestra | 10 | 512 | Light silver-grey 1U faceplate, black buttons, 64MB Orchestral Sessions Vol 1 & 2 ROMs, 50 Z-Plane filters |
 | **E-MU Vintage Pro** | 128-Voice Vintage Workstation | 10 | 512 | Two-tone Rhodes faceplate (satin black top / brushed grey bottom), fluted knobs, Rhodes/Moog/Prophet |
 | **E-MU Vintage Keys** | 32-Voice Vintage Keyboard Module | 10 | 512 | Matte black 1990s 1U chassis, green E-mu logo, retro 2x16 green LCD, classic SysEx ID 0x04 |
+| **E-MU Proteus 1000** | 64-Voice 1U Sound Module | 7 | 512 | Matte black 1U faceplate, high-contrast white knobs and buttons, Composer sound set |
+| **E-MU Proteus 2000** | 128-Voice Flagship Sound Module | 8 | 1,024 | Sleek black 1U chassis, greyish-white knobs, 32MB Composer ROM, 4 ROM expansion slots |
+| **E-MU Proteus 2500** | 128-Voice Command Station Console | 8 | 1,024 | Industrial grey desktop console, blue accents, 16 velocity pads, 16 knobs, multi-channel sequencer |
+| **E-MU Planet Phatt** | 64-Voice Hip-Hop / R&B Module | 7 | 640 | Electric neon pink 1U faceplate, black tactile buttons, iconic 90s boom-bap sound set |
+| **E-MU Planet Earth** | 64-Voice World Expedition Module | 7 | 512 | Greenish-blue teal 1U chassis, black buttons, global ethnic instruments and percussion |
+| **E-MU Orbit-3** | 128-Voice Super Dance Module | 7 | 1,024 | Electric neon yellow 1U faceplate, black tactile buttons, Beat Garden & Techno Yard ROMs |
+| **E-MU Orbit 9090** | 32-Voice 1996 Dance Planet | 7 | 512 | Classic golden yellow 1U rack, black buttons, 909/808 drum machines, TB-303 acid lines |
+| **E-MU SP-1200** | 12-Bit Linear Sampling Drum Machine | 12 | 32 | Classic E-MU blue and grey chassis, SSM2044 dynamic lowpass filter, 8 touch pads & sliders |
+| **Casio CZ-1** | Flagship 16-DCO Phase Distortion | 26 | 128 | Professional black chassis, electric blue tactile buttons, velocity & aftertouch, stereo BBD chorus |
+| **Casio CZ-1000** | 8-Voice Phase Distortion Keyboard | 22 | 32 | Industrial matte grey chassis, iconic tri-color (blue/yellow/red) membrane touchpads, 49 full-sized keys |
 
 ---
 
@@ -105,6 +115,12 @@ Inspired by Sound Quest's **Midi Quest 13**, **OmniPatch** combines a clean, fas
 ### E-MU SP-1200 (12-Bit Linear Sampling Drum Machine & SSM2044 Filter)
 ![E-MU SP-1200 Hardware Editor](assets/screenshots/emu_sp_1200.png)
 
+### Casio CZ-1 (Flagship 16-DCO Phase Distortion Synthesizer)
+![Casio CZ-1 Hardware Editor](assets/screenshots/casio_cz_1.png)
+
+### Casio CZ-1000 (8-Voice Phase Distortion Synthesizer with Membrane Keypad)
+![Casio CZ-1000 Hardware Editor](assets/screenshots/casio_cz_1000.png)
+
 ---
 
 ## Workspace Architecture
@@ -122,6 +138,9 @@ omnipatch/
 │   │   └── virus-a/          # profile.yaml, factory_presets.json
 │   ├── akai/
 │   │   └── ax60/             # profile.yaml, factory_presets.json
+│   ├── casio/
+│   │   ├── cz-1/             # profile.yaml, factory_presets.json
+│   │   └── cz-1000/          # profile.yaml, factory_presets.json
 │   └── emu/
 │       ├── audity-2000/      # profile.yaml, factory_presets.json
 │       ├── b-3/              # profile.yaml, factory_presets.json

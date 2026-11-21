@@ -9,7 +9,7 @@ hardware:
   sound_memory: 8 MB Dance & Techno Sound ROM (512 presets featuring 909, 808, 303, Juno & rave stabs)
   filter: Dynamic lowpass resonant digital filters with real-time modulation & Beats mode
   effects: Integrated dual stereo chorus & delay processor
-  outputs: 6 polyphonic outputs (3 stereo pairs: Main, Sub 1, Sub 2)
+  outputs: "6 polyphonic outputs (3 stereo pairs: Main, Sub 1, Sub 2)"
   chassis: Vibrant golden yellow 1990s 1U faceplate with black buttons, data wheel, and retro 2x16 green backlit LCD display
 midi:
   manufacturer_id:
@@ -67,62 +67,47 @@ parameters:
   page: filter
   param_id: 16
   type: linear
-  range:
-    min: 0
-    max: 255
-    default: 215
+  range: [0, 255]
+  default: 215
 - id: filter_resonance
   name: Filter Resonance
   page: filter
   param_id: 17
   type: linear
-  range:
-    min: 0
-    max: 15
-    default: 8
+  range: [0, 15]
+  default: 8
 - id: attack_time
   name: Envelope Attack
   page: envelope
   param_id: 20
   type: linear
-  range:
-    min: 0
-    max: 127
-    default: 1
+  range: [0, 127]
+  default: 1
 - id: decay_time
   name: Envelope Decay
   page: envelope
   param_id: 21
   type: linear
-  range:
-    min: 0
-    max: 127
-    default: 65
+  range: [0, 127]
+  default: 65
 - id: release_time
   name: Envelope Release
   page: envelope
   param_id: 23
   type: linear
-  range:
-    min: 0
-    max: 127
-    default: 28
+  range: [0, 127]
+  default: 28
 - id: beats_groove
   name: Beats Mode Pattern
   page: beats
   param_id: 50
   type: linear
-  range:
-    min: 0
-    max: 100
-    default: 1
+  range: [0, 100]
+  default: 1
 - id: tempo_bpm
   name: Beats Tempo
   page: tempo
   param_id: 52
   type: linear
-  range:
-    min: 50
-    max: 200
-    default: 132
-    unit: BPM
+  range: [50, 200]
+  default: 132

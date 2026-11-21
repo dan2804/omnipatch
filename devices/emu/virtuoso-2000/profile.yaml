@@ -10,7 +10,7 @@ hardware:
   filter: 50 12-pole Z-Plane morphing resonant filters
   arpeggiator: 16 simultaneous polyphonic arpeggiator engines
   knobs: 4 real-time multi-function knobs controlling 12 parameters
-  outputs: '6 polyphonic outputs (3 stereo pairs: Main, Sub 1, Sub 2)'
+  outputs: "'6 polyphonic outputs (3 stereo pairs: Main, Sub 1, Sub 2)'"
   chassis: Light silver-grey 1U faceplate with black buttons and cyan phosphor LCD
 midi:
   manufacturer_id:

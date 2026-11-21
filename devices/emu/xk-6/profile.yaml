@@ -13,7 +13,7 @@ hardware:
   knobs: 4 real-time multi-function knobs (12 virtual controllers via 3 layer modes)
   keys: 61 synth-action keys with velocity and channel aftertouch
   controllers: 'Pitch and Mod Wheels, 4 Real-time Knobs, Footswitch input'
-  outputs: '4 polyphonic outputs (2 stereo pairs: Main L/R, Sub L/R)'
+  outputs: "'4 polyphonic outputs (2 stereo pairs: Main L/R, Sub L/R)'"
   chassis: Grey keyboard chassis with electric yellow background control section and black tactile buttons
 midi:
   manufacturer_id:

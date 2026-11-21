@@ -226,7 +226,44 @@
           </div>
         </div>
 
-        <!-- GROUP 3: E-MU SYSTEMS -->
+        <!-- GROUP 3: CASIO -->
+        <div class="synth-group pt-1" id="group-casio">
+          <div onclick="toggleGroup('casio')" class="flex items-center justify-between px-2 py-1.5 cursor-pointer rounded hover:bg-zinc-800/60 text-zinc-300 select-none group border-b border-zinc-800/50 pb-1">
+            <div class="flex items-center gap-1.5">
+              <svg id="chevron-casio" class="w-3 h-3 text-cyan-400 group-hover:text-cyan-300 transition-transform duration-150 transform rotate-0" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
+              </svg>
+              <span class="text-[10px] font-bold uppercase tracking-wider font-mono text-cyan-400">Casio</span>
+            </div>
+            <span class="text-[9px] font-mono px-1.5 py-0.5 rounded bg-black/60 text-cyan-300 border border-cyan-950 font-semibold">2 Synths</span>
+          </div>
+          <div id="content-casio" class="space-y-1 pt-1.5">
+            <!-- Casio CZ-1 -->
+            <button onclick="switchView('cz1')" id="nav-cz1" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
+              <div class="flex items-center gap-2.5 min-w-0">
+                <span class="w-3 h-3 rounded-full bg-[#00a2e8] shadow-[0_0_6px_#00a2e8] shrink-0"></span>
+                <div class="truncate">
+                  <div class="text-xs font-bold text-white group-hover:text-cyan-300 truncate">Casio CZ-1</div>
+                  <div class="text-[10px] text-zinc-400 font-mono truncate">Black Chassis • Blue Buttons</div>
+                </div>
+              </div>
+              <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-cyan-400 border border-zinc-800 shrink-0">P22</span>
+            </button>
+            <!-- Casio CZ-1000 -->
+            <button onclick="switchView('cz1000')" id="nav-cz1000" class="w-full text-left p-2.5 rounded transition flex items-center justify-between border-l-4 border-transparent text-zinc-400 hover:text-white hover:bg-[#1a1b22] group">
+              <div class="flex items-center gap-2.5 min-w-0">
+                <span class="w-3 h-3 rounded-full bg-[#ef4444] shadow-[0_0_6px_#facc15] shrink-0"></span>
+                <div class="truncate">
+                  <div class="text-xs font-bold text-white group-hover:text-amber-300 truncate">Casio CZ-1000</div>
+                  <div class="text-[10px] text-zinc-400 font-mono truncate">Grey Chassis • Red/Yellow/Blue</div>
+                </div>
+              </div>
+              <span class="text-[9px] font-mono px-1 py-0.5 rounded bg-black/50 text-amber-400 border border-zinc-800 shrink-0">P23</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- GROUP 4: E-MU SYSTEMS -->
         <div class="synth-group pt-1" id="group-emu">
           <div onclick="toggleGroup('emu')" class="flex items-center justify-between px-2 py-1.5 cursor-pointer rounded hover:bg-zinc-800/60 text-zinc-300 select-none group border-b border-zinc-800/50 pb-1">
             <div class="flex items-center gap-1.5">
@@ -476,7 +513,7 @@
           <span class="w-2 h-2 rounded-full bg-green-500 led-green"></span>
           <span>Rack Status:</span>
         </span>
-        <span class="text-green-400 font-bold">21 ONLINE</span>
+        <span class="text-green-400 font-bold">23 ONLINE</span>
       </div>
 
     </aside>
@@ -1091,6 +1128,60 @@
             <div class="flex justify-between text-xs font-mono text-zinc-400">
               <span class="text-emerald-400 font-semibold">TR-909 & TB-303 Planet</span>
               <span class="text-yellow-400">SysEx (18 05)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tile: Casio CZ-1 (Live & Clickable) -->
+        <div onclick="switchView('cz1')" class="md:col-span-2 bg-[#0c121e] hover:bg-[#131d2e] border-l-4 border-[#00a2e8] p-5 cursor-pointer metro-tile flex flex-col justify-between shadow-lg relative overflow-hidden group">
+          <div class="absolute -right-4 -bottom-4 w-28 h-28 bg-[#00a2e8]/20 rounded-full blur-xl pointer-events-none"></div>
+          <div>
+            <div class="flex items-center justify-between">
+              <span class="text-xs uppercase tracking-widest text-cyan-400 font-semibold">Black Chassis • Blue Buttons</span>
+              <span class="flex items-center gap-1.5 bg-black/40 px-2 py-0.5 text-[11px] text-cyan-200">
+                <span class="w-2 h-2 rounded-full bg-cyan-400 led-green"></span> Port 22 (Online)
+              </span>
+            </div>
+            <h3 class="text-2xl font-bold text-white mt-3 tracking-tight flex items-baseline gap-2">
+              Casio CZ-1 <span class="text-xs font-normal text-zinc-400 font-mono">(1986)</span>
+            </h3>
+            <p class="text-cyan-200/70 text-xs mt-1">16 DCOs • Flagship Phase Distortion • Velocity/Aftertouch • Chorus</p>
+          </div>
+          <div class="space-y-2 mt-6">
+            <div class="bg-black/50 p-2 text-xs flex justify-between items-center border border-cyan-900">
+              <span class="text-zinc-400">Preset:</span>
+              <span class="font-mono text-cyan-300 font-bold" id="dashboard-cz1-patch">P-01: BRASS ENS. 1</span>
+            </div>
+            <div class="flex justify-between text-xs font-mono text-zinc-400">
+              <span class="text-cyan-400 font-semibold">Dual Line 1+2' PD</span>
+              <span class="text-cyan-300">SysEx (44 00 00 70)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tile: Casio CZ-1000 (Live & Clickable) -->
+        <div onclick="switchView('cz1000')" class="md:col-span-2 bg-[#23252a] hover:bg-[#2d3036] border-l-4 border-[#ef4444] p-5 cursor-pointer metro-tile flex flex-col justify-between shadow-lg relative overflow-hidden group">
+          <div class="absolute -right-4 -bottom-4 w-28 h-28 bg-[#eab308]/20 rounded-full blur-xl pointer-events-none"></div>
+          <div>
+            <div class="flex items-center justify-between">
+              <span class="text-xs uppercase tracking-widest text-amber-400 font-semibold">Grey Chassis • Red/Yellow/Blue</span>
+              <span class="flex items-center gap-1.5 bg-black/40 px-2 py-0.5 text-[11px] text-amber-200">
+                <span class="w-2 h-2 rounded-full bg-red-500 led-green"></span> Port 23 (Online)
+              </span>
+            </div>
+            <h3 class="text-2xl font-bold text-white mt-3 tracking-tight flex items-baseline gap-2">
+              Casio CZ-1000 <span class="text-xs font-normal text-zinc-400 font-mono">(1985)</span>
+            </h3>
+            <p class="text-zinc-300 text-xs mt-1">8-Voice Phase Distortion • 49 Full Keys • Tri-Color Membrane Matrix</p>
+          </div>
+          <div class="space-y-2 mt-6">
+            <div class="bg-black/50 p-2 text-xs flex justify-between items-center border border-zinc-700">
+              <span class="text-zinc-400">Preset:</span>
+              <span class="font-mono text-amber-300 font-bold" id="dashboard-cz1000-patch">ROM 01: BRASS ENS. 1</span>
+            </div>
+            <div class="flex justify-between text-xs font-mono text-zinc-400">
+              <span class="text-red-400 font-semibold">Membrane Control</span>
+              <span class="text-amber-400">SysEx (44 00 00 70)</span>
             </div>
           </div>
         </div>
@@ -8366,6 +8457,548 @@
       </div>
     </section>
 
+    <!-- VIEW: CASIO CZ-1 THEMED PATCH EDITOR -->
+    <section id="view-cz1" class="hidden space-y-4">
+      <div class="bg-[#121316] border-t-4 border-[#00a2e8] p-4 shadow-2xl relative rounded border border-cyan-900/60">
+        <!-- Authentic CZ-1 Nameplate & LCD Display Bar -->
+        <div class="flex flex-col lg:flex-row items-center justify-between gap-4 pb-4 border-b border-zinc-800">
+          <div class="flex items-center gap-4">
+            <div class="bg-[#0c121e] px-4 py-2 border border-cyan-800/80 shadow-inner rounded-sm">
+              <h2 class="text-2xl font-black tracking-widest text-white">CASIO <span class="text-[#00a2e8] font-black">CZ-1</span></h2>
+              <span class="text-[10px] tracking-widest text-cyan-300 uppercase font-bold">Flagship 16-DCO Phase Distortion • Velocity & Aftertouch • Analog Chorus</span>
+            </div>
+            <div class="hidden sm:block text-xs font-mono text-zinc-400">
+              <div>CHASSIS: <span class="text-white font-extrabold">Matte Black Metal</span></div>
+              <div>BUTTONS: <span class="text-white bg-[#0088cc] px-1.5 py-0.5 rounded font-bold">Electric Cyan Tactile</span></div>
+            </div>
+          </div>
+
+          <!-- High-Contrast Green Backlit 2x16 LCD Display -->
+          <div class="bg-[#064e3b] border-4 border-[#022c22] p-3 shadow-inner rounded-sm w-full lg:w-96">
+            <div class="font-lcd text-xl text-emerald-300 tracking-widest leading-none drop-shadow-[0_0_6px_rgba(52,211,153,0.8)]">
+              <div class="flex justify-between">
+                <span id="cz1-lcd-line1">P-01 BRASS ENS. 1</span>
+                <span class="text-xs bg-emerald-950 px-1 py-0.5 rounded text-emerald-200">16-DCO</span>
+              </div>
+              <div class="flex justify-between text-base mt-1 text-emerald-200">
+                <span id="cz1-lcd-line2">LINE:1+2' RING:OFF CHORUS:1</span>
+                <span class="text-xs text-emerald-400">P22 ONLINE</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-2">
+            <button onclick="auditionCz1()" class="bg-[#0088cc] hover:bg-[#00a2e8] text-white border border-cyan-300 text-xs px-3.5 py-2 font-bold rounded shadow transition flex items-center gap-1.5">
+              <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              Audition CZ Brass
+            </button>
+            <button onclick="switchView('dashboard')" class="bg-zinc-800 hover:bg-zinc-700 text-zinc-200 text-xs px-3 py-2 rounded border border-zinc-700">
+              Exit to Hub
+            </button>
+          </div>
+        </div>
+
+        <!-- Controls Grid -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-4 pt-4">
+          
+          <!-- Column 1: Line Architecture & Modulation (4 cols) -->
+          <div class="lg:col-span-4 bg-[#181a20] p-4 rounded border border-zinc-800 space-y-4">
+            <div class="border-b border-zinc-700/60 pb-2 flex items-center justify-between">
+              <span class="text-xs uppercase font-extrabold text-cyan-400 tracking-wider">Line Select & Modulation</span>
+              <span class="text-[10px] font-mono text-zinc-400">CZ Master</span>
+            </div>
+
+            <!-- Line Select Mode -->
+            <div>
+              <span class="text-[11px] text-zinc-300 block mb-1.5 font-mono">Line Mode:</span>
+              <div class="grid grid-cols-4 gap-1.5" id="cz1-line-btns">
+                <button onclick="setCz1Line(0)" class="cz1-line-btn bg-zinc-800 hover:bg-zinc-700 text-zinc-300 text-xs py-1.5 rounded font-mono font-bold">1</button>
+                <button onclick="setCz1Line(1)" class="cz1-line-btn bg-zinc-800 hover:bg-zinc-700 text-zinc-300 text-xs py-1.5 rounded font-mono font-bold">2</button>
+                <button onclick="setCz1Line(2)" class="cz1-line-btn bg-[#0088cc] text-white text-xs py-1.5 rounded font-mono font-bold">1+2'</button>
+                <button onclick="setCz1Line(3)" class="cz1-line-btn bg-zinc-800 hover:bg-zinc-700 text-zinc-300 text-xs py-1.5 rounded font-mono font-bold">1+1'</button>
+              </div>
+            </div>
+
+            <!-- Ring & Noise Modulation -->
+            <div class="grid grid-cols-2 gap-2">
+              <div class="bg-black/40 p-2.5 rounded border border-zinc-800">
+                <span class="text-[10px] text-zinc-400 font-mono block">Ring Modulation</span>
+                <button onclick="toggleCz1RingMod()" id="cz1-btn-ring" class="mt-1 w-full bg-zinc-800 hover:bg-zinc-700 text-zinc-300 text-xs py-1 rounded font-bold font-mono">
+                  Ring: OFF
+                </button>
+              </div>
+              <div class="bg-black/40 p-2.5 rounded border border-zinc-800">
+                <span class="text-[10px] text-zinc-400 font-mono block">Noise Modulation</span>
+                <button onclick="toggleCz1NoiseMod()" id="cz1-btn-noise" class="mt-1 w-full bg-zinc-800 hover:bg-zinc-700 text-zinc-300 text-xs py-1 rounded font-bold font-mono">
+                  Noise: OFF
+                </button>
+              </div>
+            </div>
+
+            <!-- Stereo Chorus -->
+            <div>
+              <span class="text-[11px] text-zinc-300 block mb-1.5 font-mono">Stereo BBD Chorus:</span>
+              <div class="grid grid-cols-4 gap-1.5" id="cz1-chorus-btns">
+                <button onclick="setCz1Chorus(0)" class="cz1-chorus-btn bg-zinc-800 hover:bg-zinc-700 text-zinc-300 text-xs py-1.5 rounded font-mono">Off</button>
+                <button onclick="setCz1Chorus(1)" class="cz1-chorus-btn bg-[#0088cc] text-white text-xs py-1.5 rounded font-mono font-bold">Cho 1</button>
+                <button onclick="setCz1Chorus(2)" class="cz1-chorus-btn bg-zinc-800 hover:bg-zinc-700 text-zinc-300 text-xs py-1.5 rounded font-mono font-bold">Cho 2</button>
+                <button onclick="setCz1Chorus(3)" class="cz1-chorus-btn bg-zinc-800 hover:bg-zinc-700 text-zinc-300 text-xs py-1.5 rounded font-mono font-bold">Cho 3</button>
+              </div>
+            </div>
+
+            <!-- CZ-1 Velocity & Aftertouch Routing -->
+            <div class="space-y-2 pt-2 border-t border-zinc-800">
+              <span class="text-[11px] uppercase font-bold text-cyan-300 font-mono block">Velocity & Aftertouch</span>
+              <div>
+                <div class="flex justify-between text-[10px] font-mono text-zinc-400">
+                  <span>Velocity -> DCA Amp</span>
+                  <span id="val-cz1-vel-dca" class="text-cyan-300 font-bold">12</span>
+                </div>
+                <input type="range" min="0" max="15" value="12" oninput="updateCz1Param('vel-dca', this.value)" class="w-full accent-[#00a2e8] cursor-pointer">
+              </div>
+              <div>
+                <div class="flex justify-between text-[10px] font-mono text-zinc-400">
+                  <span>Velocity -> DCW Wave/Filter</span>
+                  <span id="val-cz1-vel-dcw" class="text-cyan-300 font-bold">8</span>
+                </div>
+                <input type="range" min="0" max="15" value="8" oninput="updateCz1Param('vel-dcw', this.value)" class="w-full accent-[#00a2e8] cursor-pointer">
+              </div>
+              <div>
+                <div class="flex justify-between text-[10px] font-mono text-zinc-400">
+                  <span>Aftertouch -> DCA / DCW</span>
+                  <span id="val-cz1-aftertouch" class="text-cyan-300 font-bold">10</span>
+                </div>
+                <input type="range" min="0" max="15" value="10" oninput="updateCz1Param('aftertouch', this.value)" class="w-full accent-[#00a2e8] cursor-pointer">
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Column 2: Phase Distortion Waveforms & Envelopes (4 cols) -->
+          <div class="lg:col-span-4 bg-[#181a20] p-4 rounded border border-zinc-800 space-y-4">
+            <div class="border-b border-zinc-700/60 pb-2 flex items-center justify-between">
+              <span class="text-xs uppercase font-extrabold text-cyan-400 tracking-wider">Phase Distortion Waveforms</span>
+              <span class="text-[10px] font-mono text-zinc-400">DCO 1 & 2</span>
+            </div>
+
+            <!-- Waveform Selectors -->
+            <div>
+              <span class="text-[11px] text-zinc-300 block mb-1.5 font-mono">DCO 1 Primary Waveform:</span>
+              <div class="grid grid-cols-4 gap-1.5" id="cz1-wave1-btns">
+                <button onclick="setCz1Wave(1, 1)" class="cz1-w1-btn bg-[#0088cc] text-white text-xs py-1.5 rounded font-mono font-bold">Saw</button>
+                <button onclick="setCz1Wave(1, 2)" class="cz1-w1-btn bg-zinc-800 hover:bg-zinc-700 text-zinc-300 text-xs py-1.5 rounded font-mono">Square</button>
+                <button onclick="setCz1Wave(1, 3)" class="cz1-w1-btn bg-zinc-800 hover:bg-zinc-700 text-zinc-300 text-xs py-1.5 rounded font-mono">Pulse 1</button>
+                <button onclick="setCz1Wave(1, 4)" class="cz1-w1-btn bg-zinc-800 hover:bg-zinc-700 text-zinc-300 text-xs py-1.5 rounded font-mono">Pulse 2</button>
+                <button onclick="setCz1Wave(1, 5)" class="cz1-w1-btn bg-zinc-800 hover:bg-zinc-700 text-zinc-300 text-xs py-1.5 rounded font-mono">Pulse 3</button>
+                <button onclick="setCz1Wave(1, 6)" class="cz1-w1-btn bg-zinc-800 hover:bg-zinc-700 text-zinc-300 text-xs py-1.5 rounded font-mono">Dbl Sine</button>
+                <button onclick="setCz1Wave(1, 7)" class="cz1-w1-btn bg-zinc-800 hover:bg-zinc-700 text-zinc-300 text-xs py-1.5 rounded font-mono">Saw-Pls</button>
+                <button onclick="setCz1Wave(1, 8)" class="cz1-w1-btn bg-zinc-800 hover:bg-zinc-700 text-zinc-300 text-xs py-1.5 rounded font-mono">Reso 1</button>
+              </div>
+            </div>
+
+            <!-- DCO 2 Detune & Fine Tune -->
+            <div>
+              <div class="flex justify-between text-[11px] font-mono text-zinc-300 mb-1">
+                <span>DCO 2 Detune (Oct/Fine):</span>
+                <span id="val-cz1-detune" class="text-cyan-300 font-bold">+7 Cents</span>
+              </div>
+              <input type="range" min="-60" max="60" value="7" oninput="updateCz1Param('detune', this.value)" class="w-full accent-[#00a2e8] cursor-pointer">
+              <div class="flex justify-between text-[10px] font-mono text-zinc-500">
+                <span>-60</span><span>0</span><span>+60</span>
+              </div>
+            </div>
+
+            <!-- DCW Filter Envelope 8-Stage Parameters -->
+            <div class="bg-black/50 p-3 rounded border border-zinc-800 space-y-2">
+              <div class="flex justify-between items-center text-xs">
+                <span class="font-bold text-cyan-300">DCW Wave Shaper (Filter)</span>
+                <span class="text-[10px] text-zinc-400 font-mono">8-Stage Env</span>
+              </div>
+              <div>
+                <div class="flex justify-between text-[10px] font-mono text-zinc-400">
+                  <span>Envelope Rate (Speed)</span>
+                  <span id="val-cz1-dcw-rate" class="text-cyan-300 font-bold">85</span>
+                </div>
+                <input type="range" min="0" max="99" value="85" oninput="updateCz1Param('dcw-rate', this.value)" class="w-full accent-[#00a2e8] cursor-pointer">
+              </div>
+              <div>
+                <div class="flex justify-between text-[10px] font-mono text-zinc-400">
+                  <span>Envelope Peak Level (Cutoff)</span>
+                  <span id="val-cz1-dcw-level" class="text-cyan-300 font-bold">92</span>
+                </div>
+                <input type="range" min="0" max="99" value="92" oninput="updateCz1Param('dcw-level', this.value)" class="w-full accent-[#00a2e8] cursor-pointer">
+              </div>
+              <div>
+                <div class="flex justify-between text-[10px] font-mono text-zinc-400">
+                  <span>DCW Key Follow</span>
+                  <span id="val-cz1-dcw-kf" class="text-cyan-300 font-bold">5</span>
+                </div>
+                <input type="range" min="0" max="9" value="5" oninput="updateCz1Param('dcw-kf', this.value)" class="w-full accent-[#00a2e8] cursor-pointer">
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Column 3: DCA Amp, Vibrato & Telemetry (4 cols) -->
+          <div class="lg:col-span-4 bg-[#181a20] p-4 rounded border border-zinc-800 space-y-4">
+            <div class="border-b border-zinc-700/60 pb-2 flex items-center justify-between">
+              <span class="text-xs uppercase font-extrabold text-cyan-400 tracking-wider">DCA Amplitude & Vibrato</span>
+              <span class="text-[10px] font-mono text-zinc-400">Contour</span>
+            </div>
+
+            <!-- DCA Amp Envelope Parameters -->
+            <div class="bg-black/50 p-3 rounded border border-zinc-800 space-y-2">
+              <div class="flex justify-between items-center text-xs">
+                <span class="font-bold text-cyan-300">DCA Amplifier Envelope</span>
+                <span class="text-[10px] text-zinc-400 font-mono">8-Stage Env</span>
+              </div>
+              <div>
+                <div class="flex justify-between text-[10px] font-mono text-zinc-400">
+                  <span>DCA Attack Rate</span>
+                  <span id="val-cz1-dca-rate" class="text-cyan-300 font-bold">78</span>
+                </div>
+                <input type="range" min="0" max="99" value="78" oninput="updateCz1Param('dca-rate', this.value)" class="w-full accent-[#00a2e8] cursor-pointer">
+              </div>
+              <div>
+                <div class="flex justify-between text-[10px] font-mono text-zinc-400">
+                  <span>DCA Sustain Level</span>
+                  <span id="val-cz1-dca-level" class="text-cyan-300 font-bold">99</span>
+                </div>
+                <input type="range" min="0" max="99" value="99" oninput="updateCz1Param('dca-level', this.value)" class="w-full accent-[#00a2e8] cursor-pointer">
+              </div>
+            </div>
+
+            <!-- Vibrato LFO -->
+            <div class="space-y-2">
+              <span class="text-[11px] uppercase font-bold text-cyan-300 font-mono block">Vibrato Generator</span>
+              <div>
+                <div class="flex justify-between text-[10px] font-mono text-zinc-400">
+                  <span>Vibrato Rate</span>
+                  <span id="val-cz1-vib-rate" class="text-cyan-300 font-bold">45</span>
+                </div>
+                <input type="range" min="0" max="99" value="45" oninput="updateCz1Param('vib-rate', this.value)" class="w-full accent-[#00a2e8] cursor-pointer">
+              </div>
+              <div>
+                <div class="flex justify-between text-[10px] font-mono text-zinc-400">
+                  <span>Vibrato Depth</span>
+                  <span id="val-cz1-vib-depth" class="text-cyan-300 font-bold">28</span>
+                </div>
+                <input type="range" min="0" max="99" value="28" oninput="updateCz1Param('vib-depth', this.value)" class="w-full accent-[#00a2e8] cursor-pointer">
+              </div>
+            </div>
+
+            <!-- Live SysEx Telemetry -->
+            <div class="bg-black/80 p-3 rounded border border-cyan-800/60 space-y-1">
+              <span class="text-[10px] uppercase font-bold text-cyan-300 font-mono block">Casio CZ-1 Live SysEx (ID 0x44)</span>
+              <div class="text-cyan-400 font-mono text-xs break-all" id="cz1-sysex-hex">
+                F0 44 00 00 70 00 14 5C F7
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Presets Selection Bar -->
+        <div class="mt-4 bg-[#181a20] p-3 rounded border border-zinc-800 flex flex-col sm:flex-row items-center justify-between gap-3">
+          <div class="flex items-center gap-2 w-full sm:w-auto">
+            <span class="text-xs font-bold text-cyan-300 uppercase font-mono whitespace-nowrap">Factory Tone Select:</span>
+            <select id="cz1-preset-select" onchange="selectCz1Preset(this.value)" class="w-full sm:w-96 bg-black border border-cyan-800 text-white p-2 text-xs rounded font-mono">
+              <optgroup label="Preset Bank A (Brass & Reeds)">
+                <option value="0">P-01: BRASS ENS. 1</option>
+                <option value="1">P-02: BRASS ENS. 2</option>
+                <option value="2">P-03: TRUMPET 1</option>
+                <option value="3">P-04: TROMBONE</option>
+                <option value="4">P-05: SYNTH BRASS 1</option>
+                <option value="5">P-06: SYNTH BRASS 2</option>
+                <option value="6">P-07: SAXOPHONE</option>
+                <option value="7">P-08: MELLOW SAX</option>
+                <option value="8">P-09: FLUTE 1</option>
+                <option value="9">P-10: PICCOLO</option>
+                <option value="10">P-11: CLARINET</option>
+                <option value="11">P-12: OBOE</option>
+                <option value="12">P-13: ACCORDION</option>
+                <option value="13">P-14: HARMONICA</option>
+                <option value="14">P-15: WHISTLE</option>
+                <option value="15">P-16: RECORDER</option>
+              </optgroup>
+              <optgroup label="Preset Bank B (Strings, Guitars & Bass)">
+                <option value="16">P-17: STRING ENS. 1</option>
+                <option value="17">P-18: STRING ENS. 2</option>
+                <option value="18">P-19: VIOLIN</option>
+                <option value="19">P-20: CELLO</option>
+                <option value="20">P-21: ELECTRIC BASS</option>
+                <option value="21">P-22: SLAP BASS</option>
+                <option value="22">P-23: WOOD BASS</option>
+                <option value="23">P-24: SYNTH BASS 1</option>
+                <option value="24">P-25: SYNTH BASS 2</option>
+                <option value="25">P-26: ACOUSTIC GUITAR</option>
+                <option value="26">P-27: ELEC. GUITAR</option>
+                <option value="27">P-28: DIST. GUITAR</option>
+                <option value="28">P-29: KOTO</option>
+                <option value="29">P-30: SITAR</option>
+                <option value="30">P-31: BANJO</option>
+                <option value="31">P-32: HARP</option>
+              </optgroup>
+              <optgroup label="Preset Bank C (Keyboards & Mallets)">
+                <option value="32">P-33: ELEC. PIANO 1</option>
+                <option value="33">P-34: ELEC. PIANO 2</option>
+                <option value="34">P-35: ACOUSTIC PIANO</option>
+                <option value="35">P-36: HONKY-TONK</option>
+                <option value="36">P-37: PIPE ORGAN 1</option>
+                <option value="37">P-38: PIPE ORGAN 2</option>
+                <option value="38">P-39: JAZZ ORGAN</option>
+                <option value="39">P-40: ELEC. ORGAN</option>
+                <option value="40">P-41: VIBRAPHONE</option>
+                <option value="41">P-42: MARIMBA</option>
+                <option value="42">P-43: GLOCKENSPIEL</option>
+                <option value="43">P-44: STEEL DRUM</option>
+                <option value="44">P-45: TUBULAR BELL</option>
+                <option value="45">P-46: MUSIC BOX</option>
+                <option value="46">P-47: CHIMES</option>
+                <option value="47">P-48: XYLOPHONE</option>
+              </optgroup>
+              <optgroup label="Preset Bank D (Synth & Effects)">
+                <option value="48">P-49: FANTASY 1</option>
+                <option value="49">P-50: FANTASY 2</option>
+                <option value="50">P-51: SPACE SYNTH</option>
+                <option value="51">P-52: SYNTH REED</option>
+                <option value="52">P-53: COSMIC SOUND</option>
+                <option value="53">P-54: METALLIC SOUND</option>
+                <option value="54">P-55: VOICING</option>
+                <option value="55">P-56: BOMB SOUND</option>
+                <option value="56">P-57: LASER GUN</option>
+                <option value="57">P-58: WIND CHIME</option>
+                <option value="58">P-59: DROP</option>
+                <option value="59">P-60: RAIN</option>
+                <option value="60">P-61: THUNDER</option>
+                <option value="61">P-62: EXPLOSION</option>
+                <option value="62">P-63: CYBER CLAV</option>
+                <option value="63">P-64: BELL CHORALE</option>
+              </optgroup>
+            </select>
+          </div>
+          <span class="text-xs text-zinc-400 font-mono">64 ROM Presets • 64 RAM Memory • 64 Operation Memory</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- VIEW: CASIO CZ-1000 THEMED PATCH EDITOR -->
+    <section id="view-cz1000" class="hidden space-y-4">
+      <div class="bg-[#2a2d32] border-t-4 border-[#ef4444] p-4 shadow-2xl relative rounded border border-zinc-700">
+        <!-- Authentic CZ-1000 Nameplate & LCD Display Bar -->
+        <div class="flex flex-col lg:flex-row items-center justify-between gap-4 pb-4 border-b border-zinc-600">
+          <div class="flex items-center gap-4">
+            <div class="bg-[#1f2125] px-4 py-2 border border-zinc-600 shadow-inner rounded-sm">
+              <h2 class="text-2xl font-black tracking-widest text-white">CASIO <span class="text-[#ef4444] font-black">CZ-1000</span></h2>
+              <span class="text-[10px] tracking-widest text-amber-300 uppercase font-bold">8-Voice Phase Distortion • 49 Full-Sized Keys • Tri-Color Membrane Matrix</span>
+            </div>
+            <div class="hidden sm:block text-xs font-mono text-zinc-300">
+              <div>CHASSIS: <span class="text-white font-extrabold">Industrial Grey Polymer</span></div>
+              <div>TOUCHPADS: <span class="text-white bg-blue-600 px-1 py-0.5 rounded font-bold">Blue</span> <span class="text-black bg-yellow-400 px-1 py-0.5 rounded font-bold">Yellow</span> <span class="text-white bg-red-600 px-1 py-0.5 rounded font-bold">Red</span></div>
+            </div>
+          </div>
+
+          <!-- High-Contrast Green Backlit 2x16 LCD Display -->
+          <div class="bg-[#064e3b] border-4 border-[#022c22] p-3 shadow-inner rounded-sm w-full lg:w-96">
+            <div class="font-lcd text-xl text-emerald-300 tracking-widest leading-none drop-shadow-[0_0_6px_rgba(52,211,153,0.8)]">
+              <div class="flex justify-between">
+                <span id="cz1000-lcd-line1">ROM 01 BRASS ENS. 1</span>
+                <span class="text-xs bg-emerald-950 px-1 py-0.5 rounded text-emerald-200">8-VOICE</span>
+              </div>
+              <div class="flex justify-between text-base mt-1 text-emerald-200">
+                <span id="cz1000-lcd-line2">DCO1:SAW DCW:85 DCA:99</span>
+                <span class="text-xs text-amber-400">P23 ONLINE</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex items-center gap-2">
+            <button onclick="auditionCz1000()" class="bg-[#ef4444] hover:bg-[#dc2626] text-white border border-red-300 text-xs px-3.5 py-2 font-bold rounded shadow transition flex items-center gap-1.5">
+              <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              Audition CZ-1000 Lead
+            </button>
+            <button onclick="switchView('dashboard')" class="bg-zinc-800 hover:bg-zinc-700 text-zinc-200 text-xs px-3 py-2 rounded border border-zinc-600">
+              Exit to Hub
+            </button>
+          </div>
+        </div>
+
+        <!-- TRI-COLOR MEMBRANE KEYPAD MATRIX -->
+        <div class="bg-[#1f2125] p-4 rounded border border-zinc-700 space-y-3">
+          <div class="flex items-center justify-between border-b border-zinc-700 pb-1.5">
+            <span class="text-xs font-mono font-bold text-white uppercase tracking-wider">Classic CZ-1000 Membrane Control Surface</span>
+            <span class="text-[10px] text-zinc-400 font-mono">Parameter Select Matrix</span>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-12 gap-3">
+            
+            <!-- BLUE MEMBRANE BUTTONS: Parameter Select (5 cols) -->
+            <div class="md:col-span-5 bg-[#141619] p-3 rounded border border-blue-900/60 space-y-2">
+              <span class="text-[10px] font-mono uppercase font-bold text-blue-400 block tracking-wider">Blue: Parameter Group Select</span>
+              <div class="grid grid-cols-3 gap-1.5" id="cz1000-membrane-blue">
+                <button onclick="selectCz1000Section('dco1')" class="bg-blue-600 hover:bg-blue-500 text-white font-mono font-bold text-xs py-2 rounded shadow text-center">DCO 1</button>
+                <button onclick="selectCz1000Section('dcw1')" class="bg-blue-700 hover:bg-blue-600 text-white font-mono font-bold text-xs py-2 rounded shadow text-center">DCW 1</button>
+                <button onclick="selectCz1000Section('dca1')" class="bg-blue-700 hover:bg-blue-600 text-white font-mono font-bold text-xs py-2 rounded shadow text-center">DCA 1</button>
+                <button onclick="selectCz1000Section('dco2')" class="bg-blue-700 hover:bg-blue-600 text-white font-mono font-bold text-xs py-2 rounded shadow text-center">DCO 2</button>
+                <button onclick="selectCz1000Section('dcw2')" class="bg-blue-700 hover:bg-blue-600 text-white font-mono font-bold text-xs py-2 rounded shadow text-center">DCW 2</button>
+                <button onclick="selectCz1000Section('dca2')" class="bg-blue-700 hover:bg-blue-600 text-white font-mono font-bold text-xs py-2 rounded shadow text-center">DCA 2</button>
+                <button onclick="selectCz1000Section('vibrato')" class="bg-blue-800 hover:bg-blue-700 text-white font-mono font-bold text-xs py-2 rounded shadow text-center">VIBRATO</button>
+                <button onclick="selectCz1000Section('octave')" class="bg-blue-800 hover:bg-blue-700 text-white font-mono font-bold text-xs py-2 rounded shadow text-center">OCTAVE</button>
+                <button onclick="selectCz1000Section('init')" class="bg-blue-900 hover:bg-blue-800 text-blue-200 font-mono font-bold text-xs py-2 rounded shadow text-center">INITIAL</button>
+              </div>
+            </div>
+
+            <!-- YELLOW MEMBRANE BUTTONS: Value & Steps (4 cols) -->
+            <div class="md:col-span-4 bg-[#141619] p-3 rounded border border-yellow-900/60 space-y-2">
+              <span class="text-[10px] font-mono uppercase font-bold text-yellow-400 block tracking-wider">Yellow: Value & Step Control</span>
+              <div class="grid grid-cols-4 gap-1.5" id="cz1000-membrane-yellow">
+                <button onclick="cz1000Step(1)" class="bg-yellow-400 hover:bg-yellow-300 text-black font-mono font-extrabold text-xs py-1.5 rounded shadow">S1</button>
+                <button onclick="cz1000Step(2)" class="bg-yellow-500 hover:bg-yellow-400 text-black font-mono font-extrabold text-xs py-1.5 rounded shadow">S2</button>
+                <button onclick="cz1000Step(3)" class="bg-yellow-500 hover:bg-yellow-400 text-black font-mono font-extrabold text-xs py-1.5 rounded shadow">S3</button>
+                <button onclick="cz1000Step(4)" class="bg-yellow-500 hover:bg-yellow-400 text-black font-mono font-extrabold text-xs py-1.5 rounded shadow">S4</button>
+                <button onclick="cz1000Step(5)" class="bg-yellow-500 hover:bg-yellow-400 text-black font-mono font-extrabold text-xs py-1.5 rounded shadow">S5</button>
+                <button onclick="cz1000Step(6)" class="bg-yellow-500 hover:bg-yellow-400 text-black font-mono font-extrabold text-xs py-1.5 rounded shadow">S6</button>
+                <button onclick="cz1000Step(7)" class="bg-yellow-500 hover:bg-yellow-400 text-black font-mono font-extrabold text-xs py-1.5 rounded shadow">S7</button>
+                <button onclick="cz1000Step(8)" class="bg-yellow-500 hover:bg-yellow-400 text-black font-mono font-extrabold text-xs py-1.5 rounded shadow">S8</button>
+                <button onclick="cz1000Val(-1)" class="bg-zinc-800 hover:bg-zinc-700 text-yellow-300 font-mono font-bold text-xs py-1.5 rounded col-span-2">DOWN ▼</button>
+                <button onclick="cz1000Val(1)" class="bg-zinc-800 hover:bg-zinc-700 text-yellow-300 font-mono font-bold text-xs py-1.5 rounded col-span-2">UP ▲</button>
+              </div>
+            </div>
+
+            <!-- RED MEMBRANE BUTTONS: Memory & Store (3 cols) -->
+            <div class="md:col-span-3 bg-[#141619] p-3 rounded border border-red-900/60 space-y-2">
+              <span class="text-[10px] font-mono uppercase font-bold text-red-400 block tracking-wider">Red: Program Select</span>
+              <div class="grid grid-cols-2 gap-1.5" id="cz1000-membrane-red">
+                <button onclick="setCz1000Bank('rom')" class="bg-red-600 hover:bg-red-500 text-white font-mono font-bold text-xs py-2 rounded shadow">PRESET</button>
+                <button onclick="setCz1000Bank('ram')" class="bg-red-700 hover:bg-red-600 text-white font-mono font-bold text-xs py-2 rounded shadow">MEMORY</button>
+                <button onclick="cz1000Compare()" class="bg-red-900 hover:bg-red-800 text-red-200 font-mono font-bold text-xs py-2 rounded">COMPARE</button>
+                <button onclick="cz1000Write()" class="bg-red-800 hover:bg-red-700 text-white font-mono font-bold text-xs py-2 rounded">WRITE</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Interactive Sliders & Live Phase Distortion Controls -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-4">
+          
+          <!-- Waveform & Line Parameters (6 cols) -->
+          <div class="lg:col-span-6 bg-[#212328] p-4 rounded border border-zinc-700 space-y-4">
+            <span class="text-xs uppercase font-extrabold text-yellow-400 tracking-wider block border-b border-zinc-700 pb-2">Phase Distortion Waveform Matrix</span>
+
+            <!-- Wave 1 Selector -->
+            <div>
+              <span class="text-[11px] text-zinc-300 block mb-1.5 font-mono">DCO 1 Waveform:</span>
+              <div class="grid grid-cols-4 gap-1.5" id="cz1000-wave-btns">
+                <button onclick="setCz1000Wave(1)" class="cz1000-w-btn bg-red-600 text-white text-xs py-1.5 rounded font-mono font-bold">Saw</button>
+                <button onclick="setCz1000Wave(2)" class="cz1000-w-btn bg-zinc-800 hover:bg-zinc-700 text-zinc-300 text-xs py-1.5 rounded font-mono">Square</button>
+                <button onclick="setCz1000Wave(3)" class="cz1000-w-btn bg-zinc-800 hover:bg-zinc-700 text-zinc-300 text-xs py-1.5 rounded font-mono">Pulse 1</button>
+                <button onclick="setCz1000Wave(4)" class="cz1000-w-btn bg-zinc-800 hover:bg-zinc-700 text-zinc-300 text-xs py-1.5 rounded font-mono">Pulse 2</button>
+                <button onclick="setCz1000Wave(5)" class="cz1000-w-btn bg-zinc-800 hover:bg-zinc-700 text-zinc-300 text-xs py-1.5 rounded font-mono">Pulse 3</button>
+                <button onclick="setCz1000Wave(6)" class="cz1000-w-btn bg-zinc-800 hover:bg-zinc-700 text-zinc-300 text-xs py-1.5 rounded font-mono">Dbl Sine</button>
+                <button onclick="setCz1000Wave(7)" class="cz1000-w-btn bg-zinc-800 hover:bg-zinc-700 text-zinc-300 text-xs py-1.5 rounded font-mono">Saw-Pls</button>
+                <button onclick="setCz1000Wave(8)" class="cz1000-w-btn bg-zinc-800 hover:bg-zinc-700 text-zinc-300 text-xs py-1.5 rounded font-mono">Reso 1</button>
+              </div>
+            </div>
+
+            <!-- DCW & DCA Sliders -->
+            <div class="grid grid-cols-2 gap-3 pt-2">
+              <div class="bg-black/40 p-3 rounded border border-zinc-700 space-y-1.5">
+                <div class="flex justify-between text-xs font-mono text-zinc-300">
+                  <span class="text-blue-400 font-bold">DCW Wave Shaper</span>
+                  <span id="val-cz1000-dcw" class="text-yellow-400 font-bold">85</span>
+                </div>
+                <input type="range" min="0" max="99" value="85" oninput="updateCz1000Param('dcw', this.value)" class="w-full accent-blue-500 cursor-pointer">
+              </div>
+              <div class="bg-black/40 p-3 rounded border border-zinc-700 space-y-1.5">
+                <div class="flex justify-between text-xs font-mono text-zinc-300">
+                  <span class="text-red-400 font-bold">DCA Amplifier</span>
+                  <span id="val-cz1000-dca" class="text-yellow-400 font-bold">99</span>
+                </div>
+                <input type="range" min="0" max="99" value="99" oninput="updateCz1000Param('dca', this.value)" class="w-full accent-red-500 cursor-pointer">
+              </div>
+            </div>
+
+            <!-- Portamento & Solo Mode -->
+            <div class="grid grid-cols-2 gap-3">
+              <div>
+                <div class="flex justify-between text-[10px] font-mono text-zinc-400">
+                  <span>Portamento Time</span>
+                  <span id="val-cz1000-porta" class="text-yellow-400 font-bold">0</span>
+                </div>
+                <input type="range" min="0" max="99" value="0" oninput="updateCz1000Param('porta', this.value)" class="w-full accent-yellow-400 cursor-pointer">
+              </div>
+              <div class="flex items-center justify-between pt-3">
+                <span class="text-xs font-mono text-zinc-300">Solo Mode:</span>
+                <button onclick="toggleCz1000Solo()" id="cz1000-btn-solo" class="bg-zinc-800 hover:bg-zinc-700 text-zinc-300 text-xs px-3 py-1.5 rounded font-mono font-bold">
+                  Poly (8 Voice)
+                </button>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Presets & SysEx (6 cols) -->
+          <div class="lg:col-span-6 bg-[#212328] p-4 rounded border border-zinc-700 space-y-4">
+            <span class="text-xs uppercase font-extrabold text-red-400 tracking-wider block border-b border-zinc-700 pb-2">CZ-1000 Patch Bank & SysEx</span>
+
+            <div>
+              <span class="text-[11px] text-zinc-300 block mb-1.5 font-mono">16 ROM Factory Presets:</span>
+              <select id="cz1000-preset-select" onchange="selectCz1000Preset(this.value)" class="w-full bg-black border border-zinc-600 text-white p-2.5 text-xs rounded font-mono">
+                <option value="0">ROM 01: BRASS ENS. 1</option>
+                <option value="1">ROM 02: BRASS ENS. 2</option>
+                <option value="2">ROM 03: TRUMPET</option>
+                <option value="3">ROM 04: VIOLIN</option>
+                <option value="4">ROM 05: STRING ENS.</option>
+                <option value="5">ROM 06: ELEC. PIANO</option>
+                <option value="6">ROM 07: ELEC. ORGAN</option>
+                <option value="7">ROM 08: FLUTE</option>
+                <option value="8">ROM 09: SYNTH ENSEMBLE</option>
+                <option value="9">ROM 10: SYNTH SOUND</option>
+                <option value="10">ROM 11: FANTASY</option>
+                <option value="11">ROM 12: SYNTH LEAD</option>
+                <option value="12">ROM 13: MELLOW BRASS</option>
+                <option value="13">ROM 14: STRINGS 2</option>
+                <option value="14">ROM 15: SLAP BASS</option>
+                <option value="15">ROM 16: SYNTH BASS</option>
+              </select>
+            </div>
+
+            <!-- Vibrato Controls -->
+            <div class="grid grid-cols-2 gap-3">
+              <div>
+                <div class="flex justify-between text-[10px] font-mono text-zinc-400">
+                  <span>Vibrato Rate</span>
+                  <span id="val-cz1000-vib-rate" class="text-yellow-400 font-bold">50</span>
+                </div>
+                <input type="range" min="0" max="99" value="50" oninput="updateCz1000Param('vib-rate', this.value)" class="w-full accent-yellow-400 cursor-pointer">
+              </div>
+              <div>
+                <div class="flex justify-between text-[10px] font-mono text-zinc-400">
+                  <span>Vibrato Depth</span>
+                  <span id="val-cz1000-vib-depth" class="text-yellow-400 font-bold">30</span>
+                </div>
+                <input type="range" min="0" max="99" value="30" oninput="updateCz1000Param('vib-depth', this.value)" class="w-full accent-yellow-400 cursor-pointer">
+              </div>
+            </div>
+
+            <!-- Live SysEx Telemetry -->
+            <div class="bg-black/80 p-3 rounded border border-red-900/60 space-y-1">
+              <span class="text-[10px] uppercase font-bold text-red-400 font-mono block">Casio CZ-1000 Live SysEx (ID 0x44)</span>
+              <div class="text-amber-400 font-mono text-xs break-all" id="cz1000-sysex-hex">
+                F0 44 00 00 70 00 14 55 F7
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
 
     <!-- VIEW 3: LIBRARIAN & BANK MANAGER -->
     <section id="view-librarian" class="hidden space-y-4">
@@ -8541,7 +9174,7 @@
     // View Switching
     function switchView(viewName) {
       const topViews = ['dashboard', 'librarian', 'midi'];
-      const synthViews = ['editor', 'ax60', 'audity', 'b3', 'carnaval', 'emax', 'emax2', 'xl1', 'xl7', 'xk6', 'virtuoso', 'vintagepro', 'vintagekeys', 'proteus2000', 'proteus2500', 'sp1200', 'proteus1000', 'planetphatt', 'planetearth', 'orbit3', 'orbit9090'];
+      const synthViews = ['editor', 'ax60', 'audity', 'b3', 'carnaval', 'emax', 'emax2', 'xl1', 'xl7', 'xk6', 'virtuoso', 'vintagepro', 'vintagekeys', 'proteus2000', 'proteus2500', 'sp1200', 'proteus1000', 'planetphatt', 'planetearth', 'orbit3', 'orbit9090', 'cz1', 'cz1000'];
       const allViews = [...topViews, ...synthViews];
 
       allViews.forEach(v => {
@@ -8814,7 +9447,7 @@
     }
 
     function toggleAllGroups() {
-      const groups = ['access', 'akai', 'emu'];
+      const groups = ['access', 'akai', 'casio', 'emu'];
       const anyOpen = groups.some(id => {
         const c = document.getElementById('content-' + id);
         return c && !c.classList.contains('hidden');
@@ -8838,7 +9471,7 @@
     function updateToggleAllBtn() {
       const btn = document.getElementById('btn-toggle-all-groups');
       if (!btn) return;
-      const groups = ['access', 'akai', 'emu'];
+      const groups = ['access', 'akai', 'casio', 'emu'];
       const anyOpen = groups.some(id => {
         const c = document.getElementById('content-' + id);
         return c && !c.classList.contains('hidden');
@@ -12080,6 +12713,371 @@
         playKeyNote(48);
       }
     }
+
+    // ================= CASIO CZ-1 LOGIC =================
+    let cz1State = {
+      lineMode: 2, // 0: 1, 1: 2, 2: 1+2', 3: 1+1'
+      ringMod: 0,
+      noiseMod: 0,
+      chorus: 1,
+      wave1: 1,
+      detune: 7,
+      dcwRate: 85,
+      dcwLevel: 92,
+      dcwKf: 5,
+      dcaRate: 78,
+      dcaLevel: 99,
+      vibRate: 45,
+      vibDepth: 28,
+      velDca: 12,
+      velDcw: 8,
+      aftertouch: 10
+    };
+
+    function updateCz1Param(param, val) {
+      val = parseInt(val);
+      const hexVal = (val < 0 ? val + 64 : val).toString(16).toUpperCase().padStart(2, '0');
+      let paramId = 20;
+
+      if (param === 'detune') {
+        cz1State.detune = val;
+        document.getElementById('val-cz1-detune').innerText = (val > 0 ? '+' : '') + val + ' Cents';
+        paramId = 41;
+      } else if (param === 'dcw-rate') {
+        cz1State.dcwRate = val;
+        document.getElementById('val-cz1-dcw-rate').innerText = val;
+        paramId = 21;
+      } else if (param === 'dcw-level') {
+        cz1State.dcwLevel = val;
+        document.getElementById('val-cz1-dcw-level').innerText = val;
+        paramId = 22;
+      } else if (param === 'dcw-kf') {
+        cz1State.dcwKf = val;
+        document.getElementById('val-cz1-dcw-kf').innerText = val;
+        paramId = 20;
+      } else if (param === 'dca-rate') {
+        cz1State.dcaRate = val;
+        document.getElementById('val-cz1-dca-rate').innerText = val;
+        paramId = 31;
+      } else if (param === 'dca-level') {
+        cz1State.dcaLevel = val;
+        document.getElementById('val-cz1-dca-level').innerText = val;
+        paramId = 32;
+      } else if (param === 'vib-rate') {
+        cz1State.vibRate = val;
+        document.getElementById('val-cz1-vib-rate').innerText = val;
+        paramId = 72;
+      } else if (param === 'vib-depth') {
+        cz1State.vibDepth = val;
+        document.getElementById('val-cz1-vib-depth').innerText = val;
+        paramId = 73;
+      } else if (param === 'vel-dca') {
+        cz1State.velDca = val;
+        document.getElementById('val-cz1-vel-dca').innerText = val;
+        paramId = 90;
+      } else if (param === 'vel-dcw') {
+        cz1State.velDcw = val;
+        document.getElementById('val-cz1-vel-dcw').innerText = val;
+        paramId = 91;
+      } else if (param === 'aftertouch') {
+        cz1State.aftertouch = val;
+        document.getElementById('val-cz1-aftertouch').innerText = val;
+        paramId = 92;
+      }
+
+      const pIdHex = paramId.toString(16).toUpperCase().padStart(2, '0');
+      document.getElementById('cz1-sysex-hex').innerText = `F0 44 00 00 70 00 ${pIdHex} ${hexVal} F7`;
+    }
+
+    function setCz1Line(mode) {
+      cz1State.lineMode = mode;
+      const modes = ['1', '2', "1+2'", "1+1'"];
+      const btns = document.querySelectorAll('#cz1-line-btns button');
+      btns.forEach((b, idx) => {
+        if (idx === mode) {
+          b.className = 'cz1-line-btn bg-[#0088cc] text-white text-xs py-1.5 rounded font-mono font-bold shadow';
+        } else {
+          b.className = 'cz1-line-btn bg-zinc-800 hover:bg-zinc-700 text-zinc-300 text-xs py-1.5 rounded font-mono font-bold';
+        }
+      });
+      document.getElementById('cz1-lcd-line2').innerText = `LINE:${modes[mode]} RING:${cz1State.ringMod ? 'ON' : 'OFF'} CHORUS:${cz1State.chorus}`;
+      document.getElementById('cz1-sysex-hex').innerText = `F0 44 00 00 70 00 00 0${mode} F7`;
+    }
+
+    function toggleCz1RingMod() {
+      cz1State.ringMod = cz1State.ringMod ? 0 : 1;
+      const btn = document.getElementById('cz1-btn-ring');
+      btn.innerText = `Ring: ${cz1State.ringMod ? 'ON' : 'OFF'}`;
+      btn.className = cz1State.ringMod ? 'mt-1 w-full bg-[#0088cc] text-white text-xs py-1 rounded font-bold font-mono shadow' : 'mt-1 w-full bg-zinc-800 hover:bg-zinc-700 text-zinc-300 text-xs py-1 rounded font-bold font-mono';
+      const modes = ['1', '2', "1+2'", "1+1'"];
+      document.getElementById('cz1-lcd-line2').innerText = `LINE:${modes[cz1State.lineMode]} RING:${cz1State.ringMod ? 'ON' : 'OFF'} CHORUS:${cz1State.chorus}`;
+      document.getElementById('cz1-sysex-hex').innerText = `F0 44 00 00 70 00 01 0${cz1State.ringMod} F7`;
+    }
+
+    function toggleCz1NoiseMod() {
+      cz1State.noiseMod = cz1State.noiseMod ? 0 : 1;
+      const btn = document.getElementById('cz1-btn-noise');
+      btn.innerText = `Noise: ${cz1State.noiseMod ? 'ON' : 'OFF'}`;
+      btn.className = cz1State.noiseMod ? 'mt-1 w-full bg-[#0088cc] text-white text-xs py-1 rounded font-bold font-mono shadow' : 'mt-1 w-full bg-zinc-800 hover:bg-zinc-700 text-zinc-300 text-xs py-1 rounded font-bold font-mono';
+      document.getElementById('cz1-sysex-hex').innerText = `F0 44 00 00 70 00 02 0${cz1State.noiseMod} F7`;
+    }
+
+    function setCz1Chorus(mode) {
+      cz1State.chorus = mode;
+      const btns = document.querySelectorAll('#cz1-chorus-btns button');
+      btns.forEach((b, idx) => {
+        if (idx === mode) {
+          b.className = 'cz1-chorus-btn bg-[#0088cc] text-white text-xs py-1.5 rounded font-mono font-bold shadow';
+        } else {
+          b.className = 'cz1-chorus-btn bg-zinc-800 hover:bg-zinc-700 text-zinc-300 text-xs py-1.5 rounded font-mono font-bold';
+        }
+      });
+      const modes = ['1', '2', "1+2'", "1+1'"];
+      document.getElementById('cz1-lcd-line2').innerText = `LINE:${modes[cz1State.lineMode]} RING:${cz1State.ringMod ? 'ON' : 'OFF'} CHORUS:${cz1State.chorus}`;
+      document.getElementById('cz1-sysex-hex').innerText = `F0 44 00 00 70 00 50 0${mode} F7`;
+    }
+
+    function setCz1Wave(dco, waveIdx) {
+      cz1State.wave1 = waveIdx;
+      const btns = document.querySelectorAll('#cz1-wave1-btns button');
+      btns.forEach((b, idx) => {
+        if (idx + 1 === waveIdx) {
+          b.className = 'cz1-w1-btn bg-[#0088cc] text-white text-xs py-1.5 rounded font-mono font-bold shadow';
+        } else {
+          b.className = 'cz1-w1-btn bg-zinc-800 hover:bg-zinc-700 text-zinc-300 text-xs py-1.5 rounded font-mono';
+        }
+      });
+      document.getElementById('cz1-sysex-hex').innerText = `F0 44 00 00 70 00 0A 0${waveIdx} F7`;
+    }
+
+    function selectCz1Preset(idx) {
+      const sel = document.getElementById('cz1-preset-select');
+      const text = sel.options[sel.selectedIndex].text;
+      document.getElementById('cz1-lcd-line1').innerText = text;
+      document.getElementById('dashboard-cz1-patch').innerText = text;
+      document.getElementById('cz1-sysex-hex').innerText = `F0 44 00 00 70 00 60 ${parseInt(idx).toString(16).toUpperCase().padStart(2, '0')} F7`;
+    }
+
+    function auditionCz1() {
+      try {
+        const ctx = new (window.AudioContext || window.webkitAudioContext)();
+        const now = ctx.currentTime;
+        const osc1 = ctx.createOscillator();
+        const osc2 = ctx.createOscillator();
+        const filter = ctx.createBiquadFilter();
+        const gainNode = ctx.createGain();
+
+        osc1.type = 'sawtooth';
+        osc1.frequency.setValueAtTime(130.81, now);
+
+        osc2.type = 'triangle';
+        osc2.frequency.setValueAtTime(130.81 * 1.004, now);
+
+        filter.type = 'lowpass';
+        filter.frequency.setValueAtTime(450, now);
+        filter.frequency.exponentialRampToValueAtTime(3200, now + 0.08);
+        filter.frequency.exponentialRampToValueAtTime(1400, now + 0.45);
+        filter.Q.value = 6;
+
+        gainNode.gain.setValueAtTime(0.001, now);
+        gainNode.gain.linearRampToValueAtTime(0.65, now + 0.06);
+        gainNode.gain.exponentialRampToValueAtTime(0.001, now + 0.75);
+
+        osc1.connect(filter);
+        osc2.connect(filter);
+        filter.connect(gainNode);
+        gainNode.connect(ctx.destination);
+
+        osc1.start(now);
+        osc2.start(now);
+        osc1.stop(now + 0.8);
+        osc2.stop(now + 0.8);
+      } catch(e) {
+        playKeyNote(60);
+      }
+    }
+
+    // ================= CASIO CZ-1000 LOGIC =================
+    let cz1000State = {
+      activeSection: 'dco1',
+      activeStep: 1,
+      bank: 'rom',
+      wave: 1,
+      dcw: 85,
+      dca: 99,
+      porta: 0,
+      solo: 0,
+      vibRate: 50,
+      vibDepth: 30
+    };
+
+    function selectCz1000Section(sec) {
+      cz1000State.activeSection = sec;
+      const btns = document.querySelectorAll('#cz1000-membrane-blue button');
+      btns.forEach(b => {
+        if (b.innerText.toLowerCase().replace(' ', '') === sec.toLowerCase()) {
+          b.className = 'bg-cyan-400 text-black font-mono font-extrabold text-xs py-2 rounded shadow text-center';
+        } else {
+          b.className = 'bg-blue-700 hover:bg-blue-600 text-white font-mono font-bold text-xs py-2 rounded shadow text-center';
+        }
+      });
+      document.getElementById('cz1000-lcd-line2').innerText = `SEC:${sec.toUpperCase()} S${cz1000State.activeStep} DCW:${cz1000State.dcw}`;
+    }
+
+    function cz1000Step(step) {
+      cz1000State.activeStep = step;
+      const btns = document.querySelectorAll('#cz1000-membrane-yellow button');
+      btns.forEach((b, idx) => {
+        if (idx < 8) {
+          if (idx + 1 === step) {
+            b.className = 'bg-white text-black font-mono font-black text-xs py-1.5 rounded shadow';
+          } else {
+            b.className = 'bg-yellow-500 hover:bg-yellow-400 text-black font-mono font-extrabold text-xs py-1.5 rounded shadow';
+          }
+        }
+      });
+      document.getElementById('cz1000-lcd-line2').innerText = `SEC:${cz1000State.activeSection.toUpperCase()} S${step} VAL:${cz1000State.dcw}`;
+      document.getElementById('cz1000-sysex-hex').innerText = `F0 44 00 00 70 00 1B 0${step} F7`;
+    }
+
+    function cz1000Val(delta) {
+      if (cz1000State.activeSection === 'dcw' || cz1000State.activeSection === 'dcw1') {
+        cz1000State.dcw = Math.max(0, Math.min(99, cz1000State.dcw + delta * 5));
+        document.getElementById('val-cz1000-dcw').innerText = cz1000State.dcw;
+      } else {
+        cz1000State.dca = Math.max(0, Math.min(99, cz1000State.dca + delta * 5));
+        document.getElementById('val-cz1000-dca').innerText = cz1000State.dca;
+      }
+      document.getElementById('cz1000-lcd-line2').innerText = `DCO1:SAW DCW:${cz1000State.dcw} DCA:${cz1000State.dca}`;
+      document.getElementById('cz1000-sysex-hex').innerText = `F0 44 00 00 70 00 14 ${cz1000State.dcw.toString(16).toUpperCase().padStart(2, '0')} F7`;
+    }
+
+    function setCz1000Bank(bank) {
+      cz1000State.bank = bank;
+      const btns = document.querySelectorAll('#cz1000-membrane-red button');
+      if (bank === 'rom') {
+        btns[0].className = 'bg-white text-red-700 font-mono font-black text-xs py-2 rounded shadow';
+        btns[1].className = 'bg-red-700 hover:bg-red-600 text-white font-mono font-bold text-xs py-2 rounded shadow';
+      } else {
+        btns[0].className = 'bg-red-600 hover:bg-red-500 text-white font-mono font-bold text-xs py-2 rounded shadow';
+        btns[1].className = 'bg-white text-red-700 font-mono font-black text-xs py-2 rounded shadow';
+      }
+      const sel = document.getElementById('cz1000-preset-select');
+      const text = sel.options[sel.selectedIndex].text;
+      document.getElementById('cz1000-lcd-line1').innerText = (bank === 'rom' ? 'ROM ' : 'RAM ') + text.substring(7);
+    }
+
+    function cz1000Compare() {
+      const prev = document.getElementById('cz1000-lcd-line1').innerText;
+      document.getElementById('cz1000-lcd-line1').innerText = "COMPARE ORIGINAL";
+      setTimeout(() => { document.getElementById('cz1000-lcd-line1').innerText = prev; }, 800);
+    }
+
+    function cz1000Write() {
+      const prev = document.getElementById('cz1000-lcd-line1').innerText;
+      document.getElementById('cz1000-lcd-line1').innerText = "WRITE COMPLETED!";
+      setTimeout(() => { document.getElementById('cz1000-lcd-line1').innerText = prev; }, 800);
+    }
+
+    function setCz1000Wave(waveIdx) {
+      cz1000State.wave = waveIdx;
+      const btns = document.querySelectorAll('#cz1000-wave-btns button');
+      btns.forEach((b, idx) => {
+        if (idx + 1 === waveIdx) {
+          b.className = 'cz1000-w-btn bg-red-600 text-white text-xs py-1.5 rounded font-mono font-bold shadow';
+        } else {
+          b.className = 'cz1000-w-btn bg-zinc-800 hover:bg-zinc-700 text-zinc-300 text-xs py-1.5 rounded font-mono';
+        }
+      });
+      document.getElementById('cz1000-sysex-hex').innerText = `F0 44 00 00 70 00 0A 0${waveIdx} F7`;
+    }
+
+    function updateCz1000Param(param, val) {
+      val = parseInt(val);
+      const hexVal = val.toString(16).toUpperCase().padStart(2, '0');
+      let paramId = 20;
+
+      if (param === 'dcw') {
+        cz1000State.dcw = val;
+        document.getElementById('val-cz1000-dcw').innerText = val;
+        paramId = 20;
+      } else if (param === 'dca') {
+        cz1000State.dca = val;
+        document.getElementById('val-cz1000-dca').innerText = val;
+        paramId = 30;
+      } else if (param === 'porta') {
+        cz1000State.porta = val;
+        document.getElementById('val-cz1000-porta').innerText = val;
+        paramId = 80;
+      } else if (param === 'vib-rate') {
+        cz1000State.vibRate = val;
+        document.getElementById('val-cz1000-vib-rate').innerText = val;
+        paramId = 72;
+      } else if (param === 'vib-depth') {
+        cz1000State.vibDepth = val;
+        document.getElementById('val-cz1000-vib-depth').innerText = val;
+        paramId = 73;
+      }
+
+      document.getElementById('cz1000-lcd-line2').innerText = `DCO1:SAW DCW:${cz1000State.dcw} DCA:${cz1000State.dca}`;
+      document.getElementById('cz1000-sysex-hex').innerText = `F0 44 00 00 70 00 ${paramId.toString(16).toUpperCase().padStart(2, '0')} ${hexVal} F7`;
+    }
+
+    function toggleCz1000Solo() {
+      cz1000State.solo = cz1000State.solo ? 0 : 1;
+      const btn = document.getElementById('cz1000-btn-solo');
+      btn.innerText = cz1000State.solo ? 'Solo (Mono)' : 'Poly (8 Voice)';
+      btn.className = cz1000State.solo ? 'bg-amber-500 text-black text-xs px-3 py-1.5 rounded font-mono font-black shadow' : 'bg-zinc-800 hover:bg-zinc-700 text-zinc-300 text-xs px-3 py-1.5 rounded font-mono font-bold';
+      document.getElementById('cz1000-sysex-hex').innerText = `F0 44 00 00 70 00 05 0${cz1000State.solo} F7`;
+    }
+
+    function selectCz1000Preset(idx) {
+      const sel = document.getElementById('cz1000-preset-select');
+      const text = sel.options[sel.selectedIndex].text;
+      document.getElementById('cz1000-lcd-line1').innerText = text;
+      document.getElementById('dashboard-cz1000-patch').innerText = text;
+      document.getElementById('cz1000-sysex-hex').innerText = `F0 44 00 00 70 00 60 ${parseInt(idx).toString(16).toUpperCase().padStart(2, '0')} F7`;
+    }
+
+    function auditionCz1000() {
+      try {
+        const ctx = new (window.AudioContext || window.webkitAudioContext)();
+        const now = ctx.currentTime;
+        const osc = ctx.createOscillator();
+        const filter = ctx.createBiquadFilter();
+        const gain = ctx.createGain();
+
+        osc.type = 'sawtooth';
+        osc.frequency.setValueAtTime(220, now);
+
+        filter.type = 'lowpass';
+        filter.frequency.setValueAtTime(300, now);
+        filter.frequency.exponentialRampToValueAtTime(3600, now + 0.04);
+        filter.frequency.exponentialRampToValueAtTime(800, now + 0.35);
+        filter.Q.value = 8;
+
+        gain.gain.setValueAtTime(0.001, now);
+        gain.gain.linearRampToValueAtTime(0.7, now + 0.02);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.5);
+
+        osc.connect(filter);
+        filter.connect(gain);
+        gain.connect(ctx.destination);
+
+        osc.start(now);
+        osc.stop(now + 0.55);
+      } catch(e) {
+        playKeyNote(57);
+      }
+    }
+
+    // URL Hash Routing for direct navigation and screenshot capture
+    window.addEventListener('DOMContentLoaded', () => {
+      if (window.location.hash) {
+        const view = window.location.hash.substring(1);
+        if (view) switchView(view);
+      }
+    });
 
   </script>
 </body>

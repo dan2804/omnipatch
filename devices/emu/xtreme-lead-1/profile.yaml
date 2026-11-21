@@ -15,7 +15,7 @@ hardware:
   arpeggiator: 16 simultaneous synchronized polyphonic arpeggiator engines
   knobs: 4 real-time multi-function knobs controlling 12 parameters (Layers A-D, E-H,
     I-L)
-  outputs: '6 polyphonic outputs (3 stereo pairs: Main, Sub 1, Sub 2)'
+  outputs: "'6 polyphonic outputs (3 stereo pairs: Main, Sub 1, Sub 2)'"
   chassis: Deep cyber violet/purple faceplate with neon cyan and lime-yellow graphics
 midi:
   manufacturer_id:
