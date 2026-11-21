@@ -1,0 +1,139 @@
+name: Casio CZ-230S
+manufacturer: Casio Computer Co., Ltd.
+category: Phase Distortion Synthesizer & PCM Rhythm Workstation
+release_year: 1986
+hardware:
+  form_factor: "49 Mini-Key Synthesizer with Built-in Monitor Speakers"
+  polyphony: "8 voices (Phase Distortion) + PCM RZ-1 Rhythm Section"
+  oscillators: "Phase Distortion DCO Engine + 12-Voice PCM Drum Voices"
+  rhythm: "20 Preset PCM Rhythms with Synchro Start, Fill-in, and 10 User Rhythm Memories"
+  amplifiers: "Stereo Built-in Amplifiers with twin front-facing speaker grilles"
+  memory: "99 Factory Preset Tones, 4 Programmable RAM Memories (P1-P4), 20 PCM Rhythms"
+  chassis: "Sleek light silver-grey console chassis with dual speaker grilles, high-visibility green numeric/segment LCD, red rhythm control pads, and tempo controls"
+midi:
+  manufacturer_id:
+  - 68
+  model_id: 4
+  default_device_id: 0
+  bank_select:
+    msb_cc: 0
+    msb_val: 0
+    lsb_cc: 32
+    banks:
+      0: "Preset Tones (00-99)"
+      1: "User RAM Tones (P1-P4)"
+sysex:
+  header:
+  - 240
+  - 68
+  - 0
+  - 0
+  - 112
+  commands:
+    parameter_edit: 64
+    tone_dump_request: 4
+    tone_dump: 70
+  parameter_edit_format: "F0 44 00 00 70 <dev_id> <param_id> <val_byte> F7"
+ui_theme:
+  style: hardware_chassis
+  chassis_color: '#cfd2d6'
+  panel_color: '#1e2024'
+  chassis_type: silver_grey_cz230s_drum_synth
+  accent_color: '#ef4444'
+  buttons: tactile_pads
+  button_speaker_grille: '#18181b'
+  button_red: '#ef4444'
+  button_grey: '#4b5563'
+  lcd_backlight: '#052e16'
+  lcd_text: '#22c55e'
+parameters:
+- id: tone_select
+  name: Preset Tone Number
+  page: tone
+  param_id: 0
+  type: linear
+  range: [0, 99]
+- id: rhythm_pattern
+  name: PCM Rhythm Pattern
+  page: rhythm
+  param_id: 10
+  type: discrete
+  range: [0, 19]
+  options:
+  - Rock 1
+  - Rock 2
+  - 8-Beat
+  - 16-Beat
+  - Disco
+  - Funk
+  - Reggae
+  - Bossa Nova
+  - Samba
+  - Salsa
+  - Swing
+  - Slow Rock
+  - Big Band
+  - March
+  - Waltz
+  - Tango
+  - Polka
+  - Country
+  - Fusion
+  - Ballad
+- id: tempo_bpm
+  name: Rhythm Tempo (BPM)
+  page: rhythm
+  param_id: 11
+  type: linear
+  range: [40, 250]
+- id: rhythm_volume
+  name: PCM Rhythm Section Volume
+  page: rhythm
+  param_id: 12
+  type: linear
+  range: [0, 15]
+- id: synth_volume
+  name: Phase Distortion Synth Volume
+  page: master
+  param_id: 13
+  type: linear
+  range: [0, 15]
+- id: solo_mode
+  name: Keyboard Solo Mode
+  page: master
+  param_id: 20
+  type: discrete
+  range: [0, 1]
+  options:
+  - 'Polyphonic (8-Voice)'
+  - 'Monophonic Solo'
+- id: portamento_time
+  name: Portamento Glide Time
+  page: performance
+  param_id: 21
+  type: linear
+  range: [0, 99]
+- id: vibrato_depth
+  name: Vibrato Depth
+  page: performance
+  param_id: 30
+  type: linear
+  range: [0, 99]
+- id: dcw_filter_mod
+  name: DCW Harmonic Brightness Trim
+  page: synth_edit
+  param_id: 40
+  type: linear
+  range: [0, 99]
+- id: dca_attack_trim
+  name: DCA Envelope Attack Time
+  page: synth_edit
+  param_id: 41
+  type: linear
+  range: [0, 99]
+- id: dca_release_trim
+  name: DCA Envelope Release Time
+  page: synth_edit
+  param_id: 42
+  type: linear
+  range: [0, 99]

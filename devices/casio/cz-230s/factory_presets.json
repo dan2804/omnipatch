@@ -1,0 +1,42 @@
+{
+  "Preset Tones": [
+    { "index": 0, "name": "00 BRASS ENS 1", "category": "Brass" },
+    { "index": 1, "name": "01 BRASS ENS 2", "category": "Brass" },
+    { "index": 2, "name": "02 TRUMPET", "category": "Brass" },
+    { "index": 3, "name": "03 TROMBONE", "category": "Brass" },
+    { "index": 4, "name": "04 STRINGS 1", "category": "Strings" },
+    { "index": 5, "name": "05 STRINGS 2", "category": "Strings" },
+    { "index": 6, "name": "06 VIOLIN", "category": "Strings" },
+    { "index": 7, "name": "07 CELLO", "category": "Strings" },
+    { "index": 8, "name": "08 ELEC PIANO 1", "category": "Keyboard" },
+    { "index": 9, "name": "09 ELEC PIANO 2", "category": "Keyboard" },
+    { "index": 10, "name": "10 PIPE ORGAN 1", "category": "Organ" },
+    { "index": 11, "name": "11 ELEC ORGAN 1", "category": "Organ" },
+    { "index": 12, "name": "12 JAZZ ORGAN", "category": "Organ" },
+    { "index": 13, "name": "13 ACCORDION", "category": "Reed" },
+    { "index": 14, "name": "14 FLUTE", "category": "Reed" },
+    { "index": 15, "name": "15 CLARINET", "category": "Reed" },
+    { "index": 16, "name": "16 OBOE", "category": "Reed" },
+    { "index": 17, "name": "17 HARMONICA", "category": "Reed" },
+    { "index": 18, "name": "18 SYNTH ENSEMBLE", "category": "Synth" },
+    { "index": 19, "name": "19 SYNTH SOUND", "category": "Synth" },
+    { "index": 20, "name": "20 SYNTH BRASS", "category": "Brass" },
+    { "index": 21, "name": "21 FANTASY", "category": "Synth" },
+    { "index": 22, "name": "22 SYNTH LEAD", "category": "Lead" },
+    { "index": 23, "name": "23 SLAP BASS", "category": "Bass" },
+    { "index": 24, "name": "24 SYNTH BASS", "category": "Bass" },
+    { "index": 25, "name": "25 ELEC BASS", "category": "Bass" },
+    { "index": 26, "name": "26 VIBRAPHONE", "category": "Mallet" },
+    { "index": 27, "name": "27 MARIMBA", "category": "Mallet" },
+    { "index": 28, "name": "28 GLOCKENSPIEL", "category": "Mallet" },
+    { "index": 29, "name": "29 KOTO", "category": "Pluck" },
+    { "index": 30, "name": "30 SITAR", "category": "Pluck" },
+    { "index": 31, "name": "31 STEEL DRUM", "category": "Percussion" }
+  ],
+  "User RAM Tones": [
+    { "index": 100, "name": "P-1 RESO LEAD", "category": "User" },
+    { "index": 101, "name": "P-2 COSMO PAD", "category": "User" },
+    { "index": 102, "name": "P-3 TECHNO BASS", "category": "User" },
+    { "index": 103, "name": "P-4 HYPER PLUCK", "category": "User" }
+  ]
+}

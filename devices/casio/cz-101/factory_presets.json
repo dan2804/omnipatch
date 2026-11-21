@@ -1,0 +1,38 @@
+{
+  "Preset ROM": [
+    { "index": 0, "name": "BRASS ENS. 1", "category": "Brass" },
+    { "index": 1, "name": "BRASS ENS. 2", "category": "Brass" },
+    { "index": 2, "name": "TRUMPET", "category": "Brass" },
+    { "index": 3, "name": "VIOLIN", "category": "Strings" },
+    { "index": 4, "name": "STRING ENS.", "category": "Strings" },
+    { "index": 5, "name": "ELEC. PIANO", "category": "Keyboard" },
+    { "index": 6, "name": "ELEC. ORGAN", "category": "Organ" },
+    { "index": 7, "name": "FLUTE", "category": "Reed" },
+    { "index": 8, "name": "SYNTH ENSEMBLE", "category": "Synth" },
+    { "index": 9, "name": "SYNTH SOUND", "category": "Synth" },
+    { "index": 10, "name": "FANTASY", "category": "Synth" },
+    { "index": 11, "name": "SYNTH LEAD", "category": "Synth" },
+    { "index": 12, "name": "MELLOW BRASS", "category": "Brass" },
+    { "index": 13, "name": "STRINGS 2", "category": "Strings" },
+    { "index": 14, "name": "SLAP BASS", "category": "Bass" },
+    { "index": 15, "name": "SYNTH BASS", "category": "Bass" }
+  ],
+  "Internal RAM": [
+    { "index": 16, "name": "KEYTAR HERO", "category": "Lead" },
+    { "index": 17, "name": "CZ SOLID BASS", "category": "Bass" },
+    { "index": 18, "name": "NEO RETRO POLY", "category": "Synth" },
+    { "index": 19, "name": "SOLO FLUTE PD", "category": "Reed" },
+    { "index": 20, "name": "SPACE STRINGS", "category": "Strings" },
+    { "index": 21, "name": "FUNK WAH CLAV", "category": "Keyboard" },
+    { "index": 22, "name": "GLOCKEN BELLS", "category": "Mallet" },
+    { "index": 23, "name": "WARM SAW BRASS", "category": "Brass" },
+    { "index": 24, "name": "SUB PLUCK BASS", "category": "Bass" },
+    { "index": 25, "name": "COSMIC SINE", "category": "Synth" },
+    { "index": 26, "name": "CRYSTAL TINES", "category": "Keyboard" },
+    { "index": 27, "name": "RESO SYNC LEAD", "category": "Lead" },
+    { "index": 28, "name": "SWEEP PAD 80S", "category": "Pad" },
+    { "index": 29, "name": "PERC ORGAN 3", "category": "Organ" },
+    { "index": 30, "name": "OCTAVE TECHNO", "category": "Synth" },
+    { "index": 31, "name": "PULSAR FX", "category": "SFX" }
+  ]
+}

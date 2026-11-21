@@ -300,6 +300,38 @@ fn main() -> Result<()> {
                     ]);
                     println!("Raw SysEx:  {}", msg.to_hex_string().bright_yellow().bold());
                     println!("Parsed Msg: Manufacturer: Casio (44), Device: CZ-1000 Phase Distortion Synth, Param: {}, Val: {}", pid, val);
+                } else if device.to_lowercase().contains("cz-101") || device.to_lowercase().contains("cz101") {
+                    let pid: u8 = param_id.parse().unwrap_or(20);
+                    let val: u8 = (value as u8) & 0x7F;
+                    let msg = SysExMessage::new_unchecked(vec![
+                        0xF0, 0x44, 0x00, 0x00, 0x70, 0x00, pid, val, 0xF7,
+                    ]);
+                    println!("Raw SysEx:  {}", msg.to_hex_string().bright_yellow().bold());
+                    println!("Parsed Msg: Manufacturer: Casio (44), Device: CZ-101 Portable Phase Distortion Synth, Param: {}, Val: {}", pid, val);
+                } else if device.to_lowercase().contains("cz-230s") || device.to_lowercase().contains("cz230s") {
+                    let pid: u8 = param_id.parse().unwrap_or(0);
+                    let val: u8 = (value as u8) & 0x7F;
+                    let msg = SysExMessage::new_unchecked(vec![
+                        0xF0, 0x44, 0x00, 0x00, 0x70, 0x00, pid, val, 0xF7,
+                    ]);
+                    println!("Raw SysEx:  {}", msg.to_hex_string().bright_yellow().bold());
+                    println!("Parsed Msg: Manufacturer: Casio (44), Device: CZ-230S Phase Distortion & PCM Rhythm Workstation, Param: {}, Val: {}", pid, val);
+                } else if device.to_lowercase().contains("cz-3000") || device.to_lowercase().contains("cz3000") {
+                    let pid: u8 = param_id.parse().unwrap_or(20);
+                    let val: u8 = (value as u8) & 0x7F;
+                    let msg = SysExMessage::new_unchecked(vec![
+                        0xF0, 0x44, 0x00, 0x00, 0x70, 0x00, pid, val, 0xF7,
+                    ]);
+                    println!("Raw SysEx:  {}", msg.to_hex_string().bright_yellow().bold());
+                    println!("Parsed Msg: Manufacturer: Casio (44), Device: CZ-3000 16-DCO Phase Distortion Synth with Chorus, Param: {}, Val: {}", pid, val);
+                } else if device.to_lowercase().contains("cz-5000") || device.to_lowercase().contains("cz5000") {
+                    let pid: u8 = param_id.parse().unwrap_or(20);
+                    let val: u8 = (value as u8) & 0x7F;
+                    let msg = SysExMessage::new_unchecked(vec![
+                        0xF0, 0x44, 0x00, 0x00, 0x70, 0x00, pid, val, 0xF7,
+                    ]);
+                    println!("Raw SysEx:  {}", msg.to_hex_string().bright_yellow().bold());
+                    println!("Parsed Msg: Manufacturer: Casio (44), Device: CZ-5000 Flagship Workstation with 8-Track Sequencer, Param: {}, Val: {}", pid, val);
                 } else if device.to_lowercase().contains("cz-1") || device.to_lowercase().contains("cz1") {
                     let pid: u8 = param_id.parse().unwrap_or(20);
                     let val: u8 = (value as u8) & 0x7F;

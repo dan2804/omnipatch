@@ -47,6 +47,10 @@ Inspired by Sound Quest's **Midi Quest 13**, **OmniPatch** combines a clean, fas
 | **E-MU SP-1200** | 12-Bit Linear Sampling Drum Machine | 12 | 32 | Classic E-MU blue and grey chassis, SSM2044 dynamic lowpass filter, 8 touch pads & sliders |
 | **Casio CZ-1** | Flagship 16-DCO Phase Distortion | 26 | 128 | Professional black chassis, electric blue tactile buttons, velocity & aftertouch, stereo BBD chorus |
 | **Casio CZ-1000** | 8-Voice Phase Distortion Keyboard | 22 | 32 | Industrial matte grey chassis, iconic tri-color (blue/yellow/red) membrane touchpads, 49 full-sized keys |
+| **Casio CZ-101** | 4/8-Voice Portable Phase Distortion | 22 | 32 | Iconic compact matte black keytar chassis, guitar strap pegs, tri-color membrane buttons, dual line PD |
+| **Casio CZ-230S** | Phase Distortion + PCM Rhythm Workstation | 11 | 103 | Light silver-grey console, built-in monitor speakers, RZ-1 derived PCM drums, 99 presets + 20 rhythms |
+| **Casio CZ-3000** | 16-DCO Phase Distortion with Chorus | 23 | 64 | Dark anthracite metal chassis, 61 keys, dedicated tactile LED switches, built-in analog BBD stereo chorus |
+| **Casio CZ-5000** | Flagship 16-DCO Workstation with Sequencer | 25 | 64 | Dark titanium workstation, 8-track polyphonic hardware sequencer console (3,500 notes), chorus unit |
 
 ---
 
@@ -121,6 +125,18 @@ Inspired by Sound Quest's **Midi Quest 13**, **OmniPatch** combines a clean, fas
 ### Casio CZ-1000 (8-Voice Phase Distortion Synthesizer with Membrane Keypad)
 ![Casio CZ-1000 Hardware Editor](assets/screenshots/casio_cz_1000.png)
 
+### Casio CZ-101 (Portable Keytar Phase Distortion Synthesizer)
+![Casio CZ-101 Hardware Editor](assets/screenshots/casio_cz_101.png)
+
+### Casio CZ-230S (Phase Distortion Synthesizer & PCM Rhythm Workstation)
+![Casio CZ-230S Hardware Editor](assets/screenshots/casio_cz_230s.png)
+
+### Casio CZ-3000 (16-DCO Professional Phase Distortion Synthesizer)
+![Casio CZ-3000 Hardware Editor](assets/screenshots/casio_cz_3000.png)
+
+### Casio CZ-5000 (Flagship Workstation with 8-Track Sequencer)
+![Casio CZ-5000 Hardware Editor](assets/screenshots/casio_cz_5000.png)
+
 ---
 
 ## Workspace Architecture
@@ -140,7 +156,11 @@ omnipatch/
 │   │   └── ax60/             # profile.yaml, factory_presets.json
 │   ├── casio/
 │   │   ├── cz-1/             # profile.yaml, factory_presets.json
-│   │   └── cz-1000/          # profile.yaml, factory_presets.json
+│   │   ├── cz-1000/          # profile.yaml, factory_presets.json
+│   │   ├── cz-101/           # profile.yaml, factory_presets.json
+│   │   ├── cz-230s/          # profile.yaml, factory_presets.json
+│   │   ├── cz-3000/          # profile.yaml, factory_presets.json
+│   │   └── cz-5000/          # profile.yaml, factory_presets.json
 │   └── emu/
 │       ├── audity-2000/      # profile.yaml, factory_presets.json
 │       ├── b-3/              # profile.yaml, factory_presets.json
