@@ -81,6 +81,15 @@ Inspired by Sound Quest's **Midi Quest 13**, **OmniPatch** combines a clean, fas
 ### E-MU Vintage Keys (Classic 1993 1U Rack Sound Module)
 ![E-MU Vintage Keys Hardware Editor](assets/screenshots/emu_vintage_keys.png)
 
+### E-MU Proteus 2000 (128-Voice Flagship 1U Sound Module with Composer ROM)
+![E-MU Proteus 2000 Hardware Editor](assets/screenshots/emu_proteus_2000.png)
+
+### E-MU Proteus 2500 (128-Voice Command Station Console & Sequencer)
+![E-MU Proteus 2500 Hardware Editor](assets/screenshots/emu_proteus_2500.png)
+
+### E-MU SP-1200 (12-Bit Linear Sampling Drum Machine & SSM2044 Filter)
+![E-MU SP-1200 Hardware Editor](assets/screenshots/emu_sp_1200.png)
+
 ---
 
 ## Workspace Architecture
@@ -104,6 +113,9 @@ omnipatch/
 │       ├── carnaval/         # profile.yaml, factory_presets.json
 │       ├── emax/             # profile.yaml, factory_presets.json
 │       ├── emax-ii/          # profile.yaml, factory_presets.json
+│       ├── proteus-2000/     # profile.yaml, factory_presets.json
+│       ├── proteus-2500/     # profile.yaml, factory_presets.json
+│       ├── sp-1200/          # profile.yaml, factory_presets.json
 │       ├── vintage-keys/     # profile.yaml, factory_presets.json
 │       ├── vintage-pro/      # profile.yaml, factory_presets.json
 │       ├── virtuoso-2000/    # profile.yaml, factory_presets.json

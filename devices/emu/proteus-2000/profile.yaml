@@ -1,0 +1,126 @@
+name: E-MU Proteus 2000
+manufacturer: E-mu Systems, Inc.
+category: 128-Voice Flagship 1U Sound Module (32 MB Composer ROM & 50 Z-Plane Filters)
+release_year: 1999
+hardware:
+  form_factor: 1U 19-inch Rackmount
+  polyphony: 128
+  multitimbral_parts: 32
+  sound_memory: 32 MB Composer Sound ROM (expandable up to 128 MB via 4 internal 72-pin SIMM slots)
+  filter: 50 12-pole Z-Plane morphing resonant filters with parametric formant interpolation
+  knobs: 4 real-time multi-function controller knobs with 3-row mode selection (controlling 12 virtual parameters A-L)
+  outputs: 6 balanced analog outputs (3 stereo pairs: Main, Sub 1, Sub 2) + Coaxial S/PDIF stereo digital out
+  midi_io: Dual independent MIDI In/Out/Thru ports (MIDI A and MIDI B, 32 channels)
+  chassis: Midnight black anodized brushed 1U faceplate with greyish-white knobs, cyan phosphor 2x24 LCD display, and tactile dark buttons
+midi:
+  manufacturer_id:
+  - 24
+  product_id: 15
+  model_id: 4
+  default_device_id: 0
+  bank_select:
+    msb_cc: 0
+    msb_val: 0
+    lsb_cc: 32
+    banks:
+      0: User Bank 0 / CMPSR Bank 4 (Pianos, Organs, Bass & Lead)
+      1: User Bank 1 / CMPSR Bank 5 (Strings, Brass, Winds & Ensembles)
+      2: User Bank 2 / CMPSR Bank 6 (Synths, Pads & Z-Plane Sweeps)
+      3: User Bank 3 / CMPSR Bank 7 (Drum Kits, Percussion & Beats)
+sysex:
+  header:
+  - 240
+  - 24
+  - 15
+  - '{device_id}'
+  special_editor_byte: 85
+  commands:
+    parameter_edit: 1
+    generic_editor_message: 85
+  parameter_edit_format: F0 18 0F <dev_id> 55 01 02 <param_lsb> <param_msb> <val_lsb> <val_msb> F7
+ui_theme:
+  style: hardware_chassis
+  chassis_color: '#18181b'
+  panel_color: '#0f1013'
+  chassis_type: black_proteus_rack
+  knobs: silver_greyish_white
+  knob_color: '#e2e8f0'
+  knob_ring: '#94a3b8'
+  buttons: tactile_black
+  button_color: '#27272a'
+  accent_color: '#38bdf8'
+  lcd_backlight: '#08282f'
+  lcd_text: '#38bdf8'
+parameters:
+- id: filter_cutoff
+  name: Z-Plane Filter Cutoff
+  page: filter
+  param_id: 384
+  type: linear
+  range:
+    min: 0
+    max: 255
+    default: 128
+- id: filter_resonance
+  name: Z-Plane Filter Resonance
+  page: filter
+  param_id: 385
+  type: linear
+  range:
+    min: 0
+    max: 15
+    default: 2
+- id: filter_morph
+  name: Z-Plane Morph Offset
+  page: filter
+  param_id: 386
+  type: linear
+  range:
+    min: 0
+    max: 127
+    default: 64
+- id: amp_attack
+  name: Amplifier Envelope Attack
+  page: amplifier
+  param_id: 512
+  type: linear
+  range:
+    min: 0
+    max: 127
+    default: 10
+- id: amp_decay
+  name: Amplifier Envelope Decay
+  page: amplifier
+  param_id: 513
+  type: linear
+  range:
+    min: 0
+    max: 127
+    default: 65
+- id: amp_release
+  name: Amplifier Envelope Release
+  page: amplifier
+  param_id: 514
+  type: linear
+  range:
+    min: 0
+    max: 127
+    default: 40
+- id: fx_reverb_send
+  name: FX Send A (Stereo Reverb)
+  page: effects
+  param_id: 768
+  type: linear
+  range:
+    min: 0
+    max: 127
+    default: 50
+- id: fx_chorus_send
+  name: FX Send B (Stereo Chorus)
+  page: effects
+  param_id: 769
+  type: linear
+  range:
+    min: 0
+    max: 127
+    default: 32

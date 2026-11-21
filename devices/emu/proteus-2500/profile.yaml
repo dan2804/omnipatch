@@ -1,0 +1,132 @@
+name: E-MU Proteus 2500
+manufacturer: E-mu Systems, Inc.
+category: 128-Voice Desktop Command Station & Synthesizer (Composer & Pop ROM)
+release_year: 2001
+hardware:
+  form_factor: 4U Desktop Command Station Console & Rackmount Synthesizer
+  polyphony: 128
+  multitimbral_parts: 32
+  sound_memory: 32 MB Composer ROM (expandable up to 128 MB via 4 72-pin SIMM slots)
+  filter: 50 12-pole Z-Plane morphing resonant filters with parametric formant interpolation
+  sequencer: 16-track interactive pattern/song sequencer (384 PPQN resolution, 1024 patterns, 512 songs, Realtime/Grid/Step record)
+  pads: 16 velocity- and pressure-sensitive dynamic rubber trigger pads with polyphonic aftertouch
+  knobs: 16 continuous rotary controller knobs with LED ring meters (Quick-Edit A-D, E-H, I-L, M-P)
+  tracks: 16 dedicated Track Enable/Mute buttons with dual-color LED indicators
+  transport: Dedicated hardware transport buttons (Rewind, Fast-Forward, Stop/Pause, Play, Record, Tap Tempo)
+  display: 2 x 24 character high-contrast alphanumeric cyan/blue backlit LCD display
+  lamp: 12V BNC gooseneck lamp socket for low-light studio and stage environments
+  outputs: 6 polyphonic balanced analog outputs (Main, Sub 1, Sub 2) + Coaxial S/PDIF stereo digital out
+  inputs: 4 submix analog audio inputs routed to master bus
+  midi_io: Dual independent MIDI Out ports (32 MIDI channels) + MIDI In + USB MIDI
+midi:
+  manufacturer_id:
+  - 24
+  product_id: 15
+  model_id: 10
+  default_device_id: 0
+  timing_resolution_ppqn: 384
+  bank_select:
+    msb_cc: 0
+    msb_val: 0
+    lsb_cc: 32
+    banks:
+      0: User Bank 0 / CMPSR Bank 0 (Pianos, Keys, Guitars & Basses)
+      1: User Bank 1 / CMPSR Bank 1 (Strings, Brass, Winds & Ensembles)
+      2: User Bank 2 / CMPSR Bank 2 (Synths, Leads, Pads & Z-Plane Textures)
+      3: User Bank 3 / CMPSR Bank 3 (Drum Kits, Percussion & World Grooves)
+sysex:
+  header:
+  - 240
+  - 24
+  - 15
+  - '{device_id}'
+  special_editor_byte: 85
+  commands:
+    parameter_edit: 1
+    generic_editor_message: 85
+  parameter_edit_format: F0 18 0F <dev_id> 55 01 02 <param_lsb> <param_msb> <val_lsb> <val_msb> F7
+ui_theme:
+  style: desktop_command_station
+  chassis_color: '#475569'
+  panel_color: '#334155'
+  accent_color: '#0ea5e9'
+  stripe_color: '#0284c7'
+  chassis_type: grey_blue_command_station
+  pads: black_rubber_blue_glow
+  pad_color: '#1e293b'
+  knobs: rotary_encoders_blue_ring
+  lcd_backlight: '#082f49'
+  lcd_text: '#38bdf8'
+parameters:
+- id: filter_cutoff
+  name: Z-Plane Filter Cutoff
+  page: filter
+  param_id: 384
+  type: linear
+  range:
+    min: 0
+    max: 255
+    default: 128
+- id: filter_resonance
+  name: Z-Plane Filter Resonance
+  page: filter
+  param_id: 385
+  type: linear
+  range:
+    min: 0
+    max: 15
+    default: 2
+- id: filter_morph
+  name: Z-Plane Morph Offset
+  page: filter
+  param_id: 386
+  type: linear
+  range:
+    min: 0
+    max: 127
+    default: 64
+- id: amp_attack
+  name: Amplifier Envelope Attack
+  page: amplifier
+  param_id: 512
+  type: linear
+  range:
+    min: 0
+    max: 127
+    default: 10
+- id: amp_decay
+  name: Amplifier Envelope Decay
+  page: amplifier
+  param_id: 513
+  type: linear
+  range:
+    min: 0
+    max: 127
+    default: 60
+- id: amp_release
+  name: Amplifier Envelope Release
+  page: amplifier
+  param_id: 514
+  type: linear
+  range:
+    min: 0
+    max: 127
+    default: 35
+- id: fx_reverb_send
+  name: FX Send A (Reverb Engine)
+  page: effects
+  param_id: 768
+  type: linear
+  range:
+    min: 0
+    max: 127
+    default: 45
+- id: fx_chorus_send
+  name: FX Send B (Chorus/Flange Engine)
+  page: effects
+  param_id: 769
+  type: linear
+  range:
+    min: 0
+    max: 127
+    default: 30
