@@ -70,13 +70,14 @@
       text-shadow: 0 0 5px rgba(94, 245, 116, 0.8), 0 0 12px rgba(34, 197, 94, 0.5);
     }
 
-    /* Oval Recessed Pocket for Cursor and Mode Buttons */
+    /* Recessed Pocket for Cursor and Mode Buttons */
     .virtuoso-btn-well {
-      background: radial-gradient(circle at 50% 50%, #475569 0%, #334155 100%);
-      border: 1px solid rgba(0,0,0,0.5);
-      box-shadow: inset 0 2px 4px rgba(0,0,0,0.8), 0 1px 1px rgba(255,255,255,0.4);
-      border-radius: 12px;
-      padding: 2px;
+      background: radial-gradient(circle at 45% 45%, #64748b 0%, #334155 100%);
+      border: 1px solid rgba(255,255,255,0.4);
+      box-shadow: inset 0 2px 4px rgba(0,0,0,0.85), 0 1px 1px rgba(255,255,255,0.5);
+      border-radius: 50%;
+      width: 22px;
+      height: 22px;
       display: inline-flex;
       align-items: center;
       justify-content: center;
@@ -232,8 +233,10 @@
   <!-- ========================================================================= -->
   <div class="w-full max-w-6xl h-[104px] virtuoso-faceplate rounded-sm flex items-center justify-between px-3 shadow-2xl relative select-none border-t border-slate-300/60 overflow-hidden">
     
-    <!-- Distinctive Navy Wave Line -->
-    <div class="virtuoso-wave-line"></div>
+    <!-- Authentic Navy Continuous Wave Line (Organic S-Curve matching physical faceplate) -->
+    <svg class="absolute inset-0 w-full h-full pointer-events-none z-0" viewBox="0 0 1152 104" preserveAspectRatio="none">
+      <path d="M 0,54 Q 60,48 120,53 T 260,54 T 400,53 L 420,53 M 730,53 Q 800,55 870,52 T 980,54 T 1152,56" stroke="#1e293b" stroke-width="1.8" fill="none" opacity="0.85" />
+    </svg>
 
     <!-- LEFT RACK EAR (Black with 2 Oval Mounting Holes) -->
     <div class="absolute left-0 top-0 bottom-0 w-3 bg-zinc-950 border-r border-zinc-800 flex flex-col justify-between py-2 pointer-events-none z-20">
@@ -244,107 +247,140 @@
     <!-- LEFT SECTION: KNOB MODE SELECTOR, 12-PARAM MATRIX, PHONES & 5 POTS -->
     <div class="flex items-center gap-1.5 pl-4 z-10">
       
-      <!-- Knob Mode Selector Column (Oval button + 3 Green LEDs) -->
-      <div class="flex flex-col items-center justify-between h-[88px] py-1 w-9">
-        <!-- Oval Mode Button in Recessed Pocket -->
-        <div class="virtuoso-btn-well">
-          <button onclick="cycleKnobMode()" class="virtuoso-btn-round" title="Cycle Knobs A-D / E-H / I-L"></button>
+      <!-- Column 1: Mode Button (Top) & Headphone Jack (Bottom) -->
+      <div class="flex flex-col items-center justify-between h-[88px] w-9 py-1">
+        <!-- Oval/Round Mode Button in Recessed Pocket -->
+        <div class="virtuoso-btn-well" title="Cycle Knobs A-D / E-H / I-L">
+          <button onclick="cycleKnobMode()" class="virtuoso-btn-round"></button>
         </div>
         
-        <!-- 3 Mode LEDs (A-D, E-H, I-L) -->
-        <div class="flex flex-col gap-1 text-[8.5px] font-mono font-bold leading-none text-zinc-900">
-          <div class="flex items-center gap-1">
-            <div id="led-ad" class="led-dot led-green-on"></div>
-            <span>A-D</span>
+        <!-- 1/4" Headphone Jack & Icon -->
+        <div class="flex flex-col items-center">
+          <div class="w-5 h-5 rounded-full bg-zinc-900 border-2 border-zinc-500 shadow-inner flex items-center justify-center">
+            <div class="w-2.5 h-2.5 rounded-full bg-black border border-zinc-700"></div>
           </div>
-          <div class="flex items-center gap-1">
-            <div id="led-eh" class="led-dot led-off"></div>
-            <span>E-H</span>
-          </div>
-          <div class="flex items-center gap-1">
-            <div id="led-il" class="led-dot led-off"></div>
-            <span>I-L</span>
-          </div>
+          <!-- Headphone Icon -->
+          <svg class="w-3.5 h-3.5 text-zinc-800 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
+            <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path>
+          </svg>
         </div>
       </div>
 
-      <!-- Knob 0: VOLUME & PHONES -->
-      <div class="flex flex-col items-center justify-between h-[88px] w-12 py-1">
-        <!-- 1/4" Headphone Jack -->
-        <div class="w-5 h-5 rounded-full bg-zinc-900 border-2 border-zinc-600 shadow-inner flex items-center justify-center">
-          <div class="w-2.5 h-2.5 rounded-full bg-black border border-zinc-800"></div>
+      <!-- Column 2: 3-way Mode LEDs (A-D, E-H, I-L) -->
+      <div class="flex flex-col justify-center gap-1.5 h-[88px] text-[8.5px] font-mono font-bold leading-none text-zinc-900 pt-1 pb-6 w-9">
+        <div class="flex items-center justify-between">
+          <span class="tracking-tighter">A-D</span>
+          <div id="led-ad" class="led-dot led-green-on"></div>
         </div>
+        <div class="flex items-center justify-between">
+          <span class="tracking-tighter">E-H</span>
+          <div id="led-eh" class="led-dot led-off"></div>
+        </div>
+        <div class="flex items-center justify-between">
+          <span class="tracking-tighter">I-L</span>
+          <div id="led-il" class="led-dot led-off"></div>
+        </div>
+      </div>
+
+      <!-- Column 3: Knob 0: VOLUME -->
+      <div class="flex flex-col items-center justify-between h-[88px] w-12 py-1">
+        <!-- Spacer matching top label height for perfect knob row alignment -->
+        <div class="h-[28px]"></div>
         
         <!-- Volume Potentiometer -->
         <div class="virtuoso-knob" data-param="vol" data-val="110" onmousedown="startKnobDrag(event, 'vol')">
           <div class="virtuoso-knob-pointer" id="vol-pointer"></div>
         </div>
 
-        <span class="silkscreen-matrix text-[8px] uppercase tracking-wider">VOLUME</span>
+        <div class="flex flex-col items-center leading-none">
+          <div class="w-[1px] h-1.5 bg-zinc-700/80 mb-0.5"></div>
+          <span class="silkscreen-matrix text-[8px] uppercase tracking-wider text-center">VOLUME</span>
+        </div>
       </div>
 
       <!-- Knob 1: A / E / I (Tone / Attack / Dynamic 1) -->
-      <div class="flex flex-col items-center justify-between h-[88px] w-[58px] py-1">
-        <div class="silkscreen-matrix text-[7.5px] text-right w-full pr-1 relative leading-tight">
-          <div>TONE <span class="silkscreen-slash">/</span></div>
-          <div>ATTACK <span class="silkscreen-slash">/</span></div>
-          <div>DYNAMIC 1 <span class="silkscreen-slash">/</span></div>
-          <div id="led-knob-1" class="led-dot led-red-on absolute -right-0.5 top-2.5"></div>
+      <div class="flex flex-col items-center justify-between h-[88px] w-[62px] py-1">
+        <div class="silkscreen-matrix text-[7.5px] italic text-right w-full pr-1 relative leading-tight">
+          <div>TONE <span class="silkscreen-slash font-normal">/</span></div>
+          <div>ATTACK <span class="silkscreen-slash font-normal">/</span></div>
+          <div class="flex items-center justify-end gap-1">
+            <span>DYNAMIC 1 <span class="silkscreen-slash font-normal">/</span></span>
+            <div id="led-knob-1" class="led-dot led-red-on -mr-0.5"></div>
+          </div>
         </div>
         
         <div class="virtuoso-knob" data-param="tone" data-val="195" onmousedown="startKnobDrag(event, 'tone')">
           <div class="virtuoso-knob-pointer" id="knob1-pointer" style="transform: rotate(35deg);"></div>
         </div>
 
-        <span class="silkscreen-matrix text-[8px]">A/E/I <span class="silkscreen-slash">/</span></span>
+        <div class="flex flex-col items-center leading-none">
+          <div class="w-[1px] h-1.5 bg-zinc-700/80 mb-0.5"></div>
+          <span class="silkscreen-matrix text-[8px]">A/E/I <span class="silkscreen-slash font-normal">/</span></span>
+        </div>
       </div>
 
       <!-- Knob 2: B / F / J (Presence / Decay/Rls / Dynamic 2) -->
-      <div class="flex flex-col items-center justify-between h-[88px] w-[58px] py-1">
-        <div class="silkscreen-matrix text-[7.5px] text-right w-full pr-1 relative leading-tight">
-          <div>PRESENCE <span class="silkscreen-slash">/</span></div>
-          <div>DECAY/RLS <span class="silkscreen-slash">/</span></div>
-          <div>DYNAMIC 2 <span class="silkscreen-slash">/</span></div>
-          <div id="led-knob-2" class="led-dot led-off absolute -right-0.5 top-2.5"></div>
+      <div class="flex flex-col items-center justify-between h-[88px] w-[62px] py-1">
+        <div class="silkscreen-matrix text-[7.5px] italic text-right w-full pr-1 relative leading-tight">
+          <div>PRESENCE <span class="silkscreen-slash font-normal">/</span></div>
+          <div>DECAY/RLS <span class="silkscreen-slash font-normal">/</span></div>
+          <div class="flex items-center justify-end gap-1">
+            <span>DYNAMIC 2 <span class="silkscreen-slash font-normal">/</span></span>
+            <div id="led-knob-2" class="led-dot led-off -mr-0.5"></div>
+          </div>
         </div>
         
         <div class="virtuoso-knob" data-param="presence" data-val="130" onmousedown="startKnobDrag(event, 'presence')">
           <div class="virtuoso-knob-pointer" id="knob2-pointer" style="transform: rotate(5deg);"></div>
         </div>
 
-        <span class="silkscreen-matrix text-[8px]">B/F/J <span class="silkscreen-slash">/</span></span>
+        <div class="flex flex-col items-center leading-none">
+          <div class="w-[1px] h-1.5 bg-zinc-700/80 mb-0.5"></div>
+          <span class="silkscreen-matrix text-[8px]">B/F/J <span class="silkscreen-slash font-normal">/</span></span>
+        </div>
       </div>
 
       <!-- Knob 3: C / G / K (Shape / Movement / FX A) -->
-      <div class="flex flex-col items-center justify-between h-[88px] w-[58px] py-1">
-        <div class="silkscreen-matrix text-[7.5px] text-right w-full pr-1 relative leading-tight">
-          <div>SHAPE <span class="silkscreen-slash">/</span></div>
-          <div>MOVEMENT <span class="silkscreen-slash">/</span></div>
-          <div>FX A <span class="silkscreen-slash">/</span></div>
-          <div id="led-knob-3" class="led-dot led-off absolute -right-0.5 top-2.5"></div>
+      <div class="flex flex-col items-center justify-between h-[88px] w-[62px] py-1">
+        <div class="silkscreen-matrix text-[7.5px] italic text-right w-full pr-1 relative leading-tight">
+          <div>SHAPE <span class="silkscreen-slash font-normal">/</span></div>
+          <div>MOVEMENT <span class="silkscreen-slash font-normal">/</span></div>
+          <div class="flex items-center justify-end gap-1">
+            <span>FX A <span class="silkscreen-slash font-normal">/</span></span>
+            <div id="led-knob-3" class="led-dot led-off -mr-0.5"></div>
+          </div>
         </div>
         
         <div class="virtuoso-knob" data-param="shape" data-val="85" onmousedown="startKnobDrag(event, 'shape')">
           <div class="virtuoso-knob-pointer" id="knob3-pointer" style="transform: rotate(-35deg);"></div>
         </div>
 
-        <span class="silkscreen-matrix text-[8px]">C/G/K <span class="silkscreen-slash">/</span></span>
+        <div class="flex flex-col items-center leading-none">
+          <div class="w-[1px] h-1.5 bg-zinc-700/80 mb-0.5"></div>
+          <span class="silkscreen-matrix text-[8px]">C/G/K <span class="silkscreen-slash font-normal">/</span></span>
+        </div>
       </div>
 
       <!-- Knob 4: D / H / L (Image / Rate / FX B) -->
-      <div class="flex flex-col items-center justify-between h-[88px] w-[58px] py-1">
-        <div class="silkscreen-matrix text-[7.5px] text-right w-full pr-1 relative leading-tight">
-          <div>IMAGE <span class="silkscreen-slash">/</span></div>
-          <div>RATE <span class="silkscreen-slash">/</span></div>
-          <div>FX B <span class="silkscreen-slash">/</span></div>
-          <div id="led-knob-4" class="led-dot led-off absolute -right-0.5 top-2.5"></div>
+      <div class="flex flex-col items-center justify-between h-[88px] w-[62px] py-1">
+        <div class="silkscreen-matrix text-[7.5px] italic text-right w-full pr-1 relative leading-tight">
+          <div>IMAGE <span class="silkscreen-slash font-normal">/</span></div>
+          <div>RATE <span class="silkscreen-slash font-normal">/</span></div>
+          <div class="flex items-center justify-end gap-1">
+            <span>FX B <span class="silkscreen-slash font-normal">/</span></span>
+            <div id="led-knob-4" class="led-dot led-off -mr-0.5"></div>
+          </div>
         </div>
         
         <div class="virtuoso-knob" data-param="fxb" data-val="115" onmousedown="startKnobDrag(event, 'fxb')">
           <div class="virtuoso-knob-pointer" id="knob4-pointer" style="transform: rotate(15deg);"></div>
         </div>
 
-        <span class="silkscreen-matrix text-[8px]">D/H/L <span class="silkscreen-slash">/</span></span>
+        <div class="flex flex-col items-center leading-none">
+          <div class="w-[1px] h-1.5 bg-zinc-700/80 mb-0.5"></div>
+          <span class="silkscreen-matrix text-[8px]">D/H/L <span class="silkscreen-slash font-normal">/</span></span>
+        </div>
       </div>
 
     </div>
@@ -377,7 +413,7 @@
 
     </div>
 
-    <!-- RIGHT SECTION: 8 BUTTONS MATRIX, DATA WHEEL, POWER SWITCH, E-MU LOGO -->
+    <!-- RIGHT SECTION: 8 BUTTONS MATRIX, DATA WHEEL, E-MU LOGO, POWER & MIDI -->
     <div class="flex items-center gap-3.5 pr-4 z-10">
       
       <!-- 8 Tactile Buttons Matrix (4 Columns x 2 Rows) -->
@@ -391,7 +427,7 @@
             <span class="silkscreen-matrix text-[8px] leading-tight mb-1 whitespace-nowrap">MASTER <span class="silkscreen-slash">/</span></span>
             <div class="relative flex items-center justify-center">
               <button onclick="switchVirtuosoTab('global')" class="virtuoso-btn-round" title="Master / Global Settings"></button>
-              <div id="led-master" class="led-dot led-red-on absolute -right-2 top-2"></div>
+              <div id="led-master" class="led-dot led-red-on absolute -top-1 -right-1.5"></div>
             </div>
           </div>
 
@@ -400,7 +436,7 @@
             <span class="silkscreen-matrix text-[8px] leading-tight mb-1 whitespace-nowrap">EDIT <span class="silkscreen-slash">/</span></span>
             <div class="relative flex items-center justify-center">
               <button onclick="switchVirtuosoTab('preset')" class="virtuoso-btn-round" title="Edit Orchestral Parameters"></button>
-              <div id="led-edit" class="led-dot led-off absolute -right-2 top-2"></div>
+              <div id="led-edit" class="led-dot led-off absolute -top-1 -right-1.5"></div>
             </div>
           </div>
 
@@ -423,7 +459,7 @@
         </div>
 
         <!-- └─ DEMOS ─┘ Bracket between Row 1 & Row 2 under Col 1 & 2 -->
-        <div class="w-[74px] flex items-center justify-center -my-1 text-slate-800 text-[8px] font-black italic tracking-widest">
+        <div class="w-[74px] flex items-center justify-center -my-1 text-slate-800 text-[8px] font-black italic tracking-widest leading-none">
           <span>└─ DEMOS ─┘</span>
         </div>
 
@@ -434,36 +470,36 @@
           <div class="flex flex-col items-center w-[34px]">
             <div class="relative flex items-center justify-center">
               <button onclick="playOrchestralTuttiDemo()" class="virtuoso-btn-round" title="Audition Preset"></button>
-              <div id="led-audition" class="led-dot led-off absolute -right-2 top-2"></div>
+              <div id="led-audition" class="led-dot led-off absolute -bottom-1 -right-1.5"></div>
             </div>
-            <span class="silkscreen-matrix text-[7px] mt-0.5 whitespace-nowrap">AUDITION <span class="silkscreen-slash">/</span></span>
+            <span class="silkscreen-matrix text-[7px] mt-1 whitespace-nowrap">AUDITION <span class="silkscreen-slash">/</span></span>
           </div>
 
           <!-- Col 2: MULTI -->
           <div class="flex flex-col items-center w-[34px]">
             <div class="relative flex items-center justify-center">
               <button onclick="switchVirtuosoTab('multimode')" class="virtuoso-btn-round" title="MultiMode Setup"></button>
-              <div id="led-multi" class="led-dot led-red-on absolute -right-2 top-2"></div>
+              <div id="led-multi" class="led-dot led-red-on absolute -bottom-1 -right-1.5"></div>
             </div>
-            <span class="silkscreen-matrix text-[7px] mt-0.5 whitespace-nowrap">MULTI <span class="silkscreen-slash">/</span></span>
+            <span class="silkscreen-matrix text-[7px] mt-1 whitespace-nowrap">MULTI <span class="silkscreen-slash">/</span></span>
           </div>
 
           <!-- Col 3: SAVE/COPY -->
           <div class="flex flex-col items-center w-[34px]">
             <div class="relative flex items-center justify-center">
               <button onclick="switchVirtuosoTab('librarian')" class="virtuoso-btn-round" title="Save / Copy Preset"></button>
-              <div id="led-save" class="led-dot led-off absolute -right-2 top-2"></div>
+              <div id="led-save" class="led-dot led-off absolute -bottom-1 -right-1.5"></div>
             </div>
-            <span class="silkscreen-matrix text-[7px] mt-0.5 whitespace-nowrap">SAVE/COPY <span class="silkscreen-slash">/</span></span>
+            <span class="silkscreen-matrix text-[7px] mt-1 whitespace-nowrap">SAVE/COPY <span class="silkscreen-slash">/</span></span>
           </div>
 
           <!-- Col 4: HOME/ENTER -->
           <div class="flex flex-col items-center w-[34px]">
             <div class="relative flex items-center justify-center">
               <button onclick="switchVirtuosoTab('performance')" class="virtuoso-btn-round" title="Home / Enter"></button>
-              <div id="led-home" class="led-dot led-off absolute -right-2 top-2"></div>
+              <div id="led-home" class="led-dot led-off absolute -bottom-1 -right-1.5"></div>
             </div>
-            <span class="silkscreen-matrix text-[6.5px] mt-0.5 whitespace-nowrap">HOME/ENTER <span class="silkscreen-slash">/</span></span>
+            <span class="silkscreen-matrix text-[6.5px] mt-1 whitespace-nowrap">HOME/ENTER <span class="silkscreen-slash">/</span></span>
           </div>
 
         </div>
@@ -477,28 +513,31 @@
         </div>
       </div>
 
-      <!-- Power Switch & MIDI Activity LED -->
-      <div class="flex flex-col items-center justify-between h-[88px] py-1 pl-1">
-        <!-- Power Button -->
-        <div class="flex flex-col items-center">
-          <button class="virtuoso-power-btn" title="Power Switch"></button>
-          <span class="silkscreen-matrix text-[8px] mt-0.5">POWER</span>
+      <!-- Right Column: E-MU Logo (Top) and Power Switch with MIDI LED (Bottom) -->
+      <div class="flex flex-col items-end justify-between h-[88px] py-1 pl-2">
+        <!-- Authentic E-MU Logo: 3 Horizontal Bars + E-MU -->
+        <div class="flex items-center gap-1.5 pt-0.5">
+          <div class="flex flex-col gap-[2.5px]">
+            <div class="w-4 h-[2px] bg-zinc-900 rounded-xs"></div>
+            <div class="w-4 h-[2px] bg-zinc-900 rounded-xs"></div>
+            <div class="w-4 h-[2px] bg-zinc-900 rounded-xs"></div>
+          </div>
+          <span class="font-emu font-black text-sm text-zinc-900 tracking-wider">E-MU</span>
         </div>
 
-        <!-- MIDI Activity Indicator -->
-        <div class="flex items-center gap-1 text-[8.5px] font-bold silkscreen-matrix">
-          <div id="led-midi" class="led-dot led-red-on animate-pulse"></div>
-          <span>MIDI</span>
-        </div>
-      </div>
+        <!-- Bottom: MIDI Activity Indicator & Power Button -->
+        <div class="flex items-center gap-2.5 pb-0.5">
+          <!-- / MIDI Indicator -->
+          <div class="flex items-center gap-1 text-[8px] font-bold silkscreen-matrix">
+            <div id="led-midi" class="led-dot led-green-on animate-pulse"></div>
+            <span class="tracking-tighter"><span class="silkscreen-slash">/</span> MIDI</span>
+          </div>
 
-      <!-- Authentic E-MU Logo with 3 Dark Horizontal Bars -->
-      <div class="flex flex-col items-center pl-2">
-        <span class="font-emu font-black text-xs text-zinc-900 tracking-widest">E-MU</span>
-        <div class="flex flex-col gap-0.5 mt-0.5">
-          <div class="w-7 h-0.5 bg-zinc-900"></div>
-          <div class="w-7 h-0.5 bg-zinc-900"></div>
-          <div class="w-7 h-0.5 bg-zinc-900"></div>
+          <!-- Power Button -->
+          <div class="flex flex-col items-center">
+            <button class="virtuoso-power-btn" title="Power Switch"></button>
+            <span class="silkscreen-matrix text-[7.5px] mt-0.5 tracking-tighter">POWER</span>
+          </div>
         </div>
       </div>
 
@@ -1027,8 +1066,8 @@
     // Full Orchestral Fanfare Demo
     function playOrchestralTuttiDemo() {
       initAudio();
-      document.getElementById('led-audition').className = 'led-dot led-red-on absolute -right-2 top-2';
-      setTimeout(() => document.getElementById('led-audition').className = 'led-dot led-off absolute -right-2 top-2', 1200);
+      document.getElementById('led-audition').className = 'led-dot led-red-on absolute -bottom-1 -right-1.5';
+      setTimeout(() => document.getElementById('led-audition').className = 'led-dot led-off absolute -bottom-1 -right-1.5', 1200);
 
       playTimpaniRoll();
       playRichSymphonicChord([110, 164.81, 220, 277.18, 329.63, 440], 'sawtooth', 0.8, 1.2);
@@ -1116,6 +1155,19 @@
           view.classList.toggle('hidden', t !== tabName);
         }
       });
+
+      // Update button LEDs to reflect current active hardware mode
+      const masterLed = document.getElementById('led-master');
+      const editLed = document.getElementById('led-edit');
+      const multiLed = document.getElementById('led-multi');
+      const saveLed = document.getElementById('led-save');
+      const homeLed = document.getElementById('led-home');
+
+      if (masterLed) masterLed.className = (tabName === 'global') ? 'led-dot led-red-on absolute -top-1 -right-1.5' : 'led-dot led-off absolute -top-1 -right-1.5';
+      if (editLed) editLed.className = (tabName === 'preset' || tabName === 'filter' || tabName === 'patchcords') ? 'led-dot led-red-on absolute -top-1 -right-1.5' : 'led-dot led-off absolute -top-1 -right-1.5';
+      if (multiLed) multiLed.className = (tabName === 'multimode') ? 'led-dot led-red-on absolute -bottom-1 -right-1.5' : 'led-dot led-off absolute -bottom-1 -right-1.5';
+      if (saveLed) saveLed.className = (tabName === 'librarian') ? 'led-dot led-red-on absolute -bottom-1 -right-1.5' : 'led-dot led-off absolute -bottom-1 -right-1.5';
+      if (homeLed) homeLed.className = (tabName === 'performance') ? 'led-dot led-red-on absolute -bottom-1 -right-1.5' : 'led-dot led-off absolute -bottom-1 -right-1.5';
     }
   </script>
 
