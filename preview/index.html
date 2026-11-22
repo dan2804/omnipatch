@@ -89,6 +89,96 @@
     .led-green {
       box-shadow: 0 0 8px #00ff66, inset 0 0 3px #fff;
     }
+
+    /* Access Virus A Authentic Hardware Styling */
+    .wood-cheek {
+      background: linear-gradient(135deg, #5c2417 0%, #873824 35%, #a6482e 50%, #732d1d 75%, #4a1c12 100%);
+      box-shadow: inset 1px 1px 2px rgba(255,255,255,0.25), inset -2px -2px 5px rgba(0,0,0,0.7), 2px 4px 10px rgba(0,0,0,0.5);
+    }
+    .virus-chassis {
+      background: radial-gradient(circle at 50% 20%, #353b47 0%, #262a33 70%, #1e2229 100%);
+      box-shadow: inset 0 2px 4px rgba(255,255,255,0.08), 0 10px 30px rgba(0,0,0,0.8);
+    }
+    .virus-red-panel {
+      background: linear-gradient(180deg, #d32020 0%, #b81717 60%, #9e1212 100%);
+      box-shadow: inset 0 2px 3px rgba(0,0,0,0.45), inset 0 -1px 2px rgba(255,255,255,0.2), 0 1px 3px rgba(0,0,0,0.6);
+      border: 1px solid #7e0c0c;
+    }
+    .virus-lcd {
+      background: #18281a;
+      box-shadow: inset 0 3px 8px rgba(0,0,0,0.9), 0 0 12px rgba(80, 220, 100, 0.15);
+      border: 2px solid #14171d;
+    }
+    .lcd-text {
+      color: #72ff7e;
+      text-shadow: 0 0 6px rgba(114, 255, 126, 0.7);
+    }
+    .virus-knob {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: conic-gradient(
+        from 0deg,
+        #111 0deg, #2a2a2e 15deg, #111 30deg, #2a2a2e 45deg,
+        #111 60deg, #2a2a2e 75deg, #111 90deg, #2a2a2e 105deg,
+        #111 120deg, #2a2a2e 135deg, #111 150deg, #2a2a2e 165deg,
+        #111 180deg, #2a2a2e 195deg, #111 210deg, #2a2a2e 225deg,
+        #111 240deg, #2a2a2e 255deg, #111 270deg, #2a2a2e 285deg,
+        #111 300deg, #2a2a2e 315deg, #111 330deg, #2a2a2e 345deg, #111 360deg
+      );
+      box-shadow: 0 4px 8px rgba(0,0,0,0.7), inset 0 1px 1px rgba(255,255,255,0.25);
+      position: relative;
+      cursor: ns-resize;
+      user-select: none;
+    }
+    .virus-knob-cap {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 40% 40%, #2f3238 0%, #17181c 80%);
+      box-shadow: inset 0 1px 2px rgba(255,255,255,0.2), 0 2px 4px rgba(0,0,0,0.8);
+      position: absolute;
+      top: 6px;
+      left: 6px;
+    }
+    .knob-pointer {
+      width: 2.5px;
+      height: 12px;
+      background: #ffffff;
+      border-radius: 1px;
+      box-shadow: 0 0 3px rgba(255,255,255,0.8);
+      position: absolute;
+      top: 2px;
+      left: 14.75px;
+    }
+    .led-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      transition: all 0.15s ease;
+    }
+    .led-off { background: #2a332a; box-shadow: inset 0 1px 2px rgba(0,0,0,0.8); }
+    .led-green-on { background: #4ade80; box-shadow: 0 0 6px #4ade80, 0 0 10px #22c55e; }
+    .led-amber-on { background: #fbbf24; box-shadow: 0 0 6px #fbbf24, 0 0 10px #f59e0b; }
+    .led-red-on { background: #ef4444; box-shadow: 0 0 6px #ef4444, 0 0 10px #dc2626; }
+    .tactile-btn {
+      background: linear-gradient(180deg, #323742 0%, #1f232b 100%);
+      border: 1px solid #14171d;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.5), inset 0 1px 1px rgba(255,255,255,0.15);
+      transition: all 0.08s ease;
+    }
+    .tactile-btn:active {
+      transform: translateY(1px);
+      box-shadow: 0 1px 2px rgba(0,0,0,0.6), inset 0 1px 2px rgba(0,0,0,0.8);
+      background: #191c22;
+    }
+    .store-btn {
+      background: linear-gradient(180deg, #9ca3af 0%, #6b7280 100%);
+      border: 1px solid #4b5563;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.5), inset 0 1px 1px rgba(255,255,255,0.4);
+      color: #111827;
+      font-weight: 800;
+    }
   </style>
 </head>
 <body class="bg-[#0f1013] text-zinc-100 h-screen flex flex-col antialiased overflow-hidden selection:bg-[#0078d7] selection:text-white">
@@ -1351,415 +1441,407 @@
       </div>
     </section>
 
-    <!-- VIEW 2: ACCESS VIRUS A THEMED PATCH EDITOR -->
+    <!-- VIEW 2: ACCESS VIRUS A AUTHENTIC HARDWARE EDITOR -->
     <section id="view-editor" class="hidden space-y-4">
       
-      <!-- Synth Hardware Frame & Top Bar -->
-      <div class="bg-[#1e1e24] border-t-4 border-[#8b1525] p-4 shadow-2xl relative">
-        
-        <!-- Authentic Virus A Nameplate & LCD Display Bar -->
-        <div class="flex flex-col lg:flex-row items-center justify-between gap-4 pb-4 border-b border-zinc-700/60">
-          
-          <!-- Logo & Badges -->
-          <div class="flex items-center gap-4">
-            <div class="bg-[#8b1525] px-4 py-2 shadow-inner border border-red-900">
-              <h2 class="text-2xl font-black tracking-widest text-white italic">VIRUS</h2>
-              <span class="text-[10px] tracking-widest text-red-200 uppercase font-semibold">Advanced Simulated Analog Synthesizer</span>
-            </div>
-            <div class="hidden sm:block text-xs font-mono text-zinc-400">
-              <div>SERIES: <span class="text-zinc-200">A (Desktop)</span></div>
-              <div>DSP: <span class="text-zinc-200">Motorola DSP56303</span></div>
-            </div>
-          </div>
-
-          <!-- Iconic 2x16 Backlit LCD Display -->
-          <div class="bg-[#242b1a] border-4 border-[#141810] p-3 shadow-inner rounded-sm w-full lg:w-96">
-            <div class="font-lcd text-xl text-[#7cd924] tracking-widest leading-none drop-shadow-[0_0_4px_rgba(124,217,36,0.8)]">
-              <div class="flex justify-between">
-                <span id="lcd-line1">A001: HyperSaw Lead</span>
-                <span>PART 01</span>
-              </div>
-              <div class="flex justify-between text-lg mt-1 text-[#9be848]">
-                <span id="lcd-param-name">CUTOFF 1</span>
-                <span id="lcd-param-val">95 (75%)</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Patch Selector & Action Buttons -->
-          <div class="flex items-center gap-2">
-            <select id="patch-select" onchange="loadPreset(this.value)" class="bg-[#111] text-zinc-200 text-xs px-3 py-2 border border-zinc-700 focus:outline-none focus:border-[#0078d7]">
-              <option value="0">A001: HyperSaw Lead</option>
-              <option value="1">A002: Warm Analog Pad</option>
-              <option value="2">A003: Acid Reso Bass</option>
-              <option value="3">A004: 90s Trance Pluck</option>
-            </select>
-            <button onclick="savePatchToHardware()" class="bg-[#8b1525] hover:bg-[#a0192c] text-white text-xs px-3 py-2 font-semibold">
-              Store to RAM
-            </button>
-          </div>
+      <!-- Top Action Bar -->
+      <div class="flex items-center justify-between bg-zinc-900/90 border border-zinc-800 px-4 py-2.5 rounded">
+        <div class="flex items-center gap-3">
+          <div class="w-3 h-3 rounded-full bg-red-600 shadow-[0_0_8px_#ef4444] animate-pulse"></div>
+          <span class="text-xs font-bold text-white uppercase tracking-wider">Access Virus A • Hardware Synthesizer Surface</span>
+          <span class="text-[10px] px-2 py-0.5 rounded bg-red-950/80 border border-red-700/60 text-red-300 font-mono">Photo-Matched</span>
         </div>
-
-        <!-- SYNTHESIS CONTROL SURFACE (DARK SLATE CHASSIS WITH CRIMSON ACCENTS) -->
-        <div class="mt-4 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
-          
-          <!-- PANEL 1: OSCILLATORS -->
-          <div class="bg-[#16161b] p-3.5 border border-zinc-800 rounded-sm">
-            <div class="flex items-center justify-between border-b border-zinc-800 pb-1.5 mb-3">
-              <span class="text-xs font-bold uppercase tracking-wider text-red-500">Oscillators</span>
-              <span class="text-[10px] text-zinc-500 font-mono">PAGE A</span>
-            </div>
-
-            <div class="space-y-4">
-              <!-- Osc 1 -->
-              <div class="bg-[#1c1c22] p-2.5 border border-zinc-800/80">
-                <div class="flex justify-between items-center text-[11px] font-semibold text-zinc-300 mb-2">
-                  <span>OSC 1</span>
-                  <select id="osc1-shape" onchange="updateParam('0x70', 34, this.value, 'Osc 1 Shape')" class="bg-black text-[10px] px-1 py-0.5 text-zinc-300 border border-zinc-700">
-                    <option value="0">Sawtooth</option>
-                    <option value="64">Variable Pulse</option>
-                    <option value="127">Sine / Spectral</option>
-                  </select>
-                </div>
-                <div class="grid grid-cols-3 gap-2 text-center">
-                  <div>
-                    <div class="knob-container mx-auto" onmousedown="startKnobDrag(event, 'osc1-semi', '0x70', 33, 'Osc 1 Semi', -48, 48)">
-                      <div class="knob-body" id="knob-osc1-semi"><div class="knob-indicator"></div></div>
-                    </div>
-                    <span class="text-[10px] text-zinc-400 block mt-1">Semitone</span>
-                    <span class="text-[11px] font-mono text-zinc-200" id="val-osc1-semi">0</span>
-                  </div>
-                  <div>
-                    <div class="knob-container mx-auto" onmousedown="startKnobDrag(event, 'osc1-detune', '0x70', 35, 'Osc 1 Detune', -64, 63)">
-                      <div class="knob-body" id="knob-osc1-detune"><div class="knob-indicator"></div></div>
-                    </div>
-                    <span class="text-[10px] text-zinc-400 block mt-1">Detune</span>
-                    <span class="text-[11px] font-mono text-zinc-200" id="val-osc1-detune">+4</span>
-                  </div>
-                  <div>
-                    <div class="knob-container mx-auto" onmousedown="startKnobDrag(event, 'osc1-pw', '0x70', 18, 'Osc 1 PulseWidth', 0, 127)">
-                      <div class="knob-body" id="knob-osc1-pw"><div class="knob-indicator"></div></div>
-                    </div>
-                    <span class="text-[10px] text-zinc-400 block mt-1">Pulse Width</span>
-                    <span class="text-[11px] font-mono text-zinc-200" id="val-osc1-pw">64</span>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Osc 2 -->
-              <div class="bg-[#1c1c22] p-2.5 border border-zinc-800/80">
-                <div class="flex justify-between items-center text-[11px] font-semibold text-zinc-300 mb-2">
-                  <span>OSC 2</span>
-                  <label class="flex items-center gap-1 text-[10px] text-zinc-400">
-                    <input type="checkbox" id="osc-sync" onchange="updateParam('0x70', 38, this.checked?1:0, 'Osc Sync')" class="accent-[#8b1525]">
-                    Sync
-                  </label>
-                </div>
-                <div class="grid grid-cols-3 gap-2 text-center">
-                  <div>
-                    <div class="knob-container mx-auto" onmousedown="startKnobDrag(event, 'osc2-semi', '0x70', 36, 'Osc 2 Semi', -48, 48)">
-                      <div class="knob-body" id="knob-osc2-semi"><div class="knob-indicator"></div></div>
-                    </div>
-                    <span class="text-[10px] text-zinc-400 block mt-1">Semitone</span>
-                    <span class="text-[11px] font-mono text-zinc-200" id="val-osc2-semi">+7</span>
-                  </div>
-                  <div>
-                    <div class="knob-container mx-auto" onmousedown="startKnobDrag(event, 'osc2-detune', '0x70', 37, 'Osc 2 Detune', -64, 63)">
-                      <div class="knob-body" id="knob-osc2-detune"><div class="knob-indicator"></div></div>
-                    </div>
-                    <span class="text-[10px] text-zinc-400 block mt-1">Detune</span>
-                    <span class="text-[11px] font-mono text-zinc-200" id="val-osc2-detune">-8</span>
-                  </div>
-                  <div>
-                    <div class="knob-container mx-auto" onmousedown="startKnobDrag(event, 'osc-fm', '0x70', 39, 'FM Amount', 0, 127)">
-                      <div class="knob-body" id="knob-osc-fm"><div class="knob-indicator"></div></div>
-                    </div>
-                    <span class="text-[10px] text-zinc-400 block mt-1">FM Amount</span>
-                    <span class="text-[11px] font-mono text-zinc-200" id="val-osc-fm">18</span>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Mixer / Sub / Noise -->
-              <div class="grid grid-cols-3 gap-2 text-center pt-1">
-                <div>
-                  <div class="knob-container mx-auto" onmousedown="startKnobDrag(event, 'sub-vol', '0x70', 20, 'Sub Osc Vol', 0, 127)">
-                    <div class="knob-body knob-silver" id="knob-sub-vol"><div class="knob-indicator"></div></div>
-                  </div>
-                  <span class="text-[10px] text-zinc-400 block mt-1">Sub Osc</span>
-                  <span class="text-[11px] font-mono text-zinc-200" id="val-sub-vol">50</span>
-                </div>
-                <div>
-                  <div class="knob-container mx-auto" onmousedown="startKnobDrag(event, 'noise-vol', '0x70', 37, 'Noise Vol', 0, 127)">
-                    <div class="knob-body knob-silver" id="knob-noise-vol"><div class="knob-indicator"></div></div>
-                  </div>
-                  <span class="text-[10px] text-zinc-400 block mt-1">Noise</span>
-                  <span class="text-[11px] font-mono text-zinc-200" id="val-noise-vol">0</span>
-                </div>
-                <div>
-                  <div class="knob-container mx-auto" onmousedown="startKnobDrag(event, 'osc-bal', '0x70', 21, 'Osc Balance', -64, 63)">
-                    <div class="knob-body knob-silver" id="knob-osc-bal"><div class="knob-indicator"></div></div>
-                  </div>
-                  <span class="text-[10px] text-zinc-400 block mt-1">Osc Balance</span>
-                  <span class="text-[11px] font-mono text-zinc-200" id="val-osc-bal">0</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- PANEL 2: FILTERS (DUAL MULTIMODE RESO) -->
-          <div class="bg-[#16161b] p-3.5 border border-zinc-800 rounded-sm">
-            <div class="flex items-center justify-between border-b border-zinc-800 pb-1.5 mb-3">
-              <span class="text-xs font-bold uppercase tracking-wider text-red-500">Dual Filters</span>
-              <span class="text-[10px] text-zinc-500 font-mono">PAGE A</span>
-            </div>
-
-            <!-- Routing Mode -->
-            <div class="flex items-center justify-between bg-[#1c1c22] p-2 border border-zinc-800/80 mb-3 text-xs">
-              <span class="text-zinc-400 text-[10px] uppercase">Filter Routing:</span>
-              <select onchange="updateParam('0x70', 49, this.value, 'Filter Routing')" class="bg-black text-[10px] px-2 py-0.5 text-zinc-200 border border-zinc-700">
-                <option value="0">Serial 4 (24dB)</option>
-                <option value="1">Serial 6 (36dB)</option>
-                <option value="2">Parallel 4</option>
-                <option value="3">Split Stereo</option>
-              </select>
-            </div>
-
-            <!-- Filter 1 -->
-            <div class="bg-[#1c1c22] p-2.5 border border-zinc-800/80 mb-3">
-              <div class="flex justify-between items-center text-[11px] font-semibold text-zinc-300 mb-2">
-                <span>FILTER 1 (Lowpass)</span>
-                <span class="w-2 h-2 rounded-full bg-red-500 led-red"></span>
-              </div>
-              <div class="grid grid-cols-3 gap-2 text-center">
-                <div>
-                  <div class="knob-container mx-auto" onmousedown="startKnobDrag(event, 'f1-cutoff', '0x70', 40, 'Filter 1 Cutoff', 0, 127)">
-                    <div class="knob-body" id="knob-f1-cutoff"><div class="knob-indicator"></div></div>
-                  </div>
-                  <span class="text-[10px] text-zinc-400 block mt-1">Cutoff 1</span>
-                  <span class="text-[11px] font-mono text-zinc-200" id="val-f1-cutoff">95</span>
-                </div>
-                <div>
-                  <div class="knob-container mx-auto" onmousedown="startKnobDrag(event, 'f1-reso', '0x70', 42, 'Filter 1 Resonance', 0, 127)">
-                    <div class="knob-body" id="knob-f1-reso"><div class="knob-indicator"></div></div>
-                  </div>
-                  <span class="text-[10px] text-zinc-400 block mt-1">Resonance</span>
-                  <span class="text-[11px] font-mono text-zinc-200" id="val-f1-reso">48</span>
-                </div>
-                <div>
-                  <div class="knob-container mx-auto" onmousedown="startKnobDrag(event, 'f1-env', '0x70', 44, 'Filter 1 Env Amount', -64, 63)">
-                    <div class="knob-body" id="knob-f1-env"><div class="knob-indicator"></div></div>
-                  </div>
-                  <span class="text-[10px] text-zinc-400 block mt-1">Env Amount</span>
-                  <span class="text-[11px] font-mono text-zinc-200" id="val-f1-env">+35</span>
-                </div>
-              </div>
-            </div>
-
-            <!-- Filter 2 -->
-            <div class="bg-[#1c1c22] p-2.5 border border-zinc-800/80">
-              <div class="flex justify-between items-center text-[11px] font-semibold text-zinc-300 mb-2">
-                <span>FILTER 2 (Multimode)</span>
-                <select onchange="updateParam('0x70', 48, this.value, 'Filter 2 Mode')" class="bg-black text-[10px] px-1 py-0.5 text-zinc-300 border border-zinc-700">
-                  <option value="0">Lowpass</option>
-                  <option value="1">Highpass</option>
-                  <option value="2">Bandpass</option>
-                  <option value="3">Bandreject</option>
-                </select>
-              </div>
-              <div class="grid grid-cols-3 gap-2 text-center">
-                <div>
-                  <div class="knob-container mx-auto" onmousedown="startKnobDrag(event, 'f2-cutoff', '0x70', 41, 'Filter 2 Cutoff', -64, 63)">
-                    <div class="knob-body" id="knob-f2-cutoff"><div class="knob-indicator"></div></div>
-                  </div>
-                  <span class="text-[10px] text-zinc-400 block mt-1">Cutoff 2</span>
-                  <span class="text-[11px] font-mono text-zinc-200" id="val-f2-cutoff">+12</span>
-                </div>
-                <div>
-                  <div class="knob-container mx-auto" onmousedown="startKnobDrag(event, 'f2-reso', '0x70', 43, 'Filter 2 Resonance', 0, 127)">
-                    <div class="knob-body" id="knob-f2-reso"><div class="knob-indicator"></div></div>
-                  </div>
-                  <span class="text-[10px] text-zinc-400 block mt-1">Resonance</span>
-                  <span class="text-[11px] font-mono text-zinc-200" id="val-f2-reso">22</span>
-                </div>
-                <div>
-                  <div class="knob-container mx-auto" onmousedown="startKnobDrag(event, 'f-balance', '0x70', 48, 'Filter Balance', -64, 63)">
-                    <div class="knob-body" id="knob-f-balance"><div class="knob-indicator"></div></div>
-                  </div>
-                  <span class="text-[10px] text-zinc-400 block mt-1">Balance</span>
-                  <span class="text-[11px] font-mono text-zinc-200" id="val-f-balance">0</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- PANEL 3: ENVELOPES (FILTER & AMP ADSR) -->
-          <div class="bg-[#16161b] p-3.5 border border-zinc-800 rounded-sm flex flex-col justify-between">
-            <div>
-              <div class="flex items-center justify-between border-b border-zinc-800 pb-1.5 mb-3">
-                <span class="text-xs font-bold uppercase tracking-wider text-red-500">Envelopes</span>
-                <span class="text-[10px] text-zinc-500 font-mono">PAGE B</span>
-              </div>
-
-              <!-- Filter Envelope Graphic & Knobs -->
-              <div class="bg-[#1c1c22] p-2.5 border border-zinc-800/80 mb-3">
-                <div class="flex justify-between items-center text-[11px] font-semibold text-zinc-300 mb-1">
-                  <span>FILTER ENVELOPE</span>
-                  <span class="text-[10px] text-zinc-500 font-mono">ADSR</span>
-                </div>
-                <!-- Interactive Envelope Curve Canvas -->
-                <canvas id="filter-env-canvas" width="260" height="45" class="w-full bg-black/60 border border-zinc-800 rounded mb-2"></canvas>
-                <div class="grid grid-cols-4 gap-1 text-center">
-                  <div>
-                    <input type="range" id="f-att" min="0" max="127" value="8" oninput="updateEnv('f', 'att', this.value)" class="w-full accent-[#8b1525]">
-                    <span class="text-[9px] text-zinc-400 block">Att</span>
-                    <span class="text-[10px] font-mono text-zinc-200" id="val-f-att">8</span>
-                  </div>
-                  <div>
-                    <input type="range" id="f-dec" min="0" max="127" value="54" oninput="updateEnv('f', 'dec', this.value)" class="w-full accent-[#8b1525]">
-                    <span class="text-[9px] text-zinc-400 block">Dec</span>
-                    <span class="text-[10px] font-mono text-zinc-200" id="val-f-dec">54</span>
-                  </div>
-                  <div>
-                    <input type="range" id="f-sus" min="0" max="127" value="68" oninput="updateEnv('f', 'sus', this.value)" class="w-full accent-[#8b1525]">
-                    <span class="text-[9px] text-zinc-400 block">Sus</span>
-                    <span class="text-[10px] font-mono text-zinc-200" id="val-f-sus">68</span>
-                  </div>
-                  <div>
-                    <input type="range" id="f-rel" min="0" max="127" value="38" oninput="updateEnv('f', 'rel', this.value)" class="w-full accent-[#8b1525]">
-                    <span class="text-[9px] text-zinc-400 block">Rel</span>
-                    <span class="text-[10px] font-mono text-zinc-200" id="val-f-rel">38</span>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Amplifier Envelope -->
-              <div class="bg-[#1c1c22] p-2.5 border border-zinc-800/80">
-                <div class="flex justify-between items-center text-[11px] font-semibold text-zinc-300 mb-1">
-                  <span>AMPLIFIER ENVELOPE</span>
-                  <span class="text-[10px] text-zinc-500 font-mono">ADSR</span>
-                </div>
-                <!-- Interactive Amp Env Canvas -->
-                <canvas id="amp-env-canvas" width="260" height="45" class="w-full bg-black/60 border border-zinc-800 rounded mb-2"></canvas>
-                <div class="grid grid-cols-4 gap-1 text-center">
-                  <div>
-                    <input type="range" id="a-att" min="0" max="127" value="2" oninput="updateEnv('a', 'att', this.value)" class="w-full accent-[#0078d7]">
-                    <span class="text-[9px] text-zinc-400 block">Att</span>
-                    <span class="text-[10px] font-mono text-zinc-200" id="val-a-att">2</span>
-                  </div>
-                  <div>
-                    <input type="range" id="a-dec" min="0" max="127" value="45" oninput="updateEnv('a', 'dec', this.value)" class="w-full accent-[#0078d7]">
-                    <span class="text-[9px] text-zinc-400 block">Dec</span>
-                    <span class="text-[10px] font-mono text-zinc-200" id="val-a-dec">45</span>
-                  </div>
-                  <div>
-                    <input type="range" id="a-sus" min="0" max="127" value="90" oninput="updateEnv('a', 'sus', this.value)" class="w-full accent-[#0078d7]">
-                    <span class="text-[9px] text-zinc-400 block">Sus</span>
-                    <span class="text-[10px] font-mono text-zinc-200" id="val-a-sus">90</span>
-                  </div>
-                  <div>
-                    <input type="range" id="a-rel" min="0" max="127" value="42" oninput="updateEnv('a', 'rel', this.value)" class="w-full accent-[#0078d7]">
-                    <span class="text-[9px] text-zinc-400 block">Rel</span>
-                    <span class="text-[10px] font-mono text-zinc-200" id="val-a-rel">42</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- PANEL 4: LFOS, EFFECTS & ARPEGGIATOR -->
-          <div class="bg-[#16161b] p-3.5 border border-zinc-800 rounded-sm">
-            <div class="flex items-center justify-between border-b border-zinc-800 pb-1.5 mb-3">
-              <span class="text-xs font-bold uppercase tracking-wider text-red-500">LFOs & Effects</span>
-              <span class="text-[10px] text-zinc-500 font-mono">PAGES A & B</span>
-            </div>
-
-            <!-- LFO 1 -->
-            <div class="bg-[#1c1c22] p-2.5 border border-zinc-800/80 mb-3">
-              <div class="flex justify-between items-center text-[11px] font-semibold text-zinc-300 mb-2">
-                <span>LFO 1</span>
-                <select onchange="updateParam('0x70', 68, this.value, 'LFO 1 Shape')" class="bg-black text-[10px] px-1 py-0.5 text-zinc-300 border border-zinc-700">
-                  <option value="0">Sine</option>
-                  <option value="1">Triangle</option>
-                  <option value="2">Sawtooth</option>
-                  <option value="3">Square</option>
-                  <option value="4">Sample & Hold</option>
-                </select>
-              </div>
-              <div class="grid grid-cols-2 gap-2 text-center">
-                <div>
-                  <div class="knob-container mx-auto" onmousedown="startKnobDrag(event, 'lfo1-rate', '0x70', 67, 'LFO 1 Rate', 0, 127)">
-                    <div class="knob-body knob-silver" id="knob-lfo1-rate"><div class="knob-indicator"></div></div>
-                  </div>
-                  <span class="text-[10px] text-zinc-400 block mt-1">Rate</span>
-                  <span class="text-[11px] font-mono text-zinc-200" id="val-lfo1-rate">72</span>
-                </div>
-                <div>
-                  <div class="knob-container mx-auto" onmousedown="startKnobDrag(event, 'lfo1-contour', '0x70', 70, 'LFO 1 Osc Amt', -64, 63)">
-                    <div class="knob-body knob-silver" id="knob-lfo1-contour"><div class="knob-indicator"></div></div>
-                  </div>
-                  <span class="text-[10px] text-zinc-400 block mt-1">Osc Amount</span>
-                  <span class="text-[11px] font-mono text-zinc-200" id="val-lfo1-contour">+20</span>
-                </div>
-              </div>
-            </div>
-
-            <!-- Stereo Delay & Chorus -->
-            <div class="bg-[#1c1c22] p-2.5 border border-zinc-800/80">
-              <div class="flex justify-between items-center text-[11px] font-semibold text-zinc-300 mb-2">
-                <span>DELAY / CHORUS</span>
-                <span class="text-[10px] text-zinc-500 font-mono">DSP FX</span>
-              </div>
-              <div class="grid grid-cols-3 gap-2 text-center">
-                <div>
-                  <div class="knob-container mx-auto" onmousedown="startKnobDrag(event, 'fx-send', '0x70', 113, 'Delay Send', 0, 127)">
-                    <div class="knob-body" id="knob-fx-send"><div class="knob-indicator"></div></div>
-                  </div>
-                  <span class="text-[10px] text-zinc-400 block mt-1">Delay Send</span>
-                  <span class="text-[11px] font-mono text-zinc-200" id="val-fx-send">64</span>
-                </div>
-                <div>
-                  <div class="knob-container mx-auto" onmousedown="startKnobDrag(event, 'delay-time', '0x70', 114, 'Delay Time', 0, 127)">
-                    <div class="knob-body" id="knob-delay-time"><div class="knob-indicator"></div></div>
-                  </div>
-                  <span class="text-[10px] text-zinc-400 block mt-1">Time</span>
-                  <span class="text-[11px] font-mono text-zinc-200" id="val-delay-time">85</span>
-                </div>
-                <div>
-                  <div class="knob-container mx-auto" onmousedown="startKnobDrag(event, 'delay-fb', '0x70', 115, 'Delay Feedback', 0, 127)">
-                    <div class="knob-body" id="knob-delay-fb"><div class="knob-indicator"></div></div>
-                  </div>
-                  <span class="text-[10px] text-zinc-400 block mt-1">Feedback</span>
-                  <span class="text-[11px] font-mono text-zinc-200" id="val-delay-fb">52</span>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-      <!-- LIVE SYSEX OUTPUT MONITOR (Real-time telemetry) -->
-      <div class="bg-[#121316] border border-zinc-800 p-4 font-mono-code">
-        <div class="flex items-center justify-between pb-2 border-b border-zinc-800 mb-2">
-          <div class="flex items-center gap-2">
-            <span class="w-2.5 h-2.5 rounded-full bg-cyan-400 led-green"></span>
-            <span class="text-xs font-semibold text-zinc-300">REAL-TIME RUST SYSEX STREAM INSPECTOR</span>
-          </div>
-          <span class="text-[11px] text-zinc-500">Midi Transport: midir (CoreMIDI / ALSA / WinMM / JACK)</span>
-        </div>
-        <div class="flex flex-col md:flex-row items-baseline gap-4">
-          <div class="text-xs text-zinc-400 shrink-0">LATEST TRANSMISSION:</div>
-          <div class="bg-black px-3 py-1.5 border border-zinc-800 text-sm text-cyan-300 font-bold tracking-wider" id="sysex-hex-display">
-            F0 00 20 33 01 10 70 40 28 5F F7
-          </div>
-          <div class="text-xs text-zinc-400" id="sysex-explanation">
-            [Access Music GmbH] • [Virus Series] • [Omni ID: 10] • [Page A: 70] • [Single Buffer: 40] • [Cutoff 1: 28] • [Value: 95]
-          </div>
+        <div class="flex items-center gap-3">
+          <span class="text-xs text-zinc-400 font-mono">Preset:</span>
+          <select id="patch-select" onchange="loadPreset(this.value)" class="bg-zinc-950 border border-zinc-700 text-xs text-zinc-200 rounded px-2.5 py-1 focus:outline-none focus:border-red-500 font-mono">
+            <option value="0">A001: Aggro Hypersaw</option>
+            <option value="1">A002: Warm Analog Pad</option>
+            <option value="2">A003: Acid Reso Bass</option>
+            <option value="3">A004: 90s Trance Pluck</option>
+          </select>
+          <button onclick="playDemoSound()" class="px-3 py-1 bg-red-600 hover:bg-red-500 active:scale-95 text-white font-bold text-xs rounded shadow transition flex items-center gap-1.5">
+            <svg class="w-3 h-3 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            Audition
+          </button>
         </div>
       </div>
+
+      <!-- THE HARDWARE UNIT -->
+        <div class="w-full max-w-6xl flex rounded-xl shadow-2xl overflow-hidden border border-zinc-700/60">
+          
+          <!-- LEFT MAHOGANY WOOD END CHEEK -->
+          <div class="w-8 md:w-10 flex-shrink-0 wood-cheek border-r border-black/80 flex flex-col justify-between py-6 items-center">
+            <div class="w-2.5 h-2.5 rounded-full bg-zinc-900/80 border border-zinc-600 shadow-inner"></div>
+            <div class="w-2.5 h-2.5 rounded-full bg-zinc-900/80 border border-zinc-600 shadow-inner"></div>
+            <div class="w-2.5 h-2.5 rounded-full bg-zinc-900/80 border border-zinc-600 shadow-inner"></div>
+          </div>
+      
+          <!-- MAIN CHASSIS FACEPLATE -->
+          <div class="flex-1 virus-chassis p-5 flex flex-col gap-4">
+            
+            <!-- TOP BANNER & LOGO -->
+            <div class="flex items-center justify-between border-b border-zinc-700/50 pb-2">
+              <div class="flex items-baseline gap-3">
+                <span class="font-brand text-2xl font-black text-white tracking-widest drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">VIRUS</span>
+                <span class="text-[9px] font-bold uppercase tracking-widest text-zinc-400">Advanced Simulated Analog Synthesizer</span>
+              </div>
+              <div class="flex items-center gap-3 text-[10px] text-zinc-400 font-mono">
+                <span>ACCESS MUSIC ELEC.</span>
+                <span class="text-red-500 font-bold">•</span>
+                <span>16 VOICES</span>
+                <span class="text-red-500 font-bold">•</span>
+                <span>DSP ENGINE</span>
+              </div>
+            </div>
+      
+            <!-- MAIN HARDWARE GRID -->
+            <div class="grid grid-cols-12 gap-3.5 items-stretch">
+              
+              <!-- SECTION 1: MASTER & DUAL LFOs (COL 1-4) -->
+              <div class="col-span-4 flex flex-col gap-3">
+                
+                <!-- Master Flank Row -->
+                <div class="flex items-center justify-between bg-black/25 p-2 rounded border border-zinc-700/40">
+                  <div class="flex flex-col items-center">
+                    <span class="text-[9px] font-bold uppercase text-zinc-400 mb-1 tracking-wider">Volume</span>
+                    <div class="virus-knob" data-param="vol" data-page="0x70" data-num="1" data-val="100">
+                      <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                    </div>
+                    <span class="text-[9px] text-zinc-300 font-mono mt-1 readout">100</span>
+                  </div>
+                  <div class="flex flex-col items-center">
+                    <span class="text-[9px] font-bold uppercase text-zinc-400 mb-1 tracking-wider">Assign 1</span>
+                    <div class="virus-knob" data-param="assign1" data-page="0x70" data-num="2" data-val="64">
+                      <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                    </div>
+                    <span class="text-[9px] text-zinc-300 font-mono mt-1 readout">64</span>
+                  </div>
+                  <div class="flex flex-col items-center">
+                    <span class="text-[9px] font-bold uppercase text-zinc-400 mb-1 tracking-wider">Assign 2</span>
+                    <div class="virus-knob" data-param="assign2" data-page="0x70" data-num="3" data-val="0">
+                      <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                    </div>
+                    <span class="text-[9px] text-zinc-300 font-mono mt-1 readout">0</span>
+                  </div>
+                </div>
+      
+                <!-- LFO 1 (CRIMSON RED BLOCK) -->
+                <div class="virus-red-panel p-2.5 rounded-md flex flex-col gap-1.5 shadow-md">
+                  <div class="flex items-center justify-between border-b border-white/20 pb-1">
+                    <span class="text-[10px] font-black tracking-widest text-white uppercase drop-shadow">LFO 1</span>
+                    <span class="text-[8px] font-bold uppercase text-red-200">Poly / Polyphonic</span>
+                  </div>
+                  <div class="flex items-center justify-between gap-2 mt-1">
+                    <!-- Knob Rate -->
+                    <div class="flex flex-col items-center">
+                      <span class="text-[8px] font-bold uppercase text-white/90 tracking-wider">Rate</span>
+                      <div class="virus-knob" data-param="lfo1_rate" data-page="0x70" data-num="10" data-val="76">
+                        <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                      </div>
+                      <span class="text-[8px] text-white font-mono mt-0.5 readout">76</span>
+                    </div>
+                    <!-- Shape Selector & LEDs -->
+                    <div class="flex flex-col items-center">
+                      <span class="text-[8px] font-bold uppercase text-white/90 tracking-wider">Shape</span>
+                      <button onclick="cycleLfo1Shape()" class="tactile-btn px-2 py-1 text-[8px] font-bold text-zinc-200 rounded mt-1">SELECT</button>
+                      <div class="grid grid-cols-4 gap-1 mt-1.5">
+                        <div id="lfo1-led-sine" class="led-dot led-green-on" title="Sine"></div>
+                        <div id="lfo1-led-tri" class="led-dot led-off" title="Triangle"></div>
+                        <div id="lfo1-led-saw" class="led-dot led-off" title="Saw"></div>
+                        <div id="lfo1-led-pulse" class="led-dot led-off" title="Pulse"></div>
+                      </div>
+                    </div>
+                    <!-- Destination -->
+                    <div class="flex flex-col items-center">
+                      <span class="text-[8px] font-bold uppercase text-white/90 tracking-wider">Dest</span>
+                      <div class="virus-knob" data-param="lfo1_amt" data-page="0x70" data-num="12" data-val="45">
+                        <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                      </div>
+                      <span class="text-[8px] text-white font-mono mt-0.5 readout">45</span>
+                    </div>
+                  </div>
+                </div>
+      
+                <!-- LFO 2 (CRIMSON RED BLOCK) -->
+                <div class="virus-red-panel p-2.5 rounded-md flex flex-col gap-1.5 shadow-md">
+                  <div class="flex items-center justify-between border-b border-white/20 pb-1">
+                    <span class="text-[10px] font-black tracking-widest text-white uppercase drop-shadow">LFO 2</span>
+                    <span class="text-[8px] font-bold uppercase text-red-200">Env / Mod Matrix</span>
+                  </div>
+                  <div class="flex items-center justify-between gap-2 mt-1">
+                    <!-- Knob Rate -->
+                    <div class="flex flex-col items-center">
+                      <span class="text-[8px] font-bold uppercase text-white/90 tracking-wider">Rate</span>
+                      <div class="virus-knob" data-param="lfo2_rate" data-page="0x70" data-num="15" data-val="32">
+                        <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                      </div>
+                      <span class="text-[8px] text-white font-mono mt-0.5 readout">32</span>
+                    </div>
+                    <!-- Shape Selector & LEDs -->
+                    <div class="flex flex-col items-center">
+                      <span class="text-[8px] font-bold uppercase text-white/90 tracking-wider">Shape</span>
+                      <button onclick="cycleLfo2Shape()" class="tactile-btn px-2 py-1 text-[8px] font-bold text-zinc-200 rounded mt-1">SELECT</button>
+                      <div class="grid grid-cols-4 gap-1 mt-1.5">
+                        <div id="lfo2-led-sine" class="led-dot led-off" title="Sine"></div>
+                        <div id="lfo2-led-tri" class="led-dot led-green-on" title="Triangle"></div>
+                        <div id="lfo2-led-saw" class="led-dot led-off" title="Saw"></div>
+                        <div id="lfo2-led-pulse" class="led-dot led-off" title="Pulse"></div>
+                      </div>
+                    </div>
+                    <!-- Destination -->
+                    <div class="flex flex-col items-center">
+                      <span class="text-[8px] font-bold uppercase text-white/90 tracking-wider">Dest</span>
+                      <div class="virus-knob" data-param="lfo2_amt" data-page="0x70" data-num="17" data-val="88">
+                        <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                      </div>
+                      <span class="text-[8px] text-white font-mono mt-0.5 readout">88</span>
+                    </div>
+                  </div>
+                </div>
+      
+              </div>
+      
+              <!-- SECTION 2: OSCILLATORS & 2x16 LCD DISPLAY (COL 5-8) -->
+              <div class="col-span-4 flex flex-col justify-between gap-3">
+                
+                <!-- OSCILLATORS (CRIMSON RED BLOCK) -->
+                <div class="virus-red-panel p-2.5 rounded-md flex flex-col gap-2 shadow-md flex-1">
+                  <div class="flex items-center justify-between border-b border-white/20 pb-1">
+                    <span class="text-[10px] font-black tracking-widest text-white uppercase drop-shadow">Oscillators</span>
+                    <span class="text-[8px] font-bold uppercase text-red-200">OSC 1 • OSC 2 • SUB • FM</span>
+                  </div>
+                  
+                  <!-- Row 1: Osc 1 Shape, Detune, Semitone -->
+                  <div class="grid grid-cols-3 gap-2 text-center">
+                    <div class="flex flex-col items-center">
+                      <span class="text-[8px] font-bold uppercase text-white/90 tracking-wider">Osc 1 Shape</span>
+                      <div class="virus-knob" data-param="osc1_shape" data-page="0x70" data-num="20" data-val="64">
+                        <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                      </div>
+                      <span class="text-[8px] text-white font-mono mt-0.5 readout">Saw (64)</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                      <span class="text-[8px] font-bold uppercase text-white/90 tracking-wider">Detune</span>
+                      <div class="virus-knob" data-param="osc2_detune" data-page="0x70" data-num="24" data-val="12">
+                        <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                      </div>
+                      <span class="text-[8px] text-white font-mono mt-0.5 readout">+12</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                      <span class="text-[8px] font-bold uppercase text-white/90 tracking-wider">Semitone</span>
+                      <div class="virus-knob" data-param="osc2_semi" data-page="0x70" data-num="23" data-val="64">
+                        <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                      </div>
+                      <span class="text-[8px] text-white font-mono mt-0.5 readout">0</span>
+                    </div>
+                  </div>
+      
+                  <!-- Row 2: Osc 2 Shape, FM Amount, Sub / Mix -->
+                  <div class="grid grid-cols-3 gap-2 text-center mt-1">
+                    <div class="flex flex-col items-center">
+                      <span class="text-[8px] font-bold uppercase text-white/90 tracking-wider">Osc 2 Shape</span>
+                      <div class="virus-knob" data-param="osc2_shape" data-page="0x70" data-num="22" data-val="64">
+                        <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                      </div>
+                      <span class="text-[8px] text-white font-mono mt-0.5 readout">Saw (64)</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                      <span class="text-[8px] font-bold uppercase text-white/90 tracking-wider">FM Amount</span>
+                      <div class="virus-knob" data-param="fm_amount" data-page="0x70" data-num="26" data-val="0">
+                        <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                      </div>
+                      <span class="text-[8px] text-white font-mono mt-0.5 readout">0</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                      <span class="text-[8px] font-bold uppercase text-white/90 tracking-wider">Mix / Bal</span>
+                      <div class="virus-knob" data-param="osc_balance" data-page="0x70" data-num="28" data-val="64">
+                        <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                      </div>
+                      <span class="text-[8px] text-white font-mono mt-0.5 readout">50/50</span>
+                    </div>
+                  </div>
+                </div>
+      
+                <!-- 2x16 LCD DISPLAY & NAVIGATION CONSOLE -->
+                <div class="bg-black/40 p-3 rounded border border-zinc-700/50 flex flex-col gap-2">
+                  
+                  <!-- THE LCD SCREEN -->
+                  <div class="virus-lcd p-2.5 rounded flex flex-col justify-between font-lcd h-16">
+                    <div class="flex items-center justify-between text-xs font-bold lcd-text tracking-widest">
+                      <span id="lcd-line-1">A001: Aggro Hypersaw</span>
+                      <span id="lcd-patch-num">128BPM</span>
+                    </div>
+                    <div class="flex items-center justify-between text-xs font-semibold lcd-text tracking-wider">
+                      <span id="lcd-param-name">CUTOFF 1</span>
+                      <span id="lcd-param-val" class="font-bold">85 (67%)</span>
+                    </div>
+                  </div>
+      
+                  <!-- BUTTONS UNDER LCD -->
+                  <div class="flex items-center justify-between pt-1">
+                    <!-- Access Logo -->
+                    <span class="text-[9px] font-extrabold tracking-wider text-zinc-300 uppercase">access <span class="text-[7px] text-zinc-400">MIDI</span></span>
+                    
+                    <!-- Buttons -->
+                    <div class="flex items-center gap-1.5">
+                      <button class="store-btn px-2 py-0.5 text-[8px] rounded uppercase shadow">STORE</button>
+                      <button class="tactile-btn px-2 py-0.5 text-[8px] font-bold text-zinc-200 rounded uppercase">CTRL</button>
+                      <button class="tactile-btn px-2 py-0.5 text-[8px] font-bold text-zinc-200 rounded uppercase">EDIT</button>
+                      <button class="tactile-btn px-2 py-0.5 text-[8px] font-bold text-zinc-200 rounded uppercase">MULTI</button>
+                      <button class="tactile-btn px-2 py-0.5 text-[8px] font-bold text-red-400 rounded uppercase">SINGLE</button>
+                    </div>
+      
+                    <!-- Parameter / Value Navigation -->
+                    <div class="flex items-center gap-1">
+                      <button onclick="bumpValue(-1)" class="tactile-btn px-1.5 py-0.5 text-[8px] font-bold text-zinc-300 rounded font-mono">&lt;</button>
+                      <button onclick="bumpValue(1)" class="tactile-btn px-1.5 py-0.5 text-[8px] font-bold text-zinc-300 rounded font-mono">&gt;</button>
+                    </div>
+                  </div>
+      
+                </div>
+      
+              </div>
+      
+              <!-- SECTION 3: FILTERS & DUAL ADSR ENVELOPES (COL 9-12) -->
+              <div class="col-span-4 flex flex-col gap-3">
+                
+                <!-- FILTERS & ENVELOPES (LARGE CONTIGUOUS CRIMSON RED BLOCK) -->
+                <div class="virus-red-panel p-2.5 rounded-md flex flex-col gap-2 shadow-md h-full justify-between">
+                  
+                  <!-- Filters Header & Knobs -->
+                  <div>
+                    <div class="flex items-center justify-between border-b border-white/20 pb-1 mb-2">
+                      <span class="text-[10px] font-black tracking-widest text-white uppercase drop-shadow">Dual Resonant Filters</span>
+                      <span class="text-[8px] font-bold uppercase text-red-200">24dB Lowpass / Bandpass</span>
+                    </div>
+                    <div class="grid grid-cols-3 gap-2 text-center">
+                      <div class="flex flex-col items-center">
+                        <span class="text-[8px] font-bold uppercase text-white/90 tracking-wider">Cutoff 1</span>
+                        <div class="virus-knob" data-param="cutoff" data-page="0x70" data-num="40" data-val="85">
+                          <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                        </div>
+                        <span class="text-[8px] text-white font-mono mt-0.5 readout">85</span>
+                      </div>
+                      <div class="flex flex-col items-center">
+                        <span class="text-[8px] font-bold uppercase text-white/90 tracking-wider">Resonance</span>
+                        <div class="virus-knob" data-param="reso" data-page="0x70" data-num="42" data-val="72">
+                          <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                        </div>
+                        <span class="text-[8px] text-white font-mono mt-0.5 readout">72</span>
+                      </div>
+                      <div class="flex flex-col items-center">
+                        <span class="text-[8px] font-bold uppercase text-white/90 tracking-wider">Env Amount</span>
+                        <div class="virus-knob" data-param="filt_env_amt" data-page="0x70" data-num="44" data-val="48">
+                          <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                        </div>
+                        <span class="text-[8px] text-white font-mono mt-0.5 readout">+48</span>
+                      </div>
+                    </div>
+                  </div>
+      
+                  <!-- Filter Envelope ADSR -->
+                  <div>
+                    <div class="flex items-center justify-between border-b border-white/20 pb-0.5 mb-1.5">
+                      <span class="text-[9px] font-black tracking-wider text-white uppercase drop-shadow">Filter Envelope</span>
+                      <span class="text-[7px] font-bold uppercase text-red-200">ADSR</span>
+                    </div>
+                    <div class="grid grid-cols-4 gap-1.5 text-center">
+                      <div class="flex flex-col items-center">
+                        <span class="text-[7px] font-bold uppercase text-white/80">Att</span>
+                        <div class="virus-knob" data-param="f_att" data-page="0x70" data-num="50" data-val="2">
+                          <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                        </div>
+                        <span class="text-[7px] text-white font-mono readout">2</span>
+                      </div>
+                      <div class="flex flex-col items-center">
+                        <span class="text-[7px] font-bold uppercase text-white/80">Dec</span>
+                        <div class="virus-knob" data-param="f_dec" data-page="0x70" data-num="51" data-val="45">
+                          <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                        </div>
+                        <span class="text-[7px] text-white font-mono readout">45</span>
+                      </div>
+                      <div class="flex flex-col items-center">
+                        <span class="text-[7px] font-bold uppercase text-white/80">Sus</span>
+                        <div class="virus-knob" data-param="f_sus" data-page="0x70" data-num="52" data-val="20">
+                          <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                        </div>
+                        <span class="text-[7px] text-white font-mono readout">20</span>
+                      </div>
+                      <div class="flex flex-col items-center">
+                        <span class="text-[7px] font-bold uppercase text-white/80">Rel</span>
+                        <div class="virus-knob" data-param="f_rel" data-page="0x70" data-num="54" data-val="30">
+                          <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                        </div>
+                        <span class="text-[7px] text-white font-mono readout">30</span>
+                      </div>
+                    </div>
+                  </div>
+      
+                  <!-- Amp Envelope ADSR -->
+                  <div>
+                    <div class="flex items-center justify-between border-b border-white/20 pb-0.5 mb-1.5">
+                      <span class="text-[9px] font-black tracking-wider text-white uppercase drop-shadow">Amplifier Envelope</span>
+                      <span class="text-[7px] font-bold uppercase text-red-200">VCA ADSR</span>
+                    </div>
+                    <div class="grid grid-cols-4 gap-1.5 text-center">
+                      <div class="flex flex-col items-center">
+                        <span class="text-[7px] font-bold uppercase text-white/80">Att</span>
+                        <div class="virus-knob" data-param="a_att" data-page="0x70" data-num="59" data-val="0">
+                          <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                        </div>
+                        <span class="text-[7px] text-white font-mono readout">0</span>
+                      </div>
+                      <div class="flex flex-col items-center">
+                        <span class="text-[7px] font-bold uppercase text-white/80">Dec</span>
+                        <div class="virus-knob" data-param="a_dec" data-page="0x70" data-num="60" data-val="60">
+                          <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                        </div>
+                        <span class="text-[7px] text-white font-mono readout">60</span>
+                      </div>
+                      <div class="flex flex-col items-center">
+                        <span class="text-[7px] font-bold uppercase text-white/80">Sus</span>
+                        <div class="virus-knob" data-param="a_sus" data-page="0x70" data-num="61" data-val="95">
+                          <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                        </div>
+                        <span class="text-[7px] text-white font-mono readout">95</span>
+                      </div>
+                      <div class="flex flex-col items-center">
+                        <span class="text-[7px] font-bold uppercase text-white/80">Rel</span>
+                        <div class="virus-knob" data-param="a_rel" data-page="0x70" data-num="63" data-val="40">
+                          <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                        </div>
+                        <span class="text-[7px] text-white font-mono readout">40</span>
+                      </div>
+                    </div>
+                  </div>
+      
+                </div>
+      
+              </div>
+      
+            </div>
+      
+            <!-- LIVE SYSEX PACKET TRANSMISSION INSPECTOR -->
+            <div class="bg-black/60 rounded p-3 border border-zinc-800 flex flex-col md:flex-row items-start md:items-center justify-between gap-3 font-mono text-xs">
+              <div class="flex items-center gap-3">
+                <span class="text-[10px] uppercase font-bold text-red-400 bg-red-950/70 border border-red-800/80 px-2 py-0.5 rounded">Live SysEx Output</span>
+                <span id="sysex-hex-display" class="text-amber-300 font-bold tracking-wider text-sm">F0 00 20 33 01 10 70 40 28 55 F7</span>
+              </div>
+              <div id="sysex-explanation" class="text-zinc-400 text-[11px] truncate">
+                [Access Music: 00 20 33] • [Omni ID: 10] • [Page: 70] • [Part: Single 40] • [Param: 40 (Cutoff 1)] • [Val: 85]
+              </div>
+            </div>
+      
+          </div>
+      
+          <!-- RIGHT MAHOGANY WOOD END CHEEK -->
+          <div class="w-8 md:w-10 flex-shrink-0 wood-cheek border-l border-black/80 flex flex-col justify-between py-6 items-center">
+            <div class="w-2.5 h-2.5 rounded-full bg-zinc-900/80 border border-zinc-600 shadow-inner"></div>
+            <div class="w-2.5 h-2.5 rounded-full bg-zinc-900/80 border border-zinc-600 shadow-inner"></div>
+            <div class="w-2.5 h-2.5 rounded-full bg-zinc-900/80 border border-zinc-600 shadow-inner"></div>
+          </div>
+      
+        </div>
 
     </section>
 

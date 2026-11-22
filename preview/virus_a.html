@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Access Virus A - Hardware Panel Preview</title>
+  <script src="tailwindcss.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@500;700;900&family=Inter:wght@400;600;700;800&display=swap');
+    
+    .font-lcd { font-family: 'Share Tech Mono', monospace; }
+    .font-brand { font-family: 'Orbitron', sans-serif; }
+    
+    /* Authentic wood grain texture */
+    .wood-cheek {
+      background: linear-gradient(135deg, #5c2417 0%, #873824 35%, #a6482e 50%, #732d1d 75%, #4a1c12 100%);
+      box-shadow: inset 1px 1px 2px rgba(255,255,255,0.25), inset -2px -2px 5px rgba(0,0,0,0.7), 2px 4px 10px rgba(0,0,0,0.5);
+    }
+
+    /* Virus A Charcoal Metal Chassis */
+    .virus-chassis {
+      background: radial-gradient(circle at 50% 20%, #353b47 0%, #262a33 70%, #1e2229 100%);
+      box-shadow: inset 0 2px 4px rgba(255,255,255,0.08), 0 10px 30px rgba(0,0,0,0.8);
+    }
+
+    /* Virus A Signature Crimson Inset Blocks */
+    .virus-red-panel {
+      background: linear-gradient(180deg, #d32020 0%, #b81717 60%, #9e1212 100%);
+      box-shadow: inset 0 2px 3px rgba(0,0,0,0.45), inset 0 -1px 2px rgba(255,255,255,0.2), 0 1px 3px rgba(0,0,0,0.6);
+      border: 1px solid #7e0c0c;
+    }
+
+    /* 2x16 Alphanumeric LCD Backlit Display */
+    .virus-lcd {
+      background: #18281a;
+      box-shadow: inset 0 3px 8px rgba(0,0,0,0.9), 0 0 12px rgba(80, 220, 100, 0.15);
+      border: 2px solid #14171d;
+    }
+
+    .lcd-text {
+      color: #72ff7e;
+      text-shadow: 0 0 6px rgba(114, 255, 126, 0.7);
+    }
+
+    /* Fluted Black Rotary Knob */
+    .virus-knob {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: conic-gradient(
+        from 0deg,
+        #111 0deg, #2a2a2e 15deg, #111 30deg, #2a2a2e 45deg,
+        #111 60deg, #2a2a2e 75deg, #111 90deg, #2a2a2e 105deg,
+        #111 120deg, #2a2a2e 135deg, #111 150deg, #2a2a2e 165deg,
+        #111 180deg, #2a2a2e 195deg, #111 210deg, #2a2a2e 225deg,
+        #111 240deg, #2a2a2e 255deg, #111 270deg, #2a2a2e 285deg,
+        #111 300deg, #2a2a2e 315deg, #111 330deg, #2a2a2e 345deg, #111 360deg
+      );
+      box-shadow: 0 4px 8px rgba(0,0,0,0.7), inset 0 1px 1px rgba(255,255,255,0.25);
+      position: relative;
+      cursor: ns-resize;
+      user-select: none;
+    }
+
+    .virus-knob-cap {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 40% 40%, #2f3238 0%, #17181c 80%);
+      box-shadow: inset 0 1px 2px rgba(255,255,255,0.2), 0 2px 4px rgba(0,0,0,0.8);
+      position: absolute;
+      top: 6px;
+      left: 6px;
+    }
+
+    .knob-pointer {
+      width: 2.5px;
+      height: 12px;
+      background: #ffffff;
+      border-radius: 1px;
+      box-shadow: 0 0 3px rgba(255,255,255,0.8);
+      position: absolute;
+      top: 2px;
+      left: 14.75px;
+    }
+
+    /* Small LED indicators */
+    .led-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      transition: all 0.15s ease;
+    }
+    .led-off { background: #2a332a; box-shadow: inset 0 1px 2px rgba(0,0,0,0.8); }
+    .led-green-on { background: #4ade80; box-shadow: 0 0 6px #4ade80, 0 0 10px #22c55e; }
+    .led-amber-on { background: #fbbf24; box-shadow: 0 0 6px #fbbf24, 0 0 10px #f59e0b; }
+    .led-red-on { background: #ef4444; box-shadow: 0 0 6px #ef4444, 0 0 10px #dc2626; }
+
+    /* Tactile push buttons */
+    .tactile-btn {
+      background: linear-gradient(180deg, #323742 0%, #1f232b 100%);
+      border: 1px solid #14171d;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.5), inset 0 1px 1px rgba(255,255,255,0.15);
+      transition: all 0.08s ease;
+    }
+    .tactile-btn:active {
+      transform: translateY(1px);
+      box-shadow: 0 1px 2px rgba(0,0,0,0.6), inset 0 1px 2px rgba(0,0,0,0.8);
+      background: #191c22;
+    }
+
+    .store-btn {
+      background: linear-gradient(180deg, #9ca3af 0%, #6b7280 100%);
+      border: 1px solid #4b5563;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.5), inset 0 1px 1px rgba(255,255,255,0.4);
+      color: #111827;
+      font-weight: 800;
+    }
+  </style>
+</head>
+<body class="bg-zinc-950 text-zinc-100 p-6 min-h-screen flex flex-col items-center justify-start font-sans select-none">
+
+  <!-- Header & Inspector Banner -->
+  <div class="w-full max-w-6xl mb-4 flex items-center justify-between border-b border-zinc-800 pb-3">
+    <div class="flex items-center gap-3">
+      <div class="w-3.5 h-3.5 rounded-full bg-red-600 shadow-[0_0_10px_#ef4444] animate-pulse"></div>
+      <div>
+        <h1 class="text-xl font-bold tracking-tight text-white flex items-center gap-2">
+          Access Virus A <span class="text-xs px-2 py-0.5 rounded bg-red-950/80 border border-red-700/60 text-red-300 font-mono">Hardware Panel Preview</span>
+        </h1>
+        <p class="text-xs text-zinc-400">Accurate Color Palette & Physical Topology Breakdown • Interactive SysEx Engine</p>
+      </div>
+    </div>
+    <div class="flex items-center gap-2">
+      <span class="text-xs text-zinc-400 font-mono">Preset:</span>
+      <select id="preset-selector" onchange="loadPreset(this.value)" class="bg-zinc-900 border border-zinc-700 text-xs text-zinc-200 rounded px-2.5 py-1 focus:outline-none focus:border-red-500 font-mono">
+        <option value="0">A001: Aggro Hypersaw</option>
+        <option value="1">A002: Warm Analog Pad</option>
+        <option value="2">A003: Acid Reso Bass</option>
+        <option value="3">A004: 90s Trance Pluck</option>
+      </select>
+      <button onclick="playDemoSound()" class="px-3 py-1 bg-red-600 hover:bg-red-500 active:scale-95 text-white font-bold text-xs rounded shadow transition flex items-center gap-1.5">
+        <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+        Audition Note
+      </button>
+    </div>
+  </div>
+
+  <!-- THE HARDWARE UNIT -->
+  <div class="w-full max-w-6xl flex rounded-xl shadow-2xl overflow-hidden border border-zinc-700/60">
+    
+    <!-- LEFT MAHOGANY WOOD END CHEEK -->
+    <div class="w-8 md:w-10 flex-shrink-0 wood-cheek border-r border-black/80 flex flex-col justify-between py-6 items-center">
+      <div class="w-2.5 h-2.5 rounded-full bg-zinc-900/80 border border-zinc-600 shadow-inner"></div>
+      <div class="w-2.5 h-2.5 rounded-full bg-zinc-900/80 border border-zinc-600 shadow-inner"></div>
+      <div class="w-2.5 h-2.5 rounded-full bg-zinc-900/80 border border-zinc-600 shadow-inner"></div>
+    </div>
+
+    <!-- MAIN CHASSIS FACEPLATE -->
+    <div class="flex-1 virus-chassis p-5 flex flex-col gap-4">
+      
+      <!-- TOP BANNER & LOGO -->
+      <div class="flex items-center justify-between border-b border-zinc-700/50 pb-2">
+        <div class="flex items-baseline gap-3">
+          <span class="font-brand text-2xl font-black text-white tracking-widest drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">VIRUS</span>
+          <span class="text-[9px] font-bold uppercase tracking-widest text-zinc-400">Advanced Simulated Analog Synthesizer</span>
+        </div>
+        <div class="flex items-center gap-3 text-[10px] text-zinc-400 font-mono">
+          <span>ACCESS MUSIC ELEC.</span>
+          <span class="text-red-500 font-bold">•</span>
+          <span>16 VOICES</span>
+          <span class="text-red-500 font-bold">•</span>
+          <span>DSP ENGINE</span>
+        </div>
+      </div>
+
+      <!-- MAIN HARDWARE GRID -->
+      <div class="grid grid-cols-12 gap-3.5 items-stretch">
+        
+        <!-- SECTION 1: MASTER & DUAL LFOs (COL 1-4) -->
+        <div class="col-span-4 flex flex-col gap-3">
+          
+          <!-- Master Flank Row -->
+          <div class="flex items-center justify-between bg-black/25 p-2 rounded border border-zinc-700/40">
+            <div class="flex flex-col items-center">
+              <span class="text-[9px] font-bold uppercase text-zinc-400 mb-1 tracking-wider">Volume</span>
+              <div class="virus-knob" data-param="vol" data-page="0x70" data-num="1" data-val="100">
+                <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+              </div>
+              <span class="text-[9px] text-zinc-300 font-mono mt-1 readout">100</span>
+            </div>
+            <div class="flex flex-col items-center">
+              <span class="text-[9px] font-bold uppercase text-zinc-400 mb-1 tracking-wider">Assign 1</span>
+              <div class="virus-knob" data-param="assign1" data-page="0x70" data-num="2" data-val="64">
+                <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+              </div>
+              <span class="text-[9px] text-zinc-300 font-mono mt-1 readout">64</span>
+            </div>
+            <div class="flex flex-col items-center">
+              <span class="text-[9px] font-bold uppercase text-zinc-400 mb-1 tracking-wider">Assign 2</span>
+              <div class="virus-knob" data-param="assign2" data-page="0x70" data-num="3" data-val="0">
+                <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+              </div>
+              <span class="text-[9px] text-zinc-300 font-mono mt-1 readout">0</span>
+            </div>
+          </div>
+
+          <!-- LFO 1 (CRIMSON RED BLOCK) -->
+          <div class="virus-red-panel p-2.5 rounded-md flex flex-col gap-1.5 shadow-md">
+            <div class="flex items-center justify-between border-b border-white/20 pb-1">
+              <span class="text-[10px] font-black tracking-widest text-white uppercase drop-shadow">LFO 1</span>
+              <span class="text-[8px] font-bold uppercase text-red-200">Poly / Polyphonic</span>
+            </div>
+            <div class="flex items-center justify-between gap-2 mt-1">
+              <!-- Knob Rate -->
+              <div class="flex flex-col items-center">
+                <span class="text-[8px] font-bold uppercase text-white/90 tracking-wider">Rate</span>
+                <div class="virus-knob" data-param="lfo1_rate" data-page="0x70" data-num="10" data-val="76">
+                  <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                </div>
+                <span class="text-[8px] text-white font-mono mt-0.5 readout">76</span>
+              </div>
+              <!-- Shape Selector & LEDs -->
+              <div class="flex flex-col items-center">
+                <span class="text-[8px] font-bold uppercase text-white/90 tracking-wider">Shape</span>
+                <button onclick="cycleLfo1Shape()" class="tactile-btn px-2 py-1 text-[8px] font-bold text-zinc-200 rounded mt-1">SELECT</button>
+                <div class="grid grid-cols-4 gap-1 mt-1.5">
+                  <div id="lfo1-led-sine" class="led-dot led-green-on" title="Sine"></div>
+                  <div id="lfo1-led-tri" class="led-dot led-off" title="Triangle"></div>
+                  <div id="lfo1-led-saw" class="led-dot led-off" title="Saw"></div>
+                  <div id="lfo1-led-pulse" class="led-dot led-off" title="Pulse"></div>
+                </div>
+              </div>
+              <!-- Destination -->
+              <div class="flex flex-col items-center">
+                <span class="text-[8px] font-bold uppercase text-white/90 tracking-wider">Dest</span>
+                <div class="virus-knob" data-param="lfo1_amt" data-page="0x70" data-num="12" data-val="45">
+                  <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                </div>
+                <span class="text-[8px] text-white font-mono mt-0.5 readout">45</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- LFO 2 (CRIMSON RED BLOCK) -->
+          <div class="virus-red-panel p-2.5 rounded-md flex flex-col gap-1.5 shadow-md">
+            <div class="flex items-center justify-between border-b border-white/20 pb-1">
+              <span class="text-[10px] font-black tracking-widest text-white uppercase drop-shadow">LFO 2</span>
+              <span class="text-[8px] font-bold uppercase text-red-200">Env / Mod Matrix</span>
+            </div>
+            <div class="flex items-center justify-between gap-2 mt-1">
+              <!-- Knob Rate -->
+              <div class="flex flex-col items-center">
+                <span class="text-[8px] font-bold uppercase text-white/90 tracking-wider">Rate</span>
+                <div class="virus-knob" data-param="lfo2_rate" data-page="0x70" data-num="15" data-val="32">
+                  <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                </div>
+                <span class="text-[8px] text-white font-mono mt-0.5 readout">32</span>
+              </div>
+              <!-- Shape Selector & LEDs -->
+              <div class="flex flex-col items-center">
+                <span class="text-[8px] font-bold uppercase text-white/90 tracking-wider">Shape</span>
+                <button onclick="cycleLfo2Shape()" class="tactile-btn px-2 py-1 text-[8px] font-bold text-zinc-200 rounded mt-1">SELECT</button>
+                <div class="grid grid-cols-4 gap-1 mt-1.5">
+                  <div id="lfo2-led-sine" class="led-dot led-off" title="Sine"></div>
+                  <div id="lfo2-led-tri" class="led-dot led-green-on" title="Triangle"></div>
+                  <div id="lfo2-led-saw" class="led-dot led-off" title="Saw"></div>
+                  <div id="lfo2-led-pulse" class="led-dot led-off" title="Pulse"></div>
+                </div>
+              </div>
+              <!-- Destination -->
+              <div class="flex flex-col items-center">
+                <span class="text-[8px] font-bold uppercase text-white/90 tracking-wider">Dest</span>
+                <div class="virus-knob" data-param="lfo2_amt" data-page="0x70" data-num="17" data-val="88">
+                  <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                </div>
+                <span class="text-[8px] text-white font-mono mt-0.5 readout">88</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- SECTION 2: OSCILLATORS & 2x16 LCD DISPLAY (COL 5-8) -->
+        <div class="col-span-4 flex flex-col justify-between gap-3">
+          
+          <!-- OSCILLATORS (CRIMSON RED BLOCK) -->
+          <div class="virus-red-panel p-2.5 rounded-md flex flex-col gap-2 shadow-md flex-1">
+            <div class="flex items-center justify-between border-b border-white/20 pb-1">
+              <span class="text-[10px] font-black tracking-widest text-white uppercase drop-shadow">Oscillators</span>
+              <span class="text-[8px] font-bold uppercase text-red-200">OSC 1 • OSC 2 • SUB • FM</span>
+            </div>
+            
+            <!-- Row 1: Osc 1 Shape, Detune, Semitone -->
+            <div class="grid grid-cols-3 gap-2 text-center">
+              <div class="flex flex-col items-center">
+                <span class="text-[8px] font-bold uppercase text-white/90 tracking-wider">Osc 1 Shape</span>
+                <div class="virus-knob" data-param="osc1_shape" data-page="0x70" data-num="20" data-val="64">
+                  <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                </div>
+                <span class="text-[8px] text-white font-mono mt-0.5 readout">Saw (64)</span>
+              </div>
+              <div class="flex flex-col items-center">
+                <span class="text-[8px] font-bold uppercase text-white/90 tracking-wider">Detune</span>
+                <div class="virus-knob" data-param="osc2_detune" data-page="0x70" data-num="24" data-val="12">
+                  <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                </div>
+                <span class="text-[8px] text-white font-mono mt-0.5 readout">+12</span>
+              </div>
+              <div class="flex flex-col items-center">
+                <span class="text-[8px] font-bold uppercase text-white/90 tracking-wider">Semitone</span>
+                <div class="virus-knob" data-param="osc2_semi" data-page="0x70" data-num="23" data-val="64">
+                  <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                </div>
+                <span class="text-[8px] text-white font-mono mt-0.5 readout">0</span>
+              </div>
+            </div>
+
+            <!-- Row 2: Osc 2 Shape, FM Amount, Sub / Mix -->
+            <div class="grid grid-cols-3 gap-2 text-center mt-1">
+              <div class="flex flex-col items-center">
+                <span class="text-[8px] font-bold uppercase text-white/90 tracking-wider">Osc 2 Shape</span>
+                <div class="virus-knob" data-param="osc2_shape" data-page="0x70" data-num="22" data-val="64">
+                  <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                </div>
+                <span class="text-[8px] text-white font-mono mt-0.5 readout">Saw (64)</span>
+              </div>
+              <div class="flex flex-col items-center">
+                <span class="text-[8px] font-bold uppercase text-white/90 tracking-wider">FM Amount</span>
+                <div class="virus-knob" data-param="fm_amount" data-page="0x70" data-num="26" data-val="0">
+                  <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                </div>
+                <span class="text-[8px] text-white font-mono mt-0.5 readout">0</span>
+              </div>
+              <div class="flex flex-col items-center">
+                <span class="text-[8px] font-bold uppercase text-white/90 tracking-wider">Mix / Bal</span>
+                <div class="virus-knob" data-param="osc_balance" data-page="0x70" data-num="28" data-val="64">
+                  <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                </div>
+                <span class="text-[8px] text-white font-mono mt-0.5 readout">50/50</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2x16 LCD DISPLAY & NAVIGATION CONSOLE -->
+          <div class="bg-black/40 p-3 rounded border border-zinc-700/50 flex flex-col gap-2">
+            
+            <!-- THE LCD SCREEN -->
+            <div class="virus-lcd p-2.5 rounded flex flex-col justify-between font-lcd h-16">
+              <div class="flex items-center justify-between text-xs font-bold lcd-text tracking-widest">
+                <span id="lcd-line-1">A001: Aggro Hypersaw</span>
+                <span id="lcd-patch-num">128BPM</span>
+              </div>
+              <div class="flex items-center justify-between text-xs font-semibold lcd-text tracking-wider">
+                <span id="lcd-param-name">CUTOFF 1</span>
+                <span id="lcd-param-val" class="font-bold">85 (67%)</span>
+              </div>
+            </div>
+
+            <!-- BUTTONS UNDER LCD -->
+            <div class="flex items-center justify-between pt-1">
+              <!-- Access Logo -->
+              <span class="text-[9px] font-extrabold tracking-wider text-zinc-300 uppercase">access <span class="text-[7px] text-zinc-400">MIDI</span></span>
+              
+              <!-- Buttons -->
+              <div class="flex items-center gap-1.5">
+                <button class="store-btn px-2 py-0.5 text-[8px] rounded uppercase shadow">STORE</button>
+                <button class="tactile-btn px-2 py-0.5 text-[8px] font-bold text-zinc-200 rounded uppercase">CTRL</button>
+                <button class="tactile-btn px-2 py-0.5 text-[8px] font-bold text-zinc-200 rounded uppercase">EDIT</button>
+                <button class="tactile-btn px-2 py-0.5 text-[8px] font-bold text-zinc-200 rounded uppercase">MULTI</button>
+                <button class="tactile-btn px-2 py-0.5 text-[8px] font-bold text-red-400 rounded uppercase">SINGLE</button>
+              </div>
+
+              <!-- Parameter / Value Navigation -->
+              <div class="flex items-center gap-1">
+                <button onclick="bumpValue(-1)" class="tactile-btn px-1.5 py-0.5 text-[8px] font-bold text-zinc-300 rounded font-mono">&lt;</button>
+                <button onclick="bumpValue(1)" class="tactile-btn px-1.5 py-0.5 text-[8px] font-bold text-zinc-300 rounded font-mono">&gt;</button>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- SECTION 3: FILTERS & DUAL ADSR ENVELOPES (COL 9-12) -->
+        <div class="col-span-4 flex flex-col gap-3">
+          
+          <!-- FILTERS & ENVELOPES (LARGE CONTIGUOUS CRIMSON RED BLOCK) -->
+          <div class="virus-red-panel p-2.5 rounded-md flex flex-col gap-2 shadow-md h-full justify-between">
+            
+            <!-- Filters Header & Knobs -->
+            <div>
+              <div class="flex items-center justify-between border-b border-white/20 pb-1 mb-2">
+                <span class="text-[10px] font-black tracking-widest text-white uppercase drop-shadow">Dual Resonant Filters</span>
+                <span class="text-[8px] font-bold uppercase text-red-200">24dB Lowpass / Bandpass</span>
+              </div>
+              <div class="grid grid-cols-3 gap-2 text-center">
+                <div class="flex flex-col items-center">
+                  <span class="text-[8px] font-bold uppercase text-white/90 tracking-wider">Cutoff 1</span>
+                  <div class="virus-knob" data-param="cutoff" data-page="0x70" data-num="40" data-val="85">
+                    <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                  </div>
+                  <span class="text-[8px] text-white font-mono mt-0.5 readout">85</span>
+                </div>
+                <div class="flex flex-col items-center">
+                  <span class="text-[8px] font-bold uppercase text-white/90 tracking-wider">Resonance</span>
+                  <div class="virus-knob" data-param="reso" data-page="0x70" data-num="42" data-val="72">
+                    <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                  </div>
+                  <span class="text-[8px] text-white font-mono mt-0.5 readout">72</span>
+                </div>
+                <div class="flex flex-col items-center">
+                  <span class="text-[8px] font-bold uppercase text-white/90 tracking-wider">Env Amount</span>
+                  <div class="virus-knob" data-param="filt_env_amt" data-page="0x70" data-num="44" data-val="48">
+                    <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                  </div>
+                  <span class="text-[8px] text-white font-mono mt-0.5 readout">+48</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Filter Envelope ADSR -->
+            <div>
+              <div class="flex items-center justify-between border-b border-white/20 pb-0.5 mb-1.5">
+                <span class="text-[9px] font-black tracking-wider text-white uppercase drop-shadow">Filter Envelope</span>
+                <span class="text-[7px] font-bold uppercase text-red-200">ADSR</span>
+              </div>
+              <div class="grid grid-cols-4 gap-1.5 text-center">
+                <div class="flex flex-col items-center">
+                  <span class="text-[7px] font-bold uppercase text-white/80">Att</span>
+                  <div class="virus-knob" data-param="f_att" data-page="0x70" data-num="50" data-val="2">
+                    <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                  </div>
+                  <span class="text-[7px] text-white font-mono readout">2</span>
+                </div>
+                <div class="flex flex-col items-center">
+                  <span class="text-[7px] font-bold uppercase text-white/80">Dec</span>
+                  <div class="virus-knob" data-param="f_dec" data-page="0x70" data-num="51" data-val="45">
+                    <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                  </div>
+                  <span class="text-[7px] text-white font-mono readout">45</span>
+                </div>
+                <div class="flex flex-col items-center">
+                  <span class="text-[7px] font-bold uppercase text-white/80">Sus</span>
+                  <div class="virus-knob" data-param="f_sus" data-page="0x70" data-num="52" data-val="20">
+                    <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                  </div>
+                  <span class="text-[7px] text-white font-mono readout">20</span>
+                </div>
+                <div class="flex flex-col items-center">
+                  <span class="text-[7px] font-bold uppercase text-white/80">Rel</span>
+                  <div class="virus-knob" data-param="f_rel" data-page="0x70" data-num="54" data-val="30">
+                    <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                  </div>
+                  <span class="text-[7px] text-white font-mono readout">30</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Amp Envelope ADSR -->
+            <div>
+              <div class="flex items-center justify-between border-b border-white/20 pb-0.5 mb-1.5">
+                <span class="text-[9px] font-black tracking-wider text-white uppercase drop-shadow">Amplifier Envelope</span>
+                <span class="text-[7px] font-bold uppercase text-red-200">VCA ADSR</span>
+              </div>
+              <div class="grid grid-cols-4 gap-1.5 text-center">
+                <div class="flex flex-col items-center">
+                  <span class="text-[7px] font-bold uppercase text-white/80">Att</span>
+                  <div class="virus-knob" data-param="a_att" data-page="0x70" data-num="59" data-val="0">
+                    <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                  </div>
+                  <span class="text-[7px] text-white font-mono readout">0</span>
+                </div>
+                <div class="flex flex-col items-center">
+                  <span class="text-[7px] font-bold uppercase text-white/80">Dec</span>
+                  <div class="virus-knob" data-param="a_dec" data-page="0x70" data-num="60" data-val="60">
+                    <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                  </div>
+                  <span class="text-[7px] text-white font-mono readout">60</span>
+                </div>
+                <div class="flex flex-col items-center">
+                  <span class="text-[7px] font-bold uppercase text-white/80">Sus</span>
+                  <div class="virus-knob" data-param="a_sus" data-page="0x70" data-num="61" data-val="95">
+                    <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                  </div>
+                  <span class="text-[7px] text-white font-mono readout">95</span>
+                </div>
+                <div class="flex flex-col items-center">
+                  <span class="text-[7px] font-bold uppercase text-white/80">Rel</span>
+                  <div class="virus-knob" data-param="a_rel" data-page="0x70" data-num="63" data-val="40">
+                    <div class="virus-knob-cap"><div class="knob-pointer"></div></div>
+                  </div>
+                  <span class="text-[7px] text-white font-mono readout">40</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- LIVE SYSEX PACKET TRANSMISSION INSPECTOR -->
+      <div class="bg-black/60 rounded p-3 border border-zinc-800 flex flex-col md:flex-row items-start md:items-center justify-between gap-3 font-mono text-xs">
+        <div class="flex items-center gap-3">
+          <span class="text-[10px] uppercase font-bold text-red-400 bg-red-950/70 border border-red-800/80 px-2 py-0.5 rounded">Live SysEx Output</span>
+          <span id="sysex-hex-display" class="text-amber-300 font-bold tracking-wider text-sm">F0 00 20 33 01 10 70 40 28 55 F7</span>
+        </div>
+        <div id="sysex-explanation" class="text-zinc-400 text-[11px] truncate">
+          [Access Music: 00 20 33] • [Omni ID: 10] • [Page: 70] • [Part: Single 40] • [Param: 40 (Cutoff 1)] • [Val: 85]
+        </div>
+      </div>
+
+    </div>
+
+    <!-- RIGHT MAHOGANY WOOD END CHEEK -->
+    <div class="w-8 md:w-10 flex-shrink-0 wood-cheek border-l border-black/80 flex flex-col justify-between py-6 items-center">
+      <div class="w-2.5 h-2.5 rounded-full bg-zinc-900/80 border border-zinc-600 shadow-inner"></div>
+      <div class="w-2.5 h-2.5 rounded-full bg-zinc-900/80 border border-zinc-600 shadow-inner"></div>
+      <div class="w-2.5 h-2.5 rounded-full bg-zinc-900/80 border border-zinc-600 shadow-inner"></div>
+    </div>
+
+  </div>
+
+  <!-- INTERACTIVE LOGIC & SYNTH ENGINE SCRIPT -->
+  <script>
+    // Presets
+    const presets = [
+      { name: "A001: Aggro Hypersaw", cutoff: 85, reso: 72, f_att: 2, f_dec: 45, f_sus: 20, f_rel: 30, a_att: 0, a_dec: 60, a_sus: 95, a_rel: 40, detune: 12 },
+      { name: "A002: Warm Analog Pad", cutoff: 55, reso: 15, f_att: 40, f_dec: 70, f_sus: 80, f_rel: 60, a_att: 35, a_dec: 70, a_sus: 90, a_rel: 65, detune: 5 },
+      { name: "A003: Acid Reso Bass", cutoff: 35, reso: 110, f_att: 0, f_dec: 35, f_sus: 5, f_rel: 15, a_att: 0, a_dec: 40, a_sus: 10, a_rel: 20, detune: 0 },
+      { name: "A004: 90s Trance Pluck", cutoff: 95, reso: 60, f_att: 2, f_dec: 28, f_sus: 0, f_rel: 22, a_att: 0, a_dec: 30, a_sus: 0, a_rel: 25, detune: 8 }
+    ];
+
+    let currentPresetIdx = 0;
+    let activeKnob = null;
+    let startY = 0;
+    let startVal = 0;
+
+    // Initialize Knobs & Rotation
+    function updateKnobVisual(knobEl, val, min = 0, max = 127) {
+      const pct = (val - min) / (max - min);
+      const deg = -135 + (pct * 270);
+      const pointer = knobEl.querySelector('.knob-pointer');
+      if (pointer) {
+        pointer.style.transform = `rotate(${deg}deg)`;
+        pointer.style.transformOrigin = '1.25px 14px';
+      }
+      const parent = knobEl.parentElement;
+      if (parent) {
+        const readout = parent.querySelector('.readout');
+        if (readout) readout.innerText = val;
+      }
+    }
+
+    // Attach knob drag interaction
+    document.querySelectorAll('.virus-knob').forEach(knob => {
+      const val = parseInt(knob.getAttribute('data-val') || '64');
+      updateKnobVisual(knob, val);
+
+      knob.addEventListener('mousedown', (e) => {
+        e.preventDefault();
+        activeKnob = knob;
+        startY = e.clientY;
+        startVal = parseInt(knob.getAttribute('data-val') || '64');
+        document.body.style.cursor = 'ns-resize';
+      });
+    });
+
+    window.addEventListener('mousemove', (e) => {
+      if (!activeKnob) return;
+      const dy = startY - e.clientY;
+      let newVal = Math.min(127, Math.max(0, startVal + Math.round(dy * 0.75)));
+      
+      activeKnob.setAttribute('data-val', newVal);
+      updateKnobVisual(activeKnob, newVal);
+
+      const page = activeKnob.getAttribute('data-page') || '0x70';
+      const num = parseInt(activeKnob.getAttribute('data-num') || '40');
+      const paramName = activeKnob.getAttribute('data-param') || 'Param';
+
+      transmitSysEx(page, num, newVal, paramName);
+    });
+
+    window.addEventListener('mouseup', () => {
+      if (activeKnob) {
+        activeKnob = null;
+        document.body.style.cursor = 'default';
+      }
+    });
+
+    // SysEx Transmission Engine
+    function transmitSysEx(pageHex, paramNum, rawVal, label) {
+      const devId = 0x10; // Omni
+      const pageByte = parseInt(pageHex, 16);
+      const partByte = 0x40; // Single Edit Buffer
+      const paramByte = paramNum & 0x7F;
+      const valByte = rawVal & 0x7F;
+
+      const toHex = (n) => n.toString(16).toUpperCase().padStart(2, '0');
+      const hexStr = `F0 00 20 33 01 ${toHex(devId)} ${toHex(pageByte)} ${toHex(partByte)} ${toHex(paramByte)} ${toHex(valByte)} F7`;
+
+      document.getElementById('sysex-hex-display').innerText = hexStr;
+      document.getElementById('sysex-explanation').innerText = 
+        `[Access Music: 00 20 33] • [Omni ID: ${toHex(devId)}] • [Page: ${toHex(pageByte)}] • [Part: 40] • [Param: ${paramByte} (${label.toUpperCase()})] • [Val: ${valByte}]`;
+
+      // Update LCD display
+      document.getElementById('lcd-param-name').innerText = label.toUpperCase();
+      document.getElementById('lcd-param-val').innerText = `${rawVal} (${Math.round((valByte/127)*100)}%)`;
+
+      // Live Tauri IPC hook
+      if (window.__TAURI__ && window.__TAURI__.core) {
+        window.__TAURI__.core.invoke('send_parameter', {
+          deviceName: 'Access Virus A',
+          paramId: paramByte,
+          value: valByte,
+          portIndex: null
+        }).catch(() => {});
+      }
+    }
+
+    function loadPreset(idx) {
+      currentPresetIdx = parseInt(idx);
+      const p = presets[currentPresetIdx];
+      document.getElementById('lcd-line-1').innerText = p.name;
+      
+      const setKnob = (param, val) => {
+        const el = document.querySelector(`[data-param="${param}"]`);
+        if (el) {
+          el.setAttribute('data-val', val);
+          updateKnobVisual(el, val);
+        }
+      };
+
+      setKnob('cutoff', p.cutoff);
+      setKnob('reso', p.reso);
+      setKnob('f_att', p.f_att);
+      setKnob('f_dec', p.f_dec);
+      setKnob('f_sus', p.f_sus);
+      setKnob('f_rel', p.f_rel);
+      setKnob('a_att', p.a_att);
+      setKnob('a_dec', p.a_dec);
+      setKnob('a_sus', p.a_sus);
+      setKnob('a_rel', p.a_rel);
+      setKnob('osc2_detune', p.detune);
+
+      transmitSysEx('0x70', 40, p.cutoff, 'Cutoff 1');
+    }
+
+    function bumpValue(delta) {
+      const cutoffEl = document.querySelector('[data-param="cutoff"]');
+      if (cutoffEl) {
+        let cur = parseInt(cutoffEl.getAttribute('data-val') || '85');
+        cur = Math.min(127, Math.max(0, cur + delta * 2));
+        cutoffEl.setAttribute('data-val', cur);
+        updateKnobVisual(cutoffEl, cur);
+        transmitSysEx('0x70', 40, cur, 'Cutoff 1');
+      }
+    }
+
+    // LFO Shape Cycle
+    let lfo1Shape = 0;
+    function cycleLfo1Shape() {
+      lfo1Shape = (lfo1Shape + 1) % 4;
+      const leds = ['sine', 'tri', 'saw', 'pulse'];
+      leds.forEach((l, i) => {
+        const el = document.getElementById(`lfo1-led-${l}`);
+        if (el) el.className = `led-dot ${i === lfo1Shape ? 'led-green-on' : 'led-off'}`;
+      });
+      transmitSysEx('0x70', 11, lfo1Shape * 32, 'LFO 1 Shape');
+    }
+
+    let lfo2Shape = 1;
+    function cycleLfo2Shape() {
+      lfo2Shape = (lfo2Shape + 1) % 4;
+      const leds = ['sine', 'tri', 'saw', 'pulse'];
+      leds.forEach((l, i) => {
+        const el = document.getElementById(`lfo2-led-${l}`);
+        if (el) el.className = `led-dot ${i === lfo2Shape ? 'led-green-on' : 'led-off'}`;
+      });
+      transmitSysEx('0x70', 16, lfo2Shape * 32, 'LFO 2 Shape');
+    }
+
+    // Web Audio Demonstration Synth
+    let audioCtx = null;
+    function playDemoSound() {
+      if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+
+      const now = audioCtx.currentTime;
+      const osc1 = audioCtx.createOscillator();
+      const osc2 = audioCtx.createOscillator();
+      const filter = audioCtx.createBiquadFilter();
+      const gain = audioCtx.createGain();
+
+      const cutoffVal = parseInt(document.querySelector('[data-param="cutoff"]')?.getAttribute('data-val') || '85');
+      const resoVal = parseInt(document.querySelector('[data-param="reso"]')?.getAttribute('data-val') || '72');
+      const detuneVal = parseInt(document.querySelector('[data-param="osc2_detune"]')?.getAttribute('data-val') || '12');
+
+      osc1.type = 'sawtooth';
+      osc2.type = 'sawtooth';
+      osc1.frequency.setValueAtTime(130.81, now); // C3
+      osc2.frequency.setValueAtTime(130.81, now);
+      osc2.detune.setValueAtTime(detuneVal * 2.5, now);
+
+      filter.type = 'lowpass';
+      const cutoffHz = 80 + Math.pow(cutoffVal / 127, 2) * 8000;
+      filter.frequency.setValueAtTime(cutoffHz, now);
+      filter.Q.setValueAtTime((resoVal / 127) * 18, now);
+
+      gain.gain.setValueAtTime(0, now);
+      gain.gain.linearRampToValueAtTime(0.25, now + 0.04);
+      gain.gain.exponentialRampToValueAtTime(0.0001, now + 0.8);
+
+      osc1.connect(filter);
+      osc2.connect(filter);
+      filter.connect(gain);
+      gain.connect(audioCtx.destination);
+
+      osc1.start(now);
+      osc2.start(now);
+      osc1.stop(now + 0.85);
+      osc2.stop(now + 0.85);
+    }
+  </script>
+</body>
+</html>
