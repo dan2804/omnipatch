@@ -253,10 +253,12 @@
   <!-- ========================================================================= -->
   <div class="w-full max-w-6xl h-[104px] p1k-faceplate rounded-sm flex items-center justify-between px-3 shadow-2xl relative select-none border-t border-zinc-600/60 overflow-hidden">
     
-    <!-- SVG Etched Contour Wave Line across front panel -->
+    <!-- SVG Etched Scalloped Contour Line across left front panel (matches physical E-MU 1U chassis) -->
     <svg class="p1k-relief-line" viewBox="0 0 1152 104" preserveAspectRatio="none">
-      <path d="M 0,42 Q 60,42 95,50 T 170,44 Q 280,38 385,42 L 395,42 L 725,42 Q 850,44 1152,42" fill="none" stroke="#2a2e36" stroke-width="1.5" />
-      <path d="M 0,43 Q 60,43 95,51 T 170,45 Q 280,39 385,43 L 395,43 L 725,43 Q 850,45 1152,43" fill="none" stroke="#0a0b0d" stroke-width="1" />
+      <!-- Dark drop-shadow etch -->
+      <path d="M 0,42 L 85,42 Q 115,42 140,54 T 195,44 Q 220,32 245,32 Q 270,32 290,44 Q 315,32 340,32 Q 365,32 385,44 Q 410,32 435,32 Q 460,32 475,44 L 490,44" fill="none" stroke="#0a0b0d" stroke-width="1.5" />
+      <!-- Top highlight etch -->
+      <path d="M 0,41 L 85,41 Q 115,41 140,53 T 195,43 Q 220,31 245,31 Q 270,31 290,43 Q 315,31 340,31 Q 365,31 385,43 Q 410,31 435,31 Q 460,31 475,43 L 490,43" fill="none" stroke="#2d313a" stroke-width="1" />
     </svg>
 
     <!-- LEFT RACK EAR (Black with 2 Oval Mounting Holes & Countersunk Screws) -->
@@ -277,7 +279,7 @@
     <div class="flex items-center gap-3.5 pl-8 z-10">
       
       <!-- Phones Jack & Controller Mode Button -->
-      <div class="flex flex-col items-center justify-between h-[72px] py-1">
+      <div class="flex flex-col items-center justify-between h-[82px] py-0.5">
         <!-- Oval Controller Mode Select Button -->
         <button onclick="cycleP1kMode()" class="p1k-btn-oval" title="Cycle Real-Time Controller Row (A-D / E-H / I-L)"></button>
         <!-- 1/4" Headphone Jack -->
@@ -308,71 +310,92 @@
         </div>
       </div>
 
-      <!-- Volume Potentiometer -->
-      <div class="flex flex-col items-center justify-end h-[74px] pb-0.5 ml-1">
-        <div class="p1k-knob" data-param="vol" data-val="115" onmousedown="startKnobDrag(event, 'vol')">
-          <div class="p1k-knob-pointer" id="vol-pointer"></div>
-        </div>
-        <span class="silkscreen-p1k mt-2">VOLUME</span>
-      </div>
-
-      <!-- 4 Real-Time Parameter Knobs with Silkscreen Columns -->
-      <div class="flex items-center gap-2.5 ml-1">
+      <!-- ALL 5 KNOBS ALIGNED ON EXACT IDENTICAL CENTERLINE (h-[82px]) -->
+      <div class="flex items-center gap-3 ml-1">
         
-        <!-- Knob 1: A/E/I (TONE / ATTACK / DYNAMIC 1) -->
-        <div class="flex flex-col items-center">
-          <div class="flex flex-col items-center text-center -mb-0.5">
-            <span class="silkscreen-p1k text-[6.5px] leading-tight">TONE <span class="slash-cyan">/</span></span>
-            <span class="silkscreen-p1k text-[6.5px] leading-tight">ATTACK <span class="slash-cyan">/</span></span>
-            <span class="silkscreen-p1k text-[6.5px] leading-tight">DYNAMIC 1 <span class="slash-cyan">/</span></span>
+        <!-- Knob 0: VOLUME -->
+        <div class="flex flex-col items-center justify-between h-[82px] py-0.5">
+          <div class="h-[28px] w-full flex items-center justify-center"></div>
+          <div class="p1k-knob" data-param="vol" data-val="115" onmousedown="startKnobDrag(event, 'vol')">
+            <div class="p1k-knob-pointer" id="vol-pointer"></div>
           </div>
-          <div id="led-param-1" class="led-dot led-off my-1"></div>
+          <span class="silkscreen-p1k text-[7.5px]">VOLUME</span>
+        </div>
+
+        <!-- Knob 1: A/E/I (TONE / ATTACK / DYNAMIC 1 with Tall Cyan Slash) -->
+        <div class="flex flex-col items-center justify-between h-[82px] py-0.5">
+          <div class="h-[28px] flex items-center justify-center relative">
+            <div class="flex items-center gap-0.5">
+              <div class="flex flex-col items-end text-right">
+                <span class="silkscreen-p1k text-[6px] leading-[8px]">TONE</span>
+                <span class="silkscreen-p1k text-[6px] leading-[8px]">ATTACK</span>
+                <span class="silkscreen-p1k text-[6px] leading-[8px]">DYNAMIC 1</span>
+              </div>
+              <span class="text-[#38bdf8] font-black text-sm italic leading-none pl-0.5 select-none">/</span>
+            </div>
+            <div id="led-param-1" class="led-dot led-off absolute -bottom-1.5 left-1/2 -translate-x-1/2"></div>
+          </div>
           <div class="p1k-knob" data-param="k1" data-val="100" onmousedown="startKnobDrag(event, 'k1')">
             <div class="p1k-knob-pointer" id="k1-pointer"></div>
           </div>
-          <span class="silkscreen-p1k mt-1.5">A/E/I <span class="slash-cyan">|</span></span>
+          <span class="silkscreen-p1k text-[7.5px]">A/E/I <span class="slash-cyan">|</span></span>
         </div>
 
-        <!-- Knob 2: B/F/J (PRESENCE / DECAY/RLS / DYNAMIC 2) -->
-        <div class="flex flex-col items-center">
-          <div class="flex flex-col items-center text-center -mb-0.5">
-            <span class="silkscreen-p1k text-[6.5px] leading-tight">PRESENCE <span class="slash-cyan">/</span></span>
-            <span class="silkscreen-p1k text-[6.5px] leading-tight">DECAY/RLS <span class="slash-cyan">/</span></span>
-            <span class="silkscreen-p1k text-[6.5px] leading-tight">DYNAMIC 2 <span class="slash-cyan">/</span></span>
+        <!-- Knob 2: B/F/J (PRESENCE / DECAY/RLS / DYNAMIC 2 with Tall Cyan Slash) -->
+        <div class="flex flex-col items-center justify-between h-[82px] py-0.5">
+          <div class="h-[28px] flex items-center justify-center relative">
+            <div class="flex items-center gap-0.5">
+              <div class="flex flex-col items-end text-right">
+                <span class="silkscreen-p1k text-[6px] leading-[8px]">PRESENCE</span>
+                <span class="silkscreen-p1k text-[6px] leading-[8px]">DECAY/RLS</span>
+                <span class="silkscreen-p1k text-[6px] leading-[8px]">DYNAMIC 2</span>
+              </div>
+              <span class="text-[#38bdf8] font-black text-sm italic leading-none pl-0.5 select-none">/</span>
+            </div>
+            <div id="led-param-2" class="led-dot led-off absolute -bottom-1.5 left-1/2 -translate-x-1/2"></div>
           </div>
-          <div id="led-param-2" class="led-dot led-off my-1"></div>
           <div class="p1k-knob" data-param="k2" data-val="64" onmousedown="startKnobDrag(event, 'k2')">
             <div class="p1k-knob-pointer" id="k2-pointer"></div>
           </div>
-          <span class="silkscreen-p1k mt-1.5">B/F/J <span class="slash-cyan">|</span></span>
+          <span class="silkscreen-p1k text-[7.5px]">B/F/J <span class="slash-cyan">|</span></span>
         </div>
 
-        <!-- Knob 3: C/G/K (SHAPE / MOVEMENT / FX A) -->
-        <div class="flex flex-col items-center">
-          <div class="flex flex-col items-center text-center -mb-0.5">
-            <span class="silkscreen-p1k text-[6.5px] leading-tight">SHAPE <span class="slash-cyan">/</span></span>
-            <span class="silkscreen-p1k text-[6.5px] leading-tight">MOVEMENT <span class="slash-cyan">/</span></span>
-            <span class="silkscreen-p1k text-[6.5px] leading-tight">FX A <span class="slash-cyan">/</span></span>
+        <!-- Knob 3: C/G/K (SHAPE / MOVEMENT / FX A with Tall Cyan Slash) -->
+        <div class="flex flex-col items-center justify-between h-[82px] py-0.5">
+          <div class="h-[28px] flex items-center justify-center relative">
+            <div class="flex items-center gap-0.5">
+              <div class="flex flex-col items-end text-right">
+                <span class="silkscreen-p1k text-[6px] leading-[8px]">SHAPE</span>
+                <span class="silkscreen-p1k text-[6px] leading-[8px]">MOVEMENT</span>
+                <span class="silkscreen-p1k text-[6px] leading-[8px]">FX A</span>
+              </div>
+              <span class="text-[#38bdf8] font-black text-sm italic leading-none pl-0.5 select-none">/</span>
+            </div>
+            <div id="led-param-3" class="led-dot led-off absolute -bottom-1.5 left-1/2 -translate-x-1/2"></div>
           </div>
-          <div id="led-param-3" class="led-dot led-off my-1"></div>
           <div class="p1k-knob" data-param="k3" data-val="85" onmousedown="startKnobDrag(event, 'k3')">
             <div class="p1k-knob-pointer" id="k3-pointer"></div>
           </div>
-          <span class="silkscreen-p1k mt-1.5">C/G/K <span class="slash-cyan">|</span></span>
+          <span class="silkscreen-p1k text-[7.5px]">C/G/K <span class="slash-cyan">|</span></span>
         </div>
 
-        <!-- Knob 4: D/H/L (IMAGE / RATE / FX B) -->
-        <div class="flex flex-col items-center">
-          <div class="flex flex-col items-center text-center -mb-0.5">
-            <span class="silkscreen-p1k text-[6.5px] leading-tight">IMAGE <span class="slash-cyan">/</span></span>
-            <span class="silkscreen-p1k text-[6.5px] leading-tight">RATE <span class="slash-cyan">/</span></span>
-            <span class="silkscreen-p1k text-[6.5px] leading-tight">FX B <span class="slash-cyan">/</span></span>
+        <!-- Knob 4: D/H/L (IMAGE / RATE / FX B with Tall Cyan Slash) -->
+        <div class="flex flex-col items-center justify-between h-[82px] py-0.5">
+          <div class="h-[28px] flex items-center justify-center relative">
+            <div class="flex items-center gap-0.5">
+              <div class="flex flex-col items-end text-right">
+                <span class="silkscreen-p1k text-[6px] leading-[8px]">IMAGE</span>
+                <span class="silkscreen-p1k text-[6px] leading-[8px]">RATE</span>
+                <span class="silkscreen-p1k text-[6px] leading-[8px]">FX B</span>
+              </div>
+              <span class="text-[#38bdf8] font-black text-sm italic leading-none pl-0.5 select-none">/</span>
+            </div>
+            <div id="led-param-4" class="led-dot led-off absolute -bottom-1.5 left-1/2 -translate-x-1/2"></div>
           </div>
-          <div id="led-param-4" class="led-dot led-off my-1"></div>
           <div class="p1k-knob" data-param="k4" data-val="40" onmousedown="startKnobDrag(event, 'k4')">
             <div class="p1k-knob-pointer" id="k4-pointer"></div>
           </div>
-          <span class="silkscreen-p1k mt-1.5">D/H/L <span class="slash-cyan">|</span></span>
+          <span class="silkscreen-p1k text-[7.5px]">D/H/L <span class="slash-cyan">|</span></span>
         </div>
 
       </div>
@@ -390,7 +413,7 @@
       <!-- 2x24 Character Alphanumeric Green LCD -->
       <div class="p1k-lcd w-[252px] h-[38px] px-2.5 py-1 rounded-xs flex flex-col justify-between font-lcd">
         <div class="flex items-center justify-between text-xs font-bold lcd-green-text tracking-widest leading-none">
-          <span id="p1k-lcd-line1" class="truncate pr-1">0003 CMPSR:Audition</span>
+          <span id="p1k-lcd-line1" class="truncate pr-1">0003 CMPSR:Piano</span>
           <span class="text-[9.5px] bg-[#64f77c]/20 px-1 rounded font-mono shrink-0">64-VOICE</span>
         </div>
         <div class="flex items-center justify-between text-[11px] font-semibold lcd-green-text tracking-wider leading-none">
@@ -410,75 +433,79 @@
     <!-- RIGHT SECTION: 8 BUTTON MATRIX, DEMOS BRACKET, DATA WHEEL, POWER, E-MU LOGO -->
     <div class="flex items-center gap-3.5 pr-6 z-10">
       
-      <!-- 8-Button Tactile Pushbutton Matrix (2 Rows x 4 Columns) -->
-      <div class="flex flex-col justify-between h-[72px] py-0.5">
+      <!-- 8-Button Tactile Pushbutton Matrix (4 Symmetrical Columns, h-[82px]) -->
+      <div class="relative flex items-center gap-2.5 h-[82px] py-0.5">
         
-        <!-- Top Row: MASTER /, EDIT /, <, > -->
-        <div class="flex items-center gap-2.5">
-          
-          <!-- Master / -->
-          <div class="flex flex-col items-center">
-            <span class="silkscreen-p1k mb-1">MASTER <span class="slash-cyan">/</span></span>
-            <button onclick="switchP1kTab('global')" class="p1k-btn-round" title="Master / Global Settings"></button>
-          </div>
-
-          <!-- Edit / -->
-          <div class="flex flex-col items-center">
-            <span class="silkscreen-p1k mb-1">EDIT <span class="slash-cyan">/</span></span>
-            <button onclick="switchP1kTab('preset')" class="p1k-btn-round" title="Edit Preset Parameters"></button>
-          </div>
-
-          <!-- Cursor Left < -->
-          <div class="flex flex-col items-center pt-2.5">
-            <button onclick="p1kCursorBump(-1)" class="p1k-btn-round font-bold text-[10px] text-zinc-800" title="Cursor Left">&lt;</button>
-          </div>
-
-          <!-- Cursor Right > -->
-          <div class="flex flex-col items-center pt-2.5">
-            <button onclick="p1kCursorBump(1)" class="p1k-btn-round font-bold text-[10px] text-zinc-800" title="Cursor Right">&gt;</button>
-          </div>
-
-        </div>
-
-        <!-- Middle Demos Bracket -->
-        <div class="w-[58px] flex items-center justify-center text-[#38bdf8] text-[7px] font-mono font-bold leading-none -my-0.5">
+        <!-- Centered DEMOS Bracket across Columns 1 & 2 -->
+        <div class="absolute top-[38px] left-[1px] w-[56px] flex items-center justify-center text-[#38bdf8] text-[7px] font-mono font-bold leading-none pointer-events-none select-none">
           <span>└── DEMOS ──┘</span>
         </div>
 
-        <!-- Bottom Row: AUDITION /, MULTI /, SAVE/COPY /, HOME/ENTER / & MIDI -->
-        <div class="flex items-center gap-2.5">
-          
-          <!-- Audition / -->
+        <!-- Column 1: MASTER / (Top) & AUDITION / (Bottom) -->
+        <div class="flex flex-col items-center justify-between h-full">
+          <!-- MASTER / -->
+          <div class="flex flex-col items-center">
+            <span class="silkscreen-p1k text-[6.5px] mb-1">MASTER <span class="slash-cyan">/</span></span>
+            <button onclick="switchP1kTab('global')" class="p1k-btn-round" title="Master / Global Settings"></button>
+          </div>
+          <div class="h-[9px] w-full"></div>
+          <!-- AUDITION / -->
           <div class="flex flex-col items-center">
             <button onclick="auditionP1kCurrent()" class="p1k-btn-round" title="Audition Preset"></button>
-            <span class="silkscreen-p1k mt-1 text-[6.5px]">AUDITION <span class="slash-cyan">/</span></span>
+            <span class="silkscreen-p1k text-[6.5px] mt-1">AUDITION <span class="slash-cyan">/</span></span>
           </div>
+        </div>
 
-          <!-- Multi / -->
+        <!-- Column 2: EDIT / (Top) & MULTI / (Bottom) -->
+        <div class="flex flex-col items-center justify-between h-full">
+          <!-- EDIT / -->
+          <div class="flex flex-col items-center">
+            <span class="silkscreen-p1k text-[6.5px] mb-1">EDIT <span class="slash-cyan">/</span></span>
+            <button onclick="switchP1kTab('preset')" class="p1k-btn-round" title="Edit Preset Parameters"></button>
+          </div>
+          <div class="h-[9px] w-full"></div>
+          <!-- MULTI / -->
           <div class="flex flex-col items-center">
             <button onclick="switchP1kTab('multimode')" class="p1k-btn-round" title="MultiMode Setup"></button>
-            <span class="silkscreen-p1k mt-1 text-[6.5px]">MULTI <span class="slash-cyan">/</span></span>
+            <span class="silkscreen-p1k text-[6.5px] mt-1">MULTI <span class="slash-cyan">/</span></span>
           </div>
+        </div>
 
-          <!-- Save/Copy / -->
+        <!-- Column 3: < (Cursor Left) & SAVE/COPY / (Bottom) -->
+        <div class="flex flex-col items-center justify-between h-full">
+          <!-- Cursor Left < -->
+          <div class="flex flex-col items-center">
+            <div class="h-[11px] w-full"></div>
+            <button onclick="p1kCursorBump(-1)" class="p1k-btn-round font-bold text-[10px] text-zinc-800" title="Cursor Left">&lt;</button>
+          </div>
+          <div class="h-[9px] w-full"></div>
+          <!-- SAVE/COPY / -->
           <div class="flex flex-col items-center">
             <button onclick="switchP1kTab('librarian')" class="p1k-btn-round" title="Save / Copy / Bank Librarian"></button>
-            <span class="silkscreen-p1k mt-1 text-[6.5px]">SAVE/COPY <span class="slash-cyan">/</span></span>
+            <span class="silkscreen-p1k text-[6.5px] mt-1">SAVE/COPY <span class="slash-cyan">/</span></span>
           </div>
+        </div>
 
-          <!-- Home/Enter / -->
+        <!-- Column 4: > (Cursor Right) & HOME/ENTER / (Bottom) -->
+        <div class="flex flex-col items-center justify-between h-full">
+          <!-- Cursor Right > -->
+          <div class="flex flex-col items-center">
+            <div class="h-[11px] w-full"></div>
+            <button onclick="p1kCursorBump(1)" class="p1k-btn-round font-bold text-[10px] text-zinc-800" title="Cursor Right">&gt;</button>
+          </div>
+          <div class="h-[9px] w-full"></div>
+          <!-- HOME/ENTER / -->
           <div class="flex flex-col items-center">
             <button onclick="switchP1kTab('performance')" class="p1k-btn-round" title="Home / Enter"></button>
-            <span class="silkscreen-p1k mt-1 text-[6.5px]">HOME/ENTER <span class="slash-cyan">/</span></span>
+            <span class="silkscreen-p1k text-[6.5px] mt-1">HOME/ENTER <span class="slash-cyan">/</span></span>
           </div>
-
         </div>
 
       </div>
 
-      <!-- — [LED] MIDI Indicator -->
+      <!-- / [LED] MIDI Indicator -->
       <div class="flex items-center gap-1 text-[8px] font-bold text-zinc-400 pl-0.5">
-        <span class="text-zinc-500 font-bold text-[7px] leading-none">&mdash;</span>
+        <span class="slash-cyan text-[9px] leading-none">/</span>
         <div id="led-midi" class="led-dot led-green-on animate-pulse"></div>
         <span class="silkscreen-p1k text-[7.5px] leading-none">MIDI</span>
       </div>
