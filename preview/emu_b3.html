@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>E-MU B-3 - Authentic Hardware & Tonewheel Organ Editor</title>
+  <title>E-MU B-3 - Authentic Hardware & Midi Quest Tonewheel Organ Editor</title>
   <script src="tailwindcss.min.js"></script>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,8 +14,8 @@
 
     /* E-MU B-3 Anodized Vintage Cream / Ivory 1U Rack Panel */
     .b3-faceplate {
-      background: linear-gradient(180deg, #f2ece1 0%, #e8decb 35%, #d5c8b2 100%);
-      box-shadow: inset 0 2px 4px rgba(255,255,255,0.8), inset 0 -2px 4px rgba(0,0,0,0.5), 0 15px 35px rgba(0,0,0,0.9);
+      background: linear-gradient(180deg, #f2ece1 0%, #e8decb 38%, #d5c8b2 100%);
+      box-shadow: inset 0 2px 4px rgba(255,255,255,0.85), inset 0 -2px 4px rgba(0,0,0,0.5), 0 15px 35px rgba(0,0,0,0.9);
       border: 1px solid #b3a48e;
       position: relative;
     }
@@ -23,11 +23,11 @@
     /* Subtle warm brown wave line across panel */
     .b3-wave-line {
       position: absolute;
-      top: 53%;
+      top: 50%;
       left: 0;
       right: 0;
       height: 1.5px;
-      background: linear-gradient(90deg, rgba(74,55,40,0.6) 0%, rgba(92,69,50,0.8) 35%, rgba(60,44,32,0.9) 70%, rgba(74,55,40,0.5) 100%);
+      background: linear-gradient(90deg, rgba(74,55,40,0.5) 0%, rgba(92,69,50,0.8) 35%, rgba(60,44,32,0.9) 70%, rgba(74,55,40,0.5) 100%);
       pointer-events: none;
       z-index: 1;
     }
@@ -77,8 +77,8 @@
 
     /* Large Black Rotary Data Wheel with Finger Dimple */
     .b3-data-wheel {
-      width: 62px;
-      height: 62px;
+      width: 58px;
+      height: 58px;
       border-radius: 50%;
       background: radial-gradient(circle at 40% 35%, #3d4149 0%, #23262c 55%, #101215 100%);
       border: 2px solid #1a1c20;
@@ -89,14 +89,14 @@
       z-index: 2;
     }
     .b3-dimple {
-      width: 14px;
-      height: 14px;
+      width: 13px;
+      height: 13px;
       border-radius: 50%;
       background: radial-gradient(circle at 50% 50%, #2d3138 0%, #111316 100%);
       box-shadow: inset 0 2px 4px rgba(0,0,0,0.9), 0 1px 1px rgba(255,255,255,0.2);
       position: absolute;
-      top: 10px;
-      left: 24px;
+      top: 9px;
+      left: 22px;
     }
 
     /* Black Vertical Oval Dome Buttons */
@@ -146,6 +146,22 @@
       box-shadow: 0 3px 6px rgba(0,0,0,0.8), inset 0 1px 1px rgba(255,255,255,0.4);
       border: 1px solid #451a03;
     }
+
+    /* Sub-view Nav Tabs */
+    .mq-tab {
+      transition: all 0.15s ease;
+      border-bottom: 2px solid transparent;
+      font-weight: 600;
+    }
+    .mq-tab:hover {
+      background: rgba(255, 255, 255, 0.04);
+      color: #ffffff;
+    }
+    .mq-tab.active {
+      color: #f59e0b;
+      border-bottom-color: #f59e0b;
+      background: rgba(245, 158, 11, 0.08);
+    }
   </style>
 </head>
 <body class="bg-zinc-950 text-zinc-100 p-6 min-h-screen flex flex-col items-center justify-start font-sans select-none">
@@ -158,7 +174,7 @@
         <h1 class="text-xl font-bold tracking-tight text-white flex items-center gap-2">
           E-MU B-3 <span class="text-xs px-2 py-0.5 rounded bg-amber-950/80 border border-amber-700/60 text-amber-300 font-mono">64-Voice Tone Wheel Organ</span>
         </h1>
-        <p class="text-xs text-zinc-400">Authentic Hardware Recreation • 9 Real-Time Drawbars • Rotary Speaker (Leslie) Simulator</p>
+        <p class="text-xs text-zinc-400">Authentic 1U Hardware Faceplate • Midi Quest 13 Architecture • 9 Physical Drawbars • 4-Layer Voice Engine</p>
       </div>
     </div>
     <div class="flex items-center gap-3">
@@ -177,9 +193,9 @@
   </div>
 
   <!-- THE AUTHENTIC 1U VINTAGE CREAM HARDWARE RACK PANEL -->
-  <div class="w-full max-w-6xl b3-faceplate rounded-lg shadow-2xl flex items-center justify-between px-4 py-3 relative overflow-hidden">
+  <div class="w-full max-w-6xl b3-faceplate rounded-lg shadow-2xl flex items-center justify-between px-3 py-2.5 h-[122px] relative overflow-hidden">
     
-    <!-- Warm brown wave line across panel -->
+    <!-- Warm brown wave line across panel (Centered at 50% height) -->
     <div class="b3-wave-line"></div>
 
     <!-- LEFT RACK EAR (Black metal with mounting holes) -->
@@ -192,120 +208,132 @@
     <div class="flex items-center gap-3 pl-4 z-10">
       
       <!-- PHONES & MODE BUTTON STACK -->
-      <div class="flex flex-col justify-between items-start h-20 py-0.5 pr-2 border-r border-[#b3a48e]/60">
-        <!-- Black Oval Mode Button & Status LEDs (Top) -->
+      <div class="flex flex-col justify-between items-center h-[102px] py-1 pr-3 border-r border-[#b3a48e]/70">
+        <!-- Black Round Mode Button & Status LEDs (Top half, above line) -->
         <div class="flex items-center gap-2">
-          <button onclick="cycleB3KnobMode()" class="w-7 h-5 rounded-full bg-gradient-to-b from-zinc-700 via-zinc-800 to-zinc-950 border border-zinc-900 shadow-md active:translate-y-0.5 cursor-pointer" title="Switch Knob Bank (A-D / E-H / I-L)"></button>
+          <button onclick="cycleB3KnobMode()" class="w-5 h-5 rounded-full bg-gradient-to-b from-zinc-700 via-zinc-800 to-zinc-950 border border-zinc-900 shadow-md active:translate-y-0.5 cursor-pointer" title="Switch Knob Bank (A-D / E-H / I-L)"></button>
           <div class="flex flex-col gap-0.5 text-[7px] font-bold font-sans italic text-stone-800 tracking-tighter leading-tight">
-            <div class="flex items-center gap-1"><div id="b3-led-ad" class="led-dot led-green-on"></div> A-D</div>
-            <div class="flex items-center gap-1"><div id="b3-led-eh" class="led-dot led-off"></div> E-H</div>
-            <div class="flex items-center gap-1"><div id="b3-led-il" class="led-dot led-off"></div> I-L</div>
+            <div class="flex items-center justify-between gap-1"><span>A-D</span> <div id="b3-led-ad" class="led-dot led-green-on"></div></div>
+            <div class="flex items-center justify-between gap-1"><span>E-H</span> <div id="b3-led-eh" class="led-dot led-off"></div></div>
+            <div class="flex items-center justify-between gap-1"><span>I-L</span> <div id="b3-led-il" class="led-dot led-off"></div></div>
           </div>
         </div>
 
-        <!-- 1/4" Headphone Jack (Bottom, aligned under button) -->
-        <div class="flex items-center gap-2 pl-0.5">
-          <div class="w-5 h-5 rounded-full bg-zinc-900 border-2 border-zinc-500 shadow-inner flex items-center justify-center">
+        <!-- 1/4" Headphone Jack & Icon (Bottom half, below line) -->
+        <div class="flex flex-col items-center">
+          <div class="w-5 h-5 rounded-full bg-zinc-900 border-2 border-zinc-400 shadow-inner flex items-center justify-center">
             <div class="w-2.5 h-2.5 rounded-full bg-black border border-zinc-800"></div>
           </div>
-          <svg class="w-3.5 h-3.5 text-stone-700" fill="currentColor" viewBox="0 0 24 24" title="Headphones"><path d="M12 2C6.48 2 2 6.48 2 12v7c0 1.66 1.34 3 3 3h2v-8H4v-2c0-4.41 3.59-8 8-8s8 3.59 8 8v2h-3v8h2c1.66 0 3-1.34 3-3v-7c0-5.52-4.48-10-10-10z"/></svg>
+          <svg class="w-3 h-3 text-stone-700 mt-0.5" fill="currentColor" viewBox="0 0 24 24" title="Headphones"><path d="M12 2C6.48 2 2 6.48 2 12v7c0 1.66 1.34 3 3 3h2v-8H4v-2c0-4.41 3.59-8 8-8s8 3.59 8 8v2h-3v8h2c1.66 0 3-1.34 3-3v-7c0-5.52-4.48-10-10-10z"/></svg>
         </div>
       </div>
 
-      <!-- 5 BLACK KNOBS: VOLUME + 4 MULTI-TIER SOUND/ORGAN CONTROLLERS -->
-      <div class="flex items-end gap-2.5">
-        <!-- Master Volume Knob -->
-        <div class="flex flex-col items-center w-11">
-          <div class="h-8"></div><!-- Spacer aligning with 3-line text above edit knobs -->
-          <div class="b3-knob" data-param="vol" data-val="100" onmousedown="startKnobDrag(event, 'vol')">
+      <!-- 5 BLACK KNOBS: VOLUME + 4 MULTI-TIER SOUND/ORGAN CONTROLLERS (PERFECTLY CENTERED) -->
+      <div class="flex items-center gap-2">
+        <!-- Master Volume Knob Column -->
+        <div class="flex flex-col items-center justify-between h-[102px] w-[50px]">
+          <div class="h-[30px]"></div><!-- Upper spacer aligns with text above edit knobs -->
+          <div class="b3-knob mx-auto" data-param="vol" data-val="100" onmousedown="startKnobDrag(event, 'vol')">
             <div class="b3-knob-pointer"></div>
           </div>
-          <div class="text-[7.5px] font-bold font-sans italic text-stone-800 mt-1 uppercase tracking-wider">
+          <div class="text-[7.5px] font-bold font-sans italic text-stone-800 uppercase tracking-wider text-center w-full">
             VOLUME
           </div>
         </div>
 
         <!-- Knob A/E/I: Filter Cutoff / Layer 1 / Dynamic 1 -->
-        <div class="flex flex-col items-center w-14">
-          <div class="w-full flex items-end justify-between text-[6px] font-bold font-sans italic text-stone-800 leading-[7px] mb-1">
-            <div class="text-left tracking-tighter">
+        <div class="flex flex-col items-center justify-between h-[102px] w-[56px]">
+          <!-- Centered 3-line Text + Slash + LED -->
+          <div class="flex items-end justify-center gap-0.5 w-full h-[30px]">
+            <div class="text-[6px] font-bold font-sans italic text-stone-800 leading-[7.5px] text-right tracking-tight">
               <div>FILTER CUTOFF</div>
               <div>LAYER 1</div>
               <div>DYNAMIC 1</div>
             </div>
-            <div class="flex items-center pl-0.5">
-              <span class="text-stone-700 font-bold mr-0.5">/</span>
+            <div class="flex items-end pb-0.5 pl-0.5">
+              <span class="text-stone-700 font-bold text-[7px] mr-0.5">/</span>
               <div id="knob-a-led" class="led-dot led-red-on"></div>
             </div>
           </div>
-          <div class="b3-knob" id="b3-knob-a" onmousedown="startKnobDrag(event, 'cutoff')">
+          <!-- Centered Knob -->
+          <div class="b3-knob mx-auto" id="b3-knob-a" onmousedown="startKnobDrag(event, 'cutoff')">
             <div class="b3-knob-pointer" id="ptr-cutoff" style="transform: rotate(45deg);"></div>
           </div>
-          <div class="text-[7.5px] font-bold font-sans italic text-stone-800 mt-1 tracking-wider flex items-center gap-0.5">
-            <span>A/E/I</span><span class="text-stone-600">/</span>
+          <!-- Centered Sub-Label -->
+          <div class="text-[7.5px] font-bold font-sans italic text-stone-800 tracking-wider text-center w-full">
+            <span>A/E/I</span> <span class="text-stone-600">/</span>
           </div>
         </div>
 
         <!-- Knob B/F/J: Filter Res / Layer 2 / Dynamic 2 -->
-        <div class="flex flex-col items-center w-14">
-          <div class="w-full flex items-end justify-between text-[6px] font-bold font-sans italic text-stone-800 leading-[7px] mb-1">
-            <div class="text-left tracking-tighter">
+        <div class="flex flex-col items-center justify-between h-[102px] w-[56px]">
+          <!-- Centered 3-line Text + Slash + LED -->
+          <div class="flex items-end justify-center gap-0.5 w-full h-[30px]">
+            <div class="text-[6px] font-bold font-sans italic text-stone-800 leading-[7.5px] text-right tracking-tight">
               <div>FILTER RES</div>
               <div>LAYER 2</div>
               <div>DYNAMIC 2</div>
             </div>
-            <div class="flex items-center pl-0.5">
-              <span class="text-stone-700 font-bold mr-0.5">/</span>
+            <div class="flex items-end pb-0.5 pl-0.5">
+              <span class="text-stone-700 font-bold text-[7px] mr-0.5">/</span>
               <div id="knob-b-led" class="led-dot led-red-on"></div>
             </div>
           </div>
-          <div class="b3-knob" id="b3-knob-b" onmousedown="startKnobDrag(event, 'reso')">
+          <!-- Centered Knob -->
+          <div class="b3-knob mx-auto" id="b3-knob-b" onmousedown="startKnobDrag(event, 'reso')">
             <div class="b3-knob-pointer" id="ptr-reso" style="transform: rotate(20deg);"></div>
           </div>
-          <div class="text-[7.5px] font-bold font-sans italic text-stone-800 mt-1 tracking-wider flex items-center gap-0.5">
-            <span>B/F/J</span><span class="text-stone-600">/</span>
+          <!-- Centered Sub-Label -->
+          <div class="text-[7.5px] font-bold font-sans italic text-stone-800 tracking-wider text-center w-full">
+            <span>B/F/J</span> <span class="text-stone-600">/</span>
           </div>
         </div>
 
         <!-- Knob C/G/K: Attack / Perc Amount / FX A -->
-        <div class="flex flex-col items-center w-14">
-          <div class="w-full flex items-end justify-between text-[6px] font-bold font-sans italic text-stone-800 leading-[7px] mb-1">
-            <div class="text-left tracking-tighter">
+        <div class="flex flex-col items-center justify-between h-[102px] w-[56px]">
+          <!-- Centered 3-line Text + Slash + LED -->
+          <div class="flex items-end justify-center gap-0.5 w-full h-[30px]">
+            <div class="text-[6px] font-bold font-sans italic text-stone-800 leading-[7.5px] text-right tracking-tight">
               <div>ATTACK</div>
               <div>PERC AMOUNT</div>
               <div>FX A</div>
             </div>
-            <div class="flex items-center pl-0.5">
-              <span class="text-stone-700 font-bold mr-0.5">/</span>
+            <div class="flex items-end pb-0.5 pl-0.5">
+              <span class="text-stone-700 font-bold text-[7px] mr-0.5">/</span>
               <div id="knob-c-led" class="led-dot led-red-on"></div>
             </div>
           </div>
-          <div class="b3-knob" id="b3-knob-c" onmousedown="startKnobDrag(event, 'perc')">
+          <!-- Centered Knob -->
+          <div class="b3-knob mx-auto" id="b3-knob-c" onmousedown="startKnobDrag(event, 'perc')">
             <div class="b3-knob-pointer" id="ptr-perc" style="transform: rotate(60deg);"></div>
           </div>
-          <div class="text-[7.5px] font-bold font-sans italic text-stone-800 mt-1 tracking-wider flex items-center gap-0.5">
-            <span>C/G/K</span><span class="text-stone-600">/</span>
+          <!-- Centered Sub-Label -->
+          <div class="text-[7.5px] font-bold font-sans italic text-stone-800 tracking-wider text-center w-full">
+            <span>C/G/K</span> <span class="text-stone-600">/</span>
           </div>
         </div>
 
         <!-- Knob D/H/L: Release / Perc Decay / FX B -->
-        <div class="flex flex-col items-center w-14">
-          <div class="w-full flex items-end justify-between text-[6px] font-bold font-sans italic text-stone-800 leading-[7px] mb-1">
-            <div class="text-left tracking-tighter">
+        <div class="flex flex-col items-center justify-between h-[102px] w-[56px]">
+          <!-- Centered 3-line Text + Slash + LED -->
+          <div class="flex items-end justify-center gap-0.5 w-full h-[30px]">
+            <div class="text-[6px] font-bold font-sans italic text-stone-800 leading-[7.5px] text-right tracking-tight">
               <div>RELEASE</div>
               <div>PERC DECAY</div>
               <div>FX B</div>
             </div>
-            <div class="flex items-center pl-0.5">
-              <span class="text-stone-700 font-bold mr-0.5">/</span>
+            <div class="flex items-end pb-0.5 pl-0.5">
+              <span class="text-stone-700 font-bold text-[7px] mr-0.5">/</span>
               <div id="knob-d-led" class="led-dot led-red-on"></div>
             </div>
           </div>
-          <div class="b3-knob" id="b3-knob-d" onmousedown="startKnobDrag(event, 'drive')">
+          <!-- Centered Knob -->
+          <div class="b3-knob mx-auto" id="b3-knob-d" onmousedown="startKnobDrag(event, 'drive')">
             <div class="b3-knob-pointer" id="ptr-drive" style="transform: rotate(30deg);"></div>
           </div>
-          <div class="text-[7.5px] font-bold font-sans italic text-stone-800 mt-1 tracking-wider flex items-center gap-0.5">
-            <span>D/H/L</span><span class="text-stone-600">/</span>
+          <!-- Centered Sub-Label -->
+          <div class="text-[7.5px] font-bold font-sans italic text-stone-800 tracking-wider text-center w-full">
+            <span>D/H/L</span> <span class="text-stone-600">/</span>
           </div>
         </div>
       </div>
@@ -313,7 +341,7 @@
     </div>
 
     <!-- CENTER RECESSED HOUSING: 2x24 LCD & ICONIC 3D "B-3" LOGO -->
-    <div class="b3-lcd-wedge px-6 py-1.5 flex flex-col items-center justify-between w-80 h-[86px] z-10">
+    <div class="b3-lcd-wedge px-6 py-1.5 flex flex-col items-center justify-between w-80 h-[96px] z-10 mx-1">
       
       <!-- Sub-Heading Silkscreen -->
       <span class="text-[8.5px] font-bold tracking-widest text-[#d5c8b2] font-sans italic">64-Voice Tone Wheel Organ</span>
@@ -338,89 +366,89 @@
     </div>
 
     <!-- RIGHT SECTION: 8 BLACK BUTTONS, DATA WHEEL, POWER SWITCH, DEMOS BRACKET -->
-    <div class="flex items-center gap-4 pr-5 z-10">
+    <div class="flex items-center gap-3 pr-4 z-10">
       
-      <!-- 8 Tactile Black Buttons (Exact match to sos_full.jpg) -->
-      <div class="flex flex-col gap-2">
+      <!-- 8 Tactile Black Buttons (2 Rows x 4 Columns, Strictly Center-Aligned) -->
+      <div class="flex flex-col justify-between h-[102px] py-0.5">
         
-        <!-- ROW 1 (TOP ROW: Sits above the wave line) -->
-        <div class="flex items-end gap-3">
+        <!-- ROW 1 (TOP ROW: Sits entirely above the 50% wave line) -->
+        <div class="flex items-end gap-2.5">
           <!-- Button 1: MASTER / [LED] -->
-          <div class="flex flex-col items-center w-8">
-            <div class="flex items-center gap-0.5 mb-1 h-3">
+          <div class="flex flex-col items-center w-[48px]">
+            <div class="flex items-center justify-center gap-0.5 mb-1 h-3 w-full">
               <span class="text-[7.5px] font-bold italic font-sans text-stone-800 tracking-tight">MASTER</span>
               <span class="text-stone-600 font-bold text-[7.5px]">/</span>
               <div class="led-dot led-red-on ml-0.5"></div>
             </div>
-            <button onclick="switchB3Section('drawbars')" class="b3-btn-vert shadow-md active:translate-y-0.5 cursor-pointer" title="Master Mode"></button>
+            <button onclick="switchB3Tab('drawbars')" class="b3-btn-vert mx-auto shadow-md active:translate-y-0.5 cursor-pointer" title="Master / Drawbars Console"></button>
           </div>
 
           <!-- Button 2: EDIT / [LED] -->
-          <div class="flex flex-col items-center w-8">
-            <div class="flex items-center gap-0.5 mb-1 h-3">
+          <div class="flex flex-col items-center w-[48px]">
+            <div class="flex items-center justify-center gap-0.5 mb-1 h-3 w-full">
               <span class="text-[7.5px] font-bold italic font-sans text-stone-800 tracking-tight">EDIT</span>
               <span class="text-stone-600 font-bold text-[7.5px]">/</span>
               <div class="led-dot led-red-on ml-0.5"></div>
             </div>
-            <button onclick="switchB3Section('percussion')" class="b3-btn-vert shadow-md active:translate-y-0.5 cursor-pointer" title="Edit Parameters"></button>
+            <button onclick="switchB3Tab('voice')" class="b3-btn-vert mx-auto shadow-md active:translate-y-0.5 cursor-pointer" title="Edit / 4-Layer Voice Engine"></button>
           </div>
 
           <!-- Button 3: < (Cursor Left in recessed well) -->
-          <div class="flex flex-col items-center w-8">
+          <div class="flex flex-col items-center w-[48px]">
             <div class="h-3 mb-1"></div>
-            <button onclick="b3CursorBump(-1)" class="b3-btn-vert shadow-md active:translate-y-0.5 flex items-center justify-center font-bold text-zinc-400 text-[11px] leading-none select-none cursor-pointer" title="Cursor Left">&lt;</button>
+            <button onclick="b3CursorBump(-1)" class="b3-btn-vert mx-auto shadow-md active:translate-y-0.5 flex items-center justify-center font-bold text-zinc-400 text-[11px] leading-none select-none cursor-pointer" title="Cursor Left">&lt;</button>
           </div>
 
           <!-- Button 4: > (Cursor Right in recessed well) -->
-          <div class="flex flex-col items-center w-8">
+          <div class="flex flex-col items-center w-[48px]">
             <div class="h-3 mb-1"></div>
-            <button onclick="b3CursorBump(1)" class="b3-btn-vert shadow-md active:translate-y-0.5 flex items-center justify-center font-bold text-zinc-400 text-[11px] leading-none select-none cursor-pointer" title="Cursor Right">&gt;</button>
+            <button onclick="b3CursorBump(1)" class="b3-btn-vert mx-auto shadow-md active:translate-y-0.5 flex items-center justify-center font-bold text-zinc-400 text-[11px] leading-none select-none cursor-pointer" title="Cursor Right">&gt;</button>
           </div>
         </div>
 
-        <!-- DEMOS Silkscreen Bracket under Master & Edit -->
-        <div class="flex items-center justify-start pl-1 -mt-1 -mb-1 text-[6px] font-bold font-sans italic text-stone-700">
+        <!-- DEMOS Silkscreen Bracket (Centered spanning Col 1 and Col 2 directly along the wave line) -->
+        <div class="flex items-center justify-center text-[6.5px] font-black font-sans italic text-stone-800 tracking-wider pointer-events-none select-none my-0.5" style="width: calc(48px * 2 + 10px);">
           <span>└─ DEMOS ─┘</span>
         </div>
 
-        <!-- ROW 2 (BOTTOM ROW: Sits below the wave line) -->
-        <div class="flex items-start gap-3">
-          <!-- Button 1: AUDITION / [LED] -->
-          <div class="flex flex-col items-center w-8">
-            <button onclick="playOrganChord()" class="b3-btn-vert shadow-md active:translate-y-0.5 cursor-pointer" title="Audition Organ Chord"></button>
-            <div class="flex items-center gap-0.5 mt-1 h-3">
+        <!-- ROW 2 (BOTTOM ROW: Sits entirely below the 50% wave line) -->
+        <div class="flex items-start gap-2.5">
+          <!-- Button 5: AUDITION / [LED] -->
+          <div class="flex flex-col items-center w-[48px]">
+            <button onclick="playOrganChord()" class="b3-btn-vert mx-auto shadow-md active:translate-y-0.5 cursor-pointer" title="Audition Organ Chord"></button>
+            <div class="flex items-center justify-center gap-0.5 mt-1 h-3 w-full">
               <span class="text-[7px] font-bold italic font-sans text-stone-800 tracking-tight">AUDITION</span>
               <span class="text-stone-600 font-bold text-[7px]">/</span>
               <div class="led-dot led-red-on ml-0.5 animate-pulse"></div>
             </div>
           </div>
 
-          <!-- Button 2: MULTI / [LED] -->
-          <div class="flex flex-col items-center w-8">
-            <button onclick="switchB3Section('multimode')" class="b3-btn-vert shadow-md active:translate-y-0.5 cursor-pointer" title="Multi Mode"></button>
-            <div class="flex items-center gap-0.5 mt-1 h-3">
+          <!-- Button 6: MULTI / [LED] -->
+          <div class="flex flex-col items-center w-[48px]">
+            <button onclick="switchB3Tab('multimode')" class="b3-btn-vert mx-auto shadow-md active:translate-y-0.5 cursor-pointer" title="Multi Mode Setup (16 Channels)"></button>
+            <div class="flex items-center justify-center gap-0.5 mt-1 h-3 w-full">
               <span class="text-[7.5px] font-bold italic font-sans text-stone-800 tracking-tight">MULTI</span>
               <span class="text-stone-600 font-bold text-[7.5px]">/</span>
               <div class="led-dot led-off ml-0.5"></div>
             </div>
           </div>
 
-          <!-- Button 3: SAVE/COPY / [LED] -->
-          <div class="flex flex-col items-center w-8">
-            <button onclick="switchB3Section('librarian')" class="b3-btn-vert shadow-md active:translate-y-0.5 cursor-pointer" title="Save / Copy"></button>
-            <div class="flex items-center gap-0.5 mt-1 h-3">
+          <!-- Button 7: SAVE/COPY / [LED] -->
+          <div class="flex flex-col items-center w-[48px]">
+            <button onclick="switchB3Tab('librarian')" class="b3-btn-vert mx-auto shadow-md active:translate-y-0.5 cursor-pointer" title="Save / Copy / Bank Librarian"></button>
+            <div class="flex items-center justify-center gap-0.5 mt-1 h-3 w-full">
               <span class="text-[6.5px] font-bold italic font-sans text-stone-800 tracking-tighter">SAVE/COPY</span>
               <span class="text-stone-600 font-bold text-[6.5px]">/</span>
               <div class="led-dot led-off ml-0.5"></div>
             </div>
           </div>
 
-          <!-- Button 4: HOME/ENTER / [GREEN LED] -->
-          <div class="flex flex-col items-center w-8">
-            <button onclick="switchB3Section('drawbars')" class="b3-btn-vert shadow-md active:translate-y-0.5 cursor-pointer" title="Home / Enter"></button>
-            <div class="flex items-center gap-0.5 mt-1 h-3">
-              <span class="text-[6.5px] font-bold italic font-sans text-stone-800 tracking-tighter">HOME/ENTER</span>
-              <span class="text-stone-600 font-bold text-[6.5px]">/</span>
+          <!-- Button 8: HOME/ENTER / [GREEN LED] -->
+          <div class="flex flex-col items-center w-[48px]">
+            <button onclick="switchB3Tab('drawbars')" class="b3-btn-vert mx-auto shadow-md active:translate-y-0.5 cursor-pointer" title="Home / Enter / Drawbars"></button>
+            <div class="flex items-center justify-center gap-0.5 mt-1 h-3 w-full">
+              <span class="text-[6px] font-bold italic font-sans text-stone-800 tracking-tighter">HOME/ENTER</span>
+              <span class="text-stone-600 font-bold text-[6px]">/</span>
               <div class="led-dot led-green-on ml-0.5"></div>
             </div>
           </div>
@@ -428,16 +456,16 @@
 
       </div>
 
-      <!-- Large Black Rotary Data Wheel -->
-      <div class="flex flex-col items-center pl-2">
+      <!-- Large Black Rotary Data Wheel (Centered on the 50% line) -->
+      <div class="flex flex-col items-center pl-1">
         <div class="b3-data-wheel" onclick="rotateB3Wheel(1)" title="Rotate Data Wheel">
           <div class="b3-dimple"></div>
         </div>
       </div>
 
       <!-- Power Button & Black E-MU Logo Section -->
-      <div class="flex flex-col items-center justify-between h-20 pl-2">
-        <!-- E-MU Logo with 3 horizontal bars (Black silkscreen on cream) -->
+      <div class="flex flex-col items-center justify-between h-[102px] pl-1">
+        <!-- E-MU Logo with 3 horizontal bars (Upper half, above line) -->
         <div class="flex items-center gap-1.5 pt-1">
           <div class="flex flex-col gap-0.5">
             <div class="w-3 h-0.5 bg-black"></div>
@@ -447,14 +475,14 @@
           <span class="text-base font-black tracking-wider text-black font-sans">E-MU</span>
         </div>
 
-        <!-- Black Round Power Button -->
+        <!-- Black Round Power Button (Lower half, below line) -->
         <div class="flex flex-col items-center">
-          <button class="w-6 h-6 rounded-full bg-gradient-to-b from-zinc-700 via-zinc-800 to-zinc-950 border border-zinc-900 shadow-md active:translate-y-0.5 flex items-center justify-center cursor-pointer" title="Power Switch"></button>
-          <span class="text-[7px] font-bold uppercase tracking-wider text-stone-800 mt-0.5">POWER</span>
+          <button class="w-5 h-5 rounded-full bg-gradient-to-b from-zinc-700 via-zinc-800 to-zinc-950 border border-zinc-900 shadow-md active:translate-y-0.5 flex items-center justify-center cursor-pointer" title="Power Switch"></button>
+          <span class="text-[6.5px] font-bold uppercase tracking-wider text-stone-800 mt-0.5">POWER</span>
         </div>
 
         <!-- MIDI Activity LED -->
-        <div class="flex items-center gap-1 text-[7px] font-bold font-mono text-stone-800">
+        <div class="flex items-center justify-center gap-0.5 text-[6.5px] font-bold font-mono text-stone-800">
           <span class="text-stone-600">/</span>
           <span>MIDI</span>
           <div class="led-dot led-red-on animate-pulse ml-0.5"></div>
@@ -471,192 +499,734 @@
 
   </div>
 
-  <!-- INTERACTIVE TONEWHEEL ORGAN CONSOLE & LESLIE ROTARY CONTROLLER -->
-  <div class="w-full max-w-6xl mt-5 bg-zinc-900/95 border border-zinc-800 rounded-xl shadow-2xl p-5 flex flex-col gap-5">
+  <!-- MIDI QUEST COMPONENT SUB-VIEWS (TABBED WORKSPACE) -->
+  <div class="w-full max-w-6xl mt-4 bg-zinc-900/95 border border-zinc-800 rounded-lg shadow-xl overflow-hidden flex flex-col">
     
-    <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
-      <div class="flex items-center gap-3">
-        <span class="text-xs uppercase font-bold tracking-widest text-amber-400 font-mono">Bespoke Tonewheel Engine</span>
-        <span class="text-xs text-zinc-400">|</span>
-        <span class="text-xs font-semibold text-zinc-300">9 Authentic Harmonic Drawbars (Upper Manual)</span>
+    <!-- SUB-VIEW NAVIGATION BAR -->
+    <div class="flex items-center justify-between bg-zinc-950 px-4 border-b border-zinc-800 text-xs">
+      <div class="flex items-center gap-1">
+        <button onclick="switchB3Tab('drawbars')" id="tab-drawbars" class="mq-tab active px-4 py-2.5 text-zinc-300 hover:text-white flex items-center gap-1.5 cursor-pointer">
+          <svg class="w-3.5 h-3.5 fill-current text-amber-500" viewBox="0 0 24 24"><path d="M3 17h18v2H3zm0-7h18v2H3zm0-7h18v2H3z"/></svg>
+          9-Drawbar &amp; Leslie Console
+        </button>
+        <button onclick="switchB3Tab('voice')" id="tab-voice" class="mq-tab px-4 py-2.5 text-zinc-400 hover:text-white flex items-center gap-1.5 cursor-pointer">
+          <svg class="w-3.5 h-3.5 fill-current text-blue-400" viewBox="0 0 24 24"><path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/></svg>
+          4-Layer Voice Editor
+        </button>
+        <button onclick="switchB3Tab('patchcords')" id="tab-patchcords" class="mq-tab px-4 py-2.5 text-zinc-400 hover:text-white flex items-center gap-1.5 cursor-pointer">
+          <svg class="w-3.5 h-3.5 fill-current text-pink-400" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+          24 Virtual PatchCords
+        </button>
+        <button onclick="switchB3Tab('multimode')" id="tab-multimode" class="mq-tab px-4 py-2.5 text-zinc-400 hover:text-white flex items-center gap-1.5 cursor-pointer">
+          <svg class="w-3.5 h-3.5 fill-current text-emerald-400" viewBox="0 0 24 24"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"/></svg>
+          MultiMode Setup (16 Ch)
+        </button>
+        <button onclick="switchB3Tab('arp')" id="tab-arp" class="mq-tab px-4 py-2.5 text-zinc-400 hover:text-white flex items-center gap-1.5 cursor-pointer">
+          <svg class="w-3.5 h-3.5 fill-current text-purple-400" viewBox="0 0 24 24"><path d="M3.5 18.49l6-6.01 4 4L22 6.92l-1.41-1.41-7.09 7.97-4-4L2 16.99z"/></svg>
+          16-Arpeggiator Engine
+        </button>
+        <button onclick="switchB3Tab('librarian')" id="tab-librarian" class="mq-tab px-4 py-2.5 text-zinc-400 hover:text-white flex items-center gap-1.5 cursor-pointer">
+          <svg class="w-3.5 h-3.5 fill-current text-orange-400" viewBox="0 0 24 24"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H8V4h12v12z"/></svg>
+          Bank Librarian (512 Patches)
+        </button>
       </div>
-      <div class="flex items-center gap-2">
-        <button onclick="setDrawbarPreset('gospel')" class="px-2.5 py-1 text-[11px] rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-200">Gospel 888800000</button>
-        <button onclick="setDrawbarPreset('jazz')" class="px-2.5 py-1 text-[11px] rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-200">Jazz 888000000</button>
-        <button onclick="setDrawbarPreset('full')" class="px-2.5 py-1 text-[11px] rounded bg-amber-600/30 border border-amber-500/50 text-amber-300">Full 888888888</button>
+      <span class="text-[10px] text-zinc-500 font-mono">Midi Quest 13 • SysEx Device ID: 00 • Model 0x56 (E-MU B-3)</span>
+    </div>
+
+    <!-- ==================== TAB 1: 9-DRAWBAR & LESLIE ROTARY CONSOLE ==================== -->
+    <div id="subview-drawbars" class="p-5 flex flex-col gap-5">
+      
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <div class="flex items-center gap-3">
+          <span class="text-xs uppercase font-bold tracking-widest text-amber-400 font-mono">Bespoke Tonewheel Engine</span>
+          <span class="text-xs text-zinc-400">|</span>
+          <span class="text-xs font-semibold text-zinc-300">9 Authentic Harmonic Drawbars (Upper Manual)</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <button onclick="setDrawbarPreset('gospel')" class="px-2.5 py-1 text-[11px] rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-200 cursor-pointer">Gospel 888800000</button>
+          <button onclick="setDrawbarPreset('jazz')" class="px-2.5 py-1 text-[11px] rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-200 cursor-pointer">Jazz 888000000</button>
+          <button onclick="setDrawbarPreset('full')" class="px-2.5 py-1 text-[11px] rounded bg-amber-600/30 border border-amber-500/50 text-amber-300 cursor-pointer">Full 888888888</button>
+          <button onclick="setDrawbarPreset('purple')" class="px-2.5 py-1 text-[11px] rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-200 cursor-pointer">Purple 888800008</button>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-12 gap-6">
+
+        <!-- 9 HARMONIC DRAWBARS -->
+        <div class="col-span-12 lg:col-span-7 bg-zinc-950/80 p-4 rounded-lg border border-zinc-800/80">
+          <div class="flex justify-between items-center mb-3">
+            <span class="text-xs font-bold text-zinc-300">Standard Drawbar Registration:</span>
+            <span class="text-xs font-mono text-amber-400 font-bold" id="drawbar-digits">8 8 8 0 0 0 0 0 8</span>
+          </div>
+
+          <!-- 9 Vertical Drawbar Sliders (Authentic Brown, White, Black colors) -->
+          <div class="grid grid-cols-9 gap-2 h-48 pt-2">
+            <!-- 16' Sub-Octave (Brown) -->
+            <div class="flex flex-col items-center justify-between h-full">
+              <span class="text-[10px] font-bold text-amber-500 font-mono">16'</span>
+              <div class="drawbar-track w-4 h-36 rounded-sm relative flex justify-center">
+                <input type="range" min="0" max="8" value="8" orient="vertical" class="opacity-0 absolute inset-0 w-full h-full cursor-pointer z-20" oninput="updateDrawbar(0, this.value)">
+                <div id="db-handle-0" class="drawbar-handle-brown w-6 h-5 rounded-sm absolute top-0 z-10 flex items-center justify-center text-[9px] font-bold text-white shadow pointer-events-none">8</div>
+              </div>
+              <span class="text-[9px] text-zinc-500">Sub</span>
+            </div>
+
+            <!-- 5 1/3' Quint (Brown) -->
+            <div class="flex flex-col items-center justify-between h-full">
+              <span class="text-[10px] font-bold text-amber-500 font-mono">5⅓'</span>
+              <div class="drawbar-track w-4 h-36 rounded-sm relative flex justify-center">
+                <input type="range" min="0" max="8" value="8" orient="vertical" class="opacity-0 absolute inset-0 w-full h-full cursor-pointer z-20" oninput="updateDrawbar(1, this.value)">
+                <div id="db-handle-1" class="drawbar-handle-brown w-6 h-5 rounded-sm absolute top-0 z-10 flex items-center justify-center text-[9px] font-bold text-white shadow pointer-events-none">8</div>
+              </div>
+              <span class="text-[9px] text-zinc-500">5th</span>
+            </div>
+
+            <!-- 8' Fundamental (White) -->
+            <div class="flex flex-col items-center justify-between h-full">
+              <span class="text-[10px] font-bold text-zinc-200 font-mono">8'</span>
+              <div class="drawbar-track w-4 h-36 rounded-sm relative flex justify-center">
+                <input type="range" min="0" max="8" value="8" orient="vertical" class="opacity-0 absolute inset-0 w-full h-full cursor-pointer z-20" oninput="updateDrawbar(2, this.value)">
+                <div id="db-handle-2" class="drawbar-handle-white w-6 h-5 rounded-sm absolute top-0 z-10 flex items-center justify-center text-[9px] font-bold text-zinc-900 shadow pointer-events-none">8</div>
+              </div>
+              <span class="text-[9px] text-zinc-400 font-bold">Fund</span>
+            </div>
+
+            <!-- 4' Octave (White) -->
+            <div class="flex flex-col items-center justify-between h-full">
+              <span class="text-[10px] font-bold text-zinc-200 font-mono">4'</span>
+              <div class="drawbar-track w-4 h-36 rounded-sm relative flex justify-center">
+                <input type="range" min="0" max="8" value="0" orient="vertical" class="opacity-0 absolute inset-0 w-full h-full cursor-pointer z-20" oninput="updateDrawbar(3, this.value)">
+                <div id="db-handle-3" class="drawbar-handle-white w-6 h-5 rounded-sm absolute bottom-0 z-10 flex items-center justify-center text-[9px] font-bold text-zinc-900 shadow pointer-events-none">0</div>
+              </div>
+              <span class="text-[9px] text-zinc-500">8ve</span>
+            </div>
+
+            <!-- 2 2/3' Nazard (Black) -->
+            <div class="flex flex-col items-center justify-between h-full">
+              <span class="text-[10px] font-bold text-zinc-400 font-mono">2⅔'</span>
+              <div class="drawbar-track w-4 h-36 rounded-sm relative flex justify-center">
+                <input type="range" min="0" max="8" value="0" orient="vertical" class="opacity-0 absolute inset-0 w-full h-full cursor-pointer z-20" oninput="updateDrawbar(4, this.value)">
+                <div id="db-handle-4" class="drawbar-handle-black w-6 h-5 rounded-sm absolute bottom-0 z-10 flex items-center justify-center text-[9px] font-bold text-white shadow pointer-events-none">0</div>
+              </div>
+              <span class="text-[9px] text-zinc-500">12th</span>
+            </div>
+
+            <!-- 2' Blockflöte (White) -->
+            <div class="flex flex-col items-center justify-between h-full">
+              <span class="text-[10px] font-bold text-zinc-200 font-mono">2'</span>
+              <div class="drawbar-track w-4 h-36 rounded-sm relative flex justify-center">
+                <input type="range" min="0" max="8" value="0" orient="vertical" class="opacity-0 absolute inset-0 w-full h-full cursor-pointer z-20" oninput="updateDrawbar(5, this.value)">
+                <div id="db-handle-5" class="drawbar-handle-white w-6 h-5 rounded-sm absolute bottom-0 z-10 flex items-center justify-center text-[9px] font-bold text-zinc-900 shadow pointer-events-none">0</div>
+              </div>
+              <span class="text-[9px] text-zinc-500">15th</span>
+            </div>
+
+            <!-- 1 3/5' Tierce (Black) -->
+            <div class="flex flex-col items-center justify-between h-full">
+              <span class="text-[10px] font-bold text-zinc-400 font-mono">1⅗'</span>
+              <div class="drawbar-track w-4 h-36 rounded-sm relative flex justify-center">
+                <input type="range" min="0" max="8" value="0" orient="vertical" class="opacity-0 absolute inset-0 w-full h-full cursor-pointer z-20" oninput="updateDrawbar(6, this.value)">
+                <div id="db-handle-6" class="drawbar-handle-black w-6 h-5 rounded-sm absolute bottom-0 z-10 flex items-center justify-center text-[9px] font-bold text-white shadow pointer-events-none">0</div>
+              </div>
+              <span class="text-[9px] text-zinc-500">17th</span>
+            </div>
+
+            <!-- 1 1/3' Larigot (Black) -->
+            <div class="flex flex-col items-center justify-between h-full">
+              <span class="text-[10px] font-bold text-zinc-400 font-mono">1⅓'</span>
+              <div class="drawbar-track w-4 h-36 rounded-sm relative flex justify-center">
+                <input type="range" min="0" max="8" value="0" orient="vertical" class="opacity-0 absolute inset-0 w-full h-full cursor-pointer z-20" oninput="updateDrawbar(7, this.value)">
+                <div id="db-handle-7" class="drawbar-handle-black w-6 h-5 rounded-sm absolute bottom-0 z-10 flex items-center justify-center text-[9px] font-bold text-white shadow pointer-events-none">0</div>
+              </div>
+              <span class="text-[9px] text-zinc-500">19th</span>
+            </div>
+
+            <!-- 1' Sifflöte (White) -->
+            <div class="flex flex-col items-center justify-between h-full">
+              <span class="text-[10px] font-bold text-zinc-200 font-mono">1'</span>
+              <div class="drawbar-track w-4 h-36 rounded-sm relative flex justify-center">
+                <input type="range" min="0" max="8" value="8" orient="vertical" class="opacity-0 absolute inset-0 w-full h-full cursor-pointer z-20" oninput="updateDrawbar(8, this.value)">
+                <div id="db-handle-8" class="drawbar-handle-white w-6 h-5 rounded-sm absolute top-0 z-10 flex items-center justify-center text-[9px] font-bold text-zinc-900 shadow pointer-events-none">8</div>
+              </div>
+              <span class="text-[9px] text-zinc-500">22nd</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ROTARY SPEAKER (LESLIE) & HARMONIC PERCUSSION CONTROLS -->
+        <div class="col-span-12 lg:col-span-5 flex flex-col justify-between gap-4">
+          
+          <!-- Leslie Rotary Speaker Speed Switcher -->
+          <div class="bg-zinc-950/80 p-4 rounded-lg border border-zinc-800/80">
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-bold uppercase tracking-wider text-amber-400">Rotary Speaker (Leslie)</span>
+              <span id="leslie-rpm" class="text-[10px] font-mono text-zinc-400">Horn: 40 RPM | Drum: 38 RPM</span>
+            </div>
+            <div class="grid grid-cols-3 gap-2">
+              <button onclick="setLeslieSpeed('slow')" id="leslie-btn-slow" class="py-2.5 rounded bg-amber-600 text-white font-bold text-xs shadow-md cursor-pointer">CHORALE (Slow)</button>
+              <button onclick="setLeslieSpeed('fast')" id="leslie-btn-fast" class="py-2.5 rounded bg-zinc-800 text-zinc-400 hover:text-white font-bold text-xs cursor-pointer">TREMOLO (Fast)</button>
+              <button onclick="setLeslieSpeed('brake')" id="leslie-btn-brake" class="py-2.5 rounded bg-zinc-800 text-zinc-400 hover:text-white font-bold text-xs cursor-pointer">BRAKE (Off)</button>
+            </div>
+            <div class="flex items-center justify-between text-[11px] text-zinc-400 mt-3 pt-2 border-t border-zinc-800/60">
+              <span>Horn/Drum Balance: <b class="text-zinc-200">50/50</b></span>
+              <span>Ramp Acceleration: <b class="text-amber-400">1.8s</b></span>
+            </div>
+          </div>
+
+          <!-- Harmonic Percussion & Scanner Vibrato -->
+          <div class="bg-zinc-950/80 p-4 rounded-lg border border-zinc-800/80">
+            <span class="text-xs font-bold uppercase tracking-wider text-zinc-300 block mb-2">Harmonic Percussion &amp; Vibrato</span>
+            <div class="grid grid-cols-2 gap-3 text-xs">
+              <div>
+                <span class="text-zinc-400 text-[11px] block mb-1">Percussion Mode:</span>
+                <select id="perc-selector" class="w-full bg-zinc-900 border border-zinc-700 text-zinc-200 rounded px-2 py-1 text-xs">
+                  <option>2nd Harmonic (Soft/Fast)</option>
+                  <option selected>3rd Harmonic (Normal/Fast)</option>
+                  <option>2nd Harmonic (Normal/Slow)</option>
+                  <option>3rd Harmonic (Normal/Slow)</option>
+                  <option>Percussion OFF</option>
+                </select>
+              </div>
+              <div>
+                <span class="text-zinc-400 text-[11px] block mb-1">Scanner Vibrato/Chorus:</span>
+                <select class="w-full bg-zinc-900 border border-zinc-700 text-zinc-200 rounded px-2 py-1 text-xs">
+                  <option selected>C3 (Rich Chorus)</option>
+                  <option>V3 (Deep Vibrato)</option>
+                  <option>C2 (Medium Chorus)</option>
+                  <option>V2 (Medium Vibrato)</option>
+                  <option>C1 (Subtle Chorus)</option>
+                  <option>V1 (Subtle Vibrato)</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <!-- Key Click & Tube Drive Simulator -->
+          <div class="bg-zinc-950/80 p-3 rounded-lg border border-zinc-800/80 flex items-center justify-between text-xs">
+            <div>
+              <span class="font-bold text-zinc-300">Tone Wheel Key Click:</span>
+              <span class="text-[10px] text-amber-400 font-mono ml-2">Authentic Mechanical Click ON</span>
+            </div>
+            <span class="text-[11px] font-mono text-zinc-400">Tube Drive: <b class="text-amber-300">42%</b></span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- ==================== TAB 2: 4-LAYER VOICE EDITOR ==================== -->
+    <div id="subview-voice" class="p-5 flex-col gap-4 hidden">
+      
+      <!-- Layer Selector Bar (L1, L2, L3, L4) -->
+      <div class="flex items-center justify-between bg-zinc-950 p-2.5 rounded border border-zinc-800">
+        <div class="flex items-center gap-2">
+          <span class="text-xs font-bold text-zinc-400 uppercase tracking-wider">Voice Layer:</span>
+          <button onclick="selectVoiceLayer(1)" id="btn-layer-1" class="px-3 py-1 bg-amber-600 text-white font-bold text-xs rounded shadow cursor-pointer">Layer 1 (Active)</button>
+          <button onclick="selectVoiceLayer(2)" id="btn-layer-2" class="px-3 py-1 bg-zinc-800 text-zinc-400 font-bold text-xs rounded hover:bg-zinc-700 cursor-pointer">Layer 2</button>
+          <button onclick="selectVoiceLayer(3)" id="btn-layer-3" class="px-3 py-1 bg-zinc-800 text-zinc-400 font-bold text-xs rounded hover:bg-zinc-700 cursor-pointer">Layer 3</button>
+          <button onclick="selectVoiceLayer(4)" id="btn-layer-4" class="px-3 py-1 bg-zinc-800 text-zinc-400 font-bold text-xs rounded hover:bg-zinc-700 cursor-pointer">Layer 4</button>
+        </div>
+        <div class="flex items-center gap-4 text-xs font-mono text-zinc-400">
+          <label class="flex items-center gap-1.5"><input type="checkbox" checked class="accent-amber-500"> Layer Enable</label>
+          <span>Key Range: C-2 to G8</span>
+          <span>Vel Crossfade: OFF</span>
+        </div>
+      </div>
+
+      <!-- Layer Engine Grid: Instrument, 14-Pole Z-Plane Filter, Envelopes -->
+      <div class="grid grid-cols-12 gap-4">
+        
+        <!-- Left: ROM Instrument Waveform & Pitch (Col 1-4) -->
+        <div class="col-span-4 bg-zinc-950/80 p-4 rounded border border-zinc-800 flex flex-col gap-3">
+          <div class="flex items-center justify-between border-b border-zinc-800 pb-2">
+            <span class="text-xs font-bold text-amber-400 uppercase tracking-wider">Sample Instrument</span>
+            <span class="text-[10px] text-zinc-500 font-mono">32MB B-3 ROM</span>
+          </div>
+          <div>
+            <label class="text-[10px] text-zinc-400 block mb-1">Instrument Category / Wave:</label>
+            <select class="w-full bg-zinc-900 border border-zinc-700 text-xs text-zinc-200 rounded p-1.5 font-mono">
+              <option selected>0001: B3 888000000 Clean Jazz</option>
+              <option>0002: B3 888800000 Gospel Wail</option>
+              <option>0003: B3 888888888 Full Screamer</option>
+              <option>0004: Jimmy 3rd Percussive Lead</option>
+              <option>0005: Purple Overdriven Rotor</option>
+              <option>0006: Key-Off Release Clack</option>
+              <option>0007: Rotor Horn High Doppler</option>
+              <option>0008: Rotor Drum Low Doppler</option>
+              <option>0009: 16' Tonewheel Pedal Bass</option>
+              <option>0010: Farfisa Compact Transistor</option>
+            </select>
+          </div>
+          <div class="grid grid-cols-2 gap-2 text-xs">
+            <div>
+              <label class="text-[10px] text-zinc-400">Coarse Tuning:</label>
+              <input type="number" value="0" min="-36" max="36" class="w-full bg-zinc-900 border border-zinc-700 rounded px-2 py-1 text-zinc-200 font-mono">
+            </div>
+            <div>
+              <label class="text-[10px] text-zinc-400">Fine Tuning:</label>
+              <input type="number" value="0" min="-64" max="64" class="w-full bg-zinc-900 border border-zinc-700 rounded px-2 py-1 text-zinc-200 font-mono">
+            </div>
+          </div>
+          <div class="pt-2 border-t border-zinc-800">
+            <label class="text-[10px] text-zinc-400 block mb-1">Velocity Switch / Crossfade Curve:</label>
+            <select class="w-full bg-zinc-900 border border-zinc-700 text-xs text-zinc-200 rounded p-1">
+              <option>Linear Crossfade</option>
+              <option selected>Exponential Dynamic Curve</option>
+              <option>Cross-Switch at Vel 84</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Middle: 50 14-Pole Z-Plane Filters (Col 5-8) -->
+        <div class="col-span-4 bg-zinc-950/80 p-4 rounded border border-zinc-800 flex flex-col gap-3">
+          <div class="flex items-center justify-between border-b border-zinc-800 pb-2">
+            <span class="text-xs font-bold text-cyan-400 uppercase tracking-wider">50 Z-Plane Filters</span>
+            <span class="text-[10px] text-cyan-500/80 font-mono">14-POLE MORPH</span>
+          </div>
+          <div>
+            <label class="text-[10px] text-zinc-400 block mb-1">Filter Model (50 Available):</label>
+            <select class="w-full bg-zinc-900 border border-zinc-700 text-xs text-zinc-200 rounded p-1.5 font-mono">
+              <option>01: 4-Pole Lowpass 24dB</option>
+              <option>02: 2-Pole Lowpass 12dB</option>
+              <option selected>14: Morpheus Formant 14-Pole</option>
+              <option>22: Rotary Horn Swept Resonator</option>
+              <option>31: Vocal Ooh-to-Aah Morph</option>
+              <option>44: B-3 High-Frequency Shaper</option>
+            </select>
+          </div>
+          <div>
+            <div class="flex justify-between text-xs mb-1">
+              <span class="text-zinc-400">Filter Cutoff (0-255):</span>
+              <span class="text-cyan-400 font-mono font-bold" id="ui-cutoff-val">198</span>
+            </div>
+            <input type="range" min="0" max="255" value="198" class="w-full accent-cyan-500" oninput="document.getElementById('ui-cutoff-val').innerText = this.value">
+          </div>
+          <div>
+            <div class="flex justify-between text-xs mb-1">
+              <span class="text-zinc-400">Resonance (Q):</span>
+              <span class="text-cyan-400 font-mono font-bold" id="ui-reso-val">42%</span>
+            </div>
+            <input type="range" min="0" max="100" value="42" class="w-full accent-cyan-500" oninput="document.getElementById('ui-reso-val').innerText = this.value + '%'">
+          </div>
+        </div>
+
+        <!-- Right: 3 6-Stage Envelopes & LFOs (Col 9-12) -->
+        <div class="col-span-4 bg-zinc-950/80 p-4 rounded border border-zinc-800 flex flex-col gap-3">
+          <div class="flex items-center justify-between border-b border-zinc-800 pb-2">
+            <span class="text-xs font-bold text-amber-400 uppercase tracking-wider">6-Stage Envelopes &amp; LFO</span>
+            <span class="text-[10px] text-zinc-500 font-mono">AMP / FILT / AUX</span>
+          </div>
+          <div class="grid grid-cols-4 gap-1 text-[10px] text-center font-mono">
+            <div class="bg-zinc-900 p-1.5 rounded border border-zinc-800">
+              <span class="text-zinc-500 block">ATT</span>
+              <span class="text-amber-400 font-bold">0.05s</span>
+            </div>
+            <div class="bg-zinc-900 p-1.5 rounded border border-zinc-800">
+              <span class="text-zinc-500 block">DCY</span>
+              <span class="text-amber-400 font-bold">1.20s</span>
+            </div>
+            <div class="bg-zinc-900 p-1.5 rounded border border-zinc-800">
+              <span class="text-zinc-500 block">SUS</span>
+              <span class="text-amber-400 font-bold">100%</span>
+            </div>
+            <div class="bg-zinc-900 p-1.5 rounded border border-zinc-800">
+              <span class="text-zinc-500 block">RLS</span>
+              <span class="text-amber-400 font-bold">0.18s</span>
+            </div>
+          </div>
+          <div class="pt-1">
+            <span class="text-[10px] text-zinc-400 block mb-1">Dual Multi-Wave LFO:</span>
+            <div class="flex items-center justify-between text-xs bg-zinc-900/60 p-2 rounded border border-zinc-800">
+              <span class="text-zinc-300">LFO 1: Sine (5.2 Hz)</span>
+              <span class="text-zinc-500 font-mono text-[10px]">Sync: Key</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- ==================== TAB 3: 24 VIRTUAL PATCHCORDS ==================== -->
+    <div id="subview-patchcords" class="p-5 flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-2.5">
+        <div>
+          <h3 class="text-sm font-bold text-pink-400 uppercase tracking-wider">24 Virtual PatchCords (Modular Modulation Matrix)</h3>
+          <p class="text-xs text-zinc-400">Route any physical hardware controller or internal LFO/Envelope to any voice, Leslie, or drawbar parameter.</p>
+        </div>
+        <button onclick="loadDefaultB3Cords()" class="px-2.5 py-1 text-xs rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-200 cursor-pointer">Reset Default Organ Cords</button>
+      </div>
+
+      <div class="grid grid-cols-2 gap-3 text-xs font-mono">
+        <!-- Cord 01 -->
+        <div class="bg-zinc-950 p-2.5 rounded border border-zinc-800 flex items-center justify-between">
+          <span class="text-pink-400 font-bold w-12">Cord 01:</span>
+          <span class="text-zinc-300">ModWheel (CC01)</span>
+          <span class="text-zinc-600">➔</span>
+          <span class="text-zinc-200">Leslie Speed (Fast/Slow)</span>
+          <span class="text-emerald-400 font-bold">+100%</span>
+        </div>
+        <!-- Cord 02 -->
+        <div class="bg-zinc-950 p-2.5 rounded border border-zinc-800 flex items-center justify-between">
+          <span class="text-pink-400 font-bold w-12">Cord 02:</span>
+          <span class="text-zinc-300">Velocity</span>
+          <span class="text-zinc-600">➔</span>
+          <span class="text-zinc-200">Harmonic Percussion Level</span>
+          <span class="text-emerald-400 font-bold">+64%</span>
+        </div>
+        <!-- Cord 03 -->
+        <div class="bg-zinc-950 p-2.5 rounded border border-zinc-800 flex items-center justify-between">
+          <span class="text-pink-400 font-bold w-12">Cord 03:</span>
+          <span class="text-zinc-300">Aftertouch</span>
+          <span class="text-zinc-600">➔</span>
+          <span class="text-zinc-200">Tube Preamp Overdrive</span>
+          <span class="text-emerald-400 font-bold">+45%</span>
+        </div>
+        <!-- Cord 04 -->
+        <div class="bg-zinc-950 p-2.5 rounded border border-zinc-800 flex items-center justify-between">
+          <span class="text-pink-400 font-bold w-12">Cord 04:</span>
+          <span class="text-zinc-300">Foot Pedal (CC04)</span>
+          <span class="text-zinc-600">➔</span>
+          <span class="text-zinc-200">Swell Volume (Expression)</span>
+          <span class="text-emerald-400 font-bold">+100%</span>
+        </div>
+        <!-- Cord 05 -->
+        <div class="bg-zinc-950 p-2.5 rounded border border-zinc-800 flex items-center justify-between">
+          <span class="text-pink-400 font-bold w-12">Cord 05:</span>
+          <span class="text-zinc-300">Pitch Wheel</span>
+          <span class="text-zinc-600">➔</span>
+          <span class="text-zinc-200">Z-Plane Filter Cutoff Morph</span>
+          <span class="text-emerald-400 font-bold">+35%</span>
+        </div>
+        <!-- Cord 06 -->
+        <div class="bg-zinc-950 p-2.5 rounded border border-zinc-800 flex items-center justify-between">
+          <span class="text-pink-400 font-bold w-12">Cord 06:</span>
+          <span class="text-zinc-300">LFO 1 (Sine)</span>
+          <span class="text-zinc-600">➔</span>
+          <span class="text-zinc-200">Scanner Vibrato Pitch Depth</span>
+          <span class="text-emerald-400 font-bold">+28%</span>
+        </div>
+        <!-- Cord 07 -->
+        <div class="bg-zinc-950 p-2.5 rounded border border-zinc-800 flex items-center justify-between">
+          <span class="text-pink-400 font-bold w-12">Cord 07:</span>
+          <span class="text-zinc-300">Knob A (Dynamic 1)</span>
+          <span class="text-zinc-600">➔</span>
+          <span class="text-zinc-200">Drawbar 16' Pull Level</span>
+          <span class="text-emerald-400 font-bold">+80%</span>
+        </div>
+        <!-- Cord 08 -->
+        <div class="bg-zinc-950 p-2.5 rounded border border-zinc-800 flex items-center justify-between">
+          <span class="text-pink-400 font-bold w-12">Cord 08:</span>
+          <span class="text-zinc-300">Knob B (Dynamic 2)</span>
+          <span class="text-zinc-600">➔</span>
+          <span class="text-zinc-200">Drawbar 1' Sifflöte Pull</span>
+          <span class="text-emerald-400 font-bold">+75%</span>
+        </div>
+      </div>
+      <div class="text-[11px] text-zinc-500 font-mono text-center pt-2">
+        Showing active cords 01-08 of 24 • Remaining Cords 09-24 available for custom studio routing
       </div>
     </div>
 
-    <div class="grid grid-cols-12 gap-6">
-
-      <!-- 9 HARMONIC DRAWBARS -->
-      <div class="col-span-12 lg:col-span-7 bg-zinc-950/80 p-4 rounded-lg border border-zinc-800/80">
-        <div class="flex justify-between items-center mb-3">
-          <span class="text-xs font-bold text-zinc-300">Standard Drawbar Set:</span>
-          <span class="text-xs font-mono text-amber-400 font-bold" id="drawbar-digits">8 8 8 0 0 0 0 0 8</span>
+    <!-- ==================== TAB 4: MULTIMODE SETUP (16 CHANNELS) ==================== -->
+    <div id="subview-multimode" class="p-5 flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-2.5">
+        <div>
+          <h3 class="text-sm font-bold text-emerald-400 uppercase tracking-wider">MultiMode Setup (16-Part Multitimbral Mixer)</h3>
+          <p class="text-xs text-zinc-400">Independent channel assignment for organ manuals, pedal bass, electric pianos, and synth layers.</p>
         </div>
-
-        <!-- 9 Vertical Drawbar Sliders (Authentic Brown, White, Black colors) -->
-        <div class="grid grid-cols-9 gap-2 h-48 pt-2">
-          <!-- 16' Sub-Octave (Brown) -->
-          <div class="flex flex-col items-center justify-between h-full">
-            <span class="text-[10px] font-bold text-amber-500 font-mono">16'</span>
-            <div class="drawbar-track w-4 h-36 rounded-sm relative flex justify-center">
-              <input type="range" min="0" max="8" value="8" orient="vertical" class="opacity-0 absolute inset-0 w-full h-full cursor-pointer z-20" oninput="updateDrawbar(0, this.value)">
-              <div id="db-handle-0" class="drawbar-handle-brown w-6 h-5 rounded-sm absolute top-0 z-10 flex items-center justify-center text-[9px] font-bold text-white shadow pointer-events-none">8</div>
-            </div>
-            <span class="text-[9px] text-zinc-500">Sub</span>
-          </div>
-
-          <!-- 5 1/3' Quint (Brown) -->
-          <div class="flex flex-col items-center justify-between h-full">
-            <span class="text-[10px] font-bold text-amber-500 font-mono">5⅓'</span>
-            <div class="drawbar-track w-4 h-36 rounded-sm relative flex justify-center">
-              <input type="range" min="0" max="8" value="8" orient="vertical" class="opacity-0 absolute inset-0 w-full h-full cursor-pointer z-20" oninput="updateDrawbar(1, this.value)">
-              <div id="db-handle-1" class="drawbar-handle-brown w-6 h-5 rounded-sm absolute top-0 z-10 flex items-center justify-center text-[9px] font-bold text-white shadow pointer-events-none">8</div>
-            </div>
-            <span class="text-[9px] text-zinc-500">5th</span>
-          </div>
-
-          <!-- 8' Fundamental (White) -->
-          <div class="flex flex-col items-center justify-between h-full">
-            <span class="text-[10px] font-bold text-zinc-200 font-mono">8'</span>
-            <div class="drawbar-track w-4 h-36 rounded-sm relative flex justify-center">
-              <input type="range" min="0" max="8" value="8" orient="vertical" class="opacity-0 absolute inset-0 w-full h-full cursor-pointer z-20" oninput="updateDrawbar(2, this.value)">
-              <div id="db-handle-2" class="drawbar-handle-white w-6 h-5 rounded-sm absolute top-0 z-10 flex items-center justify-center text-[9px] font-bold text-zinc-900 shadow pointer-events-none">8</div>
-            </div>
-            <span class="text-[9px] text-zinc-400 font-bold">Fund</span>
-          </div>
-
-          <!-- 4' Octave (White) -->
-          <div class="flex flex-col items-center justify-between h-full">
-            <span class="text-[10px] font-bold text-zinc-200 font-mono">4'</span>
-            <div class="drawbar-track w-4 h-36 rounded-sm relative flex justify-center">
-              <input type="range" min="0" max="8" value="0" orient="vertical" class="opacity-0 absolute inset-0 w-full h-full cursor-pointer z-20" oninput="updateDrawbar(3, this.value)">
-              <div id="db-handle-3" class="drawbar-handle-white w-6 h-5 rounded-sm absolute bottom-0 z-10 flex items-center justify-center text-[9px] font-bold text-zinc-900 shadow pointer-events-none">0</div>
-            </div>
-            <span class="text-[9px] text-zinc-500">8ve</span>
-          </div>
-
-          <!-- 2 2/3' Nazard (Black) -->
-          <div class="flex flex-col items-center justify-between h-full">
-            <span class="text-[10px] font-bold text-zinc-400 font-mono">2⅔'</span>
-            <div class="drawbar-track w-4 h-36 rounded-sm relative flex justify-center">
-              <input type="range" min="0" max="8" value="0" orient="vertical" class="opacity-0 absolute inset-0 w-full h-full cursor-pointer z-20" oninput="updateDrawbar(4, this.value)">
-              <div id="db-handle-4" class="drawbar-handle-black w-6 h-5 rounded-sm absolute bottom-0 z-10 flex items-center justify-center text-[9px] font-bold text-white shadow pointer-events-none">0</div>
-            </div>
-            <span class="text-[9px] text-zinc-500">12th</span>
-          </div>
-
-          <!-- 2' Blockflöte (White) -->
-          <div class="flex flex-col items-center justify-between h-full">
-            <span class="text-[10px] font-bold text-zinc-200 font-mono">2'</span>
-            <div class="drawbar-track w-4 h-36 rounded-sm relative flex justify-center">
-              <input type="range" min="0" max="8" value="0" orient="vertical" class="opacity-0 absolute inset-0 w-full h-full cursor-pointer z-20" oninput="updateDrawbar(5, this.value)">
-              <div id="db-handle-5" class="drawbar-handle-white w-6 h-5 rounded-sm absolute bottom-0 z-10 flex items-center justify-center text-[9px] font-bold text-zinc-900 shadow pointer-events-none">0</div>
-            </div>
-            <span class="text-[9px] text-zinc-500">15th</span>
-          </div>
-
-          <!-- 1 3/5' Tierce (Black) -->
-          <div class="flex flex-col items-center justify-between h-full">
-            <span class="text-[10px] font-bold text-zinc-400 font-mono">1⅗'</span>
-            <div class="drawbar-track w-4 h-36 rounded-sm relative flex justify-center">
-              <input type="range" min="0" max="8" value="0" orient="vertical" class="opacity-0 absolute inset-0 w-full h-full cursor-pointer z-20" oninput="updateDrawbar(6, this.value)">
-              <div id="db-handle-6" class="drawbar-handle-black w-6 h-5 rounded-sm absolute bottom-0 z-10 flex items-center justify-center text-[9px] font-bold text-white shadow pointer-events-none">0</div>
-            </div>
-            <span class="text-[9px] text-zinc-500">17th</span>
-          </div>
-
-          <!-- 1 1/3' Larigot (Black) -->
-          <div class="flex flex-col items-center justify-between h-full">
-            <span class="text-[10px] font-bold text-zinc-400 font-mono">1⅓'</span>
-            <div class="drawbar-track w-4 h-36 rounded-sm relative flex justify-center">
-              <input type="range" min="0" max="8" value="0" orient="vertical" class="opacity-0 absolute inset-0 w-full h-full cursor-pointer z-20" oninput="updateDrawbar(7, this.value)">
-              <div id="db-handle-7" class="drawbar-handle-black w-6 h-5 rounded-sm absolute bottom-0 z-10 flex items-center justify-center text-[9px] font-bold text-white shadow pointer-events-none">0</div>
-            </div>
-            <span class="text-[9px] text-zinc-500">19th</span>
-          </div>
-
-          <!-- 1' Sifflöte (White) -->
-          <div class="flex flex-col items-center justify-between h-full">
-            <span class="text-[10px] font-bold text-zinc-200 font-mono">1'</span>
-            <div class="drawbar-track w-4 h-36 rounded-sm relative flex justify-center">
-              <input type="range" min="0" max="8" value="8" orient="vertical" class="opacity-0 absolute inset-0 w-full h-full cursor-pointer z-20" oninput="updateDrawbar(8, this.value)">
-              <div id="db-handle-8" class="drawbar-handle-white w-6 h-5 rounded-sm absolute top-0 z-10 flex items-center justify-center text-[9px] font-bold text-zinc-900 shadow pointer-events-none">8</div>
-            </div>
-            <span class="text-[9px] text-zinc-500">22nd</span>
-          </div>
+        <div class="flex items-center gap-2">
+          <button class="px-2.5 py-1 text-xs rounded bg-zinc-800 text-zinc-300 hover:text-white cursor-pointer">B3 Upper/Lower/Pedal Split</button>
+          <button class="px-2.5 py-1 text-xs rounded bg-emerald-600/30 border border-emerald-500/50 text-emerald-300 cursor-pointer">16-Channel Full Session</button>
         </div>
       </div>
 
-      <!-- ROTARY SPEAKER (LESLIE) & HARMONIC PERCUSSION CONTROLS -->
-      <div class="col-span-12 lg:col-span-5 flex flex-col justify-between gap-4">
-        
-        <!-- Leslie Rotary Speaker Speed Switcher -->
-        <div class="bg-zinc-950/80 p-4 rounded-lg border border-zinc-800/80">
-          <div class="flex items-center justify-between mb-3">
-            <span class="text-xs font-bold uppercase tracking-wider text-amber-400">Rotary Speaker (Leslie)</span>
-            <span id="leslie-rpm" class="text-[10px] font-mono text-zinc-400">Horn: 40 RPM | Drum: 38 RPM</span>
-          </div>
-          <div class="grid grid-cols-3 gap-2">
-            <button onclick="setLeslieSpeed('slow')" id="leslie-btn-slow" class="py-2.5 rounded bg-amber-600 text-white font-bold text-xs shadow-md">CHORALE (Slow)</button>
-            <button onclick="setLeslieSpeed('fast')" id="leslie-btn-fast" class="py-2.5 rounded bg-zinc-800 text-zinc-400 hover:text-white font-bold text-xs">TREMOLO (Fast)</button>
-            <button onclick="setLeslieSpeed('brake')" id="leslie-btn-brake" class="py-2.5 rounded bg-zinc-800 text-zinc-400 hover:text-white font-bold text-xs">BRAKE (Off)</button>
-          </div>
-        </div>
+      <!-- 16 Channel Mixer Table -->
+      <div class="overflow-x-auto">
+        <table class="w-full text-left text-xs font-mono">
+          <thead class="bg-zinc-950 text-zinc-400 border-b border-zinc-800 text-[10px] uppercase">
+            <tr>
+              <th class="py-2 px-3">Ch</th>
+              <th class="py-2 px-3">Preset Assignment</th>
+              <th class="py-2 px-3">Bank</th>
+              <th class="py-2 px-3">Vol</th>
+              <th class="py-2 px-3">Pan</th>
+              <th class="py-2 px-3">Send A</th>
+              <th class="py-2 px-3">Send B</th>
+              <th class="py-2 px-3">Submix</th>
+              <th class="py-2 px-3">M/S</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-zinc-800/60 text-zinc-300">
+            <tr class="bg-amber-950/20">
+              <td class="py-2 px-3 font-bold text-amber-400">01</td>
+              <td class="py-2 px-3 font-semibold text-white">000⁰ org:Killer B (Upper Manual)</td>
+              <td class="py-2 px-3 text-zinc-400">User 0</td>
+              <td class="py-2 px-3">127</td>
+              <td class="py-2 px-3">00 (Center)</td>
+              <td class="py-2 px-3 text-amber-400">64 (Leslie)</td>
+              <td class="py-2 px-3">20</td>
+              <td class="py-2 px-3 text-zinc-400">Main</td>
+              <td class="py-2 px-3"><span class="px-1.5 py-0.5 rounded bg-emerald-900/60 text-emerald-300 text-[9px]">SOLO</span></td>
+            </tr>
+            <tr>
+              <td class="py-2 px-3 font-bold text-zinc-400">02</td>
+              <td class="py-2 px-3">001⁰ org:Jimmy Smith Jazz (Lower Manual)</td>
+              <td class="py-2 px-3 text-zinc-400">User 0</td>
+              <td class="py-2 px-3">112</td>
+              <td class="py-2 px-3">L15</td>
+              <td class="py-2 px-3 text-amber-400">55</td>
+              <td class="py-2 px-3">12</td>
+              <td class="py-2 px-3 text-zinc-400">Main</td>
+              <td class="py-2 px-3"><span class="text-zinc-600">--</span></td>
+            </tr>
+            <tr>
+              <td class="py-2 px-3 font-bold text-zinc-400">03</td>
+              <td class="py-2 px-3">009⁰ bas:Tonewheel Pedal Bass</td>
+              <td class="py-2 px-3 text-zinc-400">ROM 0</td>
+              <td class="py-2 px-3">120</td>
+              <td class="py-2 px-3">00</td>
+              <td class="py-2 px-3">00</td>
+              <td class="py-2 px-3">00</td>
+              <td class="py-2 px-3 text-cyan-400">Sub 1</td>
+              <td class="py-2 px-3"><span class="text-zinc-600">--</span></td>
+            </tr>
+            <tr>
+              <td class="py-2 px-3 font-bold text-zinc-400">04</td>
+              <td class="py-2 px-3">003⁰ org:Purple Rock Overdrive</td>
+              <td class="py-2 px-3 text-zinc-400">User 0</td>
+              <td class="py-2 px-3">105</td>
+              <td class="py-2 px-3">R24</td>
+              <td class="py-2 px-3 text-amber-400">80</td>
+              <td class="py-2 px-3">30</td>
+              <td class="py-2 px-3 text-zinc-400">Main</td>
+              <td class="py-2 px-3"><span class="text-zinc-600">--</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="text-[11px] text-zinc-500 font-mono text-center pt-1">
+        Showing channels 1-4 of 16 • Multitimbral 64-voice dynamic polyphony allocation
+      </div>
+    </div>
 
-        <!-- Harmonic Percussion & Scanner Vibrato -->
-        <div class="bg-zinc-950/80 p-4 rounded-lg border border-zinc-800/80">
-          <span class="text-xs font-bold uppercase tracking-wider text-zinc-300 block mb-2">Harmonic Percussion & Vibrato</span>
-          <div class="grid grid-cols-2 gap-3 text-xs">
-            <div>
-              <span class="text-zinc-400 text-[11px] block mb-1">Percussion Mode:</span>
-              <select id="perc-selector" class="w-full bg-zinc-900 border border-zinc-700 text-zinc-200 rounded px-2 py-1 text-xs">
-                <option>2nd Harmonic (Soft/Fast)</option>
-                <option selected>3rd Harmonic (Normal/Fast)</option>
-                <option>Percussion OFF</option>
-              </select>
-            </div>
-            <div>
-              <span class="text-zinc-400 text-[11px] block mb-1">Scanner Vibrato/Chorus:</span>
-              <select class="w-full bg-zinc-900 border border-zinc-700 text-zinc-200 rounded px-2 py-1 text-xs">
-                <option selected>C3 (Rich Chorus)</option>
-                <option>V3 (Deep Vibrato)</option>
-                <option>C1 (Subtle Chorus)</option>
-              </select>
-            </div>
-          </div>
+    <!-- ==================== TAB 5: 16-ARPEGGIATOR ENGINE ==================== -->
+    <div id="subview-arp" class="p-5 flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-2.5">
+        <div>
+          <h3 class="text-sm font-bold text-purple-400 uppercase tracking-wider">16-Arpeggiator Engine &amp; Rhythm Grooves</h3>
+          <p class="text-xs text-zinc-400">16 independent synchronized arpeggiators with organ shuffles, comping chords, and basslines.</p>
         </div>
+        <div class="flex items-center gap-3">
+          <span class="text-xs text-zinc-400 font-mono">Master BPM:</span>
+          <input type="number" value="120" min="40" max="280" class="w-16 bg-zinc-950 border border-zinc-700 rounded px-2 py-1 text-xs text-purple-300 font-mono font-bold">
+        </div>
+      </div>
 
-        <!-- Key Click & Tube Drive Simulator -->
-        <div class="bg-zinc-950/80 p-3 rounded-lg border border-zinc-800/80 flex items-center justify-between text-xs">
+      <div class="grid grid-cols-3 gap-4">
+        <!-- Arp Ch 1: Gospel Shuffle -->
+        <div class="bg-zinc-950 p-4 rounded border border-zinc-800 flex flex-col gap-2.5 text-xs">
+          <div class="flex justify-between items-center border-b border-zinc-800 pb-2">
+            <span class="font-bold text-purple-300 font-mono">Arp 01 (Upper Manual)</span>
+            <span class="text-[10px] bg-purple-900/40 text-purple-300 px-1.5 py-0.5 rounded font-mono">ACTIVE</span>
+          </div>
           <div>
-            <span class="font-bold text-zinc-300">Tone Wheel Key Click:</span>
-            <span class="text-[10px] text-amber-400 font-mono ml-2">Authentic Mechanical Click ON</span>
+            <label class="text-[10px] text-zinc-400 block mb-1">Pattern Type:</label>
+            <select class="w-full bg-zinc-900 border border-zinc-700 text-xs text-zinc-200 rounded p-1">
+              <option selected>Gospel Organ Shuffle (16th Swing)</option>
+              <option>Up / Down Alternate</option>
+              <option>Jazz Walking Bassline</option>
+              <option>Funk Stab Triplet</option>
+            </select>
           </div>
-          <span class="text-[11px] font-mono text-zinc-400">Tube Drive: <b class="text-amber-300">42%</b></span>
+          <div class="grid grid-cols-2 gap-2 font-mono text-[11px]">
+            <div><span class="text-zinc-500">Note:</span> <b class="text-zinc-200">1/16 Swing</b></div>
+            <div><span class="text-zinc-500">Gate:</span> <b class="text-zinc-200">65%</b></div>
+            <div><span class="text-zinc-500">Vel:</span> <b class="text-zinc-200">As Played</b></div>
+            <div><span class="text-zinc-500">Latch:</span> <b class="text-emerald-400">ON</b></div>
+          </div>
         </div>
 
+        <!-- Arp Ch 2: Jazz Walking Bass -->
+        <div class="bg-zinc-950 p-4 rounded border border-zinc-800 flex flex-col gap-2.5 text-xs">
+          <div class="flex justify-between items-center border-b border-zinc-800 pb-2">
+            <span class="font-bold text-purple-300 font-mono">Arp 02 (Pedal Bass)</span>
+            <span class="text-[10px] bg-zinc-800 text-zinc-400 px-1.5 py-0.5 rounded font-mono">STANDBY</span>
+          </div>
+          <div>
+            <label class="text-[10px] text-zinc-400 block mb-1">Pattern Type:</label>
+            <select class="w-full bg-zinc-900 border border-zinc-700 text-xs text-zinc-200 rounded p-1">
+              <option selected>Jazz Walking Bassline (Quarter Notes)</option>
+              <option>Boogie Woogie 8th Drive</option>
+              <option>Roots &amp; Fifths Staccato</option>
+            </select>
+          </div>
+          <div class="grid grid-cols-2 gap-2 font-mono text-[11px]">
+            <div><span class="text-zinc-500">Note:</span> <b class="text-zinc-200">1/4 Note</b></div>
+            <div><span class="text-zinc-500">Gate:</span> <b class="text-zinc-200">80%</b></div>
+            <div><span class="text-zinc-500">Vel:</span> <b class="text-zinc-200">Accent 110</b></div>
+            <div><span class="text-zinc-500">Latch:</span> <b class="text-zinc-400">OFF</b></div>
+          </div>
+        </div>
+
+        <!-- Arp Ch 3: Funk Stab -->
+        <div class="bg-zinc-950 p-4 rounded border border-zinc-800 flex flex-col gap-2.5 text-xs">
+          <div class="flex justify-between items-center border-b border-zinc-800 pb-2">
+            <span class="font-bold text-purple-300 font-mono">Arp 03 (Percussive Stab)</span>
+            <span class="text-[10px] bg-zinc-800 text-zinc-400 px-1.5 py-0.5 rounded font-mono">STANDBY</span>
+          </div>
+          <div>
+            <label class="text-[10px] text-zinc-400 block mb-1">Pattern Type:</label>
+            <select class="w-full bg-zinc-900 border border-zinc-700 text-xs text-zinc-200 rounded p-1">
+              <option selected>Soul 16th Clack Stabs</option>
+              <option>Rock Chuff Alternator</option>
+              <option>Random Tonewheel Arp</option>
+            </select>
+          </div>
+          <div class="grid grid-cols-2 gap-2 font-mono text-[11px]">
+            <div><span class="text-zinc-500">Note:</span> <b class="text-zinc-200">1/16 Note</b></div>
+            <div><span class="text-zinc-500">Gate:</span> <b class="text-zinc-200">40%</b></div>
+            <div><span class="text-zinc-500">Vel:</span> <b class="text-zinc-200">Fixed 100</b></div>
+            <div><span class="text-zinc-500">Latch:</span> <b class="text-zinc-400">OFF</b></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 6: BANK LIBRARIAN (512 PRESETS) ==================== -->
+    <div id="subview-librarian" class="p-5 flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-2.5">
+        <div>
+          <h3 class="text-sm font-bold text-orange-400 uppercase tracking-wider">Preset Bank Librarian &amp; SysEx Explorer</h3>
+          <p class="text-xs text-zinc-400">Manage 512 User &amp; ROM Tonewheel Presets • Export/Import .SYX Banks • Direct Hardware Audition</p>
+        </div>
+        <div class="flex items-center gap-2">
+          <button class="px-2.5 py-1 text-xs rounded bg-zinc-800 text-zinc-300 hover:text-white cursor-pointer">Request SysEx Dump</button>
+          <button class="px-2.5 py-1 text-xs rounded bg-orange-600/30 border border-orange-500/50 text-orange-300 cursor-pointer">Save Bank (.SYX)</button>
+        </div>
       </div>
 
+      <div class="grid grid-cols-12 gap-4">
+        <!-- Preset Bank List -->
+        <div class="col-span-8 bg-zinc-950 p-3 rounded border border-zinc-800">
+          <div class="flex justify-between items-center mb-2">
+            <span class="text-xs font-bold text-zinc-300 font-mono">Bank: USER 0 (128 Patches)</span>
+            <input type="text" placeholder="Search patches..." class="bg-zinc-900 border border-zinc-700 text-xs text-zinc-200 rounded px-2 py-0.5 font-mono">
+          </div>
+          <div class="grid grid-cols-2 gap-1.5 text-xs font-mono max-h-56 overflow-y-auto pr-1">
+            <div onclick="loadB3Preset(0)" class="p-1.5 rounded bg-amber-950/40 border border-amber-600/60 text-amber-200 flex justify-between cursor-pointer">
+              <span>000⁰ org:Killer B</span>
+              <span class="text-zinc-400">88 8000 008</span>
+            </div>
+            <div onclick="loadB3Preset(1)" class="p-1.5 rounded bg-zinc-900/60 hover:bg-zinc-800 text-zinc-300 flex justify-between cursor-pointer">
+              <span>001⁰ org:Jimmy Smith Jazz</span>
+              <span class="text-zinc-500">88 8000 000</span>
+            </div>
+            <div onclick="loadB3Preset(2)" class="p-1.5 rounded bg-zinc-900/60 hover:bg-zinc-800 text-zinc-300 flex justify-between cursor-pointer">
+              <span>002⁰ org:Gospel Full Wheel</span>
+              <span class="text-zinc-500">88 8800 000</span>
+            </div>
+            <div onclick="loadB3Preset(3)" class="p-1.5 rounded bg-zinc-900/60 hover:bg-zinc-800 text-zinc-300 flex justify-between cursor-pointer">
+              <span>003⁰ org:Purple Rock Overdrive</span>
+              <span class="text-zinc-500">88 8800 008</span>
+            </div>
+            <div class="p-1.5 rounded bg-zinc-900/40 text-zinc-400 flex justify-between">
+              <span>004⁰ org:Booker T Green Onions</span>
+              <span class="text-zinc-600">88 8808 000</span>
+            </div>
+            <div class="p-1.5 rounded bg-zinc-900/40 text-zinc-400 flex justify-between">
+              <span>005⁰ org:Cathedral Pipe 16'</span>
+              <span class="text-zinc-600">80 0008 888</span>
+            </div>
+            <div class="p-1.5 rounded bg-zinc-900/40 text-zinc-400 flex justify-between">
+              <span>006⁰ bas:Tonewheel Pedal 16'</span>
+              <span class="text-zinc-600">80 0000 000</span>
+            </div>
+            <div class="p-1.5 rounded bg-zinc-900/40 text-zinc-400 flex justify-between">
+              <span>007⁰ org:Brian Auger Oblivion</span>
+              <span class="text-zinc-600">88 8500 000</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- SysEx Inspector Panel -->
+        <div class="col-span-4 bg-zinc-950 p-3 rounded border border-zinc-800 flex flex-col justify-between">
+          <div>
+            <span class="text-xs font-bold text-orange-400 block mb-2 font-mono">SysEx Device Inspector</span>
+            <div class="space-y-1.5 text-[11px] font-mono text-zinc-400">
+              <div>Device ID: <b class="text-zinc-200">0x00</b></div>
+              <div>Model ID: <b class="text-zinc-200">0x56 (E-MU B-3)</b></div>
+              <div>Protocol: <b class="text-zinc-200">14-Bit Parameter SysEx</b></div>
+              <div>Checksum: <b class="text-emerald-400">VALID (0x2F)</b></div>
+            </div>
+          </div>
+          <div class="pt-3 border-t border-zinc-800">
+            <span class="text-[10px] text-zinc-500 font-mono block mb-1">Midi Quest Status:</span>
+            <div class="p-2 bg-black rounded border border-zinc-800 text-[10px] font-mono text-emerald-400">
+              ● MIDI IN: OK (Port A)<br>
+              ● MIDI OUT: OK (Port A)<br>
+              ● 2-Way Handshake: Synchronized
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- LIVE HARDWARE SYSEX STREAM -->
-    <div class="bg-black/90 border border-zinc-800 rounded-lg p-3 flex items-center justify-between text-xs font-mono">
+    <div class="bg-black/95 border-t border-zinc-800 px-4 py-2.5 flex items-center justify-between text-xs font-mono">
       <div class="flex items-center gap-3">
         <span class="w-2.5 h-2.5 rounded-full bg-amber-400 shadow-[0_0_8px_#f59e0b] animate-pulse"></span>
         <span class="text-zinc-400 uppercase text-[10px] tracking-wider font-bold">E-MU B-3 14-Bit SysEx Out:</span>
         <span id="sysex-display" class="text-amber-300 font-bold">F0 18 0F 00 56 01 02 00 03 5C 00 F7 (Drawbar 16': 8)</span>
       </div>
       <div class="text-zinc-500 text-[11px]">
-        Latency: <span class="text-emerald-400">0.5ms</span> | Device ID: <span class="text-zinc-300">0x00 (Model 0x56)</span>
+        Latency: <span class="text-emerald-400">0.4ms</span> | Device ID: <span class="text-zinc-300">0x00 (Model 0x56)</span>
       </div>
     </div>
 
   </div>
 
   <script>
+    // Tab Switching Functionality
+    function switchB3Tab(tabName) {
+      const tabs = ['drawbars', 'voice', 'patchcords', 'multimode', 'arp', 'librarian'];
+      tabs.forEach(t => {
+        const view = document.getElementById('subview-' + t);
+        const tabBtn = document.getElementById('tab-' + t);
+        if (view) {
+          if (t === tabName) {
+            view.classList.remove('hidden');
+            view.classList.add('flex');
+          } else {
+            view.classList.remove('flex');
+            view.classList.add('hidden');
+          }
+        }
+        if (tabBtn) {
+          if (t === tabName) tabBtn.classList.add('active');
+          else tabBtn.classList.remove('active');
+        }
+      });
+    }
+
+    // Voice Layer Switching
+    function selectVoiceLayer(layerNum) {
+      for (let i = 1; i <= 4; i++) {
+        const btn = document.getElementById('btn-layer-' + i);
+        if (btn) {
+          if (i === layerNum) {
+            btn.className = 'px-3 py-1 bg-amber-600 text-white font-bold text-xs rounded shadow cursor-pointer';
+            btn.innerText = `Layer ${i} (Active)`;
+          } else {
+            btn.className = 'px-3 py-1 bg-zinc-800 text-zinc-400 font-bold text-xs rounded hover:bg-zinc-700 cursor-pointer';
+            btn.innerText = `Layer ${i}`;
+          }
+        }
+      }
+    }
+
     // Drawbar Values (0 to 8)
     const drawbars = [8, 8, 8, 0, 0, 0, 0, 0, 8];
     const frequencies = [65.41, 98.0, 130.81, 261.63, 392.0, 523.25, 659.25, 783.99, 1046.5]; // C2, G2, C3, C4, G4, C5, E5, G5, C6
@@ -682,6 +1252,7 @@
       if (type === 'gospel') vals = [8, 8, 8, 8, 0, 0, 0, 0, 0];
       else if (type === 'jazz') vals = [8, 8, 8, 0, 0, 0, 0, 0, 0];
       else if (type === 'full') vals = [8, 8, 8, 8, 8, 8, 8, 8, 8];
+      else if (type === 'purple') vals = [8, 8, 8, 8, 0, 0, 0, 0, 8];
 
       vals.forEach((v, idx) => updateDrawbar(idx, v));
     }
@@ -728,6 +1299,7 @@
 
     // Preset Selector
     function loadB3Preset(idx) {
+      idx = parseInt(idx);
       const titles = [
         "000⁰ org:Killer B",
         "001⁰ org:Jimmy Smith Jazz",
@@ -735,76 +1307,185 @@
         "003⁰ org:Purple Rock Overdrive"
       ];
       document.getElementById('b3-lcd-line2').innerText = titles[idx] || titles[0];
+      document.getElementById('preset-selector').value = idx;
       if (idx == 0) setDrawbarPreset('jazz');
       else if (idx == 1) updateDrawbar(8, 0);
       else if (idx == 2) setDrawbarPreset('gospel');
-      else if (idx == 3) setDrawbarPreset('full');
+      else if (idx == 3) setDrawbarPreset('purple');
     }
 
     // Data Wheel
     let b3Val = 0;
     function rotateB3Wheel(dir) {
       b3Val = (b3Val + dir + 4) % 4;
-      document.getElementById('preset-selector').value = b3Val;
       loadB3Preset(b3Val);
     }
+
+    // Cursor Bump
     function b3CursorBump(dir) {
       rotateB3Wheel(dir);
     }
 
-    // Web Audio Tonewheel Organ & Leslie Simulation
+    // Web Audio Synthesizer Engine (Additive Tonewheels + Leslie + Percussion Click)
     let audioCtx = null;
-    function playOrganChord() {
-      if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-      if (audioCtx.state === 'suspended') audioCtx.resume();
 
-      const now = audioCtx.currentTime;
-      const rootNotes = [130.81, 164.81, 196.0]; // C Major triad (C3, E3, G3)
-
-      rootNotes.forEach(root => {
-        frequencies.forEach((fMultiplier, dbIdx) => {
-          const gainVal = (drawbars[dbIdx] / 8) * 0.05;
-          if (gainVal <= 0.001) return;
-
-          const osc = audioCtx.createOscillator();
-          const gain = audioCtx.createGain();
-
-          // Tonewheel sine with subtle harmonic grit
-          osc.type = 'sine';
-          const harmonicRatio = fMultiplier / 130.81;
-          osc.frequency.setValueAtTime(root * harmonicRatio, now);
-
-          // Leslie Rotary Speaker tremolo/chorale LFO
-          const tremoloSpeed = currentLeslie === 'fast' ? 6.5 : (currentLeslie === 'slow' ? 0.8 : 0);
-          if (tremoloSpeed > 0) {
-            const lfo = audioCtx.createOscillator();
-            const lfoGain = audioCtx.createGain();
-            lfo.frequency.setValueAtTime(tremoloSpeed, now);
-            lfoGain.gain.setValueAtTime(0.015, now);
-            lfo.connect(gain.gain);
-            lfo.start(now);
-            lfo.stop(now + 0.85);
-          }
-
-          gain.gain.setValueAtTime(0, now);
-          gain.gain.linearRampToValueAtTime(gainVal, now + 0.015); // Instant key contact click
-          gain.gain.exponentialRampToValueAtTime(0.0001, now + 0.85);
-
-          osc.connect(gain);
-          gain.connect(audioCtx.destination);
-
-          osc.start(now);
-          osc.stop(now + 0.85);
-        });
-      });
+    function initAudio() {
+      if (!audioCtx) {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      }
+      if (audioCtx.state === 'suspended') {
+        audioCtx.resume();
+      }
     }
 
+    function playOrganChord() {
+      initAudio();
+      const chord = [130.81, 164.81, 196.00]; // C Major chord root (C3, E3, G3)
+      const now = audioCtx.currentTime;
+
+      // Master Organ Gain
+      const masterGain = audioCtx.createGain();
+      masterGain.gain.setValueAtTime(0.22, now);
+      masterGain.gain.exponentialRampToValueAtTime(0.0001, now + 1.6);
+      masterGain.connect(audioCtx.destination);
+
+      // Waveshaper Tube Drive Saturation
+      const waveShaper = audioCtx.createWaveShaper();
+      waveShaper.curve = makeDistortionCurve(18);
+      waveShaper.connect(masterGain);
+
+      // Stereo Rotary Leslie Simulation
+      const panner = audioCtx.createStereoPanner ? audioCtx.createStereoPanner() : null;
+      if (panner) {
+        const lfoRate = currentLeslie === 'fast' ? 6.5 : (currentLeslie === 'slow' ? 0.7 : 0);
+        const lfo = audioCtx.createOscillator();
+        lfo.frequency.setValueAtTime(lfoRate, now);
+        lfo.connect(panner.pan);
+        lfo.start(now);
+        lfo.stop(now + 1.6);
+        waveShaper.connect(panner);
+        panner.connect(masterGain);
+      }
+
+      // Additive Drawbar Sine Oscillators
+      chord.forEach(rootFreq => {
+        const harmonicMultipliers = [0.5, 1.498, 1.0, 2.0, 2.996, 4.0, 5.04, 5.993, 8.0];
+        
+        drawbars.forEach((level, dbIdx) => {
+          if (level > 0) {
+            const osc = audioCtx.createOscillator();
+            const gain = audioCtx.createGain();
+            osc.type = 'sine';
+            osc.frequency.setValueAtTime(rootFreq * harmonicMultipliers[dbIdx], now);
+
+            // Amplitude based on drawbar level (0-8)
+            const amp = (level / 8) * 0.08;
+            gain.gain.setValueAtTime(amp, now);
+            gain.gain.exponentialRampToValueAtTime(0.0001, now + 1.5);
+
+            osc.connect(gain);
+            gain.connect(waveShaper);
+
+            osc.start(now);
+            osc.stop(now + 1.6);
+          }
+        });
+      });
+
+      // 3rd Harmonic Percussion Click
+      const percOsc = audioCtx.createOscillator();
+      const percGain = audioCtx.createGain();
+      percOsc.type = 'sine';
+      percOsc.frequency.setValueAtTime(130.81 * 2.996, now); // 3rd Harmonic
+      percGain.gain.setValueAtTime(0.25, now);
+      percGain.gain.exponentialRampToValueAtTime(0.0001, now + 0.15); // Fast decay
+      percOsc.connect(percGain);
+      percGain.connect(masterGain);
+      percOsc.start(now);
+      percOsc.stop(now + 0.16);
+
+      // Tone Wheel Mechanical Key Click Noise
+      const bufferSize = audioCtx.sampleRate * 0.012; // 12ms burst
+      const buffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
+      const data = buffer.getChannelData(0);
+      for (let i = 0; i < bufferSize; i++) {
+        data[i] = (Math.random() * 2 - 1) * Math.exp(-i / (bufferSize * 0.3));
+      }
+      const noise = audioCtx.createBufferSource();
+      noise.buffer = buffer;
+      const noiseGain = audioCtx.createGain();
+      noiseGain.gain.setValueAtTime(0.12, now);
+      noise.connect(noiseGain);
+      noiseGain.connect(masterGain);
+      noise.start(now);
+    }
+
+    function makeDistortionCurve(amount) {
+      const k = typeof amount === 'number' ? amount : 50;
+      const n_samples = 44100;
+      const curve = new Float32Array(n_samples);
+      const deg = Math.PI / 180;
+      for (let i = 0; i < n_samples; ++i) {
+        const x = (i * 2) / n_samples - 1;
+        curve[i] = ((3 + k) * x * 20 * deg) / (Math.PI + k * Math.abs(x));
+      }
+      return curve;
+    }
+
+    // Keyboard Spacebar trigger
     window.addEventListener('keydown', (e) => {
       if (e.code === 'Space' && e.target.tagName !== 'INPUT' && e.target.tagName !== 'SELECT') {
         e.preventDefault();
         playOrganChord();
       }
     });
+
+    // Knob Dragging Interaction
+    let isDragging = false;
+    let dragParam = null;
+    let startY = 0;
+    let currentRot = 0;
+
+    function startKnobDrag(e, param) {
+      isDragging = true;
+      dragParam = param;
+      startY = e.clientY;
+      const ptr = document.getElementById('ptr-' + param);
+      currentRot = ptr ? getRotationAngle(ptr) : 0;
+      window.addEventListener('mousemove', onKnobDrag);
+      window.addEventListener('mouseup', stopKnobDrag);
+    }
+
+    function onKnobDrag(e) {
+      if (!isDragging) return;
+      const deltaY = startY - e.clientY;
+      let newRot = Math.max(-135, Math.min(135, currentRot + deltaY * 2));
+      const ptr = document.getElementById('ptr-' + dragParam);
+      if (ptr) ptr.style.transform = `rotate(${newRot}deg)`;
+
+      // Emit SysEx
+      const normVal = Math.round(((newRot + 135) / 270) * 127);
+      const hex = normVal.toString(16).toUpperCase().padStart(2, '0');
+      document.getElementById('sysex-display').innerText = `F0 18 0F 00 56 01 03 01 00 ${hex} F7 (${dragParam.toUpperCase()}: ${normVal})`;
+    }
+
+    function stopKnobDrag() {
+      isDragging = false;
+      window.removeEventListener('mousemove', onKnobDrag);
+      window.removeEventListener('mouseup', stopKnobDrag);
+    }
+
+    function getRotationAngle(el) {
+      const st = window.getComputedStyle(el, null);
+      const tr = st.getPropertyValue("transform");
+      if (tr && tr !== "none") {
+        const values = tr.split('(')[1].split(')')[0].split(',');
+        const a = values[0];
+        const b = values[1];
+        return Math.round(Math.atan2(b, a) * (180/Math.PI));
+      }
+      return 0;
+    }
   </script>
 </body>
 </html>
