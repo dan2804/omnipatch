@@ -19,14 +19,14 @@
       position: relative;
     }
 
-    /* Organic curved swoosh accent line across panel */
+    /* Organic curved swoosh accent line across panel (Centered at 50% height) */
     .audity-wave-line {
       position: absolute;
-      top: 52%;
+      top: 50%;
       left: 0;
       right: 0;
       height: 1.5px;
-      background: linear-gradient(90deg, rgba(16,42,66,0.8) 0%, rgba(13,35,56,0.9) 35%, rgba(0,0,0,0.8) 70%, rgba(16,42,66,0.6) 100%);
+      background: linear-gradient(90deg, rgba(16,42,66,0.7) 0%, rgba(13,35,56,0.9) 35%, rgba(0,0,0,0.85) 70%, rgba(16,42,66,0.6) 100%);
       pointer-events: none;
       z-index: 1;
     }
@@ -118,6 +118,18 @@
       background: #a8b8c6;
     }
 
+    /* Oval Recessed Well for < and > cursor buttons */
+    .audity-btn-well {
+      width: 24px;
+      height: 29px;
+      border-radius: 12px;
+      background: radial-gradient(circle at 50% 50%, rgba(13,35,56,0.5) 0%, rgba(16,42,66,0.9) 100%);
+      box-shadow: inset 0 2px 4px rgba(0,0,0,0.85), 0 1px 1px rgba(255,255,255,0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
     /* Tactile Oval White Buttons */
     .audity-btn {
       width: 32px;
@@ -187,9 +199,9 @@
   </div>
 
   <!-- THE AUTHENTIC 1U METALLIC SLATE-BLUE HARDWARE RACK PANEL -->
-  <div class="w-full max-w-6xl audity-faceplate rounded-lg shadow-2xl flex items-center justify-between px-4 py-3 relative overflow-hidden">
+  <div class="w-full max-w-6xl audity-faceplate rounded-lg shadow-2xl flex items-center justify-between px-3 py-2.5 h-[122px] relative overflow-hidden">
     
-    <!-- Organic curved accent line -->
+    <!-- Organic curved accent line (Centered at 50% height) -->
     <div class="audity-wave-line"></div>
 
     <!-- LEFT RACK EAR -->
@@ -198,124 +210,136 @@
       <div class="w-2.5 h-3.5 rounded-sm bg-zinc-900/90 border border-zinc-600 shadow-inner"></div>
     </div>
 
-    <!-- LEFT SECTION: HEADPHONES, MODE BUTTON, & 4 REAL-TIME SOFT KNOBS (Exact match to sos_left.jpg) -->
+    <!-- LEFT SECTION: HEADPHONES, MODE BUTTON, & 4 REAL-TIME SOFT KNOBS (Exact match to sos_left.jpg & left_zoom.png) -->
     <div class="flex items-center gap-3 pl-4 z-10">
       
-      <!-- PHONES & MODE BUTTON STACK (Mode button on top, headphone jack on bottom) -->
-      <div class="flex flex-col justify-between items-start h-20 py-0.5 pr-2 border-r border-[#2d5a7d]/60">
-        <!-- Mode Button & Status LEDs (Top) -->
+      <!-- PHONES & MODE BUTTON STACK -->
+      <div class="flex flex-col justify-between items-center h-[102px] py-1 pr-3 border-r border-[#2d5a7d]/70">
+        <!-- Mode Button & Status LEDs (Top half, above line) -->
         <div class="flex items-center gap-2">
           <button onclick="cycleKnobMode()" class="w-7 h-5 rounded-full bg-gradient-to-b from-white via-zinc-100 to-zinc-300 border border-zinc-500 shadow-md active:translate-y-0.5 cursor-pointer" title="Switch Soft Knob Bank (A-D / E-H / ARP)"></button>
           <div class="flex flex-col gap-0.5 text-[7px] font-bold font-sans italic text-cyan-100 tracking-tighter leading-tight">
-            <div class="flex items-center gap-1"><div id="led-ad" class="led-dot led-green-on"></div> A-D</div>
-            <div class="flex items-center gap-1"><div id="led-eh" class="led-dot led-off"></div> E-H</div>
-            <div class="flex items-center gap-1"><div id="led-arp" class="led-dot led-off"></div> ARP</div>
+            <div class="flex items-center justify-between gap-1"><span>A-D</span> <div id="led-ad" class="led-dot led-green-on"></div></div>
+            <div class="flex items-center justify-between gap-1"><span>E-H</span> <div id="led-eh" class="led-dot led-off"></div></div>
+            <div class="flex items-center justify-between gap-1"><span>ARP</span> <div id="led-arp" class="led-dot led-off"></div></div>
           </div>
         </div>
 
-        <!-- 1/4" Headphone Jack (Bottom, aligned directly under button) -->
-        <div class="flex items-center gap-2 pl-0.5">
+        <!-- 1/4" Headphone Jack & Icon (Bottom half, below line) -->
+        <div class="flex flex-col items-center">
           <div class="w-5 h-5 rounded-full bg-zinc-900 border-2 border-zinc-400 shadow-inner flex items-center justify-center">
             <div class="w-2.5 h-2.5 rounded-full bg-black border border-zinc-700"></div>
           </div>
-          <svg class="w-3.5 h-3.5 text-cyan-200" fill="currentColor" viewBox="0 0 24 24" title="Headphones"><path d="M12 2C6.48 2 2 6.48 2 12v7c0 1.66 1.34 3 3 3h2v-8H4v-2c0-4.41 3.59-8 8-8s8 3.59 8 8v2h-3v8h2c1.66 0 3-1.34 3-3v-7c0-5.52-4.48-10-10-10z"/></svg>
+          <svg class="w-3 h-3 text-cyan-200 mt-0.5" fill="currentColor" viewBox="0 0 24 24" title="Headphones"><path d="M12 2C6.48 2 2 6.48 2 12v7c0 1.66 1.34 3 3 3h2v-8H4v-2c0-4.41 3.59-8 8-8s8 3.59 8 8v2h-3v8h2c1.66 0 3-1.34 3-3v-7c0-5.52-4.48-10-10-10z"/></svg>
         </div>
       </div>
 
-      <!-- 5 KNOBS: VOLUME + 4 SOFT KNOBS (Exact match to sos_left.jpg) -->
-      <div class="flex items-end gap-2.5">
-        <!-- Master Volume Knob -->
-        <div class="flex flex-col items-center w-11">
-          <div class="h-8"></div><!-- Spacer aligning with 3-line text above edit knobs -->
-          <div class="audity-knob" data-param="vol" data-id="1" data-val="100">
+      <!-- 5 KNOBS: VOLUME + 4 SOFT KNOBS (PERFECTLY CENTERED) -->
+      <div class="flex items-center gap-2">
+        <!-- Master Volume Knob Column -->
+        <div class="flex flex-col items-center justify-between h-[102px] w-[50px]">
+          <div class="h-[30px]"></div><!-- Spacer aligning with text above edit knobs -->
+          <div class="audity-knob mx-auto" data-param="vol" data-id="1" data-val="100">
             <div class="audity-knob-pointer"></div>
           </div>
-          <div class="text-[7.5px] font-bold font-sans italic text-cyan-100 mt-1 uppercase tracking-wider">
+          <div class="text-[7.5px] font-bold font-sans italic text-cyan-100 uppercase tracking-wider text-center w-full">
             VOLUME
           </div>
         </div>
 
         <!-- Knob A/E: Filter Cutoff / Attack / Resolution -->
-        <div class="flex flex-col items-center w-14">
-          <div class="w-full flex items-end justify-between text-[6px] font-bold font-sans italic text-cyan-100 leading-[7px] mb-1">
-            <div class="text-left tracking-tighter">
+        <div class="flex flex-col items-center justify-between h-[102px] w-[56px]">
+          <!-- Centered 3-line Text + Cyan Slash + LED -->
+          <div class="flex items-end justify-center gap-0.5 w-full h-[30px]">
+            <div class="text-[6px] font-bold font-sans italic text-cyan-100 leading-[7.5px] text-right tracking-tight">
               <div>FILTER CUTOFF</div>
               <div>FILTER ATTACK</div>
               <div>RESOLUTION</div>
             </div>
-            <div class="flex items-center pl-0.5">
-              <span class="text-cyan-300 font-bold mr-0.5">/</span>
+            <div class="flex items-end pb-0.5 pl-0.5">
+              <span class="text-cyan-300 font-bold text-[7px] mr-0.5">/</span>
               <div id="knob-a-led" class="led-dot led-red-on"></div>
             </div>
           </div>
-          <div class="audity-knob" data-param="cutoff" data-id="0x0180" data-val="92">
+          <!-- Centered Knob -->
+          <div class="audity-knob mx-auto" data-param="cutoff" data-id="0x0180" data-val="92">
             <div class="audity-knob-pointer"></div>
           </div>
-          <div class="text-[7.5px] font-bold font-sans italic text-cyan-100 mt-1 tracking-wider flex items-center gap-0.5">
-            <span id="knob-a-label">A/E</span><span class="text-cyan-300">/</span>
+          <!-- Centered Sub-Label -->
+          <div class="text-[7.5px] font-bold font-sans italic text-cyan-100 tracking-wider text-center w-full">
+            <span id="knob-a-label">A/E</span> <span class="text-cyan-300 font-bold">/</span>
           </div>
         </div>
 
         <!-- Knob B/F: Filter Res / Decay / Extension -->
-        <div class="flex flex-col items-center w-14">
-          <div class="w-full flex items-end justify-between text-[6px] font-bold font-sans italic text-cyan-100 leading-[7px] mb-1">
-            <div class="text-left tracking-tighter">
+        <div class="flex flex-col items-center justify-between h-[102px] w-[56px]">
+          <!-- Centered 3-line Text + Cyan Slash + LED -->
+          <div class="flex items-end justify-center gap-0.5 w-full h-[30px]">
+            <div class="text-[6px] font-bold font-sans italic text-cyan-100 leading-[7.5px] text-right tracking-tight">
               <div>FILTER RES</div>
               <div>FILTER DECAY/RLS</div>
               <div>EXTENSION</div>
             </div>
-            <div class="flex items-center pl-0.5">
-              <span class="text-cyan-300 font-bold mr-0.5">/</span>
+            <div class="flex items-end pb-0.5 pl-0.5">
+              <span class="text-cyan-300 font-bold text-[7px] mr-0.5">/</span>
               <div id="knob-b-led" class="led-dot led-red-on"></div>
             </div>
           </div>
-          <div class="audity-knob" data-param="reso" data-id="0x0181" data-val="65">
+          <!-- Centered Knob -->
+          <div class="audity-knob mx-auto" data-param="reso" data-id="0x0181" data-val="65">
             <div class="audity-knob-pointer"></div>
           </div>
-          <div class="text-[7.5px] font-bold font-sans italic text-cyan-100 mt-1 tracking-wider flex items-center gap-0.5">
-            <span id="knob-b-label">B/F</span><span class="text-cyan-300">/</span>
+          <!-- Centered Sub-Label -->
+          <div class="text-[7.5px] font-bold font-sans italic text-cyan-100 tracking-wider text-center w-full">
+            <span id="knob-b-label">B/F</span> <span class="text-cyan-300 font-bold">/</span>
           </div>
         </div>
 
         <!-- Knob C/G: Filter Env Amount / Amp Attack / Velocity -->
-        <div class="flex flex-col items-center w-14">
-          <div class="w-full flex items-end justify-between text-[6px] font-bold font-sans italic text-cyan-100 leading-[7px] mb-1">
-            <div class="text-left tracking-tighter">
+        <div class="flex flex-col items-center justify-between h-[102px] w-[56px]">
+          <!-- Centered 3-line Text + Cyan Slash + LED -->
+          <div class="flex items-end justify-center gap-0.5 w-full h-[30px]">
+            <div class="text-[6px] font-bold font-sans italic text-cyan-100 leading-[7.5px] text-right tracking-tight">
               <div>FILTER ENV AMNT</div>
               <div>AMP ATTACK</div>
               <div>VELOCITY</div>
             </div>
-            <div class="flex items-center pl-0.5">
-              <span class="text-cyan-300 font-bold mr-0.5">/</span>
+            <div class="flex items-end pb-0.5 pl-0.5">
+              <span class="text-cyan-300 font-bold text-[7px] mr-0.5">/</span>
               <div id="knob-c-led" class="led-dot led-red-on"></div>
             </div>
           </div>
-          <div class="audity-knob" data-param="env_amt" data-id="0x0182" data-val="78">
+          <!-- Centered Knob -->
+          <div class="audity-knob mx-auto" data-param="env_amt" data-id="0x0182" data-val="78">
             <div class="audity-knob-pointer"></div>
           </div>
-          <div class="text-[7.5px] font-bold font-sans italic text-cyan-100 mt-1 tracking-wider flex items-center gap-0.5">
-            <span id="knob-c-label">C/G</span><span class="text-cyan-300">/</span>
+          <!-- Centered Sub-Label -->
+          <div class="text-[7.5px] font-bold font-sans italic text-cyan-100 tracking-wider text-center w-full">
+            <span id="knob-c-label">C/G</span> <span class="text-cyan-300 font-bold">/</span>
           </div>
         </div>
 
         <!-- Knob D/H: Movement / Amp Decay / Gate -->
-        <div class="flex flex-col items-center w-14">
-          <div class="w-full flex items-end justify-between text-[6px] font-bold font-sans italic text-cyan-100 leading-[7px] mb-1">
-            <div class="text-left tracking-tighter">
+        <div class="flex flex-col items-center justify-between h-[102px] w-[56px]">
+          <!-- Centered 3-line Text + Cyan Slash + LED -->
+          <div class="flex items-end justify-center gap-0.5 w-full h-[30px]">
+            <div class="text-[6px] font-bold font-sans italic text-cyan-100 leading-[7.5px] text-right tracking-tight">
               <div>MOVEMENT</div>
               <div>AMP DECAY/RLS</div>
               <div>GATE</div>
             </div>
-            <div class="flex items-center pl-0.5">
-              <span class="text-cyan-300 font-bold mr-0.5">/</span>
+            <div class="flex items-end pb-0.5 pl-0.5">
+              <span class="text-cyan-300 font-bold text-[7px] mr-0.5">/</span>
               <div id="knob-d-led" class="led-dot led-red-on"></div>
             </div>
           </div>
-          <div class="audity-knob" data-param="movement" data-id="0x0183" data-val="45">
+          <!-- Centered Knob -->
+          <div class="audity-knob mx-auto" data-param="movement" data-id="0x0183" data-val="45">
             <div class="audity-knob-pointer"></div>
           </div>
-          <div class="text-[7.5px] font-bold font-sans italic text-cyan-100 mt-1 tracking-wider flex items-center gap-0.5">
-            <span id="knob-d-label">D/H</span><span class="text-cyan-300">/</span>
+          <!-- Centered Sub-Label -->
+          <div class="text-[7.5px] font-bold font-sans italic text-cyan-100 tracking-wider text-center w-full">
+            <span id="knob-d-label">D/H</span> <span class="text-cyan-300 font-bold">/</span>
           </div>
         </div>
       </div>
@@ -323,7 +347,7 @@
     </div>
 
     <!-- CENTER RECESSED HOUSING: 2x24 LCD SCREEN & AUDITY 2000 SCRIPT LOGO -->
-    <div class="audity-lcd-wedge px-6 py-2.5 flex flex-col items-center justify-between w-80 h-20 z-10">
+    <div class="audity-lcd-wedge px-6 py-1.5 flex flex-col items-center justify-between w-80 h-[96px] z-10 mx-1">
       
       <!-- 2x24 Dot-Matrix LCD Screen -->
       <div class="audity-lcd px-2.5 py-1.5 rounded flex flex-col justify-between font-lcd w-full h-11">
@@ -338,7 +362,7 @@
       </div>
 
       <!-- Script "audity 2000" logo with red inverted delta -->
-      <div class="flex items-center gap-1.5 pt-1">
+      <div class="flex items-center gap-1.5 pb-1">
         <span class="font-script text-xl font-bold tracking-widest text-white italic drop-shadow">audity</span>
         <span class="inline-block w-0 h-0 border-l-[4px] border-l-transparent border-r-[4px] border-r-transparent border-t-[8px] border-t-red-600"></span>
         <span class="font-brand text-xs font-black text-cyan-300 tracking-wider">2000</span>
@@ -346,85 +370,89 @@
 
     </div>
 
-    <!-- RIGHT SECTION: NAVIGATION BUTTONS, ROTARY DATA WHEEL, POWER SWITCH (Exact match to sos_right.jpg) -->
-    <div class="flex items-center gap-4 pr-5 z-10">
+    <!-- RIGHT SECTION: NAVIGATION BUTTONS, ROTARY DATA WHEEL, POWER SWITCH (Exact match to buttons_zoom.png) -->
+    <div class="flex items-center gap-3 pr-4 z-10">
       
-      <!-- 8 Tactile Buttons (4 columns x 2 rows of vertical oval buttons, matching sos_right.jpg) -->
-      <div class="flex flex-col gap-2">
+      <!-- 8 Tactile Buttons (4 columns x 2 rows of vertical oval buttons, Strictly Center-Aligned) -->
+      <div class="flex flex-col justify-between h-[102px] py-0.5">
         
-        <!-- ROW 1 (TOP ROW: Sits above the wave line) -->
-        <div class="flex items-end gap-3">
+        <!-- ROW 1 (TOP ROW: Sits entirely above the 50% wave line) -->
+        <div class="flex items-end gap-2.5">
           <!-- Button 1: MASTER / [LED] -->
-          <div class="flex flex-col items-center w-8">
-            <div class="flex items-center gap-0.5 mb-1 h-3">
+          <div class="flex flex-col items-center w-[48px]">
+            <div class="flex items-center justify-center gap-0.5 mb-1 h-3 w-full">
               <span class="text-[7.5px] font-bold italic font-sans text-cyan-100 tracking-tight">MASTER</span>
               <span class="text-cyan-300 font-bold text-[7.5px]">/</span>
               <div class="led-dot led-red-on ml-0.5"></div>
             </div>
-            <button onclick="switchAudityTab('voice')" class="audity-round-btn shadow-md active:translate-y-0.5" title="Master Mode"></button>
+            <button onclick="switchAudityTab('voice')" class="audity-round-btn mx-auto shadow-md active:translate-y-0.5 cursor-pointer" title="Master Mode"></button>
           </div>
 
           <!-- Button 2: EDIT / [LED] -->
-          <div class="flex flex-col items-center w-8">
-            <div class="flex items-center gap-0.5 mb-1 h-3">
+          <div class="flex flex-col items-center w-[48px]">
+            <div class="flex items-center justify-center gap-0.5 mb-1 h-3 w-full">
               <span class="text-[7.5px] font-bold italic font-sans text-cyan-100 tracking-tight">EDIT</span>
               <span class="text-cyan-300 font-bold text-[7.5px]">/</span>
               <div class="led-dot led-red-on ml-0.5"></div>
             </div>
-            <button onclick="switchAudityTab('voice')" class="audity-round-btn shadow-md active:translate-y-0.5" title="Edit Parameters"></button>
+            <button onclick="switchAudityTab('voice')" class="audity-round-btn mx-auto shadow-md active:translate-y-0.5 cursor-pointer" title="Edit Parameters"></button>
           </div>
 
-          <!-- Button 3: < (Cursor Left in recessed well, no label above) -->
-          <div class="flex flex-col items-center w-8">
+          <!-- Button 3: < (Cursor Left in recessed well) -->
+          <div class="flex flex-col items-center w-[48px]">
             <div class="h-3 mb-1"></div>
-            <button onclick="cursorBump(-1)" class="audity-round-btn shadow-md active:translate-y-0.5 flex items-center justify-center font-bold text-zinc-700 text-[11px] leading-none select-none" title="Cursor Left">&lt;</button>
+            <div class="audity-btn-well mx-auto">
+              <button onclick="cursorBump(-1)" class="audity-round-btn shadow-md active:translate-y-0.5 flex items-center justify-center font-bold text-zinc-700 text-[10px] leading-none select-none cursor-pointer" title="Cursor Left">&lt;</button>
+            </div>
           </div>
 
-          <!-- Button 4: > (Cursor Right in recessed well, no label above) -->
-          <div class="flex flex-col items-center w-8">
+          <!-- Button 4: > (Cursor Right in recessed well) -->
+          <div class="flex flex-col items-center w-[48px]">
             <div class="h-3 mb-1"></div>
-            <button onclick="cursorBump(1)" class="audity-round-btn shadow-md active:translate-y-0.5 flex items-center justify-center font-bold text-zinc-700 text-[11px] leading-none select-none" title="Cursor Right">&gt;</button>
+            <div class="audity-btn-well mx-auto">
+              <button onclick="cursorBump(1)" class="audity-round-btn shadow-md active:translate-y-0.5 flex items-center justify-center font-bold text-zinc-700 text-[10px] leading-none select-none cursor-pointer" title="Cursor Right">&gt;</button>
+            </div>
           </div>
         </div>
 
-        <!-- ROW 2 (BOTTOM ROW: Sits below the wave line) -->
-        <div class="flex items-start gap-3">
-          <!-- Button 1: CLOCK / [LED] (Label BELOW button) -->
-          <div class="flex flex-col items-center w-8">
-            <button onclick="switchAudityTab('multimode')" class="audity-round-btn shadow-md active:translate-y-0.5" title="Clock"></button>
-            <div class="flex items-center gap-0.5 mt-1 h-3">
+        <!-- ROW 2 (BOTTOM ROW: Sits entirely below the 50% wave line) -->
+        <div class="flex items-start gap-2.5">
+          <!-- Button 5: CLOCK / [LED] -->
+          <div class="flex flex-col items-center w-[48px]">
+            <button onclick="switchAudityTab('multimode')" class="audity-round-btn mx-auto shadow-md active:translate-y-0.5 cursor-pointer" title="Clock"></button>
+            <div class="flex items-center justify-center gap-0.5 mt-1 h-3 w-full">
               <span class="text-[7.5px] font-bold italic font-sans text-cyan-100 tracking-tight">CLOCK</span>
               <span class="text-cyan-300 font-bold text-[7.5px]">/</span>
               <div class="led-dot led-off ml-0.5"></div>
             </div>
           </div>
 
-          <!-- Button 2: ARP / [LED] (Label BELOW button) -->
-          <div class="flex flex-col items-center w-8">
-            <button onclick="switchAudityTab('arp')" class="audity-round-btn shadow-md active:translate-y-0.5" title="Arpeggiator"></button>
-            <div class="flex items-center gap-0.5 mt-1 h-3">
+          <!-- Button 6: ARP / [LED] -->
+          <div class="flex flex-col items-center w-[48px]">
+            <button onclick="switchAudityTab('arp')" class="audity-round-btn mx-auto shadow-md active:translate-y-0.5 cursor-pointer" title="Arpeggiator"></button>
+            <div class="flex items-center justify-center gap-0.5 mt-1 h-3 w-full">
               <span class="text-[7.5px] font-bold italic font-sans text-cyan-100 tracking-tight">ARP</span>
               <span class="text-cyan-300 font-bold text-[7.5px]">/</span>
               <div class="led-dot led-red-on ml-0.5"></div>
             </div>
           </div>
 
-          <!-- Button 3: SAVE/COPY / [LED] (Label BELOW button) -->
-          <div class="flex flex-col items-center w-8">
-            <button onclick="switchAudityTab('librarian')" class="audity-round-btn shadow-md active:translate-y-0.5" title="Save / Copy"></button>
-            <div class="flex items-center gap-0.5 mt-1 h-3">
+          <!-- Button 7: SAVE/COPY / [LED] -->
+          <div class="flex flex-col items-center w-[48px]">
+            <button onclick="switchAudityTab('librarian')" class="audity-round-btn mx-auto shadow-md active:translate-y-0.5 cursor-pointer" title="Save / Copy"></button>
+            <div class="flex items-center justify-center gap-0.5 mt-1 h-3 w-full">
               <span class="text-[6.5px] font-bold italic font-sans text-cyan-100 tracking-tighter">SAVE/COPY</span>
               <span class="text-cyan-300 font-bold text-[6.5px]">/</span>
               <div class="led-dot led-off ml-0.5"></div>
             </div>
           </div>
 
-          <!-- Button 4: HOME/ENTER / [GREEN LED] (Label BELOW button) -->
-          <div class="flex flex-col items-center w-8">
-            <button onclick="switchAudityTab('voice')" class="audity-round-btn shadow-md active:translate-y-0.5" title="Home / Enter"></button>
-            <div class="flex items-center gap-0.5 mt-1 h-3">
-              <span class="text-[6.5px] font-bold italic font-sans text-cyan-100 tracking-tighter">HOME/ENTER</span>
-              <span class="text-cyan-300 font-bold text-[6.5px]">/</span>
+          <!-- Button 8: HOME/ENTER / [GREEN LED] -->
+          <div class="flex flex-col items-center w-[48px]">
+            <button onclick="switchAudityTab('voice')" class="audity-round-btn mx-auto shadow-md active:translate-y-0.5 cursor-pointer" title="Home / Enter"></button>
+            <div class="flex items-center justify-center gap-0.5 mt-1 h-3 w-full">
+              <span class="text-[6px] font-bold italic font-sans text-cyan-100 tracking-tighter">HOME/ENTER</span>
+              <span class="text-cyan-300 font-bold text-[6px]">/</span>
               <div class="led-dot led-green-on ml-0.5"></div>
             </div>
           </div>
@@ -432,16 +460,16 @@
 
       </div>
 
-      <!-- Large Rotary Jog/Data Wheel (Matches sos_right.jpg size and placement) -->
-      <div class="flex flex-col items-center pl-2">
+      <!-- Large Rotary Jog/Data Wheel (Centered on the 50% line) -->
+      <div class="flex flex-col items-center pl-1">
         <div class="audity-data-wheel" onclick="rotateDataWheel(1)" title="Rotate Data Wheel">
           <div class="audity-dimple"></div>
         </div>
       </div>
 
-      <!-- Power Button & E-MU Logo Section (Exact match to sos_right.jpg) -->
-      <div class="flex flex-col items-center justify-between h-20 pl-2">
-        <!-- Authentic E-MU Logo with 3 horizontal bars -->
+      <!-- Power Button & E-MU Logo Section -->
+      <div class="flex flex-col items-center justify-between h-[102px] pl-1">
+        <!-- Authentic E-MU Logo with 3 horizontal bars (Upper half, above line) -->
         <div class="flex items-center gap-1.5 pt-1">
           <div class="flex flex-col gap-0.5">
             <div class="w-3 h-0.5 bg-white"></div>
@@ -451,16 +479,17 @@
           <span class="text-base font-black tracking-wider text-white font-sans drop-shadow">E-MU</span>
         </div>
 
-        <!-- Round White Power Button -->
+        <!-- Round White Power Button (Lower half, below line) -->
         <div class="flex flex-col items-center">
-          <button class="w-6 h-6 rounded-full bg-gradient-to-b from-white via-zinc-100 to-zinc-300 border border-zinc-500 shadow-md active:translate-y-0.5 flex items-center justify-center cursor-pointer" title="Power Switch"></button>
-          <span class="text-[7px] font-bold uppercase tracking-wider text-zinc-900 mt-0.5">POWER</span>
+          <button class="w-5 h-5 rounded-full bg-gradient-to-b from-white via-zinc-100 to-zinc-300 border border-zinc-500 shadow-md active:translate-y-0.5 flex items-center justify-center cursor-pointer" title="Power Switch"></button>
+          <span class="text-[6.5px] font-bold uppercase tracking-wider text-cyan-100 mt-0.5">POWER</span>
         </div>
 
         <!-- MIDI Activity LED -->
-        <div class="flex items-center gap-1 text-[7px] font-bold font-mono text-cyan-100">
-          <div class="led-dot led-red-on animate-pulse"></div>
+        <div class="flex items-center justify-center gap-0.5 text-[6.5px] font-bold font-mono text-cyan-100">
+          <span class="text-cyan-300 font-bold">/</span>
           <span>MIDI</span>
+          <div class="led-dot led-red-on animate-pulse ml-0.5"></div>
         </div>
       </div>
 
