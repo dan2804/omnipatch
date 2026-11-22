@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OmniPatch - Hardware-Themed Modern Synthesizer Editor</title>
+  <script src="tailwindcss.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@600;800;900&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap');
+    
+    .font-lcd { font-family: 'Share Tech Mono', monospace; }
+    .font-brand { font-family: 'Orbitron', sans-serif; }
+    .font-mono-code { font-family: 'JetBrains Mono', monospace; }
+
+    /* Theme Variable Defaults (Virus A Default) */
+    :root {
+      --bg-app: #0f1115;
+      --bg-panel: #161920;
+      --bg-card: #1c202a;
+      --border-main: #2b3240;
+      --accent-primary: #dc2626;
+      --accent-glow: rgba(220, 38, 38, 0.4);
+      --accent-secondary: #f87171;
+      --display-bg: #141f16;
+      --display-text: #72ff7e;
+      --display-glow: rgba(114, 255, 126, 0.6);
+      --badge-bg: #450a0a;
+      --badge-text: #fca5a5;
+      --knob-bg: radial-gradient(circle at 35% 35%, #353a47 0%, #15181f 80%);
+      --knob-pointer: #ffffff;
+    }
+
+    /* Akai AX60 Theme */
+    body.theme-ax60 {
+      --bg-app: #0d0f12;
+      --bg-panel: #14171c;
+      --bg-card: #1b2027;
+      --border-main: #2a323d;
+      --accent-primary: #0284c7;
+      --accent-glow: rgba(2, 132, 199, 0.4);
+      --accent-secondary: #38bdf8;
+      --display-bg: #140505;
+      --display-text: #ff3333;
+      --display-glow: rgba(255, 51, 51, 0.6);
+      --badge-bg: #082f49;
+      --badge-text: #7dd3fc;
+      --knob-bg: radial-gradient(circle at 35% 35%, #384252 0%, #171c24 80%);
+      --knob-pointer: #00e5ff;
+    }
+
+    /* E-MU Audity 2000 Theme */
+    body.theme-audity {
+      --bg-app: #09131c;
+      --bg-panel: #111f2c;
+      --bg-card: #192b3c;
+      --border-main: #2a435c;
+      --accent-primary: #2563eb;
+      --accent-glow: rgba(37, 99, 235, 0.4);
+      --accent-secondary: #60a5fa;
+      --display-bg: #142217;
+      --display-text: #6ee7b7;
+      --display-glow: rgba(110, 231, 183, 0.6);
+      --badge-bg: #1e3a8a;
+      --badge-text: #93c5fd;
+      --knob-bg: radial-gradient(circle at 35% 35%, #ffffff 0%, #cbd5e1 80%);
+      --knob-pointer: #0f172a;
+    }
+
+    /* Casio CZ-101 / CZ-5000 Theme */
+    body.theme-casio {
+      --bg-app: #111215;
+      --bg-panel: #18191f;
+      --bg-card: #20222a;
+      --border-main: #333644;
+      --accent-primary: #06b6d4;
+      --accent-glow: rgba(6, 182, 212, 0.4);
+      --accent-secondary: #f59e0b;
+      --display-bg: #182419;
+      --display-text: #a3e635;
+      --display-glow: rgba(163, 230, 53, 0.6);
+      --badge-bg: #164e63;
+      --badge-text: #67e8f9;
+      --knob-bg: radial-gradient(circle at 35% 35%, #3a3f50 0%, #161820 80%);
+      --knob-pointer: #22d3ee;
+    }
+
+    /* Dynamic Hardware Display Window */
+    .themed-display {
+      background: var(--display-bg);
+      border: 1px solid rgba(255,255,255,0.1);
+      box-shadow: inset 0 2px 6px rgba(0,0,0,0.8), 0 0 12px var(--accent-glow);
+    }
+    .themed-display-text {
+      color: var(--display-text);
+      text-shadow: 0 0 6px var(--display-glow);
+    }
+
+    /* Precision Modern Rotary Knob */
+    .modern-knob {
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      background: var(--knob-bg);
+      border: 1.5px solid var(--border-main);
+      box-shadow: 0 3px 6px rgba(0,0,0,0.5), inset 0 1px 1px rgba(255,255,255,0.15);
+      position: relative;
+      cursor: ns-resize;
+      user-select: none;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    }
+    .modern-knob:hover {
+      border-color: var(--accent-secondary);
+      box-shadow: 0 0 8px var(--accent-glow);
+    }
+    .knob-pointer-line {
+      width: 2px;
+      height: 12px;
+      background: var(--knob-pointer);
+      position: absolute;
+      top: 4px;
+      left: 20.5px;
+      border-radius: 1px;
+      box-shadow: 0 0 4px var(--accent-glow);
+    }
+
+    /* Chiclet Preset Buttons */
+    .theme-btn-chiclet {
+      transition: all 0.1s ease;
+    }
+    .theme-btn-chiclet.active {
+      box-shadow: 0 0 10px var(--accent-glow), inset 0 2px 4px rgba(0,0,0,0.5);
+      transform: translateY(1px);
+    }
+  </style>
+</head>
+<body class="bg-[var(--bg-app)] text-zinc-100 p-6 min-h-screen flex flex-col items-center justify-start font-sans select-none transition-colors duration-300">
+
+  <!-- THEME SELECTOR & HEADER TOOLBAR -->
+  <div class="w-full max-w-6xl mb-5 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 border-b border-[var(--border-main)] pb-4">
+    <div>
+      <div class="flex items-center gap-3">
+        <div class="w-3.5 h-3.5 rounded-full bg-[var(--accent-primary)] shadow-[0_0_10px_var(--accent-glow)] animate-pulse"></div>
+        <h1 class="text-xl font-bold tracking-tight text-white flex items-center gap-2">
+          OmniPatch <span class="text-xs px-2 py-0.5 rounded bg-[var(--badge-bg)] text-[var(--badge-text)] font-mono border border-[var(--border-main)]">Hardware-Themed Architecture</span>
+        </h1>
+      </div>
+      <p class="text-xs text-zinc-400 mt-0.5">High-Density Ergonomic Layout • Swappable Hardware DNA Themes • Zero Skeuomorphic Waste</p>
+    </div>
+
+    <!-- Active Synth Profile Switcher -->
+    <div class="flex items-center gap-2 bg-[var(--bg-panel)] p-1.5 rounded-lg border border-[var(--border-main)] shadow">
+      <span class="text-xs font-semibold text-zinc-400 pl-2">Theme DNA:</span>
+      <button onclick="setSynthTheme('virus')" id="btn-theme-virus" class="px-3 py-1 rounded text-xs font-bold transition bg-red-600 text-white shadow">
+        Access Virus
+      </button>
+      <button onclick="setSynthTheme('ax60')" id="btn-theme-ax60" class="px-3 py-1 rounded text-xs font-bold transition text-zinc-400 hover:text-white">
+        Akai AX60
+      </button>
+      <button onclick="setSynthTheme('audity')" id="btn-theme-audity" class="px-3 py-1 rounded text-xs font-bold transition text-zinc-400 hover:text-white">
+        E-MU Audity
+      </button>
+      <button onclick="setSynthTheme('casio')" id="btn-theme-casio" class="px-3 py-1 rounded text-xs font-bold transition text-zinc-400 hover:text-white">
+        Casio CZ
+      </button>
+    </div>
+  </div>
+
+  <!-- THE ERGONOMIC SYNTHESIZER EDITOR SURFACE -->
+  <div class="w-full max-w-6xl bg-[var(--bg-panel)] rounded-xl border border-[var(--border-main)] shadow-2xl overflow-hidden flex flex-col transition-colors duration-300">
+    
+    <!-- TOP PROGRAMMER & IDENTITY STRIP -->
+    <div class="px-5 py-3.5 bg-black/30 border-b border-[var(--border-main)] flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+      
+      <!-- Synth Title & Specs -->
+      <div class="flex items-center gap-4">
+        <div class="w-1.5 h-10 rounded bg-[var(--accent-primary)] shadow-[0_0_8px_var(--accent-glow)]"></div>
+        <div>
+          <div class="flex items-center gap-2">
+            <span id="synth-brand" class="font-bold text-sm tracking-widest text-[var(--accent-secondary)] uppercase">ACCESS MUSIC</span>
+            <span class="text-xs text-zinc-500">•</span>
+            <span id="synth-model" class="font-brand text-lg font-black text-white tracking-wider">VIRUS A</span>
+          </div>
+          <span id="synth-engine-tag" class="text-[10px] text-zinc-400 font-mono">16-Voice Dual DSP Virtual Analog Engine</span>
+        </div>
+      </div>
+
+      <!-- Center: Hardware-Matched LCD / LED Display Readout -->
+      <div class="themed-display px-4 py-2 rounded-lg flex items-center justify-between gap-6 w-full md:w-80 font-lcd transition-colors duration-300">
+        <div>
+          <div class="text-[10px] text-zinc-400 uppercase tracking-widest">Active Patch</div>
+          <div id="display-patch-name" class="text-sm font-bold themed-display-text tracking-wider truncate">A001: Aggro Hypersaw</div>
+        </div>
+        <div class="text-right">
+          <div id="display-param-label" class="text-[10px] text-zinc-400 uppercase">Cutoff 1</div>
+          <div id="display-param-val" class="text-base font-black themed-display-text">85 (67%)</div>
+        </div>
+      </div>
+
+      <!-- Action Toolbar -->
+      <div class="flex items-center gap-2">
+        <select id="preset-selector" onchange="loadPreset(this.value)" class="bg-[var(--bg-card)] border border-[var(--border-main)] text-xs text-zinc-200 rounded px-3 py-1.5 focus:outline-none focus:border-[var(--accent-primary)] font-mono">
+          <option value="0">Preset 1: Aggro Lead</option>
+          <option value="1">Preset 2: Deep Sub Bass</option>
+          <option value="2">Preset 3: Lush Pad Sweep</option>
+          <option value="3">Preset 4: Resonant Pluck</option>
+        </select>
+        <button onclick="playDemoSound()" class="px-3.5 py-1.5 bg-[var(--accent-primary)] hover:opacity-90 active:scale-95 text-white font-bold text-xs rounded shadow transition flex items-center gap-1.5">
+          <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          Audition
+        </button>
+      </div>
+
+    </div>
+
+    <!-- MAIN CONTROL MATRIX (4 LOGICAL COLUMNS) -->
+    <div class="p-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+      
+      <!-- SECTION 1: OSCILLATORS / SOUND GENERATORS -->
+      <div class="bg-[var(--bg-card)] p-4 rounded-lg border border-[var(--border-main)] flex flex-col justify-between gap-3">
+        <div class="flex items-center justify-between border-b border-[var(--border-main)] pb-2">
+          <span class="text-xs font-bold uppercase tracking-wider text-[var(--accent-secondary)]">Oscillators</span>
+          <span class="text-[10px] text-zinc-500 font-mono">DUAL CORE</span>
+        </div>
+
+        <div class="space-y-3">
+          <div>
+            <div class="flex justify-between text-xs text-zinc-300 mb-1">
+              <span>Osc 1 Waveform</span>
+              <span class="font-mono text-[var(--accent-secondary)]" id="readout-osc1">Saw (64)</span>
+            </div>
+            <div class="flex justify-around pt-1">
+              <div class="flex flex-col items-center">
+                <div class="modern-knob" data-param="osc1_shape" data-val="64">
+                  <div class="knob-pointer-line"></div>
+                </div>
+                <span class="text-[9px] text-zinc-400 mt-1">Shape</span>
+              </div>
+              <div class="flex flex-col items-center">
+                <div class="modern-knob" data-param="osc1_semi" data-val="0" data-min="-24" data-max="24">
+                  <div class="knob-pointer-line"></div>
+                </div>
+                <span class="text-[9px] text-zinc-400 mt-1">Semi</span>
+              </div>
+              <div class="flex flex-col items-center">
+                <div class="modern-knob" data-param="osc1_detune" data-val="6">
+                  <div class="knob-pointer-line"></div>
+                </div>
+                <span class="text-[9px] text-zinc-400 mt-1">Detune</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="pt-2 border-t border-[var(--border-main)]">
+            <div class="flex justify-between text-xs text-zinc-300 mb-1">
+              <span>Osc 2 & Sub/Noise</span>
+              <span class="font-mono text-[var(--accent-secondary)]" id="readout-mix">50/50</span>
+            </div>
+            <div class="flex justify-around pt-1">
+              <div class="flex flex-col items-center">
+                <div class="modern-knob" data-param="osc2_shape" data-val="64">
+                  <div class="knob-pointer-line"></div>
+                </div>
+                <span class="text-[9px] text-zinc-400 mt-1">Shape 2</span>
+              </div>
+              <div class="flex flex-col items-center">
+                <div class="modern-knob" data-param="fm_amt" data-val="15">
+                  <div class="knob-pointer-line"></div>
+                </div>
+                <span class="text-[9px] text-zinc-400 mt-1">FM / Sync</span>
+              </div>
+              <div class="flex flex-col items-center">
+                <div class="modern-knob" data-param="osc_mix" data-val="64">
+                  <div class="knob-pointer-line"></div>
+                </div>
+                <span class="text-[9px] text-zinc-400 mt-1">Balance</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECTION 2: DUAL FILTERS & RESONANCE CURVE -->
+      <div class="bg-[var(--bg-card)] p-4 rounded-lg border border-[var(--border-main)] flex flex-col justify-between gap-3">
+        <div class="flex items-center justify-between border-b border-[var(--border-main)] pb-2">
+          <span class="text-xs font-bold uppercase tracking-wider text-[var(--accent-secondary)]">Dual Filters</span>
+          <span class="text-[10px] text-zinc-500 font-mono" id="filter-slope-badge">24dB RESO</span>
+        </div>
+
+        <!-- Filter Frequency Curve Visualizer -->
+        <div class="bg-black/50 p-2 rounded border border-[var(--border-main)] h-24 flex items-center justify-center relative overflow-hidden">
+          <svg class="w-full h-full" viewBox="0 0 200 80">
+            <path id="filter-curve-bg" d="M 10 70 L 110 70 Q 130 10 145 40 T 190 75" fill="none" stroke="currentColor" class="text-[var(--border-main)]" stroke-width="2"/>
+            <path id="filter-curve-active" d="M 10 70 L 110 70 Q 130 10 145 40 T 190 75" fill="none" stroke="currentColor" class="text-[var(--accent-secondary)]" stroke-width="2.5" stroke-linecap="round"/>
+            <circle id="filter-cutoff-point" cx="130" cy="20" r="4" fill="currentColor" class="text-white shadow"/>
+          </svg>
+          <div class="absolute bottom-1 right-2 text-[9px] font-mono text-zinc-500">20Hz - 20kHz</div>
+        </div>
+
+        <!-- Filter Knobs -->
+        <div class="flex justify-around pt-1">
+          <div class="flex flex-col items-center">
+            <div class="modern-knob" data-param="cutoff" data-val="85">
+              <div class="knob-pointer-line"></div>
+            </div>
+            <span class="text-[9px] text-zinc-300 font-semibold mt-1">Cutoff 1</span>
+            <span class="text-[9px] font-mono text-[var(--accent-secondary)] readout">85</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <div class="modern-knob" data-param="reso" data-val="72">
+              <div class="knob-pointer-line"></div>
+            </div>
+            <span class="text-[9px] text-zinc-300 font-semibold mt-1">Resonance</span>
+            <span class="text-[9px] font-mono text-[var(--accent-secondary)] readout">72</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <div class="modern-knob" data-param="env_amt" data-val="55">
+              <div class="knob-pointer-line"></div>
+            </div>
+            <span class="text-[9px] text-zinc-300 font-semibold mt-1">Env Amount</span>
+            <span class="text-[9px] font-mono text-[var(--accent-secondary)] readout">+55</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECTION 3: ENVELOPE GENERATOR (ADSR / 8-STAGE PD) -->
+      <div class="bg-[var(--bg-card)] p-4 rounded-lg border border-[var(--border-main)] flex flex-col justify-between gap-3">
+        <div class="flex items-center justify-between border-b border-[var(--border-main)] pb-2">
+          <span class="text-xs font-bold uppercase tracking-wider text-[var(--accent-secondary)]">Envelope Generator</span>
+          <span class="text-[10px] text-zinc-500 font-mono" id="env-type-badge">ADSR</span>
+        </div>
+
+        <!-- Envelope Curve Visualizer -->
+        <div class="bg-black/50 p-2 rounded border border-[var(--border-main)] h-24 flex items-center justify-center relative overflow-hidden">
+          <svg class="w-full h-full" viewBox="0 0 200 80">
+            <polyline id="env-curve" points="10,75 35,15 80,45 150,45 190,75" fill="none" stroke="currentColor" class="text-[var(--accent-primary)]" stroke-width="2.5" stroke-linecap="round"/>
+            <circle cx="35" cy="15" r="3" fill="#ffffff"/>
+            <circle cx="80" cy="45" r="3" fill="#ffffff"/>
+            <circle cx="150" cy="45" r="3" fill="#ffffff"/>
+          </svg>
+        </div>
+
+        <!-- ADSR Faders/Knobs -->
+        <div class="grid grid-cols-4 gap-1 text-center">
+          <div class="flex flex-col items-center">
+            <div class="modern-knob" data-param="att" data-val="8">
+              <div class="knob-pointer-line"></div>
+            </div>
+            <span class="text-[9px] text-zinc-400 mt-1">Att</span>
+            <span class="text-[8px] font-mono text-zinc-300 readout">8</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <div class="modern-knob" data-param="dec" data-val="45">
+              <div class="knob-pointer-line"></div>
+            </div>
+            <span class="text-[9px] text-zinc-400 mt-1">Dec</span>
+            <span class="text-[8px] font-mono text-zinc-300 readout">45</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <div class="modern-knob" data-param="sus" data-val="70">
+              <div class="knob-pointer-line"></div>
+            </div>
+            <span class="text-[9px] text-zinc-400 mt-1">Sus</span>
+            <span class="text-[8px] font-mono text-zinc-300 readout">70</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <div class="modern-knob" data-param="rel" data-val="35">
+              <div class="knob-pointer-line"></div>
+            </div>
+            <span class="text-[9px] text-zinc-400 mt-1">Rel</span>
+            <span class="text-[8px] font-mono text-zinc-300 readout">35</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECTION 4: MODULATION MATRIX & HARDWARE TELEMETRY -->
+      <div class="bg-[var(--bg-card)] p-4 rounded-lg border border-[var(--border-main)] flex flex-col justify-between gap-3">
+        <div class="flex items-center justify-between border-b border-[var(--border-main)] pb-2">
+          <span class="text-xs font-bold uppercase tracking-wider text-[var(--accent-secondary)]">Mod Matrix & LFO</span>
+          <span class="text-[10px] text-zinc-500 font-mono">SLOT 1-4</span>
+        </div>
+
+        <div class="space-y-2 text-xs font-mono">
+          <div class="bg-black/30 p-2 rounded border border-[var(--border-main)] flex justify-between items-center">
+            <span class="text-zinc-400">LFO 1 &rarr; Cutoff</span>
+            <span class="text-[var(--accent-secondary)] font-bold">+45%</span>
+          </div>
+          <div class="bg-black/30 p-2 rounded border border-[var(--border-main)] flex justify-between items-center">
+            <span class="text-zinc-400">Velocity &rarr; Amp Env</span>
+            <span class="text-[var(--accent-secondary)] font-bold">+80%</span>
+          </div>
+          <div class="bg-black/30 p-2 rounded border border-[var(--border-main)] flex justify-between items-center">
+            <span class="text-zinc-400">ModWheel &rarr; LFO Rate</span>
+            <span class="text-[var(--accent-secondary)] font-bold">+65%</span>
+          </div>
+        </div>
+
+        <!-- Two-tone Chiclet Matrix for AX60/Casio or Memory Banks -->
+        <div class="pt-2 border-t border-[var(--border-main)]">
+          <div class="text-[9px] text-zinc-400 font-bold uppercase mb-1.5 flex justify-between">
+            <span>Direct Bank / Memory</span>
+            <span class="text-[var(--accent-secondary)]">8 SLOTS</span>
+          </div>
+          <div class="grid grid-cols-4 gap-1 text-[10px] font-bold">
+            <button class="theme-btn-chiclet active bg-[var(--accent-primary)] text-white py-1 rounded">01</button>
+            <button class="theme-btn-chiclet bg-zinc-800 text-zinc-300 py-1 rounded">02</button>
+            <button class="theme-btn-chiclet bg-zinc-800 text-zinc-300 py-1 rounded">03</button>
+            <button class="theme-btn-chiclet bg-zinc-800 text-zinc-300 py-1 rounded">04</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- LIVE TELEMETRY / PACKET INSPECTOR BAR -->
+    <div class="px-5 py-3 bg-black/60 border-t border-[var(--border-main)] flex flex-col md:flex-row items-start md:items-center justify-between gap-3 font-mono text-xs">
+      <div class="flex items-center gap-3">
+        <span class="text-[10px] uppercase font-bold text-[var(--accent-secondary)] bg-[var(--badge-bg)] border border-[var(--border-main)] px-2 py-0.5 rounded">
+          MIDI / SysEx Stream
+        </span>
+        <span id="telemetry-hex" class="text-amber-300 font-bold tracking-wider text-sm">
+          F0 00 20 33 01 10 70 40 28 55 F7
+        </span>
+      </div>
+      <div id="telemetry-info" class="text-zinc-400 text-[11px] truncate">
+        [Access Virus A] • [Omni ID: 10] • [Page 70] • [Param: 40 (Cutoff 1)] • [Value: 85]
+      </div>
+    </div>
+
+  </div>
+
+  <!-- INTERACTIVE THEME SWITCHING & SYNTH LOGIC SCRIPT -->
+  <script>
+    let activeTheme = 'virus';
+    let activeKnob = null;
+    let startY = 0;
+    let startVal = 0;
+
+    const themeConfigs = {
+      virus: {
+        brand: "ACCESS MUSIC",
+        model: "VIRUS A",
+        engine: "16-Voice Dual DSP Virtual Analog Engine",
+        displayPatch: "A001: Aggro Hypersaw",
+        filterSlope: "24dB RESO",
+        envType: "ADSR",
+        hex: "F0 00 20 33 01 10 70 40 28 55 F7",
+        info: "[Access Virus A] • [Omni ID: 10] • [Page 70] • [Param: 40 (Cutoff 1)] • [Value: 85]"
+      },
+      ax60: {
+        brand: "AKAI professional",
+        model: "AX60",
+        engine: "6-Voice Polyphonic Curtis CEM3394 Analog Engine",
+        displayPatch: "11: Resonant Saw Lead",
+        filterSlope: "CEM 24dB LPF",
+        envType: "ADSR",
+        hex: "B0 05 55",
+        info: "[Akai AX60] • [Tauntek Firmware] • [Channel 1: B0] • [CC 05 (VCF Cutoff)] • [Value: 85]"
+      },
+      audity: {
+        brand: "E-MU SYSTEMS",
+        model: "AUDITY 2000",
+        engine: "64-Voice 14-Pole Z-Plane Multimode Morfing Engine",
+        displayPatch: "000: edg:ACiDOPHiLUS",
+        filterSlope: "14-POLE Z-PLANE",
+        envType: "6-STAGE",
+        hex: "F0 18 0F 00 55 01 02 00 03 55 00 F7",
+        info: "[E-MU Audity 2000] • [Param: 0x0180 (L1 Cutoff)] • [Value: 85]"
+      },
+      casio: {
+        brand: "CASIO COMPUTER",
+        model: "CZ-1000 / CZ-101",
+        engine: "Phase Distortion Digital Synthesizer (DCO/DCW/DCA)",
+        displayPatch: "BRASS & LEAD 1",
+        filterSlope: "DCW PHASE",
+        envType: "8-STAGE RATE/LEVEL",
+        hex: "F0 44 00 00 70 00 14 55 F7",
+        info: "[Casio CZ Series] • [Model ID: 70] • [Param: 20 (DCW Cutoff)] • [Value: 85]"
+      }
+    };
+
+    function setSynthTheme(themeName) {
+      activeTheme = themeName;
+      document.body.className = `theme-${themeName}`;
+
+      // Update Toolbar buttons
+      ['virus', 'ax60', 'audity', 'casio'].forEach(t => {
+        const btn = document.getElementById(`btn-theme-${t}`);
+        if (t === themeName) {
+          btn.className = "px-3 py-1 rounded text-xs font-bold transition bg-[var(--accent-primary)] text-white shadow";
+        } else {
+          btn.className = "px-3 py-1 rounded text-xs font-bold transition text-zinc-400 hover:text-white";
+        }
+      });
+
+      // Update Content
+      const cfg = themeConfigs[themeName];
+      document.getElementById('synth-brand').innerText = cfg.brand;
+      document.getElementById('synth-model').innerText = cfg.model;
+      document.getElementById('synth-engine-tag').innerText = cfg.engine;
+      document.getElementById('display-patch-name').innerText = cfg.displayPatch;
+      document.getElementById('filter-slope-badge').innerText = cfg.filterSlope;
+      document.getElementById('env-type-badge').innerText = cfg.envType;
+      document.getElementById('telemetry-hex').innerText = cfg.hex;
+      document.getElementById('telemetry-info').innerText = cfg.info;
+
+      updateCutoffDisplay(85);
+    }
+
+    function updateKnobVisual(knobEl, val, min = 0, max = 127) {
+      const pct = (val - min) / (max - min);
+      const deg = -135 + (pct * 270);
+      const pointer = knobEl.querySelector('.knob-pointer-line');
+      if (pointer) {
+        pointer.style.transform = `rotate(${deg}deg)`;
+        pointer.style.transformOrigin = '1px 18px';
+      }
+      const parent = knobEl.parentElement;
+      if (parent) {
+        const readout = parent.querySelector('.readout');
+        if (readout) readout.innerText = val;
+      }
+    }
+
+    document.querySelectorAll('.modern-knob').forEach(knob => {
+      const val = parseInt(knob.getAttribute('data-val') || '64');
+      const min = parseInt(knob.getAttribute('data-min') || '0');
+      const max = parseInt(knob.getAttribute('data-max') || '127');
+      updateKnobVisual(knob, val, min, max);
+
+      knob.addEventListener('mousedown', (e) => {
+        e.preventDefault();
+        activeKnob = knob;
+        startY = e.clientY;
+        startVal = parseInt(knob.getAttribute('data-val') || '64');
+        document.body.style.cursor = 'ns-resize';
+      });
+    });
+
+    window.addEventListener('mousemove', (e) => {
+      if (!activeKnob) return;
+      const min = parseInt(activeKnob.getAttribute('data-min') || '0');
+      const max = parseInt(activeKnob.getAttribute('data-max') || '127');
+      const dy = startY - e.clientY;
+      let newVal = Math.min(max, Math.max(min, startVal + Math.round(dy * 0.8)));
+
+      activeKnob.setAttribute('data-val', newVal);
+      updateKnobVisual(activeKnob, newVal, min, max);
+
+      const param = activeKnob.getAttribute('data-param');
+      if (param === 'cutoff') {
+        updateCutoffDisplay(newVal);
+      }
+    });
+
+    window.addEventListener('mouseup', () => {
+      if (activeKnob) {
+        activeKnob = null;
+        document.body.style.cursor = 'default';
+      }
+    });
+
+    function updateCutoffDisplay(val) {
+      document.getElementById('display-param-val').innerText = `${val} (${Math.round((val/127)*100)}%)`;
+      
+      // Update Filter Curve Point SVG
+      const pt = document.getElementById('filter-cutoff-point');
+      if (pt) {
+        const cx = 70 + (val / 127) * 90;
+        const cy = 60 - Math.sin((val / 127) * Math.PI) * 45;
+        pt.setAttribute('cx', cx);
+        pt.setAttribute('cy', cy);
+      }
+
+      // Update Telemetry based on active theme
+      const toHex = (n) => n.toString(16).toUpperCase().padStart(2, '0');
+      if (activeTheme === 'virus') {
+        document.getElementById('telemetry-hex').innerText = `F0 00 20 33 01 10 70 40 28 ${toHex(val)} F7`;
+        document.getElementById('telemetry-info').innerText = `[Access Virus A] • [Omni ID: 10] • [Page 70] • [Param: 40 (Cutoff 1)] • [Value: ${val}]`;
+      } else if (activeTheme === 'ax60') {
+        document.getElementById('telemetry-hex').innerText = `B0 05 ${toHex(val)}`;
+        document.getElementById('telemetry-info').innerText = `[Akai AX60] • [Tauntek Firmware] • [Channel 1: B0] • [CC 05 (VCF Cutoff)] • [Value: ${val}]`;
+      } else if (activeTheme === 'audity') {
+        const vLsb = val & 0x7F;
+        const vMsb = (val >> 7) & 0x7F;
+        document.getElementById('telemetry-hex').innerText = `F0 18 0F 00 55 01 02 00 03 ${toHex(vLsb)} ${toHex(vMsb)} F7`;
+        document.getElementById('telemetry-info').innerText = `[E-MU Audity 2000] • [Param: 0x0180 (L1 Cutoff)] • [Value: ${val}]`;
+      } else if (activeTheme === 'casio') {
+        document.getElementById('telemetry-hex').innerText = `F0 44 00 00 70 00 14 ${toHex(val)} F7`;
+        document.getElementById('telemetry-info').innerText = `[Casio CZ Series] • [Model ID: 70] • [Param: 20 (DCW Cutoff)] • [Value: ${val}]`;
+      }
+    }
+
+    // Audio Audition Engine
+    let audioCtx = null;
+    function playDemoSound() {
+      if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+
+      const now = audioCtx.currentTime;
+      const osc = audioCtx.createOscillator();
+      const filter = audioCtx.createBiquadFilter();
+      const gain = audioCtx.createGain();
+
+      const cutoffVal = parseInt(document.querySelector('[data-param="cutoff"]')?.getAttribute('data-val') || '85');
+      const resoVal = parseInt(document.querySelector('[data-param="reso"]')?.getAttribute('data-val') || '72');
+
+      osc.type = activeTheme === 'ax60' ? 'sawtooth' : activeTheme === 'casio' ? 'triangle' : 'sawtooth';
+      osc.frequency.setValueAtTime(130.81, now); // C3
+
+      filter.type = 'lowpass';
+      const cutoffHz = 80 + Math.pow(cutoffVal / 127, 2) * 8000;
+      filter.frequency.setValueAtTime(cutoffHz, now);
+      filter.Q.setValueAtTime((resoVal / 127) * 16, now);
+
+      gain.gain.setValueAtTime(0, now);
+      gain.gain.linearRampToValueAtTime(0.25, now + 0.03);
+      gain.gain.exponentialRampToValueAtTime(0.0001, now + 0.9);
+
+      osc.connect(filter);
+      filter.connect(gain);
+      gain.connect(audioCtx.destination);
+
+      osc.start(now);
+      osc.stop(now + 0.95);
+    }
+  </script>
+</body>
+</html>

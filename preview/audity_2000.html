@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>E-MU Audity 2000 - Hardware & Multi-Component Editor Preview</title>
+  <script src="tailwindcss.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@600;800;900&family=Inter:wght@400;500;600;700;800&family=Caveat:wght@700&display=swap');
+    
+    .font-lcd { font-family: 'Share Tech Mono', monospace; }
+    .font-brand { font-family: 'Orbitron', sans-serif; }
+    .font-script { font-family: 'Caveat', cursive; }
+
+    /* E-MU Audity 2000 Anodized Metallic Electric Slate-Blue 1U Rack Panel */
+    .audity-faceplate {
+      background: linear-gradient(180deg, #5c97c4 0%, #467ea9 40%, #366c94 100%);
+      box-shadow: inset 0 2px 3px rgba(255,255,255,0.4), inset 0 -2px 4px rgba(0,0,0,0.6), 0 10px 30px rgba(0,0,0,0.85);
+      border: 1px solid #2d5a7d;
+      position: relative;
+    }
+
+    /* Organic curved swoosh accent line across panel */
+    .audity-wave-line {
+      position: absolute;
+      top: 52%;
+      left: 0;
+      right: 0;
+      height: 1.5px;
+      background: linear-gradient(90deg, rgba(16,42,66,0.8) 0%, rgba(13,35,56,0.9) 35%, rgba(0,0,0,0.8) 70%, rgba(16,42,66,0.6) 100%);
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    /* Center Recessed Dark Wedge Housing for LCD */
+    .audity-lcd-wedge {
+      background: linear-gradient(135deg, #18222d 0%, #0d131a 100%);
+      clip-path: polygon(4% 0%, 96% 0%, 100% 100%, 0% 100%);
+      box-shadow: inset 0 3px 8px rgba(0,0,0,0.9), 0 2px 5px rgba(0,0,0,0.6);
+      border-bottom: 2px solid #080c10;
+    }
+
+    /* 2x24 Lime Green Backlit Alphanumeric LCD */
+    .audity-lcd {
+      background: #18281a;
+      border: 2px solid #0d160e;
+      box-shadow: inset 0 3px 8px rgba(0,0,0,0.95), 0 0 12px rgba(114, 255, 126, 0.2);
+    }
+    .lcd-green-text {
+      color: #72ff7e;
+      text-shadow: 0 0 5px rgba(114, 255, 126, 0.75);
+    }
+
+    /* White Knobs with Black Pointer Line */
+    .audity-knob {
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 40% 40%, #ffffff 0%, #e6ebf0 55%, #bcc7d1 100%);
+      border: 1px solid #7c8a96;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.6), inset 0 1px 2px rgba(255,255,255,0.9);
+      position: relative;
+      cursor: ns-resize;
+      user-select: none;
+      z-index: 2;
+    }
+
+    .audity-knob-pointer {
+      width: 2px;
+      height: 11px;
+      background: #151c24;
+      position: absolute;
+      top: 3px;
+      left: 17px;
+      border-radius: 1px;
+    }
+
+    /* Large White Rotary Data Wheel with Finger Dimple */
+    .audity-data-wheel {
+      width: 62px;
+      height: 62px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 40% 35%, #ffffff 0%, #e4ebf2 60%, #b2c0cc 100%);
+      border: 2px solid #768594;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.7), inset 0 2px 3px rgba(255,255,255,0.95);
+      position: relative;
+      cursor: pointer;
+      user-select: none;
+      z-index: 2;
+    }
+
+    .audity-dimple {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 50% 50%, #ccd7e2 0%, #9caebd 100%);
+      box-shadow: inset 0 2px 4px rgba(0,0,0,0.6), 0 1px 1px rgba(255,255,255,0.5);
+      position: absolute;
+      top: 10px;
+      left: 24px;
+    }
+
+    /* Tactile Oval White Buttons */
+    .audity-btn {
+      width: 32px;
+      height: 20px;
+      border-radius: 10px;
+      background: linear-gradient(180deg, #ffffff 0%, #e8edf2 60%, #c8d3dc 100%);
+      border: 1px solid #7c8b99;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.5), inset 0 1px 1px rgba(255,255,255,0.8);
+      transition: all 0.08s ease;
+      cursor: pointer;
+      z-index: 2;
+    }
+    .audity-btn:active {
+      transform: translateY(1px);
+      box-shadow: inset 0 2px 4px rgba(0,0,0,0.6);
+      background: #bdcad6;
+    }
+
+    /* Status LEDs */
+    .led-dot {
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+    }
+    .led-off { background: #1c2720; box-shadow: inset 0 1px 2px rgba(0,0,0,0.8); }
+    .led-red-on { background: #ef4444; box-shadow: 0 0 6px #ef4444, 0 0 10px #dc2626; }
+    .led-green-on { background: #22c55e; box-shadow: 0 0 6px #22c55e, 0 0 10px #16a34a; }
+
+    /* Midi Quest Component Sub-Tabs */
+    .mq-tab {
+      transition: all 0.12s ease;
+    }
+    .mq-tab.active {
+      background: #1e293b;
+      border-bottom: 3px solid #38bdf8;
+      color: #ffffff;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body class="bg-zinc-950 text-zinc-100 p-6 min-h-screen flex flex-col items-center justify-start font-sans select-none">
+
+  <!-- Top Header Banner -->
+  <div class="w-full max-w-6xl mb-4 flex items-center justify-between border-b border-zinc-800 pb-3">
+    <div class="flex items-center gap-3">
+      <div class="w-3.5 h-3.5 rounded-full bg-blue-500 shadow-[0_0_10px_#3b82f6] animate-pulse"></div>
+      <div>
+        <h1 class="text-xl font-bold tracking-tight text-white flex items-center gap-2">
+          E-MU Audity 2000 <span class="text-xs px-2 py-0.5 rounded bg-blue-950/80 border border-blue-700/60 text-blue-300 font-mono">Midi Quest Architecture</span>
+        </h1>
+        <p class="text-xs text-zinc-400">14-Pole Z-Plane Morfing Engine • 4 Voice Layers • 24 Virtual PatchCords • 16-Channel MultiMode</p>
+      </div>
+    </div>
+    <div class="flex items-center gap-2">
+      <span class="text-xs text-zinc-400 font-mono">Preset:</span>
+      <select id="preset-selector" onchange="loadAudityPreset(this.value)" class="bg-zinc-900 border border-zinc-700 text-xs text-zinc-200 rounded px-2.5 py-1 focus:outline-none focus:border-blue-500 font-mono">
+        <option value="0">000: edg:ACiDOPHiLUS</option>
+        <option value="1">001: syn:Z-Plane Morph</option>
+        <option value="2">002: bas:Bad Acid Line</option>
+        <option value="3">003: vox:Ah-Ay-Ee Formant</option>
+      </select>
+      <button onclick="playDemoSound()" class="px-3 py-1 bg-blue-600 hover:bg-blue-500 active:scale-95 text-white font-bold text-xs rounded shadow transition flex items-center gap-1.5">
+        <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+        Audition Note
+      </button>
+    </div>
+  </div>
+
+  <!-- THE AUTHENTIC 1U METALLIC SLATE-BLUE HARDWARE RACK PANEL -->
+  <div class="w-full max-w-6xl audity-faceplate rounded-lg shadow-2xl flex items-center justify-between px-4 py-3 relative overflow-hidden">
+    
+    <!-- Organic curved accent line -->
+    <div class="audity-wave-line"></div>
+
+    <!-- LEFT RACK EAR -->
+    <div class="absolute left-2 top-0 bottom-0 flex flex-col justify-between py-2 pointer-events-none z-10">
+      <div class="w-2.5 h-3.5 rounded-sm bg-zinc-900/90 border border-zinc-600 shadow-inner"></div>
+      <div class="w-2.5 h-3.5 rounded-sm bg-zinc-900/90 border border-zinc-600 shadow-inner"></div>
+    </div>
+
+    <!-- LEFT SECTION: HEADPHONES, MODE BUTTON, & 4 REAL-TIME SOFT KNOBS -->
+    <div class="flex items-center gap-3 pl-4 z-10">
+      
+      <!-- 1/4" Headphone Jack -->
+      <div class="flex flex-col items-center">
+        <div class="w-5 h-5 rounded-full bg-zinc-900 border-2 border-zinc-400 shadow-inner flex items-center justify-center">
+          <div class="w-2 h-2 rounded-full bg-black"></div>
+        </div>
+        <span class="text-[7px] text-zinc-900 font-bold mt-1">PHONES</span>
+      </div>
+
+      <!-- Mode Button & Vertical Status LEDs -->
+      <div class="flex items-center gap-2 pl-1 border-l border-sky-900/40">
+        <button onclick="cycleKnobMode()" class="w-6 h-6 rounded-full bg-gradient-to-b from-white to-zinc-300 border border-zinc-500 shadow active:scale-95"></button>
+        <div class="flex flex-col gap-0.5 text-[7px] font-bold font-mono text-zinc-900 tracking-tighter">
+          <div class="flex items-center gap-1"><div id="led-ad" class="led-dot led-green-on"></div> A-D</div>
+          <div class="flex items-center gap-1"><div id="led-eh" class="led-dot led-off"></div> E-H</div>
+          <div class="flex items-center gap-1"><div id="led-arp" class="led-dot led-off"></div> ARP</div>
+        </div>
+      </div>
+
+      <!-- 5 Knobs (Volume + Soft Knobs A, B, C, D) -->
+      <div class="flex items-end gap-3 pl-2">
+        <!-- Master Volume -->
+        <div class="flex flex-col items-center">
+          <div class="audity-knob" data-param="vol" data-id="1" data-val="100">
+            <div class="audity-knob-pointer"></div>
+          </div>
+          <span class="text-[7px] font-bold uppercase text-zinc-900 mt-1">VOLUME</span>
+        </div>
+
+        <!-- Knob A/E: Filter Cutoff -->
+        <div class="flex flex-col items-center">
+          <div id="knob-a-led" class="led-dot led-red-on mb-1"></div>
+          <div class="audity-knob" data-param="cutoff" data-id="0x0180" data-val="92">
+            <div class="audity-knob-pointer"></div>
+          </div>
+          <div class="text-center text-[7px] font-bold leading-tight text-zinc-900 mt-1">
+            <div id="knob-a-label">CUTOFF</div>
+            <div class="font-mono text-zinc-800 text-[6px]" id="val-cutoff">92</div>
+          </div>
+        </div>
+
+        <!-- Knob B/F: Filter Resonance -->
+        <div class="flex flex-col items-center">
+          <div id="knob-b-led" class="led-dot led-red-on mb-1"></div>
+          <div class="audity-knob" data-param="reso" data-id="0x0181" data-val="65">
+            <div class="audity-knob-pointer"></div>
+          </div>
+          <div class="text-center text-[7px] font-bold leading-tight text-zinc-900 mt-1">
+            <div id="knob-b-label">RES / MORPH</div>
+            <div class="font-mono text-zinc-800 text-[6px]" id="val-reso">65</div>
+          </div>
+        </div>
+
+        <!-- Knob C/G: Filter Env Amount -->
+        <div class="flex flex-col items-center">
+          <div id="knob-c-led" class="led-dot led-red-on mb-1"></div>
+          <div class="audity-knob" data-param="env_amt" data-id="0x0182" data-val="78">
+            <div class="audity-knob-pointer"></div>
+          </div>
+          <div class="text-center text-[7px] font-bold leading-tight text-zinc-900 mt-1">
+            <div id="knob-c-label">ENV AMT</div>
+            <div class="font-mono text-zinc-800 text-[6px]" id="val-env-amt">+78%</div>
+          </div>
+        </div>
+
+        <!-- Knob D/H: Movement / Gate -->
+        <div class="flex flex-col items-center">
+          <div id="knob-d-led" class="led-dot led-red-on mb-1"></div>
+          <div class="audity-knob" data-param="movement" data-id="0x0183" data-val="45">
+            <div class="audity-knob-pointer"></div>
+          </div>
+          <div class="text-center text-[7px] font-bold leading-tight text-zinc-900 mt-1">
+            <div id="knob-d-label">MOVEMENT</div>
+            <div class="font-mono text-zinc-800 text-[6px]" id="val-movement">45</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- CENTER RECESSED HOUSING: 2x24 LCD SCREEN & AUDITY 2000 SCRIPT LOGO -->
+    <div class="audity-lcd-wedge px-6 py-2.5 flex flex-col items-center justify-between w-80 h-20 z-10">
+      
+      <!-- 2x24 Dot-Matrix LCD Screen -->
+      <div class="audity-lcd px-2.5 py-1.5 rounded flex flex-col justify-between font-lcd w-full h-11">
+        <div class="flex items-center justify-between text-xs font-bold lcd-green-text tracking-widest leading-none">
+          <span id="lcd-line1">L1 FILT: Ah-Ay-Ee 14P</span>
+          <span id="lcd-layer-tag">L1:ON</span>
+        </div>
+        <div class="flex items-center justify-between text-[11px] font-semibold lcd-green-text tracking-wider leading-none">
+          <span id="lcd-param-name">CUTOFF FREQ</span>
+          <span id="lcd-param-val" class="font-bold">92 (+72%)</span>
+        </div>
+      </div>
+
+      <!-- Script "audity 2000" logo with red inverted delta -->
+      <div class="flex items-center gap-1.5 pt-1">
+        <span class="font-script text-xl font-bold tracking-widest text-white italic drop-shadow">audity</span>
+        <span class="inline-block w-0 h-0 border-l-[4px] border-l-transparent border-r-[4px] border-r-transparent border-t-[8px] border-t-red-600"></span>
+        <span class="font-brand text-xs font-black text-cyan-300 tracking-wider">2000</span>
+      </div>
+
+    </div>
+
+    <!-- RIGHT SECTION: NAVIGATION BUTTONS, ROTARY DATA WHEEL, POWER SWITCH -->
+    <div class="flex items-center gap-3 pr-4 z-10">
+      
+      <!-- 8 Tactile Buttons (2 rows of 4) -->
+      <div class="grid grid-cols-4 gap-1.5">
+        <!-- Row 1 -->
+        <div class="flex flex-col items-center">
+          <div class="led-dot led-red-on mb-0.5"></div>
+          <button onclick="switchAudityTab('voice')" class="audity-btn"></button>
+          <span class="text-[6px] font-bold uppercase text-zinc-900 mt-0.5">MASTER</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <div class="led-dot led-red-on mb-0.5"></div>
+          <button onclick="switchAudityTab('voice')" class="audity-btn"></button>
+          <span class="text-[6px] font-bold uppercase text-zinc-900 mt-0.5">EDIT</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <div class="led-dot led-off mb-0.5"></div>
+          <button onclick="cursorBump(-1)" class="audity-btn flex items-center justify-center font-bold text-zinc-700 text-[9px]">&lt;</button>
+          <span class="text-[6px] font-bold uppercase text-zinc-900 mt-0.5">CURS</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <div class="led-dot led-off mb-0.5"></div>
+          <button onclick="cursorBump(1)" class="audity-btn flex items-center justify-center font-bold text-zinc-700 text-[9px]">&gt;</button>
+          <span class="text-[6px] font-bold uppercase text-zinc-900 mt-0.5">CURS</span>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="flex flex-col items-center">
+          <div class="led-dot led-off mb-0.5"></div>
+          <button onclick="switchAudityTab('multimode')" class="audity-btn"></button>
+          <span class="text-[6px] font-bold uppercase text-zinc-900 mt-0.5">MULTI</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <div class="led-dot led-red-on mb-0.5"></div>
+          <button onclick="switchAudityTab('arp')" class="audity-btn"></button>
+          <span class="text-[6px] font-bold uppercase text-zinc-900 mt-0.5">ARP</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <div class="led-dot led-off mb-0.5"></div>
+          <button onclick="switchAudityTab('librarian')" class="audity-btn"></button>
+          <span class="text-[6px] font-bold uppercase text-zinc-900 mt-0.5">SAVE</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <div class="led-dot led-green-on mb-0.5"></div>
+          <button onclick="switchAudityTab('voice')" class="audity-btn"></button>
+          <span class="text-[6px] font-bold uppercase text-zinc-900 mt-0.5">HOME</span>
+        </div>
+      </div>
+
+      <!-- Large Rotary Jog/Data Wheel -->
+      <div class="flex flex-col items-center pl-1">
+        <div class="audity-data-wheel" onclick="rotateDataWheel(1)">
+          <div class="audity-dimple"></div>
+        </div>
+      </div>
+
+      <!-- Power Button & E-MU Logo -->
+      <div class="flex flex-col items-center pl-2">
+        <div class="flex items-center gap-1 mb-1">
+          <span class="text-[10px] font-black tracking-tighter text-white font-sans">E-MU</span>
+        </div>
+        <button class="w-6 h-6 rounded-full bg-gradient-to-b from-white to-zinc-300 border border-zinc-500 shadow active:scale-95"></button>
+        <div class="flex items-center gap-1 mt-1 text-[6px] font-bold text-zinc-900 font-mono">
+          <div class="led-dot led-red-on"></div> MIDI
+        </div>
+      </div>
+
+    </div>
+
+    <!-- RIGHT RACK EAR -->
+    <div class="absolute right-2 top-0 bottom-0 flex flex-col justify-between py-2 pointer-events-none z-10">
+      <div class="w-2.5 h-3.5 rounded-sm bg-zinc-900/90 border border-zinc-600 shadow-inner"></div>
+      <div class="w-2.5 h-3.5 rounded-sm bg-zinc-900/90 border border-zinc-600 shadow-inner"></div>
+    </div>
+
+  </div>
+
+  <!-- MIDI QUEST COMPONENT SUB-VIEWS (TABBED CONSOLE) -->
+  <div class="w-full max-w-6xl mt-4 bg-zinc-900/95 border border-zinc-800 rounded-lg shadow-xl overflow-hidden flex flex-col">
+    
+    <!-- SUB-VIEW NAVIGATION BAR -->
+    <div class="flex items-center justify-between bg-zinc-950 px-4 border-b border-zinc-800 text-xs">
+      <div class="flex items-center gap-1">
+        <button onclick="switchAudityTab('voice')" id="tab-voice" class="mq-tab active px-4 py-2.5 text-zinc-300 hover:text-white flex items-center gap-1.5">
+          <svg class="w-3.5 h-3.5 fill-current text-cyan-400" viewBox="0 0 24 24"><path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/></svg>
+          Voice Editor (4 Layers)
+        </button>
+        <button onclick="switchAudityTab('multimode')" id="tab-multimode" class="mq-tab px-4 py-2.5 text-zinc-400 hover:text-white flex items-center gap-1.5">
+          <svg class="w-3.5 h-3.5 fill-current text-amber-400" viewBox="0 0 24 24"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"/></svg>
+          MultiMode Setup (16 Ch)
+        </button>
+        <button onclick="switchAudityTab('arp')" id="tab-arp" class="mq-tab px-4 py-2.5 text-zinc-400 hover:text-white flex items-center gap-1.5">
+          <svg class="w-3.5 h-3.5 fill-current text-emerald-400" viewBox="0 0 24 24"><path d="M3.5 18.49l6-6.01 4 4L22 6.92l-1.41-1.41-7.09 7.97-4-4L2 16.99z"/></svg>
+          16-Arpeggiator Engine
+        </button>
+        <button onclick="switchAudityTab('patchcords')" id="tab-patchcords" class="mq-tab px-4 py-2.5 text-zinc-400 hover:text-white flex items-center gap-1.5">
+          <svg class="w-3.5 h-3.5 fill-current text-pink-400" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+          24 Virtual PatchCords
+        </button>
+        <button onclick="switchAudityTab('librarian')" id="tab-librarian" class="mq-tab px-4 py-2.5 text-zinc-400 hover:text-white flex items-center gap-1.5">
+          <svg class="w-3.5 h-3.5 fill-current text-purple-400" viewBox="0 0 24 24"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H8V4h12v12z"/></svg>
+          Bank Librarian (896 Patches)
+        </button>
+      </div>
+      <span class="text-[10px] text-zinc-500 font-mono">SysEx Device ID: 00 • Model 55</span>
+    </div>
+
+    <!-- TAB 1: VOICE EDITOR (4-LAYER Z-PLANE ENGINE) -->
+    <div id="subview-voice" class="p-5 flex flex-col gap-4">
+      
+      <!-- Layer Selector Bar (L1, L2, L3, L4) -->
+      <div class="flex items-center justify-between bg-zinc-950 p-2.5 rounded border border-zinc-800">
+        <div class="flex items-center gap-2">
+          <span class="text-xs font-bold text-zinc-400 uppercase tracking-wider">Voice Layer:</span>
+          <button onclick="selectVoiceLayer(1)" id="btn-layer-1" class="px-3 py-1 bg-blue-600 text-white font-bold text-xs rounded shadow">Layer 1 (Active)</button>
+          <button onclick="selectVoiceLayer(2)" id="btn-layer-2" class="px-3 py-1 bg-zinc-800 text-zinc-400 font-bold text-xs rounded hover:bg-zinc-700">Layer 2</button>
+          <button onclick="selectVoiceLayer(3)" id="btn-layer-3" class="px-3 py-1 bg-zinc-800 text-zinc-400 font-bold text-xs rounded hover:bg-zinc-700">Layer 3</button>
+          <button onclick="selectVoiceLayer(4)" id="btn-layer-4" class="px-3 py-1 bg-zinc-800 text-zinc-400 font-bold text-xs rounded hover:bg-zinc-700">Layer 4</button>
+        </div>
+        <div class="flex items-center gap-4 text-xs font-mono text-zinc-400">
+          <label class="flex items-center gap-1.5"><input type="checkbox" checked class="accent-blue-500"> Layer Enable</label>
+          <span>Key Range: C-2 to G8</span>
+          <span>Vel Crossfade: OFF</span>
+        </div>
+      </div>
+
+      <!-- Layer 1 Engine Grid: Instrument, 14-Pole Z-Plane Filter, Envelopes -->
+      <div class="grid grid-cols-12 gap-4">
+        
+        <!-- Left: ROM Instrument Waveform & Pitch (Col 1-4) -->
+        <div class="col-span-4 bg-zinc-950/80 p-4 rounded border border-zinc-800 flex flex-col gap-3">
+          <div class="flex items-center justify-between border-b border-zinc-800 pb-2">
+            <span class="text-xs font-bold text-blue-400 uppercase tracking-wider">Sample Instrument</span>
+            <span class="text-[10px] text-zinc-500 font-mono">16-BIT ROM</span>
+          </div>
+          <div>
+            <label class="text-[10px] text-zinc-400 block mb-1">Instrument Category / Wave:</label>
+            <select class="w-full bg-zinc-900 border border-zinc-700 text-xs text-zinc-200 rounded p-1.5 font-mono">
+              <option>0042: Audity Acid TB Square</option>
+              <option selected>0018: Dual PWM Transients</option>
+              <option>0076: Digital Morf Bell Single</option>
+              <option>0112: Hyperbolic Bass Transient</option>
+            </select>
+          </div>
+          <div class="grid grid-cols-2 gap-3 pt-2">
+            <div>
+              <span class="text-[10px] text-zinc-400 block mb-1">Key Transpose</span>
+              <input type="number" value="0" min="-36" max="36" class="w-full bg-zinc-900 border border-zinc-700 text-xs text-zinc-200 rounded p-1 font-mono text-center">
+            </div>
+            <div>
+              <span class="text-[10px] text-zinc-400 block mb-1">Fine Detune</span>
+              <input type="number" value="4" min="-64" max="64" class="w-full bg-zinc-900 border border-zinc-700 text-xs text-zinc-200 rounded p-1 font-mono text-center">
+            </div>
+          </div>
+        </div>
+
+        <!-- Center: 14-Pole Z-Plane Multimode Filter (Col 5-8) -->
+        <div class="col-span-4 bg-zinc-950/80 p-4 rounded border border-zinc-800 flex flex-col gap-3">
+          <div class="flex items-center justify-between border-b border-zinc-800 pb-2">
+            <span class="text-xs font-bold text-cyan-400 uppercase tracking-wider">Z-Plane Filter (14-Pole)</span>
+            <span class="text-[10px] text-cyan-500 font-mono font-bold">50 MODELS</span>
+          </div>
+          <div>
+            <label class="text-[10px] text-zinc-400 block mb-1">Z-Plane Morphing Architecture:</label>
+            <select id="filter-type-select" onchange="changeFilterType(this.value)" class="w-full bg-zinc-900 border border-zinc-700 text-xs text-zinc-200 rounded p-1.5 font-mono">
+              <option value="0">01: 24dB Swept Lowpass (12-Pole)</option>
+              <option value="1" selected>08: Vocal Ah-Ay-Ee Formant (14-Pole)</option>
+              <option value="2">14: Flanger Lite Comb Filter</option>
+              <option value="3">22: Morf Z-Plane Vocalizer 4</option>
+              <option value="4">35: Resonant Bandpass Morph</option>
+            </select>
+          </div>
+          <div class="space-y-3 pt-1">
+            <div>
+              <div class="flex justify-between text-xs text-zinc-300 mb-1">
+                <span>Filter Cutoff (14-Bit)</span>
+                <span class="font-mono text-cyan-400" id="readout-cutoff">92</span>
+              </div>
+              <input type="range" min="0" max="127" value="92" oninput="updateCutoffSlider(this.value)" class="w-full accent-cyan-500">
+            </div>
+            <div>
+              <div class="flex justify-between text-xs text-zinc-300 mb-1">
+                <span>Resonance / Morph (14-Bit)</span>
+                <span class="font-mono text-cyan-400" id="readout-reso">65</span>
+              </div>
+              <input type="range" min="0" max="127" value="65" oninput="updateResoSlider(this.value)" class="w-full accent-cyan-500">
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Multi-Stage Envelopes & LFO (Col 9-12) -->
+        <div class="col-span-4 bg-zinc-950/80 p-4 rounded border border-zinc-800 flex flex-col gap-3">
+          <div class="flex items-center justify-between border-b border-zinc-800 pb-2">
+            <span class="text-xs font-bold text-amber-400 uppercase tracking-wider">Filter Envelope</span>
+            <span class="text-[10px] text-zinc-500 font-mono">6-STAGE</span>
+          </div>
+          <div class="grid grid-cols-4 gap-2 text-center text-xs">
+            <div>
+              <span class="text-[9px] text-zinc-400 block mb-1">Attack</span>
+              <input type="range" min="0" max="127" value="12" class="w-full accent-amber-500">
+              <span class="text-[9px] font-mono text-zinc-300">12</span>
+            </div>
+            <div>
+              <span class="text-[9px] text-zinc-400 block mb-1">Decay</span>
+              <input type="range" min="0" max="127" value="48" class="w-full accent-amber-500">
+              <span class="text-[9px] font-mono text-zinc-300">48</span>
+            </div>
+            <div>
+              <span class="text-[9px] text-zinc-400 block mb-1">Sustain</span>
+              <input type="range" min="0" max="127" value="70" class="w-full accent-amber-500">
+              <span class="text-[9px] font-mono text-zinc-300">70</span>
+            </div>
+            <div>
+              <span class="text-[9px] text-zinc-400 block mb-1">Release</span>
+              <input type="range" min="0" max="127" value="35" class="w-full accent-amber-500">
+              <span class="text-[9px] font-mono text-zinc-300">35</span>
+            </div>
+          </div>
+          <div class="pt-2 border-t border-zinc-800/80 flex items-center justify-between text-xs">
+            <span class="text-zinc-400">LFO 1 Sync: <strong class="text-white">MIDI Clock 1/16</strong></span>
+            <span class="text-zinc-400">LFO 2 Shape: <strong class="text-white">Triangle</strong></span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- TAB 2: MULTIMODE SETUP (16-CHANNEL MATRIX) -->
+    <div id="subview-multimode" class="hidden p-5 flex flex-col gap-3">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-2">
+        <div>
+          <h3 class="text-sm font-bold text-white uppercase tracking-wider">16-Channel MultiMode Mixing Console</h3>
+          <p class="text-xs text-zinc-400">Assign presets, balance volume, stereo panning, and aux submixes across all 16 channels simultaneously.</p>
+        </div>
+        <button class="px-3 py-1 bg-amber-600 hover:bg-amber-500 text-white font-bold text-xs rounded shadow">Dump Multi SysEx</button>
+      </div>
+
+      <div class="overflow-x-auto">
+        <table class="w-full text-left text-xs font-mono">
+          <thead class="bg-zinc-950 text-zinc-400 uppercase border-b border-zinc-800">
+            <tr>
+              <th class="p-2">Ch</th>
+              <th class="p-2">Assigned Preset (Bank / Patch)</th>
+              <th class="p-2">Vol</th>
+              <th class="p-2">Pan</th>
+              <th class="p-2">Submix</th>
+              <th class="p-2">Arp</th>
+              <th class="p-2 text-right">Status</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-zinc-800/60 text-zinc-300">
+            <tr class="hover:bg-zinc-800/40">
+              <td class="p-2 font-bold text-blue-400">01</td>
+              <td class="p-2 text-white font-semibold">User 0 #000: edg:ACiDOPHiLUS</td>
+              <td class="p-2">120</td>
+              <td class="p-2">Center</td>
+              <td class="p-2 text-cyan-400">Main</td>
+              <td class="p-2 text-emerald-400">Arp 1 (ON)</td>
+              <td class="p-2 text-right"><span class="w-2 h-2 rounded-full bg-green-500 inline-block"></span> Active</td>
+            </tr>
+            <tr class="hover:bg-zinc-800/40">
+              <td class="p-2 font-bold text-blue-400">02</td>
+              <td class="p-2 text-white font-semibold">ROM 2 #050: syn:Z-Plane Morph</td>
+              <td class="p-2">95</td>
+              <td class="p-2">L 25%</td>
+              <td class="p-2 text-cyan-400">Main</td>
+              <td class="p-2 text-zinc-500">OFF</td>
+              <td class="p-2 text-right"><span class="w-2 h-2 rounded-full bg-green-500 inline-block"></span> Active</td>
+            </tr>
+            <tr class="hover:bg-zinc-800/40">
+              <td class="p-2 font-bold text-blue-400">03</td>
+              <td class="p-2 text-white font-semibold">User 0 #012: bas:Bad Acid Line</td>
+              <td class="p-2">115</td>
+              <td class="p-2">Center</td>
+              <td class="p-2 text-cyan-400">Sub 1</td>
+              <td class="p-2 text-emerald-400">Arp 2 (ON)</td>
+              <td class="p-2 text-right"><span class="w-2 h-2 rounded-full bg-green-500 inline-block"></span> Active</td>
+            </tr>
+            <tr class="hover:bg-zinc-800/40">
+              <td class="p-2 font-bold text-blue-400">04</td>
+              <td class="p-2 text-white font-semibold">ROM 3 #029: pad:Solar Flare 99</td>
+              <td class="p-2">80</td>
+              <td class="p-2">R 40%</td>
+              <td class="p-2 text-cyan-400">Sub 2</td>
+              <td class="p-2 text-zinc-500">OFF</td>
+              <td class="p-2 text-right"><span class="w-2 h-2 rounded-full bg-zinc-600 inline-block"></span> Mute</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- TAB 3: 16-ARPEGGIATOR ENGINE -->
+    <div id="subview-arp" class="hidden p-5 flex flex-col gap-4">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-2">
+        <div>
+          <h3 class="text-sm font-bold text-emerald-400 uppercase tracking-wider">16 Simultaneous Independent Arpeggiators</h3>
+          <p class="text-xs text-zinc-400">Pattern step sequencer, variable gate, velocity scaling, and MIDI tempo synchronization.</p>
+        </div>
+        <div class="flex items-center gap-2 font-mono text-xs">
+          <span class="text-zinc-400">Master Clock:</span>
+          <span class="text-white font-bold bg-zinc-950 px-2 py-1 rounded border border-zinc-800">128 BPM</span>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-4 gap-3 text-xs">
+        <div class="bg-zinc-950 p-3 rounded border border-zinc-800 flex flex-col gap-2">
+          <div class="flex justify-between items-center text-emerald-400 font-bold">
+            <span>ARP 1 • BASSLINE</span>
+            <span class="text-green-400 text-[10px]">ACTIVE</span>
+          </div>
+          <div>Pattern: <strong class="text-white">Up/Down 16-Step</strong></div>
+          <div>Note Value: <strong class="text-white">1/16th Note</strong></div>
+          <div>Gate Time: <strong class="text-white">75%</strong></div>
+        </div>
+        <div class="bg-zinc-950 p-3 rounded border border-zinc-800 flex flex-col gap-2">
+          <div class="flex justify-between items-center text-emerald-400 font-bold">
+            <span>ARP 2 • ACID LEAD</span>
+            <span class="text-green-400 text-[10px]">ACTIVE</span>
+          </div>
+          <div>Pattern: <strong class="text-white">Euclidean 7/16</strong></div>
+          <div>Note Value: <strong class="text-white">1/16T Triplet</strong></div>
+          <div>Gate Time: <strong class="text-white">90%</strong></div>
+        </div>
+        <div class="bg-zinc-950 p-3 rounded border border-zinc-800 flex flex-col gap-2 opacity-60">
+          <div class="flex justify-between items-center text-zinc-400 font-bold">
+            <span>ARP 3 • PLUCK</span>
+            <span class="text-zinc-500 text-[10px]">STANDBY</span>
+          </div>
+          <div>Pattern: <strong class="text-white">Order Played</strong></div>
+          <div>Note Value: <strong class="text-white">1/8th Note</strong></div>
+          <div>Gate Time: <strong class="text-white">50%</strong></div>
+        </div>
+        <div class="bg-zinc-950 p-3 rounded border border-zinc-800 flex flex-col gap-2 opacity-60">
+          <div class="flex justify-between items-center text-zinc-400 font-bold">
+            <span>ARP 4 • CHORD STAB</span>
+            <span class="text-zinc-500 text-[10px]">STANDBY</span>
+          </div>
+          <div>Pattern: <strong class="text-white">Glissando Up</strong></div>
+          <div>Note Value: <strong class="text-white">1/4 Note</strong></div>
+          <div>Gate Time: <strong class="text-white">40%</strong></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 4: 24 VIRTUAL PATCHCORDS MODULATION MATRIX -->
+    <div id="subview-patchcords" class="hidden p-5 flex flex-col gap-3">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-2">
+        <div>
+          <h3 class="text-sm font-bold text-pink-400 uppercase tracking-wider">24 Virtual PatchCords (Modulation Matrix)</h3>
+          <p class="text-xs text-zinc-400">Route any controller, envelope, or LFO to any sound parameter with bipolar scaling.</p>
+        </div>
+        <button class="px-3 py-1 bg-pink-600 hover:bg-pink-500 text-white font-bold text-xs rounded shadow">+ Add Cord</button>
+      </div>
+
+      <div class="grid grid-cols-2 gap-3 text-xs font-mono">
+        <div class="bg-zinc-950 p-2.5 rounded border border-zinc-800 flex items-center justify-between">
+          <span class="text-pink-400 font-bold">Cord #01:</span>
+          <span>Source: <strong class="text-white">Mod Wheel (CC1)</strong></span>
+          <span>&rarr;</span>
+          <span>Dest: <strong class="text-cyan-400">Filter Morph</strong></span>
+          <span class="text-amber-300 font-bold">+85%</span>
+        </div>
+        <div class="bg-zinc-950 p-2.5 rounded border border-zinc-800 flex items-center justify-between">
+          <span class="text-pink-400 font-bold">Cord #02:</span>
+          <span>Source: <strong class="text-white">Key Velocity</strong></span>
+          <span>&rarr;</span>
+          <span>Dest: <strong class="text-cyan-400">Filter Cutoff</strong></span>
+          <span class="text-amber-300 font-bold">+60%</span>
+        </div>
+        <div class="bg-zinc-950 p-2.5 rounded border border-zinc-800 flex items-center justify-between">
+          <span class="text-pink-400 font-bold">Cord #03:</span>
+          <span>Source: <strong class="text-white">LFO 1</strong></span>
+          <span>&rarr;</span>
+          <span>Dest: <strong class="text-cyan-400">Pitch Detune</strong></span>
+          <span class="text-amber-300 font-bold">+12%</span>
+        </div>
+        <div class="bg-zinc-950 p-2.5 rounded border border-zinc-800 flex items-center justify-between">
+          <span class="text-pink-400 font-bold">Cord #04:</span>
+          <span>Source: <strong class="text-white">Filter Env</strong></span>
+          <span>&rarr;</span>
+          <span>Dest: <strong class="text-cyan-400">LFO 1 Rate</strong></span>
+          <span class="text-amber-300 font-bold">-40%</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 5: BANK LIBRARIAN (896 PRESETS) -->
+    <div id="subview-librarian" class="hidden p-5 flex flex-col gap-3">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-2">
+        <div>
+          <h3 class="text-sm font-bold text-purple-400 uppercase tracking-wider">Audity 2000 Preset Librarian (7 Banks / 896 Patches)</h3>
+          <p class="text-xs text-zinc-400">Instant SQLite FTS5 search across all factory & user banks.</p>
+        </div>
+        <input type="text" placeholder="Type to search (e.g. acid, bass, vocal)..." oninput="filterAudityPatches(this.value)" class="bg-zinc-950 border border-zinc-700 px-3 py-1 text-xs rounded text-zinc-200 w-64 focus:outline-none focus:border-purple-500 font-mono">
+      </div>
+
+      <div class="grid grid-cols-3 gap-2 text-xs font-mono max-h-48 overflow-y-auto" id="librarian-results">
+        <div class="bg-zinc-950 p-2 rounded border border-zinc-800 text-zinc-300 flex justify-between"><span>User 0 #000</span> <strong class="text-white">edg:ACiDOPHiLUS</strong></div>
+        <div class="bg-zinc-950 p-2 rounded border border-zinc-800 text-zinc-300 flex justify-between"><span>User 0 #001</span> <strong class="text-white">syn:Z-Plane Morph</strong></div>
+        <div class="bg-zinc-950 p-2 rounded border border-zinc-800 text-zinc-300 flex justify-between"><span>User 0 #012</span> <strong class="text-white">bas:Acidic</strong></div>
+        <div class="bg-zinc-950 p-2 rounded border border-zinc-800 text-zinc-300 flex justify-between"><span>ROM 2 #050</span> <strong class="text-white">vox:Ah-Ay-Ee 14P</strong></div>
+        <div class="bg-zinc-950 p-2 rounded border border-zinc-800 text-zinc-300 flex justify-between"><span>ROM 2 #126</span> <strong class="text-white">bas:BAD ACID</strong></div>
+        <div class="bg-zinc-950 p-2 rounded border border-zinc-800 text-zinc-300 flex justify-between"><span>ROM 3 #029</span> <strong class="text-white">raw:Acid Blomp</strong></div>
+      </div>
+    </div>
+
+    <!-- LIVE 14-BIT E-MU SYSEX TELEMETRY BAR -->
+    <div class="bg-black p-3 border-t border-zinc-800 flex flex-col md:flex-row items-start md:items-center justify-between gap-3 font-mono text-xs">
+      <div class="flex items-center gap-3">
+        <span class="text-[10px] uppercase font-bold text-blue-400 bg-blue-950/70 border border-blue-800/80 px-2 py-0.5 rounded">E-MU 14-Bit SysEx</span>
+        <span id="sysex-hex-display" class="text-amber-300 font-bold tracking-wider text-sm">F0 18 0F 00 55 01 02 00 03 5C 00 F7</span>
+      </div>
+      <div id="sysex-explanation" class="text-zinc-400 text-[11px] truncate">
+        [E-MU Systems: 18] • [Audity/Proteus: 0F] • [Device ID: 00] • [Model: 55] • [Param: 0x0180 (L1 Cutoff)] • [Value: 92]
+      </div>
+    </div>
+
+  </div>
+
+  <!-- SCRIPT LOGIC -->
+  <script>
+    let activeKnob = null;
+    let startY = 0;
+    let startVal = 0;
+    let knobMode = 0; // 0 = A-D, 1 = E-H, 2 = ARP
+
+    function updateKnobVisual(knobEl, val, min = 0, max = 127) {
+      const pct = (val - min) / (max - min);
+      const deg = -135 + (pct * 270);
+      const pointer = knobEl.querySelector('.audity-knob-pointer');
+      if (pointer) {
+        pointer.style.transform = `rotate(${deg}deg)`;
+        pointer.style.transformOrigin = '1px 16px';
+      }
+    }
+
+    document.querySelectorAll('.audity-knob').forEach(knob => {
+      const val = parseInt(knob.getAttribute('data-val') || '64');
+      updateKnobVisual(knob, val);
+
+      knob.addEventListener('mousedown', (e) => {
+        e.preventDefault();
+        activeKnob = knob;
+        startY = e.clientY;
+        startVal = parseInt(knob.getAttribute('data-val') || '64');
+        document.body.style.cursor = 'ns-resize';
+      });
+    });
+
+    window.addEventListener('mousemove', (e) => {
+      if (!activeKnob) return;
+      const dy = startY - e.clientY;
+      let newVal = Math.min(127, Math.max(0, startVal + Math.round(dy * 0.8)));
+
+      activeKnob.setAttribute('data-val', newVal);
+      updateKnobVisual(activeKnob, newVal);
+
+      const pid = parseInt(activeKnob.getAttribute('data-id') || '0x0180');
+      const paramName = activeKnob.getAttribute('data-param') || 'Param';
+
+      if (paramName === 'cutoff') {
+        document.getElementById('readout-cutoff').innerText = newVal;
+        document.getElementById('val-cutoff').innerText = newVal;
+        document.getElementById('lcd-param-name').innerText = 'CUTOFF FREQ';
+        document.getElementById('lcd-param-val').innerText = `${newVal} (${Math.round((newVal/127)*100)}%)`;
+      } else if (paramName === 'reso') {
+        document.getElementById('readout-reso').innerText = newVal;
+        document.getElementById('val-reso').innerText = newVal;
+        document.getElementById('lcd-param-name').innerText = 'RESO / MORPH';
+        document.getElementById('lcd-param-val').innerText = `${newVal} (${Math.round((newVal/127)*100)}%)`;
+      }
+
+      transmitEmuSysEx(pid, newVal, paramName);
+    });
+
+    window.addEventListener('mouseup', () => {
+      if (activeKnob) {
+        activeKnob = null;
+        document.body.style.cursor = 'default';
+      }
+    });
+
+    function transmitEmuSysEx(paramId, val, label) {
+      // E-MU 14-Bit Nibblized SysEx Format:
+      // F0 18 0F <dev_id> 55 01 02 <p_lsb> <p_msb> <v_lsb> <v_msb> F7
+      const devId = 0x00;
+      const pLsb = paramId & 0x7F;
+      const pMsb = (paramId >> 7) & 0x7F;
+      const vLsb = val & 0x7F;
+      const vMsb = (val >> 7) & 0x7F;
+
+      const toHex = (n) => n.toString(16).toUpperCase().padStart(2, '0');
+      const hexStr = `F0 18 0F ${toHex(devId)} 55 01 02 ${toHex(pLsb)} ${toHex(pMsb)} ${toHex(vLsb)} ${toHex(vMsb)} F7`;
+
+      document.getElementById('sysex-hex-display').innerText = hexStr;
+      document.getElementById('sysex-explanation').innerText = 
+        `[E-MU Systems: 18] • [Audity/Proteus: 0F] • [Device ID: ${toHex(devId)}] • [Param: 0x${paramId.toString(16).toUpperCase()} (${label.toUpperCase()})] • [Val: ${val}]`;
+
+      // Live Tauri IPC hook
+      if (window.__TAURI__ && window.__TAURI__.core) {
+        window.__TAURI__.core.invoke('send_parameter', {
+          deviceName: 'E-MU Audity 2000',
+          paramId: paramId,
+          value: val,
+          portIndex: null
+        }).catch(() => {});
+      }
+    }
+
+    function switchAudityTab(tabName) {
+      const tabs = ['voice', 'multimode', 'arp', 'patchcords', 'librarian'];
+      tabs.forEach(t => {
+        const el = document.getElementById(`subview-${t}`);
+        const btn = document.getElementById(`tab-${t}`);
+        if (el) el.classList.toggle('hidden', t !== tabName);
+        if (btn) btn.classList.toggle('active', t === tabName);
+      });
+    }
+
+    function cycleKnobMode() {
+      knobMode = (knobMode + 1) % 3;
+      document.getElementById('led-ad').className = `led-dot ${knobMode === 0 ? 'led-green-on' : 'led-off'}`;
+      document.getElementById('led-eh').className = `led-dot ${knobMode === 1 ? 'led-green-on' : 'led-off'}`;
+      document.getElementById('led-arp').className = `led-dot ${knobMode === 2 ? 'led-green-on' : 'led-off'}`;
+
+      if (knobMode === 0) {
+        document.getElementById('knob-a-label').innerText = 'CUTOFF';
+        document.getElementById('knob-b-label').innerText = 'RES / MORPH';
+        document.getElementById('knob-c-label').innerText = 'ENV AMT';
+        document.getElementById('knob-d-label').innerText = 'MOVEMENT';
+      } else if (knobMode === 1) {
+        document.getElementById('knob-a-label').innerText = 'FILT ATTACK';
+        document.getElementById('knob-b-label').innerText = 'FILT DECAY';
+        document.getElementById('knob-c-label').innerText = 'AMP ATTACK';
+        document.getElementById('knob-d-label').innerText = 'AMP DECAY';
+      } else {
+        document.getElementById('knob-a-label').innerText = 'ARP RES';
+        document.getElementById('knob-b-label').innerText = 'ARP EXT';
+        document.getElementById('knob-c-label').innerText = 'ARP VEL';
+        document.getElementById('knob-d-label').innerText = 'ARP GATE';
+      }
+    }
+
+    function updateCutoffSlider(val) {
+      val = parseInt(val);
+      const knob = document.querySelector('[data-param="cutoff"]');
+      if (knob) {
+        knob.setAttribute('data-val', val);
+        updateKnobVisual(knob, val);
+      }
+      document.getElementById('readout-cutoff').innerText = val;
+      document.getElementById('val-cutoff').innerText = val;
+      document.getElementById('lcd-param-name').innerText = 'CUTOFF FREQ';
+      document.getElementById('lcd-param-val').innerText = `${val} (${Math.round((val/127)*100)}%)`;
+      transmitEmuSysEx(0x0180, val, 'Cutoff');
+    }
+
+    function updateResoSlider(val) {
+      val = parseInt(val);
+      const knob = document.querySelector('[data-param="reso"]');
+      if (knob) {
+        knob.setAttribute('data-val', val);
+        updateKnobVisual(knob, val);
+      }
+      document.getElementById('readout-reso').innerText = val;
+      document.getElementById('val-reso').innerText = val;
+      document.getElementById('lcd-param-name').innerText = 'RESO / MORPH';
+      document.getElementById('lcd-param-val').innerText = `${val} (${Math.round((val/127)*100)}%)`;
+      transmitEmuSysEx(0x0181, val, 'Resonance');
+    }
+
+    function changeFilterType(idx) {
+      const names = [
+        "24dB Swept Lowpass",
+        "Ah-Ay-Ee 14P",
+        "Flanger Lite Comb",
+        "Morf Vocalizer",
+        "Bandpass Morph"
+      ];
+      document.getElementById('lcd-line1').innerText = `L1 FILT: ${names[parseInt(idx)]}`;
+    }
+
+    function selectVoiceLayer(layerNum) {
+      for (let i = 1; i <= 4; i++) {
+        const btn = document.getElementById(`btn-layer-${i}`);
+        if (btn) {
+          if (i === layerNum) {
+            btn.className = "px-3 py-1 bg-blue-600 text-white font-bold text-xs rounded shadow";
+            btn.innerText = `Layer ${i} (Active)`;
+          } else {
+            btn.className = "px-3 py-1 bg-zinc-800 text-zinc-400 font-bold text-xs rounded hover:bg-zinc-700";
+            btn.innerText = `Layer ${i}`;
+          }
+        }
+      }
+      document.getElementById('lcd-layer-tag').innerText = `L${layerNum}:ON`;
+    }
+
+    let dataWheelRotation = 0;
+    function rotateDataWheel(dir) {
+      dataWheelRotation += dir * 25;
+      const dimple = document.querySelector('.audity-dimple');
+      if (dimple) {
+        dimple.style.transform = `rotate(${dataWheelRotation}deg)`;
+        dimple.style.transformOrigin = '7px 21px';
+      }
+      cursorBump(dir);
+    }
+
+    function cursorBump(dir) {
+      const knob = document.querySelector('[data-param="cutoff"]');
+      if (knob) {
+        let cur = parseInt(knob.getAttribute('data-val') || '92');
+        cur = Math.min(127, Math.max(0, cur + dir * 2));
+        updateCutoffSlider(cur);
+      }
+    }
+
+    function loadAudityPreset(idx) {
+      const presets = [
+        { name: "000: edg:ACiDOPHiLUS", cutoff: 92, reso: 65, filt: 1 },
+        { name: "001: syn:Z-Plane Morph", cutoff: 64, reso: 85, filt: 3 },
+        { name: "002: bas:Bad Acid Line", cutoff: 42, reso: 110, filt: 0 },
+        { name: "003: vox:Ah-Ay-Ee Formant", cutoff: 80, reso: 75, filt: 1 }
+      ];
+      const p = presets[parseInt(idx)];
+      if (!p) return;
+      document.getElementById('lcd-line1').innerText = p.name;
+      updateCutoffSlider(p.cutoff);
+      updateResoSlider(p.reso);
+      document.getElementById('filter-type-select').value = p.filt;
+      changeFilterType(p.filt);
+    }
+
+    function filterAudityPatches(query) {
+      const container = document.getElementById('librarian-results');
+      const patches = [
+        { bank: "User 0 #000", name: "edg:ACiDOPHiLUS" },
+        { bank: "User 0 #001", name: "syn:Z-Plane Morph" },
+        { bank: "User 0 #012", name: "bas:Acidic" },
+        { bank: "ROM 2 #050", name: "vox:Ah-Ay-Ee 14P" },
+        { bank: "ROM 2 #126", name: "bas:BAD ACID" },
+        { bank: "ROM 3 #029", name: "raw:Acid Blomp" },
+        { bank: "ROM 3 #048", name: "sfx:Acid Rain" },
+        { bank: "ROM 4 #016", name: "bs4:Acid TB Line" }
+      ];
+      const q = query.toLowerCase().trim();
+      const filtered = patches.filter(p => p.name.toLowerCase().includes(q) || p.bank.toLowerCase().includes(q));
+      container.innerHTML = filtered.map(p => `
+        <div class="bg-zinc-950 p-2 rounded border border-zinc-800 text-zinc-300 flex justify-between">
+          <span>${p.bank}</span> <strong class="text-white">${p.name}</strong>
+        </div>
+      `).join('');
+    }
+
+    // Web Audio Dave Rossum Z-Plane Filter Emulation
+    let audioCtx = null;
+    function playDemoSound() {
+      if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+
+      const now = audioCtx.currentTime;
+      const osc1 = audioCtx.createOscillator();
+      const osc2 = audioCtx.createOscillator();
+      const filter1 = audioCtx.createBiquadFilter();
+      const filter2 = audioCtx.createBiquadFilter();
+      const gain = audioCtx.createGain();
+
+      const cutoffVal = parseInt(document.querySelector('[data-param="cutoff"]')?.getAttribute('data-val') || '92');
+      const resoVal = parseInt(document.querySelector('[data-param="reso"]')?.getAttribute('data-val') || '65');
+
+      osc1.type = 'sawtooth';
+      osc2.type = 'square';
+      osc1.frequency.setValueAtTime(146.83, now); // D3
+      osc2.frequency.setValueAtTime(146.83, now);
+      osc2.detune.setValueAtTime(8, now);
+
+      // Cascaded Dual Formant Biquads to model 14-Pole Z-Plane resonance
+      filter1.type = 'peaking';
+      filter2.type = 'lowpass';
+
+      const cutoffHz = 120 + Math.pow(cutoffVal / 127, 2) * 6500;
+      filter1.frequency.setValueAtTime(cutoffHz * 0.7, now);
+      filter1.Q.setValueAtTime((resoVal / 127) * 15, now);
+      filter1.gain.setValueAtTime(12, now);
+
+      filter2.frequency.setValueAtTime(cutoffHz, now);
+      filter2.Q.setValueAtTime((resoVal / 127) * 8, now);
+
+      gain.gain.setValueAtTime(0, now);
+      gain.gain.linearRampToValueAtTime(0.28, now + 0.03);
+      gain.gain.exponentialRampToValueAtTime(0.0001, now + 1.1);
+
+      osc1.connect(filter1);
+      osc2.connect(filter1);
+      filter1.connect(filter2);
+      filter2.connect(gain);
+      gain.connect(audioCtx.destination);
+
+      osc1.start(now);
+      osc2.start(now);
+      osc1.stop(now + 1.15);
+      osc2.stop(now + 1.15);
+    }
+  </script>
+</body>
+</html>
