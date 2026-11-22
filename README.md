@@ -31,12 +31,12 @@ Inspired by Sound Quest's **Midi Quest 13**, **OmniPatch** combines a clean, fas
 | **E-MU Carnaval** | 32-Voice Latin & World Percussion | 24 | 640 | BEATS interactive drum machine, X-Factor polyrhythmic groove crossfade, 5 Banks |
 | **E-MU Emax** | 12-Bit Analog VCF Sampler | 24 | 72 | SSM2047 24dB/oct resonant analog filters, dual AHDSR envs, dual voice stack, MIDI SDS |
 | **E-MU Emax II** | 16-Bit Stereo Workstation | 24 | 80 | 32-voice stereo sampling, digital resonant 4-pole VCF, Spectrum Interpolation, 4-layer stack |
-| **E-MU Xtreme Lead-1** | 64-Voice Dance & Techno Synth | 14 | 512 | Electric yellow chassis, black knobs & buttons, 50 Z-Plane filters, 16-track SuperBEATS |
-| **E-MU XL-7** | 128-Voice Desktop Workstation | 18 | 512 | Electric yellow console, 16 black rubber pads, 16 black knobs, 16-track sequencer (384 PPQN) |
-| **E-MU XK-6** | 61-Key Dance Performance Keyboard | 10 | 512 | Grey chassis with electric yellow control section, black buttons/knobs, 61 synth-action keys, SuperBEATS |
-| **E-MU Virtuoso 2000** | 128-Voice Virtual Orchestra | 10 | 512 | Light silver-grey 1U faceplate, black buttons, 64MB Orchestral Sessions Vol 1 & 2 ROMs, 50 Z-Plane filters |
-| **E-MU Vintage Pro** | 128-Voice Vintage Workstation | 10 | 512 | Two-tone Rhodes faceplate (satin black top / brushed grey bottom), fluted knobs, Rhodes/Moog/Prophet |
-| **E-MU Vintage Keys** | 32-Voice Vintage Keyboard Module | 10 | 512 | Matte black 1990s 1U chassis, green E-mu logo, retro 2x16 green LCD, classic SysEx ID 0x04 |
+| **E-MU Xtreme Lead-1** | 64-Voice Dance & Techno Synth | 14 | 512 | Electric yellow 1U chassis, black knobs & tactile buttons, 50 Z-Plane filters, 16-track SuperBEATS (Model ID 0x0F) |
+| **E-MU XL-7** | 128-Voice Desktop Workstation | 18 | 512 | Electric yellow desktop command station, 16 velocity pads, 16 knobs, 16-track sequencer (384 PPQN) |
+| **E-MU XK-6** | 61-Key Dance Performance Keyboard | 10 | 512 | Anthracite & electric yellow 61-key performance keyboard, 61 synth-action keys, SuperBEATS interactive engine |
+| **E-MU Virtuoso 2000** | 128-Voice Virtual Orchestra | 10 | 512 | Light silver-grey 1U faceplate, unbroken continuous navy wave line, black tactile buttons, 64MB Orchestral Sessions Vol 1 & 2 ROMs, 50 Z-Plane filters, 2x24 green LCD (Model ID 0x0D) |
+| **E-MU Vintage Pro** | 128-Voice Vintage Workstation | 10 | 512 | Two-tone pewter & black anodized faceplate with silver hex bolts, 5 spun-aluminum vintage knobs, 64MB Vintage Collection ROM, 9 Midi Quest 13 editors (Model ID 0x11) |
+| **E-MU Vintage Keys** | 32-Voice Vintage Keyboard Module | 10 | 512 | 1993 original 1U matte dark charcoal chassis, 11x5 cyan dot matrix, 2x16 green LCD, 5-button tactile matrix, stepped DATA wheel, red E•MU SYSTEMS logo (Model ID 0x0B) |
 | **E-MU Proteus 1000** | 64-Voice 1U Sound Module | 7 | 512 | Matte black 1U faceplate, high-contrast white knobs and buttons, Composer sound set |
 | **E-MU Proteus 2000** | 128-Voice Flagship Sound Module | 8 | 1,024 | Sleek black 1U chassis, greyish-white knobs, 32MB Composer ROM, 4 ROM expansion slots |
 | **E-MU Proteus 2500** | 128-Voice Command Station Console | 8 | 1,024 | Industrial grey desktop console, blue accents, 16 velocity pads, 16 knobs, multi-channel sequencer |
@@ -232,9 +232,24 @@ cargo build --release
 ./target/release/omnipatch librarian search "Trancer" -b library.db
 ```
 
-### Interactive UI Preview
+### Interactive UI & Hardware Previews
 
-Open `preview/index.html` in any modern web browser to interact with the **Windows 8 Metro UI Studio Hub** and authentic hardware panels for Access Virus A, Akai AX60, E-MU Audity 2000, E-MU B-3, E-MU Carnaval, E-MU Emax, E-MU Emax II, E-MU Xtreme Lead-1, E-MU XL-7 Command Station, E-MU XK-6 Performance Keyboard, E-MU Virtuoso 2000, E-MU Vintage Pro, and E-MU Vintage Keys!
+Open any of the following interactive prototypes in any modern web browser to test reactive controls, parameter editing, Web Audio sound playback, and real-time SysEx output:
+
+| Synthesizer | Preview File | Highlights |
+| :--- | :--- | :--- |
+| **OmniPatch Studio Hub** | [`preview/index.html`](preview/index.html) | Windows 8 Metro UI live tile dashboard & rack router |
+| **E-MU Vintage Keys (1993)** | [`preview/vintage_keys.html`](preview/vintage_keys.html) | 1U matte steel, 11x5 cyan dot matrix, 2x16 LCD, 8 keyboard engines, Model ID `0x0B` |
+| **E-MU Vintage Pro (2002)** | [`preview/vintage_pro.html`](preview/vintage_pro.html) | Two-tone pewter faceplate, 5 spun-aluminum knobs, 9 Midi Quest 13 editors, Model ID `0x11` |
+| **E-MU Virtuoso 2000** | [`preview/virtuoso_2000.html`](preview/virtuoso_2000.html) | Silver 1U rack, unbroken continuous navy wave line, 4-layer orchestral engine, Model ID `0x0D` |
+| **E-MU XK-6** | [`preview/xk6.html`](preview/xk6.html) | 61-key performance synthesizer, SuperBEATS groove engine, Model ID `0x0F` |
+| **E-MU XL-7 Command Station** | [`preview/xl7.html`](preview/xl7.html) | Electric yellow tabletop console, 16 rubber pads, 16 knobs, 16-track sequencer |
+| **E-MU Xtreme Lead-1** | [`preview/xl1.html`](preview/xl1.html) | Electric yellow 1U rack, 50 Z-Plane filters, techno/dance soundboard, Model ID `0x0F` |
+| **E-MU Carnaval** | [`preview/carnaval.html`](preview/carnaval.html) | Latin & world percussion, interactive BEATS drum machine, Model ID `0x08` |
+| **E-MU B-3** | [`preview/emu_b3.html`](preview/emu_b3.html) | Parchment faceplate, 9 Hammond drawbars, Leslie 122 rotary simulation, Model ID `0x0E` |
+| **E-MU Audity 2000 (v2)** | [`preview/audity_2000.html`](preview/audity_2000.html) | Metallic light blue faceplate, 64-voice modular rack, 4 sub-editors, Model ID `0x0C` |
+| **Access Virus A** | [`preview/virus_a.html`](preview/virus_a.html) | Red anodized chassis, wood side cheeks, DSP56303 virtual analog engine |
+| **Akai AX60** | [`preview/ax60.html`](preview/ax60.html) | Curtis CEM3394 analog sliders, Tauntek CC mapping, sampler input routing |
 
 ---
 
