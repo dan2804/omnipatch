@@ -384,64 +384,71 @@
     </div>
 
     <!-- RIGHT SECTION: 5 BLACK BUTTONS, DATA WHEEL, POWER SWITCH, 2 SCREWS, E-MU LOGO -->
-    <div class="flex items-center gap-3.5 pr-4 z-10">
+    <div class="flex items-center gap-4 pr-4 z-10">
       
       <!-- 5 TACTILE BLACK ROUND BUTTONS (Exact match to bn1_1.jpg) -->
       <div class="flex flex-col justify-between h-[86px] py-1">
         
         <!-- ROW 1 (Top: MASTER, EDIT, < CURSOR >) -->
-        <div class="flex items-end gap-3.5">
+        <div class="flex items-end gap-4">
           
-          <!-- Button 1: MASTER (with red LED to its left) -->
-          <div class="flex flex-col items-center">
+          <!-- Column 1: MASTER (LED on left, text centered directly above button) -->
+          <div class="flex flex-col items-center w-8">
             <span class="silkscreen-yellow text-[10px] leading-tight mb-1">MASTER</span>
-            <div class="flex items-center gap-1.5">
-              <div id="led-master" class="led-dot led-red-on"></div>
-              <button onclick="switchCarnavalTab('beats')" class="carnaval-btn-round" title="Master Mode"></button>
+            <div class="relative flex items-center justify-center">
+              <div id="led-master" class="led-dot led-red-on absolute -left-2.5 top-2"></div>
+              <button onclick="switchCarnavalTab('global')" class="carnaval-btn-round" title="Master / Global Settings"></button>
             </div>
           </div>
 
-          <!-- Button 2: EDIT (with red LED to its left) -->
-          <div class="flex flex-col items-center">
+          <!-- Column 2: EDIT (LED on left, text centered directly above button) -->
+          <div class="flex flex-col items-center w-8">
             <span class="silkscreen-yellow text-[10px] leading-tight mb-1">EDIT</span>
-            <div class="flex items-center gap-1.5">
-              <div id="led-edit" class="led-dot led-off"></div>
-              <button onclick="switchCarnavalTab('voice')" class="carnaval-btn-round" title="Edit Parameters"></button>
+            <div class="relative flex items-center justify-center">
+              <div id="led-edit" class="led-dot led-off absolute -left-2.5 top-2"></div>
+              <button onclick="switchCarnavalTab('preset')" class="carnaval-btn-round" title="Edit Parameters"></button>
             </div>
           </div>
 
-          <!-- Buttons 3 & 4: < CURSOR > (Two round buttons under unified label) -->
+          <!-- Columns 3 & 4: < CURSOR > (Centered above the two cursor buttons) -->
           <div class="flex flex-col items-center pl-1">
             <span class="silkscreen-yellow text-[10px] leading-tight mb-1">&lt; CURSOR &gt;</span>
             <div class="flex items-center gap-2">
-              <button onclick="carnavalCursorBump(-1)" class="carnaval-btn-round" title="Cursor Left"></button>
-              <button onclick="carnavalCursorBump(1)" class="carnaval-btn-round" title="Cursor Right"></button>
+              <div class="w-8 flex justify-center">
+                <button onclick="carnavalCursorBump(-1)" class="carnaval-btn-round" title="Cursor Left"></button>
+              </div>
+              <div class="w-8 flex justify-center">
+                <button onclick="carnavalCursorBump(1)" class="carnaval-btn-round" title="Cursor Right"></button>
+              </div>
             </div>
           </div>
 
         </div>
 
-        <!-- ROW 2 (Bottom: └─ BEATS ─┘ bracket, HOME/ENTER, • — MIDI) -->
-        <div class="flex items-center justify-between">
+        <!-- ROW 2 (Bottom: └─ BEATS ─┘, HOME/ENTER, • — MIDI) -->
+        <div class="flex items-center gap-4 mt-1">
           
-          <!-- └─ BEATS ─┘ Cyan Bracket under Master & Edit -->
-          <div class="flex items-center justify-center text-[8px] font-black italic text-[#38bdf8] tracking-widest pl-2">
-            <span>└─ BEATS ─┘</span>
+          <!-- Span across Column 1 & 2: └─ BEATS ─┘ Bracket -->
+          <div class="w-[72px] flex items-center justify-center -mt-1 pl-1">
+            <div class="flex items-center gap-0.5 text-[#38bdf8] text-[8.5px] font-black italic tracking-widest font-carnaval-festive">
+              <span class="text-[10px]">└─</span>
+              <span class="text-[9px] px-0.5">BEATS</span>
+              <span class="text-[10px]">─┘</span>
+            </div>
           </div>
 
-          <!-- 2x2 Lower Column: HOME/ENTER (directly under < button) and • — MIDI (directly under > button) -->
-          <div class="flex items-center gap-3 pl-3">
-            <!-- HOME/ENTER button with LED to its left -->
-            <div class="flex flex-col items-center">
-              <div class="flex items-center gap-1.5">
-                <div id="led-home" class="led-dot led-off"></div>
-                <button onclick="switchCarnavalTab('beats')" class="carnaval-btn-round" title="Home / Enter"></button>
-              </div>
-              <span class="silkscreen-yellow text-[8.5px] mt-0.5">HOME/ENTER</span>
+          <!-- Column 3: HOME/ENTER (Directly aligned with < button above) -->
+          <div class="w-8 flex flex-col items-center pl-1">
+            <div class="relative flex items-center justify-center">
+              <div id="led-home" class="led-dot led-off absolute -left-2.5 top-2"></div>
+              <button onclick="switchCarnavalTab('beats')" class="carnaval-btn-round" title="Home / Enter"></button>
             </div>
-            
-            <!-- • — MIDI Activity Indicator -->
-            <div class="flex items-center gap-1 text-[9px] font-bold silkscreen-yellow pb-2">
+            <span class="silkscreen-yellow text-[8px] whitespace-nowrap mt-0.5">HOME/ENTER</span>
+          </div>
+
+          <!-- Column 4: • — MIDI (Directly aligned with > button above) -->
+          <div class="w-8 flex items-center justify-center mb-3">
+            <div class="flex items-center gap-1 text-[9px] font-bold silkscreen-yellow whitespace-nowrap">
               <div id="led-midi" class="led-dot led-red-on animate-pulse"></div>
               <span>— MIDI</span>
             </div>
@@ -497,34 +504,42 @@
   <div class="w-full max-w-6xl mt-4 bg-zinc-900/95 border border-zinc-800 rounded-lg shadow-xl overflow-hidden flex flex-col">
     
     <!-- SUB-VIEW NAVIGATION BAR -->
-    <div class="flex items-center justify-between bg-zinc-950 px-4 border-b border-zinc-800 text-xs">
-      <div class="flex items-center gap-1">
-        <button onclick="switchCarnavalTab('beats')" id="tab-beats" class="mq-tab active px-4 py-2.5 text-zinc-300 hover:text-white flex items-center gap-1.5 cursor-pointer">
+    <div class="flex items-center justify-between bg-zinc-950 px-3 border-b border-zinc-800 text-xs">
+      <div class="flex items-center gap-1 overflow-x-auto py-1">
+        <button onclick="switchCarnavalTab('beats')" id="tab-beats" class="mq-tab active px-2.5 py-1.5 text-[11px] text-zinc-300 hover:text-white flex items-center gap-1 cursor-pointer whitespace-nowrap rounded">
           <svg class="w-3.5 h-3.5 fill-current text-rose-500" viewBox="0 0 24 24"><path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/></svg>
-          BEATS Latin Groove &amp; Percussion Console
+          BEATS Console
         </button>
-        <button onclick="switchCarnavalTab('voice')" id="tab-voice" class="mq-tab px-4 py-2.5 text-zinc-400 hover:text-white flex items-center gap-1.5 cursor-pointer">
+        <button onclick="switchCarnavalTab('voice')" id="tab-voice" class="mq-tab px-2.5 py-1.5 text-[11px] text-zinc-400 hover:text-white flex items-center gap-1 cursor-pointer whitespace-nowrap rounded">
           <svg class="w-3.5 h-3.5 fill-current text-amber-400" viewBox="0 0 24 24"><path d="M3 17h18v2H3zm0-7h18v2H3zm0-7h18v2H3z"/></svg>
-          Voice Editor (Primary / Secondary Layers)
+          Voice Editor
         </button>
-        <button onclick="switchCarnavalTab('filter')" id="tab-filter" class="mq-tab px-4 py-2.5 text-zinc-400 hover:text-white flex items-center gap-1.5 cursor-pointer">
+        <button onclick="switchCarnavalTab('filter')" id="tab-filter" class="mq-tab px-2.5 py-1.5 text-[11px] text-zinc-400 hover:text-white flex items-center gap-1 cursor-pointer whitespace-nowrap rounded">
           <svg class="w-3.5 h-3.5 fill-current text-cyan-400" viewBox="0 0 24 24"><path d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"/></svg>
-          32 6th-Order Resonant Filters
+          32 Filters
         </button>
-        <button onclick="switchCarnavalTab('patchcords')" id="tab-patchcords" class="mq-tab px-4 py-2.5 text-zinc-400 hover:text-white flex items-center gap-1.5 cursor-pointer">
+        <button onclick="switchCarnavalTab('patchcords')" id="tab-patchcords" class="mq-tab px-2.5 py-1.5 text-[11px] text-zinc-400 hover:text-white flex items-center gap-1 cursor-pointer whitespace-nowrap rounded">
           <svg class="w-3.5 h-3.5 fill-current text-pink-400" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
-          PatchCords Modulation Matrix
+          PatchCords
         </button>
-        <button onclick="switchCarnavalTab('multimode')" id="tab-multimode" class="mq-tab px-4 py-2.5 text-zinc-400 hover:text-white flex items-center gap-1.5 cursor-pointer">
+        <button onclick="switchCarnavalTab('global')" id="tab-global" class="mq-tab px-2.5 py-1.5 text-[11px] text-zinc-400 hover:text-white flex items-center gap-1 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-indigo-400" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+          Global Editor
+        </button>
+        <button onclick="switchCarnavalTab('progmap')" id="tab-progmap" class="mq-tab px-2.5 py-1.5 text-[11px] text-zinc-400 hover:text-white flex items-center gap-1 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-purple-400" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 14H6v-2h6v2zm4-4H6v-2h10v2zm0-4H6V7h10v2z"/></svg>
+          Program Map &amp; Tuning
+        </button>
+        <button onclick="switchCarnavalTab('multimode')" id="tab-multimode" class="mq-tab px-2.5 py-1.5 text-[11px] text-zinc-400 hover:text-white flex items-center gap-1 cursor-pointer whitespace-nowrap rounded">
           <svg class="w-3.5 h-3.5 fill-current text-emerald-400" viewBox="0 0 24 24"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"/></svg>
-          16-Channel MultiMode Setup
+          MultiMode
         </button>
-        <button onclick="switchCarnavalTab('librarian')" id="tab-librarian" class="mq-tab px-4 py-2.5 text-zinc-400 hover:text-white flex items-center gap-1.5 cursor-pointer">
+        <button onclick="switchCarnavalTab('librarian')" id="tab-librarian" class="mq-tab px-2.5 py-1.5 text-[11px] text-zinc-400 hover:text-white flex items-center gap-1 cursor-pointer whitespace-nowrap rounded">
           <svg class="w-3.5 h-3.5 fill-current text-yellow-400" viewBox="0 0 24 24"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H8V4h12v12z"/></svg>
-          Bank Librarian (640 Presets)
+          Bank Librarian (640)
         </button>
       </div>
-      <span class="text-[10px] text-zinc-500 font-mono">Midi Quest 13 • SysEx Device ID: 00 • Model 0x48 (E-MU Carnaval)</span>
+      <span class="text-[10px] text-zinc-500 font-mono whitespace-nowrap hidden lg:inline">Midi Quest 13</span>
     </div>
 
     <!-- ==================== TAB 1: BEATS LATIN GROOVE & PERCUSSION CONSOLE ==================== -->
@@ -826,6 +841,226 @@
           <span class="text-emerald-400 font-bold">+45%</span>
         </div>
       </div>
+    <!-- ==================== TAB: GLOBAL EDITOR (Midi Quest 13 Component) ==================== -->
+    <div id="subview-global" class="p-5 flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-2.5">
+        <div>
+          <h3 class="text-sm font-bold text-indigo-400 uppercase tracking-wider">Carnaval Global &amp; Master Editor</h3>
+          <p class="text-xs text-zinc-400">Master tuning, MIDI multi-modes, physical controller assignments (MIDI A/B/C/D), and 6 analog submix audio outputs.</p>
+        </div>
+        <div class="flex items-center gap-2">
+          <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-indigo-950/80 border border-indigo-700/60 text-indigo-300">SysEx: Global Dump 0x48</span>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-12 gap-4">
+        <!-- Master Tuning & Pitch -->
+        <div class="col-span-12 md:col-span-4 bg-zinc-950 p-4 rounded border border-zinc-800 flex flex-col gap-3">
+          <span class="text-xs font-bold text-indigo-400 uppercase tracking-wider font-mono">Master Pitch &amp; Tuning</span>
+          <div class="space-y-3 text-xs">
+            <div>
+              <div class="flex justify-between text-zinc-400 mb-1">
+                <span>Master Tuning:</span>
+                <span class="text-white font-mono font-bold" id="global-tune-val">440.0 Hz (0 cents)</span>
+              </div>
+              <input type="range" min="-64" max="64" value="0" class="w-full accent-indigo-500" oninput="document.getElementById('global-tune-val').innerText = (440 + this.value * 0.25).toFixed(1) + ' Hz (' + (this.value > 0 ? '+' : '') + this.value + ' cents)'">
+            </div>
+            <div>
+              <div class="flex justify-between text-zinc-400 mb-1">
+                <span>Master Transpose:</span>
+                <span class="text-white font-mono font-bold">0 Semitones (C)</span>
+              </div>
+              <input type="range" min="-12" max="12" value="0" class="w-full accent-indigo-500">
+            </div>
+            <div>
+              <div class="flex justify-between text-zinc-400 mb-1">
+                <span>Pitch Bend Range:</span>
+                <span class="text-indigo-400 font-mono font-bold">±2 Semitones</span>
+              </div>
+              <select class="w-full bg-zinc-900 border border-zinc-700 text-xs text-zinc-200 rounded p-1.5 font-mono">
+                <option>±1 Semitone</option>
+                <option selected>±2 Semitones (Default)</option>
+                <option>±7 Semitones (Fifth)</option>
+                <option>±12 Semitones (1 Octave)</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- MIDI Configuration & Device ID -->
+        <div class="col-span-12 md:col-span-4 bg-zinc-950 p-4 rounded border border-zinc-800 flex flex-col gap-3">
+          <span class="text-xs font-bold text-rose-400 uppercase tracking-wider font-mono">MIDI Communication</span>
+          <div class="space-y-2.5 text-xs">
+            <div class="grid grid-cols-2 gap-2">
+              <div>
+                <label class="text-[10px] text-zinc-400 block mb-1">MIDI Mode:</label>
+                <select class="w-full bg-zinc-900 border border-zinc-700 text-xs text-zinc-200 rounded p-1.5 font-mono">
+                  <option selected>Multi (16-Channel)</option>
+                  <option>Poly</option>
+                  <option>Omni</option>
+                </select>
+              </div>
+              <div>
+                <label class="text-[10px] text-zinc-400 block mb-1">Basic Channel:</label>
+                <select class="w-full bg-zinc-900 border border-zinc-700 text-xs text-zinc-200 rounded p-1.5 font-mono">
+                  <option selected>Channel 1</option>
+                  <option>Channel 2</option>
+                  <option>Channel 10 (Drums)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-2 gap-2">
+              <div>
+                <label class="text-[10px] text-zinc-400 block mb-1">SysEx Device ID:</label>
+                <input type="number" min="0" max="15" value="0" class="w-full bg-zinc-900 border border-zinc-700 text-xs text-zinc-200 rounded p-1.5 font-mono">
+              </div>
+              <div>
+                <label class="text-[10px] text-zinc-400 block mb-1">SysEx Packet:</label>
+                <select class="w-full bg-zinc-900 border border-zinc-700 text-xs text-zinc-200 rounded p-1.5 font-mono">
+                  <option selected>Enabled</option>
+                  <option>Disabled</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="pt-1">
+              <label class="text-[10px] text-zinc-400 block mb-1">Program Change Mode:</label>
+              <select class="w-full bg-zinc-900 border border-zinc-700 text-xs text-zinc-200 rounded p-1.5 font-mono">
+                <option selected>On (Direct 0-127)</option>
+                <option>Mapped (Use Program Map Table)</option>
+                <option>Off (Ignore MIDI Program Change)</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Real-Time MIDI Controller Assign (A/B/C/D) & Submix Routing -->
+        <div class="col-span-12 md:col-span-4 bg-zinc-950 p-4 rounded border border-zinc-800 flex flex-col gap-3">
+          <span class="text-xs font-bold text-emerald-400 uppercase tracking-wider font-mono">Controller Assign &amp; 6 Submix Outs</span>
+          <div class="space-y-2 text-xs font-mono">
+            <div class="flex items-center justify-between bg-zinc-900 p-1.5 rounded border border-zinc-800">
+              <span class="text-zinc-400">MIDI Controller A:</span>
+              <span class="text-emerald-300 font-bold">CC 01 (Mod Wheel)</span>
+            </div>
+            <div class="flex items-center justify-between bg-zinc-900 p-1.5 rounded border border-zinc-800">
+              <span class="text-zinc-400">MIDI Controller B:</span>
+              <span class="text-emerald-300 font-bold">CC 02 (Breath)</span>
+            </div>
+            <div class="flex items-center justify-between bg-zinc-900 p-1.5 rounded border border-zinc-800">
+              <span class="text-zinc-400">MIDI Controller C:</span>
+              <span class="text-emerald-300 font-bold">CC 04 (Foot Pedal)</span>
+            </div>
+            <div class="flex items-center justify-between bg-zinc-900 p-1.5 rounded border border-zinc-800">
+              <span class="text-zinc-400">MIDI Controller D:</span>
+              <span class="text-emerald-300 font-bold">CC 11 (Expression)</span>
+            </div>
+            <div class="pt-1 border-t border-zinc-800 flex justify-between text-[11px] text-zinc-400">
+              <span>Submix Outputs:</span>
+              <span class="text-cyan-300">Main L/R, Sub 1, Sub 2</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB: PROGRAM MAP & TUNING TABLE (Midi Quest 13 Components) ==================== -->
+    <div id="subview-progmap" class="p-5 flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-2.5">
+        <div>
+          <h3 class="text-sm font-bold text-purple-400 uppercase tracking-wider">Carnaval Program Map &amp; Microtonal Tuning Table</h3>
+          <p class="text-xs text-zinc-400">Map 128 MIDI Program Changes to internal bank presets, and define 128-key microtonal temperament scales.</p>
+        </div>
+        <div class="flex items-center gap-2">
+          <button class="px-3 py-1 bg-purple-600 text-white font-bold text-xs rounded shadow">Program Map</button>
+          <button class="px-3 py-1 bg-zinc-800 text-zinc-400 hover:text-white font-bold text-xs rounded">Tuning Table</button>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-12 gap-5">
+        <!-- 128 Program Change Map Table -->
+        <div class="col-span-12 lg:col-span-6 bg-zinc-950 p-4 rounded border border-zinc-800 flex flex-col gap-3">
+          <div class="flex justify-between items-center">
+            <span class="text-xs font-bold text-purple-300 uppercase tracking-wider font-mono">MIDI Program Change Remap (0-127)</span>
+            <span class="text-[10px] text-zinc-500 font-mono">SysEx: Program Map Dump</span>
+          </div>
+          <div class="overflow-y-auto max-h-56 pr-1 space-y-1 text-xs font-mono">
+            <div class="flex items-center justify-between p-1.5 rounded bg-zinc-900 border border-zinc-800">
+              <span class="text-zinc-400 font-bold">MIDI PC 000 ➔</span>
+              <span class="text-white">Bank 0: 000 bnd:Salsa King</span>
+              <span class="text-[10px] text-zinc-500">[User RAM]</span>
+            </div>
+            <div class="flex items-center justify-between p-1.5 rounded bg-zinc-900 border border-zinc-800">
+              <span class="text-zinc-400 font-bold">MIDI PC 001 ➔</span>
+              <span class="text-white">Bank 0: 001 bas:Baby Bass Clave</span>
+              <span class="text-[10px] text-zinc-500">[User RAM]</span>
+            </div>
+            <div class="flex items-center justify-between p-1.5 rounded bg-zinc-900 border border-zinc-800">
+              <span class="text-zinc-400 font-bold">MIDI PC 002 ➔</span>
+              <span class="text-white">Bank 0: 002 prc:Timbale Cascara</span>
+              <span class="text-[10px] text-zinc-500">[User RAM]</span>
+            </div>
+            <div class="flex items-center justify-between p-1.5 rounded bg-zinc-900 border border-zinc-800">
+              <span class="text-zinc-400 font-bold">MIDI PC 003 ➔</span>
+              <span class="text-white">Bank 1: 003 brs:Mambo Horns</span>
+              <span class="text-[10px] text-zinc-500">[Factory ROM]</span>
+            </div>
+            <div class="flex items-center justify-between p-1.5 rounded bg-zinc-900 border border-zinc-800">
+              <span class="text-zinc-400 font-bold">MIDI PC 004 ➔</span>
+              <span class="text-white">Bank 1: 004 gtr:Flamenco Solo</span>
+              <span class="text-[10px] text-zinc-500">[Factory ROM]</span>
+            </div>
+            <div class="flex items-center justify-between p-1.5 rounded bg-zinc-900 border border-zinc-800">
+              <span class="text-zinc-400 font-bold">MIDI PC 005 ➔</span>
+              <span class="text-white">Bank 4: 012 prc:Bata Drums Sacred</span>
+              <span class="text-[10px] text-zinc-500">[Factory ROM]</span>
+            </div>
+          </div>
+          <div class="flex gap-2 pt-1 border-t border-zinc-800">
+            <button class="px-2.5 py-1 bg-zinc-800 hover:bg-zinc-700 text-zinc-200 text-xs rounded font-mono">1:1 Default Map</button>
+            <button class="px-2.5 py-1 bg-zinc-800 hover:bg-zinc-700 text-zinc-200 text-xs rounded font-mono">All to User Bank 0</button>
+          </div>
+        </div>
+
+        <!-- 128 Note Microtonal Tuning Table -->
+        <div class="col-span-12 lg:col-span-6 bg-zinc-950 p-4 rounded border border-zinc-800 flex flex-col gap-3">
+          <div class="flex justify-between items-center">
+            <span class="text-xs font-bold text-amber-400 uppercase tracking-wider font-mono">User Tuning Table (128 Notes)</span>
+            <span class="text-[10px] text-zinc-500 font-mono">SysEx: Tuning Table Dump</span>
+          </div>
+          <div>
+            <label class="text-[11px] text-zinc-400 block mb-1">Temperament Scale Preset:</label>
+            <select class="w-full bg-zinc-900 border border-zinc-700 text-xs text-zinc-200 rounded p-1.5 font-mono">
+              <option selected>Equal Temperament (Standard 12-TET)</option>
+              <option>Just Intonation (Pure Harmonic Fifths &amp; Thirds)</option>
+              <option>1/4 Tone Arabic / Maqam (Quarter-Tone Offsets)</option>
+              <option>Vallotti &amp; Young (Well-Tempered)</option>
+              <option>Kirnberger III</option>
+              <option>Gamelan Slendro (5-Tone Equidistant)</option>
+              <option>Gamelan Pelog (7-Tone Non-Octave)</option>
+              <option>Custom Microtonal User Table</option>
+            </select>
+          </div>
+
+          <div class="space-y-2 text-xs font-mono">
+            <span class="text-[10px] text-zinc-400 uppercase block">Scale Key Cents Offsets (C to B):</span>
+            <div class="grid grid-cols-6 gap-1.5 text-center text-[10px]">
+              <div class="bg-zinc-900 p-1.5 rounded border border-zinc-800"><span class="text-zinc-500 block">C</span><b class="text-emerald-400">0.0¢</b></div>
+              <div class="bg-zinc-900 p-1.5 rounded border border-zinc-800"><span class="text-zinc-500 block">C#</span><b class="text-white">+3.9¢</b></div>
+              <div class="bg-zinc-900 p-1.5 rounded border border-zinc-800"><span class="text-zinc-500 block">D</span><b class="text-white">-2.0¢</b></div>
+              <div class="bg-zinc-900 p-1.5 rounded border border-zinc-800"><span class="text-zinc-500 block">D#</span><b class="text-white">+5.9¢</b></div>
+              <div class="bg-zinc-900 p-1.5 rounded border border-zinc-800"><span class="text-zinc-500 block">E</span><b class="text-white">-4.0¢</b></div>
+              <div class="bg-zinc-900 p-1.5 rounded border border-zinc-800"><span class="text-zinc-500 block">F</span><b class="text-white">+1.9¢</b></div>
+              <div class="bg-zinc-900 p-1.5 rounded border border-zinc-800"><span class="text-zinc-500 block">F#</span><b class="text-white">+5.9¢</b></div>
+              <div class="bg-zinc-900 p-1.5 rounded border border-zinc-800"><span class="text-zinc-500 block">G</span><b class="text-emerald-400">0.0¢</b></div>
+              <div class="bg-zinc-900 p-1.5 rounded border border-zinc-800"><span class="text-zinc-500 block">G#</span><b class="text-white">+3.9¢</b></div>
+              <div class="bg-zinc-900 p-1.5 rounded border border-zinc-800"><span class="text-zinc-500 block">A</span><b class="text-white">-2.0¢</b></div>
+              <div class="bg-zinc-900 p-1.5 rounded border border-zinc-800"><span class="text-zinc-500 block">A#</span><b class="text-white">+5.9¢</b></div>
+              <div class="bg-zinc-900 p-1.5 rounded border border-zinc-800"><span class="text-zinc-500 block">B</span><b class="text-white">-4.0¢</b></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- ==================== TAB 5: 16-CHANNEL MULTIMODE SETUP ==================== -->
@@ -982,7 +1217,8 @@
   <script>
     // Tab Switching
     function switchCarnavalTab(tabName) {
-      const tabs = ['beats', 'voice', 'filter', 'patchcords', 'multimode', 'librarian'];
+      if (tabName === 'preset') tabName = 'voice';
+      const tabs = ['beats', 'voice', 'filter', 'patchcords', 'global', 'progmap', 'multimode', 'librarian'];
       tabs.forEach(t => {
         const view = document.getElementById('subview-' + t);
         const tabBtn = document.getElementById('tab-' + t);
@@ -1006,9 +1242,9 @@
       const editLed = document.getElementById('led-edit');
       const homeLed = document.getElementById('led-home');
       if (masterLed && editLed && homeLed) {
-        masterLed.className = 'led-dot ' + (tabName === 'beats' ? 'led-red-on' : 'led-off');
-        editLed.className = 'led-dot ' + (tabName === 'voice' || tabName === 'filter' ? 'led-red-on' : 'led-off');
-        homeLed.className = 'led-dot ' + (tabName === 'beats' ? 'led-off' : 'led-red-on');
+        masterLed.className = 'led-dot ' + (tabName === 'global' || tabName === 'multimode' ? 'led-red-on' : 'led-off');
+        editLed.className = 'led-dot ' + (tabName === 'voice' || tabName === 'filter' || tabName === 'patchcords' || tabName === 'progmap' ? 'led-red-on' : 'led-off');
+        homeLed.className = 'led-dot ' + (tabName === 'beats' ? 'led-red-on' : 'led-off');
       }
     }
 
