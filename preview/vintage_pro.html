@@ -1,0 +1,1358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>E-MU Vintage PRO - 128-Voice Classic Synth/Keys Hardware & Midi Quest 13 Editor</title>
+  <script src="tailwindcss.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@600;800;900&family=Playfair+Display:ital,wght@1,600;1,700;1,900&family=Inter:wght@400;500;600;700;800&family=Cinzel:ital,wght@1,700&display=swap');
+    
+    .font-lcd { font-family: 'Share Tech Mono', monospace; }
+    .font-brand { font-family: 'Orbitron', sans-serif; }
+    .font-vintage { font-family: 'Playfair Display', Georgia, serif; }
+    .font-emu { font-family: 'Inter', Helvetica, Arial, sans-serif; }
+
+    /* E-MU Vintage Pro 1U Faceplate: Satin Pewter / Brushed Aluminum */
+    .vintage-faceplate {
+      background: linear-gradient(180deg, #b0b8c2 0%, #9aa3af 30%, #828c9a 65%, #6a7482 100%);
+      box-shadow: 
+        inset 0 2px 3px rgba(255,255,255,0.7), 
+        inset 0 -3px 4px rgba(0,0,0,0.5), 
+        0 15px 35px rgba(0,0,0,0.9);
+      border: 1px solid #4b5563;
+      position: relative;
+    }
+
+    /* Distinctive Black Anodized Inset Plates with Silver Trim */
+    .vintage-insert-plate {
+      background: linear-gradient(180deg, #18191c 0%, #0d0e10 100%);
+      border: 1.5px solid #d1d5db;
+      box-shadow: inset 0 2px 4px rgba(0,0,0,0.8), 0 1px 2px rgba(255,255,255,0.4);
+      position: relative;
+    }
+
+    /* Trapezoidal Matte Black LCD Bezel Frame */
+    .vintage-lcd-frame {
+      background: linear-gradient(180deg, #1a1c22 0%, #0d0f13 55%, #050608 100%);
+      clip-path: polygon(1.5% 0%, 98.5% 0%, 100% 100%, 0% 100%);
+      border: 1.5px solid #94a3b8;
+      box-shadow: inset 0 3px 8px rgba(0,0,0,0.9), 0 2px 4px rgba(0,0,0,0.6);
+    }
+
+    /* 2x24 Alphanumeric LCD Display (Authentic Vintage Green Backlight) */
+    .vintage-lcd {
+      background: radial-gradient(circle at 45% 50%, #15381d 0%, #0d2312 70%, #07150a 100%);
+      box-shadow: inset 0 3px 8px rgba(0,0,0,0.95), 0 0 10px rgba(34, 197, 94, 0.25);
+      border: 1px solid #061108;
+    }
+    .lcd-green-text {
+      color: #5ef574;
+      text-shadow: 0 0 5px rgba(94, 245, 116, 0.8), 0 0 12px rgba(34, 197, 94, 0.5);
+    }
+
+    /* Spun Aluminum Vintage Knobs with Machined Silver Top */
+    .vintage-knob {
+      width: 33px;
+      height: 33px;
+      border-radius: 50%;
+      background: #111215;
+      border: 1.5px solid #1e2229;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.8), inset 0 1px 1px rgba(255,255,255,0.4);
+      position: relative;
+      cursor: ns-resize;
+      user-select: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .vintage-knob-top {
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 45% 45%, #ffffff 0%, #e2e8f0 40%, #94a3b8 75%, #64748b 100%);
+      box-shadow: inset 0 1px 2px rgba(255,255,255,0.9), 0 1px 3px rgba(0,0,0,0.6);
+      position: relative;
+    }
+    .vintage-knob-pointer {
+      width: 2px;
+      height: 9px;
+      background: #0f172a;
+      position: absolute;
+      top: 2px;
+      left: 11.5px;
+      border-radius: 1px;
+    }
+
+    /* Large Cylindrical Machined DATA Wheel */
+    .vintage-data-wheel {
+      width: 55px;
+      height: 55px;
+      border-radius: 50%;
+      background: #111317;
+      border: 2px solid #232730;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.9), inset 0 2px 3px rgba(255,255,255,0.3);
+      position: relative;
+      cursor: pointer;
+      user-select: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .vintage-data-wheel-top {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 40% 40%, #f8fafc 0%, #e2e8f0 45%, #94a3b8 80%, #64748b 100%);
+      box-shadow: inset 0 2px 4px rgba(255,255,255,0.9), 0 2px 4px rgba(0,0,0,0.7);
+      position: relative;
+    }
+    .vintage-data-dimple {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 50% 50%, #94a3b8 0%, #475569 100%);
+      box-shadow: inset 0 2px 4px rgba(0,0,0,0.8), 0 1px 1px rgba(255,255,255,0.5);
+      position: absolute;
+      top: 6px;
+      left: 16.5px;
+    }
+
+    /* Silver Well for Buttons */
+    .vintage-btn-well {
+      background: radial-gradient(circle at 45% 45%, #64748b 0%, #334155 100%);
+      border: 1px solid rgba(255,255,255,0.5);
+      box-shadow: inset 0 2px 4px rgba(0,0,0,0.85), 0 1px 1px rgba(255,255,255,0.6);
+      border-radius: 50%;
+      width: 23px;
+      height: 23px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Tactile Push Buttons */
+    .vintage-btn-round {
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 40% 35%, #42464e 0%, #1f2126 60%, #101115 100%);
+      border: 1px solid #121417;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.7), inset 0 1px 1px rgba(255,255,255,0.3);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      user-select: none;
+    }
+    .vintage-btn-round:active {
+      transform: translateY(1px);
+    }
+
+    /* Power Button */
+    .vintage-power-btn {
+      width: 21px;
+      height: 21px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 40% 35%, #3e424a 0%, #111215 100%);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.8), inset 0 1px 1px rgba(255,255,255,0.3);
+      border: 1px solid #000;
+      cursor: pointer;
+    }
+
+    /* Status LEDs */
+    .led-dot { width: 4.5px; height: 4.5px; border-radius: 50%; }
+    .led-off { background: #3b1406; box-shadow: inset 0 1px 2px rgba(0,0,0,0.9); }
+    .led-red-on { background: #ef4444; box-shadow: 0 0 6px #ef4444, 0 0 10px #dc2626; }
+    .led-green-on { background: #22c55e; box-shadow: 0 0 6px #22c55e, 0 0 10px #16a34a; }
+
+    /* Silkscreen Styling */
+    .silkscreen-vintage {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-style: italic;
+      line-height: 1.1;
+    }
+
+    /* Sub-view Navigation Tabs */
+    .mq-tab {
+      transition: all 0.15s ease-in-out;
+      border-bottom: 2px solid transparent;
+    }
+    .mq-tab.active {
+      border-bottom-color: #f59e0b;
+      color: #fbbf24;
+      background: rgba(245, 158, 11, 0.1);
+    }
+
+    /* Vintage Keys Interactive Trigger Pads */
+    .vintage-pad {
+      background: radial-gradient(circle at 40% 30%, #334155 0%, #1e293b 60%, #0f172a 100%);
+      border: 1px solid #475569;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.6), inset 0 1px 2px rgba(255,255,255,0.2);
+      cursor: pointer;
+      user-select: none;
+      transition: all 0.08s ease-out;
+    }
+    .vintage-pad:hover {
+      background: radial-gradient(circle at 40% 30%, #475569 0%, #334155 60%, #1e293b 100%);
+      border-color: #cbd5e1;
+    }
+    .vintage-pad:active, .vintage-pad.pad-active {
+      transform: translateY(2px) scale(0.98);
+      background: radial-gradient(circle at 50% 50%, #f59e0b 0%, #d97706 70%, #b45309 100%);
+      box-shadow: 0 0 15px rgba(245, 158, 11, 0.8), inset 0 2px 4px rgba(0,0,0,0.6);
+      border-color: #fde68a;
+    }
+  </style>
+</head>
+
+<body class="bg-zinc-950 text-zinc-100 min-h-screen flex flex-col items-center p-4 select-none">
+
+  <!-- TOP CONTEXT BAR -->
+  <div class="w-full max-w-6xl flex items-center justify-between py-2 border-b border-zinc-800 text-xs font-mono mb-4">
+    <div class="flex items-center gap-3">
+      <div class="w-2.5 h-2.5 rounded-full bg-amber-400 shadow-[0_0_8px_#fbbf24]"></div>
+      <span class="font-bold text-sm tracking-wide text-amber-400">E-MU Vintage PRO</span>
+      <span class="text-zinc-600">|</span>
+      <span class="text-zinc-400 font-semibold">128-Voice Classic Synth/Keys Sound Module</span>
+    </div>
+    <div class="flex items-center gap-4 text-zinc-400">
+      <span class="text-[11px] bg-zinc-900 px-2 py-0.5 rounded border border-zinc-800">ROM: <span class="text-amber-300 font-bold">64MB Vintage Synth &amp; Keys</span></span>
+      <span class="text-[11px] bg-zinc-900 px-2 py-0.5 rounded border border-zinc-800">Polyphony: <span class="text-amber-300 font-bold">128 Voices &bull; 64-Voice 12th-Order Z-Plane</span></span>
+      <a href="index.html" class="text-zinc-400 hover:text-white transition flex items-center gap-1 text-[11px] bg-zinc-900 px-2.5 py-0.5 rounded border border-zinc-700">
+        &larr; Studio Hub
+      </a>
+    </div>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- 1U HARDWARE FRONT PANEL REPRODUCTION (E-MU VINTAGE PRO)                   -->
+  <!-- ========================================================================= -->
+  <div class="w-full max-w-6xl h-[104px] vintage-faceplate rounded-sm flex items-center justify-between px-3 shadow-2xl relative select-none border-t border-slate-300/80 overflow-hidden">
+    
+    <!-- LEFT RACK EAR (Black with 2 Oval Mounting Holes) -->
+    <div class="absolute left-0 top-0 bottom-0 w-3 bg-zinc-950 border-r border-zinc-800 flex flex-col justify-between py-2 pointer-events-none z-20">
+      <div class="w-2 h-3.5 rounded-sm bg-zinc-900 border border-zinc-700 mx-auto shadow-inner"></div>
+      <div class="w-2 h-3.5 rounded-sm bg-zinc-900 border border-zinc-700 mx-auto shadow-inner"></div>
+    </div>
+
+    <!-- LEFT SECTION: BLACK INSET ARCHED PLATE WITH 12-PARAM MATRIX & 5 VINTAGE SPUN KNOBS -->
+    <div class="flex items-center gap-1.5 pl-4 z-10 relative">
+      
+      <!-- Black Inset Plate Framing Mode Button & 4 Scalloped Parameter Columns -->
+      <div class="absolute -top-1.5 -left-1 w-[395px] h-[50px] vintage-insert-plate rounded-t-sm z-0">
+        <!-- Corner Screws -->
+        <div class="absolute top-1 left-1.5 w-1 h-1 rounded-full bg-slate-400 border border-slate-600"></div>
+        <div class="absolute top-1 right-2 w-1 h-1 rounded-full bg-slate-400 border border-slate-600"></div>
+      </div>
+
+      <!-- Column 1: Mode Button (Top inside plate) & Headphone Jack (Bottom on silver) -->
+      <div class="flex flex-col items-center justify-between h-[88px] w-9 py-1 z-10">
+        <!-- Control / Mode Button in Silver Well -->
+        <div class="vintage-btn-well" title="Cycle Knobs A-D / E-H / I-L">
+          <button onclick="cycleKnobMode()" class="vintage-btn-round"></button>
+        </div>
+        
+        <!-- 1/4" Headphone Jack & Icon on Satin Pewter Plate -->
+        <div class="flex flex-col items-center">
+          <div class="w-5 h-5 rounded-full bg-zinc-900 border-2 border-zinc-500 shadow-inner flex items-center justify-center">
+            <div class="w-2.5 h-2.5 rounded-full bg-black border border-zinc-700"></div>
+          </div>
+          <!-- Headphone Icon -->
+          <svg class="w-3.5 h-3.5 text-zinc-900 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
+            <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path>
+          </svg>
+        </div>
+      </div>
+
+      <!-- Column 2: 3-way Mode LEDs (A-D, E-H, I-L) Tucked inside plate -->
+      <div class="flex flex-col justify-start gap-1 h-[88px] text-[8px] font-mono font-bold leading-none text-zinc-200 pt-1.5 w-8 z-10">
+        <div class="flex items-center justify-between">
+          <span class="tracking-tighter">A-D</span>
+          <div id="led-ad" class="led-dot led-green-on"></div>
+        </div>
+        <div class="flex items-center justify-between">
+          <span class="tracking-tighter">E-H</span>
+          <div id="led-eh" class="led-dot led-off"></div>
+        </div>
+        <div class="flex items-center justify-between">
+          <span class="tracking-tighter">I-L</span>
+          <div id="led-il" class="led-dot led-off"></div>
+        </div>
+      </div>
+
+      <!-- Column 3: Knob 0: Volume (Spun Aluminum Cap) -->
+      <div class="flex flex-col items-center justify-between h-[88px] w-12 py-1 z-10">
+        <!-- Spacer matching top label height -->
+        <div class="h-[28px]"></div>
+        
+        <!-- Volume Potentiometer with Spun Aluminum Cap -->
+        <div class="vintage-knob" data-param="vol" data-val="110" onmousedown="startKnobDrag(event, 'vol')">
+          <div class="vintage-knob-top">
+            <div class="vintage-knob-pointer" id="vol-pointer"></div>
+          </div>
+        </div>
+
+        <div class="flex flex-col items-center leading-none">
+          <span class="silkscreen-vintage text-[8.5px] font-bold text-zinc-900 tracking-tight">Volume</span>
+        </div>
+      </div>
+
+      <!-- Knob 1: A / E / I (Filter Cutoff / Attack / Mod 1) -->
+      <div class="flex flex-col items-center justify-between h-[88px] w-[62px] py-1 z-10">
+        <div class="silkscreen-vintage text-[7.5px] text-center w-full text-zinc-200 leading-tight">
+          <div>Filter Cutoff</div>
+          <div>Attack</div>
+          <div class="text-amber-300 font-semibold">Mod 1</div>
+        </div>
+        
+        <div class="vintage-knob" data-param="cutoff" data-val="195" onmousedown="startKnobDrag(event, 'cutoff')">
+          <div class="vintage-knob-top">
+            <div class="vintage-knob-pointer" id="knob1-pointer" style="transform: rotate(35deg);"></div>
+          </div>
+        </div>
+
+        <div class="flex flex-col items-center leading-none">
+          <span class="silkscreen-vintage text-[8px] font-bold text-zinc-900 tracking-tight">A / E / I</span>
+        </div>
+      </div>
+
+      <!-- Knob 2: B / F / J (Filter Res / Decay/Rls / Mod 2) -->
+      <div class="flex flex-col items-center justify-between h-[88px] w-[62px] py-1 z-10">
+        <div class="silkscreen-vintage text-[7.5px] text-center w-full text-zinc-200 leading-tight">
+          <div>Filter Res</div>
+          <div>Decay/Rls</div>
+          <div class="text-amber-300 font-semibold">Mod 2</div>
+        </div>
+        
+        <div class="vintage-knob" data-param="res" data-val="130" onmousedown="startKnobDrag(event, 'res')">
+          <div class="vintage-knob-top">
+            <div class="vintage-knob-pointer" id="knob2-pointer" style="transform: rotate(5deg);"></div>
+          </div>
+        </div>
+
+        <div class="flex flex-col items-center leading-none">
+          <span class="silkscreen-vintage text-[8px] font-bold text-zinc-900 tracking-tight">B / F / J</span>
+        </div>
+      </div>
+
+      <!-- Knob 3: C / G / K (Shape / Movement / Mod 3) -->
+      <div class="flex flex-col items-center justify-between h-[88px] w-[62px] py-1 z-10">
+        <div class="silkscreen-vintage text-[7.5px] text-center w-full text-zinc-200 leading-tight">
+          <div>Shape</div>
+          <div>Movement</div>
+          <div class="text-amber-300 font-semibold">Mod 3</div>
+        </div>
+        
+        <div class="vintage-knob" data-param="shape" data-val="85" onmousedown="startKnobDrag(event, 'shape')">
+          <div class="vintage-knob-top">
+            <div class="vintage-knob-pointer" id="knob3-pointer" style="transform: rotate(-35deg);"></div>
+          </div>
+        </div>
+
+        <div class="flex flex-col items-center leading-none">
+          <span class="silkscreen-vintage text-[8px] font-bold text-zinc-900 tracking-tight">C / G / K</span>
+        </div>
+      </div>
+
+      <!-- Knob 4: D / H / L (Image / Rate / Mod 4) -->
+      <div class="flex flex-col items-center justify-between h-[88px] w-[62px] py-1 z-10">
+        <div class="silkscreen-vintage text-[7.5px] text-center w-full text-zinc-200 leading-tight">
+          <div>Image</div>
+          <div>Rate</div>
+          <div class="text-amber-300 font-semibold">Mod 4</div>
+        </div>
+        
+        <div class="vintage-knob" data-param="rate" data-val="115" onmousedown="startKnobDrag(event, 'rate')">
+          <div class="vintage-knob-top">
+            <div class="vintage-knob-pointer" id="knob4-pointer" style="transform: rotate(15deg);"></div>
+          </div>
+        </div>
+
+        <div class="flex flex-col items-center leading-none">
+          <span class="silkscreen-vintage text-[8px] font-bold text-zinc-900 tracking-tight">D / H / L</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- CENTER SECTION: BEVELED MATTE BLACK BEZEL WITH 2x24 LCD & VINTAGE PRO SCRIPT LOGO -->
+    <div class="vintage-lcd-frame px-3 py-1 rounded-sm w-76 h-[88px] z-10 mx-2 flex flex-col justify-between items-center relative">
+      
+      <!-- Top Bezel Subtitle -->
+      <div class="silkscreen-vintage text-[8.5px] font-bold tracking-wider text-slate-300">
+        128-Voice Classic Synth/Keys Module
+      </div>
+
+      <!-- 2x24 Alphanumeric LCD -->
+      <div class="vintage-lcd px-3 py-1 rounded-sm flex flex-col justify-between font-lcd w-full h-[40px]">
+        <div class="flex items-center justify-between text-[11px] font-bold lcd-green-text tracking-wider leading-none">
+          <span id="vintage-lcd-line1" class="truncate pr-1">C01A V127 P01A VINTG</span>
+          <span class="text-[9px] bg-[#5ef574]/20 px-1 rounded font-mono whitespace-nowrap">128-VOICE</span>
+        </div>
+        <div class="flex items-center justify-between text-[11px] font-semibold lcd-green-text tracking-wider leading-none">
+          <span id="vintage-lcd-line2">022³ trn:Mellotron Str</span>
+          <span class="font-bold text-[9px] text-[#5ef574] whitespace-nowrap">64MB ROM</span>
+        </div>
+      </div>
+
+      <!-- Iconic Vintage Pro White/Silver Bold Italic Serif Signature Logo -->
+      <div class="flex items-center justify-center gap-1.5 select-none -mt-0.5">
+        <span class="font-vintage text-xl font-black italic text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)] tracking-wide">Vintage Pro</span>
+      </div>
+
+    </div>
+
+    <!-- RIGHT SECTION: 8 BUTTONS MATRIX, MACHINED DATA WHEEL, E-MU LOGO, POWER & MIDI -->
+    <div class="flex items-center gap-3.5 pr-4 z-10 relative">
+      
+      <!-- Black Inset Plate Framing Upper Row (Master, Edit, <, >) -->
+      <div class="absolute -top-1.5 -left-1 w-[185px] h-[52px] vintage-insert-plate rounded-t-sm z-0">
+        <!-- Corner Screws -->
+        <div class="absolute top-1 left-2 w-1 h-1 rounded-full bg-slate-400 border border-slate-600"></div>
+        <div class="absolute top-1 right-2 w-1 h-1 rounded-full bg-slate-400 border border-slate-600"></div>
+      </div>
+
+      <!-- 8 Tactile Buttons Matrix (4 Columns x 2 Rows) -->
+      <div class="flex flex-col justify-between h-[88px] py-1 z-10">
+        
+        <!-- ROW 1 (Top inside black plate: Master, Edit, < Cursor, > Cursor) -->
+        <div class="flex items-start gap-3.5">
+          
+          <!-- Master + Edit Group with Demos Bracket -->
+          <div class="flex flex-col items-center">
+            <div class="flex items-end gap-3.5">
+              <!-- Col 1: Master -->
+              <div class="flex flex-col items-center w-[34px]">
+                <span class="silkscreen-vintage text-[8px] font-bold text-zinc-200 leading-tight mb-1 whitespace-nowrap">Master</span>
+                <div class="relative flex items-center justify-center">
+                  <button onclick="switchVintageTab('global')" class="vintage-btn-round" title="Master / Global Settings"></button>
+                  <div id="led-master" class="led-dot led-red-on absolute -top-1 -right-1.5"></div>
+                </div>
+              </div>
+
+              <!-- Col 2: Edit -->
+              <div class="flex flex-col items-center w-[34px]">
+                <span class="silkscreen-vintage text-[8px] font-bold text-zinc-200 leading-tight mb-1 whitespace-nowrap">Edit</span>
+                <div class="relative flex items-center justify-center">
+                  <button onclick="switchVintageTab('preset')" class="vintage-btn-round" title="Edit Vintage Parameters"></button>
+                  <div id="led-edit" class="led-dot led-off absolute -top-1 -right-1.5"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- └─ Demos ─┘ Bracket hugging directly under Master & Edit -->
+            <div class="w-[74px] flex items-center justify-center text-zinc-300 text-[7px] font-mono font-bold leading-none mt-0.5">
+              <span>└─ Demos ─┘</span>
+            </div>
+          </div>
+
+          <!-- Col 3: < Cursor in Silver Recessed Pocket -->
+          <div class="flex flex-col items-center w-[34px] pt-3.5">
+            <div class="vintage-btn-well">
+              <button onclick="vintageCursorBump(-1)" class="vintage-btn-round text-[10px] font-bold text-zinc-200 flex items-center justify-center" title="Cursor Left">&lt;</button>
+            </div>
+          </div>
+
+          <!-- Col 4: > Cursor in Silver Recessed Pocket -->
+          <div class="flex flex-col items-center w-[34px] pt-3.5">
+            <div class="vintage-btn-well">
+              <button onclick="vintageCursorBump(1)" class="vintage-btn-round text-[10px] font-bold text-zinc-200 flex items-center justify-center" title="Cursor Right">&gt;</button>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- ROW 2 (Bottom on silver pewter plate: Audition, Arp/Beats, Save/Copy, Home/Enter) -->
+        <div class="flex items-start gap-3.5">
+          
+          <!-- Col 1: Audition -->
+          <div class="flex flex-col items-center w-[34px]">
+            <div class="relative flex items-center justify-center">
+              <button onclick="playVintageKeysDemo()" class="vintage-btn-round" title="Audition Preset"></button>
+              <div id="led-audition" class="led-dot led-off absolute -bottom-1 -right-1.5"></div>
+            </div>
+            <span class="silkscreen-vintage text-[7.5px] font-bold text-zinc-900 mt-1 whitespace-nowrap">Audition</span>
+          </div>
+
+          <!-- Col 2: Arp/Beats -->
+          <div class="flex flex-col items-center w-[34px]">
+            <div class="relative flex items-center justify-center">
+              <button onclick="switchVintageTab('arpeggiator')" class="vintage-btn-round" title="Arpeggiator & SuperBEATS"></button>
+              <div id="led-arp" class="led-dot led-red-on absolute -bottom-1 -right-1.5"></div>
+            </div>
+            <span class="silkscreen-vintage text-[7.5px] font-bold text-zinc-900 mt-1 whitespace-nowrap">Arp/Beats</span>
+          </div>
+
+          <!-- Col 3: Save/Copy -->
+          <div class="flex flex-col items-center w-[34px]">
+            <div class="relative flex items-center justify-center">
+              <button onclick="switchVintageTab('librarian')" class="vintage-btn-round" title="Save / Copy Preset"></button>
+              <div id="led-save" class="led-dot led-off absolute -bottom-1 -right-1.5"></div>
+            </div>
+            <span class="silkscreen-vintage text-[7.5px] font-bold text-zinc-900 mt-1 whitespace-nowrap">Save/Copy</span>
+          </div>
+
+          <!-- Col 4: Home/Enter -->
+          <div class="flex flex-col items-center w-[34px]">
+            <div class="relative flex items-center justify-center">
+              <button onclick="switchVintageTab('performance')" class="vintage-btn-round" title="Home / Enter"></button>
+              <div id="led-home" class="led-dot led-off absolute -bottom-1 -right-1.5"></div>
+            </div>
+            <span class="silkscreen-vintage text-[7px] font-bold text-zinc-900 mt-1 whitespace-nowrap">Home/Enter</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Large Spun Aluminum DATA Wheel with Finger Dimple -->
+      <div class="flex flex-col items-center z-10">
+        <div class="vintage-data-wheel" onwheel="handleVintageWheel(event)" onclick="cycleVintagePreset(1)">
+          <div class="vintage-data-wheel-top">
+            <div class="vintage-data-dimple"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: E-MU Logo inside plate & Power Switch with MIDI LED below -->
+      <div class="flex flex-col items-end justify-between h-[88px] py-1 pl-2 z-10">
+        <!-- Authentic White E-MU Logo inside black inset plate -->
+        <div class="w-[84px] h-[34px] vintage-insert-plate rounded-sm flex items-center justify-center gap-1.5 px-2">
+          <div class="flex flex-col gap-[2px]">
+            <div class="w-3.5 h-[2px] bg-zinc-100 rounded-xs"></div>
+            <div class="w-3.5 h-[2px] bg-zinc-100 rounded-xs"></div>
+            <div class="w-3.5 h-[2px] bg-zinc-100 rounded-xs"></div>
+          </div>
+          <span class="font-emu font-black text-sm text-zinc-100 tracking-wider">E-MU</span>
+        </div>
+
+        <!-- Bottom: MIDI Activity Indicator & Power Button -->
+        <div class="flex items-center gap-2.5 pb-0.5">
+          <!-- / MIDI Indicator -->
+          <div class="flex items-center gap-1 text-[8px] font-bold silkscreen-vintage text-zinc-900">
+            <div id="led-midi" class="led-dot led-green-on animate-pulse"></div>
+            <span class="tracking-tighter">MIDI</span>
+          </div>
+
+          <!-- Power Button -->
+          <div class="flex flex-col items-center">
+            <button class="vintage-power-btn" title="Power Switch"></button>
+            <span class="silkscreen-vintage text-[7.5px] font-bold text-zinc-900 mt-0.5 tracking-tighter">Power</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- RIGHT RACK EAR (Black with 2 Oval Mounting Holes) -->
+    <div class="absolute right-0 top-0 bottom-0 w-3 bg-zinc-950 border-l border-zinc-800 flex flex-col justify-between py-2 pointer-events-none z-20">
+      <div class="w-2 h-3.5 rounded-sm bg-zinc-900 border border-zinc-700 mx-auto shadow-inner"></div>
+      <div class="w-2 h-3.5 rounded-sm bg-zinc-900 border border-zinc-700 mx-auto shadow-inner"></div>
+    </div>
+
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- MIDI QUEST 13 COMPONENT SUB-VIEWS (TABBED WORKSPACE)                      -->
+  <!-- ========================================================================= -->
+  <div class="w-full max-w-6xl mt-4 bg-zinc-900/95 border border-zinc-800 rounded-lg shadow-xl overflow-hidden flex flex-col">
+    
+    <!-- SUB-VIEW NAVIGATION BAR -->
+    <div class="flex items-center justify-between bg-zinc-950 px-3 border-b border-zinc-800 text-xs">
+      <div class="flex items-center gap-1 overflow-x-auto py-1">
+        <button onclick="switchVintageTab('performance')" id="tab-performance" class="mq-tab active px-3 py-1.5 text-[11px] font-semibold text-zinc-300 hover:text-white flex items-center gap-1.5 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-amber-400" viewBox="0 0 24 24"><path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/></svg>
+          Vintage Keys Console
+        </button>
+        <button onclick="switchVintageTab('preset')" id="tab-preset" class="mq-tab px-3 py-1.5 text-[11px] font-semibold text-zinc-400 hover:text-white flex items-center gap-1.5 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-sky-400" viewBox="0 0 24 24"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"/></svg>
+          Preset Editor (4 Layers)
+        </button>
+        <button onclick="switchVintageTab('filter')" id="tab-filter" class="mq-tab px-3 py-1.5 text-[11px] font-semibold text-zinc-400 hover:text-white flex items-center gap-1.5 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-cyan-400" viewBox="0 0 24 24"><path d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"/></svg>
+          50 Z-Plane Filters
+        </button>
+        <button onclick="switchVintageTab('arpeggiator')" id="tab-arpeggiator" class="mq-tab px-3 py-1.5 text-[11px] font-semibold text-zinc-400 hover:text-white flex items-center gap-1.5 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-rose-400" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"/></svg>
+          Arpeggiator &amp; SuperBEATS
+        </button>
+        <button onclick="switchVintageTab('patchcords')" id="tab-patchcords" class="mq-tab px-3 py-1.5 text-[11px] font-semibold text-zinc-400 hover:text-white flex items-center gap-1.5 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-pink-400" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+          PatchCords (24 Cords)
+        </button>
+        <button onclick="switchVintageTab('global')" id="tab-global" class="mq-tab px-3 py-1.5 text-[11px] font-semibold text-zinc-400 hover:text-white flex items-center gap-1.5 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-blue-400" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+          Global Editor
+        </button>
+        <button onclick="switchVintageTab('progmap')" id="tab-progmap" class="mq-tab px-3 py-1.5 text-[11px] font-semibold text-zinc-400 hover:text-white flex items-center gap-1.5 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-purple-400" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 14H6v-2h6v2zm4-4H6v-2h10v2zm0-4H6V7h10v2z"/></svg>
+          Preset Map
+        </button>
+        <button onclick="switchVintageTab('multimode')" id="tab-multimode" class="mq-tab px-3 py-1.5 text-[11px] font-semibold text-zinc-400 hover:text-white flex items-center gap-1.5 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-emerald-400" viewBox="0 0 24 24"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"/></svg>
+          MultiMode
+        </button>
+        <button onclick="switchVintageTab('librarian')" id="tab-librarian" class="mq-tab px-3 py-1.5 text-[11px] font-semibold text-zinc-400 hover:text-white flex items-center gap-1.5 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-yellow-400" viewBox="0 0 24 24"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H8V4h12v12z"/></svg>
+          Bank Librarian (1024)
+        </button>
+      </div>
+      <span class="text-[10px] text-zinc-500 font-mono whitespace-nowrap hidden lg:inline">Midi Quest 13 &bull; Model 0x0E (E-MU Vintage PRO)</span>
+    </div>
+
+    <!-- ==================== TAB 1: VINTAGE KEYS PERFORMANCE CONSOLE ==================== -->
+    <div id="subview-performance" class="p-5 flex flex-col gap-4">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <div>
+          <span class="text-xs uppercase font-bold tracking-widest text-amber-400 font-mono">128-Voice Vintage Keys &amp; Synth Engine</span>
+          <span class="text-xs text-zinc-400 ml-2">| Authentic Multi-Sampled Legends &bull; 64MB Vintage Sound ROM</span>
+        </div>
+        <button onclick="playVintageKeysDemo()" class="px-4 py-1.5 bg-amber-500 hover:bg-amber-400 font-bold text-zinc-950 text-xs rounded shadow-lg flex items-center gap-2 cursor-pointer transition">
+          <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          <span>Play Vintage Medley Demo</span>
+        </button>
+      </div>
+
+      <!-- 8 Real Vintage Keyboard Trigger Pads -->
+      <div class="grid grid-cols-4 gap-3">
+        
+        <!-- Pad 1: Rhodes Mark I Suitcase -->
+        <div onclick="playVintageInstrument('rhodes')" id="pad-rhodes" class="vintage-pad p-3.5 rounded-lg flex flex-col justify-between h-24">
+          <div class="flex items-center justify-between">
+            <span class="font-bold text-sm text-amber-300">Rhodes Mark I</span>
+            <span class="text-[10px] font-mono text-zinc-400 bg-zinc-900/80 px-1.5 py-0.5 rounded">Tines EP</span>
+          </div>
+          <div class="text-[11px] text-zinc-300">Warm bell dynamics, stereo pan tremolo</div>
+          <div class="text-[10px] text-zinc-400">Layer: Bell + Bark + Tine Release</div>
+        </div>
+
+        <!-- Pad 2: Wurlitzer 200A -->
+        <div onclick="playVintageInstrument('wurlitzer')" id="pad-wurlitzer" class="vintage-pad p-3.5 rounded-lg flex flex-col justify-between h-24">
+          <div class="flex items-center justify-between">
+            <span class="font-bold text-sm text-amber-300">Wurlitzer 200A</span>
+            <span class="text-[10px] font-mono text-zinc-400 bg-zinc-900/80 px-1.5 py-0.5 rounded">Reed EP</span>
+          </div>
+          <div class="text-[11px] text-zinc-300">Barky reed bite, vintage speaker drive</div>
+          <div class="text-[10px] text-zinc-400">Layer: Hard Strike + Tube Saturation</div>
+        </div>
+
+        <!-- Pad 3: Hohner Clavinet D6 -->
+        <div onclick="playVintageInstrument('clavinet')" id="pad-clavinet" class="vintage-pad p-3.5 rounded-lg flex flex-col justify-between h-24">
+          <div class="flex items-center justify-between">
+            <span class="font-bold text-sm text-cyan-300">Clavinet D6</span>
+            <span class="text-[10px] font-mono text-zinc-400 bg-zinc-900/80 px-1.5 py-0.5 rounded">Funk Pluck</span>
+          </div>
+          <div class="text-[11px] text-zinc-300">Percussive string snap, auto-wah filter</div>
+          <div class="text-[10px] text-zinc-400">Layer: Bridge/Neck Pickups CA/CB</div>
+        </div>
+
+        <!-- Pad 4: Hammond B3 Tonewheel Organ -->
+        <div onclick="playVintageInstrument('b3')" id="pad-b3" class="vintage-pad p-3.5 rounded-lg flex flex-col justify-between h-24">
+          <div class="flex items-center justify-between">
+            <span class="font-bold text-sm text-cyan-300">Hammond B3 Organ</span>
+            <span class="text-[10px] font-mono text-zinc-400 bg-zinc-900/80 px-1.5 py-0.5 rounded">888000000</span>
+          </div>
+          <div class="text-[11px] text-zinc-300">Dual drawbars, rotary Leslie speaker acceleration</div>
+          <div class="text-[10px] text-zinc-400">Layer: Drawbars + Key Click Percussion</div>
+        </div>
+
+        <!-- Pad 5: Mellotron M400 Strings -->
+        <div onclick="playVintageInstrument('mellotron_str')" id="pad-mellotron_str" class="vintage-pad p-3.5 rounded-lg flex flex-col justify-between h-24">
+          <div class="flex items-center justify-between">
+            <span class="font-bold text-sm text-rose-300">Mellotron Strings</span>
+            <span class="text-[10px] font-mono text-zinc-400 bg-zinc-900/80 px-1.5 py-0.5 rounded">3-Violin Tape</span>
+          </div>
+          <div class="text-[11px] text-zinc-300">Flute &amp; violin tape loop mechanical flutter</div>
+          <div class="text-[10px] text-zinc-400">Layer: 8-Second Magnetic Tape Loop</div>
+        </div>
+
+        <!-- Pad 6: Mellotron M400 Flute -->
+        <div onclick="playVintageInstrument('mellotron_flt')" id="pad-mellotron_flt" class="vintage-pad p-3.5 rounded-lg flex flex-col justify-between h-24">
+          <div class="flex items-center justify-between">
+            <span class="font-bold text-sm text-rose-300">Mellotron Flute</span>
+            <span class="text-[10px] font-mono text-zinc-400 bg-zinc-900/80 px-1.5 py-0.5 rounded">Strawberry</span>
+          </div>
+          <div class="text-[11px] text-zinc-300">Iconic breathy progressive rock lead</div>
+          <div class="text-[10px] text-zinc-400">Layer: Analog Tape Transient + Hiss</div>
+        </div>
+
+        <!-- Pad 7: Minimoog Analog Bass -->
+        <div onclick="playVintageInstrument('minimoog')" id="pad-minimoog" class="vintage-pad p-3.5 rounded-lg flex flex-col justify-between h-24">
+          <div class="flex items-center justify-between">
+            <span class="font-bold text-sm text-emerald-300">Minimoog Lead/Bass</span>
+            <span class="text-[10px] font-mono text-zinc-400 bg-zinc-900/80 px-1.5 py-0.5 rounded">3-VCO Ladder</span>
+          </div>
+          <div class="text-[11px] text-zinc-300">Fat triple-oscillator saw, 24dB ladder filter</div>
+          <div class="text-[10px] text-zinc-400">Layer: Detuned Saws + Sub-Octave</div>
+        </div>
+
+        <!-- Pad 8: Prophet-5 Poly Synth -->
+        <div onclick="playVintageInstrument('prophet')" id="pad-prophet" class="vintage-pad p-3.5 rounded-lg flex flex-col justify-between h-24">
+          <div class="flex items-center justify-between">
+            <span class="font-bold text-sm text-emerald-300">Prophet-5 Poly Brass</span>
+            <span class="text-[10px] font-mono text-zinc-400 bg-zinc-900/80 px-1.5 py-0.5 rounded">Sync Brass</span>
+          </div>
+          <div class="text-[11px] text-zinc-300">Rich chorused polyphonic analog brass sweep</div>
+          <div class="text-[10px] text-zinc-400">Layer: Dual SSM/Curtis Oscillators</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ==================== TAB 2: PRESET EDITOR ==================== -->
+    <div id="subview-preset" class="p-5 flex flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <span class="text-xs uppercase font-bold tracking-widest text-sky-400 font-mono">4-Layer Preset Sound Architecture</span>
+        <span class="text-xs text-zinc-400 font-mono">ROM 0: Vintage Keys &bull; ROM 1: Classic Synths (64MB Total)</span>
+      </div>
+      <div class="grid grid-cols-4 gap-3 text-xs">
+        <div class="bg-zinc-950/80 p-3 rounded border border-amber-500/30 flex flex-col gap-1.5">
+          <span class="text-amber-400 font-bold">Layer 1 (Active)</span>
+          <div class="text-[11px] text-zinc-300">Sound: <span class="text-zinc-100 font-semibold">Rhodes Mark I Hard Tine</span></div>
+          <div class="text-[11px] text-zinc-400">Key Range: C-2 to G8</div>
+          <div class="text-[11px] text-zinc-400">Vel Range: 0 to 127</div>
+          <div class="text-[11px] text-cyan-400 font-mono">Filter: 2-Pole Vintage Lowpass</div>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-amber-500/30 flex flex-col gap-1.5">
+          <span class="text-amber-400 font-bold">Layer 2 (Active)</span>
+          <div class="text-[11px] text-zinc-300">Sound: <span class="text-zinc-100 font-semibold">Rhodes Suitcase Pan Tremolo</span></div>
+          <div class="text-[11px] text-zinc-400">Key Range: C-2 to G8</div>
+          <div class="text-[11px] text-zinc-400">Vel Range: 45 to 127</div>
+          <div class="text-[11px] text-cyan-400 font-mono">Filter: 4-Pole Warm Sweep</div>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800 flex flex-col gap-1.5 opacity-60">
+          <span class="text-zinc-400 font-bold">Layer 3 (Mute)</span>
+          <div class="text-[11px] text-zinc-400">Sound: Clavinet Release Mute</div>
+          <div class="text-[11px] text-zinc-500">Filter: Bypass</div>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800 flex flex-col gap-1.5 opacity-60">
+          <span class="text-zinc-400 font-bold">Layer 4 (Mute)</span>
+          <div class="text-[11px] text-zinc-400">Sound: CP-70 Electric Grand</div>
+          <div class="text-[11px] text-zinc-500">Filter: Bypass</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 3: 50 Z-PLANE FILTERS ==================== -->
+    <div id="subview-filter" class="p-5 flex flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <span class="text-xs uppercase font-bold tracking-widest text-cyan-400 font-mono">50 12th-Order Resonant Morphing Z-Plane Filters</span>
+        <span class="text-xs text-zinc-400 font-mono">Vintage Lowpass 24dB &bull; Transistor Ladder &bull; Formant Vocal</span>
+      </div>
+      <div class="grid grid-cols-3 gap-3 text-xs">
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-cyan-400 font-bold">Moog 4-Pole Ladder</span>
+          <div class="text-[11px] text-zinc-300 mt-1">24dB/oct resonant transistor ladder with warm analog drive saturation.</div>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-cyan-400 font-bold">Oberheim 2-Pole SEM</span>
+          <div class="text-[11px] text-zinc-300 mt-1">12dB state-variable filter morphing smoothly from lowpass to notch to highpass.</div>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-cyan-400 font-bold">Phased Rotary Wah</span>
+          <div class="text-[11px] text-zinc-300 mt-1">12-pole multi-stage phaser simulating vintage Leslie rotary horn acoustic dispersion.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 4: ARPEGGIATOR & SUPERBEATS ==================== -->
+    <div id="subview-arpeggiator" class="p-5 flex flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <span class="text-xs uppercase font-bold tracking-widest text-rose-400 font-mono">Arpeggiator &amp; SuperBEATS Interactive Pattern Engine</span>
+        <span class="text-xs text-zinc-400 font-mono">300+ Factory Arp Patterns &bull; 100 User &bull; Syncable MIDI Clock</span>
+      </div>
+      <div class="grid grid-cols-4 gap-3 text-xs">
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-rose-400 font-bold">Arp Status</span>
+          <div class="text-base font-mono text-emerald-400 mt-1">ACTIVE (Synced)</div>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-rose-400 font-bold">Pattern</span>
+          <div class="text-base font-mono text-zinc-200 mt-1">P014: Funk Clav 16th</div>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-rose-400 font-bold">Resolution</span>
+          <div class="text-base font-mono text-zinc-200 mt-1">1/16 Note Swing</div>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-rose-400 font-bold">BPM Clock</span>
+          <div class="text-base font-mono text-amber-300 mt-1">112 BPM (Internal)</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 5: PATCHCORDS (24 CORDS) ==================== -->
+    <div id="subview-patchcords" class="p-5 flex flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <span class="text-xs uppercase font-bold tracking-widest text-pink-400 font-mono">24 PatchCords Modulation Matrix</span>
+        <span class="text-xs text-zinc-400 font-mono">Dynamic Interconnection of 16 Knobs (A-L) and Sound Modules</span>
+      </div>
+      <div class="grid grid-cols-4 gap-3 text-xs">
+        <div class="bg-zinc-950/80 p-2.5 rounded border border-zinc-800">
+          <span class="text-pink-400 font-bold">Cord 01</span>
+          <div class="text-[11px] text-zinc-300 mt-1">Src: <span class="text-sky-300">Knob A (Filter Cutoff)</span></div>
+          <div class="text-[11px] text-zinc-300">Dst: <span class="text-cyan-400">All Layers Filter Freq</span></div>
+          <div class="text-[11px] text-zinc-400">Amt: <span class="text-emerald-400">+100%</span></div>
+        </div>
+        <div class="bg-zinc-950/80 p-2.5 rounded border border-zinc-800">
+          <span class="text-pink-400 font-bold">Cord 02</span>
+          <div class="text-[11px] text-zinc-300 mt-1">Src: <span class="text-sky-300">Knob B (Filter Res)</span></div>
+          <div class="text-[11px] text-zinc-300">Dst: <span class="text-cyan-400">Z-Plane Resonance</span></div>
+          <div class="text-[11px] text-zinc-400">Amt: <span class="text-emerald-400">+85%</span></div>
+        </div>
+        <div class="bg-zinc-950/80 p-2.5 rounded border border-zinc-800">
+          <span class="text-pink-400 font-bold">Cord 03</span>
+          <div class="text-[11px] text-zinc-300 mt-1">Src: <span class="text-sky-300">Velocity</span></div>
+          <div class="text-[11px] text-zinc-300">Dst: <span class="text-cyan-400">Filter Envelope Depth</span></div>
+          <div class="text-[11px] text-zinc-400">Amt: <span class="text-emerald-400">+60%</span></div>
+        </div>
+        <div class="bg-zinc-950/80 p-2.5 rounded border border-zinc-800">
+          <span class="text-pink-400 font-bold">Cord 04</span>
+          <div class="text-[11px] text-zinc-300 mt-1">Src: <span class="text-sky-300">Mod Wheel (CC 01)</span></div>
+          <div class="text-[11px] text-zinc-300">Dst: <span class="text-cyan-400">LFO 1 to Pitch (Vibrato)</span></div>
+          <div class="text-[11px] text-zinc-400">Amt: <span class="text-emerald-400">+45%</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 6: GLOBAL EDITOR ==================== -->
+    <div id="subview-global" class="p-5 flex flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <span class="text-xs uppercase font-bold tracking-widest text-blue-400 font-mono">Global Parameters &bull; 12 Front-Panel Real-Time CC Assignments</span>
+        <span class="text-xs text-zinc-400 font-mono">Controllers A - L &bull; 6 Polyphonic Analog Submix Outputs</span>
+      </div>
+      <div class="grid grid-cols-4 gap-3 text-xs">
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-blue-400 font-bold">Master Tuning</span>
+          <div class="text-base font-mono text-zinc-200 mt-1">440.0 Hz (+0 Cent)</div>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-blue-400 font-bold">Master Transpose</span>
+          <div class="text-base font-mono text-zinc-200 mt-1">+0 Semitones</div>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-blue-400 font-bold">Submix Outs 1 &amp; 2</span>
+          <div class="text-base font-mono text-emerald-400 mt-1">Main Stereo (L/R)</div>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-blue-400 font-bold">Submix Outs 3 to 6</span>
+          <div class="text-base font-mono text-emerald-400 mt-1">Sub 1 (L/R), Sub 2 (L/R)</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 7: PRESET MAP ==================== -->
+    <div id="subview-progmap" class="p-5 flex flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <span class="text-xs uppercase font-bold tracking-widest text-purple-400 font-mono">MIDI Program Change Mapping Table</span>
+        <span class="text-xs text-zinc-400 font-mono">Map PC 0-127 to Any User or Vintage ROM Preset</span>
+      </div>
+      <div class="text-xs text-zinc-400">
+        128-entry programmable program mapping table for seamless live stage keyboard rig switching.
+      </div>
+    </div>
+
+    <!-- ==================== TAB 8: MULTIMODE ==================== -->
+    <div id="subview-multimode" class="p-5 flex flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <span class="text-xs uppercase font-bold tracking-widest text-emerald-400 font-mono">MultiMode 16-Part Scoring Console</span>
+        <span class="text-xs text-zinc-400 font-mono">Independent MIDI Channels 1-16 &bull; Volume, Pan &amp; Submix Bus Routing</span>
+      </div>
+      <div class="grid grid-cols-8 gap-2 text-[11px]">
+        <div class="bg-zinc-950 p-2 rounded border border-zinc-800 text-center">
+          <div class="text-emerald-400 font-bold font-mono">Ch 01</div>
+          <div class="text-zinc-200 truncate font-semibold mt-1">Rhodes I</div>
+          <div class="text-[9px] text-zinc-400 font-mono">Vol: 127 Pan: 0</div>
+        </div>
+        <div class="bg-zinc-950 p-2 rounded border border-zinc-800 text-center">
+          <div class="text-emerald-400 font-bold font-mono">Ch 02</div>
+          <div class="text-zinc-200 truncate font-semibold mt-1">Wurlitzer</div>
+          <div class="text-[9px] text-zinc-400 font-mono">Vol: 115 Pan: -12</div>
+        </div>
+        <div class="bg-zinc-950 p-2 rounded border border-zinc-800 text-center">
+          <div class="text-emerald-400 font-bold font-mono">Ch 03</div>
+          <div class="text-zinc-200 truncate font-semibold mt-1">Clavinet D6</div>
+          <div class="text-[9px] text-zinc-400 font-mono">Vol: 110 Pan: +15</div>
+        </div>
+        <div class="bg-zinc-950 p-2 rounded border border-zinc-800 text-center">
+          <div class="text-emerald-400 font-bold font-mono">Ch 04</div>
+          <div class="text-zinc-200 truncate font-semibold mt-1">B3 Leslie</div>
+          <div class="text-[9px] text-zinc-400 font-mono">Vol: 120 Pan: 0</div>
+        </div>
+        <div class="bg-zinc-950 p-2 rounded border border-zinc-800 text-center">
+          <div class="text-emerald-400 font-bold font-mono">Ch 05</div>
+          <div class="text-zinc-200 truncate font-semibold mt-1">Mellotron S</div>
+          <div class="text-[9px] text-zinc-400 font-mono">Vol: 105 Pan: -24</div>
+        </div>
+        <div class="bg-zinc-950 p-2 rounded border border-zinc-800 text-center">
+          <div class="text-emerald-400 font-bold font-mono">Ch 06</div>
+          <div class="text-zinc-200 truncate font-semibold mt-1">Minimoog</div>
+          <div class="text-[9px] text-zinc-400 font-mono">Vol: 127 Pan: 0</div>
+        </div>
+        <div class="bg-zinc-950 p-2 rounded border border-zinc-800 text-center">
+          <div class="text-emerald-400 font-bold font-mono">Ch 07</div>
+          <div class="text-zinc-200 truncate font-semibold mt-1">Prophet-5</div>
+          <div class="text-[9px] text-zinc-400 font-mono">Vol: 112 Pan: +20</div>
+        </div>
+        <div class="bg-zinc-950 p-2 rounded border border-zinc-800 text-center">
+          <div class="text-emerald-400 font-bold font-mono">Ch 08</div>
+          <div class="text-zinc-200 truncate font-semibold mt-1">CP-70 Grand</div>
+          <div class="text-[9px] text-zinc-400 font-mono">Vol: 108 Pan: 0</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 9: BANK LIBRARIAN ==================== -->
+    <div id="subview-librarian" class="p-5 flex flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <span class="text-xs uppercase font-bold tracking-widest text-amber-400 font-mono">Bank Librarian &bull; 1024 Presets (User 0-3 &bull; ROM 0-3)</span>
+        <span class="text-xs text-zinc-400 font-mono">SysEx All RAM Backup &bull; 64MB Vintage Sound ROM</span>
+      </div>
+      <div class="grid grid-cols-4 gap-3 text-xs">
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-amber-400 font-bold">ROM Slot 1 (Internal)</span>
+          <div class="text-xs text-zinc-200 mt-1 font-semibold">Vintage Keys &amp; Synths (32MB)</div>
+          <div class="text-[11px] text-zinc-400">Rhodes, Wurlitzer, Clavinet, B3</div>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-amber-400 font-bold">ROM Slot 2 (Internal)</span>
+          <div class="text-xs text-zinc-200 mt-1 font-semibold">Classic Analog Legends (32MB)</div>
+          <div class="text-[11px] text-zinc-400">Minimoog, Prophet, Mellotron, ARP</div>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-zinc-500 font-bold">Turbo Slot 3 (Open)</span>
+          <div class="text-xs text-zinc-500 mt-1">Expansion Available</div>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-zinc-500 font-bold">Turbo Slot 4 (Open)</span>
+          <div class="text-xs text-zinc-500 mt-1">Expansion Available</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- LIVE SYSEX PACKET STREAM MONITOR -->
+  <div class="w-full max-w-6xl mt-3 bg-zinc-900 border border-zinc-800 rounded-lg p-2.5 flex items-center justify-between text-xs font-mono">
+    <div class="flex items-center gap-2">
+      <div class="w-2 h-2 rounded-full bg-amber-400 animate-ping"></div>
+      <span class="text-zinc-400">E-MU VINTAGE PRO SYSEX OUT:</span>
+      <span id="sysex-display" class="text-amber-300 font-bold">F0 18 0E 00 0F 01 00 00 16 F7 (Preset: 022³ trn:Mellotron Str)</span>
+    </div>
+    <div class="text-zinc-500 text-[11px]">
+      Latency: <span class="text-emerald-400">0.2ms</span> | Engine: <span class="text-amber-400">128-Voice Vintage DSP</span>
+    </div>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- JAVASCRIPT SOUND ENGINE & INTERACTIVE LOGIC                               -->
+  <!-- ========================================================================= -->
+  <script>
+    let audioCtx = null;
+    let currentKnobMode = 0; // 0: A-D, 1: E-H, 2: I-L
+    let currentPresetIdx = 0;
+
+    const presetsList = [
+      "022³ trn:Mellotron Str",
+      "054² str:ClavinetCleanR",
+      "001¹ ep1:Rhodes Mk I",
+      "008¹ ep2:Wurlitzer 200",
+      "015¹ org:Hammond B3 Fast",
+      "035³ flt:Mellotron Flute",
+      "042² bas:Minimoog Ladder",
+      "070² brs:Prophet-5 Poly",
+      "088³ led:ARP Odyssey Lead"
+    ];
+
+    function initAudio() {
+      if (!audioCtx) {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      }
+      if (audioCtx.state === 'suspended') {
+        audioCtx.resume();
+      }
+    }
+
+    // Cycle Knob Banks (A-D, E-H, I-L)
+    function cycleKnobMode() {
+      currentKnobMode = (currentKnobMode + 1) % 3;
+      document.getElementById('led-ad').className = (currentKnobMode === 0) ? 'led-dot led-green-on' : 'led-dot led-off';
+      document.getElementById('led-eh').className = (currentKnobMode === 1) ? 'led-dot led-green-on' : 'led-dot led-off';
+      document.getElementById('led-il').className = (currentKnobMode === 2) ? 'led-dot led-green-on' : 'led-dot led-off';
+    }
+
+    // Interactive Vintage Instrument Synthesis
+    function playVintageInstrument(type) {
+      initAudio();
+      const pad = document.getElementById(`pad-${type}`);
+      if (pad) {
+        pad.classList.add('pad-active');
+        setTimeout(() => pad.classList.remove('pad-active'), 180);
+      }
+
+      if (type === 'rhodes') {
+        playRhodesTone([261.63, 329.63, 392.00, 523.25]);
+      } else if (type === 'wurlitzer') {
+        playWurlitzerTone([261.63, 329.63, 392.00, 493.88]);
+      } else if (type === 'clavinet') {
+        playClavinetPluck(220);
+      } else if (type === 'b3') {
+        playHammondChord([130.81, 196.00, 261.63, 329.63, 392.00]);
+      } else if (type === 'mellotron_str') {
+        playMellotronTape([220, 261.63, 329.63, 440], 'sawtooth');
+      } else if (type === 'mellotron_flt') {
+        playMellotronFlute(349.23);
+      } else if (type === 'minimoog') {
+        playMinimoogBass(55);
+      } else if (type === 'prophet') {
+        playProphetBrass([110, 164.81, 220, 277.18]);
+      }
+    }
+
+    // Rhodes Bell Tine EP
+    function playRhodesTone(chord) {
+      if (!audioCtx) return;
+      chord.forEach((freq, idx) => {
+        const osc = audioCtx.createOscillator();
+        const sineTine = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        const filter = audioCtx.createBiquadFilter();
+
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(freq, audioCtx.currentTime);
+
+        sineTine.type = 'triangle';
+        sineTine.frequency.setValueAtTime(freq * 3.98, audioCtx.currentTime); // Tine harmonic
+
+        filter.type = 'lowpass';
+        filter.frequency.setValueAtTime(1400, audioCtx.currentTime);
+
+        const now = audioCtx.currentTime;
+        gain.gain.setValueAtTime(0.3, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 1.4);
+
+        osc.connect(filter);
+        sineTine.connect(filter);
+        filter.connect(gain);
+        gain.connect(audioCtx.destination);
+
+        osc.start();
+        sineTine.start();
+        osc.stop(now + 1.4);
+        sineTine.stop(now + 1.4);
+      });
+    }
+
+    // Wurlitzer Reed EP
+    function playWurlitzerTone(chord) {
+      if (!audioCtx) return;
+      chord.forEach((freq) => {
+        const osc = audioCtx.createOscillator();
+        const filter = audioCtx.createBiquadFilter();
+        const gain = audioCtx.createGain();
+
+        osc.type = 'triangle';
+        osc.frequency.setValueAtTime(freq, audioCtx.currentTime);
+
+        filter.type = 'bandpass';
+        filter.frequency.setValueAtTime(950, audioCtx.currentTime);
+        filter.Q.setValueAtTime(3.5, audioCtx.currentTime);
+
+        const now = audioCtx.currentTime;
+        gain.gain.setValueAtTime(0.35, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 1.1);
+
+        osc.connect(filter);
+        filter.connect(gain);
+        gain.connect(audioCtx.destination);
+
+        osc.start();
+        osc.stop(now + 1.1);
+      });
+    }
+
+    // Funk Clavinet D6 Pluck
+    function playClavinetPluck(freq) {
+      if (!audioCtx) return;
+      const osc = audioCtx.createOscillator();
+      const filter = audioCtx.createBiquadFilter();
+      const gain = audioCtx.createGain();
+
+      osc.type = 'sawtooth';
+      osc.frequency.setValueAtTime(freq, audioCtx.currentTime);
+
+      filter.type = 'bandpass';
+      filter.frequency.setValueAtTime(2200, audioCtx.currentTime);
+      filter.frequency.exponentialRampToValueAtTime(600, audioCtx.currentTime + 0.25);
+      filter.Q.setValueAtTime(6, audioCtx.currentTime);
+
+      const now = audioCtx.currentTime;
+      gain.gain.setValueAtTime(0.5, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.5);
+
+      osc.connect(filter);
+      filter.connect(gain);
+      gain.connect(audioCtx.destination);
+
+      osc.start();
+      osc.stop(now + 0.5);
+    }
+
+    // Hammond B3 Drawbars with Leslie Rotor
+    function playHammondChord(notes) {
+      if (!audioCtx) return;
+      notes.forEach(f => {
+        const osc1 = audioCtx.createOscillator();
+        const osc2 = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+
+        osc1.type = 'sine';
+        osc1.frequency.setValueAtTime(f, audioCtx.currentTime);
+
+        osc2.type = 'sine';
+        osc2.frequency.setValueAtTime(f * 2, audioCtx.currentTime);
+
+        const now = audioCtx.currentTime;
+        gain.gain.setValueAtTime(0.2, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 1.3);
+
+        osc1.connect(gain);
+        osc2.connect(gain);
+        gain.connect(audioCtx.destination);
+
+        osc1.start();
+        osc2.start();
+        osc1.stop(now + 1.3);
+        osc2.stop(now + 1.3);
+      });
+    }
+
+    // Mellotron Tape Strings
+    function playMellotronTape(chord, wave) {
+      if (!audioCtx) return;
+      chord.forEach((freq) => {
+        const osc = audioCtx.createOscillator();
+        const filter = audioCtx.createBiquadFilter();
+        const gain = audioCtx.createGain();
+
+        osc.type = wave;
+        osc.frequency.setValueAtTime(freq + (Math.random() * 2 - 1), audioCtx.currentTime);
+
+        filter.type = 'lowpass';
+        filter.frequency.setValueAtTime(2800, audioCtx.currentTime);
+
+        const now = audioCtx.currentTime;
+        gain.gain.setValueAtTime(0.05, now);
+        gain.gain.linearRampToValueAtTime(0.25, now + 0.15);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 1.8);
+
+        osc.connect(filter);
+        filter.connect(gain);
+        gain.connect(audioCtx.destination);
+
+        osc.start();
+        osc.stop(now + 1.8);
+      });
+    }
+
+    // Mellotron Flute
+    function playMellotronFlute(freq) {
+      if (!audioCtx) return;
+      const osc = audioCtx.createOscillator();
+      const filter = audioCtx.createBiquadFilter();
+      const gain = audioCtx.createGain();
+
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(freq, audioCtx.currentTime);
+
+      filter.type = 'lowpass';
+      filter.frequency.setValueAtTime(1200, audioCtx.currentTime);
+
+      const now = audioCtx.currentTime;
+      gain.gain.setValueAtTime(0.35, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 1.5);
+
+      osc.connect(filter);
+      filter.connect(gain);
+      gain.connect(audioCtx.destination);
+
+      osc.start();
+      osc.stop(now + 1.5);
+    }
+
+    // Minimoog 24dB Ladder Bass
+    function playMinimoogBass(freq) {
+      if (!audioCtx) return;
+      const osc1 = audioCtx.createOscillator();
+      const osc2 = audioCtx.createOscillator();
+      const filter = audioCtx.createBiquadFilter();
+      const gain = audioCtx.createGain();
+
+      osc1.type = 'sawtooth';
+      osc1.frequency.setValueAtTime(freq, audioCtx.currentTime);
+
+      osc2.type = 'sawtooth';
+      osc2.frequency.setValueAtTime(freq * 1.01, audioCtx.currentTime); // Analog Detune
+
+      filter.type = 'lowpass';
+      filter.frequency.setValueAtTime(1600, audioCtx.currentTime);
+      filter.frequency.exponentialRampToValueAtTime(220, audioCtx.currentTime + 0.6);
+      filter.Q.setValueAtTime(8, audioCtx.currentTime);
+
+      const now = audioCtx.currentTime;
+      gain.gain.setValueAtTime(0.6, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 1.1);
+
+      osc1.connect(filter);
+      osc2.connect(filter);
+      filter.connect(gain);
+      gain.connect(audioCtx.destination);
+
+      osc1.start();
+      osc2.start();
+      osc1.stop(now + 1.1);
+      osc2.stop(now + 1.1);
+    }
+
+    // Prophet-5 Brass
+    function playProphetBrass(chord) {
+      if (!audioCtx) return;
+      chord.forEach(f => {
+        const osc = audioCtx.createOscillator();
+        const filter = audioCtx.createBiquadFilter();
+        const gain = audioCtx.createGain();
+
+        osc.type = 'sawtooth';
+        osc.frequency.setValueAtTime(f, audioCtx.currentTime);
+
+        filter.type = 'lowpass';
+        filter.frequency.setValueAtTime(800, audioCtx.currentTime);
+        filter.frequency.exponentialRampToValueAtTime(3200, audioCtx.currentTime + 0.2);
+        filter.frequency.exponentialRampToValueAtTime(1000, audioCtx.currentTime + 1.0);
+        filter.Q.setValueAtTime(4.5, audioCtx.currentTime);
+
+        const now = audioCtx.currentTime;
+        gain.gain.setValueAtTime(0.25, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 1.4);
+
+        osc.connect(filter);
+        filter.connect(gain);
+        gain.connect(audioCtx.destination);
+
+        osc.start();
+        osc.stop(now + 1.4);
+      });
+    }
+
+    // Full Vintage Medley Audition Demo
+    function playVintageKeysDemo() {
+      initAudio();
+      document.getElementById('led-audition').className = 'led-dot led-red-on absolute -bottom-1 -right-1.5';
+      setTimeout(() => document.getElementById('led-audition').className = 'led-dot led-off absolute -bottom-1 -right-1.5', 1800);
+
+      // Funk Groove Sequence: Minimoog bass + Clavinet pluck + Rhodes + Mellotron
+      playMinimoogBass(55);
+      setTimeout(() => playClavinetPluck(220), 200);
+      setTimeout(() => playRhodesTone([261.63, 329.63, 392.00, 523.25]), 400);
+      setTimeout(() => playMellotronFlute(349.23), 750);
+      setTimeout(() => playProphetBrass([110, 164.81, 220, 277.18]), 1100);
+    }
+
+    // Knobs Dragging
+    let activeKnob = null;
+    let startY = 0;
+    let startVal = 0;
+
+    function startKnobDrag(e, param) {
+      activeKnob = param;
+      startY = e.clientY;
+      startVal = parseInt(e.currentTarget.getAttribute('data-val') || 100);
+      window.addEventListener('mousemove', onKnobMouseMove);
+      window.addEventListener('mouseup', onKnobMouseUp);
+    }
+
+    function onKnobMouseMove(e) {
+      if (!activeKnob) return;
+      const dy = startY - e.clientY;
+      const newVal = Math.max(0, Math.min(255, startVal + dy));
+      const rot = ((newVal / 255) * 270) - 135;
+
+      if (activeKnob === 'vol') {
+        document.getElementById('vol-pointer').style.transform = `rotate(${rot}deg)`;
+      } else if (activeKnob === 'cutoff') {
+        document.getElementById('knob1-pointer').style.transform = `rotate(${rot}deg)`;
+      } else if (activeKnob === 'res') {
+        document.getElementById('knob2-pointer').style.transform = `rotate(${rot}deg)`;
+      } else if (activeKnob === 'shape') {
+        document.getElementById('knob3-pointer').style.transform = `rotate(${rot}deg)`;
+      } else if (activeKnob === 'rate') {
+        document.getElementById('knob4-pointer').style.transform = `rotate(${rot}deg)`;
+      }
+
+      document.getElementById('sysex-display').innerText = 
+        `F0 18 0E 00 0F 01 04 02 ${newVal.toString(16).toUpperCase()} F7 (${activeKnob.toUpperCase()}: ${newVal})`;
+    }
+
+    function onKnobMouseUp() {
+      activeKnob = null;
+      window.removeEventListener('mousemove', onKnobMouseMove);
+      window.removeEventListener('mouseup', onKnobMouseUp);
+    }
+
+    // Preset Data Wheel & Cursors
+    function cycleVintagePreset(delta) {
+      currentPresetIdx = (currentPresetIdx + delta + presetsList.length) % presetsList.length;
+      document.getElementById('vintage-lcd-line2').innerText = presetsList[currentPresetIdx];
+      document.getElementById('sysex-display').innerText = 
+        `F0 18 0E 00 0F 01 00 00 ${currentPresetIdx.toString(16).toUpperCase()} F7 (Preset: ${presetsList[currentPresetIdx]})`;
+    }
+
+    function handleVintageWheel(e) {
+      e.preventDefault();
+      cycleVintagePreset(e.deltaY > 0 ? 1 : -1);
+    }
+
+    function vintageCursorBump(delta) {
+      cycleVintagePreset(delta);
+    }
+
+    // Tab Switching
+    function switchVintageTab(tabName) {
+      const tabs = ['performance', 'preset', 'filter', 'arpeggiator', 'patchcords', 'global', 'progmap', 'multimode', 'librarian'];
+      tabs.forEach(t => {
+        const btn = document.getElementById(`tab-${t}`);
+        const view = document.getElementById(`subview-${t}`);
+        if (btn) {
+          if (t === tabName) {
+            btn.classList.add('active');
+            btn.classList.remove('text-zinc-400');
+            btn.classList.add('text-zinc-300');
+          } else {
+            btn.classList.remove('active');
+            btn.classList.add('text-zinc-400');
+            btn.classList.remove('text-zinc-300');
+          }
+        }
+        if (view) {
+          view.classList.toggle('hidden', t !== tabName);
+        }
+      });
+
+      // Update button LEDs
+      const masterLed = document.getElementById('led-master');
+      const editLed = document.getElementById('led-edit');
+      const arpLed = document.getElementById('led-arp');
+      const saveLed = document.getElementById('led-save');
+      const homeLed = document.getElementById('led-home');
+
+      if (masterLed) masterLed.className = (tabName === 'global') ? 'led-dot led-red-on absolute -top-1 -right-1.5' : 'led-dot led-off absolute -top-1 -right-1.5';
+      if (editLed) editLed.className = (tabName === 'preset' || tabName === 'filter' || tabName === 'patchcords') ? 'led-dot led-red-on absolute -top-1 -right-1.5' : 'led-dot led-off absolute -top-1 -right-1.5';
+      if (arpLed) arpLed.className = (tabName === 'arpeggiator') ? 'led-dot led-red-on absolute -bottom-1 -right-1.5' : 'led-dot led-off absolute -bottom-1 -right-1.5';
+      if (saveLed) saveLed.className = (tabName === 'librarian') ? 'led-dot led-red-on absolute -bottom-1 -right-1.5' : 'led-dot led-off absolute -bottom-1 -right-1.5';
+      if (homeLed) homeLed.className = (tabName === 'performance') ? 'led-dot led-red-on absolute -bottom-1 -right-1.5' : 'led-dot led-off absolute -bottom-1 -right-1.5';
+    }
+  </script>
+
+</body>
+</html>
