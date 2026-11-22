@@ -5,6 +5,7 @@ members = [
     "crates/omnipatch-midi",
     "crates/omnipatch-librarian",
     "crates/omnipatch-cli",
+    "crates/omnipatch-desktop",
 ]
 resolver = "2"
 

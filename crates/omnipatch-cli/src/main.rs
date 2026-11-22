@@ -3,7 +3,7 @@ use clap::{Parser, Subcommand};
 use colored::*;
 use std::path::PathBuf;
 
-use omnipatch_core::sysex::SysExMessage;
+use omnipatch_core::{ChecksumType, SysExContext, SysExMessage, SysExTemplate};
 use omnipatch_librarian::{LibrarianDb, PatchRecord};
 use omnipatch_midi::MidiManager;
 use omnipatch_profile::ProfileRegistry;
@@ -171,175 +171,63 @@ fn main() -> Result<()> {
         Commands::Sysex { action } => match action {
             SysexCommands::ParamEdit { device, param_id, value } => {
                 println!("{}", format!("Generating parameter edit for {} -> {} = {}", device, param_id, value).cyan());
+
+                let pid: u32 = if param_id.starts_with("0x") || param_id.starts_with("0X") {
+                    u32::from_str_radix(&param_id[2..], 16).unwrap_or(0)
+                } else {
+                    param_id.parse().unwrap_or(0)
+                };
+
+                // Dynamic Declarative Profile Lookup (Scales to 500+ synths)
+                let mut registry = ProfileRegistry::new();
+                let _ = registry.load_dir(std::path::Path::new("devices"));
+
+                let dev_norm = device.to_lowercase().replace(['-', '_', ' '], "");
+                let matched = registry.all().into_iter().find(|p| {
+                    let p_norm = p.name.to_lowercase().replace(['-', '_', ' '], "");
+                    p_norm.contains(&dev_norm) || dev_norm.contains(&p_norm)
+                });
+
+                if let Some(profile) = matched {
+                    if let Some(format_str) = profile.parameter_edit_format() {
+                        let chk = match profile.checksum_type() {
+                            "sum_7bit" => ChecksumType::Sum7bit,
+                            "roland" => ChecksumType::Roland,
+                            "yamaha" => ChecksumType::Yamaha,
+                            _ => ChecksumType::None,
+                        };
+                        if let Ok(template) = SysExTemplate::parse(format_str, chk) {
+                            let ctx = SysExContext::new(pid, value)
+                                .with_device_id(profile.default_device_id());
+                            if let Ok(msg) = template.format(&ctx) {
+                                println!("Raw SysEx:  {}", msg.to_hex_string().bright_yellow().bold());
+                                println!("Parsed Msg: Device: {}, Param: {}, Val: {} (Declarative Profile Template)", profile.name.bright_green(), pid, value);
+                                return Ok(());
+                            }
+                        }
+                    } else if profile.control_protocol.as_deref() == Some("midi_cc") || device.to_lowercase().contains("ax60") {
+                        let cc: u8 = pid as u8;
+                        println!("{} (Tauntek CC Control):", profile.name.bright_green());
+                        println!("Raw MIDI:   {}", format!("B0 {:02X} {:02X}", cc, value & 0x7F).bright_yellow().bold());
+                        return Ok(());
+                    }
+                }
+
+                // Fallback for custom / unprofiled legacy targets
                 if device.to_lowercase().contains("virus") {
-                    // Virus A Single Edit Page A (0x70) or Page B (0x71)
-                    let p_idx: u8 = param_id.parse().unwrap_or(34);
+                    let p_idx: u8 = pid as u8;
                     let val: u8 = (value as u8) & 0x7F;
                     let msg = SysExMessage::new_unchecked(vec![
                         0xF0, 0x00, 0x20, 0x33, 0x01, 0x10, 0x70, 0x40, p_idx, val, 0xF7,
                     ]);
                     println!("Raw SysEx:  {}", msg.to_hex_string().bright_yellow().bold());
                     println!("Parsed Msg: Manufacturer ID: Access Music (00 20 33)");
-                } else if device.to_lowercase().contains("emax ii") || device.to_lowercase().contains("emax-ii") || device.to_lowercase().contains("emax2") {
-                    // E-MU Emax II: F0 18 05 <dev> 01 <p_id> <v_lsb> <v_msb> F7
-                    let pid: u8 = if param_id.starts_with("0x") {
-                        u8::from_str_radix(&param_id[2..], 16).unwrap_or(0x82)
-                    } else {
-                        param_id.parse().unwrap_or(130)
-                    };
-                    let (v_lsb, v_msb) = omnipatch_core::checksum::emu::encode_14bit(value as u16);
-                    let msg = SysExMessage::new_unchecked(vec![
-                        0xF0, 0x18, 0x05, 0x00, 0x01, pid, v_lsb, v_msb, 0xF7,
-                    ]);
-                    println!("Raw SysEx:  {}", msg.to_hex_string().bright_yellow().bold());
-                    println!("Parsed Msg: Manufacturer: E-mu Systems (18), Device: Emax II 16-Bit Stereo Sampler (05), Command: Parameter Edit (01)");
-                } else if device.to_lowercase().contains("emax") {
-                    // E-MU Emax: F0 18 02 <dev> 01 <p_id> <v_lsb> <v_msb> F7
-                    let pid: u8 = if param_id.starts_with("0x") {
-                        u8::from_str_radix(&param_id[2..], 16).unwrap_or(0x82)
-                    } else {
-                        param_id.parse().unwrap_or(130)
-                    };
-                    let (v_lsb, v_msb) = omnipatch_core::checksum::emu::encode_14bit(value as u16);
-                    let msg = SysExMessage::new_unchecked(vec![
-                        0xF0, 0x18, 0x02, 0x00, 0x01, pid, v_lsb, v_msb, 0xF7,
-                    ]);
-                    println!("Raw SysEx:  {}", msg.to_hex_string().bright_yellow().bold());
-                    println!("Parsed Msg: Manufacturer: E-mu Systems (18), Device: Emax Sampler (02), Command: Parameter Edit (01)");
-                } else if device.to_lowercase().contains("carnaval") {
-                    // E-MU Carnaval: F0 18 0A <dev> 01 <p_lsb> <p_msb> <v_lsb> <v_msb> F7
-                    let pid: u16 = if param_id.starts_with("0x") {
-                        u16::from_str_radix(&param_id[2..], 16).unwrap_or(0x0001)
-                    } else {
-                        param_id.parse().unwrap_or(1)
-                    };
-                    let (p_lsb, p_msb) = omnipatch_core::checksum::emu::encode_14bit(pid);
-                    let (v_lsb, v_msb) = omnipatch_core::checksum::emu::encode_14bit(value as u16);
-                    let msg = SysExMessage::new_unchecked(vec![
-                        0xF0, 0x18, 0x0A, 0x00, 0x01, p_lsb, p_msb, v_lsb, v_msb, 0xF7,
-                    ]);
-                    println!("Raw SysEx:  {}", msg.to_hex_string().bright_yellow().bold());
-                    println!("Parsed Msg: Manufacturer: E-mu Systems (18), Device: Carnaval (0A), Command: Param Edit (01)");
-                } else if device.to_lowercase().contains("vintage keys") || device.to_lowercase().contains("vintage-keys") {
-                    // E-MU Vintage Keys: F0 18 04 <dev> 01 <p_lsb> <p_msb> <v_lsb> <v_msb> F7
-                    let pid: u16 = if param_id.starts_with("0x") {
-                        u16::from_str_radix(&param_id[2..], 16).unwrap_or(16)
-                    } else {
-                        param_id.parse().unwrap_or(16)
-                    };
-                    let (p_lsb, p_msb) = omnipatch_core::checksum::emu::encode_14bit(pid);
-                    let (v_lsb, v_msb) = omnipatch_core::checksum::emu::encode_14bit(value as u16);
-                    let msg = SysExMessage::new_unchecked(vec![
-                        0xF0, 0x18, 0x04, 0x00, 0x01, p_lsb, p_msb, v_lsb, v_msb, 0xF7,
-                    ]);
-                    println!("Raw SysEx:  {}", msg.to_hex_string().bright_yellow().bold());
-                    println!("Parsed Msg: Manufacturer: E-mu Systems (18), Device: Vintage Keys (04), Command: Param Edit (01)");
-                } else if device.to_lowercase().contains("sp-1200") || device.to_lowercase().contains("sp1200") {
-                    let pid: u16 = if param_id.starts_with("0x") {
-                        u16::from_str_radix(&param_id[2..], 16).unwrap_or(1)
-                    } else {
-                        param_id.parse().unwrap_or(1)
-                    };
-                    let (p_lsb, p_msb) = omnipatch_core::checksum::emu::encode_14bit(pid);
-                    let (v_lsb, v_msb) = omnipatch_core::checksum::emu::encode_14bit(value as u16);
-                    let msg = SysExMessage::new_unchecked(vec![
-                        0xF0, 0x18, 0x03, 0x00, 0x01, p_lsb, p_msb, v_lsb, v_msb, 0xF7,
-                    ]);
-                    println!("Raw SysEx:  {}", msg.to_hex_string().bright_yellow().bold());
-                    println!("Parsed Msg: Manufacturer: E-mu Systems (18), Device: SP-1200 (03), Command: Param Edit (01)");
-                } else if device.to_lowercase().contains("planet phatt") || device.to_lowercase().contains("planet-phatt") || device.to_lowercase().contains("phatt") {
-                    // E-MU Planet Phatt: F0 18 07 <dev> 01 <p_lsb> <p_msb> <v_lsb> <v_msb> F7
-                    let pid: u16 = if param_id.starts_with("0x") {
-                        u16::from_str_radix(&param_id[2..], 16).unwrap_or(16)
-                    } else {
-                        param_id.parse().unwrap_or(16)
-                    };
-                    let (p_lsb, p_msb) = omnipatch_core::checksum::emu::encode_14bit(pid);
-                    let (v_lsb, v_msb) = omnipatch_core::checksum::emu::encode_14bit(value as u16);
-                    let msg = SysExMessage::new_unchecked(vec![
-                        0xF0, 0x18, 0x07, 0x00, 0x01, p_lsb, p_msb, v_lsb, v_msb, 0xF7,
-                    ]);
-                    println!("Raw SysEx:  {}", msg.to_hex_string().bright_yellow().bold());
-                    println!("Parsed Msg: Manufacturer: E-mu Systems (18), Device: Planet Phatt (07), Command: Param Edit (01)");
-                } else if (device.to_lowercase().contains("orbit") && !device.to_lowercase().contains("orbit-3") && !device.to_lowercase().contains("orbit 3")) || device.to_lowercase().contains("orbit-9090") || device.to_lowercase().contains("9090") {
-                    // E-MU Orbit 9090 Dance Planet: F0 18 05 <dev> 01 <p_lsb> <p_msb> <v_lsb> <v_msb> F7
-                    let pid: u16 = if param_id.starts_with("0x") {
-                        u16::from_str_radix(&param_id[2..], 16).unwrap_or(16)
-                    } else {
-                        param_id.parse().unwrap_or(16)
-                    };
-                    let (p_lsb, p_msb) = omnipatch_core::checksum::emu::encode_14bit(pid);
-                    let (v_lsb, v_msb) = omnipatch_core::checksum::emu::encode_14bit(value as u16);
-                    let msg = SysExMessage::new_unchecked(vec![
-                        0xF0, 0x18, 0x05, 0x00, 0x01, p_lsb, p_msb, v_lsb, v_msb, 0xF7,
-                    ]);
-                    println!("Raw SysEx:  {}", msg.to_hex_string().bright_yellow().bold());
-                    println!("Parsed Msg: Manufacturer: E-mu Systems (18), Device: Orbit 9090 Dance Planet (05), Command: Param Edit (01)");
-                } else if device.to_lowercase().contains("audity") || device.to_lowercase().contains("b3") || device.to_lowercase().contains("b-3") || device.to_lowercase().contains("proteus") || device.to_lowercase().contains("xl-1") || device.to_lowercase().contains("xl1") || device.to_lowercase().contains("xtreme") || device.to_lowercase().contains("xl-7") || device.to_lowercase().contains("xl7") || device.to_lowercase().contains("command") || device.to_lowercase().contains("xk-6") || device.to_lowercase().contains("xk6") || device.to_lowercase().contains("virtuoso") || device.to_lowercase().contains("vintage pro") || device.to_lowercase().contains("vintpro") || device.to_lowercase().contains("planet earth") || device.to_lowercase().contains("planet-earth") || device.to_lowercase().contains("orbit-3") || device.to_lowercase().contains("orbit 3") {
-                    let pid: u16 = if param_id.starts_with("0x") {
-                        u16::from_str_radix(&param_id[2..], 16).unwrap_or(0x0180)
-                    } else {
-                        param_id.parse().unwrap_or(0x0180)
-                    };
-                    let (p_lsb, p_msb) = omnipatch_core::checksum::emu::encode_14bit(pid);
-                    let (v_lsb, v_msb) = omnipatch_core::checksum::emu::encode_14bit(value as u16);
-                    let msg = SysExMessage::new_unchecked(vec![
-                        0xF0, 0x18, 0x0F, 0x00, 0x55, 0x01, 0x02, p_lsb, p_msb, v_lsb, v_msb, 0xF7,
-                    ]);
-                    println!("Raw SysEx:  {}", msg.to_hex_string().bright_yellow().bold());
-                    println!("Parsed Msg: Manufacturer: E-mu Systems (18), Device: Proteus/Command Station/Planet Earth/Orbit-3 Family (0F)");
                 } else if device.to_lowercase().contains("ax60") {
-                    let cc: u8 = param_id.parse().unwrap_or(74);
+                    let cc: u8 = pid as u8;
                     println!("AX60 (Tauntek): Real-time parameter transmitted via MIDI CC:");
                     println!("Raw MIDI:   {}", format!("B0 {:02X} {:02X}", cc, value & 0x7F).bright_yellow().bold());
-                } else if device.to_lowercase().contains("cz-1000") || device.to_lowercase().contains("cz1000") {
-                    let pid: u8 = param_id.parse().unwrap_or(20);
-                    let val: u8 = (value as u8) & 0x7F;
-                    let msg = SysExMessage::new_unchecked(vec![
-                        0xF0, 0x44, 0x00, 0x00, 0x70, 0x00, pid, val, 0xF7,
-                    ]);
-                    println!("Raw SysEx:  {}", msg.to_hex_string().bright_yellow().bold());
-                    println!("Parsed Msg: Manufacturer: Casio (44), Device: CZ-1000 Phase Distortion Synth, Param: {}, Val: {}", pid, val);
-                } else if device.to_lowercase().contains("cz-101") || device.to_lowercase().contains("cz101") {
-                    let pid: u8 = param_id.parse().unwrap_or(20);
-                    let val: u8 = (value as u8) & 0x7F;
-                    let msg = SysExMessage::new_unchecked(vec![
-                        0xF0, 0x44, 0x00, 0x00, 0x70, 0x00, pid, val, 0xF7,
-                    ]);
-                    println!("Raw SysEx:  {}", msg.to_hex_string().bright_yellow().bold());
-                    println!("Parsed Msg: Manufacturer: Casio (44), Device: CZ-101 Portable Phase Distortion Synth, Param: {}, Val: {}", pid, val);
-                } else if device.to_lowercase().contains("cz-230s") || device.to_lowercase().contains("cz230s") {
-                    let pid: u8 = param_id.parse().unwrap_or(0);
-                    let val: u8 = (value as u8) & 0x7F;
-                    let msg = SysExMessage::new_unchecked(vec![
-                        0xF0, 0x44, 0x00, 0x00, 0x70, 0x00, pid, val, 0xF7,
-                    ]);
-                    println!("Raw SysEx:  {}", msg.to_hex_string().bright_yellow().bold());
-                    println!("Parsed Msg: Manufacturer: Casio (44), Device: CZ-230S Phase Distortion & PCM Rhythm Workstation, Param: {}, Val: {}", pid, val);
-                } else if device.to_lowercase().contains("cz-3000") || device.to_lowercase().contains("cz3000") {
-                    let pid: u8 = param_id.parse().unwrap_or(20);
-                    let val: u8 = (value as u8) & 0x7F;
-                    let msg = SysExMessage::new_unchecked(vec![
-                        0xF0, 0x44, 0x00, 0x00, 0x70, 0x00, pid, val, 0xF7,
-                    ]);
-                    println!("Raw SysEx:  {}", msg.to_hex_string().bright_yellow().bold());
-                    println!("Parsed Msg: Manufacturer: Casio (44), Device: CZ-3000 16-DCO Phase Distortion Synth with Chorus, Param: {}, Val: {}", pid, val);
-                } else if device.to_lowercase().contains("cz-5000") || device.to_lowercase().contains("cz5000") {
-                    let pid: u8 = param_id.parse().unwrap_or(20);
-                    let val: u8 = (value as u8) & 0x7F;
-                    let msg = SysExMessage::new_unchecked(vec![
-                        0xF0, 0x44, 0x00, 0x00, 0x70, 0x00, pid, val, 0xF7,
-                    ]);
-                    println!("Raw SysEx:  {}", msg.to_hex_string().bright_yellow().bold());
-                    println!("Parsed Msg: Manufacturer: Casio (44), Device: CZ-5000 Flagship Workstation with 8-Track Sequencer, Param: {}, Val: {}", pid, val);
-                } else if device.to_lowercase().contains("cz-1") || device.to_lowercase().contains("cz1") {
-                    let pid: u8 = param_id.parse().unwrap_or(20);
-                    let val: u8 = (value as u8) & 0x7F;
-                    let msg = SysExMessage::new_unchecked(vec![
-                        0xF0, 0x44, 0x00, 0x00, 0x70, 0x00, pid, val, 0xF7,
-                    ]);
-                    println!("Raw SysEx:  {}", msg.to_hex_string().bright_yellow().bold());
-                    println!("Parsed Msg: Manufacturer: Casio (44), Device: CZ-1 Flagship Velocity/Aftertouch Phase Distortion Synth, Param: {}, Val: {}", pid, val);
+                } else {
+                    println!("Unknown device: {}. Run 'omnipatch devices list' to see all 27 supported instruments.", device);
                 }
             }
         },
@@ -376,7 +264,15 @@ fn main() -> Result<()> {
             }
             LibrarianCommands::Search { query, device, db } => {
                 let librarian = LibrarianDb::open(&db)?;
-                let results = librarian.search(device.as_deref(), query.as_deref())?;
+                let results = if let Some(ref q) = query {
+                    if device.is_none() {
+                        librarian.search_fts(q)?
+                    } else {
+                        librarian.search(device.as_deref(), Some(q))?
+                    }
+                } else {
+                    librarian.search(device.as_deref(), None)?
+                };
                 println!("{}", format!("Found {} matching patches in {}:", results.len(), db.display()).cyan().bold());
                 for (i, p) in results.iter().take(25).enumerate() {
                     println!(

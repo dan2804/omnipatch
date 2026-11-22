@@ -57,6 +57,14 @@ impl SysExMessage {
         Self::new(bytes)
     }
 
+    pub fn raw_bytes(&self) -> &[u8] {
+        &self.raw
+    }
+
+    pub fn as_bytes(&self) -> &[u8] {
+        &self.raw
+    }
+
     /// Format as standard space-separated hex bytes
     pub fn to_hex_string(&self) -> String {
         self.raw

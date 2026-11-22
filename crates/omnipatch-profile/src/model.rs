@@ -64,6 +64,24 @@ pub struct DeviceProfile {
     pub factory_presets: Option<HashMap<String, Vec<PresetEntry>>>,
 }
 
+impl DeviceProfile {
+    pub fn parameter_edit_format(&self) -> Option<&str> {
+        self.sysex.as_ref().and_then(|val| {
+            val.get("parameter_edit_format").and_then(|v| v.as_str())
+        })
+    }
+
+    pub fn checksum_type(&self) -> &str {
+        self.sysex.as_ref()
+            .and_then(|val| val.get("checksum").and_then(|v| v.as_str()))
+            .unwrap_or("none")
+    }
+
+    pub fn default_device_id(&self) -> u8 {
+        self.midi.device_id.unwrap_or(0)
+    }
+}
+
 #[derive(Debug, Clone, Default, Serialize, Deserialize)]
 pub struct MidiConfig {
     #[serde(default)]

@@ -13,4 +13,3 @@ native-midi = ["dep:midir"]
 omnipatch-core = { path = "../omnipatch-core" }
 midir = { workspace = true, optional = true }
 thiserror.workspace = true
-log.workspace = true

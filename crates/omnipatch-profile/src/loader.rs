@@ -91,4 +91,8 @@ impl ProfileRegistry {
     pub fn list(&self) -> Vec<&DeviceProfile> {
         self.profiles.values().collect()
     }
+
+    pub fn all(&self) -> Vec<&DeviceProfile> {
+        self.profiles.values().collect()
+    }
 }

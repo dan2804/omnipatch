@@ -1,0 +1,28 @@
+[package]
+name = "omnipatch-desktop"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "Lightweight native desktop shell and IPC bridge for OmniPatch"
+
+[features]
+default = []
+tauri-app = ["dep:tauri"]
+
+[dependencies]
+omnipatch-core = { path = "../omnipatch-core" }
+omnipatch-profile = { path = "../omnipatch-profile" }
+omnipatch-librarian = { path = "../omnipatch-librarian" }
+omnipatch-midi = { path = "../omnipatch-midi" }
+
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+anyhow.workspace = true
+
+# Tauri is optional to allow headless CI/CD builds without WebKitGTK dependencies
+tauri = { version = "2.0", optional = true }
+
+[build-dependencies]
+# tauri-build is used when building the native desktop application bundle

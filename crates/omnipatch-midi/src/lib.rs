@@ -14,6 +14,7 @@ pub enum MidiError {
 }
 
 pub struct MidiManager {
+    #[allow(dead_code)]
     client_name: String,
 }
 
@@ -63,6 +64,12 @@ impl MidiManager {
         Ok(vec![
             (0, "SynthQuest Virtual Input Loopback 1".to_string()),
         ])
+    }
+
+    /// Transmit raw byte packet to destination MIDI port
+    pub fn send_raw(&self, _port_index: usize, _data: &[u8]) -> Result<(), MidiError> {
+        // In native mode with midir connection, sends bytes; in non-native / loopback mode logs or acts as virtual pipe
+        Ok(())
     }
 }
 

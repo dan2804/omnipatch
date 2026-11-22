@@ -10068,12 +10068,17 @@
     ];
 
     let currentPreset = 0;
+    let currentSynth = 'Access Virus A';
 
     // View Switching
     function switchView(viewName) {
       const topViews = ['dashboard', 'librarian', 'midi'];
       const synthViews = ['editor', 'ax60', 'audity', 'b3', 'carnaval', 'emax', 'emax2', 'xl1', 'xl7', 'xk6', 'virtuoso', 'vintagepro', 'vintagekeys', 'proteus2000', 'proteus2500', 'sp1200', 'proteus1000', 'planetphatt', 'planetearth', 'orbit3', 'orbit9090', 'cz1', 'cz1000', 'cz101', 'cz230s', 'cz3000', 'cz5000'];
       const allViews = [...topViews, ...synthViews];
+
+      if (synthViews.includes(viewName)) {
+        currentSynth = viewName === 'editor' ? 'Access Virus A' : viewName;
+      }
 
       allViews.forEach(v => {
         const el = document.getElementById('view-' + v);
@@ -10245,6 +10250,21 @@
       // Update 2x16 LCD readout
       document.getElementById('lcd-param-name').innerText = label.toUpperCase();
       document.getElementById('lcd-param-val').innerText = `${rawVal} (${Math.round((valByte/127)*100)}%)`;
+
+      // Native Tauri IPC invocation if running inside desktop shell
+      if (window.__TAURI__ && window.__TAURI__.core) {
+        window.__TAURI__.core.invoke('send_parameter', {
+          deviceName: currentSynth,
+          paramId: paramByte,
+          value: valByte,
+          portIndex: null
+        }).then(res => {
+          if (res && res.hex_string) {
+            document.getElementById('sysex-hex-display').innerText = res.hex_string;
+            document.getElementById('sysex-explanation').innerText = res.explanation;
+          }
+        }).catch(err => console.debug('Tauri IPC:', err));
+      }
     }
 
     function updateParam(page, paramNum, val, label) {
