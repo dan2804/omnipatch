@@ -99,6 +99,25 @@
       left: 24px;
     }
 
+    /* Tactile Round White Dome Buttons (Matching SOS reference photo) */
+    .audity-round-btn {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 35% 35%, #ffffff 0%, #e2e8f0 55%, #b4c2ce 100%);
+      border: 1px solid #6b7a88;
+      box-shadow: 0 3px 5px rgba(0,0,0,0.6), inset 0 1px 1.5px rgba(255,255,255,0.95);
+      transition: all 0.08s ease;
+      cursor: pointer;
+      user-select: none;
+      z-index: 2;
+    }
+    .audity-round-btn:active {
+      transform: translateY(1px);
+      box-shadow: inset 0 2px 4px rgba(0,0,0,0.7);
+      background: #a8b8c6;
+    }
+
     /* Tactile Oval White Buttons */
     .audity-btn {
       width: 32px;
@@ -286,70 +305,114 @@
     </div>
 
     <!-- RIGHT SECTION: NAVIGATION BUTTONS, ROTARY DATA WHEEL, POWER SWITCH -->
-    <div class="flex items-center gap-3 pr-4 z-10">
+    <div class="flex items-center gap-4 pr-5 z-10">
       
-      <!-- 8 Tactile Buttons (2 rows of 4) -->
-      <div class="grid grid-cols-4 gap-1.5">
-        <!-- Row 1 -->
-        <div class="flex flex-col items-center">
-          <div class="led-dot led-red-on mb-0.5"></div>
-          <button onclick="switchAudityTab('voice')" class="audity-btn"></button>
-          <span class="text-[6px] font-bold uppercase text-zinc-900 mt-0.5">MASTER</span>
-        </div>
-        <div class="flex flex-col items-center">
-          <div class="led-dot led-red-on mb-0.5"></div>
-          <button onclick="switchAudityTab('voice')" class="audity-btn"></button>
-          <span class="text-[6px] font-bold uppercase text-zinc-900 mt-0.5">EDIT</span>
-        </div>
-        <div class="flex flex-col items-center">
-          <div class="led-dot led-off mb-0.5"></div>
-          <button onclick="cursorBump(-1)" class="audity-btn flex items-center justify-center font-bold text-zinc-700 text-[9px]">&lt;</button>
-          <span class="text-[6px] font-bold uppercase text-zinc-900 mt-0.5">CURS</span>
-        </div>
-        <div class="flex flex-col items-center">
-          <div class="led-dot led-off mb-0.5"></div>
-          <button onclick="cursorBump(1)" class="audity-btn flex items-center justify-center font-bold text-zinc-700 text-[9px]">&gt;</button>
-          <span class="text-[6px] font-bold uppercase text-zinc-900 mt-0.5">CURS</span>
+      <!-- 8 Tactile Buttons (4 columns x 2 perfectly leveled rows matching SOS hardware photo) -->
+      <div class="flex flex-col gap-2.5">
+        
+        <!-- ROW 1 (TOP) -->
+        <div class="flex items-center gap-3">
+          <!-- MASTER / [LED] -->
+          <div class="flex flex-col items-center w-8">
+            <div class="flex items-center gap-1 mb-1 h-3">
+              <span class="text-[7px] font-bold italic font-sans text-cyan-100 drop-shadow">MASTER/</span>
+              <div class="led-dot led-red-on"></div>
+            </div>
+            <button onclick="switchAudityTab('voice')" class="audity-round-btn shadow-md active:translate-y-0.5" title="Master Mode"></button>
+          </div>
+
+          <!-- EDIT / [LED] -->
+          <div class="flex flex-col items-center w-8">
+            <div class="flex items-center gap-1 mb-1 h-3">
+              <span class="text-[7px] font-bold italic font-sans text-cyan-100 drop-shadow">EDIT/</span>
+              <div class="led-dot led-red-on"></div>
+            </div>
+            <button onclick="switchAudityTab('voice')" class="audity-round-btn shadow-md active:translate-y-0.5" title="Edit Parameters"></button>
+          </div>
+
+          <!-- < CURSOR (No LED, printed on button) -->
+          <div class="flex flex-col items-center w-8">
+            <div class="h-3 mb-1"></div>
+            <button onclick="cursorBump(-1)" class="audity-round-btn shadow-md active:translate-y-0.5 flex items-center justify-center font-bold text-zinc-800 text-[11px] leading-none select-none" title="Cursor Left">&lt;</button>
+          </div>
+
+          <!-- > CURSOR (No LED, printed on button) -->
+          <div class="flex flex-col items-center w-8">
+            <div class="h-3 mb-1"></div>
+            <button onclick="cursorBump(1)" class="audity-round-btn shadow-md active:translate-y-0.5 flex items-center justify-center font-bold text-zinc-800 text-[11px] leading-none select-none" title="Cursor Right">&gt;</button>
+          </div>
         </div>
 
-        <!-- Row 2 -->
-        <div class="flex flex-col items-center">
-          <div class="led-dot led-off mb-0.5"></div>
-          <button onclick="switchAudityTab('multimode')" class="audity-btn"></button>
-          <span class="text-[6px] font-bold uppercase text-zinc-900 mt-0.5">MULTI</span>
+        <!-- ROW 2 (BOTTOM) -->
+        <div class="flex items-center gap-3">
+          <!-- CLOCK / [LED] -->
+          <div class="flex flex-col items-center w-8">
+            <button onclick="switchAudityTab('multimode')" class="audity-round-btn shadow-md active:translate-y-0.5" title="Clock"></button>
+            <div class="flex items-center gap-1 mt-1 h-3">
+              <span class="text-[7px] font-bold italic font-sans text-cyan-100 drop-shadow">CLOCK/</span>
+              <div class="led-dot led-off"></div>
+            </div>
+          </div>
+
+          <!-- ARP / [LED] -->
+          <div class="flex flex-col items-center w-8">
+            <button onclick="switchAudityTab('arp')" class="audity-round-btn shadow-md active:translate-y-0.5" title="Arpeggiator"></button>
+            <div class="flex items-center gap-1 mt-1 h-3">
+              <span class="text-[7px] font-bold italic font-sans text-cyan-100 drop-shadow">ARP/</span>
+              <div class="led-dot led-red-on"></div>
+            </div>
+          </div>
+
+          <!-- SAVE/COPY / [LED] -->
+          <div class="flex flex-col items-center w-8">
+            <button onclick="switchAudityTab('librarian')" class="audity-round-btn shadow-md active:translate-y-0.5" title="Save / Copy"></button>
+            <div class="flex items-center gap-0.5 mt-1 h-3">
+              <span class="text-[6px] font-bold italic font-sans text-cyan-100 tracking-tighter drop-shadow">SAVE/COPY/</span>
+              <div class="led-dot led-off"></div>
+            </div>
+          </div>
+
+          <!-- HOME/ENTER / [GREEN LED] -->
+          <div class="flex flex-col items-center w-8">
+            <button onclick="switchAudityTab('voice')" class="audity-round-btn shadow-md active:translate-y-0.5" title="Home / Enter"></button>
+            <div class="flex items-center gap-0.5 mt-1 h-3">
+              <span class="text-[6px] font-bold italic font-sans text-cyan-100 tracking-tighter drop-shadow">HOME/ENTER/</span>
+              <div class="led-dot led-green-on"></div>
+            </div>
+          </div>
         </div>
-        <div class="flex flex-col items-center">
-          <div class="led-dot led-red-on mb-0.5"></div>
-          <button onclick="switchAudityTab('arp')" class="audity-btn"></button>
-          <span class="text-[6px] font-bold uppercase text-zinc-900 mt-0.5">ARP</span>
-        </div>
-        <div class="flex flex-col items-center">
-          <div class="led-dot led-off mb-0.5"></div>
-          <button onclick="switchAudityTab('librarian')" class="audity-btn"></button>
-          <span class="text-[6px] font-bold uppercase text-zinc-900 mt-0.5">SAVE</span>
-        </div>
-        <div class="flex flex-col items-center">
-          <div class="led-dot led-green-on mb-0.5"></div>
-          <button onclick="switchAudityTab('voice')" class="audity-btn"></button>
-          <span class="text-[6px] font-bold uppercase text-zinc-900 mt-0.5">HOME</span>
-        </div>
+
       </div>
 
       <!-- Large Rotary Jog/Data Wheel -->
-      <div class="flex flex-col items-center pl-1">
-        <div class="audity-data-wheel" onclick="rotateDataWheel(1)">
+      <div class="flex flex-col items-center pl-2">
+        <div class="audity-data-wheel" onclick="rotateDataWheel(1)" title="Rotate Data Wheel">
           <div class="audity-dimple"></div>
         </div>
       </div>
 
-      <!-- Power Button & E-MU Logo -->
-      <div class="flex flex-col items-center pl-2">
-        <div class="flex items-center gap-1 mb-1">
-          <span class="text-[10px] font-black tracking-tighter text-white font-sans">E-MU</span>
+      <!-- Power Button & E-MU Logo Section -->
+      <div class="flex flex-col items-center justify-between h-20 pl-2">
+        <!-- E-MU Logo with horizontal bars -->
+        <div class="flex items-center gap-1.5 pt-1">
+          <div class="flex flex-col gap-0.5">
+            <div class="w-3 h-0.5 bg-white"></div>
+            <div class="w-3 h-0.5 bg-white"></div>
+            <div class="w-3 h-0.5 bg-white"></div>
+          </div>
+          <span class="text-sm font-black tracking-wider text-white font-sans drop-shadow">E-MU</span>
         </div>
-        <button class="w-6 h-6 rounded-full bg-gradient-to-b from-white to-zinc-300 border border-zinc-500 shadow active:scale-95"></button>
-        <div class="flex items-center gap-1 mt-1 text-[6px] font-bold text-zinc-900 font-mono">
-          <div class="led-dot led-red-on"></div> MIDI
+
+        <!-- Power Button -->
+        <div class="flex flex-col items-center">
+          <button class="w-6 h-6 rounded-full bg-gradient-to-b from-white via-zinc-100 to-zinc-300 border border-zinc-500 shadow-md active:translate-y-0.5 flex items-center justify-center" title="Power Switch"></button>
+          <span class="text-[7px] font-bold uppercase tracking-wider text-zinc-900 mt-0.5">POWER</span>
+        </div>
+
+        <!-- MIDI Activity LED -->
+        <div class="flex items-center gap-1 text-[7px] font-bold font-mono text-cyan-100">
+          <div class="led-dot led-red-on animate-pulse"></div>
+          <span>MIDI</span>
         </div>
       </div>
 
