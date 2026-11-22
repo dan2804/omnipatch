@@ -259,13 +259,13 @@
   </div>
 
   <!-- THE AUTHENTIC 1U OCEANIC TEAL HARDWARE RACK PANEL -->
-  <div class="w-full max-w-6xl pe-faceplate rounded-lg shadow-2xl flex items-center justify-between px-3 py-2.5 h-[116px] relative overflow-hidden">
+  <div class="w-full max-w-6xl pe-faceplate rounded-lg shadow-2xl flex items-center justify-between pr-3 py-2.5 h-[116px] relative overflow-hidden">
     
     <!-- Metallic highlight sheen on top bevel -->
     <div class="metallic-highlight"></div>
 
-    <!-- LEFT SECTION SVG CONTOUR WAVE (Scallops over knobs on the left side) -->
-    <svg class="pe-contour-scallop" viewBox="0 0 490 116" preserveAspectRatio="none">
+    <!-- LEFT SECTION SVG CONTOUR WAVE (Precision Scalloped Arches Centered Over Each Knob) -->
+    <svg class="pe-contour-scallop" style="position: absolute; top: 0; left: 0; width: 475px; height: 116px; pointer-events: none; z-index: 1;" viewBox="0 0 475 116" preserveAspectRatio="none">
       <defs>
         <linearGradient id="scallop-shadow" x1="0" y1="0" x2="0" y2="1">
           <stop offset="0%" stop-color="#000000" stop-opacity="0.65" />
@@ -273,9 +273,9 @@
         </linearGradient>
       </defs>
       <!-- Deep chassis wave swooping under Mode button and arching above all 5 knobs -->
-      <path d="M 0,44 L 45,44 Q 68,44 78,54 T 96,66 Q 112,46 128,46 Q 148,46 160,66 Q 176,46 192,46 Q 212,46 224,66 Q 240,46 256,46 Q 276,46 288,66 Q 304,46 320,46 Q 340,46 352,66 Q 368,46 384,46 L 490,46 L 490,116 L 0,116 Z" fill="url(#scallop-shadow)" />
-      <path d="M 0,44 L 45,44 Q 68,44 78,54 T 96,66 Q 112,46 128,46 Q 148,46 160,66 Q 176,46 192,46 Q 212,46 224,66 Q 240,46 256,46 Q 276,46 288,66 Q 304,46 320,46 Q 340,46 352,66 Q 368,46 384,46 L 490,46" fill="none" stroke="#062b30" stroke-width="1.8" />
-      <path d="M 0,45 L 45,45 Q 68,45 78,55 T 96,67 Q 112,47 128,47 Q 148,47 160,67 Q 176,47 192,47 Q 212,47 224,67 Q 240,47 256,47 Q 276,47 288,67 Q 304,47 320,47 Q 340,47 352,67 Q 368,47 384,47 L 490,47" fill="none" stroke="#2ac0ce" stroke-width="0.8" opacity="0.6" />
+      <path d="M 0,40 L 50,40 Q 68,54 85,54 Q 102,54 116,48 Q 128,44 140,62 C 153.9,42.0 188.1,42.0 202.0,62.0 C 215.9,42.0 250.1,42.0 264.0,62.0 C 277.9,42.0 312.1,42.0 326.0,62.0 C 339.9,42.0 374.1,42.0 388.0,62.0 C 401.9,42.0 436.1,42.0 450.0,62.0 L 475,62 L 475,116 L 0,116 Z" fill="url(#scallop-shadow)" />
+      <path d="M 0,40 L 50,40 Q 68,54 85,54 Q 102,54 116,48 Q 128,44 140,62 C 153.9,42.0 188.1,42.0 202.0,62.0 C 215.9,42.0 250.1,42.0 264.0,62.0 C 277.9,42.0 312.1,42.0 326.0,62.0 C 339.9,42.0 374.1,42.0 388.0,62.0 C 401.9,42.0 436.1,42.0 450.0,62.0 L 475,62" fill="none" stroke="#062b30" stroke-width="1.8" />
+      <path d="M 0,41 L 50,41 Q 68,55 85,55 Q 102,55 116,49 Q 128,45 140,63 C 153.9,43.0 188.1,43.0 202.0,63.0 C 215.9,43.0 250.1,43.0 264.0,63.0 C 277.9,43.0 312.1,43.0 326.0,63.0 C 339.9,43.0 374.1,43.0 388.0,63.0 C 401.9,43.0 436.1,43.0 450.0,63.0 L 475,63" fill="none" stroke="#2ac0ce" stroke-width="0.8" opacity="0.6" />
     </svg>
 
     <!-- LEFT RACK EAR (Black with 2 Oval Mounting Holes) -->
@@ -285,18 +285,18 @@
     </div>
 
     <!-- Countersunk Hex Screws Left -->
-    <div class="absolute left-6 top-3 w-2 h-2 rounded-full bg-zinc-900 border border-zinc-700 shadow-inner flex items-center justify-center">
+    <div class="absolute left-6 top-3 w-2 h-2 rounded-full bg-zinc-900 border border-zinc-700 shadow-inner flex items-center justify-center z-10">
       <div class="w-1 h-1 bg-zinc-950"></div>
     </div>
-    <div class="absolute left-6 bottom-3 w-2 h-2 rounded-full bg-zinc-900 border border-zinc-700 shadow-inner flex items-center justify-center">
+    <div class="absolute left-6 bottom-3 w-2 h-2 rounded-full bg-zinc-900 border border-zinc-700 shadow-inner flex items-center justify-center z-10">
       <div class="w-1 h-1 bg-zinc-950"></div>
     </div>
 
     <!-- LEFT SECTION: PHONES, CONTROLLER SELECT, VOLUME & 4 REAL-TIME PARAMETER KNOBS -->
-    <div class="flex items-center pl-8 z-10">
+    <div class="flex items-center z-10 relative" style="width: 450px; height: 116px;">
       
-      <!-- Headphone Jack (Lower row with 🎧 below) -->
-      <div class="flex flex-col items-center justify-end h-[82px] pb-1 mr-2">
+      <!-- Headphone Jack (Lower row with 🎧 below, x=48 to 70) -->
+      <div class="absolute flex flex-col items-center justify-end pb-1" style="left: 48px; top: 17px; width: 22px; height: 82px;">
         <div class="w-5 h-5 rounded-full bg-zinc-900 border-2 border-zinc-600 shadow-inner flex items-center justify-center">
           <div class="w-2.5 h-2.5 rounded-full bg-black border border-zinc-800"></div>
         </div>
@@ -306,10 +306,10 @@
         </svg>
       </div>
 
-      <!-- Mode Controller Cluster: Oval Button + Centered A-D / E-H / I-L Indicators -->
-      <div class="flex flex-col justify-start h-[82px] mr-2.5 pt-1">
+      <!-- Mode Controller Cluster: Oval Button + Centered A-D / E-H / I-L Indicators (x=78 to 136) -->
+      <div class="absolute flex flex-col justify-start pt-1" style="left: 78px; top: 17px; width: 58px; height: 82px;">
         <div class="flex items-center gap-1.5">
-          <!-- Oval Controller Mode Button -->
+          <!-- Oval Controller Mode Button (Center x = 78 + 13 = 91) -->
           <button onclick="cyclePEMode()" class="pe-btn-oval shrink-0" title="Cycle Real-Time Controller Row (A-D / E-H / I-L)"></button>
           
           <!-- Mode LEDs Vertically Centered with the Oval Button -->
@@ -330,21 +330,21 @@
         </div>
       </div>
 
-      <!-- ALL 5 KNOBS ALIGNED ON EXACT IDENTICAL CENTERLINE (h-[82px]) -->
-      <div class="flex items-center gap-3 ml-0.5">
+      <!-- ALL 5 KNOBS IN 5 EQUIDISTANT 62px COLUMNS (x=140 to 450, Centers: 171, 233, 295, 357, 419) -->
+      <div class="absolute flex items-center" style="left: 140px; top: 17px; width: 310px; height: 82px;">
         
-        <!-- Knob 0: VOLUME -->
-        <div class="flex flex-col items-center justify-between h-[82px] py-0.5">
+        <!-- Knob 0: VOLUME (Center x = 171) -->
+        <div class="flex flex-col items-center justify-between h-[82px] py-0.5 shrink-0" style="width: 62px;">
           <div class="h-[28px] w-full flex items-center justify-center"></div>
           <div class="pe-knob" data-param="vol" data-val="110" onmousedown="startKnobDrag(event, 'vol')">
             <div class="pe-knob-pointer" id="vol-pointer"></div>
           </div>
-          <span class="silkscreen-pe text-[7.5px]">VOLUME</span>
+          <span class="silkscreen-pe text-[7.5px] text-center w-full">VOLUME</span>
         </div>
 
-        <!-- Knob 1: A/E/I (FILTER CUTOFF / ATTACK / WILD 1 with Tall Gold Slash) -->
-        <div class="flex flex-col items-center justify-between h-[82px] py-0.5">
-          <div class="h-[28px] flex items-center justify-center relative">
+        <!-- Knob 1: A/E/I (FILTER CUTOFF / ATTACK / WILD 1 with Gold Slash, Center x = 233) -->
+        <div class="flex flex-col items-center justify-between h-[82px] py-0.5 shrink-0" style="width: 62px;">
+          <div class="h-[28px] w-full flex items-center justify-center">
             <div class="flex items-center gap-0.5">
               <div class="flex flex-col items-end text-right">
                 <span class="silkscreen-pe text-[5.5px] leading-[7.5px]">FILTER CUTOFF</span>
@@ -353,17 +353,16 @@
               </div>
               <span class="slash-gold font-black text-sm italic leading-none pl-0.5 select-none">/</span>
             </div>
-            <div id="led-param-1" class="led-dot led-off absolute -bottom-1.5 right-0"></div>
           </div>
           <div class="pe-knob" data-param="k1" data-val="90" onmousedown="startKnobDrag(event, 'k1')">
             <div class="pe-knob-pointer" id="k1-pointer"></div>
           </div>
-          <span class="silkscreen-pe text-[7.5px]">A/E/I <span class="slash-gold">|</span></span>
+          <span class="silkscreen-pe text-[7.5px] text-center w-full">A/E/I <span class="slash-gold">|</span></span>
         </div>
 
-        <!-- Knob 2: B/F/J (FILTER RES / DECAY/RLS / WILD 2 with Tall Gold Slash) -->
-        <div class="flex flex-col items-center justify-between h-[82px] py-0.5">
-          <div class="h-[28px] flex items-center justify-center relative">
+        <!-- Knob 2: B/F/J (FILTER RES / DECAY/RLS / WILD 2 with Gold Slash, Center x = 295) -->
+        <div class="flex flex-col items-center justify-between h-[82px] py-0.5 shrink-0" style="width: 62px;">
+          <div class="h-[28px] w-full flex items-center justify-center">
             <div class="flex items-center gap-0.5">
               <div class="flex flex-col items-end text-right">
                 <span class="silkscreen-pe text-[5.5px] leading-[7.5px]">FILTER RES</span>
@@ -372,17 +371,16 @@
               </div>
               <span class="slash-gold font-black text-sm italic leading-none pl-0.5 select-none">/</span>
             </div>
-            <div id="led-param-2" class="led-dot led-off absolute -bottom-1.5 right-0"></div>
           </div>
           <div class="pe-knob" data-param="k2" data-val="64" onmousedown="startKnobDrag(event, 'k2')">
             <div class="pe-knob-pointer" id="k2-pointer"></div>
           </div>
-          <span class="silkscreen-pe text-[7.5px]">B/F/J <span class="slash-gold">|</span></span>
+          <span class="silkscreen-pe text-[7.5px] text-center w-full">B/F/J <span class="slash-gold">|</span></span>
         </div>
 
-        <!-- Knob 3: C/G/K (SHAPE / MOVEMENT / WILD 3 with Tall Gold Slash) -->
-        <div class="flex flex-col items-center justify-between h-[82px] py-0.5">
-          <div class="h-[28px] flex items-center justify-center relative">
+        <!-- Knob 3: C/G/K (SHAPE / MOVEMENT / WILD 3 with Gold Slash, Center x = 357) -->
+        <div class="flex flex-col items-center justify-between h-[82px] py-0.5 shrink-0" style="width: 62px;">
+          <div class="h-[28px] w-full flex items-center justify-center">
             <div class="flex items-center gap-0.5">
               <div class="flex flex-col items-end text-right">
                 <span class="silkscreen-pe text-[5.5px] leading-[7.5px]">SHAPE</span>
@@ -391,17 +389,16 @@
               </div>
               <span class="slash-gold font-black text-sm italic leading-none pl-0.5 select-none">/</span>
             </div>
-            <div id="led-param-3" class="led-dot led-off absolute -bottom-1.5 right-0"></div>
           </div>
           <div class="pe-knob" data-param="k3" data-val="75" onmousedown="startKnobDrag(event, 'k3')">
             <div class="pe-knob-pointer" id="k3-pointer"></div>
           </div>
-          <span class="silkscreen-pe text-[7.5px]">C/G/K <span class="slash-gold">|</span></span>
+          <span class="silkscreen-pe text-[7.5px] text-center w-full">C/G/K <span class="slash-gold">|</span></span>
         </div>
 
-        <!-- Knob 4: D/H/L (IMAGE / RATE / WILD 4 with Tall Gold Slash) -->
-        <div class="flex flex-col items-center justify-between h-[82px] py-0.5">
-          <div class="h-[28px] flex items-center justify-center relative">
+        <!-- Knob 4: D/H/L (IMAGE / RATE / WILD 4 with Gold Slash, Center x = 419) -->
+        <div class="flex flex-col items-center justify-between h-[82px] py-0.5 shrink-0" style="width: 62px;">
+          <div class="h-[28px] w-full flex items-center justify-center">
             <div class="flex items-center gap-0.5">
               <div class="flex flex-col items-end text-right">
                 <span class="silkscreen-pe text-[5.5px] leading-[7.5px]">IMAGE</span>
@@ -410,15 +407,20 @@
               </div>
               <span class="slash-gold font-black text-sm italic leading-none pl-0.5 select-none">/</span>
             </div>
-            <div id="led-param-4" class="led-dot led-off absolute -bottom-1.5 right-0"></div>
           </div>
           <div class="pe-knob" data-param="k4" data-val="55" onmousedown="startKnobDrag(event, 'k4')">
             <div class="pe-knob-pointer" id="k4-pointer"></div>
           </div>
-          <span class="silkscreen-pe text-[7.5px]">D/H/L <span class="slash-gold">|</span></span>
+          <span class="silkscreen-pe text-[7.5px] text-center w-full">D/H/L <span class="slash-gold">|</span></span>
         </div>
 
       </div>
+
+      <!-- 4 Real-Time Parameter Red LEDs Sitting Exactly in the Wave Valleys -->
+      <div id="led-param-1" class="led-dot led-off absolute" style="left: 264px; top: 62px; transform: translate(-50%, -50%); z-index: 15;"></div>
+      <div id="led-param-2" class="led-dot led-off absolute" style="left: 326px; top: 62px; transform: translate(-50%, -50%); z-index: 15;"></div>
+      <div id="led-param-3" class="led-dot led-off absolute" style="left: 388px; top: 62px; transform: translate(-50%, -50%); z-index: 15;"></div>
+      <div id="led-param-4" class="led-dot led-off absolute" style="left: 450px; top: 62px; transform: translate(-50%, -50%); z-index: 15;"></div>
 
     </div>
 
