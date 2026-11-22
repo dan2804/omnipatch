@@ -37,7 +37,7 @@ Inspired by Sound Quest's **Midi Quest 13**, **OmniPatch** combines a clean, fas
 | **E-MU Virtuoso 2000** | 128-Voice Virtual Orchestra | 10 | 512 | Light silver-grey 1U faceplate, unbroken continuous navy wave line, black tactile buttons, 64MB Orchestral Sessions Vol 1 & 2 ROMs, 50 Z-Plane filters, 2x24 green LCD (Model ID 0x0D) |
 | **E-MU Vintage Pro** | 128-Voice Vintage Workstation | 10 | 512 | Two-tone pewter & black anodized faceplate with silver hex bolts, 5 spun-aluminum vintage knobs, 64MB Vintage Collection ROM, 9 Midi Quest 13 editors (Model ID 0x11) |
 | **E-MU Vintage Keys** | 32-Voice Vintage Keyboard Module | 10 | 512 | 1993 original 1U matte dark charcoal chassis, 11x5 cyan dot matrix, 2x16 green LCD, 5-button tactile matrix, stepped DATA wheel, red E•MU SYSTEMS logo (Model ID 0x0B) |
-| **E-MU Proteus 1000** | 64-Voice 1U Sound Module | 7 | 512 | Matte black 1U faceplate, high-contrast white knobs and buttons, Composer sound set |
+| **E-MU Proteus 1000** | 64-Voice 1U Sound Module | 7 | 1,024 | 30th Anniversary Edition, matte black 1U chassis, blue trapezoid LCD frame, ivory ribbed knobs & tactile buttons, 32MB Composer ROM (Model ID 0x0F / 0x04) |
 | **E-MU Proteus 2000** | 128-Voice Flagship Sound Module | 8 | 1,024 | Sleek black 1U chassis, greyish-white knobs, 32MB Composer ROM, 4 ROM expansion slots |
 | **E-MU Proteus 2500** | 128-Voice Command Station Console | 8 | 1,024 | Industrial grey desktop console, blue accents, 16 velocity pads, 16 knobs, multi-channel sequencer |
 | **E-MU Planet Phatt** | 64-Voice Hip-Hop / R&B Module | 7 | 640 | Electric neon pink 1U faceplate, black tactile buttons, iconic 90s boom-bap sound set |
@@ -239,6 +239,7 @@ Open any of the following interactive prototypes in any modern web browser to te
 | Synthesizer | Preview File | Highlights |
 | :--- | :--- | :--- |
 | **OmniPatch Studio Hub** | [`preview/index.html`](preview/index.html) | Windows 8 Metro UI live tile dashboard & rack router |
+| **E-MU Proteus 1000** | [`preview/proteus_1000.html`](preview/proteus_1000.html) | 30th Anniversary blue trapezoid LCD, ivory controls, 32MB Composer ROM, Model ID `0x0F` |
 | **E-MU Vintage Keys (1993)** | [`preview/vintage_keys.html`](preview/vintage_keys.html) | 1U matte steel, 11x5 cyan dot matrix, 2x16 LCD, 8 keyboard engines, Model ID `0x0B` |
 | **E-MU Vintage Pro (2002)** | [`preview/vintage_pro.html`](preview/vintage_pro.html) | Two-tone pewter faceplate, 5 spun-aluminum knobs, 9 Midi Quest 13 editors, Model ID `0x11` |
 | **E-MU Virtuoso 2000** | [`preview/virtuoso_2000.html`](preview/virtuoso_2000.html) | Silver 1U rack, unbroken continuous navy wave line, 4-layer orchestral engine, Model ID `0x0D` |
