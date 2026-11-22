@@ -1,0 +1,1641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-MU XL-7 Command Station — Skeuomorphic Hardware Editor &amp; 16-Track Sequencer</title>
+  <script src="tailwindcss.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@500;700;800;900&family=VT323&family=Rajdhani:wght@600;700;800&family=Inter:wght@400;500;600;700&family=Russo+One&display=swap" rel="stylesheet">
+
+  <style>
+    /* Custom Scrollbars */
+    ::-webkit-scrollbar { width: 5px; height: 5px; }
+    ::-webkit-scrollbar-track { background: #0c0d12; }
+    ::-webkit-scrollbar-thumb { background: #272a34; border-radius: 3px; }
+
+    .font-lcd { font-family: 'Share Tech Mono', monospace; }
+    .font-matrix { font-family: 'Rajdhani', sans-serif; }
+    .font-emu { font-family: 'Inter', sans-serif; }
+    .font-brand { font-family: 'Orbitron', sans-serif; }
+    .font-techno { font-family: 'Russo One', sans-serif; }
+    .font-7seg { font-family: 'VT323', monospace; }
+
+    /* Command Station Cyber-Yellow Finish */
+    .xl7-console-body {
+      background: linear-gradient(180deg, #fbb01b 0%, #f59e0b 25%, #d97706 75%, #b45309 100%);
+      box-shadow: 
+        inset 0 3px 4px rgba(255,255,255,0.7), 
+        inset 0 -4px 6px rgba(0,0,0,0.6), 
+        0 25px 60px rgba(0,0,0,0.95);
+      position: relative;
+    }
+
+    /* Ergonomic Molded Charcoal Side Cheeks / Grips */
+    .xl7-cheek-left {
+      background: linear-gradient(90deg, #111317 0%, #1c1f26 40%, #2b303b 85%, #181a20 100%);
+      box-shadow: inset 1px 2px 3px rgba(255,255,255,0.2), inset -2px 0 5px rgba(0,0,0,0.8), -6px 8px 20px rgba(0,0,0,0.8);
+      border-top-left-radius: 18px;
+      border-bottom-left-radius: 18px;
+    }
+    .xl7-cheek-right {
+      background: linear-gradient(270deg, #111317 0%, #1c1f26 40%, #2b303b 85%, #181a20 100%);
+      box-shadow: inset -1px 2px 3px rgba(255,255,255,0.2), inset 2px 0 5px rgba(0,0,0,0.8), 6px 8px 20px rgba(0,0,0,0.8);
+      border-top-right-radius: 18px;
+      border-bottom-right-radius: 18px;
+    }
+
+    /* Angular Orange Graphic Underlay ("X") */
+    .xl7-orange-graphic {
+      background: radial-gradient(ellipse at 30% 40%, rgba(234, 88, 12, 0.45) 0%, rgba(217, 119, 6, 0.25) 50%, transparent 80%);
+      pointer-events: none;
+    }
+
+    /* Black Trapezoidal LCD Frame */
+    .xl7-lcd-bezel {
+      background: linear-gradient(180deg, #181a1f 0%, #0d0e11 60%, #050607 100%);
+      border: 1.5px solid #232730;
+      box-shadow: inset 0 2px 5px rgba(0,0,0,0.9), 0 3px 6px rgba(0,0,0,0.5);
+      border-radius: 4px;
+    }
+
+    /* 2x24 Alphanumeric LCD Display */
+    .xl7-lcd {
+      background: radial-gradient(circle at 45% 50%, #14351b 0%, #0c2010 70%, #07150a 100%);
+      box-shadow: inset 0 3px 8px rgba(0,0,0,0.95), 0 0 10px rgba(34, 197, 94, 0.2);
+      border: 1px solid #061108;
+    }
+    .lcd-green-text {
+      color: #5ef574;
+      text-shadow: 0 0 5px rgba(94, 245, 116, 0.8), 0 0 12px rgba(34, 197, 94, 0.5);
+    }
+
+    /* 7-Segment Green LED Display Panel */
+    .xl7-7seg-panel {
+      background: #09130b;
+      border: 1.5px solid #1c2e20;
+      box-shadow: inset 0 2px 6px rgba(0,0,0,0.9);
+      border-radius: 3px;
+    }
+    .seg-green-glow {
+      color: #34d399;
+      text-shadow: 0 0 6px #10b981, 0 0 12px #059669;
+    }
+
+    /* Continuous Rotary Knobs */
+    .xl7-knob {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 38% 35%, #444953 0%, #22252c 55%, #101115 100%);
+      border: 1px solid #131519;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.8), inset 0 1px 1px rgba(255,255,255,0.3);
+      position: relative;
+      cursor: ns-resize;
+      user-select: none;
+    }
+    .xl7-knob-pointer {
+      width: 2px;
+      height: 8px;
+      background: #ffffff;
+      position: absolute;
+      top: 3px;
+      left: 13px;
+      border-radius: 1px;
+    }
+
+    /* Master Volume Knob */
+    .xl7-vol-knob {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 38% 35%, #4a505c 0%, #242730 60%, #111317 100%);
+      border: 1.5px solid #14161a;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.85), inset 0 1px 2px rgba(255,255,255,0.35);
+      position: relative;
+      cursor: ns-resize;
+    }
+    .xl7-vol-pointer {
+      width: 2px;
+      height: 9px;
+      background: #ffffff;
+      position: absolute;
+      top: 3px;
+      left: 15px;
+      border-radius: 1px;
+    }
+
+    /* Weighted Large DATA Wheel */
+    .xl7-data-wheel {
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 45% 40%, #3e424c 0%, #20232a 55%, #0f1013 100%);
+      border: 2px solid #121418;
+      box-shadow: 0 5px 12px rgba(0,0,0,0.9), inset 0 2px 3px rgba(255,255,255,0.25);
+      position: relative;
+      cursor: pointer;
+      user-select: none;
+    }
+    .xl7-data-dimple {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 50% 50%, #2b2e35 0%, #0e0f13 100%);
+      box-shadow: inset 0 2px 5px rgba(0,0,0,0.95), 0 1px 1px rgba(255,255,255,0.2);
+      position: absolute;
+      top: 9px;
+      left: 21px;
+    }
+
+    /* Recessed Tactile Push Buttons */
+    .xl7-btn-round {
+      width: 17px;
+      height: 17px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 40% 35%, #454952 0%, #22252c 60%, #111216 100%);
+      border: 1px solid #0d0e12;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.7), inset 0 1px 1px rgba(255,255,255,0.3);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      user-select: none;
+    }
+    .xl7-btn-round:active {
+      transform: translateY(1px);
+    }
+
+    .xl7-btn-rect {
+      height: 16px;
+      border-radius: 3px;
+      background: radial-gradient(circle at 45% 35%, #42464f 0%, #212329 65%, #101115 100%);
+      border: 1px solid #0e0f13;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.65), inset 0 1px 1px rgba(255,255,255,0.25);
+      cursor: pointer;
+      user-select: none;
+    }
+    .xl7-btn-rect:active {
+      transform: translateY(1px);
+    }
+
+    /* Status Indicator LEDs */
+    .led-dot { width: 4.5px; height: 4.5px; border-radius: 50%; }
+    .led-off { background: #3b1304; box-shadow: inset 0 1px 2px rgba(0,0,0,0.9); }
+    .led-red-on { background: #ef4444; box-shadow: 0 0 6px #ef4444, 0 0 10px #dc2626; }
+    .led-green-on { background: #22c55e; box-shadow: 0 0 6px #22c55e, 0 0 10px #16a34a; }
+    .led-yellow-on { background: #facc15; box-shadow: 0 0 6px #facc15, 0 0 10px #eab308; }
+
+    /* Touchstrip Dual-Segment Ribbon Controller */
+    .xl7-touchstrip-well {
+      background: #111216;
+      border: 1.5px solid #07080a;
+      box-shadow: inset 0 2px 6px rgba(0,0,0,0.95), 0 1px 1px rgba(255,255,255,0.2);
+      border-radius: 4px;
+      padding: 3px;
+      cursor: crosshair;
+    }
+    .xl7-touchstrip-pad {
+      height: 18px;
+      background: linear-gradient(180deg, #2a2d35 0%, #17181e 50%, #111216 100%);
+      border-radius: 2px;
+      position: relative;
+    }
+    .touchstrip-indicator {
+      width: 4px;
+      height: 100%;
+      background: #f59e0b;
+      box-shadow: 0 0 8px #f59e0b;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    /* 16 Dynamic Silicone Performance Pads */
+    .xl7-pad {
+      background: radial-gradient(circle at 40% 30%, #353842 0%, #1e2027 60%, #131418 100%);
+      border: 1.5px solid #0b0c0f;
+      border-radius: 6px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.85), inset 0 1px 2px rgba(255,255,255,0.25);
+      cursor: pointer;
+      user-select: none;
+      transition: all 0.05s ease-out;
+    }
+    .xl7-pad:hover {
+      background: radial-gradient(circle at 40% 30%, #474b57 0%, #282b35 60%, #16171d 100%);
+    }
+    .xl7-pad:active, .xl7-pad.pad-active {
+      transform: translateY(2px) scale(0.98);
+      background: radial-gradient(circle at 50% 50%, #f59e0b 0%, #d97706 70%, #92400e 100%);
+      box-shadow: 0 0 16px rgba(245, 158, 11, 0.9), inset 0 2px 4px rgba(0,0,0,0.8);
+      border-color: #fbbf24;
+    }
+
+    /* Sub-view Navigation Tabs */
+    .mq-tab {
+      transition: all 0.15s ease-in-out;
+      border-bottom: 2px solid transparent;
+    }
+    .mq-tab.active {
+      border-bottom-color: #f59e0b;
+      color: #fef08a;
+      background-color: rgba(245, 158, 11, 0.12);
+    }
+
+    /* Lamp BNC Socket */
+    .bnc-socket {
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 40% 40%, #cbd5e1 0%, #64748b 60%, #1e293b 100%);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.8), inset 0 1px 1px #ffffff;
+      border: 1px solid #334155;
+      position: relative;
+    }
+    .bnc-socket::after {
+      content: '';
+      position: absolute;
+      top: 4px;
+      left: 4px;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: #020617;
+      border: 1px solid #475569;
+    }
+  </style>
+</head>
+
+<body class="bg-zinc-950 text-zinc-100 min-h-screen flex flex-col items-center p-3 select-none">
+
+  <!-- TOP HEADER -->
+  <div class="w-full max-w-6xl flex items-center justify-between py-2 border-b border-zinc-800 text-xs font-mono mb-3">
+    <div class="flex items-center gap-3">
+      <div class="w-2.5 h-2.5 rounded-full bg-amber-500 shadow-[0_0_8px_#f59e0b]"></div>
+      <span class="font-techno text-sm tracking-wider text-amber-400">E-MU XL-7</span>
+      <span class="text-zinc-500">|</span>
+      <span class="text-zinc-400 font-bold">128-Voice Command Station Desktop Workstation &amp; Sequencer</span>
+    </div>
+    <div class="flex items-center gap-4 text-zinc-400">
+      <span class="text-[11px] bg-zinc-900 px-2 py-0.5 rounded border border-zinc-800">SysEx Model: <span class="text-amber-400 font-bold">0x0F (XL Series)</span></span>
+      <span class="text-[11px] bg-zinc-900 px-2 py-0.5 rounded border border-zinc-800">ROM: <span class="text-amber-400 font-bold">32MB "The Xtreme Lead" + 3 Turbo Slots</span></span>
+      <a href="index.html" class="text-zinc-400 hover:text-white transition flex items-center gap-1 text-[11px] bg-zinc-900 px-2.5 py-0.5 rounded border border-zinc-700">
+        &larr; Studio Hub
+      </a>
+    </div>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- E-MU XL-7 COMMAND STATION CONSOLE (AUTHENTIC HARDWARE REPRODUCTION)       -->
+  <!-- ========================================================================= -->
+  <div class="w-full max-w-6xl xl7-console-body rounded-2xl p-4 shadow-2xl flex flex-col gap-3 relative border-2 border-amber-600/60 overflow-hidden">
+    
+    <!-- Background Translucent "X" Speed Graphic -->
+    <div class="absolute inset-0 xl7-orange-graphic"></div>
+    <div class="absolute left-8 top-14 text-[140px] font-black text-amber-700/15 pointer-events-none italic select-none font-techno transform -skew-x-12">
+      X
+    </div>
+    <div class="absolute right-40 bottom-10 text-[110px] font-black text-amber-700/10 pointer-events-none italic select-none font-techno transform -skew-x-12">
+      COMMAND
+    </div>
+
+    <!-- MAIN CONSOLE WRAPPER WITH SCULPTED CHEEKS -->
+    <div class="flex w-full relative z-10 gap-3">
+      
+      <!-- LEFT ERGONOMIC CHEEK -->
+      <div class="w-5 xl7-cheek-left hidden sm:block shrink-0"></div>
+
+      <!-- MAIN CONTROL SURFACE -->
+      <div class="flex-1 grid grid-cols-12 gap-3.5">
+        
+        <!-- ==================== LEFT COLUMN: 16 KNOBS MATRIX & TOUCHSTRIP ==================== -->
+        <div class="col-span-5 flex flex-col justify-between bg-amber-600/20 p-2.5 rounded-xl border border-amber-500/40">
+          
+          <!-- Top Utility Bar: Lamp, Master Volume, Phones, Track/Channel Increment -->
+          <div class="flex items-center justify-between border-b border-amber-600/30 pb-2">
+            <!-- Lamp -->
+            <div class="flex items-center gap-1.5">
+              <div class="bnc-socket" title="12VDC Lamp Socket"></div>
+              <div class="flex flex-col">
+                <span class="text-[7px] font-matrix font-bold text-zinc-950 uppercase leading-none">12VDC LAMP</span>
+                <button onclick="toggleLamp()" id="btn-lamp-switch" class="xl7-btn-round w-3.5 h-3.5 mt-0.5" title="Lamp Switch"></button>
+              </div>
+            </div>
+
+            <!-- Master Volume & Phones -->
+            <div class="flex items-center gap-2">
+              <div class="flex flex-col items-center">
+                <div class="xl7-vol-knob" data-param="vol" data-val="110" onmousedown="startKnobDrag(event, 'vol')">
+                  <div class="xl7-vol-pointer" id="vol-pointer"></div>
+                </div>
+                <span class="text-[7px] font-matrix font-bold text-zinc-950 uppercase mt-0.5">VOLUME</span>
+              </div>
+              <div class="flex flex-col items-center">
+                <div class="w-4 h-4 rounded-full bg-zinc-900 border border-zinc-600 shadow-inner flex items-center justify-center">
+                  <div class="w-2 h-2 rounded-full bg-black"></div>
+                </div>
+                <span class="text-[8px] text-zinc-950">🎧</span>
+              </div>
+            </div>
+
+            <!-- Track / Channel Buttons -->
+            <div class="flex flex-col items-center">
+              <span class="text-[6.5px] font-matrix font-bold text-zinc-950 uppercase leading-none mb-0.5">TRACK / CH</span>
+              <div class="flex items-center gap-1">
+                <button onclick="changeTrackChannel(-1)" class="xl7-btn-round w-4 h-4 text-[8px] font-bold text-zinc-200">▲</button>
+                <button onclick="changeTrackChannel(1)" class="xl7-btn-round w-4 h-4 text-[8px] font-bold text-zinc-200">▼</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4 Knob Bank Selectors: QUICK EDIT, PROGRAM, VOLUME, PAN -->
+          <div class="flex items-center justify-between py-1 px-0.5 border-b border-amber-600/30">
+            <span class="text-[7.5px] font-matrix font-black text-zinc-950 uppercase">KNOB BANK:</span>
+            <div class="flex items-center gap-1">
+              <button onclick="setKnobBank('quick')" class="flex items-center gap-1 text-[7.5px] font-bold text-zinc-950 bg-amber-400/80 px-1.5 py-0.5 rounded shadow-sm">
+                <div id="led-kb-quick" class="led-dot led-green-on"></div> QUICK EDIT
+              </button>
+              <button onclick="setKnobBank('prog')" class="flex items-center gap-1 text-[7.5px] font-bold text-zinc-950 hover:bg-amber-400/50 px-1.5 py-0.5 rounded">
+                <div id="led-kb-prog" class="led-dot led-off"></div> PROGRAM
+              </button>
+              <button onclick="setKnobBank('vol')" class="flex items-center gap-1 text-[7.5px] font-bold text-zinc-950 hover:bg-amber-400/50 px-1.5 py-0.5 rounded">
+                <div id="led-kb-vol" class="led-dot led-off"></div> VOLUME
+              </button>
+              <button onclick="setKnobBank('pan')" class="flex items-center gap-1 text-[7.5px] font-bold text-zinc-950 hover:bg-amber-400/50 px-1.5 py-0.5 rounded">
+                <div id="led-kb-pan" class="led-dot led-off"></div> PAN
+              </button>
+            </div>
+          </div>
+
+          <!-- 16 Continuous Controller Knobs (4 Rows x 4 Columns) -->
+          <div class="grid grid-cols-4 gap-y-2 gap-x-1.5 text-[6.5px] font-matrix font-bold text-zinc-950 uppercase my-1">
+            
+            <!-- ROW 1 (FILTER): 1-A Cutoff, 2-B Reso/Q, 3-C Attack, 4-D Decay -->
+            <div class="flex flex-col items-center">
+              <div class="flex items-center justify-between w-full px-1">
+                <span>1-A</span>
+                <div id="led-knob-1" class="led-dot led-red-on"></div>
+              </div>
+              <div class="xl7-knob my-0.5" data-param="cutoff" data-val="190" onmousedown="startKnobDrag(event, 'cutoff')">
+                <div class="xl7-knob-pointer" id="k1-pointer" style="transform: rotate(35deg);"></div>
+              </div>
+              <span class="text-center truncate w-full">FILTER CUTOFF</span>
+            </div>
+
+            <div class="flex flex-col items-center">
+              <div class="flex items-center justify-between w-full px-1">
+                <span>2-B</span>
+                <div id="led-knob-2" class="led-dot led-off"></div>
+              </div>
+              <div class="xl7-knob my-0.5" data-param="reso" data-val="140" onmousedown="startKnobDrag(event, 'reso')">
+                <div class="xl7-knob-pointer" id="k2-pointer" style="transform: rotate(15deg);"></div>
+              </div>
+              <span class="text-center truncate w-full">FILTER Q</span>
+            </div>
+
+            <div class="flex flex-col items-center">
+              <div class="flex items-center justify-between w-full px-1">
+                <span>3-C</span>
+                <div id="led-knob-3" class="led-dot led-off"></div>
+              </div>
+              <div class="xl7-knob my-0.5" data-param="flt_atk" data-val="60" onmousedown="startKnobDrag(event, 'flt_atk')">
+                <div class="xl7-knob-pointer" id="k3-pointer" style="transform: rotate(-45deg);"></div>
+              </div>
+              <span class="text-center truncate w-full">FILTER ATTACK</span>
+            </div>
+
+            <div class="flex flex-col items-center">
+              <div class="flex items-center justify-between w-full px-1">
+                <span>4-D</span>
+                <div id="led-knob-4" class="led-dot led-off"></div>
+              </div>
+              <div class="xl7-knob my-0.5" data-param="flt_dcy" data-val="120" onmousedown="startKnobDrag(event, 'flt_dcy')">
+                <div class="xl7-knob-pointer" id="k4-pointer" style="transform: rotate(0deg);"></div>
+              </div>
+              <span class="text-center truncate w-full">FILTER DECAY</span>
+            </div>
+
+            <!-- ROW 2 (AMP): 5-E Attack, 6-F Decay, 7-G Sustain, 8-H Release -->
+            <div class="flex flex-col items-center">
+              <div class="flex items-center justify-between w-full px-1">
+                <span>5-E</span>
+                <div id="led-knob-5" class="led-dot led-off"></div>
+              </div>
+              <div class="xl7-knob my-0.5" data-param="amp_atk" data-val="40" onmousedown="startKnobDrag(event, 'amp_atk')">
+                <div class="xl7-knob-pointer" id="k5-pointer" style="transform: rotate(-60deg);"></div>
+              </div>
+              <span class="text-center truncate w-full">AMP ATTACK</span>
+            </div>
+
+            <div class="flex flex-col items-center">
+              <div class="flex items-center justify-between w-full px-1">
+                <span>6-F</span>
+                <div id="led-knob-6" class="led-dot led-off"></div>
+              </div>
+              <div class="xl7-knob my-0.5" data-param="amp_dcy" data-val="140" onmousedown="startKnobDrag(event, 'amp_dcy')">
+                <div class="xl7-knob-pointer" id="k6-pointer" style="transform: rotate(20deg);"></div>
+              </div>
+              <span class="text-center truncate w-full">AMP DECAY</span>
+            </div>
+
+            <div class="flex flex-col items-center">
+              <div class="flex items-center justify-between w-full px-1">
+                <span>7-G</span>
+                <div id="led-knob-7" class="led-dot led-off"></div>
+              </div>
+              <div class="xl7-knob my-0.5" data-param="amp_sus" data-val="200" onmousedown="startKnobDrag(event, 'amp_sus')">
+                <div class="xl7-knob-pointer" id="k7-pointer" style="transform: rotate(45deg);"></div>
+              </div>
+              <span class="text-center truncate w-full">AMP SUSTAIN</span>
+            </div>
+
+            <div class="flex flex-col items-center">
+              <div class="flex items-center justify-between w-full px-1">
+                <span>8-H</span>
+                <div id="led-knob-8" class="led-dot led-off"></div>
+              </div>
+              <div class="xl7-knob my-0.5" data-param="amp_rel" data-val="160" onmousedown="startKnobDrag(event, 'amp_rel')">
+                <div class="xl7-knob-pointer" id="k8-pointer" style="transform: rotate(30deg);"></div>
+              </div>
+              <span class="text-center truncate w-full">AMP RELEASE</span>
+            </div>
+
+            <!-- ROW 3 (VEL/LFO): 9-I Vel>Amp, 10-J Vel>Flt, 11-K LFO Amount, 12-L LFO Rate -->
+            <div class="flex flex-col items-center">
+              <div class="flex items-center justify-between w-full px-1">
+                <span>9-I</span>
+                <div id="led-knob-9" class="led-dot led-off"></div>
+              </div>
+              <div class="xl7-knob my-0.5" data-param="vel_amp" data-val="127" onmousedown="startKnobDrag(event, 'vel_amp')">
+                <div class="xl7-knob-pointer" id="k9-pointer" style="transform: rotate(10deg);"></div>
+              </div>
+              <span class="text-center truncate w-full">VEL &gt; AMP</span>
+            </div>
+
+            <div class="flex flex-col items-center">
+              <div class="flex items-center justify-between w-full px-1">
+                <span>10-J</span>
+                <div id="led-knob-10" class="led-dot led-off"></div>
+              </div>
+              <div class="xl7-knob my-0.5" data-param="vel_flt" data-val="150" onmousedown="startKnobDrag(event, 'vel_flt')">
+                <div class="xl7-knob-pointer" id="k10-pointer" style="transform: rotate(25deg);"></div>
+              </div>
+              <span class="text-center truncate w-full">VEL &gt; FILTER</span>
+            </div>
+
+            <div class="flex flex-col items-center">
+              <div class="flex items-center justify-between w-full px-1">
+                <span>11-K</span>
+                <div id="led-knob-11" class="led-dot led-off"></div>
+              </div>
+              <div class="xl7-knob my-0.5" data-param="lfo_amt" data-val="90" onmousedown="startKnobDrag(event, 'lfo_amt')">
+                <div class="xl7-knob-pointer" id="k11-pointer" style="transform: rotate(-20deg);"></div>
+              </div>
+              <span class="text-center truncate w-full">LFO AMOUNT</span>
+            </div>
+
+            <div class="flex flex-col items-center">
+              <div class="flex items-center justify-between w-full px-1">
+                <span>12-L</span>
+                <div id="led-knob-12" class="led-dot led-off"></div>
+              </div>
+              <div class="xl7-knob my-0.5" data-param="lfo_rate" data-val="180" onmousedown="startKnobDrag(event, 'lfo_rate')">
+                <div class="xl7-knob-pointer" id="k12-pointer" style="transform: rotate(40deg);"></div>
+              </div>
+              <span class="text-center truncate w-full">LFO RATE</span>
+            </div>
+
+            <!-- ROW 4 (MOD/ARP): 13-M Mod 1, 14-N Mod 2, 15-O Arp Vel, 16-P Arp Gate -->
+            <div class="flex flex-col items-center">
+              <div class="flex items-center justify-between w-full px-1">
+                <span>13-M</span>
+                <div id="led-knob-13" class="led-dot led-off"></div>
+              </div>
+              <div class="xl7-knob my-0.5" data-param="mod1" data-val="80" onmousedown="startKnobDrag(event, 'mod1')">
+                <div class="xl7-knob-pointer" id="k13-pointer" style="transform: rotate(-30deg);"></div>
+              </div>
+              <span class="text-center truncate w-full">MOD 1</span>
+            </div>
+
+            <div class="flex flex-col items-center">
+              <div class="flex items-center justify-between w-full px-1">
+                <span>14-N</span>
+                <div id="led-knob-14" class="led-dot led-off"></div>
+              </div>
+              <div class="xl7-knob my-0.5" data-param="mod2" data-val="100" onmousedown="startKnobDrag(event, 'mod2')">
+                <div class="xl7-knob-pointer" id="k14-pointer" style="transform: rotate(-10deg);"></div>
+              </div>
+              <span class="text-center truncate w-full">MOD 2</span>
+            </div>
+
+            <div class="flex flex-col items-center">
+              <div class="flex items-center justify-between w-full px-1">
+                <span>15-O</span>
+                <div id="led-knob-15" class="led-dot led-off"></div>
+              </div>
+              <div class="xl7-knob my-0.5" data-param="arp_vel" data-val="127" onmousedown="startKnobDrag(event, 'arp_vel')">
+                <div class="xl7-knob-pointer" id="k15-pointer" style="transform: rotate(10deg);"></div>
+              </div>
+              <span class="text-center truncate w-full">ARP VELOCITY</span>
+            </div>
+
+            <div class="flex flex-col items-center">
+              <div class="flex items-center justify-between w-full px-1">
+                <span>16-P</span>
+                <div id="led-knob-16" class="led-dot led-off"></div>
+              </div>
+              <div class="xl7-knob my-0.5" data-param="arp_gate" data-val="160" onmousedown="startKnobDrag(event, 'arp_gate')">
+                <div class="xl7-knob-pointer" id="k16-pointer" style="transform: rotate(30deg);"></div>
+              </div>
+              <span class="text-center truncate w-full">ARP GATE</span>
+            </div>
+
+          </div>
+
+          <!-- Utility Buttons: TOUCHSTRIP HOLD, GLIDE, ERASE, REPEAT -->
+          <div class="grid grid-cols-4 gap-1.5 pt-1 border-t border-amber-600/30">
+            <button onclick="toggleStripHold()" id="btn-strip-hold" class="xl7-btn-rect text-[6.5px] font-bold text-zinc-300">STRIP HOLD</button>
+            <button onclick="toggleGlide()" id="btn-glide" class="xl7-btn-rect text-[6.5px] font-bold text-zinc-300">GLIDE</button>
+            <button onclick="eraseSequenceEvent()" class="xl7-btn-rect text-[6.5px] font-bold text-zinc-300">ERASE</button>
+            <button onclick="toggleRoll()" id="btn-repeat" class="xl7-btn-rect text-[6.5px] font-bold text-zinc-300">REPEAT</button>
+          </div>
+
+          <!-- DUAL-SEGMENT TOUCHSTRIP CONTROLLER & TRANSPOSITION -->
+          <div class="flex items-center justify-between gap-2 pt-1 border-t border-amber-600/30">
+            <!-- Transposition -->
+            <div class="flex flex-col items-center shrink-0">
+              <span class="text-[6px] font-matrix font-bold text-zinc-950 uppercase leading-none mb-0.5">TRANSPOSITION</span>
+              <div class="flex items-center gap-0.5">
+                <button onclick="transposeOctave(-1)" class="xl7-btn-round w-3.5 h-3.5 text-[8px] text-zinc-300 font-bold">-</button>
+                <div class="flex items-center gap-0.5">
+                  <div id="led-trans-1" class="led-dot led-off"></div>
+                  <div id="led-trans-2" class="led-dot led-off"></div>
+                  <div id="led-trans-3" class="led-dot led-off"></div>
+                  <div id="led-trans-4" class="led-dot led-yellow-on"></div>
+                  <div id="led-trans-5" class="led-dot led-off"></div>
+                  <div id="led-trans-6" class="led-dot led-off"></div>
+                  <div id="led-trans-7" class="led-dot led-off"></div>
+                </div>
+                <button onclick="transposeOctave(1)" class="xl7-btn-round w-3.5 h-3.5 text-[8px] text-zinc-300 font-bold">+</button>
+              </div>
+            </div>
+
+            <!-- Ribbon Controller -->
+            <div class="flex-1 flex flex-col items-center">
+              <div class="w-full xl7-touchstrip-well" id="touchstrip-well" onmousedown="startTouchstrip(event)" onmousemove="moveTouchstrip(event)" onmouseup="endTouchstrip()">
+                <div class="xl7-touchstrip-pad">
+                  <div class="touchstrip-indicator" id="strip-indicator"></div>
+                </div>
+              </div>
+              <span class="text-[6.5px] font-matrix font-bold text-zinc-950 uppercase mt-0.5">◂ TOUCHSTRIP RIBBON ▸</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- ==================== RIGHT COLUMN: CENTER CONTROLS, 16 TRACKS & 16 PADS ==================== -->
+        <div class="col-span-7 flex flex-col justify-between gap-2.5">
+          
+          <!-- TOP ROW: CENTER DISPLAY CONSOLE & RIGHT EDIT/DATA WHEEL -->
+          <div class="grid grid-cols-12 gap-2.5">
+            
+            <!-- CENTER BLOCK: LCD, MODE/VIEW, 7-SEGMENT & TRANSPORT (Col-7) -->
+            <div class="col-span-7 flex flex-col gap-1.5 bg-amber-600/20 p-2 rounded-xl border border-amber-500/40">
+              
+              <!-- 2x24 Alphanumeric LCD Bezel -->
+              <div class="xl7-lcd-bezel p-1.5 flex flex-col justify-between h-[58px]">
+                <div class="flex items-center justify-between text-[7.5px] font-bold italic tracking-wider text-amber-400 font-mono">
+                  <span>128-Voice Synth Multi-Track Sequencer</span>
+                  <span class="text-zinc-400">XL-7 COMMAND STATION</span>
+                </div>
+
+                <div class="xl7-lcd p-1 rounded flex flex-col justify-between font-lcd h-[34px]">
+                  <div class="flex items-center justify-between text-[10.5px] font-bold lcd-green-text leading-none">
+                    <span id="lcd-line1">*01 STOP Lnt08 Bar:01.1</span>
+                    <span id="lcd-mode-tag" class="text-[8px] bg-emerald-500/20 px-1 rounded">PATTERN</span>
+                  </div>
+                  <div class="flex items-center justify-between text-[10.5px] font-semibold lcd-green-text leading-none">
+                    <span id="lcd-line2">015³ Club Lu2</span>
+                    <span class="text-[8px] text-[#5ef574]">SEQ:384 PPQN</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Row 2: MODE / VIEW (4 Buttons with LEDs) -->
+              <div class="flex items-center justify-between bg-amber-600/30 px-2 py-1 rounded border border-amber-500/40">
+                <span class="text-[7px] font-matrix font-bold text-zinc-950 uppercase">MODE/VIEW:</span>
+                <div class="flex items-center gap-2">
+                  <div class="flex flex-col items-center">
+                    <button onclick="setXL7Mode('song')" class="xl7-btn-rect px-2 text-[7px] text-zinc-300 font-bold">SONG</button>
+                    <div id="led-mode-song" class="led-dot led-off mt-0.5"></div>
+                  </div>
+                  <div class="flex flex-col items-center">
+                    <button onclick="setXL7Mode('pattern')" class="xl7-btn-rect px-2 text-[7px] text-zinc-300 font-bold">PATTERN</button>
+                    <div id="led-mode-pattern" class="led-dot led-red-on mt-0.5"></div>
+                  </div>
+                  <div class="flex flex-col items-center">
+                    <button onclick="setXL7Mode('preset')" class="xl7-btn-rect px-2 text-[7px] text-zinc-300 font-bold">PRESET</button>
+                    <div id="led-mode-preset" class="led-dot led-off mt-0.5"></div>
+                  </div>
+                  <div class="flex flex-col items-center">
+                    <button onclick="setXL7Mode('midi')" class="xl7-btn-rect px-2 text-[7px] text-zinc-300 font-bold">MIDI</button>
+                    <div id="led-mode-midi" class="led-dot led-off mt-0.5"></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Row 3: 7-SEGMENT TEMPO PANEL & TRANSPORT ROW -->
+              <div class="grid grid-cols-12 gap-1.5 items-center">
+                
+                <!-- 4-Digit 7-Segment Display with SELECT / EDIT -->
+                <div class="col-span-6 flex flex-col items-center bg-amber-600/30 p-1 rounded border border-amber-500/40">
+                  <div class="flex items-center gap-1.5">
+                    <button onclick="cycleSegmentMode(-1)" class="xl7-btn-rect px-1 text-[6.5px] font-bold text-zinc-300">SELECT</button>
+                    <div class="xl7-7seg-panel px-2 py-0.5 font-7seg text-lg font-bold seg-green-glow tracking-widest leading-none">
+                      <span id="7seg-display">0140</span>
+                    </div>
+                    <button onclick="cycleSegmentMode(1)" class="xl7-btn-rect px-1 text-[6.5px] font-bold text-zinc-300">EDIT</button>
+                  </div>
+                  <div class="grid grid-cols-4 gap-1.5 text-[5.5px] font-matrix font-bold text-zinc-950 uppercase mt-0.5 leading-none">
+                    <span class="flex items-center gap-0.5"><span id="led-seg-tempo" class="led-dot led-green-on"></span>TEMPO</span>
+                    <span class="flex items-center gap-0.5"><span id="led-seg-pat" class="led-dot led-off"></span>PAT</span>
+                    <span class="flex items-center gap-0.5"><span id="led-seg-bar" class="led-dot led-off"></span>BAR</span>
+                    <span class="flex items-center gap-0.5"><span id="led-seg-trk" class="led-dot led-off"></span>TRK</span>
+                  </div>
+                </div>
+
+                <!-- Transport Bar (STOP, PLAY, REC, TAP) -->
+                <div class="col-span-6 flex items-center justify-between bg-amber-600/30 p-1 rounded border border-amber-500/40 h-full">
+                  <div class="flex items-center gap-1">
+                    <!-- STOP -->
+                    <div class="flex flex-col items-center">
+                      <button onclick="stopSequencer()" class="xl7-btn-rect px-1.5 text-[8px] font-bold text-zinc-300">■</button>
+                      <div id="led-stop" class="led-dot led-red-on mt-0.5"></div>
+                    </div>
+                    <!-- PLAY -->
+                    <div class="flex flex-col items-center">
+                      <button onclick="startSequencer()" class="xl7-btn-rect px-1.5 text-[8px] font-bold text-emerald-400">▶</button>
+                      <div id="led-play" class="led-dot led-off mt-0.5"></div>
+                    </div>
+                    <!-- REC -->
+                    <div class="flex flex-col items-center">
+                      <button onclick="toggleRecord()" class="xl7-btn-rect px-1.5 text-[8px] font-bold text-red-500">●</button>
+                      <div id="led-rec" class="led-dot led-off mt-0.5"></div>
+                    </div>
+                  </div>
+
+                  <!-- TAP TEMPO -->
+                  <div class="flex flex-col items-center">
+                    <button onclick="tapTempo()" class="xl7-btn-rect px-2 text-[6.5px] font-black text-amber-300 bg-zinc-800">TAP</button>
+                    <span class="text-[6px] font-matrix font-bold text-zinc-950">TEMPO</span>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+            <!-- RIGHT BLOCK: EDIT MATRIX, DATA WHEEL & E-MU LOGO (Col-5) -->
+            <div class="col-span-5 flex flex-col justify-between bg-amber-600/20 p-2 rounded-xl border border-amber-500/40">
+              
+              <!-- E-MU Logo & MIDI In/Out LEDs Header -->
+              <div class="flex items-center justify-between border-b border-amber-600/30 pb-1">
+                <div class="flex items-center gap-1 text-[7px] font-bold font-mono text-zinc-950">
+                  <div id="led-midi-in" class="led-dot led-red-on animate-pulse"></div>
+                  <span>MIDI</span>
+                  <div id="led-midi-out" class="led-dot led-off"></div>
+                </div>
+                <div class="flex items-center gap-1">
+                  <span class="font-emu font-black text-xs text-zinc-900 tracking-wider">≡ E-MU</span>
+                </div>
+              </div>
+
+              <!-- Edit Grid & Data Wheel Side-by-Side -->
+              <div class="flex items-center justify-between gap-1.5 my-1">
+                
+                <!-- 3x3 / 4x3 Edit Buttons -->
+                <div class="grid grid-cols-3 gap-1 flex-1">
+                  <button onclick="switchXL7Tab('sequencer')" class="xl7-btn-rect text-[6.5px] font-bold text-zinc-300 px-0.5" title="Sequence Setup">SETUP</button>
+                  <button onclick="switchXL7Tab('patterns')" class="xl7-btn-rect text-[6.5px] font-bold text-zinc-300 px-0.5" title="Pattern Editor">PATRN</button>
+                  <button onclick="switchXL7Tab('preset')" class="xl7-btn-rect text-[6.5px] font-bold text-zinc-300 px-0.5" title="Preset Editor">PRESET</button>
+
+                  <button onclick="switchXL7Tab('global')" class="xl7-btn-rect text-[6.5px] font-bold text-zinc-300 px-0.5" title="Global Setup">GLOBL</button>
+                  <button onclick="switchXL7Tab('cords')" class="xl7-btn-rect text-[6.5px] font-bold text-zinc-300 px-0.5" title="PatchCords Matrix">CORDS</button>
+                  <button onclick="switchXL7Tab('filter')" class="xl7-btn-rect text-[6.5px] font-bold text-zinc-300 px-0.5" title="50 Z-Plane Filters">FLTRS</button>
+
+                  <button onclick="playXL7AuditionRiff()" class="xl7-btn-rect text-[6.5px] font-bold text-amber-300 px-0.5" title="Audition Riff">AUDTN</button>
+                  <button onclick="comparePatch()" class="xl7-btn-rect text-[6.5px] font-bold text-zinc-300 px-0.5">CMPR</button>
+                  <button onclick="switchXL7Tab('librarian')" class="xl7-btn-rect text-[6.5px] font-bold text-zinc-300 px-0.5">SAVE</button>
+                </div>
+
+                <!-- Data Wheel with Dimple -->
+                <div class="flex flex-col items-center shrink-0">
+                  <div class="xl7-data-wheel" onwheel="handleWheel(event)" onclick="cyclePresetData(1)">
+                    <div class="xl7-data-dimple"></div>
+                  </div>
+                  <span class="text-[7px] font-matrix font-bold text-zinc-950 uppercase mt-0.5">DATA</span>
+                </div>
+              </div>
+
+              <!-- < CURSOR > Buttons -->
+              <div class="flex items-center justify-center gap-2 pt-1 border-t border-amber-600/30">
+                <span class="text-[6.5px] font-matrix font-bold text-zinc-950">CURSOR:</span>
+                <button onclick="bumpCursor(-1)" class="xl7-btn-rect px-3 text-[8px] font-bold text-zinc-200">&lt;</button>
+                <button onclick="bumpCursor(1)" class="xl7-btn-rect px-3 text-[8px] font-bold text-zinc-200">&gt;</button>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- MIDDLE ROW: COMMAND FUNCTIONS • 16 TRACK ENABLE/MUTE MATRIX -->
+          <div class="bg-amber-600/20 p-2 rounded-xl border border-amber-500/40">
+            <div class="flex items-center justify-between border-b border-amber-600/30 pb-1 mb-1.5">
+              <span class="text-[7.5px] font-matrix font-black text-zinc-950 uppercase tracking-wider">COMMAND FUNCTIONS &bull; TRACK ENABLE / MUTE (1-16)</span>
+              <button onclick="soloTrack(null)" class="text-[7px] font-bold text-zinc-900 bg-amber-400/80 px-2 py-0.5 rounded shadow-sm">UNMUTE ALL</button>
+            </div>
+
+            <!-- 16 Track Buttons in 2 Rows of 8 -->
+            <div class="flex flex-col gap-1.5">
+              <!-- Tracks 1 to 8 -->
+              <div class="grid grid-cols-8 gap-1 text-center">
+                <div class="flex flex-col items-center">
+                  <div class="led-dot led-red-on mb-0.5" id="led-trk-1"></div>
+                  <button onclick="toggleTrackMute(1)" class="xl7-btn-rect w-full text-[7.5px] font-bold text-zinc-200">1</button>
+                  <span class="text-[6px] font-matrix font-bold text-zinc-950 uppercase truncate w-full mt-0.5">KICK</span>
+                </div>
+                <div class="flex flex-col items-center">
+                  <div class="led-dot led-red-on mb-0.5" id="led-trk-2"></div>
+                  <button onclick="toggleTrackMute(2)" class="xl7-btn-rect w-full text-[7.5px] font-bold text-zinc-200">2</button>
+                  <span class="text-[6px] font-matrix font-bold text-zinc-950 uppercase truncate w-full mt-0.5">SNARE</span>
+                </div>
+                <div class="flex flex-col items-center">
+                  <div class="led-dot led-red-on mb-0.5" id="led-trk-3"></div>
+                  <button onclick="toggleTrackMute(3)" class="xl7-btn-rect w-full text-[7.5px] font-bold text-zinc-200">3</button>
+                  <span class="text-[6px] font-matrix font-bold text-zinc-950 uppercase truncate w-full mt-0.5">HIHAT</span>
+                </div>
+                <div class="flex flex-col items-center">
+                  <div class="led-dot led-red-on mb-0.5" id="led-trk-4"></div>
+                  <button onclick="toggleTrackMute(4)" class="xl7-btn-rect w-full text-[7.5px] font-bold text-zinc-200">4</button>
+                  <span class="text-[6px] font-matrix font-bold text-zinc-950 uppercase truncate w-full mt-0.5">PERC</span>
+                </div>
+                <div class="flex flex-col items-center">
+                  <div class="led-dot led-red-on mb-0.5" id="led-trk-5"></div>
+                  <button onclick="toggleTrackMute(5)" class="xl7-btn-rect w-full text-[7.5px] font-bold text-zinc-200">5</button>
+                  <span class="text-[6px] font-matrix font-bold text-zinc-950 uppercase truncate w-full mt-0.5">303 BASS</span>
+                </div>
+                <div class="flex flex-col items-center">
+                  <div class="led-dot led-red-on mb-0.5" id="led-trk-6"></div>
+                  <button onclick="toggleTrackMute(6)" class="xl7-btn-rect w-full text-[7.5px] font-bold text-zinc-200">6</button>
+                  <span class="text-[6px] font-matrix font-bold text-zinc-950 uppercase truncate w-full mt-0.5">HOOVER</span>
+                </div>
+                <div class="flex flex-col items-center">
+                  <div class="led-dot led-red-on mb-0.5" id="led-trk-7"></div>
+                  <button onclick="toggleTrackMute(7)" class="xl7-btn-rect w-full text-[7.5px] font-bold text-zinc-200">7</button>
+                  <span class="text-[6px] font-matrix font-bold text-zinc-950 uppercase truncate w-full mt-0.5">LEAD</span>
+                </div>
+                <div class="flex flex-col items-center">
+                  <div class="led-dot led-red-on mb-0.5" id="led-trk-8"></div>
+                  <button onclick="toggleTrackMute(8)" class="xl7-btn-rect w-full text-[7.5px] font-bold text-zinc-200">8</button>
+                  <span class="text-[6px] font-matrix font-bold text-zinc-950 uppercase truncate w-full mt-0.5">VOX</span>
+                </div>
+              </div>
+
+              <!-- Tracks 9 to 16 -->
+              <div class="grid grid-cols-8 gap-1 text-center pt-1 border-t border-amber-600/20">
+                <div class="flex flex-col items-center">
+                  <div class="led-dot led-red-on mb-0.5" id="led-trk-9"></div>
+                  <button onclick="toggleTrackMute(9)" class="xl7-btn-rect w-full text-[7.5px] font-bold text-zinc-200">9</button>
+                  <span class="text-[6px] font-matrix font-bold text-zinc-950 uppercase truncate w-full mt-0.5">CHORD</span>
+                </div>
+                <div class="flex flex-col items-center">
+                  <div class="led-dot led-red-on mb-0.5" id="led-trk-10"></div>
+                  <button onclick="toggleTrackMute(10)" class="xl7-btn-rect w-full text-[7.5px] font-bold text-zinc-200">10</button>
+                  <span class="text-[6px] font-matrix font-bold text-zinc-950 uppercase truncate w-full mt-0.5">PAD</span>
+                </div>
+                <div class="flex flex-col items-center">
+                  <div class="led-dot led-red-on mb-0.5" id="led-trk-11"></div>
+                  <button onclick="toggleTrackMute(11)" class="xl7-btn-rect w-full text-[7.5px] font-bold text-zinc-200">11</button>
+                  <span class="text-[6px] font-matrix font-bold text-zinc-950 uppercase truncate w-full mt-0.5">STAB</span>
+                </div>
+                <div class="flex flex-col items-center">
+                  <div class="led-dot led-red-on mb-0.5" id="led-trk-12"></div>
+                  <button onclick="toggleTrackMute(12)" class="xl7-btn-rect w-full text-[7.5px] font-bold text-zinc-200">12</button>
+                  <span class="text-[6px] font-matrix font-bold text-zinc-950 uppercase truncate w-full mt-0.5">ACID 2</span>
+                </div>
+                <div class="flex flex-col items-center">
+                  <div class="led-dot led-red-on mb-0.5" id="led-trk-13"></div>
+                  <button onclick="toggleTrackMute(13)" class="xl7-btn-rect w-full text-[7.5px] font-bold text-zinc-200">13</button>
+                  <span class="text-[6px] font-matrix font-bold text-zinc-950 uppercase truncate w-full mt-0.5">SUB</span>
+                </div>
+                <div class="flex flex-col items-center">
+                  <div class="led-dot led-red-on mb-0.5" id="led-trk-14"></div>
+                  <button onclick="toggleTrackMute(14)" class="xl7-btn-rect w-full text-[7.5px] font-bold text-zinc-200">14</button>
+                  <span class="text-[6px] font-matrix font-bold text-zinc-950 uppercase truncate w-full mt-0.5">ARP</span>
+                </div>
+                <div class="flex flex-col items-center">
+                  <div class="led-dot led-red-on mb-0.5" id="led-trk-15"></div>
+                  <button onclick="toggleTrackMute(15)" class="xl7-btn-rect w-full text-[7.5px] font-bold text-zinc-200">15</button>
+                  <span class="text-[6px] font-matrix font-bold text-zinc-950 uppercase truncate w-full mt-0.5">SWEEP</span>
+                </div>
+                <div class="flex flex-col items-center">
+                  <div class="led-dot led-red-on mb-0.5" id="led-trk-16"></div>
+                  <button onclick="toggleTrackMute(16)" class="xl7-btn-rect w-full text-[7.5px] font-bold text-zinc-200">16</button>
+                  <span class="text-[6px] font-matrix font-bold text-zinc-950 uppercase truncate w-full mt-0.5">CRASH</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- BOTTOM ROW: 16 DYNAMIC SILICONE PERFORMANCE PADS -->
+          <div class="bg-amber-600/20 p-2 rounded-xl border border-amber-500/40">
+            <div class="flex items-center justify-between text-[7.5px] font-matrix font-black text-zinc-950 uppercase px-1 mb-1">
+              <span>16 VELOCITY &amp; PRESSURE DYNAMIC PERFORMANCE PADS</span>
+              <span class="text-zinc-800">CLICK PADS TO PLAY DRUMS &amp; SYNTH RIFFS</span>
+            </div>
+
+            <!-- Pads Arranged in Keyboard / Drum Machine Geometry -->
+            <div class="flex flex-col gap-1 items-center">
+              
+              <!-- Upper Row (5 "Black Keys" + 3 Control Pads) -->
+              <div class="flex items-center gap-1.5">
+                <div class="w-8"></div>
+                <!-- C# -->
+                <button onmousedown="triggerPad(1, 49)" class="xl7-pad w-11 h-9 text-[8px] font-bold text-zinc-300" id="pad-1">C#</button>
+                <!-- D# -->
+                <button onmousedown="triggerPad(3, 51)" class="xl7-pad w-11 h-9 text-[8px] font-bold text-zinc-300" id="pad-3">D#</button>
+                <div class="w-11"></div>
+                <!-- F# -->
+                <button onmousedown="triggerPad(6, 54)" class="xl7-pad w-11 h-9 text-[8px] font-bold text-zinc-300" id="pad-6">F#</button>
+                <!-- G# -->
+                <button onmousedown="triggerPad(8, 56)" class="xl7-pad w-11 h-9 text-[8px] font-bold text-zinc-300" id="pad-8">G#</button>
+                <!-- A# -->
+                <button onmousedown="triggerPad(10, 58)" class="xl7-pad w-11 h-9 text-[8px] font-bold text-zinc-300" id="pad-10">A#</button>
+                <div class="w-11"></div>
+                <!-- Extra Pad 13 -->
+                <button onmousedown="triggerPad(13, 61)" class="xl7-pad w-11 h-9 text-[7.5px] font-bold text-amber-300" id="pad-13">P13</button>
+                <!-- Extra Pad 14 -->
+                <button onmousedown="triggerPad(14, 62)" class="xl7-pad w-11 h-9 text-[7.5px] font-bold text-amber-300" id="pad-14">P14</button>
+              </div>
+
+              <!-- Lower Row (8 "White Keys" + Extra Pad 15) -->
+              <div class="flex items-center gap-1.5">
+                <!-- C -->
+                <button onmousedown="triggerPad(0, 48)" class="xl7-pad w-11 h-11 text-[9px] font-bold text-zinc-200" id="pad-0">C</button>
+                <!-- D -->
+                <button onmousedown="triggerPad(2, 50)" class="xl7-pad w-11 h-11 text-[9px] font-bold text-zinc-200" id="pad-2">D</button>
+                <!-- E -->
+                <button onmousedown="triggerPad(4, 52)" class="xl7-pad w-11 h-11 text-[9px] font-bold text-zinc-200" id="pad-4">E</button>
+                <!-- F -->
+                <button onmousedown="triggerPad(5, 53)" class="xl7-pad w-11 h-11 text-[9px] font-bold text-zinc-200" id="pad-5">F</button>
+                <!-- G -->
+                <button onmousedown="triggerPad(7, 55)" class="xl7-pad w-11 h-11 text-[9px] font-bold text-zinc-200" id="pad-7">G</button>
+                <!-- A -->
+                <button onmousedown="triggerPad(9, 57)" class="xl7-pad w-11 h-11 text-[9px] font-bold text-zinc-200" id="pad-9">A</button>
+                <!-- B -->
+                <button onmousedown="triggerPad(11, 59)" class="xl7-pad w-11 h-11 text-[9px] font-bold text-zinc-200" id="pad-11">B</button>
+                <!-- C2 -->
+                <button onmousedown="triggerPad(12, 60)" class="xl7-pad w-11 h-11 text-[9px] font-bold text-zinc-200" id="pad-12">C2</button>
+                <!-- Extra Pad 15 -->
+                <button onmousedown="triggerPad(15, 63)" class="xl7-pad w-11 h-11 text-[7.5px] font-bold text-amber-300" id="pad-15">P15</button>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- RIGHT ERGONOMIC CHEEK -->
+      <div class="w-5 xl7-cheek-right hidden sm:block shrink-0"></div>
+
+    </div>
+
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- MIDI QUEST 13 COMPONENT SUITE (8 TABBED WORKSPACE VIEWS)                 -->
+  <!-- ========================================================================= -->
+  <div class="w-full max-w-6xl mt-4 bg-zinc-900/95 border border-zinc-800 rounded-lg shadow-xl overflow-hidden flex flex-col">
+    
+    <!-- SUB-VIEW NAVIGATION BAR -->
+    <div class="flex items-center justify-between bg-zinc-950 px-3 border-b border-zinc-800 text-xs">
+      <div class="flex items-center gap-1 overflow-x-auto py-1 flex-1 min-w-0" style="scrollbar-width: none;">
+        <button onclick="switchXL7Tab('sequencer')" id="tab-sequencer" class="mq-tab active px-2.5 py-1 text-[11px] text-zinc-300 hover:text-white flex items-center gap-1 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-amber-500" viewBox="0 0 24 24"><path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/></svg>
+          16-Track Sequencer
+        </button>
+        <button onclick="switchXL7Tab('patterns')" id="tab-patterns" class="mq-tab px-2.5 py-1 text-[11px] text-zinc-400 hover:text-white flex items-center gap-1 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-orange-400" viewBox="0 0 24 24"><path d="M3 17h18v2H3zm0-7h18v2H3zm0-7h18v2H3z"/></svg>
+          Patterns &amp; Songs
+        </button>
+        <button onclick="switchXL7Tab('preset')" id="tab-preset" class="mq-tab px-2.5 py-1 text-[11px] text-zinc-400 hover:text-white flex items-center gap-1 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-yellow-400" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 14H6v-2h6v2zm4-4H6v-2h10v2zm0-4H6V7h10v2z"/></svg>
+          Preset Editor (4 Layers)
+        </button>
+        <button onclick="switchXL7Tab('filter')" id="tab-filter" class="mq-tab px-2.5 py-1 text-[11px] text-zinc-400 hover:text-white flex items-center gap-1 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-cyan-400" viewBox="0 0 24 24"><path d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"/></svg>
+          50 Z-Plane Filters
+        </button>
+        <button onclick="switchXL7Tab('cords')" id="tab-cords" class="mq-tab px-2.5 py-1 text-[11px] text-zinc-400 hover:text-white flex items-center gap-1 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-pink-400" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+          PatchCords (24)
+        </button>
+        <button onclick="switchXL7Tab('global')" id="tab-global" class="mq-tab px-2.5 py-1 text-[11px] text-zinc-400 hover:text-white flex items-center gap-1 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-indigo-400" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+          Global &amp; Controller Map
+        </button>
+        <button onclick="switchXL7Tab('multimode')" id="tab-multimode" class="mq-tab px-2.5 py-1 text-[11px] text-zinc-400 hover:text-white flex items-center gap-1 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-emerald-400" viewBox="0 0 24 24"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"/></svg>
+          MultiMode 16 Tracks
+        </button>
+        <button onclick="switchXL7Tab('librarian')" id="tab-librarian" class="mq-tab px-2.5 py-1 text-[11px] text-zinc-400 hover:text-white flex items-center gap-1 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-yellow-400" viewBox="0 0 24 24"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H8V4h12v12z"/></svg>
+          Librarian (1024 Presets)
+        </button>
+      </div>
+      <span class="text-[10px] text-zinc-500 font-mono whitespace-nowrap hidden lg:inline shrink-0 pl-3">Midi Quest 13 • Model 0x0F (XL-7 Command Station)</span>
+    </div>
+
+    <!-- ==================== TAB 1: 16-TRACK SEQUENCER ENGINE ==================== -->
+    <div id="subview-sequencer" class="p-5 flex flex-col gap-5">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <div class="flex items-center gap-3">
+          <span class="text-xs uppercase font-bold tracking-widest text-amber-400 font-mono">16-Track Command Station Sequencer</span>
+          <span class="text-xs text-zinc-500">|</span>
+          <span class="text-xs font-semibold text-zinc-300">384 PPQN Multi-Track Pattern Sequencer with Live Track Mutes</span>
+        </div>
+        <div class="flex items-center gap-3">
+          <button onclick="toggleSequencerPlayback()" id="btn-seq-toggle" class="px-3.5 py-1 text-xs rounded bg-amber-500 hover:bg-amber-400 font-black text-zinc-950 shadow flex items-center gap-1.5 cursor-pointer">
+            <svg class="w-3 h-3 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            <span id="seq-play-label">Start 140 BPM Sequencer</span>
+          </button>
+          <div class="flex items-center gap-1 text-xs font-mono text-zinc-400 bg-zinc-950 px-2.5 py-1 rounded border border-zinc-800">
+            <span>Tempo:</span>
+            <input type="number" id="input-tempo" value="140" min="40" max="300" onchange="updateTempo(this.value)" class="w-12 bg-transparent text-amber-400 font-bold text-center outline-none">
+            <span>BPM</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 16 TRACK GRID WITH VOLUME, PAN & STATUS -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+        
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800 flex flex-col gap-2">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-amber-400">TRK 01: 909 Kick</span>
+            <span class="text-[10px] text-emerald-400 font-mono">CH 01</span>
+          </div>
+          <div class="text-[11px] text-zinc-400">Preset: <span class="text-zinc-200">000¹ wnl:ClubKit</span></div>
+          <div class="flex items-center justify-between text-[11px]">
+            <span class="text-zinc-500">Vol: 120</span>
+            <span class="text-zinc-500">Pan: C</span>
+            <span class="px-1.5 py-0.5 rounded bg-amber-500/20 text-amber-300 text-[10px]">ACTIVE</span>
+          </div>
+        </div>
+
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800 flex flex-col gap-2">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-amber-400">TRK 02: 909 Snare</span>
+            <span class="text-[10px] text-emerald-400 font-mono">CH 02</span>
+          </div>
+          <div class="text-[11px] text-zinc-400">Preset: <span class="text-zinc-200">001¹ wnl:RaveSnr</span></div>
+          <div class="flex items-center justify-between text-[11px]">
+            <span class="text-zinc-500">Vol: 110</span>
+            <span class="text-zinc-500">Pan: C</span>
+            <span class="px-1.5 py-0.5 rounded bg-amber-500/20 text-amber-300 text-[10px]">ACTIVE</span>
+          </div>
+        </div>
+
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800 flex flex-col gap-2">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-amber-400">TRK 03: Open/Closed Hat</span>
+            <span class="text-[10px] text-emerald-400 font-mono">CH 03</span>
+          </div>
+          <div class="text-[11px] text-zinc-400">Preset: <span class="text-zinc-200">002¹ wnl:ElectroHat</span></div>
+          <div class="flex items-center justify-between text-[11px]">
+            <span class="text-zinc-500">Vol: 100</span>
+            <span class="text-zinc-500">Pan: L15</span>
+            <span class="px-1.5 py-0.5 rounded bg-amber-500/20 text-amber-300 text-[10px]">ACTIVE</span>
+          </div>
+        </div>
+
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800 flex flex-col gap-2">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-amber-400">TRK 05: Acid 303 Bass</span>
+            <span class="text-[10px] text-emerald-400 font-mono">CH 05</span>
+          </div>
+          <div class="text-[11px] text-zinc-400">Preset: <span class="text-zinc-200">015⁰ bas:ResoSquelch</span></div>
+          <div class="flex items-center justify-between text-[11px]">
+            <span class="text-zinc-500">Vol: 125</span>
+            <span class="text-zinc-500">Pan: C</span>
+            <span class="px-1.5 py-0.5 rounded bg-amber-500/20 text-amber-300 text-[10px]">ACTIVE</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ==================== TAB 2: PATTERNS & SONGS LIBRARIAN ==================== -->
+    <div id="subview-patterns" class="p-5 flex flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <span class="text-xs uppercase font-bold tracking-widest text-orange-400 font-mono">Pattern &amp; Song Memory Architecture</span>
+        <span class="text-xs text-zinc-400 font-mono">512 User Patterns &bull; 100 Songs &bull; 300,000 Note Sequencer</span>
+      </div>
+      <div class="grid grid-cols-3 gap-4">
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-xs font-bold text-zinc-300">Pattern Select (000 - 511)</span>
+          <select id="pattern-select" onchange="selectPattern(this.value)" class="w-full mt-2 bg-zinc-900 border border-zinc-700 rounded px-2.5 py-1.5 text-xs text-amber-400 font-mono">
+            <option value="0">000: CyberClub 140 BPM</option>
+            <option value="1">001: AcidRave 138 BPM</option>
+            <option value="2">002: TranceAnthem 142 BPM</option>
+            <option value="3">003: HardcoreBreak 165 BPM</option>
+            <option value="4">004: EuroGroove 135 BPM</option>
+          </select>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-xs font-bold text-zinc-300">Quantize Resolution</span>
+          <select class="w-full mt-2 bg-zinc-900 border border-zinc-700 rounded px-2.5 py-1.5 text-xs text-zinc-200 font-mono">
+            <option>1/16 Note (Standard)</option>
+            <option>1/16 Triplet</option>
+            <option>1/32 Note</option>
+            <option>1/8 Swing 58%</option>
+            <option>1/8 Swing 62%</option>
+            <option>Off (384 PPQN Raw)</option>
+          </select>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-xs font-bold text-zinc-300">Sequence Loop Mode</span>
+          <select class="w-full mt-2 bg-zinc-900 border border-zinc-700 rounded px-2.5 py-1.5 text-xs text-zinc-200 font-mono">
+            <option>Continuous Loop (Live Jam)</option>
+            <option>One-Shot Pattern</option>
+            <option>Song Chain Auto-Advance</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 3: PRESET EDITOR (4 LAYERS) ==================== -->
+    <div id="subview-preset" class="p-5 flex flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <span class="text-xs uppercase font-bold tracking-widest text-yellow-400 font-mono">4-Layer Preset Architecture (128-Voice Polyphony)</span>
+        <span class="text-xs text-zinc-400 font-mono">Current Preset: 015³ Club Lu2 &bull; Category: Lead/Synth</span>
+      </div>
+
+      <div class="grid grid-cols-4 gap-3">
+        <!-- Layer 1 -->
+        <div class="bg-zinc-950/80 p-3 rounded border border-amber-500/40 flex flex-col gap-2">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-amber-400">Layer 1 (Active)</span>
+            <span class="text-[10px] text-zinc-400">ROM: XL-1</span>
+          </div>
+          <div class="text-[11px] text-zinc-400">Instrument: <span class="text-zinc-200">012: Saw Rave</span></div>
+          <div class="text-[11px] text-zinc-400">Tuning: <span class="text-zinc-200">+0 Semi, +4 Cent</span></div>
+          <div class="text-[11px] text-zinc-400">Filter: <span class="text-cyan-400">Techno Sweep (12th)</span></div>
+        </div>
+        <!-- Layer 2 -->
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800 flex flex-col gap-2">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-zinc-300">Layer 2 (Active)</span>
+            <span class="text-[10px] text-zinc-400">ROM: XL-1</span>
+          </div>
+          <div class="text-[11px] text-zinc-400">Instrument: <span class="text-zinc-200">014: Square Sub</span></div>
+          <div class="text-[11px] text-zinc-400">Tuning: <span class="text-zinc-200">-12 Semi, 0 Cent</span></div>
+          <div class="text-[11px] text-zinc-400">Filter: <span class="text-cyan-400">Lowpass 4-Pole</span></div>
+        </div>
+        <!-- Layer 3 -->
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800 flex flex-col gap-2 opacity-60">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-zinc-400">Layer 3 (Mute)</span>
+            <span class="text-[10px] text-zinc-500">ROM: Composer</span>
+          </div>
+          <div class="text-[11px] text-zinc-500">Instrument: Sine Wave</div>
+          <div class="text-[11px] text-zinc-500">Tuning: +0 Semi</div>
+          <div class="text-[11px] text-zinc-500">Filter: Bypass</div>
+        </div>
+        <!-- Layer 4 -->
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800 flex flex-col gap-2 opacity-60">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-zinc-400">Layer 4 (Mute)</span>
+            <span class="text-[10px] text-zinc-500">ROM: Expansion</span>
+          </div>
+          <div class="text-[11px] text-zinc-500">Instrument: White Noise</div>
+          <div class="text-[11px] text-zinc-500">Tuning: +0 Semi</div>
+          <div class="text-[11px] text-zinc-500">Filter: Highpass 2-Pole</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 4: 50 Z-PLANE FILTERS ==================== -->
+    <div id="subview-filter" class="p-5 flex flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <span class="text-xs uppercase font-bold tracking-widest text-cyan-400 font-mono">50 12th-Order Z-Plane Morphing Filters</span>
+        <span class="text-xs text-zinc-400 font-mono">Dynamic Resonant Topologies Modeled in Real-Time</span>
+      </div>
+      <div class="grid grid-cols-3 gap-3">
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-xs font-bold text-cyan-400">01: Techno Sweep</span>
+          <p class="text-[11px] text-zinc-400 mt-1">Aggressive dual-formant resonant peak sweep tailored for rave and hard house anthems.</p>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-xs font-bold text-cyan-400">02: Acid 303 Reso</span>
+          <p class="text-[11px] text-zinc-400 mt-1">Emulates vintage transistor ladder non-linearities and diode saturation squelch.</p>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-xs font-bold text-cyan-400">03: Vocal Ah-Ay-Ee</span>
+          <p class="text-[11px] text-zinc-400 mt-1">Triple vowel formant filter morphing vowel sounds across keyboard velocity and LFO.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 5: PATCHCORDS (24) ==================== -->
+    <div id="subview-cords" class="p-5 flex flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <span class="text-xs uppercase font-bold tracking-widest text-pink-400 font-mono">24-Cord Virtual PatchCords Modulation Matrix</span>
+        <span class="text-xs text-zinc-400 font-mono">Connect Any Source to Any Destination (-100% to +100%)</span>
+      </div>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-3 text-xs">
+        <div class="bg-zinc-950/80 p-2.5 rounded border border-zinc-800">
+          <span class="text-pink-400 font-bold">Cord 01</span>
+          <div class="text-[11px] text-zinc-300 mt-1">Src: <span class="text-amber-400">Touchstrip</span></div>
+          <div class="text-[11px] text-zinc-300">Dst: <span class="text-cyan-400">FiltCutoff</span></div>
+          <div class="text-[11px] text-zinc-400">Amt: <span class="text-emerald-400">+75%</span></div>
+        </div>
+        <div class="bg-zinc-950/80 p-2.5 rounded border border-zinc-800">
+          <span class="text-pink-400 font-bold">Cord 02</span>
+          <div class="text-[11px] text-zinc-300 mt-1">Src: <span class="text-amber-400">LFO 1</span></div>
+          <div class="text-[11px] text-zinc-300">Dst: <span class="text-cyan-400">Filter Morph</span></div>
+          <div class="text-[11px] text-zinc-400">Amt: <span class="text-emerald-400">+50%</span></div>
+        </div>
+        <div class="bg-zinc-950/80 p-2.5 rounded border border-zinc-800">
+          <span class="text-pink-400 font-bold">Cord 03</span>
+          <div class="text-[11px] text-zinc-300 mt-1">Src: <span class="text-amber-400">Key Velocity</span></div>
+          <div class="text-[11px] text-zinc-300">Dst: <span class="text-cyan-400">Amp Attack</span></div>
+          <div class="text-[11px] text-zinc-400">Amt: <span class="text-red-400">-40%</span></div>
+        </div>
+        <div class="bg-zinc-950/80 p-2.5 rounded border border-zinc-800">
+          <span class="text-pink-400 font-bold">Cord 04</span>
+          <div class="text-[11px] text-zinc-300 mt-1">Src: <span class="text-amber-400">Pad Pressure</span></div>
+          <div class="text-[11px] text-zinc-300">Dst: <span class="text-cyan-400">LFO1 Rate</span></div>
+          <div class="text-[11px] text-zinc-400">Amt: <span class="text-emerald-400">+60%</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 6: GLOBAL & CONTROLLER MAP ==================== -->
+    <div id="subview-global" class="p-5 flex flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <span class="text-xs uppercase font-bold tracking-widest text-indigo-400 font-mono">Global Parameters &bull; 16 Front-Panel Knobs CC Mapping</span>
+        <span class="text-xs text-zinc-400 font-mono">Controllers A - P &bull; 6 Polyphonic Analog Submix Outputs</span>
+      </div>
+      <div class="grid grid-cols-4 gap-3 text-xs">
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-indigo-400 font-bold">Master Tuning</span>
+          <div class="text-base font-mono text-zinc-200 mt-1">440.0 Hz (+0 Cent)</div>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-indigo-400 font-bold">Master Transpose</span>
+          <div class="text-base font-mono text-zinc-200 mt-1">+0 Semitones</div>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-indigo-400 font-bold">Submix Outs 1 &amp; 2</span>
+          <div class="text-base font-mono text-emerald-400 mt-1">Main Stereo (L/R)</div>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-indigo-400 font-bold">Submix Outs 3 to 6</span>
+          <div class="text-base font-mono text-emerald-400 mt-1">Sub 1 (L/R), Sub 2 (L/R)</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 7: MULTIMODE 16 TRACKS ==================== -->
+    <div id="subview-multimode" class="p-5 flex flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <span class="text-xs uppercase font-bold tracking-widest text-emerald-400 font-mono">16-Part Multitimbral Mixer Console</span>
+        <span class="text-xs text-zinc-400 font-mono">Dual MIDI Ports (Port A: 16 Channels, Port B: 16 Channels = 32 Channels)</span>
+      </div>
+      <div class="text-xs text-zinc-400">
+        All 16 sequence tracks can broadcast simultaneously across internal synth engines and dual external MIDI ports A &amp; B.
+      </div>
+    </div>
+
+    <!-- ==================== TAB 8: BANK LIBRARIAN (1024 PRESETS) ==================== -->
+    <div id="subview-librarian" class="p-5 flex flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <span class="text-xs uppercase font-bold tracking-widest text-yellow-400 font-mono">Bank Librarian &bull; 1024 Presets + 4 ROM Expansion Slots</span>
+        <span class="text-xs text-zinc-400 font-mono">User Banks 0-3 (512 Presets) &bull; ROM Banks 0-3 (512 Presets)</span>
+      </div>
+      <div class="grid grid-cols-4 gap-3 text-xs">
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-yellow-400 font-bold">Slot 1 (Internal ROM)</span>
+          <div class="text-xs text-zinc-200 mt-1">The Xtreme Lead (32MB)</div>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-zinc-400 font-bold">Slot 2 (Turbo SIMM)</span>
+          <div class="text-xs text-emerald-400 mt-1">Proteus 2000 Composer (32MB)</div>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-zinc-400 font-bold">Slot 3 (Turbo SIMM)</span>
+          <div class="text-xs text-emerald-400 mt-1">Beat Garden (32MB)</div>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-zinc-400 font-bold">Slot 4 (Turbo SIMM)</span>
+          <div class="text-xs text-emerald-400 mt-1">Techno Yard (32MB)</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- LIVE SYSEX PACKET STREAM MONITOR -->
+  <div class="w-full max-w-6xl mt-3 bg-zinc-900 border border-zinc-800 rounded-lg p-2.5 flex items-center justify-between text-xs font-mono">
+    <div class="flex items-center gap-2">
+      <div class="w-2 h-2 rounded-full bg-amber-500 animate-ping"></div>
+      <span class="text-zinc-400">E-MU XL-7 SYSEX OUT:</span>
+      <span id="sysex-display" class="text-amber-400 font-bold">F0 18 0F 00 0F 01 00 00 7F F7 (Preset: 015³ Club Lu2)</span>
+    </div>
+    <div class="text-zinc-500 text-[11px]">
+      Latency: <span class="text-emerald-400">0.2ms</span> | Sequencer: <span class="text-amber-400">RUNNING (140 BPM)</span>
+    </div>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- JAVASCRIPT SOUND ENGINE & INTERACTIVE HARDWARE LOGIC                      -->
+  <!-- ========================================================================= -->
+  <script>
+    // Audio Context Setup
+    let audioCtx = null;
+    let isSeqPlaying = false;
+    let seqInterval = null;
+    let seqStep = 0;
+    let currentTempo = 140;
+    let currentTransposition = 0;
+    let lampOn = false;
+
+    // Track Mute State (1 to 16)
+    const trackMutes = new Array(17).fill(false);
+
+    function initAudio() {
+      if (!audioCtx) {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      }
+      if (audioCtx.state === 'suspended') {
+        audioCtx.resume();
+      }
+    }
+
+    // Toggle Gooseneck Lamp
+    function toggleLamp() {
+      lampOn = !lampOn;
+      const btn = document.getElementById('btn-lamp-switch');
+      if (lampOn) {
+        btn.classList.add('bg-amber-400');
+        btn.style.boxShadow = '0 0 10px #f59e0b';
+      } else {
+        btn.classList.remove('bg-amber-400');
+        btn.style.boxShadow = '';
+      }
+    }
+
+    // 16-Track Sequencer Playback
+    function toggleSequencerPlayback() {
+      if (isSeqPlaying) {
+        stopSequencer();
+      } else {
+        startSequencer();
+      }
+    }
+
+    function startSequencer() {
+      initAudio();
+      isSeqPlaying = true;
+      document.getElementById('led-stop').className = 'led-dot led-off mt-0.5';
+      document.getElementById('led-play').className = 'led-dot led-green-on mt-0.5';
+      document.getElementById('seq-play-label').innerText = 'Stop Sequencer';
+      document.getElementById('lcd-line1').innerText = '*01 PLAY Lnt08 Bar:01.1';
+
+      const intervalMs = (60 / currentTempo / 4) * 1000;
+      clearInterval(seqInterval);
+      seqInterval = setInterval(stepSequence, intervalMs);
+    }
+
+    function stopSequencer() {
+      isSeqPlaying = false;
+      clearInterval(seqInterval);
+      document.getElementById('led-stop').className = 'led-dot led-red-on mt-0.5';
+      document.getElementById('led-play').className = 'led-dot led-off mt-0.5';
+      document.getElementById('seq-play-label').innerText = 'Start 140 BPM Sequencer';
+      document.getElementById('lcd-line1').innerText = '*01 STOP Lnt08 Bar:01.1';
+    }
+
+    function stepSequence() {
+      seqStep = (seqStep + 1) % 16;
+      const bar = Math.floor(seqStep / 4) + 1;
+      const beat = (seqStep % 4) + 1;
+      document.getElementById('lcd-line1').innerText = `*01 PLAY Lnt08 Bar:0${bar}.${beat}`;
+
+      // Trigger Kick on 0, 4, 8, 12 if track 1 not muted
+      if (seqStep % 4 === 0 && !trackMutes[1]) {
+        play909Kick();
+      }
+      // Trigger Snare on 4, 12 if track 2 not muted
+      if ((seqStep === 4 || seqStep === 12) && !trackMutes[2]) {
+        play909Snare();
+      }
+      // Trigger Hi-Hat on offbeats if track 3 not muted
+      if (seqStep % 2 === 1 && !trackMutes[3]) {
+        play909HiHat();
+      }
+      // Trigger Acid Bass on steps if track 5 not muted
+      if ((seqStep % 3 === 0 || seqStep === 7 || seqStep === 14) && !trackMutes[5]) {
+        const bassPitches = [110, 130.81, 146.83, 164.81, 110, 220];
+        const pitch = bassPitches[seqStep % bassPitches.length];
+        playAcidBass(pitch);
+      }
+    }
+
+    // Audio Generators (Kick, Snare, HiHat, Acid 303 Bass)
+    function play909Kick() {
+      if (!audioCtx) return;
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(140, audioCtx.currentTime);
+      osc.frequency.exponentialRampToValueAtTime(38, audioCtx.currentTime + 0.12);
+      gain.gain.setValueAtTime(1.0, audioCtx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.28);
+      osc.connect(gain);
+      gain.connect(audioCtx.destination);
+      osc.start();
+      osc.stop(audioCtx.currentTime + 0.28);
+    }
+
+    function play909Snare() {
+      if (!audioCtx) return;
+      const bufferSize = audioCtx.sampleRate * 0.15;
+      const buffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
+      const data = buffer.getChannelData(0);
+      for (let i = 0; i < bufferSize; i++) {
+        data[i] = (Math.random() * 2 - 1) * Math.exp(-i / (audioCtx.sampleRate * 0.04));
+      }
+      const noise = audioCtx.createBufferSource();
+      noise.buffer = buffer;
+      const filter = audioCtx.createBiquadFilter();
+      filter.type = 'highpass';
+      filter.frequency.setValueAtTime(800, audioCtx.currentTime);
+      const gain = audioCtx.createGain();
+      gain.gain.setValueAtTime(0.7, audioCtx.currentTime);
+      noise.connect(filter);
+      filter.connect(gain);
+      gain.connect(audioCtx.destination);
+      noise.start();
+    }
+
+    function play909HiHat() {
+      if (!audioCtx) return;
+      const bufferSize = audioCtx.sampleRate * 0.08;
+      const buffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
+      const data = buffer.getChannelData(0);
+      for (let i = 0; i < bufferSize; i++) {
+        data[i] = (Math.random() * 2 - 1) * Math.exp(-i / (audioCtx.sampleRate * 0.015));
+      }
+      const noise = audioCtx.createBufferSource();
+      noise.buffer = buffer;
+      const filter = audioCtx.createBiquadFilter();
+      filter.type = 'highpass';
+      filter.frequency.setValueAtTime(7000, audioCtx.currentTime);
+      const gain = audioCtx.createGain();
+      gain.gain.setValueAtTime(0.4, audioCtx.currentTime);
+      noise.connect(filter);
+      filter.connect(gain);
+      gain.connect(audioCtx.destination);
+      noise.start();
+    }
+
+    function playAcidBass(freq) {
+      if (!audioCtx) return;
+      const osc = audioCtx.createOscillator();
+      const filter = audioCtx.createBiquadFilter();
+      const gain = audioCtx.createGain();
+      osc.type = 'sawtooth';
+      osc.frequency.setValueAtTime(freq, audioCtx.currentTime);
+      filter.type = 'lowpass';
+      filter.Q.setValueAtTime(14, audioCtx.currentTime);
+      filter.frequency.setValueAtTime(2400, audioCtx.currentTime);
+      filter.frequency.exponentialRampToValueAtTime(120, audioCtx.currentTime + 0.18);
+      gain.gain.setValueAtTime(0.5, audioCtx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.2);
+      osc.connect(filter);
+      filter.connect(gain);
+      gain.connect(audioCtx.destination);
+      osc.start();
+      osc.stop(audioCtx.currentTime + 0.2);
+    }
+
+    // Dynamic Silicone Pad Triggering
+    function triggerPad(padIndex, midiNote) {
+      initAudio();
+      const padEl = document.getElementById(`pad-${padIndex}`);
+      if (padEl) {
+        padEl.classList.add('pad-active');
+        setTimeout(() => padEl.classList.remove('pad-active'), 120);
+      }
+
+      // Calculate frequency with transposition
+      const noteWithTrans = midiNote + (currentTransposition * 12);
+      const freq = 440 * Math.pow(2, (noteWithTrans - 69) / 12);
+
+      // Trigger rich synthesizer voice
+      const osc = audioCtx.createOscillator();
+      const filter = audioCtx.createBiquadFilter();
+      const gain = audioCtx.createGain();
+
+      osc.type = (padIndex % 2 === 0) ? 'sawtooth' : 'square';
+      osc.frequency.setValueAtTime(freq, audioCtx.currentTime);
+
+      filter.type = 'lowpass';
+      filter.Q.setValueAtTime(8, audioCtx.currentTime);
+      filter.frequency.setValueAtTime(3200, audioCtx.currentTime);
+      filter.frequency.exponentialRampToValueAtTime(300, audioCtx.currentTime + 0.35);
+
+      gain.gain.setValueAtTime(0.6, audioCtx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.4);
+
+      osc.connect(filter);
+      filter.connect(gain);
+      gain.connect(audioCtx.destination);
+
+      osc.start();
+      osc.stop(audioCtx.currentTime + 0.4);
+
+      // Emit SysEx
+      document.getElementById('sysex-display').innerText = 
+        `F0 18 0F 00 0F 01 02 ${midiNote.toString(16).toUpperCase()} 7F F7 (NoteOn: ${midiNote})`;
+    }
+
+    // Track Mute Toggle
+    function toggleTrackMute(trk) {
+      trackMutes[trk] = !trackMutes[trk];
+      const led = document.getElementById(`led-trk-${trk}`);
+      if (trackMutes[trk]) {
+        led.className = 'led-dot led-off mb-0.5';
+      } else {
+        led.className = 'led-dot led-red-on mb-0.5';
+      }
+    }
+
+    function soloTrack(trk) {
+      for (let i = 1; i <= 16; i++) {
+        trackMutes[i] = false;
+        const led = document.getElementById(`led-trk-${i}`);
+        if (led) led.className = 'led-dot led-red-on mb-0.5';
+      }
+    }
+
+    // Touchstrip Controller
+    let isTouchingStrip = false;
+    function startTouchstrip(e) {
+      isTouchingStrip = true;
+      moveTouchstrip(e);
+    }
+    function moveTouchstrip(e) {
+      if (!isTouchingStrip) return;
+      const well = document.getElementById('touchstrip-well');
+      const rect = well.getBoundingClientRect();
+      const x = Math.max(0, Math.min(e.clientX - rect.left, rect.width));
+      const pct = (x / rect.width) * 100;
+      document.getElementById('strip-indicator').style.left = `${pct}%`;
+
+      // Calculate Pitch Bend / Mod value
+      const bendVal = Math.round((pct / 100) * 16383);
+      document.getElementById('sysex-display').innerText = 
+        `F0 18 0F 00 0F 01 03 01 ${(bendVal & 0x7F).toString(16).toUpperCase()} F7 (Touchstrip: ${Math.round(pct)}%)`;
+    }
+    function endTouchstrip() {
+      isTouchingStrip = false;
+    }
+
+    // Transposition
+    function transposeOctave(delta) {
+      currentTransposition = Math.max(-3, Math.min(3, currentTransposition + delta));
+      for (let i = 1; i <= 7; i++) {
+        const led = document.getElementById(`led-trans-${i}`);
+        if (i === (currentTransposition + 4)) {
+          led.className = 'led-dot led-yellow-on';
+        } else {
+          led.className = 'led-dot led-off';
+        }
+      }
+    }
+
+    // Track/Channel change
+    function changeTrackChannel(delta) {
+      const line1 = document.getElementById('lcd-line1');
+      line1.innerText = `*0${Math.abs(delta) + 1} STOP Lnt08 Bar:01.1`;
+    }
+
+    // Knobs Dragging
+    let activeKnob = null;
+    let startY = 0;
+    let startVal = 0;
+
+    function startKnobDrag(e, param) {
+      activeKnob = param;
+      startY = e.clientY;
+      startVal = parseInt(e.currentTarget.getAttribute('data-val') || 100);
+      window.addEventListener('mousemove', onKnobMouseMove);
+      window.addEventListener('mouseup', onKnobMouseUp);
+    }
+
+    function onKnobMouseMove(e) {
+      if (!activeKnob) return;
+      const dy = startY - e.clientY;
+      const newVal = Math.max(0, Math.min(255, startVal + dy));
+      const rot = ((newVal / 255) * 270) - 135;
+
+      if (activeKnob === 'vol') {
+        document.getElementById('vol-pointer').style.transform = `rotate(${rot}deg)`;
+      } else if (activeKnob === 'cutoff') {
+        document.getElementById('k1-pointer').style.transform = `rotate(${rot}deg)`;
+      } else if (activeKnob === 'reso') {
+        document.getElementById('k2-pointer').style.transform = `rotate(${rot}deg)`;
+      }
+
+      document.getElementById('sysex-display').innerText = 
+        `F0 18 0F 00 0F 01 04 02 ${newVal.toString(16).toUpperCase()} F7 (${activeKnob.toUpperCase()}: ${newVal})`;
+    }
+
+    function onKnobMouseUp() {
+      activeKnob = null;
+      window.removeEventListener('mousemove', onKnobMouseMove);
+      window.removeEventListener('mouseup', onKnobMouseUp);
+    }
+
+    // Knob Bank Selector
+    function setKnobBank(bank) {
+      ['quick', 'prog', 'vol', 'pan'].forEach(b => {
+        document.getElementById(`led-kb-${b}`).className = (b === bank) ? 'led-dot led-green-on' : 'led-dot led-off';
+      });
+    }
+
+    // Mode View Selector
+    function setXL7Mode(mode) {
+      ['song', 'pattern', 'preset', 'midi'].forEach(m => {
+        document.getElementById(`led-mode-${m}`).className = (m === mode) ? 'led-dot led-red-on mt-0.5' : 'led-dot led-off mt-0.5';
+      });
+      document.getElementById('lcd-mode-tag').innerText = mode.toUpperCase();
+    }
+
+    // Tempo & 7-Segment
+    function updateTempo(val) {
+      currentTempo = parseInt(val) || 140;
+      document.getElementById('7seg-display').innerText = String(currentTempo).padStart(4, '0');
+      if (isSeqPlaying) {
+        startSequencer();
+      }
+    }
+
+    function tapTempo() {
+      document.getElementById('led-seg-tempo').className = 'led-dot led-red-on';
+      setTimeout(() => document.getElementById('led-seg-tempo').className = 'led-dot led-green-on', 150);
+    }
+
+    // Tab Switching
+    function switchXL7Tab(tabName) {
+      const tabs = ['sequencer', 'patterns', 'preset', 'filter', 'cords', 'global', 'multimode', 'librarian'];
+      tabs.forEach(t => {
+        const btn = document.getElementById(`tab-${t}`);
+        const view = document.getElementById(`subview-${t}`);
+        if (btn) {
+          if (t === tabName) {
+            btn.classList.add('active');
+            btn.classList.remove('text-zinc-400');
+            btn.classList.add('text-zinc-300');
+          } else {
+            btn.classList.remove('active');
+            btn.classList.add('text-zinc-400');
+            btn.classList.remove('text-zinc-300');
+          }
+        }
+        if (view) {
+          view.classList.toggle('hidden', t !== tabName);
+        }
+      });
+    }
+
+    // Audition Riff
+    function playXL7AuditionRiff() {
+      initAudio();
+      triggerPad(0, 48);
+      setTimeout(() => triggerPad(4, 52), 150);
+      setTimeout(() => triggerPad(7, 55), 300);
+      setTimeout(() => triggerPad(12, 60), 450);
+    }
+  </script>
+
+</body>
+</html>
