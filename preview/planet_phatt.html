@@ -1,0 +1,1467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-MU Planet Phatt "The Swing System" Sound Module &amp; Midi Quest 13 Editor</title>
+  <script src="tailwindcss.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=VT323&family=Caveat:wght@700&family=Bungee&family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    /* Font definitions */
+    .font-lcd { font-family: 'VT323', monospace; }
+    .font-marker { font-family: 'Permanent Marker', cursive; }
+    .font-script { font-family: 'Caveat', cursive; }
+    .font-bungee { font-family: 'Bungee', cursive; }
+
+    /* Metallic Magenta / Deep Purple Anodized 1U Chassis */
+    .planet-phatt-faceplate {
+      background: linear-gradient(180deg, #991b70 0%, #83135e 35%, #6a0d4c 80%, #52093a 100%);
+      box-shadow: 
+        inset 0 1px 0 rgba(255, 255, 255, 0.4),
+        inset 0 -1px 2px rgba(0, 0, 0, 0.8),
+        0 12px 30px rgba(0, 0, 0, 0.9);
+      border-top: 1px solid #bf358d;
+      border-bottom: 2px solid #2d0420;
+    }
+
+    .metallic-highlight {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.6) 25%, rgba(255,255,255,0.8) 50%, rgba(255,255,255,0.6) 75%, rgba(255,255,255,0.05) 100%);
+      pointer-events-none;
+    }
+
+    /* 2x16 Yellow-Green Alphanumeric LCD */
+    .phatt-lcd-frame {
+      background: linear-gradient(180deg, #18181b 0%, #09090b 100%);
+      border: 2px solid #27272a;
+      box-shadow: inset 0 2px 4px rgba(0,0,0,0.9), 0 2px 4px rgba(0,0,0,0.6);
+    }
+    .phatt-lcd {
+      background: radial-gradient(ellipse at center, #93e031 0%, #80c728 70%, #6da81f 100%);
+      box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.45);
+      border: 1px solid #578a16;
+    }
+    .lcd-text {
+      color: #1a3304;
+      text-shadow: 0 0 1px rgba(26, 51, 4, 0.6);
+    }
+
+    /* Tactile Black Pushbuttons (MASTER, EDIT, <, >, HOME/ENTER) */
+    .phatt-btn-round {
+      width: 17px;
+      height: 17px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 40% 35%, #3f3f46 0%, #27272a 60%, #18181b 100%);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.8), inset 0 1px 1px rgba(255,255,255,0.25), inset 0 -1px 2px rgba(0,0,0,0.8);
+      border: 1px solid #09090b;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.08s ease;
+    }
+    .phatt-btn-round:hover {
+      background: radial-gradient(circle at 40% 35%, #52525b 0%, #3f3f46 60%, #27272a 100%);
+    }
+    .phatt-btn-round:active {
+      transform: translateY(1px) scale(0.96);
+      box-shadow: 0 1px 2px rgba(0,0,0,0.9), inset 0 1px 2px rgba(0,0,0,0.6);
+    }
+
+    /* Fluted Volume Knob */
+    .phatt-knob-vol {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 40% 40%, #3f3f46 0%, #18181b 70%, #09090b 100%);
+      box-shadow: 0 3px 6px rgba(0,0,0,0.8), inset 0 1px 1px rgba(255,255,255,0.2);
+      border: 2px solid #27272a;
+      position: relative;
+      cursor: ns-resize;
+    }
+    .phatt-knob-pointer {
+      position: absolute;
+      top: 2px;
+      left: 12px;
+      width: 2px;
+      height: 8px;
+      background: #ffffff;
+      border-radius: 1px;
+      transform-origin: 1px 12px;
+      box-shadow: 0 0 2px rgba(255,255,255,0.8);
+    }
+
+    /* Large DATA Wheel (Fluted Black Encoder) */
+    .phatt-data-wheel {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 42% 38%, #3f3f46 0%, #222226 50%, #111113 100%);
+      border: 2px solid #2e2e33;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.8), inset 0 1px 2px rgba(255,255,255,0.25);
+      position: relative;
+      cursor: grab;
+      transition: transform 0.05s ease-out;
+    }
+    .phatt-data-wheel:active { cursor: grabbing; }
+    .phatt-wheel-dimple {
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 40% 40%, #18181b 0%, #09090b 100%);
+      box-shadow: inset 0 1px 2px rgba(0,0,0,0.9), 0 1px 1px rgba(255,255,255,0.1);
+      border: 1px solid #27272a;
+    }
+
+    /* LED Dots */
+    .led-dot {
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+    }
+    .led-red-on {
+      background: #ef4444;
+      box-shadow: 0 0 6px #ef4444, inset 0 1px 1px #fca5a5;
+    }
+    .led-green-on {
+      background: #22c55e;
+      box-shadow: 0 0 6px #22c55e, inset 0 1px 1px #86efac;
+    }
+    .led-off {
+      background: #3f3f46;
+      box-shadow: inset 0 1px 1px rgba(0,0,0,0.8);
+    }
+
+    /* Silkscreen typography */
+    .silkscreen-white {
+      color: #ffffff;
+      font-family: 'Permanent Marker', cursive, sans-serif;
+      text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+      letter-spacing: 0.05em;
+    }
+    .silkscreen-cyan {
+      color: #22d3ee;
+      font-family: 'Inter', sans-serif;
+      font-weight: 800;
+      text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+    }
+
+    /* Phillips Screw */
+    .phillips-screw {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: radial-gradient(circle, #3f3f46 0%, #18181b 100%);
+      border: 1px solid #52525b;
+      position: relative;
+      box-shadow: inset 0 1px 1px rgba(0,0,0,0.8);
+    }
+    .phillips-screw::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 4px;
+      height: 1px;
+      background: #09090b;
+      transform: translate(-50%, -50%);
+    }
+    .phillips-screw::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 1px;
+      height: 4px;
+      background: #09090b;
+      transform: translate(-50%, -50%);
+    }
+
+    /* Tab styling */
+    .mq-tab {
+      transition: all 0.15s ease;
+      border-bottom: 2px solid transparent;
+    }
+    .mq-tab:hover {
+      background: rgba(255, 255, 255, 0.05);
+      color: #ffffff;
+    }
+    .mq-tab.active {
+      color: #f43f5e;
+      border-bottom-color: #f43f5e;
+      background: rgba(244, 63, 94, 0.08);
+    }
+
+    /* Hip-Hop Audition Pad */
+    .phatt-pad {
+      background: radial-gradient(circle at 45% 40%, #27272a 0%, #18181b 60%, #09090b 100%);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.6), inset 0 1px 1px rgba(255,255,255,0.15);
+      border: 1px solid #3f3f46;
+      transition: all 0.08s ease;
+      cursor: pointer;
+      user-select: none;
+    }
+    .phatt-pad:active, .phatt-pad.pad-active {
+      transform: translateY(2px);
+      box-shadow: inset 0 3px 6px rgba(0,0,0,0.9), 0 0 12px rgba(244, 63, 94, 0.5);
+      border-color: #ec4899;
+      background: #18181b;
+    }
+  </style>
+</head>
+<body class="bg-zinc-950 text-zinc-100 p-6 min-h-screen flex flex-col items-center justify-start font-sans select-none">
+
+  <!-- TOP HEADER BANNER -->
+  <div class="w-full max-w-6xl mb-4 flex items-center justify-between border-b border-zinc-800 pb-3">
+    <div class="flex items-center gap-3">
+      <div class="w-3.5 h-3.5 rounded-full bg-pink-500 shadow-[0_0_10px_#ec4899] animate-pulse"></div>
+      <div>
+        <h1 class="text-xl font-bold tracking-tight text-white flex items-center gap-2">
+          E-MU Planet Phatt <span class="text-xs px-2 py-0.5 rounded bg-pink-950/80 border border-pink-700/60 text-pink-300 font-mono">The Swing System &bull; 640 Presets</span>
+        </h1>
+        <p class="text-xs text-zinc-400">Authentic 1U Metallic Magenta Rack &bull; 32 Digital 6th-Order Filters &bull; 8MB 16-Bit Hip-Hop/R&amp;B ROM &bull; BEATS Groove Sequencer</p>
+      </div>
+    </div>
+    <div class="flex items-center gap-3">
+      <span class="text-xs text-zinc-400 font-mono">Patch:</span>
+      <select id="preset-selector" onchange="loadPhattPreset(this.value)" class="bg-zinc-900 border border-zinc-700 text-xs text-zinc-200 rounded px-2.5 py-1 focus:outline-none focus:border-pink-500 font-mono">
+        <option value="0">128⁰ Master Phatt</option>
+        <option value="1">000⁰ Big Bottom Sub</option>
+        <option value="2">001⁰ G-Funk Rhodes</option>
+        <option value="3">002⁰ 808 Boom Kit</option>
+        <option value="4">003⁰ Golden Boom Bap</option>
+        <option value="5">004⁰ DJ Vinyl Scratch</option>
+        <option value="6">005⁰ Funky Wah Clav</option>
+        <option value="7">006⁰ Phatt Horn Hit</option>
+      </select>
+      <button onclick="playPhattDemo()" class="px-3.5 py-1.5 bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-500 hover:to-purple-500 active:scale-95 text-white font-bold text-xs rounded shadow transition flex items-center gap-1.5 cursor-pointer">
+        <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+        Play BEATS Demo <span class="text-[10px] opacity-75 font-mono">[Spacebar]</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- THE AUTHENTIC 1U METALLIC MAGENTA HARDWARE RACK PANEL -->
+  <div class="w-full max-w-6xl planet-phatt-faceplate rounded-lg shadow-2xl flex items-center justify-between px-3 py-2.5 h-[116px] relative overflow-hidden">
+    
+    <!-- Metallic highlight sheen on top bevel -->
+    <div class="metallic-highlight"></div>
+
+    <!-- LEFT RACK EAR (Metallic Magenta with 2 Oval Mounting Holes) -->
+    <div class="absolute left-2 top-0 bottom-0 flex flex-col justify-between py-2 pointer-events-none z-10">
+      <div class="w-2.5 h-3.5 rounded-sm bg-zinc-950/80 border border-zinc-800 shadow-inner"></div>
+      <div class="w-2.5 h-3.5 rounded-sm bg-zinc-950/80 border border-zinc-800 shadow-inner"></div>
+    </div>
+
+    <!-- LEFT SECTION: 2 SCREWS, PHONES JACK, VOLUME KNOB & STREET-ART LOGO -->
+    <div class="flex items-center gap-3 pl-4 z-10">
+      
+      <!-- 2 Countersunk Black Phillips Screws (Stacked vertically next to rack ear) -->
+      <div class="flex flex-col justify-between h-[84px] py-1 pl-1">
+        <div class="phillips-screw"></div>
+        <div class="phillips-screw"></div>
+      </div>
+
+      <!-- PHONES Jack Column -->
+      <div class="flex flex-col items-center justify-center gap-2 h-[84px] w-12">
+        <span class="silkscreen-white text-[9px] tracking-wider">PHONES</span>
+        <div class="w-6 h-6 rounded-full bg-zinc-900 border-2 border-zinc-500 shadow-inner flex items-center justify-center">
+          <div class="w-3 h-3 rounded-full bg-black border border-zinc-800"></div>
+        </div>
+      </div>
+
+      <!-- VOLUME Knob Column -->
+      <div class="flex flex-col items-center justify-center gap-2 h-[84px] w-12">
+        <span class="silkscreen-white text-[9px] tracking-wider">VOLUME</span>
+        <div class="phatt-knob-vol" data-param="vol" data-val="100" onmousedown="startVolumeDrag(event)">
+          <div class="phatt-knob-pointer" id="vol-pointer"></div>
+        </div>
+      </div>
+
+      <!-- ICONIC PLANET PHATT "THE SWING SYSTEM" GRAFFITI LOGO & PLANETARY RING -->
+      <div class="flex flex-col items-center justify-center relative px-2 select-none pointer-events-none">
+        
+        <!-- Yellow Jagged Lightning Graphic (Top right flowing into LCD top corner) -->
+        <svg class="absolute -top-3 right-[-24px] w-32 h-6 overflow-visible" viewBox="0 0 120 20" fill="none">
+          <path d="M0 14 L18 8 L32 15 L48 6 L64 13 L80 5 L98 12 L112 6 L120 10 L110 14 L94 9 L78 16 L60 9 L44 17 L28 10 Z" fill="#ffe100" />
+        </svg>
+
+        <!-- Street Art PLANET PHATT Logo with Yellow Orbiting Ring & Planet -->
+        <div class="relative flex flex-col items-center">
+          
+          <!-- Yellow Planetary Ring Orbiting the Logo -->
+          <svg class="absolute -top-1.5 -left-3 w-48 h-16 pointer-events-none z-0" viewBox="0 0 180 56">
+            <!-- Back half of ellipse behind letters -->
+            <ellipse cx="60" cy="28" rx="55" ry="14" fill="none" stroke="#ffe100" stroke-width="2.5" transform="rotate(-18, 60, 28)" opacity="0.95" />
+            <!-- Small yellow planet body in orbit at bottom left -->
+            <circle cx="20" cy="40" r="5" fill="#ffe100" />
+          </svg>
+
+          <!-- Main PLANET PHATT Bubble Graffiti Text -->
+          <div class="relative z-10 flex flex-col items-center drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)]">
+            <span class="font-bungee text-[20px] font-black tracking-wider text-white leading-none drop-shadow-[2px_2px_0px_#06b6d4] scale-y-110 transform -rotate-1">
+              PLANET
+            </span>
+            <span class="font-bungee text-[25px] font-black tracking-tight text-white leading-none drop-shadow-[2px_2px_0px_#06b6d4] -mt-1 scale-y-110 transform -rotate-1">
+              PHATT
+            </span>
+          </div>
+
+          <!-- Front segment of planetary ring cutting in front of letters -->
+          <svg class="absolute -top-1.5 -left-3 w-48 h-16 pointer-events-none z-20" viewBox="0 0 180 56">
+            <path d="M 10,32 A 55 14 0 0 0 90,36" fill="none" stroke="#ffe100" stroke-width="2.5" transform="rotate(-18, 60, 28)" />
+          </svg>
+        </div>
+
+        <!-- Subtitle: "The Swing System" in authentic cyan cursive script -->
+        <div class="font-script text-[18px] font-bold tracking-wider text-[#22d3ee] drop-shadow-[0_1px_2px_rgba(0,0,0,0.9)] -mt-1 transform -rotate-2">
+          The Swing System
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- CENTER SECTION: 2x16 GREEN LCD DISPLAY IN BLACK BEVELED FRAME -->
+    <div class="phatt-lcd-frame p-1 rounded-sm w-72 h-[68px] z-10 mx-2 flex items-center justify-center relative">
+      
+      <!-- Yellow Jagged Lightning continuing below LCD -->
+      <svg class="absolute -bottom-3.5 -right-10 w-28 h-6 overflow-visible pointer-events-none" viewBox="0 0 100 20" fill="none">
+        <path d="M0 6 L22 13 L45 7 L65 15 L88 9 L100 12 L92 16 L70 11 L50 17 L28 10 Z" fill="#ffe100" />
+      </svg>
+
+      <!-- 2x16 Alphanumeric Screen -->
+      <div class="phatt-lcd px-3 py-1.5 rounded-sm flex flex-col justify-between font-lcd w-full h-full">
+        <div class="flex items-center justify-between text-xs font-bold lcd-text tracking-widest leading-none">
+          <span id="phatt-lcd-line1">C01 V01127 Pan=P</span>
+          <span id="phatt-lcd-beat" class="text-[10px] bg-[#224400]/20 px-1 rounded font-mono font-black">BEAT:92</span>
+        </div>
+        <div class="flex items-center justify-between text-[12px] font-bold lcd-text tracking-wider leading-none">
+          <span id="phatt-lcd-line2">128⁰ Master Phatt</span>
+          <span id="phatt-lcd-rhythm" class="font-black text-[10px]">SWING 58%</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- RIGHT SECTION: 5 BLACK BUTTONS, BEATS BRACKET, DATA WHEEL, POWER SWITCH, E-MU LOGO -->
+    <div class="flex items-center gap-3.5 pr-4 z-10">
+      
+      <!-- 5 Tactile Pushbuttons & BEATS Bracket (4 Mathematical Columns w-[36px], pitch 46px, h-[82px]) -->
+      <div class="relative flex items-center gap-[10px] h-[82px] py-0.5">
+        
+        <!-- Precision SVG BEATS Bracket connecting bottom centers of MASTER (x=18) & EDIT (x=64) -->
+        <svg class="absolute top-[35px] left-0 pointer-events-none" width="82" height="15" viewBox="0 0 82 15">
+          <!-- Left hook under MASTER button center (x=18) -->
+          <path d="M 18,0 L 18,5 L 26,5" fill="none" stroke="#ffffff" stroke-width="1.2" stroke-linecap="square" />
+          <!-- Centered BEATS text at x=41 -->
+          <text x="41" y="7.5" fill="#ffffff" font-family="'Permanent Marker', cursive" font-size="7" font-weight="700" text-anchor="middle" letter-spacing="0.08em">BEATS</text>
+          <!-- Right hook under EDIT button center (x=64) -->
+          <path d="M 56,5 L 64,5 L 64,0" fill="none" stroke="#ffffff" stroke-width="1.2" stroke-linecap="square" />
+        </svg>
+
+        <!-- Column 1: MASTER (Top) -->
+        <div class="flex flex-col items-center justify-between h-full w-[36px]">
+          <div class="flex flex-col items-center w-full">
+            <span class="silkscreen-white text-[8px] mb-1 leading-none">MASTER</span>
+            <div class="relative flex items-center justify-center">
+              <div id="led-master" class="led-dot led-red-on absolute -left-2 top-1.5"></div>
+              <button onclick="switchPhattTab('global')" class="phatt-btn-round" title="Master / Global Settings"></button>
+            </div>
+          </div>
+          <div class="h-[22px] w-full"></div>
+        </div>
+
+        <!-- Column 2: EDIT (Top) -->
+        <div class="flex flex-col items-center justify-between h-full w-[36px]">
+          <div class="flex flex-col items-center w-full">
+            <span class="silkscreen-white text-[8px] mb-1 leading-none">EDIT</span>
+            <div class="relative flex items-center justify-center">
+              <div id="led-edit" class="led-dot led-off absolute -left-2 top-1.5"></div>
+              <button onclick="switchPhattTab('preset')" class="phatt-btn-round" title="Edit Parameters"></button>
+            </div>
+          </div>
+          <div class="h-[22px] w-full"></div>
+        </div>
+
+        <!-- Column 3: < (Top) & HOME/ENTER (Bottom) -->
+        <div class="flex flex-col items-center justify-between h-full w-[36px]">
+          <!-- Top: < Cursor -->
+          <div class="flex flex-col items-center w-full">
+            <span class="silkscreen-white text-[8px] mb-1 leading-none invisible">&lt;</span>
+            <button onclick="phattCursorBump(-1)" class="phatt-btn-round" title="Cursor Left">&lt;</button>
+          </div>
+          <!-- Bottom: HOME/ENTER -->
+          <div class="flex flex-col items-center w-full">
+            <button onclick="switchPhattTab('performance')" class="phatt-btn-round" title="Home / Enter"></button>
+            <span class="silkscreen-white text-[6.5px] mt-1 leading-none whitespace-nowrap">HOME/ENTER</span>
+          </div>
+        </div>
+
+        <!-- Column 4: > (Top) & — [LED] MIDI (Bottom) -->
+        <div class="flex flex-col items-center justify-between h-full w-[36px]">
+          <!-- Top: > Cursor -->
+          <div class="flex flex-col items-center w-full">
+            <span class="silkscreen-white text-[8px] mb-1 leading-none invisible">&gt;</span>
+            <button onclick="phattCursorBump(1)" class="phatt-btn-round" title="Cursor Right">&gt;</button>
+          </div>
+          <!-- Bottom: — [LED] MIDI -->
+          <div class="flex items-center justify-center gap-1 w-full h-[27px] pt-1">
+            <span class="text-white text-[8px] font-bold leading-none">&mdash;</span>
+            <div id="led-midi" class="led-dot led-green-on animate-pulse"></div>
+            <span class="silkscreen-white text-[7px] leading-none">MIDI</span>
+          </div>
+        </div>
+
+        <!-- Spanning < CURSOR > Label centered across Columns 3 & 4 (from x=92 to x=174, center x=133) -->
+        <div class="absolute top-[2px] left-[92px] w-[82px] flex items-center justify-center pointer-events-none select-none">
+          <span class="silkscreen-white text-[8px] leading-none tracking-wide">&lt; CURSOR &gt;</span>
+        </div>
+
+      </div>
+
+      <!-- DATA WHEEL (Large Fluted Black Wheel with Dimple) -->
+      <div class="flex flex-col items-center justify-center gap-1">
+        <span class="silkscreen-white text-[8.5px] tracking-wider">DATA</span>
+        <div class="phatt-data-wheel" id="data-wheel" onwheel="handleDataWheel(event)" title="Rotate Data Wheel (or Scroll with Mouse)">
+          <div class="phatt-wheel-dimple"></div>
+        </div>
+      </div>
+
+      <!-- POWER PUSHBUTTON SWITCH -->
+      <div class="flex flex-col items-center justify-center gap-1.5 pl-1">
+        <span class="silkscreen-white text-[8.5px] tracking-wider">POWER</span>
+        <div class="w-7 h-7 rounded-full bg-zinc-950 border border-zinc-700 flex items-center justify-center shadow-inner">
+          <button onclick="togglePower()" class="w-4.5 h-4.5 rounded-full bg-zinc-900 border border-zinc-600 shadow-md flex items-center justify-center active:scale-95 cursor-pointer">
+            <div class="w-2 h-2 rounded-full bg-zinc-800"></div>
+          </button>
+        </div>
+      </div>
+
+      <!-- 1 Countersunk Black Phillips Screw on Right -->
+      <div class="flex items-center pl-1">
+        <div class="phillips-screw"></div>
+      </div>
+
+      <!-- AUTHENTIC TURQUOISE E-MU LOGO WITH 3 BARS -->
+      <div class="flex flex-col items-center justify-center pl-1 select-none pointer-events-none">
+        <span class="text-[#22d3ee] font-black text-sm tracking-widest leading-none drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)]">E-MU</span>
+        <div class="flex flex-col gap-0.5 mt-1">
+          <div class="w-8 h-0.5 bg-[#22d3ee] shadow-sm"></div>
+          <div class="w-8 h-0.5 bg-[#22d3ee] shadow-sm"></div>
+          <div class="w-8 h-0.5 bg-[#22d3ee] shadow-sm"></div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- RIGHT RACK EAR (Metallic Magenta with 2 Oval Mounting Holes) -->
+    <div class="absolute right-2 top-0 bottom-0 flex flex-col justify-between py-2 pointer-events-none z-10">
+      <div class="w-2.5 h-3.5 rounded-sm bg-zinc-950/80 border border-zinc-800 shadow-inner"></div>
+      <div class="w-2.5 h-3.5 rounded-sm bg-zinc-950/80 border border-zinc-800 shadow-inner"></div>
+    </div>
+
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- MIDI QUEST 13 COMPONENT SUB-VIEWS (TABBED WORKSPACE)                      -->
+  <!-- ========================================================================= -->
+  <div class="w-full max-w-6xl mt-4 bg-zinc-900/95 border border-zinc-800 rounded-lg shadow-xl overflow-hidden flex flex-col">
+    
+    <!-- SUB-VIEW NAVIGATION BAR -->
+    <div class="flex items-center justify-between bg-zinc-950 px-3 border-b border-zinc-800 text-xs gap-4">
+      <div class="flex items-center gap-1 overflow-x-auto py-1 min-w-0 flex-1 scrollbar-none [&::-webkit-scrollbar]:hidden" style="scrollbar-width: none; -ms-overflow-style: none;">
+        <button onclick="switchPhattTab('performance')" id="tab-performance" class="mq-tab active px-2.5 py-1 text-[10.5px] font-semibold text-zinc-300 hover:text-white flex items-center gap-1.5 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-pink-400" viewBox="0 0 24 24"><path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/></svg>
+          Planet Phatt Performance
+        </button>
+        <button onclick="switchPhattTab('preset')" id="tab-preset" class="mq-tab px-2.5 py-1 text-[10.5px] font-semibold text-zinc-400 hover:text-white flex items-center gap-1.5 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-amber-400" viewBox="0 0 24 24"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"/></svg>
+          Preset Editor
+        </button>
+        <button onclick="switchPhattTab('filter')" id="tab-filter" class="mq-tab px-2.5 py-1 text-[10.5px] font-semibold text-zinc-400 hover:text-white flex items-center gap-1.5 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-cyan-400" viewBox="0 0 24 24"><path d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"/></svg>
+          32 Filters
+        </button>
+        <button onclick="switchPhattTab('lfos')" id="tab-lfos" class="mq-tab px-2.5 py-1 text-[10.5px] font-semibold text-zinc-400 hover:text-white flex items-center gap-1.5 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-rose-400" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"/></svg>
+          LFOs &amp; Modulation
+        </button>
+        <button onclick="switchPhattTab('beats')" id="tab-beats" class="mq-tab px-2.5 py-1 text-[10.5px] font-semibold text-zinc-400 hover:text-white flex items-center gap-1.5 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-purple-400" viewBox="0 0 24 24"><path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/></svg>
+          BEATS Engine
+        </button>
+        <button onclick="switchPhattTab('global')" id="tab-global" class="mq-tab px-2.5 py-1 text-[10.5px] font-semibold text-zinc-400 hover:text-white flex items-center gap-1.5 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-blue-400" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+          Global
+        </button>
+        <button onclick="switchPhattTab('progmap')" id="tab-progmap" class="mq-tab px-2.5 py-1 text-[10.5px] font-semibold text-zinc-400 hover:text-white flex items-center gap-1.5 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-indigo-400" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 14H6v-2h6v2zm4-4H6v-2h10v2zm0-4H6V7h10v2z"/></svg>
+          Program Map
+        </button>
+        <button onclick="switchPhattTab('tuning')" id="tab-tuning" class="mq-tab px-2.5 py-1 text-[10.5px] font-semibold text-zinc-400 hover:text-white flex items-center gap-1.5 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-teal-400" viewBox="0 0 24 24"><path d="M3 17h18v2H3zm0-7h18v2H3zm0-7h18v2H3z"/></svg>
+          Tuning Table
+        </button>
+        <button onclick="switchPhattTab('multimode')" id="tab-multimode" class="mq-tab px-2.5 py-1 text-[10.5px] font-semibold text-zinc-400 hover:text-white flex items-center gap-1.5 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-emerald-400" viewBox="0 0 24 24"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"/></svg>
+          MultiMode
+        </button>
+        <button onclick="switchPhattTab('librarian')" id="tab-librarian" class="mq-tab px-2.5 py-1 text-[10.5px] font-semibold text-zinc-400 hover:text-white flex items-center gap-1.5 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-yellow-400" viewBox="0 0 24 24"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H8V4h12v12z"/></svg>
+          Bank Librarian
+        </button>
+      </div>
+      <span class="text-[10px] text-zinc-500 font-mono whitespace-nowrap hidden 2xl:inline shrink-0">Midi Quest 13 &bull; Model 0x0A (Planet Phatt)</span>
+    </div>
+
+    <!-- ==================== TAB 1: PERFORMANCE CONSOLE ==================== -->
+    <div id="subview-performance" class="p-5 flex flex-col gap-4">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <div>
+          <h2 class="text-sm font-bold text-pink-400 uppercase tracking-wider">Planet Phatt Soundboard &bull; 8MB Hip-Hop &amp; R&amp;B ROM</h2>
+          <p class="text-xs text-zinc-400">Deep 808 Sub-Basses, Smooth G-Funk Rhodes, Vinyl Scratches, Boom Bap Drums, and Resonant Filter Sweeps.</p>
+        </div>
+        <div class="flex items-center gap-2">
+          <span class="text-xs font-mono text-zinc-400">Polyphony: <b class="text-white">32 Voices</b></span>
+          <span class="text-xs font-mono text-zinc-400 pl-2">Multitimbral: <b class="text-white">16 Parts</b></span>
+        </div>
+      </div>
+
+      <!-- 8 Real-time Soundboard Trigger Cards -->
+      <div class="grid grid-cols-4 gap-3">
+        
+        <div onclick="playPhattInstrument('master_phatt')" class="phatt-pad p-3 rounded-lg border border-pink-900/60 hover:border-pink-500 flex flex-col justify-between h-24">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-pink-300">Master Phatt</span>
+            <span class="text-[9.5px] font-mono text-zinc-400">128⁰</span>
+          </div>
+          <span class="text-[10px] text-zinc-400 leading-tight">Layered Fat Moog Bass &amp; Rhodes Chime</span>
+          <span class="text-[9px] font-mono text-pink-400">Key: C2</span>
+        </div>
+
+        <div onclick="playPhattInstrument('sub_bass')" class="phatt-pad p-3 rounded-lg border border-zinc-800 hover:border-pink-500 flex flex-col justify-between h-24">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-pink-300">Big Bottom Sub</span>
+            <span class="text-[9.5px] font-mono text-zinc-400">000⁰</span>
+          </div>
+          <span class="text-[10px] text-zinc-400 leading-tight">Deep 808 Sub Boom with Saturation</span>
+          <span class="text-[9px] font-mono text-pink-400">Key: F1 (43.6Hz)</span>
+        </div>
+
+        <div onclick="playPhattInstrument('rhodes')" class="phatt-pad p-3 rounded-lg border border-zinc-800 hover:border-pink-500 flex flex-col justify-between h-24">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-pink-300">G-Funk Rhodes</span>
+            <span class="text-[9.5px] font-mono text-zinc-400">001⁰</span>
+          </div>
+          <span class="text-[10px] text-zinc-400 leading-tight">Warm Stage 73 with Stereo Tremolo</span>
+          <span class="text-[9px] font-mono text-pink-400">Key: Eb Maj9</span>
+        </div>
+
+        <div onclick="playPhattInstrument('boom_808')" class="phatt-pad p-3 rounded-lg border border-zinc-800 hover:border-pink-500 flex flex-col justify-between h-24">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-pink-300">808 Boom Kit</span>
+            <span class="text-[9.5px] font-mono text-zinc-400">002⁰</span>
+          </div>
+          <span class="text-[10px] text-zinc-400 leading-tight">Analog 808 Kick &amp; Snappy Rimshot</span>
+          <span class="text-[9px] font-mono text-pink-400">Key: D1</span>
+        </div>
+
+        <div onclick="playPhattInstrument('boom_bap')" class="phatt-pad p-3 rounded-lg border border-zinc-800 hover:border-pink-500 flex flex-col justify-between h-24">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-pink-300">Golden Boom Bap</span>
+            <span class="text-[9.5px] font-mono text-zinc-400">003⁰</span>
+          </div>
+          <span class="text-[10px] text-zinc-400 leading-tight">Crunchy Vinyl Kick, Snare &amp; Hat</span>
+          <span class="text-[9px] font-mono text-pink-400">Key: D2</span>
+        </div>
+
+        <div onclick="playPhattInstrument('scratch')" class="phatt-pad p-3 rounded-lg border border-zinc-800 hover:border-pink-500 flex flex-col justify-between h-24">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-pink-300">DJ Vinyl Scratch</span>
+            <span class="text-[9.5px] font-mono text-zinc-400">004⁰</span>
+          </div>
+          <span class="text-[10px] text-zinc-400 leading-tight">Turntable Baby Scratch &amp; Vinyl Hiss</span>
+          <span class="text-[9px] font-mono text-pink-400">Key: G#3</span>
+        </div>
+
+        <div onclick="playPhattInstrument('clav')" class="phatt-pad p-3 rounded-lg border border-zinc-800 hover:border-pink-500 flex flex-col justify-between h-24">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-pink-300">Funky Wah Clav</span>
+            <span class="text-[9.5px] font-mono text-zinc-400">005⁰</span>
+          </div>
+          <span class="text-[10px] text-zinc-400 leading-tight">Auto-Wah Resonant Clavinet</span>
+          <span class="text-[9px] font-mono text-pink-400">Key: Bb7</span>
+        </div>
+
+        <div onclick="playPhattInstrument('horn_hit')" class="phatt-pad p-3 rounded-lg border border-zinc-800 hover:border-pink-500 flex flex-col justify-between h-24">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-pink-300">Phatt Horn Hit</span>
+            <span class="text-[9.5px] font-mono text-zinc-400">006⁰</span>
+          </div>
+          <span class="text-[10px] text-zinc-400 leading-tight">Downtown Brass Section Stab</span>
+          <span class="text-[9px] font-mono text-pink-400">Key: F Minor</span>
+        </div>
+
+      </div>
+
+      <!-- Hip-Hop Drum Pad Matrix for Live Playing -->
+      <div class="mt-2 bg-zinc-950 p-4 rounded-lg border border-zinc-800">
+        <div class="flex items-center justify-between mb-3">
+          <span class="text-xs font-bold text-zinc-300 uppercase tracking-wider font-mono">Live Hip-Hop Trigger MPC-Style Pads</span>
+          <span class="text-[10px] text-zinc-500 font-mono">Velocity Sensitive &bull; Click to Trigger Live Audio</span>
+        </div>
+        <div class="grid grid-cols-6 gap-2">
+          <button onclick="triggerPhattDrum('kick808')" class="phatt-pad py-3 px-2 rounded flex flex-col items-center justify-center">
+            <span class="text-xs font-bold text-white">808 KICK</span>
+            <span class="text-[9px] font-mono text-pink-400">Deep Sub</span>
+          </button>
+          <button onclick="triggerPhattDrum('snare808')" class="phatt-pad py-3 px-2 rounded flex flex-col items-center justify-center">
+            <span class="text-xs font-bold text-white">808 SNARE</span>
+            <span class="text-[9px] font-mono text-pink-400">Crisp Pop</span>
+          </button>
+          <button onclick="triggerPhattDrum('clap')" class="phatt-pad py-3 px-2 rounded flex flex-col items-center justify-center">
+            <span class="text-xs font-bold text-white">HANDCLAP</span>
+            <span class="text-[9px] font-mono text-pink-400">Studio Clap</span>
+          </button>
+          <button onclick="triggerPhattDrum('hihat_closed')" class="phatt-pad py-3 px-2 rounded flex flex-col items-center justify-center">
+            <span class="text-xs font-bold text-white">CLOSED HAT</span>
+            <span class="text-[9px] font-mono text-pink-400">Tight 16th</span>
+          </button>
+          <button onclick="triggerPhattDrum('hihat_open')" class="phatt-pad py-3 px-2 rounded flex flex-col items-center justify-center">
+            <span class="text-xs font-bold text-white">OPEN HAT</span>
+            <span class="text-[9px] font-mono text-pink-400">Sizzle</span>
+          </button>
+          <button onclick="triggerPhattDrum('scratch')" class="phatt-pad py-3 px-2 rounded flex flex-col items-center justify-center">
+            <span class="text-xs font-bold text-white">DJ SCRATCH</span>
+            <span class="text-[9px] font-mono text-pink-400">Vinyl 'Wikki'</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 2: PRESET EDITOR (DUAL LAYER) ==================== -->
+    <div id="subview-preset" class="p-5 flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <div>
+          <h2 class="text-sm font-bold text-amber-400 uppercase tracking-wider">E-MU Planet Phatt Preset Architecture (Dual Layer)</h2>
+          <p class="text-xs text-zinc-400">Primary &amp; Secondary 16-Bit Sample Layers with Independent Tuning, Envelopes &amp; Crossfade.</p>
+        </div>
+        <span class="text-xs font-mono text-amber-400">Preset: 128⁰ Master Phatt</span>
+      </div>
+
+      <div class="grid grid-cols-2 gap-4">
+        <!-- Layer 1 (Primary) -->
+        <div class="bg-zinc-950 p-4 rounded border border-zinc-800 flex flex-col gap-3">
+          <div class="flex items-center justify-between border-b border-zinc-800 pb-2">
+            <span class="text-xs font-bold text-amber-300 uppercase">Primary Instrument Layer</span>
+            <span class="text-[10px] bg-amber-950 text-amber-300 px-1.5 py-0.5 rounded font-mono">ROM ID: #042</span>
+          </div>
+          <div class="flex flex-col gap-2">
+            <label class="text-[11px] text-zinc-400">Sample Waveform:</label>
+            <select class="bg-zinc-900 border border-zinc-700 text-xs text-white rounded p-1.5 font-mono">
+              <option selected>042 Moog Sub Bass 39kHz</option>
+              <option>015 Planet 808 Boom</option>
+              <option>028 Downtown Stage Rhodes</option>
+              <option>067 Boom Bap Vinyl Snare</option>
+              <option>089 Hip-Hop Brass Section</option>
+            </select>
+          </div>
+          <div class="grid grid-cols-4 gap-2 pt-2">
+            <div class="bg-zinc-900 p-2 rounded text-center">
+              <span class="text-[9px] text-zinc-400 block">COARSE</span>
+              <span class="text-xs font-mono font-bold text-white">-12 Semi</span>
+            </div>
+            <div class="bg-zinc-900 p-2 rounded text-center">
+              <span class="text-[9px] text-zinc-400 block">FINE</span>
+              <span class="text-xs font-mono font-bold text-white">+00 Cents</span>
+            </div>
+            <div class="bg-zinc-900 p-2 rounded text-center">
+              <span class="text-[9px] text-zinc-400 block">PAN</span>
+              <span class="text-xs font-mono font-bold text-white">00 (Ctr)</span>
+            </div>
+            <div class="bg-zinc-900 p-2 rounded text-center">
+              <span class="text-[9px] text-zinc-400 block">VOLUME</span>
+              <span class="text-xs font-mono font-bold text-white">127</span>
+            </div>
+          </div>
+          <!-- ADSR Envelope -->
+          <div class="pt-2 border-t border-zinc-800">
+            <span class="text-[10px] text-zinc-400 block mb-1">Volume Envelope (Attack / Hold / Decay / Sustain / Release)</span>
+            <div class="flex items-center gap-1.5 text-xs font-mono">
+              <span class="bg-zinc-900 px-2 py-1 rounded text-zinc-300">A: 02</span>
+              <span class="bg-zinc-900 px-2 py-1 rounded text-zinc-300">H: 00</span>
+              <span class="bg-zinc-900 px-2 py-1 rounded text-zinc-300">D: 45</span>
+              <span class="bg-zinc-900 px-2 py-1 rounded text-zinc-300">S: 88</span>
+              <span class="bg-zinc-900 px-2 py-1 rounded text-zinc-300">R: 35</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Layer 2 (Secondary) -->
+        <div class="bg-zinc-950 p-4 rounded border border-zinc-800 flex flex-col gap-3">
+          <div class="flex items-center justify-between border-b border-zinc-800 pb-2">
+            <span class="text-xs font-bold text-amber-300 uppercase">Secondary Instrument Layer</span>
+            <span class="text-[10px] bg-amber-950 text-amber-300 px-1.5 py-0.5 rounded font-mono">ROM ID: #028</span>
+          </div>
+          <div class="flex flex-col gap-2">
+            <label class="text-[11px] text-zinc-400">Sample Waveform:</label>
+            <select class="bg-zinc-900 border border-zinc-700 text-xs text-white rounded p-1.5 font-mono">
+              <option>042 Moog Sub Bass 39kHz</option>
+              <option>015 Planet 808 Boom</option>
+              <option selected>028 Downtown Stage Rhodes</option>
+              <option>067 Boom Bap Vinyl Snare</option>
+              <option>089 Hip-Hop Brass Section</option>
+            </select>
+          </div>
+          <div class="grid grid-cols-4 gap-2 pt-2">
+            <div class="bg-zinc-900 p-2 rounded text-center">
+              <span class="text-[9px] text-zinc-400 block">COARSE</span>
+              <span class="text-xs font-mono font-bold text-white">+00 Semi</span>
+            </div>
+            <div class="bg-zinc-900 p-2 rounded text-center">
+              <span class="text-[9px] text-zinc-400 block">FINE</span>
+              <span class="text-xs font-mono font-bold text-white">+04 Cents</span>
+            </div>
+            <div class="bg-zinc-900 p-2 rounded text-center">
+              <span class="text-[9px] text-zinc-400 block">PAN</span>
+              <span class="text-xs font-mono font-bold text-white">R14</span>
+            </div>
+            <div class="bg-zinc-900 p-2 rounded text-center">
+              <span class="text-[9px] text-zinc-400 block">VOLUME</span>
+              <span class="text-xs font-mono font-bold text-white">108</span>
+            </div>
+          </div>
+          <!-- ADSR Envelope -->
+          <div class="pt-2 border-t border-zinc-800">
+            <span class="text-[10px] text-zinc-400 block mb-1">Volume Envelope (Attack / Hold / Decay / Sustain / Release)</span>
+            <div class="flex items-center gap-1.5 text-xs font-mono">
+              <span class="bg-zinc-900 px-2 py-1 rounded text-zinc-300">A: 08</span>
+              <span class="bg-zinc-900 px-2 py-1 rounded text-zinc-300">H: 10</span>
+              <span class="bg-zinc-900 px-2 py-1 rounded text-zinc-300">D: 60</span>
+              <span class="bg-zinc-900 px-2 py-1 rounded text-zinc-300">S: 70</span>
+              <span class="bg-zinc-900 px-2 py-1 rounded text-zinc-300">R: 42</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 3: 32 DIGITAL FILTERS ==================== -->
+    <div id="subview-filter" class="p-5 flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <div>
+          <h2 class="text-sm font-bold text-cyan-400 uppercase tracking-wider">32 Digital 6th-Order Dynamic Filters</h2>
+          <p class="text-xs text-zinc-400">Resonant Lowpass, Bandpass, Highpass, and Vocal Formant Filters tailored for Hip-Hop production.</p>
+        </div>
+      </div>
+      <div class="grid grid-cols-3 gap-4">
+        <div class="bg-zinc-950 p-4 rounded border border-zinc-800 flex flex-col gap-2">
+          <span class="text-xs font-bold text-cyan-300">Filter Type</span>
+          <select class="bg-zinc-900 border border-zinc-700 text-xs text-white rounded p-1.5 font-mono">
+            <option selected>01: 4-Pole Lowpass Resonant</option>
+            <option>02: 6-Pole Super Lowpass</option>
+            <option>03: 2-Pole Bandpass Hip-Hop</option>
+            <option>04: Highpass DJ Cut</option>
+            <option>05: Formant Ah-Eh-Oh Sweep</option>
+          </select>
+          <span class="text-[10px] text-zinc-400 mt-2">Steep 24dB/oct resonant filter ideal for sculpting bone-rattling 808 sub bass lines.</span>
+        </div>
+        <div class="bg-zinc-950 p-4 rounded border border-zinc-800 flex flex-col gap-2">
+          <span class="text-xs font-bold text-cyan-300">Cutoff Frequency</span>
+          <input type="range" min="20" max="18000" value="480" class="w-full accent-cyan-400">
+          <div class="flex justify-between text-xs font-mono text-zinc-400">
+            <span>20 Hz</span>
+            <span class="text-cyan-300 font-bold">480 Hz</span>
+            <span>18 kHz</span>
+          </div>
+        </div>
+        <div class="bg-zinc-950 p-4 rounded border border-zinc-800 flex flex-col gap-2">
+          <span class="text-xs font-bold text-cyan-300">Resonance (Q)</span>
+          <input type="range" min="0" max="127" value="78" class="w-full accent-cyan-400">
+          <div class="flex justify-between text-xs font-mono text-zinc-400">
+            <span>0 (Flat)</span>
+            <span class="text-cyan-300 font-bold">78 (Punchy)</span>
+            <span>127 (Self-Osc)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 4: LFOS & MODULATION ==================== -->
+    <div id="subview-lfos" class="p-5 flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <div>
+          <h2 class="text-sm font-bold text-rose-400 uppercase tracking-wider">Dual LFOs &amp; Real-time Modulation Matrix</h2>
+          <p class="text-xs text-zinc-400">Assign MIDI Controllers, Aftertouch, and LFOs to Pitch, Filter Cutoff, Volume, and Tremolo.</p>
+        </div>
+      </div>
+      <div class="grid grid-cols-2 gap-4">
+        <div class="bg-zinc-950 p-4 rounded border border-zinc-800 flex flex-col gap-2">
+          <span class="text-xs font-bold text-rose-300">LFO 1 (Filter Modulation)</span>
+          <div class="flex items-center justify-between text-xs font-mono">
+            <span class="text-zinc-400">Waveform:</span>
+            <span class="text-white font-bold">Triangle</span>
+          </div>
+          <div class="flex items-center justify-between text-xs font-mono">
+            <span class="text-zinc-400">Rate:</span>
+            <span class="text-white font-bold">4.2 Hz</span>
+          </div>
+          <div class="flex items-center justify-between text-xs font-mono">
+            <span class="text-zinc-400">Destination:</span>
+            <span class="text-rose-400 font-bold">Filter Cutoff (+38)</span>
+          </div>
+        </div>
+        <div class="bg-zinc-950 p-4 rounded border border-zinc-800 flex flex-col gap-2">
+          <span class="text-xs font-bold text-rose-300">LFO 2 (Stereo Panning / Tremolo)</span>
+          <div class="flex items-center justify-between text-xs font-mono">
+            <span class="text-zinc-400">Waveform:</span>
+            <span class="text-white font-bold">Sine (Dual Phase)</span>
+          </div>
+          <div class="flex items-center justify-between text-xs font-mono">
+            <span class="text-zinc-400">Rate:</span>
+            <span class="text-white font-bold">5.8 Hz</span>
+          </div>
+          <div class="flex items-center justify-between text-xs font-mono">
+            <span class="text-zinc-400">Destination:</span>
+            <span class="text-rose-400 font-bold">Stereo Pan (+64)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 5: BEATS "THE SWING SYSTEM" ==================== -->
+    <div id="subview-beats" class="p-5 flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <div>
+          <h2 class="text-sm font-bold text-purple-400 uppercase tracking-wider">BEATS "The Swing System" Groove Engine</h2>
+          <p class="text-xs text-zinc-400">100 Built-in Interactive Hip-Hop, Rap, R&amp;B and Acid Jazz Beat Loops with E-MU Swing Quantization.</p>
+        </div>
+        <button onclick="playPhattDemo()" class="px-3 py-1 bg-purple-600 hover:bg-purple-500 text-white font-bold text-xs rounded shadow flex items-center gap-1.5 cursor-pointer">
+          <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          Audition Groove
+        </button>
+      </div>
+      <div class="grid grid-cols-4 gap-3">
+        <div class="bg-zinc-950 p-3 rounded border border-zinc-800 flex flex-col justify-between h-20">
+          <span class="text-xs font-bold text-purple-300">01: East Coast Boom Bap</span>
+          <span class="text-[10px] text-zinc-400 font-mono">BPM: 92 &bull; Swing: 58%</span>
+        </div>
+        <div class="bg-zinc-950 p-3 rounded border border-zinc-800 flex flex-col justify-between h-20">
+          <span class="text-xs font-bold text-purple-300">02: West Coast G-Funk Slow</span>
+          <span class="text-[10px] text-zinc-400 font-mono">BPM: 88 &bull; Swing: 62%</span>
+        </div>
+        <div class="bg-zinc-950 p-3 rounded border border-zinc-800 flex flex-col justify-between h-20">
+          <span class="text-xs font-bold text-purple-300">03: Dirty South 808 Roll</span>
+          <span class="text-[10px] text-zinc-400 font-mono">BPM: 76 &bull; Swing: 54%</span>
+        </div>
+        <div class="bg-zinc-950 p-3 rounded border border-zinc-800 flex flex-col justify-between h-20">
+          <span class="text-xs font-bold text-purple-300">04: Downtown Trip-Hop</span>
+          <span class="text-[10px] text-zinc-400 font-mono">BPM: 84 &bull; Swing: 67%</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 6: GLOBAL EDITOR ==================== -->
+    <div id="subview-global" class="p-5 flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <span class="text-xs uppercase font-bold tracking-widest text-blue-400 font-mono">Planet Phatt Master &amp; Global Parameters</span>
+      </div>
+      <div class="grid grid-cols-3 gap-4">
+        <div class="bg-zinc-950 p-4 rounded border border-zinc-800 flex flex-col gap-2">
+          <span class="text-xs font-bold text-blue-300">Master Tuning</span>
+          <span class="text-xs font-mono text-zinc-400">A = 440.0 Hz (+00 Cents)</span>
+        </div>
+        <div class="bg-zinc-950 p-4 rounded border border-zinc-800 flex flex-col gap-2">
+          <span class="text-xs font-bold text-blue-300">SysEx Device ID</span>
+          <span class="text-xs font-mono text-zinc-400">ID 0x00 (Broadcast)</span>
+        </div>
+        <div class="bg-zinc-950 p-4 rounded border border-zinc-800 flex flex-col gap-2">
+          <span class="text-xs font-bold text-blue-300">Velocity Curve</span>
+          <span class="text-xs font-mono text-zinc-400">Linear (Curve 1)</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 7: PROGRAM MAP ==================== -->
+    <div id="subview-progmap" class="p-5 flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <span class="text-xs uppercase font-bold tracking-widest text-indigo-400 font-mono">MIDI Program Change Remapping Table</span>
+      </div>
+      <div class="grid grid-cols-4 gap-2 text-xs font-mono">
+        <div class="bg-zinc-950 p-2 rounded border border-zinc-800 flex justify-between"><span>PG 000</span><span class="text-indigo-400 font-bold">128⁰ Master Phatt</span></div>
+        <div class="bg-zinc-950 p-2 rounded border border-zinc-800 flex justify-between"><span>PG 001</span><span class="text-indigo-400 font-bold">000⁰ Big Bottom Sub</span></div>
+        <div class="bg-zinc-950 p-2 rounded border border-zinc-800 flex justify-between"><span>PG 002</span><span class="text-indigo-400 font-bold">001⁰ G-Funk Rhodes</span></div>
+        <div class="bg-zinc-950 p-2 rounded border border-zinc-800 flex justify-between"><span>PG 003</span><span class="text-indigo-400 font-bold">002⁰ 808 Boom Kit</span></div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 8: TUNING TABLE ==================== -->
+    <div id="subview-tuning" class="p-5 flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <span class="text-xs uppercase font-bold tracking-widest text-teal-400 font-mono">User Tuning &amp; Microtonal Table</span>
+      </div>
+      <div class="bg-zinc-950 p-4 rounded border border-zinc-800 flex flex-col gap-2">
+        <span class="text-xs font-bold text-teal-300">Active Scale: 12-Tone Equal Temperament (Standard)</span>
+        <div class="grid grid-cols-12 gap-1 text-center font-mono text-[10px] pt-2">
+          <div class="bg-zinc-900 p-1.5 rounded"><span class="text-zinc-500 block">C</span><b class="text-teal-400">0.0¢</b></div>
+          <div class="bg-zinc-900 p-1.5 rounded"><span class="text-zinc-500 block">C#</span><b class="text-white">0.0¢</b></div>
+          <div class="bg-zinc-900 p-1.5 rounded"><span class="text-zinc-500 block">D</span><b class="text-white">0.0¢</b></div>
+          <div class="bg-zinc-900 p-1.5 rounded"><span class="text-zinc-500 block">D#</span><b class="text-white">0.0¢</b></div>
+          <div class="bg-zinc-900 p-1.5 rounded"><span class="text-zinc-500 block">E</span><b class="text-white">0.0¢</b></div>
+          <div class="bg-zinc-900 p-1.5 rounded"><span class="text-zinc-500 block">F</span><b class="text-white">0.0¢</b></div>
+          <div class="bg-zinc-900 p-1.5 rounded"><span class="text-zinc-500 block">F#</span><b class="text-white">0.0¢</b></div>
+          <div class="bg-zinc-900 p-1.5 rounded"><span class="text-zinc-500 block">G</span><b class="text-white">0.0¢</b></div>
+          <div class="bg-zinc-900 p-1.5 rounded"><span class="text-zinc-500 block">G#</span><b class="text-white">0.0¢</b></div>
+          <div class="bg-zinc-900 p-1.5 rounded"><span class="text-zinc-500 block">A</span><b class="text-white">0.0¢</b></div>
+          <div class="bg-zinc-900 p-1.5 rounded"><span class="text-zinc-500 block">A#</span><b class="text-white">0.0¢</b></div>
+          <div class="bg-zinc-900 p-1.5 rounded"><span class="text-zinc-500 block">B</span><b class="text-white">0.0¢</b></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 9: MULTIMODE (16 CHANNELS) ==================== -->
+    <div id="subview-multimode" class="p-5 flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <span class="text-xs uppercase font-bold tracking-widest text-emerald-400 font-mono">16-Channel Multitimbral Mixer</span>
+      </div>
+      <div class="overflow-x-auto">
+        <table class="w-full text-left text-xs font-mono">
+          <thead class="bg-zinc-950 text-zinc-400 border-b border-zinc-800 text-[10px] uppercase">
+            <tr>
+              <th class="py-2 px-3">Ch</th>
+              <th class="py-2 px-3">Preset Assignment</th>
+              <th class="py-2 px-3">Bank</th>
+              <th class="py-2 px-3">Vol</th>
+              <th class="py-2 px-3">Pan</th>
+              <th class="py-2 px-3">Output</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-zinc-800/60 text-zinc-300">
+            <tr class="bg-pink-950/20">
+              <td class="py-2 px-3 font-bold text-pink-400">01</td>
+              <td class="py-2 px-3 font-semibold text-white">128⁰ Master Phatt (Lead Groove)</td>
+              <td class="py-2 px-3 text-zinc-400">User 0</td>
+              <td class="py-2 px-3">127</td>
+              <td class="py-2 px-3">00 (Ctr)</td>
+              <td class="py-2 px-3">Main L/R</td>
+            </tr>
+            <tr>
+              <td class="py-2 px-3 font-bold text-zinc-400">02</td>
+              <td class="py-2 px-3">000⁰ Big Bottom Sub</td>
+              <td class="py-2 px-3 text-zinc-400">User 0</td>
+              <td class="py-2 px-3">120</td>
+              <td class="py-2 px-3">00 (Ctr)</td>
+              <td class="py-2 px-3 text-cyan-400">Sub 1</td>
+            </tr>
+            <tr>
+              <td class="py-2 px-3 font-bold text-zinc-400">03</td>
+              <td class="py-2 px-3">001⁰ G-Funk Rhodes</td>
+              <td class="py-2 px-3 text-zinc-400">ROM 1</td>
+              <td class="py-2 px-3">112</td>
+              <td class="py-2 px-3">R14</td>
+              <td class="py-2 px-3">Main L/R</td>
+            </tr>
+            <tr>
+              <td class="py-2 px-3 font-bold text-zinc-400">10</td>
+              <td class="py-2 px-3 font-semibold text-yellow-300">002⁰ 808 Boom Kit (Drums)</td>
+              <td class="py-2 px-3 text-zinc-400">ROM 1</td>
+              <td class="py-2 px-3">127</td>
+              <td class="py-2 px-3">00</td>
+              <td class="py-2 px-3">Main L/R</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 10: BANK LIBRARIAN (640 PRESETS) ==================== -->
+    <div id="subview-librarian" class="p-5 flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <div>
+          <h2 class="text-sm font-bold text-yellow-400 uppercase tracking-wider">640 Preset Bank Librarian &amp; SysEx Explorer</h2>
+          <p class="text-xs text-zinc-400">Manage 128 User RAM + 512 Factory ROM Presets across 5 Sound Banks.</p>
+        </div>
+      </div>
+      <div class="grid grid-cols-3 gap-2 max-h-56 overflow-y-auto pr-1 text-xs font-mono">
+        <div onclick="loadPhattPreset(0)" class="p-2 rounded bg-pink-950/40 border border-pink-600/60 text-pink-200 flex justify-between cursor-pointer">
+          <span>128⁰ Master Phatt</span><span class="text-zinc-400">Bank 0</span>
+        </div>
+        <div onclick="loadPhattPreset(1)" class="p-2 rounded bg-zinc-950 hover:bg-zinc-800 text-zinc-300 flex justify-between cursor-pointer">
+          <span>000⁰ Big Bottom Sub</span><span class="text-zinc-400">Bank 0</span>
+        </div>
+        <div onclick="loadPhattPreset(2)" class="p-2 rounded bg-zinc-950 hover:bg-zinc-800 text-zinc-300 flex justify-between cursor-pointer">
+          <span>001⁰ G-Funk Rhodes</span><span class="text-zinc-400">Bank 1</span>
+        </div>
+        <div onclick="loadPhattPreset(3)" class="p-2 rounded bg-zinc-950 hover:bg-zinc-800 text-zinc-300 flex justify-between cursor-pointer">
+          <span>002⁰ 808 Boom Kit</span><span class="text-zinc-400">Bank 1</span>
+        </div>
+        <div onclick="loadPhattPreset(4)" class="p-2 rounded bg-zinc-950 hover:bg-zinc-800 text-zinc-300 flex justify-between cursor-pointer">
+          <span>003⁰ Golden Boom Bap</span><span class="text-zinc-400">Bank 2</span>
+        </div>
+        <div onclick="loadPhattPreset(5)" class="p-2 rounded bg-zinc-950 hover:bg-zinc-800 text-zinc-300 flex justify-between cursor-pointer">
+          <span>004⁰ DJ Vinyl Scratch</span><span class="text-zinc-400">Bank 2</span>
+        </div>
+        <div onclick="loadPhattPreset(6)" class="p-2 rounded bg-zinc-950 hover:bg-zinc-800 text-zinc-300 flex justify-between cursor-pointer">
+          <span>005⁰ Funky Wah Clav</span><span class="text-zinc-400">Bank 3</span>
+        </div>
+        <div onclick="loadPhattPreset(7)" class="p-2 rounded bg-zinc-950 hover:bg-zinc-800 text-zinc-300 flex justify-between cursor-pointer">
+          <span>006⁰ Phatt Horn Hit</span><span class="text-zinc-400">Bank 4</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- LIVE HARDWARE SYSEX STREAM MONITOR -->
+  <div class="w-full max-w-6xl mt-3 flex items-center justify-between text-xs font-mono text-zinc-500 px-2">
+    <div class="flex items-center gap-2">
+      <div class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></div>
+      <span class="text-zinc-400 uppercase text-[10px] tracking-wider font-bold">E-MU Planet Phatt SysEx Out:</span>
+      <span id="sysex-display" class="text-pink-300 font-bold">F0 18 0A 00 01 00 00 80 F7 (Preset: 128⁰ Master Phatt)</span>
+    </div>
+    <div class="flex items-center gap-4 text-[11px]">
+      <span>Latency: <b class="text-emerald-400">0.2ms</b></span>
+      <span>Engine: <b class="text-pink-400">Planet Phatt DSP (The Swing System)</b></span>
+    </div>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- WEB AUDIO SYNTHESIS & INTERACTIVE LOGIC                                  -->
+  <!-- ========================================================================= -->
+  <script>
+    let audioCtx = null;
+    let masterVolume = 0.85;
+    let currentPresetIdx = 0;
+    let isPowered = true;
+    let dataWheelAngle = 0;
+
+    const phattPresets = [
+      { name: "128⁰ Master Phatt", beat: "BEAT:92", rhythm: "SWING 58%", hex: "80" },
+      { name: "000⁰ Big Bottom Sub", beat: "BEAT:88", rhythm: "SWING 62%", hex: "00" },
+      { name: "001⁰ G-Funk Rhodes", beat: "BEAT:90", rhythm: "SWING 58%", hex: "01" },
+      { name: "002⁰ 808 Boom Kit", beat: "BEAT:96", rhythm: "SWING 54%", hex: "02" },
+      { name: "003⁰ Golden Boom Bap", beat: "BEAT:92", rhythm: "SWING 60%", hex: "03" },
+      { name: "004⁰ DJ Vinyl Scratch", beat: "BEAT:85", rhythm: "SWING 65%", hex: "04" },
+      { name: "005⁰ Funky Wah Clav", beat: "BEAT:102", rhythm: "SWING 56%", hex: "05" },
+      { name: "006⁰ Phatt Horn Hit", beat: "BEAT:94", rhythm: "SWING 58%", hex: "06" }
+    ];
+
+    function initAudio() {
+      if (!audioCtx) {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      }
+      if (audioCtx.state === 'suspended') {
+        audioCtx.resume();
+      }
+    }
+
+    // Switch Tab in Midi Quest 13 View
+    function switchPhattTab(tabId) {
+      const tabs = ['performance', 'preset', 'filter', 'lfos', 'beats', 'global', 'progmap', 'tuning', 'multimode', 'librarian'];
+      tabs.forEach(t => {
+        const btn = document.getElementById(`tab-${t}`);
+        const view = document.getElementById(`subview-${t}`);
+        if (btn && view) {
+          if (t === tabId) {
+            btn.classList.add('active');
+            btn.classList.remove('text-zinc-400');
+            btn.classList.add('text-zinc-300');
+            view.classList.remove('hidden');
+            view.classList.add('flex');
+          } else {
+            btn.classList.remove('active');
+            btn.classList.remove('text-zinc-300');
+            btn.classList.add('text-zinc-400');
+            view.classList.add('hidden');
+            view.classList.remove('flex');
+          }
+        }
+      });
+
+      // LED feedback
+      const ledMaster = document.getElementById('led-master');
+      const ledEdit = document.getElementById('led-edit');
+      if (tabId === 'global' || tabId === 'progmap' || tabId === 'tuning') {
+        ledMaster.className = 'led-dot led-red-on';
+        ledEdit.className = 'led-dot led-off';
+      } else if (tabId === 'preset' || tabId === 'filter' || tabId === 'lfos') {
+        ledMaster.className = 'led-dot led-off';
+        ledEdit.className = 'led-dot led-red-on';
+      } else {
+        ledMaster.className = 'led-dot led-red-on';
+        ledEdit.className = 'led-dot led-off';
+      }
+    }
+
+    // Load Planet Phatt Preset
+    function loadPhattPreset(idx) {
+      currentPresetIdx = parseInt(idx, 10);
+      const p = phattPresets[currentPresetIdx];
+      document.getElementById('phatt-lcd-line2').innerText = p.name;
+      document.getElementById('phatt-lcd-beat').innerText = p.beat;
+      document.getElementById('phatt-lcd-rhythm').innerText = p.rhythm;
+      document.getElementById('preset-selector').value = currentPresetIdx;
+      
+      // Update SysEx stream
+      document.getElementById('sysex-display').innerText = `F0 18 0A 00 01 00 00 ${p.hex} F7 (Preset: ${p.name})`;
+
+      // MIDI LED flash
+      const ledMidi = document.getElementById('led-midi');
+      ledMidi.classList.add('shadow-[0_0_8px_#22c55e]');
+      setTimeout(() => ledMidi.classList.remove('shadow-[0_0_8px_#22c55e]'), 150);
+    }
+
+    function phattCursorBump(dir) {
+      let nextIdx = (currentPresetIdx + dir + phattPresets.length) % phattPresets.length;
+      loadPhattPreset(nextIdx);
+    }
+
+    function handleDataWheel(e) {
+      e.preventDefault();
+      const dir = e.deltaY > 0 ? 1 : -1;
+      dataWheelAngle += dir * 18;
+      document.getElementById('data-wheel').style.transform = `rotate(${dataWheelAngle}deg)`;
+      phattCursorBump(dir);
+    }
+
+    function togglePower() {
+      isPowered = !isPowered;
+      const lcd = document.querySelector('.phatt-lcd');
+      if (!isPowered) {
+        lcd.style.filter = 'brightness(0.1) grayscale(1)';
+      } else {
+        lcd.style.filter = 'none';
+      }
+    }
+
+    // Volume Drag
+    function startVolumeDrag(e) {
+      const knob = e.currentTarget;
+      const pointer = document.getElementById('vol-pointer');
+      const startY = e.clientY;
+      let val = parseInt(knob.dataset.val, 10);
+
+      function onMove(me) {
+        const delta = startY - me.clientY;
+        let newVal = Math.max(0, Math.min(127, val + Math.round(delta * 0.8)));
+        knob.dataset.val = newVal;
+        masterVolume = newVal / 127;
+        const angle = -140 + (newVal / 127) * 280;
+        pointer.style.transform = `rotate(${angle}deg)`;
+        document.getElementById('phatt-lcd-line1').innerText = `C01 V01${String(newVal).padStart(3, '0')} Pan=P`;
+      }
+
+      function onUp() {
+        window.removeEventListener('mousemove', onMove);
+        window.removeEventListener('mouseup', onUp);
+      }
+
+      window.addEventListener('mousemove', onMove);
+      window.addEventListener('mouseup', onUp);
+    }
+
+    // Real-time Sound Synthesis (Web Audio API)
+    function playPhattInstrument(type) {
+      initAudio();
+      const now = audioCtx.currentTime;
+
+      if (type === 'master_phatt') {
+        // Moog Sub + Rhodes Layer
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.type = 'sawtooth';
+        osc.frequency.setValueAtTime(65.41, now); // C2
+        const filter = audioCtx.createBiquadFilter();
+        filter.type = 'lowpass';
+        filter.frequency.setValueAtTime(420, now);
+        filter.frequency.exponentialRampToValueAtTime(110, now + 0.5);
+        gain.gain.setValueAtTime(0.4 * masterVolume, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.6);
+        osc.connect(filter);
+        filter.connect(gain);
+        gain.connect(audioCtx.destination);
+        osc.start(now);
+        osc.stop(now + 0.62);
+
+        // Rhodes chime layer
+        [261.63, 329.63, 392.00].forEach(f => {
+          const o = audioCtx.createOscillator();
+          const g = audioCtx.createGain();
+          o.type = 'sine';
+          o.frequency.setValueAtTime(f, now);
+          g.gain.setValueAtTime(0.12 * masterVolume, now);
+          g.gain.exponentialRampToValueAtTime(0.001, now + 0.8);
+          o.connect(g);
+          g.connect(audioCtx.destination);
+          o.start(now);
+          o.stop(now + 0.82);
+        });
+      } else if (type === 'sub_bass') {
+        // Deep 808 Sub Boom
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(95, now);
+        osc.frequency.exponentialRampToValueAtTime(43.6, now + 0.14); // Drops to F1
+        gain.gain.setValueAtTime(0.7 * masterVolume, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.8);
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+        osc.start(now);
+        osc.stop(now + 0.82);
+      } else if (type === 'rhodes') {
+        // Smooth G-Funk Rhodes Chord (Eb Maj9)
+        [155.56, 196.00, 233.08, 293.66].forEach(f => {
+          const o = audioCtx.createOscillator();
+          const g = audioCtx.createGain();
+          o.type = 'triangle';
+          o.frequency.setValueAtTime(f, now);
+          g.gain.setValueAtTime(0.16 * masterVolume, now);
+          g.gain.exponentialRampToValueAtTime(0.001, now + 1.1);
+          o.connect(g);
+          g.connect(audioCtx.destination);
+          o.start(now);
+          o.stop(now + 1.15);
+        });
+      } else if (type === 'boom_808') {
+        triggerPhattDrum('kick808');
+        setTimeout(() => triggerPhattDrum('snare808'), 180);
+      } else if (type === 'boom_bap') {
+        triggerPhattDrum('kick808');
+        setTimeout(() => triggerPhattDrum('hihat_closed'), 120);
+        setTimeout(() => triggerPhattDrum('clap'), 240);
+      } else if (type === 'scratch') {
+        triggerPhattDrum('scratch');
+      } else if (type === 'clav') {
+        // Wah Clavinet
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        const filter = audioCtx.createBiquadFilter();
+        osc.type = 'sawtooth';
+        osc.frequency.setValueAtTime(233.08, now); // Bb3
+        filter.type = 'bandpass';
+        filter.Q.setValueAtTime(4.5, now);
+        filter.frequency.setValueAtTime(400, now);
+        filter.frequency.exponentialRampToValueAtTime(2200, now + 0.1);
+        filter.frequency.exponentialRampToValueAtTime(500, now + 0.35);
+        gain.gain.setValueAtTime(0.35 * masterVolume, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.4);
+        osc.connect(filter);
+        filter.connect(gain);
+        gain.connect(audioCtx.destination);
+        osc.start(now);
+        osc.stop(now + 0.42);
+      } else if (type === 'horn_hit') {
+        // Downtown Brass Section Hit
+        [349.23, 440.00, 523.25, 698.46].forEach(f => {
+          const o = audioCtx.createOscillator();
+          const g = audioCtx.createGain();
+          const filt = audioCtx.createBiquadFilter();
+          o.type = 'sawtooth';
+          o.frequency.setValueAtTime(f, now);
+          filt.type = 'lowpass';
+          filt.frequency.setValueAtTime(2400, now);
+          filt.frequency.exponentialRampToValueAtTime(650, now + 0.3);
+          g.gain.setValueAtTime(0.18 * masterVolume, now);
+          g.gain.exponentialRampToValueAtTime(0.001, now + 0.35);
+          o.connect(filt);
+          filt.connect(g);
+          g.connect(audioCtx.destination);
+          o.start(now);
+          o.stop(now + 0.38);
+        });
+      }
+    }
+
+    // Drum sound triggers
+    function triggerPhattDrum(type) {
+      initAudio();
+      const now = audioCtx.currentTime;
+
+      if (type === 'kick808') {
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(130, now);
+        osc.frequency.exponentialRampToValueAtTime(45, now + 0.15);
+        gain.gain.setValueAtTime(0.8 * masterVolume, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.55);
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+        osc.start(now);
+        osc.stop(now + 0.58);
+      } else if (type === 'snare808') {
+        // Tone + Noise
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.type = 'triangle';
+        osc.frequency.setValueAtTime(220, now);
+        gain.gain.setValueAtTime(0.4 * masterVolume, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.18);
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+        osc.start(now);
+        osc.stop(now + 0.2);
+
+        // White noise burst
+        const bufferSize = audioCtx.sampleRate * 0.18;
+        const buffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
+        const data = buffer.getChannelData(0);
+        for (let i = 0; i < bufferSize; i++) data[i] = Math.random() * 2 - 1;
+        const noise = audioCtx.createBufferSource();
+        noise.buffer = buffer;
+        const nFilter = audioCtx.createBiquadFilter();
+        nFilter.type = 'highpass';
+        nFilter.frequency.setValueAtTime(1100, now);
+        const nGain = audioCtx.createGain();
+        nGain.gain.setValueAtTime(0.35 * masterVolume, now);
+        nGain.gain.exponentialRampToValueAtTime(0.001, now + 0.18);
+        noise.connect(nFilter);
+        nFilter.connect(nGain);
+        nGain.connect(audioCtx.destination);
+        noise.start(now);
+      } else if (type === 'clap') {
+        // Multi-tap handclap
+        [0, 0.015, 0.03].forEach((offset, idx) => {
+          const bufferSize = audioCtx.sampleRate * 0.12;
+          const buffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
+          const data = buffer.getChannelData(0);
+          for (let i = 0; i < bufferSize; i++) data[i] = Math.random() * 2 - 1;
+          const noise = audioCtx.createBufferSource();
+          noise.buffer = buffer;
+          const filt = audioCtx.createBiquadFilter();
+          filt.type = 'bandpass';
+          filt.frequency.setValueAtTime(1400, now + offset);
+          filt.Q.setValueAtTime(1.5, now + offset);
+          const g = audioCtx.createGain();
+          g.gain.setValueAtTime(0.3 * masterVolume, now + offset);
+          g.gain.exponentialRampToValueAtTime(0.001, now + offset + 0.14);
+          noise.connect(filt);
+          filt.connect(g);
+          g.connect(audioCtx.destination);
+          noise.start(now + offset);
+        });
+      } else if (type === 'hihat_closed') {
+        const bufferSize = audioCtx.sampleRate * 0.06;
+        const buffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
+        const data = buffer.getChannelData(0);
+        for (let i = 0; i < bufferSize; i++) data[i] = Math.random() * 2 - 1;
+        const noise = audioCtx.createBufferSource();
+        noise.buffer = buffer;
+        const filt = audioCtx.createBiquadFilter();
+        filt.type = 'highpass';
+        filt.frequency.setValueAtTime(6500, now);
+        const g = audioCtx.createGain();
+        g.gain.setValueAtTime(0.3 * masterVolume, now);
+        g.gain.exponentialRampToValueAtTime(0.001, now + 0.06);
+        noise.connect(filt);
+        filt.connect(g);
+        g.connect(audioCtx.destination);
+        noise.start(now);
+      } else if (type === 'hihat_open') {
+        const bufferSize = audioCtx.sampleRate * 0.28;
+        const buffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
+        const data = buffer.getChannelData(0);
+        for (let i = 0; i < bufferSize; i++) data[i] = Math.random() * 2 - 1;
+        const noise = audioCtx.createBufferSource();
+        noise.buffer = buffer;
+        const filt = audioCtx.createBiquadFilter();
+        filt.type = 'highpass';
+        filt.frequency.setValueAtTime(5500, now);
+        const g = audioCtx.createGain();
+        g.gain.setValueAtTime(0.35 * masterVolume, now);
+        g.gain.exponentialRampToValueAtTime(0.001, now + 0.28);
+        noise.connect(filt);
+        filt.connect(g);
+        g.connect(audioCtx.destination);
+        noise.start(now);
+      } else if (type === 'scratch') {
+        // DJ vinyl 'wikki' baby scratch
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.type = 'sawtooth';
+        osc.frequency.setValueAtTime(480, now);
+        osc.frequency.linearRampToValueAtTime(1400, now + 0.08);
+        osc.frequency.linearRampToValueAtTime(280, now + 0.18);
+        const filter = audioCtx.createBiquadFilter();
+        filter.type = 'bandpass';
+        filter.frequency.setValueAtTime(950, now);
+        filter.Q.setValueAtTime(3.0, now);
+        gain.gain.setValueAtTime(0.35 * masterVolume, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.2);
+        osc.connect(filter);
+        filter.connect(gain);
+        gain.connect(audioCtx.destination);
+        osc.start(now);
+        osc.stop(now + 0.22);
+      }
+    }
+
+    // Full BEATS "The Swing System" Groove Demo
+    function playPhattDemo() {
+      initAudio();
+      const tempo = 92;
+      const beatInterval = (60 / tempo) * 1000;
+      const swingRatio = 0.58; // 58% Swing
+
+      // Bar 1 & 2 Hip-Hop Groove Pattern
+      const pattern = [
+        { time: 0, drum: 'kick808', inst: 'master_phatt' },
+        { time: beatInterval * 0.5 * (1 + (swingRatio - 0.5)), drum: 'hihat_closed' },
+        { time: beatInterval, drum: 'hihat_closed' },
+        { time: beatInterval * 1.5 * (1 + (swingRatio - 0.5)), drum: 'hihat_closed' },
+        { time: beatInterval * 2, drum: 'snare808', inst: 'rhodes' },
+        { time: beatInterval * 2.5 * (1 + (swingRatio - 0.5)), drum: 'hihat_closed' },
+        { time: beatInterval * 2.75, drum: 'scratch' },
+        { time: beatInterval * 3, drum: 'kick808' },
+        { time: beatInterval * 3.5 * (1 + (swingRatio - 0.5)), drum: 'hihat_open' },
+        { time: beatInterval * 4, drum: 'kick808', inst: 'master_phatt' },
+        { time: beatInterval * 4.5 * (1 + (swingRatio - 0.5)), drum: 'hihat_closed' },
+        { time: beatInterval * 5, drum: 'hihat_closed', inst: 'clav' },
+        { time: beatInterval * 5.5 * (1 + (swingRatio - 0.5)), drum: 'hihat_closed' },
+        { time: beatInterval * 6, drum: 'clap', inst: 'horn_hit' },
+        { time: beatInterval * 6.5 * (1 + (swingRatio - 0.5)), drum: 'hihat_closed' },
+        { time: beatInterval * 7, drum: 'scratch' },
+        { time: beatInterval * 7.5 * (1 + (swingRatio - 0.5)), drum: 'hihat_open' }
+      ];
+
+      pattern.forEach(step => {
+        setTimeout(() => {
+          if (step.drum) triggerPhattDrum(step.drum);
+          if (step.inst) playPhattInstrument(step.inst);
+        }, step.time);
+      });
+    }
+
+    // Keyboard Shortcuts
+    window.addEventListener('keydown', (e) => {
+      if (e.code === 'Space') {
+        e.preventDefault();
+        playPhattDemo();
+      } else if (e.code === 'ArrowRight') {
+        phattCursorBump(1);
+      } else if (e.code === 'ArrowLeft') {
+        phattCursorBump(-1);
+      } else if (e.key === '1') playPhattInstrument('master_phatt');
+      else if (e.key === '2') playPhattInstrument('sub_bass');
+      else if (e.key === '3') playPhattInstrument('rhodes');
+      else if (e.key === '4') playPhattInstrument('boom_808');
+      else if (e.key === '5') playPhattInstrument('boom_bap');
+      else if (e.key === '6') playPhattInstrument('scratch');
+      else if (e.key === '7') playPhattInstrument('clav');
+      else if (e.key === '8') playPhattInstrument('horn_hit');
+    });
+  </script>
+</body>
+</html>
