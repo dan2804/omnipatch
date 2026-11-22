@@ -235,7 +235,7 @@
     
     <!-- Authentic Navy Continuous Wave Line (Organic S-Curve matching physical faceplate) -->
     <svg class="absolute inset-0 w-full h-full pointer-events-none z-0" viewBox="0 0 1152 104" preserveAspectRatio="none">
-      <path d="M 0,54 Q 60,48 120,53 T 260,54 T 400,53 L 420,53 M 730,53 Q 800,55 870,52 T 980,54 T 1152,56" stroke="#1e293b" stroke-width="1.8" fill="none" opacity="0.85" />
+      <path d="M 0,44 C 30,46 50,49 80,52 C 110,55 130,60 160,60 L 425,60 M 725,54 L 920,54 M 990,52 C 1030,51 1080,50 1152,50" stroke="#1e293b" stroke-width="1.8" fill="none" opacity="0.85" />
     </svg>
 
     <!-- LEFT RACK EAR (Black with 2 Oval Mounting Holes) -->
@@ -267,8 +267,8 @@
         </div>
       </div>
 
-      <!-- Column 2: 3-way Mode LEDs (A-D, E-H, I-L) -->
-      <div class="flex flex-col justify-center gap-1.5 h-[88px] text-[8.5px] font-mono font-bold leading-none text-zinc-900 pt-1 pb-6 w-9">
+      <!-- Column 2: 3-way Mode LEDs (A-D, E-H, I-L) Tucked into upper section -->
+      <div class="flex flex-col justify-start gap-1 h-[88px] text-[8px] font-mono font-bold leading-none text-zinc-900 pt-2 w-9">
         <div class="flex items-center justify-between">
           <span class="tracking-tighter">A-D</span>
           <div id="led-ad" class="led-dot led-green-on"></div>
@@ -420,47 +420,50 @@
       <div class="flex flex-col justify-between h-[88px] py-1">
         
         <!-- ROW 1 (Top: MASTER, EDIT, < CURSOR, > CURSOR) -->
-        <div class="flex items-end gap-3.5">
+        <div class="flex items-start gap-3.5">
           
-          <!-- Col 1: MASTER -->
-          <div class="flex flex-col items-center w-[34px]">
-            <span class="silkscreen-matrix text-[8px] leading-tight mb-1 whitespace-nowrap">MASTER <span class="silkscreen-slash">/</span></span>
-            <div class="relative flex items-center justify-center">
-              <button onclick="switchVirtuosoTab('global')" class="virtuoso-btn-round" title="Master / Global Settings"></button>
-              <div id="led-master" class="led-dot led-red-on absolute -top-1 -right-1.5"></div>
-            </div>
-          </div>
+          <!-- Master + Edit Group with DEMOS bracket attached directly under buttons -->
+          <div class="flex flex-col items-center">
+            <div class="flex items-end gap-3.5">
+              <!-- Col 1: MASTER -->
+              <div class="flex flex-col items-center w-[34px]">
+                <span class="silkscreen-matrix text-[8px] leading-tight mb-1 whitespace-nowrap">MASTER <span class="silkscreen-slash">/</span></span>
+                <div class="relative flex items-center justify-center">
+                  <button onclick="switchVirtuosoTab('global')" class="virtuoso-btn-round" title="Master / Global Settings"></button>
+                  <div id="led-master" class="led-dot led-red-on absolute -top-1 -right-1.5"></div>
+                </div>
+              </div>
 
-          <!-- Col 2: EDIT -->
-          <div class="flex flex-col items-center w-[34px]">
-            <span class="silkscreen-matrix text-[8px] leading-tight mb-1 whitespace-nowrap">EDIT <span class="silkscreen-slash">/</span></span>
-            <div class="relative flex items-center justify-center">
-              <button onclick="switchVirtuosoTab('preset')" class="virtuoso-btn-round" title="Edit Orchestral Parameters"></button>
-              <div id="led-edit" class="led-dot led-off absolute -top-1 -right-1.5"></div>
+              <!-- Col 2: EDIT -->
+              <div class="flex flex-col items-center w-[34px]">
+                <span class="silkscreen-matrix text-[8px] leading-tight mb-1 whitespace-nowrap">EDIT <span class="silkscreen-slash">/</span></span>
+                <div class="relative flex items-center justify-center">
+                  <button onclick="switchVirtuosoTab('preset')" class="virtuoso-btn-round" title="Edit Orchestral Parameters"></button>
+                  <div id="led-edit" class="led-dot led-off absolute -top-1 -right-1.5"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- └─ DEMOS ─┘ Bracket hugging directly under MASTER & EDIT buttons -->
+            <div class="w-[74px] flex items-center justify-center text-slate-800 text-[7.5px] font-black italic tracking-widest leading-none mt-1">
+              <span>└─ DEMOS ─┘</span>
             </div>
           </div>
 
           <!-- Col 3: < Cursor in Recessed Pocket -->
-          <div class="flex flex-col items-center w-[34px]">
-            <div class="h-3"></div>
+          <div class="flex flex-col items-center w-[34px] pt-3.5">
             <div class="virtuoso-btn-well">
               <button onclick="virtuosoCursorBump(-1)" class="virtuoso-btn-round text-[10px] font-bold text-zinc-300 flex items-center justify-center" title="Cursor Left">&lt;</button>
             </div>
           </div>
 
           <!-- Col 4: > Cursor in Recessed Pocket -->
-          <div class="flex flex-col items-center w-[34px]">
-            <div class="h-3"></div>
+          <div class="flex flex-col items-center w-[34px] pt-3.5">
             <div class="virtuoso-btn-well">
               <button onclick="virtuosoCursorBump(1)" class="virtuoso-btn-round text-[10px] font-bold text-zinc-300 flex items-center justify-center" title="Cursor Right">&gt;</button>
             </div>
           </div>
 
-        </div>
-
-        <!-- └─ DEMOS ─┘ Bracket between Row 1 & Row 2 under Col 1 & 2 -->
-        <div class="w-[74px] flex items-center justify-center -my-1 text-slate-800 text-[8px] font-black italic tracking-widest leading-none">
-          <span>└─ DEMOS ─┘</span>
         </div>
 
         <!-- ROW 2 (Bottom: AUDITION, MULTI, SAVE/COPY, HOME/ENTER) -->
