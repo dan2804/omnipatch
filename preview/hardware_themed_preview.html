@@ -2,626 +2,1141 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>OmniPatch - Hardware-Themed Modern Synthesizer Editor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OmniPatch — Bespoke Hardware-Inspired Synthesizer Editors</title>
   <script src="tailwindcss.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@500;700;900&family=VT323&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@600;800;900&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap');
-    
+    /* Custom Scrollbars */
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: rgba(0, 0, 0, 0.2); }
+    ::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.15); border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: rgba(255, 255, 255, 0.3); }
+
     .font-lcd { font-family: 'Share Tech Mono', monospace; }
-    .font-brand { font-family: 'Orbitron', sans-serif; }
-    .font-mono-code { font-family: 'JetBrains Mono', monospace; }
+    .font-led { font-family: 'VT323', monospace; }
+    .font-retro { font-family: 'Orbitron', sans-serif; }
+    .font-tech { font-family: 'Rajdhani', sans-serif; }
 
-    /* Theme Variable Defaults (Virus A Default) */
-    :root {
-      --bg-app: #0f1115;
-      --bg-panel: #161920;
-      --bg-card: #1c202a;
-      --border-main: #2b3240;
-      --accent-primary: #dc2626;
-      --accent-glow: rgba(220, 38, 38, 0.4);
-      --accent-secondary: #f87171;
-      --display-bg: #141f16;
-      --display-text: #72ff7e;
-      --display-glow: rgba(114, 255, 126, 0.6);
-      --badge-bg: #450a0a;
-      --badge-text: #fca5a5;
-      --knob-bg: radial-gradient(circle at 35% 35%, #353a47 0%, #15181f 80%);
-      --knob-pointer: #ffffff;
-    }
-
-    /* Akai AX60 Theme */
-    body.theme-ax60 {
-      --bg-app: #0d0f12;
-      --bg-panel: #14171c;
-      --bg-card: #1b2027;
-      --border-main: #2a323d;
-      --accent-primary: #0284c7;
-      --accent-glow: rgba(2, 132, 199, 0.4);
-      --accent-secondary: #38bdf8;
-      --display-bg: #140505;
-      --display-text: #ff3333;
-      --display-glow: rgba(255, 51, 51, 0.6);
-      --badge-bg: #082f49;
-      --badge-text: #7dd3fc;
-      --knob-bg: radial-gradient(circle at 35% 35%, #384252 0%, #171c24 80%);
-      --knob-pointer: #00e5ff;
-    }
-
-    /* E-MU Audity 2000 Theme */
-    body.theme-audity {
-      --bg-app: #09131c;
-      --bg-panel: #111f2c;
-      --bg-card: #192b3c;
-      --border-main: #2a435c;
-      --accent-primary: #2563eb;
-      --accent-glow: rgba(37, 99, 235, 0.4);
-      --accent-secondary: #60a5fa;
-      --display-bg: #142217;
-      --display-text: #6ee7b7;
-      --display-glow: rgba(110, 231, 183, 0.6);
-      --badge-bg: #1e3a8a;
-      --badge-text: #93c5fd;
-      --knob-bg: radial-gradient(circle at 35% 35%, #ffffff 0%, #cbd5e1 80%);
-      --knob-pointer: #0f172a;
-    }
-
-    /* Casio CZ-101 / CZ-5000 Theme */
-    body.theme-casio {
-      --bg-app: #111215;
-      --bg-panel: #18191f;
-      --bg-card: #20222a;
-      --border-main: #333644;
-      --accent-primary: #06b6d4;
-      --accent-glow: rgba(6, 182, 212, 0.4);
-      --accent-secondary: #f59e0b;
-      --display-bg: #182419;
-      --display-text: #a3e635;
-      --display-glow: rgba(163, 230, 53, 0.6);
-      --badge-bg: #164e63;
-      --badge-text: #67e8f9;
-      --knob-bg: radial-gradient(circle at 35% 35%, #3a3f50 0%, #161820 80%);
-      --knob-pointer: #22d3ee;
-    }
-
-    /* Dynamic Hardware Display Window */
-    .themed-display {
-      background: var(--display-bg);
-      border: 1px solid rgba(255,255,255,0.1);
-      box-shadow: inset 0 2px 6px rgba(0,0,0,0.8), 0 0 12px var(--accent-glow);
-    }
-    .themed-display-text {
-      color: var(--display-text);
-      text-shadow: 0 0 6px var(--display-glow);
-    }
-
-    /* Precision Modern Rotary Knob */
-    .modern-knob {
-      width: 46px;
-      height: 46px;
-      border-radius: 50%;
-      background: var(--knob-bg);
-      border: 1.5px solid var(--border-main);
-      box-shadow: 0 3px 6px rgba(0,0,0,0.5), inset 0 1px 1px rgba(255,255,255,0.15);
+    /* Knobs & Rotaries */
+    .rotary-dial {
       position: relative;
       cursor: ns-resize;
       user-select: none;
-      transition: border-color 0.15s ease, box-shadow 0.15s ease;
-    }
-    .modern-knob:hover {
-      border-color: var(--accent-secondary);
-      box-shadow: 0 0 8px var(--accent-glow);
-    }
-    .knob-pointer-line {
-      width: 2px;
-      height: 12px;
-      background: var(--knob-pointer);
-      position: absolute;
-      top: 4px;
-      left: 20.5px;
-      border-radius: 1px;
-      box-shadow: 0 0 4px var(--accent-glow);
+      touch-action: none;
     }
 
-    /* Chiclet Preset Buttons */
-    .theme-btn-chiclet {
-      transition: all 0.1s ease;
+    /* Slider Track Styles */
+    input[type=range] {
+      -webkit-appearance: none;
+      background: transparent;
     }
-    .theme-btn-chiclet.active {
-      box-shadow: 0 0 10px var(--accent-glow), inset 0 2px 4px rgba(0,0,0,0.5);
-      transform: translateY(1px);
-    }
+    input[type=range]:focus { outline: none; }
   </style>
 </head>
-<body class="bg-[var(--bg-app)] text-zinc-100 p-6 min-h-screen flex flex-col items-center justify-start font-sans select-none transition-colors duration-300">
+<body class="bg-[#0b0c10] text-gray-200 min-h-screen flex flex-col font-['Inter',sans-serif]">
 
-  <!-- THEME SELECTOR & HEADER TOOLBAR -->
-  <div class="w-full max-w-6xl mb-5 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 border-b border-[var(--border-main)] pb-4">
-    <div>
-      <div class="flex items-center gap-3">
-        <div class="w-3.5 h-3.5 rounded-full bg-[var(--accent-primary)] shadow-[0_0_10px_var(--accent-glow)] animate-pulse"></div>
-        <h1 class="text-xl font-bold tracking-tight text-white flex items-center gap-2">
-          OmniPatch <span class="text-xs px-2 py-0.5 rounded bg-[var(--badge-bg)] text-[var(--badge-text)] font-mono border border-[var(--border-main)]">Hardware-Themed Architecture</span>
-        </h1>
+  <!-- Top Global OmniPatch Bar -->
+  <header class="bg-[#12141a] border-b border-[#222634] px-5 py-3 flex items-center justify-between shadow-lg sticky top-0 z-50">
+    <div class="flex items-center space-x-4">
+      <div class="flex items-center space-x-2.5">
+        <div class="w-7 h-7 rounded bg-gradient-to-tr from-cyan-500 via-blue-600 to-indigo-500 flex items-center justify-center font-bold text-white text-sm shadow-md shadow-blue-500/20">
+          Ω
+        </div>
+        <div>
+          <h1 class="text-sm font-bold tracking-wider uppercase text-white flex items-center gap-2">
+            OmniPatch <span class="text-[10px] bg-blue-500/20 text-blue-400 px-1.5 py-0.5 rounded border border-blue-500/30">Studio v2.4</span>
+          </h1>
+          <p class="text-[11px] text-gray-400">Bespoke Architectural Synth Workspaces (Non-Skeuomorphic, Hardware-Inspired)</p>
+        </div>
       </div>
-      <p class="text-xs text-zinc-400 mt-0.5">High-Density Ergonomic Layout • Swappable Hardware DNA Themes • Zero Skeuomorphic Waste</p>
     </div>
 
-    <!-- Active Synth Profile Switcher -->
-    <div class="flex items-center gap-2 bg-[var(--bg-panel)] p-1.5 rounded-lg border border-[var(--border-main)] shadow">
-      <span class="text-xs font-semibold text-zinc-400 pl-2">Theme DNA:</span>
-      <button onclick="setSynthTheme('virus')" id="btn-theme-virus" class="px-3 py-1 rounded text-xs font-bold transition bg-red-600 text-white shadow">
-        Access Virus
+    <!-- Synth Switcher Tabs: Each synth opens its OWN unique architectural layout -->
+    <div class="flex items-center bg-[#181b24] p-1 rounded-lg border border-[#272c3d]">
+      <span class="text-[11px] font-semibold text-gray-400 px-3 uppercase tracking-wider">Active Instrument:</span>
+      <button onclick="switchSynth('audity')" id="btn-audity" class="synth-nav-btn active px-3.5 py-1.5 rounded text-xs font-semibold flex items-center gap-2 transition-all bg-[#1a365d] text-cyan-300 shadow">
+        <span class="w-2.5 h-2.5 rounded-full bg-cyan-400"></span>
+        E-MU Audity 2000
+        <span class="text-[10px] text-cyan-300/70 font-mono">16-Part / Z-Plane</span>
       </button>
-      <button onclick="setSynthTheme('ax60')" id="btn-theme-ax60" class="px-3 py-1 rounded text-xs font-bold transition text-zinc-400 hover:text-white">
+      <button onclick="switchSynth('virus')" id="btn-virus" class="synth-nav-btn px-3.5 py-1.5 rounded text-xs font-semibold flex items-center gap-2 transition-all text-gray-400 hover:text-white">
+        <span class="w-2.5 h-2.5 rounded-full bg-red-500 opacity-60"></span>
+        Access Virus A
+        <span class="text-[10px] text-gray-500 font-mono">Dual-Filter VA</span>
+      </button>
+      <button onclick="switchSynth('ax60')" id="btn-ax60" class="synth-nav-btn px-3.5 py-1.5 rounded text-xs font-semibold flex items-center gap-2 transition-all text-gray-400 hover:text-white">
+        <span class="w-2.5 h-2.5 rounded-full bg-sky-400 opacity-60"></span>
         Akai AX60
-      </button>
-      <button onclick="setSynthTheme('audity')" id="btn-theme-audity" class="px-3 py-1 rounded text-xs font-bold transition text-zinc-400 hover:text-white">
-        E-MU Audity
-      </button>
-      <button onclick="setSynthTheme('casio')" id="btn-theme-casio" class="px-3 py-1 rounded text-xs font-bold transition text-zinc-400 hover:text-white">
-        Casio CZ
+        <span class="text-[10px] text-gray-500 font-mono">VCO / Sampler In</span>
       </button>
     </div>
-  </div>
 
-  <!-- THE ERGONOMIC SYNTHESIZER EDITOR SURFACE -->
-  <div class="w-full max-w-6xl bg-[var(--bg-panel)] rounded-xl border border-[var(--border-main)] shadow-2xl overflow-hidden flex flex-col transition-colors duration-300">
-    
-    <!-- TOP PROGRAMMER & IDENTITY STRIP -->
-    <div class="px-5 py-3.5 bg-black/30 border-b border-[var(--border-main)] flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
-      
-      <!-- Synth Title & Specs -->
-      <div class="flex items-center gap-4">
-        <div class="w-1.5 h-10 rounded bg-[var(--accent-primary)] shadow-[0_0_8px_var(--accent-glow)]"></div>
-        <div>
-          <div class="flex items-center gap-2">
-            <span id="synth-brand" class="font-bold text-sm tracking-widest text-[var(--accent-secondary)] uppercase">ACCESS MUSIC</span>
-            <span class="text-xs text-zinc-500">•</span>
-            <span id="synth-model" class="font-brand text-lg font-black text-white tracking-wider">VIRUS A</span>
+    <!-- Live MIDI Status & Audition -->
+    <div class="flex items-center space-x-3">
+      <button id="audio-audition-btn" onclick="triggerTestNote()" class="px-3 py-1.5 rounded text-xs font-medium bg-emerald-600/20 border border-emerald-500/40 text-emerald-400 hover:bg-emerald-600/30 transition flex items-center gap-2">
+        <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"/></svg>
+        Audition Note <span class="text-[10px] opacity-60">(Spacebar)</span>
+      </button>
+      <div class="h-4 w-px bg-gray-700"></div>
+      <div class="text-[11px] font-mono text-gray-400 flex items-center gap-1.5">
+        <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
+        <span>MIDI Out: <b class="text-gray-200">USB-MIDI Port 1</b></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN WORKSPACE CONTAINER -->
+  <main class="flex-1 p-5 overflow-y-auto">
+
+    <!-- ========================================================================================= -->
+    <!-- SYNTH 1: E-MU AUDITY 2000 BESPOKE EDITOR                                                 -->
+    <!-- Architecture: 16-Part Multitimbral, 4 Layers (Sound Playback), 50 Z-Plane Filters,       -->
+    <!-- 24-Cord Modulation Patch Bay, 16 Simultaneous Arpeggiators.                              -->
+    <!-- Hardware Inspiration: Metallic Deep Navy/Slate, Lime Green LCD, Gold Audity Badge.      -->
+    <!-- ========================================================================================= -->
+    <div id="view-audity" class="synth-view space-y-5">
+      <!-- Instrument Header Card -->
+      <div class="bg-[#0f172a] border border-[#1e293b] rounded-xl p-4 shadow-xl flex flex-wrap items-center justify-between gap-4">
+        <div class="flex items-center space-x-4">
+          <!-- E-MU Audity Logo Styling -->
+          <div class="border-l-4 border-amber-400 pl-3">
+            <div class="text-xs font-tech font-bold uppercase tracking-widest text-amber-400">E-MU Systems</div>
+            <div class="text-2xl font-tech font-bold tracking-wider text-slate-100 flex items-center gap-2">
+              AUDITY <span class="text-cyan-400 font-extrabold">2000</span>
+              <span class="text-[11px] font-mono font-normal bg-slate-800 text-slate-300 px-2 py-0.5 rounded border border-slate-700">16-Part Synthesizer</span>
+            </div>
           </div>
-          <span id="synth-engine-tag" class="text-[10px] text-zinc-400 font-mono">16-Voice Dual DSP Virtual Analog Engine</span>
+        </div>
+
+        <!-- 2x24 E-MU Lime Green Matrix LCD Display -->
+        <div class="bg-[#1b2b1b] border-2 border-[#2b442b] rounded px-4 py-2 text-[#76f076] font-lcd shadow-inner text-sm flex flex-col justify-center min-w-[320px]">
+          <div class="flex justify-between items-center text-xs opacity-75 border-b border-[#2b442b] pb-0.5 mb-1">
+            <span>PRESET: 001 USER</span>
+            <span>ROM 1: AUDITY EXP</span>
+          </div>
+          <div class="flex justify-between items-center font-bold tracking-wider text-base">
+            <span id="emu-display-title">P001: CyberMorph X</span>
+            <span class="text-xs bg-[#76f076]/20 px-1 rounded text-[#76f076]">VOL: 127</span>
+          </div>
+        </div>
+
+        <!-- Multitimbral Channel Selector Bar (Audity is 16-part multitimbral) -->
+        <div class="flex flex-col items-end">
+          <span class="text-[10px] uppercase tracking-wider text-slate-400 font-semibold mb-1">Active Multitimbral Channel</span>
+          <div class="grid grid-cols-8 gap-1 bg-[#090d16] p-1 rounded border border-slate-800">
+            <button class="w-6 h-6 rounded text-[10px] font-mono font-bold bg-cyan-600 text-white shadow">1</button>
+            <button class="w-6 h-6 rounded text-[10px] font-mono text-slate-400 hover:text-white">2</button>
+            <button class="w-6 h-6 rounded text-[10px] font-mono text-slate-400 hover:text-white">3</button>
+            <button class="w-6 h-6 rounded text-[10px] font-mono text-slate-400 hover:text-white">4</button>
+            <button class="w-6 h-6 rounded text-[10px] font-mono text-slate-400 hover:text-white">5</button>
+            <button class="w-6 h-6 rounded text-[10px] font-mono text-slate-400 hover:text-white">6</button>
+            <button class="w-6 h-6 rounded text-[10px] font-mono text-slate-400 hover:text-white">7</button>
+            <button class="w-6 h-6 rounded text-[10px] font-mono text-slate-400 hover:text-white">8</button>
+            <button class="w-6 h-6 rounded text-[10px] font-mono text-slate-400 hover:text-white">9</button>
+            <button class="w-6 h-6 rounded text-[10px] font-mono text-slate-400 hover:text-white">10</button>
+            <button class="w-6 h-6 rounded text-[10px] font-mono text-slate-400 hover:text-white">11</button>
+            <button class="w-6 h-6 rounded text-[10px] font-mono text-slate-400 hover:text-white">12</button>
+            <button class="w-6 h-6 rounded text-[10px] font-mono text-slate-400 hover:text-white">13</button>
+            <button class="w-6 h-6 rounded text-[10px] font-mono text-slate-400 hover:text-white">14</button>
+            <button class="w-6 h-6 rounded text-[10px] font-mono text-slate-400 hover:text-white">15</button>
+            <button class="w-6 h-6 rounded text-[10px] font-mono text-slate-400 hover:text-white">16</button>
+          </div>
         </div>
       </div>
 
-      <!-- Center: Hardware-Matched LCD / LED Display Readout -->
-      <div class="themed-display px-4 py-2 rounded-lg flex items-center justify-between gap-6 w-full md:w-80 font-lcd transition-colors duration-300">
-        <div>
-          <div class="text-[10px] text-zinc-400 uppercase tracking-widest">Active Patch</div>
-          <div id="display-patch-name" class="text-sm font-bold themed-display-text tracking-wider truncate">A001: Aggro Hypersaw</div>
-        </div>
-        <div class="text-right">
-          <div id="display-param-label" class="text-[10px] text-zinc-400 uppercase">Cutoff 1</div>
-          <div id="display-param-val" class="text-base font-black themed-display-text">85 (67%)</div>
-        </div>
-      </div>
+      <!-- Audity 2000 Specific 3-Column Architectural Layout -->
+      <div class="grid grid-cols-12 gap-5">
 
-      <!-- Action Toolbar -->
-      <div class="flex items-center gap-2">
-        <select id="preset-selector" onchange="loadPreset(this.value)" class="bg-[var(--bg-card)] border border-[var(--border-main)] text-xs text-zinc-200 rounded px-3 py-1.5 focus:outline-none focus:border-[var(--accent-primary)] font-mono">
-          <option value="0">Preset 1: Aggro Lead</option>
-          <option value="1">Preset 2: Deep Sub Bass</option>
-          <option value="2">Preset 3: Lush Pad Sweep</option>
-          <option value="3">Preset 4: Resonant Pluck</option>
-        </select>
-        <button onclick="playDemoSound()" class="px-3.5 py-1.5 bg-[var(--accent-primary)] hover:opacity-90 active:scale-95 text-white font-bold text-xs rounded shadow transition flex items-center gap-1.5">
-          <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-          Audition
-        </button>
-      </div>
+        <!-- Column 1: 4-Layer Sound Generator (Audity has 4 independent sample layers per preset) -->
+        <div class="col-span-12 lg:col-span-4 space-y-4">
+          <div class="bg-[#0f172a] border border-[#1e293b] rounded-xl p-4 shadow-lg">
+            <div class="flex items-center justify-between border-b border-slate-800 pb-2 mb-3">
+              <h3 class="text-xs font-bold uppercase tracking-wider text-cyan-400 flex items-center gap-2">
+                <span class="w-2 h-2 rounded bg-cyan-400"></span>
+                4-Layer Sound Architecture
+              </h3>
+              <span class="text-[10px] text-slate-400 font-mono">64-Voice Engine</span>
+            </div>
 
+            <!-- Layer 1 -->
+            <div class="bg-[#152238] rounded-lg p-3 border border-cyan-500/30 mb-2.5">
+              <div class="flex items-center justify-between mb-2">
+                <div class="flex items-center gap-2">
+                  <input type="checkbox" checked class="accent-cyan-400 w-3.5 h-3.5">
+                  <span class="text-xs font-bold text-white">Layer 1: Primary</span>
+                </div>
+                <span class="text-[10px] font-mono bg-cyan-950 text-cyan-300 px-1.5 py-0.5 rounded border border-cyan-800">ROM Inst #084</span>
+              </div>
+              <div class="text-[11px] text-slate-300 mb-2 font-mono truncate">Instrument: "Tekno Acid Waveform"</div>
+              <div class="grid grid-cols-3 gap-2 text-center">
+                <div class="bg-[#0b1322] p-1.5 rounded">
+                  <div class="text-[9px] uppercase text-slate-400">Key Range</div>
+                  <div class="text-xs font-mono font-bold text-slate-200">C-1 -> G8</div>
+                </div>
+                <div class="bg-[#0b1322] p-1.5 rounded">
+                  <div class="text-[9px] uppercase text-slate-400">Vel Cross</div>
+                  <div class="text-xs font-mono font-bold text-slate-200">0 -> 127</div>
+                </div>
+                <div class="bg-[#0b1322] p-1.5 rounded">
+                  <div class="text-[9px] uppercase text-slate-400">Tuning</div>
+                  <div class="text-xs font-mono font-bold text-cyan-400">0 Semi</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Layer 2 -->
+            <div class="bg-[#131b2e] rounded-lg p-3 border border-slate-800 mb-2.5 opacity-90">
+              <div class="flex items-center justify-between mb-2">
+                <div class="flex items-center gap-2">
+                  <input type="checkbox" checked class="accent-cyan-400 w-3.5 h-3.5">
+                  <span class="text-xs font-bold text-slate-200">Layer 2: Secondary</span>
+                </div>
+                <span class="text-[10px] font-mono bg-slate-900 text-slate-400 px-1.5 py-0.5 rounded border border-slate-700">ROM Inst #142</span>
+              </div>
+              <div class="text-[11px] text-slate-300 mb-2 font-mono truncate">Instrument: "Digital Vox Air"</div>
+              <div class="grid grid-cols-3 gap-2 text-center">
+                <div class="bg-[#0b1322] p-1.5 rounded">
+                  <div class="text-[9px] uppercase text-slate-400">Key Range</div>
+                  <div class="text-xs font-mono font-bold text-slate-200">C2 -> C7</div>
+                </div>
+                <div class="bg-[#0b1322] p-1.5 rounded">
+                  <div class="text-[9px] uppercase text-slate-400">Vel Cross</div>
+                  <div class="text-xs font-mono font-bold text-slate-200">64 -> 127</div>
+                </div>
+                <div class="bg-[#0b1322] p-1.5 rounded">
+                  <div class="text-[9px] uppercase text-slate-400">Tuning</div>
+                  <div class="text-xs font-mono font-bold text-cyan-400">+12 Semi</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Layer 3 & 4 (Audity supports up to 4 layers) -->
+            <div class="grid grid-cols-2 gap-2 text-xs">
+              <div class="bg-[#0d1524] p-2 rounded border border-slate-800 text-slate-500 flex items-center justify-between">
+                <span>Layer 3: Sub</span>
+                <span class="text-[10px] bg-slate-900 px-1 rounded">MUTED</span>
+              </div>
+              <div class="bg-[#0d1524] p-2 rounded border border-slate-800 text-slate-500 flex items-center justify-between">
+                <span>Layer 4: Trans</span>
+                <span class="text-[10px] bg-slate-900 px-1 rounded">MUTED</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Audity 16-Simultaneous Arpeggiators -->
+          <div class="bg-[#0f172a] border border-[#1e293b] rounded-xl p-4 shadow-lg">
+            <div class="flex items-center justify-between border-b border-slate-800 pb-2 mb-3">
+              <h3 class="text-xs font-bold uppercase tracking-wider text-amber-400 flex items-center gap-2">
+                <span class="w-2 h-2 rounded bg-amber-400"></span>
+                Rhythmic Arpeggiator (16 Multi-Arps)
+              </h3>
+              <span class="text-[10px] text-amber-300 font-mono">BPM: 138.0</span>
+            </div>
+            <div class="space-y-3">
+              <div class="flex items-center justify-between text-xs">
+                <span class="text-slate-400">Arp Mode:</span>
+                <select class="bg-[#0a0f1d] border border-slate-700 text-slate-200 text-xs rounded px-2 py-1">
+                  <option>Pattern 042: Techno Bass 1</option>
+                  <option>Pattern 088: Trance Gate 16th</option>
+                  <option>Up / Down Alternate</option>
+                </select>
+              </div>
+              <div class="grid grid-cols-4 gap-2 text-center text-xs">
+                <div class="bg-[#152238] p-2 rounded border border-slate-800">
+                  <div class="text-[9px] uppercase text-slate-400">Resolution</div>
+                  <div class="font-mono font-bold text-amber-300">1/16T</div>
+                </div>
+                <div class="bg-[#152238] p-2 rounded border border-slate-800">
+                  <div class="text-[9px] uppercase text-slate-400">Sync Mode</div>
+                  <div class="font-mono font-bold text-amber-300">MIDI Clock</div>
+                </div>
+                <div class="bg-[#152238] p-2 rounded border border-slate-800">
+                  <div class="text-[9px] uppercase text-slate-400">Gate Time</div>
+                  <div class="font-mono font-bold text-amber-300">75%</div>
+                </div>
+                <div class="bg-[#152238] p-2 rounded border border-slate-800">
+                  <div class="text-[9px] uppercase text-slate-400">Velocity</div>
+                  <div class="font-mono font-bold text-amber-300">Played</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Column 2: The Crown Jewel of Audity 2000 — 14-Pole Z-Plane Morphing Filter Matrix -->
+        <div class="col-span-12 lg:col-span-5 space-y-4">
+          <div class="bg-[#0f172a] border border-[#1e293b] rounded-xl p-4 shadow-lg">
+            <div class="flex items-center justify-between border-b border-slate-800 pb-2 mb-3">
+              <div class="flex items-center gap-2">
+                <div class="w-2.5 h-2.5 rounded-full bg-cyan-400 animate-pulse"></div>
+                <h3 class="text-xs font-bold uppercase tracking-wider text-cyan-400">
+                  14-Pole Z-Plane Morphing Filter
+                </h3>
+              </div>
+              <span class="text-[10px] bg-cyan-950 text-cyan-300 px-2 py-0.5 rounded border border-cyan-800 font-mono">
+                50 Filter Models
+              </span>
+            </div>
+
+            <!-- Filter Type Selector -->
+            <div class="mb-3">
+              <label class="text-[11px] text-slate-400 block mb-1">Z-Plane Filter Algorithm:</label>
+              <select id="audity-filter-select" onchange="updateAudityFilter(this.value)" class="w-full bg-[#090e18] border border-cyan-500/40 text-cyan-200 text-xs rounded p-2 font-mono">
+                <option value="vocal">Model 31: "Vocal Vowels (A-E-I-O-U Morph)"</option>
+                <option value="acid">Model 12: "Deep Acid 24dB Extreme TB-303"</option>
+                <option value="comb">Model 47: "Swept 14-Pole Resonant Comb Matrix"</option>
+                <option value="octave">Model 08: "Swept Octave Dual-Peak EQ"</option>
+              </select>
+            </div>
+
+            <!-- Z-Plane Interactive 2D Frequency Response Canvas -->
+            <div class="relative bg-[#070b14] border border-cyan-900/60 rounded-lg p-3 h-48 overflow-hidden shadow-inner flex flex-col justify-between">
+              <div class="flex justify-between items-center text-[10px] font-mono text-cyan-500/70 z-10">
+                <span>14-POLE POLE-ZERO COORD</span>
+                <span id="zplane-coords">Morph X: 64% | Q-Peak: +18dB</span>
+              </div>
+              <svg id="zplane-svg" class="absolute inset-0 w-full h-full" viewBox="0 0 500 180" preserveAspectRatio="none">
+                <!-- Grid Lines -->
+                <line x1="0" y1="90" x2="500" y2="90" stroke="#13233b" stroke-width="1" stroke-dasharray="4,4"/>
+                <line x1="125" y1="0" x2="125" y2="180" stroke="#13233b" stroke-width="1" stroke-dasharray="4,4"/>
+                <line x1="250" y1="0" x2="250" y2="180" stroke="#13233b" stroke-width="1" stroke-dasharray="4,4"/>
+                <line x1="375" y1="0" x2="375" y2="180" stroke="#13233b" stroke-width="1" stroke-dasharray="4,4"/>
+                <!-- Complex Z-Plane curve -->
+                <path id="zplane-curve" d="M 0,150 C 70,140 120,40 160,20 C 190,5 210,130 260,30 C 310,10 350,150 500,170" fill="url(#zplane-grad)" stroke="#22d3ee" stroke-width="2.5"/>
+                <defs>
+                  <linearGradient id="zplane-grad" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.35"/>
+                    <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.0"/>
+                  </linearGradient>
+                </defs>
+                <!-- Draggable Pole Handles -->
+                <circle id="zplane-pole-1" cx="160" cy="20" r="6" fill="#38bdf8" stroke="#ffffff" stroke-width="2" class="cursor-pointer"/>
+                <circle id="zplane-pole-2" cx="260" cy="30" r="6" fill="#fbbf24" stroke="#ffffff" stroke-width="2" class="cursor-pointer"/>
+              </svg>
+              <div class="flex justify-between items-center text-[10px] font-mono text-slate-500 z-10 pt-2 border-t border-slate-900">
+                <span>20 Hz</span>
+                <span>100 Hz</span>
+                <span>1 kHz</span>
+                <span>10 kHz</span>
+                <span>20 kHz</span>
+              </div>
+            </div>
+
+            <!-- Z-Plane Controls -->
+            <div class="grid grid-cols-3 gap-3 mt-4">
+              <div>
+                <div class="flex justify-between text-xs text-slate-400 mb-1">
+                  <span>Morph X:</span>
+                  <span id="val-morph" class="font-mono text-cyan-300 font-bold">84</span>
+                </div>
+                <input type="range" min="0" max="127" value="84" class="w-full h-1.5 bg-slate-800 accent-cyan-400 rounded-lg cursor-pointer" oninput="document.getElementById('val-morph').innerText = this.value; emitSysEx('audity', 'morph', this.value);">
+              </div>
+              <div>
+                <div class="flex justify-between text-xs text-slate-400 mb-1">
+                  <span>Frequency:</span>
+                  <span id="val-audity-fc" class="font-mono text-cyan-300 font-bold">102</span>
+                </div>
+                <input type="range" min="0" max="127" value="102" class="w-full h-1.5 bg-slate-800 accent-cyan-400 rounded-lg cursor-pointer" oninput="document.getElementById('val-audity-fc').innerText = this.value; emitSysEx('audity', 'cutoff', this.value);">
+              </div>
+              <div>
+                <div class="flex justify-between text-xs text-slate-400 mb-1">
+                  <span>Resonance:</span>
+                  <span id="val-audity-q" class="font-mono text-cyan-300 font-bold">96</span>
+                </div>
+                <input type="range" min="0" max="127" value="96" class="w-full h-1.5 bg-slate-800 accent-cyan-400 rounded-lg cursor-pointer" oninput="document.getElementById('val-audity-q').innerText = this.value; emitSysEx('audity', 'res', this.value);">
+              </div>
+            </div>
+          </div>
+
+          <!-- Triple Envelopes (Audity provides Filter, Amp, and Aux Envelopes) -->
+          <div class="bg-[#0f172a] border border-[#1e293b] rounded-xl p-4 shadow-lg">
+            <div class="flex items-center justify-between border-b border-slate-800 pb-2 mb-3">
+              <h3 class="text-xs font-bold uppercase tracking-wider text-slate-300">
+                Triple 6-Stage Envelope Generators
+              </h3>
+              <div class="flex gap-1 text-[10px]">
+                <button class="px-2 py-0.5 rounded bg-cyan-600 text-white font-bold">Env 1 (Amp)</button>
+                <button class="px-2 py-0.5 rounded bg-slate-800 text-slate-400 hover:text-white">Env 2 (Filter)</button>
+                <button class="px-2 py-0.5 rounded bg-slate-800 text-slate-400 hover:text-white">Env 3 (Aux)</button>
+              </div>
+            </div>
+            <div class="grid grid-cols-6 gap-2 text-center">
+              <div class="bg-[#090e18] p-2 rounded">
+                <div class="text-[9px] uppercase text-slate-400">Atk 1</div>
+                <div class="text-xs font-mono font-bold text-cyan-300">12ms</div>
+              </div>
+              <div class="bg-[#090e18] p-2 rounded">
+                <div class="text-[9px] uppercase text-slate-400">Atk 2</div>
+                <div class="text-xs font-mono font-bold text-cyan-300">45ms</div>
+              </div>
+              <div class="bg-[#090e18] p-2 rounded">
+                <div class="text-[9px] uppercase text-slate-400">Decay 1</div>
+                <div class="text-xs font-mono font-bold text-cyan-300">180ms</div>
+              </div>
+              <div class="bg-[#090e18] p-2 rounded">
+                <div class="text-[9px] uppercase text-slate-400">Decay 2</div>
+                <div class="text-xs font-mono font-bold text-cyan-300">320ms</div>
+              </div>
+              <div class="bg-[#090e18] p-2 rounded">
+                <div class="text-[9px] uppercase text-slate-400">Sustain</div>
+                <div class="text-xs font-mono font-bold text-cyan-300">70%</div>
+              </div>
+              <div class="bg-[#090e18] p-2 rounded">
+                <div class="text-[9px] uppercase text-slate-400">Release</div>
+                <div class="text-xs font-mono font-bold text-cyan-300">450ms</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Column 3: E-MU's Famous "24-Cord Modulation Matrix" -->
+        <div class="col-span-12 lg:col-span-3 space-y-4">
+          <div class="bg-[#0f172a] border border-[#1e293b] rounded-xl p-4 shadow-lg flex flex-col h-full">
+            <div class="flex items-center justify-between border-b border-slate-800 pb-2 mb-3">
+              <h3 class="text-xs font-bold uppercase tracking-wider text-amber-400 flex items-center gap-1.5">
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                24 Virtual Patch Cords
+              </h3>
+              <span class="text-[10px] font-mono text-slate-400">Cords 1-6</span>
+            </div>
+
+            <!-- Virtual Cords List -->
+            <div class="space-y-2 text-xs flex-1">
+              <!-- Cord 1 -->
+              <div class="bg-[#131d2e] p-2 rounded border border-slate-800 flex items-center justify-between">
+                <div>
+                  <div class="text-slate-400 text-[10px]">Cord 01:</div>
+                  <div class="font-bold text-slate-200">LFO 1 -> Z-Plane Morph</div>
+                </div>
+                <span class="font-mono text-cyan-400 font-bold bg-[#090e18] px-2 py-1 rounded">+64%</span>
+              </div>
+              <!-- Cord 2 -->
+              <div class="bg-[#131d2e] p-2 rounded border border-slate-800 flex items-center justify-between">
+                <div>
+                  <div class="text-slate-400 text-[10px]">Cord 02:</div>
+                  <div class="font-bold text-slate-200">Velocity -> Filter Cutoff</div>
+                </div>
+                <span class="font-mono text-cyan-400 font-bold bg-[#090e18] px-2 py-1 rounded">+45%</span>
+              </div>
+              <!-- Cord 3 -->
+              <div class="bg-[#131d2e] p-2 rounded border border-slate-800 flex items-center justify-between">
+                <div>
+                  <div class="text-slate-400 text-[10px]">Cord 03:</div>
+                  <div class="font-bold text-slate-200">ModWheel -> LFO 1 Depth</div>
+                </div>
+                <span class="font-mono text-cyan-400 font-bold bg-[#090e18] px-2 py-1 rounded">+80%</span>
+              </div>
+              <!-- Cord 4 -->
+              <div class="bg-[#131d2e] p-2 rounded border border-slate-800 flex items-center justify-between">
+                <div>
+                  <div class="text-slate-400 text-[10px]">Cord 04:</div>
+                  <div class="font-bold text-slate-200">Key Pitch -> Filter Q</div>
+                </div>
+                <span class="font-mono text-amber-400 font-bold bg-[#090e18] px-2 py-1 rounded">-22%</span>
+              </div>
+              <!-- Cord 5 -->
+              <div class="bg-[#131d2e] p-2 rounded border border-slate-800 flex items-center justify-between">
+                <div>
+                  <div class="text-slate-400 text-[10px]">Cord 05:</div>
+                  <div class="font-bold text-slate-200">Env 3 (Aux) -> Pitch L1</div>
+                </div>
+                <span class="font-mono text-cyan-400 font-bold bg-[#090e18] px-2 py-1 rounded">+12 Semi</span>
+              </div>
+              <!-- Cord 6 -->
+              <div class="bg-[#131d2e] p-2 rounded border border-slate-800 flex items-center justify-between">
+                <div>
+                  <div class="text-slate-400 text-[10px]">Cord 06:</div>
+                  <div class="font-bold text-slate-200">Pressure -> Chorus Wet</div>
+                </div>
+                <span class="font-mono text-cyan-400 font-bold bg-[#090e18] px-2 py-1 rounded">+35%</span>
+              </div>
+            </div>
+
+            <button class="mt-3 w-full py-2 rounded bg-[#1e293b] hover:bg-[#334155] text-xs font-semibold text-cyan-300 border border-slate-700 transition">
+              + Add Virtual Modulation Cord
+            </button>
+          </div>
+        </div>
+
+      </div>
     </div>
 
-    <!-- MAIN CONTROL MATRIX (4 LOGICAL COLUMNS) -->
-    <div class="p-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-      
-      <!-- SECTION 1: OSCILLATORS / SOUND GENERATORS -->
-      <div class="bg-[var(--bg-card)] p-4 rounded-lg border border-[var(--border-main)] flex flex-col justify-between gap-3">
-        <div class="flex items-center justify-between border-b border-[var(--border-main)] pb-2">
-          <span class="text-xs font-bold uppercase tracking-wider text-[var(--accent-secondary)]">Oscillators</span>
-          <span class="text-[10px] text-zinc-500 font-mono">DUAL CORE</span>
+
+    <!-- ========================================================================================= -->
+    <!-- SYNTH 2: ACCESS VIRUS A BESPOKE EDITOR                                                   -->
+    <!-- Architecture: 2 Multi-Waveform Oscillators + Sub + FM/RingMod, Dual Multi-Mode Filters    -->
+    <!-- with Serial/Parallel Routing, Analog Boost, 3 LFOs with 68 shapes, Delay/Vocoder FX.      -->
+    <!-- Hardware Inspiration: Charcoal Panel, Crimson Red Stripe & Titles, Green Dot Matrix LCD. -->
+    <!-- ========================================================================================= -->
+    <div id="view-virus" class="synth-view hidden space-y-5">
+      <!-- Virus Header Card -->
+      <div class="bg-[#141518] border-t-4 border-t-red-600 border-x border-b border-[#24272f] rounded-xl p-4 shadow-xl flex flex-wrap items-center justify-between gap-4">
+        <div class="flex items-center space-x-4">
+          <div class="bg-red-600/10 border border-red-600/40 px-3 py-1.5 rounded">
+            <span class="text-xl font-black tracking-widest text-white uppercase">ACCESS</span>
+            <span class="text-xl font-bold tracking-wider text-red-500 ml-1">VIRUS</span>
+            <span class="text-xs bg-red-600 text-white font-mono px-1.5 py-0.5 rounded ml-1 font-bold">A</span>
+          </div>
+          <div class="text-xs text-gray-400 font-mono">12-Voice Virtual Analog Synthesizer</div>
         </div>
 
-        <div class="space-y-3">
-          <div>
-            <div class="flex justify-between text-xs text-zinc-300 mb-1">
-              <span>Osc 1 Waveform</span>
-              <span class="font-mono text-[var(--accent-secondary)]" id="readout-osc1">Saw (64)</span>
-            </div>
-            <div class="flex justify-around pt-1">
-              <div class="flex flex-col items-center">
-                <div class="modern-knob" data-param="osc1_shape" data-val="64">
-                  <div class="knob-pointer-line"></div>
-                </div>
-                <span class="text-[9px] text-zinc-400 mt-1">Shape</span>
-              </div>
-              <div class="flex flex-col items-center">
-                <div class="modern-knob" data-param="osc1_semi" data-val="0" data-min="-24" data-max="24">
-                  <div class="knob-pointer-line"></div>
-                </div>
-                <span class="text-[9px] text-zinc-400 mt-1">Semi</span>
-              </div>
-              <div class="flex flex-col items-center">
-                <div class="modern-knob" data-param="osc1_detune" data-val="6">
-                  <div class="knob-pointer-line"></div>
-                </div>
-                <span class="text-[9px] text-zinc-400 mt-1">Detune</span>
-              </div>
-            </div>
+        <!-- 2x16 Virus Green Dot Matrix LCD -->
+        <div class="bg-[#102410] border-2 border-[#1c3d1c] rounded px-4 py-2 text-[#72ff7e] font-led shadow-inner text-xl flex flex-col justify-center min-w-[280px]">
+          <div class="flex justify-between items-center text-sm opacity-80 border-b border-[#1c3d1c] pb-0.5 mb-1">
+            <span>BANK A : P024</span>
+            <span>SINGLE MODE</span>
           </div>
+          <div class="flex justify-between items-center tracking-widest">
+            <span>Aggressive Lead</span>
+            <span class="text-xs bg-[#72ff7e]/20 px-1 rounded text-[#72ff7e]">12V</span>
+          </div>
+        </div>
 
-          <div class="pt-2 border-t border-[var(--border-main)]">
-            <div class="flex justify-between text-xs text-zinc-300 mb-1">
-              <span>Osc 2 & Sub/Noise</span>
-              <span class="font-mono text-[var(--accent-secondary)]" id="readout-mix">50/50</span>
-            </div>
-            <div class="flex justify-around pt-1">
-              <div class="flex flex-col items-center">
-                <div class="modern-knob" data-param="osc2_shape" data-val="64">
-                  <div class="knob-pointer-line"></div>
-                </div>
-                <span class="text-[9px] text-zinc-400 mt-1">Shape 2</span>
-              </div>
-              <div class="flex flex-col items-center">
-                <div class="modern-knob" data-param="fm_amt" data-val="15">
-                  <div class="knob-pointer-line"></div>
-                </div>
-                <span class="text-[9px] text-zinc-400 mt-1">FM / Sync</span>
-              </div>
-              <div class="flex flex-col items-center">
-                <div class="modern-knob" data-param="osc_mix" data-val="64">
-                  <div class="knob-pointer-line"></div>
-                </div>
-                <span class="text-[9px] text-zinc-400 mt-1">Balance</span>
-              </div>
-            </div>
-          </div>
+        <!-- Section Quick Toggles -->
+        <div class="flex items-center gap-2">
+          <button class="px-3 py-1.5 rounded bg-red-600 text-white font-bold text-xs shadow-md">Single</button>
+          <button class="px-3 py-1.5 rounded bg-[#1e2129] text-gray-400 hover:text-white text-xs border border-gray-700">Multi</button>
+          <button class="px-3 py-1.5 rounded bg-[#1e2129] text-gray-400 hover:text-white text-xs border border-gray-700">Vocoder</button>
         </div>
       </div>
 
-      <!-- SECTION 2: DUAL FILTERS & RESONANCE CURVE -->
-      <div class="bg-[var(--bg-card)] p-4 rounded-lg border border-[var(--border-main)] flex flex-col justify-between gap-3">
-        <div class="flex items-center justify-between border-b border-[var(--border-main)] pb-2">
-          <span class="text-xs font-bold uppercase tracking-wider text-[var(--accent-secondary)]">Dual Filters</span>
-          <span class="text-[10px] text-zinc-500 font-mono" id="filter-slope-badge">24dB RESO</span>
+      <!-- Virus Bespoke Signal Chain Grid -->
+      <div class="grid grid-cols-12 gap-5">
+
+        <!-- Column 1: Oscillators Section (Dual Osc + Sub + Noise + FM) -->
+        <div class="col-span-12 lg:col-span-4 space-y-4">
+          <div class="bg-[#141518] border border-[#24272f] rounded-xl p-4 shadow-lg">
+            <div class="flex items-center justify-between border-b border-red-900/40 pb-2 mb-3">
+              <h3 class="text-xs font-bold uppercase tracking-wider text-red-500 flex items-center gap-2">
+                <span class="w-2 h-2 rounded bg-red-500"></span>
+                Oscillator Section
+              </h3>
+              <span class="text-[10px] text-gray-400 font-mono">Osc 1 & 2 + Sub</span>
+            </div>
+
+            <!-- Osc 1 -->
+            <div class="bg-[#1a1c22] p-3 rounded-lg border border-gray-800 mb-3">
+              <div class="flex justify-between text-xs font-bold text-white mb-2">
+                <span>Oscillator 1</span>
+                <span class="text-red-400 font-mono text-[11px]">Sawtooth</span>
+              </div>
+              <div class="grid grid-cols-3 gap-2">
+                <div class="text-center">
+                  <div class="text-[9px] text-gray-400 uppercase">Shape</div>
+                  <div class="font-mono text-xs text-white font-bold">Saw</div>
+                </div>
+                <div class="text-center">
+                  <div class="text-[9px] text-gray-400 uppercase">Pulse Width</div>
+                  <div class="font-mono text-xs text-white font-bold">50%</div>
+                </div>
+                <div class="text-center">
+                  <div class="text-[9px] text-gray-400 uppercase">Semitone</div>
+                  <div class="font-mono text-xs text-red-400 font-bold">0 st</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Osc 2 + FM -->
+            <div class="bg-[#1a1c22] p-3 rounded-lg border border-gray-800 mb-3">
+              <div class="flex justify-between text-xs font-bold text-white mb-2">
+                <span>Oscillator 2</span>
+                <span class="text-red-400 font-mono text-[11px]">Square / Pulse</span>
+              </div>
+              <div class="grid grid-cols-3 gap-2 mb-2">
+                <div class="text-center">
+                  <div class="text-[9px] text-gray-400 uppercase">Detune</div>
+                  <div class="font-mono text-xs text-red-400 font-bold">+7 cts</div>
+                </div>
+                <div class="text-center">
+                  <div class="text-[9px] text-gray-400 uppercase">Sync</div>
+                  <div class="font-mono text-xs text-white font-bold">ON</div>
+                </div>
+                <div class="text-center">
+                  <div class="text-[9px] text-gray-400 uppercase">FM Amount</div>
+                  <div class="font-mono text-xs text-red-400 font-bold">42%</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Mixer Section: Sub, Noise, Ring Mod -->
+            <div class="bg-[#0f1013] p-3 rounded-lg border border-gray-800">
+              <div class="text-[10px] uppercase font-bold text-gray-400 mb-2">Mixer / Audio Sources</div>
+              <div class="space-y-2">
+                <div class="flex justify-between items-center text-xs">
+                  <span class="text-gray-400">Sub-Oscillator:</span>
+                  <span class="font-mono text-red-400">75% (Square -1 Oct)</span>
+                </div>
+                <div class="flex justify-between items-center text-xs">
+                  <span class="text-gray-400">Noise Generator:</span>
+                  <span class="font-mono text-red-400">18% (White)</span>
+                </div>
+                <div class="flex justify-between items-center text-xs">
+                  <span class="text-gray-400">Ring Modulator:</span>
+                  <span class="font-mono text-gray-500">OFF</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <!-- Filter Frequency Curve Visualizer -->
-        <div class="bg-black/50 p-2 rounded border border-[var(--border-main)] h-24 flex items-center justify-center relative overflow-hidden">
-          <svg class="w-full h-full" viewBox="0 0 200 80">
-            <path id="filter-curve-bg" d="M 10 70 L 110 70 Q 130 10 145 40 T 190 75" fill="none" stroke="currentColor" class="text-[var(--border-main)]" stroke-width="2"/>
-            <path id="filter-curve-active" d="M 10 70 L 110 70 Q 130 10 145 40 T 190 75" fill="none" stroke="currentColor" class="text-[var(--accent-secondary)]" stroke-width="2.5" stroke-linecap="round"/>
-            <circle id="filter-cutoff-point" cx="130" cy="20" r="4" fill="currentColor" class="text-white shadow"/>
-          </svg>
-          <div class="absolute bottom-1 right-2 text-[9px] font-mono text-zinc-500">20Hz - 20kHz</div>
+        <!-- Column 2: Dual Independent Filters with Serial / Parallel Routing (Signature Virus Feature) -->
+        <div class="col-span-12 lg:col-span-5 space-y-4">
+          <div class="bg-[#141518] border border-[#24272f] rounded-xl p-4 shadow-lg">
+            <div class="flex items-center justify-between border-b border-red-900/40 pb-2 mb-3">
+              <h3 class="text-xs font-bold uppercase tracking-wider text-red-500 flex items-center gap-2">
+                <span class="w-2 h-2 rounded bg-red-500"></span>
+                Dual Multi-Mode Filter Section
+              </h3>
+              <!-- Serial / Parallel Routing Switch -->
+              <div class="flex items-center bg-[#1c1f26] p-0.5 rounded border border-gray-700 text-[10px]">
+                <button class="px-2 py-0.5 rounded bg-red-600 text-white font-bold">Serial 4-Pole</button>
+                <button class="px-2 py-0.5 rounded text-gray-400 hover:text-white">Parallel</button>
+                <button class="px-2 py-0.5 rounded text-gray-400 hover:text-white">Split</button>
+              </div>
+            </div>
+
+            <!-- Dual Filter Controls -->
+            <div class="grid grid-cols-2 gap-3 mb-4">
+              <!-- Filter 1 -->
+              <div class="bg-[#1a1c22] p-3 rounded-lg border border-red-900/40">
+                <div class="flex justify-between items-center mb-2">
+                  <span class="text-xs font-bold text-white">Filter 1</span>
+                  <span class="text-[10px] font-mono text-red-400 bg-red-950 px-1 rounded">24dB Lowpass</span>
+                </div>
+                <div class="space-y-3">
+                  <div>
+                    <div class="flex justify-between text-[11px] text-gray-400 mb-1">
+                      <span>Cutoff:</span>
+                      <span id="virus-f1-val" class="font-mono text-red-400 font-bold">78</span>
+                    </div>
+                    <input type="range" min="0" max="127" value="78" class="w-full h-1.5 bg-gray-800 accent-red-600 rounded cursor-pointer" oninput="document.getElementById('virus-f1-val').innerText = this.value; emitSysEx('virus', 'f1_cutoff', this.value);">
+                  </div>
+                  <div>
+                    <div class="flex justify-between text-[11px] text-gray-400 mb-1">
+                      <span>Resonance:</span>
+                      <span id="virus-q1-val" class="font-mono text-red-400 font-bold">64</span>
+                    </div>
+                    <input type="range" min="0" max="127" value="64" class="w-full h-1.5 bg-gray-800 accent-red-600 rounded cursor-pointer" oninput="document.getElementById('virus-q1-val').innerText = this.value; emitSysEx('virus', 'f1_res', this.value);">
+                  </div>
+                </div>
+              </div>
+
+              <!-- Filter 2 -->
+              <div class="bg-[#1a1c22] p-3 rounded-lg border border-gray-800">
+                <div class="flex justify-between items-center mb-2">
+                  <span class="text-xs font-bold text-white">Filter 2</span>
+                  <span class="text-[10px] font-mono text-gray-400 bg-gray-900 px-1 rounded">12dB Bandpass</span>
+                </div>
+                <div class="space-y-3">
+                  <div>
+                    <div class="flex justify-between text-[11px] text-gray-400 mb-1">
+                      <span>Cutoff:</span>
+                      <span class="font-mono text-white font-bold">92</span>
+                    </div>
+                    <input type="range" min="0" max="127" value="92" class="w-full h-1.5 bg-gray-800 accent-red-600 rounded cursor-pointer">
+                  </div>
+                  <div>
+                    <div class="flex justify-between text-[11px] text-gray-400 mb-1">
+                      <span>Resonance:</span>
+                      <span class="font-mono text-white font-bold">32</span>
+                    </div>
+                    <input type="range" min="0" max="127" value="32" class="w-full h-1.5 bg-gray-800 accent-red-600 rounded cursor-pointer">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Virus Signature Saturation / Analog Boost -->
+            <div class="bg-[#111317] p-3 rounded-lg border border-gray-800">
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-xs font-bold text-red-400 uppercase tracking-wider">Analog Boost & Saturation</span>
+                <span class="text-[10px] text-gray-400 font-mono">Curve: Soft Distortion</span>
+              </div>
+              <div class="grid grid-cols-2 gap-3">
+                <div>
+                  <div class="flex justify-between text-[11px] text-gray-400 mb-1">
+                    <span>Boost Intensity:</span>
+                    <span class="font-mono text-white">65%</span>
+                  </div>
+                  <input type="range" min="0" max="127" value="82" class="w-full h-1.5 bg-gray-800 accent-red-600 rounded cursor-pointer">
+                </div>
+                <div>
+                  <div class="flex justify-between text-[11px] text-gray-400 mb-1">
+                    <span>Filter Balance:</span>
+                    <span class="font-mono text-white">50 / 50</span>
+                  </div>
+                  <input type="range" min="0" max="127" value="64" class="w-full h-1.5 bg-gray-800 accent-red-600 rounded cursor-pointer">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Virus Modulation & LFOs (3 LFOs with 68 shapes) -->
+          <div class="bg-[#141518] border border-[#24272f] rounded-xl p-4 shadow-lg">
+            <div class="flex items-center justify-between border-b border-red-900/40 pb-2 mb-3">
+              <h3 class="text-xs font-bold uppercase tracking-wider text-gray-300">
+                LFO 1 / LFO 2 / LFO 3 (68 Waveforms)
+              </h3>
+              <span class="text-[10px] font-mono text-red-400">Clock: 1/8 D</span>
+            </div>
+            <div class="grid grid-cols-3 gap-3 text-xs">
+              <div class="bg-[#1a1c22] p-2.5 rounded border border-gray-800">
+                <div class="text-[9px] uppercase text-gray-400">LFO 1 -> F1 Cutoff</div>
+                <div class="font-mono text-white font-bold my-1">Shape: S&H 42</div>
+                <div class="text-[10px] text-red-400 font-mono">Depth: +55</div>
+              </div>
+              <div class="bg-[#1a1c22] p-2.5 rounded border border-gray-800">
+                <div class="text-[9px] uppercase text-gray-400">LFO 2 -> Osc 1 PWM</div>
+                <div class="font-mono text-white font-bold my-1">Shape: Triangle</div>
+                <div class="text-[10px] text-red-400 font-mono">Depth: +78</div>
+              </div>
+              <div class="bg-[#1a1c22] p-2.5 rounded border border-gray-800">
+                <div class="text-[9px] uppercase text-gray-400">LFO 3 -> Pan Spread</div>
+                <div class="font-mono text-white font-bold my-1">Shape: Sine Wave</div>
+                <div class="text-[10px] text-red-400 font-mono">Depth: +30</div>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <!-- Filter Knobs -->
-        <div class="flex justify-around pt-1">
-          <div class="flex flex-col items-center">
-            <div class="modern-knob" data-param="cutoff" data-val="85">
-              <div class="knob-pointer-line"></div>
+        <!-- Column 3: Multi-Effects Rack (Stereo Delay, Chorus, Vocoder) -->
+        <div class="col-span-12 lg:col-span-3 space-y-4">
+          <div class="bg-[#141518] border border-[#24272f] rounded-xl p-4 shadow-lg h-full flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between border-b border-red-900/40 pb-2 mb-3">
+                <h3 class="text-xs font-bold uppercase tracking-wider text-red-500">
+                  On-Board FX Engine
+                </h3>
+                <span class="text-[10px] bg-red-950 text-red-300 px-1.5 py-0.5 rounded">24-Bit</span>
+              </div>
+
+              <!-- Stereo Delay -->
+              <div class="bg-[#1a1c22] p-3 rounded-lg border border-gray-800 mb-3">
+                <div class="flex justify-between items-center mb-2">
+                  <span class="text-xs font-bold text-white">Ping-Pong Delay</span>
+                  <input type="checkbox" checked class="accent-red-600">
+                </div>
+                <div class="space-y-2 text-xs">
+                  <div class="flex justify-between text-gray-400">
+                    <span>Time:</span>
+                    <span class="font-mono text-red-400">375 ms (3/16)</span>
+                  </div>
+                  <div class="flex justify-between text-gray-400">
+                    <span>Feedback:</span>
+                    <span class="font-mono text-white">48%</span>
+                  </div>
+                  <div class="flex justify-between text-gray-400">
+                    <span>Color / Damp:</span>
+                    <span class="font-mono text-white">Warm Tape</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Chorus / Flanger -->
+              <div class="bg-[#1a1c22] p-3 rounded-lg border border-gray-800 mb-3">
+                <div class="flex justify-between items-center mb-2">
+                  <span class="text-xs font-bold text-white">Ensemble Chorus</span>
+                  <input type="checkbox" checked class="accent-red-600">
+                </div>
+                <div class="space-y-2 text-xs">
+                  <div class="flex justify-between text-gray-400">
+                    <span>Rate:</span>
+                    <span class="font-mono text-white">0.85 Hz</span>
+                  </div>
+                  <div class="flex justify-between text-gray-400">
+                    <span>Depth:</span>
+                    <span class="font-mono text-red-400">62%</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 32-Band Vocoder Section -->
+              <div class="bg-[#1a1c22] p-3 rounded-lg border border-gray-800">
+                <div class="flex justify-between items-center mb-1">
+                  <span class="text-xs font-bold text-white">32-Band Vocoder</span>
+                  <span class="text-[10px] bg-gray-800 text-gray-400 px-1 rounded">Standby</span>
+                </div>
+                <p class="text-[10px] text-gray-400">External Audio Input required as Modulator.</p>
+              </div>
             </div>
-            <span class="text-[9px] text-zinc-300 font-semibold mt-1">Cutoff 1</span>
-            <span class="text-[9px] font-mono text-[var(--accent-secondary)] readout">85</span>
-          </div>
-          <div class="flex flex-col items-center">
-            <div class="modern-knob" data-param="reso" data-val="72">
-              <div class="knob-pointer-line"></div>
+
+            <div class="pt-3 border-t border-gray-800 text-center">
+              <span class="text-[11px] font-mono text-red-400">SysEx: F0 00 20 33 01 00 ... F7</span>
             </div>
-            <span class="text-[9px] text-zinc-300 font-semibold mt-1">Resonance</span>
-            <span class="text-[9px] font-mono text-[var(--accent-secondary)] readout">72</span>
-          </div>
-          <div class="flex flex-col items-center">
-            <div class="modern-knob" data-param="env_amt" data-val="55">
-              <div class="knob-pointer-line"></div>
-            </div>
-            <span class="text-[9px] text-zinc-300 font-semibold mt-1">Env Amount</span>
-            <span class="text-[9px] font-mono text-[var(--accent-secondary)] readout">+55</span>
           </div>
         </div>
+
       </div>
-
-      <!-- SECTION 3: ENVELOPE GENERATOR (ADSR / 8-STAGE PD) -->
-      <div class="bg-[var(--bg-card)] p-4 rounded-lg border border-[var(--border-main)] flex flex-col justify-between gap-3">
-        <div class="flex items-center justify-between border-b border-[var(--border-main)] pb-2">
-          <span class="text-xs font-bold uppercase tracking-wider text-[var(--accent-secondary)]">Envelope Generator</span>
-          <span class="text-[10px] text-zinc-500 font-mono" id="env-type-badge">ADSR</span>
-        </div>
-
-        <!-- Envelope Curve Visualizer -->
-        <div class="bg-black/50 p-2 rounded border border-[var(--border-main)] h-24 flex items-center justify-center relative overflow-hidden">
-          <svg class="w-full h-full" viewBox="0 0 200 80">
-            <polyline id="env-curve" points="10,75 35,15 80,45 150,45 190,75" fill="none" stroke="currentColor" class="text-[var(--accent-primary)]" stroke-width="2.5" stroke-linecap="round"/>
-            <circle cx="35" cy="15" r="3" fill="#ffffff"/>
-            <circle cx="80" cy="45" r="3" fill="#ffffff"/>
-            <circle cx="150" cy="45" r="3" fill="#ffffff"/>
-          </svg>
-        </div>
-
-        <!-- ADSR Faders/Knobs -->
-        <div class="grid grid-cols-4 gap-1 text-center">
-          <div class="flex flex-col items-center">
-            <div class="modern-knob" data-param="att" data-val="8">
-              <div class="knob-pointer-line"></div>
-            </div>
-            <span class="text-[9px] text-zinc-400 mt-1">Att</span>
-            <span class="text-[8px] font-mono text-zinc-300 readout">8</span>
-          </div>
-          <div class="flex flex-col items-center">
-            <div class="modern-knob" data-param="dec" data-val="45">
-              <div class="knob-pointer-line"></div>
-            </div>
-            <span class="text-[9px] text-zinc-400 mt-1">Dec</span>
-            <span class="text-[8px] font-mono text-zinc-300 readout">45</span>
-          </div>
-          <div class="flex flex-col items-center">
-            <div class="modern-knob" data-param="sus" data-val="70">
-              <div class="knob-pointer-line"></div>
-            </div>
-            <span class="text-[9px] text-zinc-400 mt-1">Sus</span>
-            <span class="text-[8px] font-mono text-zinc-300 readout">70</span>
-          </div>
-          <div class="flex flex-col items-center">
-            <div class="modern-knob" data-param="rel" data-val="35">
-              <div class="knob-pointer-line"></div>
-            </div>
-            <span class="text-[9px] text-zinc-400 mt-1">Rel</span>
-            <span class="text-[8px] font-mono text-zinc-300 readout">35</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- SECTION 4: MODULATION MATRIX & HARDWARE TELEMETRY -->
-      <div class="bg-[var(--bg-card)] p-4 rounded-lg border border-[var(--border-main)] flex flex-col justify-between gap-3">
-        <div class="flex items-center justify-between border-b border-[var(--border-main)] pb-2">
-          <span class="text-xs font-bold uppercase tracking-wider text-[var(--accent-secondary)]">Mod Matrix & LFO</span>
-          <span class="text-[10px] text-zinc-500 font-mono">SLOT 1-4</span>
-        </div>
-
-        <div class="space-y-2 text-xs font-mono">
-          <div class="bg-black/30 p-2 rounded border border-[var(--border-main)] flex justify-between items-center">
-            <span class="text-zinc-400">LFO 1 &rarr; Cutoff</span>
-            <span class="text-[var(--accent-secondary)] font-bold">+45%</span>
-          </div>
-          <div class="bg-black/30 p-2 rounded border border-[var(--border-main)] flex justify-between items-center">
-            <span class="text-zinc-400">Velocity &rarr; Amp Env</span>
-            <span class="text-[var(--accent-secondary)] font-bold">+80%</span>
-          </div>
-          <div class="bg-black/30 p-2 rounded border border-[var(--border-main)] flex justify-between items-center">
-            <span class="text-zinc-400">ModWheel &rarr; LFO Rate</span>
-            <span class="text-[var(--accent-secondary)] font-bold">+65%</span>
-          </div>
-        </div>
-
-        <!-- Two-tone Chiclet Matrix for AX60/Casio or Memory Banks -->
-        <div class="pt-2 border-t border-[var(--border-main)]">
-          <div class="text-[9px] text-zinc-400 font-bold uppercase mb-1.5 flex justify-between">
-            <span>Direct Bank / Memory</span>
-            <span class="text-[var(--accent-secondary)]">8 SLOTS</span>
-          </div>
-          <div class="grid grid-cols-4 gap-1 text-[10px] font-bold">
-            <button class="theme-btn-chiclet active bg-[var(--accent-primary)] text-white py-1 rounded">01</button>
-            <button class="theme-btn-chiclet bg-zinc-800 text-zinc-300 py-1 rounded">02</button>
-            <button class="theme-btn-chiclet bg-zinc-800 text-zinc-300 py-1 rounded">03</button>
-            <button class="theme-btn-chiclet bg-zinc-800 text-zinc-300 py-1 rounded">04</button>
-          </div>
-        </div>
-      </div>
-
     </div>
 
-    <!-- LIVE TELEMETRY / PACKET INSPECTOR BAR -->
-    <div class="px-5 py-3 bg-black/60 border-t border-[var(--border-main)] flex flex-col md:flex-row items-start md:items-center justify-between gap-3 font-mono text-xs">
+
+    <!-- ========================================================================================= -->
+    <!-- SYNTH 3: AKAI AX60 BESPOKE EDITOR                                                        -->
+    <!-- Architecture: 1-VCO Analog Poly, Sub-Osc, Noise, Dedicated Sampler Input (S612/S900),     -->
+    <!-- CEM3394 Analog VCF/VCA, Analog Stereo Chorus (Off/I/II), Arpeggiator & Split Keyboard.    -->
+    <!-- Hardware Inspiration: Dark Technical Steel, Cyan Accents, Red 7-Seg LED, Cream Chiclets. -->
+    <!-- ========================================================================================= -->
+    <div id="view-ax60" class="synth-view hidden space-y-5">
+      <!-- AX60 Header Card -->
+      <div class="bg-[#14171d] border-b-2 border-b-sky-500 border-x border-t border-[#222834] rounded-xl p-4 shadow-xl flex flex-wrap items-center justify-between gap-4">
+        <div class="flex items-center space-x-4">
+          <div class="flex items-center gap-3">
+            <span class="text-2xl font-black tracking-tight text-white font-['Rajdhani']">AKAI</span>
+            <div class="h-6 w-0.5 bg-sky-500"></div>
+            <div>
+              <div class="text-xs font-bold text-sky-400 font-mono tracking-widest">PROGRAMMABLE SYNTHESIZER</div>
+              <div class="text-xl font-bold text-slate-100 font-mono">AX60</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2-Digit Red 7-Segment LED (AX60's iconic program display) -->
+        <div class="bg-[#0b0404] border-2 border-[#3d0f0f] rounded-lg px-6 py-1.5 flex items-center gap-4 shadow-inner">
+          <span class="text-[10px] font-mono uppercase text-red-700 tracking-wider font-bold">PROGRAM</span>
+          <span class="text-4xl font-led text-[#ff2222] tracking-wider drop-shadow-[0_0_8px_rgba(255,34,34,0.6)]">24</span>
+        </div>
+
+        <!-- AX60 Tactile Chiclet Buttons (Split / Arp / Chorus) -->
+        <div class="flex items-center gap-2">
+          <div class="bg-[#1b2029] p-1 rounded-lg border border-slate-700 flex gap-1">
+            <button class="px-3 py-1 text-xs font-bold rounded bg-[#0284c7] text-white shadow">WHOLE</button>
+            <button class="px-3 py-1 text-xs font-semibold rounded text-slate-400 hover:text-white">SPLIT</button>
+            <button class="px-3 py-1 text-xs font-semibold rounded text-slate-400 hover:text-white">DUAL</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- AX60 Bespoke Signal Chain Grid (VCO -> Sampler In -> VCF -> VCA -> BBD Chorus) -->
+      <div class="grid grid-cols-12 gap-5">
+
+        <!-- Column 1: VCO & Sampler Input Section (Unique to AX60!) -->
+        <div class="col-span-12 lg:col-span-4 space-y-4">
+          <div class="bg-[#14171d] border border-[#222834] rounded-xl p-4 shadow-lg">
+            <div class="flex items-center justify-between border-b border-sky-900/40 pb-2 mb-3">
+              <h3 class="text-xs font-bold uppercase tracking-wider text-sky-400 flex items-center gap-2">
+                <span class="w-2 h-2 rounded bg-sky-400"></span>
+                VCO & Sub-Oscillator (CEM3394)
+              </h3>
+              <span class="text-[10px] text-slate-400 font-mono">1 VCO / Voice</span>
+            </div>
+
+            <!-- Waveform Selectors (AX60 Chiclet style) -->
+            <div class="mb-4">
+              <label class="text-[11px] text-slate-400 block mb-1.5">VCO Waveform Selection:</label>
+              <div class="grid grid-cols-3 gap-2 text-xs">
+                <button class="py-1.5 rounded font-bold bg-[#0284c7] text-white shadow">Sawtooth</button>
+                <button class="py-1.5 rounded font-semibold bg-[#1d232e] text-slate-300 border border-slate-700 hover:border-sky-400">Triangle</button>
+                <button class="py-1.5 rounded font-semibold bg-[#1d232e] text-slate-300 border border-slate-700 hover:border-sky-400">PWM Pulse</button>
+              </div>
+            </div>
+
+            <div class="space-y-3">
+              <div>
+                <div class="flex justify-between text-xs text-slate-400 mb-1">
+                  <span>Pulse Width (PWM):</span>
+                  <span class="font-mono text-sky-300 font-bold">50%</span>
+                </div>
+                <input type="range" min="0" max="100" value="50" class="w-full h-1.5 bg-slate-800 accent-sky-400 rounded cursor-pointer">
+              </div>
+              <div>
+                <div class="flex justify-between text-xs text-slate-400 mb-1">
+                  <span>Sub-Oscillator Level:</span>
+                  <span class="font-mono text-sky-300 font-bold">85% (-1 Octave)</span>
+                </div>
+                <input type="range" min="0" max="100" value="85" class="w-full h-1.5 bg-slate-800 accent-sky-400 rounded cursor-pointer">
+              </div>
+              <div>
+                <div class="flex justify-between text-xs text-slate-400 mb-1">
+                  <span>White Noise Level:</span>
+                  <span class="font-mono text-slate-400">0%</span>
+                </div>
+                <input type="range" min="0" max="100" value="0" class="w-full h-1.5 bg-slate-800 accent-sky-400 rounded cursor-pointer">
+              </div>
+            </div>
+
+            <!-- Unique Feature: Akai S612 / S700 / S900 Sampler Direct Input -->
+            <div class="mt-4 bg-[#1b222f] p-3 rounded-lg border border-sky-500/30">
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-xs font-bold text-sky-300 flex items-center gap-1.5">
+                  <span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
+                  Sampler Audio In (S612 / S900)
+                </span>
+                <span class="text-[10px] font-mono bg-sky-950 text-sky-300 px-1.5 py-0.5 rounded border border-sky-800">13-Pin DIN</span>
+              </div>
+              <p class="text-[10px] text-slate-400 mb-2">Route 6 individual analog sampler voices through the AX60's resonant analog CEM filters.</p>
+              <div class="flex justify-between items-center text-xs">
+                <span class="text-slate-400">Sampler Input Level:</span>
+                <span class="font-mono text-sky-300 font-bold">100%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Column 2: CEM3394 Analog VCF & VCA -->
+        <div class="col-span-12 lg:col-span-5 space-y-4">
+          <div class="bg-[#14171d] border border-[#222834] rounded-xl p-4 shadow-lg">
+            <div class="flex items-center justify-between border-b border-sky-900/40 pb-2 mb-3">
+              <h3 class="text-xs font-bold uppercase tracking-wider text-sky-400 flex items-center gap-2">
+                <span class="w-2 h-2 rounded bg-sky-400"></span>
+                CEM3394 24dB Analog Lowpass VCF
+              </h3>
+              <span class="text-[10px] text-sky-300 font-mono">Self-Oscillating</span>
+            </div>
+
+            <!-- Slider Sliders (AX60 uses vertical sliders on physical unit) -->
+            <div class="space-y-4">
+              <div>
+                <div class="flex justify-between text-xs text-slate-300 mb-1">
+                  <span class="font-bold">Cutoff Frequency:</span>
+                  <span id="ax60-fc-val" class="font-mono text-sky-300 font-bold">64</span>
+                </div>
+                <input type="range" min="0" max="100" value="64" class="w-full h-2 bg-slate-800 accent-sky-400 rounded cursor-pointer" oninput="document.getElementById('ax60-fc-val').innerText = this.value; emitSysEx('ax60', 'cutoff', this.value);">
+              </div>
+
+              <div>
+                <div class="flex justify-between text-xs text-slate-300 mb-1">
+                  <span class="font-bold">Resonance (Q):</span>
+                  <span id="ax60-q-val" class="font-mono text-sky-300 font-bold">78</span>
+                </div>
+                <input type="range" min="0" max="100" value="78" class="w-full h-2 bg-slate-800 accent-sky-400 rounded cursor-pointer" oninput="document.getElementById('ax60-q-val').innerText = this.value; emitSysEx('ax60', 'res', this.value);">
+              </div>
+
+              <div class="grid grid-cols-2 gap-3">
+                <div>
+                  <div class="flex justify-between text-xs text-slate-400 mb-1">
+                    <span>Key Tracking:</span>
+                    <span class="font-mono text-white">100%</span>
+                  </div>
+                  <input type="range" min="0" max="100" value="100" class="w-full h-1.5 bg-slate-800 accent-sky-400 rounded cursor-pointer">
+                </div>
+                <div>
+                  <div class="flex justify-between text-xs text-slate-400 mb-1">
+                    <span>VCF Mod (VCO In):</span>
+                    <span class="font-mono text-sky-300 font-bold">45%</span>
+                  </div>
+                  <input type="range" min="0" max="100" value="45" class="w-full h-1.5 bg-slate-800 accent-sky-400 rounded cursor-pointer">
+                </div>
+              </div>
+            </div>
+
+            <!-- VCF Envelope Sliders (ADSR) -->
+            <div class="mt-4 pt-4 border-t border-slate-800">
+              <div class="text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">VCF Envelope (ADSR)</div>
+              <div class="grid grid-cols-4 gap-2 text-center text-xs">
+                <div class="bg-[#10131a] p-2 rounded">
+                  <div class="text-[9px] text-slate-400">Attack</div>
+                  <div class="font-mono font-bold text-sky-300">5 ms</div>
+                </div>
+                <div class="bg-[#10131a] p-2 rounded">
+                  <div class="text-[9px] text-slate-400">Decay</div>
+                  <div class="font-mono font-bold text-sky-300">450 ms</div>
+                </div>
+                <div class="bg-[#10131a] p-2 rounded">
+                  <div class="text-[9px] text-slate-400">Sustain</div>
+                  <div class="font-mono font-bold text-sky-300">20%</div>
+                </div>
+                <div class="bg-[#10131a] p-2 rounded">
+                  <div class="text-[9px] text-slate-400">Release</div>
+                  <div class="font-mono font-bold text-sky-300">600 ms</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Column 3: AX60 Analog BBD Chorus & Arpeggiator -->
+        <div class="col-span-12 lg:col-span-3 space-y-4">
+          <div class="bg-[#14171d] border border-[#222834] rounded-xl p-4 shadow-lg flex flex-col justify-between h-full">
+            <div>
+              <!-- Built-in Analog Stereo Chorus (Iconic Akai feature: OFF, I, II) -->
+              <div class="border-b border-sky-900/40 pb-2 mb-3">
+                <h3 class="text-xs font-bold uppercase tracking-wider text-sky-400">
+                  Analog Stereo Chorus
+                </h3>
+              </div>
+              <div class="grid grid-cols-3 gap-2 mb-4">
+                <button class="py-2 text-xs font-semibold rounded bg-[#1b2029] text-slate-400 border border-slate-700">OFF</button>
+                <button class="py-2 text-xs font-bold rounded bg-[#0284c7] text-white shadow">MODE I</button>
+                <button class="py-2 text-xs font-semibold rounded bg-[#1b2029] text-slate-400 border border-slate-700">MODE II</button>
+              </div>
+
+              <!-- Hardware Arpeggiator -->
+              <div class="border-b border-sky-900/40 pb-2 mb-3">
+                <h3 class="text-xs font-bold uppercase tracking-wider text-sky-400">
+                  Arpeggiator
+                </h3>
+              </div>
+              <div class="space-y-2 text-xs">
+                <div class="flex justify-between items-center">
+                  <span class="text-slate-400">Direction:</span>
+                  <div class="flex gap-1">
+                    <button class="px-2 py-1 rounded bg-[#0284c7] text-white font-bold text-[10px]">UP</button>
+                    <button class="px-2 py-1 rounded bg-[#1b2029] text-slate-400 text-[10px]">DOWN</button>
+                    <button class="px-2 py-1 rounded bg-[#1b2029] text-slate-400 text-[10px]">U/D</button>
+                  </div>
+                </div>
+                <div class="flex justify-between items-center">
+                  <span class="text-slate-400">Rate (Speed):</span>
+                  <span class="font-mono text-sky-300 font-bold">120 BPM</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tauntek MIDI SysEx/CC Note -->
+            <div class="pt-3 border-t border-slate-800 text-center">
+              <span class="text-[11px] font-mono text-sky-400">Tauntek CC: B0 05 40 (Cutoff)</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Live SysEx / CC Output Monitor Console -->
+    <div class="mt-6 bg-[#0c0d12] border border-[#202430] rounded-xl p-3 shadow-lg flex items-center justify-between text-xs font-mono">
       <div class="flex items-center gap-3">
-        <span class="text-[10px] uppercase font-bold text-[var(--accent-secondary)] bg-[var(--badge-bg)] border border-[var(--border-main)] px-2 py-0.5 rounded">
-          MIDI / SysEx Stream
-        </span>
-        <span id="telemetry-hex" class="text-amber-300 font-bold tracking-wider text-sm">
-          F0 00 20 33 01 10 70 40 28 55 F7
-        </span>
+        <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+        <span class="text-slate-400 uppercase text-[10px] tracking-wider font-bold">Live Hardware Communication Stream:</span>
+        <span id="sysex-monitor-text" class="text-emerald-400 font-bold">F0 18 0F 00 01 02 54 F7 (E-MU Audity 2000 Z-Plane Cutoff: 84)</span>
       </div>
-      <div id="telemetry-info" class="text-zinc-400 text-[11px] truncate">
-        [Access Virus A] • [Omni ID: 10] • [Page 70] • [Param: 40 (Cutoff 1)] • [Value: 85]
+      <div class="text-slate-500 text-[11px]">
+        Latency: <span class="text-emerald-400">0.8ms</span> | Handshake: OK
       </div>
     </div>
 
-  </div>
+  </main>
 
-  <!-- INTERACTIVE THEME SWITCHING & SYNTH LOGIC SCRIPT -->
   <script>
-    let activeTheme = 'virus';
-    let activeKnob = null;
-    let startY = 0;
-    let startVal = 0;
+    // Synth Navigation: Each synth displays its OWN architecture and layout
+    function switchSynth(synthId) {
+      document.querySelectorAll('.synth-view').forEach(el => el.classList.add('hidden'));
+      document.querySelectorAll('.synth-nav-btn').forEach(btn => {
+        btn.classList.remove('active', 'bg-[#1a365d]', 'bg-red-600/30', 'bg-sky-600/30', 'text-cyan-300', 'text-red-400', 'text-sky-300');
+        btn.classList.add('text-gray-400');
+      });
 
-    const themeConfigs = {
-      virus: {
-        brand: "ACCESS MUSIC",
-        model: "VIRUS A",
-        engine: "16-Voice Dual DSP Virtual Analog Engine",
-        displayPatch: "A001: Aggro Hypersaw",
-        filterSlope: "24dB RESO",
-        envType: "ADSR",
-        hex: "F0 00 20 33 01 10 70 40 28 55 F7",
-        info: "[Access Virus A] • [Omni ID: 10] • [Page 70] • [Param: 40 (Cutoff 1)] • [Value: 85]"
-      },
-      ax60: {
-        brand: "AKAI professional",
-        model: "AX60",
-        engine: "6-Voice Polyphonic Curtis CEM3394 Analog Engine",
-        displayPatch: "11: Resonant Saw Lead",
-        filterSlope: "CEM 24dB LPF",
-        envType: "ADSR",
-        hex: "B0 05 55",
-        info: "[Akai AX60] • [Tauntek Firmware] • [Channel 1: B0] • [CC 05 (VCF Cutoff)] • [Value: 85]"
-      },
-      audity: {
-        brand: "E-MU SYSTEMS",
-        model: "AUDITY 2000",
-        engine: "64-Voice 14-Pole Z-Plane Multimode Morfing Engine",
-        displayPatch: "000: edg:ACiDOPHiLUS",
-        filterSlope: "14-POLE Z-PLANE",
-        envType: "6-STAGE",
-        hex: "F0 18 0F 00 55 01 02 00 03 55 00 F7",
-        info: "[E-MU Audity 2000] • [Param: 0x0180 (L1 Cutoff)] • [Value: 85]"
-      },
-      casio: {
-        brand: "CASIO COMPUTER",
-        model: "CZ-1000 / CZ-101",
-        engine: "Phase Distortion Digital Synthesizer (DCO/DCW/DCA)",
-        displayPatch: "BRASS & LEAD 1",
-        filterSlope: "DCW PHASE",
-        envType: "8-STAGE RATE/LEVEL",
-        hex: "F0 44 00 00 70 00 14 55 F7",
-        info: "[Casio CZ Series] • [Model ID: 70] • [Param: 20 (DCW Cutoff)] • [Value: 85]"
-      }
-    };
+      const activeView = document.getElementById('view-' + synthId);
+      const activeBtn = document.getElementById('btn-' + synthId);
 
-    function setSynthTheme(themeName) {
-      activeTheme = themeName;
-      document.body.className = `theme-${themeName}`;
-
-      // Update Toolbar buttons
-      ['virus', 'ax60', 'audity', 'casio'].forEach(t => {
-        const btn = document.getElementById(`btn-theme-${t}`);
-        if (t === themeName) {
-          btn.className = "px-3 py-1 rounded text-xs font-bold transition bg-[var(--accent-primary)] text-white shadow";
-        } else {
-          btn.className = "px-3 py-1 rounded text-xs font-bold transition text-zinc-400 hover:text-white";
+      if (activeView && activeBtn) {
+        activeView.classList.remove('hidden');
+        activeBtn.classList.remove('text-gray-400');
+        if (synthId === 'audity') {
+          activeBtn.classList.add('active', 'bg-[#1a365d]', 'text-cyan-300');
+          document.getElementById('sysex-monitor-text').innerText = 'F0 18 0F 00 01 02 54 F7 (E-MU Audity 2000 Z-Plane Cutoff: 84)';
+        } else if (synthId === 'virus') {
+          activeBtn.classList.add('active', 'bg-red-600/30', 'text-red-400');
+          document.getElementById('sysex-monitor-text').innerText = 'F0 00 20 33 01 00 10 4E F7 (Access Virus A Filter 1 Cutoff: 78)';
+        } else if (synthId === 'ax60') {
+          activeBtn.classList.add('active', 'bg-sky-600/30', 'text-sky-300');
+          document.getElementById('sysex-monitor-text').innerText = 'B0 05 40 (Akai AX60 Tauntek CC Cutoff: 64)';
         }
-      });
-
-      // Update Content
-      const cfg = themeConfigs[themeName];
-      document.getElementById('synth-brand').innerText = cfg.brand;
-      document.getElementById('synth-model').innerText = cfg.model;
-      document.getElementById('synth-engine-tag').innerText = cfg.engine;
-      document.getElementById('display-patch-name').innerText = cfg.displayPatch;
-      document.getElementById('filter-slope-badge').innerText = cfg.filterSlope;
-      document.getElementById('env-type-badge').innerText = cfg.envType;
-      document.getElementById('telemetry-hex').innerText = cfg.hex;
-      document.getElementById('telemetry-info').innerText = cfg.info;
-
-      updateCutoffDisplay(85);
-    }
-
-    function updateKnobVisual(knobEl, val, min = 0, max = 127) {
-      const pct = (val - min) / (max - min);
-      const deg = -135 + (pct * 270);
-      const pointer = knobEl.querySelector('.knob-pointer-line');
-      if (pointer) {
-        pointer.style.transform = `rotate(${deg}deg)`;
-        pointer.style.transformOrigin = '1px 18px';
-      }
-      const parent = knobEl.parentElement;
-      if (parent) {
-        const readout = parent.querySelector('.readout');
-        if (readout) readout.innerText = val;
       }
     }
 
-    document.querySelectorAll('.modern-knob').forEach(knob => {
-      const val = parseInt(knob.getAttribute('data-val') || '64');
-      const min = parseInt(knob.getAttribute('data-min') || '0');
-      const max = parseInt(knob.getAttribute('data-max') || '127');
-      updateKnobVisual(knob, val, min, max);
-
-      knob.addEventListener('mousedown', (e) => {
-        e.preventDefault();
-        activeKnob = knob;
-        startY = e.clientY;
-        startVal = parseInt(knob.getAttribute('data-val') || '64');
-        document.body.style.cursor = 'ns-resize';
-      });
-    });
-
-    window.addEventListener('mousemove', (e) => {
-      if (!activeKnob) return;
-      const min = parseInt(activeKnob.getAttribute('data-min') || '0');
-      const max = parseInt(activeKnob.getAttribute('data-max') || '127');
-      const dy = startY - e.clientY;
-      let newVal = Math.min(max, Math.max(min, startVal + Math.round(dy * 0.8)));
-
-      activeKnob.setAttribute('data-val', newVal);
-      updateKnobVisual(activeKnob, newVal, min, max);
-
-      const param = activeKnob.getAttribute('data-param');
-      if (param === 'cutoff') {
-        updateCutoffDisplay(newVal);
-      }
-    });
-
-    window.addEventListener('mouseup', () => {
-      if (activeKnob) {
-        activeKnob = null;
-        document.body.style.cursor = 'default';
-      }
-    });
-
-    function updateCutoffDisplay(val) {
-      document.getElementById('display-param-val').innerText = `${val} (${Math.round((val/127)*100)}%)`;
-      
-      // Update Filter Curve Point SVG
-      const pt = document.getElementById('filter-cutoff-point');
-      if (pt) {
-        const cx = 70 + (val / 127) * 90;
-        const cy = 60 - Math.sin((val / 127) * Math.PI) * 45;
-        pt.setAttribute('cx', cx);
-        pt.setAttribute('cy', cy);
-      }
-
-      // Update Telemetry based on active theme
-      const toHex = (n) => n.toString(16).toUpperCase().padStart(2, '0');
-      if (activeTheme === 'virus') {
-        document.getElementById('telemetry-hex').innerText = `F0 00 20 33 01 10 70 40 28 ${toHex(val)} F7`;
-        document.getElementById('telemetry-info').innerText = `[Access Virus A] • [Omni ID: 10] • [Page 70] • [Param: 40 (Cutoff 1)] • [Value: ${val}]`;
-      } else if (activeTheme === 'ax60') {
-        document.getElementById('telemetry-hex').innerText = `B0 05 ${toHex(val)}`;
-        document.getElementById('telemetry-info').innerText = `[Akai AX60] • [Tauntek Firmware] • [Channel 1: B0] • [CC 05 (VCF Cutoff)] • [Value: ${val}]`;
-      } else if (activeTheme === 'audity') {
-        const vLsb = val & 0x7F;
-        const vMsb = (val >> 7) & 0x7F;
-        document.getElementById('telemetry-hex').innerText = `F0 18 0F 00 55 01 02 00 03 ${toHex(vLsb)} ${toHex(vMsb)} F7`;
-        document.getElementById('telemetry-info').innerText = `[E-MU Audity 2000] • [Param: 0x0180 (L1 Cutoff)] • [Value: ${val}]`;
-      } else if (activeTheme === 'casio') {
-        document.getElementById('telemetry-hex').innerText = `F0 44 00 00 70 00 14 ${toHex(val)} F7`;
-        document.getElementById('telemetry-info').innerText = `[Casio CZ Series] • [Model ID: 70] • [Param: 20 (DCW Cutoff)] • [Value: ${val}]`;
+    // Live SysEx / CC Monitor Emitter
+    function emitSysEx(synth, param, val) {
+      const hexVal = parseInt(val).toString(16).toUpperCase().padStart(2, '0');
+      const monitor = document.getElementById('sysex-monitor-text');
+      if (synth === 'audity') {
+        monitor.innerText = `F0 18 0F 00 01 02 ${hexVal} F7 (E-MU Audity 2000 ${param}: ${val})`;
+      } else if (synth === 'virus') {
+        monitor.innerText = `F0 00 20 33 01 00 10 ${hexVal} F7 (Access Virus A ${param}: ${val})`;
+      } else if (synth === 'ax60') {
+        monitor.innerText = `B0 05 ${hexVal} (Akai AX60 ${param}: ${val})`;
       }
     }
 
-    // Audio Audition Engine
+    // Audity Z-Plane Filter SVG Morph Update
+    function updateAudityFilter(type) {
+      const curve = document.getElementById('zplane-curve');
+      const p1 = document.getElementById('zplane-pole-1');
+      const p2 = document.getElementById('zplane-pole-2');
+      const label = document.getElementById('zplane-coords');
+      const title = document.getElementById('emu-display-title');
+
+      if (type === 'vocal') {
+        curve.setAttribute('d', 'M 0,150 C 70,140 120,40 160,20 C 190,5 210,130 260,30 C 310,10 350,150 500,170');
+        p1.setAttribute('cx', '160'); p1.setAttribute('cy', '20');
+        p2.setAttribute('cx', '260'); p2.setAttribute('cy', '30');
+        label.innerText = 'Vocal Formant Morph: A -> O | Peak Q: +18dB';
+        title.innerText = 'P001: VocalMorpher';
+      } else if (type === 'acid') {
+        curve.setAttribute('d', 'M 0,40 C 100,40 220,10 260,10 C 290,10 320,165 500,175');
+        p1.setAttribute('cx', '260'); p1.setAttribute('cy', '10');
+        p2.setAttribute('cx', '280'); p2.setAttribute('cy', '70');
+        label.innerText = '24dB 4-Pole Self-Resonant TB Peak';
+        title.innerText = 'P012: Acid Resonator';
+      } else if (type === 'comb') {
+        curve.setAttribute('d', 'M 0,120 Q 50,20 100,120 Q 150,20 200,120 Q 250,20 300,120 Q 350,20 400,120 Q 450,20 500,120');
+        p1.setAttribute('cx', '100'); p1.setAttribute('cy', '70');
+        p2.setAttribute('cx', '250'); p2.setAttribute('cy', '70');
+        label.innerText = '14-Pole Flanged Comb Filter Matrix';
+        title.innerText = 'P047: Comb Resonator';
+      } else if (type === 'octave') {
+        curve.setAttribute('d', 'M 0,160 C 80,150 110,30 150,30 C 200,30 250,160 300,160 C 350,160 380,40 420,40 C 460,40 480,160 500,160');
+        p1.setAttribute('cx', '150'); p1.setAttribute('cy', '30');
+        p2.setAttribute('cx', '420'); p2.setAttribute('cy', '40');
+        label.innerText = 'Dual-Peak Octave EQ Resonators';
+        title.innerText = 'P008: Octave Peaks';
+      }
+      emitSysEx('audity', 'filter_model', type);
+    }
+
+    // Web Audio Sound Engine for Note Auditioning
     let audioCtx = null;
-    function playDemoSound() {
-      if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-      if (audioCtx.state === 'suspended') audioCtx.resume();
+    function triggerTestNote() {
+      if (!audioCtx) {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      }
+      if (audioCtx.state === 'suspended') {
+        audioCtx.resume();
+      }
 
-      const now = audioCtx.currentTime;
-      const osc = audioCtx.createOscillator();
+      const osc1 = audioCtx.createOscillator();
+      const osc2 = audioCtx.createOscillator();
       const filter = audioCtx.createBiquadFilter();
       const gain = audioCtx.createGain();
 
-      const cutoffVal = parseInt(document.querySelector('[data-param="cutoff"]')?.getAttribute('data-val') || '85');
-      const resoVal = parseInt(document.querySelector('[data-param="reso"]')?.getAttribute('data-val') || '72');
+      const now = audioCtx.currentTime;
+      osc1.type = 'sawtooth';
+      osc1.frequency.setValueAtTime(130.81, now); // C3
 
-      osc.type = activeTheme === 'ax60' ? 'sawtooth' : activeTheme === 'casio' ? 'triangle' : 'sawtooth';
-      osc.frequency.setValueAtTime(130.81, now); // C3
+      osc2.type = 'sawtooth';
+      osc2.frequency.setValueAtTime(131.5, now); // detuned
 
       filter.type = 'lowpass';
-      const cutoffHz = 80 + Math.pow(cutoffVal / 127, 2) * 8000;
-      filter.frequency.setValueAtTime(cutoffHz, now);
-      filter.Q.setValueAtTime((resoVal / 127) * 16, now);
+      filter.frequency.setValueAtTime(300, now);
+      filter.frequency.exponentialRampToValueAtTime(3500, now + 0.08);
+      filter.frequency.exponentialRampToValueAtTime(800, now + 0.4);
+      filter.Q.setValueAtTime(8, now);
 
       gain.gain.setValueAtTime(0, now);
-      gain.gain.linearRampToValueAtTime(0.25, now + 0.03);
-      gain.gain.exponentialRampToValueAtTime(0.0001, now + 0.9);
+      gain.gain.linearRampToValueAtTime(0.3, now + 0.02);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.6);
 
-      osc.connect(filter);
+      osc1.connect(filter);
+      osc2.connect(filter);
       filter.connect(gain);
       gain.connect(audioCtx.destination);
 
-      osc.start(now);
-      osc.stop(now + 0.95);
+      osc1.start(now);
+      osc2.start(now);
+      osc1.stop(now + 0.65);
+      osc2.stop(now + 0.65);
     }
+
+    // Spacebar to trigger audition note
+    window.addEventListener('keydown', (e) => {
+      if (e.code === 'Space' && e.target.tagName !== 'INPUT' && e.target.tagName !== 'SELECT') {
+        e.preventDefault();
+        triggerTestNote();
+      }
+    });
   </script>
 </body>
 </html>
