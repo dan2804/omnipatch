@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OmniPatch — Skeuomorphic Hardware Synthesizer Studio</title>
+  <script src="tailwindcss.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@500;700;800;900&family=VT323&family=Caveat:wght@700&family=Rajdhani:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* Custom Scrollbars */
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: #0c0d12; }
+    ::-webkit-scrollbar-thumb { background: #262a36; border-radius: 3px; }
+
+    .font-lcd { font-family: 'Share Tech Mono', monospace; }
+    .font-led { font-family: 'VT323', monospace; }
+    .font-brand { font-family: 'Orbitron', sans-serif; }
+    .font-script { font-family: 'Caveat', cursive; }
+    .font-tech { font-family: 'Rajdhani', sans-serif; }
+
+    /* Rack Bolt Styling */
+    .rack-bolt {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 35% 35%, #94a3b8 0%, #475569 50%, #0f172a 100%);
+      box-shadow: inset 0 1px 2px rgba(255,255,255,0.7), 0 2px 4px rgba(0,0,0,0.8);
+      position: relative;
+    }
+    .rack-bolt::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 8px;
+      height: 2px;
+      background: #0f172a;
+      transform: translate(-50%, -50%) rotate(45deg);
+      box-shadow: 0 0.5px 0.5px rgba(255,255,255,0.3);
+    }
+
+    /* ========================================================================= */
+    /* 1. E-MU AUDITY 2000 SKEUOMORPHIC STYLING                                 */
+    /* ========================================================================= */
+    .audity-faceplate {
+      background: linear-gradient(180deg, #5c97c4 0%, #467ea9 40%, #366c94 100%);
+      box-shadow: inset 0 2px 3px rgba(255,255,255,0.4), inset 0 -2px 4px rgba(0,0,0,0.6), 0 15px 35px rgba(0,0,0,0.9);
+      border: 1px solid #2d5a7d;
+      position: relative;
+    }
+    .audity-wave-line {
+      position: absolute;
+      top: 52%;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, rgba(16,42,66,0.8) 0%, rgba(13,35,56,0.9) 35%, rgba(0,0,0,0.8) 70%, rgba(16,42,66,0.6) 100%);
+      pointer-events: none;
+      z-index: 1;
+    }
+    .audity-lcd-wedge {
+      background: linear-gradient(135deg, #18222d 0%, #0d131a 100%);
+      clip-path: polygon(3% 0%, 97% 0%, 100% 100%, 0% 100%);
+      box-shadow: inset 0 3px 8px rgba(0,0,0,0.9), 0 2px 5px rgba(0,0,0,0.6);
+      border-bottom: 2px solid #080c10;
+    }
+    .data-wheel-outer {
+      background: radial-gradient(circle at 40% 40%, #768798 0%, #3a4755 60%, #1a232c 100%);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.8), inset 0 1px 2px rgba(255,255,255,0.4);
+    }
+    .data-wheel-inner {
+      background: radial-gradient(circle at 45% 45%, #475569 0%, #1e293b 80%);
+      box-shadow: inset 0 3px 6px rgba(0,0,0,0.9), 0 1px 2px rgba(255,255,255,0.2);
+    }
+    .audity-knob {
+      background: radial-gradient(circle at 35% 35%, #ffffff 0%, #b8c7d6 45%, #6a7c8e 85%, #3c4a57 100%);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.7), inset 0 1px 1px rgba(255,255,255,0.9);
+      position: relative;
+    }
+    .audity-knob-indicator {
+      position: absolute;
+      top: 4px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 2px;
+      height: 10px;
+      background: #111d28;
+      border-radius: 1px;
+    }
+
+    /* ========================================================================= */
+    /* 2. ACCESS VIRUS A SKEUOMORPHIC STYLING                                   */
+    /* ========================================================================= */
+    .virus-chassis {
+      background: linear-gradient(180deg, #1e2129 0%, #16181f 40%, #101217 100%);
+      box-shadow: inset 0 1px 2px rgba(255,255,255,0.15), 0 15px 40px rgba(0,0,0,0.9);
+      border: 1px solid #282c37;
+      position: relative;
+    }
+    .wood-cheek-left {
+      background: linear-gradient(90deg, #2b110a 0%, #4a1f14 25%, #78351c 60%, #3e190f 95%, #1f0c07 100%);
+      box-shadow: inset -2px 0 5px rgba(0,0,0,0.7), -4px 0 15px rgba(0,0,0,0.8);
+      border-radius: 6px 0 0 6px;
+    }
+    .wood-cheek-right {
+      background: linear-gradient(270deg, #2b110a 0%, #4a1f14 25%, #78351c 60%, #3e190f 95%, #1f0c07 100%);
+      box-shadow: inset 2px 0 5px rgba(0,0,0,0.7), 4px 0 15px rgba(0,0,0,0.8);
+      border-radius: 0 6px 6px 0;
+    }
+    .virus-knob {
+      background: radial-gradient(circle at 35% 35%, #32353e 0%, #1d1f25 60%, #0d0e12 100%);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.8), inset 0 1px 2px rgba(255,255,255,0.25);
+      border: 1px solid #090a0d;
+      position: relative;
+    }
+    .virus-knob-pointer {
+      position: absolute;
+      top: 3px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 2px;
+      height: 9px;
+      background: #ffffff;
+      border-radius: 1px;
+      box-shadow: 0 0 2px rgba(255,255,255,0.8);
+    }
+    .virus-red-stripe {
+      background: linear-gradient(90deg, #dc2626 0%, #ef4444 50%, #b91c1c 100%);
+      box-shadow: 0 0 6px rgba(239, 68, 68, 0.4);
+    }
+
+    /* ========================================================================= */
+    /* 3. AKAI AX60 SKEUOMORPHIC STYLING                                        */
+    /* ========================================================================= */
+    .ax60-chassis {
+      background: linear-gradient(180deg, #2a2e36 0%, #1e2229 30%, #16191f 100%);
+      box-shadow: inset 0 1px 3px rgba(255,255,255,0.2), 0 15px 40px rgba(0,0,0,0.9);
+      border: 1px solid #333842;
+      position: relative;
+    }
+    .ax60-fader-slot {
+      background: #090a0d;
+      box-shadow: inset 0 2px 4px rgba(0,0,0,0.9), 0 1px 1px rgba(255,255,255,0.1);
+      border: 1px solid #1c2027;
+      border-radius: 2px;
+    }
+    .ax60-fader-cap {
+      background: linear-gradient(180deg, #4b5260 0%, #2b3039 30%, #1d2128 70%, #12151b 100%);
+      box-shadow: 0 3px 6px rgba(0,0,0,0.8), inset 0 1px 1px rgba(255,255,255,0.4);
+      border: 1px solid #121418;
+      border-radius: 2px;
+      position: relative;
+      cursor: ns-resize;
+    }
+    .ax60-fader-line {
+      position: absolute;
+      left: 2px;
+      right: 2px;
+      top: 50%;
+      height: 2px;
+      background: #ffffff;
+      transform: translateY(-50%);
+      box-shadow: 0 0 2px rgba(255,255,255,0.8);
+    }
+    .ax60-chiclet-blue {
+      background: linear-gradient(180deg, #436284 0%, #2f4b69 40%, #1e3349 100%);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.7), inset 0 1px 2px rgba(255,255,255,0.4);
+      border: 1px solid #162737;
+    }
+    .ax60-chiclet-cream {
+      background: linear-gradient(180deg, #e4dcce 0%, #cbbfab 40%, #a49781 100%);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.7), inset 0 1px 2px rgba(255,255,255,0.8);
+      border: 1px solid #7c6f5a;
+      color: #1e2229;
+    }
+    .ax60-led-dot {
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: #ff2222;
+      box-shadow: 0 0 6px #ff2222, 0 0 10px #ff0000;
+    }
+  </style>
+</head>
+<body class="bg-[#08090c] text-gray-200 min-h-screen flex flex-col font-['Inter',sans-serif]">
+
+  <!-- STUDIO TOP CONSOLE BAR -->
+  <header class="bg-[#101217] border-b border-[#202430] px-6 py-3 flex items-center justify-between shadow-2xl sticky top-0 z-50">
+    <div class="flex items-center space-x-4">
+      <div class="flex items-center space-x-3">
+        <div class="w-8 h-8 rounded bg-gradient-to-tr from-amber-500 via-orange-600 to-red-600 flex items-center justify-center font-bold text-white shadow-lg shadow-orange-600/30 font-['Rajdhani'] text-lg">
+          Ω
+        </div>
+        <div>
+          <h1 class="text-sm font-bold tracking-wider uppercase text-white flex items-center gap-2">
+            OmniPatch <span class="text-[10px] bg-amber-500/20 text-amber-300 px-2 py-0.5 rounded border border-amber-500/40">Skeuomorphic Studio</span>
+          </h1>
+          <p class="text-[11px] text-gray-400">Authentic Tactile Faceplates & Hardware Architectures</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Synth Switcher (Loads authentic tactile hardware unit) -->
+    <div class="flex items-center bg-[#181a22] p-1.5 rounded-lg border border-[#2b3040] shadow-inner">
+      <span class="text-[11px] font-bold text-gray-400 px-3 uppercase tracking-wider">Rack / Bench:</span>
+      <button onclick="selectHardware('audity')" id="nav-audity" class="hardware-tab active px-4 py-2 rounded text-xs font-bold flex items-center gap-2 transition-all bg-gradient-to-r from-blue-900 to-indigo-900 text-cyan-200 shadow-md border border-cyan-500/40">
+        <span class="w-2.5 h-2.5 rounded-full bg-cyan-400 shadow-[0_0_8px_#22d3ee]"></span>
+        E-MU Audity 2000 (1U Rack)
+      </button>
+      <button onclick="selectHardware('virus')" id="nav-virus" class="hardware-tab px-4 py-2 rounded text-xs font-bold flex items-center gap-2 transition-all text-gray-400 hover:text-white">
+        <span class="w-2.5 h-2.5 rounded-full bg-red-600 opacity-60"></span>
+        Access Virus A (Desktop)
+      </button>
+      <button onclick="selectHardware('ax60')" id="nav-ax60" class="hardware-tab px-4 py-2 rounded text-xs font-bold flex items-center gap-2 transition-all text-gray-400 hover:text-white">
+        <span class="w-2.5 h-2.5 rounded-full bg-sky-400 opacity-60"></span>
+        Akai AX60 (Synth)
+      </button>
+    </div>
+
+    <!-- Global Audition & MIDI Status -->
+    <div class="flex items-center space-x-3">
+      <button onclick="playAuditionSound()" class="px-3.5 py-1.5 rounded text-xs font-bold bg-amber-500/20 border border-amber-500/50 text-amber-300 hover:bg-amber-500/30 transition flex items-center gap-2 shadow">
+        <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"/></svg>
+        Audition Note <span class="text-[10px] opacity-75 font-mono">[Spacebar]</span>
+      </button>
+      <div class="text-[11px] font-mono text-emerald-400 flex items-center gap-1.5 bg-emerald-950/40 px-2.5 py-1 rounded border border-emerald-800/40">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        MIDI Active
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN HARDWARE RACK / BENCH CONTAINER -->
+  <main class="flex-1 p-6 overflow-y-auto space-y-6 flex flex-col justify-center max-w-7xl mx-auto w-full">
+
+
+    <!-- ========================================================================================= -->
+    <!-- SYNTH 1: E-MU AUDITY 2000 AUTHENTIC 1U RACKMOUNT FACEPLATE & ARCHITECTURE               -->
+    <!-- ========================================================================================= -->
+    <div id="unit-audity" class="hardware-unit space-y-6">
+
+      <!-- 1U Skeuomorphic Rack Faceplate -->
+      <div class="audity-faceplate rounded-md p-3 relative flex items-center justify-between text-white select-none shadow-2xl">
+        <div class="audity-wave-line"></div>
+
+        <!-- Left Rack Ear with Bolt Hole -->
+        <div class="flex flex-col items-center justify-between h-28 pr-3 border-r border-[#305e83] z-10">
+          <div class="rack-bolt"></div>
+          <div class="text-[9px] font-tech text-slate-300 tracking-wider">1U RACK</div>
+          <div class="rack-bolt"></div>
+        </div>
+
+        <!-- E-MU Audity 2000 Iconic Badge & Silkscreen -->
+        <div class="flex flex-col justify-center pl-4 pr-6 z-10">
+          <div class="text-[11px] font-bold tracking-widest text-[#f5d061] font-tech uppercase drop-shadow-[0_1px_1px_rgba(0,0,0,0.9)]">
+            E-MU SYSTEMS
+          </div>
+          <div class="flex items-baseline gap-2">
+            <span class="font-script text-3xl text-white font-bold tracking-wide drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">Audity</span>
+            <span class="font-brand text-xl text-[#f5d061] font-black tracking-widest drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">2000</span>
+          </div>
+          <div class="text-[9px] font-mono tracking-widest text-slate-300 uppercase mt-0.5">
+            16-PART 64-VOICE SYNTHESIZER
+          </div>
+        </div>
+
+        <!-- Center: Iconic Recessed Wedge Housing with 2x24 Lime LCD & Data Wheel -->
+        <div class="audity-lcd-wedge rounded-lg px-6 py-2.5 flex items-center gap-6 z-10 border border-[#2b3a4a]/50">
+          <!-- Backlit Green Dot-Matrix LCD Display -->
+          <div class="bg-[#1a2d1d] border-2 border-[#0f1d11] rounded px-4 py-2 text-[#76f076] font-lcd shadow-inner text-sm flex flex-col justify-center min-w-[280px]">
+            <div class="flex justify-between items-center text-[11px] opacity-80 border-b border-[#2b442b] pb-0.5 mb-1">
+              <span>PRESET: 001 USER</span>
+              <span id="audity-lcd-status">Z-PLANE: VOCAL</span>
+            </div>
+            <div class="flex justify-between items-center font-bold tracking-wider text-base">
+              <span id="audity-lcd-title">P001: CyberMorph X</span>
+              <span class="text-xs bg-[#76f076]/20 px-1 rounded text-[#76f076]" id="audity-lcd-val">M: 84</span>
+            </div>
+          </div>
+
+          <!-- Dual-Concentric Data Wheel with Tactile Finger Dent -->
+          <div class="flex flex-col items-center">
+            <div class="data-wheel-outer w-16 h-16 rounded-full flex items-center justify-center p-1.5 cursor-grab active:cursor-grabbing" onwheel="handleDataWheel(event)">
+              <div class="data-wheel-inner w-full h-full rounded-full flex items-center justify-center relative">
+                <!-- Finger Dent -->
+                <div class="w-4 h-4 rounded-full bg-slate-900 shadow-inner absolute top-2 left-3 border border-slate-700/60"></div>
+                <!-- Center E-MU Logo Core -->
+                <div class="w-4 h-4 rounded-full bg-[#111827] border border-slate-600 flex items-center justify-center text-[8px] font-bold text-slate-400">
+                  Ω
+                </div>
+              </div>
+            </div>
+            <span class="text-[8px] uppercase font-tech tracking-wider text-slate-300 mt-1 font-bold">DATA / JOG</span>
+          </div>
+        </div>
+
+        <!-- 4 Real-Time Control Knobs (Audity 2000 signature front-panel rotaries) -->
+        <div class="flex items-center gap-5 px-4 z-10">
+          <!-- Knob A: Filter Cutoff -->
+          <div class="flex flex-col items-center">
+            <div class="audity-knob w-11 h-11 rounded-full cursor-ns-resize" id="knob-audity-a" onmousedown="startKnobDrag(event, 'audity', 'cutoff')">
+              <div class="audity-knob-indicator" id="ind-audity-cutoff" style="transform: translateX(-50%) rotate(45deg);"></div>
+            </div>
+            <span class="text-[9px] font-tech font-bold uppercase text-slate-200 mt-1">CUTOFF</span>
+          </div>
+          <!-- Knob B: Resonance -->
+          <div class="flex flex-col items-center">
+            <div class="audity-knob w-11 h-11 rounded-full cursor-ns-resize" id="knob-audity-b" onmousedown="startKnobDrag(event, 'audity', 'resonance')">
+              <div class="audity-knob-indicator" id="ind-audity-res" style="transform: translateX(-50%) rotate(30deg);"></div>
+            </div>
+            <span class="text-[9px] font-tech font-bold uppercase text-slate-200 mt-1">RES / Q</span>
+          </div>
+          <!-- Knob C: Z-Plane Morph -->
+          <div class="flex flex-col items-center">
+            <div class="audity-knob w-11 h-11 rounded-full cursor-ns-resize" id="knob-audity-c" onmousedown="startKnobDrag(event, 'audity', 'morph')">
+              <div class="audity-knob-indicator" id="ind-audity-morph" style="transform: translateX(-50%) rotate(80deg);"></div>
+            </div>
+            <span class="text-[9px] font-tech font-bold uppercase text-amber-300 mt-1">MORPH</span>
+          </div>
+          <!-- Knob D: Velocity Crossfade -->
+          <div class="flex flex-col items-center">
+            <div class="audity-knob w-11 h-11 rounded-full cursor-ns-resize" id="knob-audity-d" onmousedown="startKnobDrag(event, 'audity', 'vel')">
+              <div class="audity-knob-indicator" id="ind-audity-vel" style="transform: translateX(-50%) rotate(-20deg);"></div>
+            </div>
+            <span class="text-[9px] font-tech font-bold uppercase text-slate-200 mt-1">VELOCITY</span>
+          </div>
+        </div>
+
+        <!-- Right Rack Ear with Bolt Hole -->
+        <div class="flex flex-col items-center justify-between h-28 pl-3 border-l border-[#305e83] z-10">
+          <div class="rack-bolt"></div>
+          <div class="w-3 h-3 rounded-full bg-emerald-400 shadow-[0_0_8px_#34d399] border border-white/50"></div>
+          <div class="rack-bolt"></div>
+        </div>
+      </div>
+
+      <!-- Lower Deep Architecture Panel (Bespoke to Audity 2000's Signal Chain) -->
+      <div class="grid grid-cols-12 gap-5">
+        <!-- 4-Layer Sample Architecture -->
+        <div class="col-span-12 lg:col-span-4 bg-[#0d131a] border border-[#1f2937] rounded-xl p-4 shadow-xl">
+          <div class="flex items-center justify-between border-b border-slate-800 pb-2 mb-3">
+            <h3 class="text-xs font-bold font-tech uppercase tracking-wider text-cyan-400 flex items-center gap-2">
+              <span class="w-2 h-2 rounded-full bg-cyan-400 shadow-[0_0_6px_#22d3ee]"></span>
+              4-Layer Sample Engine
+            </h3>
+            <span class="text-[10px] font-mono text-slate-400">64 Poly</span>
+          </div>
+          <div class="space-y-2.5">
+            <div class="bg-[#131d27] p-2.5 rounded-lg border border-cyan-500/30">
+              <div class="flex justify-between items-center text-xs mb-1">
+                <span class="font-bold text-white">Layer 1: Primary Wave</span>
+                <span class="text-[10px] font-mono text-cyan-300 bg-cyan-950 px-1.5 py-0.5 rounded">ROM #084</span>
+              </div>
+              <div class="text-[11px] text-slate-300 font-mono">"Tekno Acid 303 Saw"</div>
+            </div>
+            <div class="bg-[#131d27] p-2.5 rounded-lg border border-slate-800 opacity-90">
+              <div class="flex justify-between items-center text-xs mb-1">
+                <span class="font-bold text-slate-200">Layer 2: Secondary Wave</span>
+                <span class="text-[10px] font-mono text-slate-400 bg-slate-900 px-1.5 py-0.5 rounded">ROM #142</span>
+              </div>
+              <div class="text-[11px] text-slate-400 font-mono">"Vox Humana Formant"</div>
+            </div>
+            <div class="grid grid-cols-2 gap-2 text-xs">
+              <div class="bg-[#0b1016] p-2 rounded border border-slate-800 text-slate-500 text-center">Layer 3: (Muted)</div>
+              <div class="bg-[#0b1016] p-2 rounded border border-slate-800 text-slate-500 text-center">Layer 4: (Muted)</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 14-Pole Z-Plane Morphing Filter Curve Canvas -->
+        <div class="col-span-12 lg:col-span-5 bg-[#0d131a] border border-[#1f2937] rounded-xl p-4 shadow-xl">
+          <div class="flex items-center justify-between border-b border-slate-800 pb-2 mb-3">
+            <h3 class="text-xs font-bold font-tech uppercase tracking-wider text-amber-400 flex items-center gap-2">
+              <span class="w-2 h-2 rounded-full bg-amber-400 shadow-[0_0_6px_#fbbf24]"></span>
+              14-Pole Z-Plane Filter Response
+            </h3>
+            <span class="text-[10px] font-mono text-amber-300 bg-amber-950 px-1.5 py-0.5 rounded">50 Models</span>
+          </div>
+          <!-- SVG Frequency Curve -->
+          <div class="relative bg-[#070b10] border border-cyan-950 rounded-lg p-2 h-40 overflow-hidden shadow-inner">
+            <svg class="w-full h-full" viewBox="0 0 500 160" preserveAspectRatio="none">
+              <path id="audity-curve" d="M 0,140 C 70,130 130,30 170,20 C 200,10 220,120 270,30 C 320,10 360,140 500,155" fill="rgba(34,211,238,0.15)" stroke="#22d3ee" stroke-width="2.5"/>
+              <circle id="audity-dot-1" cx="170" cy="20" r="5" fill="#38bdf8" stroke="#ffffff" stroke-width="2"/>
+              <circle id="audity-dot-2" cx="270" cy="30" r="5" fill="#fbbf24" stroke="#ffffff" stroke-width="2"/>
+            </svg>
+          </div>
+          <div class="flex justify-between items-center text-[10px] font-mono text-slate-400 mt-2">
+            <span>20 Hz</span>
+            <span class="text-cyan-300 font-bold" id="audity-param-readout">Cutoff: 102 | Q: 96 | Morph: 84</span>
+            <span>20 kHz</span>
+          </div>
+        </div>
+
+        <!-- 24-Cord Virtual Patch Bay -->
+        <div class="col-span-12 lg:col-span-3 bg-[#0d131a] border border-[#1f2937] rounded-xl p-4 shadow-xl flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between border-b border-slate-800 pb-2 mb-3">
+              <h3 class="text-xs font-bold font-tech uppercase tracking-wider text-slate-200">
+                24 Virtual Patch Cords
+              </h3>
+              <span class="text-[10px] font-mono text-slate-400">Matrix</span>
+            </div>
+            <div class="space-y-1.5 text-xs">
+              <div class="bg-[#121820] p-1.5 rounded flex justify-between items-center border border-slate-800">
+                <span class="text-slate-300 text-[11px]">LFO 1 → Z-Plane Morph</span>
+                <span class="font-mono text-cyan-400 font-bold">+64%</span>
+              </div>
+              <div class="bg-[#121820] p-1.5 rounded flex justify-between items-center border border-slate-800">
+                <span class="text-slate-300 text-[11px]">Velocity → Filter Cutoff</span>
+                <span class="font-mono text-cyan-400 font-bold">+45%</span>
+              </div>
+              <div class="bg-[#121820] p-1.5 rounded flex justify-between items-center border border-slate-800">
+                <span class="text-slate-300 text-[11px]">ModWheel → LFO 1 Depth</span>
+                <span class="font-mono text-cyan-400 font-bold">+80%</span>
+              </div>
+            </div>
+          </div>
+          <div class="text-[10px] font-mono text-cyan-400 text-center pt-2 border-t border-slate-800">
+            E-MU SysEx: F0 18 0F ... F7
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ========================================================================================= -->
+    <!-- SYNTH 2: ACCESS VIRUS A AUTHENTIC DESKTOP UNIT & ARCHITECTURE                            -->
+    <!-- ========================================================================================= -->
+    <div id="unit-virus" class="hardware-unit hidden space-y-6">
+
+      <!-- Virus A Skeuomorphic Desktop Chassis with Wood Cheeks & Red Stripes -->
+      <div class="flex shadow-2xl rounded-lg overflow-hidden select-none">
+        <!-- Solid Mahogany Left Wood Cheek -->
+        <div class="wood-cheek-left w-6 shrink-0 border-r border-[#150a06]"></div>
+
+        <!-- Main Metal Faceplate -->
+        <div class="virus-chassis flex-1 p-5 text-white">
+          <!-- Top Red Racing Stripe & Branding Header -->
+          <div class="flex items-center justify-between pb-3 mb-4 border-b border-gray-800">
+            <div class="flex items-center space-x-3">
+              <span class="text-2xl font-black tracking-widest text-white uppercase font-['Inter']">ACCESS</span>
+              <span class="text-2xl font-bold tracking-wider text-red-500 font-['Inter']">VIRUS</span>
+              <span class="text-sm bg-red-600 text-white font-mono px-2 py-0.5 rounded font-black shadow-md">A</span>
+              <div class="h-4 w-12 virus-red-stripe rounded-sm ml-2"></div>
+            </div>
+
+            <!-- 2x16 Backlit Green Dot-Matrix LCD Display -->
+            <div class="bg-[#0c1a0c] border-2 border-[#163016] rounded-md px-4 py-1.5 text-[#72ff7e] font-led text-xl shadow-inner min-w-[260px] flex flex-col justify-center">
+              <div class="flex justify-between text-xs opacity-75 border-b border-[#163016] pb-0.5">
+                <span>BANK A : P024</span>
+                <span>SINGLE</span>
+              </div>
+              <div class="flex justify-between items-center tracking-widest">
+                <span>Aggressive Lead</span>
+                <span class="text-xs bg-[#72ff7e]/20 px-1 rounded">12V</span>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <button class="px-3 py-1 rounded bg-red-600 text-white font-bold text-xs shadow-md">SINGLE</button>
+              <button class="px-3 py-1 rounded bg-[#20242e] text-gray-400 text-xs border border-gray-700">MULTI</button>
+            </div>
+          </div>
+
+          <!-- Tactile Hardware Knobs Section (Oscillators, Dual Filters, Analog Boost) -->
+          <div class="grid grid-cols-12 gap-5">
+            <!-- Oscillators Section -->
+            <div class="col-span-12 md:col-span-4 bg-[#14161c] p-3.5 rounded-lg border border-gray-800">
+              <div class="text-xs font-bold text-red-500 uppercase tracking-wider mb-3 flex items-center gap-1.5">
+                <span class="w-2 h-2 rounded-full bg-red-500"></span>
+                Oscillators & FM
+              </div>
+              <div class="grid grid-cols-3 gap-3 text-center">
+                <div class="flex flex-col items-center">
+                  <div class="virus-knob w-11 h-11 rounded-full cursor-ns-resize" onmousedown="startKnobDrag(event, 'virus', 'shape')">
+                    <div class="virus-knob-pointer" style="transform: translateX(-50%) rotate(-30deg);"></div>
+                  </div>
+                  <span class="text-[9px] font-bold text-gray-300 mt-1 uppercase">SHAPE</span>
+                </div>
+                <div class="flex flex-col items-center">
+                  <div class="virus-knob w-11 h-11 rounded-full cursor-ns-resize" onmousedown="startKnobDrag(event, 'virus', 'pw')">
+                    <div class="virus-knob-pointer" style="transform: translateX(-50%) rotate(0deg);"></div>
+                  </div>
+                  <span class="text-[9px] font-bold text-gray-300 mt-1 uppercase">PULSE W</span>
+                </div>
+                <div class="flex flex-col items-center">
+                  <div class="virus-knob w-11 h-11 rounded-full cursor-ns-resize" onmousedown="startKnobDrag(event, 'virus', 'fm')">
+                    <div class="virus-knob-pointer" style="transform: translateX(-50%) rotate(40deg);"></div>
+                  </div>
+                  <span class="text-[9px] font-bold text-red-400 mt-1 uppercase">FM AMT</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Dual Multi-Mode Filters with Serial/Parallel Hardware Switch -->
+            <div class="col-span-12 md:col-span-5 bg-[#14161c] p-3.5 rounded-lg border border-gray-800">
+              <div class="flex items-center justify-between mb-3">
+                <div class="text-xs font-bold text-red-500 uppercase tracking-wider flex items-center gap-1.5">
+                  <span class="w-2 h-2 rounded-full bg-red-500"></span>
+                  Dual Multi-Mode Filters
+                </div>
+                <div class="flex items-center bg-[#1d2028] p-0.5 rounded border border-gray-700 text-[9px]">
+                  <button class="px-2 py-0.5 rounded bg-red-600 text-white font-bold">SERIAL</button>
+                  <button class="px-2 py-0.5 rounded text-gray-400">PARALLEL</button>
+                </div>
+              </div>
+              <div class="grid grid-cols-4 gap-3 text-center">
+                <div class="flex flex-col items-center">
+                  <div class="virus-knob w-11 h-11 rounded-full cursor-ns-resize" onmousedown="startKnobDrag(event, 'virus', 'cutoff1')">
+                    <div class="virus-knob-pointer" style="transform: translateX(-50%) rotate(35deg);"></div>
+                  </div>
+                  <span class="text-[9px] font-bold text-gray-300 mt-1 uppercase">CUTOFF 1</span>
+                </div>
+                <div class="flex flex-col items-center">
+                  <div class="virus-knob w-11 h-11 rounded-full cursor-ns-resize" onmousedown="startKnobDrag(event, 'virus', 'res1')">
+                    <div class="virus-knob-pointer" style="transform: translateX(-50%) rotate(55deg);"></div>
+                  </div>
+                  <span class="text-[9px] font-bold text-gray-300 mt-1 uppercase">RESON 1</span>
+                </div>
+                <div class="flex flex-col items-center">
+                  <div class="virus-knob w-11 h-11 rounded-full cursor-ns-resize" onmousedown="startKnobDrag(event, 'virus', 'cutoff2')">
+                    <div class="virus-knob-pointer" style="transform: translateX(-50%) rotate(60deg);"></div>
+                  </div>
+                  <span class="text-[9px] font-bold text-gray-300 mt-1 uppercase">CUTOFF 2</span>
+                </div>
+                <div class="flex flex-col items-center">
+                  <div class="virus-knob w-11 h-11 rounded-full cursor-ns-resize" onmousedown="startKnobDrag(event, 'virus', 'boost')">
+                    <div class="virus-knob-pointer" style="transform: translateX(-50%) rotate(45deg);"></div>
+                  </div>
+                  <span class="text-[9px] font-bold text-red-400 mt-1 uppercase">ANALOG BOOST</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Effects Section (Delay / Vocoder) -->
+            <div class="col-span-12 md:col-span-3 bg-[#14161c] p-3.5 rounded-lg border border-gray-800 flex flex-col justify-between">
+              <div class="text-xs font-bold text-red-500 uppercase tracking-wider mb-2">Effects & Vocoder</div>
+              <div class="grid grid-cols-2 gap-2 text-center">
+                <div class="flex flex-col items-center">
+                  <div class="virus-knob w-10 h-10 rounded-full cursor-ns-resize" onmousedown="startKnobDrag(event, 'virus', 'delay')">
+                    <div class="virus-knob-pointer" style="transform: translateX(-50%) rotate(20deg);"></div>
+                  </div>
+                  <span class="text-[8px] font-bold text-gray-300 mt-1 uppercase">DELAY WET</span>
+                </div>
+                <div class="flex flex-col items-center">
+                  <div class="virus-knob w-10 h-10 rounded-full cursor-ns-resize" onmousedown="startKnobDrag(event, 'virus', 'chorus')">
+                    <div class="virus-knob-pointer" style="transform: translateX(-50%) rotate(40deg);"></div>
+                  </div>
+                  <span class="text-[8px] font-bold text-gray-300 mt-1 uppercase">CHORUS</span>
+                </div>
+              </div>
+              <div class="text-[10px] font-mono text-red-400 text-center pt-2 border-t border-gray-800">
+                Virus SysEx: F0 00 20 33 ... F7
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Solid Mahogany Right Wood Cheek -->
+        <div class="wood-cheek-right w-6 shrink-0 border-l border-[#150a06]"></div>
+      </div>
+    </div>
+
+
+    <!-- ========================================================================================= -->
+    <!-- SYNTH 3: AKAI AX60 AUTHENTIC TACTILE HARDWARE UNIT & ARCHITECTURE                         -->
+    <!-- ========================================================================================= -->
+    <div id="unit-ax60" class="hardware-unit hidden space-y-6">
+
+      <!-- AX60 Skeuomorphic Dark Steel Chassis with Authentic Vertical Faders -->
+      <div class="ax60-chassis rounded-xl p-5 shadow-2xl text-white select-none">
+
+        <!-- Top Header Bar with AKAI Logo and 2-Digit Red 7-Segment LED -->
+        <div class="flex items-center justify-between pb-3 mb-4 border-b-2 border-sky-500">
+          <div class="flex items-center space-x-4">
+            <span class="text-3xl font-black tracking-tight text-white font-tech">AKAI</span>
+            <div class="h-6 w-0.5 bg-sky-500"></div>
+            <div>
+              <div class="text-[10px] font-bold text-sky-400 font-mono tracking-widest uppercase">PROGRAMMABLE SYNTHESIZER</div>
+              <div class="text-xl font-bold text-slate-100 font-mono">AX60</div>
+            </div>
+          </div>
+
+          <!-- Glowing 2-Digit Red 7-Segment LED Display -->
+          <div class="bg-[#080202] border-2 border-[#300a0a] rounded px-6 py-1 flex items-center gap-4 shadow-inner">
+            <span class="text-[10px] font-mono uppercase text-red-700 tracking-wider font-bold">PROGRAM</span>
+            <span class="text-4xl font-led text-[#ff2222] tracking-wider drop-shadow-[0_0_10px_rgba(255,34,34,0.8)]">24</span>
+          </div>
+
+          <!-- Tactile Chiclet Buttons -->
+          <div class="flex items-center gap-2">
+            <div class="bg-[#101318] p-1 rounded-lg border border-slate-700 flex gap-1">
+              <button class="ax60-chiclet-blue px-3 py-1 text-xs font-bold rounded text-white flex items-center gap-1.5 shadow">
+                <span class="ax60-led-dot"></span> WHOLE
+              </button>
+              <button class="px-3 py-1 text-xs font-semibold rounded text-slate-400 hover:text-white">SPLIT</button>
+              <button class="px-3 py-1 text-xs font-semibold rounded text-slate-400 hover:text-white">DUAL</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- AX60 Authentic Fader Bank: VCO, Sampler In, VCF, VCA, Chorus -->
+        <div class="grid grid-cols-12 gap-5">
+
+          <!-- Section 1: VCO & Dedicated S612/S900 Sampler In -->
+          <div class="col-span-12 md:col-span-4 bg-[#101318] p-4 rounded-lg border border-slate-800">
+            <div class="text-xs font-bold text-sky-400 uppercase tracking-wider mb-4 border-b border-sky-950 pb-1">
+              VCO & Sampler Audio In
+            </div>
+            <!-- Waveform Chiclet Selector -->
+            <div class="grid grid-cols-3 gap-1.5 mb-4 text-[10px]">
+              <button class="ax60-chiclet-blue py-1 rounded font-bold text-white flex items-center justify-center gap-1">
+                <span class="ax60-led-dot"></span> SAW
+              </button>
+              <button class="ax60-chiclet-cream py-1 rounded font-bold">TRI</button>
+              <button class="ax60-chiclet-cream py-1 rounded font-bold">PWM</button>
+            </div>
+
+            <!-- Vertical Sliders: Pulse Width, Sub-Osc, and Sampler In -->
+            <div class="flex justify-around items-end h-36 pt-2">
+              <div class="flex flex-col items-center">
+                <div class="ax60-fader-slot w-2 h-24 relative flex items-center justify-center">
+                  <div class="ax60-fader-cap w-6 h-4 absolute top-8 cursor-ns-resize"><div class="ax60-fader-line"></div></div>
+                </div>
+                <span class="text-[9px] font-mono text-slate-300 mt-2">PWM</span>
+              </div>
+              <div class="flex flex-col items-center">
+                <div class="ax60-fader-slot w-2 h-24 relative flex items-center justify-center">
+                  <div class="ax60-fader-cap w-6 h-4 absolute top-4 cursor-ns-resize"><div class="ax60-fader-line"></div></div>
+                </div>
+                <span class="text-[9px] font-mono text-slate-300 mt-2">SUB</span>
+              </div>
+              <!-- Unique to AX60: Dedicated Sampler Input Fader! -->
+              <div class="flex flex-col items-center">
+                <div class="ax60-fader-slot w-2 h-24 relative flex items-center justify-center border-amber-600/50">
+                  <div class="ax60-fader-cap w-6 h-4 absolute top-2 cursor-ns-resize"><div class="ax60-fader-line bg-amber-400"></div></div>
+                </div>
+                <span class="text-[9px] font-mono text-amber-300 mt-2 font-bold">SAMPLER</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Section 2: CEM3394 24dB Resonant Analog VCF (Cutoff, Resonance, Key, VCF Mod) -->
+          <div class="col-span-12 md:col-span-5 bg-[#101318] p-4 rounded-lg border border-slate-800">
+            <div class="text-xs font-bold text-sky-400 uppercase tracking-wider mb-4 border-b border-sky-950 pb-1">
+              CEM3394 24dB Analog Lowpass Filter
+            </div>
+            <div class="flex justify-around items-end h-36 pt-2">
+              <div class="flex flex-col items-center">
+                <div class="ax60-fader-slot w-2 h-24 relative flex items-center justify-center">
+                  <div class="ax60-fader-cap w-6 h-4 absolute top-6 cursor-ns-resize"><div class="ax60-fader-line"></div></div>
+                </div>
+                <span class="text-[9px] font-mono text-slate-300 mt-2 font-bold">FREQ</span>
+              </div>
+              <div class="flex flex-col items-center">
+                <div class="ax60-fader-slot w-2 h-24 relative flex items-center justify-center">
+                  <div class="ax60-fader-cap w-6 h-4 absolute top-4 cursor-ns-resize"><div class="ax60-fader-line"></div></div>
+                </div>
+                <span class="text-[9px] font-mono text-slate-300 mt-2 font-bold">RES</span>
+              </div>
+              <div class="flex flex-col items-center">
+                <div class="ax60-fader-slot w-2 h-24 relative flex items-center justify-center">
+                  <div class="ax60-fader-cap w-6 h-4 absolute top-12 cursor-ns-resize"><div class="ax60-fader-line"></div></div>
+                </div>
+                <span class="text-[9px] font-mono text-slate-300 mt-2">KEY</span>
+              </div>
+              <div class="flex flex-col items-center">
+                <div class="ax60-fader-slot w-2 h-24 relative flex items-center justify-center">
+                  <div class="ax60-fader-cap w-6 h-4 absolute top-14 cursor-ns-resize"><div class="ax60-fader-line"></div></div>
+                </div>
+                <span class="text-[9px] font-mono text-slate-300 mt-2">MOD</span>
+              </div>
+              <!-- VCF Env Depth -->
+              <div class="flex flex-col items-center">
+                <div class="ax60-fader-slot w-2 h-24 relative flex items-center justify-center">
+                  <div class="ax60-fader-cap w-6 h-4 absolute top-5 cursor-ns-resize"><div class="ax60-fader-line"></div></div>
+                </div>
+                <span class="text-[9px] font-mono text-slate-300 mt-2">ENV</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Section 3: Analog Stereo Chorus & Arpeggiator -->
+          <div class="col-span-12 md:col-span-3 bg-[#101318] p-4 rounded-lg border border-slate-800 flex flex-col justify-between">
+            <div>
+              <div class="text-xs font-bold text-sky-400 uppercase tracking-wider mb-3 border-b border-sky-950 pb-1">
+                Analog Stereo Chorus
+              </div>
+              <div class="grid grid-cols-3 gap-1.5 mb-4">
+                <button class="ax60-chiclet-cream py-1.5 text-[10px] font-bold rounded">OFF</button>
+                <button class="ax60-chiclet-blue py-1.5 text-[10px] font-bold rounded text-white flex items-center justify-center gap-1">
+                  <span class="ax60-led-dot"></span> MODE I
+                </button>
+                <button class="ax60-chiclet-cream py-1.5 text-[10px] font-bold rounded">MODE II</button>
+              </div>
+
+              <div class="text-xs font-bold text-sky-400 uppercase tracking-wider mb-2">
+                Arpeggiator
+              </div>
+              <div class="flex justify-between items-center text-xs">
+                <span class="text-slate-400 text-[11px]">Mode:</span>
+                <span class="font-mono text-sky-300 font-bold bg-[#181d24] px-2 py-0.5 rounded">UP / DOWN</span>
+              </div>
+            </div>
+
+            <div class="text-[10px] font-mono text-sky-400 text-center pt-2 border-t border-slate-800">
+              Tauntek MIDI CC: B0 05 40
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <!-- REAL-TIME HARDWARE COMMUNICATION STREAM -->
+    <div class="bg-[#0b0c10] border border-[#1e222d] rounded-xl p-3 shadow-2xl flex items-center justify-between text-xs font-mono">
+      <div class="flex items-center gap-3">
+        <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 shadow-[0_0_8px_#34d399]"></span>
+        <span class="text-slate-400 uppercase text-[10px] tracking-wider font-bold">Hardware SysEx / CC Bus:</span>
+        <span id="comm-stream" class="text-emerald-400 font-bold">F0 18 0F 00 01 02 54 F7 (E-MU Audity 2000 Z-Plane Cutoff: 84)</span>
+      </div>
+      <div class="text-slate-500 text-[11px]">
+        Latency: <span class="text-emerald-400">0.4ms</span> | Interface: <span class="text-slate-300">FastLane USB</span>
+      </div>
+    </div>
+
+  </main>
+
+  <script>
+    // Hardware Selector Tab Switcher
+    function selectHardware(unitId) {
+      document.querySelectorAll('.hardware-unit').forEach(el => el.classList.add('hidden'));
+      document.querySelectorAll('.hardware-tab').forEach(btn => {
+        btn.classList.remove('active', 'bg-gradient-to-r', 'from-blue-900', 'to-indigo-900', 'from-red-950', 'to-neutral-900', 'from-slate-800', 'to-sky-950', 'text-cyan-200', 'text-red-300', 'text-sky-300', 'border', 'border-cyan-500/40', 'border-red-500/40', 'border-sky-500/40');
+        btn.classList.add('text-gray-400');
+      });
+
+      const activeUnit = document.getElementById('unit-' + unitId);
+      const activeNav = document.getElementById('nav-' + unitId);
+      const comm = document.getElementById('comm-stream');
+
+      if (activeUnit && activeNav) {
+        activeUnit.classList.remove('hidden');
+        activeNav.classList.remove('text-gray-400');
+
+        if (unitId === 'audity') {
+          activeNav.classList.add('active', 'bg-gradient-to-r', 'from-blue-900', 'to-indigo-900', 'text-cyan-200', 'border', 'border-cyan-500/40');
+          comm.innerText = 'F0 18 0F 00 01 02 54 F7 (E-MU Audity 2000 Z-Plane Cutoff: 84)';
+        } else if (unitId === 'virus') {
+          activeNav.classList.add('active', 'bg-gradient-to-r', 'from-red-950', 'to-neutral-900', 'text-red-300', 'border', 'border-red-500/40');
+          comm.innerText = 'F0 00 20 33 01 00 10 4E F7 (Access Virus A Filter 1 Cutoff: 78)';
+        } else if (unitId === 'ax60') {
+          activeNav.classList.add('active', 'bg-gradient-to-r', 'from-slate-800', 'to-sky-950', 'text-sky-300', 'border', 'border-sky-500/40');
+          comm.innerText = 'B0 05 40 (Akai AX60 Tauntek CC Cutoff: 64)';
+        }
+      }
+    }
+
+    // Rotary Knob Interactive Dragging
+    let isDragging = false;
+    let startY = 0;
+    let currentVal = 84;
+    let activeSynth = '';
+    let activeParam = '';
+
+    function startKnobDrag(e, synth, param) {
+      isDragging = true;
+      startY = e.clientY;
+      activeSynth = synth;
+      activeParam = param;
+      document.body.style.cursor = 'ns-resize';
+      window.addEventListener('mousemove', handleKnobDrag);
+      window.addEventListener('mouseup', stopKnobDrag);
+    }
+
+    function handleKnobDrag(e) {
+      if (!isDragging) return;
+      const deltaY = startY - e.clientY;
+      startY = e.clientY;
+      currentVal = Math.max(0, Math.min(127, currentVal + deltaY));
+
+      const angle = ((currentVal / 127) * 270) - 135;
+      const hex = currentVal.toString(16).toUpperCase().padStart(2, '0');
+
+      if (activeSynth === 'audity') {
+        const ind = document.getElementById('ind-audity-' + (activeParam === 'resonance' ? 'res' : activeParam));
+        if (ind) ind.style.transform = `translateX(-50%) rotate(${angle}deg)`;
+        document.getElementById('audity-lcd-val').innerText = `V: ${currentVal}`;
+        document.getElementById('comm-stream').innerText = `F0 18 0F 00 01 02 ${hex} F7 (E-MU Audity 2000 ${activeParam}: ${currentVal})`;
+      } else if (activeSynth === 'virus') {
+        document.getElementById('comm-stream').innerText = `F0 00 20 33 01 00 10 ${hex} F7 (Access Virus A ${activeParam}: ${currentVal})`;
+      }
+    }
+
+    function stopKnobDrag() {
+      isDragging = false;
+      document.body.style.cursor = 'default';
+      window.removeEventListener('mousemove', handleKnobDrag);
+      window.removeEventListener('mouseup', stopKnobDrag);
+    }
+
+    // Data Wheel Scroll Handler
+    function handleDataWheel(e) {
+      e.preventDefault();
+      const delta = e.deltaY < 0 ? 1 : -1;
+      currentVal = Math.max(0, Math.min(127, currentVal + delta));
+      const hex = currentVal.toString(16).toUpperCase().padStart(2, '0');
+      document.getElementById('audity-lcd-val').innerText = `M: ${currentVal}`;
+      document.getElementById('comm-stream').innerText = `F0 18 0F 00 01 02 ${hex} F7 (E-MU Audity 2000 Wheel: ${currentVal})`;
+    }
+
+    // Web Audio Sound Engine
+    let audioCtx = null;
+    function playAuditionSound() {
+      if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+
+      const now = audioCtx.currentTime;
+      const osc1 = audioCtx.createOscillator();
+      const osc2 = audioCtx.createOscillator();
+      const filter = audioCtx.createBiquadFilter();
+      const gain = audioCtx.createGain();
+
+      osc1.type = 'sawtooth';
+      osc1.frequency.setValueAtTime(130.81, now); // C3
+      osc2.type = 'sawtooth';
+      osc2.frequency.setValueAtTime(131.6, now); // Detuned
+
+      filter.type = 'lowpass';
+      filter.frequency.setValueAtTime(250, now);
+      filter.frequency.exponentialRampToValueAtTime(3200, now + 0.1);
+      filter.frequency.exponentialRampToValueAtTime(900, now + 0.45);
+      filter.Q.setValueAtTime(9, now);
+
+      gain.gain.setValueAtTime(0, now);
+      gain.gain.linearRampToValueAtTime(0.3, now + 0.02);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.65);
+
+      osc1.connect(filter);
+      osc2.connect(filter);
+      filter.connect(gain);
+      gain.connect(audioCtx.destination);
+
+      osc1.start(now);
+      osc2.start(now);
+      osc1.stop(now + 0.7);
+      osc2.stop(now + 0.7);
+    }
+
+    window.addEventListener('keydown', (e) => {
+      if (e.code === 'Space' && e.target.tagName !== 'INPUT') {
+        e.preventDefault();
+        playAuditionSound();
+      }
+    });
+  </script>
+</body>
+</html>
