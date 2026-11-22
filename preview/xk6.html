@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-MU XK-6 Xtreme Keys — Skeuomorphic Hardware Editor &amp; 61-Key Performance Synthesizer</title>
+  <script src="tailwindcss.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@500;700;800;900&family=VT323&family=Rajdhani:wght@600;700;800&family=Inter:wght@400;500;600;700&family=Russo+One&family=Caveat:wght@700&display=swap" rel="stylesheet">
+
+  <style>
+    /* Custom Scrollbars */
+    ::-webkit-scrollbar { width: 5px; height: 5px; }
+    ::-webkit-scrollbar-track { background: #0c0d12; }
+    ::-webkit-scrollbar-thumb { background: #272a34; border-radius: 3px; }
+
+    .font-lcd { font-family: 'Share Tech Mono', monospace; }
+    .font-matrix { font-family: 'Rajdhani', sans-serif; }
+    .font-emu { font-family: 'Inter', sans-serif; }
+    .font-techno { font-family: 'Russo One', sans-serif; }
+    .font-script { font-family: 'Caveat', cursive; }
+
+    /* Gunmetal Grey Sculpted Keyboard Chassis */
+    .xk6-chassis {
+      background: linear-gradient(180deg, #64748b 0%, #475569 25%, #334155 70%, #1e293b 100%);
+      box-shadow: 
+        inset 0 2px 3px rgba(255,255,255,0.4), 
+        inset 0 -3px 5px rgba(0,0,0,0.8), 
+        0 25px 60px rgba(0,0,0,0.95);
+      border: 1.5px solid #1e293b;
+      position: relative;
+    }
+
+    /* Recessed Cyber-Yellow Top Control Inset */
+    .xk6-yellow-panel {
+      background: linear-gradient(180deg, #fbb01b 0%, #f59e0b 30%, #d97706 75%, #b45309 100%);
+      border: 2px solid #1e2430;
+      box-shadow: 
+        inset 0 3px 6px rgba(0,0,0,0.6), 
+        inset 0 -2px 3px rgba(255,255,255,0.4), 
+        0 4px 8px rgba(0,0,0,0.5);
+      border-radius: 8px;
+      position: relative;
+    }
+
+    /* Molded Side Cheek Endcaps */
+    .xk6-endcap-left {
+      background: linear-gradient(90deg, #334155 0%, #475569 40%, #1e293b 100%);
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 12px;
+      box-shadow: inset 1px 2px 3px rgba(255,255,255,0.3), inset -3px 0 6px rgba(0,0,0,0.6);
+    }
+    .xk6-endcap-right {
+      background: linear-gradient(270deg, #334155 0%, #475569 40%, #1e293b 100%);
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 12px;
+      box-shadow: inset -1px 2px 3px rgba(255,255,255,0.3), inset 3px 0 6px rgba(0,0,0,0.6);
+    }
+
+    /* Pitch Bend & Mod Wheels Well */
+    .xk6-wheel-well {
+      background: #15181f;
+      border: 1.5px solid #0d0f14;
+      box-shadow: inset 0 3px 8px rgba(0,0,0,0.95), 0 1px 2px rgba(255,255,255,0.15);
+      border-radius: 16px;
+      display: flex;
+      gap: 8px;
+      padding: 6px 10px;
+      align-items: center;
+      justify-content: center;
+    }
+    .xk6-wheel {
+      width: 20px;
+      height: 64px;
+      border-radius: 10px;
+      background: linear-gradient(90deg, #1e2229 0%, #383e4a 35%, #525a6c 50%, #2b303a 80%, #171920 100%);
+      box-shadow: inset 0 2px 3px rgba(255,255,255,0.4), 0 3px 6px rgba(0,0,0,0.85);
+      border: 1px solid #111317;
+      position: relative;
+      cursor: ns-resize;
+      user-select: none;
+    }
+    .xk6-wheel-ridges {
+      position: absolute;
+      left: 2px;
+      right: 2px;
+      top: 14px;
+      bottom: 14px;
+      background: repeating-linear-gradient(
+        180deg,
+        #111318 0px,
+        #111318 2px,
+        #474e5d 2px,
+        #474e5d 4px
+      );
+      border-radius: 4px;
+    }
+
+    /* LCD Bezel */
+    .xk6-lcd-bezel {
+      background: linear-gradient(180deg, #1c212a 0%, #0e1116 70%, #080a0d 100%);
+      border: 1.5px solid #282f3c;
+      box-shadow: inset 0 2px 5px rgba(0,0,0,0.9), 0 2px 4px rgba(0,0,0,0.5);
+      border-radius: 4px;
+    }
+    .xk6-lcd {
+      background: radial-gradient(circle at 45% 50%, #15381d 0%, #0d2312 70%, #07150a 100%);
+      box-shadow: inset 0 3px 8px rgba(0,0,0,0.95), 0 0 10px rgba(34, 197, 94, 0.25);
+      border: 1px solid #061108;
+    }
+    .lcd-green-text {
+      color: #5ef574;
+      text-shadow: 0 0 5px rgba(94, 245, 116, 0.8), 0 0 12px rgba(34, 197, 94, 0.5);
+    }
+
+    /* Soft Knobs */
+    .xk6-knob {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 38% 35%, #424650 0%, #20232a 55%, #0f1013 100%);
+      border: 1px solid #111317;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.8), inset 0 1px 1px rgba(255,255,255,0.3);
+      position: relative;
+      cursor: ns-resize;
+      user-select: none;
+    }
+    .xk6-knob-pointer {
+      width: 2px;
+      height: 8px;
+      background: #ffffff;
+      position: absolute;
+      top: 3px;
+      left: 13px;
+      border-radius: 1px;
+    }
+
+    /* Master Volume Knob */
+    .xk6-vol-knob {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 38% 35%, #4a505c 0%, #23262e 60%, #101115 100%);
+      border: 1.5px solid #121418;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.85), inset 0 1px 2px rgba(255,255,255,0.35);
+      position: relative;
+      cursor: ns-resize;
+    }
+    .xk6-vol-pointer {
+      width: 2px;
+      height: 9px;
+      background: #ffffff;
+      position: absolute;
+      top: 3px;
+      left: 15px;
+      border-radius: 1px;
+    }
+
+    /* DATA Wheel */
+    .xk6-data-wheel {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 45% 40%, #3e424c 0%, #20232a 55%, #0f1013 100%);
+      border: 2px solid #121418;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.9), inset 0 2px 3px rgba(255,255,255,0.25);
+      position: relative;
+      cursor: pointer;
+      user-select: none;
+    }
+    .xk6-data-dimple {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 50% 50%, #2b2e35 0%, #0e0f13 100%);
+      box-shadow: inset 0 2px 5px rgba(0,0,0,0.95), 0 1px 1px rgba(255,255,255,0.2);
+      position: absolute;
+      top: 8px;
+      left: 19px;
+    }
+
+    /* Tactile Buttons */
+    .xk6-btn-rect {
+      height: 15px;
+      border-radius: 2.5px;
+      background: radial-gradient(circle at 45% 35%, #3d414a 0%, #1f2127 65%, #0f1013 100%);
+      border: 1px solid #0d0e12;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.65), inset 0 1px 1px rgba(255,255,255,0.25);
+      cursor: pointer;
+      user-select: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .xk6-btn-rect:active {
+      transform: translateY(1px);
+    }
+
+    .xk6-btn-round {
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 40% 35%, #41454e 0%, #1e2026 60%, #0f1013 100%);
+      border: 1px solid #0d0e12;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.7), inset 0 1px 1px rgba(255,255,255,0.3);
+      cursor: pointer;
+    }
+    .xk6-btn-round:active {
+      transform: translateY(1px);
+    }
+
+    /* LEDs */
+    .led-dot { width: 4.5px; height: 4.5px; border-radius: 50%; }
+    .led-off { background: #3b1304; box-shadow: inset 0 1px 2px rgba(0,0,0,0.9); }
+    .led-red-on { background: #ef4444; box-shadow: 0 0 6px #ef4444, 0 0 10px #dc2626; }
+    .led-green-on { background: #22c55e; box-shadow: 0 0 6px #22c55e, 0 0 10px #16a34a; }
+    .led-yellow-on { background: #facc15; box-shadow: 0 0 6px #facc15, 0 0 10px #eab308; }
+
+    /* Red Felt Keybed Strip */
+    .keybed-felt {
+      background: linear-gradient(180deg, #991b1b 0%, #7f1d1d 60%, #450a0a 100%);
+      box-shadow: inset 0 1px 2px rgba(0,0,0,0.8);
+      height: 4px;
+    }
+
+    /* 61-Key Keyboard Layout */
+    .keyboard-container {
+      position: relative;
+      user-select: none;
+      background: #090a0f;
+      padding: 4px 6px 10px 6px;
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px;
+      box-shadow: inset 0 3px 6px rgba(0,0,0,0.9), 0 10px 25px rgba(0,0,0,0.8);
+    }
+    .white-keys-row {
+      display: flex;
+      position: relative;
+    }
+    .key-white {
+      flex: 1;
+      height: 120px;
+      background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 60%, #e2e8f0 90%, #cbd5e1 100%);
+      border: 1px solid #94a3b8;
+      border-bottom-left-radius: 3px;
+      border-bottom-right-radius: 3px;
+      box-shadow: inset 0 1px 2px rgba(255,255,255,0.9), 0 3px 4px rgba(0,0,0,0.4);
+      cursor: pointer;
+      position: relative;
+      z-index: 1;
+    }
+    .key-white:active, .key-white.key-active {
+      background: linear-gradient(180deg, #e2e8f0 0%, #cbd5e1 80%, #94a3b8 100%);
+      transform: translateY(2px);
+      box-shadow: inset 0 2px 4px rgba(0,0,0,0.3);
+    }
+    .black-keys-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 75px;
+      pointer-events: none;
+      display: flex;
+    }
+    .key-black {
+      position: absolute;
+      width: 1.8%;
+      height: 75px;
+      background: linear-gradient(180deg, #334155 0%, #1e293b 40%, #0f172a 90%, #020617 100%);
+      border: 1px solid #000000;
+      border-bottom-left-radius: 3px;
+      border-bottom-right-radius: 3px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.8), inset 0 1px 1px rgba(255,255,255,0.25);
+      cursor: pointer;
+      pointer-events: auto;
+      z-index: 2;
+    }
+    .key-black:active, .key-black.key-active {
+      background: linear-gradient(180deg, #1e293b 0%, #0f172a 80%, #020617 100%);
+      transform: translateY(2px);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.9);
+    }
+
+    /* Sub-view Navigation Tabs */
+    .mq-tab {
+      transition: all 0.15s ease-in-out;
+      border-bottom: 2px solid transparent;
+    }
+    .mq-tab.active {
+      border-bottom-color: #f59e0b;
+      color: #fef08a;
+      background-color: rgba(245, 158, 11, 0.12);
+    }
+  </style>
+</head>
+
+<body class="bg-zinc-950 text-zinc-100 min-h-screen flex flex-col items-center p-3 select-none">
+
+  <!-- TOP HEADER -->
+  <div class="w-full max-w-6xl flex items-center justify-between py-2 border-b border-zinc-800 text-xs font-mono mb-3">
+    <div class="flex items-center gap-3">
+      <div class="w-2.5 h-2.5 rounded-full bg-amber-500 shadow-[0_0_8px_#f59e0b]"></div>
+      <span class="font-techno text-sm tracking-wider text-amber-400">E-MU XK-6</span>
+      <span class="text-zinc-500">|</span>
+      <span class="text-zinc-400 font-bold">61-Key Dance Performance Keyboard Synthesizer</span>
+    </div>
+    <div class="flex items-center gap-4 text-zinc-400">
+      <span class="text-[11px] bg-zinc-900 px-2 py-0.5 rounded border border-zinc-800">SysEx Model: <span class="text-amber-400 font-bold">0x0F (XL Series)</span></span>
+      <span class="text-[11px] bg-zinc-900 px-2 py-0.5 rounded border border-zinc-800">Sound Engine: <span class="text-amber-400 font-bold">64-Voice &bull; 32MB "The Xtreme Lead" ROM</span></span>
+      <a href="index.html" class="text-zinc-400 hover:text-white transition flex items-center gap-1 text-[11px] bg-zinc-900 px-2.5 py-0.5 rounded border border-zinc-700">
+        &larr; Studio Hub
+      </a>
+    </div>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- E-MU XK-6 PERFORMANCE KEYBOARD CONSOLE (AUTHENTIC HARDWARE)               -->
+  <!-- ========================================================================= -->
+  <div class="w-full max-w-6xl xk6-chassis rounded-2xl p-4 shadow-2xl flex flex-col gap-3 relative border-2 border-slate-700/80 overflow-hidden">
+    
+    <!-- MAIN CONSOLE HOUSING (LEFT WHEEL CHEEK + RECESSED YELLOW CONTROL INSET + RIGHT CHEEK) -->
+    <div class="flex w-full gap-3 items-stretch relative z-10">
+      
+      <!-- LEFT CHEEK: EMBOSSED LOGO, PITCH & MOD WHEELS, HEADPHONE JACK -->
+      <div class="w-24 xk6-endcap-left p-2.5 flex flex-col justify-between items-center shrink-0">
+        <!-- Embossed E-MU Logo in Plastic -->
+        <div class="flex flex-col items-center opacity-60">
+          <span class="font-emu font-black text-xs text-slate-300 tracking-widest">E-MU</span>
+          <div class="flex flex-col gap-0.5 mt-0.5">
+            <div class="w-6 h-0.5 bg-slate-300"></div>
+            <div class="w-6 h-0.5 bg-slate-300"></div>
+            <div class="w-6 h-0.5 bg-slate-300"></div>
+          </div>
+        </div>
+
+        <!-- Pitch Bend & Mod Wheels Well -->
+        <div class="xk6-wheel-well my-2">
+          <!-- Pitch Bend Wheel (Spring-loaded) -->
+          <div class="flex flex-col items-center">
+            <div class="xk6-wheel" id="wheel-pitch" onmousedown="startWheelDrag(event, 'pitch')">
+              <div class="xk6-wheel-ridges"></div>
+            </div>
+            <span class="text-[6.5px] font-matrix font-bold text-slate-400 mt-1 uppercase">PITCH</span>
+          </div>
+
+          <!-- Mod Wheel -->
+          <div class="flex flex-col items-center">
+            <div class="xk6-wheel" id="wheel-mod" onmousedown="startWheelDrag(event, 'mod')">
+              <div class="xk6-wheel-ridges"></div>
+            </div>
+            <span class="text-[6.5px] font-matrix font-bold text-slate-400 mt-1 uppercase">MOD</span>
+          </div>
+        </div>
+
+        <!-- 1/4" Headphone Jack Output -->
+        <div class="flex items-center gap-1.5 pt-1 border-t border-slate-600/40 w-full justify-center">
+          <div class="w-3.5 h-3.5 rounded-full bg-slate-900 border border-slate-500 shadow-inner flex items-center justify-center">
+            <div class="w-1.5 h-1.5 rounded-full bg-black"></div>
+          </div>
+          <span class="text-[7.5px] font-matrix font-bold text-slate-300">PHONES</span>
+        </div>
+      </div>
+
+      <!-- CENTER: RECESSED CYBER-YELLOW FRONT CONTROL PANEL -->
+      <div class="flex-1 xk6-yellow-panel p-3 flex items-center justify-between gap-2.5">
+        
+        <!-- SECTION 1: XK-6 LOGO, MASTER VOLUME & 4 CONTROLLER KNOBS -->
+        <div class="flex items-center gap-2.5 border-r border-amber-600/40 pr-3">
+          <!-- XK-6 Stylized Logo -->
+          <div class="flex flex-col leading-none">
+            <span class="text-3xl font-black italic tracking-tighter text-white font-brand transform -skew-x-12 select-none">XK-6</span>
+            <span class="text-[7.5px] font-matrix font-bold tracking-widest text-amber-950 uppercase mt-0.5">XTREME KEYS</span>
+          </div>
+
+          <!-- Master Volume -->
+          <div class="flex flex-col items-center px-1">
+            <div class="xk6-vol-knob" data-param="vol" data-val="115" onmousedown="startKnobDrag(event, 'vol')">
+              <div class="xk6-vol-pointer" id="vol-pointer"></div>
+            </div>
+            <span class="text-[6.5px] font-matrix font-bold text-zinc-950 uppercase mt-0.5">VOLUME</span>
+          </div>
+
+          <!-- 4 Controller Bank Buttons & 4 Knobs -->
+          <div class="flex items-center gap-2">
+            <!-- Bank Buttons Column -->
+            <div class="flex flex-col gap-1 items-center bg-amber-600/30 p-1 rounded border border-amber-500/40">
+              <span class="text-[5.5px] font-matrix font-bold text-zinc-950 uppercase leading-none">ROW</span>
+              <button onclick="setControllerBank(0)" id="btn-bank-0" class="xk6-btn-rect px-1 text-[6.5px] font-bold text-amber-300 bg-zinc-800">1</button>
+              <button onclick="setControllerBank(1)" id="btn-bank-1" class="xk6-btn-rect px-1 text-[6.5px] font-bold text-zinc-300">2</button>
+              <button onclick="setControllerBank(2)" id="btn-bank-2" class="xk6-btn-rect px-1 text-[6.5px] font-bold text-zinc-300">3</button>
+              <button onclick="setControllerBank(3)" id="btn-bank-3" class="xk6-btn-rect px-1 text-[6.5px] font-bold text-zinc-300">4</button>
+            </div>
+
+            <!-- 4 Knobs with Silkscreen Matrix -->
+            <div class="grid grid-cols-4 gap-2 text-[6.5px] font-matrix font-bold text-zinc-950 uppercase text-center">
+              <!-- Knob 1 -->
+              <div class="flex flex-col items-center w-12">
+                <span class="truncate w-full" id="lbl-knob-1">CUTOFF /</span>
+                <div class="xk6-knob my-0.5" data-param="k1" data-val="180" onmousedown="startKnobDrag(event, 'k1')">
+                  <div class="xk6-knob-pointer" id="k1-pointer" style="transform: rotate(25deg);"></div>
+                </div>
+                <span class="text-[6px] text-zinc-800">1-A</span>
+              </div>
+              <!-- Knob 2 -->
+              <div class="flex flex-col items-center w-12">
+                <span class="truncate w-full" id="lbl-knob-2">RESO /</span>
+                <div class="xk6-knob my-0.5" data-param="k2" data-val="140" onmousedown="startKnobDrag(event, 'k2')">
+                  <div class="xk6-knob-pointer" id="k2-pointer" style="transform: rotate(10deg);"></div>
+                </div>
+                <span class="text-[6px] text-zinc-800">2-B</span>
+              </div>
+              <!-- Knob 3 -->
+              <div class="flex flex-col items-center w-12">
+                <span class="truncate w-full" id="lbl-knob-3">ATTACK /</span>
+                <div class="xk6-knob my-0.5" data-param="k3" data-val="60" onmousedown="startKnobDrag(event, 'k3')">
+                  <div class="xk6-knob-pointer" id="k3-pointer" style="transform: rotate(-40deg);"></div>
+                </div>
+                <span class="text-[6px] text-zinc-800">3-C</span>
+              </div>
+              <!-- Knob 4 -->
+              <div class="flex flex-col items-center w-12">
+                <span class="truncate w-full" id="lbl-knob-4">DECAY /</span>
+                <div class="xk6-knob my-0.5" data-param="k4" data-val="120" onmousedown="startKnobDrag(event, 'k4')">
+                  <div class="xk6-knob-pointer" id="k4-pointer" style="transform: rotate(0deg);"></div>
+                </div>
+                <span class="text-[6px] text-zinc-800">4-D</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SECTION 2: 2x24 LCD DISPLAY & 10 NAVIGATION BUTTONS -->
+        <div class="flex flex-col items-center gap-1.5 border-r border-amber-600/40 pr-3">
+          <!-- Transpose Buttons Row -->
+          <div class="flex items-center justify-between w-full px-1 text-[6.5px] font-matrix font-bold text-zinc-950">
+            <span>TRANSPOSE:</span>
+            <div class="flex items-center gap-1">
+              <button onclick="transposeOctave(-1)" class="xk6-btn-rect px-1.5 text-[7px] text-zinc-300 font-bold">- OCT</button>
+              <span id="txt-trans" class="font-mono text-zinc-950 font-black">+0</span>
+              <button onclick="transposeOctave(1)" class="xk6-btn-rect px-1.5 text-[7px] text-zinc-300 font-bold">+ OCT</button>
+            </div>
+          </div>
+
+          <!-- LCD Frame -->
+          <div class="xk6-lcd-bezel p-1.5 w-60 h-[48px] flex flex-col justify-between">
+            <div class="xk6-lcd p-1 rounded flex flex-col justify-between font-lcd h-full">
+              <div class="flex items-center justify-between text-[10.5px] font-bold lcd-green-text leading-none">
+                <span id="lcd-line1">C01 V127 P00 R1P User</span>
+                <span class="text-[8.5px] bg-[#5ef574]/20 px-1 rounded">BPM:140</span>
+              </div>
+              <div class="flex items-center justify-between text-[10.5px] font-semibold lcd-green-text leading-none">
+                <span id="lcd-line2">000⁰ wnl:Raverotic</span>
+                <span class="text-[8px] text-[#5ef574]">16-ARP SYNC</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 10 Navigation Buttons (2 Rows x 5) -->
+          <div class="grid grid-cols-5 gap-1 w-60">
+            <button onclick="switchXK6Tab('global')" class="xk6-btn-rect text-[6.5px] font-bold text-zinc-300">MASTER</button>
+            <button onclick="switchXK6Tab('preset')" class="xk6-btn-rect text-[6.5px] font-bold text-zinc-300">EDIT</button>
+            <button onclick="comparePatch()" class="xk6-btn-rect text-[6.5px] font-bold text-zinc-300">CMPR</button>
+            <button onclick="switchXK6Tab('librarian')" class="xk6-btn-rect text-[6.5px] font-bold text-zinc-300">SAVE</button>
+            <button onclick="playXK6AuditionRiff()" class="xk6-btn-rect text-[6.5px] font-bold text-amber-300">AUDTN</button>
+
+            <button onclick="bumpCursor(-1)" class="xk6-btn-rect text-[7px] font-bold text-zinc-300">&lt;</button>
+            <button onclick="bumpCursor(1)" class="xk6-btn-rect text-[7px] font-bold text-zinc-300">&gt;</button>
+            <button onclick="switchXK6Tab('arps')" class="xk6-btn-rect text-[6.5px] font-bold text-zinc-300">ARPS</button>
+            <button onclick="switchXK6Tab('filter')" class="xk6-btn-rect text-[6.5px] font-bold text-zinc-300">FLTRS</button>
+            <button onclick="switchXK6Tab('cords')" class="xk6-btn-rect text-[6.5px] font-bold text-zinc-300">CORDS</button>
+          </div>
+        </div>
+
+        <!-- SECTION 3: DATA WHEEL & 16 COMMAND FUNCTION BUTTONS -->
+        <div class="flex items-center gap-2.5">
+          <!-- DATA Wheel -->
+          <div class="flex flex-col items-center">
+            <div class="flex items-center gap-1 text-[6.5px] font-bold font-mono text-zinc-950 mb-0.5">
+              <div id="led-midi" class="led-dot led-red-on animate-pulse"></div>
+              <span>MIDI</span>
+            </div>
+            <div class="xk6-data-wheel" onwheel="handleWheel(event)" onclick="cyclePresetData(1)">
+              <div class="xk6-data-dimple"></div>
+            </div>
+            <span class="text-[7px] font-matrix font-bold text-zinc-950 uppercase mt-0.5">DATA</span>
+          </div>
+
+          <!-- 16 Command Function Buttons Matrix -->
+          <div class="flex flex-col gap-1 bg-amber-600/30 p-1.5 rounded border border-amber-500/40">
+            <div class="flex items-center justify-between text-[6.5px] font-matrix font-black text-zinc-950 uppercase border-b border-amber-600/30 pb-0.5">
+              <span>COMMAND FUNCTIONS</span>
+              <span class="text-zinc-800">TRIGGERS / BEATS</span>
+            </div>
+
+            <!-- 2 Rows of 8 Buttons -->
+            <div class="grid grid-cols-8 gap-1 text-center">
+              <!-- Row 1: 1-8 -->
+              <div class="flex flex-col items-center"><div class="led-dot led-red-on mb-0.5" id="led-cmd-1"></div><button onclick="triggerQuickBeat(1)" class="xk6-btn-rect w-5 text-[6.5px] font-bold text-zinc-200">1</button></div>
+              <div class="flex flex-col items-center"><div class="led-dot led-off mb-0.5" id="led-cmd-2"></div><button onclick="triggerQuickBeat(2)" class="xk6-btn-rect w-5 text-[6.5px] font-bold text-zinc-200">2</button></div>
+              <div class="flex flex-col items-center"><div class="led-dot led-off mb-0.5" id="led-cmd-3"></div><button onclick="triggerQuickBeat(3)" class="xk6-btn-rect w-5 text-[6.5px] font-bold text-zinc-200">3</button></div>
+              <div class="flex flex-col items-center"><div class="led-dot led-off mb-0.5" id="led-cmd-4"></div><button onclick="triggerQuickBeat(4)" class="xk6-btn-rect w-5 text-[6.5px] font-bold text-zinc-200">4</button></div>
+              <div class="flex flex-col items-center"><div class="led-dot led-red-on mb-0.5" id="led-cmd-5"></div><button onclick="triggerQuickBeat(5)" class="xk6-btn-rect w-5 text-[6.5px] font-bold text-zinc-200">5</button></div>
+              <div class="flex flex-col items-center"><div class="led-dot led-off mb-0.5" id="led-cmd-6"></div><button onclick="triggerQuickBeat(6)" class="xk6-btn-rect w-5 text-[6.5px] font-bold text-zinc-200">6</button></div>
+              <div class="flex flex-col items-center"><div class="led-dot led-off mb-0.5" id="led-cmd-7"></div><button onclick="triggerQuickBeat(7)" class="xk6-btn-rect w-5 text-[6.5px] font-bold text-zinc-200">7</button></div>
+              <div class="flex flex-col items-center"><div class="led-dot led-off mb-0.5" id="led-cmd-8"></div><button onclick="triggerQuickBeat(8)" class="xk6-btn-rect w-5 text-[6.5px] font-bold text-zinc-200">8</button></div>
+
+              <!-- Row 2: 9-16 -->
+              <div class="flex flex-col items-center"><div class="led-dot led-off mb-0.5" id="led-cmd-9"></div><button onclick="triggerQuickBeat(9)" class="xk6-btn-rect w-5 text-[6.5px] font-bold text-zinc-200">9</button></div>
+              <div class="flex flex-col items-center"><div class="led-dot led-off mb-0.5" id="led-cmd-10"></div><button onclick="triggerQuickBeat(10)" class="xk6-btn-rect w-5 text-[6.5px] font-bold text-zinc-200">10</button></div>
+              <div class="flex flex-col items-center"><div class="led-dot led-off mb-0.5" id="led-cmd-11"></div><button onclick="triggerQuickBeat(11)" class="xk6-btn-rect w-5 text-[6.5px] font-bold text-zinc-200">11</button></div>
+              <div class="flex flex-col items-center"><div class="led-dot led-off mb-0.5" id="led-cmd-12"></div><button onclick="triggerQuickBeat(12)" class="xk6-btn-rect w-5 text-[6.5px] font-bold text-zinc-200">12</button></div>
+              <div class="flex flex-col items-center"><div class="led-dot led-off mb-0.5" id="led-cmd-13"></div><button onclick="triggerQuickBeat(13)" class="xk6-btn-rect w-5 text-[6.5px] font-bold text-zinc-200">13</button></div>
+              <div class="flex flex-col items-center"><div class="led-dot led-off mb-0.5" id="led-cmd-14"></div><button onclick="triggerQuickBeat(14)" class="xk6-btn-rect w-5 text-[6.5px] font-bold text-zinc-200">14</button></div>
+              <div class="flex flex-col items-center"><div class="led-dot led-off mb-0.5" id="led-cmd-15"></div><button onclick="triggerQuickBeat(15)" class="xk6-btn-rect w-5 text-[6.5px] font-bold text-zinc-200">15</button></div>
+              <div class="flex flex-col items-center"><div class="led-dot led-off mb-0.5" id="led-cmd-16"></div><button onclick="triggerQuickBeat(16)" class="xk6-btn-rect w-5 text-[6.5px] font-bold text-zinc-200">16</button></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- RIGHT CHEEK -->
+      <div class="w-8 xk6-endcap-right shrink-0"></div>
+
+    </div>
+
+    <!-- RED FELT KEYBED ACCENT -->
+    <div class="keybed-felt w-full rounded-t-sm"></div>
+
+    <!-- ========================================================================= -->
+    <!-- PLAYABLE 61-KEY SYNTH-ACTION KEYBOARD (C2 TO C7)                          -->
+    <!-- ========================================================================= -->
+    <div class="w-full keyboard-container">
+      
+      <!-- White Keys Row (36 White Keys for 5 Octaves: C2 to C7) -->
+      <div class="white-keys-row" id="white-keys">
+        <!-- Rendered via JavaScript -->
+      </div>
+
+      <!-- Black Keys Overlay (25 Black Keys) -->
+      <div class="black-keys-overlay" id="black-keys">
+        <!-- Rendered via JavaScript -->
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- MIDI QUEST 13 COMPONENT SUITE (8 WORKSPACE TABS)                          -->
+  <!-- ========================================================================= -->
+  <div class="w-full max-w-6xl mt-4 bg-zinc-900/95 border border-zinc-800 rounded-lg shadow-xl overflow-hidden flex flex-col">
+    
+    <!-- SUB-VIEW NAVIGATION BAR -->
+    <div class="flex items-center justify-between bg-zinc-950 px-3 border-b border-zinc-800 text-xs">
+      <div class="flex items-center gap-1 overflow-x-auto py-1 flex-1 min-w-0" style="scrollbar-width: none;">
+        <button onclick="switchXK6Tab('arps')" id="tab-arps" class="mq-tab active px-2.5 py-1 text-[11px] text-zinc-300 hover:text-white flex items-center gap-1 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-amber-500" viewBox="0 0 24 24"><path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/></svg>
+          SuperBEATS &amp; 16-Arp
+        </button>
+        <button onclick="switchXK6Tab('preset')" id="tab-preset" class="mq-tab px-2.5 py-1 text-[11px] text-zinc-400 hover:text-white flex items-center gap-1 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-orange-400" viewBox="0 0 24 24"><path d="M3 17h18v2H3zm0-7h18v2H3zm0-7h18v2H3z"/></svg>
+          Preset Editor (4 Layers)
+        </button>
+        <button onclick="switchXK6Tab('filter')" id="tab-filter" class="mq-tab px-2.5 py-1 text-[11px] text-zinc-400 hover:text-white flex items-center gap-1 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-cyan-400" viewBox="0 0 24 24"><path d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"/></svg>
+          50 Z-Plane Filters
+        </button>
+        <button onclick="switchXK6Tab('cords')" id="tab-cords" class="mq-tab px-2.5 py-1 text-[11px] text-zinc-400 hover:text-white flex items-center gap-1 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-pink-400" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+          PatchCords (24)
+        </button>
+        <button onclick="switchXK6Tab('global')" id="tab-global" class="mq-tab px-2.5 py-1 text-[11px] text-zinc-400 hover:text-white flex items-center gap-1 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-indigo-400" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+          Global &amp; Controller Map
+        </button>
+        <button onclick="switchXK6Tab('multimode')" id="tab-multimode" class="mq-tab px-2.5 py-1 text-[11px] text-zinc-400 hover:text-white flex items-center gap-1 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-emerald-400" viewBox="0 0 24 24"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"/></svg>
+          MultiMode 16 Tracks
+        </button>
+        <button onclick="switchXK6Tab('progmap')" id="tab-progmap" class="mq-tab px-2.5 py-1 text-[11px] text-zinc-400 hover:text-white flex items-center gap-1 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-purple-400" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 14H6v-2h6v2zm4-4H6v-2h10v2zm0-4H6V7h10v2z"/></svg>
+          Preset &amp; Arp Map
+        </button>
+        <button onclick="switchXK6Tab('librarian')" id="tab-librarian" class="mq-tab px-2.5 py-1 text-[11px] text-zinc-400 hover:text-white flex items-center gap-1 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-yellow-400" viewBox="0 0 24 24"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H8V4h12v12z"/></svg>
+          Librarian (1024 Presets)
+        </button>
+      </div>
+      <span class="text-[10px] text-zinc-500 font-mono whitespace-nowrap hidden lg:inline shrink-0 pl-3">Midi Quest 13 • Model 0x0F (XK-6 Keyboard)</span>
+    </div>
+
+    <!-- ==================== TAB 1: SUPERBEATS & 16-ARPEGGIATOR ==================== -->
+    <div id="subview-arps" class="p-5 flex flex-col gap-4">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <div class="flex items-center gap-3">
+          <span class="text-xs uppercase font-bold tracking-widest text-amber-400 font-mono">SuperBEATS &amp; 16-Arpeggiator Engine</span>
+          <span class="text-xs text-zinc-500">|</span>
+          <span class="text-xs font-semibold text-zinc-300">Synchronized BPM Dance Arps &bull; 300 Patterns &bull; 16 Arps</span>
+        </div>
+        <div class="flex items-center gap-3">
+          <button onclick="toggleArpPlayback()" id="btn-arp-toggle" class="px-3.5 py-1 text-xs rounded bg-amber-500 hover:bg-amber-400 font-black text-zinc-950 shadow flex items-center gap-1.5 cursor-pointer">
+            <svg class="w-3 h-3 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            <span id="arp-play-label">Start BPM Groove Loop</span>
+          </button>
+          <div class="flex items-center gap-1 text-xs font-mono text-zinc-400 bg-zinc-950 px-2.5 py-1 rounded border border-zinc-800">
+            <span>Tempo:</span>
+            <input type="number" id="input-tempo" value="140" min="40" max="300" onchange="updateTempo(this.value)" class="w-12 bg-transparent text-amber-400 font-bold text-center outline-none">
+            <span>BPM</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-3 gap-4">
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-xs font-bold text-zinc-300">Arpeggiator Pattern</span>
+          <select class="w-full mt-2 bg-zinc-900 border border-zinc-700 rounded px-2.5 py-1.5 text-xs text-amber-400 font-mono">
+            <option>001: CyberTrance 16th (Up/Down)</option>
+            <option>002: AcidSquelch 303 Triplet</option>
+            <option>003: EuroRave Octave Bounce</option>
+            <option>004: Hardcore Anthem 4-Oct</option>
+          </select>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-xs font-bold text-zinc-300">Sync Resolution</span>
+          <select class="w-full mt-2 bg-zinc-900 border border-zinc-700 rounded px-2.5 py-1.5 text-xs text-zinc-200 font-mono">
+            <option>1/16 Note Quantize</option>
+            <option>1/16 Triplet</option>
+            <option>1/32 Note Slices</option>
+          </select>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-xs font-bold text-zinc-300">Keyboard Velocity Response</span>
+          <select class="w-full mt-2 bg-zinc-900 border border-zinc-700 rounded px-2.5 py-1.5 text-xs text-zinc-200 font-mono">
+            <option>Dynamic Velocity (Touch Sensitive)</option>
+            <option>Fixed Velocity 127 (Rave Maximum)</option>
+            <option>Compressed Curve</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 2: PRESET EDITOR (4 LAYERS) ==================== -->
+    <div id="subview-preset" class="p-5 flex flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <span class="text-xs uppercase font-bold tracking-widest text-orange-400 font-mono">4-Layer Preset Architecture (64-Voice Polyphony)</span>
+        <span class="text-xs text-zinc-400 font-mono">Current Preset: 000⁰ wnl:Raverotic &bull; Category: Synth Lead</span>
+      </div>
+      <div class="grid grid-cols-4 gap-3">
+        <div class="bg-zinc-950/80 p-3 rounded border border-amber-500/40 flex flex-col gap-2">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-amber-400">Layer 1 (Active)</span>
+            <span class="text-[10px] text-zinc-400">ROM: The Xtreme Lead</span>
+          </div>
+          <div class="text-[11px] text-zinc-400">Wave: <span class="text-zinc-200">Saw Rave 1</span></div>
+          <div class="text-[11px] text-zinc-400">Filter: <span class="text-cyan-400">Techno Sweep (12th)</span></div>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800 flex flex-col gap-2">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-zinc-300">Layer 2 (Active)</span>
+            <span class="text-[10px] text-zinc-400">ROM: The Xtreme Lead</span>
+          </div>
+          <div class="text-[11px] text-zinc-400">Wave: <span class="text-zinc-200">Square Sub</span></div>
+          <div class="text-[11px] text-zinc-400">Filter: <span class="text-cyan-400">Lowpass 4-Pole</span></div>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800 flex flex-col gap-2 opacity-60">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-zinc-400">Layer 3 (Mute)</span>
+            <span class="text-[10px] text-zinc-500">ROM: Expansion</span>
+          </div>
+          <div class="text-[11px] text-zinc-500">Wave: Sine Wave</div>
+          <div class="text-[11px] text-zinc-500">Filter: Bypass</div>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800 flex flex-col gap-2 opacity-60">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-zinc-400">Layer 4 (Mute)</span>
+            <span class="text-[10px] text-zinc-500">ROM: Expansion</span>
+          </div>
+          <div class="text-[11px] text-zinc-500">Wave: Noise Burst</div>
+          <div class="text-[11px] text-zinc-500">Filter: Highpass 2-Pole</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 3: 50 Z-PLANE FILTERS ==================== -->
+    <div id="subview-filter" class="p-5 flex flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <span class="text-xs uppercase font-bold tracking-widest text-cyan-400 font-mono">50 12th-Order Z-Plane Filter Suite</span>
+        <span class="text-xs text-zinc-400 font-mono">Resonant Morphing Filters Designed by Dave Rossum</span>
+      </div>
+      <div class="grid grid-cols-3 gap-3">
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-xs font-bold text-cyan-400">Techno Sweep (12-Pole)</span>
+          <p class="text-[11px] text-zinc-400 mt-1">Aggressive dual-formant resonant peak sweep tailored for rave and hard house anthems.</p>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-xs font-bold text-cyan-400">Acid 303 Reso</span>
+          <p class="text-[11px] text-zinc-400 mt-1">Emulates vintage transistor ladder non-linearities and diode saturation squelch.</p>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-xs font-bold text-cyan-400">Vocal Ah-Ay-Ee</span>
+          <p class="text-[11px] text-zinc-400 mt-1">Triple vowel formant filter morphing vowel sounds across keyboard velocity and LFO.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 4: PATCHCORDS (24) ==================== -->
+    <div id="subview-cords" class="p-5 flex flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <span class="text-xs uppercase font-bold tracking-widest text-pink-400 font-mono">24-Cord Virtual PatchCords Modulation Matrix</span>
+        <span class="text-xs text-zinc-400 font-mono">Route Mod Wheel, Aftertouch, Velocity, Envelopes &amp; LFOs</span>
+      </div>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-3 text-xs">
+        <div class="bg-zinc-950/80 p-2.5 rounded border border-zinc-800">
+          <span class="text-pink-400 font-bold">Cord 01</span>
+          <div class="text-[11px] text-zinc-300 mt-1">Src: <span class="text-amber-400">Mod Wheel</span></div>
+          <div class="text-[11px] text-zinc-300">Dst: <span class="text-cyan-400">LFO1 Amount</span></div>
+          <div class="text-[11px] text-zinc-400">Amt: <span class="text-emerald-400">+100%</span></div>
+        </div>
+        <div class="bg-zinc-950/80 p-2.5 rounded border border-zinc-800">
+          <span class="text-pink-400 font-bold">Cord 02</span>
+          <div class="text-[11px] text-zinc-300 mt-1">Src: <span class="text-amber-400">Aftertouch</span></div>
+          <div class="text-[11px] text-zinc-300">Dst: <span class="text-cyan-400">Filter Cutoff</span></div>
+          <div class="text-[11px] text-zinc-400">Amt: <span class="text-emerald-400">+65%</span></div>
+        </div>
+        <div class="bg-zinc-950/80 p-2.5 rounded border border-zinc-800">
+          <span class="text-pink-400 font-bold">Cord 03</span>
+          <div class="text-[11px] text-zinc-300 mt-1">Src: <span class="text-amber-400">Key Velocity</span></div>
+          <div class="text-[11px] text-zinc-300">Dst: <span class="text-cyan-400">Filter Morph</span></div>
+          <div class="text-[11px] text-zinc-400">Amt: <span class="text-emerald-400">+50%</span></div>
+        </div>
+        <div class="bg-zinc-950/80 p-2.5 rounded border border-zinc-800">
+          <span class="text-pink-400 font-bold">Cord 04</span>
+          <div class="text-[11px] text-zinc-300 mt-1">Src: <span class="text-amber-400">Pitch Wheel</span></div>
+          <div class="text-[11px] text-zinc-300">Dst: <span class="text-cyan-400">Pitch Bend</span></div>
+          <div class="text-[11px] text-zinc-400">Amt: <span class="text-emerald-400">+100%</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 5: GLOBAL & CONTROLLER MAP ==================== -->
+    <div id="subview-global" class="p-5 flex flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <span class="text-xs uppercase font-bold tracking-widest text-indigo-400 font-mono">Global Parameters &bull; 16 Front-Panel Knobs CC Mapping</span>
+        <span class="text-xs text-zinc-400 font-mono">Controllers A - P &bull; Keyboard Velocity &amp; Pressure Curves</span>
+      </div>
+      <div class="grid grid-cols-4 gap-3 text-xs">
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-indigo-400 font-bold">Master Tuning</span>
+          <div class="text-base font-mono text-zinc-200 mt-1">440.0 Hz (+0 Cent)</div>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-indigo-400 font-bold">Master Transpose</span>
+          <div class="text-base font-mono text-zinc-200 mt-1">+0 Semitones</div>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-indigo-400 font-bold">Keyboard Curve</span>
+          <div class="text-base font-mono text-emerald-400 mt-1">Linear (Curve 1)</div>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-indigo-400 font-bold">Channel Aftertouch</span>
+          <div class="text-base font-mono text-emerald-400 mt-1">Enabled (Active)</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 6: MULTIMODE 16 TRACKS ==================== -->
+    <div id="subview-multimode" class="p-5 flex flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <span class="text-xs uppercase font-bold tracking-widest text-emerald-400 font-mono">16-Part Multitimbral Keyboard Setup</span>
+        <span class="text-xs text-zinc-400 font-mono">16 MIDI Channels &bull; Split &amp; Layer Architecture</span>
+      </div>
+      <div class="text-xs text-zinc-400">
+        Assign keyboard zones and splits across 16 independent internal synth channels.
+      </div>
+    </div>
+
+    <!-- ==================== TAB 7: PRESET & ARP MAP ==================== -->
+    <div id="subview-progmap" class="p-5 flex flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <span class="text-xs uppercase font-bold tracking-widest text-purple-400 font-mono">MIDI Program Change Mapping</span>
+        <span class="text-xs text-zinc-400 font-mono">Remap PC 0-127 to Any User or ROM Preset</span>
+      </div>
+      <div class="text-xs text-zinc-400">
+        Programmable MIDI Program Change mapping table connecting incoming PC messages directly to desired User and ROM sound banks.
+      </div>
+    </div>
+
+    <!-- ==================== TAB 8: BANK LIBRARIAN (1024 PRESETS) ==================== -->
+    <div id="subview-librarian" class="p-5 flex flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <span class="text-xs uppercase font-bold tracking-widest text-yellow-400 font-mono">Bank Librarian &bull; 1024 Presets (User 0-3 &bull; ROM 0-3)</span>
+        <span class="text-xs text-zinc-400 font-mono">SysEx Bulk Dump / Load &bull; All RAM Backup</span>
+      </div>
+      <div class="grid grid-cols-4 gap-3 text-xs">
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-yellow-400 font-bold">User Bank 0</span>
+          <div class="text-xs text-zinc-200 mt-1">128 Dance / Rave Presets</div>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-yellow-400 font-bold">User Bank 1</span>
+          <div class="text-xs text-zinc-200 mt-1">128 Acid &amp; Trance Patches</div>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-zinc-400 font-bold">ROM Bank 0</span>
+          <div class="text-xs text-zinc-300 mt-1">128 Xtreme Lead Classics</div>
+        </div>
+        <div class="bg-zinc-950/80 p-3 rounded border border-zinc-800">
+          <span class="text-zinc-400 font-bold">ROM Bank 1</span>
+          <div class="text-xs text-zinc-300 mt-1">128 Rob Papen Signature Sets</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- LIVE SYSEX PACKET STREAM MONITOR -->
+  <div class="w-full max-w-6xl mt-3 bg-zinc-900 border border-zinc-800 rounded-lg p-2.5 flex items-center justify-between text-xs font-mono">
+    <div class="flex items-center gap-2">
+      <div class="w-2 h-2 rounded-full bg-amber-500 animate-ping"></div>
+      <span class="text-zinc-400">E-MU XK-6 SYSEX OUT:</span>
+      <span id="sysex-display" class="text-amber-400 font-bold">F0 18 0F 00 0F 01 00 00 7F F7 (Preset: 000⁰ wnl:Raverotic)</span>
+    </div>
+    <div class="text-zinc-500 text-[11px]">
+      Latency: <span class="text-emerald-400">0.2ms</span> | Engine: <span class="text-amber-400">64-Voice BPM Synth</span>
+    </div>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- JAVASCRIPT SOUND ENGINE, 61-KEY KEYBOARD & HARDWARE LOGIC                 -->
+  <!-- ========================================================================= -->
+  <script>
+    let audioCtx = null;
+    let isArpPlaying = false;
+    let arpInterval = null;
+    let arpStep = 0;
+    let currentTempo = 140;
+    let currentOctaveTrans = 0;
+    let currentControllerBank = 0;
+
+    const controllerBankLabels = [
+      ['CUTOFF /', 'RESO /', 'ATTACK /', 'DECAY /'],
+      ['VEL>AMP /', 'VEL>FLT /', 'LFO1 AMT /', 'LFO1 RATE /'],
+      ['AMP ATK /', 'AMP DCY /', 'AMP SUS /', 'AMP REL /'],
+      ['MOD 1 /', 'MOD 2 /', 'ARP VEL /', 'ARP GATE /']
+    ];
+
+    function initAudio() {
+      if (!audioCtx) {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      }
+      if (audioCtx.state === 'suspended') {
+        audioCtx.resume();
+      }
+    }
+
+    // Render 61-Key Keyboard (C2 to C7: 36 White Keys, 25 Black Keys)
+    function build61Keys() {
+      const whiteContainer = document.getElementById('white-keys');
+      const blackContainer = document.getElementById('black-keys');
+      whiteContainer.innerHTML = '';
+      blackContainer.innerHTML = '';
+
+      // 5 Octaves + Top C = 36 White Keys
+      const whiteKeyNotes = [
+        36, 38, 40, 41, 43, 45, 47, // Octave 2
+        48, 50, 52, 53, 55, 57, 59, // Octave 3
+        60, 62, 64, 65, 67, 69, 71, // Octave 4
+        72, 74, 76, 77, 79, 81, 83, // Octave 5
+        84, 86, 88, 89, 91, 93, 95, // Octave 6
+        96                          // Top C7
+      ];
+
+      whiteKeyNotes.forEach((note, idx) => {
+        const key = document.createElement('div');
+        key.className = 'key-white';
+        key.id = `key-${note}`;
+        key.dataset.note = note;
+        key.onmousedown = () => playSynthNote(note);
+        whiteContainer.appendChild(key);
+      });
+
+      // 25 Black Keys with accurate percentage offsets
+      const blackKeyPattern = [
+        { note: 37, pct: 1.8 }, { note: 39, pct: 4.6 },
+        { note: 42, pct: 10.1 }, { note: 44, pct: 12.9 }, { note: 46, pct: 15.7 },
+        { note: 49, pct: 21.2 }, { note: 51, pct: 24.0 },
+        { note: 54, pct: 29.5 }, { note: 56, pct: 32.3 }, { note: 58, pct: 35.1 },
+        { note: 61, pct: 40.6 }, { note: 63, pct: 43.4 },
+        { note: 66, pct: 48.9 }, { note: 68, pct: 51.7 }, { note: 70, pct: 54.5 },
+        { note: 73, pct: 60.0 }, { note: 75, pct: 62.8 },
+        { note: 78, pct: 68.3 }, { note: 80, pct: 71.1 }, { note: 82, pct: 73.9 },
+        { note: 85, pct: 79.4 }, { note: 87, pct: 82.2 },
+        { note: 90, pct: 87.7 }, { note: 92, pct: 90.5 }, { note: 94, pct: 93.3 }
+      ];
+
+      blackKeyPattern.forEach(item => {
+        const key = document.createElement('div');
+        key.className = 'key-black';
+        key.id = `key-${item.note}`;
+        key.dataset.note = item.note;
+        key.style.left = `${item.pct}%`;
+        key.onmousedown = () => playSynthNote(item.note);
+        blackContainer.appendChild(key);
+      });
+    }
+
+    // Synthesizer Voice Generation
+    function playSynthNote(midiNote) {
+      initAudio();
+      const actualNote = midiNote + (currentOctaveTrans * 12);
+      const freq = 440 * Math.pow(2, (actualNote - 69) / 12);
+
+      // Key animation
+      const keyEl = document.getElementById(`key-${midiNote}`);
+      if (keyEl) {
+        keyEl.classList.add('key-active');
+        setTimeout(() => keyEl.classList.remove('key-active'), 140);
+      }
+
+      // Rich Xtreme Lead Oscillator Stack
+      const osc1 = audioCtx.createOscillator();
+      const osc2 = audioCtx.createOscillator();
+      const filter = audioCtx.createBiquadFilter();
+      const gain = audioCtx.createGain();
+
+      osc1.type = 'sawtooth';
+      osc1.frequency.setValueAtTime(freq, audioCtx.currentTime);
+
+      osc2.type = 'sawtooth';
+      osc2.frequency.setValueAtTime(freq * 1.004, audioCtx.currentTime); // Detuned spread
+
+      filter.type = 'lowpass';
+      filter.Q.setValueAtTime(10, audioCtx.currentTime);
+      filter.frequency.setValueAtTime(3400, audioCtx.currentTime);
+      filter.frequency.exponentialRampToValueAtTime(320, audioCtx.currentTime + 0.35);
+
+      gain.gain.setValueAtTime(0.5, audioCtx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.45);
+
+      osc1.connect(filter);
+      osc2.connect(filter);
+      filter.connect(gain);
+      gain.connect(audioCtx.destination);
+
+      osc1.start();
+      osc2.start();
+      osc1.stop(audioCtx.currentTime + 0.45);
+      osc2.stop(audioCtx.currentTime + 0.45);
+
+      // SysEx Stream
+      document.getElementById('sysex-display').innerText = 
+        `F0 18 0F 00 0F 01 02 ${actualNote.toString(16).toUpperCase()} 7F F7 (NoteOn: ${actualNote})`;
+    }
+
+    // Controller Bank Switch
+    function setControllerBank(bank) {
+      currentControllerBank = bank;
+      for (let i = 0; i < 4; i++) {
+        const btn = document.getElementById(`btn-bank-${i}`);
+        if (i === bank) {
+          btn.className = 'xk6-btn-rect px-1 text-[6.5px] font-bold text-amber-300 bg-zinc-800';
+        } else {
+          btn.className = 'xk6-btn-rect px-1 text-[6.5px] font-bold text-zinc-300';
+        }
+      }
+      const labels = controllerBankLabels[bank];
+      document.getElementById('lbl-knob-1').innerText = labels[0];
+      document.getElementById('lbl-knob-2').innerText = labels[1];
+      document.getElementById('lbl-knob-3').innerText = labels[2];
+      document.getElementById('lbl-knob-4').innerText = labels[3];
+    }
+
+    // Transposition
+    function transposeOctave(delta) {
+      currentOctaveTrans = Math.max(-2, Math.min(2, currentOctaveTrans + delta));
+      const txt = (currentOctaveTrans >= 0 ? `+${currentOctaveTrans}` : `${currentOctaveTrans}`);
+      document.getElementById('txt-trans').innerText = txt;
+    }
+
+    // Knobs Dragging
+    let activeKnob = null;
+    let startY = 0;
+    let startVal = 0;
+
+    function startKnobDrag(e, param) {
+      activeKnob = param;
+      startY = e.clientY;
+      startVal = parseInt(e.currentTarget.getAttribute('data-val') || 100);
+      window.addEventListener('mousemove', onKnobMouseMove);
+      window.addEventListener('mouseup', onKnobMouseUp);
+    }
+
+    function onKnobMouseMove(e) {
+      if (!activeKnob) return;
+      const dy = startY - e.clientY;
+      const newVal = Math.max(0, Math.min(255, startVal + dy));
+      const rot = ((newVal / 255) * 270) - 135;
+
+      if (activeKnob === 'vol') {
+        document.getElementById('vol-pointer').style.transform = `rotate(${rot}deg)`;
+      } else if (activeKnob === 'k1') {
+        document.getElementById('k1-pointer').style.transform = `rotate(${rot}deg)`;
+      } else if (activeKnob === 'k2') {
+        document.getElementById('k2-pointer').style.transform = `rotate(${rot}deg)`;
+      } else if (activeKnob === 'k3') {
+        document.getElementById('k3-pointer').style.transform = `rotate(${rot}deg)`;
+      } else if (activeKnob === 'k4') {
+        document.getElementById('k4-pointer').style.transform = `rotate(${rot}deg)`;
+      }
+
+      document.getElementById('sysex-display').innerText = 
+        `F0 18 0F 00 0F 01 04 02 ${newVal.toString(16).toUpperCase()} F7 (${activeKnob.toUpperCase()}: ${newVal})`;
+    }
+
+    function onKnobMouseUp() {
+      activeKnob = null;
+      window.removeEventListener('mousemove', onKnobMouseMove);
+      window.removeEventListener('mouseup', onKnobMouseUp);
+    }
+
+    // Pitch & Mod Wheels
+    let activeWheel = null;
+    function startWheelDrag(e, wheel) {
+      activeWheel = wheel;
+      window.addEventListener('mousemove', onWheelMouseMove);
+      window.addEventListener('mouseup', onWheelMouseUp);
+    }
+    function onWheelMouseMove(e) {
+      if (!activeWheel) return;
+      initAudio();
+      document.getElementById('sysex-display').innerText = 
+        `F0 18 0F 00 0F 01 03 ${(activeWheel === 'pitch' ? '01' : '02')} 7F F7 (${activeWheel.toUpperCase()} BEND)`;
+    }
+    function onWheelMouseUp() {
+      activeWheel = null;
+      window.removeEventListener('mousemove', onWheelMouseMove);
+      window.removeEventListener('mouseup', onWheelMouseUp);
+    }
+
+    // Arpeggiator & SuperBEATS
+    function toggleArpPlayback() {
+      if (isArpPlaying) {
+        stopArp();
+      } else {
+        startArp();
+      }
+    }
+
+    function startArp() {
+      initAudio();
+      isArpPlaying = true;
+      document.getElementById('arp-play-label').innerText = 'Stop BPM Groove';
+      const intervalMs = (60 / currentTempo / 4) * 1000;
+      clearInterval(arpInterval);
+      arpInterval = setInterval(stepArp, intervalMs);
+    }
+
+    function stopArp() {
+      isArpPlaying = false;
+      clearInterval(arpInterval);
+      document.getElementById('arp-play-label').innerText = 'Start BPM Groove Loop';
+    }
+
+    function stepArp() {
+      arpStep = (arpStep + 1) % 16;
+      const arpNotes = [48, 51, 55, 58, 60, 63, 67, 70];
+      const note = arpNotes[arpStep % arpNotes.length];
+      playSynthNote(note);
+    }
+
+    function updateTempo(val) {
+      currentTempo = parseInt(val) || 140;
+      if (isArpPlaying) startArp();
+    }
+
+    // Quick Command Beats Trigger
+    function triggerQuickBeat(idx) {
+      for (let i = 1; i <= 16; i++) {
+        document.getElementById(`led-cmd-${i}`).className = (i === idx) ? 'led-dot led-red-on mb-0.5' : 'led-dot led-off mb-0.5';
+      }
+      initAudio();
+      playSynthNote(48 + idx);
+    }
+
+    // Tab Switching
+    function switchXK6Tab(tabName) {
+      const tabs = ['arps', 'preset', 'filter', 'cords', 'global', 'multimode', 'progmap', 'librarian'];
+      tabs.forEach(t => {
+        const btn = document.getElementById(`tab-${t}`);
+        const view = document.getElementById(`subview-${t}`);
+        if (btn) {
+          if (t === tabName) {
+            btn.classList.add('active');
+            btn.classList.remove('text-zinc-400');
+            btn.classList.add('text-zinc-300');
+          } else {
+            btn.classList.remove('active');
+            btn.classList.add('text-zinc-400');
+            btn.classList.remove('text-zinc-300');
+          }
+        }
+        if (view) {
+          view.classList.toggle('hidden', t !== tabName);
+        }
+      });
+    }
+
+    // Audition Riff
+    function playXK6AuditionRiff() {
+      initAudio();
+      playSynthNote(60);
+      setTimeout(() => playSynthNote(63), 150);
+      setTimeout(() => playSynthNote(67), 300);
+      setTimeout(() => playSynthNote(70), 450);
+      setTimeout(() => playSynthNote(72), 600);
+    }
+
+    // Build keyboard on page load
+    window.addEventListener('DOMContentLoaded', () => {
+      build61Keys();
+    });
+  </script>
+
+</body>
+</html>
