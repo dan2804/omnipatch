@@ -42,7 +42,7 @@ Inspired by Sound Quest's **Midi Quest 13**, **OmniPatch** combines a clean, fas
 | **E-MU Proteus 2500** | 128-Voice Command Station Console | 8 | 1,024 | Industrial grey desktop console, blue accents, 16 velocity pads, 16 knobs, multi-channel sequencer |
 | **E-MU Planet Phatt** | 32-Voice Hip-Hop / R&B Sound Module | 24 | 640 | Metallic magenta anodized 1U faceplate, street-art bubble graffiti logo with orbiting planetary ring, cyan cursive "The Swing System" subtitle, 32 digital 6th-order filters, BEATS swing groove engine, 10 Midi Quest 13 editors (Model ID 0x0A) |
 | **E-MU Planet Earth** | 64-Voice World Expedition Module | 16 | 1,024 | Oceanic teal / two-tone turquoise metallic 1U chassis, black trapezoid LCD bezel, black knobs with white pointers, 32MB World ROM, 50 Z-Plane filters, SuperBEATS arpeggiator, 9 Midi Quest 13 editors (Model ID 0x0F / 0x05) |
-| **E-MU Orbit-3** | 128-Voice Super Dance Module | 7 | 1,024 | Electric neon yellow 1U faceplate, black tactile buttons, Beat Garden & Techno Yard ROMs |
+| **E-MU Orbit-3** | 128-Voice Super Dance Module | 16 | 1,024 | Electric neon yellow satin anodized 1U faceplate, concentric semi-circular collars over 4 parameter knobs, continuous right dividing line, 64MB Beat Garden & Techno Yard ROMs, 50 Z-Plane filters, SuperBEATS engine, 10 Midi Quest 13 editors (Model ID 0x09) |
 | **E-MU Orbit 9090** | 32-Voice 1996 Dance Planet | 7 | 512 | Classic golden yellow 1U rack, black buttons, 909/808 drum machines, TB-303 acid lines |
 | **E-MU SP-1200** | 12-Bit Linear Sampling Drum Machine | 12 | 32 | Classic E-MU blue and grey chassis, SSM2044 dynamic lowpass filter, 8 touch pads & sliders |
 | **Casio CZ-1** | Flagship 16-DCO Phase Distortion | 26 | 128 | Professional black chassis, electric blue tactile buttons, velocity & aftertouch, stereo BBD chorus |
@@ -110,7 +110,7 @@ Inspired by Sound Quest's **Midi Quest 13**, **OmniPatch** combines a clean, fas
 ### E-MU Planet Earth (64-Voice World Expedition 1U Sound Module)
 ![E-MU Planet Earth Hardware Editor](assets/screenshots/emu_planet_earth.png)
 
-### E-MU Orbit-3 (128-Voice Super Dance Module with Neon Yellow Chassis)
+### E-MU Orbit-3 (128-Voice Super Synth & Dance Module with Electric Neon Yellow Chassis)
 ![E-MU Orbit-3 Hardware Editor](assets/screenshots/emu_orbit_3.png)
 
 ### E-MU Orbit 9090 (32-Voice 1996 Dance Planet with Golden Yellow Chassis)

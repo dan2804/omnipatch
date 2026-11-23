@@ -1,0 +1,1555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-MU Orbit-3 128-Voice Super Synth / Dance Module &amp; Midi Quest 13 Editor</title>
+  <script src="tailwindcss.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=VT323&family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    /* Font Definitions */
+    .font-lcd { font-family: 'VT323', monospace; }
+    .font-brand { font-family: 'Cinzel', serif; }
+
+    /* E-MU Orbit-3 Electric Neon Yellow Satin Anodized Metallic 1U Chassis */
+    .orb3-faceplate {
+      background: linear-gradient(180deg, #ffe014 0%, #ffd000 35%, #f5ba00 70%, #dca000 100%);
+      box-shadow: 
+        inset 0 1px 0 rgba(255, 255, 255, 0.55),
+        inset 0 -1px 2px rgba(0, 0, 0, 0.8),
+        0 12px 30px rgba(0, 0, 0, 0.9);
+      border-top: 1px solid #fff58a;
+      border-bottom: 2px solid #573e00;
+    }
+
+    .metallic-highlight {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.75) 25%, rgba(255,255,255,0.95) 50%, rgba(255,255,255,0.75) 75%, rgba(255,255,255,0.05) 100%);
+      pointer-events-none;
+    }
+
+    /* Stamped Scalloped Relief Contour Line over Yellow Chassis */
+    .orb3-contour-scallop {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 440px;
+      height: 116px;
+      pointer-events-none;
+      z-index: 1;
+    }
+
+    /* Central Trapezoid Black LCD Bezel Frame */
+    .pe-lcd-bezel {
+      background: linear-gradient(180deg, #18191c 0%, #0d0e10 100%);
+      clip-path: polygon(4% 0%, 96% 0%, 100% 100%, 0% 100%);
+      box-shadow: inset 0 2px 4px rgba(0,0,0,0.9), 0 4px 8px rgba(0,0,0,0.7);
+      border-top: 1px solid #27272a;
+    }
+
+    /* 2x24 Green Alphanumeric LCD */
+    .pe-lcd {
+      background: radial-gradient(ellipse at center, #1b3820 0%, #0d2011 75%, #061108 100%);
+      border: 1px solid #14401a;
+      box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.95);
+    }
+    .lcd-green-text {
+      color: #64f77c;
+      text-shadow: 0 0 6px rgba(100, 247, 124, 0.65), 0 0 1px #a3f7b0;
+    }
+
+    /* Fluted Black Knobs with Crisp White Indicator Line */
+    .pe-knob {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 45% 40%, #3f3f46 0%, #222226 55%, #111113 100%);
+      border: 2px solid #2b2d30;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.8), inset 0 1px 1px rgba(255,255,255,0.25);
+      position: relative;
+      cursor: ns-resize;
+      user-select: none;
+    }
+    .pe-knob-pointer {
+      position: absolute;
+      top: 2px;
+      left: 13px;
+      width: 2px;
+      height: 9px;
+      background: #ffffff;
+      border-radius: 1px;
+      transform-origin: 1px 13px;
+      box-shadow: 0 0 3px rgba(255,255,255,0.9);
+    }
+
+    /* Dark Charcoal Tactile Round Pushbuttons */
+    .pe-btn-round {
+      width: 17px;
+      height: 17px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 40% 35%, #3f3f46 0%, #27272a 60%, #18181b 100%);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.8), inset 0 1px 1px rgba(255,255,255,0.25), inset 0 -1px 2px rgba(0,0,0,0.8);
+      border: 1px solid #111113;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.08s ease;
+    }
+    .pe-btn-round:hover {
+      background: radial-gradient(circle at 40% 35%, #52525b 0%, #3f3f46 60%, #27272a 100%);
+    }
+    .pe-btn-round:active {
+      transform: translateY(1px) scale(0.96);
+      box-shadow: 0 1px 2px rgba(0,0,0,0.9), inset 0 1px 2px rgba(0,0,0,0.6);
+    }
+
+    /* Oval Charcoal Controller Mode Select Button */
+    .pe-btn-oval {
+      width: 26px;
+      height: 16px;
+      border-radius: 9px;
+      background: radial-gradient(circle at 40% 35%, #3f3f46 0%, #27272a 60%, #18181b 100%);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.8), inset 0 1px 1px rgba(255,255,255,0.25);
+      border: 1px solid #18181b;
+      cursor: pointer;
+      transition: all 0.08s ease;
+    }
+    .pe-btn-oval:hover {
+      background: radial-gradient(circle at 40% 35%, #52525b 0%, #3f3f46 60%, #27272a 100%);
+    }
+    .pe-btn-oval:active {
+      transform: translateY(1px) scale(0.96);
+    }
+
+    /* Large Black DATA Jog Wheel */
+    .pe-data-wheel {
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 45% 40%, #3f3f46 0%, #222226 55%, #0d0d0f 100%);
+      border: 2px solid #2e2e33;
+      box-shadow: 0 5px 12px rgba(0,0,0,0.9), inset 0 1px 2px rgba(255,255,255,0.2);
+      position: relative;
+      cursor: grab;
+      user-select: none;
+      transition: transform 0.05s ease-out;
+    }
+    .pe-data-wheel:active { cursor: grabbing; }
+    .pe-wheel-dimple {
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 11px;
+      height: 11px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 40% 40%, #18181b 0%, #09090b 100%);
+      box-shadow: inset 0 1px 3px rgba(0,0,0,0.9), 0 1px 1px rgba(255,255,255,0.1);
+      border: 1px solid #27272a;
+    }
+
+    /* LED Indicators */
+    .led-dot {
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+    }
+    .led-red-on {
+      background: #ef4444;
+      box-shadow: 0 0 6px #ef4444, inset 0 1px 1px #fca5a5;
+    }
+    .led-green-on {
+      background: #22c55e;
+      box-shadow: 0 0 6px #22c55e, inset 0 1px 1px #86efac;
+    }
+    .led-off {
+      background: #1e3a3e;
+      box-shadow: inset 0 1px 1px rgba(0,0,0,0.8);
+    }
+    .led-green-off {
+      background: #11361c;
+      box-shadow: inset 0 1px 1px rgba(0,0,0,0.8);
+    }
+
+    /* Silkscreen typography */
+    .silkscreen-orb3 {
+      color: #111113 !important;
+      font-family: 'Inter', sans-serif;
+      font-weight: 800;
+      letter-spacing: 0.03em;
+      text-shadow: 0 0.5px 0.5px rgba(255, 255, 255, 0.45);
+    }
+    .slash-orange {
+      color: #ea580c !important;
+      font-weight: 900;
+      text-shadow: 0 0.5px 0.5px rgba(255, 255, 255, 0.3);
+    }
+
+    /* Tab bar & scrollbar styling */
+    .mq-tab {
+      transition: all 0.15s ease;
+      border-bottom: 2px solid transparent;
+    }
+    .mq-tab:hover {
+      background: rgba(255, 255, 255, 0.05);
+      color: #ffffff;
+    }
+    .mq-tab.active {
+      color: #22d3ee;
+      border-bottom-color: #22d3ee;
+      background: rgba(34, 211, 238, 0.08);
+    }
+    .scrollbar-none::-webkit-scrollbar { display: none; }
+    .scrollbar-none { -ms-overflow-style: none; scrollbar-width: none; }
+
+    /* World Sound Trigger Pad */
+    .world-pad {
+      background: radial-gradient(circle at 45% 40%, #1e293b 0%, #0f172a 70%, #020617 100%);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.6), inset 0 1px 1px rgba(255,255,255,0.12);
+      border: 1px solid #334155;
+      transition: all 0.08s ease;
+      cursor: pointer;
+      user-select: none;
+    }
+    .world-pad:active, .world-pad.pad-active {
+      transform: translateY(2px);
+      box-shadow: inset 0 3px 6px rgba(0,0,0,0.9), 0 0 12px rgba(34, 211, 238, 0.5);
+      border-color: #22d3ee;
+      background: #0f172a;
+    }
+  </style>
+</head>
+<body class="bg-zinc-950 text-zinc-100 p-6 min-h-screen flex flex-col items-center justify-start font-sans select-none">
+
+  <!-- TOP HEADER BANNER -->
+  <div class="w-full max-w-6xl mb-4 flex items-center justify-between border-b border-zinc-800 pb-3">
+    <div class="flex items-center gap-3">
+      <div class="w-3.5 h-3.5 rounded-full bg-yellow-400 shadow-[0_0_10px_#facc15] animate-pulse"></div>
+      <div>
+        <h1 class="text-xl font-bold tracking-tight text-white flex items-center gap-2">
+          E-MU Orbit-3 <span class="text-xs px-2 py-0.5 rounded bg-yellow-950/80 border border-yellow-700/60 text-yellow-300 font-mono">128-Voice Super Synth &amp; Dance Module</span>
+        </h1>
+        <p class="text-xs text-zinc-400">Authentic Electric Neon Yellow 1U Chassis &bull; 64MB Beat Garden &amp; Techno Yard ROMs &bull; 50 Z-Plane Filters &bull; SuperBEATS Engine</p>
+      </div>
+    </div>
+    <div class="flex items-center gap-3">
+      <span class="text-xs text-zinc-400 font-mono">Preset:</span>
+      <select id="preset-selector" onchange="loadOrbit3Preset(this.value)" class="bg-zinc-900 border border-zinc-700 text-xs text-zinc-200 rounded px-2.5 py-1 focus:outline-none focus:border-yellow-500 font-mono">
+        <option value="0">0000 BEAT:Rob's Acid 303</option>
+        <option value="1">0001 TECH:Reese Sub Bass</option>
+        <option value="2">0002 RAVE:Trance Supersaw Pad</option>
+        <option value="3">0003 BEAT:Amen Break Slice</option>
+        <option value="4">0004 TECH:Industrial Stab</option>
+        <option value="5">0005 BEAT:Gated Electro Chord</option>
+        <option value="6">0006 TECH:Hardstyle 909 Kick</option>
+        <option value="7">0007 BEAT:Cyber Vocoder Hook</option>
+      </select>
+      <button onclick="playDanceGrooveDemo()" class="px-3.5 py-1.5 bg-gradient-to-r from-yellow-500 to-amber-600 hover:from-yellow-400 hover:to-amber-500 active:scale-95 text-zinc-950 font-black text-xs rounded shadow transition flex items-center gap-1.5 cursor-pointer">
+        <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+        Audition Dance Groove <span class="text-[10px] opacity-75 font-mono">[Spacebar]</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- THE AUTHENTIC 1U OCEANIC TEAL HARDWARE RACK PANEL -->
+  <div class="w-full max-w-6xl orb3-faceplate rounded-lg shadow-2xl flex items-center justify-between pr-3 py-2.5 h-[116px] relative overflow-hidden">
+    
+    <!-- Metallic highlight sheen on top bevel -->
+    <div class="metallic-highlight"></div>
+
+    <!-- HARDWARE STAMPED CONTOUR RELIEF LINES (Authentic E-MU Orbit-3 Chassis Specification) -->
+    <svg style="position: absolute; top: 0; left: 0; width: 1152px; height: 116px; pointer-events: none; z-index: 1;" viewBox="0 0 1152 116" preserveAspectRatio="none">
+      <!-- Left side embossed groove with concentric semi-circular collars over Knobs 1..4 -->
+      <path d="M 0,40 L 45,40 Q 60,54 71,54 Q 84,54 96,48 Q 112,44 126,50 Q 147,42 165,52 Q 174,56 184,62 A 21 21 0 0 1 226 62 L 242 62 A 21 21 0 0 1 284 62 L 300 62 A 21 21 0 0 1 342 62 L 358 62 A 21 21 0 0 1 400 62 L 433,62" fill="none" stroke="#5c4300" stroke-width="1.8" />
+      <path d="M 0,41 L 45,41 Q 60,55 71,55 Q 84,55 96,49 Q 112,45 126,51 Q 147,43 165,53 Q 174,57 184,63 A 21 21 0 0 1 226 63 L 242 63 A 21 21 0 0 1 284 63 L 300 63 A 21 21 0 0 1 342 63 L 358 63 A 21 21 0 0 1 400 63 L 433,63" fill="none" stroke="#fffca8" stroke-width="0.8" opacity="0.85" />
+
+      <!-- Right side continuous dividing line between button rows and around DATA wheel -->
+      <path d="M 718,62 L 888,64 Q 902,65 908,70 Q 914,75 920,84 L 950,84 Q 960,78 966,70 Q 972,64 980,64 L 1152,64" fill="none" stroke="#5c4300" stroke-width="1.6" />
+      <path d="M 718,63 L 888,65 Q 902,66 908,71 Q 914,76 920,85 L 950,85 Q 960,79 966,71 Q 972,65 980,65 L 1152,65" fill="none" stroke="#fffca8" stroke-width="0.8" opacity="0.85" />
+    </svg>
+
+    <!-- LEFT RACK EAR (Black with 2 Oval Mounting Holes) -->
+    <div class="absolute left-2 top-0 bottom-0 flex flex-col justify-between py-2 pointer-events-none z-10">
+      <div class="w-2.5 h-3.5 rounded-sm bg-zinc-950/80 border border-zinc-800 shadow-inner"></div>
+      <div class="w-2.5 h-3.5 rounded-sm bg-zinc-950/80 border border-zinc-800 shadow-inner"></div>
+    </div>
+
+    <!-- Countersunk Hex Screws Left -->
+    <div class="absolute left-5 top-3 w-2 h-2 rounded-full bg-zinc-900 border border-zinc-700 shadow-inner flex items-center justify-center z-10">
+      <div class="w-1 h-1 bg-zinc-950"></div>
+    </div>
+    <div class="absolute left-5 bottom-3 w-2 h-2 rounded-full bg-zinc-900 border border-zinc-700 shadow-inner flex items-center justify-center z-10">
+      <div class="w-1 h-1 bg-zinc-950"></div>
+    </div>
+
+    <!-- LEFT SECTION: PHONES, CONTROLLER SELECT, VOLUME & 4 REAL-TIME PARAMETER KNOBS -->
+    <div class="flex items-center z-10 relative" style="width: 415px; height: 116px;">
+      
+      <!-- Headphone Jack (Lower row with 🎧 below, x=30 to 52) -->
+      <div class="absolute flex flex-col items-center justify-end pb-1" style="left: 30px; top: 15px; width: 22px; height: 86px;">
+        <div class="w-5 h-5 rounded-full bg-zinc-900 border-2 border-zinc-600 shadow-inner flex items-center justify-center">
+          <div class="w-2.5 h-2.5 rounded-full bg-black border border-zinc-800"></div>
+        </div>
+        <!-- Headphone Icon 🎧 in Dark Charcoal -->
+        <svg class="w-3.5 h-3.5 fill-zinc-900 mt-1 opacity-90" viewBox="0 0 24 24">
+          <path d="M12 3a9 9 0 0 0-9 9v7c0 1.1.9 2 2 2h3v-8H5v-1a7 7 0 0 1 14 0v1h-3v8h3c1.1 0 2-.9 2-2v-7a9 9 0 0 0-9-9z"/>
+        </svg>
+      </div>
+
+      <!-- Mode Controller Cluster: Oval Button + Centered A-D / E-H / I-L Indicators (x=58 to 116) -->
+      <div class="absolute flex flex-col justify-start pt-1" style="left: 58px; top: 15px; width: 58px; height: 86px;">
+        <div class="flex items-center gap-1.5">
+          <!-- Oval Controller Mode Button (Center x = 58 + 13 = 71) -->
+          <button onclick="cyclePEMode()" class="pe-btn-oval shrink-0" title="Cycle Real-Time Controller Row (A-D / E-H / I-L)"></button>
+          
+          <!-- Mode LEDs Vertically Centered with the Oval Button -->
+          <div class="flex flex-col justify-center gap-[2.5px] pl-0.5">
+            <div class="flex items-center gap-1 leading-none whitespace-nowrap">
+              <span class="silkscreen-orb3 text-[6.5px]">A-D</span>
+              <div id="led-ad" class="led-dot led-green-on shadow-[0_0_6px_#22c55e]"></div>
+            </div>
+            <div class="flex items-center gap-1 leading-none whitespace-nowrap">
+              <span class="silkscreen-orb3 text-[6.5px]">E-H</span>
+              <div id="led-eh" class="led-dot led-green-off"></div>
+            </div>
+            <div class="flex items-center gap-1 leading-none whitespace-nowrap">
+              <span class="silkscreen-orb3 text-[6.5px]">I-L</span>
+              <div id="led-il" class="led-dot led-green-off"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ALL 5 KNOBS IN 5 EQUIDISTANT 58px COLUMNS (x=118 to 408, Centers: 147, 205, 263, 321, 379) -->
+      <div class="absolute flex items-center" style="left: 118px; top: 14px; width: 290px; height: 86px;">
+        
+        <!-- Knob 0: VOLUME (Center x = 147) -->
+        <div class="flex flex-col items-center justify-between h-[86px] pb-1 shrink-0" style="width: 58px;">
+          <div class="h-[28px] w-full flex items-center justify-center"></div>
+          <div class="pe-knob" data-param="vol" data-val="110" onmousedown="startKnobDrag(event, 'vol')">
+            <div class="pe-knob-pointer" id="vol-pointer"></div>
+          </div>
+          <span class="silkscreen-orb3 text-[7.5px] text-center w-full">VOLUME</span>
+        </div>
+
+        <!-- Knob 1: A/E/I (FILTER CUTOFF / ATTACK / WILD 1 with Orange Slash, Center x = 205) -->
+        <div class="flex flex-col items-center justify-between h-[86px] pb-1 shrink-0" style="width: 58px;">
+          <div class="h-[28px] w-full flex items-center justify-center">
+            <div class="flex items-center gap-0.5">
+              <div class="flex flex-col items-end text-right">
+                <span class="silkscreen-orb3 text-[5px] leading-[7px]">FILTER CUTOFF</span>
+                <span class="silkscreen-orb3 text-[5px] leading-[7px]">ATTACK</span>
+                <span class="silkscreen-orb3 text-[5px] leading-[7px]">WILD 1</span>
+              </div>
+              <span class="slash-orange font-black text-sm italic leading-none pl-0.5 select-none">/</span>
+            </div>
+          </div>
+          <div class="pe-knob" data-param="k1" data-val="90" onmousedown="startKnobDrag(event, 'k1')">
+            <div class="pe-knob-pointer" id="k1-pointer"></div>
+          </div>
+          <span class="silkscreen-orb3 text-[7.5px] text-center w-full">A/E/I <span class="slash-orange">|</span></span>
+        </div>
+
+        <!-- Knob 2: B/F/J (FILTER RES / DECAY/RLS / WILD 2 with Orange Slash, Center x = 263) -->
+        <div class="flex flex-col items-center justify-between h-[86px] pb-1 shrink-0" style="width: 58px;">
+          <div class="h-[28px] w-full flex items-center justify-center">
+            <div class="flex items-center gap-0.5">
+              <div class="flex flex-col items-end text-right">
+                <span class="silkscreen-orb3 text-[5px] leading-[7px]">FILTER RES</span>
+                <span class="silkscreen-orb3 text-[5px] leading-[7px]">DECAY/RLS</span>
+                <span class="silkscreen-orb3 text-[5px] leading-[7px]">WILD 2</span>
+              </div>
+              <span class="slash-orange font-black text-sm italic leading-none pl-0.5 select-none">/</span>
+            </div>
+          </div>
+          <div class="pe-knob" data-param="k2" data-val="64" onmousedown="startKnobDrag(event, 'k2')">
+            <div class="pe-knob-pointer" id="k2-pointer"></div>
+          </div>
+          <span class="silkscreen-orb3 text-[7.5px] text-center w-full">B/F/J <span class="slash-orange">|</span></span>
+        </div>
+
+        <!-- Knob 3: C/G/K (SHAPE / MOVEMENT / WILD 3 with Orange Slash, Center x = 321) -->
+        <div class="flex flex-col items-center justify-between h-[86px] pb-1 shrink-0" style="width: 58px;">
+          <div class="h-[28px] w-full flex items-center justify-center">
+            <div class="flex items-center gap-0.5">
+              <div class="flex flex-col items-end text-right">
+                <span class="silkscreen-orb3 text-[5px] leading-[7px]">SHAPE</span>
+                <span class="silkscreen-orb3 text-[5px] leading-[7px]">MOVEMENT</span>
+                <span class="silkscreen-orb3 text-[5px] leading-[7px]">WILD 3</span>
+              </div>
+              <span class="slash-orange font-black text-sm italic leading-none pl-0.5 select-none">/</span>
+            </div>
+          </div>
+          <div class="pe-knob" data-param="k3" data-val="75" onmousedown="startKnobDrag(event, 'k3')">
+            <div class="pe-knob-pointer" id="k3-pointer"></div>
+          </div>
+          <span class="silkscreen-orb3 text-[7.5px] text-center w-full">C/G/K <span class="slash-orange">|</span></span>
+        </div>
+
+        <!-- Knob 4: D/H/L (IMAGE / RATE / WILD 4 with Orange Slash, Center x = 379) -->
+        <div class="flex flex-col items-center justify-between h-[86px] pb-1 shrink-0" style="width: 58px;">
+          <div class="h-[28px] w-full flex items-center justify-center">
+            <div class="flex items-center gap-0.5">
+              <div class="flex flex-col items-end text-right">
+                <span class="silkscreen-orb3 text-[5px] leading-[7px]">IMAGE</span>
+                <span class="silkscreen-orb3 text-[5px] leading-[7px]">RATE</span>
+                <span class="silkscreen-orb3 text-[5px] leading-[7px]">WILD 4</span>
+              </div>
+              <span class="slash-orange font-black text-sm italic leading-none pl-0.5 select-none">/</span>
+            </div>
+          </div>
+          <div class="pe-knob" data-param="k4" data-val="55" onmousedown="startKnobDrag(event, 'k4')">
+            <div class="pe-knob-pointer" id="k4-pointer"></div>
+          </div>
+          <span class="silkscreen-orb3 text-[7.5px] text-center w-full">D/H/L <span class="slash-orange">|</span></span>
+        </div>
+
+      </div>
+
+      <!-- 4 Parameter Red LEDs Located at the Top-Right of Knobs 1..4 Collars (x=220, 278, 336, 394; y=47) -->
+      <div id="led-param-1" class="led-dot led-off absolute" style="left: 220px; top: 47px; transform: translate(-50%, -50%); z-index: 15;"></div>
+      <div id="led-param-2" class="led-dot led-off absolute" style="left: 278px; top: 47px; transform: translate(-50%, -50%); z-index: 15;"></div>
+      <div id="led-param-3" class="led-dot led-off absolute" style="left: 336px; top: 47px; transform: translate(-50%, -50%); z-index: 15;"></div>
+      <div id="led-param-4" class="led-dot led-off absolute" style="left: 394px; top: 47px; transform: translate(-50%, -50%); z-index: 15;"></div>
+
+    </div>
+
+    <!-- CENTER SECTION: BLACK TRAPEZOID BEZEL & 2x24 GREEN LCD -->
+    <div class="pe-lcd-bezel w-[285px] h-[92px] px-3.5 pt-1.5 pb-2 flex flex-col justify-between items-center z-10 mx-1 relative">
+      
+      <!-- Top Silkscreen: 128-Voice Super Synth -->
+      <span class="font-sans text-[8.5px] tracking-[0.18em] italic font-black text-yellow-300 leading-none">
+        128-Voice Super Synth
+      </span>
+
+      <!-- 2x24 Character Alphanumeric Green LCD -->
+      <div class="pe-lcd w-[252px] h-[38px] px-2.5 py-1 rounded-xs flex flex-col justify-between font-lcd">
+        <div class="flex items-center justify-between text-xs font-bold lcd-green-text tracking-widest leading-none">
+          <span id="pe-lcd-line1" class="truncate pr-1">C01 V127 P00 A:P  TeCnO</span>
+          <span class="text-[9.5px] bg-[#64f77c]/20 px-1 rounded font-mono shrink-0">128-VOICE</span>
+        </div>
+        <div class="flex items-center justify-between text-[11px] font-semibold lcd-green-text tracking-wider leading-none">
+          <span id="pe-lcd-line2" class="truncate pr-1">092² SFX: Granules</span>
+          <span class="text-[9.5px] text-[#64f77c]/80 font-mono shrink-0">64MB ROM</span>
+        </div>
+      </div>
+
+      <!-- Bottom Badge: Orbit-3 with Red Planetary Orbit Ring slicing through O -->
+      <div class="relative flex items-center justify-center my-0.5">
+        <div class="relative flex items-center drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)]">
+          <!-- Stylized O with Red Orbit Ring -->
+          <div class="relative flex items-center justify-center mr-0.5">
+            <svg class="w-7 h-5" viewBox="0 0 28 20">
+              <!-- Red Elliptical Orbit Ring tilted 25 degrees -->
+              <ellipse cx="14" cy="10" rx="12" ry="4.5" fill="none" stroke="#ef4444" stroke-width="2.2" transform="rotate(-25 14 10)" />
+              <!-- Bold Yellow Capital O -->
+              <text x="14" y="14.5" fill="#facc15" font-family="'Cinzel', 'Inter', sans-serif" font-size="13" font-weight="900" text-anchor="middle">O</text>
+            </svg>
+          </div>
+          <span class="font-brand text-[13px] font-black tracking-[0.08em] text-[#facc15] leading-none">rbit-3</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- RIGHT SECTION: 8 BUTTON MATRIX, DEMOS BRACKET, DATA WHEEL, POWER, E-MU LOGO -->
+    <div class="flex items-center gap-3.5 pr-6 z-10">
+      
+      <!-- 8-Button Tactile Pushbutton Matrix (4 Uniform Columns w-[36px], pitch 46px, h-[82px]) -->
+      <div class="relative flex items-center gap-2.5 h-[82px] py-0.5">
+        
+        <!-- Precision SVG DEMOS Bracket connecting bottom centers of MASTER (x=18) & EDIT (x=64) -->
+        <svg class="absolute top-[36px] left-0 pointer-events-none" width="82" height="14" viewBox="0 0 82 14">
+          <!-- Left hook under MASTER button center (x=18) -->
+          <path d="M 18,0 L 18,5 L 27,5" fill="none" stroke="#c2410c" stroke-width="1.2" stroke-linecap="square" />
+          <!-- Centered DEMOS text at x=41 in Gold Silkscreen -->
+          <text x="41" y="7.5" fill="#c2410c" font-family="'Inter', sans-serif" font-size="6.5" font-weight="800" text-anchor="middle" letter-spacing="0.06em">DEMOS</text>
+          <!-- Right hook under EDIT button center (x=64) -->
+          <path d="M 55,5 L 64,5 L 64,0" fill="none" stroke="#c2410c" stroke-width="1.2" stroke-linecap="square" />
+        </svg>
+
+        <!-- Column 1: MASTER / (Top) & AUDITION / (Bottom) -->
+        <div class="flex flex-col items-center justify-between h-full w-[36px]">
+          <!-- MASTER / -->
+          <div class="flex flex-col items-center w-full">
+            <span class="silkscreen-orb3 text-[6.5px] mb-1 whitespace-nowrap">MASTER <span class="slash-orange">/</span></span>
+            <div class="relative flex items-center justify-center">
+              <button onclick="switchPETab('global')" class="pe-btn-round" title="Master / Global Settings"></button>
+              <div id="led-master" class="led-dot led-red-on absolute -right-2 top-1.5"></div>
+            </div>
+          </div>
+          <div class="h-[9px] w-full"></div>
+          <!-- AUDITION / -->
+          <div class="flex flex-col items-center w-full">
+            <div class="relative flex items-center justify-center">
+              <button onclick="auditionPECurrent()" class="pe-btn-round" title="Audition World Patch"></button>
+              <div id="led-audition" class="led-dot led-red-on absolute -right-2 top-1.5"></div>
+            </div>
+            <span class="silkscreen-orb3 text-[6.5px] mt-1 whitespace-nowrap">AUDITION <span class="slash-orange">/</span></span>
+          </div>
+        </div>
+
+        <!-- Column 2: EDIT / (Top) & ARP/BEATS / (Bottom) -->
+        <div class="flex flex-col items-center justify-between h-full w-[36px]">
+          <!-- EDIT / -->
+          <div class="flex flex-col items-center w-full">
+            <span class="silkscreen-orb3 text-[6.5px] mb-1 whitespace-nowrap">EDIT <span class="slash-orange">/</span></span>
+            <div class="relative flex items-center justify-center">
+              <button onclick="switchPETab('preset')" class="pe-btn-round" title="Edit World Preset Parameters"></button>
+              <div id="led-edit" class="led-dot led-off absolute -right-2 top-1.5"></div>
+            </div>
+          </div>
+          <div class="h-[9px] w-full"></div>
+          <!-- ARP/BEATS / -->
+          <div class="flex flex-col items-center w-full">
+            <div class="relative flex items-center justify-center">
+              <button onclick="switchPETab('arpeggiator')" class="pe-btn-round" title="SuperBEATS &amp; World Arpeggiator"></button>
+              <div id="led-arp" class="led-dot led-red-on absolute -right-2 top-1.5"></div>
+            </div>
+            <span class="silkscreen-orb3 text-[6px] mt-1 whitespace-nowrap">ARP/BEATS <span class="slash-orange">/</span></span>
+          </div>
+        </div>
+
+        <!-- Column 3: < (Cursor Left) & SAVE/COPY / (Bottom) -->
+        <div class="flex flex-col items-center justify-between h-full w-[36px]">
+          <!-- Cursor Left < -->
+          <div class="flex flex-col items-center w-full">
+            <div class="h-[11px] w-full"></div>
+            <button onclick="peCursorBump(-1)" class="pe-btn-round font-bold text-[10px] text-zinc-300" title="Cursor Left">&lt;</button>
+          </div>
+          <div class="h-[9px] w-full"></div>
+          <!-- SAVE/COPY / -->
+          <div class="flex flex-col items-center w-full">
+            <div class="relative flex items-center justify-center">
+              <button onclick="switchPETab('librarian')" class="pe-btn-round" title="Save / Copy / Bank Librarian"></button>
+              <div id="led-save" class="led-dot led-green-on absolute -right-2 top-1.5"></div>
+            </div>
+            <span class="silkscreen-orb3 text-[6.5px] mt-1 whitespace-nowrap">SAVE/COPY <span class="slash-orange">/</span></span>
+          </div>
+        </div>
+
+        <!-- Column 4: > (Cursor Right) & HOME/ENTER / (Bottom) -->
+        <div class="flex flex-col items-center justify-between h-full w-[36px]">
+          <!-- Cursor Right > -->
+          <div class="flex flex-col items-center w-full">
+            <div class="h-[11px] w-full"></div>
+            <button onclick="peCursorBump(1)" class="pe-btn-round font-bold text-[10px] text-zinc-300" title="Cursor Right">&gt;</button>
+          </div>
+          <div class="h-[9px] w-full"></div>
+          <!-- HOME/ENTER / -->
+          <div class="flex flex-col items-center w-full">
+            <div class="relative flex items-center justify-center">
+              <button onclick="switchPETab('performance')" class="pe-btn-round" title="Home / Enter"></button>
+              <div id="led-home" class="led-dot led-red-on absolute -right-2 top-1.5"></div>
+            </div>
+            <span class="silkscreen-orb3 text-[6.5px] mt-1 whitespace-nowrap">HOME/ENTER <span class="slash-orange">/</span></span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- / [LED] MIDI Indicator -->
+      <div class="flex items-center gap-1 text-[8px] font-bold text-zinc-400 pl-0.5">
+        <span class="slash-orange text-[9px] leading-none">/</span>
+        <div id="led-midi" class="led-dot led-green-on animate-pulse"></div>
+        <span class="silkscreen-orb3 text-[7.5px] leading-none">MIDI</span>
+      </div>
+
+      <!-- DATA Jog Wheel -->
+      <div class="pe-data-wheel" id="data-wheel" onwheel="handleDataWheel(event)" title="Rotate Data Wheel (or Scroll with Mouse)">
+        <div class="pe-wheel-dimple"></div>
+      </div>
+
+      <!-- Pushbutton Power Switch -->
+      <div class="flex flex-col items-center justify-center gap-1 pl-1">
+        <div class="w-7 h-7 rounded-full bg-zinc-900 border border-zinc-700 flex items-center justify-center shadow-inner">
+          <button onclick="togglePower()" class="w-4.5 h-4.5 rounded-full bg-zinc-800 border border-zinc-600 shadow-md flex items-center justify-center active:scale-95 cursor-pointer">
+            <div class="w-2 h-2 rounded-full bg-zinc-700"></div>
+          </button>
+        </div>
+        <span class="silkscreen-orb3 text-[6.5px] leading-none tracking-widest">POWER</span>
+      </div>
+
+      <!-- Hex Bolt on Right Edge -->
+      <div class="w-2 h-2 rounded-full bg-zinc-900 border border-zinc-700 shadow-inner flex items-center justify-center ml-1">
+        <div class="w-1 h-1 bg-zinc-950"></div>
+      </div>
+
+      <!-- Authentic Black E-MU Logo with 3 Horizontal Bars -->
+      <div class="flex flex-col items-center justify-center pl-1 select-none pointer-events-none">
+        <span class="text-zinc-950 font-black text-sm tracking-widest leading-none drop-shadow-[0_0.5px_1px_rgba(255,255,255,0.4)]">E-MU</span>
+        <div class="flex flex-col gap-0.5 mt-1">
+          <div class="w-8 h-0.5 bg-zinc-950 shadow-sm"></div>
+          <div class="w-8 h-0.5 bg-zinc-950 shadow-sm"></div>
+          <div class="w-8 h-0.5 bg-zinc-950 shadow-sm"></div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- RIGHT RACK EAR (Black with 2 Oval Mounting Holes) -->
+    <div class="absolute right-2 top-0 bottom-0 flex flex-col justify-between py-2 pointer-events-none z-10">
+      <div class="w-2.5 h-3.5 rounded-sm bg-zinc-950/80 border border-zinc-800 shadow-inner"></div>
+      <div class="w-2.5 h-3.5 rounded-sm bg-zinc-950/80 border border-zinc-800 shadow-inner"></div>
+    </div>
+
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- MIDI QUEST 13 COMPONENT SUB-VIEWS (TABBED WORKSPACE)                      -->
+  <!-- ========================================================================= -->
+  <div class="w-full max-w-6xl mt-4 bg-zinc-900/95 border border-zinc-800 rounded-lg shadow-xl overflow-hidden flex flex-col">
+    
+    <!-- SUB-VIEW NAVIGATION BAR -->
+    <div class="flex items-center justify-between bg-zinc-950 px-3 border-b border-zinc-800 text-xs gap-4">
+      <div class="flex items-center gap-1 overflow-x-auto py-1 min-w-0 flex-1 scrollbar-none [&::-webkit-scrollbar]:hidden" style="scrollbar-width: none; -ms-overflow-style: none;">
+        <button onclick="switchPETab('performance')" id="tab-performance" class="mq-tab active px-2.5 py-1 text-[10.5px] font-semibold text-zinc-300 hover:text-white flex items-center gap-1.5 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-cyan-400" viewBox="0 0 24 24"><path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/></svg>
+          Orbit-3 Performance
+        </button>
+        <button onclick="switchPETab('preset')" id="tab-preset" class="mq-tab px-2.5 py-1 text-[10.5px] font-semibold text-zinc-400 hover:text-white flex items-center gap-1.5 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-amber-400" viewBox="0 0 24 24"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"/></svg>
+          Preset Editor (4 Layers)
+        </button>
+        <button onclick="switchPETab('filter')" id="tab-filter" class="mq-tab px-2.5 py-1 text-[10.5px] font-semibold text-zinc-400 hover:text-white flex items-center gap-1.5 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-teal-400" viewBox="0 0 24 24"><path d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"/></svg>
+          50 Z-Plane Filters
+        </button>
+        <button onclick="switchPETab('lfos')" id="tab-lfos" class="mq-tab px-2.5 py-1 text-[10.5px] font-semibold text-zinc-400 hover:text-white flex items-center gap-1.5 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-rose-400" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"/></svg>
+          LFOs &amp; Modulation
+        </button>
+        <button onclick="switchPETab('arpeggiator')" id="tab-arpeggiator" class="mq-tab px-2.5 py-1 text-[10.5px] font-semibold text-zinc-400 hover:text-white flex items-center gap-1.5 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-yellow-400" viewBox="0 0 24 24"><path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/></svg>
+          SuperBEATS Arpeggiator
+        </button>
+        <button onclick="switchPETab('global')" id="tab-global" class="mq-tab px-2.5 py-1 text-[10.5px] font-semibold text-zinc-400 hover:text-white flex items-center gap-1.5 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-blue-400" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+          Global Editor
+        </button>
+        <button onclick="switchPETab('progmap')" id="tab-progmap" class="mq-tab px-2.5 py-1 text-[10.5px] font-semibold text-zinc-400 hover:text-white flex items-center gap-1.5 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-indigo-400" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 14H6v-2h6v2zm4-4H6v-2h10v2zm0-4H6V7h10v2z"/></svg>
+          Preset Map
+        </button>
+        <button onclick="switchPETab('multimode')" id="tab-multimode" class="mq-tab px-2.5 py-1 text-[10.5px] font-semibold text-zinc-400 hover:text-white flex items-center gap-1.5 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-emerald-400" viewBox="0 0 24 24"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"/></svg>
+          MultiMode (32 Ch)
+        </button>
+        <button onclick="switchPETab('librarian')" id="tab-librarian" class="mq-tab px-2.5 py-1 text-[10.5px] font-semibold text-zinc-400 hover:text-white flex items-center gap-1.5 cursor-pointer whitespace-nowrap rounded">
+          <svg class="w-3.5 h-3.5 fill-current text-orange-400" viewBox="0 0 24 24"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H8V4h12v12z"/></svg>
+          Bank Librarian (1,024)
+        </button>
+      </div>
+      <span class="text-[10px] text-zinc-500 font-mono whitespace-nowrap hidden 2xl:inline shrink-0">Midi Quest 13 &bull; Model 0x09 (Orbit-3)</span>
+    </div>
+
+    <!-- ==================== TAB 1: PERFORMANCE CONSOLE ==================== -->
+    <div id="subview-performance" class="p-5 flex flex-col gap-4">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <div>
+          <h2 class="text-sm font-bold text-teal-400 uppercase tracking-wider">Orbit-3 Dance Soundboard &bull; 64MB Beat Garden &amp; Techno Yard ROMs</h2>
+          <p class="text-xs text-zinc-400">Authentic ethnic instruments across Africa, Asia, Middle East, Celtic Isles, Polynesia, and South America.</p>
+        </div>
+        <div class="flex items-center gap-2">
+          <span class="text-xs font-mono text-zinc-400">Polyphony: <b class="text-white">128 Voices</b></span>
+          <span class="text-xs font-mono text-zinc-400 pl-2">SIMM Slots: <b class="text-white">4 Expansion</b></span>
+        </div>
+      </div>
+
+      <!-- 8 Orbit-3 Electronic Dance & Techno Trigger Cards -->
+      <div class="grid grid-cols-4 gap-3">
+        
+        <div onclick="playOrbit3Instrument('acid_303')" class="world-pad p-3 rounded-lg border border-yellow-800/60 hover:border-yellow-400 flex flex-col justify-between h-24 cursor-pointer">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-yellow-300">Rob's Acid 303</span>
+            <span class="text-[9.5px] font-mono text-zinc-400">0000</span>
+          </div>
+          <span class="text-[10px] text-zinc-400 leading-tight">TB-303 Screaming Z-Plane Filter Sweep &amp; Accent</span>
+          <span class="text-[9px] font-mono text-yellow-400">ROM: Beat Garden</span>
+        </div>
+
+        <div onclick="playOrbit3Instrument('reese_bass')" class="world-pad p-3 rounded-lg border border-zinc-800 hover:border-yellow-400 flex flex-col justify-between h-24 cursor-pointer">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-yellow-300">Reese Sub Bass</span>
+            <span class="text-[9.5px] font-mono text-zinc-400">0001</span>
+          </div>
+          <span class="text-[10px] text-zinc-400 leading-tight">Detuned Dual Saw Sub with Lowpass Drive &amp; Width</span>
+          <span class="text-[9px] font-mono text-yellow-400">ROM: Techno Yard</span>
+        </div>
+
+        <div onclick="playOrbit3Instrument('supersaw')" class="world-pad p-3 rounded-lg border border-zinc-800 hover:border-yellow-400 flex flex-col justify-between h-24 cursor-pointer">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-yellow-300">Trance Supersaw</span>
+            <span class="text-[9.5px] font-mono text-zinc-400">0002</span>
+          </div>
+          <span class="text-[10px] text-zinc-400 leading-tight">7-Oscillator Stacked Saw with Stereo Chorus</span>
+          <span class="text-[9px] font-mono text-yellow-400">ROM: Beat Garden</span>
+        </div>
+
+        <div onclick="playOrbit3Instrument('amen_break')" class="world-pad p-3 rounded-lg border border-zinc-800 hover:border-yellow-400 flex flex-col justify-between h-24 cursor-pointer">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-yellow-300">Amen Break Slice</span>
+            <span class="text-[9.5px] font-mono text-zinc-400">0003</span>
+          </div>
+          <span class="text-[10px] text-zinc-400 leading-tight">High-Energy Dynamic Drum &amp; Bass Break Slice</span>
+          <span class="text-[9px] font-mono text-yellow-400">ROM: Beat Garden</span>
+        </div>
+
+        <div onclick="playOrbit3Instrument('industrial_stab')" class="world-pad p-3 rounded-lg border border-zinc-800 hover:border-yellow-400 flex flex-col justify-between h-24 cursor-pointer">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-yellow-300">Industrial Stab</span>
+            <span class="text-[9.5px] font-mono text-zinc-400">0004</span>
+          </div>
+          <span class="text-[10px] text-zinc-400 leading-tight">Metallic Minor 5th Rave Chord with Plate Reverb</span>
+          <span class="text-[9px] font-mono text-yellow-400">ROM: Techno Yard</span>
+        </div>
+
+        <div onclick="playOrbit3Instrument('gated_chord')" class="world-pad p-3 rounded-lg border border-zinc-800 hover:border-yellow-400 flex flex-col justify-between h-24 cursor-pointer">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-yellow-300">Gated Electro Chord</span>
+            <span class="text-[9.5px] font-mono text-zinc-400">0005</span>
+          </div>
+          <span class="text-[10px] text-zinc-400 leading-tight">16th-Note Rhythmic Tremolo Gated Saw Wave</span>
+          <span class="text-[9px] font-mono text-yellow-400">ROM: Beat Garden</span>
+        </div>
+
+        <div onclick="playOrbit3Instrument('hardstyle_909')" class="world-pad p-3 rounded-lg border border-zinc-800 hover:border-yellow-400 flex flex-col justify-between h-24 cursor-pointer">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-yellow-300">Hardstyle 909 Kick</span>
+            <span class="text-[9.5px] font-mono text-zinc-400">0006</span>
+          </div>
+          <span class="text-[10px] text-zinc-400 leading-tight">Analog Pitch-Drop Kick with Saturated Sub Drive</span>
+          <span class="text-[9px] font-mono text-yellow-400">ROM: Techno Yard</span>
+        </div>
+
+        <div onclick="playOrbit3Instrument('vocoder_hook')" class="world-pad p-3 rounded-lg border border-zinc-800 hover:border-yellow-400 flex flex-col justify-between h-24 cursor-pointer">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-yellow-300">Cyber Vocoder Hook</span>
+            <span class="text-[9.5px] font-mono text-zinc-400">0007</span>
+          </div>
+          <span class="text-[10px] text-zinc-400 leading-tight">Robotic Speech Formants with Harmonic Modulation</span>
+          <span class="text-[9px] font-mono text-yellow-400">ROM: Beat Garden</span>
+        </div>
+
+      </div>
+
+      <!-- Live Ethnic Percussion Matrix -->
+      <div class="mt-2 bg-zinc-950 p-4 rounded-lg border border-zinc-800">
+        <div class="flex items-center justify-between mb-3">
+          <span class="text-xs font-bold text-zinc-300 uppercase tracking-wider font-mono">Live Electronic Dance &amp; Techno Trigger Ensemble</span>
+          <span class="text-[10px] text-zinc-500 font-mono">Real-time 909 &amp; Techno Synthesis &bull; Click or Press Keys 1-8</span>
+        </div>
+        <div class="grid grid-cols-6 gap-2">
+          <button onclick="triggerWorldDrum('djembe_bass')" class="world-pad py-3 px-2 rounded flex flex-col items-center justify-center">
+            <span class="text-xs font-bold text-white">DJEMBE BASS</span>
+            <span class="text-[9px] font-mono text-teal-400">Deep Earth</span>
+          </button>
+          <button onclick="triggerWorldDrum('djembe_slap')" class="world-pad py-3 px-2 rounded flex flex-col items-center justify-center">
+            <span class="text-xs font-bold text-white">DJEMBE SLAP</span>
+            <span class="text-[9px] font-mono text-teal-400">High Rim</span>
+          </button>
+          <button onclick="triggerWorldDrum('talking_drum')" class="world-pad py-3 px-2 rounded flex flex-col items-center justify-center">
+            <span class="text-xs font-bold text-white">TALKING DRUM</span>
+            <span class="text-[9px] font-mono text-teal-400">Pitch Bend</span>
+          </button>
+          <button onclick="triggerWorldDrum('kalimba')" class="world-pad py-3 px-2 rounded flex flex-col items-center justify-center">
+            <span class="text-xs font-bold text-white">KALIMBA TINE</span>
+            <span class="text-[9px] font-mono text-teal-400">E5 Ping</span>
+          </button>
+          <button onclick="triggerWorldDrum('gamelan')" class="world-pad py-3 px-2 rounded flex flex-col items-center justify-center">
+            <span class="text-xs font-bold text-white">BRONZE GONG</span>
+            <span class="text-[9px] font-mono text-teal-400">Resonant Bell</span>
+          </button>
+          <button onclick="triggerWorldDrum('shaker')" class="world-pad py-3 px-2 rounded flex flex-col items-center justify-center">
+            <span class="text-xs font-bold text-white">SHEKERE</span>
+            <span class="text-[9px] font-mono text-teal-400">Gourd Seed</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 2: PRESET EDITOR (4 LAYERS) ==================== -->
+    <div id="subview-preset" class="p-5 flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <div>
+          <h2 class="text-sm font-bold text-amber-400 uppercase tracking-wider">E-MU Planet Earth 4-Layer Preset Architecture</h2>
+          <p class="text-xs text-zinc-400">Four Independent Sample Layers with Crossfade, Velocity Switching, Envelopes &amp; Filtering.</p>
+        </div>
+        <span class="text-xs font-mono text-amber-400">Preset: C01 V127 P00 A:P  TeCnO</span>
+      </div>
+
+      <div class="grid grid-cols-2 gap-4">
+        <!-- Layer 1 -->
+        <div class="bg-zinc-950 p-4 rounded border border-zinc-800 flex flex-col gap-3">
+          <div class="flex items-center justify-between border-b border-zinc-800 pb-2">
+            <span class="text-xs font-bold text-amber-300 uppercase">Layer 1: Japanese Koto</span>
+            <span class="text-[10px] bg-amber-950 text-amber-300 px-1.5 py-0.5 rounded font-mono">ROM ID: #014</span>
+          </div>
+          <div class="flex flex-col gap-2">
+            <label class="text-[11px] text-zinc-400">Sample Waveform:</label>
+            <select class="bg-zinc-900 border border-zinc-700 text-xs text-white rounded p-1.5 font-mono">
+              <option selected>014 13-String Koto Pluck</option>
+              <option>022 Japanese Shakuhachi Blow</option>
+              <option>035 North Indian Sitar Lead</option>
+              <option>048 West African Djembe Slap</option>
+            </select>
+          </div>
+          <div class="grid grid-cols-4 gap-2 pt-2">
+            <div class="bg-zinc-900 p-2 rounded text-center"><span class="text-[9px] text-zinc-400 block">COARSE</span><span class="text-xs font-mono font-bold text-white">+00 Semi</span></div>
+            <div class="bg-zinc-900 p-2 rounded text-center"><span class="text-[9px] text-zinc-400 block">FINE</span><span class="text-xs font-mono font-bold text-white">+02 Cents</span></div>
+            <div class="bg-zinc-900 p-2 rounded text-center"><span class="text-[9px] text-zinc-400 block">PAN</span><span class="text-xs font-mono font-bold text-white">L16</span></div>
+            <div class="bg-zinc-900 p-2 rounded text-center"><span class="text-[9px] text-zinc-400 block">VOL</span><span class="text-xs font-mono font-bold text-white">124</span></div>
+          </div>
+        </div>
+
+        <!-- Layer 2 -->
+        <div class="bg-zinc-950 p-4 rounded border border-zinc-800 flex flex-col gap-3">
+          <div class="flex items-center justify-between border-b border-zinc-800 pb-2">
+            <span class="text-xs font-bold text-amber-300 uppercase">Layer 2: Celtic Wire Harp</span>
+            <span class="text-[10px] bg-amber-950 text-amber-300 px-1.5 py-0.5 rounded font-mono">ROM ID: #029</span>
+          </div>
+          <div class="flex flex-col gap-2">
+            <label class="text-[11px] text-zinc-400">Sample Waveform:</label>
+            <select class="bg-zinc-900 border border-zinc-700 text-xs text-white rounded p-1.5 font-mono">
+              <option>014 13-String Koto Pluck</option>
+              <option selected>029 Celtic Wire Strung Harp</option>
+              <option>035 North Indian Sitar Lead</option>
+              <option>052 Balinese Gamelan Gong</option>
+            </select>
+          </div>
+          <div class="grid grid-cols-4 gap-2 pt-2">
+            <div class="bg-zinc-900 p-2 rounded text-center"><span class="text-[9px] text-zinc-400 block">COARSE</span><span class="text-xs font-mono font-bold text-white">+00 Semi</span></div>
+            <div class="bg-zinc-900 p-2 rounded text-center"><span class="text-[9px] text-zinc-400 block">FINE</span><span class="text-xs font-mono font-bold text-white">-03 Cents</span></div>
+            <div class="bg-zinc-900 p-2 rounded text-center"><span class="text-[9px] text-zinc-400 block">PAN</span><span class="text-xs font-mono font-bold text-white">R18</span></div>
+            <div class="bg-zinc-900 p-2 rounded text-center"><span class="text-[9px] text-zinc-400 block">VOL</span><span class="text-xs font-mono font-bold text-white">112</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 3: 50 Z-PLANE FILTERS ==================== -->
+    <div id="subview-filter" class="p-5 flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <div>
+          <h2 class="text-sm font-bold text-teal-400 uppercase tracking-wider">50 Proprietary 12-Pole Z-Plane Dynamic Filters</h2>
+          <p class="text-xs text-zinc-400">Formant morphing, ethnic vowel filters, comb filters, and multi-pole resonant sweeps.</p>
+        </div>
+      </div>
+      <div class="grid grid-cols-3 gap-4">
+        <div class="bg-zinc-950 p-4 rounded border border-zinc-800 flex flex-col gap-2">
+          <span class="text-xs font-bold text-teal-300">Filter Model</span>
+          <select class="bg-zinc-900 border border-zinc-700 text-xs text-white rounded p-1.5 font-mono">
+            <option selected>24: Ethnic Formant Ah-Eh-Oh</option>
+            <option>01: 4-Pole Lowpass Resonant</option>
+            <option>12: 6-Pole Swept Bandpass</option>
+            <option>38: Metallic Comb Resonator</option>
+            <option>49: Vocal Body Morph</option>
+          </select>
+          <span class="text-[10px] text-zinc-400 mt-2">12-pole morphing filter interpolating between human vocal cavity and acoustic gourd resonances.</span>
+        </div>
+        <div class="bg-zinc-950 p-4 rounded border border-zinc-800 flex flex-col gap-2">
+          <span class="text-xs font-bold text-teal-300">Cutoff Frequency (Morph X)</span>
+          <input type="range" min="20" max="18000" value="850" class="w-full accent-teal-400">
+          <div class="flex justify-between text-xs font-mono text-zinc-400">
+            <span>20 Hz</span>
+            <span class="text-teal-300 font-bold">850 Hz</span>
+            <span>18 kHz</span>
+          </div>
+        </div>
+        <div class="bg-zinc-950 p-4 rounded border border-zinc-800 flex flex-col gap-2">
+          <span class="text-xs font-bold text-teal-300">Resonance (Morph Y / Q)</span>
+          <input type="range" min="0" max="127" value="84" class="w-full accent-teal-400">
+          <div class="flex justify-between text-xs font-mono text-zinc-400">
+            <span>0 (Flat)</span>
+            <span class="text-teal-300 font-bold">84 (Acoustic Q)</span>
+            <span>127 (Ringing)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 4: LFOS & MODULATION ==================== -->
+    <div id="subview-lfos" class="p-5 flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <h2 class="text-sm font-bold text-rose-400 uppercase tracking-wider">Dual LFOs &amp; Real-time Modulation Matrix (24 Cords)</h2>
+      </div>
+      <div class="grid grid-cols-2 gap-4">
+        <div class="bg-zinc-950 p-4 rounded border border-zinc-800 flex flex-col gap-2">
+          <span class="text-xs font-bold text-rose-300">LFO 1 (Shakuhachi Vibrato)</span>
+          <div class="flex justify-between text-xs font-mono text-zinc-400"><span>Wave:</span><b class="text-white">Sine</b></div>
+          <div class="flex justify-between text-xs font-mono text-zinc-400"><span>Rate:</span><b class="text-white">5.2 Hz</b></div>
+          <div class="flex justify-between text-xs font-mono text-zinc-400"><span>Target:</span><b class="text-rose-400">Fine Pitch (+18 Cents)</b></div>
+        </div>
+        <div class="bg-zinc-950 p-4 rounded border border-zinc-800 flex flex-col gap-2">
+          <span class="text-xs font-bold text-rose-300">LFO 2 (Ethnic Formant Tremolo)</span>
+          <div class="flex justify-between text-xs font-mono text-zinc-400"><span>Wave:</span><b class="text-white">Triangle</b></div>
+          <div class="flex justify-between text-xs font-mono text-zinc-400"><span>Rate:</span><b class="text-white">3.6 Hz</b></div>
+          <div class="flex justify-between text-xs font-mono text-zinc-400"><span>Target:</span><b class="text-rose-400">Filter Morph (+45)</b></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 5: SUPERBEATS ARPEGGIATOR ==================== -->
+    <div id="subview-arpeggiator" class="p-5 flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <div>
+          <h2 class="text-sm font-bold text-yellow-400 uppercase tracking-wider">SuperBEATS World Rhythm &amp; Polyphonic Arpeggiator</h2>
+          <p class="text-xs text-zinc-400">Multi-channel rhythmic sequencer with interactive world loops and ethnic time signatures.</p>
+        </div>
+        <button onclick="playWorldGrooveDemo()" class="px-3 py-1 bg-yellow-600 hover:bg-yellow-500 text-black font-bold text-xs rounded shadow flex items-center gap-1.5 cursor-pointer">
+          <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          Audition Groove
+        </button>
+      </div>
+      <div class="grid grid-cols-4 gap-3">
+        <div class="bg-zinc-950 p-3 rounded border border-zinc-800 flex flex-col justify-between h-20">
+          <span class="text-xs font-bold text-yellow-300">01: Silk Road Caravan</span>
+          <span class="text-[10px] text-zinc-400 font-mono">BPM: 104 &bull; 7/8 Balkan Meter</span>
+        </div>
+        <div class="bg-zinc-950 p-3 rounded border border-zinc-800 flex flex-col justify-between h-20">
+          <span class="text-xs font-bold text-yellow-300">02: Saharan Djembe Polyrhythm</span>
+          <span class="text-[10px] text-zinc-400 font-mono">BPM: 118 &bull; 12/8 West African</span>
+        </div>
+        <div class="bg-zinc-950 p-3 rounded border border-zinc-800 flex flex-col justify-between h-20">
+          <span class="text-xs font-bold text-yellow-300">03: Celtic Reel &amp; Jig</span>
+          <span class="text-[10px] text-zinc-400 font-mono">BPM: 128 &bull; 6/8 Irish Compound</span>
+        </div>
+        <div class="bg-zinc-950 p-3 rounded border border-zinc-800 flex flex-col justify-between h-20">
+          <span class="text-xs font-bold text-yellow-300">04: Indonesian Gamelan Wave</span>
+          <span class="text-[10px] text-zinc-400 font-mono">BPM: 96 &bull; Colotomic Gong Cycle</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 6: GLOBAL EDITOR ==================== -->
+    <div id="subview-global" class="p-5 flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <span class="text-xs uppercase font-bold tracking-widest text-blue-400 font-mono">Planet Earth Master &amp; Global Parameters</span>
+      </div>
+      <div class="grid grid-cols-3 gap-4">
+        <div class="bg-zinc-950 p-4 rounded border border-zinc-800 flex flex-col gap-2">
+          <span class="text-xs font-bold text-blue-300">Master Tuning</span>
+          <span class="text-xs font-mono text-zinc-400">A = 440.0 Hz (+00 Cents)</span>
+        </div>
+        <div class="bg-zinc-950 p-4 rounded border border-zinc-800 flex flex-col gap-2">
+          <span class="text-xs font-bold text-blue-300">SysEx Device ID</span>
+          <span class="text-xs font-mono text-zinc-400">ID 0x05 (Planet Earth Sub-Model)</span>
+        </div>
+        <div class="bg-zinc-950 p-4 rounded border border-zinc-800 flex flex-col gap-2">
+          <span class="text-xs font-bold text-blue-300">MIDI Mode</span>
+          <span class="text-xs font-mono text-zinc-400">MultiMode (16 Channels)</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 7: PRESET MAP ==================== -->
+    <div id="subview-progmap" class="p-5 flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <span class="text-xs uppercase font-bold tracking-widest text-indigo-400 font-mono">MIDI Program Change Remapping Table</span>
+      </div>
+      <div class="grid grid-cols-4 gap-2 text-xs font-mono">
+        <div class="bg-zinc-950 p-2 rounded border border-zinc-800 flex justify-between"><span>PG 000</span><span class="text-indigo-400 font-bold">0000 Silk Road</span></div>
+        <div class="bg-zinc-950 p-2 rounded border border-zinc-800 flex justify-between"><span>PG 001</span><span class="text-indigo-400 font-bold">0001 Shakuhachi</span></div>
+        <div class="bg-zinc-950 p-2 rounded border border-zinc-800 flex justify-between"><span>PG 002</span><span class="text-indigo-400 font-bold">0002 Koto Pluck</span></div>
+        <div class="bg-zinc-950 p-2 rounded border border-zinc-800 flex justify-between"><span>PG 003</span><span class="text-indigo-400 font-bold">0003 Sitar Drone</span></div>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 8: MULTIMODE (16 CHANNELS) ==================== -->
+    <div id="subview-multimode" class="p-5 flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <span class="text-xs uppercase font-bold tracking-widest text-emerald-400 font-mono">16-Channel World Orchestra MultiMode Setup</span>
+      </div>
+      <div class="overflow-x-auto">
+        <table class="w-full text-left text-xs font-mono">
+          <thead class="bg-zinc-950 text-zinc-400 border-b border-zinc-800 text-[10px] uppercase">
+            <tr>
+              <th class="py-2 px-3">Ch</th>
+              <th class="py-2 px-3">Preset Assignment</th>
+              <th class="py-2 px-3">Bank</th>
+              <th class="py-2 px-3">Vol</th>
+              <th class="py-2 px-3">Pan</th>
+              <th class="py-2 px-3">Sub-Mix</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-zinc-800/60 text-zinc-300">
+            <tr class="bg-teal-950/20">
+              <td class="py-2 px-3 font-bold text-teal-400">01</td>
+              <td class="py-2 px-3 font-semibold text-white">C01 V127 P00 A:P  TeCnO</td>
+              <td class="py-2 px-3 text-zinc-400">User 0</td>
+              <td class="py-2 px-3">127</td>
+              <td class="py-2 px-3">00 (Ctr)</td>
+              <td class="py-2 px-3">Main L/R</td>
+            </tr>
+            <tr>
+              <td class="py-2 px-3 font-bold text-zinc-400">02</td>
+              <td class="py-2 px-3">092² SFX: Granules</td>
+              <td class="py-2 px-3 text-zinc-400">User 0</td>
+              <td class="py-2 px-3">118</td>
+              <td class="py-2 px-3">L14</td>
+              <td class="py-2 px-3 text-cyan-400">Sub 1</td>
+            </tr>
+            <tr>
+              <td class="py-2 px-3 font-bold text-zinc-400">03</td>
+              <td class="py-2 px-3">0002 Koto Plucked Silk</td>
+              <td class="py-2 px-3 text-zinc-400">ROM 0</td>
+              <td class="py-2 px-3">122</td>
+              <td class="py-2 px-3">R18</td>
+              <td class="py-2 px-3">Main L/R</td>
+            </tr>
+            <tr>
+              <td class="py-2 px-3 font-bold text-zinc-400">10</td>
+              <td class="py-2 px-3 font-semibold text-yellow-300">0005 West African Djembe (Percussion)</td>
+              <td class="py-2 px-3 text-zinc-400">ROM 1</td>
+              <td class="py-2 px-3">127</td>
+              <td class="py-2 px-3">00</td>
+              <td class="py-2 px-3">Main L/R</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- ==================== TAB 9: BANK LIBRARIAN (1,024 PRESETS) ==================== -->
+    <div id="subview-librarian" class="p-5 flex-col gap-4 hidden">
+      <div class="flex items-center justify-between border-b border-zinc-800 pb-3">
+        <div>
+          <h2 class="text-sm font-bold text-orange-400 uppercase tracking-wider">1,024 Preset Bank Librarian &amp; SysEx Explorer</h2>
+          <p class="text-xs text-zinc-400">Manage 512 User RAM + 512 Factory ROM Presets across 8 World Expeditions.</p>
+        </div>
+      </div>
+      <div class="grid grid-cols-4 gap-2 max-h-56 overflow-y-auto pr-1 text-xs font-mono">
+        <div onclick="loadPlanetEarthPreset(0)" class="p-2 rounded bg-teal-950/40 border border-teal-600/60 text-teal-200 flex justify-between cursor-pointer"><span>0000 Silk Road</span><span class="text-zinc-400">User 0</span></div>
+        <div onclick="loadPlanetEarthPreset(1)" class="p-2 rounded bg-zinc-950 hover:bg-zinc-800 text-zinc-300 flex justify-between cursor-pointer"><span>0001 Shakuhachi</span><span class="text-zinc-400">User 0</span></div>
+        <div onclick="loadPlanetEarthPreset(2)" class="p-2 rounded bg-zinc-950 hover:bg-zinc-800 text-zinc-300 flex justify-between cursor-pointer"><span>0002 Koto Pluck</span><span class="text-zinc-400">ROM 0</span></div>
+        <div onclick="loadPlanetEarthPreset(3)" class="p-2 rounded bg-zinc-950 hover:bg-zinc-800 text-zinc-300 flex justify-between cursor-pointer"><span>0003 Sitar Drone</span><span class="text-zinc-400">ROM 0</span></div>
+        <div onclick="loadPlanetEarthPreset(4)" class="p-2 rounded bg-zinc-950 hover:bg-zinc-800 text-zinc-300 flex justify-between cursor-pointer"><span>0004 Kalimba</span><span class="text-zinc-400">ROM 1</span></div>
+        <div onclick="loadPlanetEarthPreset(5)" class="p-2 rounded bg-zinc-950 hover:bg-zinc-800 text-zinc-300 flex justify-between cursor-pointer"><span>0005 Djembe</span><span class="text-zinc-400">ROM 1</span></div>
+        <div onclick="loadPlanetEarthPreset(6)" class="p-2 rounded bg-zinc-950 hover:bg-zinc-800 text-zinc-300 flex justify-between cursor-pointer"><span>0006 Didgeridoo</span><span class="text-zinc-400">ROM 2</span></div>
+        <div onclick="loadPlanetEarthPreset(7)" class="p-2 rounded bg-zinc-950 hover:bg-zinc-800 text-zinc-300 flex justify-between cursor-pointer"><span>0007 Gamelan</span><span class="text-zinc-400">ROM 2</span></div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- LIVE HARDWARE SYSEX STREAM MONITOR -->
+  <div class="w-full max-w-6xl mt-3 flex items-center justify-between text-xs font-mono text-zinc-500 px-2">
+    <div class="flex items-center gap-2">
+      <div class="w-2 h-2 rounded-full bg-teal-400 animate-ping"></div>
+      <span class="text-zinc-400 uppercase text-[10px] tracking-wider font-bold">E-MU Planet Earth SysEx Out:</span>
+      <span id="sysex-display" class="text-teal-300 font-bold">F0 18 0F 00 05 01 00 00 00 F7 (Preset: C01 V127 P00 A:P  TeCnO)</span>
+    </div>
+    <div class="flex items-center gap-4 text-[11px]">
+      <span>Latency: <b class="text-emerald-400">0.2ms</b></span>
+      <span>Engine: <b class="text-teal-400">Planet Earth DSP (World Expedition)</b></span>
+    </div>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- WEB AUDIO SYNTHESIS & INTERACTIVE LOGIC                                  -->
+  <!-- ========================================================================= -->
+  <script>
+    let audioCtx = null;
+    let masterVolume = 0.85;
+    let currentPresetIdx = 0;
+    let currentModeRow = 0; // 0: A-D, 1: E-H, 2: I-L
+    let isPowered = true;
+    let dataWheelAngle = 0;
+
+    const orbitPresets = [
+      { name: "0000 BEAT:Rob's Acid 303", cat: "ACID BASS", rom: "BEAT GARDEN", cutoff: 95, res: 110, shape: 80, image: 60 },
+      { name: "0001 TECH:Reese Sub Bass", cat: "SUB SYNTH", rom: "TECHNO YARD", cutoff: 65, res: 40, shape: 75, image: 90 },
+      { name: "0002 RAVE:Trance Supersaw", cat: "SYNTH PAD", rom: "BEAT GARDEN", cutoff: 105, res: 35, shape: 90, image: 115 },
+      { name: "0003 BEAT:Amen Break Slice", cat: "BREAKBEAT", rom: "BEAT GARDEN", cutoff: 115, res: 50, shape: 60, image: 70 },
+      { name: "0004 TECH:Industrial Stab", cat: "RAVE CHORD", rom: "TECHNO YARD", cutoff: 100, res: 85, shape: 70, image: 80 },
+      { name: "0005 BEAT:Gated Electro Chord", cat: "GATED SYNTH", rom: "BEAT GARDEN", cutoff: 90, res: 65, shape: 110, image: 85 },
+      { name: "0006 TECH:Hardstyle 909 Kick", cat: "ANALOG DRUM", rom: "TECHNO YARD", cutoff: 120, res: 95, shape: 85, image: 50 },
+      { name: "0007 BEAT:Cyber Vocoder Hook", cat: "VOCODER FX", rom: "BEAT GARDEN", cutoff: 85, res: 75, shape: 95, image: 95 }
+    ];
+
+    let currentPresetIdx = 0;
+    let masterVolume = 0.85;
+    let audioCtx = null;
+    let isGroovePlaying = false;
+
+    function initAudio() {
+      if (!audioCtx) {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      }
+      if (audioCtx.state === 'suspended') {
+        audioCtx.resume();
+      }
+    }
+
+    function loadOrbit3Preset(idx) {
+      idx = parseInt(idx, 10);
+      if (idx < 0 || idx >= orbitPresets.length) return;
+      currentPresetIdx = idx;
+      const p = orbitPresets[idx];
+
+      const l1 = document.getElementById('pe-lcd-line1');
+      const l2 = document.getElementById('pe-lcd-line2');
+      if (l1) l1.innerText = p.name;
+      if (l2) l2.innerText = `${p.cat} • ${p.rom}`;
+
+      const sel = document.getElementById('preset-selector');
+      if (sel) sel.value = idx.toString();
+
+      // Trigger SysEx feedback packet
+      sendSysExPacket([0xF0, 0x18, 0x09, 0x00, 0x01, idx, 0xF7]);
+      playOrbit3InstrumentByIndex(idx);
+    }
+
+    function peCursorBump(dir) {
+      let next = currentPresetIdx + dir;
+      if (next < 0) next = orbitPresets.length - 1;
+      if (next >= orbitPresets.length) next = 0;
+      loadOrbit3Preset(next);
+    }
+
+    function handleDataWheel(e) {
+      e.preventDefault();
+      const dir = e.deltaY < 0 ? 1 : -1;
+      peCursorBump(dir);
+      const wheel = document.getElementById('data-wheel');
+      if (wheel) {
+        const currentRot = wheel.dataset.rot ? parseFloat(wheel.dataset.rot) : 0;
+        const newRot = currentRot + dir * 18;
+        wheel.dataset.rot = newRot;
+        wheel.style.transform = `rotate(${newRot}deg)`;
+      }
+    }
+
+    // Interactive Real-Time Web Audio Electronic Dance Engine
+    function playOrbit3Instrument(type) {
+      initAudio();
+      const now = audioCtx.currentTime;
+
+      if (type === 'acid_303') {
+        // Resonant Roland TB-303 Acid Bassline with screaming filter sweep
+        const osc = audioCtx.createOscillator();
+        const filter = audioCtx.createBiquadFilter();
+        const drive = audioCtx.createGain();
+        const gain = audioCtx.createGain();
+
+        osc.type = 'sawtooth';
+        osc.frequency.setValueAtTime(110, now); // A2
+        osc.frequency.exponentialRampToValueAtTime(55, now + 0.28); // Slide down
+
+        filter.type = 'lowpass';
+        filter.Q.setValueAtTime(16, now); // Screaming resonance
+        filter.frequency.setValueAtTime(4200, now);
+        filter.frequency.exponentialRampToValueAtTime(260, now + 0.32);
+
+        // Saturation drive
+        drive.gain.setValueAtTime(1.4, now);
+        gain.gain.setValueAtTime(0.7 * masterVolume, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.35);
+
+        osc.connect(filter);
+        filter.connect(drive);
+        drive.connect(gain);
+        gain.connect(audioCtx.destination);
+
+        osc.start(now);
+        osc.stop(now + 0.38);
+
+      } else if (type === 'reese_bass') {
+        // Detuned Dual Saw Reese Sub Bass with Stereo Width
+        [55.0, 55.9].forEach((freq, idx) => {
+          const osc = audioCtx.createOscillator();
+          const filter = audioCtx.createBiquadFilter();
+          const pan = audioCtx.createStereoPanner ? audioCtx.createStereoPanner() : null;
+          const gain = audioCtx.createGain();
+
+          osc.type = 'sawtooth';
+          osc.frequency.setValueAtTime(freq, now);
+
+          filter.type = 'lowpass';
+          filter.frequency.setValueAtTime(480, now);
+          filter.Q.setValueAtTime(3.5, now);
+
+          gain.gain.setValueAtTime(0.55 * masterVolume, now);
+          gain.gain.exponentialRampToValueAtTime(0.001, now + 0.85);
+
+          osc.connect(filter);
+          if (pan) {
+            pan.pan.value = idx === 0 ? -0.4 : 0.4;
+            filter.connect(pan);
+            pan.connect(gain);
+          } else {
+            filter.connect(gain);
+          }
+          gain.connect(audioCtx.destination);
+
+          osc.start(now);
+          osc.stop(now + 0.9);
+        });
+
+      } else if (type === 'supersaw') {
+        // 7-Oscillator Stacked Trance Supersaw Pad
+        [-12, -7, -3, 0, 3, 7, 12].forEach(detuneCents => {
+          const osc = audioCtx.createOscillator();
+          const filter = audioCtx.createBiquadFilter();
+          const gain = audioCtx.createGain();
+
+          osc.type = 'sawtooth';
+          osc.frequency.setValueAtTime(220, now); // A3
+          osc.detune.setValueAtTime(detuneCents * 2.5, now);
+
+          filter.type = 'lowpass';
+          filter.frequency.setValueAtTime(900, now);
+          filter.frequency.exponentialRampToValueAtTime(5200, now + 0.45);
+          filter.frequency.exponentialRampToValueAtTime(1400, now + 1.6);
+          filter.Q.setValueAtTime(2.2, now);
+
+          gain.gain.setValueAtTime(0.001, now);
+          gain.gain.linearRampToValueAtTime(0.18 * masterVolume, now + 0.12);
+          gain.gain.exponentialRampToValueAtTime(0.001, now + 1.8);
+
+          osc.connect(filter);
+          filter.connect(gain);
+          gain.connect(audioCtx.destination);
+
+          osc.start(now);
+          osc.stop(now + 1.85);
+        });
+
+      } else if (type === 'amen_break') {
+        // Dynamic Amen Breakbeat Slice
+        triggerDanceDrum('909_kick');
+        setTimeout(() => triggerDanceDrum('909_snare'), 140);
+        setTimeout(() => triggerDanceDrum('909_ch'), 70);
+        setTimeout(() => triggerDanceDrum('909_oh'), 210);
+
+      } else if (type === 'industrial_stab') {
+        // Minor 5th Rave Chord Stab with Plate Reverb Tail
+        [220.0, 261.63, 329.63].forEach((f, idx) => {
+          const osc = audioCtx.createOscillator();
+          const filter = audioCtx.createBiquadFilter();
+          const gain = audioCtx.createGain();
+
+          osc.type = idx === 1 ? 'sawtooth' : 'square';
+          osc.frequency.setValueAtTime(f * 2, now);
+
+          filter.type = 'bandpass';
+          filter.frequency.setValueAtTime(2400, now);
+          filter.Q.setValueAtTime(4.0, now);
+
+          gain.gain.setValueAtTime(0.4 * masterVolume, now);
+          gain.gain.exponentialRampToValueAtTime(0.001, now + 0.55);
+
+          osc.connect(filter);
+          filter.connect(gain);
+          gain.connect(audioCtx.destination);
+
+          osc.start(now);
+          osc.stop(now + 0.6);
+        });
+
+      } else if (type === 'gated_chord') {
+        // Gated 16th-Note Electro Saw Chord
+        [220, 277.18, 329.63].forEach(f => {
+          const osc = audioCtx.createOscillator();
+          const gain = audioCtx.createGain();
+          osc.type = 'sawtooth';
+          osc.frequency.setValueAtTime(f, now);
+
+          // 4 rapid volume gates
+          gain.gain.setValueAtTime(0.45 * masterVolume, now);
+          gain.gain.setValueAtTime(0.001, now + 0.08);
+          gain.gain.setValueAtTime(0.45 * masterVolume, now + 0.12);
+          gain.gain.setValueAtTime(0.001, now + 0.20);
+          gain.gain.setValueAtTime(0.45 * masterVolume, now + 0.24);
+          gain.gain.setValueAtTime(0.001, now + 0.32);
+          gain.gain.setValueAtTime(0.45 * masterVolume, now + 0.36);
+          gain.gain.exponentialRampToValueAtTime(0.001, now + 0.5);
+
+          osc.connect(gain);
+          gain.connect(audioCtx.destination);
+          osc.start(now);
+          osc.stop(now + 0.55);
+        });
+
+      } else if (type === 'hardstyle_909') {
+        triggerDanceDrum('909_kick');
+
+      } else if (type === 'vocoder_hook') {
+        // Robotic Formant Speech Synthesizer
+        [750, 1400, 2800].forEach((f, idx) => {
+          const osc = audioCtx.createOscillator();
+          const filter = audioCtx.createBiquadFilter();
+          const gain = audioCtx.createGain();
+
+          osc.type = 'sawtooth';
+          osc.frequency.setValueAtTime(146.83, now); // D3
+
+          filter.type = 'bandpass';
+          filter.frequency.setValueAtTime(f, now);
+          filter.Q.setValueAtTime(8.0, now);
+
+          gain.gain.setValueAtTime((0.45 / (idx + 1)) * masterVolume, now);
+          gain.gain.exponentialRampToValueAtTime(0.001, now + 0.85);
+
+          osc.connect(filter);
+          filter.connect(gain);
+          gain.connect(audioCtx.destination);
+
+          osc.start(now);
+          osc.stop(now + 0.9);
+        });
+      }
+    }
+
+    function playOrbit3InstrumentByIndex(idx) {
+      const types = ['acid_303', 'reese_bass', 'supersaw', 'amen_break', 'industrial_stab', 'gated_chord', 'hardstyle_909', 'vocoder_hook'];
+      if (idx >= 0 && idx < types.length) {
+        playOrbit3Instrument(types[idx]);
+      }
+    }
+
+    // 909 & Electronic Percussion Synthesis Engine
+    function triggerDanceDrum(type) {
+      initAudio();
+      const now = audioCtx.currentTime;
+
+      if (type === '909_kick') {
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(165, now);
+        osc.frequency.exponentialRampToValueAtTime(45, now + 0.08);
+        gain.gain.setValueAtTime(0.9 * masterVolume, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.42);
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+        osc.start(now);
+        osc.stop(now + 0.45);
+
+        // Click transient
+        const click = audioCtx.createOscillator();
+        const cGain = audioCtx.createGain();
+        click.type = 'triangle';
+        click.frequency.setValueAtTime(950, now);
+        click.frequency.exponentialRampToValueAtTime(120, now + 0.02);
+        cGain.gain.setValueAtTime(0.4 * masterVolume, now);
+        cGain.gain.exponentialRampToValueAtTime(0.001, now + 0.03);
+        click.connect(cGain);
+        cGain.connect(audioCtx.destination);
+        click.start(now);
+        click.stop(now + 0.04);
+
+      } else if (type === '909_snare') {
+        const osc = audioCtx.createOscillator();
+        const oGain = audioCtx.createGain();
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(220, now);
+        osc.frequency.exponentialRampToValueAtTime(160, now + 0.07);
+        oGain.gain.setValueAtTime(0.4 * masterVolume, now);
+        oGain.gain.exponentialRampToValueAtTime(0.001, now + 0.15);
+        osc.connect(oGain);
+        oGain.connect(audioCtx.destination);
+        osc.start(now);
+        osc.stop(now + 0.16);
+
+        // Snare Noise
+        const bufferSize = audioCtx.sampleRate * 0.22;
+        const buffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
+        const data = buffer.getChannelData(0);
+        for (let i = 0; i < bufferSize; i++) data[i] = Math.random() * 2 - 1;
+        const noise = audioCtx.createBufferSource();
+        noise.buffer = buffer;
+        const filt = audioCtx.createBiquadFilter();
+        filt.type = 'highpass';
+        filt.frequency.setValueAtTime(1200, now);
+        const nGain = audioCtx.createGain();
+        nGain.gain.setValueAtTime(0.55 * masterVolume, now);
+        nGain.gain.exponentialRampToValueAtTime(0.001, now + 0.22);
+        noise.connect(filt);
+        filt.connect(nGain);
+        nGain.connect(audioCtx.destination);
+        noise.start(now);
+
+      } else if (type === '909_ch') {
+        const bufferSize = audioCtx.sampleRate * 0.05;
+        const buffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
+        const data = buffer.getChannelData(0);
+        for (let i = 0; i < bufferSize; i++) data[i] = Math.random() * 2 - 1;
+        const noise = audioCtx.createBufferSource();
+        noise.buffer = buffer;
+        const filt = audioCtx.createBiquadFilter();
+        filt.type = 'highpass';
+        filt.frequency.setValueAtTime(7500, now);
+        const g = audioCtx.createGain();
+        g.gain.setValueAtTime(0.35 * masterVolume, now);
+        g.gain.exponentialRampToValueAtTime(0.001, now + 0.05);
+        noise.connect(filt);
+        filt.connect(g);
+        g.connect(audioCtx.destination);
+        noise.start(now);
+
+      } else if (type === '909_oh') {
+        const bufferSize = audioCtx.sampleRate * 0.35;
+        const buffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
+        const data = buffer.getChannelData(0);
+        for (let i = 0; i < bufferSize; i++) data[i] = Math.random() * 2 - 1;
+        const noise = audioCtx.createBufferSource();
+        noise.buffer = buffer;
+        const filt = audioCtx.createBiquadFilter();
+        filt.type = 'highpass';
+        filt.frequency.setValueAtTime(6500, now);
+        const g = audioCtx.createGain();
+        g.gain.setValueAtTime(0.45 * masterVolume, now);
+        g.gain.exponentialRampToValueAtTime(0.001, now + 0.35);
+        noise.connect(filt);
+        filt.connect(g);
+        g.connect(audioCtx.destination);
+        noise.start(now);
+
+      } else if (type === 'techno_clap') {
+        // Triple Burst Handclap
+        [0, 0.015, 0.03].forEach(offset => {
+          const bufferSize = audioCtx.sampleRate * 0.12;
+          const buffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
+          const data = buffer.getChannelData(0);
+          for (let i = 0; i < bufferSize; i++) data[i] = Math.random() * 2 - 1;
+          const noise = audioCtx.createBufferSource();
+          noise.buffer = buffer;
+          const filt = audioCtx.createBiquadFilter();
+          filt.type = 'bandpass';
+          filt.frequency.setValueAtTime(1400, now + offset);
+          filt.Q.setValueAtTime(1.5, now + offset);
+          const g = audioCtx.createGain();
+          g.gain.setValueAtTime(0.35 * masterVolume, now + offset);
+          g.gain.exponentialRampToValueAtTime(0.001, now + offset + 0.15);
+          noise.connect(filt);
+          filt.connect(g);
+          g.connect(audioCtx.destination);
+          noise.start(now + offset);
+        });
+
+      } else if (type === 'electro_rim') {
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(840, now);
+        osc.frequency.exponentialRampToValueAtTime(420, now + 0.04);
+        gain.gain.setValueAtTime(0.5 * masterVolume, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.06);
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+        osc.start(now);
+        osc.stop(now + 0.07);
+
+      } else if (type === 'rave_crash') {
+        const bufferSize = audioCtx.sampleRate * 1.5;
+        const buffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
+        const data = buffer.getChannelData(0);
+        for (let i = 0; i < bufferSize; i++) data[i] = Math.random() * 2 - 1;
+        const noise = audioCtx.createBufferSource();
+        noise.buffer = buffer;
+        const filt = audioCtx.createBiquadFilter();
+        filt.type = 'highpass';
+        filt.frequency.setValueAtTime(4000, now);
+        const g = audioCtx.createGain();
+        g.gain.setValueAtTime(0.4 * masterVolume, now);
+        g.gain.exponentialRampToValueAtTime(0.001, now + 1.4);
+        noise.connect(filt);
+        filt.connect(g);
+        g.connect(audioCtx.destination);
+        noise.start(now);
+      }
+    }
+
+    // High-Energy 138 BPM SuperBEATS Electronic Dance Groove Demo
+    function playDanceGrooveDemo() {
+      if (isGroovePlaying) return;
+      initAudio();
+      isGroovePlaying = true;
+      const bpm = 138;
+      const beat = (60 / bpm) * 1000;
+      const step16 = beat / 4;
+
+      const pattern = [
+        // Beat 1
+        { t: 0, drum: '909_kick', inst: 'acid_303' },
+        { t: step16, drum: '909_ch' },
+        { t: step16 * 2, drum: '909_oh' },
+        { t: step16 * 3, drum: '909_ch', inst: 'acid_303' },
+        // Beat 2
+        { t: beat, drum: '909_kick' },
+        { t: beat, drum: 'techno_clap' },
+        { t: beat + step16, drum: '909_ch' },
+        { t: beat + step16 * 2, drum: '909_oh', inst: 'industrial_stab' },
+        { t: beat + step16 * 3, drum: '909_ch' },
+        // Beat 3
+        { t: beat * 2, drum: '909_kick', inst: 'reese_bass' },
+        { t: beat * 2 + step16, drum: '909_ch' },
+        { t: beat * 2 + step16 * 2, drum: '909_oh' },
+        { t: beat * 2 + step16 * 3, drum: '909_ch', inst: 'acid_303' },
+        // Beat 4
+        { t: beat * 3, drum: '909_kick' },
+        { t: beat * 3, drum: 'techno_clap' },
+        { t: beat * 3 + step16, drum: '909_ch' },
+        { t: beat * 3 + step16 * 2, drum: '909_oh', inst: 'gated_chord' },
+        { t: beat * 3 + step16 * 3, drum: 'amen_break' },
+        // Bar 2 Beat 1
+        { t: beat * 4, drum: '909_kick', inst: 'supersaw' },
+        { t: beat * 4 + step16 * 2, drum: '909_oh' },
+        // Bar 2 Beat 2
+        { t: beat * 5, drum: '909_kick' },
+        { t: beat * 5, drum: 'techno_clap' },
+        { t: beat * 5 + step16 * 2, drum: '909_oh', inst: 'vocoder_hook' },
+        // Bar 2 Beat 3
+        { t: beat * 6, drum: '909_kick', inst: 'acid_303' },
+        { t: beat * 6 + step16 * 2, drum: '909_oh' },
+        // Bar 2 Beat 4 (Crash & Fill)
+        { t: beat * 7, drum: '909_kick' },
+        { t: beat * 7, drum: 'techno_clap' },
+        { t: beat * 7 + step16 * 2, drum: 'rave_crash', inst: 'industrial_stab' }
+      ];
+
+      pattern.forEach(step => {
+        setTimeout(() => {
+          if (step.drum) triggerDanceDrum(step.drum);
+          if (step.inst) playOrbit3Instrument(step.inst);
+        }, step.t);
+      });
+
+      setTimeout(() => {
+        isGroovePlaying = false;
+      }, beat * 8 + 500);
+    }
+
+    function auditionPECurrent() {
+      playOrbit3InstrumentByIndex(currentPresetIdx);
+    }
+
+    // Keyboard Shortcuts
+    window.addEventListener('keydown', (e) => {
+      if (e.code === 'Space') {
+        e.preventDefault();
+        playDanceGrooveDemo();
+      } else if (e.code === 'ArrowRight') {
+        peCursorBump(1);
+      } else if (e.code === 'ArrowLeft') {
+        peCursorBump(-1);
+      } else if (e.key === '1') triggerDanceDrum('909_kick');
+      else if (e.key === '2') triggerDanceDrum('909_snare');
+      else if (e.key === '3') triggerDanceDrum('909_ch');
+      else if (e.key === '4') triggerDanceDrum('909_oh');
+      else if (e.key === '5') triggerDanceDrum('techno_clap');
+      else if (e.key === '6') triggerDanceDrum('electro_rim');
+      else if (e.key === '7') triggerDanceDrum('rave_crash');
+      else if (e.key === '8') playOrbit3Instrument('acid_303');
+    });
+  </script>
+</body>
+</html>
