@@ -15,12 +15,12 @@
 
     /* E-MU Orbit-3 Electric Neon Yellow Satin Anodized Metallic 1U Chassis */
     .orb3-faceplate {
-      background: linear-gradient(180deg, #ffe014 0%, #ffd000 35%, #f5ba00 70%, #dca000 100%);
+      background: linear-gradient(180deg, #fff212 0%, #ffea00 35%, #f5d000 70%, #dca000 100%);
       box-shadow: 
-        inset 0 1px 0 rgba(255, 255, 255, 0.55),
+        inset 0 1px 0 rgba(255, 255, 255, 0.65),
         inset 0 -1px 2px rgba(0, 0, 0, 0.8),
         0 12px 30px rgba(0, 0, 0, 0.9);
-      border-top: 1px solid #fff58a;
+      border-top: 1px solid #fffb8a;
       border-bottom: 2px solid #573e00;
     }
 
@@ -55,13 +55,13 @@
 
     /* 2x24 Green Alphanumeric LCD */
     .pe-lcd {
-      background: radial-gradient(ellipse at center, #1b3820 0%, #0d2011 75%, #061108 100%);
-      border: 1px solid #14401a;
-      box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.95);
+      background: radial-gradient(ellipse at center, #026635 0%, #03522c 75%, #01381c 100%);
+      border: 1px solid #047342;
+      box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.95), 0 0 12px rgba(2, 102, 53, 0.35);
     }
     .lcd-green-text {
-      color: #64f77c;
-      text-shadow: 0 0 6px rgba(100, 247, 124, 0.65), 0 0 1px #a3f7b0;
+      color: #79f7a4;
+      text-shadow: 0 0 6px rgba(121, 247, 164, 0.65), 0 0 1px #a3f7b0;
     }
 
     /* Fluted Black Knobs with Crisp White Indicator Line */
@@ -267,12 +267,16 @@
     <!-- HARDWARE STAMPED CONTOUR RELIEF LINES (Authentic E-MU Orbit-3 Chassis Specification) -->
     <svg style="position: absolute; top: 0; left: 0; width: 1152px; height: 116px; pointer-events: none; z-index: 1;" viewBox="0 0 1152 116" preserveAspectRatio="none">
       <!-- Left side embossed groove with concentric semi-circular collars over Knobs 1..4 -->
-      <path d="M 0,40 L 45,40 Q 60,54 71,54 Q 84,54 96,48 Q 112,44 126,50 Q 147,42 165,52 Q 174,56 184,62 A 21 21 0 0 1 226 62 L 242 62 A 21 21 0 0 1 284 62 L 300 62 A 21 21 0 0 1 342 62 L 358 62 A 21 21 0 0 1 400 62 L 433,62" fill="none" stroke="#5c4300" stroke-width="1.8" />
-      <path d="M 0,41 L 45,41 Q 60,55 71,55 Q 84,55 96,49 Q 112,45 126,51 Q 147,43 165,53 Q 174,57 184,63 A 21 21 0 0 1 226 63 L 242 63 A 21 21 0 0 1 284 63 L 300 63 A 21 21 0 0 1 342 63 L 358 63 A 21 21 0 0 1 400 63 L 433,63" fill="none" stroke="#fffca8" stroke-width="0.8" opacity="0.85" />
+      <path d="M 0,40 L 45,40 Q 60,54 71,54 Q 84,54 96,48 Q 112,44 126,50 Q 147,42 165,52 Q 174,56 184,62 A 21 21 0 0 1 226 62 L 242 62 A 21 21 0 0 1 284 62 L 300 62 A 21 21 0 0 1 342 62 L 358 62 A 21 21 0 0 1 400 62 L 428,62" fill="none" stroke="#5c4300" stroke-width="1.8" />
+      <path d="M 0,41 L 45,41 Q 60,55 71,55 Q 84,55 96,49 Q 112,45 126,51 Q 147,43 165,53 Q 174,57 184,63 A 21 21 0 0 1 226 63 L 242 63 A 21 21 0 0 1 284 63 L 300 63 A 21 21 0 0 1 342 63 L 358 63 A 21 21 0 0 1 400 63 L 428,63" fill="none" stroke="#fffca8" stroke-width="0.8" opacity="0.85" />
 
-      <!-- Right side continuous dividing line between button rows and around DATA wheel -->
-      <path d="M 718,62 L 888,64 Q 902,65 908,70 Q 914,75 920,84 L 950,84 Q 960,78 966,70 Q 972,64 980,64 L 1152,64" fill="none" stroke="#5c4300" stroke-width="1.6" />
-      <path d="M 718,63 L 888,65 Q 902,66 908,71 Q 914,76 920,85 L 950,85 Q 960,79 966,71 Q 972,65 980,65 L 1152,65" fill="none" stroke="#fffca8" stroke-width="0.8" opacity="0.85" />
+      <!-- Right side straight dividing line through middle (exits bezel, passes under DEMOS, terminates at DATA wheel rim) -->
+      <path d="M 740,60 L 962,65" fill="none" stroke="#5c4300" stroke-width="1.6" />
+      <path d="M 740,61 L 962,66" fill="none" stroke="#fffca8" stroke-width="0.8" opacity="0.85" />
+
+      <!-- Right side dividing line from DATA wheel through POWER button to right ear -->
+      <path d="M 1038,66 L 1052,69 M 1076,71 L 1105,73" fill="none" stroke="#5c4300" stroke-width="1.6" />
+      <path d="M 1038,67 L 1052,70 M 1076,72 L 1105,74" fill="none" stroke="#fffca8" stroke-width="0.8" opacity="0.85" />
     </svg>
 
     <!-- LEFT RACK EAR (Black with 2 Oval Mounting Holes) -->
@@ -432,47 +436,43 @@
       <!-- 2x24 Character Alphanumeric Green LCD -->
       <div class="pe-lcd w-[252px] h-[38px] px-2.5 py-1 rounded-xs flex flex-col justify-between font-lcd">
         <div class="flex items-center justify-between text-xs font-bold lcd-green-text tracking-widest leading-none">
-          <span id="pe-lcd-line1" class="truncate pr-1">C01 V127 P00 A:P  TeCnO</span>
+          <span id="pe-lcd-line1" class="truncate pr-1">C01A V127 P00 AtoffTeCnO</span>
           <span class="text-[9.5px] bg-[#64f77c]/20 px-1 rounded font-mono shrink-0">128-VOICE</span>
         </div>
         <div class="flex items-center justify-between text-[11px] font-semibold lcd-green-text tracking-wider leading-none">
-          <span id="pe-lcd-line2" class="truncate pr-1">092² SFX: Granules</span>
+          <span id="pe-lcd-line2" class="truncate pr-1">010² tec:Kraft Kord</span>
           <span class="text-[9.5px] text-[#64f77c]/80 font-mono shrink-0">64MB ROM</span>
         </div>
       </div>
 
       <!-- Bottom Badge: Orbit-3 with Red Planetary Orbit Ring slicing through O -->
-      <div class="relative flex items-center justify-center my-0.5">
-        <div class="relative flex items-center drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)]">
-          <!-- Stylized O with Red Orbit Ring -->
-          <div class="relative flex items-center justify-center mr-0.5">
-            <svg class="w-7 h-5" viewBox="0 0 28 20">
-              <!-- Red Elliptical Orbit Ring tilted 25 degrees -->
-              <ellipse cx="14" cy="10" rx="12" ry="4.5" fill="none" stroke="#ef4444" stroke-width="2.2" transform="rotate(-25 14 10)" />
-              <!-- Bold Yellow Capital O -->
-              <text x="14" y="14.5" fill="#facc15" font-family="'Cinzel', 'Inter', sans-serif" font-size="13" font-weight="900" text-anchor="middle">O</text>
-            </svg>
-          </div>
-          <span class="font-brand text-[13px] font-black tracking-[0.08em] text-[#facc15] leading-none">rbit-3</span>
-        </div>
+      <div class="relative flex items-center justify-center my-0.5 select-none pointer-events-none">
+        <svg width="150" height="26" viewBox="0 0 150 26">
+          <!-- Back half of red orbit ring -->
+          <ellipse cx="14" cy="12.5" rx="13.5" ry="4.6" fill="none" stroke="#dc2626" stroke-width="2.4" transform="rotate(-32 14 12.5)" />
+          <!-- White text Orbit-3 in bold techno sans -->
+          <text x="0" y="19" fill="#ffffff" font-family="'DejaVu Sans', -apple-system, sans-serif" font-size="20" font-weight="900" letter-spacing="-0.02em" style="text-shadow: 0 1px 2px rgba(0,0,0,0.9);">Orbit-3</text>
+          <!-- Front red orbit ring slice cutting across O -->
+          <path d="M 4,17.2 L 21,7.8" fill="none" stroke="#ef4444" stroke-width="2.5" stroke-linecap="round" />
+        </svg>
       </div>
 
     </div>
 
     <!-- RIGHT SECTION: 8 BUTTON MATRIX, DEMOS BRACKET, DATA WHEEL, POWER, E-MU LOGO -->
-    <div class="flex items-center gap-3.5 pr-6 z-10">
+    <div class="flex items-center gap-3 pr-5 z-10">
       
-      <!-- 8-Button Tactile Pushbutton Matrix (4 Uniform Columns w-[36px], pitch 46px, h-[82px]) -->
-      <div class="relative flex items-center gap-2.5 h-[82px] py-0.5">
+      <!-- 8-Button Tactile Pushbutton Matrix (4 Uniform Columns w-[36px], pitch 44px, h-[84px]) -->
+      <div class="relative flex items-center gap-2 h-[84px] py-0.5">
         
-        <!-- Precision SVG DEMOS Bracket connecting bottom centers of MASTER (x=18) & EDIT (x=64) -->
-        <svg class="absolute top-[36px] left-0 pointer-events-none" width="82" height="14" viewBox="0 0 82 14">
+        <!-- Precision SVG DEMOS Bracket connecting bottom centers of MASTER (x=18) & EDIT (x=62) -->
+        <svg class="absolute top-[35px] left-0 pointer-events-none" width="80" height="14" viewBox="0 0 80 14">
           <!-- Left hook under MASTER button center (x=18) -->
-          <path d="M 18,0 L 18,5 L 27,5" fill="none" stroke="#c2410c" stroke-width="1.2" stroke-linecap="square" />
-          <!-- Centered DEMOS text at x=41 in Gold Silkscreen -->
-          <text x="41" y="7.5" fill="#c2410c" font-family="'Inter', sans-serif" font-size="6.5" font-weight="800" text-anchor="middle" letter-spacing="0.06em">DEMOS</text>
-          <!-- Right hook under EDIT button center (x=64) -->
-          <path d="M 55,5 L 64,5 L 64,0" fill="none" stroke="#c2410c" stroke-width="1.2" stroke-linecap="square" />
+          <path d="M 18,0 L 18,5 L 26,5" fill="none" stroke="#ea580c" stroke-width="1.3" stroke-linecap="square" />
+          <!-- Centered DEMOS text at x=40 in Fiery Orange Silkscreen -->
+          <text x="40" y="7.5" fill="#ea580c" font-family="'DejaVu Sans', sans-serif" font-size="6.5" font-weight="900" text-anchor="middle" letter-spacing="0.08em">DEMOS</text>
+          <!-- Right hook under EDIT button center (x=62) -->
+          <path d="M 54,5 L 62,5 L 62,0" fill="none" stroke="#ea580c" stroke-width="1.3" stroke-linecap="square" />
         </svg>
 
         <!-- Column 1: MASTER / (Top) & AUDITION / (Bottom) -->
@@ -485,7 +485,7 @@
               <div id="led-master" class="led-dot led-red-on absolute -right-2 top-1.5"></div>
             </div>
           </div>
-          <div class="h-[9px] w-full"></div>
+          <div class="h-[10px] w-full"></div>
           <!-- AUDITION / -->
           <div class="flex flex-col items-center w-full">
             <div class="relative flex items-center justify-center">
@@ -506,7 +506,7 @@
               <div id="led-edit" class="led-dot led-off absolute -right-2 top-1.5"></div>
             </div>
           </div>
-          <div class="h-[9px] w-full"></div>
+          <div class="h-[10px] w-full"></div>
           <!-- ARP/BEATS / -->
           <div class="flex flex-col items-center w-full">
             <div class="relative flex items-center justify-center">
@@ -517,14 +517,16 @@
           </div>
         </div>
 
-        <!-- Column 3: < (Cursor Left) & SAVE/COPY / (Bottom) -->
+        <!-- Column 3: < (Cursor Left with Sunken Well Collar) & SAVE/COPY / (Bottom) -->
         <div class="flex flex-col items-center justify-between h-full w-[36px]">
           <!-- Cursor Left < -->
           <div class="flex flex-col items-center w-full">
             <div class="h-[11px] w-full"></div>
-            <button onclick="peCursorBump(-1)" class="pe-btn-round font-bold text-[10px] text-zinc-300" title="Cursor Left">&lt;</button>
+            <div class="w-[28px] h-[28px] rounded-full bg-zinc-950/20 border border-zinc-900/30 flex items-center justify-center shadow-inner">
+              <button onclick="peCursorBump(-1)" class="pe-btn-round font-black text-[11px] text-zinc-100 flex items-center justify-center" title="Cursor Left">&lt;</button>
+            </div>
           </div>
-          <div class="h-[9px] w-full"></div>
+          <div class="h-[10px] w-full"></div>
           <!-- SAVE/COPY / -->
           <div class="flex flex-col items-center w-full">
             <div class="relative flex items-center justify-center">
@@ -535,14 +537,16 @@
           </div>
         </div>
 
-        <!-- Column 4: > (Cursor Right) & HOME/ENTER / (Bottom) -->
+        <!-- Column 4: > (Cursor Right with Sunken Well Collar) & HOME/ENTER / (Bottom) -->
         <div class="flex flex-col items-center justify-between h-full w-[36px]">
           <!-- Cursor Right > -->
           <div class="flex flex-col items-center w-full">
             <div class="h-[11px] w-full"></div>
-            <button onclick="peCursorBump(1)" class="pe-btn-round font-bold text-[10px] text-zinc-300" title="Cursor Right">&gt;</button>
+            <div class="w-[28px] h-[28px] rounded-full bg-zinc-950/20 border border-zinc-900/30 flex items-center justify-center shadow-inner">
+              <button onclick="peCursorBump(1)" class="pe-btn-round font-black text-[11px] text-zinc-100 flex items-center justify-center" title="Cursor Right">&gt;</button>
+            </div>
           </div>
-          <div class="h-[9px] w-full"></div>
+          <div class="h-[10px] w-full"></div>
           <!-- HOME/ENTER / -->
           <div class="flex flex-col items-center w-full">
             <div class="relative flex items-center justify-center">
@@ -555,41 +559,48 @@
 
       </div>
 
-      <!-- / [LED] MIDI Indicator -->
-      <div class="flex items-center gap-1 text-[8px] font-bold text-zinc-400 pl-0.5">
-        <span class="slash-orange text-[9px] leading-none">/</span>
-        <div id="led-midi" class="led-dot led-green-on animate-pulse"></div>
-        <span class="silkscreen-orb3 text-[7.5px] leading-none">MIDI</span>
-      </div>
-
-      <!-- DATA Jog Wheel -->
-      <div class="pe-data-wheel" id="data-wheel" onwheel="handleDataWheel(event)" title="Rotate Data Wheel (or Scroll with Mouse)">
+      <!-- DATA Jog Wheel (Immediately to the right of buttons, aligned with dividing line) -->
+      <div class="pe-data-wheel shrink-0" id="data-wheel" onwheel="handleDataWheel(event)" title="Rotate Data Wheel (or Scroll with Mouse)">
         <div class="pe-wheel-dimple"></div>
       </div>
 
-      <!-- Pushbutton Power Switch -->
-      <div class="flex flex-col items-center justify-center gap-1 pl-1">
-        <div class="w-7 h-7 rounded-full bg-zinc-900 border border-zinc-700 flex items-center justify-center shadow-inner">
-          <button onclick="togglePower()" class="w-4.5 h-4.5 rounded-full bg-zinc-800 border border-zinc-600 shadow-md flex items-center justify-center active:scale-95 cursor-pointer">
+      <!-- Right Sub-cluster: E-MU Logo (Top), Power Button (Middle), / MIDI & POWER Label (Bottom) -->
+      <div class="flex flex-col items-center justify-between h-[86px] w-[75px] py-1 select-none shrink-0 relative">
+        
+        <!-- Authentic Horizontal E-MU Logo: 3 Bars Left, E-MU Right -->
+        <div class="flex items-center gap-1.5 select-none pointer-events-none mt-0.5">
+          <div class="flex flex-col gap-[2px]">
+            <div class="w-3.5 h-[2px] bg-zinc-950 rounded-xs shadow-xs"></div>
+            <div class="w-3.5 h-[2px] bg-zinc-950 rounded-xs shadow-xs"></div>
+            <div class="w-3.5 h-[2px] bg-zinc-950 rounded-xs shadow-xs"></div>
+          </div>
+          <span class="text-zinc-950 font-black text-sm tracking-wider font-sans leading-none drop-shadow-[0_0.5px_0.5px_rgba(255,255,255,0.6)]">E-MU</span>
+        </div>
+
+        <!-- Pushbutton Power Switch -->
+        <div class="w-7 h-7 rounded-full bg-zinc-900 border border-zinc-700 flex items-center justify-center shadow-inner my-auto">
+          <button onclick="togglePower()" class="w-4.5 h-4.5 rounded-full bg-zinc-800 border border-zinc-600 shadow-md flex items-center justify-center active:scale-95 cursor-pointer" title="Toggle Power Switch">
             <div class="w-2 h-2 rounded-full bg-zinc-700"></div>
           </button>
         </div>
-        <span class="silkscreen-orb3 text-[6.5px] leading-none tracking-widest">POWER</span>
+
+        <!-- Lower Row: / MIDI Indicator and POWER Label -->
+        <div class="flex items-center justify-between w-full px-0.5 mb-0.5">
+          <!-- / [LED] MIDI Indicator -->
+          <div class="flex items-center gap-0.5 text-[7px] font-bold">
+            <span class="slash-orange text-[8px] leading-none">/</span>
+            <div id="led-midi" class="led-dot led-green-on animate-pulse"></div>
+            <span class="silkscreen-orb3 text-[6.5px] leading-none">MIDI</span>
+          </div>
+          <!-- POWER Silkscreen -->
+          <span class="silkscreen-orb3 text-[6.5px] leading-none tracking-widest">POWER</span>
+        </div>
+
       </div>
 
       <!-- Hex Bolt on Right Edge -->
-      <div class="w-2 h-2 rounded-full bg-zinc-900 border border-zinc-700 shadow-inner flex items-center justify-center ml-1">
+      <div class="w-2 h-2 rounded-full bg-zinc-900 border border-zinc-700 shadow-inner flex items-center justify-center">
         <div class="w-1 h-1 bg-zinc-950"></div>
-      </div>
-
-      <!-- Authentic Black E-MU Logo with 3 Horizontal Bars -->
-      <div class="flex flex-col items-center justify-center pl-1 select-none pointer-events-none">
-        <span class="text-zinc-950 font-black text-sm tracking-widest leading-none drop-shadow-[0_0.5px_1px_rgba(255,255,255,0.4)]">E-MU</span>
-        <div class="flex flex-col gap-0.5 mt-1">
-          <div class="w-8 h-0.5 bg-zinc-950 shadow-sm"></div>
-          <div class="w-8 h-0.5 bg-zinc-950 shadow-sm"></div>
-          <div class="w-8 h-0.5 bg-zinc-950 shadow-sm"></div>
-        </div>
       </div>
 
     </div>
