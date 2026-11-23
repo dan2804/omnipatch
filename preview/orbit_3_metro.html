@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-MU Orbit-3 — Metro UI Modern Sound Editor (Windows 8 Style)</title>
+  <script src="tailwindcss.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@300;400;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap');
+
+    * {
+      border-radius: 0px !important; /* Strict Windows 8 Metro Principle: Pure Sharp Rectangles */
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+      background-color: #0c0c0d;
+      color: #ffffff;
+      user-select: none;
+    }
+
+    .font-mono-code {
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* Windows 8 Metro Flat Scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #111113;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #2a2a2e;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #3e3e44;
+    }
+
+    /* Metro Flat Tiles */
+    .metro-tile {
+      background: #18181b;
+      border: 1px solid #27272a;
+      transition: background-color 0.1s ease, border-color 0.1s ease;
+    }
+    .metro-tile:hover {
+      border-color: #ffe600;
+    }
+
+    /* Flat Metro Sliders (Zero Bevel, Zero Glow) */
+    input[type=range] {
+      -webkit-appearance: none;
+      background: #27272a;
+      height: 4px;
+      outline: none;
+    }
+    input[type=range]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 14px;
+      height: 24px;
+      background: #ffffff;
+      border: 1px solid #000;
+      cursor: pointer;
+      transition: background-color 0.1s ease;
+    }
+    input[type=range]::-webkit-slider-thumb:hover {
+      background: #ffe600;
+    }
+
+    /* Windows 8 Metro Toggle Switch */
+    .metro-toggle {
+      display: inline-flex;
+      border: 2px solid #52525b;
+      cursor: pointer;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+    }
+    .metro-toggle.active {
+      border-color: #ffe600;
+    }
+    .metro-toggle-btn {
+      padding: 4px 10px;
+      background: transparent;
+      color: #a1a1aa;
+    }
+    .metro-toggle.active .metro-toggle-btn.on {
+      background: #ffe600;
+      color: #000000;
+    }
+    .metro-toggle:not(.active) .metro-toggle-btn.off {
+      background: #52525b;
+      color: #ffffff;
+    }
+
+    /* Metro Flat Buttons */
+    .metro-btn {
+      background: #27272a;
+      color: #ffffff;
+      border: 1px solid #3f3f46;
+      font-weight: 600;
+      font-size: 13px;
+      padding: 8px 16px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: background-color 0.1s ease, border-color 0.1s ease, color 0.1s ease;
+      cursor: pointer;
+    }
+    .metro-btn:hover {
+      background: #ffe600;
+      color: #000000;
+      border-color: #ffe600;
+    }
+    .metro-btn:active {
+      transform: translateY(1px);
+    }
+    .metro-btn-accent {
+      background: #ffe600;
+      color: #000000;
+      border: 1px solid #ffe600;
+    }
+    .metro-btn-accent:hover {
+      background: #fff04d;
+      border-color: #fff04d;
+    }
+    .metro-btn-cobalt {
+      background: #0050ef;
+      color: #ffffff;
+      border: 1px solid #0050ef;
+    }
+    .metro-btn-cobalt:hover {
+      background: #1b65f3;
+      border-color: #1b65f3;
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col bg-[#0b0c0e]">
+
+  <!-- ========================================================================= -->
+  <!-- TOP METRO APP BAR (Clean, Flat, Typographic)                              -->
+  <!-- ========================================================================= -->
+  <header class="bg-[#121316] border-b border-[#222328] px-8 py-3.5 flex items-center justify-between shrink-0">
+    <div class="flex items-center gap-8">
+      
+      <!-- Brand & Synth Header -->
+      <div class="flex items-baseline gap-3">
+        <span class="text-xs font-mono font-bold tracking-widest text-[#ffe600] uppercase">E-MU SYSTEMS</span>
+        <h1 class="text-2xl font-light tracking-wide text-white flex items-center gap-2">
+          ORBIT<span class="font-bold text-[#ffe600]">-3</span>
+          <span class="text-[11px] font-mono font-bold bg-[#1e1f24] text-zinc-400 px-2 py-0.5 border border-[#2d2e36]">MODEL 9093</span>
+        </h1>
+      </div>
+
+      <!-- Pivot Navigation (Windows Phone / Windows 8 Style) -->
+      <nav class="flex items-center gap-6 text-sm font-light tracking-wider uppercase">
+        <button onclick="switchMetroTab('studio')" id="tab-studio" class="text-[#ffe600] font-semibold border-b-2 border-[#ffe600] pb-1 transition">Overview & Soundboard</button>
+        <button onclick="switchMetroTab('layers')" id="tab-layers" class="text-zinc-400 hover:text-white pb-1 transition">4-Layer Voice Architecture</button>
+        <button onclick="switchMetroTab('zplane')" id="tab-zplane" class="text-zinc-400 hover:text-white pb-1 transition">Z-Plane Filter Matrix</button>
+        <button onclick="switchMetroTab('cords')" id="tab-cords" class="text-zinc-400 hover:text-white pb-1 transition">24-Cord Modulation</button>
+        <button onclick="switchMetroTab('sysex')" id="tab-sysex" class="text-zinc-400 hover:text-white pb-1 transition">SysEx & Midi Quest 13</button>
+      </nav>
+    </div>
+
+    <!-- Quick Actions & View Switcher -->
+    <div class="flex items-center gap-3">
+      <div class="flex items-center gap-2 px-3 py-1.5 bg-[#18191e] border border-[#272830] text-xs font-mono text-zinc-300">
+        <span class="w-2 h-2 bg-[#ffe600]"></span>
+        <span>SUPERBEATS: <strong id="groove-status-text" class="text-white">IDLE</strong></span>
+      </div>
+      
+      <button onclick="auditionActivePatch()" class="metro-btn metro-btn-accent text-xs uppercase tracking-wider py-1.5 px-4 font-bold">
+        <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+        Audition Patch (C2)
+      </button>
+
+      <a href="orbit_3.html" class="metro-btn text-xs uppercase tracking-wider py-1.5 px-4 font-semibold text-zinc-300 hover:text-black">
+        <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M4 6h16v12H4z M2 4v16h20V4H2z"/></svg>
+        Switch to 1U Skeuomorphic Rack
+      </a>
+    </div>
+  </header>
+
+  <!-- ========================================================================= -->
+  <!-- MAIN WORKSPACE                                                            -->
+  <!-- ========================================================================= -->
+  <main class="flex-1 p-8 overflow-y-auto space-y-8 max-w-[1680px] w-full mx-auto">
+
+    <!-- SUBTITLE BANNER: Panorama Section Label -->
+    <div class="flex items-end justify-between border-b border-[#222328] pb-4">
+      <div>
+        <p class="text-xs uppercase tracking-[0.25em] text-[#ffe600] font-bold font-mono">Sound Engine & Preset Canvas</p>
+        <h2 class="text-4xl font-light tracking-tight text-white mt-1">Live Dance Soundboard & Z-Plane Matrix</h2>
+      </div>
+      <div class="flex items-center gap-6 text-xs font-mono text-zinc-400">
+        <span>ROM 1: <strong class="text-zinc-200">BEAT GARDEN (32MB)</strong></span>
+        <span>ROM 2: <strong class="text-zinc-200">TECHNO YARD (32MB)</strong></span>
+        <span>VOICES: <strong class="text-zinc-200">128 DUAL-CHANNEL</strong></span>
+      </div>
+    </div>
+
+    <!-- ======================================================================= -->
+    <!-- METRO GRID SECTION 1: PRESET HERO TILE + REAL-TIME CONTROLS            -->
+    <!-- ======================================================================= -->
+    <div class="grid grid-cols-12 gap-5">
+
+      <!-- TILE 1: Current Preset Live Tile (Windows 8 Large Live Tile) -->
+      <div class="col-span-12 lg:col-span-4 metro-tile p-6 flex flex-col justify-between border-l-4 border-l-[#ffe600]">
+        <div>
+          <div class="flex items-center justify-between text-xs font-mono text-zinc-400">
+            <span class="uppercase tracking-widest text-[#ffe600] font-bold">Active Preset</span>
+            <span id="active-rom-badge" class="bg-[#27272a] text-zinc-200 px-2 py-0.5">BEAT GARDEN</span>
+          </div>
+          
+          <div class="mt-4 flex items-baseline gap-4">
+            <span id="active-id-display" class="text-5xl font-light font-mono text-[#ffe600]">0000</span>
+            <div class="space-y-0.5">
+              <h3 id="active-name-display" class="text-xl font-bold tracking-tight text-white leading-tight">BEAT:Rob's Acid 303</h3>
+              <p id="active-cat-display" class="text-xs font-mono text-zinc-400 uppercase tracking-wider">ACID BASS • DUAL-LAYER</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Preset Stepper & Selector -->
+        <div class="mt-6 pt-4 border-t border-[#27272a] space-y-4">
+          <div class="flex items-center gap-2">
+            <button onclick="stepPreset(-1)" class="metro-btn py-2 px-3 text-sm">◀ PREV</button>
+            <select id="preset-dropdown" onchange="selectPresetFromDropdown(this.value)" class="flex-1 bg-[#121316] border border-[#2d2e36] text-sm text-zinc-200 px-3 py-2 font-mono focus:border-[#ffe600] focus:outline-none">
+              <!-- Dynamically populated -->
+            </select>
+            <button onclick="stepPreset(1)" class="metro-btn py-2 px-3 text-sm">NEXT ▶</button>
+          </div>
+
+          <div class="grid grid-cols-2 gap-2 text-xs font-mono">
+            <button onclick="triggerBeatSequence()" id="groove-btn" class="metro-btn py-2.5 justify-center uppercase tracking-wider font-bold">
+              <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+              Play SuperBEATS
+            </button>
+            <button onclick="randomizeMacroTweak()" class="metro-btn py-2.5 justify-center uppercase tracking-wider text-zinc-300">
+              <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M10.59 9.17L5.41 4 4 5.41l5.17 5.17 1.42-1.41zM14.5 4l2.04 2.04L4 18.59 5.41 20 17.96 7.46 20 9.5V4h-5.5zm.33 9.41l-1.41 1.41 3.13 3.13L14.5 20H20v-5.5l-2.04 2.04-3.13-3.13z"/></svg>
+              Randomize Patch
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- TILE 2: Fast 8-Tile Soundboard (Windows 8 Live Tile Array) -->
+      <div class="col-span-12 lg:col-span-8 metro-tile p-6 flex flex-col justify-between">
+        <div class="flex items-center justify-between pb-3 border-b border-[#27272a]">
+          <div>
+            <span class="text-xs font-mono uppercase tracking-widest text-[#ffe600] font-bold">Quick Soundboard Audition</span>
+            <h4 class="text-lg font-light text-white">Click Any Tile to Load & Fire Preset</h4>
+          </div>
+          <span class="text-xs font-mono text-zinc-400">8 SIGNATURE ORBIT-3 PRESETS</span>
+        </div>
+
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-4" id="soundboard-tiles-container">
+          <!-- Populated by JavaScript -->
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ======================================================================= -->
+    <!-- METRO GRID SECTION 2: Z-PLANE MORPHING FILTER & 4 REAL-TIME MACROS     -->
+    <!-- ======================================================================= -->
+    <div class="grid grid-cols-12 gap-5">
+
+      <!-- TILE 3: Z-Plane Filter Graphical Editor (Flat 2D Vector Canvas) -->
+      <div class="col-span-12 lg:col-span-7 metro-tile p-6 space-y-5">
+        <div class="flex items-center justify-between border-b border-[#27272a] pb-3">
+          <div class="flex items-center gap-3">
+            <span class="text-xs font-mono font-bold bg-[#ffe600] text-black px-2 py-0.5">Z-PLANE</span>
+            <h3 class="text-xl font-light text-white">50-Filter Morphing Response Engine</h3>
+          </div>
+          <div class="flex items-center gap-1">
+            <button onclick="setFilterType('4pole_lp')" id="ft-4pole_lp" class="px-2.5 py-1 text-xs font-mono bg-[#ffe600] text-black font-bold">4-Pole LP</button>
+            <button onclick="setFilterType('6pole_morph')" id="ft-6pole_morph" class="px-2.5 py-1 text-xs font-mono bg-[#222328] text-zinc-300 hover:text-white">6-Pole Morph</button>
+            <button onclick="setFilterType('formant_vocal')" id="ft-formant_vocal" class="px-2.5 py-1 text-xs font-mono bg-[#222328] text-zinc-300 hover:text-white">Formant A-E-I-O-U</button>
+            <button onclick="setFilterType('swept_eq')" id="ft-swept_eq" class="px-2.5 py-1 text-xs font-mono bg-[#222328] text-zinc-300 hover:text-white">Swept Reso EQ</button>
+          </div>
+        </div>
+
+        <!-- Interactive SVG Filter Curve (Razor-Sharp, Zero Glow) -->
+        <div class="relative w-full h-48 bg-[#101114] border border-[#27272a] cursor-crosshair overflow-hidden" id="filter-canvas-box" onmousedown="startFilterDrag(event)">
+          <!-- SVG Grid Lines (Subtle flat 1px grid) -->
+          <svg class="absolute inset-0 w-full h-full pointer-events-none" xmlns="http://www.w3.org/2000/svg">
+            <line x1="20%" y1="0" x2="20%" y2="100%" stroke="#1c1d22" stroke-width="1" />
+            <line x1="40%" y1="0" x2="40%" y2="100%" stroke="#1c1d22" stroke-width="1" />
+            <line x1="60%" y1="0" x2="60%" y2="100%" stroke="#1c1d22" stroke-width="1" />
+            <line x1="80%" y1="0" x2="80%" y2="100%" stroke="#1c1d22" stroke-width="1" />
+            <line x1="0" y1="25%" x2="100%" y2="25%" stroke="#1c1d22" stroke-width="1" />
+            <line x1="0" y1="50%" x2="100%" y2="50%" stroke="#1c1d22" stroke-width="1" />
+            <line x1="0" y1="75%" x2="100%" y2="75%" stroke="#1c1d22" stroke-width="1" />
+
+            <!-- The Sharp Filter Response Curve -->
+            <path id="svg-filter-curve" d="M 0 120 Q 300 120 400 30 Q 420 5 450 60 T 800 180" fill="none" stroke="#ffe600" stroke-width="2.5" />
+            <!-- Crosshair Point -->
+            <circle id="svg-filter-point" cx="420" cy="50" r="5" fill="#ffffff" stroke="#000000" stroke-width="1.5" />
+          </svg>
+
+          <!-- Frequency Labels -->
+          <div class="absolute bottom-2 left-4 text-[10px] font-mono text-zinc-500">20 Hz</div>
+          <div class="absolute bottom-2 left-1/4 text-[10px] font-mono text-zinc-500">200 Hz</div>
+          <div class="absolute bottom-2 left-2/4 text-[10px] font-mono text-zinc-500">2 kHz</div>
+          <div class="absolute bottom-2 left-3/4 text-[10px] font-mono text-zinc-500">8 kHz</div>
+          <div class="absolute bottom-2 right-4 text-[10px] font-mono text-zinc-500">20 kHz</div>
+        </div>
+
+        <!-- Cutoff & Resonance Flat Sliders -->
+        <div class="grid grid-cols-2 gap-6 pt-2">
+          <div class="space-y-1.5">
+            <div class="flex items-center justify-between text-xs font-mono">
+              <span class="text-zinc-400 uppercase tracking-wider font-semibold">Filter Cutoff</span>
+              <span id="cutoff-val-text" class="text-white font-bold">2,450 Hz</span>
+            </div>
+            <input type="range" id="slider-cutoff" min="40" max="14000" value="2450" class="w-full" oninput="updateFilterFromSliders()">
+          </div>
+
+          <div class="space-y-1.5">
+            <div class="flex items-center justify-between text-xs font-mono">
+              <span class="text-zinc-400 uppercase tracking-wider font-semibold">Z-Plane Resonance (Q)</span>
+              <span id="res-val-text" class="text-white font-bold">+8.5 dB</span>
+            </div>
+            <input type="range" id="slider-res" min="0" max="24" step="0.5" value="8.5" class="w-full" oninput="updateFilterFromSliders()">
+          </div>
+        </div>
+      </div>
+
+      <!-- TILE 4: Real-Time Controller Macro Sliders (A, B, C, D) -->
+      <div class="col-span-12 lg:col-span-5 metro-tile p-6 flex flex-col justify-between">
+        <div class="flex items-center justify-between border-b border-[#27272a] pb-3">
+          <div>
+            <span class="text-xs font-mono uppercase tracking-widest text-[#ffe600] font-bold">Hardware Macro Strips</span>
+            <h4 class="text-lg font-light text-white">Continuous Controller Knobs A..D</h4>
+          </div>
+          <span class="text-xs font-mono text-zinc-400">MIDI CC# 21-24</span>
+        </div>
+
+        <div class="space-y-5 my-4">
+          <!-- Controller A: Cutoff/Tone -->
+          <div class="space-y-1">
+            <div class="flex items-center justify-between text-xs font-mono">
+              <span class="text-white font-semibold">KNOB A: CUTOFF MORPH</span>
+              <span id="knob-a-val" class="text-[#ffe600] font-bold">95</span>
+            </div>
+            <input type="range" min="0" max="127" value="95" class="w-full" oninput="updateMacroParam('a', this.value)">
+          </div>
+
+          <!-- Controller B: Resonance/Intensity -->
+          <div class="space-y-1">
+            <div class="flex items-center justify-between text-xs font-mono">
+              <span class="text-white font-semibold">KNOB B: RESONANCE PEAK</span>
+              <span id="knob-b-val" class="text-[#ffe600] font-bold">110</span>
+            </div>
+            <input type="range" min="0" max="127" value="110" class="w-full" oninput="updateMacroParam('b', this.value)">
+          </div>
+
+          <!-- Controller C: Filter Attack / Shape -->
+          <div class="space-y-1">
+            <div class="flex items-center justify-between text-xs font-mono">
+              <span class="text-white font-semibold">KNOB C: ENVELOPE ATTACK</span>
+              <span id="knob-c-val" class="text-[#ffe600] font-bold">80</span>
+            </div>
+            <input type="range" min="0" max="127" value="80" class="w-full" oninput="updateMacroParam('c', this.value)">
+          </div>
+
+          <!-- Controller D: Stereo Spread / Image -->
+          <div class="space-y-1">
+            <div class="flex items-center justify-between text-xs font-mono">
+              <span class="text-white font-semibold">KNOB D: STEREO IMAGE & SPREAD</span>
+              <span id="knob-d-val" class="text-[#ffe600] font-bold">60</span>
+            </div>
+            <input type="range" min="0" max="127" value="60" class="w-full" oninput="updateMacroParam('d', this.value)">
+          </div>
+        </div>
+
+        <div class="flex items-center justify-between pt-3 border-t border-[#27272a] text-xs font-mono text-zinc-400">
+          <span>Row 1: A-D</span>
+          <button onclick="resetMacros()" class="hover:text-white uppercase tracking-wider text-[11px] underline">Reset to Default</button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ======================================================================= -->
+    <!-- METRO GRID SECTION 3: 4-LAYER VOICE ARCHITECTURE & ENVELOPES            -->
+    <!-- ======================================================================= -->
+    <div class="metro-tile p-6 space-y-6">
+      <div class="flex items-center justify-between border-b border-[#27272a] pb-3">
+        <div>
+          <span class="text-xs font-mono uppercase tracking-widest text-[#ffe600] font-bold">Quad-Voice Polyphonic Architecture</span>
+          <h3 class="text-2xl font-light text-white">4 Sound ROM Layers Per Preset</h3>
+        </div>
+        <div class="text-xs font-mono text-zinc-400 flex items-center gap-4">
+          <span>TOTAL ACTIVE VOICES: <strong class="text-white">4 / 128</strong></span>
+          <span>SAMPLE RATE: <strong class="text-white">44.1 kHz 16-bit</strong></span>
+        </div>
+      </div>
+
+      <!-- 4 Layers Laid Out Side-by-Side (High Information Density) -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+
+        <!-- LAYER 1 -->
+        <div class="bg-[#121316] border border-[#27272a] p-4 space-y-4">
+          <div class="flex items-center justify-between pb-2 border-b border-[#222328]">
+            <span class="text-xs font-mono font-bold text-[#ffe600]">LAYER 1</span>
+            <div class="metro-toggle active" id="toggle-layer-1" onclick="toggleLayer(1)">
+              <span class="metro-toggle-btn on">ON</span>
+              <span class="metro-toggle-btn off">OFF</span>
+            </div>
+          </div>
+          <div>
+            <label class="text-[10px] font-mono text-zinc-400 uppercase tracking-wider">Sample Waveform</label>
+            <div class="text-sm font-semibold text-white truncate">0042: Prophet Saw Sub</div>
+          </div>
+          <div class="space-y-3 pt-2 text-xs font-mono">
+            <div>
+              <div class="flex justify-between text-zinc-400 mb-1">
+                <span>Volume</span>
+                <span class="text-white font-bold" id="l1-vol-text">100%</span>
+              </div>
+              <input type="range" min="0" max="100" value="100" class="w-full" oninput="document.getElementById('l1-vol-text').innerText = this.value + '%'">
+            </div>
+            <div>
+              <div class="flex justify-between text-zinc-400 mb-1">
+                <span>Stereo Pan</span>
+                <span class="text-white font-bold" id="l1-pan-text">0 Center</span>
+              </div>
+              <input type="range" min="-64" max="64" value="0" class="w-full" oninput="document.getElementById('l1-pan-text').innerText = this.value > 0 ? this.value + 'R' : this.value < 0 ? Math.abs(this.value) + 'L' : '0 Center'">
+            </div>
+            <div>
+              <div class="flex justify-between text-zinc-400 mb-1">
+                <span>Pitch Transpose</span>
+                <span class="text-white font-bold">0 Semitones</span>
+              </div>
+              <input type="range" min="-24" max="24" value="0" class="w-full">
+            </div>
+          </div>
+        </div>
+
+        <!-- LAYER 2 -->
+        <div class="bg-[#121316] border border-[#27272a] p-4 space-y-4">
+          <div class="flex items-center justify-between pb-2 border-b border-[#222328]">
+            <span class="text-xs font-mono font-bold text-[#ffe600]">LAYER 2</span>
+            <div class="metro-toggle active" id="toggle-layer-2" onclick="toggleLayer(2)">
+              <span class="metro-toggle-btn on">ON</span>
+              <span class="metro-toggle-btn off">OFF</span>
+            </div>
+          </div>
+          <div>
+            <label class="text-[10px] font-mono text-zinc-400 uppercase tracking-wider">Sample Waveform</label>
+            <div class="text-sm font-semibold text-white truncate">0118: Acid Square Slap</div>
+          </div>
+          <div class="space-y-3 pt-2 text-xs font-mono">
+            <div>
+              <div class="flex justify-between text-zinc-400 mb-1">
+                <span>Volume</span>
+                <span class="text-white font-bold" id="l2-vol-text">88%</span>
+              </div>
+              <input type="range" min="0" max="100" value="88" class="w-full" oninput="document.getElementById('l2-vol-text').innerText = this.value + '%'">
+            </div>
+            <div>
+              <div class="flex justify-between text-zinc-400 mb-1">
+                <span>Stereo Pan</span>
+                <span class="text-white font-bold" id="l2-pan-text">16L</span>
+              </div>
+              <input type="range" min="-64" max="64" value="-16" class="w-full" oninput="document.getElementById('l2-pan-text').innerText = this.value > 0 ? this.value + 'R' : this.value < 0 ? Math.abs(this.value) + 'L' : '0 Center'">
+            </div>
+            <div>
+              <div class="flex justify-between text-zinc-400 mb-1">
+                <span>Pitch Transpose</span>
+                <span class="text-white font-bold">+12 Semitones</span>
+              </div>
+              <input type="range" min="-24" max="24" value="12" class="w-full">
+            </div>
+          </div>
+        </div>
+
+        <!-- LAYER 3 -->
+        <div class="bg-[#121316] border border-[#27272a] p-4 space-y-4">
+          <div class="flex items-center justify-between pb-2 border-b border-[#222328]">
+            <span class="text-xs font-mono font-bold text-zinc-400">LAYER 3</span>
+            <div class="metro-toggle" id="toggle-layer-3" onclick="toggleLayer(3)">
+              <span class="metro-toggle-btn on">ON</span>
+              <span class="metro-toggle-btn off">OFF</span>
+            </div>
+          </div>
+          <div>
+            <label class="text-[10px] font-mono text-zinc-400 uppercase tracking-wider">Sample Waveform</label>
+            <div class="text-sm font-semibold text-zinc-400 truncate">0284: Rave Noise Chime</div>
+          </div>
+          <div class="space-y-3 pt-2 text-xs font-mono opacity-60">
+            <div>
+              <div class="flex justify-between text-zinc-400 mb-1">
+                <span>Volume</span>
+                <span class="text-white font-bold">50%</span>
+              </div>
+              <input type="range" min="0" max="100" value="50" class="w-full">
+            </div>
+            <div>
+              <div class="flex justify-between text-zinc-400 mb-1">
+                <span>Stereo Pan</span>
+                <span class="text-white font-bold">24R</span>
+              </div>
+              <input type="range" min="-64" max="64" value="24" class="w-full">
+            </div>
+            <div>
+              <div class="flex justify-between text-zinc-400 mb-1">
+                <span>Pitch Transpose</span>
+                <span class="text-white font-bold">0 Semitones</span>
+              </div>
+              <input type="range" min="-24" max="24" value="0" class="w-full">
+            </div>
+          </div>
+        </div>
+
+        <!-- LAYER 4 -->
+        <div class="bg-[#121316] border border-[#27272a] p-4 space-y-4">
+          <div class="flex items-center justify-between pb-2 border-b border-[#222328]">
+            <span class="text-xs font-mono font-bold text-zinc-400">LAYER 4</span>
+            <div class="metro-toggle" id="toggle-layer-4" onclick="toggleLayer(4)">
+              <span class="metro-toggle-btn on">ON</span>
+              <span class="metro-toggle-btn off">OFF</span>
+            </div>
+          </div>
+          <div>
+            <label class="text-[10px] font-mono text-zinc-400 uppercase tracking-wider">Sample Waveform</label>
+            <div class="text-sm font-semibold text-zinc-400 truncate">0512: 909 Sub Click</div>
+          </div>
+          <div class="space-y-3 pt-2 text-xs font-mono opacity-60">
+            <div>
+              <div class="flex justify-between text-zinc-400 mb-1">
+                <span>Volume</span>
+                <span class="text-white font-bold">75%</span>
+              </div>
+              <input type="range" min="0" max="100" value="75" class="w-full">
+            </div>
+            <div>
+              <div class="flex justify-between text-zinc-400 mb-1">
+                <span>Stereo Pan</span>
+                <span class="text-white font-bold">0 Center</span>
+              </div>
+              <input type="range" min="-64" max="64" value="0" class="w-full">
+            </div>
+            <div>
+              <div class="flex justify-between text-zinc-400 mb-1">
+                <span>Pitch Transpose</span>
+                <span class="text-white font-bold">-12 Semitones</span>
+              </div>
+              <input type="range" min="-24" max="24" value="-12" class="w-full">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ======================================================================= -->
+    <!-- METRO GRID SECTION 4: 24-CORD MODULATION MATRIX (High-Density Table)    -->
+    <!-- ======================================================================= -->
+    <div class="metro-tile p-6 space-y-4">
+      <div class="flex items-center justify-between border-b border-[#27272a] pb-3">
+        <div>
+          <span class="text-xs font-mono uppercase tracking-widest text-[#ffe600] font-bold">E-MU Dynamic Patch Cords</span>
+          <h3 class="text-xl font-light text-white">24-Route Modulation Matrix</h3>
+        </div>
+        <span class="text-xs font-mono text-zinc-400">CONNECT ANY SOURCE TO ANY DESTINATION</span>
+      </div>
+
+      <div class="overflow-x-auto">
+        <table class="w-full text-left text-xs font-mono border-collapse">
+          <thead>
+            <tr class="bg-[#121316] text-zinc-400 uppercase tracking-wider border-b border-[#27272a]">
+              <th class="py-2.5 px-4 font-bold text-[#ffe600]">Cord #</th>
+              <th class="py-2.5 px-4 font-bold">Source Modulator</th>
+              <th class="py-2.5 px-4 font-bold">Amount (-100% to +100%)</th>
+              <th class="py-2.5 px-4 font-bold">Destination Parameter</th>
+              <th class="py-2.5 px-4 font-bold text-right">Status</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-[#1e1f24] text-zinc-300">
+            <tr class="hover:bg-[#18191e]">
+              <td class="py-2.5 px-4 font-bold text-[#ffe600]">CORD 01</td>
+              <td class="py-2.5 px-4 text-white">LFO 1 (Triangle)</td>
+              <td class="py-2.5 px-4 text-emerald-400 font-bold">+45%</td>
+              <td class="py-2.5 px-4">Filter Cutoff (All Layers)</td>
+              <td class="py-2.5 px-4 text-right"><span class="px-2 py-0.5 bg-emerald-950 text-emerald-400 font-bold">ROUTED</span></td>
+            </tr>
+            <tr class="hover:bg-[#18191e]">
+              <td class="py-2.5 px-4 font-bold text-[#ffe600]">CORD 02</td>
+              <td class="py-2.5 px-4 text-white">Mod Wheel (MIDI CC# 01)</td>
+              <td class="py-2.5 px-4 text-emerald-400 font-bold">+80%</td>
+              <td class="py-2.5 px-4">Z-Plane Morph Position</td>
+              <td class="py-2.5 px-4 text-right"><span class="px-2 py-0.5 bg-emerald-950 text-emerald-400 font-bold">ROUTED</span></td>
+            </tr>
+            <tr class="hover:bg-[#18191e]">
+              <td class="py-2.5 px-4 font-bold text-[#ffe600]">CORD 03</td>
+              <td class="py-2.5 px-4 text-white">Key Velocity</td>
+              <td class="py-2.5 px-4 text-emerald-400 font-bold">+35%</td>
+              <td class="py-2.5 px-4">Amplifier Attack Time</td>
+              <td class="py-2.5 px-4 text-right"><span class="px-2 py-0.5 bg-emerald-950 text-emerald-400 font-bold">ROUTED</span></td>
+            </tr>
+            <tr class="hover:bg-[#18191e]">
+              <td class="py-2.5 px-4 font-bold text-[#ffe600]">CORD 04</td>
+              <td class="py-2.5 px-4 text-white">LFO 2 (Random S&H)</td>
+              <td class="py-2.5 px-4 text-amber-400 font-bold">+22%</td>
+              <td class="py-2.5 px-4">Stereo Pan Spread</td>
+              <td class="py-2.5 px-4 text-right"><span class="px-2 py-0.5 bg-emerald-950 text-emerald-400 font-bold">ROUTED</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ========================================================================= -->
+  <!-- BOTTOM APP BAR (Docked Windows 8 Clean Action Bar)                       -->
+  <!-- ========================================================================= -->
+  <footer class="bg-[#121316] border-t border-[#222328] px-8 py-3 flex items-center justify-between shrink-0 text-xs font-mono">
+    <div class="flex items-center gap-6">
+      <span class="text-zinc-500">MIDI SYS-EX: <strong class="text-zinc-300">DEVICE 0x09 (ORBIT-3)</strong></span>
+      <span class="text-zinc-500">CHANNEL: <strong class="text-zinc-300">OMNI 1-16</strong></span>
+      <span class="text-zinc-500">LATENCY: <strong class="text-emerald-400">2.4 ms (Web Audio Engine)</strong></span>
+    </div>
+
+    <div class="flex items-center gap-2">
+      <button onclick="requestSysExDump()" class="metro-btn py-1 px-3 text-xs uppercase tracking-wider">
+        Pull SysEx from Synth
+      </button>
+      <button onclick="sendSysExPatch()" class="metro-btn metro-btn-cobalt py-1 px-3 text-xs uppercase tracking-wider font-bold">
+        Send SysEx (Commit)
+      </button>
+      <button onclick="exportSysExFile()" class="metro-btn py-1 px-3 text-xs uppercase tracking-wider text-zinc-400">
+        Export .syx File
+      </button>
+    </div>
+  </footer>
+
+  <!-- ========================================================================= -->
+  <!-- WEB AUDIO SYNTHESIS & REAL-TIME INTERACTION SCRIPT                        -->
+  <!-- ========================================================================= -->
+  <script>
+    // Audio Context Setup
+    let audioCtx = null;
+    let masterVolume = 0.85;
+    let isGroovePlaying = false;
+    let currentPresetIdx = 0;
+
+    // Presets from E-MU Orbit-3 Soundboard
+    const orbitPresets = [
+      { id: "0000", name: "BEAT:Rob's Acid 303", cat: "ACID BASS", rom: "BEAT GARDEN", cutoff: 95, res: 110, shape: 80, image: 60, type: "acid_303" },
+      { id: "0001", name: "TECH:Reese Sub Bass", cat: "SUB SYNTH", rom: "TECHNO YARD", cutoff: 65, res: 40, shape: 75, image: 90, type: "reese_bass" },
+      { id: "0002", name: "RAVE:Trance Supersaw", cat: "SYNTH PAD", rom: "BEAT GARDEN", cutoff: 105, res: 35, shape: 90, image: 115, type: "supersaw" },
+      { id: "0003", name: "BEAT:Amen Break Slice", cat: "BREAKBEAT", rom: "BEAT GARDEN", cutoff: 115, res: 50, shape: 60, image: 70, type: "amen_break" },
+      { id: "0004", name: "TECH:Industrial Stab", cat: "RAVE CHORD", rom: "TECHNO YARD", cutoff: 100, res: 85, shape: 70, image: 80, type: "industrial_stab" },
+      { id: "0005", name: "BEAT:Gated Electro Chord", cat: "GATED SYNTH", rom: "BEAT GARDEN", cutoff: 90, res: 65, shape: 110, image: 85, type: "gated_electro" },
+      { id: "0006", name: "TECH:Hardstyle 909 Kick", cat: "ANALOG DRUM", rom: "TECHNO YARD", cutoff: 120, res: 95, shape: 85, image: 50, type: "909_kick" },
+      { id: "0007", name: "BEAT:Cyber Vocoder Hook", cat: "VOCODER FX", rom: "BEAT GARDEN", cutoff: 85, res: 75, shape: 95, image: 95, type: "cyber_vocoder" }
+    ];
+
+    function initAudio() {
+      if (!audioCtx) {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      }
+      if (audioCtx.state === 'suspended') {
+        audioCtx.resume();
+      }
+    }
+
+    // Populate UI on load
+    function initMetroUI() {
+      // 1. Populate Dropdown
+      const dropdown = document.getElementById('preset-dropdown');
+      dropdown.innerHTML = '';
+      orbitPresets.forEach((p, idx) => {
+        const opt = document.createElement('option');
+        opt.value = idx;
+        opt.innerText = `${p.id} ${p.name} [${p.rom}]`;
+        dropdown.appendChild(opt);
+      });
+
+      // 2. Populate Soundboard 8 Tiles
+      const container = document.getElementById('soundboard-tiles-container');
+      container.innerHTML = '';
+      orbitPresets.forEach((p, idx) => {
+        const tile = document.createElement('div');
+        tile.className = `p-4 cursor-pointer border transition ${idx === 0 ? 'bg-[#22232a] border-[#ffe600]' : 'bg-[#121316] border-[#27272a] hover:border-[#ffe600]'}`;
+        tile.id = `sb-tile-${idx}`;
+        tile.onclick = () => {
+          loadPreset(idx);
+          playOrbitInstrument(p.type);
+        };
+        tile.innerHTML = `
+          <div class="flex items-center justify-between text-[10px] font-mono mb-2">
+            <span class="text-[#ffe600] font-bold">${p.id}</span>
+            <span class="text-zinc-500">${p.rom.split(' ')[0]}</span>
+          </div>
+          <div class="text-xs font-bold text-white leading-tight truncate">${p.name.replace(/^[A-Z0-9]+:/, '')}</div>
+          <div class="text-[10px] font-mono text-zinc-400 mt-1 uppercase">${p.cat}</div>
+        `;
+        container.appendChild(tile);
+      });
+
+      loadPreset(0);
+      drawFilterCurve(2450, 8.5);
+    }
+
+    function loadPreset(idx) {
+      currentPresetIdx = idx;
+      const p = orbitPresets[idx];
+
+      // Update Hero Tile
+      document.getElementById('active-id-display').innerText = p.id;
+      document.getElementById('active-name-display').innerText = p.name;
+      document.getElementById('active-cat-display').innerText = `${p.cat} • DUAL-LAYER`;
+      document.getElementById('active-rom-badge').innerText = p.rom;
+      document.getElementById('preset-dropdown').value = idx;
+
+      // Update Soundboard selection
+      orbitPresets.forEach((_, i) => {
+        const tile = document.getElementById(`sb-tile-${i}`);
+        if (tile) {
+          if (i === idx) {
+            tile.className = "p-4 cursor-pointer border transition bg-[#22232a] border-[#ffe600]";
+          } else {
+            tile.className = "p-4 cursor-pointer border transition bg-[#121316] border-[#27272a] hover:border-[#ffe600]";
+          }
+        }
+      });
+
+      // Update Macros
+      document.getElementById('knob-a-val').innerText = p.cutoff;
+      document.getElementById('knob-b-val').innerText = p.res;
+      document.getElementById('knob-c-val').innerText = p.shape;
+      document.getElementById('knob-d-val').innerText = p.image;
+
+      // Map Cutoff & Resonance to Filter View
+      const cutoffHz = Math.round(40 + (p.cutoff / 127) * 9000);
+      const resDb = (p.res / 127) * 18;
+      document.getElementById('slider-cutoff').value = cutoffHz;
+      document.getElementById('slider-res').value = resDb.toFixed(1);
+      document.getElementById('cutoff-val-text').innerText = cutoffHz.toLocaleString() + ' Hz';
+      document.getElementById('res-val-text').innerText = '+' + resDb.toFixed(1) + ' dB';
+      drawFilterCurve(cutoffHz, resDb);
+    }
+
+    function stepPreset(delta) {
+      let next = currentPresetIdx + delta;
+      if (next < 0) next = orbitPresets.length - 1;
+      if (next >= orbitPresets.length) next = 0;
+      loadPreset(next);
+      auditionActivePatch();
+    }
+
+    function selectPresetFromDropdown(val) {
+      loadPreset(parseInt(val, 10));
+      auditionActivePatch();
+    }
+
+    function auditionActivePatch() {
+      const p = orbitPresets[currentPresetIdx];
+      playOrbitInstrument(p.type);
+    }
+
+    // Toggle 4-Voice Layers
+    function toggleLayer(layerNum) {
+      const el = document.getElementById(`toggle-layer-${layerNum}`);
+      if (el) {
+        el.classList.toggle('active');
+      }
+    }
+
+    // SVG Filter Curve Rendering (Crisp 2px line, zero glow)
+    function drawFilterCurve(cutoff, res) {
+      const box = document.getElementById('filter-canvas-box');
+      if (!box) return;
+      const w = box.clientWidth || 700;
+      const h = box.clientHeight || 192;
+
+      // Logarithmic X coordinate
+      const minLog = Math.log10(20);
+      const maxLog = Math.log10(20000);
+      const cutLog = Math.log10(Math.max(20, Math.min(20000, cutoff)));
+      const normX = (cutLog - minLog) / (maxLog - minLog);
+      const ptX = normX * w;
+
+      // Resonance peak height
+      const peakY = Math.max(15, (h * 0.55) - (res * 4.5));
+      const ptY = Math.min(h - 10, peakY);
+
+      // Construct SVG path: Flat passband -> resonant Q bump -> steep roll-off
+      const startY = h * 0.55;
+      const preBumpX = Math.max(0, ptX - 50);
+      const postBumpX = Math.min(w, ptX + 60);
+
+      const d = `M 0 ${startY} L ${preBumpX} ${startY} Q ${ptX} ${ptY} ${postBumpX} ${h * 0.82} L ${w} ${h * 0.95}`;
+      const path = document.getElementById('svg-filter-curve');
+      const dot = document.getElementById('svg-filter-point');
+      if (path) path.setAttribute('d', d);
+      if (dot) {
+        dot.setAttribute('cx', ptX);
+        dot.setAttribute('cy', ptY);
+      }
+    }
+
+    function updateFilterFromSliders() {
+      const cutoff = parseFloat(document.getElementById('slider-cutoff').value);
+      const res = parseFloat(document.getElementById('slider-res').value);
+      document.getElementById('cutoff-val-text').innerText = Math.round(cutoff).toLocaleString() + ' Hz';
+      document.getElementById('res-val-text').innerText = '+' + res.toFixed(1) + ' dB';
+      drawFilterCurve(cutoff, res);
+    }
+
+    function setFilterType(type) {
+      ['4pole_lp', '6pole_morph', 'formant_vocal', 'swept_eq'].forEach(t => {
+        const btn = document.getElementById(`ft-${t}`);
+        if (t === type) {
+          btn.className = "px-2.5 py-1 text-xs font-mono bg-[#ffe600] text-black font-bold";
+        } else {
+          btn.className = "px-2.5 py-1 text-xs font-mono bg-[#222328] text-zinc-300 hover:text-white";
+        }
+      });
+      auditionActivePatch();
+    }
+
+    // Interactive Drag on Filter Box
+    let isDraggingFilter = false;
+    function startFilterDrag(e) {
+      isDraggingFilter = true;
+      handleFilterDrag(e);
+      window.addEventListener('mousemove', handleFilterDrag);
+      window.addEventListener('mouseup', stopFilterDrag);
+    }
+    function handleFilterDrag(e) {
+      if (!isDraggingFilter) return;
+      const box = document.getElementById('filter-canvas-box');
+      const rect = box.getBoundingClientRect();
+      const x = Math.max(0, Math.min(rect.width, e.clientX - rect.left));
+      const y = Math.max(0, Math.min(rect.height, e.clientY - rect.top));
+
+      const normX = x / rect.width;
+      const minLog = Math.log10(20);
+      const maxLog = Math.log10(20000);
+      const cutoffHz = Math.round(Math.pow(10, minLog + normX * (maxLog - minLog)));
+      const resDb = Math.max(0, Math.min(24, ((rect.height * 0.8 - y) / rect.height) * 24));
+
+      document.getElementById('slider-cutoff').value = cutoffHz;
+      document.getElementById('slider-res').value = resDb.toFixed(1);
+      document.getElementById('cutoff-val-text').innerText = cutoffHz.toLocaleString() + ' Hz';
+      document.getElementById('res-val-text').innerText = '+' + resDb.toFixed(1) + ' dB';
+      drawFilterCurve(cutoffHz, resDb);
+    }
+    function stopFilterDrag() {
+      isDraggingFilter = false;
+      window.removeEventListener('mousemove', handleFilterDrag);
+      window.removeEventListener('mouseup', stopFilterDrag);
+    }
+
+    function updateMacroParam(knob, val) {
+      document.getElementById(`knob-${knob}-val`).innerText = val;
+    }
+
+    function resetMacros() {
+      ['a', 'b', 'c', 'd'].forEach(k => {
+        updateMacroParam(k, 64);
+      });
+      loadPreset(currentPresetIdx);
+    }
+
+    function randomizeMacroTweak() {
+      ['a', 'b', 'c', 'd'].forEach(k => {
+        const rnd = Math.floor(Math.random() * 127);
+        updateMacroParam(k, rnd);
+      });
+      auditionActivePatch();
+    }
+
+    // Web Audio Sound Engine (Authentic Orbit-3 Dance Patches)
+    function playOrbitInstrument(type) {
+      initAudio();
+      const now = audioCtx.currentTime;
+
+      if (type === 'acid_303') {
+        const osc = audioCtx.createOscillator();
+        const filter = audioCtx.createBiquadFilter();
+        const drive = audioCtx.createGain();
+        const gain = audioCtx.createGain();
+
+        osc.type = 'sawtooth';
+        osc.frequency.setValueAtTime(110, now);
+        osc.frequency.exponentialRampToValueAtTime(55, now + 0.28);
+
+        filter.type = 'lowpass';
+        filter.Q.setValueAtTime(16, now);
+        filter.frequency.setValueAtTime(parseFloat(document.getElementById('slider-cutoff').value) || 3500, now);
+        filter.frequency.exponentialRampToValueAtTime(260, now + 0.32);
+
+        drive.gain.setValueAtTime(1.4, now);
+        gain.gain.setValueAtTime(0.7 * masterVolume, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.35);
+
+        osc.connect(filter);
+        filter.connect(drive);
+        drive.connect(gain);
+        gain.connect(audioCtx.destination);
+
+        osc.start(now);
+        osc.stop(now + 0.38);
+
+      } else if (type === 'reese_bass') {
+        [55.0, 55.9].forEach(freq => {
+          const osc = audioCtx.createOscillator();
+          const filter = audioCtx.createBiquadFilter();
+          const gain = audioCtx.createGain();
+
+          osc.type = 'sawtooth';
+          osc.frequency.setValueAtTime(freq, now);
+
+          filter.type = 'lowpass';
+          filter.frequency.setValueAtTime(parseFloat(document.getElementById('slider-cutoff').value) || 520, now);
+          filter.Q.setValueAtTime(4.0, now);
+
+          gain.gain.setValueAtTime(0.55 * masterVolume, now);
+          gain.gain.exponentialRampToValueAtTime(0.001, now + 0.6);
+
+          osc.connect(filter);
+          filter.connect(gain);
+          gain.connect(audioCtx.destination);
+
+          osc.start(now);
+          osc.stop(now + 0.65);
+        });
+
+      } else if (type === 'supersaw') {
+        [-12, -4, 0, 4, 12].forEach(cents => {
+          const osc = audioCtx.createOscillator();
+          const filter = audioCtx.createBiquadFilter();
+          const gain = audioCtx.createGain();
+
+          osc.type = 'sawtooth';
+          osc.frequency.setValueAtTime(220 * Math.pow(2, cents / 1200), now);
+
+          filter.type = 'lowpass';
+          filter.frequency.setValueAtTime(parseFloat(document.getElementById('slider-cutoff').value) || 6000, now);
+          filter.Q.setValueAtTime(3.0, now);
+
+          gain.gain.setValueAtTime(0.22 * masterVolume, now);
+          gain.gain.exponentialRampToValueAtTime(0.001, now + 0.85);
+
+          osc.connect(filter);
+          filter.connect(gain);
+          gain.connect(audioCtx.destination);
+
+          osc.start(now);
+          osc.stop(now + 0.9);
+        });
+
+      } else if (type === 'amen_break') {
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.frequency.setValueAtTime(140, now);
+        osc.frequency.exponentialRampToValueAtTime(45, now + 0.12);
+        gain.gain.setValueAtTime(0.85 * masterVolume, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.2);
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+        osc.start(now);
+        osc.stop(now + 0.22);
+
+      } else {
+        // Default Synth Strike
+        const osc = audioCtx.createOscillator();
+        const filter = audioCtx.createBiquadFilter();
+        const gain = audioCtx.createGain();
+
+        osc.type = 'square';
+        osc.frequency.setValueAtTime(174.61, now);
+
+        filter.type = 'bandpass';
+        filter.frequency.setValueAtTime(parseFloat(document.getElementById('slider-cutoff').value) || 1800, now);
+        filter.Q.setValueAtTime(6.0, now);
+
+        gain.gain.setValueAtTime(0.6 * masterVolume, now);
+        gain.gain.exponentialRampToValueAtTime(0.001, now + 0.5);
+
+        osc.connect(filter);
+        filter.connect(gain);
+        gain.connect(audioCtx.destination);
+
+        osc.start(now);
+        osc.stop(now + 0.55);
+      }
+    }
+
+    // SuperBEATS Groove Loop
+    let grooveTimer = null;
+    function triggerBeatSequence() {
+      initAudio();
+      isGroovePlaying = !isGroovePlaying;
+      const btn = document.getElementById('groove-btn');
+      const statusText = document.getElementById('groove-status-text');
+
+      if (isGroovePlaying) {
+        btn.className = "metro-btn metro-btn-accent py-2.5 justify-center uppercase tracking-wider font-bold";
+        btn.innerHTML = `<svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg> Stop SuperBEATS`;
+        statusText.innerText = "RUNNING (138 BPM)";
+        statusText.className = "text-[#ffe600]";
+
+        let step = 0;
+        grooveTimer = setInterval(() => {
+          if (!isGroovePlaying) return;
+          if (step % 4 === 0) playOrbitInstrument('amen_break');
+          if (step % 2 === 1) playOrbitInstrument('acid_303');
+          step = (step + 1) % 16;
+        }, 110);
+      } else {
+        clearInterval(grooveTimer);
+        btn.className = "metro-btn py-2.5 justify-center uppercase tracking-wider font-bold";
+        btn.innerHTML = `<svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg> Play SuperBEATS`;
+        statusText.innerText = "IDLE";
+        statusText.className = "text-white";
+      }
+    }
+
+    // Navigation Tab Switcher
+    function switchMetroTab(tabId) {
+      ['studio', 'layers', 'zplane', 'cords', 'sysex'].forEach(t => {
+        const btn = document.getElementById(`tab-${t}`);
+        if (t === tabId) {
+          btn.className = "text-[#ffe600] font-semibold border-b-2 border-[#ffe600] pb-1 transition";
+        } else {
+          btn.className = "text-zinc-400 hover:text-white pb-1 transition";
+        }
+      });
+    }
+
+    // SysEx Functions (Midi Quest 13 compatible)
+    function requestSysExDump() {
+      alert("SysEx Request [F0 18 09 00 00 01 F7] dispatched via Web MIDI port.");
+    }
+    function sendSysExPatch() {
+      alert("Committed Preset [0000 BEAT:Rob's Acid 303] SysEx dump to hardware buffer.");
+    }
+    function exportSysExFile() {
+      const dummySysEx = new Uint8Array([0xF0, 0x18, 0x09, 0x00, 0x02, 0x00, 0x00, 0xF7]);
+      const blob = new Blob([dummySysEx], { type: 'application/octet-stream' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = `Orbit3_Preset_${orbitPresets[currentPresetIdx].id}.syx`;
+      a.click();
+    }
+
+    window.onload = initMetroUI;
+  </script>
+</body>
+</html>
