@@ -1,0 +1,866 @@
+[
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 1,
+    "name": "Warm Grand 77",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 2,
+    "name": "Dyno Tine RCM",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 3,
+    "name": "Classic Rhodes",
+    "category": "KEYBOARD",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 4,
+    "name": "Wurly 77",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 5,
+    "name": "Full Pipe Organ",
+    "category": "KEYBOARD",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 6,
+    "name": "Rock B3 Drive",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 7,
+    "name": "Clavinet D6 Wah",
+    "category": "KEYBOARD",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 8,
+    "name": "Harpsichord Baroque",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 9,
+    "name": "Symphonic Strings",
+    "category": "STRINGS",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "strings"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 10,
+    "name": "Warm Lush Strings",
+    "category": "STRINGS",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "strings"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 11,
+    "name": "Solo Cello RCM",
+    "category": "STRINGS",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "strings"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 12,
+    "name": "Pizzicato Section",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 13,
+    "name": "Fanfare Trumpets",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 14,
+    "name": "Warm French Horns",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 15,
+    "name": "Trombone Section",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 16,
+    "name": "Orchestra Brass",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 17,
+    "name": "Acoustic Upright",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 18,
+    "name": "Solid Bass RCM",
+    "category": "BASS",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "bass"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 19,
+    "name": "Slap Bass 77",
+    "category": "BASS",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "bass"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 20,
+    "name": "Fretless Mwah",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 21,
+    "name": "Moog Sub Bass",
+    "category": "BASS",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "bass"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 22,
+    "name": "Acid 303 Saw",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 23,
+    "name": "Super Lead AFM",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 24,
+    "name": "Poly Saw 77",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 25,
+    "name": "Atmosphere Pad",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 26,
+    "name": "Crystal Glass Bells",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 27,
+    "name": "Ambient Space Choir",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 28,
+    "name": "Fairlight Vox",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 29,
+    "name": "Shakuhachi Flute",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 30,
+    "name": "Concert Pan Flute",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 31,
+    "name": "Sitar & Tabla",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 32,
+    "name": "Steel Drums",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 33,
+    "name": "Concert Piano 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 34,
+    "name": "Tine & Pad Layer",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 35,
+    "name": "Gospel Drawbars",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 36,
+    "name": "Cathedral Tutti",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 37,
+    "name": "Chamber Quartet",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 38,
+    "name": "Solo Violin 77",
+    "category": "STRINGS",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "strings"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 39,
+    "name": "Brass & Horn Combo",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 40,
+    "name": "Muted Harmon Trump",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 41,
+    "name": "Pick Bass 77",
+    "category": "BASS",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "bass"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 42,
+    "name": "Thumb Pop Slap",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 43,
+    "name": "Analog Reso Bass",
+    "category": "BASS",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "bass"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 44,
+    "name": "Pulse Width Solo",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 45,
+    "name": "Digital Chime Bell",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 46,
+    "name": "Vaporwave Strings",
+    "category": "STRINGS",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "strings"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 47,
+    "name": "Sci-Fi Soundstage",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 48,
+    "name": "Alien Transmission",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 49,
+    "name": "DX Piano Classic",
+    "category": "KEYBOARD",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 50,
+    "name": "Rock Piano Grand",
+    "category": "KEYBOARD",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 51,
+    "name": "Rotary Organ II",
+    "category": "KEYBOARD",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 52,
+    "name": "French Musette",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 53,
+    "name": "String Quartet",
+    "category": "STRINGS",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "strings"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 54,
+    "name": "Cinema Brass Section",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 55,
+    "name": "Epic Horn Ensemble",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 56,
+    "name": "Woodwind Quintet",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 57,
+    "name": "Rickenbacker Bass",
+    "category": "BASS",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "bass"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 58,
+    "name": "Sub Low 40Hz",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 59,
+    "name": "Sync Screamer AFM",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 60,
+    "name": "Laser Gun FX",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 61,
+    "name": "Windstorm RCM",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 62,
+    "name": "Orchestra Hit 77",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 63,
+    "name": "Thunder Crash",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL VOICES",
+    "program": 64,
+    "name": "SY77 Master Init",
+    "category": "SYNTH",
+    "tags": [
+      "sy77",
+      "internal-voice",
+      "synth"
+    ]
+  },
+  {
+    "bank": "MULTI SETUPS",
+    "program": 1,
+    "name": "Multi 01: Multi Orchestral Master",
+    "category": "MULTI",
+    "tags": [
+      "sy77",
+      "multi-setup"
+    ]
+  },
+  {
+    "bank": "MULTI SETUPS",
+    "program": 2,
+    "name": "Multi 02: Grand Piano & Strings",
+    "category": "MULTI",
+    "tags": [
+      "sy77",
+      "multi-setup"
+    ]
+  },
+  {
+    "bank": "MULTI SETUPS",
+    "program": 3,
+    "name": "Multi 03: Split Bass & Rhodes",
+    "category": "MULTI",
+    "tags": [
+      "sy77",
+      "multi-setup"
+    ]
+  },
+  {
+    "bank": "MULTI SETUPS",
+    "program": 4,
+    "name": "Multi 04: Split Bass & Brass Section",
+    "category": "MULTI",
+    "tags": [
+      "sy77",
+      "multi-setup"
+    ]
+  },
+  {
+    "bank": "MULTI SETUPS",
+    "program": 5,
+    "name": "Multi 05: RCM Ambient Soundscape",
+    "category": "MULTI",
+    "tags": [
+      "sy77",
+      "multi-setup"
+    ]
+  },
+  {
+    "bank": "MULTI SETUPS",
+    "program": 6,
+    "name": "Multi 06: Film Score Soundtrack",
+    "category": "MULTI",
+    "tags": [
+      "sy77",
+      "multi-setup"
+    ]
+  },
+  {
+    "bank": "MULTI SETUPS",
+    "program": 7,
+    "name": "Multi 07: Fusion Jazz Ensemble",
+    "category": "MULTI",
+    "tags": [
+      "sy77",
+      "multi-setup"
+    ]
+  },
+  {
+    "bank": "MULTI SETUPS",
+    "program": 8,
+    "name": "Multi 08: Pop Rock Ballad Setup",
+    "category": "MULTI",
+    "tags": [
+      "sy77",
+      "multi-setup"
+    ]
+  },
+  {
+    "bank": "MULTI SETUPS",
+    "program": 9,
+    "name": "Multi 09: Techno Dance Array",
+    "category": "MULTI",
+    "tags": [
+      "sy77",
+      "multi-setup"
+    ]
+  },
+  {
+    "bank": "MULTI SETUPS",
+    "program": 10,
+    "name": "Multi 10: Cathedral Pipe & Choir",
+    "category": "MULTI",
+    "tags": [
+      "sy77",
+      "multi-setup"
+    ]
+  },
+  {
+    "bank": "MULTI SETUPS",
+    "program": 11,
+    "name": "Multi 11: Latin World Percussion",
+    "category": "MULTI",
+    "tags": [
+      "sy77",
+      "multi-setup"
+    ]
+  },
+  {
+    "bank": "MULTI SETUPS",
+    "program": 12,
+    "name": "Multi 12: Funk Clavinet Jam",
+    "category": "MULTI",
+    "tags": [
+      "sy77",
+      "multi-setup"
+    ]
+  },
+  {
+    "bank": "MULTI SETUPS",
+    "program": 13,
+    "name": "Multi 13: Acoustic Wind Quintet",
+    "category": "MULTI",
+    "tags": [
+      "sy77",
+      "multi-setup"
+    ]
+  },
+  {
+    "bank": "MULTI SETUPS",
+    "program": 14,
+    "name": "Multi 14: Big Band Brass Stage",
+    "category": "MULTI",
+    "tags": [
+      "sy77",
+      "multi-setup"
+    ]
+  },
+  {
+    "bank": "MULTI SETUPS",
+    "program": 15,
+    "name": "Multi 15: Space Station Ambient",
+    "category": "MULTI",
+    "tags": [
+      "sy77",
+      "multi-setup"
+    ]
+  },
+  {
+    "bank": "MULTI SETUPS",
+    "program": 16,
+    "name": "Multi 16: SY77 Multi Init",
+    "category": "MULTI",
+    "tags": [
+      "sy77",
+      "multi-setup"
+    ]
+  }
+]

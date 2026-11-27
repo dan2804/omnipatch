@@ -1,0 +1,139 @@
+schema_version: 1.0.0
+manufacturer: Yamaha Corporation
+name: Yamaha TX81Z
+family: TX Series
+category: 4-Operator Multi-Waveform FM Rack
+year: 1987
+voice_architecture:
+  voices: 8
+  parts: 8
+  operators: 4
+  algorithms: 8
+  waveforms: 8 selectable oscillator waveforms per operator (W1 Sine through W8 non-sine
+    harmonics)
+  microtuning: 13 microtuning scales + 2 user microtunings
+  effects: Built-in MIDI pseudo-delay and pan effects
+  famous_patches: 'LatelyBass (Preset Bank A #13), SolidBass'
+midi_specs:
+  basic_channel: 1
+  manufacturer_id: '0x43'
+  sub_status: '0x00'
+  model_id: '0x7E'
+  handshake: false
+  pacing_delay_ms: 25
+parameters:
+- id: algorithm
+  name: FM Algorithm
+  type: range
+  min: 1
+  max: 8
+  default: 1
+- id: feedback
+  name: Operator 4 Feedback
+  type: range
+  min: 0
+  max: 7
+  default: 6
+- id: lfo_speed
+  name: LFO Speed
+  type: range
+  min: 0
+  max: 99
+  default: 35
+- id: lfo_wave
+  name: LFO Waveform
+  type: enum
+  options:
+  - Saw Up
+  - Square
+  - Triangle
+  - Sample & Hold
+  default: Triangle
+- id: op1_wave
+  name: Op 1 Waveform
+  type: enum
+  options:
+  - W1 (Sine)
+  - W2
+  - W3
+  - W4
+  - W5
+  - W6
+  - W7
+  - W8
+  default: W1 (Sine)
+- id: op1_freq_coarse
+  name: Op 1 Coarse Freq
+  type: range
+  min: 0
+  max: 62
+  default: 1
+- id: op1_level
+  name: Op 1 Output Level
+  type: range
+  min: 0
+  max: 99
+  default: 90
+- id: op2_wave
+  name: Op 2 Waveform
+  type: enum
+  options:
+  - W1 (Sine)
+  - W2
+  - W3
+  - W4
+  - W5
+  - W6
+  - W7
+  - W8
+  default: W2
+- id: op2_freq_coarse
+  name: Op 2 Coarse Freq
+  type: range
+  min: 0
+  max: 62
+  default: 1
+- id: op2_level
+  name: Op 2 Output Level
+  type: range
+  min: 0
+  max: 99
+  default: 78
+- id: op3_wave
+  name: Op 3 Waveform
+  type: enum
+  options:
+  - W1 (Sine)
+  - W2
+  - W3
+  - W4
+  - W5
+  - W6
+  - W7
+  - W8
+  default: W1 (Sine)
+- id: op3_level
+  name: Op 3 Output Level
+  type: range
+  min: 0
+  max: 99
+  default: 0
+- id: op4_wave
+  name: Op 4 Waveform
+  type: enum
+  options:
+  - W1 (Sine)
+  - W2
+  - W3
+  - W4
+  - W5
+  - W6
+  - W7
+  - W8
+  default: W3
+- id: op4_level
+  name: Op 4 Output Level
+  type: range
+  min: 0
+  max: 99
+  default: 65

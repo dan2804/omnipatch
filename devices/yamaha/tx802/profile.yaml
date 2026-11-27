@@ -1,0 +1,68 @@
+schema_version: 1.0.0
+manufacturer: Yamaha Corporation
+name: Yamaha TX802
+family: TX Series
+category: 8-Part Multi-Timbral 6-Operator FM Rack
+year: 1987
+voice_architecture:
+  voices: 16
+  tone_modules: 8
+  audio_outputs: 8 individual outputs + stereo mixed outputs
+  operators: 6
+  algorithms: 32
+  sound_engine: Full DX7II engine in a 2U rackmount module with 8 independent MIDI
+    channels
+  performances: 64 Performances grouping 8 internal voices with individual MIDI channel,
+    output routing, microtuning, and note limits
+midi_specs:
+  basic_channel: 1
+  manufacturer_id: '0x43'
+  sub_status: '0x00'
+  model_id: '0x19'
+  handshake: false
+  pacing_delay_ms: 25
+parameters:
+- id: perf_number
+  name: Performance Select
+  type: range
+  min: 1
+  max: 64
+  default: 1
+- id: voice_number
+  name: Internal Voice Select
+  type: range
+  min: 1
+  max: 128
+  default: 1
+- id: module_channel
+  name: Tone Module MIDI Channel
+  type: range
+  min: 1
+  max: 16
+  default: 1
+- id: output_assign
+  name: Individual Output Assign
+  type: enum
+  options:
+  - Out 1
+  - Out 2
+  - Out 3
+  - Out 4
+  - Out 5
+  - Out 6
+  - Out 7
+  - Out 8
+  - Mix L/R
+  default: Mix L/R
+- id: algorithm
+  name: Operator Algorithm
+  type: range
+  min: 1
+  max: 32
+  default: 1
+- id: feedback
+  name: Feedback Level
+  type: range
+  min: 0
+  max: 7
+  default: 0

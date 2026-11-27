@@ -1,0 +1,97 @@
+schema_version: 1.0.0
+manufacturer: Yamaha Corporation
+name: Yamaha AN1x
+family: AN Series
+category: Analog Physical Modeling Synthesizer (Virtual Analog)
+year: 1997
+voice_architecture:
+  voices: 10
+  oscillators: 2 Virtual Analog Oscillators with Sync, FM, and Ring Mod
+  filters: Resonant Multimode Filter (12dB/24dB Lowpass, Highpass, Bandpass, Band
+    Reject)
+  scenes: Dual Scene Architecture (Scene 1 & Scene 2) with realtime morphing via Mod
+    Wheel or Ribbon
+  free_eg: 4-track Free EG step/motion parameter recorder
+  arpeggiator: Programmable Arpeggiator & Step Sequencer (30 patterns)
+midi_specs:
+  basic_channel: 1
+  manufacturer_id: '0x43'
+  model_id: '0x5C'
+  handshake: false
+  pacing_delay_ms: 25
+parameters:
+- id: vco1_wave
+  name: VCO 1 Waveform
+  type: enum
+  options:
+  - Sawtooth
+  - Variable Pulse
+  default: Sawtooth
+- id: vco1_pulse_width
+  name: VCO 1 Pulse Width
+  type: range
+  min: 0
+  max: 127
+  default: 64
+- id: vco2_wave
+  name: VCO 2 Waveform
+  type: enum
+  options:
+  - Sawtooth
+  - Pulse
+  - Mix
+  default: Sawtooth
+- id: vco_sync
+  name: Oscillator Sync
+  type: enum
+  options:
+  - 'Off'
+  - 'On'
+  - Slave
+  default: 'Off'
+- id: vco_fm_depth
+  name: VCO FM Depth
+  type: range
+  min: 0
+  max: 127
+  default: 0
+- id: vcf_cutoff
+  name: VCF Cutoff Frequency
+  type: range
+  min: 0
+  max: 127
+  default: 80
+- id: vcf_resonance
+  name: VCF Resonance
+  type: range
+  min: 0
+  max: 127
+  default: 40
+- id: vcf_mode
+  name: Filter Slope Mode
+  type: enum
+  options:
+  - 12dB Lowpass
+  - 24dB Lowpass
+  - Bandpass
+  - Highpass
+  - Band Reject
+  default: 24dB Lowpass
+- id: scene_select
+  name: Scene Select / Morph
+  type: enum
+  options:
+  - Scene 1
+  - Scene 2
+  - Morph Position
+  default: Scene 1
+- id: free_eg_track1
+  name: Free EG Track 1 Assign
+  type: enum
+  options:
+  - Cutoff
+  - Resonance
+  - FM Depth
+  - Pulse Width
+  - Pitch
+  default: Cutoff

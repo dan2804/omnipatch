@@ -1,0 +1,92 @@
+schema_version: 1.0.0
+manufacturer: Yamaha Corporation
+name: Yamaha DX7II
+family: DX Series
+category: Dual-Tone Digital FM Synthesizer
+year: 1986
+voice_architecture:
+  voices: 16
+  tone_generators: Dual 6-Operator FM Engines (Voice A & Voice B)
+  modes:
+  - Single
+  - Dual (Layer)
+  - Split
+  fractional_scaling: Full fractional key level scaling across 1/4 octaves
+  microtuning: 11 preset microtunings (User 1-2, Pure Major, Pure Minor, Pythagorean,
+    Mean-Tone, Werckmeister, Kirnberger, Vallotti, Quarter-Tone)
+  stereo_panning: Dynamic dual D/A converters with L/R stereo pan mod
+midi_specs:
+  basic_channel: 1
+  manufacturer_id: '0x43'
+  model_id: '0x19'
+  handshake: false
+  pacing_delay_ms: 35
+parameters:
+- id: play_mode
+  name: Performance Play Mode
+  type: enum
+  options:
+  - Single
+  - Dual
+  - Split
+  default: Dual
+- id: split_point
+  name: Split Point Note
+  type: range
+  min: 21
+  max: 108
+  default: 60
+- id: voice_a_id
+  name: Voice A Select
+  type: range
+  min: 1
+  max: 64
+  default: 1
+- id: voice_b_id
+  name: Voice B Select
+  type: range
+  min: 1
+  max: 64
+  default: 2
+- id: dual_detune
+  name: Dual Mode Detune Depth
+  type: range
+  min: -7
+  max: 7
+  default: 2
+- id: pan_mode
+  name: Pan Modulation Mode
+  type: enum
+  options:
+  - Fixed
+  - Velocity
+  - LFO
+  - Key Tracking
+  default: Key Tracking
+- id: microtuning
+  name: Microtonal Scale
+  type: enum
+  options:
+  - Equal
+  - Pure Major
+  - Pure Minor
+  - Pythagorean
+  - Mean Tone
+  - Werckmeister
+  - Kirnberger
+  - Vallotti
+  - Quarter Tone
+  - 1/8 Tone
+  - User 1
+  - User 2
+  default: Equal
+- id: cs1_assign
+  name: Continuous Slider 1 Assign
+  type: enum
+  options:
+  - Total Volume
+  - Balance A/B
+  - Pitch Mod
+  - Amp Mod
+  - Pan
+  default: Balance A/B

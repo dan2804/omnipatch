@@ -1,0 +1,706 @@
+[
+  {
+    "bank": "ROM 1A",
+    "program": 1,
+    "name": "BRASS 1",
+    "category": "BRASS",
+    "tags": [
+      "dx7",
+      "rom-1a",
+      "brass"
+    ]
+  },
+  {
+    "bank": "ROM 1A",
+    "program": 2,
+    "name": "BRASS 2",
+    "category": "BRASS",
+    "tags": [
+      "dx7",
+      "rom-1a",
+      "brass"
+    ]
+  },
+  {
+    "bank": "ROM 1A",
+    "program": 3,
+    "name": "BRASS 3",
+    "category": "BRASS",
+    "tags": [
+      "dx7",
+      "rom-1a",
+      "brass"
+    ]
+  },
+  {
+    "bank": "ROM 1A",
+    "program": 4,
+    "name": "STRINGS 1",
+    "category": "STRINGS",
+    "tags": [
+      "dx7",
+      "rom-1a",
+      "strings"
+    ]
+  },
+  {
+    "bank": "ROM 1A",
+    "program": 5,
+    "name": "STRINGS 2",
+    "category": "STRINGS",
+    "tags": [
+      "dx7",
+      "rom-1a",
+      "strings"
+    ]
+  },
+  {
+    "bank": "ROM 1A",
+    "program": 6,
+    "name": "STRINGS 3",
+    "category": "STRINGS",
+    "tags": [
+      "dx7",
+      "rom-1a",
+      "strings"
+    ]
+  },
+  {
+    "bank": "ROM 1A",
+    "program": 7,
+    "name": "BASS 1",
+    "category": "BASS",
+    "tags": [
+      "dx7",
+      "rom-1a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM 1A",
+    "program": 8,
+    "name": "BASS 2",
+    "category": "BASS",
+    "tags": [
+      "dx7",
+      "rom-1a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM 1A",
+    "program": 9,
+    "name": "E.PIANO 1",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx7",
+      "rom-1a",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM 1A",
+    "program": 10,
+    "name": "E.ORGAN 1",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx7",
+      "rom-1a",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM 1A",
+    "program": 11,
+    "name": "PIPES 1",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1A",
+    "program": 12,
+    "name": "HARPSICH 1",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx7",
+      "rom-1a",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM 1A",
+    "program": 13,
+    "name": "CLAV 1",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx7",
+      "rom-1a",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM 1A",
+    "program": 14,
+    "name": "VIBE 1",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1A",
+    "program": 15,
+    "name": "MARIMBA",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1A",
+    "program": 16,
+    "name": "KOTO",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1A",
+    "program": 17,
+    "name": "FLUTE 1",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1A",
+    "program": 18,
+    "name": "ORCHESTRA",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1A",
+    "program": 19,
+    "name": "SYN-LEAD 1",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1A",
+    "program": 20,
+    "name": "BASS-LEAD",
+    "category": "BASS",
+    "tags": [
+      "dx7",
+      "rom-1a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM 1A",
+    "program": 21,
+    "name": "VOICE 1",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1A",
+    "program": 22,
+    "name": "CALIOPE",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1A",
+    "program": 23,
+    "name": "GLOCKEN 1",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1A",
+    "program": 24,
+    "name": "TUB BELLS",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1A",
+    "program": 25,
+    "name": "STEEL DRUM",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1A",
+    "program": 26,
+    "name": "TIMPANI",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1A",
+    "program": 27,
+    "name": "SHAKUHACHI",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1A",
+    "program": 28,
+    "name": "GUITAR 1",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1A",
+    "program": 29,
+    "name": "HARMONICA 1",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1A",
+    "program": 30,
+    "name": "SMOKE",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1A",
+    "program": 31,
+    "name": "TRAIN",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1A",
+    "program": 32,
+    "name": "TAKE OFF",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1B",
+    "program": 33,
+    "name": "E.PIANO 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx7",
+      "rom-1b",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM 1B",
+    "program": 34,
+    "name": "E.PIANO 3",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx7",
+      "rom-1b",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM 1B",
+    "program": 35,
+    "name": "JAZZ ORGAN",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx7",
+      "rom-1b",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM 1B",
+    "program": 36,
+    "name": "ROCK ORGAN",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx7",
+      "rom-1b",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM 1B",
+    "program": 37,
+    "name": "CHURCH ORG",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1B",
+    "program": 38,
+    "name": "HONKY-TONK",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1B",
+    "program": 39,
+    "name": "ACOUSTIC PIANO",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx7",
+      "rom-1b",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM 1B",
+    "program": 40,
+    "name": "CLAV 2",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1B",
+    "program": 41,
+    "name": "HARPSI 2",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1B",
+    "program": 42,
+    "name": "SYN-STRINGS",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1B",
+    "program": 43,
+    "name": "WARM PAD",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1B",
+    "program": 44,
+    "name": "SOLO CELLO",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1B",
+    "program": 45,
+    "name": "SOLO VIOLIN",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1B",
+    "program": 46,
+    "name": "SLAP BASS 1",
+    "category": "BASS",
+    "tags": [
+      "dx7",
+      "rom-1b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM 1B",
+    "program": 47,
+    "name": "FRETLESS 1",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1B",
+    "program": 48,
+    "name": "SYN-BASS 2",
+    "category": "BASS",
+    "tags": [
+      "dx7",
+      "rom-1b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM 1B",
+    "program": 49,
+    "name": "TRUMPET 1",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1B",
+    "program": 50,
+    "name": "TROMBONE",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1B",
+    "program": 51,
+    "name": "HORN SECTION",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1B",
+    "program": 52,
+    "name": "PAN FLUTE",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1B",
+    "program": 53,
+    "name": "RECORDER",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1B",
+    "program": 54,
+    "name": "OBOE 1",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1B",
+    "program": 55,
+    "name": "BASSOON 1",
+    "category": "BASS",
+    "tags": [
+      "dx7",
+      "rom-1b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM 1B",
+    "program": 56,
+    "name": "WHISTLE",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1B",
+    "program": 57,
+    "name": "BELL TINES",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1B",
+    "program": 58,
+    "name": "CRYSTAL",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1B",
+    "program": 59,
+    "name": "SYNTH CLAV",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1B",
+    "program": 60,
+    "name": "SOLO SINE",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1B",
+    "program": 61,
+    "name": "FIFTH LEAD",
+    "category": "LEAD",
+    "tags": [
+      "dx7",
+      "rom-1b",
+      "lead"
+    ]
+  },
+  {
+    "bank": "ROM 1B",
+    "program": 62,
+    "name": "ALIEN SPACE",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1B",
+    "program": 63,
+    "name": "THUNDER FX",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM 1B",
+    "program": 64,
+    "name": "EXPLOSION",
+    "category": "SYNTH",
+    "tags": [
+      "dx7",
+      "rom-1b",
+      "synth"
+    ]
+  }
+]

@@ -1,0 +1,63 @@
+schema_version: 1.0.0
+manufacturer: Yamaha Corporation
+name: Yamaha CS1x
+family: CS Series
+category: Dance / Techno Synthesizer Control Workstation
+year: 1996
+voice_architecture:
+  voices: 32
+  parts: 16
+  sound_engine: AWM2 Sample Playback with XG Compatibility + Realtime Performance
+    Layer
+  knobs: 6 Realtime Sound Control Knobs (Attack, Release, Cutoff, Resonance, Assign
+    1, Assign 2)
+  scene_buttons: Scene 1 & Scene 2 recall buttons for continuous vector morphing
+midi_specs:
+  basic_channel: 1
+  manufacturer_id: '0x43'
+  model_id: '0x4B'
+  handshake: false
+  pacing_delay_ms: 25
+parameters:
+- id: cutoff
+  name: Realtime Cutoff Knob
+  type: range
+  min: 0
+  max: 127
+  default: 64
+- id: resonance
+  name: Realtime Resonance Knob
+  type: range
+  min: 0
+  max: 127
+  default: 45
+- id: attack
+  name: Realtime Attack Knob
+  type: range
+  min: 0
+  max: 127
+  default: 64
+- id: release
+  name: Realtime Release Knob
+  type: range
+  min: 0
+  max: 127
+  default: 64
+- id: assign1
+  name: Assign Knob 1
+  type: range
+  min: 0
+  max: 127
+  default: 64
+- id: assign2
+  name: Assign Knob 2
+  type: range
+  min: 0
+  max: 127
+  default: 64
+- id: scene_morph
+  name: Scene Morph Position
+  type: range
+  min: 0
+  max: 127
+  default: 0

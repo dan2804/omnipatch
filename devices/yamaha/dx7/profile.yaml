@@ -1,0 +1,161 @@
+schema_version: 1.0.0
+manufacturer: Yamaha Corporation
+name: Yamaha DX7
+family: DX Series
+category: Digital FM Synthesizer
+year: 1983
+voice_architecture:
+  voices: 16
+  operators: 6
+  algorithms: 32
+  operator_type: Pure Sine Wave Digital Oscillators with Feedback (Op 6)
+  envelopes: 6 x 8-stage (4 rates, 4 levels) Amp Envelopes + 1 Pitch Envelope
+  keyboard: 61 keys with Velocity and Monophonic Channel Aftertouch
+  lfo: Multi-waveform LFO (Triangle, Saw Down, Saw Up, Square, Sine, S/H) with PMD
+    and AMD
+midi_specs:
+  basic_channel: 1
+  manufacturer_id: '0x43'
+  sub_status: '0x00'
+  format_single_voice: 0x00 (155-byte uncompressed voice data)
+  format_32_voice_bank: 0x09 (4096-byte 32-voice bank dump)
+  handshake: false
+  pacing_delay_ms: 50
+parameters:
+- id: algorithm
+  name: FM Algorithm
+  type: range
+  min: 1
+  max: 32
+  default: 1
+- id: feedback
+  name: Operator 6 Feedback Level
+  type: range
+  min: 0
+  max: 7
+  default: 0
+- id: lfo_speed
+  name: LFO Speed Rate
+  type: range
+  min: 0
+  max: 99
+  default: 35
+- id: lfo_delay
+  name: LFO Delay Time
+  type: range
+  min: 0
+  max: 99
+  default: 0
+- id: lfo_pitch_mod_depth
+  name: LFO Pitch Mod Depth
+  type: range
+  min: 0
+  max: 99
+  default: 0
+- id: lfo_amp_mod_depth
+  name: LFO Amp Mod Depth
+  type: range
+  min: 0
+  max: 99
+  default: 0
+- id: lfo_waveform
+  name: LFO Waveform
+  type: enum
+  options:
+  - Triangle
+  - Saw Down
+  - Saw Up
+  - Square
+  - Sine
+  - Sample & Hold
+  default: Triangle
+- id: pitch_eg_rate1
+  name: Pitch EG Rate 1
+  type: range
+  min: 0
+  max: 99
+  default: 99
+- id: pitch_eg_level1
+  name: Pitch EG Level 1
+  type: range
+  min: 0
+  max: 99
+  default: 50
+- id: op1_freq_coarse
+  name: Op 1 Coarse Frequency
+  type: range
+  min: 0
+  max: 31
+  default: 1
+- id: op1_freq_fine
+  name: Op 1 Fine Frequency
+  type: range
+  min: 0
+  max: 99
+  default: 0
+- id: op1_output_level
+  name: Op 1 Output Level
+  type: range
+  min: 0
+  max: 99
+  default: 99
+- id: op2_freq_coarse
+  name: Op 2 Coarse Frequency
+  type: range
+  min: 0
+  max: 31
+  default: 1
+- id: op2_output_level
+  name: Op 2 Output Level
+  type: range
+  min: 0
+  max: 99
+  default: 80
+- id: op3_freq_coarse
+  name: Op 3 Coarse Frequency
+  type: range
+  min: 0
+  max: 31
+  default: 2
+- id: op3_output_level
+  name: Op 3 Output Level
+  type: range
+  min: 0
+  max: 99
+  default: 0
+- id: op4_freq_coarse
+  name: Op 4 Coarse Frequency
+  type: range
+  min: 0
+  max: 31
+  default: 1
+- id: op4_output_level
+  name: Op 4 Output Level
+  type: range
+  min: 0
+  max: 99
+  default: 75
+- id: op5_freq_coarse
+  name: Op 5 Coarse Frequency
+  type: range
+  min: 0
+  max: 31
+  default: 3
+- id: op5_output_level
+  name: Op 5 Output Level
+  type: range
+  min: 0
+  max: 99
+  default: 0
+- id: op6_freq_coarse
+  name: Op 6 Coarse Frequency
+  type: range
+  min: 0
+  max: 31
+  default: 1
+- id: op6_output_level
+  name: Op 6 Output Level
+  type: range
+  min: 0
+  max: 99
+  default: 60

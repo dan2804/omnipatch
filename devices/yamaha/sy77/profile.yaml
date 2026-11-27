@@ -1,0 +1,75 @@
+schema_version: 1.0.0
+manufacturer: Yamaha Corporation
+name: Yamaha SY77
+family: SY Series
+category: RCM Hybrid Synthesizer (AFM + AWM2)
+year: 1989
+voice_architecture:
+  voices: 32
+  elements_per_voice: Up to 4 elements (1AFM, 2AFM, 1AFM+1AWM, 2AFM+2AWM, or 4AWM)
+  afm_engine: Advanced 6-Operator FM with 45 Algorithms, 16 operator waveforms, 3
+    feedback loops
+  awm2_engine: 16-bit 48kHz AWM2 PCM sample playback engine with digital filtering
+  filter_type: Dual Digital Resonant Filters per element (12dB/24dB Lowpass, Highpass,
+    Bandpass)
+  modulation: Realtime Convolution & Modulation (RCM) allowing AWM samples to modulate
+    AFM operators
+midi_specs:
+  basic_channel: 1
+  manufacturer_id: '0x43'
+  model_id: '0x24'
+  handshake: false
+  pacing_delay_ms: 30
+parameters:
+- id: element_structure
+  name: Element Structure
+  type: enum
+  options:
+  - 1 AFM
+  - 2 AFM
+  - 1 AFM + 1 AWM2
+  - 2 AFM + 2 AWM2
+  - 4 AWM2
+  default: 1 AFM + 1 AWM2
+- id: afm_algorithm
+  name: AFM Algorithm
+  type: range
+  min: 1
+  max: 45
+  default: 1
+- id: rcm_mod_source
+  name: RCM Modulation Source
+  type: enum
+  options:
+  - 'Off'
+  - AWM2 Wave
+  - Noise
+  - External
+  default: 'Off'
+- id: filter1_cutoff
+  name: Filter 1 Cutoff
+  type: range
+  min: 0
+  max: 127
+  default: 85
+- id: filter1_resonance
+  name: Filter 1 Resonance
+  type: range
+  min: 0
+  max: 99
+  default: 25
+- id: filter1_mode
+  name: Filter 1 Mode
+  type: enum
+  options:
+  - Lowpass 12dB
+  - Lowpass 24dB
+  - Highpass
+  - Bandpass
+  default: Lowpass 24dB
+- id: pan_position
+  name: Element Stereo Pan
+  type: range
+  min: -31
+  max: 31
+  default: 0

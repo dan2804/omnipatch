@@ -1,0 +1,70 @@
+schema_version: 1.0.0
+manufacturer: Yamaha Corporation
+name: Yamaha Motif
+family: Motif Series
+category: Music Production Synthesizer Workstation
+year: 2001
+voice_architecture:
+  voices: 64
+  parts: 16
+  sound_engine: Advanced AWM2 with 85MB Wave ROM (1,309 waveforms)
+  expansion: 3 Modular Synthesis Plug-in System (PLG) slots (AN, DX, VL, AP, DR)
+  filter_type: Digital Dynamic Resonant Multimode Filters (18 filter types)
+  effects: Dual Insertion FX (54 types) + System Reverb (20 types) + Chorus (44 types)
+    + Master EQ/Comp
+midi_specs:
+  basic_channel: 1
+  manufacturer_id: '0x43'
+  model_id: '0x6B'
+  handshake: false
+  pacing_delay_ms: 20
+parameters:
+- id: vcf_cutoff
+  name: Filter Cutoff
+  type: range
+  min: 0
+  max: 127
+  default: 64
+- id: vcf_resonance
+  name: Filter Resonance
+  type: range
+  min: 0
+  max: 127
+  default: 32
+- id: env_attack
+  name: Amp Attack Time
+  type: range
+  min: 0
+  max: 127
+  default: 64
+- id: env_decay
+  name: Amp Decay Time
+  type: range
+  min: 0
+  max: 127
+  default: 64
+- id: env_release
+  name: Amp Release Time
+  type: range
+  min: 0
+  max: 127
+  default: 64
+- id: reverb_send
+  name: Reverb Send
+  type: range
+  min: 0
+  max: 127
+  default: 40
+- id: chorus_send
+  name: Chorus Send
+  type: range
+  min: 0
+  max: 127
+  default: 20
+- id: arp_switch
+  name: Arpeggiator Master Switch
+  type: enum
+  options:
+  - 'Off'
+  - 'On'
+  default: 'Off'

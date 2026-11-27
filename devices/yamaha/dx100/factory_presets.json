@@ -1,0 +1,2354 @@
+[
+  {
+    "bank": "ROM PRESET 1",
+    "program": 1,
+    "name": "1-01: 01 Solid Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-1",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 1",
+    "program": 2,
+    "name": "1-02: 02 Heavy Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-1",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 1",
+    "program": 3,
+    "name": "1-03: 03 Synth Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-1",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 1",
+    "program": 4,
+    "name": "1-04: 04 Slap Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-1",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 1",
+    "program": 5,
+    "name": "1-05: 05 Pluck Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-1",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 1",
+    "program": 6,
+    "name": "1-06: 06 Fretless",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-1",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 1",
+    "program": 7,
+    "name": "1-07: 07 E.Piano 1",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-1",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 1",
+    "program": 8,
+    "name": "1-08: 08 E.Piano 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-1",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 1",
+    "program": 9,
+    "name": "1-09: 09 Clav 1",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-1",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 1",
+    "program": 10,
+    "name": "1-10: 10 Clav 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-1",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 1",
+    "program": 11,
+    "name": "1-11: 11 Jazz Organ",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-1",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 1",
+    "program": 12,
+    "name": "1-12: 12 Church Org",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-1",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 1",
+    "program": 13,
+    "name": "1-13: 13 Strings 1",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-1",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 1",
+    "program": 14,
+    "name": "1-14: 14 Strings 2",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-1",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 1",
+    "program": 15,
+    "name": "1-15: 15 Brass 1",
+    "category": "BRASS",
+    "tags": [
+      "dx100",
+      "rom-1",
+      "brass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 1",
+    "program": 16,
+    "name": "1-16: 16 Brass 2",
+    "category": "BRASS",
+    "tags": [
+      "dx100",
+      "rom-1",
+      "brass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 1",
+    "program": 17,
+    "name": "1-17: 17 Trumpet",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-1",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 1",
+    "program": 18,
+    "name": "1-18: 18 Horn",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-1",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 1",
+    "program": 19,
+    "name": "1-19: 19 Flute",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-1",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 1",
+    "program": 20,
+    "name": "1-20: 20 Pan Flute",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-1",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 1",
+    "program": 21,
+    "name": "1-21: 21 Marimba",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-1",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 1",
+    "program": 22,
+    "name": "1-22: 22 Vibes",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-1",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 1",
+    "program": 23,
+    "name": "1-23: 23 Glocken",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-1",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 1",
+    "program": 24,
+    "name": "1-24: 24 Steel Drum",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-1",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 2",
+    "program": 1,
+    "name": "2-01: 01 Solid Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-2",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 2",
+    "program": 2,
+    "name": "2-02: 02 Heavy Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-2",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 2",
+    "program": 3,
+    "name": "2-03: 03 Synth Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-2",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 2",
+    "program": 4,
+    "name": "2-04: 04 Slap Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-2",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 2",
+    "program": 5,
+    "name": "2-05: 05 Pluck Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-2",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 2",
+    "program": 6,
+    "name": "2-06: 06 Fretless",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-2",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 2",
+    "program": 7,
+    "name": "2-07: 07 E.Piano 1",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-2",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 2",
+    "program": 8,
+    "name": "2-08: 08 E.Piano 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-2",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 2",
+    "program": 9,
+    "name": "2-09: 09 Clav 1",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-2",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 2",
+    "program": 10,
+    "name": "2-10: 10 Clav 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-2",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 2",
+    "program": 11,
+    "name": "2-11: 11 Jazz Organ",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-2",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 2",
+    "program": 12,
+    "name": "2-12: 12 Church Org",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-2",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 2",
+    "program": 13,
+    "name": "2-13: 13 Strings 1",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-2",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 2",
+    "program": 14,
+    "name": "2-14: 14 Strings 2",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-2",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 2",
+    "program": 15,
+    "name": "2-15: 15 Brass 1",
+    "category": "BRASS",
+    "tags": [
+      "dx100",
+      "rom-2",
+      "brass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 2",
+    "program": 16,
+    "name": "2-16: 16 Brass 2",
+    "category": "BRASS",
+    "tags": [
+      "dx100",
+      "rom-2",
+      "brass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 2",
+    "program": 17,
+    "name": "2-17: 17 Trumpet",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-2",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 2",
+    "program": 18,
+    "name": "2-18: 18 Horn",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-2",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 2",
+    "program": 19,
+    "name": "2-19: 19 Flute",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-2",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 2",
+    "program": 20,
+    "name": "2-20: 20 Pan Flute",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-2",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 2",
+    "program": 21,
+    "name": "2-21: 21 Marimba",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-2",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 2",
+    "program": 22,
+    "name": "2-22: 22 Vibes",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-2",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 2",
+    "program": 23,
+    "name": "2-23: 23 Glocken",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-2",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 2",
+    "program": 24,
+    "name": "2-24: 24 Steel Drum",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-2",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 3",
+    "program": 1,
+    "name": "3-01: 01 Solid Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-3",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 3",
+    "program": 2,
+    "name": "3-02: 02 Heavy Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-3",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 3",
+    "program": 3,
+    "name": "3-03: 03 Synth Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-3",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 3",
+    "program": 4,
+    "name": "3-04: 04 Slap Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-3",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 3",
+    "program": 5,
+    "name": "3-05: 05 Pluck Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-3",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 3",
+    "program": 6,
+    "name": "3-06: 06 Fretless",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-3",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 3",
+    "program": 7,
+    "name": "3-07: 07 E.Piano 1",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-3",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 3",
+    "program": 8,
+    "name": "3-08: 08 E.Piano 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-3",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 3",
+    "program": 9,
+    "name": "3-09: 09 Clav 1",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-3",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 3",
+    "program": 10,
+    "name": "3-10: 10 Clav 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-3",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 3",
+    "program": 11,
+    "name": "3-11: 11 Jazz Organ",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-3",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 3",
+    "program": 12,
+    "name": "3-12: 12 Church Org",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-3",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 3",
+    "program": 13,
+    "name": "3-13: 13 Strings 1",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-3",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 3",
+    "program": 14,
+    "name": "3-14: 14 Strings 2",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-3",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 3",
+    "program": 15,
+    "name": "3-15: 15 Brass 1",
+    "category": "BRASS",
+    "tags": [
+      "dx100",
+      "rom-3",
+      "brass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 3",
+    "program": 16,
+    "name": "3-16: 16 Brass 2",
+    "category": "BRASS",
+    "tags": [
+      "dx100",
+      "rom-3",
+      "brass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 3",
+    "program": 17,
+    "name": "3-17: 17 Trumpet",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-3",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 3",
+    "program": 18,
+    "name": "3-18: 18 Horn",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-3",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 3",
+    "program": 19,
+    "name": "3-19: 19 Flute",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-3",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 3",
+    "program": 20,
+    "name": "3-20: 20 Pan Flute",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-3",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 3",
+    "program": 21,
+    "name": "3-21: 21 Marimba",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-3",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 3",
+    "program": 22,
+    "name": "3-22: 22 Vibes",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-3",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 3",
+    "program": 23,
+    "name": "3-23: 23 Glocken",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-3",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 3",
+    "program": 24,
+    "name": "3-24: 24 Steel Drum",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-3",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 4",
+    "program": 1,
+    "name": "4-01: 01 Solid Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-4",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 4",
+    "program": 2,
+    "name": "4-02: 02 Heavy Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-4",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 4",
+    "program": 3,
+    "name": "4-03: 03 Synth Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-4",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 4",
+    "program": 4,
+    "name": "4-04: 04 Slap Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-4",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 4",
+    "program": 5,
+    "name": "4-05: 05 Pluck Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-4",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 4",
+    "program": 6,
+    "name": "4-06: 06 Fretless",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-4",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 4",
+    "program": 7,
+    "name": "4-07: 07 E.Piano 1",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-4",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 4",
+    "program": 8,
+    "name": "4-08: 08 E.Piano 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-4",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 4",
+    "program": 9,
+    "name": "4-09: 09 Clav 1",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-4",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 4",
+    "program": 10,
+    "name": "4-10: 10 Clav 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-4",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 4",
+    "program": 11,
+    "name": "4-11: 11 Jazz Organ",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-4",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 4",
+    "program": 12,
+    "name": "4-12: 12 Church Org",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-4",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 4",
+    "program": 13,
+    "name": "4-13: 13 Strings 1",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-4",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 4",
+    "program": 14,
+    "name": "4-14: 14 Strings 2",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-4",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 4",
+    "program": 15,
+    "name": "4-15: 15 Brass 1",
+    "category": "BRASS",
+    "tags": [
+      "dx100",
+      "rom-4",
+      "brass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 4",
+    "program": 16,
+    "name": "4-16: 16 Brass 2",
+    "category": "BRASS",
+    "tags": [
+      "dx100",
+      "rom-4",
+      "brass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 4",
+    "program": 17,
+    "name": "4-17: 17 Trumpet",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-4",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 4",
+    "program": 18,
+    "name": "4-18: 18 Horn",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-4",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 4",
+    "program": 19,
+    "name": "4-19: 19 Flute",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-4",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 4",
+    "program": 20,
+    "name": "4-20: 20 Pan Flute",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-4",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 4",
+    "program": 21,
+    "name": "4-21: 21 Marimba",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-4",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 4",
+    "program": 22,
+    "name": "4-22: 22 Vibes",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-4",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 4",
+    "program": 23,
+    "name": "4-23: 23 Glocken",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-4",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 4",
+    "program": 24,
+    "name": "4-24: 24 Steel Drum",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-4",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 5",
+    "program": 1,
+    "name": "5-01: 01 Solid Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-5",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 5",
+    "program": 2,
+    "name": "5-02: 02 Heavy Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-5",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 5",
+    "program": 3,
+    "name": "5-03: 03 Synth Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-5",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 5",
+    "program": 4,
+    "name": "5-04: 04 Slap Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-5",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 5",
+    "program": 5,
+    "name": "5-05: 05 Pluck Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-5",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 5",
+    "program": 6,
+    "name": "5-06: 06 Fretless",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-5",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 5",
+    "program": 7,
+    "name": "5-07: 07 E.Piano 1",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-5",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 5",
+    "program": 8,
+    "name": "5-08: 08 E.Piano 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-5",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 5",
+    "program": 9,
+    "name": "5-09: 09 Clav 1",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-5",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 5",
+    "program": 10,
+    "name": "5-10: 10 Clav 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-5",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 5",
+    "program": 11,
+    "name": "5-11: 11 Jazz Organ",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-5",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 5",
+    "program": 12,
+    "name": "5-12: 12 Church Org",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-5",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 5",
+    "program": 13,
+    "name": "5-13: 13 Strings 1",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-5",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 5",
+    "program": 14,
+    "name": "5-14: 14 Strings 2",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-5",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 5",
+    "program": 15,
+    "name": "5-15: 15 Brass 1",
+    "category": "BRASS",
+    "tags": [
+      "dx100",
+      "rom-5",
+      "brass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 5",
+    "program": 16,
+    "name": "5-16: 16 Brass 2",
+    "category": "BRASS",
+    "tags": [
+      "dx100",
+      "rom-5",
+      "brass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 5",
+    "program": 17,
+    "name": "5-17: 17 Trumpet",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-5",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 5",
+    "program": 18,
+    "name": "5-18: 18 Horn",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-5",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 5",
+    "program": 19,
+    "name": "5-19: 19 Flute",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-5",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 5",
+    "program": 20,
+    "name": "5-20: 20 Pan Flute",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-5",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 5",
+    "program": 21,
+    "name": "5-21: 21 Marimba",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-5",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 5",
+    "program": 22,
+    "name": "5-22: 22 Vibes",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-5",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 5",
+    "program": 23,
+    "name": "5-23: 23 Glocken",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-5",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 5",
+    "program": 24,
+    "name": "5-24: 24 Steel Drum",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-5",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 6",
+    "program": 1,
+    "name": "6-01: 01 Solid Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-6",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 6",
+    "program": 2,
+    "name": "6-02: 02 Heavy Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-6",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 6",
+    "program": 3,
+    "name": "6-03: 03 Synth Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-6",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 6",
+    "program": 4,
+    "name": "6-04: 04 Slap Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-6",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 6",
+    "program": 5,
+    "name": "6-05: 05 Pluck Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-6",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 6",
+    "program": 6,
+    "name": "6-06: 06 Fretless",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-6",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 6",
+    "program": 7,
+    "name": "6-07: 07 E.Piano 1",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-6",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 6",
+    "program": 8,
+    "name": "6-08: 08 E.Piano 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-6",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 6",
+    "program": 9,
+    "name": "6-09: 09 Clav 1",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-6",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 6",
+    "program": 10,
+    "name": "6-10: 10 Clav 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-6",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 6",
+    "program": 11,
+    "name": "6-11: 11 Jazz Organ",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-6",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 6",
+    "program": 12,
+    "name": "6-12: 12 Church Org",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-6",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 6",
+    "program": 13,
+    "name": "6-13: 13 Strings 1",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-6",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 6",
+    "program": 14,
+    "name": "6-14: 14 Strings 2",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-6",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 6",
+    "program": 15,
+    "name": "6-15: 15 Brass 1",
+    "category": "BRASS",
+    "tags": [
+      "dx100",
+      "rom-6",
+      "brass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 6",
+    "program": 16,
+    "name": "6-16: 16 Brass 2",
+    "category": "BRASS",
+    "tags": [
+      "dx100",
+      "rom-6",
+      "brass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 6",
+    "program": 17,
+    "name": "6-17: 17 Trumpet",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-6",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 6",
+    "program": 18,
+    "name": "6-18: 18 Horn",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-6",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 6",
+    "program": 19,
+    "name": "6-19: 19 Flute",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-6",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 6",
+    "program": 20,
+    "name": "6-20: 20 Pan Flute",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-6",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 6",
+    "program": 21,
+    "name": "6-21: 21 Marimba",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-6",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 6",
+    "program": 22,
+    "name": "6-22: 22 Vibes",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-6",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 6",
+    "program": 23,
+    "name": "6-23: 23 Glocken",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-6",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 6",
+    "program": 24,
+    "name": "6-24: 24 Steel Drum",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-6",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 7",
+    "program": 1,
+    "name": "7-01: 01 Solid Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-7",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 7",
+    "program": 2,
+    "name": "7-02: 02 Heavy Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-7",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 7",
+    "program": 3,
+    "name": "7-03: 03 Synth Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-7",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 7",
+    "program": 4,
+    "name": "7-04: 04 Slap Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-7",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 7",
+    "program": 5,
+    "name": "7-05: 05 Pluck Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-7",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 7",
+    "program": 6,
+    "name": "7-06: 06 Fretless",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-7",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 7",
+    "program": 7,
+    "name": "7-07: 07 E.Piano 1",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-7",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 7",
+    "program": 8,
+    "name": "7-08: 08 E.Piano 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-7",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 7",
+    "program": 9,
+    "name": "7-09: 09 Clav 1",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-7",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 7",
+    "program": 10,
+    "name": "7-10: 10 Clav 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-7",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 7",
+    "program": 11,
+    "name": "7-11: 11 Jazz Organ",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-7",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 7",
+    "program": 12,
+    "name": "7-12: 12 Church Org",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-7",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 7",
+    "program": 13,
+    "name": "7-13: 13 Strings 1",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-7",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 7",
+    "program": 14,
+    "name": "7-14: 14 Strings 2",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-7",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 7",
+    "program": 15,
+    "name": "7-15: 15 Brass 1",
+    "category": "BRASS",
+    "tags": [
+      "dx100",
+      "rom-7",
+      "brass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 7",
+    "program": 16,
+    "name": "7-16: 16 Brass 2",
+    "category": "BRASS",
+    "tags": [
+      "dx100",
+      "rom-7",
+      "brass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 7",
+    "program": 17,
+    "name": "7-17: 17 Trumpet",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-7",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 7",
+    "program": 18,
+    "name": "7-18: 18 Horn",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-7",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 7",
+    "program": 19,
+    "name": "7-19: 19 Flute",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-7",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 7",
+    "program": 20,
+    "name": "7-20: 20 Pan Flute",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-7",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 7",
+    "program": 21,
+    "name": "7-21: 21 Marimba",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-7",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 7",
+    "program": 22,
+    "name": "7-22: 22 Vibes",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-7",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 7",
+    "program": 23,
+    "name": "7-23: 23 Glocken",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-7",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 7",
+    "program": 24,
+    "name": "7-24: 24 Steel Drum",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-7",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 8",
+    "program": 1,
+    "name": "8-01: 01 Solid Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-8",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 8",
+    "program": 2,
+    "name": "8-02: 02 Heavy Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-8",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 8",
+    "program": 3,
+    "name": "8-03: 03 Synth Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-8",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 8",
+    "program": 4,
+    "name": "8-04: 04 Slap Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-8",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 8",
+    "program": 5,
+    "name": "8-05: 05 Pluck Bass",
+    "category": "BASS",
+    "tags": [
+      "dx100",
+      "rom-8",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 8",
+    "program": 6,
+    "name": "8-06: 06 Fretless",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-8",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 8",
+    "program": 7,
+    "name": "8-07: 07 E.Piano 1",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-8",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 8",
+    "program": 8,
+    "name": "8-08: 08 E.Piano 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-8",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 8",
+    "program": 9,
+    "name": "8-09: 09 Clav 1",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-8",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 8",
+    "program": 10,
+    "name": "8-10: 10 Clav 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-8",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 8",
+    "program": 11,
+    "name": "8-11: 11 Jazz Organ",
+    "category": "KEYBOARD",
+    "tags": [
+      "dx100",
+      "rom-8",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 8",
+    "program": 12,
+    "name": "8-12: 12 Church Org",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-8",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 8",
+    "program": 13,
+    "name": "8-13: 13 Strings 1",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-8",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 8",
+    "program": 14,
+    "name": "8-14: 14 Strings 2",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-8",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 8",
+    "program": 15,
+    "name": "8-15: 15 Brass 1",
+    "category": "BRASS",
+    "tags": [
+      "dx100",
+      "rom-8",
+      "brass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 8",
+    "program": 16,
+    "name": "8-16: 16 Brass 2",
+    "category": "BRASS",
+    "tags": [
+      "dx100",
+      "rom-8",
+      "brass"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 8",
+    "program": 17,
+    "name": "8-17: 17 Trumpet",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-8",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 8",
+    "program": 18,
+    "name": "8-18: 18 Horn",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-8",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 8",
+    "program": 19,
+    "name": "8-19: 19 Flute",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-8",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 8",
+    "program": 20,
+    "name": "8-20: 20 Pan Flute",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-8",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 8",
+    "program": 21,
+    "name": "8-21: 21 Marimba",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-8",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 8",
+    "program": 22,
+    "name": "8-22: 22 Vibes",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-8",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 8",
+    "program": 23,
+    "name": "8-23: 23 Glocken",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-8",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM PRESET 8",
+    "program": 24,
+    "name": "8-24: 24 Steel Drum",
+    "category": "SYNTH",
+    "tags": [
+      "dx100",
+      "rom-8",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL RAM",
+    "program": 1,
+    "name": "RAM 01: 01 Solid Bass",
+    "category": "USER",
+    "tags": [
+      "dx100",
+      "ram"
+    ]
+  },
+  {
+    "bank": "INTERNAL RAM",
+    "program": 2,
+    "name": "RAM 02: 02 Heavy Bass",
+    "category": "USER",
+    "tags": [
+      "dx100",
+      "ram"
+    ]
+  },
+  {
+    "bank": "INTERNAL RAM",
+    "program": 3,
+    "name": "RAM 03: 03 Synth Bass",
+    "category": "USER",
+    "tags": [
+      "dx100",
+      "ram"
+    ]
+  },
+  {
+    "bank": "INTERNAL RAM",
+    "program": 4,
+    "name": "RAM 04: 04 Slap Bass",
+    "category": "USER",
+    "tags": [
+      "dx100",
+      "ram"
+    ]
+  },
+  {
+    "bank": "INTERNAL RAM",
+    "program": 5,
+    "name": "RAM 05: 05 Pluck Bass",
+    "category": "USER",
+    "tags": [
+      "dx100",
+      "ram"
+    ]
+  },
+  {
+    "bank": "INTERNAL RAM",
+    "program": 6,
+    "name": "RAM 06: 06 Fretless",
+    "category": "USER",
+    "tags": [
+      "dx100",
+      "ram"
+    ]
+  },
+  {
+    "bank": "INTERNAL RAM",
+    "program": 7,
+    "name": "RAM 07: 07 E.Piano 1",
+    "category": "USER",
+    "tags": [
+      "dx100",
+      "ram"
+    ]
+  },
+  {
+    "bank": "INTERNAL RAM",
+    "program": 8,
+    "name": "RAM 08: 08 E.Piano 2",
+    "category": "USER",
+    "tags": [
+      "dx100",
+      "ram"
+    ]
+  },
+  {
+    "bank": "INTERNAL RAM",
+    "program": 9,
+    "name": "RAM 09: 09 Clav 1",
+    "category": "USER",
+    "tags": [
+      "dx100",
+      "ram"
+    ]
+  },
+  {
+    "bank": "INTERNAL RAM",
+    "program": 10,
+    "name": "RAM 10: 10 Clav 2",
+    "category": "USER",
+    "tags": [
+      "dx100",
+      "ram"
+    ]
+  },
+  {
+    "bank": "INTERNAL RAM",
+    "program": 11,
+    "name": "RAM 11: 11 Jazz Organ",
+    "category": "USER",
+    "tags": [
+      "dx100",
+      "ram"
+    ]
+  },
+  {
+    "bank": "INTERNAL RAM",
+    "program": 12,
+    "name": "RAM 12: 12 Church Org",
+    "category": "USER",
+    "tags": [
+      "dx100",
+      "ram"
+    ]
+  },
+  {
+    "bank": "INTERNAL RAM",
+    "program": 13,
+    "name": "RAM 13: 13 Strings 1",
+    "category": "USER",
+    "tags": [
+      "dx100",
+      "ram"
+    ]
+  },
+  {
+    "bank": "INTERNAL RAM",
+    "program": 14,
+    "name": "RAM 14: 14 Strings 2",
+    "category": "USER",
+    "tags": [
+      "dx100",
+      "ram"
+    ]
+  },
+  {
+    "bank": "INTERNAL RAM",
+    "program": 15,
+    "name": "RAM 15: 15 Brass 1",
+    "category": "USER",
+    "tags": [
+      "dx100",
+      "ram"
+    ]
+  },
+  {
+    "bank": "INTERNAL RAM",
+    "program": 16,
+    "name": "RAM 16: 16 Brass 2",
+    "category": "USER",
+    "tags": [
+      "dx100",
+      "ram"
+    ]
+  },
+  {
+    "bank": "INTERNAL RAM",
+    "program": 17,
+    "name": "RAM 17: 17 Trumpet",
+    "category": "USER",
+    "tags": [
+      "dx100",
+      "ram"
+    ]
+  },
+  {
+    "bank": "INTERNAL RAM",
+    "program": 18,
+    "name": "RAM 18: 18 Horn",
+    "category": "USER",
+    "tags": [
+      "dx100",
+      "ram"
+    ]
+  },
+  {
+    "bank": "INTERNAL RAM",
+    "program": 19,
+    "name": "RAM 19: 19 Flute",
+    "category": "USER",
+    "tags": [
+      "dx100",
+      "ram"
+    ]
+  },
+  {
+    "bank": "INTERNAL RAM",
+    "program": 20,
+    "name": "RAM 20: 20 Pan Flute",
+    "category": "USER",
+    "tags": [
+      "dx100",
+      "ram"
+    ]
+  },
+  {
+    "bank": "INTERNAL RAM",
+    "program": 21,
+    "name": "RAM 21: 21 Marimba",
+    "category": "USER",
+    "tags": [
+      "dx100",
+      "ram"
+    ]
+  },
+  {
+    "bank": "INTERNAL RAM",
+    "program": 22,
+    "name": "RAM 22: 22 Vibes",
+    "category": "USER",
+    "tags": [
+      "dx100",
+      "ram"
+    ]
+  },
+  {
+    "bank": "INTERNAL RAM",
+    "program": 23,
+    "name": "RAM 23: 23 Glocken",
+    "category": "USER",
+    "tags": [
+      "dx100",
+      "ram"
+    ]
+  },
+  {
+    "bank": "INTERNAL RAM",
+    "program": 24,
+    "name": "RAM 24: 24 Steel Drum",
+    "category": "USER",
+    "tags": [
+      "dx100",
+      "ram"
+    ]
+  }
+]

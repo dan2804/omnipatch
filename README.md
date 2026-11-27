@@ -26,12 +26,21 @@ OmniPatch is a high-performance, modular patch librarian and hardware editor wri
 
 ---
 
-## Supported Synthesizers (55 Production Profiles)
+## Supported Synthesizers (64 Production Profiles)
 
-OmniPatch ships with 55 comprehensive device profiles across 5 legendary synthesizer manufacturers:
+OmniPatch ships with 64 comprehensive device profiles across 6 legendary synthesizer manufacturers:
 
 | Synthesizer | Manufacturer | Architecture | Parameters | Presets | SysEx ID / Details |
 | :--- | :--- | :--- | :---: | :---: | :--- |
+| **Yamaha DX7** | Yamaha Corporation | 16-Voice 6-Operator Digital FM Flagship | 22 | 64 | `0x43` · 32 algorithms, 6 EGs, pure sine operators, E.Piano 1 & Bass 1 |
+| **Yamaha DX7II (FD/D)** | Yamaha Corporation | Dual 6-Op FM Synth w/ Fractional Scaling | 8 | 96 | `0x43` (ID `0x19`) · Dual/Split/Single, microtuning, stereo panning |
+| **Yamaha TX81Z** | Yamaha Corporation | 8-Voice 4-Op Multi-Waveform FM Rack | 14 | 160 | `0x43` (ID `0x7E`) · 8 waveforms (W1-W8), LatelyBass, 8-part multi |
+| **Yamaha TX802** | Yamaha Corporation | 8-Part 6-Op FM Rack (8x DX7II) | 6 | 192 | `0x43` (ID `0x19`) · 8 discrete audio outputs, 64 performances |
+| **Yamaha DX100** | Yamaha Corporation | Portable 4-Operator FM Performance Synth | 10 | 216 | `0x43` (ID `0x04`) · Solid Bass (Voice 01), strap pins, 192 ROM sounds |
+| **Yamaha AN1x** | Yamaha Corporation | 10-Voice Analog Physical Modeling (VA) | 10 | 128 | `0x43` (ID `0x5C`) · Dual scene morphing, 4-track Free EG motion recorder |
+| **Yamaha CS1x** | Yamaha Corporation | Dance/Techno Performance Synthesizer | 7 | 128 | `0x43` (ID `0x4B`) · Realtime analog-style knobs, Scene 1/2 vector morph |
+| **Yamaha SY77 / TG77** | Yamaha Corporation | RCM Hybrid Synthesizer (AFM + AWM2) | 7 | 80 | `0x43` (ID `0x24`) · 6-op 45-algo AFM modulated by 16-bit AWM2 PCM |
+| **Yamaha Motif** | Yamaha Corporation | 64-Voice AWM2 Production Workstation | 8 | 394 | `0x43` (ID `0x6B`) · 85MB Wave ROM, PLG expansion, Dual Insert FX |
 | **Roland JX-3P** | Roland Corporation | 6-Voice DCO Analog Polyphonic Synth | 28 | 64 | `0x41` · IR3109 VCF, BBD chorus, 128-step poly sequencer, PG-200 |
 | **Roland JX-8P** | Roland Corporation | 6-Voice DCO Analog Synth w/ PG-800 | 36 | 64 | `0x06` · Sync/Metal cross-mod, dual envelopes, touch sensitivity |
 | **Roland JX-10 Super JX** | Roland Corporation | 12-Voice Flagship Dual DCO Analog | 10 | 164 | `0x0A` · Dual tone layers, Chase Play delay, 64 patches + 100 tones |

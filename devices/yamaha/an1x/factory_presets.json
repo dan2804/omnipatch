@@ -1,0 +1,1410 @@
+[
+  {
+    "bank": "FACTORY PRESET",
+    "program": 1,
+    "name": "001: Millennium Lead",
+    "category": "LEAD",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "lead"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 2,
+    "name": "002: Super Saw Matrix",
+    "category": "LEAD",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "lead"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 3,
+    "name": "003: Prophet Brass 5",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 4,
+    "name": "004: Minimoog Fat Sub",
+    "category": "BASS",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "bass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 5,
+    "name": "005: Acid TB Squelch",
+    "category": "BASS",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "bass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 6,
+    "name": "006: Sync Aggressor AN",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 7,
+    "name": "007: Blade Runner CS80",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 8,
+    "name": "008: Warm Analog Strings",
+    "category": "PAD",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "pad"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 9,
+    "name": "009: Oberheim Poly 8",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 10,
+    "name": "010: Cyber Pluck Arp",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 11,
+    "name": "011: Formant Vowel Lead",
+    "category": "LEAD",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "lead"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 12,
+    "name": "012: Industrial Pulse",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 13,
+    "name": "013: Deep Space Nebula",
+    "category": "PAD",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "pad"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 14,
+    "name": "014: Trance Gate Chords",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 15,
+    "name": "015: Euro Rave Anthem",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 16,
+    "name": "016: Rotterdam Stab 90s",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 17,
+    "name": "017: Juno Sub Bass",
+    "category": "BASS",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "bass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 18,
+    "name": "018: PWM Motion Pad",
+    "category": "PAD",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "pad"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 19,
+    "name": "019: Vaporwave Synth",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 20,
+    "name": "020: Liquid 24dB Sweep",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 21,
+    "name": "021: Reso Ring Modulator",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 22,
+    "name": "022: Hardcore Square Solo",
+    "category": "LEAD",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "lead"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 23,
+    "name": "023: Analog Tine Piano",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 24,
+    "name": "024: Rotary B3 Drive",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 25,
+    "name": "025: Church Tutti 1x",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 26,
+    "name": "026: Whistle Solo AN",
+    "category": "LEAD",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "lead"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 27,
+    "name": "027: Cosmic Solar Flare",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 28,
+    "name": "028: Modular Chaos Sequencer",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 29,
+    "name": "029: Alien Transmission",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 30,
+    "name": "030: Laser Beam Solo",
+    "category": "LEAD",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "lead"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 31,
+    "name": "031: Sub 30Hz Sine Drop",
+    "category": "BASS",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "bass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 32,
+    "name": "032: AN1x Signature Anthem",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 33,
+    "name": "033: Millennium Lead v2",
+    "category": "LEAD",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "lead"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 34,
+    "name": "034: Super Saw Matrix v2",
+    "category": "LEAD",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "lead"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 35,
+    "name": "035: Prophet Brass 5 v2",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 36,
+    "name": "036: Minimoog Fat Sub v2",
+    "category": "BASS",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "bass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 37,
+    "name": "037: Acid TB Squelch v2",
+    "category": "BASS",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "bass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 38,
+    "name": "038: Sync Aggressor AN v2",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 39,
+    "name": "039: Blade Runner CS80 v2",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 40,
+    "name": "040: Warm Analog Strings v2",
+    "category": "PAD",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "pad"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 41,
+    "name": "041: Oberheim Poly 8 v2",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 42,
+    "name": "042: Cyber Pluck Arp v2",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 43,
+    "name": "043: Formant Vowel Lead v2",
+    "category": "LEAD",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "lead"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 44,
+    "name": "044: Industrial Pulse v2",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 45,
+    "name": "045: Deep Space Nebula v2",
+    "category": "PAD",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "pad"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 46,
+    "name": "046: Trance Gate Chords v2",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 47,
+    "name": "047: Euro Rave Anthem v2",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 48,
+    "name": "048: Rotterdam Stab 90s v2",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 49,
+    "name": "049: Juno Sub Bass v2",
+    "category": "BASS",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "bass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 50,
+    "name": "050: PWM Motion Pad v2",
+    "category": "PAD",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "pad"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 51,
+    "name": "051: Vaporwave Synth v2",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 52,
+    "name": "052: Liquid 24dB Sweep v2",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 53,
+    "name": "053: Reso Ring Modulator v2",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 54,
+    "name": "054: Hardcore Square Solo v2",
+    "category": "LEAD",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "lead"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 55,
+    "name": "055: Analog Tine Piano v2",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 56,
+    "name": "056: Rotary B3 Drive v2",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 57,
+    "name": "057: Church Tutti 1x v2",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 58,
+    "name": "058: Whistle Solo AN v2",
+    "category": "LEAD",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "lead"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 59,
+    "name": "059: Cosmic Solar Flare v2",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 60,
+    "name": "060: Modular Chaos Sequencer v2",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 61,
+    "name": "061: Alien Transmission v2",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 62,
+    "name": "062: Laser Beam Solo v2",
+    "category": "LEAD",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "lead"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 63,
+    "name": "063: Sub 30Hz Sine Drop v2",
+    "category": "BASS",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "bass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 64,
+    "name": "064: AN1x Signature Anthem v2",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 65,
+    "name": "065: Millennium Lead v3",
+    "category": "LEAD",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "lead"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 66,
+    "name": "066: Super Saw Matrix v3",
+    "category": "LEAD",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "lead"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 67,
+    "name": "067: Prophet Brass 5 v3",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 68,
+    "name": "068: Minimoog Fat Sub v3",
+    "category": "BASS",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "bass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 69,
+    "name": "069: Acid TB Squelch v3",
+    "category": "BASS",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "bass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 70,
+    "name": "070: Sync Aggressor AN v3",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 71,
+    "name": "071: Blade Runner CS80 v3",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 72,
+    "name": "072: Warm Analog Strings v3",
+    "category": "PAD",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "pad"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 73,
+    "name": "073: Oberheim Poly 8 v3",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 74,
+    "name": "074: Cyber Pluck Arp v3",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 75,
+    "name": "075: Formant Vowel Lead v3",
+    "category": "LEAD",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "lead"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 76,
+    "name": "076: Industrial Pulse v3",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 77,
+    "name": "077: Deep Space Nebula v3",
+    "category": "PAD",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "pad"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 78,
+    "name": "078: Trance Gate Chords v3",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 79,
+    "name": "079: Euro Rave Anthem v3",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 80,
+    "name": "080: Rotterdam Stab 90s v3",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 81,
+    "name": "081: Juno Sub Bass v3",
+    "category": "BASS",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "bass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 82,
+    "name": "082: PWM Motion Pad v3",
+    "category": "PAD",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "pad"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 83,
+    "name": "083: Vaporwave Synth v3",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 84,
+    "name": "084: Liquid 24dB Sweep v3",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 85,
+    "name": "085: Reso Ring Modulator v3",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 86,
+    "name": "086: Hardcore Square Solo v3",
+    "category": "LEAD",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "lead"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 87,
+    "name": "087: Analog Tine Piano v3",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 88,
+    "name": "088: Rotary B3 Drive v3",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 89,
+    "name": "089: Church Tutti 1x v3",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 90,
+    "name": "090: Whistle Solo AN v3",
+    "category": "LEAD",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "lead"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 91,
+    "name": "091: Cosmic Solar Flare v3",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 92,
+    "name": "092: Modular Chaos Sequencer v3",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 93,
+    "name": "093: Alien Transmission v3",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 94,
+    "name": "094: Laser Beam Solo v3",
+    "category": "LEAD",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "lead"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 95,
+    "name": "095: Sub 30Hz Sine Drop v3",
+    "category": "BASS",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "bass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 96,
+    "name": "096: AN1x Signature Anthem v3",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 97,
+    "name": "097: Millennium Lead v4",
+    "category": "LEAD",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "lead"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 98,
+    "name": "098: Super Saw Matrix v4",
+    "category": "LEAD",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "lead"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 99,
+    "name": "099: Prophet Brass 5 v4",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 100,
+    "name": "100: Minimoog Fat Sub v4",
+    "category": "BASS",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "bass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 101,
+    "name": "101: Acid TB Squelch v4",
+    "category": "BASS",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "bass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 102,
+    "name": "102: Sync Aggressor AN v4",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 103,
+    "name": "103: Blade Runner CS80 v4",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 104,
+    "name": "104: Warm Analog Strings v4",
+    "category": "PAD",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "pad"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 105,
+    "name": "105: Oberheim Poly 8 v4",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 106,
+    "name": "106: Cyber Pluck Arp v4",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 107,
+    "name": "107: Formant Vowel Lead v4",
+    "category": "LEAD",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "lead"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 108,
+    "name": "108: Industrial Pulse v4",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 109,
+    "name": "109: Deep Space Nebula v4",
+    "category": "PAD",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "pad"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 110,
+    "name": "110: Trance Gate Chords v4",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 111,
+    "name": "111: Euro Rave Anthem v4",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 112,
+    "name": "112: Rotterdam Stab 90s v4",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 113,
+    "name": "113: Juno Sub Bass v4",
+    "category": "BASS",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "bass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 114,
+    "name": "114: PWM Motion Pad v4",
+    "category": "PAD",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "pad"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 115,
+    "name": "115: Vaporwave Synth v4",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 116,
+    "name": "116: Liquid 24dB Sweep v4",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 117,
+    "name": "117: Reso Ring Modulator v4",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 118,
+    "name": "118: Hardcore Square Solo v4",
+    "category": "LEAD",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "lead"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 119,
+    "name": "119: Analog Tine Piano v4",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 120,
+    "name": "120: Rotary B3 Drive v4",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 121,
+    "name": "121: Church Tutti 1x v4",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 122,
+    "name": "122: Whistle Solo AN v4",
+    "category": "LEAD",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "lead"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 123,
+    "name": "123: Cosmic Solar Flare v4",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 124,
+    "name": "124: Modular Chaos Sequencer v4",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 125,
+    "name": "125: Alien Transmission v4",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 126,
+    "name": "126: Laser Beam Solo v4",
+    "category": "LEAD",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "lead"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 127,
+    "name": "127: Sub 30Hz Sine Drop v4",
+    "category": "BASS",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "bass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESET",
+    "program": 128,
+    "name": "128: AN1x Signature Anthem v4",
+    "category": "SYNTH",
+    "tags": [
+      "an1x",
+      "virtual-analog",
+      "synth"
+    ]
+  }
+]

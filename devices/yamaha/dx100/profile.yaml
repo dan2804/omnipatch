@@ -1,0 +1,80 @@
+schema_version: 1.0.0
+manufacturer: Yamaha Corporation
+name: Yamaha DX100
+family: DX Series
+category: Portable 4-Operator FM Synthesizer
+year: 1985
+voice_architecture:
+  voices: 8
+  operators: 4
+  algorithms: 8
+  keyboard: 49 mini-keys with strap pins for keytar performance
+  famous_patches: Solid Bass (Voice 01), used extensively in Detroit Techno, Chicago
+    House, and 90s Dance
+midi_specs:
+  basic_channel: 1
+  manufacturer_id: '0x43'
+  model_id: '0x04'
+  handshake: false
+  pacing_delay_ms: 25
+parameters:
+- id: algorithm
+  name: Algorithm
+  type: range
+  min: 1
+  max: 8
+  default: 1
+- id: feedback
+  name: Feedback
+  type: range
+  min: 0
+  max: 7
+  default: 5
+- id: op1_freq
+  name: Op 1 Frequency Coarse
+  type: range
+  min: 0
+  max: 62
+  default: 1
+- id: op1_level
+  name: Op 1 Output Level
+  type: range
+  min: 0
+  max: 99
+  default: 90
+- id: op2_freq
+  name: Op 2 Frequency Coarse
+  type: range
+  min: 0
+  max: 62
+  default: 1
+- id: op2_level
+  name: Op 2 Output Level
+  type: range
+  min: 0
+  max: 99
+  default: 75
+- id: op3_freq
+  name: Op 3 Frequency Coarse
+  type: range
+  min: 0
+  max: 62
+  default: 2
+- id: op3_level
+  name: Op 3 Output Level
+  type: range
+  min: 0
+  max: 99
+  default: 0
+- id: op4_freq
+  name: Op 4 Frequency Coarse
+  type: range
+  min: 0
+  max: 62
+  default: 1
+- id: op4_level
+  name: Op 4 Output Level
+  type: range
+  min: 0
+  max: 99
+  default: 60

@@ -1,0 +1,1730 @@
+[
+  {
+    "bank": "ROM A",
+    "program": 1,
+    "name": "Lathe",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM A",
+    "program": 2,
+    "name": "Grand",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM A",
+    "program": 3,
+    "name": "Clav",
+    "category": "KEYBOARD",
+    "tags": [
+      "tx81z",
+      "rom-a",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM A",
+    "program": 4,
+    "name": "PercOrgan",
+    "category": "KEYBOARD",
+    "tags": [
+      "tx81z",
+      "rom-a",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM A",
+    "program": 5,
+    "name": "HighTine",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM A",
+    "program": 6,
+    "name": "WarmEP",
+    "category": "KEYBOARD",
+    "tags": [
+      "tx81z",
+      "rom-a",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM A",
+    "program": 7,
+    "name": "SlapBass",
+    "category": "BASS",
+    "tags": [
+      "tx81z",
+      "rom-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM A",
+    "program": 8,
+    "name": "SynBass",
+    "category": "BASS",
+    "tags": [
+      "tx81z",
+      "rom-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM A",
+    "program": 9,
+    "name": "FingerBs",
+    "category": "BASS",
+    "tags": [
+      "tx81z",
+      "rom-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM A",
+    "program": 10,
+    "name": "Fretless",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM A",
+    "program": 11,
+    "name": "Upright",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM A",
+    "program": 12,
+    "name": "PickBass",
+    "category": "BASS",
+    "tags": [
+      "tx81z",
+      "rom-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM A",
+    "program": 13,
+    "name": "LatelyBass",
+    "category": "BASS",
+    "tags": [
+      "tx81z",
+      "rom-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM A",
+    "program": 14,
+    "name": "WowBass",
+    "category": "BASS",
+    "tags": [
+      "tx81z",
+      "rom-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM A",
+    "program": 15,
+    "name": "PolyLead",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM A",
+    "program": 16,
+    "name": "MiniLead",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM A",
+    "program": 17,
+    "name": "SquareLd",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM A",
+    "program": 18,
+    "name": "FifthLd",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM A",
+    "program": 19,
+    "name": "Strings1",
+    "category": "STRINGS",
+    "tags": [
+      "tx81z",
+      "rom-a",
+      "strings"
+    ]
+  },
+  {
+    "bank": "ROM A",
+    "program": 20,
+    "name": "Strings2",
+    "category": "STRINGS",
+    "tags": [
+      "tx81z",
+      "rom-a",
+      "strings"
+    ]
+  },
+  {
+    "bank": "ROM A",
+    "program": 21,
+    "name": "Brass1",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM A",
+    "program": 22,
+    "name": "Brass2",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM A",
+    "program": 23,
+    "name": "Trumpet",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM A",
+    "program": 24,
+    "name": "Horn",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM A",
+    "program": 25,
+    "name": "Flute",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM A",
+    "program": 26,
+    "name": "PanFlute",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM A",
+    "program": 27,
+    "name": "Voice",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM A",
+    "program": 28,
+    "name": "Vibes",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM A",
+    "program": 29,
+    "name": "Marimba",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM A",
+    "program": 30,
+    "name": "SteelDrm",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM A",
+    "program": 31,
+    "name": "Koto",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM A",
+    "program": 32,
+    "name": "Timpani",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM B",
+    "program": 1,
+    "name": "E.Piano 1",
+    "category": "KEYBOARD",
+    "tags": [
+      "tx81z",
+      "rom-b",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM B",
+    "program": 2,
+    "name": "E.Piano 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "tx81z",
+      "rom-b",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM B",
+    "program": 3,
+    "name": "E.Piano 3",
+    "category": "KEYBOARD",
+    "tags": [
+      "tx81z",
+      "rom-b",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM B",
+    "program": 4,
+    "name": "Pipe Org 1",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM B",
+    "program": 5,
+    "name": "Pipe Org 2",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM B",
+    "program": 6,
+    "name": "Drawbars",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM B",
+    "program": 7,
+    "name": "Blues Harp",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM B",
+    "program": 8,
+    "name": "Accordion",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM B",
+    "program": 9,
+    "name": "Bass Guitar",
+    "category": "BASS",
+    "tags": [
+      "tx81z",
+      "rom-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM B",
+    "program": 10,
+    "name": "Mute Bass",
+    "category": "BASS",
+    "tags": [
+      "tx81z",
+      "rom-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM B",
+    "program": 11,
+    "name": "Pulse Bass",
+    "category": "BASS",
+    "tags": [
+      "tx81z",
+      "rom-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM B",
+    "program": 12,
+    "name": "ResoBass 1",
+    "category": "BASS",
+    "tags": [
+      "tx81z",
+      "rom-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM B",
+    "program": 13,
+    "name": "ResoBass 2",
+    "category": "BASS",
+    "tags": [
+      "tx81z",
+      "rom-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM B",
+    "program": 14,
+    "name": "Sub Bass",
+    "category": "BASS",
+    "tags": [
+      "tx81z",
+      "rom-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM B",
+    "program": 15,
+    "name": "Analog Horn",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM B",
+    "program": 16,
+    "name": "Synth Brass",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM B",
+    "program": 17,
+    "name": "Orchestra",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM B",
+    "program": 18,
+    "name": "String Ens",
+    "category": "STRINGS",
+    "tags": [
+      "tx81z",
+      "rom-b",
+      "strings"
+    ]
+  },
+  {
+    "bank": "ROM B",
+    "program": 19,
+    "name": "Solo Violin",
+    "category": "STRINGS",
+    "tags": [
+      "tx81z",
+      "rom-b",
+      "strings"
+    ]
+  },
+  {
+    "bank": "ROM B",
+    "program": 20,
+    "name": "Cello Bow",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM B",
+    "program": 21,
+    "name": "Clarinet",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM B",
+    "program": 22,
+    "name": "Oboe Solo",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM B",
+    "program": 23,
+    "name": "Bassoon",
+    "category": "BASS",
+    "tags": [
+      "tx81z",
+      "rom-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM B",
+    "program": 24,
+    "name": "Harmonica",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM B",
+    "program": 25,
+    "name": "Mallet Bell",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM B",
+    "program": 26,
+    "name": "Crystal Tine",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM B",
+    "program": 27,
+    "name": "Glockenspiel",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM B",
+    "program": 28,
+    "name": "Tubular Bell",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM B",
+    "program": 29,
+    "name": "Sitar East",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM B",
+    "program": 30,
+    "name": "Kalimba",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM B",
+    "program": 31,
+    "name": "Whistle",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM B",
+    "program": 32,
+    "name": "Space Drone",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM C",
+    "program": 1,
+    "name": "Harpsichord",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-c",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM C",
+    "program": 2,
+    "name": "Honky Tonk",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-c",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM C",
+    "program": 3,
+    "name": "Rock Organ",
+    "category": "KEYBOARD",
+    "tags": [
+      "tx81z",
+      "rom-c",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM C",
+    "program": 4,
+    "name": "Rotary B3",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-c",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM C",
+    "program": 5,
+    "name": "Funk Clav",
+    "category": "KEYBOARD",
+    "tags": [
+      "tx81z",
+      "rom-c",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM C",
+    "program": 6,
+    "name": "Wah Clav",
+    "category": "KEYBOARD",
+    "tags": [
+      "tx81z",
+      "rom-c",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM C",
+    "program": 7,
+    "name": "Super Bass",
+    "category": "BASS",
+    "tags": [
+      "tx81z",
+      "rom-c",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM C",
+    "program": 8,
+    "name": "Attack Bass",
+    "category": "BASS",
+    "tags": [
+      "tx81z",
+      "rom-c",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM C",
+    "program": 9,
+    "name": "Rubber Bass",
+    "category": "BASS",
+    "tags": [
+      "tx81z",
+      "rom-c",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM C",
+    "program": 10,
+    "name": "Heavy Sub",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-c",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM C",
+    "program": 11,
+    "name": "Saw Solo 1",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-c",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM C",
+    "program": 12,
+    "name": "Saw Solo 2",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-c",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM C",
+    "program": 13,
+    "name": "Pulse Solo",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-c",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM C",
+    "program": 14,
+    "name": "Sync Scream",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-c",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM C",
+    "program": 15,
+    "name": "Pad Strings",
+    "category": "STRINGS",
+    "tags": [
+      "tx81z",
+      "rom-c",
+      "strings"
+    ]
+  },
+  {
+    "bank": "ROM C",
+    "program": 16,
+    "name": "Chamber Str",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-c",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM C",
+    "program": 17,
+    "name": "French Horn",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-c",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM C",
+    "program": 18,
+    "name": "Trombone",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-c",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM C",
+    "program": 19,
+    "name": "Brass Stab",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-c",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM C",
+    "program": 20,
+    "name": "Muted Trump",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-c",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM C",
+    "program": 21,
+    "name": "Tin Whistle",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-c",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM C",
+    "program": 22,
+    "name": "Recorder",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-c",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM C",
+    "program": 23,
+    "name": "Voice Ahh",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-c",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM C",
+    "program": 24,
+    "name": "Choir Ooh",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-c",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM C",
+    "program": 25,
+    "name": "Carillon",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-c",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM C",
+    "program": 26,
+    "name": "Wind Chimes",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-c",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM C",
+    "program": 27,
+    "name": "Wood Block",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-c",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM C",
+    "program": 28,
+    "name": "Agogo Bells",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-c",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM C",
+    "program": 29,
+    "name": "Taiko Drum",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-c",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM C",
+    "program": 30,
+    "name": "Laser Gun",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-c",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM C",
+    "program": 31,
+    "name": "Wind Storm",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-c",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM C",
+    "program": 32,
+    "name": "Helicopter",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-c",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM D",
+    "program": 1,
+    "name": "Dyno Tine",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-d",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM D",
+    "program": 2,
+    "name": "Suitcase EP",
+    "category": "KEYBOARD",
+    "tags": [
+      "tx81z",
+      "rom-d",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM D",
+    "program": 3,
+    "name": "Glass Organ",
+    "category": "KEYBOARD",
+    "tags": [
+      "tx81z",
+      "rom-d",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM D",
+    "program": 4,
+    "name": "Reed Organ",
+    "category": "KEYBOARD",
+    "tags": [
+      "tx81z",
+      "rom-d",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM D",
+    "program": 5,
+    "name": "Funky Pluck",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-d",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM D",
+    "program": 6,
+    "name": "Brite Clav",
+    "category": "KEYBOARD",
+    "tags": [
+      "tx81z",
+      "rom-d",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "ROM D",
+    "program": 7,
+    "name": "Solid Bass",
+    "category": "BASS",
+    "tags": [
+      "tx81z",
+      "rom-d",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM D",
+    "program": 8,
+    "name": "Round Bass",
+    "category": "BASS",
+    "tags": [
+      "tx81z",
+      "rom-d",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM D",
+    "program": 9,
+    "name": "Acid Bass",
+    "category": "BASS",
+    "tags": [
+      "tx81z",
+      "rom-d",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM D",
+    "program": 10,
+    "name": "Drive Bass",
+    "category": "BASS",
+    "tags": [
+      "tx81z",
+      "rom-d",
+      "bass"
+    ]
+  },
+  {
+    "bank": "ROM D",
+    "program": 11,
+    "name": "Poly Synth 1",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-d",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM D",
+    "program": 12,
+    "name": "Poly Synth 2",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-d",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM D",
+    "program": 13,
+    "name": "Sweep Lead",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-d",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM D",
+    "program": 14,
+    "name": "Square Wave",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-d",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM D",
+    "program": 15,
+    "name": "Warm Pad 1",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-d",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM D",
+    "program": 16,
+    "name": "Warm Pad 2",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-d",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM D",
+    "program": 17,
+    "name": "Big Fanfare",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-d",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM D",
+    "program": 18,
+    "name": "Brass Section",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-d",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM D",
+    "program": 19,
+    "name": "Spiccato",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-d",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM D",
+    "program": 20,
+    "name": "Pizzicato",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-d",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM D",
+    "program": 21,
+    "name": "Concert Flute",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-d",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM D",
+    "program": 22,
+    "name": "Pan Pipe",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-d",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM D",
+    "program": 23,
+    "name": "Vocal Pad",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-d",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM D",
+    "program": 24,
+    "name": "Air Voice",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-d",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM D",
+    "program": 25,
+    "name": "Music Box",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-d",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM D",
+    "program": 26,
+    "name": "Steel Bell",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-d",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM D",
+    "program": 27,
+    "name": "Gamelan Gong",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-d",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM D",
+    "program": 28,
+    "name": "Log Drum",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-d",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM D",
+    "program": 29,
+    "name": "Snare Rim",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-d",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM D",
+    "program": 30,
+    "name": "Cymbal Crash",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-d",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM D",
+    "program": 31,
+    "name": "SciFi Siren",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-d",
+      "synth"
+    ]
+  },
+  {
+    "bank": "ROM D",
+    "program": 32,
+    "name": "TX81Z Init",
+    "category": "SYNTH",
+    "tags": [
+      "tx81z",
+      "rom-d",
+      "synth"
+    ]
+  },
+  {
+    "bank": "USER RAM",
+    "program": 1,
+    "name": "User 01: Lathe Edit",
+    "category": "USER",
+    "tags": [
+      "tx81z",
+      "user-ram"
+    ]
+  },
+  {
+    "bank": "USER RAM",
+    "program": 2,
+    "name": "User 02: Grand Edit",
+    "category": "USER",
+    "tags": [
+      "tx81z",
+      "user-ram"
+    ]
+  },
+  {
+    "bank": "USER RAM",
+    "program": 3,
+    "name": "User 03: Clav Edit",
+    "category": "USER",
+    "tags": [
+      "tx81z",
+      "user-ram"
+    ]
+  },
+  {
+    "bank": "USER RAM",
+    "program": 4,
+    "name": "User 04: PercOrgan Edit",
+    "category": "USER",
+    "tags": [
+      "tx81z",
+      "user-ram"
+    ]
+  },
+  {
+    "bank": "USER RAM",
+    "program": 5,
+    "name": "User 05: HighTine Edit",
+    "category": "USER",
+    "tags": [
+      "tx81z",
+      "user-ram"
+    ]
+  },
+  {
+    "bank": "USER RAM",
+    "program": 6,
+    "name": "User 06: WarmEP Edit",
+    "category": "USER",
+    "tags": [
+      "tx81z",
+      "user-ram"
+    ]
+  },
+  {
+    "bank": "USER RAM",
+    "program": 7,
+    "name": "User 07: SlapBass Edit",
+    "category": "USER",
+    "tags": [
+      "tx81z",
+      "user-ram"
+    ]
+  },
+  {
+    "bank": "USER RAM",
+    "program": 8,
+    "name": "User 08: SynBass Edit",
+    "category": "USER",
+    "tags": [
+      "tx81z",
+      "user-ram"
+    ]
+  },
+  {
+    "bank": "USER RAM",
+    "program": 9,
+    "name": "User 09: FingerBs Edit",
+    "category": "USER",
+    "tags": [
+      "tx81z",
+      "user-ram"
+    ]
+  },
+  {
+    "bank": "USER RAM",
+    "program": 10,
+    "name": "User 10: Fretless Edit",
+    "category": "USER",
+    "tags": [
+      "tx81z",
+      "user-ram"
+    ]
+  },
+  {
+    "bank": "USER RAM",
+    "program": 11,
+    "name": "User 11: Upright Edit",
+    "category": "USER",
+    "tags": [
+      "tx81z",
+      "user-ram"
+    ]
+  },
+  {
+    "bank": "USER RAM",
+    "program": 12,
+    "name": "User 12: PickBass Edit",
+    "category": "USER",
+    "tags": [
+      "tx81z",
+      "user-ram"
+    ]
+  },
+  {
+    "bank": "USER RAM",
+    "program": 13,
+    "name": "User 13: LatelyBass Edit",
+    "category": "USER",
+    "tags": [
+      "tx81z",
+      "user-ram"
+    ]
+  },
+  {
+    "bank": "USER RAM",
+    "program": 14,
+    "name": "User 14: WowBass Edit",
+    "category": "USER",
+    "tags": [
+      "tx81z",
+      "user-ram"
+    ]
+  },
+  {
+    "bank": "USER RAM",
+    "program": 15,
+    "name": "User 15: PolyLead Edit",
+    "category": "USER",
+    "tags": [
+      "tx81z",
+      "user-ram"
+    ]
+  },
+  {
+    "bank": "USER RAM",
+    "program": 16,
+    "name": "User 16: MiniLead Edit",
+    "category": "USER",
+    "tags": [
+      "tx81z",
+      "user-ram"
+    ]
+  },
+  {
+    "bank": "USER RAM",
+    "program": 17,
+    "name": "User 17: SquareLd Edit",
+    "category": "USER",
+    "tags": [
+      "tx81z",
+      "user-ram"
+    ]
+  },
+  {
+    "bank": "USER RAM",
+    "program": 18,
+    "name": "User 18: FifthLd Edit",
+    "category": "USER",
+    "tags": [
+      "tx81z",
+      "user-ram"
+    ]
+  },
+  {
+    "bank": "USER RAM",
+    "program": 19,
+    "name": "User 19: Strings1 Edit",
+    "category": "USER",
+    "tags": [
+      "tx81z",
+      "user-ram"
+    ]
+  },
+  {
+    "bank": "USER RAM",
+    "program": 20,
+    "name": "User 20: Strings2 Edit",
+    "category": "USER",
+    "tags": [
+      "tx81z",
+      "user-ram"
+    ]
+  },
+  {
+    "bank": "USER RAM",
+    "program": 21,
+    "name": "User 21: Brass1 Edit",
+    "category": "USER",
+    "tags": [
+      "tx81z",
+      "user-ram"
+    ]
+  },
+  {
+    "bank": "USER RAM",
+    "program": 22,
+    "name": "User 22: Brass2 Edit",
+    "category": "USER",
+    "tags": [
+      "tx81z",
+      "user-ram"
+    ]
+  },
+  {
+    "bank": "USER RAM",
+    "program": 23,
+    "name": "User 23: Trumpet Edit",
+    "category": "USER",
+    "tags": [
+      "tx81z",
+      "user-ram"
+    ]
+  },
+  {
+    "bank": "USER RAM",
+    "program": 24,
+    "name": "User 24: Horn Edit",
+    "category": "USER",
+    "tags": [
+      "tx81z",
+      "user-ram"
+    ]
+  },
+  {
+    "bank": "USER RAM",
+    "program": 25,
+    "name": "User 25: Flute Edit",
+    "category": "USER",
+    "tags": [
+      "tx81z",
+      "user-ram"
+    ]
+  },
+  {
+    "bank": "USER RAM",
+    "program": 26,
+    "name": "User 26: PanFlute Edit",
+    "category": "USER",
+    "tags": [
+      "tx81z",
+      "user-ram"
+    ]
+  },
+  {
+    "bank": "USER RAM",
+    "program": 27,
+    "name": "User 27: Voice Edit",
+    "category": "USER",
+    "tags": [
+      "tx81z",
+      "user-ram"
+    ]
+  },
+  {
+    "bank": "USER RAM",
+    "program": 28,
+    "name": "User 28: Vibes Edit",
+    "category": "USER",
+    "tags": [
+      "tx81z",
+      "user-ram"
+    ]
+  },
+  {
+    "bank": "USER RAM",
+    "program": 29,
+    "name": "User 29: Marimba Edit",
+    "category": "USER",
+    "tags": [
+      "tx81z",
+      "user-ram"
+    ]
+  },
+  {
+    "bank": "USER RAM",
+    "program": 30,
+    "name": "User 30: SteelDrm Edit",
+    "category": "USER",
+    "tags": [
+      "tx81z",
+      "user-ram"
+    ]
+  },
+  {
+    "bank": "USER RAM",
+    "program": 31,
+    "name": "User 31: Koto Edit",
+    "category": "USER",
+    "tags": [
+      "tx81z",
+      "user-ram"
+    ]
+  },
+  {
+    "bank": "USER RAM",
+    "program": 32,
+    "name": "User 32: Timpani Edit",
+    "category": "USER",
+    "tags": [
+      "tx81z",
+      "user-ram"
+    ]
+  }
+]
