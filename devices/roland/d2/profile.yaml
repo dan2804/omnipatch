@@ -1,0 +1,51 @@
+name: Roland D2
+manufacturer: Roland Corporation
+category: Desktop Dance Groovebox with D-Field Controller
+release_year: 2001
+hardware:
+  form_factor: Desktop Module with Touch D-Field Controller (Spin, Sound, FX modes)
+  polyphony: 64 Voices
+  parts: 8 Multi-Timbral Parts (7 Instrument + 1 Drum)
+  synthesis: MC-505 Sound Engine (640 Patches + 26 Drum Kits)
+midi:
+  manufacturer_id: '0x41'
+  device_id: 16
+  model_id: 0x00 0x34
+  channel: 1
+sysex:
+  header: F0 41 {device_id} 00 34 {command_id} {address} {data} {checksum} F7
+  checksum: roland
+  command_ids:
+    dataset_dt1: '0x12'
+    request_rq1: '0x11'
+parameters:
+- id: part1_cutoff
+  name: Part 1 Cutoff
+  page: Filter
+  range:
+  - 0
+  - 127
+  default: 95
+  cc: 74
+- id: part1_resonance
+  name: Part 1 Resonance
+  page: Filter
+  range:
+  - 0
+  - 127
+  default: 25
+  cc: 71
+- id: dfield_x
+  name: D-Field X Position
+  page: D-Field
+  range:
+  - 0
+  - 127
+  default: 64
+- id: dfield_y
+  name: D-Field Y Position
+  page: D-Field
+  range:
+  - 0
+  - 127
+  default: 64

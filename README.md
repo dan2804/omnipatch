@@ -26,21 +26,29 @@ OmniPatch is a high-performance, modular patch librarian and hardware editor wri
 
 ---
 
-## Supported Synthesizers (37 Production Profiles)
+## Supported Synthesizers (45 Production Profiles)
 
-OmniPatch ships with 37 comprehensive device profiles across 5 legendary synthesizer manufacturers:
+OmniPatch ships with 45 comprehensive device profiles across 5 legendary synthesizer manufacturers:
 
 | Synthesizer | Manufacturer | Architecture | Parameters | Presets | SysEx ID / Details |
 | :--- | :--- | :--- | :---: | :---: | :--- |
-| **Roland D-50** | Roland Corporation | 16-Voice Linear Arithmetic (LA) Flagship | 26 | 64 | `0x14` · 4 partials, ring mod, reverb/chorus/EQ, Fantasia & Soundtrack |
-| **Roland D-20** | Roland Corporation | Multi-Timbral LA Keyboard Workstation | 7 | 128 | `0x16` · 8 parts + rhythm, built-in FDD disk drive & sequencer |
-| **Roland D-70** | Roland Corporation | Super LA 76-Key Synthesizer & Controller | 11 | 64 | `0x32` · 4 tones, Differential Loop Modulation (DLM), 28MB ROM |
+| **Roland FANTOM Modern** | Roland Corporation | Flagship ZEN-Core / V-Piano / ACB Synthesizer | 5 | 2,104 | `0x00 0x00 0x00 0x64` · Stereo analog filter, scenes, Zenology |
+| **Roland FANTOM-0** | Roland Corporation | Lightweight ZEN-Core & SuperNATURAL Synth | 3 | 2,098 | `0x00 0x00 0x00 0x76` · 16 zones, USB audio interface, 06/07/08 |
+| **Roland Fantom-G** | Roland Corporation | SuperNATURAL 128-Voice Flagship Workstation | 4 | 1,190 | `0x00 0x00 0x24` · ARX expansion slots, 8.5" color LCD, G6/G7/G8 |
+| **Roland Fantom-X** | Roland Corporation | 128-Voice Sampling Workstation & 1U Rack | 8 | 1,471 | `0x00 0x6B` · Color LCD, 8-track audio, 4x SRX slots, X6/X7/X8/XR |
+| **Roland Fantom-S** | Roland Corporation | Sampling Workstation Keyboard (S / S88) | 3 | 997 | `0x00 0x5B` · Skip-Back sampling, 16 dynamic pads, SRX expansion |
 | **Roland XV-5080** | Roland Corporation | 128-Voice Flagship 32-Part Synth/Sampler | 49 | 1,263 | `0x00 0x10` · 8 SR-JV80 + 4 SRX slots, 4 stereo tones, 1,083 waves |
 | **Roland XV-3080** | Roland Corporation | 128-Voice 16-Part 2U Synth Module | 49 | 1,065 | `0x00 0x10` · 6 SR-JV80 + 2 SRX slots, 1,083 PCM waves |
 | **Roland XV-5050** | Roland Corporation | 64-Voice 16-Part 1U Module (COSM) | 49 | 598 | `0x00 0x10` · COSM effects processors, 2 SRX slots, USB MIDI |
 | **Roland XP-80 / XP-60** | Roland Corporation | 64-Voice Workstation Keyboard | 9 | 363 | `0x6A` · 4 SR-JV80 slots, MRC Pro sequencer, authentic PCM waves |
-| **Roland Alpha Juno-1 / 2** | Roland Corporation | 6-Voice Polyphonic Analog (DCO) | 23 | 64 | `0x23` · IR3109 VCF, BBD chorus, Hoover "What The..." sound |
+| **Roland D-50** | Roland Corporation | 16-Voice Linear Arithmetic (LA) Flagship | 26 | 64 | `0x14` · 4 partials, ring mod, reverb/chorus/EQ, Fantasia & Soundtrack |
+| **Roland D-20** | Roland Corporation | Multi-Timbral LA Keyboard Workstation | 7 | 128 | `0x16` · 8 parts + rhythm, built-in FDD disk drive & sequencer |
+| **Roland D-70** | Roland Corporation | Super LA 76-Key Synthesizer & Controller | 11 | 64 | `0x32` · 4 tones, Differential Loop Modulation (DLM), 28MB ROM |
 | **Roland D-110** | Roland Corporation | Multi-Timbral LA Synthesis Module | 8 | 128 | `0x16` · 8 individual outputs, 13 partial structures, D-50 heritage |
+| **Roland Alpha Juno-1 / 2** | Roland Corporation | 6-Voice Polyphonic Analog (DCO) | 23 | 64 | `0x23` · IR3109 VCF, BBD chorus, Hoover "What The..." sound |
+| **Roland D2** | Roland Corporation | Desktop Groovebox with D-Field Controller | 4 | 30 | `0x00 0x34` · MC-505 sound engine, 8 tracks, Megamix, touch pad |
+| **Roland DJ-70** | Roland Corporation | Sampling Keyboard with Scratch Dial | 2 | 12 | `0x4B` · 37 keys, scratch jog dial, load-while-play sampler |
+| **Roland EG-101** | Roland Corporation | Advanced Groove Keyboard with D-Beam | 2 | 12 | `0x00 0x1B` · Built-in phrase sampler, D-Beam controller |
 | **Roland W-30** | Roland Corporation | 12-Bit Sampling Music Workstation | 7 | 57 | `0x2B` · 30kHz/15kHz 12-bit sampler, SCSI/HD support, 16 tracks |
 | **Access Virus A** | Access Music GmbH | Virtual Analog (DSP56303) | 17 | 256 | `0x10` (16) · Multi-page SysEx (Pages A, B, C), 256-byte dumps |
 | **Akai AX60** | Akai Professional | 6-Voice CEM3394 Analog | 23 | 64 | Tauntek CC mapping (CC 14–74), 3,445B Bank SysEx, Sampler input |

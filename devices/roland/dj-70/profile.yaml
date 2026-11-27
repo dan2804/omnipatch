@@ -1,0 +1,29 @@
+name: Roland DJ-70
+manufacturer: Roland Corporation
+category: Sampling Keyboard with Scratch Dial
+release_year: 1992
+hardware:
+  form_factor: 37-Key Keyboard with Scratch Jog Dial and Load-While-Play
+  polyphony: 24 Voices
+  parts: 8 Multi Parts
+  sample_rate: 44.1kHz / 22.05kHz 16-Bit Linear
+midi:
+  manufacturer_id: '0x41'
+  device_id: 16
+  model_id: '0x4B'
+  channel: 1
+parameters:
+- id: scratch_speed
+  name: Scratch Dial Speed
+  page: Scratch
+  range:
+  - -64
+  - 63
+  default: 0
+- id: tvf_cutoff
+  name: TVF Filter Cutoff
+  page: Filter
+  range:
+  - 0
+  - 127
+  default: 100

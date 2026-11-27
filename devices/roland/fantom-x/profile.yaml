@@ -1,0 +1,87 @@
+name: Roland Fantom-X
+manufacturer: Roland Corporation
+category: 128-Voice Flagship Sampling Workstation & Rack (X6/X7/X8/XR)
+release_year: 2004
+hardware:
+  form_factor: 'Workstation Keyboard (X6: 61, X7: 76, X8: 88 weighted) / 1U Rack (XR)'
+  polyphony: 128 Voices
+  parts: 16 Multi-Timbral Parts
+  rom: 128MB Wave ROM (expandable via 4x SRX slots)
+  sampling: Up to 544MB RAM, 8-track audio recording
+  display: Color Graphic LCD (320x240)
+midi:
+  manufacturer_id: '0x41'
+  device_id: 16
+  model_id: 0x00 0x6B
+  channel: 1
+sysex:
+  header: F0 41 {device_id} 00 6B {command_id} {address} {data} {checksum} F7
+  checksum: roland
+  command_ids:
+    dataset_dt1: '0x12'
+    request_rq1: '0x11'
+parameters:
+- id: patch_level
+  name: Patch Level
+  page: Common
+  range:
+  - 0
+  - 127
+  default: 100
+  cc: 7
+- id: patch_pan
+  name: Patch Pan
+  page: Common
+  range:
+  - -64
+  - 63
+  default: 0
+  cc: 10
+- id: t1_cutoff
+  name: Tone 1 TVF Cutoff
+  page: Tone 1
+  range:
+  - 0
+  - 127
+  default: 100
+  cc: 74
+- id: t1_resonance
+  name: Tone 1 TVF Resonance
+  page: Tone 1
+  range:
+  - 0
+  - 127
+  default: 20
+  cc: 71
+- id: t1_attack
+  name: Tone 1 TVA Attack
+  page: Tone 1
+  range:
+  - 0
+  - 127
+  default: 0
+  cc: 73
+- id: t1_release
+  name: Tone 1 TVA Release
+  page: Tone 1
+  range:
+  - 0
+  - 127
+  default: 30
+  cc: 72
+- id: chorus_level
+  name: Chorus Send Level
+  page: Effects
+  range:
+  - 0
+  - 127
+  default: 0
+  cc: 93
+- id: reverb_level
+  name: Reverb Send Level
+  page: Effects
+  range:
+  - 0
+  - 127
+  default: 40
+  cc: 91

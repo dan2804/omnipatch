@@ -1,0 +1,53 @@
+name: Roland Fantom-G
+manufacturer: Roland Corporation
+category: SuperNATURAL 128-Voice Flagship Workstation (G6/G7/G8)
+release_year: 2008
+hardware:
+  form_factor: 'Workstation Keyboard (G6: 61, G7: 76, G8: 88 Ivory Feel)'
+  polyphony: 128 Voices
+  parts: 16 Multi-Timbral Parts
+  rom: 256MB Wave ROM (expandable via 2x ARX SuperNATURAL slots)
+  display: 8.5" Wide Color LCD (800x480)
+  sequencer: 128 MIDI Tracks + 24 Audio Tracks
+midi:
+  manufacturer_id: '0x41'
+  device_id: 16
+  model_id: 0x00 0x00 0x24
+  channel: 1
+sysex:
+  header: F0 41 {device_id} 00 00 24 {command_id} {address} {data} {checksum} F7
+  checksum: roland
+  command_ids:
+    dataset_dt1: '0x12'
+    request_rq1: '0x11'
+parameters:
+- id: live_set_level
+  name: Live Set Level
+  page: Common
+  range:
+  - 0
+  - 127
+  default: 100
+- id: t1_cutoff
+  name: Part 1 Cutoff
+  page: Part 1
+  range:
+  - 0
+  - 127
+  default: 100
+  cc: 74
+- id: t1_resonance
+  name: Part 1 Resonance
+  page: Part 1
+  range:
+  - 0
+  - 127
+  default: 20
+  cc: 71
+- id: mfx_select
+  name: Multi-Effects Select
+  page: Effects
+  range:
+  - 1
+  - 78
+  default: 1

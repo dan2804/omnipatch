@@ -1,0 +1,46 @@
+name: Roland Fantom-S
+manufacturer: Roland Corporation
+category: Sampling Workstation Keyboard (S / S88)
+release_year: 2003
+hardware:
+  form_factor: 61-Key (S) / 88-Key Weighted (S88)
+  polyphony: 64 Voices
+  parts: 16 Multi-Timbral Parts
+  rom: 64MB Wave ROM (expandable via 4x SRX slots)
+  pads: 16 Velocity-Sensitive Dynamic Pads
+  sampling: Skip-Back Sampling, up to 288MB RAM
+midi:
+  manufacturer_id: '0x41'
+  device_id: 16
+  model_id: 0x00 0x5B
+  channel: 1
+sysex:
+  header: F0 41 {device_id} 00 5B {command_id} {address} {data} {checksum} F7
+  checksum: roland
+  command_ids:
+    dataset_dt1: '0x12'
+    request_rq1: '0x11'
+parameters:
+- id: patch_level
+  name: Patch Level
+  page: Common
+  range:
+  - 0
+  - 127
+  default: 100
+- id: t1_cutoff
+  name: Tone 1 Cutoff
+  page: Tone 1
+  range:
+  - 0
+  - 127
+  default: 95
+  cc: 74
+- id: t1_resonance
+  name: Tone 1 Resonance
+  page: Tone 1
+  range:
+  - 0
+  - 127
+  default: 20
+  cc: 71

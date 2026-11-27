@@ -1,0 +1,62 @@
+name: Roland FANTOM Modern
+manufacturer: Roland Corporation
+category: ZEN-Core / V-Piano / ACB Flagship Synthesizer (Fantom 6/7/8 & EX)
+release_year: 2019
+hardware:
+  form_factor: 61 (Fantom 6), 76 (Fantom 7), 88 PHA-50 (Fantom 8)
+  engine: ZEN-Core + V-Piano Technology + SuperNATURAL + ACB Expansions
+  filter: 'Stereo Analog Filter (5 types: LPF1, LPF2, LPF3, HPF, BPF) + Digital Filters'
+  display: 7" Touch Color Screen
+midi:
+  manufacturer_id: '0x41'
+  device_id: 16
+  model_id: 0x00 0x00 0x00 0x64
+  channel: 1
+sysex:
+  header: F0 41 {device_id} 00 00 00 64 {command_id} {address} {data} {checksum} F7
+  checksum: roland
+  command_ids:
+    dataset_dt1: '0x12'
+    request_rq1: '0x11'
+parameters:
+- id: scene_level
+  name: Scene Level
+  page: Common
+  range:
+  - 0
+  - 127
+  default: 100
+- id: analog_filter_type
+  name: Analog Filter Routing
+  page: Analog Filter
+  type: enum
+  options:
+  - BYPASS
+  - LPF1
+  - LPF2
+  - LPF3
+  - HPF
+  - BPF
+  default: 0
+- id: analog_filter_cutoff
+  name: Analog Filter Cutoff
+  page: Analog Filter
+  range:
+  - 0
+  - 127
+  default: 127
+- id: analog_filter_reso
+  name: Analog Filter Resonance
+  page: Analog Filter
+  range:
+  - 0
+  - 127
+  default: 0
+- id: t1_cutoff
+  name: Zone 1 Cutoff
+  page: Zone 1
+  range:
+  - 0
+  - 127
+  default: 100
+  cc: 74

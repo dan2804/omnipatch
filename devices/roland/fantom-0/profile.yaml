@@ -1,0 +1,44 @@
+name: Roland FANTOM-0
+manufacturer: Roland Corporation
+category: Lightweight Performance Synthesizer (Fantom-06/07/08)
+release_year: 2022
+hardware:
+  form_factor: Fantom-06 (61), Fantom-07 (76), Fantom-08 (88 Weighted)
+  engine: ZEN-Core + SuperNATURAL Acoustic/Electric Piano
+  parts: 16 Multi-Timbral Zones
+  audio_interface: Multichannel USB Audio Interface (32-in/4-out)
+midi:
+  manufacturer_id: '0x41'
+  device_id: 16
+  model_id: 0x00 0x00 0x00 0x76
+  channel: 1
+sysex:
+  header: F0 41 {device_id} 00 00 00 76 {command_id} {address} {data} {checksum} F7
+  checksum: roland
+  command_ids:
+    dataset_dt1: '0x12'
+    request_rq1: '0x11'
+parameters:
+- id: scene_level
+  name: Scene Level
+  page: Common
+  range:
+  - 0
+  - 127
+  default: 100
+- id: z1_cutoff
+  name: Zone 1 Cutoff
+  page: Zone 1
+  range:
+  - 0
+  - 127
+  default: 100
+  cc: 74
+- id: z1_resonance
+  name: Zone 1 Resonance
+  page: Zone 1
+  range:
+  - 0
+  - 127
+  default: 20
+  cc: 71

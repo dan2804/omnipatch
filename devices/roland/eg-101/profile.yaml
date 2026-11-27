@@ -1,0 +1,28 @@
+name: Roland EG-101
+manufacturer: Roland Corporation
+category: Advanced Groove Keyboard with D-Beam & Sampler
+release_year: 1999
+hardware:
+  form_factor: 49-Key Groove Keyboard with D-Beam Controller and Built-in Stereo Speakers
+  polyphony: 24 Voices
+  sampling: Built-in 4-Pad Phrase Sampler
+midi:
+  manufacturer_id: '0x41'
+  device_id: 16
+  model_id: 0x00 0x1B
+  channel: 1
+parameters:
+- id: dbeam_cutoff
+  name: D-Beam Cutoff Mod
+  page: D-Beam
+  range:
+  - 0
+  - 127
+  default: 64
+- id: tempo
+  name: Groove BPM Tempo
+  page: Common
+  range:
+  - 40
+  - 240
+  default: 130
