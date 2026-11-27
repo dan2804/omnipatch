@@ -1,0 +1,68 @@
+manufacturer: Korg
+model: Radias
+type: MMT Multi Modeling Synthesizer / Vocoder
+year: 2006
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    drive: 80
+    osc1_ctrl1: 14
+    osc1_ctrl2: 15
+    pan: 10
+    volume: 7
+sysex:
+  header: F0 42 30 72
+  device_id_byte: 2
+  commands:
+    request_program: F0 42 30 72 10 [bank] [prog] F7
+banks:
+- name: Bank A
+  type: RAM
+  size: 16
+- name: Bank B
+  type: RAM
+  size: 16
+- name: Bank C
+  type: RAM
+  size: 16
+- name: Bank D
+  type: RAM
+  size: 16
+- name: Bank E
+  type: RAM
+  size: 16
+- name: Bank F
+  type: RAM
+  size: 16
+- name: Bank G
+  type: RAM
+  size: 16
+- name: Bank H
+  type: RAM
+  size: 16
+- name: Bank I
+  type: RAM
+  size: 16
+- name: Bank J
+  type: RAM
+  size: 16
+- name: Bank K
+  type: RAM
+  size: 16
+- name: Bank L
+  type: RAM
+  size: 16
+- name: Bank M
+  type: RAM
+  size: 16
+- name: Bank N
+  type: RAM
+  size: 16
+- name: Bank O
+  type: RAM
+  size: 16
+- name: Bank P
+  type: RAM
+  size: 16

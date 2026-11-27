@@ -1,0 +1,24 @@
+manufacturer: Roland
+model: U-20 / U-220
+type: RS-PCM Multi-Timbral Synthesizer
+year: 1989
+midi:
+  channels: 16
+  cc_map:
+    volume: 7
+    pan: 10
+    expression: 11
+    reverb_level: 91
+    chorus_level: 93
+sysex:
+  header: F0 41 10 2B
+  device_id_byte: 2
+  commands:
+    request_patch: F0 41 10 2B 11 [addr] [size] [chk] F7
+banks:
+- name: Preset Patches
+  type: ROM
+  size: 64
+- name: Preset Timbres
+  type: ROM
+  size: 64

@@ -4,17 +4,17 @@
 
 [![Rust](https://img.shields.io/badge/rust-1.75%2B-orange.svg)](https://www.rust-lang.org/)
 [![Database](https://img.shields.io/badge/SQLite-FTS5%20Indexed-blue.svg)](https://www.sqlite.org/)
-[![Profiles](https://img.shields.io/badge/Synthesizers-243%20Hardware%20Profiles-success.svg)](devices/)
-[![Presets](https://img.shields.io/badge/Factory%20Presets-84%2C024%20Indexed-purple.svg)](omnipatch_library.db)
+[![Profiles](https://img.shields.io/badge/Synthesizers-275%20Hardware%20Profiles-success.svg)](devices/)
+[![Presets](https://img.shields.io/badge/Factory%20Presets-89%2C227%20Indexed-purple.svg)](omnipatch_library.db)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-OmniPatch is a high-performance synthesizer librarian and SysEx communication platform written in Rust. It bridges vintage analog, digital FM, wavetable, and modern flagship synthesizers into a unified, high-speed ecosystem with hardware-safe buffer throttling and instant full-text search across 84,000+ factory patches.
+OmniPatch is a high-performance synthesizer librarian and SysEx communication platform written in Rust. It bridges vintage analog, digital FM, wavetable, and modern flagship synthesizers into a unified, high-speed ecosystem with hardware-safe buffer throttling and instant full-text search across 89,000+ factory patches.
 
 ---
 
 ## Key Capabilities
 
-* **Unified Local Librarian (`rusqlite` + FTS5):** Local SQLite engine indexing **84,024 authentic factory patches** across **243 synthesizers** and **1,504 banks**, delivering sub-millisecond full-text queries for names, categories, banks, and sound-engine tags.
+* **Unified Local Librarian (`rusqlite` + FTS5):** Local SQLite engine indexing **89,227 authentic factory patches** across **275 synthesizers** and **1,584 banks**, delivering sub-millisecond full-text queries for names, categories, banks, and sound-engine tags.
 * **Hardware-Safe SysEx Pacing:** Configurable inter-byte and inter-block millisecond throttling specifically engineered to prevent buffer overflows on vintage 8-bit and 16-bit UART microcontrollers (Motorola 68000, 6809, Intel 8031, etc.).
 * **Declarative Hardware Profiles (`profile.yaml`):** Zero recompilation required to add or modify instruments. Each synthesizer is declaratively defined with MIDI CC maps, SysEx request/dump commands, architecture metadata, and authentic bank structures.
 * **Universal Web Audio Auditioning:** Interactive soundboard tiles and auditioning engines supporting classic synthesis methods (analog subtractive, FM, wavetable, additive harmonics).
@@ -22,36 +22,38 @@ OmniPatch is a high-performance synthesizer librarian and SysEx communication pl
 
 ---
 
-## Manufacturer Coverage Matrix (243 Synthesizers · 84,024 Patches)
+## Manufacturer Coverage Matrix (275 Synthesizers · 89,227 Patches)
 
-Instead of maintaining fragmented sysex tools, OmniPatch covers 45 legendary manufacturers within a single unified database:
+Instead of maintaining fragmented sysex tools, OmniPatch covers 48 legendary manufacturers within a single unified database:
 
 | Manufacturer / Family | Models | Total Patches | Featured Flagships & Classics | Synthesis Architectures |
 | :--- | :---: | :---: | :--- | :--- |
-| **Roland** | 51 | 21,782 | TB-303, TR-808/909, Jupiter-4/8, Juno-60/106, JV-1080/2080, JD-800/990, Integra-7, System-8 | Discrete Analog, DCO, ACB, Linear Arithmetic, Super JV, SuperNATURAL |
-| **E-MU Systems** | 19 | 9,016 | Proteus 1000/2000/2500, Orbit-3, Planet Earth, SP-1200, Emax I/II, Audity 2000, Vintage Keys | Z-Plane Filter Morphing, 12-Bit Analog VCF Sampler, 128-Voice Rompler |
-| **Korg** | 23 | 7,926 | Kronos/Nautilus, M1, Wavestation, Triton, MS2000, minilogue xd, opsix, wavestate, Mono/Poly | 9-Engine Workstation, Wave Sequencing 2.0, Altered FM, Analog Multi-Engine |
-| **Waldorf & PPG** | 13 | 5,404 | Waldorf Wave, Quantum/Iridium, Kyra, M, Microwave I/XT, Blofeld, Pulse 2, PPG Wave 2.2/2.3 | Wavetable, Analog VCF, FPGA 128-Voice Virtual Analog, Resonator, Kernel FM |
+| **Roland** | 57 | 22,423 | TB-303, TR-808/909, Jupiter-4/8, Juno-60/106, JV-1080/2080, JD-800/990, JD-08, JU-06A, JX-08, D-10, U-20, CM-32L, Integra-7 | Discrete Analog, DCO, ACB, Linear Arithmetic, RS-PCM, Super JV, SuperNATURAL |
+| **E-MU Systems** | 21 | 9,784 | Proteus family, Orbit/Orbit-3, Morpheus, Audity 2000, Planet Earth, SP-1200, Emax I/II, Vintage Keys | Z-Plane Filter Morphing (14-Pole), 12-Bit Analog VCF Sampler, 64/128-Voice Extreme Digital |
+| **Korg** | 27 | 9,058 | Kronos/Nautilus, Radias, M3, 01/W, 03R/W, 707, DSS-1, DW-6000, Poly-61, minilogue xd, opsix, wavestate | MMT Multi-Modeling, HD-1 KARMA, NJM2069 Resonant Analog Filter Sampler, 4-Op FM, DWGS |
+| **Waldorf & PPG** | 12 | 5,148 | Waldorf Wave, Quantum/Iridium, Kyra, M, Microwave I/XT, Blofeld, Pulse 2, PPG Wave 2.2/2.3 | Wavetable, Analog VCF, FPGA 128-Voice Virtual Analog, Resonator, Kernel FM |
+| **Yamaha** | 23 | 4,998 | CS-80, CS6x, SY85, TG33, FB-01, V50, FS1R, DX1, DX5, DX7/DX7II, TX81Z, SY99, EX5, VL1, Motif | Vector Synthesis (FM+AWM), 64-Voice AWM2, 4-Op & 8-Op FM, Virtual Acoustic, Dual VCO Analog |
 | **Sequential & DSI** | 13 | 4,072 | Prophet-5, Prophet-6, Prophet VS, OB-6, Prophet 12, Trigon-6, Take 5, Evolver, Pro 2/3 | Discrete VCO/VCF, Vector Synthesis, SEM Filter, Curtis Analog DCO, Hybrid |
-| **Yamaha** | 18 | 3,954 | CS-80, FS1R, DX1, DX5, DX7/DX7II, TX81Z, SY99, EX5, VL1 Physical Modeling, Motif | 8-Op Formant FM, 6-Op FM, RCM Hybrid (AFM+AWM2), Virtual Acoustic, Dual VCO Analog |
 | **Access Music** | 4 | 3,840 | Virus A, Virus B, Virus C, Virus TI / TI2 / Snow / Polar | Dual DSP Virtual Analog, Hypersaw, Wavetable, Formant/Grain Synthesis |
 | **Alesis** | 8 | 3,246 | Andromeda A6, Ion, Micron, QS6/7/8/QSR, QuadraSynth, D4/DM5, HR-16, Quadraverb | 16-Voice Discrete Analog, 17-Model Virtual Analog, 64-Voice 16-Bit PCM |
-| **Moog Music** | 16 | 3,028 | Moog One, Minimoog Model D, Memorymoog, Voyager, Sub 37, Matriarch, Grandmother | Discrete 3-VCO Analog, 18-VCO Polyphonic, 24dB Ladder VCF, Semi-Modular |
+| **Moog Music** | 12 | 2,788 | Moog One, Minimoog Model D, Memorymoog, Voyager, Sub 37, Matriarch, Grandmother | Discrete 3-VCO Analog, 18-VCO Polyphonic, 24dB Ladder VCF, Semi-Modular |
 | **Clavia Nord** | 5 | 2,747 | Nord Lead 1, Nord Lead 2/2X, Nord Lead 3, Nord Lead 4, Nord Rack | Virtual Analog Pioneers, Rotary LED Encoders, Subtractive & FM Modeling |
-| **Eventide** | 6 | 2,300 | H3000 Ultra-Harmonizer, DSP4000, Eclipse, Space, TimeFactor, Rose | MicroPitch Shifting, Diatonic Harmonizer, Blackhole Reverb, Modular DSP |
+| **Eventide** | 5 | 2,200 | H3000 Ultra-Harmonizer, DSP4000, Eclipse, Space, TimeFactor, Rose | MicroPitch Shifting, Diatonic Harmonizer, Blackhole Reverb, Modular DSP |
 | **Modal Electronics** | 4 | 1,628 | Modal 002, Argon8, Cobalt8, Skulpt / CraftSynth | 12-Voice Hybrid (NCO + Ladder), 32-Wavetable Morphing, 34-Algorithm VA |
 | **Novation** | 5 | 1,608 | Supernova II, Nova, Bass Station II, Peak / Summit, K-Station | Oxford FPGA New-Oxford Oscillators, 42-Band Vocoder, Pure Analog Mono |
 | **Oberheim** | 5 | 1,480 | Matrix-1000, Matrix-6, Matrix-12 / Xpander, OB-8, OB-X8 | 15-Mode State-Variable VCF, CEM3396 Matrix Modulation, Pure Discrete VCO |
 | **Arturia** | 4 | 1,472 | PolyBrute, MatrixBrute, MicroFreak, MiniBrute 2 / 2S | Analog Morphing, Steiner-Parker + Ladder VCFs, 16x16 Matrix, Mutable Algorithmic |
+| **Ensoniq** | 7 | 1,453 | DP/4 / DP/4+, ASR-10, ESQ-1, SQ-80, VFX / VFX-SD, TS-10, MR Rack | 4-Unit Parallel Multi-Effects, Transwaves Sampling Recorder, CEM3379 Analog Filters |
 | **Behringer** | 2 | 1,424 | Deepmind 12 / 12D, PRO-800 | 12-Voice Analog DCO w/ Klark Teknik FX, 8-Voice Dual-VCO Analog Poly |
-| **Ensoniq** | 5 | 953 | ESQ-1, SQ-80, VFX / VFX-SD, TS-10, MR Rack | Curtis CEM3379 Analog Filter, Transwaves, Hyper-Wave Sequencing |
+| **Kawai** | 7 | 962 | K5000S/R/W, K3 / K3m, K11, K1, K4, K5, XD-5 | 128-Harmonic Additive Synthesis, SSM2044 Resonant Analog Filter, Formant Filter |
 | **Lexicon** | 5 | 878 | PCM70, PCM80, PCM90, LXP-1/5, MPX-1 | Concert Hall, Rich Plate, Resonant Chords, Dual DSP Stereo Multi-Tap Delay |
 | **Quasimidi** | 4 | 867 | Rave-O-Lution 309, Sirius, Polymorph, Technox | Dance & Techno Groovebox, 7-Band Vocoder, 16-Step Modular Virtual Analog |
 | **Kurzweil** | 3 | 800 | K2000, K2500, K2600 (Keyboard & Rack) | V.A.S.T. Variable Architecture Synthesis Technology, 31 DSP Algorithms, KDFX |
 | **Elektron** | 4 | 768 | Digitakt, Digitone, Syntakt, Analog Four / Analog Rytm | Parameter Locks, 8-Voice FM Subtractive, Analog/Digital Drum Synthesis |
-| **Kawai** | 5 | 720 | K5000S/R/W, K1, K4, K5, XD-5 | 128-Harmonic Additive Synthesis, Formant Filter (128 Bands), VM Vector |
 | **Pioneer DJ / DSI** | 2 | 623 | Toraiz AS-1, Toraiz SP-16 | Prophet-6 Discrete Analog Filters & Voices, Professional Sampler/Step Sequencer |
+| **Casio** | 9 | 616 | VZ-1 / VZ-10M, HT-6000, FZ-1 / FZ-10M, CZ-1, CZ-101, CZ-1000, CZ-3000, CZ-5000 | Interactive Phase Distortion (iPD), Spectrum Dynamic Analog VCF, 16-Bit Sampling |
 | **Strymon** | 2 | 600 | BigSky, TimeLine | Cloud, Shimmer, Bloom, dTape, dBucket, Ice Multidimensional Studio DSP |
+| **Akai Professional** | 6 | 492 | AX80, VX600, AX73, S950, S1000, AX60 | 8-Voice CEM Analog, SSM2044 Matrix Analog, 12-Bit Vintage Sampler, 16-Bit Stereo Sampler |
 | **Boutique & Rares** | 16 | 2,746 | OSC OSCar, Cheetah MS6, UDO Super 6, Deckard's Dream, SunSyn, TC 2290, etc. | Additive Overdrive, Binaural Stereo Spread, CS-80 Analog Clone, Dynamic Delay |
 
 ---
@@ -61,7 +63,7 @@ Instead of maintaining fragmented sysex tools, OmniPatch covers 45 legendary man
 OmniPatch stores all device definitions, memory banks, patch mappings, and SysEx dumps in an optimized local SQLite database (`omnipatch_library.db`).
 
 ### Direct SQLite / FTS5 Queries
-Because patches are indexed in an **FTS5 full-text search table**, searching through 84,020+ presets takes under 2 milliseconds:
+Because patches are indexed in an **FTS5 full-text search table**, searching through 89,490+ presets takes under 2 milliseconds:
 
 ```bash
 # Search for Vangelis / Blade Runner CS-80 presets
@@ -97,7 +99,7 @@ cargo build --release
 
 ### 2. Inspect Devices & Parameters
 ```bash
-# List all 243 loaded hardware profiles
+# List all 273 loaded hardware profiles
 ./target/release/omnipatch devices list --dir devices/
 
 # Inspect parameters and MIDI CC mapping for a specific synth
@@ -125,15 +127,15 @@ omnipatch/
 │   ├── omnipatch-midi/       # midir low-latency packet pacing, hardware throttling
 │   ├── omnipatch-profile/    # Declarative YAML parser, parameter mapping engine
 │   └── omnipatch-sysex/      # Checksum calculators (Roland, E-MU, Casio, Waldorf)
-├── devices/                  # 243 Declarative YAML hardware profiles & factory preset dumps
+├── devices/                  # 275 Declarative YAML hardware profiles & factory preset dumps
 │   ├── access/               # Access Music (Virus A, B, C, TI, TI2, Indigo, Snow)
-│   ├── akai/                 # Akai Professional (AX60)
+│   ├── akai/                 # Akai Professional (AX80, VX600, AX73, S950, S1000, AX60)
 │   ├── alesis/               # Alesis (Andromeda A6, Ion, Micron, QS Series, QuadraSynth, D4/DM5, HR-16)
 │   ├── arturia/              # Arturia (PolyBrute, MatrixBrute, MicroFreak, MiniBrute 2)
 │   ├── asm/                  # Ashun Sound Machines (Hydrasynth Desktop, Deluxe, Explorer, Keyboard)
 │   ├── behringer/            # Behringer (Deepmind 12, Deepmind 12D, PRO-800)
 │   ├── black_corporation/    # Black Corporation (Deckard's Dream, Kijimi)
-│   ├── casio/                # Casio Computer Co. (CZ-1, CZ-101, CZ-1000, CZ-230S, CZ-3000, CZ-5000)
+│   ├── casio/                # Casio (VZ-1, HT-6000, FZ-1, CZ-1, CZ-101, CZ-1000, CZ-230S, CZ-3000, CZ-5000)
 │   ├── cheetah/              # Cheetah Marketing (MS6)
 │   ├── clavia/               # Clavia Nord (Nord Lead 1, 2, 2X, 3, 4, Nord Rack)
 │   ├── crumar/               # Crumar (Bit One, Bit 99, Bit 01)
@@ -141,12 +143,12 @@ omnipatch/
 │   ├── doepfer/              # Doepfer (MS-404, Dark Energy)
 │   ├── dreadbox/             # Dreadbox (Typhon, Erebus)
 │   ├── elektron/             # Elektron (Digitakt, Digitone, Syntakt, Analog Four / Rytm)
-│   ├── emu/                  # E-MU Systems (Orbit-3, Proteus family, SP-1200, Emax, Vintage, etc.)
-│   ├── ensoniq/              # Ensoniq (ESQ-1, SQ-80, VFX, TS-10, MR Rack)
+│   ├── emu/                  # E-MU Systems (Morpheus, Audity 2000, Orbit, Proteus, SP-1200, Emax, Vintage)
+│   ├── ensoniq/              # Ensoniq (DP/4, ASR-10, ESQ-1, SQ-80, VFX, TS-10, MR Rack)
 │   ├── eventide/             # Eventide (H3000, DSP4000, Eclipse, Space, TimeFactor, Rose)
 │   ├── jomox/                # JoMoX (XBase 09, AirBase 99, SunSyn)
-│   ├── kawai/                # Kawai (K1, K4, K5, K5000 Additive Flagship, XD-5)
-│   ├── korg/                 # Korg (Kronos, minilogue xd, prologue, opsix, wavestate, Mono/Poly, Polysix, M1, Triton)
+│   ├── kawai/                # Kawai (K3, K11, K5000 Additive, K1, K4, K5, XD-5)
+│   ├── korg/                 # Korg (Radias, M3, 03R/W, 707, DSS-1, DW-6000, Poly-61, Kronos, opsix, wavestate, M1)
 │   ├── kurzweil/             # Kurzweil (K2000, K2500, K2600 V.A.S.T. Workstations)
 │   ├── lexicon/              # Lexicon (PCM70, PCM80, PCM90, LXP-1/5, MPX-1)
 │   ├── mfb/                  # MFB (Dominion 1)
@@ -159,7 +161,7 @@ omnipatch/
 │   ├── pioneer_dj/           # Pioneer DJ / Dave Smith (Toraiz AS-1, Toraiz SP-16)
 │   ├── ppg/                  # PPG (PPG Wave 2.2 / 2.3)
 │   ├── quasimidi/            # Quasimidi (Rave-O-Lution 309, Sirius, Polymorph, Technox)
-│   ├── roland/               # Roland Corporation (TB-303, TR-808, TR-909, Jupiter-4/8, Juno-60/106, JV, JD, Integra-7)
+│   ├── roland/               # Roland (JD-08, JU-06A, JX-08, D-10, U-20, CM-32L, TB-303, TR-808, Jupiter-4/8, Juno-60/106)
 │   ├── sequential/           # Sequential & DSI (Prophet-5, Prophet-6, OB-6, Trigon-6, Take 5, Evolver, P12, Mopho)
 │   ├── siel/                 # Siel (Opera 6, DK600)
 │   ├── strymon/              # Strymon (BigSky, TimeLine)
@@ -167,7 +169,7 @@ omnipatch/
 │   ├── tc_electronic/        # TC Electronic (2290 Dynamic Delay)
 │   ├── udo_audio/            # UDO Audio (Super 6, Super Gemini)
 │   ├── waldorf/              # Waldorf Music (Waldorf Wave, Quantum, Iridium, Kyra, M, Blofeld, Microwave, Pulse, Q)
-│   └── yamaha/               # Yamaha Corporation (CS-80, FS1R, DX1, DX5, SY99, EX5, VL1, DX7, DX7II, TX81Z, Motif)
+│   └── yamaha/               # Yamaha (CS6x, SY85, TG33, FB-01, V50, CS-80, FS1R, DX1, DX5, SY99, EX5, VL1, Motif)
 ├── preview/                  # Web Audio interactive studio prototypes & hardware editors
 │   ├── index.html            # Main Entry: Universal Windows 8 Metro UI Studio Hub
 │   ├── metro_studio.html     # Universal Windows 8 Metro UI Studio (Collapsible Menus, Live Tiles)

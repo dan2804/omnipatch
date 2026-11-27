@@ -1,0 +1,27 @@
+manufacturer: Yamaha
+model: TG33 / SY22
+type: Vector Synthesis Tone Generator
+year: 1990
+midi:
+  channels: 16
+  cc_map:
+    vector_x: 16
+    vector_y: 17
+    volume: 7
+    pan: 10
+    reverb_depth: 91
+sysex:
+  header: F0 43 10 2E
+  device_id_byte: 2
+  commands:
+    request_voice: F0 43 10 2E 00 [bank] [prog] F7
+banks:
+- name: Preset Voice Bank 1
+  type: ROM
+  size: 64
+- name: Preset Voice Bank 2
+  type: ROM
+  size: 64
+- name: Multi Memory
+  type: Multi
+  size: 64

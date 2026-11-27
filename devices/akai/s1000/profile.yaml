@@ -1,0 +1,21 @@
+manufacturer: Akai
+model: S1000
+type: 16-Bit Stereo Digital Sampler
+year: 1988
+midi:
+  channels: 16
+  cc_map:
+    volume: 7
+    pan: 10
+    expression: 11
+    filter_cutoff: 74
+    filter_resonance: 71
+sysex:
+  header: F0 47 00 28
+  device_id_byte: 2
+  commands:
+    request_program: F0 47 00 28 01 [prog] F7
+banks:
+- name: Factory Sound Bank
+  type: ROM/Disk
+  size: 100

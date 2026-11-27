@@ -1,0 +1,770 @@
+[
+  {
+    "name": "FZ1 Concert Grand 1",
+    "bank": "Factory Bank A",
+    "number": 1,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "resonant filter"
+    ]
+  },
+  {
+    "name": "FZ1 Studio Concert Grand 1",
+    "bank": "Factory Bank B",
+    "number": 1,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "sound library"
+    ]
+  },
+  {
+    "name": "FZ1 Studio Grand",
+    "bank": "Factory Bank A",
+    "number": 2,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "resonant filter"
+    ]
+  },
+  {
+    "name": "FZ1 Studio Studio Grand",
+    "bank": "Factory Bank B",
+    "number": 2,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "sound library"
+    ]
+  },
+  {
+    "name": "FZ1 CP-80 Electric",
+    "bank": "Factory Bank A",
+    "number": 3,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "resonant filter"
+    ]
+  },
+  {
+    "name": "FZ1 Studio CP-80 Electric",
+    "bank": "Factory Bank B",
+    "number": 3,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "sound library"
+    ]
+  },
+  {
+    "name": "FZ1 DX Fender Rhodes",
+    "bank": "Factory Bank A",
+    "number": 4,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "resonant filter"
+    ]
+  },
+  {
+    "name": "FZ1 Studio DX Fender Rhodes",
+    "bank": "Factory Bank B",
+    "number": 4,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "sound library"
+    ]
+  },
+  {
+    "name": "FZ1 Dyno Rhodes",
+    "bank": "Factory Bank A",
+    "number": 5,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "resonant filter"
+    ]
+  },
+  {
+    "name": "FZ1 Studio Dyno Rhodes",
+    "bank": "Factory Bank B",
+    "number": 5,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "sound library"
+    ]
+  },
+  {
+    "name": "FZ1 Wurlitzer 200A",
+    "bank": "Factory Bank A",
+    "number": 6,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "resonant filter"
+    ]
+  },
+  {
+    "name": "FZ1 Studio Wurlitzer 200A",
+    "bank": "Factory Bank B",
+    "number": 6,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "sound library"
+    ]
+  },
+  {
+    "name": "FZ1 Hammond B3 Rock",
+    "bank": "Factory Bank A",
+    "number": 7,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "resonant filter"
+    ]
+  },
+  {
+    "name": "FZ1 Studio Hammond B3 Rock",
+    "bank": "Factory Bank B",
+    "number": 7,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "sound library"
+    ]
+  },
+  {
+    "name": "FZ1 Church Pipe Organ",
+    "bank": "Factory Bank A",
+    "number": 8,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "resonant filter"
+    ]
+  },
+  {
+    "name": "FZ1 Studio Church Pipe Organ",
+    "bank": "Factory Bank B",
+    "number": 8,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "sound library"
+    ]
+  },
+  {
+    "name": "FZ1 Nylon Classical",
+    "bank": "Factory Bank A",
+    "number": 9,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "resonant filter"
+    ]
+  },
+  {
+    "name": "FZ1 Studio Nylon Classical",
+    "bank": "Factory Bank B",
+    "number": 9,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "sound library"
+    ]
+  },
+  {
+    "name": "FZ1 Stratocaster Clean",
+    "bank": "Factory Bank A",
+    "number": 10,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "resonant filter"
+    ]
+  },
+  {
+    "name": "FZ1 Studio Stratocaster Clean",
+    "bank": "Factory Bank B",
+    "number": 10,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "sound library"
+    ]
+  },
+  {
+    "name": "FZ1 Telecaster Crunch",
+    "bank": "Factory Bank A",
+    "number": 11,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "resonant filter"
+    ]
+  },
+  {
+    "name": "FZ1 Studio Telecaster Crunch",
+    "bank": "Factory Bank B",
+    "number": 11,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "sound library"
+    ]
+  },
+  {
+    "name": "FZ1 Precision Finger Bass",
+    "bank": "Factory Bank A",
+    "number": 12,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "resonant filter"
+    ]
+  },
+  {
+    "name": "FZ1 Studio Precision Finger Bass",
+    "bank": "Factory Bank B",
+    "number": 12,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "sound library"
+    ]
+  },
+  {
+    "name": "FZ1 Fretless Bass Solo",
+    "bank": "Factory Bank A",
+    "number": 13,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "resonant filter"
+    ]
+  },
+  {
+    "name": "FZ1 Studio Fretless Bass Solo",
+    "bank": "Factory Bank B",
+    "number": 13,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "sound library"
+    ]
+  },
+  {
+    "name": "FZ1 Moog Minibass",
+    "bank": "Factory Bank A",
+    "number": 14,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "resonant filter"
+    ]
+  },
+  {
+    "name": "FZ1 Studio Moog Minibass",
+    "bank": "Factory Bank B",
+    "number": 14,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "sound library"
+    ]
+  },
+  {
+    "name": "FZ1 Analog Reso Bass",
+    "bank": "Factory Bank A",
+    "number": 15,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "resonant filter"
+    ]
+  },
+  {
+    "name": "FZ1 Studio Analog Reso Bass",
+    "bank": "Factory Bank B",
+    "number": 15,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "sound library"
+    ]
+  },
+  {
+    "name": "FZ1 Symphonic Strings 1",
+    "bank": "Factory Bank A",
+    "number": 16,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "resonant filter"
+    ]
+  },
+  {
+    "name": "FZ1 Studio Symphonic Strings 1",
+    "bank": "Factory Bank B",
+    "number": 16,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "sound library"
+    ]
+  },
+  {
+    "name": "FZ1 Pizzicato Ensemble",
+    "bank": "Factory Bank A",
+    "number": 17,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "resonant filter"
+    ]
+  },
+  {
+    "name": "FZ1 Studio Pizzicato Ensemble",
+    "bank": "Factory Bank B",
+    "number": 17,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "sound library"
+    ]
+  },
+  {
+    "name": "FZ1 Solo Cello Agitato",
+    "bank": "Factory Bank A",
+    "number": 18,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "resonant filter"
+    ]
+  },
+  {
+    "name": "FZ1 Studio Solo Cello Agitato",
+    "bank": "Factory Bank B",
+    "number": 18,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "sound library"
+    ]
+  },
+  {
+    "name": "FZ1 Solo Violin Vibrato",
+    "bank": "Factory Bank A",
+    "number": 19,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "resonant filter"
+    ]
+  },
+  {
+    "name": "FZ1 Studio Solo Violin Vibrato",
+    "bank": "Factory Bank B",
+    "number": 19,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "sound library"
+    ]
+  },
+  {
+    "name": "FZ1 Section French Horns",
+    "bank": "Factory Bank A",
+    "number": 20,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "resonant filter"
+    ]
+  },
+  {
+    "name": "FZ1 Studio Section French Horns",
+    "bank": "Factory Bank B",
+    "number": 20,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "sound library"
+    ]
+  },
+  {
+    "name": "FZ1 Tight Brass Stabs",
+    "bank": "Factory Bank A",
+    "number": 21,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "resonant filter"
+    ]
+  },
+  {
+    "name": "FZ1 Studio Tight Brass Stabs",
+    "bank": "Factory Bank B",
+    "number": 21,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "sound library"
+    ]
+  },
+  {
+    "name": "FZ1 Orchestral Trumpet",
+    "bank": "Factory Bank A",
+    "number": 22,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "resonant filter"
+    ]
+  },
+  {
+    "name": "FZ1 Studio Orchestral Trumpet",
+    "bank": "Factory Bank B",
+    "number": 22,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "sound library"
+    ]
+  },
+  {
+    "name": "FZ1 Tenor Saxophone",
+    "bank": "Factory Bank A",
+    "number": 23,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "resonant filter"
+    ]
+  },
+  {
+    "name": "FZ1 Studio Tenor Saxophone",
+    "bank": "Factory Bank B",
+    "number": 23,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "sound library"
+    ]
+  },
+  {
+    "name": "FZ1 Concert Flute",
+    "bank": "Factory Bank A",
+    "number": 24,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "resonant filter"
+    ]
+  },
+  {
+    "name": "FZ1 Studio Concert Flute",
+    "bank": "Factory Bank B",
+    "number": 24,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "sound library"
+    ]
+  },
+  {
+    "name": "FZ1 Panpipe Chiff",
+    "bank": "Factory Bank A",
+    "number": 25,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "resonant filter"
+    ]
+  },
+  {
+    "name": "FZ1 Studio Panpipe Chiff",
+    "bank": "Factory Bank B",
+    "number": 25,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "sound library"
+    ]
+  },
+  {
+    "name": "FZ1 Square Wave Waveform",
+    "bank": "Factory Bank A",
+    "number": 26,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "resonant filter"
+    ]
+  },
+  {
+    "name": "FZ1 Studio Square Wave Waveform",
+    "bank": "Factory Bank B",
+    "number": 26,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "sound library"
+    ]
+  },
+  {
+    "name": "FZ1 Sawtooth Harmonic Wave",
+    "bank": "Factory Bank A",
+    "number": 27,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "resonant filter"
+    ]
+  },
+  {
+    "name": "FZ1 Studio Sawtooth Harmonic Wave",
+    "bank": "Factory Bank B",
+    "number": 27,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "sound library"
+    ]
+  },
+  {
+    "name": "FZ1 Resonant Sweep Pad",
+    "bank": "Factory Bank A",
+    "number": 28,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "resonant filter"
+    ]
+  },
+  {
+    "name": "FZ1 Studio Resonant Sweep Pad",
+    "bank": "Factory Bank B",
+    "number": 28,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "sound library"
+    ]
+  },
+  {
+    "name": "FZ1 Digital Bell Choir",
+    "bank": "Factory Bank A",
+    "number": 29,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "resonant filter"
+    ]
+  },
+  {
+    "name": "FZ1 Studio Digital Bell Choir",
+    "bank": "Factory Bank B",
+    "number": 29,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "sound library"
+    ]
+  },
+  {
+    "name": "FZ1 Tubular Bells Chime",
+    "bank": "Factory Bank A",
+    "number": 30,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "resonant filter"
+    ]
+  },
+  {
+    "name": "FZ1 Studio Tubular Bells Chime",
+    "bank": "Factory Bank B",
+    "number": 30,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "sound library"
+    ]
+  },
+  {
+    "name": "FZ1 Orchestra Hit Slam",
+    "bank": "Factory Bank A",
+    "number": 31,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "resonant filter"
+    ]
+  },
+  {
+    "name": "FZ1 Studio Orchestra Hit Slam",
+    "bank": "Factory Bank B",
+    "number": 31,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "sound library"
+    ]
+  },
+  {
+    "name": "FZ1 Industrial Metal Clang",
+    "bank": "Factory Bank A",
+    "number": 32,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "resonant filter"
+    ]
+  },
+  {
+    "name": "FZ1 Studio Industrial Metal Clang",
+    "bank": "Factory Bank B",
+    "number": 32,
+    "category": "Sampler",
+    "tags": [
+      "casio",
+      "16-bit",
+      "sampling",
+      "sound library"
+    ]
+  }
+]

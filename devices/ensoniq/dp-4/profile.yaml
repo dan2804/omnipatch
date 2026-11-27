@@ -1,0 +1,31 @@
+manufacturer: Ensoniq
+model: DP/4 / DP/4+
+type: Parallel Multi-Effects Processor
+year: 1992
+midi:
+  channels: 16
+  cc_map:
+    fx_bypass: 84
+    mix_dry_wet: 91
+    param_1: 16
+    param_2: 17
+    param_3: 18
+    param_4: 19
+sysex:
+  header: F0 0F 40 00
+  device_id_byte: 2
+  commands:
+    request_preset: F0 0F 40 00 01 [preset] F7
+banks:
+- name: 1-Unit Algorithms
+  type: ROM
+  size: 100
+- name: 2-Unit Algorithms
+  type: ROM
+  size: 100
+- name: 4-Unit Configurations
+  type: ROM
+  size: 100
+- name: User Memory
+  type: RAM
+  size: 100

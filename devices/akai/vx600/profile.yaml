@@ -1,0 +1,22 @@
+manufacturer: Akai
+model: VX600
+type: 6-Voice Matrix Analog Synthesizer
+year: 1988
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    mod_wheel: 1
+    aftertouch: 2
+    volume: 7
+    expression: 11
+sysex:
+  header: F0 47 00 24
+  device_id_byte: 2
+  commands:
+    request_patch: F0 47 00 24 40 [patch] F7
+banks:
+- name: Factory Sounds
+  type: ROM/RAM
+  size: 100

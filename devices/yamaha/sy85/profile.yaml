@@ -1,0 +1,32 @@
+manufacturer: Yamaha
+model: SY85
+type: Advanced AWM2 Music Synthesizer Workstation
+year: 1992
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    slider1: 16
+    slider2: 17
+    slider3: 18
+    slider4: 19
+    volume: 7
+sysex:
+  header: F0 43 10 3B
+  device_id_byte: 2
+  commands:
+    request_voice: F0 43 10 3B 00 [bank] [prog] F7
+banks:
+- name: Internal Bank A
+  type: ROM
+  size: 64
+- name: Internal Bank B
+  type: ROM
+  size: 64
+- name: Internal Bank C
+  type: ROM
+  size: 64
+- name: Internal Bank D
+  type: ROM
+  size: 64

@@ -1,0 +1,21 @@
+manufacturer: Korg
+model: Poly-61
+type: 6-Voice Programmable Polyphonic Synthesizer
+year: 1982
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    dco2_tune: 70
+    volume: 7
+    arp_rate: 14
+sysex:
+  header: F0 42 30 01
+  device_id_byte: 2
+  commands:
+    request_prog: F0 42 30 01 10 [prog] F7
+banks:
+- name: Preset Memories
+  type: RAM
+  size: 64

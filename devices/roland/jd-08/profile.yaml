@@ -1,0 +1,25 @@
+manufacturer: Roland
+model: JD-08
+type: Boutique 4-Part Linear Synthesizer
+year: 2021
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    tvf_env_depth: 77
+    pan: 10
+    volume: 7
+    reverb_level: 91
+sysex:
+  header: F0 41 10 00 00 64
+  device_id_byte: 3
+  commands:
+    request_patch: F0 41 10 00 00 64 11 [addr] [size] [chk] F7
+banks:
+- name: Bank A Original
+  type: ROM
+  size: 64
+- name: Bank B Expanded
+  type: ROM
+  size: 64
