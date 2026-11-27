@@ -1,0 +1,1706 @@
+[
+  {
+    "bank": "FACTORY PATCH A",
+    "program": 1,
+    "name": "A11: Symphony",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH A",
+    "program": 2,
+    "name": "A12: Oct Strings",
+    "category": "STRINGS",
+    "tags": [
+      "jx-10",
+      "patch-a",
+      "strings"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH A",
+    "program": 3,
+    "name": "A13: Warm Strings",
+    "category": "STRINGS",
+    "tags": [
+      "jx-10",
+      "patch-a",
+      "strings"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH A",
+    "program": 4,
+    "name": "A14: Big Brass",
+    "category": "BRASS",
+    "tags": [
+      "jx-10",
+      "patch-a",
+      "brass"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH A",
+    "program": 5,
+    "name": "A15: Horn Ensemble",
+    "category": "BRASS",
+    "tags": [
+      "jx-10",
+      "patch-a",
+      "brass"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH A",
+    "program": 6,
+    "name": "A16: Super JX Lead",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH A",
+    "program": 7,
+    "name": "A17: Reso Lead",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH A",
+    "program": 8,
+    "name": "A18: Synth Brass 1",
+    "category": "BRASS",
+    "tags": [
+      "jx-10",
+      "patch-a",
+      "brass"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH A",
+    "program": 9,
+    "name": "A21: Acoustic Piano 1",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH A",
+    "program": 10,
+    "name": "A22: Electric Piano 1",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH A",
+    "program": 11,
+    "name": "A23: Clavinet 1",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH A",
+    "program": 12,
+    "name": "A24: Pipe Organ 1",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH A",
+    "program": 13,
+    "name": "A25: Jazz Organ 1",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH A",
+    "program": 14,
+    "name": "A26: Church Organ",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH A",
+    "program": 15,
+    "name": "A27: Harpsichord",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH A",
+    "program": 16,
+    "name": "A28: Celesta",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH A",
+    "program": 17,
+    "name": "A31: Upright Bass",
+    "category": "BASS",
+    "tags": [
+      "jx-10",
+      "patch-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH A",
+    "program": 18,
+    "name": "A32: Electric Bass",
+    "category": "BASS",
+    "tags": [
+      "jx-10",
+      "patch-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH A",
+    "program": 19,
+    "name": "A33: Synth Bass 1",
+    "category": "BASS",
+    "tags": [
+      "jx-10",
+      "patch-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH A",
+    "program": 20,
+    "name": "A34: Synth Bass 2",
+    "category": "BASS",
+    "tags": [
+      "jx-10",
+      "patch-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH A",
+    "program": 21,
+    "name": "A35: Slap Bass",
+    "category": "BASS",
+    "tags": [
+      "jx-10",
+      "patch-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH A",
+    "program": 22,
+    "name": "A36: Fretless",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH A",
+    "program": 23,
+    "name": "A37: Bell Synth",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH A",
+    "program": 24,
+    "name": "A38: Mallet",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH A",
+    "program": 25,
+    "name": "A41: Flute",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH A",
+    "program": 26,
+    "name": "A42: Piccolo",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH A",
+    "program": 27,
+    "name": "A43: Clarinet",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH A",
+    "program": 28,
+    "name": "A44: Oboe",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH A",
+    "program": 29,
+    "name": "A45: Voices",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH A",
+    "program": 30,
+    "name": "A46: Space Choir",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH A",
+    "program": 31,
+    "name": "A47: Fantasy",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH A",
+    "program": 32,
+    "name": "A48: Soundtrack",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH B",
+    "program": 33,
+    "name": "B11: Chase Strings",
+    "category": "PAD",
+    "tags": [
+      "jx-10",
+      "patch-b",
+      "pad"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH B",
+    "program": 34,
+    "name": "B12: Chase Brass",
+    "category": "PAD",
+    "tags": [
+      "jx-10",
+      "patch-b",
+      "pad"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH B",
+    "program": 35,
+    "name": "B13: Chase Echo",
+    "category": "PAD",
+    "tags": [
+      "jx-10",
+      "patch-b",
+      "pad"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH B",
+    "program": 36,
+    "name": "B14: Space Echo",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH B",
+    "program": 37,
+    "name": "B15: Arp FX",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH B",
+    "program": 38,
+    "name": "B16: Laser Gun",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH B",
+    "program": 39,
+    "name": "B17: Wind",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH B",
+    "program": 40,
+    "name": "B18: Sci-Fi FX",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH B",
+    "program": 41,
+    "name": "B21: Split Piano/Bass",
+    "category": "SPLIT",
+    "tags": [
+      "jx-10",
+      "patch-b",
+      "split"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH B",
+    "program": 42,
+    "name": "B22: Split Brass/Bass",
+    "category": "SPLIT",
+    "tags": [
+      "jx-10",
+      "patch-b",
+      "split"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH B",
+    "program": 43,
+    "name": "B23: Split Strings/Flute",
+    "category": "SPLIT",
+    "tags": [
+      "jx-10",
+      "patch-b",
+      "split"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH B",
+    "program": 44,
+    "name": "B24: Split Organ/Bass",
+    "category": "SPLIT",
+    "tags": [
+      "jx-10",
+      "patch-b",
+      "split"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH B",
+    "program": 45,
+    "name": "B25: Dual Pad 1",
+    "category": "PAD",
+    "tags": [
+      "jx-10",
+      "patch-b",
+      "pad"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH B",
+    "program": 46,
+    "name": "B26: Dual Pad 2",
+    "category": "PAD",
+    "tags": [
+      "jx-10",
+      "patch-b",
+      "pad"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH B",
+    "program": 47,
+    "name": "B27: Dual Solo",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH B",
+    "program": 48,
+    "name": "B28: Dual Bell",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH B",
+    "program": 49,
+    "name": "B31: Wave Table",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH B",
+    "program": 50,
+    "name": "B32: Digital Bell",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH B",
+    "program": 51,
+    "name": "B33: Metallic Hit",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH B",
+    "program": 52,
+    "name": "B34: Mallet Bell",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH B",
+    "program": 53,
+    "name": "B35: Pan Flute",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH B",
+    "program": 54,
+    "name": "B36: Shakuhachi",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH B",
+    "program": 55,
+    "name": "B37: Sitar",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH B",
+    "program": 56,
+    "name": "B38: Koto",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH B",
+    "program": 57,
+    "name": "B41: Poly Synth 1",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH B",
+    "program": 58,
+    "name": "B42: Poly Synth 2",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH B",
+    "program": 59,
+    "name": "B43: Fifth Lead",
+    "category": "LEAD",
+    "tags": [
+      "jx-10",
+      "patch-b",
+      "lead"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH B",
+    "program": 60,
+    "name": "B44: Sync Lead",
+    "category": "LEAD",
+    "tags": [
+      "jx-10",
+      "patch-b",
+      "lead"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH B",
+    "program": 61,
+    "name": "B45: Fat Lead",
+    "category": "LEAD",
+    "tags": [
+      "jx-10",
+      "patch-b",
+      "lead"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH B",
+    "program": 62,
+    "name": "B46: Modular Bass",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH B",
+    "program": 63,
+    "name": "B47: Big Hit",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PATCH B",
+    "program": 64,
+    "name": "B48: Super JX FX",
+    "category": "SYNTH",
+    "tags": [
+      "jx-10",
+      "patch-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 1,
+    "name": "Tone 01: Super Strings",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 2,
+    "name": "Tone 02: Slow Strings",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 3,
+    "name": "Tone 03: Bright Strings",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 4,
+    "name": "Tone 04: Chamber Strings",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 5,
+    "name": "Tone 05: Pizzicato",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 6,
+    "name": "Tone 06: Brass Section 1",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 7,
+    "name": "Tone 07: Brass Section 2",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 8,
+    "name": "Tone 08: Fanfare Horns",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 9,
+    "name": "Tone 09: Muted Trumpet",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 10,
+    "name": "Tone 10: Tuba",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 11,
+    "name": "Tone 11: Grand Piano",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 12,
+    "name": "Tone 12: Tine EP",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 13,
+    "name": "Tone 13: Dyno EP",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 14,
+    "name": "Tone 14: Harpsi 8'",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 15,
+    "name": "Tone 15: Clavinet D6",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 16,
+    "name": "Tone 16: Rock B3",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 17,
+    "name": "Tone 17: Gospel B3",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 18,
+    "name": "Tone 18: Full Pipe Organ",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 19,
+    "name": "Tone 19: Accordion",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 20,
+    "name": "Tone 20: Harmonica",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 21,
+    "name": "Tone 21: Wood Bass",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 22,
+    "name": "Tone 22: Fender Jazz Bass",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 23,
+    "name": "Tone 23: Moog Minibass",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 24,
+    "name": "Tone 24: TB Reso Bass",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 25,
+    "name": "Tone 25: FM Solid Bass",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 26,
+    "name": "Tone 26: Solo Oboe",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 27,
+    "name": "Tone 27: Concert Flute",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 28,
+    "name": "Tone 28: Pan Pipe",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 29,
+    "name": "Tone 29: Bottle Blow",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 30,
+    "name": "Tone 30: Tin Whistle",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 31,
+    "name": "Tone 31: Vocoder Choir",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 32,
+    "name": "Tone 32: Male Voices",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 33,
+    "name": "Tone 33: Femme Vox",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 34,
+    "name": "Tone 34: Space Pad",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 35,
+    "name": "Tone 35: Sweep Pad",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 36,
+    "name": "Tone 36: Sync Lead",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 37,
+    "name": "Tone 37: Mini Lead",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 38,
+    "name": "Tone 38: Square Lead",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 39,
+    "name": "Tone 39: Saw Solo",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 40,
+    "name": "Tone 40: Poly Pluck",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 41,
+    "name": "Tone 41: Marimba Wood",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 42,
+    "name": "Tone 42: Vibe Motor",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 43,
+    "name": "Tone 43: Tubular Chime",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 44,
+    "name": "Tone 44: Steel Drum",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 45,
+    "name": "Tone 45: Glockenspiel",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 46,
+    "name": "Tone 46: Kalimba Tine",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 47,
+    "name": "Tone 47: Koto Harp",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 48,
+    "name": "Tone 48: Sitar Drone",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 49,
+    "name": "Tone 49: Gamelan Gong",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 50,
+    "name": "Tone 50: Wind Chimes",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 51,
+    "name": "Tone 51: Atmosphere FX",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 52,
+    "name": "Tone 52: Starlight FX",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 53,
+    "name": "Tone 53: Laser Zap",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 54,
+    "name": "Tone 54: Thunder Crash",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 55,
+    "name": "Tone 55: Helicopter",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 56,
+    "name": "Tone 56: Reso Drone",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 57,
+    "name": "Tone 57: Sub Sonic Boom",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 58,
+    "name": "Tone 58: Metallic Clang",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 59,
+    "name": "Tone 59: SciFi Siren",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 60,
+    "name": "Tone 60: Alien Sweep",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 61,
+    "name": "Tone 61: Pop Horns",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 62,
+    "name": "Tone 62: Punchy Brass",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 63,
+    "name": "Tone 63: Euro Strings",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 64,
+    "name": "Tone 64: Analog Pad 80",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 65,
+    "name": "Tone 65: Crystal Tines",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 66,
+    "name": "Tone 66: Click Organ",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 67,
+    "name": "Tone 67: Rotary B3",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 68,
+    "name": "Tone 68: Perc Organ",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 69,
+    "name": "Tone 69: Synth Bell 1",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 70,
+    "name": "Tone 70: Synth Bell 2",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 71,
+    "name": "Tone 71: Attack Bass",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 72,
+    "name": "Tone 72: Fretless Mwah",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 73,
+    "name": "Tone 73: Slap Thumb",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 74,
+    "name": "Tone 74: Acid Squelch",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 75,
+    "name": "Tone 75: Digi Bass",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 76,
+    "name": "Tone 76: Shakuhachi Hit",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 77,
+    "name": "Tone 77: Nylon Guitar",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 78,
+    "name": "Tone 78: Steel Guitar",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 79,
+    "name": "Tone 79: Overdrive Lead",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 80,
+    "name": "Tone 80: Chorus Guitar",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 81,
+    "name": "Tone 81: Orchestra Hit",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 82,
+    "name": "Tone 82: Brass Drop",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 83,
+    "name": "Tone 83: Timpani Roll",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 84,
+    "name": "Tone 84: Snare Rim",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 85,
+    "name": "Tone 85: Electronic Tom",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 86,
+    "name": "Tone 86: Analog Kick",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 87,
+    "name": "Tone 87: Noise Snare",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 88,
+    "name": "Tone 88: Hi-Hat Open",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 89,
+    "name": "Tone 89: Hi-Hat Closed",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 90,
+    "name": "Tone 90: Crash Cymbal",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 91,
+    "name": "Tone 91: Ride Cymbal",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 92,
+    "name": "Tone 92: Tambourine",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 93,
+    "name": "Tone 93: Agogo Bells",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 94,
+    "name": "Tone 94: Cabasa",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 95,
+    "name": "Tone 95: Woodblock",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 96,
+    "name": "Tone 96: Super JX Anthem",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 97,
+    "name": "Tone 97: Vintage Warmth",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 98,
+    "name": "Tone 98: Modular Wall",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 99,
+    "name": "Tone 99: Digital Wave 1",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  },
+  {
+    "bank": "TONE MEMORY",
+    "program": 100,
+    "name": "Tone 100: Digital Wave 2",
+    "category": "TONE",
+    "tags": [
+      "jx-10",
+      "tone-memory"
+    ]
+  }
+]

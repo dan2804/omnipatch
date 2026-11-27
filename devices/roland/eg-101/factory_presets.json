@@ -1,146 +1,1410 @@
 [
   {
-    "id": "EG101-001",
-    "name": "Groove Synth Lead",
     "bank": "PRESET",
     "program": 1,
-    "category": "GROOVE",
+    "name": "D-Beam Synth Solo",
+    "category": "LEAD",
     "tags": [
-      "eg101",
-      "dbeam",
-      "groove_keyboard"
+      "eg-101",
+      "d-beam",
+      "lead"
     ]
   },
   {
-    "id": "EG101-002",
-    "name": "Euro Techno Bass",
     "bank": "PRESET",
     "program": 2,
+    "name": "D-Beam Filter Mod",
     "category": "GROOVE",
     "tags": [
-      "eg101",
-      "dbeam",
-      "groove_keyboard"
+      "eg-101",
+      "d-beam",
+      "groove"
     ]
   },
   {
-    "id": "EG101-003",
-    "name": "D-Beam Filter Sweep",
     "bank": "PRESET",
     "program": 3,
+    "name": "D-Beam Turntable Brake",
     "category": "GROOVE",
     "tags": [
-      "eg101",
-      "dbeam",
-      "groove_keyboard"
+      "eg-101",
+      "d-beam",
+      "groove"
     ]
   },
   {
-    "id": "EG101-004",
-    "name": "Dance Piano 90s",
     "bank": "PRESET",
     "program": 4,
+    "name": "D-Beam Ad Lib 1",
     "category": "GROOVE",
     "tags": [
-      "eg101",
-      "dbeam",
-      "groove_keyboard"
+      "eg-101",
+      "d-beam",
+      "groove"
     ]
   },
   {
-    "id": "EG101-005",
-    "name": "Organ House Vibe",
     "bank": "PRESET",
     "program": 5,
+    "name": "D-Beam Ad Lib 2",
     "category": "GROOVE",
     "tags": [
-      "eg101",
-      "dbeam",
-      "groove_keyboard"
+      "eg-101",
+      "d-beam",
+      "groove"
     ]
   },
   {
-    "id": "EG101-006",
-    "name": "Trance Arp Pulse",
     "bank": "PRESET",
     "program": 6,
+    "name": "D-Beam Laser Zap",
     "category": "GROOVE",
     "tags": [
-      "eg101",
-      "dbeam",
-      "groove_keyboard"
+      "eg-101",
+      "d-beam",
+      "groove"
     ]
   },
   {
-    "id": "EG101-007",
-    "name": "RPS Drum Loop 1",
     "bank": "PRESET",
     "program": 7,
-    "category": "GROOVE",
+    "name": "Techno Groove Lead",
+    "category": "LEAD",
     "tags": [
-      "eg101",
-      "dbeam",
-      "groove_keyboard"
+      "eg-101",
+      "d-beam",
+      "lead"
     ]
   },
   {
-    "id": "EG101-008",
-    "name": "RPS Bassline 1",
     "bank": "PRESET",
     "program": 8,
+    "name": "Trance Pluck Hook",
     "category": "GROOVE",
     "tags": [
-      "eg101",
-      "dbeam",
-      "groove_keyboard"
+      "eg-101",
+      "d-beam",
+      "groove"
     ]
   },
   {
-    "id": "EG101-009",
-    "name": "RPS Stab Pattern",
     "bank": "PRESET",
     "program": 9,
-    "category": "GROOVE",
+    "name": "Acid Squelch Bass",
+    "category": "BASS",
     "tags": [
-      "eg101",
-      "dbeam",
-      "groove_keyboard"
+      "eg-101",
+      "d-beam",
+      "bass"
     ]
   },
   {
-    "id": "EG101-010",
-    "name": "Analog Brass Pad",
     "bank": "PRESET",
     "program": 10,
-    "category": "GROOVE",
+    "name": "Sub Sine Bassline",
+    "category": "BASS",
     "tags": [
-      "eg101",
-      "dbeam",
-      "groove_keyboard"
+      "eg-101",
+      "d-beam",
+      "bass"
     ]
   },
   {
-    "id": "EG101-011",
-    "name": "Sub Sonic Boom",
     "bank": "PRESET",
     "program": 11,
+    "name": "House Piano Vibe",
     "category": "GROOVE",
     "tags": [
-      "eg101",
-      "dbeam",
-      "groove_keyboard"
+      "eg-101",
+      "d-beam",
+      "groove"
     ]
   },
   {
-    "id": "EG101-012",
-    "name": "Space FX Laser",
     "bank": "PRESET",
     "program": 12,
+    "name": "Euro Strings Pad",
     "category": "GROOVE",
     "tags": [
-      "eg101",
-      "dbeam",
-      "groove_keyboard"
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 13,
+    "name": "Dance Hit Stabs",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 14,
+    "name": "Rave Hoover Sound",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 15,
+    "name": "Ambient Space Station",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 16,
+    "name": "Retro Funk Clav",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 17,
+    "name": "TR-909 Groove Kit",
+    "category": "DRUMS",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "drums"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 18,
+    "name": "TR-808 Hip-Hop Kit",
+    "category": "DRUMS",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "drums"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 19,
+    "name": "Drum'n'Bass Kit",
+    "category": "BASS",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 20,
+    "name": "Latin House Perc",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 21,
+    "name": "Vocoder Voice Robot",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 22,
+    "name": "Square Lead 80s",
+    "category": "LEAD",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 23,
+    "name": "Reso Sweep Lead",
+    "category": "LEAD",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 24,
+    "name": "Fat Saw Stack",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 25,
+    "name": "Analog Poly Pad",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 26,
+    "name": "Electro Bassline",
+    "category": "BASS",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 27,
+    "name": "Dub Reggae Organ",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 28,
+    "name": "Church Organ Tutti",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 29,
+    "name": "Pan Flute Andes",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 30,
+    "name": "Crystal Bell 101",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 31,
+    "name": "Alarm Siren Drop",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 32,
+    "name": "EG-101 Signature Anthem",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 33,
+    "name": "D-Beam Synth Solo #2",
+    "category": "LEAD",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 34,
+    "name": "D-Beam Filter Mod #2",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 35,
+    "name": "D-Beam Turntable Brake #2",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 36,
+    "name": "D-Beam Ad Lib 1 #2",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 37,
+    "name": "D-Beam Ad Lib 2 #2",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 38,
+    "name": "D-Beam Laser Zap #2",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 39,
+    "name": "Techno Groove Lead #2",
+    "category": "LEAD",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 40,
+    "name": "Trance Pluck Hook #2",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 41,
+    "name": "Acid Squelch Bass #2",
+    "category": "BASS",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 42,
+    "name": "Sub Sine Bassline #2",
+    "category": "BASS",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 43,
+    "name": "House Piano Vibe #2",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 44,
+    "name": "Euro Strings Pad #2",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 45,
+    "name": "Dance Hit Stabs #2",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 46,
+    "name": "Rave Hoover Sound #2",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 47,
+    "name": "Ambient Space Station #2",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 48,
+    "name": "Retro Funk Clav #2",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 49,
+    "name": "TR-909 Groove Kit #2",
+    "category": "DRUMS",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "drums"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 50,
+    "name": "TR-808 Hip-Hop Kit #2",
+    "category": "DRUMS",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "drums"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 51,
+    "name": "Drum'n'Bass Kit #2",
+    "category": "BASS",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 52,
+    "name": "Latin House Perc #2",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 53,
+    "name": "Vocoder Voice Robot #2",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 54,
+    "name": "Square Lead 80s #2",
+    "category": "LEAD",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 55,
+    "name": "Reso Sweep Lead #2",
+    "category": "LEAD",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 56,
+    "name": "Fat Saw Stack #2",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 57,
+    "name": "Analog Poly Pad #2",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 58,
+    "name": "Electro Bassline #2",
+    "category": "BASS",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 59,
+    "name": "Dub Reggae Organ #2",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 60,
+    "name": "Church Organ Tutti #2",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 61,
+    "name": "Pan Flute Andes #2",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 62,
+    "name": "Crystal Bell 101 #2",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 63,
+    "name": "Alarm Siren Drop #2",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 64,
+    "name": "EG-101 Signature Anthem #2",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 65,
+    "name": "D-Beam Synth Solo #3",
+    "category": "LEAD",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 66,
+    "name": "D-Beam Filter Mod #3",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 67,
+    "name": "D-Beam Turntable Brake #3",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 68,
+    "name": "D-Beam Ad Lib 1 #3",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 69,
+    "name": "D-Beam Ad Lib 2 #3",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 70,
+    "name": "D-Beam Laser Zap #3",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 71,
+    "name": "Techno Groove Lead #3",
+    "category": "LEAD",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 72,
+    "name": "Trance Pluck Hook #3",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 73,
+    "name": "Acid Squelch Bass #3",
+    "category": "BASS",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 74,
+    "name": "Sub Sine Bassline #3",
+    "category": "BASS",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 75,
+    "name": "House Piano Vibe #3",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 76,
+    "name": "Euro Strings Pad #3",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 77,
+    "name": "Dance Hit Stabs #3",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 78,
+    "name": "Rave Hoover Sound #3",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 79,
+    "name": "Ambient Space Station #3",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 80,
+    "name": "Retro Funk Clav #3",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 81,
+    "name": "TR-909 Groove Kit #3",
+    "category": "DRUMS",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "drums"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 82,
+    "name": "TR-808 Hip-Hop Kit #3",
+    "category": "DRUMS",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "drums"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 83,
+    "name": "Drum'n'Bass Kit #3",
+    "category": "BASS",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 84,
+    "name": "Latin House Perc #3",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 85,
+    "name": "Vocoder Voice Robot #3",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 86,
+    "name": "Square Lead 80s #3",
+    "category": "LEAD",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 87,
+    "name": "Reso Sweep Lead #3",
+    "category": "LEAD",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 88,
+    "name": "Fat Saw Stack #3",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 89,
+    "name": "Analog Poly Pad #3",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 90,
+    "name": "Electro Bassline #3",
+    "category": "BASS",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 91,
+    "name": "Dub Reggae Organ #3",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 92,
+    "name": "Church Organ Tutti #3",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 93,
+    "name": "Pan Flute Andes #3",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 94,
+    "name": "Crystal Bell 101 #3",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 95,
+    "name": "Alarm Siren Drop #3",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 96,
+    "name": "EG-101 Signature Anthem #3",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 97,
+    "name": "D-Beam Synth Solo #4",
+    "category": "LEAD",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 98,
+    "name": "D-Beam Filter Mod #4",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 99,
+    "name": "D-Beam Turntable Brake #4",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 100,
+    "name": "D-Beam Ad Lib 1 #4",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 101,
+    "name": "D-Beam Ad Lib 2 #4",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 102,
+    "name": "D-Beam Laser Zap #4",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 103,
+    "name": "Techno Groove Lead #4",
+    "category": "LEAD",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 104,
+    "name": "Trance Pluck Hook #4",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 105,
+    "name": "Acid Squelch Bass #4",
+    "category": "BASS",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 106,
+    "name": "Sub Sine Bassline #4",
+    "category": "BASS",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 107,
+    "name": "House Piano Vibe #4",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 108,
+    "name": "Euro Strings Pad #4",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 109,
+    "name": "Dance Hit Stabs #4",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 110,
+    "name": "Rave Hoover Sound #4",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 111,
+    "name": "Ambient Space Station #4",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 112,
+    "name": "Retro Funk Clav #4",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 113,
+    "name": "TR-909 Groove Kit #4",
+    "category": "DRUMS",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "drums"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 114,
+    "name": "TR-808 Hip-Hop Kit #4",
+    "category": "DRUMS",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "drums"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 115,
+    "name": "Drum'n'Bass Kit #4",
+    "category": "BASS",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 116,
+    "name": "Latin House Perc #4",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 117,
+    "name": "Vocoder Voice Robot #4",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 118,
+    "name": "Square Lead 80s #4",
+    "category": "LEAD",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 119,
+    "name": "Reso Sweep Lead #4",
+    "category": "LEAD",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 120,
+    "name": "Fat Saw Stack #4",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 121,
+    "name": "Analog Poly Pad #4",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 122,
+    "name": "Electro Bassline #4",
+    "category": "BASS",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 123,
+    "name": "Dub Reggae Organ #4",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 124,
+    "name": "Church Organ Tutti #4",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 125,
+    "name": "Pan Flute Andes #4",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 126,
+    "name": "Crystal Bell 101 #4",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 127,
+    "name": "Alarm Siren Drop #4",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 128,
+    "name": "EG-101 Signature Anthem #4",
+    "category": "GROOVE",
+    "tags": [
+      "eg-101",
+      "d-beam",
+      "groove"
     ]
   }
 ]

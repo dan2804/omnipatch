@@ -1,23 +1,5634 @@
 [
-  { "bank": 0, "program": 0, "name": "Composer Grand", "category": "Piano" },
-  { "bank": 0, "program": 1, "name": "Studio Grand Piano", "category": "Piano" },
-  { "bank": 0, "program": 2, "name": "Classic Dyno Rhodes", "category": "Electric Piano" },
-  { "bank": 0, "program": 3, "name": "B3 Drawbar Organ", "category": "Organ" },
-  { "bank": 0, "program": 4, "name": "Clavinet D6 Funk", "category": "Keys" },
-  { "bank": 0, "program": 5, "name": "Deep Acoustic Upright", "category": "Bass" },
-  { "bank": 0, "program": 6, "name": "Fingered Bass Studio", "category": "Bass" },
-  { "bank": 0, "program": 7, "name": "Slap & Pop Bass", "category": "Bass" },
-  { "bank": 0, "program": 8, "name": "Minimoog Fat Sub", "category": "Synth Bass" },
-  { "bank": 0, "program": 9, "name": "Symphonic Strings Warm", "category": "Strings" },
-  { "bank": 0, "program": 10, "name": "Marcato String Section", "category": "Strings" },
-  { "bank": 0, "program": 11, "name": "Warm Brass Fanfare", "category": "Brass" },
-  { "bank": 0, "program": 12, "name": "Miles Muted Trumpet", "category": "Brass" },
-  { "bank": 0, "program": 13, "name": "Breathy Tenor Sax", "category": "Wind" },
-  { "bank": 0, "program": 14, "name": "Nylon Acoustic Guitar", "category": "Guitar" },
-  { "bank": 0, "program": 15, "name": "Strat Clean Chorus", "category": "Guitar" },
-  { "bank": 0, "program": 16, "name": "Warm Prophet Analog Pad", "category": "Pad" },
-  { "bank": 0, "program": 17, "name": "Z-Plane Formant Sweep", "category": "Synth" },
-  { "bank": 0, "program": 18, "name": "Techno Trance Lead", "category": "Lead" },
-  { "bank": 0, "program": 19, "name": "Standard Studio Kit", "category": "Drums" },
-  { "bank": 0, "program": 20, "name": "Proteus Dance Club Kit", "category": "Drums" }
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 0,
+    "name": "000 Stereo Grand 1",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 1,
+    "name": "001 Concert Piano",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 2,
+    "name": "002 Rock Grand",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 3,
+    "name": "003 Honky Tonk Piano",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 4,
+    "name": "004 Dyno Rhodes MKII",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 5,
+    "name": "005 Classic Suitcase EP",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 6,
+    "name": "006 Wurlitzer 200A",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 7,
+    "name": "007 FM Tine Piano",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 8,
+    "name": "008 Stage EP Ballad",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 9,
+    "name": "009 Clavinet D6 Wah",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 10,
+    "name": "010 Clavinet Mute",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 11,
+    "name": "011 Harpsichord 8+4",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 12,
+    "name": "012 Stereo Celesta",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 13,
+    "name": "013 Tubular Bells",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 14,
+    "name": "014 Vibraphone Jazz",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 15,
+    "name": "015 Marimba Concert",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 16,
+    "name": "016 Hammond B3 Fast",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 17,
+    "name": "017 B3 Slow Rotor",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 18,
+    "name": "018 Drawbars Full",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 19,
+    "name": "019 Gospel B3",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 20,
+    "name": "020 Church Organ Tutti",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 21,
+    "name": "021 Cathedral Flutes",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 22,
+    "name": "022 Pipe Organ Reed",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 23,
+    "name": "023 Accordion Musette",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 24,
+    "name": "024 Ballad EP 1",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 25,
+    "name": "025 Hard Rhodes",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 26,
+    "name": "026 Tremolo Wurly",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 27,
+    "name": "027 Perc Organ 2nd",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 28,
+    "name": "028 Perc Organ 3rd",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 29,
+    "name": "029 Stereo Honky",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 30,
+    "name": "030 Mellow Grand",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 31,
+    "name": "031 Dark Acoustic Piano",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 32,
+    "name": "032 Toy Piano Tines",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 33,
+    "name": "033 Glockenspiel",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 34,
+    "name": "034 Carillon Chimes",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 35,
+    "name": "035 Balafon Wood",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 36,
+    "name": "036 Kalimba Mbira",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 37,
+    "name": "037 Music Box Key",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 38,
+    "name": "038 Electric Clavinet",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 39,
+    "name": "039 Phase Rhodes",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 40,
+    "name": "040 Chorused Grand",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 41,
+    "name": "041 Stereo Harpsichord",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 42,
+    "name": "042 Rock B3 Drive",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 43,
+    "name": "043 Rotary Drawbars",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 44,
+    "name": "044 Warm Organ Pad",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 45,
+    "name": "045 Full Cathedral",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 46,
+    "name": "046 Puff Organ",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 47,
+    "name": "047 Soft Accordion",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 48,
+    "name": "048 Dynamic Grand",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 49,
+    "name": "049 Studio Piano",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 50,
+    "name": "050 Vintage Tines",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 51,
+    "name": "051 Suitcase Chorus",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 52,
+    "name": "052 Funk Clavinet",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 53,
+    "name": "053 Wah Clav Funk",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 54,
+    "name": "054 Stereo Vibes",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 55,
+    "name": "055 Concert Marimba",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 56,
+    "name": "056 Orchestral Bells",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 57,
+    "name": "057 Glass Celesta",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 58,
+    "name": "058 Gospel Rotor",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 59,
+    "name": "059 Jazz B3 Clean",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 60,
+    "name": "060 Church Diapason",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 61,
+    "name": "061 French Musette",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 62,
+    "name": "062 Tine EP Layer",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 63,
+    "name": "063 Acoustic Grand 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 64,
+    "name": "064 Symphonic Strings",
+    "category": "STRINGS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "strings"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 65,
+    "name": "065 Warm Lush Strings",
+    "category": "STRINGS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "strings"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 66,
+    "name": "066 Chamber Quartet",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 67,
+    "name": "067 Pizzicato Section",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 68,
+    "name": "068 Solo Violin 1",
+    "category": "STRINGS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "strings"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 69,
+    "name": "069 Solo Cello Dark",
+    "category": "STRINGS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "strings"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 70,
+    "name": "070 Marcato Strings",
+    "category": "STRINGS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "strings"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 71,
+    "name": "071 Tremolo Section",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 72,
+    "name": "072 Orchestral Brass",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 73,
+    "name": "073 French Horns Section",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 74,
+    "name": "074 Trumpet Fanfare",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 75,
+    "name": "075 Trombone Section",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 76,
+    "name": "076 Muted Trumpet Harmon",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 77,
+    "name": "077 Tuba Staccato",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 78,
+    "name": "078 Concert Flute",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 79,
+    "name": "079 Solo Oboe",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 80,
+    "name": "080 Clarinet Expressive",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 81,
+    "name": "081 Bassoon Section",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 82,
+    "name": "082 Piccolo Trill",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 83,
+    "name": "083 English Horn",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 84,
+    "name": "084 Orchestra Hit Major",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 85,
+    "name": "085 Tutti Orchestra Hit",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 86,
+    "name": "086 Timpani & Crash",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 87,
+    "name": "087 Concert Harp",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 88,
+    "name": "088 Adagio Violins",
+    "category": "STRINGS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "strings"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 89,
+    "name": "089 Spiccato Violoncelli",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 90,
+    "name": "090 Slow Octave Strings",
+    "category": "STRINGS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "strings"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 91,
+    "name": "091 Full Symphonic Tutti",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 92,
+    "name": "092 Fanfare Trumpets",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 93,
+    "name": "093 Brass & Strings Combo",
+    "category": "STRINGS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "strings"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 94,
+    "name": "094 Solo French Horn",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 95,
+    "name": "095 Bass Trombone",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 96,
+    "name": "096 Woodwind Quintet",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 97,
+    "name": "097 Flute & Clarinet Dual",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 98,
+    "name": "098 Chamber Oboe",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 99,
+    "name": "099 Bassoon Staccato",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 100,
+    "name": "100 Orchestra Percussion",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 101,
+    "name": "101 Timpani Roll Cresc",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 102,
+    "name": "102 Harp Glissando Up",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 103,
+    "name": "103 Harp Glissando Down",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 104,
+    "name": "104 Legato Violins",
+    "category": "STRINGS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "strings"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 105,
+    "name": "105 Warm Cello Solo",
+    "category": "STRINGS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "strings"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 106,
+    "name": "106 Pizzicato Double Bass",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 107,
+    "name": "107 Orchestral Swell",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 108,
+    "name": "108 Trumpet Solo Harmon",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 109,
+    "name": "109 Horn Call Echo",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 110,
+    "name": "110 Wind & Reed Section",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 111,
+    "name": "111 Contra Bassoon",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 112,
+    "name": "112 Grand Orchestra Hit",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 113,
+    "name": "113 Staccato Brass Tutti",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 114,
+    "name": "114 Concert Snare Roll",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 115,
+    "name": "115 Bass Drum Concert",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 116,
+    "name": "116 Gong Crash Orchestral",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 117,
+    "name": "117 Tubular Bell Chime",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 118,
+    "name": "118 Celesta & Harp",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 119,
+    "name": "119 Symphonic Finale",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 120,
+    "name": "120 String Quartet Legato",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 121,
+    "name": "121 Cinema Strings 1",
+    "category": "STRINGS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "strings"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 122,
+    "name": "122 Cinema Strings 2",
+    "category": "STRINGS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "strings"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 123,
+    "name": "123 Film Score Brass",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 124,
+    "name": "124 Epic Horn Ensemble",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 125,
+    "name": "125 Orchestral Woodwinds",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 126,
+    "name": "126 Timpani Hard Mallet",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 0 (Pianos & Keys)",
+    "program": 127,
+    "name": "127 Cymbal Scrape",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 0,
+    "name": "000 Acoustic Upright Bass",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 1,
+    "name": "001 Finger Electric Bass",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 2,
+    "name": "002 Picked P-Bass",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 3,
+    "name": "003 Slap Bass Funk",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 4,
+    "name": "004 Fretless Bass Mwah",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 5,
+    "name": "005 Precision Pop Bass",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 6,
+    "name": "006 1970s Jazz Bass",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 7,
+    "name": "007 Thumb Pop Bass",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 8,
+    "name": "008 Moog Sub Bass",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 9,
+    "name": "009 SE-1 Analog Bass",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 10,
+    "name": "010 Acid TB-303 Square",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 11,
+    "name": "011 Acid TB-303 Saw",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 12,
+    "name": "012 FM Solid Bass",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 13,
+    "name": "013 DX100 Lately Bass",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 14,
+    "name": "014 Sub Low Sine 808",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 15,
+    "name": "015 Reese Jungle Bass",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 16,
+    "name": "016 Nylon Classical Guitar",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 17,
+    "name": "017 Steel Acoustic Strum",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 18,
+    "name": "018 12-String Acoustic",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 19,
+    "name": "019 Strat Clean Chorus",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 20,
+    "name": "020 Funk Mute Strat",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 21,
+    "name": "021 Gibson Les Paul Lead",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 22,
+    "name": "022 Overdrive Rock Lead",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 23,
+    "name": "023 Muted Jazz Guitar",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 24,
+    "name": "024 Flamenco Nylon",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 25,
+    "name": "025 Acoustic Fingerpick",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 26,
+    "name": "026 Pedal Steel Country",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 27,
+    "name": "027 Stratocaster Neck",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 28,
+    "name": "028 Telecaster Bridge",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 29,
+    "name": "029 Distorted Heavy Rhythm",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 30,
+    "name": "030 Wah Rhythm Guitar",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 31,
+    "name": "031 Chorus 12-String",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 32,
+    "name": "032 Upright Jazz Milt",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 33,
+    "name": "033 Rickenbacker Bass",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 34,
+    "name": "034 Modern 5-String Bass",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 35,
+    "name": "035 Slap & Pull Duo",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 36,
+    "name": "036 Fretless Harmonics",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 37,
+    "name": "037 Punchy Synth Bass",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 38,
+    "name": "038 Resonant Modular Bass",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 39,
+    "name": "039 Aggro Dist Bass",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 40,
+    "name": "040 Sub Bass Dropper",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 41,
+    "name": "041 Rave Juno Bass",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 42,
+    "name": "042 Square Bassline",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 43,
+    "name": "043 House Organ Bass",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 44,
+    "name": "044 Techno Pulse Bass",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 45,
+    "name": "045 DnB Heavy Sub",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 46,
+    "name": "046 Dub Sub 40Hz",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 47,
+    "name": "047 Vintage Modular Sub",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 48,
+    "name": "048 Martin D-28 Acoustic",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 49,
+    "name": "049 Guild 12-String",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 50,
+    "name": "050 Jazz Hollow Body",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 51,
+    "name": "051 Rockabilly Hollow",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 52,
+    "name": "052 Country Tele Twang",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 53,
+    "name": "053 Heavy Metal Chug",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 54,
+    "name": "054 Power Chord Hit",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 55,
+    "name": "055 Feedback Lead Guitar",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 56,
+    "name": "056 Acoustic Harmonics",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 57,
+    "name": "057 Clean Electric Arp",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 58,
+    "name": "058 Wah Funk Mute",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 59,
+    "name": "059 Sitar Acoustic",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 60,
+    "name": "060 Banjo Fingerstyle",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 61,
+    "name": "061 Mandolin Tremolo",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 62,
+    "name": "062 Ukulele Hawaii",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 63,
+    "name": "063 Dobro Slide Guitar",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 64,
+    "name": "064 Proteus Anthem Lead",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 65,
+    "name": "065 Z-Plane Reso Sweep",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 66,
+    "name": "066 Super Saw Stack",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 67,
+    "name": "067 OB-8 Poly Brass",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 68,
+    "name": "068 Jupiter 8 Warmth",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 69,
+    "name": "069 Prophet 5 Sync",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 70,
+    "name": "070 Minimoog Lead 1",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 71,
+    "name": "071 Minimoog Lead 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 72,
+    "name": "072 ARP 2600 Reso",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 73,
+    "name": "073 Modular Pulse Solo",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 74,
+    "name": "074 Phase Distort Lead",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 75,
+    "name": "075 Digital PPG Bells",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 76,
+    "name": "076 Crystal Glass Pad",
+    "category": "PAD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "pad"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 77,
+    "name": "077 Warm Matrix Pad",
+    "category": "PAD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "pad"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 78,
+    "name": "078 Ambient Space Station",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 79,
+    "name": "079 Dark Nebula Drone",
+    "category": "PAD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "pad"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 80,
+    "name": "080 Ethereal Voice Pad",
+    "category": "PAD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "pad"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 81,
+    "name": "081 Vocal Choir Ahhs",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 82,
+    "name": "082 Vocal Choir Oohs",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 83,
+    "name": "083 Fairlight Vox Human",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 84,
+    "name": "084 Formant Filter Vowel",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 85,
+    "name": "085 Cyber Pluck Arp",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 86,
+    "name": "086 Trance Gate 16th",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 87,
+    "name": "087 Euro Rave Lead",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 88,
+    "name": "088 Acid Reso Scream",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 89,
+    "name": "089 Distorted TB Lead",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 90,
+    "name": "090 Analog Brass Pad",
+    "category": "PAD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "pad"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 91,
+    "name": "091 Vintage String Machine",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 92,
+    "name": "092 Solina String Ensemble",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 93,
+    "name": "093 Mellotron Flute",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 94,
+    "name": "094 Mellotron Choir",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 95,
+    "name": "095 Mellotron Strings",
+    "category": "STRINGS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "strings"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 96,
+    "name": "096 Z-Plane Morph 1",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 97,
+    "name": "097 Z-Plane Morph 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 98,
+    "name": "098 Z-Plane Vocalizer",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 99,
+    "name": "099 Z-Plane Techno Sweep",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 100,
+    "name": "100 Hyper Reso Lead",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 101,
+    "name": "101 Portamento Sine Solo",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 102,
+    "name": "102 Square Wave 80s",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 103,
+    "name": "103 Pulse Width Lead",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 104,
+    "name": "104 Fifth Interval Lead",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 105,
+    "name": "105 Hard Sync Solo",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 106,
+    "name": "106 Ring Modulator Solo",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 107,
+    "name": "107 Feedback Synth Lead",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 108,
+    "name": "108 Warm Octave Pad",
+    "category": "PAD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "pad"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 109,
+    "name": "109 Silk Analog Strings",
+    "category": "STRINGS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "strings"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 110,
+    "name": "110 Deep Space Orbit",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 111,
+    "name": "111 Solar Wind Pad",
+    "category": "PAD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "pad"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 112,
+    "name": "112 Heavenly Pad",
+    "category": "PAD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "pad"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 113,
+    "name": "113 Glass Atmosphere",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 114,
+    "name": "114 Vaporwave Synth",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 115,
+    "name": "115 Chillout Chords",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 116,
+    "name": "116 Classic House Piano",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 117,
+    "name": "117 Rave Stabs 1992",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 118,
+    "name": "118 Eurodance Pluck",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 119,
+    "name": "119 Psy-Trance Arp Hook",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 120,
+    "name": "120 Subterfuge Lead",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 121,
+    "name": "121 Electroclash Bass",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 122,
+    "name": "122 Modular Chaos",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 123,
+    "name": "123 Sci-Fi Laser Gun",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 124,
+    "name": "124 Alien Communicator",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 125,
+    "name": "125 UFO Engine Drone",
+    "category": "PAD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "pad"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 126,
+    "name": "126 Industrial Slam",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 1 (Strings & Orchestral)",
+    "program": 127,
+    "name": "127 Cybernetic FX Pad",
+    "category": "PAD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "pad"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 0,
+    "name": "000 Stereo Grand 1 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 1,
+    "name": "001 Concert Piano 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 2,
+    "name": "002 Rock Grand 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 3,
+    "name": "003 Honky Tonk Piano 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 4,
+    "name": "004 Dyno Rhodes MKII 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 5,
+    "name": "005 Classic Suitcase EP 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 6,
+    "name": "006 Wurlitzer 200A 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 7,
+    "name": "007 FM Tine Piano 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 8,
+    "name": "008 Stage EP Ballad 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 9,
+    "name": "009 Clavinet D6 Wah 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 10,
+    "name": "010 Clavinet Mute 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 11,
+    "name": "011 Harpsichord 8+4 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 12,
+    "name": "012 Stereo Celesta 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 13,
+    "name": "013 Tubular Bells 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 14,
+    "name": "014 Vibraphone Jazz 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 15,
+    "name": "015 Marimba Concert 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 16,
+    "name": "016 Hammond B3 Fast 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 17,
+    "name": "017 B3 Slow Rotor 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 18,
+    "name": "018 Drawbars Full 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 19,
+    "name": "019 Gospel B3 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 20,
+    "name": "020 Church Organ Tutti 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 21,
+    "name": "021 Cathedral Flutes 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 22,
+    "name": "022 Pipe Organ Reed 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 23,
+    "name": "023 Accordion Musette 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 24,
+    "name": "024 Ballad EP 1 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 25,
+    "name": "025 Hard Rhodes 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 26,
+    "name": "026 Tremolo Wurly 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 27,
+    "name": "027 Perc Organ 2nd 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 28,
+    "name": "028 Perc Organ 3rd 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 29,
+    "name": "029 Stereo Honky 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 30,
+    "name": "030 Mellow Grand 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 31,
+    "name": "031 Dark Acoustic Piano 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 32,
+    "name": "032 Toy Piano Tines 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 33,
+    "name": "033 Glockenspiel 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 34,
+    "name": "034 Carillon Chimes 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 35,
+    "name": "035 Balafon Wood 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 36,
+    "name": "036 Kalimba Mbira 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 37,
+    "name": "037 Music Box Key 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 38,
+    "name": "038 Electric Clavinet 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 39,
+    "name": "039 Phase Rhodes 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 40,
+    "name": "040 Chorused Grand 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 41,
+    "name": "041 Stereo Harpsichord 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 42,
+    "name": "042 Rock B3 Drive 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 43,
+    "name": "043 Rotary Drawbars 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 44,
+    "name": "044 Warm Organ Pad 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 45,
+    "name": "045 Full Cathedral 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 46,
+    "name": "046 Puff Organ 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 47,
+    "name": "047 Soft Accordion 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 48,
+    "name": "048 Dynamic Grand 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 49,
+    "name": "049 Studio Piano 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 50,
+    "name": "050 Vintage Tines 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 51,
+    "name": "051 Suitcase Chorus 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 52,
+    "name": "052 Funk Clavinet 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 53,
+    "name": "053 Wah Clav Funk 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 54,
+    "name": "054 Stereo Vibes 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 55,
+    "name": "055 Concert Marimba 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 56,
+    "name": "056 Orchestral Bells 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 57,
+    "name": "057 Glass Celesta 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 58,
+    "name": "058 Gospel Rotor 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 59,
+    "name": "059 Jazz B3 Clean 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 60,
+    "name": "060 Church Diapason 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 61,
+    "name": "061 French Musette 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 62,
+    "name": "062 Tine EP Layer 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 63,
+    "name": "063 Acoustic Grand 2 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 64,
+    "name": "064 Symphonic Strings 2",
+    "category": "STRINGS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "strings"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 65,
+    "name": "065 Warm Lush Strings 2",
+    "category": "STRINGS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "strings"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 66,
+    "name": "066 Chamber Quartet 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 67,
+    "name": "067 Pizzicato Section 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 68,
+    "name": "068 Solo Violin 1 2",
+    "category": "STRINGS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "strings"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 69,
+    "name": "069 Solo Cello Dark 2",
+    "category": "STRINGS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "strings"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 70,
+    "name": "070 Marcato Strings 2",
+    "category": "STRINGS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "strings"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 71,
+    "name": "071 Tremolo Section 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 72,
+    "name": "072 Orchestral Brass 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 73,
+    "name": "073 French Horns Section 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 74,
+    "name": "074 Trumpet Fanfare 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 75,
+    "name": "075 Trombone Section 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 76,
+    "name": "076 Muted Trumpet Harmon 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 77,
+    "name": "077 Tuba Staccato 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 78,
+    "name": "078 Concert Flute 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 79,
+    "name": "079 Solo Oboe 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 80,
+    "name": "080 Clarinet Expressive 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 81,
+    "name": "081 Bassoon Section 2",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 82,
+    "name": "082 Piccolo Trill 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 83,
+    "name": "083 English Horn 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 84,
+    "name": "084 Orchestra Hit Major 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 85,
+    "name": "085 Tutti Orchestra Hit 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 86,
+    "name": "086 Timpani & Crash 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 87,
+    "name": "087 Concert Harp 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 88,
+    "name": "088 Adagio Violins 2",
+    "category": "STRINGS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "strings"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 89,
+    "name": "089 Spiccato Violoncelli 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 90,
+    "name": "090 Slow Octave Strings 2",
+    "category": "STRINGS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "strings"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 91,
+    "name": "091 Full Symphonic Tutti 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 92,
+    "name": "092 Fanfare Trumpets 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 93,
+    "name": "093 Brass & Strings Combo 2",
+    "category": "STRINGS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "strings"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 94,
+    "name": "094 Solo French Horn 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 95,
+    "name": "095 Bass Trombone 2",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 96,
+    "name": "096 Woodwind Quintet 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 97,
+    "name": "097 Flute & Clarinet Dual 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 98,
+    "name": "098 Chamber Oboe 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 99,
+    "name": "099 Bassoon Staccato 2",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 100,
+    "name": "100 Orchestra Percussion 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 101,
+    "name": "101 Timpani Roll Cresc 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 102,
+    "name": "102 Harp Glissando Up 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 103,
+    "name": "103 Harp Glissando Down 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 104,
+    "name": "104 Legato Violins 2",
+    "category": "STRINGS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "strings"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 105,
+    "name": "105 Warm Cello Solo 2",
+    "category": "STRINGS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "strings"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 106,
+    "name": "106 Pizzicato Double Bass 2",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 107,
+    "name": "107 Orchestral Swell 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 108,
+    "name": "108 Trumpet Solo Harmon 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 109,
+    "name": "109 Horn Call Echo 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 110,
+    "name": "110 Wind & Reed Section 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 111,
+    "name": "111 Contra Bassoon 2",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 112,
+    "name": "112 Grand Orchestra Hit 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 113,
+    "name": "113 Staccato Brass Tutti 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 114,
+    "name": "114 Concert Snare Roll 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 115,
+    "name": "115 Bass Drum Concert 2",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 116,
+    "name": "116 Gong Crash Orchestral 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 117,
+    "name": "117 Tubular Bell Chime 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 118,
+    "name": "118 Celesta & Harp 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 119,
+    "name": "119 Symphonic Finale 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 120,
+    "name": "120 String Quartet Legato 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 121,
+    "name": "121 Cinema Strings 1 2",
+    "category": "STRINGS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "strings"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 122,
+    "name": "122 Cinema Strings 2 2",
+    "category": "STRINGS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "strings"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 123,
+    "name": "123 Film Score Brass 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 124,
+    "name": "124 Epic Horn Ensemble 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 125,
+    "name": "125 Orchestral Woodwinds 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 126,
+    "name": "126 Timpani Hard Mallet 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 2 (Basses & Guitars)",
+    "program": 127,
+    "name": "127 Cymbal Scrape 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 0,
+    "name": "000 Acoustic Upright Bass 2",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 1,
+    "name": "001 Finger Electric Bass 2",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 2,
+    "name": "002 Picked P-Bass 2",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 3,
+    "name": "003 Slap Bass Funk 2",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 4,
+    "name": "004 Fretless Bass Mwah 2",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 5,
+    "name": "005 Precision Pop Bass 2",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 6,
+    "name": "006 1970s Jazz Bass 2",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 7,
+    "name": "007 Thumb Pop Bass 2",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 8,
+    "name": "008 Moog Sub Bass 2",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 9,
+    "name": "009 SE-1 Analog Bass 2",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 10,
+    "name": "010 Acid TB-303 Square 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 11,
+    "name": "011 Acid TB-303 Saw 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 12,
+    "name": "012 FM Solid Bass 2",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 13,
+    "name": "013 DX100 Lately Bass 2",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 14,
+    "name": "014 Sub Low Sine 808 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 15,
+    "name": "015 Reese Jungle Bass 2",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 16,
+    "name": "016 Nylon Classical Guitar 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 17,
+    "name": "017 Steel Acoustic Strum 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 18,
+    "name": "018 12-String Acoustic 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 19,
+    "name": "019 Strat Clean Chorus 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 20,
+    "name": "020 Funk Mute Strat 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 21,
+    "name": "021 Gibson Les Paul Lead 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 22,
+    "name": "022 Overdrive Rock Lead 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 23,
+    "name": "023 Muted Jazz Guitar 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 24,
+    "name": "024 Flamenco Nylon 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 25,
+    "name": "025 Acoustic Fingerpick 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 26,
+    "name": "026 Pedal Steel Country 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 27,
+    "name": "027 Stratocaster Neck 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 28,
+    "name": "028 Telecaster Bridge 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 29,
+    "name": "029 Distorted Heavy Rhythm 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 30,
+    "name": "030 Wah Rhythm Guitar 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 31,
+    "name": "031 Chorus 12-String 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 32,
+    "name": "032 Upright Jazz Milt 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 33,
+    "name": "033 Rickenbacker Bass 2",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 34,
+    "name": "034 Modern 5-String Bass 2",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 35,
+    "name": "035 Slap & Pull Duo 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 36,
+    "name": "036 Fretless Harmonics 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 37,
+    "name": "037 Punchy Synth Bass 2",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 38,
+    "name": "038 Resonant Modular Bass 2",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 39,
+    "name": "039 Aggro Dist Bass 2",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 40,
+    "name": "040 Sub Bass Dropper 2",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 41,
+    "name": "041 Rave Juno Bass 2",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 42,
+    "name": "042 Square Bassline 2",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 43,
+    "name": "043 House Organ Bass 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 44,
+    "name": "044 Techno Pulse Bass 2",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 45,
+    "name": "045 DnB Heavy Sub 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 46,
+    "name": "046 Dub Sub 40Hz 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 47,
+    "name": "047 Vintage Modular Sub 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 48,
+    "name": "048 Martin D-28 Acoustic 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 49,
+    "name": "049 Guild 12-String 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 50,
+    "name": "050 Jazz Hollow Body 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 51,
+    "name": "051 Rockabilly Hollow 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 52,
+    "name": "052 Country Tele Twang 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 53,
+    "name": "053 Heavy Metal Chug 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 54,
+    "name": "054 Power Chord Hit 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 55,
+    "name": "055 Feedback Lead Guitar 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 56,
+    "name": "056 Acoustic Harmonics 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 57,
+    "name": "057 Clean Electric Arp 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 58,
+    "name": "058 Wah Funk Mute 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 59,
+    "name": "059 Sitar Acoustic 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 60,
+    "name": "060 Banjo Fingerstyle 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 61,
+    "name": "061 Mandolin Tremolo 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 62,
+    "name": "062 Ukulele Hawaii 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 63,
+    "name": "063 Dobro Slide Guitar 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 64,
+    "name": "064 Proteus Anthem Lead 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 65,
+    "name": "065 Z-Plane Reso Sweep 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 66,
+    "name": "066 Super Saw Stack 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 67,
+    "name": "067 OB-8 Poly Brass 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 68,
+    "name": "068 Jupiter 8 Warmth 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 69,
+    "name": "069 Prophet 5 Sync 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 70,
+    "name": "070 Minimoog Lead 1 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 71,
+    "name": "071 Minimoog Lead 2 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 72,
+    "name": "072 ARP 2600 Reso 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 73,
+    "name": "073 Modular Pulse Solo 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 74,
+    "name": "074 Phase Distort Lead 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 75,
+    "name": "075 Digital PPG Bells 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 76,
+    "name": "076 Crystal Glass Pad 2",
+    "category": "PAD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "pad"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 77,
+    "name": "077 Warm Matrix Pad 2",
+    "category": "PAD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "pad"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 78,
+    "name": "078 Ambient Space Station 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 79,
+    "name": "079 Dark Nebula Drone 2",
+    "category": "PAD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "pad"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 80,
+    "name": "080 Ethereal Voice Pad 2",
+    "category": "PAD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "pad"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 81,
+    "name": "081 Vocal Choir Ahhs 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 82,
+    "name": "082 Vocal Choir Oohs 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 83,
+    "name": "083 Fairlight Vox Human 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 84,
+    "name": "084 Formant Filter Vowel 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 85,
+    "name": "085 Cyber Pluck Arp 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 86,
+    "name": "086 Trance Gate 16th 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 87,
+    "name": "087 Euro Rave Lead 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 88,
+    "name": "088 Acid Reso Scream 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 89,
+    "name": "089 Distorted TB Lead 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 90,
+    "name": "090 Analog Brass Pad 2",
+    "category": "PAD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "pad"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 91,
+    "name": "091 Vintage String Machine 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 92,
+    "name": "092 Solina String Ensemble 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 93,
+    "name": "093 Mellotron Flute 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 94,
+    "name": "094 Mellotron Choir 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 95,
+    "name": "095 Mellotron Strings 2",
+    "category": "STRINGS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "strings"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 96,
+    "name": "096 Z-Plane Morph 1 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 97,
+    "name": "097 Z-Plane Morph 2 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 98,
+    "name": "098 Z-Plane Vocalizer 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 99,
+    "name": "099 Z-Plane Techno Sweep 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 100,
+    "name": "100 Hyper Reso Lead 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 101,
+    "name": "101 Portamento Sine Solo 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 102,
+    "name": "102 Square Wave 80s 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 103,
+    "name": "103 Pulse Width Lead 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 104,
+    "name": "104 Fifth Interval Lead 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 105,
+    "name": "105 Hard Sync Solo 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 106,
+    "name": "106 Ring Modulator Solo 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 107,
+    "name": "107 Feedback Synth Lead 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 108,
+    "name": "108 Warm Octave Pad 2",
+    "category": "PAD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "pad"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 109,
+    "name": "109 Silk Analog Strings 2",
+    "category": "STRINGS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "strings"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 110,
+    "name": "110 Deep Space Orbit 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 111,
+    "name": "111 Solar Wind Pad 2",
+    "category": "PAD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "pad"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 112,
+    "name": "112 Heavenly Pad 2",
+    "category": "PAD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "pad"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 113,
+    "name": "113 Glass Atmosphere 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 114,
+    "name": "114 Vaporwave Synth 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 115,
+    "name": "115 Chillout Chords 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 116,
+    "name": "116 Classic House Piano 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 117,
+    "name": "117 Rave Stabs 1992 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 118,
+    "name": "118 Eurodance Pluck 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 119,
+    "name": "119 Psy-Trance Arp Hook 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 120,
+    "name": "120 Subterfuge Lead 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 121,
+    "name": "121 Electroclash Bass 2",
+    "category": "BASS",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 122,
+    "name": "122 Modular Chaos 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 123,
+    "name": "123 Sci-Fi Laser Gun 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 124,
+    "name": "124 Alien Communicator 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 125,
+    "name": "125 UFO Engine Drone 2",
+    "category": "PAD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "pad"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 126,
+    "name": "126 Industrial Slam 2",
+    "category": "SYNTH",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "CMPSR Bank 3 (Synths, Pads & Z-Plane)",
+    "program": 127,
+    "name": "127 Cybernetic FX Pad 2",
+    "category": "PAD",
+    "tags": [
+      "proteus",
+      "composer-rom",
+      "pad"
+    ]
+  }
 ]

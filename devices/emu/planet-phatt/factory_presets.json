@@ -1,23 +1,5634 @@
 [
-  { "bank": 0, "program": 0, "name": "Planet Phatt", "category": "Hip-Hop" },
-  { "bank": 0, "program": 1, "name": "Big Ol' Sub Bass", "category": "Bass" },
-  { "bank": 0, "program": 2, "name": "East Coast Boom Bass", "category": "Bass" },
-  { "bank": 0, "program": 3, "name": "G-Funk Whistle Lead", "category": "Lead" },
-  { "bank": 0, "program": 4, "name": "R&B Velvet Tines", "category": "Electric Piano" },
-  { "bank": 0, "program": 5, "name": "Street Preacher Organ", "category": "Organ" },
-  { "bank": 0, "program": 6, "name": "West Coast Wah Clav", "category": "Keys" },
-  { "bank": 0, "program": 7, "name": "Phatt Brass Stabs", "category": "Brass" },
-  { "bank": 0, "program": 8, "name": "808 Sub Drop", "category": "Bass" },
-  { "bank": 0, "program": 9, "name": "90s Boom Bap Kit", "category": "Drums" },
-  { "bank": 0, "program": 10, "name": "Trap & Dirty South Kit", "category": "Drums" },
-  { "bank": 0, "program": 11, "name": "Old School Rhodes Vibe", "category": "Electric Piano" },
-  { "bank": 0, "program": 12, "name": "Vinyl Scratch & Pluck", "category": "FX" },
-  { "bank": 0, "program": 13, "name": "Slow Jam Velvet Strings", "category": "Strings" },
-  { "bank": 0, "program": 14, "name": "Soul Jazz Flute", "category": "Wind" },
-  { "bank": 0, "program": 15, "name": "Wah Muted Guitar Chops", "category": "Guitar" },
-  { "bank": 0, "program": 16, "name": "Talkbox Electro Lead", "category": "Lead" },
-  { "bank": 0, "program": 17, "name": "Dark Boom Bap Piano", "category": "Piano" },
-  { "bank": 0, "program": 18, "name": "Phatt Moog Solo", "category": "Synth Lead" },
-  { "bank": 0, "program": 19, "name": "Nu Soul Warm Chords", "category": "Pad" },
-  { "bank": 0, "program": 20, "name": "Phatt Urban Scratch Kit", "category": "Drums" }
+  {
+    "bank": "Phatt Bank 0",
+    "program": 0,
+    "name": "000 Phatt Swing System Anthem",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 1,
+    "name": "001 East Coast Boombap Sub",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 2,
+    "name": "002 West Coast G-Funk Whistle",
+    "category": "LEAD",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 3,
+    "name": "003 Dr. Dre Sine Lead",
+    "category": "LEAD",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 4,
+    "name": "004 SP-1200 Crunchy Break",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 5,
+    "name": "005 MPC 60 Vinyl Snare",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 6,
+    "name": "006 Tape Saturated 808 Kick",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 7,
+    "name": "007 Dirty Funk Wah Bass",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 8,
+    "name": "008 Rhodes Mellow Chords",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 9,
+    "name": "009 Vinyl Crackle Atmosphere",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 10,
+    "name": "010 Smokey Jazz Organ B3",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 11,
+    "name": "011 Funk Mute Strat Pluck",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 12,
+    "name": "012 Slap Thumb Funk Bass",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 13,
+    "name": "013 Orchestra Hit Stabs",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 14,
+    "name": "014 R&B Vocal Ahh Hook",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 15,
+    "name": "015 Smooth Flute Hip-Hop",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 16,
+    "name": "016 Urban Street Siren FX",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 17,
+    "name": "017 Low Rider 808 Sub",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 18,
+    "name": "018 Brass Section Drop",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 19,
+    "name": "019 Talkbox Vocoder Solo",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 20,
+    "name": "020 Muted Horn Section",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 21,
+    "name": "021 Scratch Vinyl Baby",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 22,
+    "name": "022 Vintage Wurlitzer Vibe",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 23,
+    "name": "023 Clavinet Funk Chank",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 24,
+    "name": "024 Sub Heavy 808 Boom",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 25,
+    "name": "025 G-Funk Saw Portamento",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 26,
+    "name": "026 90s Golden Era Beat",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 27,
+    "name": "027 Late Night Soul Pad",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 28,
+    "name": "028 Mellow Vibraphone",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 29,
+    "name": "029 Tape Stop Turntable",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 30,
+    "name": "030 Filtered Lo-Fi Piano",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 31,
+    "name": "031 Urban Cityscape Drone",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 32,
+    "name": "032 Phatt Swing System Anthem 2",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 33,
+    "name": "033 East Coast Boombap Sub 2",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 34,
+    "name": "034 West Coast G-Funk Whistle 2",
+    "category": "LEAD",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 35,
+    "name": "035 Dr. Dre Sine Lead 2",
+    "category": "LEAD",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 36,
+    "name": "036 SP-1200 Crunchy Break 2",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 37,
+    "name": "037 MPC 60 Vinyl Snare 2",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 38,
+    "name": "038 Tape Saturated 808 Kick 2",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 39,
+    "name": "039 Dirty Funk Wah Bass 2",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 40,
+    "name": "040 Rhodes Mellow Chords 2",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 41,
+    "name": "041 Vinyl Crackle Atmosphere 2",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 42,
+    "name": "042 Smokey Jazz Organ B3 2",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 43,
+    "name": "043 Funk Mute Strat Pluck 2",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 44,
+    "name": "044 Slap Thumb Funk Bass 2",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 45,
+    "name": "045 Orchestra Hit Stabs 2",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 46,
+    "name": "046 R&B Vocal Ahh Hook 2",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 47,
+    "name": "047 Smooth Flute Hip-Hop 2",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 48,
+    "name": "048 Urban Street Siren FX 2",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 49,
+    "name": "049 Low Rider 808 Sub 2",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 50,
+    "name": "050 Brass Section Drop 2",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 51,
+    "name": "051 Talkbox Vocoder Solo 2",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 52,
+    "name": "052 Muted Horn Section 2",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 53,
+    "name": "053 Scratch Vinyl Baby 2",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 54,
+    "name": "054 Vintage Wurlitzer Vibe 2",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 55,
+    "name": "055 Clavinet Funk Chank 2",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 56,
+    "name": "056 Sub Heavy 808 Boom 2",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 57,
+    "name": "057 G-Funk Saw Portamento 2",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 58,
+    "name": "058 90s Golden Era Beat 2",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 59,
+    "name": "059 Late Night Soul Pad 2",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 60,
+    "name": "060 Mellow Vibraphone 2",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 61,
+    "name": "061 Tape Stop Turntable 2",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 62,
+    "name": "062 Filtered Lo-Fi Piano 2",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 63,
+    "name": "063 Urban Cityscape Drone 2",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 64,
+    "name": "064 Phatt Swing System Anthem 3",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 65,
+    "name": "065 East Coast Boombap Sub 3",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 66,
+    "name": "066 West Coast G-Funk Whistle 3",
+    "category": "LEAD",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 67,
+    "name": "067 Dr. Dre Sine Lead 3",
+    "category": "LEAD",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 68,
+    "name": "068 SP-1200 Crunchy Break 3",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 69,
+    "name": "069 MPC 60 Vinyl Snare 3",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 70,
+    "name": "070 Tape Saturated 808 Kick 3",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 71,
+    "name": "071 Dirty Funk Wah Bass 3",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 72,
+    "name": "072 Rhodes Mellow Chords 3",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 73,
+    "name": "073 Vinyl Crackle Atmosphere 3",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 74,
+    "name": "074 Smokey Jazz Organ B3 3",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 75,
+    "name": "075 Funk Mute Strat Pluck 3",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 76,
+    "name": "076 Slap Thumb Funk Bass 3",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 77,
+    "name": "077 Orchestra Hit Stabs 3",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 78,
+    "name": "078 R&B Vocal Ahh Hook 3",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 79,
+    "name": "079 Smooth Flute Hip-Hop 3",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 80,
+    "name": "080 Urban Street Siren FX 3",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 81,
+    "name": "081 Low Rider 808 Sub 3",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 82,
+    "name": "082 Brass Section Drop 3",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 83,
+    "name": "083 Talkbox Vocoder Solo 3",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 84,
+    "name": "084 Muted Horn Section 3",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 85,
+    "name": "085 Scratch Vinyl Baby 3",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 86,
+    "name": "086 Vintage Wurlitzer Vibe 3",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 87,
+    "name": "087 Clavinet Funk Chank 3",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 88,
+    "name": "088 Sub Heavy 808 Boom 3",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 89,
+    "name": "089 G-Funk Saw Portamento 3",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 90,
+    "name": "090 90s Golden Era Beat 3",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 91,
+    "name": "091 Late Night Soul Pad 3",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 92,
+    "name": "092 Mellow Vibraphone 3",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 93,
+    "name": "093 Tape Stop Turntable 3",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 94,
+    "name": "094 Filtered Lo-Fi Piano 3",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 95,
+    "name": "095 Urban Cityscape Drone 3",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 96,
+    "name": "096 Phatt Swing System Anthem 4",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 97,
+    "name": "097 East Coast Boombap Sub 4",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 98,
+    "name": "098 West Coast G-Funk Whistle 4",
+    "category": "LEAD",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 99,
+    "name": "099 Dr. Dre Sine Lead 4",
+    "category": "LEAD",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 100,
+    "name": "100 SP-1200 Crunchy Break 4",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 101,
+    "name": "101 MPC 60 Vinyl Snare 4",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 102,
+    "name": "102 Tape Saturated 808 Kick 4",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 103,
+    "name": "103 Dirty Funk Wah Bass 4",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 104,
+    "name": "104 Rhodes Mellow Chords 4",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 105,
+    "name": "105 Vinyl Crackle Atmosphere 4",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 106,
+    "name": "106 Smokey Jazz Organ B3 4",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 107,
+    "name": "107 Funk Mute Strat Pluck 4",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 108,
+    "name": "108 Slap Thumb Funk Bass 4",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 109,
+    "name": "109 Orchestra Hit Stabs 4",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 110,
+    "name": "110 R&B Vocal Ahh Hook 4",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 111,
+    "name": "111 Smooth Flute Hip-Hop 4",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 112,
+    "name": "112 Urban Street Siren FX 4",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 113,
+    "name": "113 Low Rider 808 Sub 4",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 114,
+    "name": "114 Brass Section Drop 4",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 115,
+    "name": "115 Talkbox Vocoder Solo 4",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 116,
+    "name": "116 Muted Horn Section 4",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 117,
+    "name": "117 Scratch Vinyl Baby 4",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 118,
+    "name": "118 Vintage Wurlitzer Vibe 4",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 119,
+    "name": "119 Clavinet Funk Chank 4",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 120,
+    "name": "120 Sub Heavy 808 Boom 4",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 121,
+    "name": "121 G-Funk Saw Portamento 4",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 122,
+    "name": "122 90s Golden Era Beat 4",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 123,
+    "name": "123 Late Night Soul Pad 4",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 124,
+    "name": "124 Mellow Vibraphone 4",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 125,
+    "name": "125 Tape Stop Turntable 4",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 126,
+    "name": "126 Filtered Lo-Fi Piano 4",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 0",
+    "program": 127,
+    "name": "127 Urban Cityscape Drone 4",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 0,
+    "name": "000 Phatt Swing System Anthem 5",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 1,
+    "name": "001 East Coast Boombap Sub 5",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 2,
+    "name": "002 West Coast G-Funk Whistle 5",
+    "category": "LEAD",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 3,
+    "name": "003 Dr. Dre Sine Lead 5",
+    "category": "LEAD",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 4,
+    "name": "004 SP-1200 Crunchy Break 5",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 5,
+    "name": "005 MPC 60 Vinyl Snare 5",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 6,
+    "name": "006 Tape Saturated 808 Kick 5",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 7,
+    "name": "007 Dirty Funk Wah Bass 5",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 8,
+    "name": "008 Rhodes Mellow Chords 5",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 9,
+    "name": "009 Vinyl Crackle Atmosphere 5",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 10,
+    "name": "010 Smokey Jazz Organ B3 5",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 11,
+    "name": "011 Funk Mute Strat Pluck 5",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 12,
+    "name": "012 Slap Thumb Funk Bass 5",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 13,
+    "name": "013 Orchestra Hit Stabs 5",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 14,
+    "name": "014 R&B Vocal Ahh Hook 5",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 15,
+    "name": "015 Smooth Flute Hip-Hop 5",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 16,
+    "name": "016 Urban Street Siren FX 5",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 17,
+    "name": "017 Low Rider 808 Sub 5",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 18,
+    "name": "018 Brass Section Drop 5",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 19,
+    "name": "019 Talkbox Vocoder Solo 5",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 20,
+    "name": "020 Muted Horn Section 5",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 21,
+    "name": "021 Scratch Vinyl Baby 5",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 22,
+    "name": "022 Vintage Wurlitzer Vibe 5",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 23,
+    "name": "023 Clavinet Funk Chank 5",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 24,
+    "name": "024 Sub Heavy 808 Boom 5",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 25,
+    "name": "025 G-Funk Saw Portamento 5",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 26,
+    "name": "026 90s Golden Era Beat 5",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 27,
+    "name": "027 Late Night Soul Pad 5",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 28,
+    "name": "028 Mellow Vibraphone 5",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 29,
+    "name": "029 Tape Stop Turntable 5",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 30,
+    "name": "030 Filtered Lo-Fi Piano 5",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 31,
+    "name": "031 Urban Cityscape Drone 5",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 32,
+    "name": "032 Phatt Swing System Anthem 6",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 33,
+    "name": "033 East Coast Boombap Sub 6",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 34,
+    "name": "034 West Coast G-Funk Whistle 6",
+    "category": "LEAD",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 35,
+    "name": "035 Dr. Dre Sine Lead 6",
+    "category": "LEAD",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 36,
+    "name": "036 SP-1200 Crunchy Break 6",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 37,
+    "name": "037 MPC 60 Vinyl Snare 6",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 38,
+    "name": "038 Tape Saturated 808 Kick 6",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 39,
+    "name": "039 Dirty Funk Wah Bass 6",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 40,
+    "name": "040 Rhodes Mellow Chords 6",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 41,
+    "name": "041 Vinyl Crackle Atmosphere 6",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 42,
+    "name": "042 Smokey Jazz Organ B3 6",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 43,
+    "name": "043 Funk Mute Strat Pluck 6",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 44,
+    "name": "044 Slap Thumb Funk Bass 6",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 45,
+    "name": "045 Orchestra Hit Stabs 6",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 46,
+    "name": "046 R&B Vocal Ahh Hook 6",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 47,
+    "name": "047 Smooth Flute Hip-Hop 6",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 48,
+    "name": "048 Urban Street Siren FX 6",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 49,
+    "name": "049 Low Rider 808 Sub 6",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 50,
+    "name": "050 Brass Section Drop 6",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 51,
+    "name": "051 Talkbox Vocoder Solo 6",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 52,
+    "name": "052 Muted Horn Section 6",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 53,
+    "name": "053 Scratch Vinyl Baby 6",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 54,
+    "name": "054 Vintage Wurlitzer Vibe 6",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 55,
+    "name": "055 Clavinet Funk Chank 6",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 56,
+    "name": "056 Sub Heavy 808 Boom 6",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 57,
+    "name": "057 G-Funk Saw Portamento 6",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 58,
+    "name": "058 90s Golden Era Beat 6",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 59,
+    "name": "059 Late Night Soul Pad 6",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 60,
+    "name": "060 Mellow Vibraphone 6",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 61,
+    "name": "061 Tape Stop Turntable 6",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 62,
+    "name": "062 Filtered Lo-Fi Piano 6",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 63,
+    "name": "063 Urban Cityscape Drone 6",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 64,
+    "name": "064 Phatt Swing System Anthem 7",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 65,
+    "name": "065 East Coast Boombap Sub 7",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 66,
+    "name": "066 West Coast G-Funk Whistle 7",
+    "category": "LEAD",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 67,
+    "name": "067 Dr. Dre Sine Lead 7",
+    "category": "LEAD",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 68,
+    "name": "068 SP-1200 Crunchy Break 7",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 69,
+    "name": "069 MPC 60 Vinyl Snare 7",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 70,
+    "name": "070 Tape Saturated 808 Kick 7",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 71,
+    "name": "071 Dirty Funk Wah Bass 7",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 72,
+    "name": "072 Rhodes Mellow Chords 7",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 73,
+    "name": "073 Vinyl Crackle Atmosphere 7",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 74,
+    "name": "074 Smokey Jazz Organ B3 7",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 75,
+    "name": "075 Funk Mute Strat Pluck 7",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 76,
+    "name": "076 Slap Thumb Funk Bass 7",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 77,
+    "name": "077 Orchestra Hit Stabs 7",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 78,
+    "name": "078 R&B Vocal Ahh Hook 7",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 79,
+    "name": "079 Smooth Flute Hip-Hop 7",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 80,
+    "name": "080 Urban Street Siren FX 7",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 81,
+    "name": "081 Low Rider 808 Sub 7",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 82,
+    "name": "082 Brass Section Drop 7",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 83,
+    "name": "083 Talkbox Vocoder Solo 7",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 84,
+    "name": "084 Muted Horn Section 7",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 85,
+    "name": "085 Scratch Vinyl Baby 7",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 86,
+    "name": "086 Vintage Wurlitzer Vibe 7",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 87,
+    "name": "087 Clavinet Funk Chank 7",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 88,
+    "name": "088 Sub Heavy 808 Boom 7",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 89,
+    "name": "089 G-Funk Saw Portamento 7",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 90,
+    "name": "090 90s Golden Era Beat 7",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 91,
+    "name": "091 Late Night Soul Pad 7",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 92,
+    "name": "092 Mellow Vibraphone 7",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 93,
+    "name": "093 Tape Stop Turntable 7",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 94,
+    "name": "094 Filtered Lo-Fi Piano 7",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 95,
+    "name": "095 Urban Cityscape Drone 7",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 96,
+    "name": "096 Phatt Swing System Anthem 8",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 97,
+    "name": "097 East Coast Boombap Sub 8",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 98,
+    "name": "098 West Coast G-Funk Whistle 8",
+    "category": "LEAD",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 99,
+    "name": "099 Dr. Dre Sine Lead 8",
+    "category": "LEAD",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 100,
+    "name": "100 SP-1200 Crunchy Break 8",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 101,
+    "name": "101 MPC 60 Vinyl Snare 8",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 102,
+    "name": "102 Tape Saturated 808 Kick 8",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 103,
+    "name": "103 Dirty Funk Wah Bass 8",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 104,
+    "name": "104 Rhodes Mellow Chords 8",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 105,
+    "name": "105 Vinyl Crackle Atmosphere 8",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 106,
+    "name": "106 Smokey Jazz Organ B3 8",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 107,
+    "name": "107 Funk Mute Strat Pluck 8",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 108,
+    "name": "108 Slap Thumb Funk Bass 8",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 109,
+    "name": "109 Orchestra Hit Stabs 8",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 110,
+    "name": "110 R&B Vocal Ahh Hook 8",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 111,
+    "name": "111 Smooth Flute Hip-Hop 8",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 112,
+    "name": "112 Urban Street Siren FX 8",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 113,
+    "name": "113 Low Rider 808 Sub 8",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 114,
+    "name": "114 Brass Section Drop 8",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 115,
+    "name": "115 Talkbox Vocoder Solo 8",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 116,
+    "name": "116 Muted Horn Section 8",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 117,
+    "name": "117 Scratch Vinyl Baby 8",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 118,
+    "name": "118 Vintage Wurlitzer Vibe 8",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 119,
+    "name": "119 Clavinet Funk Chank 8",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 120,
+    "name": "120 Sub Heavy 808 Boom 8",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 121,
+    "name": "121 G-Funk Saw Portamento 8",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 122,
+    "name": "122 90s Golden Era Beat 8",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 123,
+    "name": "123 Late Night Soul Pad 8",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 124,
+    "name": "124 Mellow Vibraphone 8",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 125,
+    "name": "125 Tape Stop Turntable 8",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 126,
+    "name": "126 Filtered Lo-Fi Piano 8",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 1",
+    "program": 127,
+    "name": "127 Urban Cityscape Drone 8",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 0,
+    "name": "000 Phatt Swing System Anthem 9",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 1,
+    "name": "001 East Coast Boombap Sub 9",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 2,
+    "name": "002 West Coast G-Funk Whistle 9",
+    "category": "LEAD",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 3,
+    "name": "003 Dr. Dre Sine Lead 9",
+    "category": "LEAD",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 4,
+    "name": "004 SP-1200 Crunchy Break 9",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 5,
+    "name": "005 MPC 60 Vinyl Snare 9",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 6,
+    "name": "006 Tape Saturated 808 Kick 9",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 7,
+    "name": "007 Dirty Funk Wah Bass 9",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 8,
+    "name": "008 Rhodes Mellow Chords 9",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 9,
+    "name": "009 Vinyl Crackle Atmosphere 9",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 10,
+    "name": "010 Smokey Jazz Organ B3 9",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 11,
+    "name": "011 Funk Mute Strat Pluck 9",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 12,
+    "name": "012 Slap Thumb Funk Bass 9",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 13,
+    "name": "013 Orchestra Hit Stabs 9",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 14,
+    "name": "014 R&B Vocal Ahh Hook 9",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 15,
+    "name": "015 Smooth Flute Hip-Hop 9",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 16,
+    "name": "016 Urban Street Siren FX 9",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 17,
+    "name": "017 Low Rider 808 Sub 9",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 18,
+    "name": "018 Brass Section Drop 9",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 19,
+    "name": "019 Talkbox Vocoder Solo 9",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 20,
+    "name": "020 Muted Horn Section 9",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 21,
+    "name": "021 Scratch Vinyl Baby 9",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 22,
+    "name": "022 Vintage Wurlitzer Vibe 9",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 23,
+    "name": "023 Clavinet Funk Chank 9",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 24,
+    "name": "024 Sub Heavy 808 Boom 9",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 25,
+    "name": "025 G-Funk Saw Portamento 9",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 26,
+    "name": "026 90s Golden Era Beat 9",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 27,
+    "name": "027 Late Night Soul Pad 9",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 28,
+    "name": "028 Mellow Vibraphone 9",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 29,
+    "name": "029 Tape Stop Turntable 9",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 30,
+    "name": "030 Filtered Lo-Fi Piano 9",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 31,
+    "name": "031 Urban Cityscape Drone 9",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 32,
+    "name": "032 Phatt Swing System Anthem 10",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 33,
+    "name": "033 East Coast Boombap Sub 10",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 34,
+    "name": "034 West Coast G-Funk Whistle 10",
+    "category": "LEAD",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 35,
+    "name": "035 Dr. Dre Sine Lead 10",
+    "category": "LEAD",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 36,
+    "name": "036 SP-1200 Crunchy Break 10",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 37,
+    "name": "037 MPC 60 Vinyl Snare 10",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 38,
+    "name": "038 Tape Saturated 808 Kick 10",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 39,
+    "name": "039 Dirty Funk Wah Bass 10",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 40,
+    "name": "040 Rhodes Mellow Chords 10",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 41,
+    "name": "041 Vinyl Crackle Atmosphere 10",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 42,
+    "name": "042 Smokey Jazz Organ B3 10",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 43,
+    "name": "043 Funk Mute Strat Pluck 10",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 44,
+    "name": "044 Slap Thumb Funk Bass 10",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 45,
+    "name": "045 Orchestra Hit Stabs 10",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 46,
+    "name": "046 R&B Vocal Ahh Hook 10",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 47,
+    "name": "047 Smooth Flute Hip-Hop 10",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 48,
+    "name": "048 Urban Street Siren FX 10",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 49,
+    "name": "049 Low Rider 808 Sub 10",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 50,
+    "name": "050 Brass Section Drop 10",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 51,
+    "name": "051 Talkbox Vocoder Solo 10",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 52,
+    "name": "052 Muted Horn Section 10",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 53,
+    "name": "053 Scratch Vinyl Baby 10",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 54,
+    "name": "054 Vintage Wurlitzer Vibe 10",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 55,
+    "name": "055 Clavinet Funk Chank 10",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 56,
+    "name": "056 Sub Heavy 808 Boom 10",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 57,
+    "name": "057 G-Funk Saw Portamento 10",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 58,
+    "name": "058 90s Golden Era Beat 10",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 59,
+    "name": "059 Late Night Soul Pad 10",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 60,
+    "name": "060 Mellow Vibraphone 10",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 61,
+    "name": "061 Tape Stop Turntable 10",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 62,
+    "name": "062 Filtered Lo-Fi Piano 10",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 63,
+    "name": "063 Urban Cityscape Drone 10",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 64,
+    "name": "064 Phatt Swing System Anthem 11",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 65,
+    "name": "065 East Coast Boombap Sub 11",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 66,
+    "name": "066 West Coast G-Funk Whistle 11",
+    "category": "LEAD",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 67,
+    "name": "067 Dr. Dre Sine Lead 11",
+    "category": "LEAD",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 68,
+    "name": "068 SP-1200 Crunchy Break 11",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 69,
+    "name": "069 MPC 60 Vinyl Snare 11",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 70,
+    "name": "070 Tape Saturated 808 Kick 11",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 71,
+    "name": "071 Dirty Funk Wah Bass 11",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 72,
+    "name": "072 Rhodes Mellow Chords 11",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 73,
+    "name": "073 Vinyl Crackle Atmosphere 11",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 74,
+    "name": "074 Smokey Jazz Organ B3 11",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 75,
+    "name": "075 Funk Mute Strat Pluck 11",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 76,
+    "name": "076 Slap Thumb Funk Bass 11",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 77,
+    "name": "077 Orchestra Hit Stabs 11",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 78,
+    "name": "078 R&B Vocal Ahh Hook 11",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 79,
+    "name": "079 Smooth Flute Hip-Hop 11",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 80,
+    "name": "080 Urban Street Siren FX 11",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 81,
+    "name": "081 Low Rider 808 Sub 11",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 82,
+    "name": "082 Brass Section Drop 11",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 83,
+    "name": "083 Talkbox Vocoder Solo 11",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 84,
+    "name": "084 Muted Horn Section 11",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 85,
+    "name": "085 Scratch Vinyl Baby 11",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 86,
+    "name": "086 Vintage Wurlitzer Vibe 11",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 87,
+    "name": "087 Clavinet Funk Chank 11",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 88,
+    "name": "088 Sub Heavy 808 Boom 11",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 89,
+    "name": "089 G-Funk Saw Portamento 11",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 90,
+    "name": "090 90s Golden Era Beat 11",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 91,
+    "name": "091 Late Night Soul Pad 11",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 92,
+    "name": "092 Mellow Vibraphone 11",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 93,
+    "name": "093 Tape Stop Turntable 11",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 94,
+    "name": "094 Filtered Lo-Fi Piano 11",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 95,
+    "name": "095 Urban Cityscape Drone 11",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 96,
+    "name": "096 Phatt Swing System Anthem 12",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 97,
+    "name": "097 East Coast Boombap Sub 12",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 98,
+    "name": "098 West Coast G-Funk Whistle 12",
+    "category": "LEAD",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 99,
+    "name": "099 Dr. Dre Sine Lead 12",
+    "category": "LEAD",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 100,
+    "name": "100 SP-1200 Crunchy Break 12",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 101,
+    "name": "101 MPC 60 Vinyl Snare 12",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 102,
+    "name": "102 Tape Saturated 808 Kick 12",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 103,
+    "name": "103 Dirty Funk Wah Bass 12",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 104,
+    "name": "104 Rhodes Mellow Chords 12",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 105,
+    "name": "105 Vinyl Crackle Atmosphere 12",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 106,
+    "name": "106 Smokey Jazz Organ B3 12",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 107,
+    "name": "107 Funk Mute Strat Pluck 12",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 108,
+    "name": "108 Slap Thumb Funk Bass 12",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 109,
+    "name": "109 Orchestra Hit Stabs 12",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 110,
+    "name": "110 R&B Vocal Ahh Hook 12",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 111,
+    "name": "111 Smooth Flute Hip-Hop 12",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 112,
+    "name": "112 Urban Street Siren FX 12",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 113,
+    "name": "113 Low Rider 808 Sub 12",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 114,
+    "name": "114 Brass Section Drop 12",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 115,
+    "name": "115 Talkbox Vocoder Solo 12",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 116,
+    "name": "116 Muted Horn Section 12",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 117,
+    "name": "117 Scratch Vinyl Baby 12",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 118,
+    "name": "118 Vintage Wurlitzer Vibe 12",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 119,
+    "name": "119 Clavinet Funk Chank 12",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 120,
+    "name": "120 Sub Heavy 808 Boom 12",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 121,
+    "name": "121 G-Funk Saw Portamento 12",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 122,
+    "name": "122 90s Golden Era Beat 12",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 123,
+    "name": "123 Late Night Soul Pad 12",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 124,
+    "name": "124 Mellow Vibraphone 12",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 125,
+    "name": "125 Tape Stop Turntable 12",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 126,
+    "name": "126 Filtered Lo-Fi Piano 12",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 2",
+    "program": 127,
+    "name": "127 Urban Cityscape Drone 12",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 0,
+    "name": "000 Phatt Swing System Anthem 13",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 1,
+    "name": "001 East Coast Boombap Sub 13",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 2,
+    "name": "002 West Coast G-Funk Whistle 13",
+    "category": "LEAD",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 3,
+    "name": "003 Dr. Dre Sine Lead 13",
+    "category": "LEAD",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 4,
+    "name": "004 SP-1200 Crunchy Break 13",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 5,
+    "name": "005 MPC 60 Vinyl Snare 13",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 6,
+    "name": "006 Tape Saturated 808 Kick 13",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 7,
+    "name": "007 Dirty Funk Wah Bass 13",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 8,
+    "name": "008 Rhodes Mellow Chords 13",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 9,
+    "name": "009 Vinyl Crackle Atmosphere 13",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 10,
+    "name": "010 Smokey Jazz Organ B3 13",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 11,
+    "name": "011 Funk Mute Strat Pluck 13",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 12,
+    "name": "012 Slap Thumb Funk Bass 13",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 13,
+    "name": "013 Orchestra Hit Stabs 13",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 14,
+    "name": "014 R&B Vocal Ahh Hook 13",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 15,
+    "name": "015 Smooth Flute Hip-Hop 13",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 16,
+    "name": "016 Urban Street Siren FX 13",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 17,
+    "name": "017 Low Rider 808 Sub 13",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 18,
+    "name": "018 Brass Section Drop 13",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 19,
+    "name": "019 Talkbox Vocoder Solo 13",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 20,
+    "name": "020 Muted Horn Section 13",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 21,
+    "name": "021 Scratch Vinyl Baby 13",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 22,
+    "name": "022 Vintage Wurlitzer Vibe 13",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 23,
+    "name": "023 Clavinet Funk Chank 13",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 24,
+    "name": "024 Sub Heavy 808 Boom 13",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 25,
+    "name": "025 G-Funk Saw Portamento 13",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 26,
+    "name": "026 90s Golden Era Beat 13",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 27,
+    "name": "027 Late Night Soul Pad 13",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 28,
+    "name": "028 Mellow Vibraphone 13",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 29,
+    "name": "029 Tape Stop Turntable 13",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 30,
+    "name": "030 Filtered Lo-Fi Piano 13",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 31,
+    "name": "031 Urban Cityscape Drone 13",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 32,
+    "name": "032 Phatt Swing System Anthem 14",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 33,
+    "name": "033 East Coast Boombap Sub 14",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 34,
+    "name": "034 West Coast G-Funk Whistle 14",
+    "category": "LEAD",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 35,
+    "name": "035 Dr. Dre Sine Lead 14",
+    "category": "LEAD",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 36,
+    "name": "036 SP-1200 Crunchy Break 14",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 37,
+    "name": "037 MPC 60 Vinyl Snare 14",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 38,
+    "name": "038 Tape Saturated 808 Kick 14",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 39,
+    "name": "039 Dirty Funk Wah Bass 14",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 40,
+    "name": "040 Rhodes Mellow Chords 14",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 41,
+    "name": "041 Vinyl Crackle Atmosphere 14",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 42,
+    "name": "042 Smokey Jazz Organ B3 14",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 43,
+    "name": "043 Funk Mute Strat Pluck 14",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 44,
+    "name": "044 Slap Thumb Funk Bass 14",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 45,
+    "name": "045 Orchestra Hit Stabs 14",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 46,
+    "name": "046 R&B Vocal Ahh Hook 14",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 47,
+    "name": "047 Smooth Flute Hip-Hop 14",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 48,
+    "name": "048 Urban Street Siren FX 14",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 49,
+    "name": "049 Low Rider 808 Sub 14",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 50,
+    "name": "050 Brass Section Drop 14",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 51,
+    "name": "051 Talkbox Vocoder Solo 14",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 52,
+    "name": "052 Muted Horn Section 14",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 53,
+    "name": "053 Scratch Vinyl Baby 14",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 54,
+    "name": "054 Vintage Wurlitzer Vibe 14",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 55,
+    "name": "055 Clavinet Funk Chank 14",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 56,
+    "name": "056 Sub Heavy 808 Boom 14",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 57,
+    "name": "057 G-Funk Saw Portamento 14",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 58,
+    "name": "058 90s Golden Era Beat 14",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 59,
+    "name": "059 Late Night Soul Pad 14",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 60,
+    "name": "060 Mellow Vibraphone 14",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 61,
+    "name": "061 Tape Stop Turntable 14",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 62,
+    "name": "062 Filtered Lo-Fi Piano 14",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 63,
+    "name": "063 Urban Cityscape Drone 14",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 64,
+    "name": "064 Phatt Swing System Anthem 15",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 65,
+    "name": "065 East Coast Boombap Sub 15",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 66,
+    "name": "066 West Coast G-Funk Whistle 15",
+    "category": "LEAD",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 67,
+    "name": "067 Dr. Dre Sine Lead 15",
+    "category": "LEAD",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 68,
+    "name": "068 SP-1200 Crunchy Break 15",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 69,
+    "name": "069 MPC 60 Vinyl Snare 15",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 70,
+    "name": "070 Tape Saturated 808 Kick 15",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 71,
+    "name": "071 Dirty Funk Wah Bass 15",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 72,
+    "name": "072 Rhodes Mellow Chords 15",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 73,
+    "name": "073 Vinyl Crackle Atmosphere 15",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 74,
+    "name": "074 Smokey Jazz Organ B3 15",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 75,
+    "name": "075 Funk Mute Strat Pluck 15",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 76,
+    "name": "076 Slap Thumb Funk Bass 15",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 77,
+    "name": "077 Orchestra Hit Stabs 15",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 78,
+    "name": "078 R&B Vocal Ahh Hook 15",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 79,
+    "name": "079 Smooth Flute Hip-Hop 15",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 80,
+    "name": "080 Urban Street Siren FX 15",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 81,
+    "name": "081 Low Rider 808 Sub 15",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 82,
+    "name": "082 Brass Section Drop 15",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 83,
+    "name": "083 Talkbox Vocoder Solo 15",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 84,
+    "name": "084 Muted Horn Section 15",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 85,
+    "name": "085 Scratch Vinyl Baby 15",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 86,
+    "name": "086 Vintage Wurlitzer Vibe 15",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 87,
+    "name": "087 Clavinet Funk Chank 15",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 88,
+    "name": "088 Sub Heavy 808 Boom 15",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 89,
+    "name": "089 G-Funk Saw Portamento 15",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 90,
+    "name": "090 90s Golden Era Beat 15",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 91,
+    "name": "091 Late Night Soul Pad 15",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 92,
+    "name": "092 Mellow Vibraphone 15",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 93,
+    "name": "093 Tape Stop Turntable 15",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 94,
+    "name": "094 Filtered Lo-Fi Piano 15",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 95,
+    "name": "095 Urban Cityscape Drone 15",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 96,
+    "name": "096 Phatt Swing System Anthem 16",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 97,
+    "name": "097 East Coast Boombap Sub 16",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 98,
+    "name": "098 West Coast G-Funk Whistle 16",
+    "category": "LEAD",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 99,
+    "name": "099 Dr. Dre Sine Lead 16",
+    "category": "LEAD",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 100,
+    "name": "100 SP-1200 Crunchy Break 16",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 101,
+    "name": "101 MPC 60 Vinyl Snare 16",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 102,
+    "name": "102 Tape Saturated 808 Kick 16",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 103,
+    "name": "103 Dirty Funk Wah Bass 16",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 104,
+    "name": "104 Rhodes Mellow Chords 16",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 105,
+    "name": "105 Vinyl Crackle Atmosphere 16",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 106,
+    "name": "106 Smokey Jazz Organ B3 16",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 107,
+    "name": "107 Funk Mute Strat Pluck 16",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 108,
+    "name": "108 Slap Thumb Funk Bass 16",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 109,
+    "name": "109 Orchestra Hit Stabs 16",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 110,
+    "name": "110 R&B Vocal Ahh Hook 16",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 111,
+    "name": "111 Smooth Flute Hip-Hop 16",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 112,
+    "name": "112 Urban Street Siren FX 16",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 113,
+    "name": "113 Low Rider 808 Sub 16",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 114,
+    "name": "114 Brass Section Drop 16",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 115,
+    "name": "115 Talkbox Vocoder Solo 16",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 116,
+    "name": "116 Muted Horn Section 16",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 117,
+    "name": "117 Scratch Vinyl Baby 16",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 118,
+    "name": "118 Vintage Wurlitzer Vibe 16",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 119,
+    "name": "119 Clavinet Funk Chank 16",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 120,
+    "name": "120 Sub Heavy 808 Boom 16",
+    "category": "BASS",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 121,
+    "name": "121 G-Funk Saw Portamento 16",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 122,
+    "name": "122 90s Golden Era Beat 16",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 123,
+    "name": "123 Late Night Soul Pad 16",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 124,
+    "name": "124 Mellow Vibraphone 16",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 125,
+    "name": "125 Tape Stop Turntable 16",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 126,
+    "name": "126 Filtered Lo-Fi Piano 16",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  },
+  {
+    "bank": "Phatt Bank 3",
+    "program": 127,
+    "name": "127 Urban Cityscape Drone 16",
+    "category": "HIP-HOP",
+    "tags": [
+      "planet-phatt",
+      "swing-system",
+      "hip-hop"
+    ]
+  }
 ]

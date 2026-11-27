@@ -1,146 +1,642 @@
 [
   {
-    "id": "DJ70-001",
-    "name": "Vinyl Scratch Clean",
     "bank": "INTERNAL",
     "program": 1,
-    "category": "SAMPLER",
+    "name": "Scratch Dial Master",
+    "category": "DJ_SAMPLER",
     "tags": [
-      "dj70",
-      "sampler",
-      "scratch"
+      "dj-70",
+      "scratch-sampler"
     ]
   },
   {
-    "id": "DJ70-002",
-    "name": "Vinyl Scratch Rewind",
     "bank": "INTERNAL",
     "program": 2,
-    "category": "SAMPLER",
+    "name": "Vinyl Cue Break 1",
+    "category": "DJ_SAMPLER",
     "tags": [
-      "dj70",
-      "sampler",
-      "scratch"
+      "dj-70",
+      "scratch-sampler"
     ]
   },
   {
-    "id": "DJ70-003",
-    "name": "Hip-Hop Break 90BPM",
     "bank": "INTERNAL",
     "program": 3,
-    "category": "SAMPLER",
+    "name": "Vinyl Cue Break 2",
+    "category": "DJ_SAMPLER",
     "tags": [
-      "dj70",
-      "sampler",
-      "scratch"
+      "dj-70",
+      "scratch-sampler"
     ]
   },
   {
-    "id": "DJ70-004",
-    "name": "Amen Break Sliced",
     "bank": "INTERNAL",
     "program": 4,
-    "category": "SAMPLER",
+    "name": "Hip-Hop Horn Drop",
+    "category": "DJ_SAMPLER",
     "tags": [
-      "dj70",
-      "sampler",
-      "scratch"
+      "dj-70",
+      "scratch-sampler"
     ]
   },
   {
-    "id": "DJ70-005",
-    "name": "808 Sub Drop",
     "bank": "INTERNAL",
     "program": 5,
-    "category": "SAMPLER",
+    "name": "Club Siren FX",
+    "category": "DJ_SAMPLER",
     "tags": [
-      "dj70",
-      "sampler",
-      "scratch"
+      "dj-70",
+      "scratch-sampler"
     ]
   },
   {
-    "id": "DJ70-006",
-    "name": "Funky Drummer 98BPM",
     "bank": "INTERNAL",
     "program": 6,
-    "category": "SAMPLER",
+    "name": "Turntable Brake Stop",
+    "category": "DJ_SAMPLER",
     "tags": [
-      "dj70",
-      "sampler",
-      "scratch"
+      "dj-70",
+      "scratch-sampler"
     ]
   },
   {
-    "id": "DJ70-007",
-    "name": "Club Kicks Multi",
     "bank": "INTERNAL",
     "program": 7,
-    "category": "SAMPLER",
+    "name": "Reverse Cymbal Slam",
+    "category": "DJ_SAMPLER",
     "tags": [
-      "dj70",
-      "sampler",
-      "scratch"
+      "dj-70",
+      "scratch-sampler"
     ]
   },
   {
-    "id": "DJ70-008",
-    "name": "DJ Horn Blaster",
     "bank": "INTERNAL",
     "program": 8,
-    "category": "SAMPLER",
+    "name": "Vocal Scratch Baby",
+    "category": "DJ_SAMPLER",
     "tags": [
-      "dj70",
-      "sampler",
-      "scratch"
+      "dj-70",
+      "scratch-sampler"
     ]
   },
   {
-    "id": "DJ70-009",
-    "name": "Siren FX Echo",
     "bank": "INTERNAL",
     "program": 9,
-    "category": "SAMPLER",
+    "name": "House Bassline MKI",
+    "category": "DJ_SAMPLER",
     "tags": [
-      "dj70",
-      "sampler",
-      "scratch"
+      "dj-70",
+      "scratch-sampler"
     ]
   },
   {
-    "id": "DJ70-010",
-    "name": "Tape Stop Effect",
     "bank": "INTERNAL",
     "program": 10,
-    "category": "SAMPLER",
+    "name": "Rave Stab Euro",
+    "category": "DJ_SAMPLER",
     "tags": [
-      "dj70",
-      "sampler",
-      "scratch"
+      "dj-70",
+      "scratch-sampler"
     ]
   },
   {
-    "id": "DJ70-011",
-    "name": "Vocal Yay! Hit",
     "bank": "INTERNAL",
     "program": 11,
-    "category": "SAMPLER",
+    "name": "TR-909 Slammer Kit",
+    "category": "DJ_SAMPLER",
     "tags": [
-      "dj70",
-      "sampler",
-      "scratch"
+      "dj-70",
+      "scratch-sampler"
     ]
   },
   {
-    "id": "DJ70-012",
-    "name": "Crowd Applause Loop",
     "bank": "INTERNAL",
     "program": 12,
-    "category": "SAMPLER",
+    "name": "TR-808 Deep Sub",
+    "category": "DJ_SAMPLER",
     "tags": [
-      "dj70",
-      "sampler",
-      "scratch"
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 13,
+    "name": "Techno Chord Hit",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 14,
+    "name": "Dub Delay Snare",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 15,
+    "name": "Tape Flange Sweep",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 16,
+    "name": "Laser Gun Scratch",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 17,
+    "name": "Speed Garage Bass",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 18,
+    "name": "DnB Breakbeat Chop",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 19,
+    "name": "Electro Funk Clav",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 20,
+    "name": "Orchestra Hit Slam",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 21,
+    "name": "Amen Break Slice 1",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 22,
+    "name": "Amen Break Slice 2",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 23,
+    "name": "Vocal Yeah Hit",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 24,
+    "name": "Vocal Ohh Stabs",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 25,
+    "name": "Transform Scratch 1",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 26,
+    "name": "Transform Scratch 2",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 27,
+    "name": "Crab Scratch FX",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 28,
+    "name": "Backspin Vinyl",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 29,
+    "name": "Filter Sweep Break",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 30,
+    "name": "Sub Drop 40Hz",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 31,
+    "name": "Dub Siren Echo",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 32,
+    "name": "DJ-70 Intro Groove",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 33,
+    "name": "Scratch Dial Master Part 2",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 34,
+    "name": "Vinyl Cue Break 1 Part 2",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 35,
+    "name": "Vinyl Cue Break 2 Part 2",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 36,
+    "name": "Hip-Hop Horn Drop Part 2",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 37,
+    "name": "Club Siren FX Part 2",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 38,
+    "name": "Turntable Brake Stop Part 2",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 39,
+    "name": "Reverse Cymbal Slam Part 2",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 40,
+    "name": "Vocal Scratch Baby Part 2",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 41,
+    "name": "House Bassline MKI Part 2",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 42,
+    "name": "Rave Stab Euro Part 2",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 43,
+    "name": "TR-909 Slammer Kit Part 2",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 44,
+    "name": "TR-808 Deep Sub Part 2",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 45,
+    "name": "Techno Chord Hit Part 2",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 46,
+    "name": "Dub Delay Snare Part 2",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 47,
+    "name": "Tape Flange Sweep Part 2",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 48,
+    "name": "Laser Gun Scratch Part 2",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 49,
+    "name": "Speed Garage Bass Part 2",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 50,
+    "name": "DnB Breakbeat Chop Part 2",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 51,
+    "name": "Electro Funk Clav Part 2",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 52,
+    "name": "Orchestra Hit Slam Part 2",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 53,
+    "name": "Amen Break Slice 1 Part 2",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 54,
+    "name": "Amen Break Slice 2 Part 2",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 55,
+    "name": "Vocal Yeah Hit Part 2",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 56,
+    "name": "Vocal Ohh Stabs Part 2",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 57,
+    "name": "Transform Scratch 1 Part 2",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 58,
+    "name": "Transform Scratch 2 Part 2",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 59,
+    "name": "Crab Scratch FX Part 2",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 60,
+    "name": "Backspin Vinyl Part 2",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 61,
+    "name": "Filter Sweep Break Part 2",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 62,
+    "name": "Sub Drop 40Hz Part 2",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 63,
+    "name": "Dub Siren Echo Part 2",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
+    ]
+  },
+  {
+    "bank": "INTERNAL",
+    "program": 64,
+    "name": "DJ-70 Intro Groove Part 2",
+    "category": "DJ_SAMPLER",
+    "tags": [
+      "dj-70",
+      "scratch-sampler"
     ]
   }
 ]

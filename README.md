@@ -26,14 +26,18 @@ OmniPatch is a high-performance, modular patch librarian and hardware editor wri
 
 ---
 
-## Supported Synthesizers (51 Production Profiles)
+## Supported Synthesizers (55 Production Profiles)
 
-OmniPatch ships with 51 comprehensive device profiles across 5 legendary synthesizer manufacturers:
+OmniPatch ships with 55 comprehensive device profiles across 5 legendary synthesizer manufacturers:
 
 | Synthesizer | Manufacturer | Architecture | Parameters | Presets | SysEx ID / Details |
 | :--- | :--- | :--- | :---: | :---: | :--- |
+| **Roland JX-3P** | Roland Corporation | 6-Voice DCO Analog Polyphonic Synth | 28 | 64 | `0x41` · IR3109 VCF, BBD chorus, 128-step poly sequencer, PG-200 |
+| **Roland JX-8P** | Roland Corporation | 6-Voice DCO Analog Synth w/ PG-800 | 36 | 64 | `0x06` · Sync/Metal cross-mod, dual envelopes, touch sensitivity |
+| **Roland JX-10 Super JX** | Roland Corporation | 12-Voice Flagship Dual DCO Analog | 10 | 164 | `0x0A` · Dual tone layers, Chase Play delay, 64 patches + 100 tones |
+| **Roland JX-305** | Roland Corporation | 64-Voice Groove Keyboard Workstation | 8 | 666 | `0x00 0x14` · MC-505 sound engine, 5 banks x 128 patches, 26 rhythm kits |
 | **Roland JP-8000** | Roland Corporation | 8-Voice Analog Modeling (Super Saw VA) | 23 | 85 | `0x3F` · Motion Control, Ribbon, RPS, Ribbon & Feedback Osc |
-| **Roland JP-8080** | Roland Corporation | 10-Voice VA Rack with 12-Band Vocoder | 25 | 314 | `0x4A` · External Audio Input, 12-band Vocoder, Voice Modulator |
+| **Roland JP-8080** | Roland Corporation | 10-Voice VA Rack with 12-Band Vocoder | 25 | 284 | `0x4A` · External Audio Input, 12-band Vocoder, Voice Modulator |
 | **Roland SH-01 GAIA** | Roland Corporation | Triple-Stacked Virtual Analog Synth | 11 | 64 | `0x00 0x00 0x41` · 3 complete virtual analog synth engines in parallel |
 | **Roland JD-XA** | Roland Corporation | Advanced Analog/Digital Crossover Synth | 8 | 64 | `0x00 0x00 0x00 0x09` · 4-voice discrete analog + 64-voice digital SuperNATURAL |
 | **Roland JW-50** | Roland Corporation | Music Workstation (GS Sound Canvas) | 3 | 128 | `0x42` (GS) · 16-track sequencer, SMF compatibility, 128 GS sounds |
@@ -52,16 +56,16 @@ OmniPatch ships with 51 comprehensive device profiles across 5 legendary synthes
 | **Roland D-70** | Roland Corporation | Super LA 76-Key Synthesizer & Controller | 11 | 64 | `0x32` · 4 tones, Differential Loop Modulation (DLM), 28MB ROM |
 | **Roland D-110** | Roland Corporation | Multi-Timbral LA Synthesis Module | 8 | 128 | `0x16` · 8 individual outputs, 13 partial structures, D-50 heritage |
 | **Roland Alpha Juno-1 / 2** | Roland Corporation | 6-Voice Polyphonic Analog (DCO) | 23 | 64 | `0x23` · IR3109 VCF, BBD chorus, Hoover "What The..." sound |
-| **Roland D2** | Roland Corporation | Desktop Groovebox with D-Field Controller | 4 | 30 | `0x00 0x34` · MC-505 sound engine, 8 tracks, Megamix, touch pad |
-| **Roland DJ-70** | Roland Corporation | Sampling Keyboard with Scratch Dial | 2 | 12 | `0x4B` · 37 keys, scratch jog dial, load-while-play sampler |
-| **Roland EG-101** | Roland Corporation | Advanced Groove Keyboard with D-Beam | 2 | 12 | `0x00 0x1B` · Built-in phrase sampler, D-Beam controller |
+| **Roland D2** | Roland Corporation | Desktop Groovebox with D-Field Controller | 4 | 640 | `0x00 0x34` · MC-505 sound engine, 5 banks x 128 patches, Megamix |
+| **Roland DJ-70** | Roland Corporation | Sampling Keyboard with Scratch Dial | 2 | 64 | `0x4B` · 37 keys, scratch jog dial, load-while-play sampler |
+| **Roland EG-101** | Roland Corporation | Advanced Groove Keyboard with D-Beam | 2 | 128 | `0x00 0x1B` · Phrase sampler, D-Beam controller, synth presets |
 | **Roland W-30** | Roland Corporation | 12-Bit Sampling Music Workstation | 7 | 57 | `0x2B` · 30kHz/15kHz 12-bit sampler, SCSI/HD support, 16 tracks |
 | **Access Virus A** | Access Music GmbH | Virtual Analog (DSP56303) | 17 | 256 | `0x10` (16) · Multi-page SysEx (Pages A, B, C), 256-byte dumps |
 | **Akai AX60** | Akai Professional | 6-Voice CEM3394 Analog | 23 | 64 | Tauntek CC mapping (CC 14–74), 3,445B Bank SysEx, Sampler input |
 | **Casio CZ-1** | Casio Computer Co. | 16-DCO Phase Distortion | 26 | 64 | `0x03` · Dual Line detune, Velocity & Aftertouch sensitivity |
 | **Casio CZ-101** | Casio Computer Co. | 8-DCO Portable Phase Distortion | 22 | 32 | `0x01` · Cosine phase distortion, 8-stage DCO/DCW/DCA envelopes |
 | **Casio CZ-1000** | Casio Computer Co. | Full-Size 8-DCO Phase Distortion | 22 | 32 | `0x02` · Membrane button styling, 8-stage envelopes, SysEx `0x44` |
-| **Casio CZ-230S** | Casio Computer Co. | Phase Distortion + PCM Rhythm | 11 | 100 | `0x04` · 20 PCM rhythm patterns, preset PD voices, onboard speaker |
+| **Casio CZ-230S** | Casio Computer Co. | Phase Distortion + PCM Rhythm | 11 | 104 | `0x04` · 100 preset PD voices + 4 User RAM, onboard speaker |
 | **Casio CZ-3000** | Casio Computer Co. | 16-DCO Full-Size Synthesizer | 23 | 64 | `0x05` · Dual line layering, stereo chorus, 8-stage pitch/wave/amp |
 | **Casio CZ-5000** | Casio Computer Co. | Flagship PD Workstation | 25 | 64 | `0x06` · Built-in 8-track sequencer, 16 DCOs, dual line stack |
 | **E-MU Audity 2000** | E-mu Systems, Inc. | 64-Voice Modular Rack | 53 | 640 | `0x0C` · 4 sub-editors (MultiMode, Presets, Arp, FX), 16 arpeggiators |

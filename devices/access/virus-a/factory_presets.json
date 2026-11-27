@@ -1,30 +1,2818 @@
-{
-  "Bank A (RAM)": [
-    "A000: HyperSaw Lead",
-    "A001: Warm Analog Pad",
-    "A002: Acid Reso Bass",
-    "A003: 90s Trance Pluck",
-    "A004: Juno Sub Bass",
-    "A005: PPG Bells Wave",
-    "A006: Sync Aggressor",
-    "A007: Oberheim Brass",
-    "A008: Moog Mini Lead",
-    "A009: Deep Drone SciFi",
-    "A010: Formant Vowel Vox",
-    "A011: FM Glass Piano",
-    "A012: Dual Filter Sweep",
-    "A013: Distorted 303 Square",
-    "A014: SuperSaw Euphoria",
-    "A015: Prophet 5 String"
-  ],
-  "Bank B (ROM)": [
-    "B000: Initial Clean",
-    "B001: Vintage Phaser Poly",
-    "B002: Modular Perc Sequence",
-    "B003: Dark Techno Bass",
-    "B004: Space Ambient Drone",
-    "B005: Analog Reso Sweep",
-    "B006: German Industrial",
-    "B007: Poly Mod Brass"
-  ]
-}
+[
+  {
+    "bank": "Bank A (RAM)",
+    "program": 0,
+    "name": "A000: HyperSaw Lead",
+    "category": "LEAD",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 1,
+    "name": "A001: Warm Analog Pad",
+    "category": "PAD",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 2,
+    "name": "A002: Acid Reso Bass",
+    "category": "BASS",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 3,
+    "name": "A003: 90s Trance Pluck",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 4,
+    "name": "A004: Juno Sub Bass",
+    "category": "BASS",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 5,
+    "name": "A005: PPG Bells Wave",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 6,
+    "name": "A006: Sync Aggressor",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 7,
+    "name": "A007: Oberheim Brass",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 8,
+    "name": "A008: Moog Mini Lead",
+    "category": "LEAD",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 9,
+    "name": "A009: Deep Drone SciFi",
+    "category": "PAD",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 10,
+    "name": "A010: Formant Vowel Vox",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 11,
+    "name": "A011: FM Glass Piano",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 12,
+    "name": "A012: Dual Filter Sweep",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 13,
+    "name": "A013: Distorted 303 Square",
+    "category": "BASS",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 14,
+    "name": "A014: SuperSaw Euphoria",
+    "category": "LEAD",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 15,
+    "name": "A015: Prophet 5 String",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 16,
+    "name": "A016: Nu NRG Screamer",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 17,
+    "name": "A017: Industrial Pulse",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 18,
+    "name": "A018: Sub Low Sine",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 19,
+    "name": "A019: Rotterdam Rave Stab",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 20,
+    "name": "A020: Ambient Heaven Pad",
+    "category": "PAD",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 21,
+    "name": "A021: Goa Arp Lead",
+    "category": "LEAD",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 22,
+    "name": "A022: Techno Chord Stab",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 23,
+    "name": "A023: Berlin Minimal Bass",
+    "category": "BASS",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 24,
+    "name": "A024: Fat Moog 24dB",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 25,
+    "name": "A025: Electro Funk Clav",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 26,
+    "name": "A026: Bell Matrix Wave",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 27,
+    "name": "A027: Phase Mod Sweep",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 28,
+    "name": "A028: Wavetable Morph",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 29,
+    "name": "A029: Liquid Acid 18dB",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 30,
+    "name": "A030: Cyber Pluck Arp",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 31,
+    "name": "A031: Dark Space Pad",
+    "category": "PAD",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 32,
+    "name": "A032: HyperSaw Lead v2",
+    "category": "LEAD",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 33,
+    "name": "A033: Warm Analog Pad v2",
+    "category": "PAD",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 34,
+    "name": "A034: Acid Reso Bass v2",
+    "category": "BASS",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 35,
+    "name": "A035: 90s Trance Pluck v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 36,
+    "name": "A036: Juno Sub Bass v2",
+    "category": "BASS",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 37,
+    "name": "A037: PPG Bells Wave v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 38,
+    "name": "A038: Sync Aggressor v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 39,
+    "name": "A039: Oberheim Brass v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 40,
+    "name": "A040: Moog Mini Lead v2",
+    "category": "LEAD",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 41,
+    "name": "A041: Deep Drone SciFi v2",
+    "category": "PAD",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 42,
+    "name": "A042: Formant Vowel Vox v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 43,
+    "name": "A043: FM Glass Piano v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 44,
+    "name": "A044: Dual Filter Sweep v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 45,
+    "name": "A045: Distorted 303 Square v2",
+    "category": "BASS",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 46,
+    "name": "A046: SuperSaw Euphoria v2",
+    "category": "LEAD",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 47,
+    "name": "A047: Prophet 5 String v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 48,
+    "name": "A048: Nu NRG Screamer v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 49,
+    "name": "A049: Industrial Pulse v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 50,
+    "name": "A050: Sub Low Sine v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 51,
+    "name": "A051: Rotterdam Rave Stab v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 52,
+    "name": "A052: Ambient Heaven Pad v2",
+    "category": "PAD",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 53,
+    "name": "A053: Goa Arp Lead v2",
+    "category": "LEAD",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 54,
+    "name": "A054: Techno Chord Stab v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 55,
+    "name": "A055: Berlin Minimal Bass v2",
+    "category": "BASS",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 56,
+    "name": "A056: Fat Moog 24dB v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 57,
+    "name": "A057: Electro Funk Clav v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 58,
+    "name": "A058: Bell Matrix Wave v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 59,
+    "name": "A059: Phase Mod Sweep v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 60,
+    "name": "A060: Wavetable Morph v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 61,
+    "name": "A061: Liquid Acid 18dB v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 62,
+    "name": "A062: Cyber Pluck Arp v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 63,
+    "name": "A063: Dark Space Pad v2",
+    "category": "PAD",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 64,
+    "name": "A064: HyperSaw Lead v3",
+    "category": "LEAD",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 65,
+    "name": "A065: Warm Analog Pad v3",
+    "category": "PAD",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 66,
+    "name": "A066: Acid Reso Bass v3",
+    "category": "BASS",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 67,
+    "name": "A067: 90s Trance Pluck v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 68,
+    "name": "A068: Juno Sub Bass v3",
+    "category": "BASS",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 69,
+    "name": "A069: PPG Bells Wave v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 70,
+    "name": "A070: Sync Aggressor v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 71,
+    "name": "A071: Oberheim Brass v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 72,
+    "name": "A072: Moog Mini Lead v3",
+    "category": "LEAD",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 73,
+    "name": "A073: Deep Drone SciFi v3",
+    "category": "PAD",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 74,
+    "name": "A074: Formant Vowel Vox v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 75,
+    "name": "A075: FM Glass Piano v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 76,
+    "name": "A076: Dual Filter Sweep v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 77,
+    "name": "A077: Distorted 303 Square v3",
+    "category": "BASS",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 78,
+    "name": "A078: SuperSaw Euphoria v3",
+    "category": "LEAD",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 79,
+    "name": "A079: Prophet 5 String v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 80,
+    "name": "A080: Nu NRG Screamer v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 81,
+    "name": "A081: Industrial Pulse v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 82,
+    "name": "A082: Sub Low Sine v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 83,
+    "name": "A083: Rotterdam Rave Stab v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 84,
+    "name": "A084: Ambient Heaven Pad v3",
+    "category": "PAD",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 85,
+    "name": "A085: Goa Arp Lead v3",
+    "category": "LEAD",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 86,
+    "name": "A086: Techno Chord Stab v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 87,
+    "name": "A087: Berlin Minimal Bass v3",
+    "category": "BASS",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 88,
+    "name": "A088: Fat Moog 24dB v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 89,
+    "name": "A089: Electro Funk Clav v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 90,
+    "name": "A090: Bell Matrix Wave v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 91,
+    "name": "A091: Phase Mod Sweep v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 92,
+    "name": "A092: Wavetable Morph v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 93,
+    "name": "A093: Liquid Acid 18dB v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 94,
+    "name": "A094: Cyber Pluck Arp v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 95,
+    "name": "A095: Dark Space Pad v3",
+    "category": "PAD",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 96,
+    "name": "A096: HyperSaw Lead v4",
+    "category": "LEAD",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 97,
+    "name": "A097: Warm Analog Pad v4",
+    "category": "PAD",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 98,
+    "name": "A098: Acid Reso Bass v4",
+    "category": "BASS",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 99,
+    "name": "A099: 90s Trance Pluck v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 100,
+    "name": "A100: Juno Sub Bass v4",
+    "category": "BASS",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 101,
+    "name": "A101: PPG Bells Wave v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 102,
+    "name": "A102: Sync Aggressor v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 103,
+    "name": "A103: Oberheim Brass v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 104,
+    "name": "A104: Moog Mini Lead v4",
+    "category": "LEAD",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 105,
+    "name": "A105: Deep Drone SciFi v4",
+    "category": "PAD",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 106,
+    "name": "A106: Formant Vowel Vox v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 107,
+    "name": "A107: FM Glass Piano v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 108,
+    "name": "A108: Dual Filter Sweep v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 109,
+    "name": "A109: Distorted 303 Square v4",
+    "category": "BASS",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 110,
+    "name": "A110: SuperSaw Euphoria v4",
+    "category": "LEAD",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 111,
+    "name": "A111: Prophet 5 String v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 112,
+    "name": "A112: Nu NRG Screamer v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 113,
+    "name": "A113: Industrial Pulse v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 114,
+    "name": "A114: Sub Low Sine v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 115,
+    "name": "A115: Rotterdam Rave Stab v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 116,
+    "name": "A116: Ambient Heaven Pad v4",
+    "category": "PAD",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 117,
+    "name": "A117: Goa Arp Lead v4",
+    "category": "LEAD",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 118,
+    "name": "A118: Techno Chord Stab v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 119,
+    "name": "A119: Berlin Minimal Bass v4",
+    "category": "BASS",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 120,
+    "name": "A120: Fat Moog 24dB v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 121,
+    "name": "A121: Electro Funk Clav v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 122,
+    "name": "A122: Bell Matrix Wave v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 123,
+    "name": "A123: Phase Mod Sweep v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 124,
+    "name": "A124: Wavetable Morph v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 125,
+    "name": "A125: Liquid Acid 18dB v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 126,
+    "name": "A126: Cyber Pluck Arp v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A (RAM)",
+    "program": 127,
+    "name": "A127: Dark Space Pad v4",
+    "category": "PAD",
+    "tags": [
+      "virus-a",
+      "bank-a",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 0,
+    "name": "B000: Initial Clean",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 1,
+    "name": "B001: Vintage Phaser Poly",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 2,
+    "name": "B002: Modular Perc Sequence",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 3,
+    "name": "B003: Dark Techno Bass",
+    "category": "BASS",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 4,
+    "name": "B004: Space Ambient Drone",
+    "category": "PAD",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 5,
+    "name": "B005: Analog Reso Sweep",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 6,
+    "name": "B006: German Industrial",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 7,
+    "name": "B007: Poly Mod Brass",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 8,
+    "name": "B008: Square Wave Lead",
+    "category": "LEAD",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 9,
+    "name": "B009: Comb Filter Metallic",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 10,
+    "name": "B010: Ring Mod Bell",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 11,
+    "name": "B011: Tape Delay Poly",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 12,
+    "name": "B012: Trance Gate 16th",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 13,
+    "name": "B013: Hardcore Kick Sub",
+    "category": "BASS",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 14,
+    "name": "B014: Classic Wurly Tine",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 15,
+    "name": "B015: Cathedral Pipe",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 16,
+    "name": "B016: Analog Brass Pad",
+    "category": "PAD",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 17,
+    "name": "B017: Dist Reese D&B",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 18,
+    "name": "B018: Psycho Arpeggiator",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 19,
+    "name": "B019: Metallic Pluck",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 20,
+    "name": "B020: Retro 80s Soundtrack",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 21,
+    "name": "B021: Velo Sensitive Lead",
+    "category": "LEAD",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 22,
+    "name": "B022: Sync Octave Solo",
+    "category": "LEAD",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 23,
+    "name": "B023: Smooth Flute Synth",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 24,
+    "name": "B024: Deep Sub Bass 2",
+    "category": "BASS",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 25,
+    "name": "B025: Aggro Square 303",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 26,
+    "name": "B026: Solar Flare Drone",
+    "category": "PAD",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 27,
+    "name": "B027: VCF Overdrive Hook",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 28,
+    "name": "B028: FM Metallic Pad",
+    "category": "PAD",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 29,
+    "name": "B029: Hypnotic Arp Seq",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 30,
+    "name": "B030: Cybernetic Vox",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 31,
+    "name": "B031: Final Frontier FX",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 32,
+    "name": "B032: Initial Clean v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 33,
+    "name": "B033: Vintage Phaser Poly v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 34,
+    "name": "B034: Modular Perc Sequence v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 35,
+    "name": "B035: Dark Techno Bass v2",
+    "category": "BASS",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 36,
+    "name": "B036: Space Ambient Drone v2",
+    "category": "PAD",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 37,
+    "name": "B037: Analog Reso Sweep v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 38,
+    "name": "B038: German Industrial v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 39,
+    "name": "B039: Poly Mod Brass v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 40,
+    "name": "B040: Square Wave Lead v2",
+    "category": "LEAD",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 41,
+    "name": "B041: Comb Filter Metallic v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 42,
+    "name": "B042: Ring Mod Bell v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 43,
+    "name": "B043: Tape Delay Poly v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 44,
+    "name": "B044: Trance Gate 16th v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 45,
+    "name": "B045: Hardcore Kick Sub v2",
+    "category": "BASS",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 46,
+    "name": "B046: Classic Wurly Tine v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 47,
+    "name": "B047: Cathedral Pipe v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 48,
+    "name": "B048: Analog Brass Pad v2",
+    "category": "PAD",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 49,
+    "name": "B049: Dist Reese D&B v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 50,
+    "name": "B050: Psycho Arpeggiator v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 51,
+    "name": "B051: Metallic Pluck v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 52,
+    "name": "B052: Retro 80s Soundtrack v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 53,
+    "name": "B053: Velo Sensitive Lead v2",
+    "category": "LEAD",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 54,
+    "name": "B054: Sync Octave Solo v2",
+    "category": "LEAD",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 55,
+    "name": "B055: Smooth Flute Synth v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 56,
+    "name": "B056: Deep Sub Bass 2 v2",
+    "category": "BASS",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 57,
+    "name": "B057: Aggro Square 303 v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 58,
+    "name": "B058: Solar Flare Drone v2",
+    "category": "PAD",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 59,
+    "name": "B059: VCF Overdrive Hook v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 60,
+    "name": "B060: FM Metallic Pad v2",
+    "category": "PAD",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 61,
+    "name": "B061: Hypnotic Arp Seq v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 62,
+    "name": "B062: Cybernetic Vox v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 63,
+    "name": "B063: Final Frontier FX v2",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 64,
+    "name": "B064: Initial Clean v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 65,
+    "name": "B065: Vintage Phaser Poly v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 66,
+    "name": "B066: Modular Perc Sequence v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 67,
+    "name": "B067: Dark Techno Bass v3",
+    "category": "BASS",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 68,
+    "name": "B068: Space Ambient Drone v3",
+    "category": "PAD",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 69,
+    "name": "B069: Analog Reso Sweep v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 70,
+    "name": "B070: German Industrial v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 71,
+    "name": "B071: Poly Mod Brass v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 72,
+    "name": "B072: Square Wave Lead v3",
+    "category": "LEAD",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 73,
+    "name": "B073: Comb Filter Metallic v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 74,
+    "name": "B074: Ring Mod Bell v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 75,
+    "name": "B075: Tape Delay Poly v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 76,
+    "name": "B076: Trance Gate 16th v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 77,
+    "name": "B077: Hardcore Kick Sub v3",
+    "category": "BASS",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 78,
+    "name": "B078: Classic Wurly Tine v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 79,
+    "name": "B079: Cathedral Pipe v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 80,
+    "name": "B080: Analog Brass Pad v3",
+    "category": "PAD",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 81,
+    "name": "B081: Dist Reese D&B v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 82,
+    "name": "B082: Psycho Arpeggiator v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 83,
+    "name": "B083: Metallic Pluck v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 84,
+    "name": "B084: Retro 80s Soundtrack v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 85,
+    "name": "B085: Velo Sensitive Lead v3",
+    "category": "LEAD",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 86,
+    "name": "B086: Sync Octave Solo v3",
+    "category": "LEAD",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 87,
+    "name": "B087: Smooth Flute Synth v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 88,
+    "name": "B088: Deep Sub Bass 2 v3",
+    "category": "BASS",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 89,
+    "name": "B089: Aggro Square 303 v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 90,
+    "name": "B090: Solar Flare Drone v3",
+    "category": "PAD",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 91,
+    "name": "B091: VCF Overdrive Hook v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 92,
+    "name": "B092: FM Metallic Pad v3",
+    "category": "PAD",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 93,
+    "name": "B093: Hypnotic Arp Seq v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 94,
+    "name": "B094: Cybernetic Vox v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 95,
+    "name": "B095: Final Frontier FX v3",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 96,
+    "name": "B096: Initial Clean v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 97,
+    "name": "B097: Vintage Phaser Poly v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 98,
+    "name": "B098: Modular Perc Sequence v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 99,
+    "name": "B099: Dark Techno Bass v4",
+    "category": "BASS",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 100,
+    "name": "B100: Space Ambient Drone v4",
+    "category": "PAD",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 101,
+    "name": "B101: Analog Reso Sweep v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 102,
+    "name": "B102: German Industrial v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 103,
+    "name": "B103: Poly Mod Brass v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 104,
+    "name": "B104: Square Wave Lead v4",
+    "category": "LEAD",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 105,
+    "name": "B105: Comb Filter Metallic v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 106,
+    "name": "B106: Ring Mod Bell v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 107,
+    "name": "B107: Tape Delay Poly v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 108,
+    "name": "B108: Trance Gate 16th v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 109,
+    "name": "B109: Hardcore Kick Sub v4",
+    "category": "BASS",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 110,
+    "name": "B110: Classic Wurly Tine v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 111,
+    "name": "B111: Cathedral Pipe v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 112,
+    "name": "B112: Analog Brass Pad v4",
+    "category": "PAD",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 113,
+    "name": "B113: Dist Reese D&B v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 114,
+    "name": "B114: Psycho Arpeggiator v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 115,
+    "name": "B115: Metallic Pluck v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 116,
+    "name": "B116: Retro 80s Soundtrack v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 117,
+    "name": "B117: Velo Sensitive Lead v4",
+    "category": "LEAD",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 118,
+    "name": "B118: Sync Octave Solo v4",
+    "category": "LEAD",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 119,
+    "name": "B119: Smooth Flute Synth v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 120,
+    "name": "B120: Deep Sub Bass 2 v4",
+    "category": "BASS",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 121,
+    "name": "B121: Aggro Square 303 v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 122,
+    "name": "B122: Solar Flare Drone v4",
+    "category": "PAD",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 123,
+    "name": "B123: VCF Overdrive Hook v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 124,
+    "name": "B124: FM Metallic Pad v4",
+    "category": "PAD",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 125,
+    "name": "B125: Hypnotic Arp Seq v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 126,
+    "name": "B126: Cybernetic Vox v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B (ROM)",
+    "program": 127,
+    "name": "B127: Final Frontier FX v4",
+    "category": "SYNTH",
+    "tags": [
+      "virus-a",
+      "bank-b",
+      "synth"
+    ]
+  }
+]

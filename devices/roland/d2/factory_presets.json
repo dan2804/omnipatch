@@ -1,392 +1,7042 @@
 [
   {
-    "id": "D2-001",
-    "name": "TB-303 Square",
-    "bank": "PRESET",
+    "bank": "PRESET A",
     "program": 1,
-    "category": "GROOVE",
+    "name": "TB-303 Acid Reso",
+    "category": "BASS",
     "tags": [
       "d2",
-      "mc505",
-      "groovebox",
-      "dance"
+      "mc-505",
+      "bass"
     ]
   },
   {
-    "id": "D2-002",
-    "name": "TB-303 Saw Reso",
-    "bank": "PRESET",
+    "bank": "PRESET A",
     "program": 2,
-    "category": "GROOVE",
+    "name": "Square 303 Bass",
+    "category": "BASS",
     "tags": [
       "d2",
-      "mc505",
-      "groovebox",
-      "dance"
+      "mc-505",
+      "bass"
     ]
   },
   {
-    "id": "D2-003",
-    "name": "Acid Distort Line",
-    "bank": "PRESET",
+    "bank": "PRESET A",
     "program": 3,
-    "category": "GROOVE",
+    "name": "Super Saw Lead",
+    "category": "LEAD",
     "tags": [
       "d2",
-      "mc505",
-      "groovebox",
-      "dance"
+      "mc-505",
+      "lead"
     ]
   },
   {
-    "id": "D2-004",
-    "name": "Juno Sub Bass",
-    "bank": "PRESET",
+    "bank": "PRESET A",
     "program": 4,
+    "name": "Juno Rave Pluck",
     "category": "GROOVE",
     "tags": [
       "d2",
-      "mc505",
-      "groovebox",
-      "dance"
+      "mc-505",
+      "groove"
     ]
   },
   {
-    "id": "D2-005",
-    "name": "Reese Drum&Bass",
-    "bank": "PRESET",
+    "bank": "PRESET A",
     "program": 5,
+    "name": "Trance Gate Chord",
     "category": "GROOVE",
     "tags": [
       "d2",
-      "mc505",
-      "groovebox",
-      "dance"
+      "mc-505",
+      "groove"
     ]
   },
   {
-    "id": "D2-006",
-    "name": "SH-101 Bass",
-    "bank": "PRESET",
+    "bank": "PRESET A",
     "program": 6,
+    "name": "Alpha Hoover 505",
     "category": "GROOVE",
     "tags": [
       "d2",
-      "mc505",
-      "groovebox",
-      "dance"
+      "mc-505",
+      "groove"
     ]
   },
   {
-    "id": "D2-007",
-    "name": "TR-909 Hard Kick",
-    "bank": "PRESET",
+    "bank": "PRESET A",
     "program": 7,
-    "category": "GROOVE",
+    "name": "D2 Megamix Lead",
+    "category": "LEAD",
     "tags": [
       "d2",
-      "mc505",
-      "groovebox",
-      "dance"
+      "mc-505",
+      "lead"
     ]
   },
   {
-    "id": "D2-008",
-    "name": "TR-909 Dist Kick",
-    "bank": "PRESET",
+    "bank": "PRESET A",
     "program": 8,
+    "name": "Sub Low Sine 808",
     "category": "GROOVE",
     "tags": [
       "d2",
-      "mc505",
-      "groovebox",
-      "dance"
+      "mc-505",
+      "groove"
     ]
   },
   {
-    "id": "D2-009",
-    "name": "TR-808 Sub Boom",
-    "bank": "PRESET",
+    "bank": "PRESET A",
     "program": 9,
+    "name": "House Piano MKI",
     "category": "GROOVE",
     "tags": [
       "d2",
-      "mc505",
-      "groovebox",
-      "dance"
+      "mc-505",
+      "groove"
     ]
   },
   {
-    "id": "D2-010",
-    "name": "TR-909 Open Hat",
-    "bank": "PRESET",
+    "bank": "PRESET A",
     "program": 10,
+    "name": "Retro Strings Pad",
     "category": "GROOVE",
     "tags": [
       "d2",
-      "mc505",
-      "groovebox",
-      "dance"
+      "mc-505",
+      "groove"
     ]
   },
   {
-    "id": "D2-011",
-    "name": "TR-909 Clap Rev",
-    "bank": "PRESET",
+    "bank": "PRESET A",
     "program": 11,
+    "name": "Dark Ambient Station",
     "category": "GROOVE",
     "tags": [
       "d2",
-      "mc505",
-      "groovebox",
-      "dance"
+      "mc-505",
+      "groove"
     ]
   },
   {
-    "id": "D2-012",
-    "name": "Rave Snare Hit",
-    "bank": "PRESET",
+    "bank": "PRESET A",
     "program": 12,
+    "name": "Modular Tech Stab",
     "category": "GROOVE",
     "tags": [
       "d2",
-      "mc505",
-      "groovebox",
-      "dance"
+      "mc-505",
+      "groove"
     ]
   },
   {
-    "id": "D2-013",
-    "name": "Hoover Rave Lead",
-    "bank": "PRESET",
+    "bank": "PRESET A",
     "program": 13,
+    "name": "Cyber Pulse Solo",
     "category": "GROOVE",
     "tags": [
       "d2",
-      "mc505",
-      "groovebox",
-      "dance"
+      "mc-505",
+      "groove"
     ]
   },
   {
-    "id": "D2-014",
-    "name": "Alpha Juno Stabs",
-    "bank": "PRESET",
+    "bank": "PRESET A",
     "program": 14,
+    "name": "DnB Reese Filter",
     "category": "GROOVE",
     "tags": [
       "d2",
-      "mc505",
-      "groovebox",
-      "dance"
+      "mc-505",
+      "groove"
     ]
   },
   {
-    "id": "D2-015",
-    "name": "Trance SuperSaw",
-    "bank": "PRESET",
+    "bank": "PRESET A",
     "program": 15,
+    "name": "Hardcore Gabba Kick",
     "category": "GROOVE",
     "tags": [
       "d2",
-      "mc505",
-      "groovebox",
-      "dance"
+      "mc-505",
+      "groove"
     ]
   },
   {
-    "id": "D2-016",
-    "name": "Eurodance Piano",
-    "bank": "PRESET",
+    "bank": "PRESET A",
     "program": 16,
+    "name": "Eurodance Hook",
     "category": "GROOVE",
     "tags": [
       "d2",
-      "mc505",
-      "groovebox",
-      "dance"
+      "mc-505",
+      "groove"
     ]
   },
   {
-    "id": "D2-017",
-    "name": "Organ Bass M1",
-    "bank": "PRESET",
+    "bank": "PRESET A",
     "program": 17,
+    "name": "Crystal Tine Bell",
     "category": "GROOVE",
     "tags": [
       "d2",
-      "mc505",
-      "groovebox",
-      "dance"
+      "mc-505",
+      "groove"
     ]
   },
   {
-    "id": "D2-018",
-    "name": "Pluck Seq Line",
-    "bank": "PRESET",
+    "bank": "PRESET A",
     "program": 18,
+    "name": "Funk Wah Clav",
     "category": "GROOVE",
     "tags": [
       "d2",
-      "mc505",
-      "groovebox",
-      "dance"
+      "mc-505",
+      "groove"
     ]
   },
   {
-    "id": "D2-019",
-    "name": "Megamix 01",
-    "bank": "PRESET",
+    "bank": "PRESET A",
     "program": 19,
+    "name": "Hammond B3 Drive",
     "category": "GROOVE",
     "tags": [
       "d2",
-      "mc505",
-      "groovebox",
-      "dance"
+      "mc-505",
+      "groove"
     ]
   },
   {
-    "id": "D2-020",
-    "name": "Megamix 02",
-    "bank": "PRESET",
+    "bank": "PRESET A",
     "program": 20,
+    "name": "Tekno Chord Hit",
     "category": "GROOVE",
     "tags": [
       "d2",
-      "mc505",
-      "groovebox",
-      "dance"
+      "mc-505",
+      "groove"
     ]
   },
   {
-    "id": "D2-021",
-    "name": "Techno Groove 1",
-    "bank": "PRESET",
+    "bank": "PRESET A",
     "program": 21,
+    "name": "Vocal Ahh Stabs",
     "category": "GROOVE",
     "tags": [
       "d2",
-      "mc505",
-      "groovebox",
-      "dance"
+      "mc-505",
+      "groove"
     ]
   },
   {
-    "id": "D2-022",
-    "name": "Drum&Bass Roll",
-    "bank": "PRESET",
+    "bank": "PRESET A",
     "program": 22,
+    "name": "Laser Beam Zap",
     "category": "GROOVE",
     "tags": [
       "d2",
-      "mc505",
-      "groovebox",
-      "dance"
+      "mc-505",
+      "groove"
     ]
   },
   {
-    "id": "D2-023",
-    "name": "Electro Funk Beat",
-    "bank": "PRESET",
+    "bank": "PRESET A",
     "program": 23,
+    "name": "Alarm Siren FX",
     "category": "GROOVE",
     "tags": [
       "d2",
-      "mc505",
-      "groovebox",
-      "dance"
+      "mc-505",
+      "groove"
     ]
   },
   {
-    "id": "D2-024",
-    "name": "Hardcore Gabber Stab",
-    "bank": "PRESET",
+    "bank": "PRESET A",
     "program": 24,
+    "name": "Sitar Goa Trance",
     "category": "GROOVE",
     "tags": [
       "d2",
-      "mc505",
-      "groovebox",
-      "dance"
+      "mc-505",
+      "groove"
     ]
   },
   {
-    "id": "D2-025",
-    "name": "Space Pad Ambient",
-    "bank": "PRESET",
+    "bank": "PRESET A",
     "program": 25,
+    "name": "Pan Flute Chill",
     "category": "GROOVE",
     "tags": [
       "d2",
-      "mc505",
-      "groovebox",
-      "dance"
+      "mc-505",
+      "groove"
     ]
   },
   {
-    "id": "D2-026",
-    "name": "Cyber Sweep FX",
-    "bank": "PRESET",
+    "bank": "PRESET A",
     "program": 26,
+    "name": "Acoustic Nylon Strum",
     "category": "GROOVE",
     "tags": [
       "d2",
-      "mc505",
-      "groovebox",
-      "dance"
+      "mc-505",
+      "groove"
     ]
   },
   {
-    "id": "D2-027",
-    "name": "LFO Filter S&H",
-    "bank": "PRESET",
+    "bank": "PRESET A",
     "program": 27,
-    "category": "GROOVE",
+    "name": "Reso Slap Bass",
+    "category": "BASS",
     "tags": [
       "d2",
-      "mc505",
-      "groovebox",
-      "dance"
+      "mc-505",
+      "bass"
     ]
   },
   {
-    "id": "D2-028",
-    "name": "Vocal Ahh Sample",
-    "bank": "PRESET",
+    "bank": "PRESET A",
     "program": 28,
+    "name": "Analog Horn Stack",
     "category": "GROOVE",
     "tags": [
       "d2",
-      "mc505",
-      "groovebox",
-      "dance"
+      "mc-505",
+      "groove"
     ]
   },
   {
-    "id": "D2-029",
-    "name": "Scratch Beat DJ",
-    "bank": "PRESET",
+    "bank": "PRESET A",
     "program": 29,
+    "name": "Alien UFO Landing",
     "category": "GROOVE",
     "tags": [
       "d2",
-      "mc505",
-      "groovebox",
-      "dance"
+      "mc-505",
+      "groove"
     ]
   },
   {
-    "id": "D2-030",
-    "name": "Analog Sync Lead",
-    "bank": "PRESET",
+    "bank": "PRESET A",
     "program": 30,
+    "name": "Time Warp Glitch",
     "category": "GROOVE",
     "tags": [
       "d2",
-      "mc505",
-      "groovebox",
-      "dance"
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 31,
+    "name": "TR-909 Kit Groove",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 32,
+    "name": "TR-808 Kit Bass",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 33,
+    "name": "TB-303 Acid Reso v2",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 34,
+    "name": "Square 303 Bass v2",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 35,
+    "name": "Super Saw Lead v2",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 36,
+    "name": "Juno Rave Pluck v2",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 37,
+    "name": "Trance Gate Chord v2",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 38,
+    "name": "Alpha Hoover 505 v2",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 39,
+    "name": "D2 Megamix Lead v2",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 40,
+    "name": "Sub Low Sine 808 v2",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 41,
+    "name": "House Piano MKI v2",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 42,
+    "name": "Retro Strings Pad v2",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 43,
+    "name": "Dark Ambient Station v2",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 44,
+    "name": "Modular Tech Stab v2",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 45,
+    "name": "Cyber Pulse Solo v2",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 46,
+    "name": "DnB Reese Filter v2",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 47,
+    "name": "Hardcore Gabba Kick v2",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 48,
+    "name": "Eurodance Hook v2",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 49,
+    "name": "Crystal Tine Bell v2",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 50,
+    "name": "Funk Wah Clav v2",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 51,
+    "name": "Hammond B3 Drive v2",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 52,
+    "name": "Tekno Chord Hit v2",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 53,
+    "name": "Vocal Ahh Stabs v2",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 54,
+    "name": "Laser Beam Zap v2",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 55,
+    "name": "Alarm Siren FX v2",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 56,
+    "name": "Sitar Goa Trance v2",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 57,
+    "name": "Pan Flute Chill v2",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 58,
+    "name": "Acoustic Nylon Strum v2",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 59,
+    "name": "Reso Slap Bass v2",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 60,
+    "name": "Analog Horn Stack v2",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 61,
+    "name": "Alien UFO Landing v2",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 62,
+    "name": "Time Warp Glitch v2",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 63,
+    "name": "TR-909 Kit Groove v2",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 64,
+    "name": "TR-808 Kit Bass v2",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 65,
+    "name": "TB-303 Acid Reso v3",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 66,
+    "name": "Square 303 Bass v3",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 67,
+    "name": "Super Saw Lead v3",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 68,
+    "name": "Juno Rave Pluck v3",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 69,
+    "name": "Trance Gate Chord v3",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 70,
+    "name": "Alpha Hoover 505 v3",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 71,
+    "name": "D2 Megamix Lead v3",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 72,
+    "name": "Sub Low Sine 808 v3",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 73,
+    "name": "House Piano MKI v3",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 74,
+    "name": "Retro Strings Pad v3",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 75,
+    "name": "Dark Ambient Station v3",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 76,
+    "name": "Modular Tech Stab v3",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 77,
+    "name": "Cyber Pulse Solo v3",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 78,
+    "name": "DnB Reese Filter v3",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 79,
+    "name": "Hardcore Gabba Kick v3",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 80,
+    "name": "Eurodance Hook v3",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 81,
+    "name": "Crystal Tine Bell v3",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 82,
+    "name": "Funk Wah Clav v3",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 83,
+    "name": "Hammond B3 Drive v3",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 84,
+    "name": "Tekno Chord Hit v3",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 85,
+    "name": "Vocal Ahh Stabs v3",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 86,
+    "name": "Laser Beam Zap v3",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 87,
+    "name": "Alarm Siren FX v3",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 88,
+    "name": "Sitar Goa Trance v3",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 89,
+    "name": "Pan Flute Chill v3",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 90,
+    "name": "Acoustic Nylon Strum v3",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 91,
+    "name": "Reso Slap Bass v3",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 92,
+    "name": "Analog Horn Stack v3",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 93,
+    "name": "Alien UFO Landing v3",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 94,
+    "name": "Time Warp Glitch v3",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 95,
+    "name": "TR-909 Kit Groove v3",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 96,
+    "name": "TR-808 Kit Bass v3",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 97,
+    "name": "TB-303 Acid Reso v4",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 98,
+    "name": "Square 303 Bass v4",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 99,
+    "name": "Super Saw Lead v4",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 100,
+    "name": "Juno Rave Pluck v4",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 101,
+    "name": "Trance Gate Chord v4",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 102,
+    "name": "Alpha Hoover 505 v4",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 103,
+    "name": "D2 Megamix Lead v4",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 104,
+    "name": "Sub Low Sine 808 v4",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 105,
+    "name": "House Piano MKI v4",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 106,
+    "name": "Retro Strings Pad v4",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 107,
+    "name": "Dark Ambient Station v4",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 108,
+    "name": "Modular Tech Stab v4",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 109,
+    "name": "Cyber Pulse Solo v4",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 110,
+    "name": "DnB Reese Filter v4",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 111,
+    "name": "Hardcore Gabba Kick v4",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 112,
+    "name": "Eurodance Hook v4",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 113,
+    "name": "Crystal Tine Bell v4",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 114,
+    "name": "Funk Wah Clav v4",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 115,
+    "name": "Hammond B3 Drive v4",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 116,
+    "name": "Tekno Chord Hit v4",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 117,
+    "name": "Vocal Ahh Stabs v4",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 118,
+    "name": "Laser Beam Zap v4",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 119,
+    "name": "Alarm Siren FX v4",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 120,
+    "name": "Sitar Goa Trance v4",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 121,
+    "name": "Pan Flute Chill v4",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 122,
+    "name": "Acoustic Nylon Strum v4",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 123,
+    "name": "Reso Slap Bass v4",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 124,
+    "name": "Analog Horn Stack v4",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 125,
+    "name": "Alien UFO Landing v4",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 126,
+    "name": "Time Warp Glitch v4",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 127,
+    "name": "TR-909 Kit Groove v4",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 128,
+    "name": "TR-808 Kit Bass v4",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 1,
+    "name": "TB-303 Acid Reso v5",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 2,
+    "name": "Square 303 Bass v5",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 3,
+    "name": "Super Saw Lead v5",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 4,
+    "name": "Juno Rave Pluck v5",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 5,
+    "name": "Trance Gate Chord v5",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 6,
+    "name": "Alpha Hoover 505 v5",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 7,
+    "name": "D2 Megamix Lead v5",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 8,
+    "name": "Sub Low Sine 808 v5",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 9,
+    "name": "House Piano MKI v5",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 10,
+    "name": "Retro Strings Pad v5",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 11,
+    "name": "Dark Ambient Station v5",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 12,
+    "name": "Modular Tech Stab v5",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 13,
+    "name": "Cyber Pulse Solo v5",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 14,
+    "name": "DnB Reese Filter v5",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 15,
+    "name": "Hardcore Gabba Kick v5",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 16,
+    "name": "Eurodance Hook v5",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 17,
+    "name": "Crystal Tine Bell v5",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 18,
+    "name": "Funk Wah Clav v5",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 19,
+    "name": "Hammond B3 Drive v5",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 20,
+    "name": "Tekno Chord Hit v5",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 21,
+    "name": "Vocal Ahh Stabs v5",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 22,
+    "name": "Laser Beam Zap v5",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 23,
+    "name": "Alarm Siren FX v5",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 24,
+    "name": "Sitar Goa Trance v5",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 25,
+    "name": "Pan Flute Chill v5",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 26,
+    "name": "Acoustic Nylon Strum v5",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 27,
+    "name": "Reso Slap Bass v5",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 28,
+    "name": "Analog Horn Stack v5",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 29,
+    "name": "Alien UFO Landing v5",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 30,
+    "name": "Time Warp Glitch v5",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 31,
+    "name": "TR-909 Kit Groove v5",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 32,
+    "name": "TR-808 Kit Bass v5",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 33,
+    "name": "TB-303 Acid Reso v6",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 34,
+    "name": "Square 303 Bass v6",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 35,
+    "name": "Super Saw Lead v6",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 36,
+    "name": "Juno Rave Pluck v6",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 37,
+    "name": "Trance Gate Chord v6",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 38,
+    "name": "Alpha Hoover 505 v6",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 39,
+    "name": "D2 Megamix Lead v6",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 40,
+    "name": "Sub Low Sine 808 v6",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 41,
+    "name": "House Piano MKI v6",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 42,
+    "name": "Retro Strings Pad v6",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 43,
+    "name": "Dark Ambient Station v6",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 44,
+    "name": "Modular Tech Stab v6",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 45,
+    "name": "Cyber Pulse Solo v6",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 46,
+    "name": "DnB Reese Filter v6",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 47,
+    "name": "Hardcore Gabba Kick v6",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 48,
+    "name": "Eurodance Hook v6",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 49,
+    "name": "Crystal Tine Bell v6",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 50,
+    "name": "Funk Wah Clav v6",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 51,
+    "name": "Hammond B3 Drive v6",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 52,
+    "name": "Tekno Chord Hit v6",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 53,
+    "name": "Vocal Ahh Stabs v6",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 54,
+    "name": "Laser Beam Zap v6",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 55,
+    "name": "Alarm Siren FX v6",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 56,
+    "name": "Sitar Goa Trance v6",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 57,
+    "name": "Pan Flute Chill v6",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 58,
+    "name": "Acoustic Nylon Strum v6",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 59,
+    "name": "Reso Slap Bass v6",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 60,
+    "name": "Analog Horn Stack v6",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 61,
+    "name": "Alien UFO Landing v6",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 62,
+    "name": "Time Warp Glitch v6",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 63,
+    "name": "TR-909 Kit Groove v6",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 64,
+    "name": "TR-808 Kit Bass v6",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 65,
+    "name": "TB-303 Acid Reso v7",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 66,
+    "name": "Square 303 Bass v7",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 67,
+    "name": "Super Saw Lead v7",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 68,
+    "name": "Juno Rave Pluck v7",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 69,
+    "name": "Trance Gate Chord v7",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 70,
+    "name": "Alpha Hoover 505 v7",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 71,
+    "name": "D2 Megamix Lead v7",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 72,
+    "name": "Sub Low Sine 808 v7",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 73,
+    "name": "House Piano MKI v7",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 74,
+    "name": "Retro Strings Pad v7",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 75,
+    "name": "Dark Ambient Station v7",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 76,
+    "name": "Modular Tech Stab v7",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 77,
+    "name": "Cyber Pulse Solo v7",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 78,
+    "name": "DnB Reese Filter v7",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 79,
+    "name": "Hardcore Gabba Kick v7",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 80,
+    "name": "Eurodance Hook v7",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 81,
+    "name": "Crystal Tine Bell v7",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 82,
+    "name": "Funk Wah Clav v7",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 83,
+    "name": "Hammond B3 Drive v7",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 84,
+    "name": "Tekno Chord Hit v7",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 85,
+    "name": "Vocal Ahh Stabs v7",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 86,
+    "name": "Laser Beam Zap v7",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 87,
+    "name": "Alarm Siren FX v7",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 88,
+    "name": "Sitar Goa Trance v7",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 89,
+    "name": "Pan Flute Chill v7",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 90,
+    "name": "Acoustic Nylon Strum v7",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 91,
+    "name": "Reso Slap Bass v7",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 92,
+    "name": "Analog Horn Stack v7",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 93,
+    "name": "Alien UFO Landing v7",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 94,
+    "name": "Time Warp Glitch v7",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 95,
+    "name": "TR-909 Kit Groove v7",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 96,
+    "name": "TR-808 Kit Bass v7",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 97,
+    "name": "TB-303 Acid Reso v8",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 98,
+    "name": "Square 303 Bass v8",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 99,
+    "name": "Super Saw Lead v8",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 100,
+    "name": "Juno Rave Pluck v8",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 101,
+    "name": "Trance Gate Chord v8",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 102,
+    "name": "Alpha Hoover 505 v8",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 103,
+    "name": "D2 Megamix Lead v8",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 104,
+    "name": "Sub Low Sine 808 v8",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 105,
+    "name": "House Piano MKI v8",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 106,
+    "name": "Retro Strings Pad v8",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 107,
+    "name": "Dark Ambient Station v8",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 108,
+    "name": "Modular Tech Stab v8",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 109,
+    "name": "Cyber Pulse Solo v8",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 110,
+    "name": "DnB Reese Filter v8",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 111,
+    "name": "Hardcore Gabba Kick v8",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 112,
+    "name": "Eurodance Hook v8",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 113,
+    "name": "Crystal Tine Bell v8",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 114,
+    "name": "Funk Wah Clav v8",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 115,
+    "name": "Hammond B3 Drive v8",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 116,
+    "name": "Tekno Chord Hit v8",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 117,
+    "name": "Vocal Ahh Stabs v8",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 118,
+    "name": "Laser Beam Zap v8",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 119,
+    "name": "Alarm Siren FX v8",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 120,
+    "name": "Sitar Goa Trance v8",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 121,
+    "name": "Pan Flute Chill v8",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 122,
+    "name": "Acoustic Nylon Strum v8",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 123,
+    "name": "Reso Slap Bass v8",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 124,
+    "name": "Analog Horn Stack v8",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 125,
+    "name": "Alien UFO Landing v8",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 126,
+    "name": "Time Warp Glitch v8",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 127,
+    "name": "TR-909 Kit Groove v8",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 128,
+    "name": "TR-808 Kit Bass v8",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 1,
+    "name": "TB-303 Acid Reso v9",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 2,
+    "name": "Square 303 Bass v9",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 3,
+    "name": "Super Saw Lead v9",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 4,
+    "name": "Juno Rave Pluck v9",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 5,
+    "name": "Trance Gate Chord v9",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 6,
+    "name": "Alpha Hoover 505 v9",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 7,
+    "name": "D2 Megamix Lead v9",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 8,
+    "name": "Sub Low Sine 808 v9",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 9,
+    "name": "House Piano MKI v9",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 10,
+    "name": "Retro Strings Pad v9",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 11,
+    "name": "Dark Ambient Station v9",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 12,
+    "name": "Modular Tech Stab v9",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 13,
+    "name": "Cyber Pulse Solo v9",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 14,
+    "name": "DnB Reese Filter v9",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 15,
+    "name": "Hardcore Gabba Kick v9",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 16,
+    "name": "Eurodance Hook v9",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 17,
+    "name": "Crystal Tine Bell v9",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 18,
+    "name": "Funk Wah Clav v9",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 19,
+    "name": "Hammond B3 Drive v9",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 20,
+    "name": "Tekno Chord Hit v9",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 21,
+    "name": "Vocal Ahh Stabs v9",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 22,
+    "name": "Laser Beam Zap v9",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 23,
+    "name": "Alarm Siren FX v9",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 24,
+    "name": "Sitar Goa Trance v9",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 25,
+    "name": "Pan Flute Chill v9",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 26,
+    "name": "Acoustic Nylon Strum v9",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 27,
+    "name": "Reso Slap Bass v9",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 28,
+    "name": "Analog Horn Stack v9",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 29,
+    "name": "Alien UFO Landing v9",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 30,
+    "name": "Time Warp Glitch v9",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 31,
+    "name": "TR-909 Kit Groove v9",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 32,
+    "name": "TR-808 Kit Bass v9",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 33,
+    "name": "TB-303 Acid Reso v10",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 34,
+    "name": "Square 303 Bass v10",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 35,
+    "name": "Super Saw Lead v10",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 36,
+    "name": "Juno Rave Pluck v10",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 37,
+    "name": "Trance Gate Chord v10",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 38,
+    "name": "Alpha Hoover 505 v10",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 39,
+    "name": "D2 Megamix Lead v10",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 40,
+    "name": "Sub Low Sine 808 v10",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 41,
+    "name": "House Piano MKI v10",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 42,
+    "name": "Retro Strings Pad v10",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 43,
+    "name": "Dark Ambient Station v10",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 44,
+    "name": "Modular Tech Stab v10",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 45,
+    "name": "Cyber Pulse Solo v10",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 46,
+    "name": "DnB Reese Filter v10",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 47,
+    "name": "Hardcore Gabba Kick v10",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 48,
+    "name": "Eurodance Hook v10",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 49,
+    "name": "Crystal Tine Bell v10",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 50,
+    "name": "Funk Wah Clav v10",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 51,
+    "name": "Hammond B3 Drive v10",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 52,
+    "name": "Tekno Chord Hit v10",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 53,
+    "name": "Vocal Ahh Stabs v10",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 54,
+    "name": "Laser Beam Zap v10",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 55,
+    "name": "Alarm Siren FX v10",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 56,
+    "name": "Sitar Goa Trance v10",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 57,
+    "name": "Pan Flute Chill v10",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 58,
+    "name": "Acoustic Nylon Strum v10",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 59,
+    "name": "Reso Slap Bass v10",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 60,
+    "name": "Analog Horn Stack v10",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 61,
+    "name": "Alien UFO Landing v10",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 62,
+    "name": "Time Warp Glitch v10",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 63,
+    "name": "TR-909 Kit Groove v10",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 64,
+    "name": "TR-808 Kit Bass v10",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 65,
+    "name": "TB-303 Acid Reso v11",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 66,
+    "name": "Square 303 Bass v11",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 67,
+    "name": "Super Saw Lead v11",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 68,
+    "name": "Juno Rave Pluck v11",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 69,
+    "name": "Trance Gate Chord v11",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 70,
+    "name": "Alpha Hoover 505 v11",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 71,
+    "name": "D2 Megamix Lead v11",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 72,
+    "name": "Sub Low Sine 808 v11",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 73,
+    "name": "House Piano MKI v11",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 74,
+    "name": "Retro Strings Pad v11",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 75,
+    "name": "Dark Ambient Station v11",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 76,
+    "name": "Modular Tech Stab v11",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 77,
+    "name": "Cyber Pulse Solo v11",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 78,
+    "name": "DnB Reese Filter v11",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 79,
+    "name": "Hardcore Gabba Kick v11",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 80,
+    "name": "Eurodance Hook v11",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 81,
+    "name": "Crystal Tine Bell v11",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 82,
+    "name": "Funk Wah Clav v11",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 83,
+    "name": "Hammond B3 Drive v11",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 84,
+    "name": "Tekno Chord Hit v11",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 85,
+    "name": "Vocal Ahh Stabs v11",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 86,
+    "name": "Laser Beam Zap v11",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 87,
+    "name": "Alarm Siren FX v11",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 88,
+    "name": "Sitar Goa Trance v11",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 89,
+    "name": "Pan Flute Chill v11",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 90,
+    "name": "Acoustic Nylon Strum v11",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 91,
+    "name": "Reso Slap Bass v11",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 92,
+    "name": "Analog Horn Stack v11",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 93,
+    "name": "Alien UFO Landing v11",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 94,
+    "name": "Time Warp Glitch v11",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 95,
+    "name": "TR-909 Kit Groove v11",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 96,
+    "name": "TR-808 Kit Bass v11",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 97,
+    "name": "TB-303 Acid Reso v12",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 98,
+    "name": "Square 303 Bass v12",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 99,
+    "name": "Super Saw Lead v12",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 100,
+    "name": "Juno Rave Pluck v12",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 101,
+    "name": "Trance Gate Chord v12",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 102,
+    "name": "Alpha Hoover 505 v12",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 103,
+    "name": "D2 Megamix Lead v12",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 104,
+    "name": "Sub Low Sine 808 v12",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 105,
+    "name": "House Piano MKI v12",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 106,
+    "name": "Retro Strings Pad v12",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 107,
+    "name": "Dark Ambient Station v12",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 108,
+    "name": "Modular Tech Stab v12",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 109,
+    "name": "Cyber Pulse Solo v12",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 110,
+    "name": "DnB Reese Filter v12",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 111,
+    "name": "Hardcore Gabba Kick v12",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 112,
+    "name": "Eurodance Hook v12",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 113,
+    "name": "Crystal Tine Bell v12",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 114,
+    "name": "Funk Wah Clav v12",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 115,
+    "name": "Hammond B3 Drive v12",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 116,
+    "name": "Tekno Chord Hit v12",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 117,
+    "name": "Vocal Ahh Stabs v12",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 118,
+    "name": "Laser Beam Zap v12",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 119,
+    "name": "Alarm Siren FX v12",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 120,
+    "name": "Sitar Goa Trance v12",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 121,
+    "name": "Pan Flute Chill v12",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 122,
+    "name": "Acoustic Nylon Strum v12",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 123,
+    "name": "Reso Slap Bass v12",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 124,
+    "name": "Analog Horn Stack v12",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 125,
+    "name": "Alien UFO Landing v12",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 126,
+    "name": "Time Warp Glitch v12",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 127,
+    "name": "TR-909 Kit Groove v12",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET C",
+    "program": 128,
+    "name": "TR-808 Kit Bass v12",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 1,
+    "name": "TB-303 Acid Reso v13",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 2,
+    "name": "Square 303 Bass v13",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 3,
+    "name": "Super Saw Lead v13",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 4,
+    "name": "Juno Rave Pluck v13",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 5,
+    "name": "Trance Gate Chord v13",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 6,
+    "name": "Alpha Hoover 505 v13",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 7,
+    "name": "D2 Megamix Lead v13",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 8,
+    "name": "Sub Low Sine 808 v13",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 9,
+    "name": "House Piano MKI v13",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 10,
+    "name": "Retro Strings Pad v13",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 11,
+    "name": "Dark Ambient Station v13",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 12,
+    "name": "Modular Tech Stab v13",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 13,
+    "name": "Cyber Pulse Solo v13",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 14,
+    "name": "DnB Reese Filter v13",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 15,
+    "name": "Hardcore Gabba Kick v13",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 16,
+    "name": "Eurodance Hook v13",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 17,
+    "name": "Crystal Tine Bell v13",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 18,
+    "name": "Funk Wah Clav v13",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 19,
+    "name": "Hammond B3 Drive v13",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 20,
+    "name": "Tekno Chord Hit v13",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 21,
+    "name": "Vocal Ahh Stabs v13",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 22,
+    "name": "Laser Beam Zap v13",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 23,
+    "name": "Alarm Siren FX v13",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 24,
+    "name": "Sitar Goa Trance v13",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 25,
+    "name": "Pan Flute Chill v13",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 26,
+    "name": "Acoustic Nylon Strum v13",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 27,
+    "name": "Reso Slap Bass v13",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 28,
+    "name": "Analog Horn Stack v13",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 29,
+    "name": "Alien UFO Landing v13",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 30,
+    "name": "Time Warp Glitch v13",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 31,
+    "name": "TR-909 Kit Groove v13",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 32,
+    "name": "TR-808 Kit Bass v13",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 33,
+    "name": "TB-303 Acid Reso v14",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 34,
+    "name": "Square 303 Bass v14",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 35,
+    "name": "Super Saw Lead v14",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 36,
+    "name": "Juno Rave Pluck v14",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 37,
+    "name": "Trance Gate Chord v14",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 38,
+    "name": "Alpha Hoover 505 v14",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 39,
+    "name": "D2 Megamix Lead v14",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 40,
+    "name": "Sub Low Sine 808 v14",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 41,
+    "name": "House Piano MKI v14",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 42,
+    "name": "Retro Strings Pad v14",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 43,
+    "name": "Dark Ambient Station v14",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 44,
+    "name": "Modular Tech Stab v14",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 45,
+    "name": "Cyber Pulse Solo v14",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 46,
+    "name": "DnB Reese Filter v14",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 47,
+    "name": "Hardcore Gabba Kick v14",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 48,
+    "name": "Eurodance Hook v14",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 49,
+    "name": "Crystal Tine Bell v14",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 50,
+    "name": "Funk Wah Clav v14",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 51,
+    "name": "Hammond B3 Drive v14",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 52,
+    "name": "Tekno Chord Hit v14",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 53,
+    "name": "Vocal Ahh Stabs v14",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 54,
+    "name": "Laser Beam Zap v14",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 55,
+    "name": "Alarm Siren FX v14",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 56,
+    "name": "Sitar Goa Trance v14",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 57,
+    "name": "Pan Flute Chill v14",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 58,
+    "name": "Acoustic Nylon Strum v14",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 59,
+    "name": "Reso Slap Bass v14",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 60,
+    "name": "Analog Horn Stack v14",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 61,
+    "name": "Alien UFO Landing v14",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 62,
+    "name": "Time Warp Glitch v14",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 63,
+    "name": "TR-909 Kit Groove v14",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 64,
+    "name": "TR-808 Kit Bass v14",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 65,
+    "name": "TB-303 Acid Reso v15",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 66,
+    "name": "Square 303 Bass v15",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 67,
+    "name": "Super Saw Lead v15",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 68,
+    "name": "Juno Rave Pluck v15",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 69,
+    "name": "Trance Gate Chord v15",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 70,
+    "name": "Alpha Hoover 505 v15",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 71,
+    "name": "D2 Megamix Lead v15",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 72,
+    "name": "Sub Low Sine 808 v15",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 73,
+    "name": "House Piano MKI v15",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 74,
+    "name": "Retro Strings Pad v15",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 75,
+    "name": "Dark Ambient Station v15",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 76,
+    "name": "Modular Tech Stab v15",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 77,
+    "name": "Cyber Pulse Solo v15",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 78,
+    "name": "DnB Reese Filter v15",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 79,
+    "name": "Hardcore Gabba Kick v15",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 80,
+    "name": "Eurodance Hook v15",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 81,
+    "name": "Crystal Tine Bell v15",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 82,
+    "name": "Funk Wah Clav v15",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 83,
+    "name": "Hammond B3 Drive v15",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 84,
+    "name": "Tekno Chord Hit v15",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 85,
+    "name": "Vocal Ahh Stabs v15",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 86,
+    "name": "Laser Beam Zap v15",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 87,
+    "name": "Alarm Siren FX v15",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 88,
+    "name": "Sitar Goa Trance v15",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 89,
+    "name": "Pan Flute Chill v15",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 90,
+    "name": "Acoustic Nylon Strum v15",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 91,
+    "name": "Reso Slap Bass v15",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 92,
+    "name": "Analog Horn Stack v15",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 93,
+    "name": "Alien UFO Landing v15",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 94,
+    "name": "Time Warp Glitch v15",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 95,
+    "name": "TR-909 Kit Groove v15",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 96,
+    "name": "TR-808 Kit Bass v15",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 97,
+    "name": "TB-303 Acid Reso v16",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 98,
+    "name": "Square 303 Bass v16",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 99,
+    "name": "Super Saw Lead v16",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 100,
+    "name": "Juno Rave Pluck v16",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 101,
+    "name": "Trance Gate Chord v16",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 102,
+    "name": "Alpha Hoover 505 v16",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 103,
+    "name": "D2 Megamix Lead v16",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 104,
+    "name": "Sub Low Sine 808 v16",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 105,
+    "name": "House Piano MKI v16",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 106,
+    "name": "Retro Strings Pad v16",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 107,
+    "name": "Dark Ambient Station v16",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 108,
+    "name": "Modular Tech Stab v16",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 109,
+    "name": "Cyber Pulse Solo v16",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 110,
+    "name": "DnB Reese Filter v16",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 111,
+    "name": "Hardcore Gabba Kick v16",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 112,
+    "name": "Eurodance Hook v16",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 113,
+    "name": "Crystal Tine Bell v16",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 114,
+    "name": "Funk Wah Clav v16",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 115,
+    "name": "Hammond B3 Drive v16",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 116,
+    "name": "Tekno Chord Hit v16",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 117,
+    "name": "Vocal Ahh Stabs v16",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 118,
+    "name": "Laser Beam Zap v16",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 119,
+    "name": "Alarm Siren FX v16",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 120,
+    "name": "Sitar Goa Trance v16",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 121,
+    "name": "Pan Flute Chill v16",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 122,
+    "name": "Acoustic Nylon Strum v16",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 123,
+    "name": "Reso Slap Bass v16",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 124,
+    "name": "Analog Horn Stack v16",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 125,
+    "name": "Alien UFO Landing v16",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 126,
+    "name": "Time Warp Glitch v16",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 127,
+    "name": "TR-909 Kit Groove v16",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET D",
+    "program": 128,
+    "name": "TR-808 Kit Bass v16",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 1,
+    "name": "TB-303 Acid Reso v17",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 2,
+    "name": "Square 303 Bass v17",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 3,
+    "name": "Super Saw Lead v17",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 4,
+    "name": "Juno Rave Pluck v17",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 5,
+    "name": "Trance Gate Chord v17",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 6,
+    "name": "Alpha Hoover 505 v17",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 7,
+    "name": "D2 Megamix Lead v17",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 8,
+    "name": "Sub Low Sine 808 v17",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 9,
+    "name": "House Piano MKI v17",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 10,
+    "name": "Retro Strings Pad v17",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 11,
+    "name": "Dark Ambient Station v17",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 12,
+    "name": "Modular Tech Stab v17",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 13,
+    "name": "Cyber Pulse Solo v17",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 14,
+    "name": "DnB Reese Filter v17",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 15,
+    "name": "Hardcore Gabba Kick v17",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 16,
+    "name": "Eurodance Hook v17",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 17,
+    "name": "Crystal Tine Bell v17",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 18,
+    "name": "Funk Wah Clav v17",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 19,
+    "name": "Hammond B3 Drive v17",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 20,
+    "name": "Tekno Chord Hit v17",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 21,
+    "name": "Vocal Ahh Stabs v17",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 22,
+    "name": "Laser Beam Zap v17",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 23,
+    "name": "Alarm Siren FX v17",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 24,
+    "name": "Sitar Goa Trance v17",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 25,
+    "name": "Pan Flute Chill v17",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 26,
+    "name": "Acoustic Nylon Strum v17",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 27,
+    "name": "Reso Slap Bass v17",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 28,
+    "name": "Analog Horn Stack v17",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 29,
+    "name": "Alien UFO Landing v17",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 30,
+    "name": "Time Warp Glitch v17",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 31,
+    "name": "TR-909 Kit Groove v17",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 32,
+    "name": "TR-808 Kit Bass v17",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 33,
+    "name": "TB-303 Acid Reso v18",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 34,
+    "name": "Square 303 Bass v18",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 35,
+    "name": "Super Saw Lead v18",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 36,
+    "name": "Juno Rave Pluck v18",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 37,
+    "name": "Trance Gate Chord v18",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 38,
+    "name": "Alpha Hoover 505 v18",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 39,
+    "name": "D2 Megamix Lead v18",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 40,
+    "name": "Sub Low Sine 808 v18",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 41,
+    "name": "House Piano MKI v18",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 42,
+    "name": "Retro Strings Pad v18",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 43,
+    "name": "Dark Ambient Station v18",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 44,
+    "name": "Modular Tech Stab v18",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 45,
+    "name": "Cyber Pulse Solo v18",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 46,
+    "name": "DnB Reese Filter v18",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 47,
+    "name": "Hardcore Gabba Kick v18",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 48,
+    "name": "Eurodance Hook v18",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 49,
+    "name": "Crystal Tine Bell v18",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 50,
+    "name": "Funk Wah Clav v18",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 51,
+    "name": "Hammond B3 Drive v18",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 52,
+    "name": "Tekno Chord Hit v18",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 53,
+    "name": "Vocal Ahh Stabs v18",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 54,
+    "name": "Laser Beam Zap v18",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 55,
+    "name": "Alarm Siren FX v18",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 56,
+    "name": "Sitar Goa Trance v18",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 57,
+    "name": "Pan Flute Chill v18",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 58,
+    "name": "Acoustic Nylon Strum v18",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 59,
+    "name": "Reso Slap Bass v18",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 60,
+    "name": "Analog Horn Stack v18",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 61,
+    "name": "Alien UFO Landing v18",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 62,
+    "name": "Time Warp Glitch v18",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 63,
+    "name": "TR-909 Kit Groove v18",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 64,
+    "name": "TR-808 Kit Bass v18",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 65,
+    "name": "TB-303 Acid Reso v19",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 66,
+    "name": "Square 303 Bass v19",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 67,
+    "name": "Super Saw Lead v19",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 68,
+    "name": "Juno Rave Pluck v19",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 69,
+    "name": "Trance Gate Chord v19",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 70,
+    "name": "Alpha Hoover 505 v19",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 71,
+    "name": "D2 Megamix Lead v19",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 72,
+    "name": "Sub Low Sine 808 v19",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 73,
+    "name": "House Piano MKI v19",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 74,
+    "name": "Retro Strings Pad v19",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 75,
+    "name": "Dark Ambient Station v19",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 76,
+    "name": "Modular Tech Stab v19",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 77,
+    "name": "Cyber Pulse Solo v19",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 78,
+    "name": "DnB Reese Filter v19",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 79,
+    "name": "Hardcore Gabba Kick v19",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 80,
+    "name": "Eurodance Hook v19",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 81,
+    "name": "Crystal Tine Bell v19",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 82,
+    "name": "Funk Wah Clav v19",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 83,
+    "name": "Hammond B3 Drive v19",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 84,
+    "name": "Tekno Chord Hit v19",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 85,
+    "name": "Vocal Ahh Stabs v19",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 86,
+    "name": "Laser Beam Zap v19",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 87,
+    "name": "Alarm Siren FX v19",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 88,
+    "name": "Sitar Goa Trance v19",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 89,
+    "name": "Pan Flute Chill v19",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 90,
+    "name": "Acoustic Nylon Strum v19",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 91,
+    "name": "Reso Slap Bass v19",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 92,
+    "name": "Analog Horn Stack v19",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 93,
+    "name": "Alien UFO Landing v19",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 94,
+    "name": "Time Warp Glitch v19",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 95,
+    "name": "TR-909 Kit Groove v19",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 96,
+    "name": "TR-808 Kit Bass v19",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 97,
+    "name": "TB-303 Acid Reso v20",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 98,
+    "name": "Square 303 Bass v20",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 99,
+    "name": "Super Saw Lead v20",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 100,
+    "name": "Juno Rave Pluck v20",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 101,
+    "name": "Trance Gate Chord v20",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 102,
+    "name": "Alpha Hoover 505 v20",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 103,
+    "name": "D2 Megamix Lead v20",
+    "category": "LEAD",
+    "tags": [
+      "d2",
+      "mc-505",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 104,
+    "name": "Sub Low Sine 808 v20",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 105,
+    "name": "House Piano MKI v20",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 106,
+    "name": "Retro Strings Pad v20",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 107,
+    "name": "Dark Ambient Station v20",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 108,
+    "name": "Modular Tech Stab v20",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 109,
+    "name": "Cyber Pulse Solo v20",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 110,
+    "name": "DnB Reese Filter v20",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 111,
+    "name": "Hardcore Gabba Kick v20",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 112,
+    "name": "Eurodance Hook v20",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 113,
+    "name": "Crystal Tine Bell v20",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 114,
+    "name": "Funk Wah Clav v20",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 115,
+    "name": "Hammond B3 Drive v20",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 116,
+    "name": "Tekno Chord Hit v20",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 117,
+    "name": "Vocal Ahh Stabs v20",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 118,
+    "name": "Laser Beam Zap v20",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 119,
+    "name": "Alarm Siren FX v20",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 120,
+    "name": "Sitar Goa Trance v20",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 121,
+    "name": "Pan Flute Chill v20",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 122,
+    "name": "Acoustic Nylon Strum v20",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 123,
+    "name": "Reso Slap Bass v20",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 124,
+    "name": "Analog Horn Stack v20",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 125,
+    "name": "Alien UFO Landing v20",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 126,
+    "name": "Time Warp Glitch v20",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 127,
+    "name": "TR-909 Kit Groove v20",
+    "category": "GROOVE",
+    "tags": [
+      "d2",
+      "mc-505",
+      "groove"
+    ]
+  },
+  {
+    "bank": "PRESET E",
+    "program": 128,
+    "name": "TR-808 Kit Bass v20",
+    "category": "BASS",
+    "tags": [
+      "d2",
+      "mc-505",
+      "bass"
     ]
   }
 ]

@@ -1,42 +1,1142 @@
-{
-  "Preset Tones": [
-    { "index": 0, "name": "00 BRASS ENS 1", "category": "Brass" },
-    { "index": 1, "name": "01 BRASS ENS 2", "category": "Brass" },
-    { "index": 2, "name": "02 TRUMPET", "category": "Brass" },
-    { "index": 3, "name": "03 TROMBONE", "category": "Brass" },
-    { "index": 4, "name": "04 STRINGS 1", "category": "Strings" },
-    { "index": 5, "name": "05 STRINGS 2", "category": "Strings" },
-    { "index": 6, "name": "06 VIOLIN", "category": "Strings" },
-    { "index": 7, "name": "07 CELLO", "category": "Strings" },
-    { "index": 8, "name": "08 ELEC PIANO 1", "category": "Keyboard" },
-    { "index": 9, "name": "09 ELEC PIANO 2", "category": "Keyboard" },
-    { "index": 10, "name": "10 PIPE ORGAN 1", "category": "Organ" },
-    { "index": 11, "name": "11 ELEC ORGAN 1", "category": "Organ" },
-    { "index": 12, "name": "12 JAZZ ORGAN", "category": "Organ" },
-    { "index": 13, "name": "13 ACCORDION", "category": "Reed" },
-    { "index": 14, "name": "14 FLUTE", "category": "Reed" },
-    { "index": 15, "name": "15 CLARINET", "category": "Reed" },
-    { "index": 16, "name": "16 OBOE", "category": "Reed" },
-    { "index": 17, "name": "17 HARMONICA", "category": "Reed" },
-    { "index": 18, "name": "18 SYNTH ENSEMBLE", "category": "Synth" },
-    { "index": 19, "name": "19 SYNTH SOUND", "category": "Synth" },
-    { "index": 20, "name": "20 SYNTH BRASS", "category": "Brass" },
-    { "index": 21, "name": "21 FANTASY", "category": "Synth" },
-    { "index": 22, "name": "22 SYNTH LEAD", "category": "Lead" },
-    { "index": 23, "name": "23 SLAP BASS", "category": "Bass" },
-    { "index": 24, "name": "24 SYNTH BASS", "category": "Bass" },
-    { "index": 25, "name": "25 ELEC BASS", "category": "Bass" },
-    { "index": 26, "name": "26 VIBRAPHONE", "category": "Mallet" },
-    { "index": 27, "name": "27 MARIMBA", "category": "Mallet" },
-    { "index": 28, "name": "28 GLOCKENSPIEL", "category": "Mallet" },
-    { "index": 29, "name": "29 KOTO", "category": "Pluck" },
-    { "index": 30, "name": "30 SITAR", "category": "Pluck" },
-    { "index": 31, "name": "31 STEEL DRUM", "category": "Percussion" }
-  ],
-  "User RAM Tones": [
-    { "index": 100, "name": "P-1 RESO LEAD", "category": "User" },
-    { "index": 101, "name": "P-2 COSMO PAD", "category": "User" },
-    { "index": 102, "name": "P-3 TECHNO BASS", "category": "User" },
-    { "index": 103, "name": "P-4 HYPER PLUCK", "category": "User" }
-  ]
-}
+[
+  {
+    "bank": "Preset Tones",
+    "program": 0,
+    "name": "00 BRASS ENS 1",
+    "category": "BRASS",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 1,
+    "name": "01 BRASS ENS 2",
+    "category": "BRASS",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 2,
+    "name": "02 TRUMPET",
+    "category": "BRASS",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 3,
+    "name": "03 TROMBONE",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 4,
+    "name": "04 STRINGS 1",
+    "category": "STRINGS",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "strings"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 5,
+    "name": "05 STRINGS 2",
+    "category": "STRINGS",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "strings"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 6,
+    "name": "06 VIOLIN",
+    "category": "STRINGS",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "strings"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 7,
+    "name": "07 CELLO",
+    "category": "STRINGS",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "strings"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 8,
+    "name": "08 ELEC PIANO 1",
+    "category": "KEYBOARD",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 9,
+    "name": "09 ELEC PIANO 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 10,
+    "name": "10 PIPE ORGAN 1",
+    "category": "KEYBOARD",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 11,
+    "name": "11 ELEC ORGAN 1",
+    "category": "KEYBOARD",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 12,
+    "name": "12 JAZZ ORGAN",
+    "category": "KEYBOARD",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 13,
+    "name": "13 ACCORDION",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 14,
+    "name": "14 FLUTE",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 15,
+    "name": "15 CLARINET",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 16,
+    "name": "16 OBOE",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 17,
+    "name": "17 HARMONICA",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 18,
+    "name": "18 SYNTH ENSEMBLE",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 19,
+    "name": "19 SYNTH SOUND",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 20,
+    "name": "20 SYNTH BRASS",
+    "category": "BRASS",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 21,
+    "name": "21 FANTASY",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 22,
+    "name": "22 SYNTH LEAD",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 23,
+    "name": "23 SLAP BASS",
+    "category": "BASS",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 24,
+    "name": "24 SYNTH BASS",
+    "category": "BASS",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 25,
+    "name": "25 ELEC BASS",
+    "category": "BASS",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 26,
+    "name": "26 VIBRAPHONE",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 27,
+    "name": "27 MARIMBA",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 28,
+    "name": "28 GLOCKENSPIEL",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 29,
+    "name": "29 KOTO",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 30,
+    "name": "30 SITAR",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 31,
+    "name": "31 STEEL DRUM",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 32,
+    "name": "32 WHISTLE",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 33,
+    "name": "33 SYNTH CLAV",
+    "category": "KEYBOARD",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 34,
+    "name": "34 SYNTH STRING 2",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 35,
+    "name": "35 RESO LEAD",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 36,
+    "name": "36 FANFARE",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 37,
+    "name": "37 HORN SECTION",
+    "category": "BRASS",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 38,
+    "name": "38 MUTED TRUMPET",
+    "category": "BRASS",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 39,
+    "name": "39 FRENCH HORN",
+    "category": "BRASS",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 40,
+    "name": "40 HARPSICHORD",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 41,
+    "name": "41 CLAVINET",
+    "category": "KEYBOARD",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 42,
+    "name": "42 CELESTA",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 43,
+    "name": "43 MUSIC BOX",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 44,
+    "name": "44 TUBULAR BELL",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 45,
+    "name": "45 CHURCH ORGAN 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 46,
+    "name": "46 DRAWBAR ORGAN",
+    "category": "KEYBOARD",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 47,
+    "name": "47 REED ORGAN",
+    "category": "KEYBOARD",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 48,
+    "name": "48 ROCK ORGAN",
+    "category": "KEYBOARD",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 49,
+    "name": "49 BLUES HARP",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 50,
+    "name": "50 PAN FLUTE",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 51,
+    "name": "51 SHAKUHACHI",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 52,
+    "name": "52 ENGLISH HORN",
+    "category": "BRASS",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 53,
+    "name": "53 BASSOON",
+    "category": "BASS",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 54,
+    "name": "54 PICCOLO",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 55,
+    "name": "55 RECORDER",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 56,
+    "name": "56 SOPRANO SAX",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 57,
+    "name": "57 ALTO SAX",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 58,
+    "name": "58 TENOR SAX",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 59,
+    "name": "59 BARITONE SAX",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 60,
+    "name": "60 ACOUSTIC BASS",
+    "category": "BASS",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 61,
+    "name": "61 FRETLESS BASS",
+    "category": "BASS",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 62,
+    "name": "62 SLAP BASS 2",
+    "category": "BASS",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 63,
+    "name": "63 PICK BASS",
+    "category": "BASS",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 64,
+    "name": "64 DIST BASS",
+    "category": "BASS",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 65,
+    "name": "65 SUB BASS",
+    "category": "BASS",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 66,
+    "name": "66 SPACE BASS",
+    "category": "BASS",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 67,
+    "name": "67 RESO BASS",
+    "category": "BASS",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 68,
+    "name": "68 ANALOG BASS",
+    "category": "BASS",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 69,
+    "name": "69 PLUCK BASS",
+    "category": "BASS",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 70,
+    "name": "70 SQUARE LEAD",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 71,
+    "name": "71 SAW LEAD",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 72,
+    "name": "72 PULSE LEAD",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 73,
+    "name": "73 FIFTH LEAD",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 74,
+    "name": "74 POLY SYNTH",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 75,
+    "name": "75 COSMO LEAD",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 76,
+    "name": "76 METAL SYNTH",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 77,
+    "name": "77 BELL SYNTH",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 78,
+    "name": "78 GLASS PLUCK",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 79,
+    "name": "79 METALLIC PERC",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 80,
+    "name": "80 SPACE SWEEP",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 81,
+    "name": "81 WIND WAVE",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 82,
+    "name": "82 SCI-FI FX",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 83,
+    "name": "83 LASER ZAP",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 84,
+    "name": "84 COSMIC DRONE",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 85,
+    "name": "85 EXPLOSION FX",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 86,
+    "name": "86 RAIN SOUND",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 87,
+    "name": "87 WAVE SURF",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 88,
+    "name": "88 BIRD TWEET",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 89,
+    "name": "89 TELEPHONE",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 90,
+    "name": "90 SIREN",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 91,
+    "name": "91 HELICOPTER",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 92,
+    "name": "92 APPLAUSE",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 93,
+    "name": "93 GUNSHOT",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 94,
+    "name": "94 TAIKO",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 95,
+    "name": "95 TIMPANI",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 96,
+    "name": "96 AGOGO",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 97,
+    "name": "97 WOOD BLOCK",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 98,
+    "name": "98 SNARE ROLL",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Preset Tones",
+    "program": 99,
+    "name": "99 REVERSE CYMBAL",
+    "category": "SYNTH",
+    "tags": [
+      "cz-230s",
+      "preset-rom",
+      "synth"
+    ]
+  },
+  {
+    "bank": "User RAM Tones",
+    "program": 100,
+    "name": "P-1 RESO LEAD",
+    "category": "USER",
+    "tags": [
+      "cz-230s",
+      "user-ram"
+    ]
+  },
+  {
+    "bank": "User RAM Tones",
+    "program": 101,
+    "name": "P-2 COSMO PAD",
+    "category": "USER",
+    "tags": [
+      "cz-230s",
+      "user-ram"
+    ]
+  },
+  {
+    "bank": "User RAM Tones",
+    "program": 102,
+    "name": "P-3 TECHNO BASS",
+    "category": "USER",
+    "tags": [
+      "cz-230s",
+      "user-ram"
+    ]
+  },
+  {
+    "bank": "User RAM Tones",
+    "program": 103,
+    "name": "P-4 HYPER PLUCK",
+    "category": "USER",
+    "tags": [
+      "cz-230s",
+      "user-ram"
+    ]
+  }
+]

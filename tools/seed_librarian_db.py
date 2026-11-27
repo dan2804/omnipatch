@@ -120,14 +120,56 @@ def seed_database():
             device_id = cursor.lastrowid
             total_devices += 1
 
+            # Normalize presets into a unified flat list of patch dicts
+            patch_list = []
+            if isinstance(presets, dict):
+                for bank_title, items in presets.items():
+                    if isinstance(items, list):
+                        for item_idx, item in enumerate(items):
+                            if isinstance(item, dict):
+                                patch_list.append({
+                                    'name': item.get('name', f'Preset #{item_idx+1}'),
+                                    'bank': item.get('bank', bank_title),
+                                    'program': item.get('program', item.get('index', item_idx + 1)),
+                                    'category': item.get('category', ''),
+                                    'tags': item.get('tags', [])
+                                })
+                            elif isinstance(item, str):
+                                name = item.strip()
+                                num = item_idx + 1
+                                if ':' in item:
+                                    prefix, rest = item.split(':', 1)
+                                    name = rest.strip()
+                                patch_list.append({
+                                    'name': name,
+                                    'bank': bank_title,
+                                    'program': num,
+                                    'category': 'SYNTH',
+                                    'tags': []
+                                })
+            elif isinstance(presets, list):
+                for idx, p in enumerate(presets):
+                    if isinstance(p, dict):
+                        patch_list.append({
+                            'name': p.get('name', f'Preset #{idx+1}'),
+                            'bank': p.get('bank', 'Factory ROM'),
+                            'program': p.get('program', idx + 1),
+                            'category': p.get('category', ''),
+                            'tags': p.get('tags', [])
+                        })
+                    else:
+                        patch_list.append({
+                            'name': str(p),
+                            'bank': 'Factory ROM',
+                            'program': idx + 1,
+                            'category': 'SYNTH',
+                            'tags': []
+                        })
+
             # Discover all distinct banks in this device
             bank_map = {}
-            for idx, p in enumerate(presets):
-                if isinstance(p, dict):
-                    b_name = p.get('bank', 'Factory ROM')
-                else:
-                    b_name = 'Factory ROM'
-
+            for p in patch_list:
+                b_name = p['bank']
                 if b_name not in bank_map:
                     cursor.execute(
                         "INSERT OR IGNORE INTO banks (device_id, name, bank_type) VALUES (?, ?, ?)",
@@ -139,20 +181,12 @@ def seed_database():
                     total_banks += 1
 
             # Insert Patches
-            for idx, p in enumerate(presets):
-                if isinstance(p, dict):
-                    p_name = p.get('name', f'Preset #{idx+1}')
-                    b_name = p.get('bank', 'Factory ROM')
-                    p_num = p.get('program', idx + 1)
-                    cat = p.get('category', '')
-                    tags = json.dumps(p.get('tags', []))
-                else:
-                    p_name = str(p)
-                    b_name = 'Factory ROM'
-                    p_num = idx + 1
-                    cat = 'SYNTH'
-                    tags = '[]'
-
+            for p in patch_list:
+                p_name = p['name']
+                b_name = p['bank']
+                p_num = p['program']
+                cat = p['category']
+                tags = json.dumps(p['tags'])
                 notes = f"Factory preset for {dev_name}"
 
                 cursor.execute(

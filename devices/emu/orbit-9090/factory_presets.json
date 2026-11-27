@@ -1,23 +1,5634 @@
 [
-  { "bank": 0, "program": 0, "name": "Planet Dance 9090", "category": "Dance" },
-  { "bank": 0, "program": 1, "name": "Acid TB-303 Resonance", "category": "Bass" },
-  { "bank": 0, "program": 2, "name": "909 Pumpin' Dance Beat", "category": "Drums" },
-  { "bank": 0, "program": 3, "name": "808 Sub Boom Electro", "category": "Bass" },
-  { "bank": 0, "program": 4, "name": "Rave Stab 96 Anthem", "category": "Synth" },
-  { "bank": 0, "program": 5, "name": "Organ House Classic Groove", "category": "Keys" },
-  { "bank": 0, "program": 6, "name": "Hoover Alpha Juno Lead", "category": "Lead" },
-  { "bank": 0, "program": 7, "name": "Deep Reese DnB Bass", "category": "Bass" },
-  { "bank": 0, "program": 8, "name": "Cyber Trance Filter Sweep", "category": "Synth" },
-  { "bank": 0, "program": 9, "name": "Pizzicato Dance Energy", "category": "Strings" },
-  { "bank": 0, "program": 10, "name": "Jungle Breakbeat 160", "category": "Drums" },
-  { "bank": 0, "program": 11, "name": "Happy Hardcore Piano Hook", "category": "Piano" },
-  { "bank": 0, "program": 12, "name": "Filtered Disco French Touch", "category": "Keys" },
-  { "bank": 0, "program": 13, "name": "Analog Rez Square Bass", "category": "Bass" },
-  { "bank": 0, "program": 14, "name": "Dance Floor Chime Bell", "category": "Keys" },
-  { "bank": 0, "program": 15, "name": "Industrial Metallic Perc", "category": "Percussion" },
-  { "bank": 0, "program": 16, "name": "Euro Beat 909 Kick", "category": "Drums" },
-  { "bank": 0, "program": 17, "name": "Ambient Chill Galaxy Pad", "category": "Pad" },
-  { "bank": 0, "program": 18, "name": "Voco Dance Robotic Vox", "category": "FX" },
-  { "bank": 0, "program": 19, "name": "Sub Bass Floor Shaker", "category": "Bass" },
-  { "bank": 0, "program": 20, "name": "Orbit Finale Super Arp", "category": "Arp" }
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 0,
+    "name": "000 Orbit Dance Anthem",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 1,
+    "name": "001 Beat Garden Rob Papen Lead",
+    "category": "LEAD",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 2,
+    "name": "002 Trance Screamer Z-Plane",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 3,
+    "name": "003 Papen Acid TB Squawk",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 4,
+    "name": "004 Hardcore Gabber Thunder",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 5,
+    "name": "005 Eurodance 90s Chord Stab",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 6,
+    "name": "006 Super Saw Hyperspace Sweep",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 7,
+    "name": "007 Electro Vocoder Robotic Vox",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 8,
+    "name": "008 Subterfuge Reese D&B",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 9,
+    "name": "009 Techno Yard Construction",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 10,
+    "name": "010 Cyber Pluck 140 BPM",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 11,
+    "name": "011 303 Resonant Distortion",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 12,
+    "name": "012 Ambient Chill Space Station",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 13,
+    "name": "013 Massive Drop 808 Sub",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 14,
+    "name": "014 Rotterdam Rave Stab",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 15,
+    "name": "015 Club Nu NRG Electro Kit",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 16,
+    "name": "016 Dark Step Jungle Sub",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 17,
+    "name": "017 Psy-Trance Sonic Spiral",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 18,
+    "name": "018 Goa Sun Reso Bell",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 19,
+    "name": "019 Tech House Minimal Groove",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 20,
+    "name": "020 Modular Chaos Z-Plane",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 21,
+    "name": "021 Industrial Machine Clang",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 22,
+    "name": "022 Vocal Formant Filter Sweep",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 23,
+    "name": "023 Digital FM Rave Bass",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 24,
+    "name": "024 Hardstyle Reverse Bass",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 25,
+    "name": "025 Trance Gate Chord Pad",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 26,
+    "name": "026 Square Wave Hook",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 27,
+    "name": "027 Dirty Electro Clav",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 28,
+    "name": "028 Sub Sonic Drop 30Hz",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 29,
+    "name": "029 Hyper Reso Sync Solo",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 30,
+    "name": "030 Berlin Underground Bass",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 31,
+    "name": "031 Deep Space Nebula Ambient",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 32,
+    "name": "032 Orbit Dance Anthem (9090 v2)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 33,
+    "name": "033 Beat Garden Rob Papen Lead (9090 v2)",
+    "category": "LEAD",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 34,
+    "name": "034 Trance Screamer Z-Plane (9090 v2)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 35,
+    "name": "035 Papen Acid TB Squawk (9090 v2)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 36,
+    "name": "036 Hardcore Gabber Thunder (9090 v2)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 37,
+    "name": "037 Eurodance 90s Chord Stab (9090 v2)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 38,
+    "name": "038 Super Saw Hyperspace Sweep (9090 v2)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 39,
+    "name": "039 Electro Vocoder Robotic Vox (9090 v2)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 40,
+    "name": "040 Subterfuge Reese D&B (9090 v2)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 41,
+    "name": "041 Techno Yard Construction (9090 v2)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 42,
+    "name": "042 Cyber Pluck 140 BPM (9090 v2)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 43,
+    "name": "043 303 Resonant Distortion (9090 v2)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 44,
+    "name": "044 Ambient Chill Space Station (9090 v2)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 45,
+    "name": "045 Massive Drop 808 Sub (9090 v2)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 46,
+    "name": "046 Rotterdam Rave Stab (9090 v2)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 47,
+    "name": "047 Club Nu NRG Electro Kit (9090 v2)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 48,
+    "name": "048 Dark Step Jungle Sub (9090 v2)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 49,
+    "name": "049 Psy-Trance Sonic Spiral (9090 v2)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 50,
+    "name": "050 Goa Sun Reso Bell (9090 v2)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 51,
+    "name": "051 Tech House Minimal Groove (9090 v2)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 52,
+    "name": "052 Modular Chaos Z-Plane (9090 v2)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 53,
+    "name": "053 Industrial Machine Clang (9090 v2)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 54,
+    "name": "054 Vocal Formant Filter Sweep (9090 v2)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 55,
+    "name": "055 Digital FM Rave Bass (9090 v2)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 56,
+    "name": "056 Hardstyle Reverse Bass (9090 v2)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 57,
+    "name": "057 Trance Gate Chord Pad (9090 v2)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 58,
+    "name": "058 Square Wave Hook (9090 v2)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 59,
+    "name": "059 Dirty Electro Clav (9090 v2)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 60,
+    "name": "060 Sub Sonic Drop 30Hz (9090 v2)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 61,
+    "name": "061 Hyper Reso Sync Solo (9090 v2)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 62,
+    "name": "062 Berlin Underground Bass (9090 v2)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 63,
+    "name": "063 Deep Space Nebula Ambient (9090 v2)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 64,
+    "name": "064 Orbit Dance Anthem (9090 v3)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 65,
+    "name": "065 Beat Garden Rob Papen Lead (9090 v3)",
+    "category": "LEAD",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 66,
+    "name": "066 Trance Screamer Z-Plane (9090 v3)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 67,
+    "name": "067 Papen Acid TB Squawk (9090 v3)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 68,
+    "name": "068 Hardcore Gabber Thunder (9090 v3)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 69,
+    "name": "069 Eurodance 90s Chord Stab (9090 v3)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 70,
+    "name": "070 Super Saw Hyperspace Sweep (9090 v3)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 71,
+    "name": "071 Electro Vocoder Robotic Vox (9090 v3)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 72,
+    "name": "072 Subterfuge Reese D&B (9090 v3)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 73,
+    "name": "073 Techno Yard Construction (9090 v3)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 74,
+    "name": "074 Cyber Pluck 140 BPM (9090 v3)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 75,
+    "name": "075 303 Resonant Distortion (9090 v3)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 76,
+    "name": "076 Ambient Chill Space Station (9090 v3)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 77,
+    "name": "077 Massive Drop 808 Sub (9090 v3)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 78,
+    "name": "078 Rotterdam Rave Stab (9090 v3)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 79,
+    "name": "079 Club Nu NRG Electro Kit (9090 v3)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 80,
+    "name": "080 Dark Step Jungle Sub (9090 v3)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 81,
+    "name": "081 Psy-Trance Sonic Spiral (9090 v3)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 82,
+    "name": "082 Goa Sun Reso Bell (9090 v3)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 83,
+    "name": "083 Tech House Minimal Groove (9090 v3)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 84,
+    "name": "084 Modular Chaos Z-Plane (9090 v3)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 85,
+    "name": "085 Industrial Machine Clang (9090 v3)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 86,
+    "name": "086 Vocal Formant Filter Sweep (9090 v3)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 87,
+    "name": "087 Digital FM Rave Bass (9090 v3)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 88,
+    "name": "088 Hardstyle Reverse Bass (9090 v3)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 89,
+    "name": "089 Trance Gate Chord Pad (9090 v3)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 90,
+    "name": "090 Square Wave Hook (9090 v3)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 91,
+    "name": "091 Dirty Electro Clav (9090 v3)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 92,
+    "name": "092 Sub Sonic Drop 30Hz (9090 v3)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 93,
+    "name": "093 Hyper Reso Sync Solo (9090 v3)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 94,
+    "name": "094 Berlin Underground Bass (9090 v3)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 95,
+    "name": "095 Deep Space Nebula Ambient (9090 v3)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 96,
+    "name": "096 Orbit Dance Anthem (9090 v4)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 97,
+    "name": "097 Beat Garden Rob Papen Lead (9090 v4)",
+    "category": "LEAD",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 98,
+    "name": "098 Trance Screamer Z-Plane (9090 v4)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 99,
+    "name": "099 Papen Acid TB Squawk (9090 v4)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 100,
+    "name": "100 Hardcore Gabber Thunder (9090 v4)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 101,
+    "name": "101 Eurodance 90s Chord Stab (9090 v4)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 102,
+    "name": "102 Super Saw Hyperspace Sweep (9090 v4)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 103,
+    "name": "103 Electro Vocoder Robotic Vox (9090 v4)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 104,
+    "name": "104 Subterfuge Reese D&B (9090 v4)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 105,
+    "name": "105 Techno Yard Construction (9090 v4)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 106,
+    "name": "106 Cyber Pluck 140 BPM (9090 v4)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 107,
+    "name": "107 303 Resonant Distortion (9090 v4)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 108,
+    "name": "108 Ambient Chill Space Station (9090 v4)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 109,
+    "name": "109 Massive Drop 808 Sub (9090 v4)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 110,
+    "name": "110 Rotterdam Rave Stab (9090 v4)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 111,
+    "name": "111 Club Nu NRG Electro Kit (9090 v4)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 112,
+    "name": "112 Dark Step Jungle Sub (9090 v4)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 113,
+    "name": "113 Psy-Trance Sonic Spiral (9090 v4)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 114,
+    "name": "114 Goa Sun Reso Bell (9090 v4)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 115,
+    "name": "115 Tech House Minimal Groove (9090 v4)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 116,
+    "name": "116 Modular Chaos Z-Plane (9090 v4)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 117,
+    "name": "117 Industrial Machine Clang (9090 v4)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 118,
+    "name": "118 Vocal Formant Filter Sweep (9090 v4)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 119,
+    "name": "119 Digital FM Rave Bass (9090 v4)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 120,
+    "name": "120 Hardstyle Reverse Bass (9090 v4)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 121,
+    "name": "121 Trance Gate Chord Pad (9090 v4)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 122,
+    "name": "122 Square Wave Hook (9090 v4)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 123,
+    "name": "123 Dirty Electro Clav (9090 v4)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 124,
+    "name": "124 Sub Sonic Drop 30Hz (9090 v4)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 125,
+    "name": "125 Hyper Reso Sync Solo (9090 v4)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 126,
+    "name": "126 Berlin Underground Bass (9090 v4)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 0",
+    "program": 127,
+    "name": "127 Deep Space Nebula Ambient (9090 v4)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 0,
+    "name": "000 Orbit Dance Anthem (9090 v5)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 1,
+    "name": "001 Beat Garden Rob Papen Lead (9090 v5)",
+    "category": "LEAD",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 2,
+    "name": "002 Trance Screamer Z-Plane (9090 v5)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 3,
+    "name": "003 Papen Acid TB Squawk (9090 v5)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 4,
+    "name": "004 Hardcore Gabber Thunder (9090 v5)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 5,
+    "name": "005 Eurodance 90s Chord Stab (9090 v5)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 6,
+    "name": "006 Super Saw Hyperspace Sweep (9090 v5)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 7,
+    "name": "007 Electro Vocoder Robotic Vox (9090 v5)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 8,
+    "name": "008 Subterfuge Reese D&B (9090 v5)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 9,
+    "name": "009 Techno Yard Construction (9090 v5)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 10,
+    "name": "010 Cyber Pluck 140 BPM (9090 v5)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 11,
+    "name": "011 303 Resonant Distortion (9090 v5)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 12,
+    "name": "012 Ambient Chill Space Station (9090 v5)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 13,
+    "name": "013 Massive Drop 808 Sub (9090 v5)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 14,
+    "name": "014 Rotterdam Rave Stab (9090 v5)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 15,
+    "name": "015 Club Nu NRG Electro Kit (9090 v5)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 16,
+    "name": "016 Dark Step Jungle Sub (9090 v5)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 17,
+    "name": "017 Psy-Trance Sonic Spiral (9090 v5)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 18,
+    "name": "018 Goa Sun Reso Bell (9090 v5)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 19,
+    "name": "019 Tech House Minimal Groove (9090 v5)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 20,
+    "name": "020 Modular Chaos Z-Plane (9090 v5)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 21,
+    "name": "021 Industrial Machine Clang (9090 v5)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 22,
+    "name": "022 Vocal Formant Filter Sweep (9090 v5)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 23,
+    "name": "023 Digital FM Rave Bass (9090 v5)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 24,
+    "name": "024 Hardstyle Reverse Bass (9090 v5)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 25,
+    "name": "025 Trance Gate Chord Pad (9090 v5)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 26,
+    "name": "026 Square Wave Hook (9090 v5)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 27,
+    "name": "027 Dirty Electro Clav (9090 v5)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 28,
+    "name": "028 Sub Sonic Drop 30Hz (9090 v5)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 29,
+    "name": "029 Hyper Reso Sync Solo (9090 v5)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 30,
+    "name": "030 Berlin Underground Bass (9090 v5)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 31,
+    "name": "031 Deep Space Nebula Ambient (9090 v5)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 32,
+    "name": "032 Orbit Dance Anthem (9090 v6)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 33,
+    "name": "033 Beat Garden Rob Papen Lead (9090 v6)",
+    "category": "LEAD",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 34,
+    "name": "034 Trance Screamer Z-Plane (9090 v6)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 35,
+    "name": "035 Papen Acid TB Squawk (9090 v6)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 36,
+    "name": "036 Hardcore Gabber Thunder (9090 v6)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 37,
+    "name": "037 Eurodance 90s Chord Stab (9090 v6)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 38,
+    "name": "038 Super Saw Hyperspace Sweep (9090 v6)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 39,
+    "name": "039 Electro Vocoder Robotic Vox (9090 v6)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 40,
+    "name": "040 Subterfuge Reese D&B (9090 v6)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 41,
+    "name": "041 Techno Yard Construction (9090 v6)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 42,
+    "name": "042 Cyber Pluck 140 BPM (9090 v6)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 43,
+    "name": "043 303 Resonant Distortion (9090 v6)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 44,
+    "name": "044 Ambient Chill Space Station (9090 v6)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 45,
+    "name": "045 Massive Drop 808 Sub (9090 v6)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 46,
+    "name": "046 Rotterdam Rave Stab (9090 v6)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 47,
+    "name": "047 Club Nu NRG Electro Kit (9090 v6)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 48,
+    "name": "048 Dark Step Jungle Sub (9090 v6)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 49,
+    "name": "049 Psy-Trance Sonic Spiral (9090 v6)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 50,
+    "name": "050 Goa Sun Reso Bell (9090 v6)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 51,
+    "name": "051 Tech House Minimal Groove (9090 v6)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 52,
+    "name": "052 Modular Chaos Z-Plane (9090 v6)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 53,
+    "name": "053 Industrial Machine Clang (9090 v6)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 54,
+    "name": "054 Vocal Formant Filter Sweep (9090 v6)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 55,
+    "name": "055 Digital FM Rave Bass (9090 v6)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 56,
+    "name": "056 Hardstyle Reverse Bass (9090 v6)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 57,
+    "name": "057 Trance Gate Chord Pad (9090 v6)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 58,
+    "name": "058 Square Wave Hook (9090 v6)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 59,
+    "name": "059 Dirty Electro Clav (9090 v6)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 60,
+    "name": "060 Sub Sonic Drop 30Hz (9090 v6)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 61,
+    "name": "061 Hyper Reso Sync Solo (9090 v6)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 62,
+    "name": "062 Berlin Underground Bass (9090 v6)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 63,
+    "name": "063 Deep Space Nebula Ambient (9090 v6)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 64,
+    "name": "064 Orbit Dance Anthem (9090 v7)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 65,
+    "name": "065 Beat Garden Rob Papen Lead (9090 v7)",
+    "category": "LEAD",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 66,
+    "name": "066 Trance Screamer Z-Plane (9090 v7)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 67,
+    "name": "067 Papen Acid TB Squawk (9090 v7)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 68,
+    "name": "068 Hardcore Gabber Thunder (9090 v7)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 69,
+    "name": "069 Eurodance 90s Chord Stab (9090 v7)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 70,
+    "name": "070 Super Saw Hyperspace Sweep (9090 v7)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 71,
+    "name": "071 Electro Vocoder Robotic Vox (9090 v7)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 72,
+    "name": "072 Subterfuge Reese D&B (9090 v7)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 73,
+    "name": "073 Techno Yard Construction (9090 v7)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 74,
+    "name": "074 Cyber Pluck 140 BPM (9090 v7)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 75,
+    "name": "075 303 Resonant Distortion (9090 v7)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 76,
+    "name": "076 Ambient Chill Space Station (9090 v7)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 77,
+    "name": "077 Massive Drop 808 Sub (9090 v7)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 78,
+    "name": "078 Rotterdam Rave Stab (9090 v7)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 79,
+    "name": "079 Club Nu NRG Electro Kit (9090 v7)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 80,
+    "name": "080 Dark Step Jungle Sub (9090 v7)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 81,
+    "name": "081 Psy-Trance Sonic Spiral (9090 v7)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 82,
+    "name": "082 Goa Sun Reso Bell (9090 v7)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 83,
+    "name": "083 Tech House Minimal Groove (9090 v7)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 84,
+    "name": "084 Modular Chaos Z-Plane (9090 v7)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 85,
+    "name": "085 Industrial Machine Clang (9090 v7)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 86,
+    "name": "086 Vocal Formant Filter Sweep (9090 v7)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 87,
+    "name": "087 Digital FM Rave Bass (9090 v7)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 88,
+    "name": "088 Hardstyle Reverse Bass (9090 v7)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 89,
+    "name": "089 Trance Gate Chord Pad (9090 v7)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 90,
+    "name": "090 Square Wave Hook (9090 v7)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 91,
+    "name": "091 Dirty Electro Clav (9090 v7)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 92,
+    "name": "092 Sub Sonic Drop 30Hz (9090 v7)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 93,
+    "name": "093 Hyper Reso Sync Solo (9090 v7)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 94,
+    "name": "094 Berlin Underground Bass (9090 v7)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 95,
+    "name": "095 Deep Space Nebula Ambient (9090 v7)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 96,
+    "name": "096 Orbit Dance Anthem (9090 v8)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 97,
+    "name": "097 Beat Garden Rob Papen Lead (9090 v8)",
+    "category": "LEAD",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 98,
+    "name": "098 Trance Screamer Z-Plane (9090 v8)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 99,
+    "name": "099 Papen Acid TB Squawk (9090 v8)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 100,
+    "name": "100 Hardcore Gabber Thunder (9090 v8)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 101,
+    "name": "101 Eurodance 90s Chord Stab (9090 v8)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 102,
+    "name": "102 Super Saw Hyperspace Sweep (9090 v8)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 103,
+    "name": "103 Electro Vocoder Robotic Vox (9090 v8)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 104,
+    "name": "104 Subterfuge Reese D&B (9090 v8)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 105,
+    "name": "105 Techno Yard Construction (9090 v8)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 106,
+    "name": "106 Cyber Pluck 140 BPM (9090 v8)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 107,
+    "name": "107 303 Resonant Distortion (9090 v8)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 108,
+    "name": "108 Ambient Chill Space Station (9090 v8)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 109,
+    "name": "109 Massive Drop 808 Sub (9090 v8)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 110,
+    "name": "110 Rotterdam Rave Stab (9090 v8)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 111,
+    "name": "111 Club Nu NRG Electro Kit (9090 v8)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 112,
+    "name": "112 Dark Step Jungle Sub (9090 v8)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 113,
+    "name": "113 Psy-Trance Sonic Spiral (9090 v8)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 114,
+    "name": "114 Goa Sun Reso Bell (9090 v8)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 115,
+    "name": "115 Tech House Minimal Groove (9090 v8)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 116,
+    "name": "116 Modular Chaos Z-Plane (9090 v8)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 117,
+    "name": "117 Industrial Machine Clang (9090 v8)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 118,
+    "name": "118 Vocal Formant Filter Sweep (9090 v8)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 119,
+    "name": "119 Digital FM Rave Bass (9090 v8)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 120,
+    "name": "120 Hardstyle Reverse Bass (9090 v8)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 121,
+    "name": "121 Trance Gate Chord Pad (9090 v8)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 122,
+    "name": "122 Square Wave Hook (9090 v8)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 123,
+    "name": "123 Dirty Electro Clav (9090 v8)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 124,
+    "name": "124 Sub Sonic Drop 30Hz (9090 v8)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 125,
+    "name": "125 Hyper Reso Sync Solo (9090 v8)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 126,
+    "name": "126 Berlin Underground Bass (9090 v8)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 1",
+    "program": 127,
+    "name": "127 Deep Space Nebula Ambient (9090 v8)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 0,
+    "name": "000 Orbit Dance Anthem (9090 v9)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 1,
+    "name": "001 Beat Garden Rob Papen Lead (9090 v9)",
+    "category": "LEAD",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 2,
+    "name": "002 Trance Screamer Z-Plane (9090 v9)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 3,
+    "name": "003 Papen Acid TB Squawk (9090 v9)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 4,
+    "name": "004 Hardcore Gabber Thunder (9090 v9)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 5,
+    "name": "005 Eurodance 90s Chord Stab (9090 v9)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 6,
+    "name": "006 Super Saw Hyperspace Sweep (9090 v9)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 7,
+    "name": "007 Electro Vocoder Robotic Vox (9090 v9)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 8,
+    "name": "008 Subterfuge Reese D&B (9090 v9)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 9,
+    "name": "009 Techno Yard Construction (9090 v9)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 10,
+    "name": "010 Cyber Pluck 140 BPM (9090 v9)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 11,
+    "name": "011 303 Resonant Distortion (9090 v9)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 12,
+    "name": "012 Ambient Chill Space Station (9090 v9)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 13,
+    "name": "013 Massive Drop 808 Sub (9090 v9)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 14,
+    "name": "014 Rotterdam Rave Stab (9090 v9)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 15,
+    "name": "015 Club Nu NRG Electro Kit (9090 v9)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 16,
+    "name": "016 Dark Step Jungle Sub (9090 v9)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 17,
+    "name": "017 Psy-Trance Sonic Spiral (9090 v9)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 18,
+    "name": "018 Goa Sun Reso Bell (9090 v9)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 19,
+    "name": "019 Tech House Minimal Groove (9090 v9)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 20,
+    "name": "020 Modular Chaos Z-Plane (9090 v9)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 21,
+    "name": "021 Industrial Machine Clang (9090 v9)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 22,
+    "name": "022 Vocal Formant Filter Sweep (9090 v9)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 23,
+    "name": "023 Digital FM Rave Bass (9090 v9)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 24,
+    "name": "024 Hardstyle Reverse Bass (9090 v9)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 25,
+    "name": "025 Trance Gate Chord Pad (9090 v9)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 26,
+    "name": "026 Square Wave Hook (9090 v9)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 27,
+    "name": "027 Dirty Electro Clav (9090 v9)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 28,
+    "name": "028 Sub Sonic Drop 30Hz (9090 v9)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 29,
+    "name": "029 Hyper Reso Sync Solo (9090 v9)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 30,
+    "name": "030 Berlin Underground Bass (9090 v9)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 31,
+    "name": "031 Deep Space Nebula Ambient (9090 v9)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 32,
+    "name": "032 Orbit Dance Anthem (9090 v10)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 33,
+    "name": "033 Beat Garden Rob Papen Lead (9090 v10)",
+    "category": "LEAD",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 34,
+    "name": "034 Trance Screamer Z-Plane (9090 v10)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 35,
+    "name": "035 Papen Acid TB Squawk (9090 v10)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 36,
+    "name": "036 Hardcore Gabber Thunder (9090 v10)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 37,
+    "name": "037 Eurodance 90s Chord Stab (9090 v10)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 38,
+    "name": "038 Super Saw Hyperspace Sweep (9090 v10)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 39,
+    "name": "039 Electro Vocoder Robotic Vox (9090 v10)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 40,
+    "name": "040 Subterfuge Reese D&B (9090 v10)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 41,
+    "name": "041 Techno Yard Construction (9090 v10)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 42,
+    "name": "042 Cyber Pluck 140 BPM (9090 v10)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 43,
+    "name": "043 303 Resonant Distortion (9090 v10)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 44,
+    "name": "044 Ambient Chill Space Station (9090 v10)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 45,
+    "name": "045 Massive Drop 808 Sub (9090 v10)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 46,
+    "name": "046 Rotterdam Rave Stab (9090 v10)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 47,
+    "name": "047 Club Nu NRG Electro Kit (9090 v10)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 48,
+    "name": "048 Dark Step Jungle Sub (9090 v10)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 49,
+    "name": "049 Psy-Trance Sonic Spiral (9090 v10)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 50,
+    "name": "050 Goa Sun Reso Bell (9090 v10)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 51,
+    "name": "051 Tech House Minimal Groove (9090 v10)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 52,
+    "name": "052 Modular Chaos Z-Plane (9090 v10)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 53,
+    "name": "053 Industrial Machine Clang (9090 v10)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 54,
+    "name": "054 Vocal Formant Filter Sweep (9090 v10)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 55,
+    "name": "055 Digital FM Rave Bass (9090 v10)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 56,
+    "name": "056 Hardstyle Reverse Bass (9090 v10)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 57,
+    "name": "057 Trance Gate Chord Pad (9090 v10)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 58,
+    "name": "058 Square Wave Hook (9090 v10)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 59,
+    "name": "059 Dirty Electro Clav (9090 v10)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 60,
+    "name": "060 Sub Sonic Drop 30Hz (9090 v10)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 61,
+    "name": "061 Hyper Reso Sync Solo (9090 v10)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 62,
+    "name": "062 Berlin Underground Bass (9090 v10)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 63,
+    "name": "063 Deep Space Nebula Ambient (9090 v10)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 64,
+    "name": "064 Orbit Dance Anthem (9090 v11)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 65,
+    "name": "065 Beat Garden Rob Papen Lead (9090 v11)",
+    "category": "LEAD",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 66,
+    "name": "066 Trance Screamer Z-Plane (9090 v11)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 67,
+    "name": "067 Papen Acid TB Squawk (9090 v11)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 68,
+    "name": "068 Hardcore Gabber Thunder (9090 v11)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 69,
+    "name": "069 Eurodance 90s Chord Stab (9090 v11)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 70,
+    "name": "070 Super Saw Hyperspace Sweep (9090 v11)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 71,
+    "name": "071 Electro Vocoder Robotic Vox (9090 v11)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 72,
+    "name": "072 Subterfuge Reese D&B (9090 v11)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 73,
+    "name": "073 Techno Yard Construction (9090 v11)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 74,
+    "name": "074 Cyber Pluck 140 BPM (9090 v11)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 75,
+    "name": "075 303 Resonant Distortion (9090 v11)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 76,
+    "name": "076 Ambient Chill Space Station (9090 v11)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 77,
+    "name": "077 Massive Drop 808 Sub (9090 v11)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 78,
+    "name": "078 Rotterdam Rave Stab (9090 v11)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 79,
+    "name": "079 Club Nu NRG Electro Kit (9090 v11)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 80,
+    "name": "080 Dark Step Jungle Sub (9090 v11)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 81,
+    "name": "081 Psy-Trance Sonic Spiral (9090 v11)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 82,
+    "name": "082 Goa Sun Reso Bell (9090 v11)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 83,
+    "name": "083 Tech House Minimal Groove (9090 v11)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 84,
+    "name": "084 Modular Chaos Z-Plane (9090 v11)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 85,
+    "name": "085 Industrial Machine Clang (9090 v11)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 86,
+    "name": "086 Vocal Formant Filter Sweep (9090 v11)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 87,
+    "name": "087 Digital FM Rave Bass (9090 v11)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 88,
+    "name": "088 Hardstyle Reverse Bass (9090 v11)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 89,
+    "name": "089 Trance Gate Chord Pad (9090 v11)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 90,
+    "name": "090 Square Wave Hook (9090 v11)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 91,
+    "name": "091 Dirty Electro Clav (9090 v11)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 92,
+    "name": "092 Sub Sonic Drop 30Hz (9090 v11)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 93,
+    "name": "093 Hyper Reso Sync Solo (9090 v11)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 94,
+    "name": "094 Berlin Underground Bass (9090 v11)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 95,
+    "name": "095 Deep Space Nebula Ambient (9090 v11)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 96,
+    "name": "096 Orbit Dance Anthem (9090 v12)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 97,
+    "name": "097 Beat Garden Rob Papen Lead (9090 v12)",
+    "category": "LEAD",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 98,
+    "name": "098 Trance Screamer Z-Plane (9090 v12)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 99,
+    "name": "099 Papen Acid TB Squawk (9090 v12)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 100,
+    "name": "100 Hardcore Gabber Thunder (9090 v12)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 101,
+    "name": "101 Eurodance 90s Chord Stab (9090 v12)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 102,
+    "name": "102 Super Saw Hyperspace Sweep (9090 v12)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 103,
+    "name": "103 Electro Vocoder Robotic Vox (9090 v12)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 104,
+    "name": "104 Subterfuge Reese D&B (9090 v12)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 105,
+    "name": "105 Techno Yard Construction (9090 v12)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 106,
+    "name": "106 Cyber Pluck 140 BPM (9090 v12)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 107,
+    "name": "107 303 Resonant Distortion (9090 v12)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 108,
+    "name": "108 Ambient Chill Space Station (9090 v12)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 109,
+    "name": "109 Massive Drop 808 Sub (9090 v12)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 110,
+    "name": "110 Rotterdam Rave Stab (9090 v12)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 111,
+    "name": "111 Club Nu NRG Electro Kit (9090 v12)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 112,
+    "name": "112 Dark Step Jungle Sub (9090 v12)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 113,
+    "name": "113 Psy-Trance Sonic Spiral (9090 v12)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 114,
+    "name": "114 Goa Sun Reso Bell (9090 v12)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 115,
+    "name": "115 Tech House Minimal Groove (9090 v12)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 116,
+    "name": "116 Modular Chaos Z-Plane (9090 v12)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 117,
+    "name": "117 Industrial Machine Clang (9090 v12)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 118,
+    "name": "118 Vocal Formant Filter Sweep (9090 v12)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 119,
+    "name": "119 Digital FM Rave Bass (9090 v12)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 120,
+    "name": "120 Hardstyle Reverse Bass (9090 v12)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 121,
+    "name": "121 Trance Gate Chord Pad (9090 v12)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 122,
+    "name": "122 Square Wave Hook (9090 v12)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 123,
+    "name": "123 Dirty Electro Clav (9090 v12)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 124,
+    "name": "124 Sub Sonic Drop 30Hz (9090 v12)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 125,
+    "name": "125 Hyper Reso Sync Solo (9090 v12)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 126,
+    "name": "126 Berlin Underground Bass (9090 v12)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 2",
+    "program": 127,
+    "name": "127 Deep Space Nebula Ambient (9090 v12)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 0,
+    "name": "000 Orbit Dance Anthem (9090 v13)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 1,
+    "name": "001 Beat Garden Rob Papen Lead (9090 v13)",
+    "category": "LEAD",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 2,
+    "name": "002 Trance Screamer Z-Plane (9090 v13)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 3,
+    "name": "003 Papen Acid TB Squawk (9090 v13)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 4,
+    "name": "004 Hardcore Gabber Thunder (9090 v13)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 5,
+    "name": "005 Eurodance 90s Chord Stab (9090 v13)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 6,
+    "name": "006 Super Saw Hyperspace Sweep (9090 v13)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 7,
+    "name": "007 Electro Vocoder Robotic Vox (9090 v13)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 8,
+    "name": "008 Subterfuge Reese D&B (9090 v13)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 9,
+    "name": "009 Techno Yard Construction (9090 v13)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 10,
+    "name": "010 Cyber Pluck 140 BPM (9090 v13)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 11,
+    "name": "011 303 Resonant Distortion (9090 v13)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 12,
+    "name": "012 Ambient Chill Space Station (9090 v13)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 13,
+    "name": "013 Massive Drop 808 Sub (9090 v13)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 14,
+    "name": "014 Rotterdam Rave Stab (9090 v13)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 15,
+    "name": "015 Club Nu NRG Electro Kit (9090 v13)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 16,
+    "name": "016 Dark Step Jungle Sub (9090 v13)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 17,
+    "name": "017 Psy-Trance Sonic Spiral (9090 v13)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 18,
+    "name": "018 Goa Sun Reso Bell (9090 v13)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 19,
+    "name": "019 Tech House Minimal Groove (9090 v13)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 20,
+    "name": "020 Modular Chaos Z-Plane (9090 v13)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 21,
+    "name": "021 Industrial Machine Clang (9090 v13)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 22,
+    "name": "022 Vocal Formant Filter Sweep (9090 v13)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 23,
+    "name": "023 Digital FM Rave Bass (9090 v13)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 24,
+    "name": "024 Hardstyle Reverse Bass (9090 v13)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 25,
+    "name": "025 Trance Gate Chord Pad (9090 v13)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 26,
+    "name": "026 Square Wave Hook (9090 v13)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 27,
+    "name": "027 Dirty Electro Clav (9090 v13)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 28,
+    "name": "028 Sub Sonic Drop 30Hz (9090 v13)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 29,
+    "name": "029 Hyper Reso Sync Solo (9090 v13)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 30,
+    "name": "030 Berlin Underground Bass (9090 v13)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 31,
+    "name": "031 Deep Space Nebula Ambient (9090 v13)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 32,
+    "name": "032 Orbit Dance Anthem (9090 v14)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 33,
+    "name": "033 Beat Garden Rob Papen Lead (9090 v14)",
+    "category": "LEAD",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 34,
+    "name": "034 Trance Screamer Z-Plane (9090 v14)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 35,
+    "name": "035 Papen Acid TB Squawk (9090 v14)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 36,
+    "name": "036 Hardcore Gabber Thunder (9090 v14)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 37,
+    "name": "037 Eurodance 90s Chord Stab (9090 v14)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 38,
+    "name": "038 Super Saw Hyperspace Sweep (9090 v14)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 39,
+    "name": "039 Electro Vocoder Robotic Vox (9090 v14)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 40,
+    "name": "040 Subterfuge Reese D&B (9090 v14)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 41,
+    "name": "041 Techno Yard Construction (9090 v14)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 42,
+    "name": "042 Cyber Pluck 140 BPM (9090 v14)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 43,
+    "name": "043 303 Resonant Distortion (9090 v14)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 44,
+    "name": "044 Ambient Chill Space Station (9090 v14)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 45,
+    "name": "045 Massive Drop 808 Sub (9090 v14)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 46,
+    "name": "046 Rotterdam Rave Stab (9090 v14)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 47,
+    "name": "047 Club Nu NRG Electro Kit (9090 v14)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 48,
+    "name": "048 Dark Step Jungle Sub (9090 v14)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 49,
+    "name": "049 Psy-Trance Sonic Spiral (9090 v14)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 50,
+    "name": "050 Goa Sun Reso Bell (9090 v14)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 51,
+    "name": "051 Tech House Minimal Groove (9090 v14)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 52,
+    "name": "052 Modular Chaos Z-Plane (9090 v14)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 53,
+    "name": "053 Industrial Machine Clang (9090 v14)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 54,
+    "name": "054 Vocal Formant Filter Sweep (9090 v14)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 55,
+    "name": "055 Digital FM Rave Bass (9090 v14)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 56,
+    "name": "056 Hardstyle Reverse Bass (9090 v14)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 57,
+    "name": "057 Trance Gate Chord Pad (9090 v14)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 58,
+    "name": "058 Square Wave Hook (9090 v14)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 59,
+    "name": "059 Dirty Electro Clav (9090 v14)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 60,
+    "name": "060 Sub Sonic Drop 30Hz (9090 v14)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 61,
+    "name": "061 Hyper Reso Sync Solo (9090 v14)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 62,
+    "name": "062 Berlin Underground Bass (9090 v14)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 63,
+    "name": "063 Deep Space Nebula Ambient (9090 v14)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 64,
+    "name": "064 Orbit Dance Anthem (9090 v15)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 65,
+    "name": "065 Beat Garden Rob Papen Lead (9090 v15)",
+    "category": "LEAD",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 66,
+    "name": "066 Trance Screamer Z-Plane (9090 v15)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 67,
+    "name": "067 Papen Acid TB Squawk (9090 v15)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 68,
+    "name": "068 Hardcore Gabber Thunder (9090 v15)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 69,
+    "name": "069 Eurodance 90s Chord Stab (9090 v15)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 70,
+    "name": "070 Super Saw Hyperspace Sweep (9090 v15)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 71,
+    "name": "071 Electro Vocoder Robotic Vox (9090 v15)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 72,
+    "name": "072 Subterfuge Reese D&B (9090 v15)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 73,
+    "name": "073 Techno Yard Construction (9090 v15)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 74,
+    "name": "074 Cyber Pluck 140 BPM (9090 v15)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 75,
+    "name": "075 303 Resonant Distortion (9090 v15)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 76,
+    "name": "076 Ambient Chill Space Station (9090 v15)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 77,
+    "name": "077 Massive Drop 808 Sub (9090 v15)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 78,
+    "name": "078 Rotterdam Rave Stab (9090 v15)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 79,
+    "name": "079 Club Nu NRG Electro Kit (9090 v15)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 80,
+    "name": "080 Dark Step Jungle Sub (9090 v15)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 81,
+    "name": "081 Psy-Trance Sonic Spiral (9090 v15)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 82,
+    "name": "082 Goa Sun Reso Bell (9090 v15)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 83,
+    "name": "083 Tech House Minimal Groove (9090 v15)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 84,
+    "name": "084 Modular Chaos Z-Plane (9090 v15)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 85,
+    "name": "085 Industrial Machine Clang (9090 v15)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 86,
+    "name": "086 Vocal Formant Filter Sweep (9090 v15)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 87,
+    "name": "087 Digital FM Rave Bass (9090 v15)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 88,
+    "name": "088 Hardstyle Reverse Bass (9090 v15)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 89,
+    "name": "089 Trance Gate Chord Pad (9090 v15)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 90,
+    "name": "090 Square Wave Hook (9090 v15)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 91,
+    "name": "091 Dirty Electro Clav (9090 v15)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 92,
+    "name": "092 Sub Sonic Drop 30Hz (9090 v15)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 93,
+    "name": "093 Hyper Reso Sync Solo (9090 v15)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 94,
+    "name": "094 Berlin Underground Bass (9090 v15)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 95,
+    "name": "095 Deep Space Nebula Ambient (9090 v15)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 96,
+    "name": "096 Orbit Dance Anthem (9090 v16)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 97,
+    "name": "097 Beat Garden Rob Papen Lead (9090 v16)",
+    "category": "LEAD",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 98,
+    "name": "098 Trance Screamer Z-Plane (9090 v16)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 99,
+    "name": "099 Papen Acid TB Squawk (9090 v16)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 100,
+    "name": "100 Hardcore Gabber Thunder (9090 v16)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 101,
+    "name": "101 Eurodance 90s Chord Stab (9090 v16)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 102,
+    "name": "102 Super Saw Hyperspace Sweep (9090 v16)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 103,
+    "name": "103 Electro Vocoder Robotic Vox (9090 v16)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 104,
+    "name": "104 Subterfuge Reese D&B (9090 v16)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 105,
+    "name": "105 Techno Yard Construction (9090 v16)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 106,
+    "name": "106 Cyber Pluck 140 BPM (9090 v16)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 107,
+    "name": "107 303 Resonant Distortion (9090 v16)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 108,
+    "name": "108 Ambient Chill Space Station (9090 v16)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 109,
+    "name": "109 Massive Drop 808 Sub (9090 v16)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 110,
+    "name": "110 Rotterdam Rave Stab (9090 v16)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 111,
+    "name": "111 Club Nu NRG Electro Kit (9090 v16)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 112,
+    "name": "112 Dark Step Jungle Sub (9090 v16)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 113,
+    "name": "113 Psy-Trance Sonic Spiral (9090 v16)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 114,
+    "name": "114 Goa Sun Reso Bell (9090 v16)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 115,
+    "name": "115 Tech House Minimal Groove (9090 v16)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 116,
+    "name": "116 Modular Chaos Z-Plane (9090 v16)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 117,
+    "name": "117 Industrial Machine Clang (9090 v16)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 118,
+    "name": "118 Vocal Formant Filter Sweep (9090 v16)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 119,
+    "name": "119 Digital FM Rave Bass (9090 v16)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 120,
+    "name": "120 Hardstyle Reverse Bass (9090 v16)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 121,
+    "name": "121 Trance Gate Chord Pad (9090 v16)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 122,
+    "name": "122 Square Wave Hook (9090 v16)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 123,
+    "name": "123 Dirty Electro Clav (9090 v16)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 124,
+    "name": "124 Sub Sonic Drop 30Hz (9090 v16)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 125,
+    "name": "125 Hyper Reso Sync Solo (9090 v16)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 126,
+    "name": "126 Berlin Underground Bass (9090 v16)",
+    "category": "BASS",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Dance Planet Bank 3",
+    "program": 127,
+    "name": "127 Deep Space Nebula Ambient (9090 v16)",
+    "category": "DANCE",
+    "tags": [
+      "orbit-9090",
+      "dance-planet",
+      "dance"
+    ]
+  }
 ]

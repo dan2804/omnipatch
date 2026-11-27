@@ -1,0 +1,706 @@
+[
+  {
+    "bank": "PRESET A",
+    "program": 1,
+    "name": "String 1",
+    "category": "STRINGS",
+    "tags": [
+      "jx-8p",
+      "preset-a",
+      "strings"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 2,
+    "name": "String 2",
+    "category": "STRINGS",
+    "tags": [
+      "jx-8p",
+      "preset-a",
+      "strings"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 3,
+    "name": "String 3",
+    "category": "STRINGS",
+    "tags": [
+      "jx-8p",
+      "preset-a",
+      "strings"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 4,
+    "name": "Syn-String",
+    "category": "STRINGS",
+    "tags": [
+      "jx-8p",
+      "preset-a",
+      "strings"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 5,
+    "name": "Brass 1",
+    "category": "BRASS",
+    "tags": [
+      "jx-8p",
+      "preset-a",
+      "brass"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 6,
+    "name": "Brass 2",
+    "category": "BRASS",
+    "tags": [
+      "jx-8p",
+      "preset-a",
+      "brass"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 7,
+    "name": "Horns",
+    "category": "BRASS",
+    "tags": [
+      "jx-8p",
+      "preset-a",
+      "brass"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 8,
+    "name": "Trombone",
+    "category": "ACOUSTIC",
+    "tags": [
+      "jx-8p",
+      "preset-a",
+      "acoustic"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 9,
+    "name": "Trumpet",
+    "category": "BRASS",
+    "tags": [
+      "jx-8p",
+      "preset-a",
+      "brass"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 10,
+    "name": "Pipe Organ",
+    "category": "KEYBOARD",
+    "tags": [
+      "jx-8p",
+      "preset-a",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 11,
+    "name": "Church Organ",
+    "category": "KEYBOARD",
+    "tags": [
+      "jx-8p",
+      "preset-a",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 12,
+    "name": "Jazz Organ",
+    "category": "KEYBOARD",
+    "tags": [
+      "jx-8p",
+      "preset-a",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 13,
+    "name": "Rock Organ",
+    "category": "KEYBOARD",
+    "tags": [
+      "jx-8p",
+      "preset-a",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 14,
+    "name": "Ac. Piano",
+    "category": "KEYBOARD",
+    "tags": [
+      "jx-8p",
+      "preset-a",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 15,
+    "name": "Honky-Tonk",
+    "category": "ACOUSTIC",
+    "tags": [
+      "jx-8p",
+      "preset-a",
+      "acoustic"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 16,
+    "name": "Elec Piano 1",
+    "category": "KEYBOARD",
+    "tags": [
+      "jx-8p",
+      "preset-a",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 17,
+    "name": "Elec Piano 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "jx-8p",
+      "preset-a",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 18,
+    "name": "Harpsichord 1",
+    "category": "ACOUSTIC",
+    "tags": [
+      "jx-8p",
+      "preset-a",
+      "acoustic"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 19,
+    "name": "Harpsichord 2",
+    "category": "ACOUSTIC",
+    "tags": [
+      "jx-8p",
+      "preset-a",
+      "acoustic"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 20,
+    "name": "Clav",
+    "category": "KEYBOARD",
+    "tags": [
+      "jx-8p",
+      "preset-a",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 21,
+    "name": "Vibraphone",
+    "category": "ACOUSTIC",
+    "tags": [
+      "jx-8p",
+      "preset-a",
+      "acoustic"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 22,
+    "name": "Marimba",
+    "category": "ACOUSTIC",
+    "tags": [
+      "jx-8p",
+      "preset-a",
+      "acoustic"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 23,
+    "name": "Glocken",
+    "category": "ACOUSTIC",
+    "tags": [
+      "jx-8p",
+      "preset-a",
+      "acoustic"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 24,
+    "name": "Steel Drum",
+    "category": "ACOUSTIC",
+    "tags": [
+      "jx-8p",
+      "preset-a",
+      "acoustic"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 25,
+    "name": "Tubular Bell",
+    "category": "ACOUSTIC",
+    "tags": [
+      "jx-8p",
+      "preset-a",
+      "acoustic"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 26,
+    "name": "Synth Bass 1",
+    "category": "BASS",
+    "tags": [
+      "jx-8p",
+      "preset-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 27,
+    "name": "Synth Bass 2",
+    "category": "BASS",
+    "tags": [
+      "jx-8p",
+      "preset-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 28,
+    "name": "Upright Bass",
+    "category": "BASS",
+    "tags": [
+      "jx-8p",
+      "preset-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 29,
+    "name": "Elec Bass",
+    "category": "BASS",
+    "tags": [
+      "jx-8p",
+      "preset-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 30,
+    "name": "Slap Bass",
+    "category": "BASS",
+    "tags": [
+      "jx-8p",
+      "preset-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 31,
+    "name": "Flute",
+    "category": "ACOUSTIC",
+    "tags": [
+      "jx-8p",
+      "preset-a",
+      "acoustic"
+    ]
+  },
+  {
+    "bank": "PRESET A",
+    "program": 32,
+    "name": "Clarinet",
+    "category": "ACOUSTIC",
+    "tags": [
+      "jx-8p",
+      "preset-a",
+      "acoustic"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 33,
+    "name": "Voice 1",
+    "category": "PAD",
+    "tags": [
+      "jx-8p",
+      "preset-b",
+      "pad"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 34,
+    "name": "Voice 2",
+    "category": "PAD",
+    "tags": [
+      "jx-8p",
+      "preset-b",
+      "pad"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 35,
+    "name": "Lead Synth 1",
+    "category": "LEAD",
+    "tags": [
+      "jx-8p",
+      "preset-b",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 36,
+    "name": "Lead Synth 2",
+    "category": "LEAD",
+    "tags": [
+      "jx-8p",
+      "preset-b",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 37,
+    "name": "Sync 1",
+    "category": "SYNTH",
+    "tags": [
+      "jx-8p",
+      "preset-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 38,
+    "name": "Sync 2",
+    "category": "SYNTH",
+    "tags": [
+      "jx-8p",
+      "preset-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 39,
+    "name": "Bell Synth",
+    "category": "SYNTH",
+    "tags": [
+      "jx-8p",
+      "preset-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 40,
+    "name": "Fantasy",
+    "category": "SYNTH",
+    "tags": [
+      "jx-8p",
+      "preset-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 41,
+    "name": "Metal Sound",
+    "category": "SYNTH",
+    "tags": [
+      "jx-8p",
+      "preset-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 42,
+    "name": "Whistle",
+    "category": "SYNTH",
+    "tags": [
+      "jx-8p",
+      "preset-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 43,
+    "name": "Cosmic",
+    "category": "SFX",
+    "tags": [
+      "jx-8p",
+      "preset-b",
+      "sfx"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 44,
+    "name": "Space Bed",
+    "category": "PAD",
+    "tags": [
+      "jx-8p",
+      "preset-b",
+      "pad"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 45,
+    "name": "Sound Effect 1",
+    "category": "SFX",
+    "tags": [
+      "jx-8p",
+      "preset-b",
+      "sfx"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 46,
+    "name": "Sound Effect 2",
+    "category": "SFX",
+    "tags": [
+      "jx-8p",
+      "preset-b",
+      "sfx"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 47,
+    "name": "Sound Effect 3",
+    "category": "SFX",
+    "tags": [
+      "jx-8p",
+      "preset-b",
+      "sfx"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 48,
+    "name": "Sound Effect 4",
+    "category": "SFX",
+    "tags": [
+      "jx-8p",
+      "preset-b",
+      "sfx"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 49,
+    "name": "Poly Synth 1",
+    "category": "SYNTH",
+    "tags": [
+      "jx-8p",
+      "preset-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 50,
+    "name": "Poly Synth 2",
+    "category": "SYNTH",
+    "tags": [
+      "jx-8p",
+      "preset-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 51,
+    "name": "Poly Synth 3",
+    "category": "SYNTH",
+    "tags": [
+      "jx-8p",
+      "preset-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 52,
+    "name": "Synth Clav",
+    "category": "SYNTH",
+    "tags": [
+      "jx-8p",
+      "preset-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 53,
+    "name": "Pulse Lead",
+    "category": "LEAD",
+    "tags": [
+      "jx-8p",
+      "preset-b",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 54,
+    "name": "Saw Lead",
+    "category": "LEAD",
+    "tags": [
+      "jx-8p",
+      "preset-b",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 55,
+    "name": "Square Lead",
+    "category": "LEAD",
+    "tags": [
+      "jx-8p",
+      "preset-b",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 56,
+    "name": "Fifth Lead",
+    "category": "LEAD",
+    "tags": [
+      "jx-8p",
+      "preset-b",
+      "lead"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 57,
+    "name": "Pluck Synth",
+    "category": "SYNTH",
+    "tags": [
+      "jx-8p",
+      "preset-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 58,
+    "name": "Chime",
+    "category": "SYNTH",
+    "tags": [
+      "jx-8p",
+      "preset-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 59,
+    "name": "Koto",
+    "category": "SYNTH",
+    "tags": [
+      "jx-8p",
+      "preset-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 60,
+    "name": "Sitar",
+    "category": "SYNTH",
+    "tags": [
+      "jx-8p",
+      "preset-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 61,
+    "name": "Timpani",
+    "category": "SYNTH",
+    "tags": [
+      "jx-8p",
+      "preset-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 62,
+    "name": "Tom",
+    "category": "SYNTH",
+    "tags": [
+      "jx-8p",
+      "preset-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 63,
+    "name": "Snare/Hi-Hat",
+    "category": "SYNTH",
+    "tags": [
+      "jx-8p",
+      "preset-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET B",
+    "program": 64,
+    "name": "Noise",
+    "category": "SFX",
+    "tags": [
+      "jx-8p",
+      "preset-b",
+      "sfx"
+    ]
+  }
+]

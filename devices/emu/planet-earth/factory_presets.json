@@ -1,23 +1,5634 @@
 [
-  { "bank": 0, "program": 0, "name": "World Expedition", "category": "World" },
-  { "bank": 0, "program": 1, "name": "Silk Road Guzheng", "category": "Strings" },
-  { "bank": 0, "program": 2, "name": "Celtic Harp & Low Flute", "category": "Wind" },
-  { "bank": 0, "program": 3, "name": "Tabla Beats & Dhol", "category": "Percussion" },
-  { "bank": 0, "program": 4, "name": "African Kalimba Thumb", "category": "Tuned Perc" },
-  { "bank": 0, "program": 5, "name": "Balinese Gamelan Gong", "category": "Ensemble" },
-  { "bank": 0, "program": 6, "name": "Sitar Dreams Raga", "category": "Pluck" },
-  { "bank": 0, "program": 7, "name": "Andean Pan Flute Chiff", "category": "Wind" },
-  { "bank": 0, "program": 8, "name": "Trinidad Steel Drum", "category": "Percussion" },
-  { "bank": 0, "program": 9, "name": "Shakuhachi Mountain Mist", "category": "Wind" },
-  { "bank": 0, "program": 10, "name": "Australian Didgeridoo Drone", "category": "Drone" },
-  { "bank": 0, "program": 11, "name": "Middle East Oud & Dumbek", "category": "Pluck" },
-  { "bank": 0, "program": 12, "name": "Japanese Koto Ensemble", "category": "Strings" },
-  { "bank": 0, "program": 13, "name": "Rio Carnival Samba Kit", "category": "Drums" },
-  { "bank": 0, "program": 14, "name": "Highland Bagpipes & Drone", "category": "Wind" },
-  { "bank": 0, "program": 15, "name": "World Percussion Shakers", "category": "Percussion" },
-  { "bank": 0, "program": 16, "name": "Tibetan Singing Bowl", "category": "Tuned Perc" },
-  { "bank": 0, "program": 17, "name": "Celtic Fiddle & Whistle", "category": "Bowed" },
-  { "bank": 0, "program": 18, "name": "Moroccan Ney Flute", "category": "Wind" },
-  { "bank": 0, "program": 19, "name": "Taiko Drums Thunder", "category": "Percussion" },
-  { "bank": 0, "program": 20, "name": "Amazon Rain Forest Mood", "category": "FX" }
+  {
+    "bank": "World Bank 0",
+    "program": 0,
+    "name": "000 World Expedition Theme",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 1,
+    "name": "001 Celtic Uilleann Pipes",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 2,
+    "name": "002 Balinese Gamelan Gong",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 3,
+    "name": "003 Indian Sitar Master",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 4,
+    "name": "004 Japanese Shakuhachi",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 5,
+    "name": "005 African Djembe Master",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 6,
+    "name": "006 Andean Pan Flute",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 7,
+    "name": "007 Middle East Oud",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 8,
+    "name": "008 Brazilian Berimbau",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 9,
+    "name": "009 Tibetan Singing Bowl",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 10,
+    "name": "010 Australian Didgeridoo",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 11,
+    "name": "011 Turkish Saz Solo",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 12,
+    "name": "012 Spanish Flamenco Guitar",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 13,
+    "name": "013 Hawaiian Ukulele Strum",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 14,
+    "name": "014 Irish Tin Whistle",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 15,
+    "name": "015 Afro-Cuban Congas",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 16,
+    "name": "016 Kalimba Thumb Piano",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 17,
+    "name": "017 Indian Tabla Groove",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 18,
+    "name": "018 Scottish Highland Bagpipe",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 19,
+    "name": "019 Caribbean Steel Drum",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 20,
+    "name": "020 Chinese Erhu Bow",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 21,
+    "name": "021 Koto Japanese Harp",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 22,
+    "name": "022 Marimba Jungle Beat",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 23,
+    "name": "023 Moroccan Darbuka",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 24,
+    "name": "024 Armenian Duduk",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 25,
+    "name": "025 Grecian Bouzouki",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 26,
+    "name": "026 Balkan Accordion",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 27,
+    "name": "027 Rainforest Shaman FX",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 28,
+    "name": "028 Taiko Thunder Drums",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 29,
+    "name": "029 Peruvian Ocarina",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 30,
+    "name": "030 Cajon Flamenco Box",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 31,
+    "name": "031 Global Village Pad",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 32,
+    "name": "032 World Expedition Theme 2",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 33,
+    "name": "033 Celtic Uilleann Pipes 2",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 34,
+    "name": "034 Balinese Gamelan Gong 2",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 35,
+    "name": "035 Indian Sitar Master 2",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 36,
+    "name": "036 Japanese Shakuhachi 2",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 37,
+    "name": "037 African Djembe Master 2",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 38,
+    "name": "038 Andean Pan Flute 2",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 39,
+    "name": "039 Middle East Oud 2",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 40,
+    "name": "040 Brazilian Berimbau 2",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 41,
+    "name": "041 Tibetan Singing Bowl 2",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 42,
+    "name": "042 Australian Didgeridoo 2",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 43,
+    "name": "043 Turkish Saz Solo 2",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 44,
+    "name": "044 Spanish Flamenco Guitar 2",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 45,
+    "name": "045 Hawaiian Ukulele Strum 2",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 46,
+    "name": "046 Irish Tin Whistle 2",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 47,
+    "name": "047 Afro-Cuban Congas 2",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 48,
+    "name": "048 Kalimba Thumb Piano 2",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 49,
+    "name": "049 Indian Tabla Groove 2",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 50,
+    "name": "050 Scottish Highland Bagpipe 2",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 51,
+    "name": "051 Caribbean Steel Drum 2",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 52,
+    "name": "052 Chinese Erhu Bow 2",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 53,
+    "name": "053 Koto Japanese Harp 2",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 54,
+    "name": "054 Marimba Jungle Beat 2",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 55,
+    "name": "055 Moroccan Darbuka 2",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 56,
+    "name": "056 Armenian Duduk 2",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 57,
+    "name": "057 Grecian Bouzouki 2",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 58,
+    "name": "058 Balkan Accordion 2",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 59,
+    "name": "059 Rainforest Shaman FX 2",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 60,
+    "name": "060 Taiko Thunder Drums 2",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 61,
+    "name": "061 Peruvian Ocarina 2",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 62,
+    "name": "062 Cajon Flamenco Box 2",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 63,
+    "name": "063 Global Village Pad 2",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 64,
+    "name": "064 World Expedition Theme 3",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 65,
+    "name": "065 Celtic Uilleann Pipes 3",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 66,
+    "name": "066 Balinese Gamelan Gong 3",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 67,
+    "name": "067 Indian Sitar Master 3",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 68,
+    "name": "068 Japanese Shakuhachi 3",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 69,
+    "name": "069 African Djembe Master 3",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 70,
+    "name": "070 Andean Pan Flute 3",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 71,
+    "name": "071 Middle East Oud 3",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 72,
+    "name": "072 Brazilian Berimbau 3",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 73,
+    "name": "073 Tibetan Singing Bowl 3",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 74,
+    "name": "074 Australian Didgeridoo 3",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 75,
+    "name": "075 Turkish Saz Solo 3",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 76,
+    "name": "076 Spanish Flamenco Guitar 3",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 77,
+    "name": "077 Hawaiian Ukulele Strum 3",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 78,
+    "name": "078 Irish Tin Whistle 3",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 79,
+    "name": "079 Afro-Cuban Congas 3",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 80,
+    "name": "080 Kalimba Thumb Piano 3",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 81,
+    "name": "081 Indian Tabla Groove 3",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 82,
+    "name": "082 Scottish Highland Bagpipe 3",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 83,
+    "name": "083 Caribbean Steel Drum 3",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 84,
+    "name": "084 Chinese Erhu Bow 3",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 85,
+    "name": "085 Koto Japanese Harp 3",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 86,
+    "name": "086 Marimba Jungle Beat 3",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 87,
+    "name": "087 Moroccan Darbuka 3",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 88,
+    "name": "088 Armenian Duduk 3",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 89,
+    "name": "089 Grecian Bouzouki 3",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 90,
+    "name": "090 Balkan Accordion 3",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 91,
+    "name": "091 Rainforest Shaman FX 3",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 92,
+    "name": "092 Taiko Thunder Drums 3",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 93,
+    "name": "093 Peruvian Ocarina 3",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 94,
+    "name": "094 Cajon Flamenco Box 3",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 95,
+    "name": "095 Global Village Pad 3",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 96,
+    "name": "096 World Expedition Theme 4",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 97,
+    "name": "097 Celtic Uilleann Pipes 4",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 98,
+    "name": "098 Balinese Gamelan Gong 4",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 99,
+    "name": "099 Indian Sitar Master 4",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 100,
+    "name": "100 Japanese Shakuhachi 4",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 101,
+    "name": "101 African Djembe Master 4",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 102,
+    "name": "102 Andean Pan Flute 4",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 103,
+    "name": "103 Middle East Oud 4",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 104,
+    "name": "104 Brazilian Berimbau 4",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 105,
+    "name": "105 Tibetan Singing Bowl 4",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 106,
+    "name": "106 Australian Didgeridoo 4",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 107,
+    "name": "107 Turkish Saz Solo 4",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 108,
+    "name": "108 Spanish Flamenco Guitar 4",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 109,
+    "name": "109 Hawaiian Ukulele Strum 4",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 110,
+    "name": "110 Irish Tin Whistle 4",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 111,
+    "name": "111 Afro-Cuban Congas 4",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 112,
+    "name": "112 Kalimba Thumb Piano 4",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 113,
+    "name": "113 Indian Tabla Groove 4",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 114,
+    "name": "114 Scottish Highland Bagpipe 4",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 115,
+    "name": "115 Caribbean Steel Drum 4",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 116,
+    "name": "116 Chinese Erhu Bow 4",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 117,
+    "name": "117 Koto Japanese Harp 4",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 118,
+    "name": "118 Marimba Jungle Beat 4",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 119,
+    "name": "119 Moroccan Darbuka 4",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 120,
+    "name": "120 Armenian Duduk 4",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 121,
+    "name": "121 Grecian Bouzouki 4",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 122,
+    "name": "122 Balkan Accordion 4",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 123,
+    "name": "123 Rainforest Shaman FX 4",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 124,
+    "name": "124 Taiko Thunder Drums 4",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 125,
+    "name": "125 Peruvian Ocarina 4",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 126,
+    "name": "126 Cajon Flamenco Box 4",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 0",
+    "program": 127,
+    "name": "127 Global Village Pad 4",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 0,
+    "name": "000 World Expedition Theme 5",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 1,
+    "name": "001 Celtic Uilleann Pipes 5",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 2,
+    "name": "002 Balinese Gamelan Gong 5",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 3,
+    "name": "003 Indian Sitar Master 5",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 4,
+    "name": "004 Japanese Shakuhachi 5",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 5,
+    "name": "005 African Djembe Master 5",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 6,
+    "name": "006 Andean Pan Flute 5",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 7,
+    "name": "007 Middle East Oud 5",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 8,
+    "name": "008 Brazilian Berimbau 5",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 9,
+    "name": "009 Tibetan Singing Bowl 5",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 10,
+    "name": "010 Australian Didgeridoo 5",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 11,
+    "name": "011 Turkish Saz Solo 5",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 12,
+    "name": "012 Spanish Flamenco Guitar 5",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 13,
+    "name": "013 Hawaiian Ukulele Strum 5",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 14,
+    "name": "014 Irish Tin Whistle 5",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 15,
+    "name": "015 Afro-Cuban Congas 5",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 16,
+    "name": "016 Kalimba Thumb Piano 5",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 17,
+    "name": "017 Indian Tabla Groove 5",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 18,
+    "name": "018 Scottish Highland Bagpipe 5",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 19,
+    "name": "019 Caribbean Steel Drum 5",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 20,
+    "name": "020 Chinese Erhu Bow 5",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 21,
+    "name": "021 Koto Japanese Harp 5",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 22,
+    "name": "022 Marimba Jungle Beat 5",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 23,
+    "name": "023 Moroccan Darbuka 5",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 24,
+    "name": "024 Armenian Duduk 5",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 25,
+    "name": "025 Grecian Bouzouki 5",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 26,
+    "name": "026 Balkan Accordion 5",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 27,
+    "name": "027 Rainforest Shaman FX 5",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 28,
+    "name": "028 Taiko Thunder Drums 5",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 29,
+    "name": "029 Peruvian Ocarina 5",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 30,
+    "name": "030 Cajon Flamenco Box 5",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 31,
+    "name": "031 Global Village Pad 5",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 32,
+    "name": "032 World Expedition Theme 6",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 33,
+    "name": "033 Celtic Uilleann Pipes 6",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 34,
+    "name": "034 Balinese Gamelan Gong 6",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 35,
+    "name": "035 Indian Sitar Master 6",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 36,
+    "name": "036 Japanese Shakuhachi 6",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 37,
+    "name": "037 African Djembe Master 6",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 38,
+    "name": "038 Andean Pan Flute 6",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 39,
+    "name": "039 Middle East Oud 6",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 40,
+    "name": "040 Brazilian Berimbau 6",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 41,
+    "name": "041 Tibetan Singing Bowl 6",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 42,
+    "name": "042 Australian Didgeridoo 6",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 43,
+    "name": "043 Turkish Saz Solo 6",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 44,
+    "name": "044 Spanish Flamenco Guitar 6",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 45,
+    "name": "045 Hawaiian Ukulele Strum 6",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 46,
+    "name": "046 Irish Tin Whistle 6",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 47,
+    "name": "047 Afro-Cuban Congas 6",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 48,
+    "name": "048 Kalimba Thumb Piano 6",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 49,
+    "name": "049 Indian Tabla Groove 6",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 50,
+    "name": "050 Scottish Highland Bagpipe 6",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 51,
+    "name": "051 Caribbean Steel Drum 6",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 52,
+    "name": "052 Chinese Erhu Bow 6",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 53,
+    "name": "053 Koto Japanese Harp 6",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 54,
+    "name": "054 Marimba Jungle Beat 6",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 55,
+    "name": "055 Moroccan Darbuka 6",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 56,
+    "name": "056 Armenian Duduk 6",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 57,
+    "name": "057 Grecian Bouzouki 6",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 58,
+    "name": "058 Balkan Accordion 6",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 59,
+    "name": "059 Rainforest Shaman FX 6",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 60,
+    "name": "060 Taiko Thunder Drums 6",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 61,
+    "name": "061 Peruvian Ocarina 6",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 62,
+    "name": "062 Cajon Flamenco Box 6",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 63,
+    "name": "063 Global Village Pad 6",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 64,
+    "name": "064 World Expedition Theme 7",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 65,
+    "name": "065 Celtic Uilleann Pipes 7",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 66,
+    "name": "066 Balinese Gamelan Gong 7",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 67,
+    "name": "067 Indian Sitar Master 7",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 68,
+    "name": "068 Japanese Shakuhachi 7",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 69,
+    "name": "069 African Djembe Master 7",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 70,
+    "name": "070 Andean Pan Flute 7",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 71,
+    "name": "071 Middle East Oud 7",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 72,
+    "name": "072 Brazilian Berimbau 7",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 73,
+    "name": "073 Tibetan Singing Bowl 7",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 74,
+    "name": "074 Australian Didgeridoo 7",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 75,
+    "name": "075 Turkish Saz Solo 7",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 76,
+    "name": "076 Spanish Flamenco Guitar 7",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 77,
+    "name": "077 Hawaiian Ukulele Strum 7",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 78,
+    "name": "078 Irish Tin Whistle 7",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 79,
+    "name": "079 Afro-Cuban Congas 7",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 80,
+    "name": "080 Kalimba Thumb Piano 7",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 81,
+    "name": "081 Indian Tabla Groove 7",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 82,
+    "name": "082 Scottish Highland Bagpipe 7",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 83,
+    "name": "083 Caribbean Steel Drum 7",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 84,
+    "name": "084 Chinese Erhu Bow 7",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 85,
+    "name": "085 Koto Japanese Harp 7",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 86,
+    "name": "086 Marimba Jungle Beat 7",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 87,
+    "name": "087 Moroccan Darbuka 7",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 88,
+    "name": "088 Armenian Duduk 7",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 89,
+    "name": "089 Grecian Bouzouki 7",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 90,
+    "name": "090 Balkan Accordion 7",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 91,
+    "name": "091 Rainforest Shaman FX 7",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 92,
+    "name": "092 Taiko Thunder Drums 7",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 93,
+    "name": "093 Peruvian Ocarina 7",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 94,
+    "name": "094 Cajon Flamenco Box 7",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 95,
+    "name": "095 Global Village Pad 7",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 96,
+    "name": "096 World Expedition Theme 8",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 97,
+    "name": "097 Celtic Uilleann Pipes 8",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 98,
+    "name": "098 Balinese Gamelan Gong 8",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 99,
+    "name": "099 Indian Sitar Master 8",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 100,
+    "name": "100 Japanese Shakuhachi 8",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 101,
+    "name": "101 African Djembe Master 8",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 102,
+    "name": "102 Andean Pan Flute 8",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 103,
+    "name": "103 Middle East Oud 8",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 104,
+    "name": "104 Brazilian Berimbau 8",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 105,
+    "name": "105 Tibetan Singing Bowl 8",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 106,
+    "name": "106 Australian Didgeridoo 8",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 107,
+    "name": "107 Turkish Saz Solo 8",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 108,
+    "name": "108 Spanish Flamenco Guitar 8",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 109,
+    "name": "109 Hawaiian Ukulele Strum 8",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 110,
+    "name": "110 Irish Tin Whistle 8",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 111,
+    "name": "111 Afro-Cuban Congas 8",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 112,
+    "name": "112 Kalimba Thumb Piano 8",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 113,
+    "name": "113 Indian Tabla Groove 8",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 114,
+    "name": "114 Scottish Highland Bagpipe 8",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 115,
+    "name": "115 Caribbean Steel Drum 8",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 116,
+    "name": "116 Chinese Erhu Bow 8",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 117,
+    "name": "117 Koto Japanese Harp 8",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 118,
+    "name": "118 Marimba Jungle Beat 8",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 119,
+    "name": "119 Moroccan Darbuka 8",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 120,
+    "name": "120 Armenian Duduk 8",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 121,
+    "name": "121 Grecian Bouzouki 8",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 122,
+    "name": "122 Balkan Accordion 8",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 123,
+    "name": "123 Rainforest Shaman FX 8",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 124,
+    "name": "124 Taiko Thunder Drums 8",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 125,
+    "name": "125 Peruvian Ocarina 8",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 126,
+    "name": "126 Cajon Flamenco Box 8",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 1",
+    "program": 127,
+    "name": "127 Global Village Pad 8",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 0,
+    "name": "000 World Expedition Theme 9",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 1,
+    "name": "001 Celtic Uilleann Pipes 9",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 2,
+    "name": "002 Balinese Gamelan Gong 9",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 3,
+    "name": "003 Indian Sitar Master 9",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 4,
+    "name": "004 Japanese Shakuhachi 9",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 5,
+    "name": "005 African Djembe Master 9",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 6,
+    "name": "006 Andean Pan Flute 9",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 7,
+    "name": "007 Middle East Oud 9",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 8,
+    "name": "008 Brazilian Berimbau 9",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 9,
+    "name": "009 Tibetan Singing Bowl 9",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 10,
+    "name": "010 Australian Didgeridoo 9",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 11,
+    "name": "011 Turkish Saz Solo 9",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 12,
+    "name": "012 Spanish Flamenco Guitar 9",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 13,
+    "name": "013 Hawaiian Ukulele Strum 9",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 14,
+    "name": "014 Irish Tin Whistle 9",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 15,
+    "name": "015 Afro-Cuban Congas 9",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 16,
+    "name": "016 Kalimba Thumb Piano 9",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 17,
+    "name": "017 Indian Tabla Groove 9",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 18,
+    "name": "018 Scottish Highland Bagpipe 9",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 19,
+    "name": "019 Caribbean Steel Drum 9",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 20,
+    "name": "020 Chinese Erhu Bow 9",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 21,
+    "name": "021 Koto Japanese Harp 9",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 22,
+    "name": "022 Marimba Jungle Beat 9",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 23,
+    "name": "023 Moroccan Darbuka 9",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 24,
+    "name": "024 Armenian Duduk 9",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 25,
+    "name": "025 Grecian Bouzouki 9",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 26,
+    "name": "026 Balkan Accordion 9",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 27,
+    "name": "027 Rainforest Shaman FX 9",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 28,
+    "name": "028 Taiko Thunder Drums 9",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 29,
+    "name": "029 Peruvian Ocarina 9",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 30,
+    "name": "030 Cajon Flamenco Box 9",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 31,
+    "name": "031 Global Village Pad 9",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 32,
+    "name": "032 World Expedition Theme 10",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 33,
+    "name": "033 Celtic Uilleann Pipes 10",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 34,
+    "name": "034 Balinese Gamelan Gong 10",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 35,
+    "name": "035 Indian Sitar Master 10",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 36,
+    "name": "036 Japanese Shakuhachi 10",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 37,
+    "name": "037 African Djembe Master 10",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 38,
+    "name": "038 Andean Pan Flute 10",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 39,
+    "name": "039 Middle East Oud 10",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 40,
+    "name": "040 Brazilian Berimbau 10",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 41,
+    "name": "041 Tibetan Singing Bowl 10",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 42,
+    "name": "042 Australian Didgeridoo 10",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 43,
+    "name": "043 Turkish Saz Solo 10",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 44,
+    "name": "044 Spanish Flamenco Guitar 10",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 45,
+    "name": "045 Hawaiian Ukulele Strum 10",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 46,
+    "name": "046 Irish Tin Whistle 10",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 47,
+    "name": "047 Afro-Cuban Congas 10",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 48,
+    "name": "048 Kalimba Thumb Piano 10",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 49,
+    "name": "049 Indian Tabla Groove 10",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 50,
+    "name": "050 Scottish Highland Bagpipe 10",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 51,
+    "name": "051 Caribbean Steel Drum 10",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 52,
+    "name": "052 Chinese Erhu Bow 10",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 53,
+    "name": "053 Koto Japanese Harp 10",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 54,
+    "name": "054 Marimba Jungle Beat 10",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 55,
+    "name": "055 Moroccan Darbuka 10",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 56,
+    "name": "056 Armenian Duduk 10",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 57,
+    "name": "057 Grecian Bouzouki 10",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 58,
+    "name": "058 Balkan Accordion 10",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 59,
+    "name": "059 Rainforest Shaman FX 10",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 60,
+    "name": "060 Taiko Thunder Drums 10",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 61,
+    "name": "061 Peruvian Ocarina 10",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 62,
+    "name": "062 Cajon Flamenco Box 10",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 63,
+    "name": "063 Global Village Pad 10",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 64,
+    "name": "064 World Expedition Theme 11",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 65,
+    "name": "065 Celtic Uilleann Pipes 11",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 66,
+    "name": "066 Balinese Gamelan Gong 11",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 67,
+    "name": "067 Indian Sitar Master 11",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 68,
+    "name": "068 Japanese Shakuhachi 11",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 69,
+    "name": "069 African Djembe Master 11",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 70,
+    "name": "070 Andean Pan Flute 11",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 71,
+    "name": "071 Middle East Oud 11",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 72,
+    "name": "072 Brazilian Berimbau 11",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 73,
+    "name": "073 Tibetan Singing Bowl 11",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 74,
+    "name": "074 Australian Didgeridoo 11",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 75,
+    "name": "075 Turkish Saz Solo 11",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 76,
+    "name": "076 Spanish Flamenco Guitar 11",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 77,
+    "name": "077 Hawaiian Ukulele Strum 11",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 78,
+    "name": "078 Irish Tin Whistle 11",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 79,
+    "name": "079 Afro-Cuban Congas 11",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 80,
+    "name": "080 Kalimba Thumb Piano 11",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 81,
+    "name": "081 Indian Tabla Groove 11",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 82,
+    "name": "082 Scottish Highland Bagpipe 11",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 83,
+    "name": "083 Caribbean Steel Drum 11",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 84,
+    "name": "084 Chinese Erhu Bow 11",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 85,
+    "name": "085 Koto Japanese Harp 11",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 86,
+    "name": "086 Marimba Jungle Beat 11",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 87,
+    "name": "087 Moroccan Darbuka 11",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 88,
+    "name": "088 Armenian Duduk 11",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 89,
+    "name": "089 Grecian Bouzouki 11",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 90,
+    "name": "090 Balkan Accordion 11",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 91,
+    "name": "091 Rainforest Shaman FX 11",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 92,
+    "name": "092 Taiko Thunder Drums 11",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 93,
+    "name": "093 Peruvian Ocarina 11",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 94,
+    "name": "094 Cajon Flamenco Box 11",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 95,
+    "name": "095 Global Village Pad 11",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 96,
+    "name": "096 World Expedition Theme 12",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 97,
+    "name": "097 Celtic Uilleann Pipes 12",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 98,
+    "name": "098 Balinese Gamelan Gong 12",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 99,
+    "name": "099 Indian Sitar Master 12",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 100,
+    "name": "100 Japanese Shakuhachi 12",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 101,
+    "name": "101 African Djembe Master 12",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 102,
+    "name": "102 Andean Pan Flute 12",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 103,
+    "name": "103 Middle East Oud 12",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 104,
+    "name": "104 Brazilian Berimbau 12",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 105,
+    "name": "105 Tibetan Singing Bowl 12",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 106,
+    "name": "106 Australian Didgeridoo 12",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 107,
+    "name": "107 Turkish Saz Solo 12",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 108,
+    "name": "108 Spanish Flamenco Guitar 12",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 109,
+    "name": "109 Hawaiian Ukulele Strum 12",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 110,
+    "name": "110 Irish Tin Whistle 12",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 111,
+    "name": "111 Afro-Cuban Congas 12",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 112,
+    "name": "112 Kalimba Thumb Piano 12",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 113,
+    "name": "113 Indian Tabla Groove 12",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 114,
+    "name": "114 Scottish Highland Bagpipe 12",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 115,
+    "name": "115 Caribbean Steel Drum 12",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 116,
+    "name": "116 Chinese Erhu Bow 12",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 117,
+    "name": "117 Koto Japanese Harp 12",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 118,
+    "name": "118 Marimba Jungle Beat 12",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 119,
+    "name": "119 Moroccan Darbuka 12",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 120,
+    "name": "120 Armenian Duduk 12",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 121,
+    "name": "121 Grecian Bouzouki 12",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 122,
+    "name": "122 Balkan Accordion 12",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 123,
+    "name": "123 Rainforest Shaman FX 12",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 124,
+    "name": "124 Taiko Thunder Drums 12",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 125,
+    "name": "125 Peruvian Ocarina 12",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 126,
+    "name": "126 Cajon Flamenco Box 12",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 2",
+    "program": 127,
+    "name": "127 Global Village Pad 12",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 0,
+    "name": "000 World Expedition Theme 13",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 1,
+    "name": "001 Celtic Uilleann Pipes 13",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 2,
+    "name": "002 Balinese Gamelan Gong 13",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 3,
+    "name": "003 Indian Sitar Master 13",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 4,
+    "name": "004 Japanese Shakuhachi 13",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 5,
+    "name": "005 African Djembe Master 13",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 6,
+    "name": "006 Andean Pan Flute 13",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 7,
+    "name": "007 Middle East Oud 13",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 8,
+    "name": "008 Brazilian Berimbau 13",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 9,
+    "name": "009 Tibetan Singing Bowl 13",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 10,
+    "name": "010 Australian Didgeridoo 13",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 11,
+    "name": "011 Turkish Saz Solo 13",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 12,
+    "name": "012 Spanish Flamenco Guitar 13",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 13,
+    "name": "013 Hawaiian Ukulele Strum 13",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 14,
+    "name": "014 Irish Tin Whistle 13",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 15,
+    "name": "015 Afro-Cuban Congas 13",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 16,
+    "name": "016 Kalimba Thumb Piano 13",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 17,
+    "name": "017 Indian Tabla Groove 13",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 18,
+    "name": "018 Scottish Highland Bagpipe 13",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 19,
+    "name": "019 Caribbean Steel Drum 13",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 20,
+    "name": "020 Chinese Erhu Bow 13",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 21,
+    "name": "021 Koto Japanese Harp 13",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 22,
+    "name": "022 Marimba Jungle Beat 13",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 23,
+    "name": "023 Moroccan Darbuka 13",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 24,
+    "name": "024 Armenian Duduk 13",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 25,
+    "name": "025 Grecian Bouzouki 13",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 26,
+    "name": "026 Balkan Accordion 13",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 27,
+    "name": "027 Rainforest Shaman FX 13",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 28,
+    "name": "028 Taiko Thunder Drums 13",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 29,
+    "name": "029 Peruvian Ocarina 13",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 30,
+    "name": "030 Cajon Flamenco Box 13",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 31,
+    "name": "031 Global Village Pad 13",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 32,
+    "name": "032 World Expedition Theme 14",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 33,
+    "name": "033 Celtic Uilleann Pipes 14",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 34,
+    "name": "034 Balinese Gamelan Gong 14",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 35,
+    "name": "035 Indian Sitar Master 14",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 36,
+    "name": "036 Japanese Shakuhachi 14",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 37,
+    "name": "037 African Djembe Master 14",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 38,
+    "name": "038 Andean Pan Flute 14",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 39,
+    "name": "039 Middle East Oud 14",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 40,
+    "name": "040 Brazilian Berimbau 14",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 41,
+    "name": "041 Tibetan Singing Bowl 14",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 42,
+    "name": "042 Australian Didgeridoo 14",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 43,
+    "name": "043 Turkish Saz Solo 14",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 44,
+    "name": "044 Spanish Flamenco Guitar 14",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 45,
+    "name": "045 Hawaiian Ukulele Strum 14",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 46,
+    "name": "046 Irish Tin Whistle 14",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 47,
+    "name": "047 Afro-Cuban Congas 14",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 48,
+    "name": "048 Kalimba Thumb Piano 14",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 49,
+    "name": "049 Indian Tabla Groove 14",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 50,
+    "name": "050 Scottish Highland Bagpipe 14",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 51,
+    "name": "051 Caribbean Steel Drum 14",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 52,
+    "name": "052 Chinese Erhu Bow 14",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 53,
+    "name": "053 Koto Japanese Harp 14",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 54,
+    "name": "054 Marimba Jungle Beat 14",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 55,
+    "name": "055 Moroccan Darbuka 14",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 56,
+    "name": "056 Armenian Duduk 14",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 57,
+    "name": "057 Grecian Bouzouki 14",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 58,
+    "name": "058 Balkan Accordion 14",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 59,
+    "name": "059 Rainforest Shaman FX 14",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 60,
+    "name": "060 Taiko Thunder Drums 14",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 61,
+    "name": "061 Peruvian Ocarina 14",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 62,
+    "name": "062 Cajon Flamenco Box 14",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 63,
+    "name": "063 Global Village Pad 14",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 64,
+    "name": "064 World Expedition Theme 15",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 65,
+    "name": "065 Celtic Uilleann Pipes 15",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 66,
+    "name": "066 Balinese Gamelan Gong 15",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 67,
+    "name": "067 Indian Sitar Master 15",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 68,
+    "name": "068 Japanese Shakuhachi 15",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 69,
+    "name": "069 African Djembe Master 15",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 70,
+    "name": "070 Andean Pan Flute 15",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 71,
+    "name": "071 Middle East Oud 15",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 72,
+    "name": "072 Brazilian Berimbau 15",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 73,
+    "name": "073 Tibetan Singing Bowl 15",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 74,
+    "name": "074 Australian Didgeridoo 15",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 75,
+    "name": "075 Turkish Saz Solo 15",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 76,
+    "name": "076 Spanish Flamenco Guitar 15",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 77,
+    "name": "077 Hawaiian Ukulele Strum 15",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 78,
+    "name": "078 Irish Tin Whistle 15",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 79,
+    "name": "079 Afro-Cuban Congas 15",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 80,
+    "name": "080 Kalimba Thumb Piano 15",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 81,
+    "name": "081 Indian Tabla Groove 15",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 82,
+    "name": "082 Scottish Highland Bagpipe 15",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 83,
+    "name": "083 Caribbean Steel Drum 15",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 84,
+    "name": "084 Chinese Erhu Bow 15",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 85,
+    "name": "085 Koto Japanese Harp 15",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 86,
+    "name": "086 Marimba Jungle Beat 15",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 87,
+    "name": "087 Moroccan Darbuka 15",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 88,
+    "name": "088 Armenian Duduk 15",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 89,
+    "name": "089 Grecian Bouzouki 15",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 90,
+    "name": "090 Balkan Accordion 15",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 91,
+    "name": "091 Rainforest Shaman FX 15",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 92,
+    "name": "092 Taiko Thunder Drums 15",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 93,
+    "name": "093 Peruvian Ocarina 15",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 94,
+    "name": "094 Cajon Flamenco Box 15",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 95,
+    "name": "095 Global Village Pad 15",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 96,
+    "name": "096 World Expedition Theme 16",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 97,
+    "name": "097 Celtic Uilleann Pipes 16",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 98,
+    "name": "098 Balinese Gamelan Gong 16",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 99,
+    "name": "099 Indian Sitar Master 16",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 100,
+    "name": "100 Japanese Shakuhachi 16",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 101,
+    "name": "101 African Djembe Master 16",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 102,
+    "name": "102 Andean Pan Flute 16",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 103,
+    "name": "103 Middle East Oud 16",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 104,
+    "name": "104 Brazilian Berimbau 16",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 105,
+    "name": "105 Tibetan Singing Bowl 16",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 106,
+    "name": "106 Australian Didgeridoo 16",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 107,
+    "name": "107 Turkish Saz Solo 16",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 108,
+    "name": "108 Spanish Flamenco Guitar 16",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 109,
+    "name": "109 Hawaiian Ukulele Strum 16",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 110,
+    "name": "110 Irish Tin Whistle 16",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 111,
+    "name": "111 Afro-Cuban Congas 16",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 112,
+    "name": "112 Kalimba Thumb Piano 16",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 113,
+    "name": "113 Indian Tabla Groove 16",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 114,
+    "name": "114 Scottish Highland Bagpipe 16",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 115,
+    "name": "115 Caribbean Steel Drum 16",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 116,
+    "name": "116 Chinese Erhu Bow 16",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 117,
+    "name": "117 Koto Japanese Harp 16",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 118,
+    "name": "118 Marimba Jungle Beat 16",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 119,
+    "name": "119 Moroccan Darbuka 16",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 120,
+    "name": "120 Armenian Duduk 16",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 121,
+    "name": "121 Grecian Bouzouki 16",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 122,
+    "name": "122 Balkan Accordion 16",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 123,
+    "name": "123 Rainforest Shaman FX 16",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 124,
+    "name": "124 Taiko Thunder Drums 16",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 125,
+    "name": "125 Peruvian Ocarina 16",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 126,
+    "name": "126 Cajon Flamenco Box 16",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  },
+  {
+    "bank": "World Bank 3",
+    "program": 127,
+    "name": "127 Global Village Pad 16",
+    "category": "ETHNIC",
+    "tags": [
+      "planet-earth",
+      "world-rom",
+      "ethnic"
+    ]
+  }
 ]

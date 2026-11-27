@@ -1,0 +1,706 @@
+[
+  {
+    "bank": "PRESET",
+    "program": 1,
+    "name": "String 1",
+    "category": "STRINGS",
+    "tags": [
+      "jx-3p",
+      "factory",
+      "strings"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 2,
+    "name": "String 2",
+    "category": "STRINGS",
+    "tags": [
+      "jx-3p",
+      "factory",
+      "strings"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 3,
+    "name": "Organ 1",
+    "category": "ORGAN",
+    "tags": [
+      "jx-3p",
+      "factory",
+      "organ"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 4,
+    "name": "Organ 2",
+    "category": "ORGAN",
+    "tags": [
+      "jx-3p",
+      "factory",
+      "organ"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 5,
+    "name": "Organ 3",
+    "category": "ORGAN",
+    "tags": [
+      "jx-3p",
+      "factory",
+      "organ"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 6,
+    "name": "Brass 1",
+    "category": "BRASS",
+    "tags": [
+      "jx-3p",
+      "factory",
+      "brass"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 7,
+    "name": "Brass 2",
+    "category": "BRASS",
+    "tags": [
+      "jx-3p",
+      "factory",
+      "brass"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 8,
+    "name": "Electric Piano 1",
+    "category": "SYNTH",
+    "tags": [
+      "jx-3p",
+      "factory",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 9,
+    "name": "Electric Piano 2",
+    "category": "SYNTH",
+    "tags": [
+      "jx-3p",
+      "factory",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 10,
+    "name": "Clavinet",
+    "category": "SYNTH",
+    "tags": [
+      "jx-3p",
+      "factory",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 11,
+    "name": "Harpsichord",
+    "category": "SYNTH",
+    "tags": [
+      "jx-3p",
+      "factory",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 12,
+    "name": "Vibraphone",
+    "category": "SYNTH",
+    "tags": [
+      "jx-3p",
+      "factory",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 13,
+    "name": "Marimba",
+    "category": "SYNTH",
+    "tags": [
+      "jx-3p",
+      "factory",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 14,
+    "name": "Glockenspiel",
+    "category": "SYNTH",
+    "tags": [
+      "jx-3p",
+      "factory",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 15,
+    "name": "Steel Drum",
+    "category": "SYNTH",
+    "tags": [
+      "jx-3p",
+      "factory",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 16,
+    "name": "Voice",
+    "category": "SYNTH",
+    "tags": [
+      "jx-3p",
+      "factory",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 17,
+    "name": "Sync 1",
+    "category": "SYNTH",
+    "tags": [
+      "jx-3p",
+      "factory",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 18,
+    "name": "Sync 2",
+    "category": "SYNTH",
+    "tags": [
+      "jx-3p",
+      "factory",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 19,
+    "name": "Flute",
+    "category": "SYNTH",
+    "tags": [
+      "jx-3p",
+      "factory",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 20,
+    "name": "Whistle",
+    "category": "SYNTH",
+    "tags": [
+      "jx-3p",
+      "factory",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 21,
+    "name": "Bass 1",
+    "category": "BASS",
+    "tags": [
+      "jx-3p",
+      "factory",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 22,
+    "name": "Bass 2",
+    "category": "BASS",
+    "tags": [
+      "jx-3p",
+      "factory",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 23,
+    "name": "Synth Bass",
+    "category": "BASS",
+    "tags": [
+      "jx-3p",
+      "factory",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 24,
+    "name": "Chime",
+    "category": "SYNTH",
+    "tags": [
+      "jx-3p",
+      "factory",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 25,
+    "name": "Funky 1",
+    "category": "SYNTH",
+    "tags": [
+      "jx-3p",
+      "factory",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 26,
+    "name": "Funky 2",
+    "category": "SYNTH",
+    "tags": [
+      "jx-3p",
+      "factory",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 27,
+    "name": "Space Sound",
+    "category": "SYNTH",
+    "tags": [
+      "jx-3p",
+      "factory",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 28,
+    "name": "Metallic",
+    "category": "SYNTH",
+    "tags": [
+      "jx-3p",
+      "factory",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 29,
+    "name": "Wind",
+    "category": "SYNTH",
+    "tags": [
+      "jx-3p",
+      "factory",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 30,
+    "name": "Snare Drum",
+    "category": "SYNTH",
+    "tags": [
+      "jx-3p",
+      "factory",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 31,
+    "name": "Bass Drum",
+    "category": "BASS",
+    "tags": [
+      "jx-3p",
+      "factory",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PRESET",
+    "program": 32,
+    "name": "Cowbell",
+    "category": "SYNTH",
+    "tags": [
+      "jx-3p",
+      "factory",
+      "synth"
+    ]
+  },
+  {
+    "bank": "USER BANK A",
+    "program": 1,
+    "name": "Poly Saw Lead",
+    "category": "LEAD",
+    "tags": [
+      "jx-3p",
+      "user-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "USER BANK A",
+    "program": 2,
+    "name": "Reso Sweep Pad",
+    "category": "PAD",
+    "tags": [
+      "jx-3p",
+      "user-a",
+      "pad"
+    ]
+  },
+  {
+    "bank": "USER BANK A",
+    "program": 3,
+    "name": "Funky Bass",
+    "category": "BASS",
+    "tags": [
+      "jx-3p",
+      "user-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "USER BANK A",
+    "program": 4,
+    "name": "Space Echo",
+    "category": "LEAD",
+    "tags": [
+      "jx-3p",
+      "user-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "USER BANK A",
+    "program": 5,
+    "name": "Fat Brass Stack",
+    "category": "LEAD",
+    "tags": [
+      "jx-3p",
+      "user-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "USER BANK A",
+    "program": 6,
+    "name": "Bell Pad",
+    "category": "PAD",
+    "tags": [
+      "jx-3p",
+      "user-a",
+      "pad"
+    ]
+  },
+  {
+    "bank": "USER BANK A",
+    "program": 7,
+    "name": "Dark Drone",
+    "category": "LEAD",
+    "tags": [
+      "jx-3p",
+      "user-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "USER BANK A",
+    "program": 8,
+    "name": "Pluck Organ",
+    "category": "LEAD",
+    "tags": [
+      "jx-3p",
+      "user-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "USER BANK A",
+    "program": 9,
+    "name": "80s Soundtrack",
+    "category": "LEAD",
+    "tags": [
+      "jx-3p",
+      "user-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "USER BANK A",
+    "program": 10,
+    "name": "Arp Pluck",
+    "category": "LEAD",
+    "tags": [
+      "jx-3p",
+      "user-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "USER BANK A",
+    "program": 11,
+    "name": "Sync Aggressor",
+    "category": "LEAD",
+    "tags": [
+      "jx-3p",
+      "user-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "USER BANK A",
+    "program": 12,
+    "name": "Sub Pulse Bass",
+    "category": "BASS",
+    "tags": [
+      "jx-3p",
+      "user-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "USER BANK A",
+    "program": 13,
+    "name": "Warm Strings II",
+    "category": "LEAD",
+    "tags": [
+      "jx-3p",
+      "user-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "USER BANK A",
+    "program": 14,
+    "name": "Analog Brass II",
+    "category": "LEAD",
+    "tags": [
+      "jx-3p",
+      "user-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "USER BANK A",
+    "program": 15,
+    "name": "Sci-Fi Sweep",
+    "category": "PAD",
+    "tags": [
+      "jx-3p",
+      "user-a",
+      "pad"
+    ]
+  },
+  {
+    "bank": "USER BANK A",
+    "program": 16,
+    "name": "White Noise Wave",
+    "category": "LEAD",
+    "tags": [
+      "jx-3p",
+      "user-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "USER BANK B",
+    "program": 1,
+    "name": "Super Poly",
+    "category": "SYNTH",
+    "tags": [
+      "jx-3p",
+      "user-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "USER BANK B",
+    "program": 2,
+    "name": "Octave Bass",
+    "category": "BASS",
+    "tags": [
+      "jx-3p",
+      "user-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "USER BANK B",
+    "program": 3,
+    "name": "Ambient Vox",
+    "category": "SYNTH",
+    "tags": [
+      "jx-3p",
+      "user-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "USER BANK B",
+    "program": 4,
+    "name": "Metallic Bell",
+    "category": "SYNTH",
+    "tags": [
+      "jx-3p",
+      "user-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "USER BANK B",
+    "program": 5,
+    "name": "Modern Pluck",
+    "category": "SYNTH",
+    "tags": [
+      "jx-3p",
+      "user-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "USER BANK B",
+    "program": 6,
+    "name": "Vintage Key",
+    "category": "KEY",
+    "tags": [
+      "jx-3p",
+      "user-b",
+      "key"
+    ]
+  },
+  {
+    "bank": "USER BANK B",
+    "program": 7,
+    "name": "Brass Hit",
+    "category": "SYNTH",
+    "tags": [
+      "jx-3p",
+      "user-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "USER BANK B",
+    "program": 8,
+    "name": "Reso Clav",
+    "category": "KEY",
+    "tags": [
+      "jx-3p",
+      "user-b",
+      "key"
+    ]
+  },
+  {
+    "bank": "USER BANK B",
+    "program": 9,
+    "name": "Solo Sine Lead",
+    "category": "SYNTH",
+    "tags": [
+      "jx-3p",
+      "user-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "USER BANK B",
+    "program": 10,
+    "name": "Synth Strings III",
+    "category": "SYNTH",
+    "tags": [
+      "jx-3p",
+      "user-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "USER BANK B",
+    "program": 11,
+    "name": "Electro Bass",
+    "category": "BASS",
+    "tags": [
+      "jx-3p",
+      "user-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "USER BANK B",
+    "program": 12,
+    "name": "Modular FX",
+    "category": "SYNTH",
+    "tags": [
+      "jx-3p",
+      "user-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "USER BANK B",
+    "program": 13,
+    "name": "Warm Horn",
+    "category": "SYNTH",
+    "tags": [
+      "jx-3p",
+      "user-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "USER BANK B",
+    "program": 14,
+    "name": "Glass Tine",
+    "category": "SYNTH",
+    "tags": [
+      "jx-3p",
+      "user-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "USER BANK B",
+    "program": 15,
+    "name": "Wind Storm",
+    "category": "SYNTH",
+    "tags": [
+      "jx-3p",
+      "user-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "USER BANK B",
+    "program": 16,
+    "name": "Percussive Sync",
+    "category": "SYNTH",
+    "tags": [
+      "jx-3p",
+      "user-b",
+      "synth"
+    ]
+  }
+]

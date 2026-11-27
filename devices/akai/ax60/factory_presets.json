@@ -1,22 +1,706 @@
-{
-  "Bank 1": [
-    "01: Poly Brass Ensemble",
-    "02: CEM Resonant Sweep",
-    "03: Unison Mono Solo",
-    "04: Funky Slap Bass",
-    "05: Curtis Saw Strings",
-    "06: Metallic Ring Bells",
-    "07: Punchy Poly Pluck",
-    "08: Warm CEM Pad"
-  ],
-  "Bank 2": [
-    "09: Sub Oscillator Bass",
-    "10: Tauntek Fast Arp",
-    "11: Soft Poly Flute",
-    "12: Aggressive CEM Sync",
-    "13: Highpass Poly Lead",
-    "14: Analog Organ Chords",
-    "15: Sci-Fi Laser Noise",
-    "16: 80s Soundtrack Pad"
-  ]
-}
+[
+  {
+    "bank": "Bank 1",
+    "program": 1,
+    "name": "11: Poly Brass Ensemble",
+    "category": "BRASS",
+    "tags": [
+      "ax60",
+      "bank-1",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 2,
+    "name": "12: CEM Resonant Sweep",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-1",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 3,
+    "name": "13: Unison Mono Solo",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-1",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 4,
+    "name": "14: Funky Slap Bass",
+    "category": "BASS",
+    "tags": [
+      "ax60",
+      "bank-1",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 5,
+    "name": "15: Curtis Saw Strings",
+    "category": "STRINGS",
+    "tags": [
+      "ax60",
+      "bank-1",
+      "strings"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 6,
+    "name": "16: Metallic Ring Bells",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-1",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 7,
+    "name": "17: Punchy Poly Pluck",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-1",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 8,
+    "name": "18: Warm CEM Pad",
+    "category": "PAD",
+    "tags": [
+      "ax60",
+      "bank-1",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 1,
+    "name": "21: Sub Oscillator Bass",
+    "category": "BASS",
+    "tags": [
+      "ax60",
+      "bank-2",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 2,
+    "name": "22: Tauntek Fast Arp",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-2",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 3,
+    "name": "23: Soft Poly Flute",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-2",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 4,
+    "name": "24: Aggressive CEM Sync",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-2",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 5,
+    "name": "25: Highpass Poly Lead",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-2",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 6,
+    "name": "26: Analog Organ Chords",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-2",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 7,
+    "name": "27: Sci-Fi Laser Noise",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-2",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 8,
+    "name": "28: 80s Soundtrack Pad",
+    "category": "PAD",
+    "tags": [
+      "ax60",
+      "bank-2",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 1,
+    "name": "31: Chamber Cello",
+    "category": "STRINGS",
+    "tags": [
+      "ax60",
+      "bank-3",
+      "strings"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 2,
+    "name": "32: Fat Octave Bass",
+    "category": "BASS",
+    "tags": [
+      "ax60",
+      "bank-3",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 3,
+    "name": "33: PWM Motion Strings",
+    "category": "STRINGS",
+    "tags": [
+      "ax60",
+      "bank-3",
+      "strings"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 4,
+    "name": "34: Pluck Clavinet",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-3",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 5,
+    "name": "35: Vintage Electric Piano",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-3",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 6,
+    "name": "36: Space Wind FX",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-3",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 7,
+    "name": "37: VCF Self-Osc Bell",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-3",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 8,
+    "name": "38: Sync Aggressor Solo",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-3",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 1,
+    "name": "41: Electro Bassline",
+    "category": "BASS",
+    "tags": [
+      "ax60",
+      "bank-4",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 2,
+    "name": "42: Dark Ambient Drone",
+    "category": "PAD",
+    "tags": [
+      "ax60",
+      "bank-4",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 3,
+    "name": "43: Power Poly Brass",
+    "category": "BRASS",
+    "tags": [
+      "ax60",
+      "bank-4",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 4,
+    "name": "44: Sampler Input VCF",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-4",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 5,
+    "name": "45: CEM Filter Sweep",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-4",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 6,
+    "name": "46: Percussive Tine",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-4",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 7,
+    "name": "47: Harpsichord Poly",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-4",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 8,
+    "name": "48: Modular Siren FX",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-4",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 1,
+    "name": "51: Classic Poly Synth",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-5",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 2,
+    "name": "52: Square Lead 80s",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-5",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 3,
+    "name": "53: Acid Reso 24dB",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-5",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 4,
+    "name": "54: Wide Stereo Chorus",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-5",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 5,
+    "name": "55: Staccato Brass Hit",
+    "category": "BRASS",
+    "tags": [
+      "ax60",
+      "bank-5",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 6,
+    "name": "56: Lush Analog Strings",
+    "category": "STRINGS",
+    "tags": [
+      "ax60",
+      "bank-5",
+      "strings"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 7,
+    "name": "57: Dirty Fuzz Bass",
+    "category": "BASS",
+    "tags": [
+      "ax60",
+      "bank-5",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 8,
+    "name": "58: Alien Computer",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-5",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 6",
+    "program": 1,
+    "name": "61: Warm Rotary Organ",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 6",
+    "program": 2,
+    "name": "62: Dual Saw Lead",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 6",
+    "program": 3,
+    "name": "63: Filter Mod Bell",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 6",
+    "program": 4,
+    "name": "64: Snare Rim Shot",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 6",
+    "program": 5,
+    "name": "65: Deep Sub Sine",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 6",
+    "program": 6,
+    "name": "66: Reso Pulse Clav",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 6",
+    "program": 7,
+    "name": "67: Dreamy Poly Sweep",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 6",
+    "program": 8,
+    "name": "68: Sci-Fi Laser Zap",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 7",
+    "program": 1,
+    "name": "71: Super Saw AX",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-7",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 7",
+    "program": 2,
+    "name": "72: Bass Guitar Mute",
+    "category": "BASS",
+    "tags": [
+      "ax60",
+      "bank-7",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 7",
+    "program": 3,
+    "name": "73: Muted Trumpet",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-7",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 7",
+    "program": 4,
+    "name": "74: Cosmic Pad 60",
+    "category": "PAD",
+    "tags": [
+      "ax60",
+      "bank-7",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 7",
+    "program": 5,
+    "name": "75: Fast Attack Pluck",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-7",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 7",
+    "program": 6,
+    "name": "76: VCO Sync Lead",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-7",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 7",
+    "program": 7,
+    "name": "77: Analog Pipe Organ",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-7",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 7",
+    "program": 8,
+    "name": "78: Chaos Mod Noise",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-7",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 8",
+    "program": 1,
+    "name": "81: Retro Wave Pad",
+    "category": "PAD",
+    "tags": [
+      "ax60",
+      "bank-8",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 8",
+    "program": 2,
+    "name": "82: Funky Synth Solo",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-8",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 8",
+    "program": 3,
+    "name": "83: Heavy CEM Bass",
+    "category": "BASS",
+    "tags": [
+      "ax60",
+      "bank-8",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 8",
+    "program": 4,
+    "name": "84: Whistle Solo",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-8",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 8",
+    "program": 5,
+    "name": "85: Brite Poly Brass",
+    "category": "BRASS",
+    "tags": [
+      "ax60",
+      "bank-8",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 8",
+    "program": 6,
+    "name": "86: Ethereal Echoes",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-8",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 8",
+    "program": 7,
+    "name": "87: Thunder Crash FX",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-8",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 8",
+    "program": 8,
+    "name": "88: Default AX60 Init",
+    "category": "LEAD",
+    "tags": [
+      "ax60",
+      "bank-8",
+      "lead"
+    ]
+  }
+]

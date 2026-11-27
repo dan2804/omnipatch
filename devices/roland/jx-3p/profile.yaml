@@ -1,0 +1,213 @@
+schema_version: 1.0.0
+manufacturer: Roland Corporation
+name: Roland JX-3P
+family: JX Series
+category: Analog Polyphonic Synthesizer
+year: 1983
+voice_architecture:
+  voices: 6
+  oscillators_per_voice: 2
+  oscillator_type: DCO (Digitally Controlled Analog Oscillators)
+  filter_type: Roland IR3109 24dB/oct 4-Pole Resonant Lowpass VCF + 1-Pole HPF
+  amplifier: Discrete Analog VCA with Gate / ADSR Envelope control
+  envelope_generators: Analog ADSR Envelope Generator
+  lfo: Single Analog LFO with Sine, Square, Random S/H waveforms
+  effects: Built-in Roland Analog BBD Stereo Chorus
+  sequencer: Polyphonic 128-step real-time sequencer with clock input
+midi_specs:
+  basic_channel: 1
+  omni_mode: true
+  program_change_range: 0-31 (Presets 1-32), 32-47 (User Bank A), 48-63 (User Bank
+    B)
+  sysex_id: '0x41'
+  pg200_programmer: 6-pin DIN interface (0-5V continuous voltage parameters)
+  handshake: false
+  pacing_delay_ms: 30
+parameters:
+- id: dco1_wave
+  name: DCO 1 Waveform
+  type: enum
+  options:
+  - Sawtooth
+  - Pulse
+  - Square
+  default: Sawtooth
+- id: dco1_range
+  name: DCO 1 Range
+  type: enum
+  options:
+  - 16'
+  - 8'
+  - 4'
+  default: 8'
+- id: dco1_lfo_mod
+  name: DCO 1 LFO Modulation
+  type: range
+  min: 0
+  max: 127
+  default: 0
+- id: dco2_wave
+  name: DCO 2 Waveform
+  type: enum
+  options:
+  - Sawtooth
+  - Pulse
+  - Square
+  - Noise
+  default: Sawtooth
+- id: dco2_range
+  name: DCO 2 Range
+  type: enum
+  options:
+  - 16'
+  - 8'
+  - 4'
+  default: 8'
+- id: dco2_tune
+  name: DCO 2 Coarse Tune
+  type: range
+  min: -12
+  max: 12
+  default: 0
+- id: dco2_fine
+  name: DCO 2 Fine Tune
+  type: range
+  min: -50
+  max: 50
+  default: 0
+- id: dco2_lfo_mod
+  name: DCO 2 LFO Modulation
+  type: range
+  min: 0
+  max: 127
+  default: 0
+- id: dco2_env_mod
+  name: DCO 2 Envelope Modulation
+  type: range
+  min: 0
+  max: 127
+  default: 0
+- id: cross_mod
+  name: Cross Modulation
+  type: enum
+  options:
+  - 'Off'
+  - Sync
+  - Metal
+  default: 'Off'
+- id: source_mix
+  name: DCO 1 / DCO 2 Balance
+  type: range
+  min: 0
+  max: 127
+  default: 64
+- id: hpf_cutoff
+  name: High-Pass Filter Cutoff
+  type: enum
+  options:
+  - Flat
+  - Level 1
+  - Level 2
+  default: Flat
+- id: vcf_cutoff
+  name: VCF Cutoff Frequency
+  type: range
+  min: 0
+  max: 127
+  default: 80
+- id: vcf_resonance
+  name: VCF Resonance
+  type: range
+  min: 0
+  max: 127
+  default: 30
+- id: vcf_lfo_mod
+  name: VCF LFO Modulation
+  type: range
+  min: 0
+  max: 127
+  default: 0
+- id: vcf_env_mod
+  name: VCF Envelope Modulation
+  type: range
+  min: 0
+  max: 127
+  default: 60
+- id: vcf_key_follow
+  name: VCF Keyboard Tracking
+  type: range
+  min: 0
+  max: 100
+  unit: '%'
+  default: 100
+- id: vcf_polarity
+  name: VCF Envelope Polarity
+  type: enum
+  options:
+  - Positive (+)
+  - Inverted (-)
+  default: Positive (+)
+- id: vca_level
+  name: VCA Output Level
+  type: range
+  min: 0
+  max: 127
+  default: 100
+- id: vca_mode
+  name: VCA Mode
+  type: enum
+  options:
+  - Gate
+  - Envelope
+  default: Envelope
+- id: chorus
+  name: Stereo BBD Chorus
+  type: enum
+  options:
+  - 'Off'
+  - 'On'
+  default: 'On'
+- id: lfo_rate
+  name: LFO Rate
+  type: range
+  min: 0
+  max: 127
+  default: 45
+- id: lfo_delay
+  name: LFO Delay Time
+  type: range
+  min: 0
+  max: 127
+  default: 20
+- id: lfo_wave
+  name: LFO Waveform
+  type: enum
+  options:
+  - Sine
+  - Square
+  - Random (S/H)
+  default: Sine
+- id: env_attack
+  name: Envelope Attack Time
+  type: range
+  min: 0
+  max: 127
+  default: 10
+- id: env_decay
+  name: Envelope Decay Time
+  type: range
+  min: 0
+  max: 127
+  default: 45
+- id: env_sustain
+  name: Envelope Sustain Level
+  type: range
+  min: 0
+  max: 127
+  default: 80
+- id: env_release
+  name: Envelope Release Time
+  type: range
+  min: 0
+  max: 127
+  default: 35

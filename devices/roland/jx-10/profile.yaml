@@ -1,0 +1,95 @@
+schema_version: 1.0.0
+manufacturer: Roland Corporation
+name: Roland JX-10 Super JX
+family: JX Series
+category: Flagship Analog Polyphonic Synthesizer
+year: 1986
+voice_architecture:
+  voices: 12
+  oscillators_per_voice: 2
+  tone_layers: Dual Tone Architecture (Upper Tone & Lower Tone)
+  key_modes:
+  - Dual
+  - Split
+  - Touch Crossfade
+  - X-Fade Dual
+  chase_play: Integrated Chase Play MIDI Delay & Polyphonic Echo
+  filter_type: Dual Roland IR3109 24dB/oct Lowpass VCFs per voice
+  programmer_support: Roland PG-800 & MKS-70 SysEx mapping
+midi_specs:
+  basic_channel: 1
+  model_id: '0x0A'
+  sysex_id: '0x41'
+  handshake: false
+  pacing_delay_ms: 25
+parameters:
+- id: key_mode
+  name: Key Mode
+  type: enum
+  options:
+  - Dual
+  - Split
+  - Touch Crossfade
+  - X-Fade Dual
+  default: Dual
+- id: split_point
+  name: Split Point Key
+  type: range
+  min: 21
+  max: 108
+  default: 60
+- id: upper_tone
+  name: Upper Tone Select
+  type: range
+  min: 1
+  max: 100
+  default: 1
+- id: lower_tone
+  name: Lower Tone Select
+  type: range
+  min: 1
+  max: 100
+  default: 2
+- id: chase_mode
+  name: Chase Play Mode
+  type: enum
+  options:
+  - 'Off'
+  - Upper->Lower
+  - Lower->Upper
+  - Repeat U/L
+  default: 'Off'
+- id: chase_time
+  name: Chase Play Time Delay
+  type: range
+  min: 0
+  max: 127
+  default: 64
+- id: vcf_cutoff
+  name: Master VCF Cutoff
+  type: range
+  min: 0
+  max: 127
+  default: 85
+- id: vcf_resonance
+  name: Master VCF Resonance
+  type: range
+  min: 0
+  max: 127
+  default: 40
+- id: chorus_upper
+  name: Upper Chorus
+  type: enum
+  options:
+  - 'Off'
+  - Chorus 1
+  - Chorus 2
+  default: Chorus 1
+- id: chorus_lower
+  name: Lower Chorus
+  type: enum
+  options:
+  - 'Off'
+  - Chorus 1
+  - Chorus 2
+  default: Chorus 1
