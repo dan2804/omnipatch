@@ -11,7 +11,7 @@ import json
 import yaml
 import subprocess
 
-RESOURCES_DIR = "resources/manuals"
+RESOURCES_DIR = "resources/processed/manuals" if os.path.exists("resources/processed/manuals") else "resources/manuals"
 OUTPUT_BASE = "devices/roland"
 
 def run_pdftotext(pdf_path, layout=True):
