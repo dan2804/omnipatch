@@ -1,0 +1,19 @@
+manufacturer: Kawai
+model: Kawai K4 / K4r
+type: Digital Synthesizer w/ Resonant Filter
+year: 1989
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    dca_attack: 73
+    dca_release: 72
+sysex:
+  header: F0 40 00 10 00 04
+  device_id_byte: 3
+  commands:
+    dump_single: F0 40 00 10 00 04 [prog] F7
+banks:
+- Single Patches
+- Multi Patches

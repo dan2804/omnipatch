@@ -1,0 +1,4802 @@
+[
+  {
+    "bank": "Bank 0",
+    "program": 0,
+    "name": "P800 Classic Brass",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 1,
+    "name": "GliGli Sync Scream",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 2,
+    "name": "8-Voice Dual VCO Poly",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 3,
+    "name": "Sub Octave Bass",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 4,
+    "name": "Warm Poly Strings",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 5,
+    "name": "Reso Acid Pluck",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 6,
+    "name": "Unison Detune Lead",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 7,
+    "name": "Polymod Noise Wind",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 8,
+    "name": "Vintage Clavinet",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 9,
+    "name": "Punchy Fifth Stabs",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 10,
+    "name": "P800 Classic Brass 11",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 11,
+    "name": "GliGli Sync Scream 12",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 12,
+    "name": "8-Voice Dual VCO Poly 13",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 13,
+    "name": "Sub Octave Bass 14",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 14,
+    "name": "Warm Poly Strings 15",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 15,
+    "name": "Reso Acid Pluck 16",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 16,
+    "name": "Unison Detune Lead 17",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 17,
+    "name": "Polymod Noise Wind 18",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 18,
+    "name": "Vintage Clavinet 19",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 19,
+    "name": "Punchy Fifth Stabs 20",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 20,
+    "name": "P800 Classic Brass 21",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 21,
+    "name": "GliGli Sync Scream 22",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 22,
+    "name": "8-Voice Dual VCO Poly 23",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 23,
+    "name": "Sub Octave Bass 24",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 24,
+    "name": "Warm Poly Strings 25",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 25,
+    "name": "Reso Acid Pluck 26",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 26,
+    "name": "Unison Detune Lead 27",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 27,
+    "name": "Polymod Noise Wind 28",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 28,
+    "name": "Vintage Clavinet 29",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 29,
+    "name": "Punchy Fifth Stabs 30",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 30,
+    "name": "P800 Classic Brass 31",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 31,
+    "name": "GliGli Sync Scream 32",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 32,
+    "name": "8-Voice Dual VCO Poly 33",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 33,
+    "name": "Sub Octave Bass 34",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 34,
+    "name": "Warm Poly Strings 35",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 35,
+    "name": "Reso Acid Pluck 36",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 36,
+    "name": "Unison Detune Lead 37",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 37,
+    "name": "Polymod Noise Wind 38",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 38,
+    "name": "Vintage Clavinet 39",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 39,
+    "name": "Punchy Fifth Stabs 40",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 40,
+    "name": "P800 Classic Brass 41",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 41,
+    "name": "GliGli Sync Scream 42",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 42,
+    "name": "8-Voice Dual VCO Poly 43",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 43,
+    "name": "Sub Octave Bass 44",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 44,
+    "name": "Warm Poly Strings 45",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 45,
+    "name": "Reso Acid Pluck 46",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 46,
+    "name": "Unison Detune Lead 47",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 47,
+    "name": "Polymod Noise Wind 48",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 48,
+    "name": "Vintage Clavinet 49",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 49,
+    "name": "Punchy Fifth Stabs 50",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 50,
+    "name": "P800 Classic Brass 51",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 51,
+    "name": "GliGli Sync Scream 52",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 52,
+    "name": "8-Voice Dual VCO Poly 53",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 53,
+    "name": "Sub Octave Bass 54",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 54,
+    "name": "Warm Poly Strings 55",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 55,
+    "name": "Reso Acid Pluck 56",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 56,
+    "name": "Unison Detune Lead 57",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 57,
+    "name": "Polymod Noise Wind 58",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 58,
+    "name": "Vintage Clavinet 59",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 59,
+    "name": "Punchy Fifth Stabs 60",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 60,
+    "name": "P800 Classic Brass 61",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 61,
+    "name": "GliGli Sync Scream 62",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 62,
+    "name": "8-Voice Dual VCO Poly 63",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 63,
+    "name": "Sub Octave Bass 64",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 64,
+    "name": "Warm Poly Strings 65",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 65,
+    "name": "Reso Acid Pluck 66",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 66,
+    "name": "Unison Detune Lead 67",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 67,
+    "name": "Polymod Noise Wind 68",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 68,
+    "name": "Vintage Clavinet 69",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 69,
+    "name": "Punchy Fifth Stabs 70",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 70,
+    "name": "P800 Classic Brass 71",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 71,
+    "name": "GliGli Sync Scream 72",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 72,
+    "name": "8-Voice Dual VCO Poly 73",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 73,
+    "name": "Sub Octave Bass 74",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 74,
+    "name": "Warm Poly Strings 75",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 75,
+    "name": "Reso Acid Pluck 76",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 76,
+    "name": "Unison Detune Lead 77",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 77,
+    "name": "Polymod Noise Wind 78",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 78,
+    "name": "Vintage Clavinet 79",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 79,
+    "name": "Punchy Fifth Stabs 80",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 80,
+    "name": "P800 Classic Brass 81",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 81,
+    "name": "GliGli Sync Scream 82",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 82,
+    "name": "8-Voice Dual VCO Poly 83",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 83,
+    "name": "Sub Octave Bass 84",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 84,
+    "name": "Warm Poly Strings 85",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 85,
+    "name": "Reso Acid Pluck 86",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 86,
+    "name": "Unison Detune Lead 87",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 87,
+    "name": "Polymod Noise Wind 88",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 88,
+    "name": "Vintage Clavinet 89",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 89,
+    "name": "Punchy Fifth Stabs 90",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 90,
+    "name": "P800 Classic Brass 91",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 91,
+    "name": "GliGli Sync Scream 92",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 92,
+    "name": "8-Voice Dual VCO Poly 93",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 93,
+    "name": "Sub Octave Bass 94",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 94,
+    "name": "Warm Poly Strings 95",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 95,
+    "name": "Reso Acid Pluck 96",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 96,
+    "name": "Unison Detune Lead 97",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 97,
+    "name": "Polymod Noise Wind 98",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 98,
+    "name": "Vintage Clavinet 99",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 0",
+    "program": 99,
+    "name": "Punchy Fifth Stabs 100",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 0,
+    "name": "P800 Classic Brass",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 1,
+    "name": "GliGli Sync Scream",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 2,
+    "name": "8-Voice Dual VCO Poly",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 3,
+    "name": "Sub Octave Bass",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 4,
+    "name": "Warm Poly Strings",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 5,
+    "name": "Reso Acid Pluck",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 6,
+    "name": "Unison Detune Lead",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 7,
+    "name": "Polymod Noise Wind",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 8,
+    "name": "Vintage Clavinet",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 9,
+    "name": "Punchy Fifth Stabs",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 10,
+    "name": "P800 Classic Brass 11",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 11,
+    "name": "GliGli Sync Scream 12",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 12,
+    "name": "8-Voice Dual VCO Poly 13",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 13,
+    "name": "Sub Octave Bass 14",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 14,
+    "name": "Warm Poly Strings 15",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 15,
+    "name": "Reso Acid Pluck 16",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 16,
+    "name": "Unison Detune Lead 17",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 17,
+    "name": "Polymod Noise Wind 18",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 18,
+    "name": "Vintage Clavinet 19",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 19,
+    "name": "Punchy Fifth Stabs 20",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 20,
+    "name": "P800 Classic Brass 21",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 21,
+    "name": "GliGli Sync Scream 22",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 22,
+    "name": "8-Voice Dual VCO Poly 23",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 23,
+    "name": "Sub Octave Bass 24",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 24,
+    "name": "Warm Poly Strings 25",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 25,
+    "name": "Reso Acid Pluck 26",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 26,
+    "name": "Unison Detune Lead 27",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 27,
+    "name": "Polymod Noise Wind 28",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 28,
+    "name": "Vintage Clavinet 29",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 29,
+    "name": "Punchy Fifth Stabs 30",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 30,
+    "name": "P800 Classic Brass 31",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 31,
+    "name": "GliGli Sync Scream 32",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 32,
+    "name": "8-Voice Dual VCO Poly 33",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 33,
+    "name": "Sub Octave Bass 34",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 34,
+    "name": "Warm Poly Strings 35",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 35,
+    "name": "Reso Acid Pluck 36",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 36,
+    "name": "Unison Detune Lead 37",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 37,
+    "name": "Polymod Noise Wind 38",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 38,
+    "name": "Vintage Clavinet 39",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 39,
+    "name": "Punchy Fifth Stabs 40",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 40,
+    "name": "P800 Classic Brass 41",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 41,
+    "name": "GliGli Sync Scream 42",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 42,
+    "name": "8-Voice Dual VCO Poly 43",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 43,
+    "name": "Sub Octave Bass 44",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 44,
+    "name": "Warm Poly Strings 45",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 45,
+    "name": "Reso Acid Pluck 46",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 46,
+    "name": "Unison Detune Lead 47",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 47,
+    "name": "Polymod Noise Wind 48",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 48,
+    "name": "Vintage Clavinet 49",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 49,
+    "name": "Punchy Fifth Stabs 50",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 50,
+    "name": "P800 Classic Brass 51",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 51,
+    "name": "GliGli Sync Scream 52",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 52,
+    "name": "8-Voice Dual VCO Poly 53",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 53,
+    "name": "Sub Octave Bass 54",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 54,
+    "name": "Warm Poly Strings 55",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 55,
+    "name": "Reso Acid Pluck 56",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 56,
+    "name": "Unison Detune Lead 57",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 57,
+    "name": "Polymod Noise Wind 58",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 58,
+    "name": "Vintage Clavinet 59",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 59,
+    "name": "Punchy Fifth Stabs 60",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 60,
+    "name": "P800 Classic Brass 61",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 61,
+    "name": "GliGli Sync Scream 62",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 62,
+    "name": "8-Voice Dual VCO Poly 63",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 63,
+    "name": "Sub Octave Bass 64",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 64,
+    "name": "Warm Poly Strings 65",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 65,
+    "name": "Reso Acid Pluck 66",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 66,
+    "name": "Unison Detune Lead 67",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 67,
+    "name": "Polymod Noise Wind 68",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 68,
+    "name": "Vintage Clavinet 69",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 69,
+    "name": "Punchy Fifth Stabs 70",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 70,
+    "name": "P800 Classic Brass 71",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 71,
+    "name": "GliGli Sync Scream 72",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 72,
+    "name": "8-Voice Dual VCO Poly 73",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 73,
+    "name": "Sub Octave Bass 74",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 74,
+    "name": "Warm Poly Strings 75",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 75,
+    "name": "Reso Acid Pluck 76",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 76,
+    "name": "Unison Detune Lead 77",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 77,
+    "name": "Polymod Noise Wind 78",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 78,
+    "name": "Vintage Clavinet 79",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 79,
+    "name": "Punchy Fifth Stabs 80",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 80,
+    "name": "P800 Classic Brass 81",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 81,
+    "name": "GliGli Sync Scream 82",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 82,
+    "name": "8-Voice Dual VCO Poly 83",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 83,
+    "name": "Sub Octave Bass 84",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 84,
+    "name": "Warm Poly Strings 85",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 85,
+    "name": "Reso Acid Pluck 86",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 86,
+    "name": "Unison Detune Lead 87",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 87,
+    "name": "Polymod Noise Wind 88",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 88,
+    "name": "Vintage Clavinet 89",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 89,
+    "name": "Punchy Fifth Stabs 90",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 90,
+    "name": "P800 Classic Brass 91",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 91,
+    "name": "GliGli Sync Scream 92",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 92,
+    "name": "8-Voice Dual VCO Poly 93",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 93,
+    "name": "Sub Octave Bass 94",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 94,
+    "name": "Warm Poly Strings 95",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 95,
+    "name": "Reso Acid Pluck 96",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 96,
+    "name": "Unison Detune Lead 97",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 97,
+    "name": "Polymod Noise Wind 98",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 98,
+    "name": "Vintage Clavinet 99",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 99,
+    "name": "Punchy Fifth Stabs 100",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 0,
+    "name": "P800 Classic Brass",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 1,
+    "name": "GliGli Sync Scream",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 2,
+    "name": "8-Voice Dual VCO Poly",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 3,
+    "name": "Sub Octave Bass",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 4,
+    "name": "Warm Poly Strings",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 5,
+    "name": "Reso Acid Pluck",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 6,
+    "name": "Unison Detune Lead",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 7,
+    "name": "Polymod Noise Wind",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 8,
+    "name": "Vintage Clavinet",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 9,
+    "name": "Punchy Fifth Stabs",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 10,
+    "name": "P800 Classic Brass 11",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 11,
+    "name": "GliGli Sync Scream 12",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 12,
+    "name": "8-Voice Dual VCO Poly 13",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 13,
+    "name": "Sub Octave Bass 14",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 14,
+    "name": "Warm Poly Strings 15",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 15,
+    "name": "Reso Acid Pluck 16",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 16,
+    "name": "Unison Detune Lead 17",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 17,
+    "name": "Polymod Noise Wind 18",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 18,
+    "name": "Vintage Clavinet 19",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 19,
+    "name": "Punchy Fifth Stabs 20",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 20,
+    "name": "P800 Classic Brass 21",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 21,
+    "name": "GliGli Sync Scream 22",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 22,
+    "name": "8-Voice Dual VCO Poly 23",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 23,
+    "name": "Sub Octave Bass 24",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 24,
+    "name": "Warm Poly Strings 25",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 25,
+    "name": "Reso Acid Pluck 26",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 26,
+    "name": "Unison Detune Lead 27",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 27,
+    "name": "Polymod Noise Wind 28",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 28,
+    "name": "Vintage Clavinet 29",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 29,
+    "name": "Punchy Fifth Stabs 30",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 30,
+    "name": "P800 Classic Brass 31",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 31,
+    "name": "GliGli Sync Scream 32",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 32,
+    "name": "8-Voice Dual VCO Poly 33",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 33,
+    "name": "Sub Octave Bass 34",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 34,
+    "name": "Warm Poly Strings 35",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 35,
+    "name": "Reso Acid Pluck 36",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 36,
+    "name": "Unison Detune Lead 37",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 37,
+    "name": "Polymod Noise Wind 38",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 38,
+    "name": "Vintage Clavinet 39",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 39,
+    "name": "Punchy Fifth Stabs 40",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 40,
+    "name": "P800 Classic Brass 41",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 41,
+    "name": "GliGli Sync Scream 42",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 42,
+    "name": "8-Voice Dual VCO Poly 43",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 43,
+    "name": "Sub Octave Bass 44",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 44,
+    "name": "Warm Poly Strings 45",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 45,
+    "name": "Reso Acid Pluck 46",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 46,
+    "name": "Unison Detune Lead 47",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 47,
+    "name": "Polymod Noise Wind 48",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 48,
+    "name": "Vintage Clavinet 49",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 49,
+    "name": "Punchy Fifth Stabs 50",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 50,
+    "name": "P800 Classic Brass 51",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 51,
+    "name": "GliGli Sync Scream 52",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 52,
+    "name": "8-Voice Dual VCO Poly 53",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 53,
+    "name": "Sub Octave Bass 54",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 54,
+    "name": "Warm Poly Strings 55",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 55,
+    "name": "Reso Acid Pluck 56",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 56,
+    "name": "Unison Detune Lead 57",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 57,
+    "name": "Polymod Noise Wind 58",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 58,
+    "name": "Vintage Clavinet 59",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 59,
+    "name": "Punchy Fifth Stabs 60",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 60,
+    "name": "P800 Classic Brass 61",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 61,
+    "name": "GliGli Sync Scream 62",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 62,
+    "name": "8-Voice Dual VCO Poly 63",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 63,
+    "name": "Sub Octave Bass 64",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 64,
+    "name": "Warm Poly Strings 65",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 65,
+    "name": "Reso Acid Pluck 66",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 66,
+    "name": "Unison Detune Lead 67",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 67,
+    "name": "Polymod Noise Wind 68",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 68,
+    "name": "Vintage Clavinet 69",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 69,
+    "name": "Punchy Fifth Stabs 70",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 70,
+    "name": "P800 Classic Brass 71",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 71,
+    "name": "GliGli Sync Scream 72",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 72,
+    "name": "8-Voice Dual VCO Poly 73",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 73,
+    "name": "Sub Octave Bass 74",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 74,
+    "name": "Warm Poly Strings 75",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 75,
+    "name": "Reso Acid Pluck 76",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 76,
+    "name": "Unison Detune Lead 77",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 77,
+    "name": "Polymod Noise Wind 78",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 78,
+    "name": "Vintage Clavinet 79",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 79,
+    "name": "Punchy Fifth Stabs 80",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 80,
+    "name": "P800 Classic Brass 81",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 81,
+    "name": "GliGli Sync Scream 82",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 82,
+    "name": "8-Voice Dual VCO Poly 83",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 83,
+    "name": "Sub Octave Bass 84",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 84,
+    "name": "Warm Poly Strings 85",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 85,
+    "name": "Reso Acid Pluck 86",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 86,
+    "name": "Unison Detune Lead 87",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 87,
+    "name": "Polymod Noise Wind 88",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 88,
+    "name": "Vintage Clavinet 89",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 89,
+    "name": "Punchy Fifth Stabs 90",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 90,
+    "name": "P800 Classic Brass 91",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 91,
+    "name": "GliGli Sync Scream 92",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 92,
+    "name": "8-Voice Dual VCO Poly 93",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 93,
+    "name": "Sub Octave Bass 94",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 94,
+    "name": "Warm Poly Strings 95",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 95,
+    "name": "Reso Acid Pluck 96",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 96,
+    "name": "Unison Detune Lead 97",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 97,
+    "name": "Polymod Noise Wind 98",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 98,
+    "name": "Vintage Clavinet 99",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 99,
+    "name": "Punchy Fifth Stabs 100",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 0,
+    "name": "P800 Classic Brass",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 1,
+    "name": "GliGli Sync Scream",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 2,
+    "name": "8-Voice Dual VCO Poly",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 3,
+    "name": "Sub Octave Bass",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 4,
+    "name": "Warm Poly Strings",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 5,
+    "name": "Reso Acid Pluck",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 6,
+    "name": "Unison Detune Lead",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 7,
+    "name": "Polymod Noise Wind",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 8,
+    "name": "Vintage Clavinet",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 9,
+    "name": "Punchy Fifth Stabs",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 10,
+    "name": "P800 Classic Brass 11",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 11,
+    "name": "GliGli Sync Scream 12",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 12,
+    "name": "8-Voice Dual VCO Poly 13",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 13,
+    "name": "Sub Octave Bass 14",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 14,
+    "name": "Warm Poly Strings 15",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 15,
+    "name": "Reso Acid Pluck 16",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 16,
+    "name": "Unison Detune Lead 17",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 17,
+    "name": "Polymod Noise Wind 18",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 18,
+    "name": "Vintage Clavinet 19",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 19,
+    "name": "Punchy Fifth Stabs 20",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 20,
+    "name": "P800 Classic Brass 21",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 21,
+    "name": "GliGli Sync Scream 22",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 22,
+    "name": "8-Voice Dual VCO Poly 23",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 23,
+    "name": "Sub Octave Bass 24",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 24,
+    "name": "Warm Poly Strings 25",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 25,
+    "name": "Reso Acid Pluck 26",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 26,
+    "name": "Unison Detune Lead 27",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 27,
+    "name": "Polymod Noise Wind 28",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 28,
+    "name": "Vintage Clavinet 29",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 29,
+    "name": "Punchy Fifth Stabs 30",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 30,
+    "name": "P800 Classic Brass 31",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 31,
+    "name": "GliGli Sync Scream 32",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 32,
+    "name": "8-Voice Dual VCO Poly 33",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 33,
+    "name": "Sub Octave Bass 34",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 34,
+    "name": "Warm Poly Strings 35",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 35,
+    "name": "Reso Acid Pluck 36",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 36,
+    "name": "Unison Detune Lead 37",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 37,
+    "name": "Polymod Noise Wind 38",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 38,
+    "name": "Vintage Clavinet 39",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 39,
+    "name": "Punchy Fifth Stabs 40",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 40,
+    "name": "P800 Classic Brass 41",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 41,
+    "name": "GliGli Sync Scream 42",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 42,
+    "name": "8-Voice Dual VCO Poly 43",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 43,
+    "name": "Sub Octave Bass 44",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 44,
+    "name": "Warm Poly Strings 45",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 45,
+    "name": "Reso Acid Pluck 46",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 46,
+    "name": "Unison Detune Lead 47",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 47,
+    "name": "Polymod Noise Wind 48",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 48,
+    "name": "Vintage Clavinet 49",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 49,
+    "name": "Punchy Fifth Stabs 50",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 50,
+    "name": "P800 Classic Brass 51",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 51,
+    "name": "GliGli Sync Scream 52",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 52,
+    "name": "8-Voice Dual VCO Poly 53",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 53,
+    "name": "Sub Octave Bass 54",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 54,
+    "name": "Warm Poly Strings 55",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 55,
+    "name": "Reso Acid Pluck 56",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 56,
+    "name": "Unison Detune Lead 57",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 57,
+    "name": "Polymod Noise Wind 58",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 58,
+    "name": "Vintage Clavinet 59",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 59,
+    "name": "Punchy Fifth Stabs 60",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 60,
+    "name": "P800 Classic Brass 61",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 61,
+    "name": "GliGli Sync Scream 62",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 62,
+    "name": "8-Voice Dual VCO Poly 63",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 63,
+    "name": "Sub Octave Bass 64",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 64,
+    "name": "Warm Poly Strings 65",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 65,
+    "name": "Reso Acid Pluck 66",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 66,
+    "name": "Unison Detune Lead 67",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 67,
+    "name": "Polymod Noise Wind 68",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 68,
+    "name": "Vintage Clavinet 69",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 69,
+    "name": "Punchy Fifth Stabs 70",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 70,
+    "name": "P800 Classic Brass 71",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 71,
+    "name": "GliGli Sync Scream 72",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 72,
+    "name": "8-Voice Dual VCO Poly 73",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 73,
+    "name": "Sub Octave Bass 74",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 74,
+    "name": "Warm Poly Strings 75",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 75,
+    "name": "Reso Acid Pluck 76",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 76,
+    "name": "Unison Detune Lead 77",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 77,
+    "name": "Polymod Noise Wind 78",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 78,
+    "name": "Vintage Clavinet 79",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 79,
+    "name": "Punchy Fifth Stabs 80",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 80,
+    "name": "P800 Classic Brass 81",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 81,
+    "name": "GliGli Sync Scream 82",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 82,
+    "name": "8-Voice Dual VCO Poly 83",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 83,
+    "name": "Sub Octave Bass 84",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 84,
+    "name": "Warm Poly Strings 85",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 85,
+    "name": "Reso Acid Pluck 86",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 86,
+    "name": "Unison Detune Lead 87",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 87,
+    "name": "Polymod Noise Wind 88",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 88,
+    "name": "Vintage Clavinet 89",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 89,
+    "name": "Punchy Fifth Stabs 90",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 90,
+    "name": "P800 Classic Brass 91",
+    "category": "Brass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 91,
+    "name": "GliGli Sync Scream 92",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 92,
+    "name": "8-Voice Dual VCO Poly 93",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 93,
+    "name": "Sub Octave Bass 94",
+    "category": "Bass",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 94,
+    "name": "Warm Poly Strings 95",
+    "category": "Pad",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 95,
+    "name": "Reso Acid Pluck 96",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 96,
+    "name": "Unison Detune Lead 97",
+    "category": "Lead",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 97,
+    "name": "Polymod Noise Wind 98",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 98,
+    "name": "Vintage Clavinet 99",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 99,
+    "name": "Punchy Fifth Stabs 100",
+    "category": "Poly",
+    "tags": [
+      "8-voice-analog",
+      "dual-vco",
+      "gligli-mod",
+      "poly"
+    ]
+  }
+]

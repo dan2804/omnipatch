@@ -26,12 +26,36 @@ OmniPatch is a high-performance, modular patch librarian and hardware editor wri
 
 ---
 
-## Supported Synthesizers (129 Production Profiles)
+## Supported Synthesizers (153 Production Profiles)
 
-OmniPatch ships with 129 comprehensive device profiles across 14 legendary synthesizer manufacturers:
+OmniPatch ships with 153 comprehensive device profiles across 20 legendary synthesizer manufacturers:
 
 | Synthesizer | Manufacturer | Architecture | Parameters | Presets | SysEx ID / Details |
 | :--- | :--- | :--- | :---: | :---: | :--- |
+| **Alesis Andromeda A6** | Alesis | 16-Voice Discrete Analog Monster | 8 | 384 | `0x00 0x00 0x0E` · Discrete VCOs, dual filters (Moog ladder + SEM), ribbon |
+| **Alesis Ion** | Alesis | High-Resolution Virtual Analog Synthesizer | 5 | 512 | `0x00 0x00 0x0E` · 17 filter models, 3 continuous mod wheels, 8 banks |
+| **Alesis Micron** | Alesis | Compact Virtual Analog Synthesizer | 5 | 500 | `0x00 0x00 0x0E` · Ion sound engine, step seq, rhythm patterns, vocoder |
+| **Alesis QS6 / QS7 / QS8 / QSR**| Alesis | 64-Voice Expandable Synthesizer | 5 | 640 | `0x00 0x00 0x0E` · 16MB sound ROM, PCMCIA card expansion, 5 banks |
+| **Alesis QuadraSynth / Plus** | Alesis | 64-Voice Master Synthesizer | 5 | 512 | `0x00 0x00 0x0E` · 64-voice polyphony, Plus Piano soundset, 4 banks |
+| **Alesis D4 / DM5** | Alesis | High-Sample-Rate Drum Sound Module | 3 | 500 | `0x00 0x00 0x0E` · 500 punchy 16-bit acoustic and electronic drum sounds |
+| **Alesis HR-16 / HR-16B** | Alesis | 16-Bit Digital Drum Machine | 2 | 98 | `0x00 0x00 0x0E` · 49 authentic 16-bit drum sounds & rhythm patterns |
+| **Alesis Quadraverb / Quadraverb 2**| Alesis | 20-Bit Digital Multi-Effects Processor | 4 | 100 | `0x00 0x00 0x0E` · Reverb, delay, pitch, EQ, 100 studio presets |
+| **Kawai K5000S / R / W** | Kawai | Advanced Additive Synthesizer Flagship | 4 | 320 | `0x40` (ID `0x0A`) · 128 additive harmonics, Formant Filter (128 bandpass) |
+| **Kawai K1 / K1m / K1r** | Kawai | VM Vector Synthesizer | 3 | 96 | `0x40` (ID `0x01`) · Vector joystick, 256 16-bit PCM waveforms, single & multi |
+| **Kawai K4 / K4r** | Kawai | Digital Synthesizer w/ Resonant Filter | 4 | 128 | `0x40` (ID `0x04`) · Resonant digital lowpass/highpass filters, 16-bit PCM |
+| **Kawai K5** | Kawai | Digital Additive Synthesizer | 3 | 96 | `0x40` (ID `0x02`) · 126 harmonic additive synthesis, single & multi setups |
+| **Kawai XD-5** | Kawai | Percussion Synthesizer Module | 3 | 80 | `0x40` (ID `0x06`) · 16-bit PCM percussion synthesis with resonant filters |
+| **Access Virus TI / TI2 / Snow** | Access Music | Dual-DSP Flagship Synthesizer | 5 | 2,048 | `0x00 0x20 0x33` · Dual DSP, Total Integration, hypersaw, wavetable synthesis |
+| **Access Virus C / Indigo 2** | Access Music | 32-Voice Virtual Analog Synthesizer | 6 | 1,024 | `0x00 0x20 0x33` · 32 voices, 3-band EQ per part, Moog filter model, 8 banks |
+| **Access Virus B / Indigo** | Access Music | Virtual Analog Synthesizer | 6 | 512 | `0x00 0x20 0x33` · 24 voices, DSP56303, 3 oscs + sub, 4 banks A-D |
+| **ASM Hydrasynth (All Models)** | ASM | Wavemorphing Synthesizer Flagship | 5 | 640 | `0x00 0x21 0x3D` · Wavemorphing, Mutators (FM, WaveStack), Poly-Aftertouch |
+| **Quasimidi Rave-O-Lution 309** | Quasimidi | Dance & Techno Groove Synthesizer | 4 | 99 | `0x3F` (ID `0x00`) · TB-303 and TR-808/909 emulations, real-time knobs |
+| **Quasimidi Sirius** | Quasimidi | Dance Keyboard Workstation & Vocoder | 4 | 384 | `0x3F` (ID `0x02`) · 7-band vocoder, 11-track pattern sequencer, 288 presets |
+| **Quasimidi Polymorph** | Quasimidi | 4-Part Virtual Analog Synthesizer | 4 | 128 | `0x3F` (ID `0x04`) · 4-part modular virtual analog rack, 16-step sequencer |
+| **Quasimidi Technox** | Quasimidi | 16-Part Techno Sound Module | 3 | 256 | `0x3F` (ID `0x01`) · 16 multitimbral parts dedicated to electronic dance music |
+| **Behringer Deepmind 12 / 12D** | Behringer | 12-Voice Polyphonic Analog Synthesizer | 6 | 1,024 | `0x00 0x20 0x32` · 12 analog voices, dual DCOs, 4 Klark Teknik FX, 8 banks |
+| **Behringer PRO-800** | Behringer | 8-Voice Dual-VCO Polyphonic Analog | 5 | 400 | `0x00 0x20 0x32` · 8 voices, dual VCOs, Prophet 600 clone with GliGli mods |
+| **Studio Electronics SE-1 / SE-1X**| Studio Electronics | Discrete 3-VCO Analog Synthesizer | 6 | 396 | `0x00 0x01 0x25` · 3 discrete analog VCOs, Moog 24dB + Oberheim 12dB SEM |
 | **Oberheim Matrix-1000** | Oberheim | 6-Voice 1U Analog Synthesizer | 5 | 1,000 | `0x10` (ID `0x06`) · 1,000 matrix modulation patches, CEM3396 analog VCF |
 | **Oberheim Matrix-6 / 6R** | Oberheim | Polyphonic Analog Synthesizer | 5 | 100 | `0x10` (ID `0x06`) · 100 memory patches, matrix modulation, CEM3396 |
 | **Oberheim Matrix-12 / Xpander** | Oberheim | Flagship Multi-Mode Analog Synthesizer | 5 | 100 | `0x10` (ID `0x02`) · 15-mode state-variable filter, CEM3374 discrete VCOs |
@@ -177,19 +201,25 @@ omnipatch/
 │   ├── omnipatch-midi/       # midir low-latency packet pacing, hardware throttling
 │   ├── omnipatch-profile/    # YAML parser, parameter mapping, validation engine
 │   └── omnipatch-sysex/      # Checksum calculators (Roland, E-MU, Casio, Waldorf)
-├── devices/                  # 129 Declarative YAML hardware profiles & factory presets
-│   ├── access/               # Access Music GmbH (Virus A)
+├── devices/                  # 153 Declarative YAML hardware profiles & factory presets
+│   ├── access/               # Access Music (Virus A, B, C, TI, TI2, Indigo, Snow)
 │   ├── akai/                 # Akai Professional (AX60)
+│   ├── alesis/               # Alesis (Andromeda A6, Ion, Micron, QS Series, QuadraSynth, D4/DM5, HR-16)
+│   ├── asm/                  # Ashun Sound Machines (Hydrasynth Desktop, Deluxe, Explorer, Keyboard)
+│   ├── behringer/            # Behringer (Deepmind 12, Deepmind 12D, PRO-800)
 │   ├── casio/                # Casio Computer Co. (CZ-1, CZ-101, CZ-1000, CZ-230S, CZ-3000, CZ-5000)
 │   ├── clavia/               # Clavia Nord (Nord Lead 1, 2, 2X, 3, 4, Nord Rack)
 │   ├── emu/                  # E-MU Systems (Orbit-3, Proteus family, SP-1200, Emax, Vintage, etc.)
 │   ├── ensoniq/              # Ensoniq (ESQ-1, SQ-80, VFX, TS-10, MR Rack)
+│   ├── kawai/                # Kawai (K1, K4, K5, K5000 Additive Flagship, XD-5)
 │   ├── korg/                 # Korg (M1, Wavestation, 01/W, Trinity, Triton, MS2000, microKORG, etc.)
 │   ├── moog/                 # Moog Music (Minimoog Voyager, Sub 37, Sub Phatty, Little Phatty, Minitaur)
 │   ├── novation/             # Novation (Bass Station II, Supernova II, Nova, K-Station, Peak)
 │   ├── oberheim/             # Oberheim (Matrix-1000, Matrix-6, Matrix-12/Xpander, OB-8, OB-X8)
+│   ├── quasimidi/            # Quasimidi (Rave-O-Lution 309, Sirius, Polymorph, Technox)
 │   ├── roland/               # Roland Corporation (JV, JD, Juno, Jupiter, MKS, SC, MC, Fantom, etc.)
 │   ├── sequential/           # Sequential & DSI (Prophet-5, Prophet-6, OB-6, Evolver, P12, Mopho, etc.)
+│   ├── studio_electronics/   # Studio Electronics (SE-1, SE-1X)
 │   ├── waldorf/              # Waldorf Music (Blofeld, Microwave I/XT, Pulse, Pulse 2, Q, Streichfett)
 │   └── yamaha/               # Yamaha Corporation (DX7, DX7II, TX81Z, TX802, DX100, AN1x, CS1x, Motif)
 ├── preview/                  # Web Audio interactive studio prototypes & hardware editors

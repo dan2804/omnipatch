@@ -1,0 +1,7682 @@
+[
+  {
+    "bank": "User Bank",
+    "program": 0,
+    "name": "True Stereo Grand Piano",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 1,
+    "name": "Dense Strings 64V",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 2,
+    "name": "Funky Slap Bass QS",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 3,
+    "name": "Classic Rock B3 Organ",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 4,
+    "name": "Analog Brass Warmth",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 5,
+    "name": "Ambient Motion Pad",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 6,
+    "name": "Techno Pulse Lead",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 7,
+    "name": "Nylon String Acoustic",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 8,
+    "name": "Big Fat Modular Bass",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 9,
+    "name": "Bowed Strings Section",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 10,
+    "name": "Detroit Synth Stabs",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 11,
+    "name": "Orchestral Flute",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 12,
+    "name": "True Stereo Grand Piano 13",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 13,
+    "name": "Dense Strings 64V 14",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 14,
+    "name": "Funky Slap Bass QS 15",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 15,
+    "name": "Classic Rock B3 Organ 16",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 16,
+    "name": "Analog Brass Warmth 17",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 17,
+    "name": "Ambient Motion Pad 18",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 18,
+    "name": "Techno Pulse Lead 19",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 19,
+    "name": "Nylon String Acoustic 20",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 20,
+    "name": "Big Fat Modular Bass 21",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 21,
+    "name": "Bowed Strings Section 22",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 22,
+    "name": "Detroit Synth Stabs 23",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 23,
+    "name": "Orchestral Flute 24",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 24,
+    "name": "True Stereo Grand Piano 25",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 25,
+    "name": "Dense Strings 64V 26",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 26,
+    "name": "Funky Slap Bass QS 27",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 27,
+    "name": "Classic Rock B3 Organ 28",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 28,
+    "name": "Analog Brass Warmth 29",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 29,
+    "name": "Ambient Motion Pad 30",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 30,
+    "name": "Techno Pulse Lead 31",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 31,
+    "name": "Nylon String Acoustic 32",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 32,
+    "name": "Big Fat Modular Bass 33",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 33,
+    "name": "Bowed Strings Section 34",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 34,
+    "name": "Detroit Synth Stabs 35",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 35,
+    "name": "Orchestral Flute 36",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 36,
+    "name": "True Stereo Grand Piano 37",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 37,
+    "name": "Dense Strings 64V 38",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 38,
+    "name": "Funky Slap Bass QS 39",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 39,
+    "name": "Classic Rock B3 Organ 40",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 40,
+    "name": "Analog Brass Warmth 41",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 41,
+    "name": "Ambient Motion Pad 42",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 42,
+    "name": "Techno Pulse Lead 43",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 43,
+    "name": "Nylon String Acoustic 44",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 44,
+    "name": "Big Fat Modular Bass 45",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 45,
+    "name": "Bowed Strings Section 46",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 46,
+    "name": "Detroit Synth Stabs 47",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 47,
+    "name": "Orchestral Flute 48",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 48,
+    "name": "True Stereo Grand Piano 49",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 49,
+    "name": "Dense Strings 64V 50",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 50,
+    "name": "Funky Slap Bass QS 51",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 51,
+    "name": "Classic Rock B3 Organ 52",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 52,
+    "name": "Analog Brass Warmth 53",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 53,
+    "name": "Ambient Motion Pad 54",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 54,
+    "name": "Techno Pulse Lead 55",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 55,
+    "name": "Nylon String Acoustic 56",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 56,
+    "name": "Big Fat Modular Bass 57",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 57,
+    "name": "Bowed Strings Section 58",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 58,
+    "name": "Detroit Synth Stabs 59",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 59,
+    "name": "Orchestral Flute 60",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 60,
+    "name": "True Stereo Grand Piano 61",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 61,
+    "name": "Dense Strings 64V 62",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 62,
+    "name": "Funky Slap Bass QS 63",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 63,
+    "name": "Classic Rock B3 Organ 64",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 64,
+    "name": "Analog Brass Warmth 65",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 65,
+    "name": "Ambient Motion Pad 66",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 66,
+    "name": "Techno Pulse Lead 67",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 67,
+    "name": "Nylon String Acoustic 68",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 68,
+    "name": "Big Fat Modular Bass 69",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 69,
+    "name": "Bowed Strings Section 70",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 70,
+    "name": "Detroit Synth Stabs 71",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 71,
+    "name": "Orchestral Flute 72",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 72,
+    "name": "True Stereo Grand Piano 73",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 73,
+    "name": "Dense Strings 64V 74",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 74,
+    "name": "Funky Slap Bass QS 75",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 75,
+    "name": "Classic Rock B3 Organ 76",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 76,
+    "name": "Analog Brass Warmth 77",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 77,
+    "name": "Ambient Motion Pad 78",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 78,
+    "name": "Techno Pulse Lead 79",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 79,
+    "name": "Nylon String Acoustic 80",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 80,
+    "name": "Big Fat Modular Bass 81",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 81,
+    "name": "Bowed Strings Section 82",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 82,
+    "name": "Detroit Synth Stabs 83",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 83,
+    "name": "Orchestral Flute 84",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 84,
+    "name": "True Stereo Grand Piano 85",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 85,
+    "name": "Dense Strings 64V 86",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 86,
+    "name": "Funky Slap Bass QS 87",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 87,
+    "name": "Classic Rock B3 Organ 88",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 88,
+    "name": "Analog Brass Warmth 89",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 89,
+    "name": "Ambient Motion Pad 90",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 90,
+    "name": "Techno Pulse Lead 91",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 91,
+    "name": "Nylon String Acoustic 92",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 92,
+    "name": "Big Fat Modular Bass 93",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 93,
+    "name": "Bowed Strings Section 94",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 94,
+    "name": "Detroit Synth Stabs 95",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 95,
+    "name": "Orchestral Flute 96",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 96,
+    "name": "True Stereo Grand Piano 97",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 97,
+    "name": "Dense Strings 64V 98",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 98,
+    "name": "Funky Slap Bass QS 99",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 99,
+    "name": "Classic Rock B3 Organ 100",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 100,
+    "name": "Analog Brass Warmth 101",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 101,
+    "name": "Ambient Motion Pad 102",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 102,
+    "name": "Techno Pulse Lead 103",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 103,
+    "name": "Nylon String Acoustic 104",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 104,
+    "name": "Big Fat Modular Bass 105",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 105,
+    "name": "Bowed Strings Section 106",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 106,
+    "name": "Detroit Synth Stabs 107",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 107,
+    "name": "Orchestral Flute 108",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 108,
+    "name": "True Stereo Grand Piano 109",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 109,
+    "name": "Dense Strings 64V 110",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 110,
+    "name": "Funky Slap Bass QS 111",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 111,
+    "name": "Classic Rock B3 Organ 112",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 112,
+    "name": "Analog Brass Warmth 113",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 113,
+    "name": "Ambient Motion Pad 114",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 114,
+    "name": "Techno Pulse Lead 115",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 115,
+    "name": "Nylon String Acoustic 116",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 116,
+    "name": "Big Fat Modular Bass 117",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 117,
+    "name": "Bowed Strings Section 118",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 118,
+    "name": "Detroit Synth Stabs 119",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 119,
+    "name": "Orchestral Flute 120",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 120,
+    "name": "True Stereo Grand Piano 121",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 121,
+    "name": "Dense Strings 64V 122",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 122,
+    "name": "Funky Slap Bass QS 123",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 123,
+    "name": "Classic Rock B3 Organ 124",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 124,
+    "name": "Analog Brass Warmth 125",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 125,
+    "name": "Ambient Motion Pad 126",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 126,
+    "name": "Techno Pulse Lead 127",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank",
+    "program": 127,
+    "name": "Nylon String Acoustic 128",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 0,
+    "name": "True Stereo Grand Piano",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 1,
+    "name": "Dense Strings 64V",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 2,
+    "name": "Funky Slap Bass QS",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 3,
+    "name": "Classic Rock B3 Organ",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 4,
+    "name": "Analog Brass Warmth",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 5,
+    "name": "Ambient Motion Pad",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 6,
+    "name": "Techno Pulse Lead",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 7,
+    "name": "Nylon String Acoustic",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 8,
+    "name": "Big Fat Modular Bass",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 9,
+    "name": "Bowed Strings Section",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 10,
+    "name": "Detroit Synth Stabs",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 11,
+    "name": "Orchestral Flute",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 12,
+    "name": "True Stereo Grand Piano 13",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 13,
+    "name": "Dense Strings 64V 14",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 14,
+    "name": "Funky Slap Bass QS 15",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 15,
+    "name": "Classic Rock B3 Organ 16",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 16,
+    "name": "Analog Brass Warmth 17",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 17,
+    "name": "Ambient Motion Pad 18",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 18,
+    "name": "Techno Pulse Lead 19",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 19,
+    "name": "Nylon String Acoustic 20",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 20,
+    "name": "Big Fat Modular Bass 21",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 21,
+    "name": "Bowed Strings Section 22",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 22,
+    "name": "Detroit Synth Stabs 23",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 23,
+    "name": "Orchestral Flute 24",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 24,
+    "name": "True Stereo Grand Piano 25",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 25,
+    "name": "Dense Strings 64V 26",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 26,
+    "name": "Funky Slap Bass QS 27",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 27,
+    "name": "Classic Rock B3 Organ 28",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 28,
+    "name": "Analog Brass Warmth 29",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 29,
+    "name": "Ambient Motion Pad 30",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 30,
+    "name": "Techno Pulse Lead 31",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 31,
+    "name": "Nylon String Acoustic 32",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 32,
+    "name": "Big Fat Modular Bass 33",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 33,
+    "name": "Bowed Strings Section 34",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 34,
+    "name": "Detroit Synth Stabs 35",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 35,
+    "name": "Orchestral Flute 36",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 36,
+    "name": "True Stereo Grand Piano 37",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 37,
+    "name": "Dense Strings 64V 38",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 38,
+    "name": "Funky Slap Bass QS 39",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 39,
+    "name": "Classic Rock B3 Organ 40",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 40,
+    "name": "Analog Brass Warmth 41",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 41,
+    "name": "Ambient Motion Pad 42",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 42,
+    "name": "Techno Pulse Lead 43",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 43,
+    "name": "Nylon String Acoustic 44",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 44,
+    "name": "Big Fat Modular Bass 45",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 45,
+    "name": "Bowed Strings Section 46",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 46,
+    "name": "Detroit Synth Stabs 47",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 47,
+    "name": "Orchestral Flute 48",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 48,
+    "name": "True Stereo Grand Piano 49",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 49,
+    "name": "Dense Strings 64V 50",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 50,
+    "name": "Funky Slap Bass QS 51",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 51,
+    "name": "Classic Rock B3 Organ 52",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 52,
+    "name": "Analog Brass Warmth 53",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 53,
+    "name": "Ambient Motion Pad 54",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 54,
+    "name": "Techno Pulse Lead 55",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 55,
+    "name": "Nylon String Acoustic 56",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 56,
+    "name": "Big Fat Modular Bass 57",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 57,
+    "name": "Bowed Strings Section 58",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 58,
+    "name": "Detroit Synth Stabs 59",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 59,
+    "name": "Orchestral Flute 60",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 60,
+    "name": "True Stereo Grand Piano 61",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 61,
+    "name": "Dense Strings 64V 62",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 62,
+    "name": "Funky Slap Bass QS 63",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 63,
+    "name": "Classic Rock B3 Organ 64",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 64,
+    "name": "Analog Brass Warmth 65",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 65,
+    "name": "Ambient Motion Pad 66",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 66,
+    "name": "Techno Pulse Lead 67",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 67,
+    "name": "Nylon String Acoustic 68",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 68,
+    "name": "Big Fat Modular Bass 69",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 69,
+    "name": "Bowed Strings Section 70",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 70,
+    "name": "Detroit Synth Stabs 71",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 71,
+    "name": "Orchestral Flute 72",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 72,
+    "name": "True Stereo Grand Piano 73",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 73,
+    "name": "Dense Strings 64V 74",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 74,
+    "name": "Funky Slap Bass QS 75",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 75,
+    "name": "Classic Rock B3 Organ 76",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 76,
+    "name": "Analog Brass Warmth 77",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 77,
+    "name": "Ambient Motion Pad 78",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 78,
+    "name": "Techno Pulse Lead 79",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 79,
+    "name": "Nylon String Acoustic 80",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 80,
+    "name": "Big Fat Modular Bass 81",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 81,
+    "name": "Bowed Strings Section 82",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 82,
+    "name": "Detroit Synth Stabs 83",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 83,
+    "name": "Orchestral Flute 84",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 84,
+    "name": "True Stereo Grand Piano 85",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 85,
+    "name": "Dense Strings 64V 86",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 86,
+    "name": "Funky Slap Bass QS 87",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 87,
+    "name": "Classic Rock B3 Organ 88",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 88,
+    "name": "Analog Brass Warmth 89",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 89,
+    "name": "Ambient Motion Pad 90",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 90,
+    "name": "Techno Pulse Lead 91",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 91,
+    "name": "Nylon String Acoustic 92",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 92,
+    "name": "Big Fat Modular Bass 93",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 93,
+    "name": "Bowed Strings Section 94",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 94,
+    "name": "Detroit Synth Stabs 95",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 95,
+    "name": "Orchestral Flute 96",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 96,
+    "name": "True Stereo Grand Piano 97",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 97,
+    "name": "Dense Strings 64V 98",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 98,
+    "name": "Funky Slap Bass QS 99",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 99,
+    "name": "Classic Rock B3 Organ 100",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 100,
+    "name": "Analog Brass Warmth 101",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 101,
+    "name": "Ambient Motion Pad 102",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 102,
+    "name": "Techno Pulse Lead 103",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 103,
+    "name": "Nylon String Acoustic 104",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 104,
+    "name": "Big Fat Modular Bass 105",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 105,
+    "name": "Bowed Strings Section 106",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 106,
+    "name": "Detroit Synth Stabs 107",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 107,
+    "name": "Orchestral Flute 108",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 108,
+    "name": "True Stereo Grand Piano 109",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 109,
+    "name": "Dense Strings 64V 110",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 110,
+    "name": "Funky Slap Bass QS 111",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 111,
+    "name": "Classic Rock B3 Organ 112",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 112,
+    "name": "Analog Brass Warmth 113",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 113,
+    "name": "Ambient Motion Pad 114",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 114,
+    "name": "Techno Pulse Lead 115",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 115,
+    "name": "Nylon String Acoustic 116",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 116,
+    "name": "Big Fat Modular Bass 117",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 117,
+    "name": "Bowed Strings Section 118",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 118,
+    "name": "Detroit Synth Stabs 119",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 119,
+    "name": "Orchestral Flute 120",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 120,
+    "name": "True Stereo Grand Piano 121",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 121,
+    "name": "Dense Strings 64V 122",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 122,
+    "name": "Funky Slap Bass QS 123",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 123,
+    "name": "Classic Rock B3 Organ 124",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 124,
+    "name": "Analog Brass Warmth 125",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 125,
+    "name": "Ambient Motion Pad 126",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 126,
+    "name": "Techno Pulse Lead 127",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 1",
+    "program": 127,
+    "name": "Nylon String Acoustic 128",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 0,
+    "name": "True Stereo Grand Piano",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 1,
+    "name": "Dense Strings 64V",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 2,
+    "name": "Funky Slap Bass QS",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 3,
+    "name": "Classic Rock B3 Organ",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 4,
+    "name": "Analog Brass Warmth",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 5,
+    "name": "Ambient Motion Pad",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 6,
+    "name": "Techno Pulse Lead",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 7,
+    "name": "Nylon String Acoustic",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 8,
+    "name": "Big Fat Modular Bass",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 9,
+    "name": "Bowed Strings Section",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 10,
+    "name": "Detroit Synth Stabs",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 11,
+    "name": "Orchestral Flute",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 12,
+    "name": "True Stereo Grand Piano 13",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 13,
+    "name": "Dense Strings 64V 14",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 14,
+    "name": "Funky Slap Bass QS 15",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 15,
+    "name": "Classic Rock B3 Organ 16",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 16,
+    "name": "Analog Brass Warmth 17",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 17,
+    "name": "Ambient Motion Pad 18",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 18,
+    "name": "Techno Pulse Lead 19",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 19,
+    "name": "Nylon String Acoustic 20",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 20,
+    "name": "Big Fat Modular Bass 21",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 21,
+    "name": "Bowed Strings Section 22",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 22,
+    "name": "Detroit Synth Stabs 23",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 23,
+    "name": "Orchestral Flute 24",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 24,
+    "name": "True Stereo Grand Piano 25",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 25,
+    "name": "Dense Strings 64V 26",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 26,
+    "name": "Funky Slap Bass QS 27",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 27,
+    "name": "Classic Rock B3 Organ 28",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 28,
+    "name": "Analog Brass Warmth 29",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 29,
+    "name": "Ambient Motion Pad 30",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 30,
+    "name": "Techno Pulse Lead 31",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 31,
+    "name": "Nylon String Acoustic 32",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 32,
+    "name": "Big Fat Modular Bass 33",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 33,
+    "name": "Bowed Strings Section 34",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 34,
+    "name": "Detroit Synth Stabs 35",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 35,
+    "name": "Orchestral Flute 36",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 36,
+    "name": "True Stereo Grand Piano 37",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 37,
+    "name": "Dense Strings 64V 38",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 38,
+    "name": "Funky Slap Bass QS 39",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 39,
+    "name": "Classic Rock B3 Organ 40",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 40,
+    "name": "Analog Brass Warmth 41",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 41,
+    "name": "Ambient Motion Pad 42",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 42,
+    "name": "Techno Pulse Lead 43",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 43,
+    "name": "Nylon String Acoustic 44",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 44,
+    "name": "Big Fat Modular Bass 45",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 45,
+    "name": "Bowed Strings Section 46",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 46,
+    "name": "Detroit Synth Stabs 47",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 47,
+    "name": "Orchestral Flute 48",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 48,
+    "name": "True Stereo Grand Piano 49",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 49,
+    "name": "Dense Strings 64V 50",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 50,
+    "name": "Funky Slap Bass QS 51",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 51,
+    "name": "Classic Rock B3 Organ 52",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 52,
+    "name": "Analog Brass Warmth 53",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 53,
+    "name": "Ambient Motion Pad 54",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 54,
+    "name": "Techno Pulse Lead 55",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 55,
+    "name": "Nylon String Acoustic 56",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 56,
+    "name": "Big Fat Modular Bass 57",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 57,
+    "name": "Bowed Strings Section 58",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 58,
+    "name": "Detroit Synth Stabs 59",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 59,
+    "name": "Orchestral Flute 60",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 60,
+    "name": "True Stereo Grand Piano 61",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 61,
+    "name": "Dense Strings 64V 62",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 62,
+    "name": "Funky Slap Bass QS 63",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 63,
+    "name": "Classic Rock B3 Organ 64",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 64,
+    "name": "Analog Brass Warmth 65",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 65,
+    "name": "Ambient Motion Pad 66",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 66,
+    "name": "Techno Pulse Lead 67",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 67,
+    "name": "Nylon String Acoustic 68",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 68,
+    "name": "Big Fat Modular Bass 69",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 69,
+    "name": "Bowed Strings Section 70",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 70,
+    "name": "Detroit Synth Stabs 71",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 71,
+    "name": "Orchestral Flute 72",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 72,
+    "name": "True Stereo Grand Piano 73",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 73,
+    "name": "Dense Strings 64V 74",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 74,
+    "name": "Funky Slap Bass QS 75",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 75,
+    "name": "Classic Rock B3 Organ 76",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 76,
+    "name": "Analog Brass Warmth 77",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 77,
+    "name": "Ambient Motion Pad 78",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 78,
+    "name": "Techno Pulse Lead 79",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 79,
+    "name": "Nylon String Acoustic 80",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 80,
+    "name": "Big Fat Modular Bass 81",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 81,
+    "name": "Bowed Strings Section 82",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 82,
+    "name": "Detroit Synth Stabs 83",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 83,
+    "name": "Orchestral Flute 84",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 84,
+    "name": "True Stereo Grand Piano 85",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 85,
+    "name": "Dense Strings 64V 86",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 86,
+    "name": "Funky Slap Bass QS 87",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 87,
+    "name": "Classic Rock B3 Organ 88",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 88,
+    "name": "Analog Brass Warmth 89",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 89,
+    "name": "Ambient Motion Pad 90",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 90,
+    "name": "Techno Pulse Lead 91",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 91,
+    "name": "Nylon String Acoustic 92",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 92,
+    "name": "Big Fat Modular Bass 93",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 93,
+    "name": "Bowed Strings Section 94",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 94,
+    "name": "Detroit Synth Stabs 95",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 95,
+    "name": "Orchestral Flute 96",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 96,
+    "name": "True Stereo Grand Piano 97",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 97,
+    "name": "Dense Strings 64V 98",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 98,
+    "name": "Funky Slap Bass QS 99",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 99,
+    "name": "Classic Rock B3 Organ 100",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 100,
+    "name": "Analog Brass Warmth 101",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 101,
+    "name": "Ambient Motion Pad 102",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 102,
+    "name": "Techno Pulse Lead 103",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 103,
+    "name": "Nylon String Acoustic 104",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 104,
+    "name": "Big Fat Modular Bass 105",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 105,
+    "name": "Bowed Strings Section 106",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 106,
+    "name": "Detroit Synth Stabs 107",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 107,
+    "name": "Orchestral Flute 108",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 108,
+    "name": "True Stereo Grand Piano 109",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 109,
+    "name": "Dense Strings 64V 110",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 110,
+    "name": "Funky Slap Bass QS 111",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 111,
+    "name": "Classic Rock B3 Organ 112",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 112,
+    "name": "Analog Brass Warmth 113",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 113,
+    "name": "Ambient Motion Pad 114",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 114,
+    "name": "Techno Pulse Lead 115",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 115,
+    "name": "Nylon String Acoustic 116",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 116,
+    "name": "Big Fat Modular Bass 117",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 117,
+    "name": "Bowed Strings Section 118",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 118,
+    "name": "Detroit Synth Stabs 119",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 119,
+    "name": "Orchestral Flute 120",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 120,
+    "name": "True Stereo Grand Piano 121",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 121,
+    "name": "Dense Strings 64V 122",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 122,
+    "name": "Funky Slap Bass QS 123",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 123,
+    "name": "Classic Rock B3 Organ 124",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 124,
+    "name": "Analog Brass Warmth 125",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 125,
+    "name": "Ambient Motion Pad 126",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 126,
+    "name": "Techno Pulse Lead 127",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 2",
+    "program": 127,
+    "name": "Nylon String Acoustic 128",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 0,
+    "name": "True Stereo Grand Piano",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 1,
+    "name": "Dense Strings 64V",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 2,
+    "name": "Funky Slap Bass QS",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 3,
+    "name": "Classic Rock B3 Organ",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 4,
+    "name": "Analog Brass Warmth",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 5,
+    "name": "Ambient Motion Pad",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 6,
+    "name": "Techno Pulse Lead",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 7,
+    "name": "Nylon String Acoustic",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 8,
+    "name": "Big Fat Modular Bass",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 9,
+    "name": "Bowed Strings Section",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 10,
+    "name": "Detroit Synth Stabs",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 11,
+    "name": "Orchestral Flute",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 12,
+    "name": "True Stereo Grand Piano 13",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 13,
+    "name": "Dense Strings 64V 14",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 14,
+    "name": "Funky Slap Bass QS 15",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 15,
+    "name": "Classic Rock B3 Organ 16",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 16,
+    "name": "Analog Brass Warmth 17",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 17,
+    "name": "Ambient Motion Pad 18",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 18,
+    "name": "Techno Pulse Lead 19",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 19,
+    "name": "Nylon String Acoustic 20",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 20,
+    "name": "Big Fat Modular Bass 21",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 21,
+    "name": "Bowed Strings Section 22",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 22,
+    "name": "Detroit Synth Stabs 23",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 23,
+    "name": "Orchestral Flute 24",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 24,
+    "name": "True Stereo Grand Piano 25",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 25,
+    "name": "Dense Strings 64V 26",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 26,
+    "name": "Funky Slap Bass QS 27",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 27,
+    "name": "Classic Rock B3 Organ 28",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 28,
+    "name": "Analog Brass Warmth 29",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 29,
+    "name": "Ambient Motion Pad 30",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 30,
+    "name": "Techno Pulse Lead 31",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 31,
+    "name": "Nylon String Acoustic 32",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 32,
+    "name": "Big Fat Modular Bass 33",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 33,
+    "name": "Bowed Strings Section 34",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 34,
+    "name": "Detroit Synth Stabs 35",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 35,
+    "name": "Orchestral Flute 36",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 36,
+    "name": "True Stereo Grand Piano 37",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 37,
+    "name": "Dense Strings 64V 38",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 38,
+    "name": "Funky Slap Bass QS 39",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 39,
+    "name": "Classic Rock B3 Organ 40",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 40,
+    "name": "Analog Brass Warmth 41",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 41,
+    "name": "Ambient Motion Pad 42",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 42,
+    "name": "Techno Pulse Lead 43",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 43,
+    "name": "Nylon String Acoustic 44",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 44,
+    "name": "Big Fat Modular Bass 45",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 45,
+    "name": "Bowed Strings Section 46",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 46,
+    "name": "Detroit Synth Stabs 47",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 47,
+    "name": "Orchestral Flute 48",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 48,
+    "name": "True Stereo Grand Piano 49",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 49,
+    "name": "Dense Strings 64V 50",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 50,
+    "name": "Funky Slap Bass QS 51",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 51,
+    "name": "Classic Rock B3 Organ 52",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 52,
+    "name": "Analog Brass Warmth 53",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 53,
+    "name": "Ambient Motion Pad 54",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 54,
+    "name": "Techno Pulse Lead 55",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 55,
+    "name": "Nylon String Acoustic 56",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 56,
+    "name": "Big Fat Modular Bass 57",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 57,
+    "name": "Bowed Strings Section 58",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 58,
+    "name": "Detroit Synth Stabs 59",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 59,
+    "name": "Orchestral Flute 60",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 60,
+    "name": "True Stereo Grand Piano 61",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 61,
+    "name": "Dense Strings 64V 62",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 62,
+    "name": "Funky Slap Bass QS 63",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 63,
+    "name": "Classic Rock B3 Organ 64",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 64,
+    "name": "Analog Brass Warmth 65",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 65,
+    "name": "Ambient Motion Pad 66",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 66,
+    "name": "Techno Pulse Lead 67",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 67,
+    "name": "Nylon String Acoustic 68",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 68,
+    "name": "Big Fat Modular Bass 69",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 69,
+    "name": "Bowed Strings Section 70",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 70,
+    "name": "Detroit Synth Stabs 71",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 71,
+    "name": "Orchestral Flute 72",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 72,
+    "name": "True Stereo Grand Piano 73",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 73,
+    "name": "Dense Strings 64V 74",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 74,
+    "name": "Funky Slap Bass QS 75",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 75,
+    "name": "Classic Rock B3 Organ 76",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 76,
+    "name": "Analog Brass Warmth 77",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 77,
+    "name": "Ambient Motion Pad 78",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 78,
+    "name": "Techno Pulse Lead 79",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 79,
+    "name": "Nylon String Acoustic 80",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 80,
+    "name": "Big Fat Modular Bass 81",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 81,
+    "name": "Bowed Strings Section 82",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 82,
+    "name": "Detroit Synth Stabs 83",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 83,
+    "name": "Orchestral Flute 84",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 84,
+    "name": "True Stereo Grand Piano 85",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 85,
+    "name": "Dense Strings 64V 86",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 86,
+    "name": "Funky Slap Bass QS 87",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 87,
+    "name": "Classic Rock B3 Organ 88",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 88,
+    "name": "Analog Brass Warmth 89",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 89,
+    "name": "Ambient Motion Pad 90",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 90,
+    "name": "Techno Pulse Lead 91",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 91,
+    "name": "Nylon String Acoustic 92",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 92,
+    "name": "Big Fat Modular Bass 93",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 93,
+    "name": "Bowed Strings Section 94",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 94,
+    "name": "Detroit Synth Stabs 95",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 95,
+    "name": "Orchestral Flute 96",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 96,
+    "name": "True Stereo Grand Piano 97",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 97,
+    "name": "Dense Strings 64V 98",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 98,
+    "name": "Funky Slap Bass QS 99",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 99,
+    "name": "Classic Rock B3 Organ 100",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 100,
+    "name": "Analog Brass Warmth 101",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 101,
+    "name": "Ambient Motion Pad 102",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 102,
+    "name": "Techno Pulse Lead 103",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 103,
+    "name": "Nylon String Acoustic 104",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 104,
+    "name": "Big Fat Modular Bass 105",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 105,
+    "name": "Bowed Strings Section 106",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 106,
+    "name": "Detroit Synth Stabs 107",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 107,
+    "name": "Orchestral Flute 108",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 108,
+    "name": "True Stereo Grand Piano 109",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 109,
+    "name": "Dense Strings 64V 110",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 110,
+    "name": "Funky Slap Bass QS 111",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 111,
+    "name": "Classic Rock B3 Organ 112",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 112,
+    "name": "Analog Brass Warmth 113",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 113,
+    "name": "Ambient Motion Pad 114",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 114,
+    "name": "Techno Pulse Lead 115",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 115,
+    "name": "Nylon String Acoustic 116",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 116,
+    "name": "Big Fat Modular Bass 117",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 117,
+    "name": "Bowed Strings Section 118",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 118,
+    "name": "Detroit Synth Stabs 119",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 119,
+    "name": "Orchestral Flute 120",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 120,
+    "name": "True Stereo Grand Piano 121",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 121,
+    "name": "Dense Strings 64V 122",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 122,
+    "name": "Funky Slap Bass QS 123",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 123,
+    "name": "Classic Rock B3 Organ 124",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 124,
+    "name": "Analog Brass Warmth 125",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 125,
+    "name": "Ambient Motion Pad 126",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 126,
+    "name": "Techno Pulse Lead 127",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 3",
+    "program": 127,
+    "name": "Nylon String Acoustic 128",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 0,
+    "name": "True Stereo Grand Piano",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 1,
+    "name": "Dense Strings 64V",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 2,
+    "name": "Funky Slap Bass QS",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 3,
+    "name": "Classic Rock B3 Organ",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 4,
+    "name": "Analog Brass Warmth",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 5,
+    "name": "Ambient Motion Pad",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 6,
+    "name": "Techno Pulse Lead",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 7,
+    "name": "Nylon String Acoustic",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 8,
+    "name": "Big Fat Modular Bass",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 9,
+    "name": "Bowed Strings Section",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 10,
+    "name": "Detroit Synth Stabs",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 11,
+    "name": "Orchestral Flute",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 12,
+    "name": "True Stereo Grand Piano 13",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 13,
+    "name": "Dense Strings 64V 14",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 14,
+    "name": "Funky Slap Bass QS 15",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 15,
+    "name": "Classic Rock B3 Organ 16",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 16,
+    "name": "Analog Brass Warmth 17",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 17,
+    "name": "Ambient Motion Pad 18",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 18,
+    "name": "Techno Pulse Lead 19",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 19,
+    "name": "Nylon String Acoustic 20",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 20,
+    "name": "Big Fat Modular Bass 21",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 21,
+    "name": "Bowed Strings Section 22",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 22,
+    "name": "Detroit Synth Stabs 23",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 23,
+    "name": "Orchestral Flute 24",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 24,
+    "name": "True Stereo Grand Piano 25",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 25,
+    "name": "Dense Strings 64V 26",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 26,
+    "name": "Funky Slap Bass QS 27",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 27,
+    "name": "Classic Rock B3 Organ 28",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 28,
+    "name": "Analog Brass Warmth 29",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 29,
+    "name": "Ambient Motion Pad 30",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 30,
+    "name": "Techno Pulse Lead 31",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 31,
+    "name": "Nylon String Acoustic 32",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 32,
+    "name": "Big Fat Modular Bass 33",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 33,
+    "name": "Bowed Strings Section 34",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 34,
+    "name": "Detroit Synth Stabs 35",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 35,
+    "name": "Orchestral Flute 36",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 36,
+    "name": "True Stereo Grand Piano 37",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 37,
+    "name": "Dense Strings 64V 38",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 38,
+    "name": "Funky Slap Bass QS 39",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 39,
+    "name": "Classic Rock B3 Organ 40",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 40,
+    "name": "Analog Brass Warmth 41",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 41,
+    "name": "Ambient Motion Pad 42",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 42,
+    "name": "Techno Pulse Lead 43",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 43,
+    "name": "Nylon String Acoustic 44",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 44,
+    "name": "Big Fat Modular Bass 45",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 45,
+    "name": "Bowed Strings Section 46",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 46,
+    "name": "Detroit Synth Stabs 47",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 47,
+    "name": "Orchestral Flute 48",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 48,
+    "name": "True Stereo Grand Piano 49",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 49,
+    "name": "Dense Strings 64V 50",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 50,
+    "name": "Funky Slap Bass QS 51",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 51,
+    "name": "Classic Rock B3 Organ 52",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 52,
+    "name": "Analog Brass Warmth 53",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 53,
+    "name": "Ambient Motion Pad 54",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 54,
+    "name": "Techno Pulse Lead 55",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 55,
+    "name": "Nylon String Acoustic 56",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 56,
+    "name": "Big Fat Modular Bass 57",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 57,
+    "name": "Bowed Strings Section 58",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 58,
+    "name": "Detroit Synth Stabs 59",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 59,
+    "name": "Orchestral Flute 60",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 60,
+    "name": "True Stereo Grand Piano 61",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 61,
+    "name": "Dense Strings 64V 62",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 62,
+    "name": "Funky Slap Bass QS 63",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 63,
+    "name": "Classic Rock B3 Organ 64",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 64,
+    "name": "Analog Brass Warmth 65",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 65,
+    "name": "Ambient Motion Pad 66",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 66,
+    "name": "Techno Pulse Lead 67",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 67,
+    "name": "Nylon String Acoustic 68",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 68,
+    "name": "Big Fat Modular Bass 69",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 69,
+    "name": "Bowed Strings Section 70",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 70,
+    "name": "Detroit Synth Stabs 71",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 71,
+    "name": "Orchestral Flute 72",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 72,
+    "name": "True Stereo Grand Piano 73",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 73,
+    "name": "Dense Strings 64V 74",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 74,
+    "name": "Funky Slap Bass QS 75",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 75,
+    "name": "Classic Rock B3 Organ 76",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 76,
+    "name": "Analog Brass Warmth 77",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 77,
+    "name": "Ambient Motion Pad 78",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 78,
+    "name": "Techno Pulse Lead 79",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 79,
+    "name": "Nylon String Acoustic 80",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 80,
+    "name": "Big Fat Modular Bass 81",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 81,
+    "name": "Bowed Strings Section 82",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 82,
+    "name": "Detroit Synth Stabs 83",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 83,
+    "name": "Orchestral Flute 84",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 84,
+    "name": "True Stereo Grand Piano 85",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 85,
+    "name": "Dense Strings 64V 86",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 86,
+    "name": "Funky Slap Bass QS 87",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 87,
+    "name": "Classic Rock B3 Organ 88",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 88,
+    "name": "Analog Brass Warmth 89",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 89,
+    "name": "Ambient Motion Pad 90",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 90,
+    "name": "Techno Pulse Lead 91",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 91,
+    "name": "Nylon String Acoustic 92",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 92,
+    "name": "Big Fat Modular Bass 93",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 93,
+    "name": "Bowed Strings Section 94",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 94,
+    "name": "Detroit Synth Stabs 95",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 95,
+    "name": "Orchestral Flute 96",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 96,
+    "name": "True Stereo Grand Piano 97",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 97,
+    "name": "Dense Strings 64V 98",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 98,
+    "name": "Funky Slap Bass QS 99",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 99,
+    "name": "Classic Rock B3 Organ 100",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 100,
+    "name": "Analog Brass Warmth 101",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 101,
+    "name": "Ambient Motion Pad 102",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 102,
+    "name": "Techno Pulse Lead 103",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 103,
+    "name": "Nylon String Acoustic 104",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 104,
+    "name": "Big Fat Modular Bass 105",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 105,
+    "name": "Bowed Strings Section 106",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 106,
+    "name": "Detroit Synth Stabs 107",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 107,
+    "name": "Orchestral Flute 108",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 108,
+    "name": "True Stereo Grand Piano 109",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 109,
+    "name": "Dense Strings 64V 110",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 110,
+    "name": "Funky Slap Bass QS 111",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 111,
+    "name": "Classic Rock B3 Organ 112",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 112,
+    "name": "Analog Brass Warmth 113",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 113,
+    "name": "Ambient Motion Pad 114",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 114,
+    "name": "Techno Pulse Lead 115",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 115,
+    "name": "Nylon String Acoustic 116",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 116,
+    "name": "Big Fat Modular Bass 117",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 117,
+    "name": "Bowed Strings Section 118",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 118,
+    "name": "Detroit Synth Stabs 119",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 119,
+    "name": "Orchestral Flute 120",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 120,
+    "name": "True Stereo Grand Piano 121",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 121,
+    "name": "Dense Strings 64V 122",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 122,
+    "name": "Funky Slap Bass QS 123",
+    "category": "Bass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 123,
+    "name": "Classic Rock B3 Organ 124",
+    "category": "Keys",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 124,
+    "name": "Analog Brass Warmth 125",
+    "category": "Brass",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 125,
+    "name": "Ambient Motion Pad 126",
+    "category": "Pad",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 126,
+    "name": "Techno Pulse Lead 127",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset 4",
+    "program": 127,
+    "name": "Nylon String Acoustic 128",
+    "category": "Lead",
+    "tags": [
+      "64-voice",
+      "qsr",
+      "soundcard-pcm",
+      "lead"
+    ]
+  }
+]

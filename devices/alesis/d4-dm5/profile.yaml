@@ -1,0 +1,21 @@
+manufacturer: Alesis
+model: Alesis D4 / DM5
+type: High-Sample-Rate Drum Sound Module
+year: 1991
+midi:
+  channels: 16
+  cc_map:
+    drum_pitch: 20
+    decay: 75
+    reverb_send: 91
+sysex:
+  header: F0 00 00 0E 03
+  device_id_byte: 5
+  commands:
+    dump_drumset: F0 00 00 0E 03 01 [set] F7
+banks:
+- Drum Category Bank 1
+- Drum Category Bank 2
+- Drum Category Bank 3
+- Drum Category Bank 4
+- Drum Category Bank 5

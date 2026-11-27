@@ -1,0 +1,23 @@
+manufacturer: Alesis
+model: Alesis QS6 / QS7 / QS8 / QSR
+type: 64-Voice Expandable Synthesizer
+year: 1996
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    reverb_send: 91
+    chorus_send: 93
+    controller_a: 16
+sysex:
+  header: F0 00 00 0E 0E
+  device_id_byte: 5
+  commands:
+    request_program: F0 00 00 0E 0E 05 [bank] [prog] F7
+banks:
+- User Bank
+- Preset 1
+- Preset 2
+- Preset 3
+- Preset 4

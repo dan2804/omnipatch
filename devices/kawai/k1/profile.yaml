@@ -1,0 +1,18 @@
+manufacturer: Kawai
+model: Kawai K1 / K1m / K1r
+type: VM Vector Synthesizer
+year: 1988
+midi:
+  channels: 16
+  cc_map:
+    dca_level: 7
+    dca_release: 72
+    joystick_vm: 16
+sysex:
+  header: F0 40 00 10 00 01
+  device_id_byte: 3
+  commands:
+    dump_single: F0 40 00 10 00 01 [prog] F7
+banks:
+- Single Patches
+- Multi Patches

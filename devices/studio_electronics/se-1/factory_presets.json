@@ -1,0 +1,4754 @@
+[
+  {
+    "bank": "Bank 1",
+    "program": 1,
+    "name": "SE-1 Hip Hop Sub Bass",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 2,
+    "name": "3-VCO Moog Lead",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 3,
+    "name": "Oberheim SEM 12dB Sweep",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 4,
+    "name": "Earthshaker Low 808",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 5,
+    "name": "Detuned Saw Pluck",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 6,
+    "name": "Smooth Funk Flute",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 7,
+    "name": "Overdriven Reso Screamer",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 8,
+    "name": "Warm 24dB Triangle Bass",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 9,
+    "name": "Punchy Synth Clav",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 10,
+    "name": "Modular Drone FX",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 11,
+    "name": "SE-1 Hip Hop Sub Bass 11",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 12,
+    "name": "3-VCO Moog Lead 12",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 13,
+    "name": "Oberheim SEM 12dB Sweep 13",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 14,
+    "name": "Earthshaker Low 808 14",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 15,
+    "name": "Detuned Saw Pluck 15",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 16,
+    "name": "Smooth Funk Flute 16",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 17,
+    "name": "Overdriven Reso Screamer 17",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 18,
+    "name": "Warm 24dB Triangle Bass 18",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 19,
+    "name": "Punchy Synth Clav 19",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 20,
+    "name": "Modular Drone FX 20",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 21,
+    "name": "SE-1 Hip Hop Sub Bass 21",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 22,
+    "name": "3-VCO Moog Lead 22",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 23,
+    "name": "Oberheim SEM 12dB Sweep 23",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 24,
+    "name": "Earthshaker Low 808 24",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 25,
+    "name": "Detuned Saw Pluck 25",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 26,
+    "name": "Smooth Funk Flute 26",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 27,
+    "name": "Overdriven Reso Screamer 27",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 28,
+    "name": "Warm 24dB Triangle Bass 28",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 29,
+    "name": "Punchy Synth Clav 29",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 30,
+    "name": "Modular Drone FX 30",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 31,
+    "name": "SE-1 Hip Hop Sub Bass 31",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 32,
+    "name": "3-VCO Moog Lead 32",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 33,
+    "name": "Oberheim SEM 12dB Sweep 33",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 34,
+    "name": "Earthshaker Low 808 34",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 35,
+    "name": "Detuned Saw Pluck 35",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 36,
+    "name": "Smooth Funk Flute 36",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 37,
+    "name": "Overdriven Reso Screamer 37",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 38,
+    "name": "Warm 24dB Triangle Bass 38",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 39,
+    "name": "Punchy Synth Clav 39",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 40,
+    "name": "Modular Drone FX 40",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 41,
+    "name": "SE-1 Hip Hop Sub Bass 41",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 42,
+    "name": "3-VCO Moog Lead 42",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 43,
+    "name": "Oberheim SEM 12dB Sweep 43",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 44,
+    "name": "Earthshaker Low 808 44",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 45,
+    "name": "Detuned Saw Pluck 45",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 46,
+    "name": "Smooth Funk Flute 46",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 47,
+    "name": "Overdriven Reso Screamer 47",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 48,
+    "name": "Warm 24dB Triangle Bass 48",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 49,
+    "name": "Punchy Synth Clav 49",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 50,
+    "name": "Modular Drone FX 50",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 51,
+    "name": "SE-1 Hip Hop Sub Bass 51",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 52,
+    "name": "3-VCO Moog Lead 52",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 53,
+    "name": "Oberheim SEM 12dB Sweep 53",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 54,
+    "name": "Earthshaker Low 808 54",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 55,
+    "name": "Detuned Saw Pluck 55",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 56,
+    "name": "Smooth Funk Flute 56",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 57,
+    "name": "Overdriven Reso Screamer 57",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 58,
+    "name": "Warm 24dB Triangle Bass 58",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 59,
+    "name": "Punchy Synth Clav 59",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 60,
+    "name": "Modular Drone FX 60",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 61,
+    "name": "SE-1 Hip Hop Sub Bass 61",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 62,
+    "name": "3-VCO Moog Lead 62",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 63,
+    "name": "Oberheim SEM 12dB Sweep 63",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 64,
+    "name": "Earthshaker Low 808 64",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 65,
+    "name": "Detuned Saw Pluck 65",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 66,
+    "name": "Smooth Funk Flute 66",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 67,
+    "name": "Overdriven Reso Screamer 67",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 68,
+    "name": "Warm 24dB Triangle Bass 68",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 69,
+    "name": "Punchy Synth Clav 69",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 70,
+    "name": "Modular Drone FX 70",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 71,
+    "name": "SE-1 Hip Hop Sub Bass 71",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 72,
+    "name": "3-VCO Moog Lead 72",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 73,
+    "name": "Oberheim SEM 12dB Sweep 73",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 74,
+    "name": "Earthshaker Low 808 74",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 75,
+    "name": "Detuned Saw Pluck 75",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 76,
+    "name": "Smooth Funk Flute 76",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 77,
+    "name": "Overdriven Reso Screamer 77",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 78,
+    "name": "Warm 24dB Triangle Bass 78",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 79,
+    "name": "Punchy Synth Clav 79",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 80,
+    "name": "Modular Drone FX 80",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 81,
+    "name": "SE-1 Hip Hop Sub Bass 81",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 82,
+    "name": "3-VCO Moog Lead 82",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 83,
+    "name": "Oberheim SEM 12dB Sweep 83",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 84,
+    "name": "Earthshaker Low 808 84",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 85,
+    "name": "Detuned Saw Pluck 85",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 86,
+    "name": "Smooth Funk Flute 86",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 87,
+    "name": "Overdriven Reso Screamer 87",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 88,
+    "name": "Warm 24dB Triangle Bass 88",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 89,
+    "name": "Punchy Synth Clav 89",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 90,
+    "name": "Modular Drone FX 90",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 91,
+    "name": "SE-1 Hip Hop Sub Bass 91",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 92,
+    "name": "3-VCO Moog Lead 92",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 93,
+    "name": "Oberheim SEM 12dB Sweep 93",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 94,
+    "name": "Earthshaker Low 808 94",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 95,
+    "name": "Detuned Saw Pluck 95",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 96,
+    "name": "Smooth Funk Flute 96",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 97,
+    "name": "Overdriven Reso Screamer 97",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 98,
+    "name": "Warm 24dB Triangle Bass 98",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 99,
+    "name": "Punchy Synth Clav 99",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 1,
+    "name": "SE-1 Hip Hop Sub Bass",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 2,
+    "name": "3-VCO Moog Lead",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 3,
+    "name": "Oberheim SEM 12dB Sweep",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 4,
+    "name": "Earthshaker Low 808",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 5,
+    "name": "Detuned Saw Pluck",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 6,
+    "name": "Smooth Funk Flute",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 7,
+    "name": "Overdriven Reso Screamer",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 8,
+    "name": "Warm 24dB Triangle Bass",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 9,
+    "name": "Punchy Synth Clav",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 10,
+    "name": "Modular Drone FX",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 11,
+    "name": "SE-1 Hip Hop Sub Bass 11",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 12,
+    "name": "3-VCO Moog Lead 12",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 13,
+    "name": "Oberheim SEM 12dB Sweep 13",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 14,
+    "name": "Earthshaker Low 808 14",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 15,
+    "name": "Detuned Saw Pluck 15",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 16,
+    "name": "Smooth Funk Flute 16",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 17,
+    "name": "Overdriven Reso Screamer 17",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 18,
+    "name": "Warm 24dB Triangle Bass 18",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 19,
+    "name": "Punchy Synth Clav 19",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 20,
+    "name": "Modular Drone FX 20",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 21,
+    "name": "SE-1 Hip Hop Sub Bass 21",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 22,
+    "name": "3-VCO Moog Lead 22",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 23,
+    "name": "Oberheim SEM 12dB Sweep 23",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 24,
+    "name": "Earthshaker Low 808 24",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 25,
+    "name": "Detuned Saw Pluck 25",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 26,
+    "name": "Smooth Funk Flute 26",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 27,
+    "name": "Overdriven Reso Screamer 27",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 28,
+    "name": "Warm 24dB Triangle Bass 28",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 29,
+    "name": "Punchy Synth Clav 29",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 30,
+    "name": "Modular Drone FX 30",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 31,
+    "name": "SE-1 Hip Hop Sub Bass 31",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 32,
+    "name": "3-VCO Moog Lead 32",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 33,
+    "name": "Oberheim SEM 12dB Sweep 33",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 34,
+    "name": "Earthshaker Low 808 34",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 35,
+    "name": "Detuned Saw Pluck 35",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 36,
+    "name": "Smooth Funk Flute 36",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 37,
+    "name": "Overdriven Reso Screamer 37",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 38,
+    "name": "Warm 24dB Triangle Bass 38",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 39,
+    "name": "Punchy Synth Clav 39",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 40,
+    "name": "Modular Drone FX 40",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 41,
+    "name": "SE-1 Hip Hop Sub Bass 41",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 42,
+    "name": "3-VCO Moog Lead 42",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 43,
+    "name": "Oberheim SEM 12dB Sweep 43",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 44,
+    "name": "Earthshaker Low 808 44",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 45,
+    "name": "Detuned Saw Pluck 45",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 46,
+    "name": "Smooth Funk Flute 46",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 47,
+    "name": "Overdriven Reso Screamer 47",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 48,
+    "name": "Warm 24dB Triangle Bass 48",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 49,
+    "name": "Punchy Synth Clav 49",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 50,
+    "name": "Modular Drone FX 50",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 51,
+    "name": "SE-1 Hip Hop Sub Bass 51",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 52,
+    "name": "3-VCO Moog Lead 52",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 53,
+    "name": "Oberheim SEM 12dB Sweep 53",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 54,
+    "name": "Earthshaker Low 808 54",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 55,
+    "name": "Detuned Saw Pluck 55",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 56,
+    "name": "Smooth Funk Flute 56",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 57,
+    "name": "Overdriven Reso Screamer 57",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 58,
+    "name": "Warm 24dB Triangle Bass 58",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 59,
+    "name": "Punchy Synth Clav 59",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 60,
+    "name": "Modular Drone FX 60",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 61,
+    "name": "SE-1 Hip Hop Sub Bass 61",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 62,
+    "name": "3-VCO Moog Lead 62",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 63,
+    "name": "Oberheim SEM 12dB Sweep 63",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 64,
+    "name": "Earthshaker Low 808 64",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 65,
+    "name": "Detuned Saw Pluck 65",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 66,
+    "name": "Smooth Funk Flute 66",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 67,
+    "name": "Overdriven Reso Screamer 67",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 68,
+    "name": "Warm 24dB Triangle Bass 68",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 69,
+    "name": "Punchy Synth Clav 69",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 70,
+    "name": "Modular Drone FX 70",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 71,
+    "name": "SE-1 Hip Hop Sub Bass 71",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 72,
+    "name": "3-VCO Moog Lead 72",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 73,
+    "name": "Oberheim SEM 12dB Sweep 73",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 74,
+    "name": "Earthshaker Low 808 74",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 75,
+    "name": "Detuned Saw Pluck 75",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 76,
+    "name": "Smooth Funk Flute 76",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 77,
+    "name": "Overdriven Reso Screamer 77",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 78,
+    "name": "Warm 24dB Triangle Bass 78",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 79,
+    "name": "Punchy Synth Clav 79",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 80,
+    "name": "Modular Drone FX 80",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 81,
+    "name": "SE-1 Hip Hop Sub Bass 81",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 82,
+    "name": "3-VCO Moog Lead 82",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 83,
+    "name": "Oberheim SEM 12dB Sweep 83",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 84,
+    "name": "Earthshaker Low 808 84",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 85,
+    "name": "Detuned Saw Pluck 85",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 86,
+    "name": "Smooth Funk Flute 86",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 87,
+    "name": "Overdriven Reso Screamer 87",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 88,
+    "name": "Warm 24dB Triangle Bass 88",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 89,
+    "name": "Punchy Synth Clav 89",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 90,
+    "name": "Modular Drone FX 90",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 91,
+    "name": "SE-1 Hip Hop Sub Bass 91",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 92,
+    "name": "3-VCO Moog Lead 92",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 93,
+    "name": "Oberheim SEM 12dB Sweep 93",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 94,
+    "name": "Earthshaker Low 808 94",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 95,
+    "name": "Detuned Saw Pluck 95",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 96,
+    "name": "Smooth Funk Flute 96",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 97,
+    "name": "Overdriven Reso Screamer 97",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 98,
+    "name": "Warm 24dB Triangle Bass 98",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 99,
+    "name": "Punchy Synth Clav 99",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 1,
+    "name": "SE-1 Hip Hop Sub Bass",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 2,
+    "name": "3-VCO Moog Lead",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 3,
+    "name": "Oberheim SEM 12dB Sweep",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 4,
+    "name": "Earthshaker Low 808",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 5,
+    "name": "Detuned Saw Pluck",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 6,
+    "name": "Smooth Funk Flute",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 7,
+    "name": "Overdriven Reso Screamer",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 8,
+    "name": "Warm 24dB Triangle Bass",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 9,
+    "name": "Punchy Synth Clav",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 10,
+    "name": "Modular Drone FX",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 11,
+    "name": "SE-1 Hip Hop Sub Bass 11",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 12,
+    "name": "3-VCO Moog Lead 12",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 13,
+    "name": "Oberheim SEM 12dB Sweep 13",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 14,
+    "name": "Earthshaker Low 808 14",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 15,
+    "name": "Detuned Saw Pluck 15",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 16,
+    "name": "Smooth Funk Flute 16",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 17,
+    "name": "Overdriven Reso Screamer 17",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 18,
+    "name": "Warm 24dB Triangle Bass 18",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 19,
+    "name": "Punchy Synth Clav 19",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 20,
+    "name": "Modular Drone FX 20",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 21,
+    "name": "SE-1 Hip Hop Sub Bass 21",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 22,
+    "name": "3-VCO Moog Lead 22",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 23,
+    "name": "Oberheim SEM 12dB Sweep 23",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 24,
+    "name": "Earthshaker Low 808 24",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 25,
+    "name": "Detuned Saw Pluck 25",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 26,
+    "name": "Smooth Funk Flute 26",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 27,
+    "name": "Overdriven Reso Screamer 27",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 28,
+    "name": "Warm 24dB Triangle Bass 28",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 29,
+    "name": "Punchy Synth Clav 29",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 30,
+    "name": "Modular Drone FX 30",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 31,
+    "name": "SE-1 Hip Hop Sub Bass 31",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 32,
+    "name": "3-VCO Moog Lead 32",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 33,
+    "name": "Oberheim SEM 12dB Sweep 33",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 34,
+    "name": "Earthshaker Low 808 34",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 35,
+    "name": "Detuned Saw Pluck 35",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 36,
+    "name": "Smooth Funk Flute 36",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 37,
+    "name": "Overdriven Reso Screamer 37",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 38,
+    "name": "Warm 24dB Triangle Bass 38",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 39,
+    "name": "Punchy Synth Clav 39",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 40,
+    "name": "Modular Drone FX 40",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 41,
+    "name": "SE-1 Hip Hop Sub Bass 41",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 42,
+    "name": "3-VCO Moog Lead 42",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 43,
+    "name": "Oberheim SEM 12dB Sweep 43",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 44,
+    "name": "Earthshaker Low 808 44",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 45,
+    "name": "Detuned Saw Pluck 45",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 46,
+    "name": "Smooth Funk Flute 46",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 47,
+    "name": "Overdriven Reso Screamer 47",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 48,
+    "name": "Warm 24dB Triangle Bass 48",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 49,
+    "name": "Punchy Synth Clav 49",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 50,
+    "name": "Modular Drone FX 50",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 51,
+    "name": "SE-1 Hip Hop Sub Bass 51",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 52,
+    "name": "3-VCO Moog Lead 52",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 53,
+    "name": "Oberheim SEM 12dB Sweep 53",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 54,
+    "name": "Earthshaker Low 808 54",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 55,
+    "name": "Detuned Saw Pluck 55",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 56,
+    "name": "Smooth Funk Flute 56",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 57,
+    "name": "Overdriven Reso Screamer 57",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 58,
+    "name": "Warm 24dB Triangle Bass 58",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 59,
+    "name": "Punchy Synth Clav 59",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 60,
+    "name": "Modular Drone FX 60",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 61,
+    "name": "SE-1 Hip Hop Sub Bass 61",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 62,
+    "name": "3-VCO Moog Lead 62",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 63,
+    "name": "Oberheim SEM 12dB Sweep 63",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 64,
+    "name": "Earthshaker Low 808 64",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 65,
+    "name": "Detuned Saw Pluck 65",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 66,
+    "name": "Smooth Funk Flute 66",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 67,
+    "name": "Overdriven Reso Screamer 67",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 68,
+    "name": "Warm 24dB Triangle Bass 68",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 69,
+    "name": "Punchy Synth Clav 69",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 70,
+    "name": "Modular Drone FX 70",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 71,
+    "name": "SE-1 Hip Hop Sub Bass 71",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 72,
+    "name": "3-VCO Moog Lead 72",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 73,
+    "name": "Oberheim SEM 12dB Sweep 73",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 74,
+    "name": "Earthshaker Low 808 74",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 75,
+    "name": "Detuned Saw Pluck 75",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 76,
+    "name": "Smooth Funk Flute 76",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 77,
+    "name": "Overdriven Reso Screamer 77",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 78,
+    "name": "Warm 24dB Triangle Bass 78",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 79,
+    "name": "Punchy Synth Clav 79",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 80,
+    "name": "Modular Drone FX 80",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 81,
+    "name": "SE-1 Hip Hop Sub Bass 81",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 82,
+    "name": "3-VCO Moog Lead 82",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 83,
+    "name": "Oberheim SEM 12dB Sweep 83",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 84,
+    "name": "Earthshaker Low 808 84",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 85,
+    "name": "Detuned Saw Pluck 85",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 86,
+    "name": "Smooth Funk Flute 86",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 87,
+    "name": "Overdriven Reso Screamer 87",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 88,
+    "name": "Warm 24dB Triangle Bass 88",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 89,
+    "name": "Punchy Synth Clav 89",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 90,
+    "name": "Modular Drone FX 90",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 91,
+    "name": "SE-1 Hip Hop Sub Bass 91",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 92,
+    "name": "3-VCO Moog Lead 92",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 93,
+    "name": "Oberheim SEM 12dB Sweep 93",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 94,
+    "name": "Earthshaker Low 808 94",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 95,
+    "name": "Detuned Saw Pluck 95",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 96,
+    "name": "Smooth Funk Flute 96",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 97,
+    "name": "Overdriven Reso Screamer 97",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 98,
+    "name": "Warm 24dB Triangle Bass 98",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 99,
+    "name": "Punchy Synth Clav 99",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 1,
+    "name": "SE-1 Hip Hop Sub Bass",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 2,
+    "name": "3-VCO Moog Lead",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 3,
+    "name": "Oberheim SEM 12dB Sweep",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 4,
+    "name": "Earthshaker Low 808",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 5,
+    "name": "Detuned Saw Pluck",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 6,
+    "name": "Smooth Funk Flute",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 7,
+    "name": "Overdriven Reso Screamer",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 8,
+    "name": "Warm 24dB Triangle Bass",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 9,
+    "name": "Punchy Synth Clav",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 10,
+    "name": "Modular Drone FX",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 11,
+    "name": "SE-1 Hip Hop Sub Bass 11",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 12,
+    "name": "3-VCO Moog Lead 12",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 13,
+    "name": "Oberheim SEM 12dB Sweep 13",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 14,
+    "name": "Earthshaker Low 808 14",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 15,
+    "name": "Detuned Saw Pluck 15",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 16,
+    "name": "Smooth Funk Flute 16",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 17,
+    "name": "Overdriven Reso Screamer 17",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 18,
+    "name": "Warm 24dB Triangle Bass 18",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 19,
+    "name": "Punchy Synth Clav 19",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 20,
+    "name": "Modular Drone FX 20",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 21,
+    "name": "SE-1 Hip Hop Sub Bass 21",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 22,
+    "name": "3-VCO Moog Lead 22",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 23,
+    "name": "Oberheim SEM 12dB Sweep 23",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 24,
+    "name": "Earthshaker Low 808 24",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 25,
+    "name": "Detuned Saw Pluck 25",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 26,
+    "name": "Smooth Funk Flute 26",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 27,
+    "name": "Overdriven Reso Screamer 27",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 28,
+    "name": "Warm 24dB Triangle Bass 28",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 29,
+    "name": "Punchy Synth Clav 29",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 30,
+    "name": "Modular Drone FX 30",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 31,
+    "name": "SE-1 Hip Hop Sub Bass 31",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 32,
+    "name": "3-VCO Moog Lead 32",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 33,
+    "name": "Oberheim SEM 12dB Sweep 33",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 34,
+    "name": "Earthshaker Low 808 34",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 35,
+    "name": "Detuned Saw Pluck 35",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 36,
+    "name": "Smooth Funk Flute 36",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 37,
+    "name": "Overdriven Reso Screamer 37",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 38,
+    "name": "Warm 24dB Triangle Bass 38",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 39,
+    "name": "Punchy Synth Clav 39",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 40,
+    "name": "Modular Drone FX 40",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 41,
+    "name": "SE-1 Hip Hop Sub Bass 41",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 42,
+    "name": "3-VCO Moog Lead 42",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 43,
+    "name": "Oberheim SEM 12dB Sweep 43",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 44,
+    "name": "Earthshaker Low 808 44",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 45,
+    "name": "Detuned Saw Pluck 45",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 46,
+    "name": "Smooth Funk Flute 46",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 47,
+    "name": "Overdriven Reso Screamer 47",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 48,
+    "name": "Warm 24dB Triangle Bass 48",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 49,
+    "name": "Punchy Synth Clav 49",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 50,
+    "name": "Modular Drone FX 50",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 51,
+    "name": "SE-1 Hip Hop Sub Bass 51",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 52,
+    "name": "3-VCO Moog Lead 52",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 53,
+    "name": "Oberheim SEM 12dB Sweep 53",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 54,
+    "name": "Earthshaker Low 808 54",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 55,
+    "name": "Detuned Saw Pluck 55",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 56,
+    "name": "Smooth Funk Flute 56",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 57,
+    "name": "Overdriven Reso Screamer 57",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 58,
+    "name": "Warm 24dB Triangle Bass 58",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 59,
+    "name": "Punchy Synth Clav 59",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 60,
+    "name": "Modular Drone FX 60",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 61,
+    "name": "SE-1 Hip Hop Sub Bass 61",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 62,
+    "name": "3-VCO Moog Lead 62",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 63,
+    "name": "Oberheim SEM 12dB Sweep 63",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 64,
+    "name": "Earthshaker Low 808 64",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 65,
+    "name": "Detuned Saw Pluck 65",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 66,
+    "name": "Smooth Funk Flute 66",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 67,
+    "name": "Overdriven Reso Screamer 67",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 68,
+    "name": "Warm 24dB Triangle Bass 68",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 69,
+    "name": "Punchy Synth Clav 69",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 70,
+    "name": "Modular Drone FX 70",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 71,
+    "name": "SE-1 Hip Hop Sub Bass 71",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 72,
+    "name": "3-VCO Moog Lead 72",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 73,
+    "name": "Oberheim SEM 12dB Sweep 73",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 74,
+    "name": "Earthshaker Low 808 74",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 75,
+    "name": "Detuned Saw Pluck 75",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 76,
+    "name": "Smooth Funk Flute 76",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 77,
+    "name": "Overdriven Reso Screamer 77",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 78,
+    "name": "Warm 24dB Triangle Bass 78",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 79,
+    "name": "Punchy Synth Clav 79",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 80,
+    "name": "Modular Drone FX 80",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 81,
+    "name": "SE-1 Hip Hop Sub Bass 81",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 82,
+    "name": "3-VCO Moog Lead 82",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 83,
+    "name": "Oberheim SEM 12dB Sweep 83",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 84,
+    "name": "Earthshaker Low 808 84",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 85,
+    "name": "Detuned Saw Pluck 85",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 86,
+    "name": "Smooth Funk Flute 86",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 87,
+    "name": "Overdriven Reso Screamer 87",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 88,
+    "name": "Warm 24dB Triangle Bass 88",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 89,
+    "name": "Punchy Synth Clav 89",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 90,
+    "name": "Modular Drone FX 90",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 91,
+    "name": "SE-1 Hip Hop Sub Bass 91",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 92,
+    "name": "3-VCO Moog Lead 92",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 93,
+    "name": "Oberheim SEM 12dB Sweep 93",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 94,
+    "name": "Earthshaker Low 808 94",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 95,
+    "name": "Detuned Saw Pluck 95",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 96,
+    "name": "Smooth Funk Flute 96",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 97,
+    "name": "Overdriven Reso Screamer 97",
+    "category": "Lead",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 98,
+    "name": "Warm 24dB Triangle Bass 98",
+    "category": "Bass",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 99,
+    "name": "Punchy Synth Clav 99",
+    "category": "Analog",
+    "tags": [
+      "discrete-3-vco",
+      "moog-ladder",
+      "sem-filter",
+      "analog"
+    ]
+  }
+]

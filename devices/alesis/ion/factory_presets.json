@@ -1,0 +1,6146 @@
+[
+  {
+    "bank": "User Bank 1",
+    "program": 1,
+    "name": "Vintage Moog 24dB",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 2,
+    "name": "Jupiter 8 Brass Ion",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 3,
+    "name": "TB-303 Acid Reso",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 4,
+    "name": "SEM State Variable Notch",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 5,
+    "name": "Formant Vocal Morph",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 6,
+    "name": "Wicked Sync Lead",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 7,
+    "name": "Punchy Electro Bass",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 8,
+    "name": "Oberheim Poly 8",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 9,
+    "name": "Comb Filter Drone",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 10,
+    "name": "Lush Ribbon Pad",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 11,
+    "name": "Vintage Moog 24dB 11",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 12,
+    "name": "Jupiter 8 Brass Ion 12",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 13,
+    "name": "TB-303 Acid Reso 13",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 14,
+    "name": "SEM State Variable Notch 14",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 15,
+    "name": "Formant Vocal Morph 15",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 16,
+    "name": "Wicked Sync Lead 16",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 17,
+    "name": "Punchy Electro Bass 17",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 18,
+    "name": "Oberheim Poly 8 18",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 19,
+    "name": "Comb Filter Drone 19",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 20,
+    "name": "Lush Ribbon Pad 20",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 21,
+    "name": "Vintage Moog 24dB 21",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 22,
+    "name": "Jupiter 8 Brass Ion 22",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 23,
+    "name": "TB-303 Acid Reso 23",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 24,
+    "name": "SEM State Variable Notch 24",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 25,
+    "name": "Formant Vocal Morph 25",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 26,
+    "name": "Wicked Sync Lead 26",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 27,
+    "name": "Punchy Electro Bass 27",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 28,
+    "name": "Oberheim Poly 8 28",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 29,
+    "name": "Comb Filter Drone 29",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 30,
+    "name": "Lush Ribbon Pad 30",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 31,
+    "name": "Vintage Moog 24dB 31",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 32,
+    "name": "Jupiter 8 Brass Ion 32",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 33,
+    "name": "TB-303 Acid Reso 33",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 34,
+    "name": "SEM State Variable Notch 34",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 35,
+    "name": "Formant Vocal Morph 35",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 36,
+    "name": "Wicked Sync Lead 36",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 37,
+    "name": "Punchy Electro Bass 37",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 38,
+    "name": "Oberheim Poly 8 38",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 39,
+    "name": "Comb Filter Drone 39",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 40,
+    "name": "Lush Ribbon Pad 40",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 41,
+    "name": "Vintage Moog 24dB 41",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 42,
+    "name": "Jupiter 8 Brass Ion 42",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 43,
+    "name": "TB-303 Acid Reso 43",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 44,
+    "name": "SEM State Variable Notch 44",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 45,
+    "name": "Formant Vocal Morph 45",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 46,
+    "name": "Wicked Sync Lead 46",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 47,
+    "name": "Punchy Electro Bass 47",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 48,
+    "name": "Oberheim Poly 8 48",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 49,
+    "name": "Comb Filter Drone 49",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 50,
+    "name": "Lush Ribbon Pad 50",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 51,
+    "name": "Vintage Moog 24dB 51",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 52,
+    "name": "Jupiter 8 Brass Ion 52",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 53,
+    "name": "TB-303 Acid Reso 53",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 54,
+    "name": "SEM State Variable Notch 54",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 55,
+    "name": "Formant Vocal Morph 55",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 56,
+    "name": "Wicked Sync Lead 56",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 57,
+    "name": "Punchy Electro Bass 57",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 58,
+    "name": "Oberheim Poly 8 58",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 59,
+    "name": "Comb Filter Drone 59",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 60,
+    "name": "Lush Ribbon Pad 60",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 61,
+    "name": "Vintage Moog 24dB 61",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 62,
+    "name": "Jupiter 8 Brass Ion 62",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 63,
+    "name": "TB-303 Acid Reso 63",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 1",
+    "program": 64,
+    "name": "SEM State Variable Notch 64",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 1,
+    "name": "Vintage Moog 24dB",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 2,
+    "name": "Jupiter 8 Brass Ion",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 3,
+    "name": "TB-303 Acid Reso",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 4,
+    "name": "SEM State Variable Notch",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 5,
+    "name": "Formant Vocal Morph",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 6,
+    "name": "Wicked Sync Lead",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 7,
+    "name": "Punchy Electro Bass",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 8,
+    "name": "Oberheim Poly 8",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 9,
+    "name": "Comb Filter Drone",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 10,
+    "name": "Lush Ribbon Pad",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 11,
+    "name": "Vintage Moog 24dB 11",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 12,
+    "name": "Jupiter 8 Brass Ion 12",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 13,
+    "name": "TB-303 Acid Reso 13",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 14,
+    "name": "SEM State Variable Notch 14",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 15,
+    "name": "Formant Vocal Morph 15",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 16,
+    "name": "Wicked Sync Lead 16",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 17,
+    "name": "Punchy Electro Bass 17",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 18,
+    "name": "Oberheim Poly 8 18",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 19,
+    "name": "Comb Filter Drone 19",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 20,
+    "name": "Lush Ribbon Pad 20",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 21,
+    "name": "Vintage Moog 24dB 21",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 22,
+    "name": "Jupiter 8 Brass Ion 22",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 23,
+    "name": "TB-303 Acid Reso 23",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 24,
+    "name": "SEM State Variable Notch 24",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 25,
+    "name": "Formant Vocal Morph 25",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 26,
+    "name": "Wicked Sync Lead 26",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 27,
+    "name": "Punchy Electro Bass 27",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 28,
+    "name": "Oberheim Poly 8 28",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 29,
+    "name": "Comb Filter Drone 29",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 30,
+    "name": "Lush Ribbon Pad 30",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 31,
+    "name": "Vintage Moog 24dB 31",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 32,
+    "name": "Jupiter 8 Brass Ion 32",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 33,
+    "name": "TB-303 Acid Reso 33",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 34,
+    "name": "SEM State Variable Notch 34",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 35,
+    "name": "Formant Vocal Morph 35",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 36,
+    "name": "Wicked Sync Lead 36",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 37,
+    "name": "Punchy Electro Bass 37",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 38,
+    "name": "Oberheim Poly 8 38",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 39,
+    "name": "Comb Filter Drone 39",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 40,
+    "name": "Lush Ribbon Pad 40",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 41,
+    "name": "Vintage Moog 24dB 41",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 42,
+    "name": "Jupiter 8 Brass Ion 42",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 43,
+    "name": "TB-303 Acid Reso 43",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 44,
+    "name": "SEM State Variable Notch 44",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 45,
+    "name": "Formant Vocal Morph 45",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 46,
+    "name": "Wicked Sync Lead 46",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 47,
+    "name": "Punchy Electro Bass 47",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 48,
+    "name": "Oberheim Poly 8 48",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 49,
+    "name": "Comb Filter Drone 49",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 50,
+    "name": "Lush Ribbon Pad 50",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 51,
+    "name": "Vintage Moog 24dB 51",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 52,
+    "name": "Jupiter 8 Brass Ion 52",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 53,
+    "name": "TB-303 Acid Reso 53",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 54,
+    "name": "SEM State Variable Notch 54",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 55,
+    "name": "Formant Vocal Morph 55",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 56,
+    "name": "Wicked Sync Lead 56",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 57,
+    "name": "Punchy Electro Bass 57",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 58,
+    "name": "Oberheim Poly 8 58",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 59,
+    "name": "Comb Filter Drone 59",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 60,
+    "name": "Lush Ribbon Pad 60",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 61,
+    "name": "Vintage Moog 24dB 61",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 62,
+    "name": "Jupiter 8 Brass Ion 62",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 63,
+    "name": "TB-303 Acid Reso 63",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 2",
+    "program": 64,
+    "name": "SEM State Variable Notch 64",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 1,
+    "name": "Vintage Moog 24dB",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 2,
+    "name": "Jupiter 8 Brass Ion",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 3,
+    "name": "TB-303 Acid Reso",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 4,
+    "name": "SEM State Variable Notch",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 5,
+    "name": "Formant Vocal Morph",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 6,
+    "name": "Wicked Sync Lead",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 7,
+    "name": "Punchy Electro Bass",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 8,
+    "name": "Oberheim Poly 8",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 9,
+    "name": "Comb Filter Drone",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 10,
+    "name": "Lush Ribbon Pad",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 11,
+    "name": "Vintage Moog 24dB 11",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 12,
+    "name": "Jupiter 8 Brass Ion 12",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 13,
+    "name": "TB-303 Acid Reso 13",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 14,
+    "name": "SEM State Variable Notch 14",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 15,
+    "name": "Formant Vocal Morph 15",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 16,
+    "name": "Wicked Sync Lead 16",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 17,
+    "name": "Punchy Electro Bass 17",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 18,
+    "name": "Oberheim Poly 8 18",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 19,
+    "name": "Comb Filter Drone 19",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 20,
+    "name": "Lush Ribbon Pad 20",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 21,
+    "name": "Vintage Moog 24dB 21",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 22,
+    "name": "Jupiter 8 Brass Ion 22",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 23,
+    "name": "TB-303 Acid Reso 23",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 24,
+    "name": "SEM State Variable Notch 24",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 25,
+    "name": "Formant Vocal Morph 25",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 26,
+    "name": "Wicked Sync Lead 26",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 27,
+    "name": "Punchy Electro Bass 27",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 28,
+    "name": "Oberheim Poly 8 28",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 29,
+    "name": "Comb Filter Drone 29",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 30,
+    "name": "Lush Ribbon Pad 30",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 31,
+    "name": "Vintage Moog 24dB 31",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 32,
+    "name": "Jupiter 8 Brass Ion 32",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 33,
+    "name": "TB-303 Acid Reso 33",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 34,
+    "name": "SEM State Variable Notch 34",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 35,
+    "name": "Formant Vocal Morph 35",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 36,
+    "name": "Wicked Sync Lead 36",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 37,
+    "name": "Punchy Electro Bass 37",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 38,
+    "name": "Oberheim Poly 8 38",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 39,
+    "name": "Comb Filter Drone 39",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 40,
+    "name": "Lush Ribbon Pad 40",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 41,
+    "name": "Vintage Moog 24dB 41",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 42,
+    "name": "Jupiter 8 Brass Ion 42",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 43,
+    "name": "TB-303 Acid Reso 43",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 44,
+    "name": "SEM State Variable Notch 44",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 45,
+    "name": "Formant Vocal Morph 45",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 46,
+    "name": "Wicked Sync Lead 46",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 47,
+    "name": "Punchy Electro Bass 47",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 48,
+    "name": "Oberheim Poly 8 48",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 49,
+    "name": "Comb Filter Drone 49",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 50,
+    "name": "Lush Ribbon Pad 50",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 51,
+    "name": "Vintage Moog 24dB 51",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 52,
+    "name": "Jupiter 8 Brass Ion 52",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 53,
+    "name": "TB-303 Acid Reso 53",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 54,
+    "name": "SEM State Variable Notch 54",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 55,
+    "name": "Formant Vocal Morph 55",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 56,
+    "name": "Wicked Sync Lead 56",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 57,
+    "name": "Punchy Electro Bass 57",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 58,
+    "name": "Oberheim Poly 8 58",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 59,
+    "name": "Comb Filter Drone 59",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 60,
+    "name": "Lush Ribbon Pad 60",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 61,
+    "name": "Vintage Moog 24dB 61",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 62,
+    "name": "Jupiter 8 Brass Ion 62",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 63,
+    "name": "TB-303 Acid Reso 63",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 3",
+    "program": 64,
+    "name": "SEM State Variable Notch 64",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 1,
+    "name": "Vintage Moog 24dB",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 2,
+    "name": "Jupiter 8 Brass Ion",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 3,
+    "name": "TB-303 Acid Reso",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 4,
+    "name": "SEM State Variable Notch",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 5,
+    "name": "Formant Vocal Morph",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 6,
+    "name": "Wicked Sync Lead",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 7,
+    "name": "Punchy Electro Bass",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 8,
+    "name": "Oberheim Poly 8",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 9,
+    "name": "Comb Filter Drone",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 10,
+    "name": "Lush Ribbon Pad",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 11,
+    "name": "Vintage Moog 24dB 11",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 12,
+    "name": "Jupiter 8 Brass Ion 12",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 13,
+    "name": "TB-303 Acid Reso 13",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 14,
+    "name": "SEM State Variable Notch 14",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 15,
+    "name": "Formant Vocal Morph 15",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 16,
+    "name": "Wicked Sync Lead 16",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 17,
+    "name": "Punchy Electro Bass 17",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 18,
+    "name": "Oberheim Poly 8 18",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 19,
+    "name": "Comb Filter Drone 19",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 20,
+    "name": "Lush Ribbon Pad 20",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 21,
+    "name": "Vintage Moog 24dB 21",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 22,
+    "name": "Jupiter 8 Brass Ion 22",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 23,
+    "name": "TB-303 Acid Reso 23",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 24,
+    "name": "SEM State Variable Notch 24",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 25,
+    "name": "Formant Vocal Morph 25",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 26,
+    "name": "Wicked Sync Lead 26",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 27,
+    "name": "Punchy Electro Bass 27",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 28,
+    "name": "Oberheim Poly 8 28",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 29,
+    "name": "Comb Filter Drone 29",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 30,
+    "name": "Lush Ribbon Pad 30",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 31,
+    "name": "Vintage Moog 24dB 31",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 32,
+    "name": "Jupiter 8 Brass Ion 32",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 33,
+    "name": "TB-303 Acid Reso 33",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 34,
+    "name": "SEM State Variable Notch 34",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 35,
+    "name": "Formant Vocal Morph 35",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 36,
+    "name": "Wicked Sync Lead 36",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 37,
+    "name": "Punchy Electro Bass 37",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 38,
+    "name": "Oberheim Poly 8 38",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 39,
+    "name": "Comb Filter Drone 39",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 40,
+    "name": "Lush Ribbon Pad 40",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 41,
+    "name": "Vintage Moog 24dB 41",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 42,
+    "name": "Jupiter 8 Brass Ion 42",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 43,
+    "name": "TB-303 Acid Reso 43",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 44,
+    "name": "SEM State Variable Notch 44",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 45,
+    "name": "Formant Vocal Morph 45",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 46,
+    "name": "Wicked Sync Lead 46",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 47,
+    "name": "Punchy Electro Bass 47",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 48,
+    "name": "Oberheim Poly 8 48",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 49,
+    "name": "Comb Filter Drone 49",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 50,
+    "name": "Lush Ribbon Pad 50",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 51,
+    "name": "Vintage Moog 24dB 51",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 52,
+    "name": "Jupiter 8 Brass Ion 52",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 53,
+    "name": "TB-303 Acid Reso 53",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 54,
+    "name": "SEM State Variable Notch 54",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 55,
+    "name": "Formant Vocal Morph 55",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 56,
+    "name": "Wicked Sync Lead 56",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 57,
+    "name": "Punchy Electro Bass 57",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 58,
+    "name": "Oberheim Poly 8 58",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 59,
+    "name": "Comb Filter Drone 59",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 60,
+    "name": "Lush Ribbon Pad 60",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 61,
+    "name": "Vintage Moog 24dB 61",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 62,
+    "name": "Jupiter 8 Brass Ion 62",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 63,
+    "name": "TB-303 Acid Reso 63",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "User Bank 4",
+    "program": 64,
+    "name": "SEM State Variable Notch 64",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 1,
+    "name": "Vintage Moog 24dB",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 2,
+    "name": "Jupiter 8 Brass Ion",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 3,
+    "name": "TB-303 Acid Reso",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 4,
+    "name": "SEM State Variable Notch",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 5,
+    "name": "Formant Vocal Morph",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 6,
+    "name": "Wicked Sync Lead",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 7,
+    "name": "Punchy Electro Bass",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 8,
+    "name": "Oberheim Poly 8",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 9,
+    "name": "Comb Filter Drone",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 10,
+    "name": "Lush Ribbon Pad",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 11,
+    "name": "Vintage Moog 24dB 11",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 12,
+    "name": "Jupiter 8 Brass Ion 12",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 13,
+    "name": "TB-303 Acid Reso 13",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 14,
+    "name": "SEM State Variable Notch 14",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 15,
+    "name": "Formant Vocal Morph 15",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 16,
+    "name": "Wicked Sync Lead 16",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 17,
+    "name": "Punchy Electro Bass 17",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 18,
+    "name": "Oberheim Poly 8 18",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 19,
+    "name": "Comb Filter Drone 19",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 20,
+    "name": "Lush Ribbon Pad 20",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 21,
+    "name": "Vintage Moog 24dB 21",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 22,
+    "name": "Jupiter 8 Brass Ion 22",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 23,
+    "name": "TB-303 Acid Reso 23",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 24,
+    "name": "SEM State Variable Notch 24",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 25,
+    "name": "Formant Vocal Morph 25",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 26,
+    "name": "Wicked Sync Lead 26",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 27,
+    "name": "Punchy Electro Bass 27",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 28,
+    "name": "Oberheim Poly 8 28",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 29,
+    "name": "Comb Filter Drone 29",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 30,
+    "name": "Lush Ribbon Pad 30",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 31,
+    "name": "Vintage Moog 24dB 31",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 32,
+    "name": "Jupiter 8 Brass Ion 32",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 33,
+    "name": "TB-303 Acid Reso 33",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 34,
+    "name": "SEM State Variable Notch 34",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 35,
+    "name": "Formant Vocal Morph 35",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 36,
+    "name": "Wicked Sync Lead 36",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 37,
+    "name": "Punchy Electro Bass 37",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 38,
+    "name": "Oberheim Poly 8 38",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 39,
+    "name": "Comb Filter Drone 39",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 40,
+    "name": "Lush Ribbon Pad 40",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 41,
+    "name": "Vintage Moog 24dB 41",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 42,
+    "name": "Jupiter 8 Brass Ion 42",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 43,
+    "name": "TB-303 Acid Reso 43",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 44,
+    "name": "SEM State Variable Notch 44",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 45,
+    "name": "Formant Vocal Morph 45",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 46,
+    "name": "Wicked Sync Lead 46",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 47,
+    "name": "Punchy Electro Bass 47",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 48,
+    "name": "Oberheim Poly 8 48",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 49,
+    "name": "Comb Filter Drone 49",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 50,
+    "name": "Lush Ribbon Pad 50",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 51,
+    "name": "Vintage Moog 24dB 51",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 52,
+    "name": "Jupiter 8 Brass Ion 52",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 53,
+    "name": "TB-303 Acid Reso 53",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 54,
+    "name": "SEM State Variable Notch 54",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 55,
+    "name": "Formant Vocal Morph 55",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 56,
+    "name": "Wicked Sync Lead 56",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 57,
+    "name": "Punchy Electro Bass 57",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 58,
+    "name": "Oberheim Poly 8 58",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 59,
+    "name": "Comb Filter Drone 59",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 60,
+    "name": "Lush Ribbon Pad 60",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 61,
+    "name": "Vintage Moog 24dB 61",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 62,
+    "name": "Jupiter 8 Brass Ion 62",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 63,
+    "name": "TB-303 Acid Reso 63",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 5",
+    "program": 64,
+    "name": "SEM State Variable Notch 64",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 1,
+    "name": "Vintage Moog 24dB",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 2,
+    "name": "Jupiter 8 Brass Ion",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 3,
+    "name": "TB-303 Acid Reso",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 4,
+    "name": "SEM State Variable Notch",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 5,
+    "name": "Formant Vocal Morph",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 6,
+    "name": "Wicked Sync Lead",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 7,
+    "name": "Punchy Electro Bass",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 8,
+    "name": "Oberheim Poly 8",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 9,
+    "name": "Comb Filter Drone",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 10,
+    "name": "Lush Ribbon Pad",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 11,
+    "name": "Vintage Moog 24dB 11",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 12,
+    "name": "Jupiter 8 Brass Ion 12",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 13,
+    "name": "TB-303 Acid Reso 13",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 14,
+    "name": "SEM State Variable Notch 14",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 15,
+    "name": "Formant Vocal Morph 15",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 16,
+    "name": "Wicked Sync Lead 16",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 17,
+    "name": "Punchy Electro Bass 17",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 18,
+    "name": "Oberheim Poly 8 18",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 19,
+    "name": "Comb Filter Drone 19",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 20,
+    "name": "Lush Ribbon Pad 20",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 21,
+    "name": "Vintage Moog 24dB 21",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 22,
+    "name": "Jupiter 8 Brass Ion 22",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 23,
+    "name": "TB-303 Acid Reso 23",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 24,
+    "name": "SEM State Variable Notch 24",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 25,
+    "name": "Formant Vocal Morph 25",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 26,
+    "name": "Wicked Sync Lead 26",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 27,
+    "name": "Punchy Electro Bass 27",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 28,
+    "name": "Oberheim Poly 8 28",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 29,
+    "name": "Comb Filter Drone 29",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 30,
+    "name": "Lush Ribbon Pad 30",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 31,
+    "name": "Vintage Moog 24dB 31",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 32,
+    "name": "Jupiter 8 Brass Ion 32",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 33,
+    "name": "TB-303 Acid Reso 33",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 34,
+    "name": "SEM State Variable Notch 34",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 35,
+    "name": "Formant Vocal Morph 35",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 36,
+    "name": "Wicked Sync Lead 36",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 37,
+    "name": "Punchy Electro Bass 37",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 38,
+    "name": "Oberheim Poly 8 38",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 39,
+    "name": "Comb Filter Drone 39",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 40,
+    "name": "Lush Ribbon Pad 40",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 41,
+    "name": "Vintage Moog 24dB 41",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 42,
+    "name": "Jupiter 8 Brass Ion 42",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 43,
+    "name": "TB-303 Acid Reso 43",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 44,
+    "name": "SEM State Variable Notch 44",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 45,
+    "name": "Formant Vocal Morph 45",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 46,
+    "name": "Wicked Sync Lead 46",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 47,
+    "name": "Punchy Electro Bass 47",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 48,
+    "name": "Oberheim Poly 8 48",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 49,
+    "name": "Comb Filter Drone 49",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 50,
+    "name": "Lush Ribbon Pad 50",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 51,
+    "name": "Vintage Moog 24dB 51",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 52,
+    "name": "Jupiter 8 Brass Ion 52",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 53,
+    "name": "TB-303 Acid Reso 53",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 54,
+    "name": "SEM State Variable Notch 54",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 55,
+    "name": "Formant Vocal Morph 55",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 56,
+    "name": "Wicked Sync Lead 56",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 57,
+    "name": "Punchy Electro Bass 57",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 58,
+    "name": "Oberheim Poly 8 58",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 59,
+    "name": "Comb Filter Drone 59",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 60,
+    "name": "Lush Ribbon Pad 60",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 61,
+    "name": "Vintage Moog 24dB 61",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 62,
+    "name": "Jupiter 8 Brass Ion 62",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 63,
+    "name": "TB-303 Acid Reso 63",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 6",
+    "program": 64,
+    "name": "SEM State Variable Notch 64",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 1,
+    "name": "Vintage Moog 24dB",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 2,
+    "name": "Jupiter 8 Brass Ion",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 3,
+    "name": "TB-303 Acid Reso",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 4,
+    "name": "SEM State Variable Notch",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 5,
+    "name": "Formant Vocal Morph",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 6,
+    "name": "Wicked Sync Lead",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 7,
+    "name": "Punchy Electro Bass",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 8,
+    "name": "Oberheim Poly 8",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 9,
+    "name": "Comb Filter Drone",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 10,
+    "name": "Lush Ribbon Pad",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 11,
+    "name": "Vintage Moog 24dB 11",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 12,
+    "name": "Jupiter 8 Brass Ion 12",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 13,
+    "name": "TB-303 Acid Reso 13",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 14,
+    "name": "SEM State Variable Notch 14",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 15,
+    "name": "Formant Vocal Morph 15",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 16,
+    "name": "Wicked Sync Lead 16",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 17,
+    "name": "Punchy Electro Bass 17",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 18,
+    "name": "Oberheim Poly 8 18",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 19,
+    "name": "Comb Filter Drone 19",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 20,
+    "name": "Lush Ribbon Pad 20",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 21,
+    "name": "Vintage Moog 24dB 21",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 22,
+    "name": "Jupiter 8 Brass Ion 22",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 23,
+    "name": "TB-303 Acid Reso 23",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 24,
+    "name": "SEM State Variable Notch 24",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 25,
+    "name": "Formant Vocal Morph 25",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 26,
+    "name": "Wicked Sync Lead 26",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 27,
+    "name": "Punchy Electro Bass 27",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 28,
+    "name": "Oberheim Poly 8 28",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 29,
+    "name": "Comb Filter Drone 29",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 30,
+    "name": "Lush Ribbon Pad 30",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 31,
+    "name": "Vintage Moog 24dB 31",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 32,
+    "name": "Jupiter 8 Brass Ion 32",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 33,
+    "name": "TB-303 Acid Reso 33",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 34,
+    "name": "SEM State Variable Notch 34",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 35,
+    "name": "Formant Vocal Morph 35",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 36,
+    "name": "Wicked Sync Lead 36",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 37,
+    "name": "Punchy Electro Bass 37",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 38,
+    "name": "Oberheim Poly 8 38",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 39,
+    "name": "Comb Filter Drone 39",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 40,
+    "name": "Lush Ribbon Pad 40",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 41,
+    "name": "Vintage Moog 24dB 41",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 42,
+    "name": "Jupiter 8 Brass Ion 42",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 43,
+    "name": "TB-303 Acid Reso 43",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 44,
+    "name": "SEM State Variable Notch 44",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 45,
+    "name": "Formant Vocal Morph 45",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 46,
+    "name": "Wicked Sync Lead 46",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 47,
+    "name": "Punchy Electro Bass 47",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 48,
+    "name": "Oberheim Poly 8 48",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 49,
+    "name": "Comb Filter Drone 49",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 50,
+    "name": "Lush Ribbon Pad 50",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 51,
+    "name": "Vintage Moog 24dB 51",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 52,
+    "name": "Jupiter 8 Brass Ion 52",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 53,
+    "name": "TB-303 Acid Reso 53",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 54,
+    "name": "SEM State Variable Notch 54",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 55,
+    "name": "Formant Vocal Morph 55",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 56,
+    "name": "Wicked Sync Lead 56",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 57,
+    "name": "Punchy Electro Bass 57",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 58,
+    "name": "Oberheim Poly 8 58",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 59,
+    "name": "Comb Filter Drone 59",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 60,
+    "name": "Lush Ribbon Pad 60",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 61,
+    "name": "Vintage Moog 24dB 61",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 62,
+    "name": "Jupiter 8 Brass Ion 62",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 63,
+    "name": "TB-303 Acid Reso 63",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 7",
+    "program": 64,
+    "name": "SEM State Variable Notch 64",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 1,
+    "name": "Vintage Moog 24dB",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 2,
+    "name": "Jupiter 8 Brass Ion",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 3,
+    "name": "TB-303 Acid Reso",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 4,
+    "name": "SEM State Variable Notch",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 5,
+    "name": "Formant Vocal Morph",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 6,
+    "name": "Wicked Sync Lead",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 7,
+    "name": "Punchy Electro Bass",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 8,
+    "name": "Oberheim Poly 8",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 9,
+    "name": "Comb Filter Drone",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 10,
+    "name": "Lush Ribbon Pad",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 11,
+    "name": "Vintage Moog 24dB 11",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 12,
+    "name": "Jupiter 8 Brass Ion 12",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 13,
+    "name": "TB-303 Acid Reso 13",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 14,
+    "name": "SEM State Variable Notch 14",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 15,
+    "name": "Formant Vocal Morph 15",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 16,
+    "name": "Wicked Sync Lead 16",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 17,
+    "name": "Punchy Electro Bass 17",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 18,
+    "name": "Oberheim Poly 8 18",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 19,
+    "name": "Comb Filter Drone 19",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 20,
+    "name": "Lush Ribbon Pad 20",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 21,
+    "name": "Vintage Moog 24dB 21",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 22,
+    "name": "Jupiter 8 Brass Ion 22",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 23,
+    "name": "TB-303 Acid Reso 23",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 24,
+    "name": "SEM State Variable Notch 24",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 25,
+    "name": "Formant Vocal Morph 25",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 26,
+    "name": "Wicked Sync Lead 26",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 27,
+    "name": "Punchy Electro Bass 27",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 28,
+    "name": "Oberheim Poly 8 28",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 29,
+    "name": "Comb Filter Drone 29",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 30,
+    "name": "Lush Ribbon Pad 30",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 31,
+    "name": "Vintage Moog 24dB 31",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 32,
+    "name": "Jupiter 8 Brass Ion 32",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 33,
+    "name": "TB-303 Acid Reso 33",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 34,
+    "name": "SEM State Variable Notch 34",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 35,
+    "name": "Formant Vocal Morph 35",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 36,
+    "name": "Wicked Sync Lead 36",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 37,
+    "name": "Punchy Electro Bass 37",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 38,
+    "name": "Oberheim Poly 8 38",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 39,
+    "name": "Comb Filter Drone 39",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 40,
+    "name": "Lush Ribbon Pad 40",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 41,
+    "name": "Vintage Moog 24dB 41",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 42,
+    "name": "Jupiter 8 Brass Ion 42",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 43,
+    "name": "TB-303 Acid Reso 43",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 44,
+    "name": "SEM State Variable Notch 44",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 45,
+    "name": "Formant Vocal Morph 45",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 46,
+    "name": "Wicked Sync Lead 46",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 47,
+    "name": "Punchy Electro Bass 47",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 48,
+    "name": "Oberheim Poly 8 48",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 49,
+    "name": "Comb Filter Drone 49",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 50,
+    "name": "Lush Ribbon Pad 50",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 51,
+    "name": "Vintage Moog 24dB 51",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 52,
+    "name": "Jupiter 8 Brass Ion 52",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 53,
+    "name": "TB-303 Acid Reso 53",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 54,
+    "name": "SEM State Variable Notch 54",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 55,
+    "name": "Formant Vocal Morph 55",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 56,
+    "name": "Wicked Sync Lead 56",
+    "category": "Lead",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 57,
+    "name": "Punchy Electro Bass 57",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 58,
+    "name": "Oberheim Poly 8 58",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 59,
+    "name": "Comb Filter Drone 59",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 60,
+    "name": "Lush Ribbon Pad 60",
+    "category": "Pad",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 61,
+    "name": "Vintage Moog 24dB 61",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 62,
+    "name": "Jupiter 8 Brass Ion 62",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 63,
+    "name": "TB-303 Acid Reso 63",
+    "category": "Bass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank 8",
+    "program": 64,
+    "name": "SEM State Variable Notch 64",
+    "category": "Brass",
+    "tags": [
+      "virtual-analog",
+      "17-filter-models",
+      "continuous-knobs",
+      "brass"
+    ]
+  }
+]
