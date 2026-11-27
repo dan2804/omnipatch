@@ -1,0 +1,20 @@
+manufacturer: Jomox
+model: JoMoX SunSyn
+type: 8-Voice Discrete Analog Synthesizer
+year: 1999
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    pole_switching: 79
+    rco_sample: 20
+    vco_mix: 21
+sysex:
+  header: F0 33 02
+  device_id_byte: 2
+  commands:
+    request_sound: F0 33 02 01 [bank] [prog] F7
+banks:
+- Preset Bank 1
+- Preset Bank 2

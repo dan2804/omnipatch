@@ -1,0 +1,730 @@
+[
+  {
+    "bank": "Factory Memory",
+    "program": 1,
+    "name": "Juno-60 Memory 01: 11 Brass I (Classic Juno)",
+    "category": "Brass",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 2,
+    "name": "Juno-60 Memory 02: 12 Brass II (Soft French Horn)",
+    "category": "Brass",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 3,
+    "name": "Juno-60 Memory 03: 13 Strings I (Lush BBD Chorus)",
+    "category": "Strings",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "strings"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 4,
+    "name": "Juno-60 Memory 04: 14 Strings II (Slow Swell)",
+    "category": "Strings",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "strings"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 5,
+    "name": "Juno-60 Memory 05: 21 Organ I (Rock Drawbar)",
+    "category": "Keys",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 6,
+    "name": "Juno-60 Memory 06: 22 Organ II (Jazz Chorus)",
+    "category": "Keys",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 7,
+    "name": "Juno-60 Memory 07: 23 Piano I (80s Poly E-Piano)",
+    "category": "Keys",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 8,
+    "name": "Juno-60 Memory 08: 24 Clavinet (Funky Thumb)",
+    "category": "Keys",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 9,
+    "name": "Juno-60 Memory 09: 31 Bass I (Punchy Sub Bass)",
+    "category": "Bass",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 10,
+    "name": "Juno-60 Memory 10: 32 Bass II (Resonant Acid Thud)",
+    "category": "Bass",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 11,
+    "name": "Juno-60 Memory 11: 33 Lead I (PWM Sync Lead)",
+    "category": "Keys",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 12,
+    "name": "Juno-60 Memory 12: 34 Lead II (Solo Flute)",
+    "category": "Keys",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 13,
+    "name": "Juno-60 Memory 13: 41 Pad I (Celestial Chorus)",
+    "category": "Pad",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 14,
+    "name": "Juno-60 Memory 14: 42 Pad II (Dark Shimmer)",
+    "category": "Pad",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 15,
+    "name": "Juno-60 Memory 15: 43 Arp I (Fast Clocked Pluck)",
+    "category": "Keys",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 16,
+    "name": "Juno-60 Memory 16: 44 Sci-Fi Noise Zap",
+    "category": "Keys",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 17,
+    "name": "Juno-60 Memory 17: 11 Brass I (Classic Juno)",
+    "category": "Brass",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 18,
+    "name": "Juno-60 Memory 18: 12 Brass II (Soft French Horn)",
+    "category": "Brass",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 19,
+    "name": "Juno-60 Memory 19: 13 Strings I (Lush BBD Chorus)",
+    "category": "Strings",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "strings"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 20,
+    "name": "Juno-60 Memory 20: 14 Strings II (Slow Swell)",
+    "category": "Strings",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "strings"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 21,
+    "name": "Juno-60 Memory 21: 21 Organ I (Rock Drawbar)",
+    "category": "Keys",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 22,
+    "name": "Juno-60 Memory 22: 22 Organ II (Jazz Chorus)",
+    "category": "Keys",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 23,
+    "name": "Juno-60 Memory 23: 23 Piano I (80s Poly E-Piano)",
+    "category": "Keys",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 24,
+    "name": "Juno-60 Memory 24: 24 Clavinet (Funky Thumb)",
+    "category": "Keys",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 25,
+    "name": "Juno-60 Memory 25: 31 Bass I (Punchy Sub Bass)",
+    "category": "Bass",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 26,
+    "name": "Juno-60 Memory 26: 32 Bass II (Resonant Acid Thud)",
+    "category": "Bass",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 27,
+    "name": "Juno-60 Memory 27: 33 Lead I (PWM Sync Lead)",
+    "category": "Keys",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 28,
+    "name": "Juno-60 Memory 28: 34 Lead II (Solo Flute)",
+    "category": "Keys",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 29,
+    "name": "Juno-60 Memory 29: 41 Pad I (Celestial Chorus)",
+    "category": "Pad",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 30,
+    "name": "Juno-60 Memory 30: 42 Pad II (Dark Shimmer)",
+    "category": "Pad",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 31,
+    "name": "Juno-60 Memory 31: 43 Arp I (Fast Clocked Pluck)",
+    "category": "Keys",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 32,
+    "name": "Juno-60 Memory 32: 44 Sci-Fi Noise Zap",
+    "category": "Keys",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 33,
+    "name": "Juno-60 Memory 33: 11 Brass I (Classic Juno)",
+    "category": "Brass",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 34,
+    "name": "Juno-60 Memory 34: 12 Brass II (Soft French Horn)",
+    "category": "Brass",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 35,
+    "name": "Juno-60 Memory 35: 13 Strings I (Lush BBD Chorus)",
+    "category": "Strings",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "strings"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 36,
+    "name": "Juno-60 Memory 36: 14 Strings II (Slow Swell)",
+    "category": "Strings",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "strings"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 37,
+    "name": "Juno-60 Memory 37: 21 Organ I (Rock Drawbar)",
+    "category": "Keys",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 38,
+    "name": "Juno-60 Memory 38: 22 Organ II (Jazz Chorus)",
+    "category": "Keys",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 39,
+    "name": "Juno-60 Memory 39: 23 Piano I (80s Poly E-Piano)",
+    "category": "Keys",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 40,
+    "name": "Juno-60 Memory 40: 24 Clavinet (Funky Thumb)",
+    "category": "Keys",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 41,
+    "name": "Juno-60 Memory 41: 31 Bass I (Punchy Sub Bass)",
+    "category": "Bass",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 42,
+    "name": "Juno-60 Memory 42: 32 Bass II (Resonant Acid Thud)",
+    "category": "Bass",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 43,
+    "name": "Juno-60 Memory 43: 33 Lead I (PWM Sync Lead)",
+    "category": "Keys",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 44,
+    "name": "Juno-60 Memory 44: 34 Lead II (Solo Flute)",
+    "category": "Keys",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 45,
+    "name": "Juno-60 Memory 45: 41 Pad I (Celestial Chorus)",
+    "category": "Pad",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 46,
+    "name": "Juno-60 Memory 46: 42 Pad II (Dark Shimmer)",
+    "category": "Pad",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 47,
+    "name": "Juno-60 Memory 47: 43 Arp I (Fast Clocked Pluck)",
+    "category": "Keys",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 48,
+    "name": "Juno-60 Memory 48: 44 Sci-Fi Noise Zap",
+    "category": "Keys",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 49,
+    "name": "Juno-60 Memory 49: 11 Brass I (Classic Juno)",
+    "category": "Brass",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 50,
+    "name": "Juno-60 Memory 50: 12 Brass II (Soft French Horn)",
+    "category": "Brass",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 51,
+    "name": "Juno-60 Memory 51: 13 Strings I (Lush BBD Chorus)",
+    "category": "Strings",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "strings"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 52,
+    "name": "Juno-60 Memory 52: 14 Strings II (Slow Swell)",
+    "category": "Strings",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "strings"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 53,
+    "name": "Juno-60 Memory 53: 21 Organ I (Rock Drawbar)",
+    "category": "Keys",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 54,
+    "name": "Juno-60 Memory 54: 22 Organ II (Jazz Chorus)",
+    "category": "Keys",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 55,
+    "name": "Juno-60 Memory 55: 23 Piano I (80s Poly E-Piano)",
+    "category": "Keys",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Factory Memory",
+    "program": 56,
+    "name": "Juno-60 Memory 56: 24 Clavinet (Funky Thumb)",
+    "category": "Keys",
+    "tags": [
+      "ir3109-vcf",
+      "dcb-interface",
+      "bbd-chorus",
+      "juno-60",
+      "keys"
+    ]
+  }
+]

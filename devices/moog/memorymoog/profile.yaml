@@ -1,0 +1,18 @@
+manufacturer: Moog
+model: Moog Memorymoog / Memorymoog Plus
+type: 6-Voice 18-VCO Analog Polyphonic Synthesizer
+year: 1982
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    contour_amount: 77
+    glide: 5
+sysex:
+  header: F0 04 06
+  device_id_byte: 2
+  commands:
+    dump_prog: F0 04 06 01 [prog] F7
+banks:
+- Factory Programs

@@ -1,0 +1,18 @@
+manufacturer: Roland
+model: Roland Jupiter-4 Compuphonic
+type: 4-Voice Discrete Polyphonic Synthesizer
+year: 1978
+midi:
+  channels: 16
+  cc_map:
+    vcf_cutoff: 74
+    vcf_resonance: 71
+    ensemble: 92
+    sub_osc: 20
+sysex:
+  header: F0 41 00 06
+  device_id_byte: 2
+  commands:
+    dump_patch: F0 41 00 06 01 [prog] F7
+banks:
+- Factory & User Bank

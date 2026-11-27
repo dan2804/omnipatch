@@ -1,0 +1,19 @@
+manufacturer: Roland
+model: Roland Juno-60
+type: 6-Voice Polyphonic Analog Synthesizer
+year: 1982
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    chorus_mode: 92
+    sub_level: 20
+    vcf_env: 77
+sysex:
+  header: F0 41 00 07
+  device_id_byte: 2
+  commands:
+    dump_prog: F0 41 00 07 01 [prog] F7
+banks:
+- Factory Memory
