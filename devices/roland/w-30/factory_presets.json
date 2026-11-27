@@ -1,0 +1,686 @@
+[
+  {
+    "id": "W30-001",
+    "name": "Acoustic Piano L",
+    "bank": "SYSTEM DISK",
+    "program": 1,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-002",
+    "name": "Acoustic Piano R",
+    "bank": "SYSTEM DISK",
+    "program": 2,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-003",
+    "name": "Brite Grand",
+    "bank": "SYSTEM DISK",
+    "program": 3,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-004",
+    "name": "Honky Tonk Piano",
+    "bank": "SYSTEM DISK",
+    "program": 4,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-005",
+    "name": "Classic Rhodes",
+    "bank": "SYSTEM DISK",
+    "program": 5,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-006",
+    "name": "Dyno Rhodes",
+    "bank": "SYSTEM DISK",
+    "program": 6,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-007",
+    "name": "Wurlitzer EP",
+    "bank": "SYSTEM DISK",
+    "program": 7,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-008",
+    "name": "FM E.Piano",
+    "bank": "SYSTEM DISK",
+    "program": 8,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-009",
+    "name": "Drawbar Organ 888",
+    "bank": "SYSTEM DISK",
+    "program": 9,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-010",
+    "name": "Perc Organ 888000004",
+    "bank": "SYSTEM DISK",
+    "program": 10,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-011",
+    "name": "Full B3 Leslie Slow",
+    "bank": "SYSTEM DISK",
+    "program": 11,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-012",
+    "name": "Full B3 Leslie Fast",
+    "bank": "SYSTEM DISK",
+    "program": 12,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-013",
+    "name": "Gospel Church Organ",
+    "bank": "SYSTEM DISK",
+    "program": 13,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-014",
+    "name": "Cathedral Pipe Org",
+    "bank": "SYSTEM DISK",
+    "program": 14,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-015",
+    "name": "Nylon Spanish Gtr",
+    "bank": "SYSTEM DISK",
+    "program": 15,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-016",
+    "name": "Steel Acoustic Gtr",
+    "bank": "SYSTEM DISK",
+    "program": 16,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-017",
+    "name": "Strat Clean Chorus",
+    "bank": "SYSTEM DISK",
+    "program": 17,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-018",
+    "name": "Les Paul Overdrive",
+    "bank": "SYSTEM DISK",
+    "program": 18,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-019",
+    "name": "Funk Muted Gtr",
+    "bank": "SYSTEM DISK",
+    "program": 19,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-020",
+    "name": "12-String Folk Gtr",
+    "bank": "SYSTEM DISK",
+    "program": 20,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-021",
+    "name": "Upright Wood Bass",
+    "bank": "SYSTEM DISK",
+    "program": 21,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-022",
+    "name": "Fender Precision Pick",
+    "bank": "SYSTEM DISK",
+    "program": 22,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-023",
+    "name": "Jazz Bass Fingers",
+    "bank": "SYSTEM DISK",
+    "program": 23,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-024",
+    "name": "MusicMan Slap Bass",
+    "bank": "SYSTEM DISK",
+    "program": 24,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-025",
+    "name": "Jaco Fretless Bass",
+    "bank": "SYSTEM DISK",
+    "program": 25,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-026",
+    "name": "MiniMoog Sub Bass",
+    "bank": "SYSTEM DISK",
+    "program": 26,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-027",
+    "name": "TB-303 Acid Bass",
+    "bank": "SYSTEM DISK",
+    "program": 27,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-028",
+    "name": "Solo Violin Expressive",
+    "bank": "SYSTEM DISK",
+    "program": 28,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-029",
+    "name": "Solo Cello Dark",
+    "bank": "SYSTEM DISK",
+    "program": 29,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-030",
+    "name": "Full String Section",
+    "bank": "SYSTEM DISK",
+    "program": 30,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-031",
+    "name": "Marcato Strings",
+    "bank": "SYSTEM DISK",
+    "program": 31,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-032",
+    "name": "Pizzicato Section",
+    "bank": "SYSTEM DISK",
+    "program": 32,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-033",
+    "name": "Concert Harp Gliss",
+    "bank": "SYSTEM DISK",
+    "program": 33,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-034",
+    "name": "Solo Trumpet Vibrato",
+    "bank": "SYSTEM DISK",
+    "program": 34,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-035",
+    "name": "Harmon Muted Trumpet",
+    "bank": "SYSTEM DISK",
+    "program": 35,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-036",
+    "name": "Solo Trombone",
+    "bank": "SYSTEM DISK",
+    "program": 36,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-037",
+    "name": "French Horn Section",
+    "bank": "SYSTEM DISK",
+    "program": 37,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-038",
+    "name": "Big Band Brass Stab",
+    "bank": "SYSTEM DISK",
+    "program": 38,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-039",
+    "name": "Tower of Power Horns",
+    "bank": "SYSTEM DISK",
+    "program": 39,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-040",
+    "name": "Solo Flute Legato",
+    "bank": "SYSTEM DISK",
+    "program": 40,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-041",
+    "name": "Oboe Concert",
+    "bank": "SYSTEM DISK",
+    "program": 41,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-042",
+    "name": "Clarinet Warm",
+    "bank": "SYSTEM DISK",
+    "program": 42,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-043",
+    "name": "Tenor Sax Breathy",
+    "bank": "SYSTEM DISK",
+    "program": 43,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-044",
+    "name": "Alto Sax Vibrato",
+    "bank": "SYSTEM DISK",
+    "program": 44,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-045",
+    "name": "Baritone Sax Growl",
+    "bank": "SYSTEM DISK",
+    "program": 45,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-046",
+    "name": "TR-808 Full Kit",
+    "bank": "SYSTEM DISK",
+    "program": 46,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-047",
+    "name": "TR-909 Studio Kit",
+    "bank": "SYSTEM DISK",
+    "program": 47,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-048",
+    "name": "Acoustic Heavy Rock Kit",
+    "bank": "SYSTEM DISK",
+    "program": 48,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-049",
+    "name": "Funk Studio Snare & Kick",
+    "bank": "SYSTEM DISK",
+    "program": 49,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-050",
+    "name": "Electronic Latin Percussion",
+    "bank": "SYSTEM DISK",
+    "program": 50,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-051",
+    "name": "Congas & Bongos",
+    "bank": "SYSTEM DISK",
+    "program": 51,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-052",
+    "name": "Orchestral Hit Major",
+    "bank": "SYSTEM DISK",
+    "program": 52,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-053",
+    "name": "Orchestral Hit Minor",
+    "bank": "SYSTEM DISK",
+    "program": 53,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-054",
+    "name": "Vinyl Scratch & Noise",
+    "bank": "SYSTEM DISK",
+    "program": 54,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-055",
+    "name": "Analog Pulse Pad",
+    "bank": "SYSTEM DISK",
+    "program": 55,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-056",
+    "name": "Sweep Ambient Choir",
+    "bank": "SYSTEM DISK",
+    "program": 56,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  },
+  {
+    "id": "W30-057",
+    "name": "Stereo Fairlight Voice",
+    "bank": "SYSTEM DISK",
+    "program": 57,
+    "category": "SAMPLER",
+    "tags": [
+      "w30",
+      "12bit_sampler",
+      "workstation"
+    ]
+  }
+]

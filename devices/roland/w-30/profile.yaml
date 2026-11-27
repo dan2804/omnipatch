@@ -1,0 +1,70 @@
+name: Roland W-30
+manufacturer: Roland Corporation
+category: 12-Bit Sampling Music Workstation
+release_year: 1989
+hardware:
+  form_factor: 61-Key Sampling Workstation with 240x64 Graphic LCD
+  polyphony: 16 Voices
+  parts: 8 Multi-Timbral Parts
+  sample_rate: 30kHz (Normal) / 15kHz (Long Play)
+  memory: 512KB Internal RAM (expandable via SCSI / HD)
+  sequencer: 16-Track Sequencer with FDD Storage
+midi:
+  manufacturer_id: '0x41'
+  device_id: 16
+  model_id: '0x2B'
+  channel: 1
+sysex:
+  header: F0 41 {device_id} 2B {command_id} {address} {data} {checksum} F7
+  checksum: roland
+  command_ids:
+    dataset_dt1: '0x12'
+    request_rq1: '0x11'
+parameters:
+- id: tone_name
+  name: Tone Name
+  page: Common
+  type: string
+- id: sample_rate
+  name: Sample Rate Mode
+  page: Common
+  type: enum
+  options:
+  - 30kHz (12-Bit)
+  - 15kHz (12-Bit)
+  default: 0
+- id: tvf_cutoff
+  name: TVF Filter Cutoff
+  page: Filter
+  range:
+  - 0
+  - 127
+  default: 105
+- id: tvf_resonance
+  name: TVF Filter Resonance
+  page: Filter
+  range:
+  - 0
+  - 127
+  default: 20
+- id: tva_level
+  name: TVA Level
+  page: Amp
+  range:
+  - 0
+  - 127
+  default: 100
+- id: tva_attack
+  name: TVA Attack Time
+  page: Amp
+  range:
+  - 0
+  - 127
+  default: 5
+- id: tva_release
+  name: TVA Release Time
+  page: Amp
+  range:
+  - 0
+  - 127
+  default: 25

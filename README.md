@@ -26,12 +26,19 @@ OmniPatch is a high-performance, modular patch librarian and hardware editor wri
 
 ---
 
-## Supported Synthesizers (27 Production Profiles)
+## Supported Synthesizers (34 Production Profiles)
 
-OmniPatch ships with 27 comprehensive device profiles across 4 legendary synthesizer manufacturers:
+OmniPatch ships with 34 comprehensive device profiles across 5 legendary synthesizer manufacturers:
 
 | Synthesizer | Manufacturer | Architecture | Parameters | Presets | SysEx ID / Details |
 | :--- | :--- | :--- | :---: | :---: | :--- |
+| **Roland XV-5080** | Roland Corporation | 128-Voice Flagship 32-Part Synth/Sampler | 49 | 1,263 | `0x00 0x10` · 8 SR-JV80 + 4 SRX slots, 4 stereo tones, 1,083 waves |
+| **Roland XV-3080** | Roland Corporation | 128-Voice 16-Part 2U Synth Module | 49 | 1,065 | `0x00 0x10` · 6 SR-JV80 + 2 SRX slots, 1,083 PCM waves |
+| **Roland XV-5050** | Roland Corporation | 64-Voice 16-Part 1U Module (COSM) | 49 | 598 | `0x00 0x10` · COSM effects processors, 2 SRX slots, USB MIDI |
+| **Roland XP-80 / XP-60** | Roland Corporation | 64-Voice Workstation Keyboard | 9 | 363 | `0x6A` · 4 SR-JV80 slots, MRC Pro sequencer, authentic PCM waves |
+| **Roland Alpha Juno-1 / 2** | Roland Corporation | 6-Voice Polyphonic Analog (DCO) | 23 | 64 | `0x23` · IR3109 VCF, BBD chorus, Hoover "What The..." sound |
+| **Roland D-110** | Roland Corporation | Multi-Timbral LA Synthesis Module | 8 | 128 | `0x16` · 8 individual outputs, 13 partial structures, D-50 heritage |
+| **Roland W-30** | Roland Corporation | 12-Bit Sampling Music Workstation | 7 | 57 | `0x2B` · 30kHz/15kHz 12-bit sampler, SCSI/HD support, 16 tracks |
 | **Access Virus A** | Access Music GmbH | Virtual Analog (DSP56303) | 17 | 256 | `0x10` (16) · Multi-page SysEx (Pages A, B, C), 256-byte dumps |
 | **Akai AX60** | Akai Professional | 6-Voice CEM3394 Analog | 23 | 64 | Tauntek CC mapping (CC 14–74), 3,445B Bank SysEx, Sampler input |
 | **Casio CZ-1** | Casio Computer Co. | 16-DCO Phase Distortion | 26 | 64 | `0x03` · Dual Line detune, Velocity & Aftertouch sensitivity |
@@ -75,11 +82,12 @@ omnipatch/
 │   ├── omnipatch-midi/       # midir low-latency packet pacing, hardware throttling
 │   ├── omnipatch-profile/    # YAML parser, parameter mapping, validation engine
 │   └── omnipatch-sysex/      # Checksum calculators (Roland, E-MU, Casio, Waldorf)
-├── devices/                  # 27 Declarative YAML hardware profiles & factory presets
+├── devices/                  # 34 Declarative YAML hardware profiles & factory presets
 │   ├── access/               # Access Music GmbH (Virus A)
 │   ├── akai/                 # Akai Professional (AX60)
 │   ├── casio/                # Casio Computer Co. (CZ-1, CZ-101, CZ-1000, CZ-230S, CZ-3000, CZ-5000)
-│   └── emu/                  # E-MU Systems (Orbit-3, Proteus family, SP-1200, Emax, Vintage, etc.)
+│   ├── emu/                  # E-MU Systems (Orbit-3, Proteus family, SP-1200, Emax, Vintage, etc.)
+│   └── roland/               # Roland Corporation (XV-5080, XV-3080, XV-5050, XP-80, Alpha Juno, D-110, W-30)
 ├── preview/                  # Web Audio interactive studio prototypes & hardware editors
 │   ├── index.html            # Main Entry: Universal Windows 8 Metro UI Studio Hub (All 27 Synths)
 │   ├── metro_studio.html     # Universal Windows 8 Metro UI Studio (Collapsible Menus, Live Tiles)

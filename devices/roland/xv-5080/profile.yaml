@@ -1,0 +1,405 @@
+name: Roland XV-5080
+manufacturer: Roland Corporation
+category: Flagship Synthesizer & Sampler Module
+release_year: 2000
+hardware:
+  form_factor: 2U Rackmount
+  polyphony: 128 Voices
+  parts: 32 Multi-Timbral Parts
+  expansion_slots: 8x SR-JV80 slots + 4x SRX slots
+  sampling_ram: Up to 128MB SIMM (Akai S1000/S3000 & Roland S-700 playback)
+  dac_resolution: 24-Bit / 44.1kHz - 48kHz
+midi:
+  manufacturer_id: '0x41'
+  device_id: 16
+  model_id: 0x00 0x10
+  channel: 1
+  bank_select:
+    msb_cc: 0
+    lsb_cc: 32
+sysex:
+  header: F0 41 {device_id} 00 10 {command_id} {address} {data} {checksum} F7
+  checksum: roland
+  command_ids:
+    dataset_dt1: '0x12'
+    request_rq1: '0x11'
+  parameter_edit_format: F0 41 10 00 10 12 {address} {value} {checksum} F7
+parameters:
+- id: patch_name
+  name: Patch Name
+  page: Common
+  type: string
+- id: patch_level
+  name: Patch Level
+  page: Common
+  range:
+  - 0
+  - 127
+  default: 100
+  cc: 7
+- id: patch_pan
+  name: Patch Pan
+  page: Common
+  range:
+  - -64
+  - 63
+  default: 0
+  cc: 10
+- id: patch_priority
+  name: Voice Priority
+  page: Common
+  type: enum
+  options:
+  - LAST
+  - LOUDEST
+  default: 0
+- id: patch_octave
+  name: Octave Shift
+  page: Common
+  range:
+  - -3
+  - 3
+  default: 0
+- id: patch_coarse
+  name: Coarse Tune
+  page: Common
+  range:
+  - -48
+  - 48
+  default: 0
+- id: patch_fine
+  name: Fine Tune
+  page: Common
+  range:
+  - -50
+  - 50
+  default: 0
+- id: analog_feel
+  name: Analog Feel Depth
+  page: Common
+  range:
+  - 0
+  - 127
+  default: 0
+- id: portamento_sw
+  name: Portamento Switch
+  page: Common
+  type: enum
+  options:
+  - 'OFF'
+  - 'ON'
+  default: 0
+  cc: 65
+- id: portamento_time
+  name: Portamento Time
+  page: Common
+  range:
+  - 0
+  - 127
+  default: 20
+  cc: 5
+- id: chorus_send
+  name: Chorus Send Level
+  page: Effects
+  range:
+  - 0
+  - 127
+  default: 0
+  cc: 93
+- id: reverb_send
+  name: Reverb Send Level
+  page: Effects
+  range:
+  - 0
+  - 127
+  default: 40
+  cc: 91
+- id: mfx_type
+  name: MFX Multi-Effects Type
+  page: Effects
+  range:
+  - 0
+  - 63
+  default: 1
+- id: t1_switch
+  name: Tone 1 Switch
+  page: Tone 1
+  type: enum
+  options:
+  - 'OFF'
+  - 'ON'
+  default: 1
+- id: t1_wave_group
+  name: Tone 1 Wave Group
+  page: Tone 1
+  type: enum
+  options:
+  - INT
+  - EXP
+  - SRX
+  - USER
+  - CARD
+  default: 0
+- id: t1_wave_num
+  name: Tone 1 Wave Number
+  page: Tone 1
+  range:
+  - 1
+  - 1083
+  default: 1
+- id: t1_wave_gain
+  name: Tone 1 Wave Gain
+  page: Tone 1
+  type: enum
+  options:
+  - -6dB
+  - 0dB
+  - +6dB
+  - +12dB
+  default: 1
+- id: t1_pitch_coarse
+  name: Tone 1 Coarse Tune
+  page: Tone 1
+  range:
+  - -48
+  - 48
+  default: 0
+- id: t1_pitch_fine
+  name: Tone 1 Fine Tune
+  page: Tone 1
+  range:
+  - -50
+  - 50
+  default: 0
+- id: t1_filter_type
+  name: Tone 1 TVF Filter Type
+  page: Tone 1
+  type: enum
+  options:
+  - 'OFF'
+  - LPF
+  - BPF
+  - HPF
+  - PKG
+  default: 1
+- id: t1_cutoff
+  name: Tone 1 TVF Cutoff Frequency
+  page: Tone 1
+  range:
+  - 0
+  - 127
+  default: 100
+  cc: 74
+- id: t1_resonance
+  name: Tone 1 TVF Resonance
+  page: Tone 1
+  range:
+  - 0
+  - 127
+  default: 20
+  cc: 71
+- id: t1_tvf_env_depth
+  name: Tone 1 TVF Envelope Depth
+  page: Tone 1
+  range:
+  - -63
+  - 63
+  default: 25
+- id: t1_tvf_attack
+  name: Tone 1 TVF Attack Time
+  page: Tone 1
+  range:
+  - 0
+  - 127
+  default: 10
+- id: t1_tvf_decay
+  name: Tone 1 TVF Decay Time
+  page: Tone 1
+  range:
+  - 0
+  - 127
+  default: 50
+- id: t1_tvf_sustain
+  name: Tone 1 TVF Sustain Level
+  page: Tone 1
+  range:
+  - 0
+  - 127
+  default: 80
+- id: t1_tvf_release
+  name: Tone 1 TVF Release Time
+  page: Tone 1
+  range:
+  - 0
+  - 127
+  default: 30
+- id: t1_tva_level
+  name: Tone 1 TVA Level
+  page: Tone 1
+  range:
+  - 0
+  - 127
+  default: 100
+- id: t1_tva_pan
+  name: Tone 1 TVA Pan
+  page: Tone 1
+  range:
+  - -64
+  - 63
+  default: 0
+- id: t1_tva_attack
+  name: Tone 1 TVA Attack Time
+  page: Tone 1
+  range:
+  - 0
+  - 127
+  default: 0
+  cc: 73
+- id: t1_tva_decay
+  name: Tone 1 TVA Decay Time
+  page: Tone 1
+  range:
+  - 0
+  - 127
+  default: 60
+- id: t1_tva_sustain
+  name: Tone 1 TVA Sustain Level
+  page: Tone 1
+  range:
+  - 0
+  - 127
+  default: 100
+- id: t1_tva_release
+  name: Tone 1 TVA Release Time
+  page: Tone 1
+  range:
+  - 0
+  - 127
+  default: 25
+  cc: 72
+- id: t1_lfo1_wave
+  name: Tone 1 LFO 1 Waveform
+  page: Tone 1
+  type: enum
+  options:
+  - TRI
+  - SIN
+  - SAW
+  - SQR
+  - TRP
+  - S&H
+  - RND
+  - STEP
+  default: 0
+- id: t1_lfo1_rate
+  name: Tone 1 LFO 1 Rate
+  page: Tone 1
+  range:
+  - 0
+  - 127
+  default: 45
+- id: t2_switch
+  name: Tone 2 Switch
+  page: Tone 2
+  type: enum
+  options:
+  - 'OFF'
+  - 'ON'
+  default: 1
+- id: t2_wave_num
+  name: Tone 2 Wave Number
+  page: Tone 2
+  range:
+  - 1
+  - 1083
+  default: 2
+- id: t2_pitch_coarse
+  name: Tone 2 Coarse Tune
+  page: Tone 2
+  range:
+  - -48
+  - 48
+  default: 0
+- id: t2_pitch_fine
+  name: Tone 2 Fine Tune
+  page: Tone 2
+  range:
+  - -50
+  - 50
+  default: 5
+- id: t2_filter_type
+  name: Tone 2 TVF Filter Type
+  page: Tone 2
+  type: enum
+  options:
+  - 'OFF'
+  - LPF
+  - BPF
+  - HPF
+  - PKG
+  default: 1
+- id: t2_cutoff
+  name: Tone 2 TVF Cutoff Frequency
+  page: Tone 2
+  range:
+  - 0
+  - 127
+  default: 95
+- id: t2_resonance
+  name: Tone 2 TVF Resonance
+  page: Tone 2
+  range:
+  - 0
+  - 127
+  default: 25
+- id: t2_tva_level
+  name: Tone 2 TVA Level
+  page: Tone 2
+  range:
+  - 0
+  - 127
+  default: 85
+- id: t3_switch
+  name: Tone 3 Switch
+  page: Tone 3
+  type: enum
+  options:
+  - 'OFF'
+  - 'ON'
+  default: 0
+- id: t3_wave_num
+  name: Tone 3 Wave Number
+  page: Tone 3
+  range:
+  - 1
+  - 1083
+  default: 3
+- id: t3_cutoff
+  name: Tone 3 TVF Cutoff Frequency
+  page: Tone 3
+  range:
+  - 0
+  - 127
+  default: 100
+- id: t4_switch
+  name: Tone 4 Switch
+  page: Tone 4
+  type: enum
+  options:
+  - 'OFF'
+  - 'ON'
+  default: 0
+- id: t4_wave_num
+  name: Tone 4 Wave Number
+  page: Tone 4
+  range:
+  - 1
+  - 1083
+  default: 4
+- id: t4_cutoff
+  name: Tone 4 TVF Cutoff Frequency
+  page: Tone 4
+  range:
+  - 0
+  - 127
+  default: 100

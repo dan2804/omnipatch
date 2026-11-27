@@ -1,0 +1,834 @@
+[
+  {
+    "id": "P-11",
+    "name": "Poly Synth 1",
+    "bank": "PRESET",
+    "program": 1,
+    "category": "SYNTH",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "synth"
+    ]
+  },
+  {
+    "id": "P-12",
+    "name": "Heavy Synth",
+    "bank": "PRESET",
+    "program": 2,
+    "category": "SYNTH",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "synth"
+    ]
+  },
+  {
+    "id": "P-13",
+    "name": "Whirly",
+    "bank": "PRESET",
+    "program": 3,
+    "category": "KEYBOARD",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "keyboard"
+    ]
+  },
+  {
+    "id": "P-14",
+    "name": "Brass Ensemble 1",
+    "bank": "PRESET",
+    "program": 4,
+    "category": "BRASS",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "brass"
+    ]
+  },
+  {
+    "id": "P-15",
+    "name": "Brass Ensemble 2",
+    "bank": "PRESET",
+    "program": 5,
+    "category": "BRASS",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "brass"
+    ]
+  },
+  {
+    "id": "P-16",
+    "name": "Horn",
+    "bank": "PRESET",
+    "program": 6,
+    "category": "BRASS",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "brass"
+    ]
+  },
+  {
+    "id": "P-17",
+    "name": "Trumpet",
+    "bank": "PRESET",
+    "program": 7,
+    "category": "BRASS",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "brass"
+    ]
+  },
+  {
+    "id": "P-18",
+    "name": "Strings 1",
+    "bank": "PRESET",
+    "program": 8,
+    "category": "STRINGS",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "strings"
+    ]
+  },
+  {
+    "id": "P-21",
+    "name": "Strings 2",
+    "bank": "PRESET",
+    "program": 9,
+    "category": "STRINGS",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "strings"
+    ]
+  },
+  {
+    "id": "P-22",
+    "name": "Pizzicato Strings",
+    "bank": "PRESET",
+    "program": 10,
+    "category": "STRINGS",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "strings"
+    ]
+  },
+  {
+    "id": "P-23",
+    "name": "Cello",
+    "bank": "PRESET",
+    "program": 11,
+    "category": "STRINGS",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "strings"
+    ]
+  },
+  {
+    "id": "P-24",
+    "name": "Acoustic Piano 1",
+    "bank": "PRESET",
+    "program": 12,
+    "category": "PIANO",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "piano"
+    ]
+  },
+  {
+    "id": "P-25",
+    "name": "Acoustic Piano 2",
+    "bank": "PRESET",
+    "program": 13,
+    "category": "PIANO",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "piano"
+    ]
+  },
+  {
+    "id": "P-26",
+    "name": "Electric Piano 1",
+    "bank": "PRESET",
+    "program": 14,
+    "category": "KEYBOARD",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "keyboard"
+    ]
+  },
+  {
+    "id": "P-27",
+    "name": "Electric Piano 2",
+    "bank": "PRESET",
+    "program": 15,
+    "category": "KEYBOARD",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "keyboard"
+    ]
+  },
+  {
+    "id": "P-28",
+    "name": "Honky-Tonk",
+    "bank": "PRESET",
+    "program": 16,
+    "category": "PIANO",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "piano"
+    ]
+  },
+  {
+    "id": "P-31",
+    "name": "Electric Organ 1",
+    "bank": "PRESET",
+    "program": 17,
+    "category": "ORGAN",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "organ"
+    ]
+  },
+  {
+    "id": "P-32",
+    "name": "Electric Organ 2",
+    "bank": "PRESET",
+    "program": 18,
+    "category": "ORGAN",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "organ"
+    ]
+  },
+  {
+    "id": "P-33",
+    "name": "Pipe Organ 1",
+    "bank": "PRESET",
+    "program": 19,
+    "category": "ORGAN",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "organ"
+    ]
+  },
+  {
+    "id": "P-34",
+    "name": "Pipe Organ 2",
+    "bank": "PRESET",
+    "program": 20,
+    "category": "ORGAN",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "organ"
+    ]
+  },
+  {
+    "id": "P-35",
+    "name": "Clavinet 1",
+    "bank": "PRESET",
+    "program": 21,
+    "category": "KEYBOARD",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "keyboard"
+    ]
+  },
+  {
+    "id": "P-36",
+    "name": "Clavinet 2",
+    "bank": "PRESET",
+    "program": 22,
+    "category": "KEYBOARD",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "keyboard"
+    ]
+  },
+  {
+    "id": "P-37",
+    "name": "Harpsichord",
+    "bank": "PRESET",
+    "program": 23,
+    "category": "KEYBOARD",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "keyboard"
+    ]
+  },
+  {
+    "id": "P-38",
+    "name": "Vibraphone",
+    "bank": "PRESET",
+    "program": 24,
+    "category": "MALLET",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "mallet"
+    ]
+  },
+  {
+    "id": "P-41",
+    "name": "Marimba",
+    "bank": "PRESET",
+    "program": 25,
+    "category": "MALLET",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "mallet"
+    ]
+  },
+  {
+    "id": "P-42",
+    "name": "Glockenspiel",
+    "bank": "PRESET",
+    "program": 26,
+    "category": "MALLET",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "mallet"
+    ]
+  },
+  {
+    "id": "P-43",
+    "name": "Tubular Bell",
+    "bank": "PRESET",
+    "program": 27,
+    "category": "MALLET",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "mallet"
+    ]
+  },
+  {
+    "id": "P-44",
+    "name": "Flute",
+    "bank": "PRESET",
+    "program": 28,
+    "category": "WIND",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "wind"
+    ]
+  },
+  {
+    "id": "P-45",
+    "name": "Clarinet",
+    "bank": "PRESET",
+    "program": 29,
+    "category": "WIND",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "wind"
+    ]
+  },
+  {
+    "id": "P-46",
+    "name": "Oboe",
+    "bank": "PRESET",
+    "program": 30,
+    "category": "WIND",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "wind"
+    ]
+  },
+  {
+    "id": "P-47",
+    "name": "Bassoon",
+    "bank": "PRESET",
+    "program": 31,
+    "category": "WIND",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "wind"
+    ]
+  },
+  {
+    "id": "P-48",
+    "name": "Piccolo",
+    "bank": "PRESET",
+    "program": 32,
+    "category": "WIND",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "wind"
+    ]
+  },
+  {
+    "id": "P-51",
+    "name": "Acoustic Bass",
+    "bank": "PRESET",
+    "program": 33,
+    "category": "BASS",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "bass"
+    ]
+  },
+  {
+    "id": "P-52",
+    "name": "Electric Bass",
+    "bank": "PRESET",
+    "program": 34,
+    "category": "BASS",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "bass"
+    ]
+  },
+  {
+    "id": "P-53",
+    "name": "Slap Bass",
+    "bank": "PRESET",
+    "program": 35,
+    "category": "BASS",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "bass"
+    ]
+  },
+  {
+    "id": "P-54",
+    "name": "Synth Bass 1",
+    "bank": "PRESET",
+    "program": 36,
+    "category": "BASS",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "bass"
+    ]
+  },
+  {
+    "id": "P-55",
+    "name": "Synth Bass 2",
+    "bank": "PRESET",
+    "program": 37,
+    "category": "BASS",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "bass"
+    ]
+  },
+  {
+    "id": "P-56",
+    "name": "What The... (Hoover)",
+    "bank": "PRESET",
+    "program": 38,
+    "category": "LEAD",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "lead"
+    ]
+  },
+  {
+    "id": "P-57",
+    "name": "Reso Lead",
+    "bank": "PRESET",
+    "program": 39,
+    "category": "LEAD",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "lead"
+    ]
+  },
+  {
+    "id": "P-58",
+    "name": "Sync Lead",
+    "bank": "PRESET",
+    "program": 40,
+    "category": "LEAD",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "lead"
+    ]
+  },
+  {
+    "id": "P-61",
+    "name": "Square Lead",
+    "bank": "PRESET",
+    "program": 41,
+    "category": "LEAD",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "lead"
+    ]
+  },
+  {
+    "id": "P-62",
+    "name": "Pulse Clav",
+    "bank": "PRESET",
+    "program": 42,
+    "category": "KEYBOARD",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "keyboard"
+    ]
+  },
+  {
+    "id": "P-63",
+    "name": "Space Sweep",
+    "bank": "PRESET",
+    "program": 43,
+    "category": "FX",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "fx"
+    ]
+  },
+  {
+    "id": "P-64",
+    "name": "Helicopter",
+    "bank": "PRESET",
+    "program": 44,
+    "category": "FX",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "fx"
+    ]
+  },
+  {
+    "id": "P-65",
+    "name": "Laser Gun",
+    "bank": "PRESET",
+    "program": 45,
+    "category": "FX",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "fx"
+    ]
+  },
+  {
+    "id": "P-66",
+    "name": "Steam Engine",
+    "bank": "PRESET",
+    "program": 46,
+    "category": "FX",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "fx"
+    ]
+  },
+  {
+    "id": "P-67",
+    "name": "Wind / Ocean",
+    "bank": "PRESET",
+    "program": 47,
+    "category": "FX",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "fx"
+    ]
+  },
+  {
+    "id": "P-68",
+    "name": "Birds",
+    "bank": "PRESET",
+    "program": 48,
+    "category": "FX",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "fx"
+    ]
+  },
+  {
+    "id": "P-71",
+    "name": "Fat Pad 1",
+    "bank": "PRESET",
+    "program": 49,
+    "category": "PAD",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "pad"
+    ]
+  },
+  {
+    "id": "P-72",
+    "name": "Warm Pad 2",
+    "bank": "PRESET",
+    "program": 50,
+    "category": "PAD",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "pad"
+    ]
+  },
+  {
+    "id": "P-73",
+    "name": "Analog Strings 3",
+    "bank": "PRESET",
+    "program": 51,
+    "category": "STRINGS",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "strings"
+    ]
+  },
+  {
+    "id": "P-74",
+    "name": "Staccato Brass",
+    "bank": "PRESET",
+    "program": 52,
+    "category": "BRASS",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "brass"
+    ]
+  },
+  {
+    "id": "P-75",
+    "name": "Chirpy Pluck",
+    "bank": "PRESET",
+    "program": 53,
+    "category": "PLUCK",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "pluck"
+    ]
+  },
+  {
+    "id": "P-76",
+    "name": "Sub Slap",
+    "bank": "PRESET",
+    "program": 54,
+    "category": "BASS",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "bass"
+    ]
+  },
+  {
+    "id": "P-77",
+    "name": "Euro Sweep",
+    "bank": "PRESET",
+    "program": 55,
+    "category": "LEAD",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "lead"
+    ]
+  },
+  {
+    "id": "P-78",
+    "name": "Bells Chime",
+    "bank": "PRESET",
+    "program": 56,
+    "category": "MALLET",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "mallet"
+    ]
+  },
+  {
+    "id": "P-81",
+    "name": "Fifth Lead",
+    "bank": "PRESET",
+    "program": 57,
+    "category": "LEAD",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "lead"
+    ]
+  },
+  {
+    "id": "P-82",
+    "name": "Octave Bass",
+    "bank": "PRESET",
+    "program": 58,
+    "category": "BASS",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "bass"
+    ]
+  },
+  {
+    "id": "P-83",
+    "name": "Poly Pulse",
+    "bank": "PRESET",
+    "program": 59,
+    "category": "SYNTH",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "synth"
+    ]
+  },
+  {
+    "id": "P-84",
+    "name": "Dark Cellos",
+    "bank": "PRESET",
+    "program": 60,
+    "category": "STRINGS",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "strings"
+    ]
+  },
+  {
+    "id": "P-85",
+    "name": "PWM Brass",
+    "bank": "PRESET",
+    "program": 61,
+    "category": "BRASS",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "brass"
+    ]
+  },
+  {
+    "id": "P-86",
+    "name": "Hollow Vibe",
+    "bank": "PRESET",
+    "program": 62,
+    "category": "MALLET",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "mallet"
+    ]
+  },
+  {
+    "id": "P-87",
+    "name": "Analog Dream",
+    "bank": "PRESET",
+    "program": 63,
+    "category": "PAD",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "pad"
+    ]
+  },
+  {
+    "id": "P-88",
+    "name": "Final Sweep",
+    "bank": "PRESET",
+    "program": 64,
+    "category": "FX",
+    "tags": [
+      "alpha_juno",
+      "analog",
+      "dco",
+      "fx"
+    ]
+  }
+]

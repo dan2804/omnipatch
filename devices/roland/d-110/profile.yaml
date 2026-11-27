@@ -1,0 +1,83 @@
+name: Roland D-110
+manufacturer: Roland Corporation
+category: Multi-Timbral LA Synthesis Sound Module
+release_year: 1988
+hardware:
+  form_factor: 1U Rackmount
+  polyphony: 32 Voices
+  parts: 8 Multi Parts + 1 Rhythm Part
+  outputs: 8 Individual Analog Multi-Outputs + Stereo Mix
+  synthesis: Linear Arithmetic (LA) Synthesis (PCM attacks + Synth sustain partials)
+midi:
+  manufacturer_id: '0x41'
+  device_id: 16
+  model_id: '0x16'
+  channel: 1
+sysex:
+  header: F0 41 {device_id} 16 {command_id} {address} {data} {checksum} F7
+  checksum: roland
+  command_ids:
+    dataset_dt1: '0x12'
+    request_rq1: '0x11'
+parameters:
+- id: tone_name
+  name: Tone Name
+  page: Common
+  type: string
+- id: structure_12
+  name: Structure Partials 1&2
+  page: Common
+  range:
+  - 1
+  - 13
+  default: 1
+- id: structure_34
+  name: Structure Partials 3&4
+  page: Common
+  range:
+  - 1
+  - 13
+  default: 1
+- id: partial1_wave
+  name: Partial 1 Waveform
+  page: Partial 1
+  type: enum
+  options:
+  - SQUARE
+  - SAW
+  - PCM
+  default: 0
+- id: partial1_cutoff
+  name: Partial 1 TVF Cutoff
+  page: Partial 1
+  range:
+  - 0
+  - 100
+  default: 80
+- id: partial1_resonance
+  name: Partial 1 TVF Resonance
+  page: Partial 1
+  range:
+  - 0
+  - 30
+  default: 10
+- id: partial1_level
+  name: Partial 1 TVA Level
+  page: Partial 1
+  range:
+  - 0
+  - 100
+  default: 90
+- id: output_assign
+  name: Output Assign
+  page: Common
+  type: enum
+  options:
+  - MIX
+  - OUT 1
+  - OUT 2
+  - OUT 3
+  - OUT 4
+  - OUT 5
+  - OUT 6
+  default: 0

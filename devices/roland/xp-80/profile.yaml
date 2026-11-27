@@ -1,0 +1,90 @@
+name: Roland XP-80
+manufacturer: Roland Corporation
+category: 64-Voice 76-Key Workstation Keyboard
+release_year: 1996
+hardware:
+  form_factor: 76-Key Workstation Keyboard (XP-60 is 61-Key)
+  polyphony: 64 Voices
+  parts: 16 Multi-Timbral Parts
+  expansion_slots: 4x SR-JV80 slots
+  sequencer: 60,000 Notes MRC Pro Sequencer
+midi:
+  manufacturer_id: '0x41'
+  device_id: 16
+  model_id: '0x6A'
+  channel: 1
+sysex:
+  header: F0 41 {device_id} 6A {command_id} {address} {data} {checksum} F7
+  checksum: roland
+  command_ids:
+    dataset_dt1: '0x12'
+    request_rq1: '0x11'
+parameters:
+- id: patch_name
+  name: Patch Name
+  page: Common
+  type: string
+- id: patch_level
+  name: Patch Level
+  page: Common
+  range:
+  - 0
+  - 127
+  default: 100
+  cc: 7
+- id: patch_pan
+  name: Patch Pan
+  page: Common
+  range:
+  - -64
+  - 63
+  default: 0
+  cc: 10
+- id: chorus_level
+  name: Chorus Level
+  page: Effects
+  range:
+  - 0
+  - 127
+  default: 0
+  cc: 93
+- id: reverb_level
+  name: Reverb Level
+  page: Effects
+  range:
+  - 0
+  - 127
+  default: 40
+  cc: 91
+- id: t1_cutoff
+  name: Tone 1 Cutoff
+  page: Tone 1
+  range:
+  - 0
+  - 127
+  default: 100
+  cc: 74
+- id: t1_resonance
+  name: Tone 1 Resonance
+  page: Tone 1
+  range:
+  - 0
+  - 127
+  default: 20
+  cc: 71
+- id: t1_attack
+  name: Tone 1 Attack Time
+  page: Tone 1
+  range:
+  - 0
+  - 127
+  default: 15
+  cc: 73
+- id: t1_release
+  name: Tone 1 Release Time
+  page: Tone 1
+  range:
+  - 0
+  - 127
+  default: 30
+  cc: 72
