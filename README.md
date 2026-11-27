@@ -26,12 +26,18 @@ OmniPatch is a high-performance, modular patch librarian and hardware editor wri
 
 ---
 
-## Supported Synthesizers (45 Production Profiles)
+## Supported Synthesizers (51 Production Profiles)
 
-OmniPatch ships with 45 comprehensive device profiles across 5 legendary synthesizer manufacturers:
+OmniPatch ships with 51 comprehensive device profiles across 5 legendary synthesizer manufacturers:
 
 | Synthesizer | Manufacturer | Architecture | Parameters | Presets | SysEx ID / Details |
 | :--- | :--- | :--- | :---: | :---: | :--- |
+| **Roland JP-8000** | Roland Corporation | 8-Voice Analog Modeling (Super Saw VA) | 23 | 85 | `0x3F` · Motion Control, Ribbon, RPS, Ribbon & Feedback Osc |
+| **Roland JP-8080** | Roland Corporation | 10-Voice VA Rack with 12-Band Vocoder | 25 | 314 | `0x4A` · External Audio Input, 12-band Vocoder, Voice Modulator |
+| **Roland SH-01 GAIA** | Roland Corporation | Triple-Stacked Virtual Analog Synth | 11 | 64 | `0x00 0x00 0x41` · 3 complete virtual analog synth engines in parallel |
+| **Roland JD-XA** | Roland Corporation | Advanced Analog/Digital Crossover Synth | 8 | 64 | `0x00 0x00 0x00 0x09` · 4-voice discrete analog + 64-voice digital SuperNATURAL |
+| **Roland JW-50** | Roland Corporation | Music Workstation (GS Sound Canvas) | 3 | 128 | `0x42` (GS) · 16-track sequencer, SMF compatibility, 128 GS sounds |
+| **Roland JX-1** | Roland Corporation | Performance Synthesizer | 4 | 64 | `0x2F` · Instant front-panel slider editing, Dual/Split/Layer |
 | **Roland FANTOM Modern** | Roland Corporation | Flagship ZEN-Core / V-Piano / ACB Synthesizer | 5 | 2,104 | `0x00 0x00 0x00 0x64` · Stereo analog filter, scenes, Zenology |
 | **Roland FANTOM-0** | Roland Corporation | Lightweight ZEN-Core & SuperNATURAL Synth | 3 | 2,098 | `0x00 0x00 0x00 0x76` · 16 zones, USB audio interface, 06/07/08 |
 | **Roland Fantom-G** | Roland Corporation | SuperNATURAL 128-Voice Flagship Workstation | 4 | 1,190 | `0x00 0x00 0x24` · ARX expansion slots, 8.5" color LCD, G6/G7/G8 |

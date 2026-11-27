@@ -1,0 +1,218 @@
+name: Roland JP-8080
+manufacturer: Roland Corporation
+category: 10-Voice Virtual Analog Rack Synthesizer with Vocoder
+release_year: 1998
+hardware:
+  form_factor: 6U Rackmount Synthesizer
+  polyphony: 10 Voices
+  engine: Analog Modeling (DSP) featuring the historic Super Saw waveform, Triangle
+    Mod, Noise, Feedback Osc
+  effects: Multi-mode VCF (-12dB / -24dB), Chorus/Flanger, Delay, Tone Control
+  vocoder: 12-Band Built-in Vocoder & Voice Modulator with Mic Input
+midi:
+  manufacturer_id: '0x41'
+  device_id: 16
+  model_id: 0x00 0x11
+  channel: 1
+sysex:
+  header: F0 41 {device_id} 00 06 {command_id} {address} {data} {checksum} F7
+  checksum: roland
+  command_ids:
+    dataset_dt1: '0x12'
+    request_rq1: '0x11'
+parameters:
+- id: osc1_wave
+  name: Osc 1 Waveform
+  page: Osc 1
+  type: enum
+  options:
+  - SUPER SAW
+  - TRI MOD
+  - NOISE
+  - FEEDBACK
+  - SQUARE
+  - SAW
+  - TRIANGLE
+  default: 0
+- id: osc1_ctrl1
+  name: Osc 1 Control 1 (Detune/Color)
+  page: Osc 1
+  range:
+  - 0
+  - 127
+  default: 64
+- id: osc1_ctrl2
+  name: Osc 1 Control 2 (Mix)
+  page: Osc 1
+  range:
+  - 0
+  - 127
+  default: 64
+- id: osc2_wave
+  name: Osc 2 Waveform
+  page: Osc 2
+  type: enum
+  options:
+  - SAW
+  - SQUARE
+  - PULSE
+  - TRIANGLE
+  default: 0
+- id: osc2_coarse
+  name: Osc 2 Coarse Tune
+  page: Osc 2
+  range:
+  - -24
+  - 24
+  default: 0
+- id: osc2_fine
+  name: Osc 2 Fine Tune
+  page: Osc 2
+  range:
+  - -50
+  - 50
+  default: 5
+- id: sync_switch
+  name: Oscillator Sync
+  page: Osc 2
+  type: enum
+  options:
+  - 'OFF'
+  - 'ON'
+  default: 0
+- id: ring_mod
+  name: Ring Modulation
+  page: Osc 2
+  type: enum
+  options:
+  - 'OFF'
+  - 'ON'
+  default: 0
+- id: filter_type
+  name: Filter Type
+  page: Filter
+  type: enum
+  options:
+  - LPF
+  - BPF
+  - HPF
+  default: 0
+- id: filter_slope
+  name: Filter Slope
+  page: Filter
+  type: enum
+  options:
+  - -12dB
+  - -24dB
+  default: 1
+- id: filter_cutoff
+  name: Filter Cutoff Frequency
+  page: Filter
+  range:
+  - 0
+  - 127
+  default: 95
+  cc: 74
+- id: filter_resonance
+  name: Filter Resonance
+  page: Filter
+  range:
+  - 0
+  - 127
+  default: 40
+  cc: 71
+- id: filter_attack
+  name: Filter Env Attack
+  page: Filter Env
+  range:
+  - 0
+  - 127
+  default: 10
+- id: filter_decay
+  name: Filter Env Decay
+  page: Filter Env
+  range:
+  - 0
+  - 127
+  default: 50
+- id: filter_sustain
+  name: Filter Env Sustain
+  page: Filter Env
+  range:
+  - 0
+  - 127
+  default: 70
+- id: filter_release
+  name: Filter Env Release
+  page: Filter Env
+  range:
+  - 0
+  - 127
+  default: 30
+- id: amp_level
+  name: Amp Level
+  page: Amp
+  range:
+  - 0
+  - 127
+  default: 100
+  cc: 7
+- id: amp_attack
+  name: Amp Env Attack
+  page: Amp Env
+  range:
+  - 0
+  - 127
+  default: 0
+  cc: 73
+- id: amp_decay
+  name: Amp Env Decay
+  page: Amp Env
+  range:
+  - 0
+  - 127
+  default: 60
+- id: amp_sustain
+  name: Amp Env Sustain
+  page: Amp Env
+  range:
+  - 0
+  - 127
+  default: 100
+- id: amp_release
+  name: Amp Env Release
+  page: Amp Env
+  range:
+  - 0
+  - 127
+  default: 25
+  cc: 72
+- id: delay_level
+  name: Delay Send Level
+  page: Effects
+  range:
+  - 0
+  - 127
+  default: 40
+- id: chorus_level
+  name: Chorus Send Level
+  page: Effects
+  range:
+  - 0
+  - 127
+  default: 30
+- id: vocoder_switch
+  name: Voice Modulator / Vocoder
+  page: Vocoder
+  type: enum
+  options:
+  - 'OFF'
+  - 'ON'
+  default: 0
+- id: distortion
+  name: Distortion Drive
+  page: Effects
+  range:
+  - 0
+  - 127
+  default: 0

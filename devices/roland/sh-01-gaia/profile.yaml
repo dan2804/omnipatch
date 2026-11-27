@@ -1,0 +1,119 @@
+name: Roland SH-01 GAIA
+manufacturer: Roland Corporation
+category: 64-Voice Triple-Stacked Virtual Analog Synthesizer
+release_year: 2010
+hardware:
+  form_factor: 37-Key Compact Synthesizer with D-Beam and Phrase Recorder
+  polyphony: 64 Voices
+  engine: 'Triple Virtual Analog Architecture: 3 complete synth engines (Osc, Filter,
+    Amp, LFO, Envelopes) layered per patch'
+midi:
+  manufacturer_id: '0x41'
+  device_id: 16
+  model_id: 0x00 0x00 0x41
+  channel: 1
+sysex:
+  header: F0 41 {device_id} 00 00 41 {command_id} {address} {data} {checksum} F7
+  checksum: roland
+  command_ids:
+    dataset_dt1: '0x12'
+    request_rq1: '0x11'
+parameters:
+- id: patch_level
+  name: Patch Master Level
+  page: Common
+  range:
+  - 0
+  - 127
+  default: 100
+  cc: 7
+- id: t1_osc_wave
+  name: Tone 1 Osc Waveform
+  page: Tone 1
+  type: enum
+  options:
+  - SAW
+  - SQUARE
+  - PULSE/PWM
+  - TRIANGLE
+  - SINE
+  - NOISE
+  - SUPER SAW
+  default: 6
+- id: t1_cutoff
+  name: Tone 1 Filter Cutoff
+  page: Tone 1
+  range:
+  - 0
+  - 127
+  default: 100
+  cc: 74
+- id: t1_resonance
+  name: Tone 1 Filter Resonance
+  page: Tone 1
+  range:
+  - 0
+  - 127
+  default: 25
+  cc: 71
+- id: t1_amp_level
+  name: Tone 1 Amp Level
+  page: Tone 1
+  range:
+  - 0
+  - 127
+  default: 100
+- id: t2_osc_wave
+  name: Tone 2 Osc Waveform
+  page: Tone 2
+  type: enum
+  options:
+  - SAW
+  - SQUARE
+  - PULSE/PWM
+  - TRIANGLE
+  - SINE
+  - NOISE
+  - SUPER SAW
+  default: 0
+- id: t2_cutoff
+  name: Tone 2 Filter Cutoff
+  page: Tone 2
+  range:
+  - 0
+  - 127
+  default: 90
+- id: t3_osc_wave
+  name: Tone 3 Osc Waveform
+  page: Tone 3
+  type: enum
+  options:
+  - SAW
+  - SQUARE
+  - PULSE/PWM
+  - TRIANGLE
+  - SINE
+  - NOISE
+  - SUPER SAW
+  default: 1
+- id: t3_cutoff
+  name: Tone 3 Filter Cutoff
+  page: Tone 3
+  range:
+  - 0
+  - 127
+  default: 85
+- id: distortion_drive
+  name: Distortion Drive
+  page: Effects
+  range:
+  - 0
+  - 127
+  default: 0
+- id: reverb_level
+  name: Reverb Send Level
+  page: Effects
+  range:
+  - 0
+  - 127
+  default: 35

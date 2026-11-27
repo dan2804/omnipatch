@@ -1,0 +1,834 @@
+[
+  {
+    "id": "JDXA-01",
+    "name": "Crossover Anthem",
+    "bank": "INTERNAL",
+    "program": 1,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-02",
+    "name": "Discrete 4V Brass",
+    "bank": "INTERNAL",
+    "program": 2,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-03",
+    "name": "Analog Matrix Lead",
+    "bank": "INTERNAL",
+    "program": 3,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-04",
+    "name": "JD Super Jupiter",
+    "bank": "INTERNAL",
+    "program": 4,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-05",
+    "name": "Transistor 4-Pole Bs",
+    "bank": "INTERNAL",
+    "program": 5,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-06",
+    "name": "Digital Air & Bell",
+    "bank": "INTERNAL",
+    "program": 6,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-07",
+    "name": "Hybrid String Pad",
+    "bank": "INTERNAL",
+    "program": 7,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-08",
+    "name": "Acid Diode Ladder",
+    "bank": "INTERNAL",
+    "program": 8,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-09",
+    "name": "V-Poly Saw Stack",
+    "bank": "INTERNAL",
+    "program": 9,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-10",
+    "name": "Vocoder Robot Vox",
+    "bank": "INTERNAL",
+    "program": 10,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-11",
+    "name": "Analog Pulse Clav",
+    "bank": "INTERNAL",
+    "program": 11,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-12",
+    "name": "SuperNATURAL Grand",
+    "bank": "INTERNAL",
+    "program": 12,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-13",
+    "name": "PWM Expressive Solo",
+    "bank": "INTERNAL",
+    "program": 13,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-14",
+    "name": "Ring Mod Bell S&H",
+    "bank": "INTERNAL",
+    "program": 14,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-15",
+    "name": "Dark Cellos Crossover",
+    "bank": "INTERNAL",
+    "program": 15,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-16",
+    "name": "Fat Moogish Bass",
+    "bank": "INTERNAL",
+    "program": 16,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-17",
+    "name": "SBF Dance Lead",
+    "bank": "INTERNAL",
+    "program": 17,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-18",
+    "name": "Warm JX-3P Strings",
+    "bank": "INTERNAL",
+    "program": 18,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-19",
+    "name": "Digital Reso Synth",
+    "bank": "INTERNAL",
+    "program": 19,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-20",
+    "name": "Analog Overdrive Ld",
+    "bank": "INTERNAL",
+    "program": 20,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-21",
+    "name": "Trance Energy Poly",
+    "bank": "INTERNAL",
+    "program": 21,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-22",
+    "name": "Space Glass Pad",
+    "bank": "INTERNAL",
+    "program": 22,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-23",
+    "name": "Punchy Slap Analog",
+    "bank": "INTERNAL",
+    "program": 23,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-24",
+    "name": "FM Hybrid EPiano",
+    "bank": "INTERNAL",
+    "program": 24,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-25",
+    "name": "Retro 80s Soundtrack",
+    "bank": "INTERNAL",
+    "program": 25,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-26",
+    "name": "Analog Sync Screamer",
+    "bank": "INTERNAL",
+    "program": 26,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-27",
+    "name": "SuperNATURAL Horns",
+    "bank": "INTERNAL",
+    "program": 27,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-28",
+    "name": "Acid Bass 18dB",
+    "bank": "INTERNAL",
+    "program": 28,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-29",
+    "name": "Modular Ambient Drone",
+    "bank": "INTERNAL",
+    "program": 29,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-30",
+    "name": "Distorted Saw Solo",
+    "bank": "INTERNAL",
+    "program": 30,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-31",
+    "name": "Velo Filtered Harp",
+    "bank": "INTERNAL",
+    "program": 31,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-32",
+    "name": "Tubular Crossover",
+    "bank": "INTERNAL",
+    "program": 32,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-33",
+    "name": "Juno Sub Clavinet",
+    "bank": "INTERNAL",
+    "program": 33,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-34",
+    "name": "Modern EDM Lead",
+    "bank": "INTERNAL",
+    "program": 34,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-35",
+    "name": "Stereo Poly Brass",
+    "bank": "INTERNAL",
+    "program": 35,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-36",
+    "name": "Analog Square Pluck",
+    "bank": "INTERNAL",
+    "program": 36,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-37",
+    "name": "Ethereal Breath Choir",
+    "bank": "INTERNAL",
+    "program": 37,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-38",
+    "name": "Sub Sonic 808 Boom",
+    "bank": "INTERNAL",
+    "program": 38,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-39",
+    "name": "Vintage Phaser Pad",
+    "bank": "INTERNAL",
+    "program": 39,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-40",
+    "name": "Heavy Metal Synth",
+    "bank": "INTERNAL",
+    "program": 40,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-41",
+    "name": "Expressive Soprano",
+    "bank": "INTERNAL",
+    "program": 41,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-42",
+    "name": "Analog S&H Glitch",
+    "bank": "INTERNAL",
+    "program": 42,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-43",
+    "name": "Classic OB Saw Stack",
+    "bank": "INTERNAL",
+    "program": 43,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-44",
+    "name": "Funky Clav Wah",
+    "bank": "INTERNAL",
+    "program": 44,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-45",
+    "name": "Brite Digital Chime",
+    "bank": "INTERNAL",
+    "program": 45,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-46",
+    "name": "Fat Ladder Bass 24dB",
+    "bank": "INTERNAL",
+    "program": 46,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-47",
+    "name": "Cosmic Voyager Pad",
+    "bank": "INTERNAL",
+    "program": 47,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-48",
+    "name": "Laser Beam FX",
+    "bank": "INTERNAL",
+    "program": 48,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-49",
+    "name": "Acoustic Folk Hybrid",
+    "bank": "INTERNAL",
+    "program": 49,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-50",
+    "name": "Resonant Sweep Poly",
+    "bank": "INTERNAL",
+    "program": 50,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-51",
+    "name": "Big Band Brass Stab",
+    "bank": "INTERNAL",
+    "program": 51,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-52",
+    "name": "Acid Reso Step Arp",
+    "bank": "INTERNAL",
+    "program": 52,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-53",
+    "name": "Warm Lush Ensemble",
+    "bank": "INTERNAL",
+    "program": 53,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-54",
+    "name": "Dirty Fuzz Solo",
+    "bank": "INTERNAL",
+    "program": 54,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-55",
+    "name": "Analog Mallet Perc",
+    "bank": "INTERNAL",
+    "program": 55,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-56",
+    "name": "Sci-Fi Scanner",
+    "bank": "INTERNAL",
+    "program": 56,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-57",
+    "name": "Poly Detune Saws",
+    "bank": "INTERNAL",
+    "program": 57,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-58",
+    "name": "Punchy Electro Bass",
+    "bank": "INTERNAL",
+    "program": 58,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-59",
+    "name": "Cathedral Organ JD",
+    "bank": "INTERNAL",
+    "program": 59,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-60",
+    "name": "Bowed String Solo",
+    "bank": "INTERNAL",
+    "program": 60,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-61",
+    "name": "Vocal Scatter Pad",
+    "bank": "INTERNAL",
+    "program": 61,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-62",
+    "name": "Euro Rave Lead",
+    "bank": "INTERNAL",
+    "program": 62,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-63",
+    "name": "Final Crossover Hit",
+    "bank": "INTERNAL",
+    "program": 63,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  },
+  {
+    "id": "JDXA-64",
+    "name": "Master of JD-XA",
+    "bank": "INTERNAL",
+    "program": 64,
+    "category": "ANALOG_DIGITAL_CROSSOVER",
+    "tags": [
+      "jdxa",
+      "analog",
+      "supernatural",
+      "crossover"
+    ]
+  }
+]

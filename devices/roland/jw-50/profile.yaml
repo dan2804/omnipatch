@@ -1,0 +1,38 @@
+name: Roland JW-50
+manufacturer: Roland Corporation
+category: 24-Voice GS Music Workstation Keyboard
+release_year: 1992
+hardware:
+  form_factor: 61-Key Music Workstation with 16-Track Sequencer and 3.5" FDD
+  polyphony: 24 Voices
+  engine: GS / Sound Canvas SC-55 sound generation with 128 tones and 8 drum sets
+midi:
+  manufacturer_id: '0x41'
+  device_id: 16
+  model_id: '0x42'
+  channel: 1
+parameters:
+- id: master_volume
+  name: Master Volume
+  page: Common
+  range:
+  - 0
+  - 127
+  default: 100
+  cc: 7
+- id: chorus_level
+  name: Chorus Level
+  page: Effects
+  range:
+  - 0
+  - 127
+  default: 35
+  cc: 93
+- id: reverb_level
+  name: Reverb Level
+  page: Effects
+  range:
+  - 0
+  - 127
+  default: 40
+  cc: 91

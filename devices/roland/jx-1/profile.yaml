@@ -1,0 +1,46 @@
+name: Roland JX-1
+manufacturer: Roland Corporation
+category: 61-Key Performance Preset Synthesizer
+release_year: 1991
+hardware:
+  form_factor: 61-Key Synthesizer with Instant Edit Sliders
+  polyphony: 24 Voices
+  presets: 64 Factory Preset Sounds (32 Group A, 32 Group B)
+midi:
+  manufacturer_id: '0x41'
+  device_id: 16
+  model_id: '0x3F'
+  channel: 1
+parameters:
+- id: cutoff_offset
+  name: Brilliance / Cutoff Slider
+  page: Edit
+  range:
+  - -64
+  - 63
+  default: 0
+  cc: 74
+- id: resonance_offset
+  name: Resonance Slider
+  page: Edit
+  range:
+  - -64
+  - 63
+  default: 0
+  cc: 71
+- id: attack_offset
+  name: Attack Time Slider
+  page: Edit
+  range:
+  - -64
+  - 63
+  default: 0
+  cc: 73
+- id: release_offset
+  name: Decay / Release Slider
+  page: Edit
+  range:
+  - -64
+  - 63
+  default: 0
+  cc: 72

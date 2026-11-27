@@ -1,0 +1,87 @@
+name: Roland JD-XA
+manufacturer: Roland Corporation
+category: Analog/Digital Crossover Synthesizer
+release_year: 2015
+hardware:
+  form_factor: 49-Key Polyphonic Crossover Synthesizer with 16-Track Step Sequencer
+  polyphony: 4 Analog Voices (True Discrete Analog) + 64 Digital Voices (SuperNATURAL)
+  analog_engine: '4 Discrete Analog parts: 2 DCOs, 3 Analog Filter types (Transistor
+    Ladder, Diode, Multi), Analog Drive, 3 Envelopes'
+  digital_engine: 4 Digital parts with 3 SuperNATURAL partials each (12 total digital
+    partials)
+  vocoder: Built-in 16-Band Vocoder with dedicated XLR Mic Input
+midi:
+  manufacturer_id: '0x41'
+  device_id: 16
+  model_id: 0x00 0x00 0x00 0x0A
+  channel: 1
+sysex:
+  header: F0 41 {device_id} 00 00 00 0A {command_id} {address} {data} {checksum} F7
+  checksum: roland
+  command_ids:
+    dataset_dt1: '0x12'
+    request_rq1: '0x11'
+parameters:
+- id: program_level
+  name: Program Master Level
+  page: Common
+  range:
+  - 0
+  - 127
+  default: 100
+- id: a_part1_wave
+  name: Analog Part 1 Osc 1 Wave
+  page: Analog 1
+  type: enum
+  options:
+  - SAW
+  - SQUARE/PWM
+  - PULSE
+  - TRIANGLE
+  default: 0
+- id: a_part1_cutoff
+  name: Analog Part 1 Filter Cutoff
+  page: Analog 1
+  range:
+  - 0
+  - 1023
+  default: 800
+  cc: 74
+- id: a_part1_reso
+  name: Analog Part 1 Resonance
+  page: Analog 1
+  range:
+  - 0
+  - 1023
+  default: 200
+  cc: 71
+- id: a_part1_filter_type
+  name: Analog Filter Type
+  page: Analog 1
+  type: enum
+  options:
+  - LPF 1 (Transistor Ladder)
+  - LPF 2 (Diode)
+  - LPF 3 (Classic)
+  default: 0
+- id: a_part1_drive
+  name: Analog Drive
+  page: Analog 1
+  range:
+  - 0
+  - 127
+  default: 0
+- id: d_part1_cutoff
+  name: Digital Part 1 Cutoff
+  page: Digital 1
+  range:
+  - 0
+  - 127
+  default: 100
+- id: d_part1_resonance
+  name: Digital Part 1 Resonance
+  page: Digital 1
+  range:
+  - 0
+  - 127
+  default: 20
