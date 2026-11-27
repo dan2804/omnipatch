@@ -26,12 +26,15 @@ OmniPatch is a high-performance, modular patch librarian and hardware editor wri
 
 ---
 
-## Supported Synthesizers (34 Production Profiles)
+## Supported Synthesizers (37 Production Profiles)
 
-OmniPatch ships with 34 comprehensive device profiles across 5 legendary synthesizer manufacturers:
+OmniPatch ships with 37 comprehensive device profiles across 5 legendary synthesizer manufacturers:
 
 | Synthesizer | Manufacturer | Architecture | Parameters | Presets | SysEx ID / Details |
 | :--- | :--- | :--- | :---: | :---: | :--- |
+| **Roland D-50** | Roland Corporation | 16-Voice Linear Arithmetic (LA) Flagship | 26 | 64 | `0x14` · 4 partials, ring mod, reverb/chorus/EQ, Fantasia & Soundtrack |
+| **Roland D-20** | Roland Corporation | Multi-Timbral LA Keyboard Workstation | 7 | 128 | `0x16` · 8 parts + rhythm, built-in FDD disk drive & sequencer |
+| **Roland D-70** | Roland Corporation | Super LA 76-Key Synthesizer & Controller | 11 | 64 | `0x32` · 4 tones, Differential Loop Modulation (DLM), 28MB ROM |
 | **Roland XV-5080** | Roland Corporation | 128-Voice Flagship 32-Part Synth/Sampler | 49 | 1,263 | `0x00 0x10` · 8 SR-JV80 + 4 SRX slots, 4 stereo tones, 1,083 waves |
 | **Roland XV-3080** | Roland Corporation | 128-Voice 16-Part 2U Synth Module | 49 | 1,065 | `0x00 0x10` · 6 SR-JV80 + 2 SRX slots, 1,083 PCM waves |
 | **Roland XV-5050** | Roland Corporation | 64-Voice 16-Part 1U Module (COSM) | 49 | 598 | `0x00 0x10` · COSM effects processors, 2 SRX slots, USB MIDI |

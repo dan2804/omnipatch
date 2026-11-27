@@ -1,0 +1,1538 @@
+[
+  {
+    "id": "A-01",
+    "name": "Acou Piano 1",
+    "bank": "GROUP A",
+    "program": 1,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-02",
+    "name": "Acou Piano 2",
+    "bank": "GROUP A",
+    "program": 2,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-03",
+    "name": "Honky-tonk",
+    "bank": "GROUP A",
+    "program": 3,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-04",
+    "name": "Elec Piano 1",
+    "bank": "GROUP A",
+    "program": 4,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-05",
+    "name": "Elec Piano 2",
+    "bank": "GROUP A",
+    "program": 5,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-06",
+    "name": "Elec Organ 1",
+    "bank": "GROUP A",
+    "program": 6,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-07",
+    "name": "Elec Organ 2",
+    "bank": "GROUP A",
+    "program": 7,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-08",
+    "name": "Pipe Organ",
+    "bank": "GROUP A",
+    "program": 8,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-09",
+    "name": "Harpsichord",
+    "bank": "GROUP A",
+    "program": 9,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-10",
+    "name": "Clavinet",
+    "bank": "GROUP A",
+    "program": 10,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-11",
+    "name": "Celesta",
+    "bank": "GROUP A",
+    "program": 11,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-12",
+    "name": "Glockenspiel",
+    "bank": "GROUP A",
+    "program": 12,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-13",
+    "name": "Vibraphone",
+    "bank": "GROUP A",
+    "program": 13,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-14",
+    "name": "Marimba",
+    "bank": "GROUP A",
+    "program": 14,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-15",
+    "name": "Xylophone",
+    "bank": "GROUP A",
+    "program": 15,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-16",
+    "name": "Tubular Bell",
+    "bank": "GROUP A",
+    "program": 16,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-17",
+    "name": "Nylon Gtr 1",
+    "bank": "GROUP A",
+    "program": 17,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-18",
+    "name": "Nylon Gtr 2",
+    "bank": "GROUP A",
+    "program": 18,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-19",
+    "name": "Steel Gtr 1",
+    "bank": "GROUP A",
+    "program": 19,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-20",
+    "name": "Steel Gtr 2",
+    "bank": "GROUP A",
+    "program": 20,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-21",
+    "name": "12-String Gtr",
+    "bank": "GROUP A",
+    "program": 21,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-22",
+    "name": "Jazz Guitar",
+    "bank": "GROUP A",
+    "program": 22,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-23",
+    "name": "Clean Gtr",
+    "bank": "GROUP A",
+    "program": 23,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-24",
+    "name": "Muted Gtr",
+    "bank": "GROUP A",
+    "program": 24,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-25",
+    "name": "Overdrive Gtr",
+    "bank": "GROUP A",
+    "program": 25,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-26",
+    "name": "Distortion Gtr",
+    "bank": "GROUP A",
+    "program": 26,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-27",
+    "name": "Acou Bass 1",
+    "bank": "GROUP A",
+    "program": 27,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-28",
+    "name": "Acou Bass 2",
+    "bank": "GROUP A",
+    "program": 28,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-29",
+    "name": "Fingered Bass",
+    "bank": "GROUP A",
+    "program": 29,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-30",
+    "name": "Picked Bass",
+    "bank": "GROUP A",
+    "program": 30,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-31",
+    "name": "Fretless 1",
+    "bank": "GROUP A",
+    "program": 31,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-32",
+    "name": "Fretless 2",
+    "bank": "GROUP A",
+    "program": 32,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-33",
+    "name": "Slap Bass 1",
+    "bank": "GROUP A",
+    "program": 33,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-34",
+    "name": "Slap Bass 2",
+    "bank": "GROUP A",
+    "program": 34,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-35",
+    "name": "Synth Bass 1",
+    "bank": "GROUP A",
+    "program": 35,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-36",
+    "name": "Synth Bass 2",
+    "bank": "GROUP A",
+    "program": 36,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-37",
+    "name": "Violin 1",
+    "bank": "GROUP A",
+    "program": 37,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-38",
+    "name": "Violin 2",
+    "bank": "GROUP A",
+    "program": 38,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-39",
+    "name": "Viola",
+    "bank": "GROUP A",
+    "program": 39,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-40",
+    "name": "Cello",
+    "bank": "GROUP A",
+    "program": 40,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-41",
+    "name": "Contrabass",
+    "bank": "GROUP A",
+    "program": 41,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-42",
+    "name": "Strings 1",
+    "bank": "GROUP A",
+    "program": 42,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-43",
+    "name": "Strings 2",
+    "bank": "GROUP A",
+    "program": 43,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-44",
+    "name": "Strings 3",
+    "bank": "GROUP A",
+    "program": 44,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-45",
+    "name": "Pizzicato",
+    "bank": "GROUP A",
+    "program": 45,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-46",
+    "name": "Harp",
+    "bank": "GROUP A",
+    "program": 46,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-47",
+    "name": "Timpani",
+    "bank": "GROUP A",
+    "program": 47,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-48",
+    "name": "Trumpet 1",
+    "bank": "GROUP A",
+    "program": 48,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-49",
+    "name": "Trumpet 2",
+    "bank": "GROUP A",
+    "program": 49,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-50",
+    "name": "Muted Trumpet",
+    "bank": "GROUP A",
+    "program": 50,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-51",
+    "name": "Trombone 1",
+    "bank": "GROUP A",
+    "program": 51,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-52",
+    "name": "Trombone 2",
+    "bank": "GROUP A",
+    "program": 52,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-53",
+    "name": "French Horn",
+    "bank": "GROUP A",
+    "program": 53,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-54",
+    "name": "Tuba",
+    "bank": "GROUP A",
+    "program": 54,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-55",
+    "name": "Brass 1",
+    "bank": "GROUP A",
+    "program": 55,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-56",
+    "name": "Brass 2",
+    "bank": "GROUP A",
+    "program": 56,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-57",
+    "name": "Synth Brass 1",
+    "bank": "GROUP A",
+    "program": 57,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-58",
+    "name": "Synth Brass 2",
+    "bank": "GROUP A",
+    "program": 58,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-59",
+    "name": "Soprano Sax",
+    "bank": "GROUP A",
+    "program": 59,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-60",
+    "name": "Alto Sax 1",
+    "bank": "GROUP A",
+    "program": 60,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-61",
+    "name": "Alto Sax 2",
+    "bank": "GROUP A",
+    "program": 61,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-62",
+    "name": "Tenor Sax",
+    "bank": "GROUP A",
+    "program": 62,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-63",
+    "name": "Baritone Sax",
+    "bank": "GROUP A",
+    "program": 63,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "A-64",
+    "name": "Oboe",
+    "bank": "GROUP A",
+    "program": 64,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-01",
+    "name": "English Horn",
+    "bank": "GROUP B",
+    "program": 65,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-02",
+    "name": "Bassoon",
+    "bank": "GROUP B",
+    "program": 66,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-03",
+    "name": "Clarinet",
+    "bank": "GROUP B",
+    "program": 67,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-04",
+    "name": "Piccolo",
+    "bank": "GROUP B",
+    "program": 68,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-05",
+    "name": "Flute",
+    "bank": "GROUP B",
+    "program": 69,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-06",
+    "name": "Pan Flute",
+    "bank": "GROUP B",
+    "program": 70,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-07",
+    "name": "Recorder",
+    "bank": "GROUP B",
+    "program": 71,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-08",
+    "name": "Whistle",
+    "bank": "GROUP B",
+    "program": 72,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-09",
+    "name": "Square Lead",
+    "bank": "GROUP B",
+    "program": 73,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-10",
+    "name": "Saw Lead",
+    "bank": "GROUP B",
+    "program": 74,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-11",
+    "name": "Syn Lead 1",
+    "bank": "GROUP B",
+    "program": 75,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-12",
+    "name": "Syn Lead 2",
+    "bank": "GROUP B",
+    "program": 76,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-13",
+    "name": "Charang",
+    "bank": "GROUP B",
+    "program": 77,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-14",
+    "name": "Voice Lead",
+    "bank": "GROUP B",
+    "program": 78,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-15",
+    "name": "Fifth Lead",
+    "bank": "GROUP B",
+    "program": 79,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-16",
+    "name": "Bass & Lead",
+    "bank": "GROUP B",
+    "program": 80,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-17",
+    "name": "Fantasy",
+    "bank": "GROUP B",
+    "program": 81,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-18",
+    "name": "Warm Pad",
+    "bank": "GROUP B",
+    "program": 82,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-19",
+    "name": "Poly Synth",
+    "bank": "GROUP B",
+    "program": 83,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-20",
+    "name": "Space Voice",
+    "bank": "GROUP B",
+    "program": 84,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-21",
+    "name": "Bowed Glass",
+    "bank": "GROUP B",
+    "program": 85,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-22",
+    "name": "Metal Pad",
+    "bank": "GROUP B",
+    "program": 86,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-23",
+    "name": "Halo Pad",
+    "bank": "GROUP B",
+    "program": 87,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-24",
+    "name": "Sweep Pad",
+    "bank": "GROUP B",
+    "program": 88,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-25",
+    "name": "Ice Rain",
+    "bank": "GROUP B",
+    "program": 89,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-26",
+    "name": "Soundtrack",
+    "bank": "GROUP B",
+    "program": 90,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-27",
+    "name": "Crystal",
+    "bank": "GROUP B",
+    "program": 91,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-28",
+    "name": "Atmosphere",
+    "bank": "GROUP B",
+    "program": 92,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-29",
+    "name": "Brightness",
+    "bank": "GROUP B",
+    "program": 93,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-30",
+    "name": "Goblin",
+    "bank": "GROUP B",
+    "program": 94,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-31",
+    "name": "Echo Drops",
+    "bank": "GROUP B",
+    "program": 95,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-32",
+    "name": "Star Theme",
+    "bank": "GROUP B",
+    "program": 96,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-33",
+    "name": "Sitar",
+    "bank": "GROUP B",
+    "program": 97,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-34",
+    "name": "Banjo",
+    "bank": "GROUP B",
+    "program": 98,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-35",
+    "name": "Shamisen",
+    "bank": "GROUP B",
+    "program": 99,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-36",
+    "name": "Koto",
+    "bank": "GROUP B",
+    "program": 100,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-37",
+    "name": "Kalimba",
+    "bank": "GROUP B",
+    "program": 101,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-38",
+    "name": "Bagpipe",
+    "bank": "GROUP B",
+    "program": 102,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-39",
+    "name": "Fiddle",
+    "bank": "GROUP B",
+    "program": 103,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-40",
+    "name": "Shanai",
+    "bank": "GROUP B",
+    "program": 104,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-41",
+    "name": "Tinkle Bell",
+    "bank": "GROUP B",
+    "program": 105,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-42",
+    "name": "Agogo",
+    "bank": "GROUP B",
+    "program": 106,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-43",
+    "name": "Steel Drums",
+    "bank": "GROUP B",
+    "program": 107,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-44",
+    "name": "Woodblock",
+    "bank": "GROUP B",
+    "program": 108,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-45",
+    "name": "Taiko Drum",
+    "bank": "GROUP B",
+    "program": 109,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-46",
+    "name": "Melodic Tom",
+    "bank": "GROUP B",
+    "program": 110,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-47",
+    "name": "Synth Drum",
+    "bank": "GROUP B",
+    "program": 111,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-48",
+    "name": "Reverse Cymbal",
+    "bank": "GROUP B",
+    "program": 112,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-49",
+    "name": "Guitar Fret",
+    "bank": "GROUP B",
+    "program": 113,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-50",
+    "name": "Breath Noise",
+    "bank": "GROUP B",
+    "program": 114,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-51",
+    "name": "Seashore",
+    "bank": "GROUP B",
+    "program": 115,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-52",
+    "name": "Bird Tweet",
+    "bank": "GROUP B",
+    "program": 116,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-53",
+    "name": "Telephone",
+    "bank": "GROUP B",
+    "program": 117,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-54",
+    "name": "Helicopter",
+    "bank": "GROUP B",
+    "program": 118,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-55",
+    "name": "Applause",
+    "bank": "GROUP B",
+    "program": 119,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-56",
+    "name": "Gunshot",
+    "bank": "GROUP B",
+    "program": 120,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-57",
+    "name": "Laser Gun",
+    "bank": "GROUP B",
+    "program": 121,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-58",
+    "name": "Cosmic Voice",
+    "bank": "GROUP B",
+    "program": 122,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-59",
+    "name": "Stab Brass",
+    "bank": "GROUP B",
+    "program": 123,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-60",
+    "name": "Orchestra Hit",
+    "bank": "GROUP B",
+    "program": 124,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-61",
+    "name": "Big Boom",
+    "bank": "GROUP B",
+    "program": 125,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-62",
+    "name": "Steam Air",
+    "bank": "GROUP B",
+    "program": 126,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-63",
+    "name": "Space Horn",
+    "bank": "GROUP B",
+    "program": 127,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  },
+  {
+    "id": "B-64",
+    "name": "Night Air",
+    "bank": "GROUP B",
+    "program": 128,
+    "category": "LA_SYNTH",
+    "tags": [
+      "d20",
+      "d10",
+      "workstation"
+    ]
+  }
+]

@@ -1,0 +1,68 @@
+name: Roland D-20
+manufacturer: Roland Corporation
+category: Multi-Timbral LA Synthesizer Workstation
+release_year: 1988
+hardware:
+  form_factor: 61-Key Workstation Keyboard with Onboard 3.5" FDD
+  polyphony: 32 Voices
+  parts: 8 Multi-Timbral Parts + 1 Rhythm Part
+  sequencer: 8-Track Sequencer (approx 16,000 notes) with FDD
+  synthesis: Linear Arithmetic (LA) Synthesis
+midi:
+  manufacturer_id: '0x41'
+  device_id: 16
+  model_id: '0x16'
+  channel: 1
+sysex:
+  header: F0 41 {device_id} 16 {command_id} {address} {data} {checksum} F7
+  checksum: roland
+  command_ids:
+    dataset_dt1: '0x12'
+    request_rq1: '0x11'
+parameters:
+- id: timbre_name
+  name: Timbre Name
+  page: Common
+  type: string
+- id: reverb_mode
+  name: Reverb Mode
+  page: Effects
+  range:
+  - 1
+  - 8
+  default: 1
+- id: reverb_level
+  name: Reverb Level
+  page: Effects
+  range:
+  - 0
+  - 7
+  default: 4
+- id: part1_level
+  name: Part 1 Level
+  page: Multi
+  range:
+  - 0
+  - 100
+  default: 100
+- id: part1_pan
+  name: Part 1 Pan
+  page: Multi
+  range:
+  - -7
+  - 7
+  default: 0
+- id: tvf_cutoff
+  name: TVF Cutoff Frequency
+  page: Filter
+  range:
+  - 0
+  - 100
+  default: 85
+- id: tvf_resonance
+  name: TVF Resonance
+  page: Filter
+  range:
+  - 0
+  - 30
+  default: 12

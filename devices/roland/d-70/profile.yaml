@@ -1,0 +1,99 @@
+name: Roland D-70
+manufacturer: Roland Corporation
+category: Super LA 76-Key Synthesizer & Master Controller
+release_year: 1990
+hardware:
+  form_factor: 76-Key Semi-Weighted Keyboard with 240x64 Graphic LCD & 5 Sliders
+  polyphony: 30 Voices
+  parts: 5 Multi-Timbral Parts (4 Synth + 1 Rhythm)
+  synthesis: 'Super-LA: 4 Tones per Patch with Differential Loop Modulation (DLM)
+    and TVF with Resonance'
+  rom: 28MB Internal ROM (U-20 sound engine heritage) + 2 Card Slots
+midi:
+  manufacturer_id: '0x41'
+  device_id: 16
+  model_id: '0x32'
+  channel: 1
+sysex:
+  header: F0 41 {device_id} 32 {command_id} {address} {data} {checksum} F7
+  checksum: roland
+  command_ids:
+    dataset_dt1: '0x12'
+    request_rq1: '0x11'
+parameters:
+- id: perf_name
+  name: Performance Name
+  page: Common
+  type: string
+- id: t1_wave
+  name: Tone 1 Wave Number
+  page: Tone 1
+  range:
+  - 1
+  - 114
+  default: 1
+- id: t1_dlm_mode
+  name: Tone 1 DLM Mode
+  page: Tone 1
+  type: enum
+  options:
+  - 'OFF'
+  - DLM A
+  - DLM B
+  default: 0
+- id: t1_cutoff
+  name: Tone 1 TVF Cutoff
+  page: Tone 1
+  range:
+  - 0
+  - 127
+  default: 100
+- id: t1_resonance
+  name: Tone 1 TVF Resonance
+  page: Tone 1
+  range:
+  - 0
+  - 127
+  default: 25
+- id: t1_level
+  name: Tone 1 TVA Level
+  page: Tone 1
+  range:
+  - 0
+  - 127
+  default: 100
+- id: t1_pan
+  name: Tone 1 TVA Pan
+  page: Tone 1
+  range:
+  - -64
+  - 63
+  default: 0
+- id: t2_wave
+  name: Tone 2 Wave Number
+  page: Tone 2
+  range:
+  - 1
+  - 114
+  default: 2
+- id: t2_cutoff
+  name: Tone 2 TVF Cutoff
+  page: Tone 2
+  range:
+  - 0
+  - 127
+  default: 95
+- id: chorus_level
+  name: Chorus Level
+  page: Effects
+  range:
+  - 0
+  - 127
+  default: 30
+- id: reverb_level
+  name: Reverb Level
+  page: Effects
+  range:
+  - 0
+  - 127
+  default: 45

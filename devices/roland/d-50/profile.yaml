@@ -1,0 +1,206 @@
+name: Roland D-50
+manufacturer: Roland Corporation
+category: 16-Voice Linear Arithmetic Synthesizer
+release_year: 1987
+hardware:
+  form_factor: 61-Key Performance Synthesizer (D-550 is 2U Rack)
+  polyphony: 16 Voices
+  voice_architecture: 'Linear Arithmetic (LA) Synthesis: 2 Tones (Upper/Lower), 4
+    Partials per patch (Synth waveform or PCM attack/loop) with Ring Modulation'
+  effects: Built-in Digital Reverb (32 modes) + Digital Chorus (8 modes) + 2-Band
+    Parametric EQ
+midi:
+  manufacturer_id: '0x41'
+  device_id: 16
+  model_id: '0x14'
+  channel: 1
+sysex:
+  header: F0 41 {device_id} 14 {command_id} {address} {data} {checksum} F7
+  checksum: roland
+  command_ids:
+    dataset_dt1: '0x12'
+    request_rq1: '0x11'
+  parameter_edit_format: F0 41 10 14 12 {address} {value} {checksum} F7
+parameters:
+- id: patch_name
+  name: Patch Name
+  page: Common
+  type: string
+- id: structure_upper
+  name: Upper Structure (Partials 1&2)
+  page: Common
+  range:
+  - 1
+  - 7
+  default: 1
+- id: structure_lower
+  name: Lower Structure (Partials 3&4)
+  page: Common
+  range:
+  - 1
+  - 7
+  default: 1
+- id: reverb_type
+  name: Reverb Type
+  page: Effects
+  range:
+  - 1
+  - 32
+  default: 1
+- id: reverb_balance
+  name: Reverb Balance
+  page: Effects
+  range:
+  - 0
+  - 100
+  default: 40
+- id: chorus_type
+  name: Chorus Type
+  page: Effects
+  range:
+  - 1
+  - 8
+  default: 1
+- id: chorus_rate
+  name: Chorus Rate
+  page: Effects
+  range:
+  - 0
+  - 100
+  default: 50
+- id: chorus_depth
+  name: Chorus Depth
+  page: Effects
+  range:
+  - 0
+  - 100
+  default: 60
+- id: eq_low_freq
+  name: EQ Low Frequency
+  page: Effects
+  range:
+  - 0
+  - 15
+  default: 4
+- id: eq_low_gain
+  name: EQ Low Gain
+  page: Effects
+  range:
+  - -12
+  - 12
+  default: 0
+- id: eq_high_freq
+  name: EQ High Frequency
+  page: Effects
+  range:
+  - 0
+  - 29
+  default: 12
+- id: eq_high_gain
+  name: EQ High Gain
+  page: Effects
+  range:
+  - -12
+  - 12
+  default: 0
+- id: u1_wave_type
+  name: Upper P1 Waveform Type
+  page: Upper P1
+  type: enum
+  options:
+  - SYNTH
+  - PCM
+  default: 0
+- id: u1_synth_wave
+  name: Upper P1 Synth Waveform
+  page: Upper P1
+  type: enum
+  options:
+  - SQUARE
+  - SAW
+  default: 0
+- id: u1_pcm_wave
+  name: Upper P1 PCM Wave Number
+  page: Upper P1
+  range:
+  - 1
+  - 100
+  default: 1
+- id: u1_pulse_width
+  name: Upper P1 Pulse Width
+  page: Upper P1
+  range:
+  - 0
+  - 100
+  default: 50
+- id: u1_pw_velo
+  name: Upper P1 PW Velocity Sens
+  page: Upper P1
+  range:
+  - -7
+  - 7
+  default: 0
+- id: u1_tvf_cutoff
+  name: Upper P1 TVF Cutoff
+  page: Upper P1
+  range:
+  - 0
+  - 100
+  default: 85
+- id: u1_tvf_resonance
+  name: Upper P1 TVF Resonance
+  page: Upper P1
+  range:
+  - 0
+  - 30
+  default: 10
+- id: u1_tvf_env_depth
+  name: Upper P1 TVF Env Depth
+  page: Upper P1
+  range:
+  - 0
+  - 100
+  default: 50
+- id: u1_tva_level
+  name: Upper P1 TVA Level
+  page: Upper P1
+  range:
+  - 0
+  - 100
+  default: 90
+- id: u1_tva_velo
+  name: Upper P1 TVA Velocity Sens
+  page: Upper P1
+  range:
+  - -50
+  - 50
+  default: 20
+- id: u2_wave_type
+  name: Upper P2 Waveform Type
+  page: Upper P2
+  type: enum
+  options:
+  - SYNTH
+  - PCM
+  default: 1
+- id: u2_pcm_wave
+  name: Upper P2 PCM Wave Number
+  page: Upper P2
+  range:
+  - 1
+  - 100
+  default: 2
+- id: u2_tvf_cutoff
+  name: Upper P2 TVF Cutoff
+  page: Upper P2
+  range:
+  - 0
+  - 100
+  default: 90
+- id: u2_tva_level
+  name: Upper P2 TVA Level
+  page: Upper P2
+  range:
+  - 0
+  - 100
+  default: 80

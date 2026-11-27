@@ -1,0 +1,838 @@
+[
+  {
+    "id": "11",
+    "name": "Fantasia",
+    "bank": "INTERNAL",
+    "program": 1,
+    "category": "SYNTH",
+    "tags": [
+      "bell",
+      "pad",
+      "classic",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "12",
+    "name": "DigitalNativeDance",
+    "bank": "INTERNAL",
+    "program": 2,
+    "category": "ETHNIC",
+    "tags": [
+      "rhythmic",
+      "percussive",
+      "classic",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "13",
+    "name": "Soundtrack",
+    "bank": "INTERNAL",
+    "program": 3,
+    "category": "PAD",
+    "tags": [
+      "ambient",
+      "warm",
+      "classic",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "14",
+    "name": "Living Calliope",
+    "bank": "INTERNAL",
+    "program": 4,
+    "category": "KEYBOARD",
+    "tags": [
+      "organ",
+      "flute",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "15",
+    "name": "Stereo Polysynth",
+    "bank": "INTERNAL",
+    "program": 5,
+    "category": "SYNTH",
+    "tags": [
+      "analog",
+      "poly",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "16",
+    "name": "Deep Strings",
+    "bank": "INTERNAL",
+    "program": 6,
+    "category": "STRINGS",
+    "tags": [
+      "lush",
+      "analog",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "17",
+    "name": "Gamelan Bell",
+    "bank": "INTERNAL",
+    "program": 7,
+    "category": "MALLET",
+    "tags": [
+      "metallic",
+      "bell",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "18",
+    "name": "Cathedral Organ",
+    "bank": "INTERNAL",
+    "program": 8,
+    "category": "ORGAN",
+    "tags": [
+      "pipe",
+      "church",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "21",
+    "name": "Glass Voices",
+    "bank": "INTERNAL",
+    "program": 9,
+    "category": "PAD",
+    "tags": [
+      "choir",
+      "crystal",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "22",
+    "name": "Staccato Choral",
+    "bank": "INTERNAL",
+    "program": 10,
+    "category": "VOICE",
+    "tags": [
+      "vocal",
+      "staccato",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "23",
+    "name": "Pizzagogo",
+    "bank": "INTERNAL",
+    "program": 11,
+    "category": "PLUCK",
+    "tags": [
+      "agogo",
+      "pizzicato",
+      "classic",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "24",
+    "name": "Horn Section",
+    "bank": "INTERNAL",
+    "program": 12,
+    "category": "BRASS",
+    "tags": [
+      "horns",
+      "brass",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "25",
+    "name": "Shaku / Flute",
+    "bank": "INTERNAL",
+    "program": 13,
+    "category": "WIND",
+    "tags": [
+      "ethnic",
+      "bamboo",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "26",
+    "name": "Arco Strings",
+    "bank": "INTERNAL",
+    "program": 14,
+    "category": "STRINGS",
+    "tags": [
+      "bowed",
+      "orchestral",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "27",
+    "name": "Bell Brass",
+    "bank": "INTERNAL",
+    "program": 15,
+    "category": "BRASS",
+    "tags": [
+      "hybrid",
+      "bright",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "28",
+    "name": "Harpsichord",
+    "bank": "INTERNAL",
+    "program": 16,
+    "category": "KEYBOARD",
+    "tags": [
+      "baroque",
+      "plucked",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "31",
+    "name": "Chime Water",
+    "bank": "INTERNAL",
+    "program": 17,
+    "category": "FX",
+    "tags": [
+      "ambient",
+      "liquid",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "32",
+    "name": "Bones",
+    "bank": "INTERNAL",
+    "program": 18,
+    "category": "PERCUSSION",
+    "tags": [
+      "wooden",
+      "marimba",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "33",
+    "name": "Night Breeze",
+    "bank": "INTERNAL",
+    "program": 19,
+    "category": "PAD",
+    "tags": [
+      "wind",
+      "ambient",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "34",
+    "name": "Breathy Chiffer",
+    "bank": "INTERNAL",
+    "program": 20,
+    "category": "WIND",
+    "tags": [
+      "pipe",
+      "breath",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "35",
+    "name": "Steel Drum",
+    "bank": "INTERNAL",
+    "program": 21,
+    "category": "MALLET",
+    "tags": [
+      "caribbean",
+      "metallic",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "36",
+    "name": "Poly Bass",
+    "bank": "INTERNAL",
+    "program": 22,
+    "category": "BASS",
+    "tags": [
+      "analog",
+      "synth",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "37",
+    "name": "Slap Bass",
+    "bank": "INTERNAL",
+    "program": 23,
+    "category": "BASS",
+    "tags": [
+      "funk",
+      "slap",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "38",
+    "name": "Analog Brass",
+    "bank": "INTERNAL",
+    "program": 24,
+    "category": "BRASS",
+    "tags": [
+      "jupiter",
+      "saw",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "41",
+    "name": "Techno Synth",
+    "bank": "INTERNAL",
+    "program": 25,
+    "category": "SYNTH",
+    "tags": [
+      "electronic",
+      "lead",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "42",
+    "name": "Rock Organ",
+    "bank": "INTERNAL",
+    "program": 26,
+    "category": "ORGAN",
+    "tags": [
+      "drawbar",
+      "rotary",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "43",
+    "name": "Synth Clav",
+    "bank": "INTERNAL",
+    "program": 27,
+    "category": "KEYBOARD",
+    "tags": [
+      "funk",
+      "clav",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "44",
+    "name": "Marimba",
+    "bank": "INTERNAL",
+    "program": 28,
+    "category": "MALLET",
+    "tags": [
+      "wood",
+      "percussive",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "45",
+    "name": "Electric Piano 1",
+    "bank": "INTERNAL",
+    "program": 29,
+    "category": "KEYBOARD",
+    "tags": [
+      "rhodes",
+      "dyno",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "46",
+    "name": "Electric Piano 2",
+    "bank": "INTERNAL",
+    "program": 30,
+    "category": "KEYBOARD",
+    "tags": [
+      "wurlie",
+      "fm",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "47",
+    "name": "Honky Tonk",
+    "bank": "INTERNAL",
+    "program": 31,
+    "category": "PIANO",
+    "tags": [
+      "ragtime",
+      "upright",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "48",
+    "name": "Acoustic Piano 1",
+    "bank": "INTERNAL",
+    "program": 32,
+    "category": "PIANO",
+    "tags": [
+      "grand",
+      "acoustic",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "51",
+    "name": "Laser Sweeper",
+    "bank": "INTERNAL",
+    "program": 33,
+    "category": "FX",
+    "tags": [
+      "sci-fi",
+      "sweep",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "52",
+    "name": "Space Voice",
+    "bank": "INTERNAL",
+    "program": 34,
+    "category": "VOICE",
+    "tags": [
+      "ambient",
+      "ethereal",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "53",
+    "name": "Electro Pluck",
+    "bank": "INTERNAL",
+    "program": 35,
+    "category": "PLUCK",
+    "tags": [
+      "sequencer",
+      "short",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "54",
+    "name": "Vibe Wave",
+    "bank": "INTERNAL",
+    "program": 36,
+    "category": "MALLET",
+    "tags": [
+      "vibraphone",
+      "motor",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "55",
+    "name": "Reso Lead",
+    "bank": "INTERNAL",
+    "program": 37,
+    "category": "LEAD",
+    "tags": [
+      "resonance",
+      "solo",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "56",
+    "name": "Fifth Chime",
+    "bank": "INTERNAL",
+    "program": 38,
+    "category": "SYNTH",
+    "tags": [
+      "interval",
+      "bell",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "57",
+    "name": "Warm Atmosphere",
+    "bank": "INTERNAL",
+    "program": 39,
+    "category": "PAD",
+    "tags": [
+      "soundscape",
+      "film",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "58",
+    "name": "Brass Hit",
+    "bank": "INTERNAL",
+    "program": 40,
+    "category": "HIT",
+    "tags": [
+      "orchestral",
+      "stab",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "61",
+    "name": "Square Wave",
+    "bank": "INTERNAL",
+    "program": 41,
+    "category": "SYNTH",
+    "tags": [
+      "vintage",
+      "chptune",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "62",
+    "name": "Triangle Lead",
+    "bank": "INTERNAL",
+    "program": 42,
+    "category": "LEAD",
+    "tags": [
+      "smooth",
+      "flute-like",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "63",
+    "name": "Heavy Metal Gtr",
+    "bank": "INTERNAL",
+    "program": 43,
+    "category": "GUITAR",
+    "tags": [
+      "distortion",
+      "rock",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "64",
+    "name": "Distorted Solo",
+    "bank": "INTERNAL",
+    "program": 44,
+    "category": "LEAD",
+    "tags": [
+      "feedback",
+      "guitar",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "65",
+    "name": "Acoustic Guitar",
+    "bank": "INTERNAL",
+    "program": 45,
+    "category": "GUITAR",
+    "tags": [
+      "nylon",
+      "folk",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "66",
+    "name": "12-Str Guitar",
+    "bank": "INTERNAL",
+    "program": 46,
+    "category": "GUITAR",
+    "tags": [
+      "steel",
+      "chorus",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "67",
+    "name": "Koto Pluck",
+    "bank": "INTERNAL",
+    "program": 47,
+    "category": "ETHNIC",
+    "tags": [
+      "asian",
+      "japanese",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "68",
+    "name": "Shamisen",
+    "bank": "INTERNAL",
+    "program": 48,
+    "category": "ETHNIC",
+    "tags": [
+      "traditional",
+      "plucked",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "71",
+    "name": "Cello Solo",
+    "bank": "INTERNAL",
+    "program": 49,
+    "category": "STRINGS",
+    "tags": [
+      "solo",
+      "bowed",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "72",
+    "name": "Solo Violin",
+    "bank": "INTERNAL",
+    "program": 50,
+    "category": "STRINGS",
+    "tags": [
+      "expressive",
+      "vibrato",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "73",
+    "name": "Oboe Legato",
+    "bank": "INTERNAL",
+    "program": 51,
+    "category": "WIND",
+    "tags": [
+      "double_reed",
+      "pastoral",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "74",
+    "name": "Clarinet Warm",
+    "bank": "INTERNAL",
+    "program": 52,
+    "category": "WIND",
+    "tags": [
+      "woodwind",
+      "mellow",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "75",
+    "name": "Pan Flute",
+    "bank": "INTERNAL",
+    "program": 53,
+    "category": "WIND",
+    "tags": [
+      "zamfir",
+      "breath",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "76",
+    "name": "Pipe Organ Full",
+    "bank": "INTERNAL",
+    "program": 54,
+    "category": "ORGAN",
+    "tags": [
+      "tutti",
+      "pedals",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "77",
+    "name": "Trumpet Section",
+    "bank": "INTERNAL",
+    "program": 55,
+    "category": "BRASS",
+    "tags": [
+      "bright",
+      "fanfare",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "78",
+    "name": "Muted Horns",
+    "bank": "INTERNAL",
+    "program": 56,
+    "category": "BRASS",
+    "tags": [
+      "miles",
+      "harmon",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "81",
+    "name": "African Mallet",
+    "bank": "INTERNAL",
+    "program": 57,
+    "category": "MALLET",
+    "tags": [
+      "kalimba",
+      "balafon",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "82",
+    "name": "Metal Fantasy",
+    "bank": "INTERNAL",
+    "program": 58,
+    "category": "SYNTH",
+    "tags": [
+      "bell",
+      "bright",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "83",
+    "name": "Synth Gong",
+    "bank": "INTERNAL",
+    "program": 59,
+    "category": "PERCUSSION",
+    "tags": [
+      "metallic",
+      "tail",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "84",
+    "name": "Jet Sound",
+    "bank": "INTERNAL",
+    "program": 60,
+    "category": "FX",
+    "tags": [
+      "airplane",
+      "sweep",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "85",
+    "name": "Wind Storm",
+    "bank": "INTERNAL",
+    "program": 61,
+    "category": "FX",
+    "tags": [
+      "noise",
+      "nature",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "86",
+    "name": "Space Bell",
+    "bank": "INTERNAL",
+    "program": 62,
+    "category": "MALLET",
+    "tags": [
+      "cosmic",
+      "shimmer",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "87",
+    "name": "Nightmare",
+    "bank": "INTERNAL",
+    "program": 63,
+    "category": "FX",
+    "tags": [
+      "dissonant",
+      "horror",
+      "d50",
+      "la_synthesis"
+    ]
+  },
+  {
+    "id": "88",
+    "name": "Final Frontier",
+    "bank": "INTERNAL",
+    "program": 64,
+    "category": "PAD",
+    "tags": [
+      "space",
+      "motion",
+      "d50",
+      "la_synthesis"
+    ]
+  }
+]
