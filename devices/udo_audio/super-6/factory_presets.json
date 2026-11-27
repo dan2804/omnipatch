@@ -1,0 +1,1666 @@
+[
+  {
+    "bank": "Bank 1",
+    "program": 1,
+    "name": "Super6 1-01: Binaural 12-Voice Super Saw",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 2,
+    "name": "Super6 1-02: SSI2144 Silky Analog Lowpass",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 3,
+    "name": "Super6 1-03: High-Resolution DDS Wavetable",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 4,
+    "name": "Super6 1-04: Stereo Spatial Cloud Pad",
+    "category": "Pad",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 5,
+    "name": "Super6 1-05: Binaural Detuned Poly Brass",
+    "category": "Brass",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 6,
+    "name": "Super6 1-06: Punchy Analog Bass 24dB",
+    "category": "Bass",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 7,
+    "name": "Super6 1-07: Resonant Bandpass Pluck",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 8,
+    "name": "Super6 1-08: Lush Shimmer Chorus Solo",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 9,
+    "name": "Super6 1-09: Binaural 12-Voice Super Saw",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 10,
+    "name": "Super6 1-10: SSI2144 Silky Analog Lowpass",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 11,
+    "name": "Super6 1-11: High-Resolution DDS Wavetable",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 12,
+    "name": "Super6 1-12: Stereo Spatial Cloud Pad",
+    "category": "Pad",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 13,
+    "name": "Super6 1-13: Binaural Detuned Poly Brass",
+    "category": "Brass",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 14,
+    "name": "Super6 1-14: Punchy Analog Bass 24dB",
+    "category": "Bass",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 15,
+    "name": "Super6 1-15: Resonant Bandpass Pluck",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 16,
+    "name": "Super6 1-16: Lush Shimmer Chorus Solo",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 1,
+    "name": "Super6 2-01: Binaural 12-Voice Super Saw",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 2,
+    "name": "Super6 2-02: SSI2144 Silky Analog Lowpass",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 3,
+    "name": "Super6 2-03: High-Resolution DDS Wavetable",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 4,
+    "name": "Super6 2-04: Stereo Spatial Cloud Pad",
+    "category": "Pad",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 5,
+    "name": "Super6 2-05: Binaural Detuned Poly Brass",
+    "category": "Brass",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 6,
+    "name": "Super6 2-06: Punchy Analog Bass 24dB",
+    "category": "Bass",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 7,
+    "name": "Super6 2-07: Resonant Bandpass Pluck",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 8,
+    "name": "Super6 2-08: Lush Shimmer Chorus Solo",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 9,
+    "name": "Super6 2-09: Binaural 12-Voice Super Saw",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 10,
+    "name": "Super6 2-10: SSI2144 Silky Analog Lowpass",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 11,
+    "name": "Super6 2-11: High-Resolution DDS Wavetable",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 12,
+    "name": "Super6 2-12: Stereo Spatial Cloud Pad",
+    "category": "Pad",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 13,
+    "name": "Super6 2-13: Binaural Detuned Poly Brass",
+    "category": "Brass",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 14,
+    "name": "Super6 2-14: Punchy Analog Bass 24dB",
+    "category": "Bass",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 15,
+    "name": "Super6 2-15: Resonant Bandpass Pluck",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 16,
+    "name": "Super6 2-16: Lush Shimmer Chorus Solo",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 1,
+    "name": "Super6 3-01: Binaural 12-Voice Super Saw",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 2,
+    "name": "Super6 3-02: SSI2144 Silky Analog Lowpass",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 3,
+    "name": "Super6 3-03: High-Resolution DDS Wavetable",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 4,
+    "name": "Super6 3-04: Stereo Spatial Cloud Pad",
+    "category": "Pad",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 5,
+    "name": "Super6 3-05: Binaural Detuned Poly Brass",
+    "category": "Brass",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 6,
+    "name": "Super6 3-06: Punchy Analog Bass 24dB",
+    "category": "Bass",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 7,
+    "name": "Super6 3-07: Resonant Bandpass Pluck",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 8,
+    "name": "Super6 3-08: Lush Shimmer Chorus Solo",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 9,
+    "name": "Super6 3-09: Binaural 12-Voice Super Saw",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 10,
+    "name": "Super6 3-10: SSI2144 Silky Analog Lowpass",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 11,
+    "name": "Super6 3-11: High-Resolution DDS Wavetable",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 12,
+    "name": "Super6 3-12: Stereo Spatial Cloud Pad",
+    "category": "Pad",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 13,
+    "name": "Super6 3-13: Binaural Detuned Poly Brass",
+    "category": "Brass",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 14,
+    "name": "Super6 3-14: Punchy Analog Bass 24dB",
+    "category": "Bass",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 15,
+    "name": "Super6 3-15: Resonant Bandpass Pluck",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 16,
+    "name": "Super6 3-16: Lush Shimmer Chorus Solo",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 1,
+    "name": "Super6 4-01: Binaural 12-Voice Super Saw",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 2,
+    "name": "Super6 4-02: SSI2144 Silky Analog Lowpass",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 3,
+    "name": "Super6 4-03: High-Resolution DDS Wavetable",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 4,
+    "name": "Super6 4-04: Stereo Spatial Cloud Pad",
+    "category": "Pad",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 5,
+    "name": "Super6 4-05: Binaural Detuned Poly Brass",
+    "category": "Brass",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 6,
+    "name": "Super6 4-06: Punchy Analog Bass 24dB",
+    "category": "Bass",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 7,
+    "name": "Super6 4-07: Resonant Bandpass Pluck",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 8,
+    "name": "Super6 4-08: Lush Shimmer Chorus Solo",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 9,
+    "name": "Super6 4-09: Binaural 12-Voice Super Saw",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 10,
+    "name": "Super6 4-10: SSI2144 Silky Analog Lowpass",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 11,
+    "name": "Super6 4-11: High-Resolution DDS Wavetable",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 12,
+    "name": "Super6 4-12: Stereo Spatial Cloud Pad",
+    "category": "Pad",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 13,
+    "name": "Super6 4-13: Binaural Detuned Poly Brass",
+    "category": "Brass",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 14,
+    "name": "Super6 4-14: Punchy Analog Bass 24dB",
+    "category": "Bass",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 15,
+    "name": "Super6 4-15: Resonant Bandpass Pluck",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 16,
+    "name": "Super6 4-16: Lush Shimmer Chorus Solo",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 1,
+    "name": "Super6 5-01: Binaural 12-Voice Super Saw",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 2,
+    "name": "Super6 5-02: SSI2144 Silky Analog Lowpass",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 3,
+    "name": "Super6 5-03: High-Resolution DDS Wavetable",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 4,
+    "name": "Super6 5-04: Stereo Spatial Cloud Pad",
+    "category": "Pad",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 5,
+    "name": "Super6 5-05: Binaural Detuned Poly Brass",
+    "category": "Brass",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 6,
+    "name": "Super6 5-06: Punchy Analog Bass 24dB",
+    "category": "Bass",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 7,
+    "name": "Super6 5-07: Resonant Bandpass Pluck",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 8,
+    "name": "Super6 5-08: Lush Shimmer Chorus Solo",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 9,
+    "name": "Super6 5-09: Binaural 12-Voice Super Saw",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 10,
+    "name": "Super6 5-10: SSI2144 Silky Analog Lowpass",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 11,
+    "name": "Super6 5-11: High-Resolution DDS Wavetable",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 12,
+    "name": "Super6 5-12: Stereo Spatial Cloud Pad",
+    "category": "Pad",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 13,
+    "name": "Super6 5-13: Binaural Detuned Poly Brass",
+    "category": "Brass",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 14,
+    "name": "Super6 5-14: Punchy Analog Bass 24dB",
+    "category": "Bass",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 15,
+    "name": "Super6 5-15: Resonant Bandpass Pluck",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 16,
+    "name": "Super6 5-16: Lush Shimmer Chorus Solo",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 6",
+    "program": 1,
+    "name": "Super6 6-01: Binaural 12-Voice Super Saw",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 6",
+    "program": 2,
+    "name": "Super6 6-02: SSI2144 Silky Analog Lowpass",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 6",
+    "program": 3,
+    "name": "Super6 6-03: High-Resolution DDS Wavetable",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 6",
+    "program": 4,
+    "name": "Super6 6-04: Stereo Spatial Cloud Pad",
+    "category": "Pad",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 6",
+    "program": 5,
+    "name": "Super6 6-05: Binaural Detuned Poly Brass",
+    "category": "Brass",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 6",
+    "program": 6,
+    "name": "Super6 6-06: Punchy Analog Bass 24dB",
+    "category": "Bass",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 6",
+    "program": 7,
+    "name": "Super6 6-07: Resonant Bandpass Pluck",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 6",
+    "program": 8,
+    "name": "Super6 6-08: Lush Shimmer Chorus Solo",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 6",
+    "program": 9,
+    "name": "Super6 6-09: Binaural 12-Voice Super Saw",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 6",
+    "program": 10,
+    "name": "Super6 6-10: SSI2144 Silky Analog Lowpass",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 6",
+    "program": 11,
+    "name": "Super6 6-11: High-Resolution DDS Wavetable",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 6",
+    "program": 12,
+    "name": "Super6 6-12: Stereo Spatial Cloud Pad",
+    "category": "Pad",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 6",
+    "program": 13,
+    "name": "Super6 6-13: Binaural Detuned Poly Brass",
+    "category": "Brass",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 6",
+    "program": 14,
+    "name": "Super6 6-14: Punchy Analog Bass 24dB",
+    "category": "Bass",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 6",
+    "program": 15,
+    "name": "Super6 6-15: Resonant Bandpass Pluck",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 6",
+    "program": 16,
+    "name": "Super6 6-16: Lush Shimmer Chorus Solo",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 7",
+    "program": 1,
+    "name": "Super6 7-01: Binaural 12-Voice Super Saw",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 7",
+    "program": 2,
+    "name": "Super6 7-02: SSI2144 Silky Analog Lowpass",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 7",
+    "program": 3,
+    "name": "Super6 7-03: High-Resolution DDS Wavetable",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 7",
+    "program": 4,
+    "name": "Super6 7-04: Stereo Spatial Cloud Pad",
+    "category": "Pad",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 7",
+    "program": 5,
+    "name": "Super6 7-05: Binaural Detuned Poly Brass",
+    "category": "Brass",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 7",
+    "program": 6,
+    "name": "Super6 7-06: Punchy Analog Bass 24dB",
+    "category": "Bass",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 7",
+    "program": 7,
+    "name": "Super6 7-07: Resonant Bandpass Pluck",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 7",
+    "program": 8,
+    "name": "Super6 7-08: Lush Shimmer Chorus Solo",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 7",
+    "program": 9,
+    "name": "Super6 7-09: Binaural 12-Voice Super Saw",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 7",
+    "program": 10,
+    "name": "Super6 7-10: SSI2144 Silky Analog Lowpass",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 7",
+    "program": 11,
+    "name": "Super6 7-11: High-Resolution DDS Wavetable",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 7",
+    "program": 12,
+    "name": "Super6 7-12: Stereo Spatial Cloud Pad",
+    "category": "Pad",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 7",
+    "program": 13,
+    "name": "Super6 7-13: Binaural Detuned Poly Brass",
+    "category": "Brass",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 7",
+    "program": 14,
+    "name": "Super6 7-14: Punchy Analog Bass 24dB",
+    "category": "Bass",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 7",
+    "program": 15,
+    "name": "Super6 7-15: Resonant Bandpass Pluck",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 7",
+    "program": 16,
+    "name": "Super6 7-16: Lush Shimmer Chorus Solo",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 8",
+    "program": 1,
+    "name": "Super6 8-01: Binaural 12-Voice Super Saw",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 8",
+    "program": 2,
+    "name": "Super6 8-02: SSI2144 Silky Analog Lowpass",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 8",
+    "program": 3,
+    "name": "Super6 8-03: High-Resolution DDS Wavetable",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 8",
+    "program": 4,
+    "name": "Super6 8-04: Stereo Spatial Cloud Pad",
+    "category": "Pad",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 8",
+    "program": 5,
+    "name": "Super6 8-05: Binaural Detuned Poly Brass",
+    "category": "Brass",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 8",
+    "program": 6,
+    "name": "Super6 8-06: Punchy Analog Bass 24dB",
+    "category": "Bass",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 8",
+    "program": 7,
+    "name": "Super6 8-07: Resonant Bandpass Pluck",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 8",
+    "program": 8,
+    "name": "Super6 8-08: Lush Shimmer Chorus Solo",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 8",
+    "program": 9,
+    "name": "Super6 8-09: Binaural 12-Voice Super Saw",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 8",
+    "program": 10,
+    "name": "Super6 8-10: SSI2144 Silky Analog Lowpass",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 8",
+    "program": 11,
+    "name": "Super6 8-11: High-Resolution DDS Wavetable",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 8",
+    "program": 12,
+    "name": "Super6 8-12: Stereo Spatial Cloud Pad",
+    "category": "Pad",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 8",
+    "program": 13,
+    "name": "Super6 8-13: Binaural Detuned Poly Brass",
+    "category": "Brass",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank 8",
+    "program": 14,
+    "name": "Super6 8-14: Punchy Analog Bass 24dB",
+    "category": "Bass",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 8",
+    "program": 15,
+    "name": "Super6 8-15: Resonant Bandpass Pluck",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 8",
+    "program": 16,
+    "name": "Super6 8-16: Lush Shimmer Chorus Solo",
+    "category": "Lead",
+    "tags": [
+      "binaural-synthesis",
+      "fpga-dds",
+      "ssi2144-filter",
+      "udo-super-6",
+      "lead"
+    ]
+  }
+]

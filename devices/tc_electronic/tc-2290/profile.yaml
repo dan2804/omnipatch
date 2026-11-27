@@ -1,0 +1,19 @@
+manufacturer: Tc Electronic
+model: TC Electronic 2290
+type: Dynamic Digital Delay + Effects Processor
+year: 1985
+midi:
+  channels: 16
+  cc_map:
+    delay_time: 82
+    feedback: 83
+    dynamic_ducking: 16
+    modulation_depth: 17
+    fx_mix: 91
+sysex:
+  header: F0 00 20 1F
+  device_id_byte: 3
+  commands:
+    dump_prog: F0 00 20 1F 01 [prog] F7
+banks:
+- Factory Bank

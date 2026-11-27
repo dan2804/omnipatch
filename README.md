@@ -26,12 +26,27 @@ OmniPatch is a high-performance, modular patch librarian and hardware editor wri
 
 ---
 
-## Supported Synthesizers (213 Production Profiles)
+## Supported Synthesizers (228 Production Profiles)
 
-OmniPatch ships with 213 comprehensive device profiles across 31 legendary synthesizer manufacturers:
+OmniPatch ships with 228 comprehensive device profiles across 39 legendary synthesizer manufacturers:
 
 | Synthesizer | Manufacturer | Architecture | Parameters | Presets | SysEx ID / Details |
 | :--- | :--- | :--- | :---: | :---: | :--- |
+| **OSC OSCar** | Oxford Synthesiser Co. | Additive / Analog Synthesizer Masterpiece | 5 | 36 | `0x00 0x00 0x2F` · Chris Huggett additive waveforms, dual 12dB filters with separation & drive |
+| **Cheetah MS6** | Cheetah Marketing | 6-Voice Multitimbral Analog Module | 5 | 64 | `0x24` · Dual DCOs per voice, CEM3396 analog VCF chips, multitimbral |
+| **Crumar Bit One / 99 / 01** | Crumar | Polyphonic Analog Synthesizer | 5 | 75 | `0x27` · Dual DCOs, CEM3328 resonant analog lowpass VCF, Italian warmth |
+| **Siel Opera 6 / DK600** | Siel | 6-Voice Polyphonic Analog Synthesizer | 4 | 95 | `0x21` · Dual DCOs, SSM2044 24dB resonant analog filters, Italian poly |
+| **UDO Audio Super 6 / Gemini** | UDO Audio | Binaural 12-Voice Polyphonic Synthesizer | 6 | 128 | `0x00 0x21 0x4B` · Binaural stereo spatial spread, FPGA DDS oscillators, SSI2144 VCF |
+| **Black Corp Deckard's Dream** | Black Corporation | 8-Voice Polyphonic Analog Synthesizer | 5 | 256 | `0x00 0x21 0x3F` · Dual discrete analog voice cards inspired by the Yamaha CS-80 |
+| **Pioneer DJ / DSI Toraiz AS-1** | Pioneer DJ | Monophonic Analog Synthesizer | 6 | 495 | `0x01` (ID `0x2F`) · Discrete analog Prophet-6 single-voice architecture, 5 banks |
+| **Pioneer DJ / DSI Toraiz SP-16**| Pioneer DJ | Professional Sampler & Step Sequencer | 3 | 128 | `0x01` (ID `0x2E`) · Dave Smith discrete Prophet-6 analog lowpass and highpass filters |
+| **TC Electronic 2290** | TC Electronic | Dynamic Digital Delay + Multi-FX | 5 | 100 | `0x00 0x20 0x1F` · The definitive studio dynamic delay processor, ducking, chorus |
+| **Strymon BigSky** | Strymon | Multidimensional Reverb Processor | 6 | 300 | `0x00 0x01 0x55` · Cloud, Shimmer, Bloom, Chorale, Magneto, Reflections, 150 banks |
+| **Strymon TimeLine** | Strymon | Multidimensional Delay Processor | 7 | 300 | `0x00 0x01 0x55` · dTape, dBucket, Ice shimmer delay, Dual, Pattern, Lo-Fi, 150 banks |
+| **Eventide Rose / PitchFactor** | Eventide | Modulated Delay & Pitch Processor | 6 | 100 | `0x1C` (ID `0x05`) · Analog-digital hybrid modulated delay, pitch shifting, reverse |
+| **Korg Mono/Poly MP-4** | Korg | 4-VCO Analog Synthesizer | 7 | 64 | `0x42` (ID `0x00`) · 4 discrete VCOs, cycling arpeggiator, SSM2044 resonant filter |
+| **Korg Polysix PS-6** | Korg | 6-Voice Polyphonic Analog Synthesizer | 5 | 64 | `0x42` (ID `0x02`) · Discrete analog VCOs, SSM2044 VCF, built-in BBD ensemble chorus |
+| **Korg Poly-800** | Korg | Programmable Polyphonic Synthesizer | 5 | 64 | `0x42` (ID `0x06`) · 8 DCOs paraphonic, Digital Envelope Generators (DEG), portable |
 | **Waldorf Quantum / Iridium** | Waldorf Music | Flagship Hybrid Synthesizer | 5 | 1,000 | `0x3E` (ID `0x16`) · 5 synthesis engines: Wavetable, Particle, Resonator, Kernel FM |
 | **Waldorf Kyra** | Waldorf Music | 128-Voice FPGA Virtual Analog | 5 | 1,024 | `0x3E` (ID `0x17`) · 128 voices, 8 parts, 32x oversampled audio, Hypersaw, 8 banks |
 | **Waldorf M** | Waldorf Music | Wavetable Synth w/ Analog Filters | 5 | 512 | `0x3E` (ID `0x18`) · Microwave I/II heritage, SSI2144 24dB analog VCF, 4 banks |
@@ -261,36 +276,45 @@ omnipatch/
 │   ├── omnipatch-midi/       # midir low-latency packet pacing, hardware throttling
 │   ├── omnipatch-profile/    # YAML parser, parameter mapping, validation engine
 │   └── omnipatch-sysex/      # Checksum calculators (Roland, E-MU, Casio, Waldorf)
-├── devices/                  # 213 Declarative YAML hardware profiles & factory presets
+├── devices/                  # 228 Declarative YAML hardware profiles & factory presets
 │   ├── access/               # Access Music (Virus A, B, C, TI, TI2, Indigo, Snow)
 │   ├── akai/                 # Akai Professional (AX60)
 │   ├── alesis/               # Alesis (Andromeda A6, Ion, Micron, QS Series, QuadraSynth, D4/DM5, HR-16)
 │   ├── arturia/              # Arturia (PolyBrute, MatrixBrute, MicroFreak, MiniBrute 2)
 │   ├── asm/                  # Ashun Sound Machines (Hydrasynth Desktop, Deluxe, Explorer, Keyboard)
 │   ├── behringer/            # Behringer (Deepmind 12, Deepmind 12D, PRO-800)
+│   ├── black_corporation/    # Black Corporation (Deckard's Dream, Kijimi)
 │   ├── casio/                # Casio Computer Co. (CZ-1, CZ-101, CZ-1000, CZ-230S, CZ-3000, CZ-5000)
+│   ├── cheetah/              # Cheetah Marketing (MS6)
 │   ├── clavia/               # Clavia Nord (Nord Lead 1, 2, 2X, 3, 4, Nord Rack)
+│   ├── crumar/               # Crumar (Bit One, Bit 99, Bit 01)
 │   ├── digitech/             # DigiTech (GSP 2101 Tube Preamp, Studio Quad / TSR-24)
 │   ├── doepfer/              # Doepfer (MS-404, Dark Energy)
 │   ├── dreadbox/             # Dreadbox (Typhon, Erebus)
 │   ├── elektron/             # Elektron (Digitakt, Digitone, Syntakt, Analog Four / Rytm)
 │   ├── emu/                  # E-MU Systems (Orbit-3, Proteus family, SP-1200, Emax, Vintage, etc.)
 │   ├── ensoniq/              # Ensoniq (ESQ-1, SQ-80, VFX, TS-10, MR Rack)
-│   ├── eventide/             # Eventide (H3000 Ultra-Harmonizer, DSP4000, Eclipse, Space, TimeFactor)
+│   ├── eventide/             # Eventide (H3000, DSP4000, Eclipse, Space, TimeFactor, Rose)
 │   ├── jomox/                # JoMoX (XBase 09, AirBase 99)
 │   ├── kawai/                # Kawai (K1, K4, K5, K5000 Additive Flagship, XD-5)
-│   ├── korg/                 # Korg (Kronos, minilogue xd, prologue, opsix, wavestate, modwave, M1, Triton)
+│   ├── korg/                 # Korg (Kronos, minilogue xd, prologue, opsix, wavestate, Mono/Poly, Polysix, Poly-800)
 │   ├── kurzweil/             # Kurzweil (K2000, K2500, K2600 V.A.S.T. Workstations)
 │   ├── lexicon/              # Lexicon (PCM70, PCM80, PCM90, LXP-1/5, MPX-1)
 │   ├── modal/                # Modal Electronics (Argon8, Cobalt8, Skulpt, Modal 002)
 │   ├── moog/                 # Moog Music (Moog One, Minimoog Voyager, Sub 37, Matriarch, Grandmother, Minitaur)
 │   ├── novation/             # Novation (Bass Station II, Supernova II, Nova, K-Station, Peak)
 │   ├── oberheim/             # Oberheim (Matrix-1000, Matrix-6, Matrix-12/Xpander, OB-8, OB-X8)
+│   ├── oscar/                # Oxford Synthesiser Company (OSCar)
 │   ├── peavey/               # Peavey (DPM 3, Spectrum Series)
+│   ├── pioneer_dj/           # Pioneer DJ / Dave Smith (Toraiz AS-1, Toraiz SP-16)
 │   ├── quasimidi/            # Quasimidi (Rave-O-Lution 309, Sirius, Polymorph, Technox)
 │   ├── roland/               # Roland Corporation (TB-303, TR-808, TR-909, SH-101, Integra-7, System-8, JV, JD, Juno)
 │   ├── sequential/           # Sequential & DSI (Prophet-5, Prophet-6, OB-6, Trigon-6, Take 5, Evolver, P12, Mopho)
+│   ├── siel/                 # Siel (Opera 6, DK600)
+│   ├── strymon/              # Strymon (BigSky, TimeLine)
 │   ├── studio_electronics/   # Studio Electronics (SE-1, SE-1X)
+│   ├── tc_electronic/        # TC Electronic (2290 Dynamic Delay)
+│   ├── udo_audio/            # UDO Audio (Super 6, Super Gemini)
 │   ├── waldorf/              # Waldorf Music (Quantum, Iridium, Kyra, M, Blofeld, Microwave, Pulse, Q, Streichfett)
 │   └── yamaha/               # Yamaha Corporation (CS-80, FS1R, SY99, EX5, VL1, DX7, DX7II, TX81Z, Motif)
 ├── preview/                  # Web Audio interactive studio prototypes & hardware editors

@@ -1,0 +1,27 @@
+manufacturer: Udo Audio
+model: UDO Audio Super 6 / Super Gemini
+type: Binaural 12-Voice Polyphonic Synthesizer
+year: 2020
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    binaural_spread: 10
+    dds1_shape: 20
+    dds2_detune: 21
+    delay_time: 82
+sysex:
+  header: F0 00 21 4B
+  device_id_byte: 3
+  commands:
+    request_patch: F0 00 21 4B 01 [bank] [prog] F7
+banks:
+- Bank 1
+- Bank 2
+- Bank 3
+- Bank 4
+- Bank 5
+- Bank 6
+- Bank 7
+- Bank 8

@@ -1,0 +1,834 @@
+[
+  {
+    "bank": "Factory Patches",
+    "program": 1,
+    "name": "Mono/Poly Patch 01: 4-VCO Cycling Arpeggiator",
+    "category": "Arp",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 2,
+    "name": "Mono/Poly Patch 02: SSM2044 Resonant Scream",
+    "category": "Lead",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 3,
+    "name": "Mono/Poly Patch 03: Cross-Mod & Sync Lead",
+    "category": "Lead",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 4,
+    "name": "Mono/Poly Patch 04: Subterranean 4-VCO Bass",
+    "category": "Bass",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 5,
+    "name": "Mono/Poly Patch 05: Paraphonic Chord Memory",
+    "category": "Paraphonic",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 6,
+    "name": "Mono/Poly Patch 06: Detuned 4-Saw Monster",
+    "category": "Paraphonic",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 7,
+    "name": "Mono/Poly Patch 07: Warm SSM Flute Lead",
+    "category": "Lead",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 8,
+    "name": "Mono/Poly Patch 08: Alien FX Cross-Mod Wind",
+    "category": "Paraphonic",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 9,
+    "name": "Mono/Poly Patch 09: 4-VCO Cycling Arpeggiator",
+    "category": "Arp",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 10,
+    "name": "Mono/Poly Patch 10: SSM2044 Resonant Scream",
+    "category": "Lead",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 11,
+    "name": "Mono/Poly Patch 11: Cross-Mod & Sync Lead",
+    "category": "Lead",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 12,
+    "name": "Mono/Poly Patch 12: Subterranean 4-VCO Bass",
+    "category": "Bass",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 13,
+    "name": "Mono/Poly Patch 13: Paraphonic Chord Memory",
+    "category": "Paraphonic",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 14,
+    "name": "Mono/Poly Patch 14: Detuned 4-Saw Monster",
+    "category": "Paraphonic",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 15,
+    "name": "Mono/Poly Patch 15: Warm SSM Flute Lead",
+    "category": "Lead",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 16,
+    "name": "Mono/Poly Patch 16: Alien FX Cross-Mod Wind",
+    "category": "Paraphonic",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 17,
+    "name": "Mono/Poly Patch 17: 4-VCO Cycling Arpeggiator",
+    "category": "Arp",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 18,
+    "name": "Mono/Poly Patch 18: SSM2044 Resonant Scream",
+    "category": "Lead",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 19,
+    "name": "Mono/Poly Patch 19: Cross-Mod & Sync Lead",
+    "category": "Lead",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 20,
+    "name": "Mono/Poly Patch 20: Subterranean 4-VCO Bass",
+    "category": "Bass",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 21,
+    "name": "Mono/Poly Patch 21: Paraphonic Chord Memory",
+    "category": "Paraphonic",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 22,
+    "name": "Mono/Poly Patch 22: Detuned 4-Saw Monster",
+    "category": "Paraphonic",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 23,
+    "name": "Mono/Poly Patch 23: Warm SSM Flute Lead",
+    "category": "Lead",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 24,
+    "name": "Mono/Poly Patch 24: Alien FX Cross-Mod Wind",
+    "category": "Paraphonic",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 25,
+    "name": "Mono/Poly Patch 25: 4-VCO Cycling Arpeggiator",
+    "category": "Arp",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 26,
+    "name": "Mono/Poly Patch 26: SSM2044 Resonant Scream",
+    "category": "Lead",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 27,
+    "name": "Mono/Poly Patch 27: Cross-Mod & Sync Lead",
+    "category": "Lead",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 28,
+    "name": "Mono/Poly Patch 28: Subterranean 4-VCO Bass",
+    "category": "Bass",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 29,
+    "name": "Mono/Poly Patch 29: Paraphonic Chord Memory",
+    "category": "Paraphonic",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 30,
+    "name": "Mono/Poly Patch 30: Detuned 4-Saw Monster",
+    "category": "Paraphonic",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 31,
+    "name": "Mono/Poly Patch 31: Warm SSM Flute Lead",
+    "category": "Lead",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 32,
+    "name": "Mono/Poly Patch 32: Alien FX Cross-Mod Wind",
+    "category": "Paraphonic",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 33,
+    "name": "Mono/Poly Patch 33: 4-VCO Cycling Arpeggiator",
+    "category": "Arp",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 34,
+    "name": "Mono/Poly Patch 34: SSM2044 Resonant Scream",
+    "category": "Lead",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 35,
+    "name": "Mono/Poly Patch 35: Cross-Mod & Sync Lead",
+    "category": "Lead",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 36,
+    "name": "Mono/Poly Patch 36: Subterranean 4-VCO Bass",
+    "category": "Bass",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 37,
+    "name": "Mono/Poly Patch 37: Paraphonic Chord Memory",
+    "category": "Paraphonic",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 38,
+    "name": "Mono/Poly Patch 38: Detuned 4-Saw Monster",
+    "category": "Paraphonic",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 39,
+    "name": "Mono/Poly Patch 39: Warm SSM Flute Lead",
+    "category": "Lead",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 40,
+    "name": "Mono/Poly Patch 40: Alien FX Cross-Mod Wind",
+    "category": "Paraphonic",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 41,
+    "name": "Mono/Poly Patch 41: 4-VCO Cycling Arpeggiator",
+    "category": "Arp",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 42,
+    "name": "Mono/Poly Patch 42: SSM2044 Resonant Scream",
+    "category": "Lead",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 43,
+    "name": "Mono/Poly Patch 43: Cross-Mod & Sync Lead",
+    "category": "Lead",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 44,
+    "name": "Mono/Poly Patch 44: Subterranean 4-VCO Bass",
+    "category": "Bass",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 45,
+    "name": "Mono/Poly Patch 45: Paraphonic Chord Memory",
+    "category": "Paraphonic",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 46,
+    "name": "Mono/Poly Patch 46: Detuned 4-Saw Monster",
+    "category": "Paraphonic",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 47,
+    "name": "Mono/Poly Patch 47: Warm SSM Flute Lead",
+    "category": "Lead",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 48,
+    "name": "Mono/Poly Patch 48: Alien FX Cross-Mod Wind",
+    "category": "Paraphonic",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 49,
+    "name": "Mono/Poly Patch 49: 4-VCO Cycling Arpeggiator",
+    "category": "Arp",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 50,
+    "name": "Mono/Poly Patch 50: SSM2044 Resonant Scream",
+    "category": "Lead",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 51,
+    "name": "Mono/Poly Patch 51: Cross-Mod & Sync Lead",
+    "category": "Lead",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 52,
+    "name": "Mono/Poly Patch 52: Subterranean 4-VCO Bass",
+    "category": "Bass",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 53,
+    "name": "Mono/Poly Patch 53: Paraphonic Chord Memory",
+    "category": "Paraphonic",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 54,
+    "name": "Mono/Poly Patch 54: Detuned 4-Saw Monster",
+    "category": "Paraphonic",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 55,
+    "name": "Mono/Poly Patch 55: Warm SSM Flute Lead",
+    "category": "Lead",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 56,
+    "name": "Mono/Poly Patch 56: Alien FX Cross-Mod Wind",
+    "category": "Paraphonic",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 57,
+    "name": "Mono/Poly Patch 57: 4-VCO Cycling Arpeggiator",
+    "category": "Arp",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 58,
+    "name": "Mono/Poly Patch 58: SSM2044 Resonant Scream",
+    "category": "Lead",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 59,
+    "name": "Mono/Poly Patch 59: Cross-Mod & Sync Lead",
+    "category": "Lead",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 60,
+    "name": "Mono/Poly Patch 60: Subterranean 4-VCO Bass",
+    "category": "Bass",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 61,
+    "name": "Mono/Poly Patch 61: Paraphonic Chord Memory",
+    "category": "Paraphonic",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 62,
+    "name": "Mono/Poly Patch 62: Detuned 4-Saw Monster",
+    "category": "Paraphonic",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 63,
+    "name": "Mono/Poly Patch 63: Warm SSM Flute Lead",
+    "category": "Lead",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Patches",
+    "program": 64,
+    "name": "Mono/Poly Patch 64: Alien FX Cross-Mod Wind",
+    "category": "Paraphonic",
+    "tags": [
+      "4-vco",
+      "ssm2044-vcf",
+      "cycling-arpeggiator",
+      "korg-mono-poly",
+      "paraphonic"
+    ]
+  }
+]

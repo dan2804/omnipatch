@@ -1,0 +1,19 @@
+manufacturer: Cheetah
+model: Cheetah MS6
+type: 6-Voice Multitimbral Analog Synthesizer Module
+year: 1988
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    dco1_wave: 20
+    dco2_wave: 21
+    vcf_env: 77
+sysex:
+  header: F0 24 00
+  device_id_byte: 2
+  commands:
+    request_patch: F0 24 00 01 [prog] F7
+banks:
+- Factory Bank

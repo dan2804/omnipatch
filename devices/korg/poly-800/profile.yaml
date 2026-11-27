@@ -1,0 +1,19 @@
+manufacturer: Korg
+model: Korg Poly-800
+type: Programmable Polyphonic Synthesizer
+year: 1983
+midi:
+  channels: 16
+  cc_map:
+    cutoff: 74
+    resonance: 71
+    dco1_octave: 20
+    dco2_octave: 21
+    chorus: 93
+sysex:
+  header: F0 42 00 06
+  device_id_byte: 2
+  commands:
+    dump_prog: F0 42 00 06 01 [prog] F7
+banks:
+- Factory Bank
