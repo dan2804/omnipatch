@@ -1,0 +1,44 @@
+schema_version: 1.0.0
+manufacturer: Roland Corporation
+name: Roland MKS-80 Super Jupiter
+family: Jupiter Series
+category: 8-Voice Rackmount Analog Synthesizer
+year: 1984
+voice_architecture:
+  voices: 8
+  oscillators: 16 discrete analog VCOs (2 per voice) with CEM3340 (Rev 4) or Roland
+    IR3R03 (Rev 5)
+  filters: CEM3360/IR3109 resonant 24dB lowpass VCF + discrete HPF
+  programmer: Full MPG-80 programmer interface support
+midi_specs:
+  basic_channel: 1
+  model_id: '0x02'
+  sysex_id: '0x41'
+  handshake: false
+  pacing_delay_ms: 25
+parameters:
+- id: vcf_cutoff
+  name: VCF Cutoff
+  type: range
+  min: 0
+  max: 127
+  default: 85
+- id: vcf_resonance
+  name: VCF Resonance
+  type: range
+  min: 0
+  max: 127
+  default: 35
+- id: cross_mod
+  name: Cross Mod Intensity
+  type: range
+  min: 0
+  max: 127
+  default: 0
+- id: vco_sync
+  name: VCO Hard Sync
+  type: enum
+  options:
+  - 'Off'
+  - 'On'
+  default: 'Off'

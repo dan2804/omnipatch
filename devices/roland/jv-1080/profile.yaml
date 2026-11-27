@@ -1,0 +1,56 @@
+schema_version: 1.0.0
+manufacturer: Roland Corporation
+name: Roland JV-1080
+family: JV Series
+category: 64-Voice 16-Part Super JV Synthesizer Module
+year: 1994
+voice_architecture:
+  voices: 64
+  parts: 16
+  tones_per_patch: 4 stereo tones with 10 tone structures (Ring Mod, Booster)
+  wave_rom: 8MB 16-bit PCM ROM with 448 waveforms
+  expansion: 4 SR-JV80 expansion board slots + 1 SO-PCM slot + DATA card
+  effects: EFX (40 multi-effects algorithms) + Chorus (3 types) + Reverb (8 types)
+midi_specs:
+  basic_channel: 1
+  model_id: '0x6A'
+  sysex_id: '0x41'
+  handshake: false
+  pacing_delay_ms: 25
+parameters:
+- id: vcf_cutoff
+  name: TVF Cutoff Frequency
+  type: range
+  min: 0
+  max: 127
+  default: 75
+- id: vcf_resonance
+  name: TVF Resonance
+  type: range
+  min: 0
+  max: 127
+  default: 30
+- id: tva_attack
+  name: TVA Envelope Attack
+  type: range
+  min: 0
+  max: 127
+  default: 10
+- id: tva_release
+  name: TVA Envelope Release
+  type: range
+  min: 0
+  max: 127
+  default: 35
+- id: efx_type
+  name: EFX Algorithm Type
+  type: range
+  min: 0
+  max: 39
+  default: 1
+- id: reverb_send
+  name: Reverb Send Level
+  type: range
+  min: 0
+  max: 127
+  default: 40

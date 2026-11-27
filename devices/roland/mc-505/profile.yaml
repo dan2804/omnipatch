@@ -1,0 +1,40 @@
+schema_version: 1.0.0
+manufacturer: Roland Corporation
+name: Roland MC-505 Groovebox
+family: Groovebox Series
+category: Flagship Dance Music Production Groovebox
+year: 1998
+voice_architecture:
+  voices: 64
+  parts: 8
+  sound_engine: 640 patches + 26 rhythm sets
+  controller: D-Beam Controller & Realtime Megamix sliders and control knobs
+  sequencer: 714 preset patterns + 200 user patterns + RPS
+midi_specs:
+  basic_channel: 1
+  model_id: 0x00 0x14
+  sysex_id: '0x41'
+  handshake: false
+  pacing_delay_ms: 20
+parameters:
+- id: cutoff
+  name: Filter Cutoff Knob
+  type: range
+  min: 0
+  max: 127
+  default: 64
+- id: resonance
+  name: Filter Resonance Knob
+  type: range
+  min: 0
+  max: 127
+  default: 32
+- id: d_beam_assign
+  name: D-Beam Target
+  type: enum
+  options:
+  - Cutoff
+  - Turntable
+  - Pitch
+  - Ad Lib
+  default: Cutoff

@@ -1,0 +1,50 @@
+schema_version: 1.0.0
+manufacturer: Roland Corporation
+name: Roland JV-2080
+family: JV Series
+category: 64-Voice 16-Part 3U Sound Module w/ 3 EFX
+year: 1996
+voice_architecture:
+  voices: 64
+  parts: 16
+  display: Large 320x80 backlit graphic LCD with patch finder and phrase preview
+  expansion: 8 SR-JV80 expansion board slots + 2 card slots
+  effects: 3 independent EFX multi-effects processors simultaneously in Performance
+    mode + Chorus + Reverb
+midi_specs:
+  basic_channel: 1
+  model_id: '0x6A'
+  sysex_id: '0x41'
+  handshake: false
+  pacing_delay_ms: 25
+parameters:
+- id: vcf_cutoff
+  name: TVF Cutoff
+  type: range
+  min: 0
+  max: 127
+  default: 70
+- id: vcf_resonance
+  name: TVF Resonance
+  type: range
+  min: 0
+  max: 127
+  default: 30
+- id: efx1_type
+  name: EFX 1 Type
+  type: range
+  min: 0
+  max: 39
+  default: 1
+- id: efx2_type
+  name: EFX 2 Type
+  type: range
+  min: 0
+  max: 39
+  default: 2
+- id: efx3_type
+  name: EFX 3 Type
+  type: range
+  min: 0
+  max: 39
+  default: 3

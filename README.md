@@ -26,12 +26,24 @@ OmniPatch is a high-performance, modular patch librarian and hardware editor wri
 
 ---
 
-## Supported Synthesizers (74 Production Profiles)
+## Supported Synthesizers (86 Production Profiles)
 
-OmniPatch ships with 74 comprehensive device profiles across 7 legendary synthesizer manufacturers:
+OmniPatch ships with 86 comprehensive device profiles across 7 legendary synthesizer manufacturers:
 
 | Synthesizer | Manufacturer | Architecture | Parameters | Presets | SysEx ID / Details |
 | :--- | :--- | :--- | :---: | :---: | :--- |
+| **Roland JV-1080** | Roland Corporation | 64-Voice 16-Part Super JV Module | 6 | 640 | `0x6A` · 4 SR-JV80 slots, 40 EFX, User + PR-A/B/C + GM |
+| **Roland JV-2080** | Roland Corporation | 64-Voice 3U Module with 3 EFX | 5 | 768 | `0x6A` · 8 SR-JV80 slots, 320x80 LCD, 3 simultaneous EFX |
+| **Roland JD-800** | Roland Corporation | Programmable Synth w/ 69 Control Sliders | 5 | 64 | `0x3D` · 4 tone layers, multi-mode TVF, Pizzagogo & Strobe X |
+| **Roland JD-990** | Roland Corporation | Super JD Multi-Timbral Module | 6 | 192 | `0x57` · Hard sync, ring mod, FXM, vintage Roland waves, 320x80 LCD |
+| **Roland Juno-106** | Roland Corporation | 6-Voice DCO Analog Polyphonic Synth | 23 | 128 | `0x32` · IR3109 VCF, BBD chorus, continuous slider SysEx control |
+| **Roland Jupiter-8** | Roland Corporation | 8-Voice Discrete Analog Polyphonic | 7 | 64 | `0x41` · Discrete VCOs, cross-mod, sync, switchable 12/24dB VCF |
+| **Roland MKS-80** | Roland Corporation | Super Jupiter 8-Voice Rackmount Analog | 4 | 192 | `0x02` · MPG-80 programmer, 16 analog VCOs, 64 patches + 128 tones |
+| **Roland MKS-50** | Roland Corporation | 1U Alpha Juno Polyphonic Analog Rack | 3 | 128 | `0x23` · IR3109 VCF, BBD chorus, chord memory, PG-300 mapping |
+| **Roland Sound Canvas SC-55** | Roland Corporation | Definitive General MIDI / GS Module | 4 | 317 | `0x42` (GS) · 317 GS instruments + 9 drum sets, digital reverb/chorus |
+| **Roland Sound Canvas SC-88** | Roland Corporation | Flagship 64-Voice 32-Part GS Module | 3 | 654 | `0x45` (GS) · 654 GS sounds, dual MIDI inputs (32 parts), 24 drum kits |
+| **Roland MC-303** | Roland Corporation | The Original Dance Music Groovebox | 2 | 448 | `0x00 0x07` · 448 dance tones, TR-808/909 kits, 8-track sequencer |
+| **Roland MC-505** | Roland Corporation | Flagship Dance Production Groovebox | 3 | 640 | `0x00 0x14` · 640 patches, 26 rhythm kits, D-Beam, Megamix sliders |
 | **Korg M1** | Korg | AI Synthesis Music Workstation Flagship | 10 | 150 | `0x42` (ID `0x19`) · Universe, Piano 16' (house piano staple), 100 Progs + Combis |
 | **Korg Wavestation** | Korg | Vector Synthesis & Wave Sequencing | 6 | 205 | `0x42` (ID `0x28`) · 2-axis vector joystick, dynamic rhythmic wave sequencing, Ski Jam |
 | **Korg 01/W** | Korg | AI2 Synthesis Workstation w/ Waveshaping | 5 | 400 | `0x42` (ID `0x36`) · 60 waveshaping tables, 200 Programs + 200 Combinations |

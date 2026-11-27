@@ -1,0 +1,30 @@
+schema_version: 1.0.0
+manufacturer: Roland Corporation
+name: Roland MC-303 Groovebox
+family: Groovebox Series
+category: The Original Dance Music Groovebox
+year: 1996
+voice_architecture:
+  voices: 28
+  parts: 8
+  sound_engine: 448 dance sounds + 12 drum kits (TR-808, TR-909, CR-78)
+  sequencer: 8-track pattern sequencer with 133 preset patterns and RPS
+midi_specs:
+  basic_channel: 1
+  model_id: 0x00 0x07
+  sysex_id: '0x41'
+  handshake: false
+  pacing_delay_ms: 20
+parameters:
+- id: cutoff
+  name: Realtime Filter Cutoff
+  type: range
+  min: 0
+  max: 127
+  default: 64
+- id: resonance
+  name: Realtime Resonance
+  type: range
+  min: 0
+  max: 127
+  default: 32

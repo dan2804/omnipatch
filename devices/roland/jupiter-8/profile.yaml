@@ -1,0 +1,70 @@
+schema_version: 1.0.0
+manufacturer: Roland Corporation
+name: Roland Jupiter-8
+family: Jupiter Series
+category: 8-Voice Discrete Analog Polyphonic Flagship
+year: 1981
+voice_architecture:
+  voices: 8
+  oscillators_per_voice: '2 discrete analog VCOs per voice (VCO 1: Triangle, Saw,
+    Pulse, Square; VCO 2: Saw, Pulse, Noise, Sine)'
+  sync_cross_mod: Oscillator Cross-Modulation and Hard Sync
+  filter_type: Roland IR3109 24dB/12dB Switchable Resonant Lowpass VCF + Discrete
+    Highpass Filter
+  keyboard: 61 keys with Split and Dual modes
+midi_specs:
+  basic_channel: 1
+  dcbm_midi: Encore / Roland OP-8 / MD-8 MIDI Retrofit interface support
+  handshake: false
+  pacing_delay_ms: 30
+parameters:
+- id: vco1_wave
+  name: VCO 1 Waveform
+  type: enum
+  options:
+  - Triangle
+  - Sawtooth
+  - Pulse
+  - Square
+  default: Sawtooth
+- id: vco2_wave
+  name: VCO 2 Waveform
+  type: enum
+  options:
+  - Sawtooth
+  - Pulse
+  - Sine
+  - Noise
+  default: Sawtooth
+- id: cross_mod_depth
+  name: Cross Modulation Depth
+  type: range
+  min: 0
+  max: 127
+  default: 0
+- id: sync_mode
+  name: Oscillator Sync
+  type: enum
+  options:
+  - 'Off'
+  - 'On'
+  default: 'Off'
+- id: vcf_slope
+  name: VCF Slope Select
+  type: enum
+  options:
+  - 12dB/oct Lowpass
+  - 24dB/oct Lowpass
+  default: 24dB/oct Lowpass
+- id: vcf_cutoff
+  name: VCF Cutoff Frequency
+  type: range
+  min: 0
+  max: 127
+  default: 85
+- id: vcf_resonance
+  name: VCF Resonance
+  type: range
+  min: 0
+  max: 127
+  default: 35

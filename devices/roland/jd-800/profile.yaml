@@ -1,0 +1,58 @@
+schema_version: 1.0.0
+manufacturer: Roland Corporation
+name: Roland JD-800
+family: JD Series
+category: Programmable Synthesizer with 69 Control Sliders
+year: 1991
+voice_architecture:
+  voices: 24
+  tones_per_patch: 4 independent synthesizer tones with dedicated slider editing per
+    tone
+  wave_rom: 108 high-definition 16-bit PCM waveforms (acoustic attacks, analog waveforms,
+    noise cycles)
+  filters: Resonant Multi-mode TVF per tone (Lowpass, Bandpass, Highpass)
+  effects: 7-stage Multi-Effects Processor (Enhancer, Distortion, Dual Delay, Chorus,
+    Reverb)
+midi_specs:
+  basic_channel: 1
+  model_id: '0x3D'
+  sysex_id: '0x41'
+  handshake: false
+  pacing_delay_ms: 25
+parameters:
+- id: tone_select
+  name: Active Tone Layer (1-4)
+  type: enum
+  options:
+  - Tone 1
+  - Tone 2
+  - Tone 3
+  - Tone 4
+  - All Tones
+  default: All Tones
+- id: tvf_cutoff
+  name: TVF Cutoff Slider
+  type: range
+  min: 0
+  max: 127
+  default: 80
+- id: tvf_resonance
+  name: TVF Resonance Slider
+  type: range
+  min: 0
+  max: 127
+  default: 35
+- id: tvf_mode
+  name: TVF Filter Mode
+  type: enum
+  options:
+  - Low Pass
+  - Band Pass
+  - High Pass
+  default: Low Pass
+- id: tva_level
+  name: TVA Level Slider
+  type: range
+  min: 0
+  max: 127
+  default: 100

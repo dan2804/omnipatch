@@ -1,0 +1,36 @@
+schema_version: 1.0.0
+manufacturer: Roland Corporation
+name: Roland Sound Canvas SC-88
+family: Sound Canvas Series
+category: Flagship 64-Voice 32-Part GS Sound Module
+year: 1994
+voice_architecture:
+  voices: 64
+  parts: 32
+  sound_engine: Advanced GS Engine with 654 instrument sounds + 24 drum sets
+  midi_ports: Dual MIDI inputs (A and B) for 32 simultaneous MIDI channels
+midi_specs:
+  basic_channel: 1
+  model_id: '0x45'
+  sysex_id: '0x41'
+  handshake: false
+  pacing_delay_ms: 20
+parameters:
+- id: reverb_send
+  name: Reverb Send
+  type: range
+  min: 0
+  max: 127
+  default: 40
+- id: chorus_send
+  name: Chorus Send
+  type: range
+  min: 0
+  max: 127
+  default: 20
+- id: delay_send
+  name: Delay Send
+  type: range
+  min: 0
+  max: 127
+  default: 0

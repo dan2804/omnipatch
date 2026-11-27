@@ -1,0 +1,706 @@
+[
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 1,
+    "name": "11 Big Brass",
+    "category": "BRASS",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "brass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 2,
+    "name": "12 Octave Horns",
+    "category": "BRASS",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "brass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 3,
+    "name": "13 Warm Strings",
+    "category": "STRINGS",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "strings"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 4,
+    "name": "14 Fast Strings",
+    "category": "STRINGS",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "strings"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 5,
+    "name": "15 Poly Lead",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 6,
+    "name": "16 Reso Solo",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 7,
+    "name": "17 Funky Clav",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 8,
+    "name": "18 E.Piano 1",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 9,
+    "name": "21 Fat Analog Bass",
+    "category": "BASS",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "bass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 10,
+    "name": "22 Sub Bass 8",
+    "category": "BASS",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "bass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 11,
+    "name": "23 Sync Lead 1",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 12,
+    "name": "24 Sync Lead 2",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 13,
+    "name": "25 Cross-Mod Bell",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 14,
+    "name": "26 Space Pad 1",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 15,
+    "name": "27 Sweep Pad 2",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 16,
+    "name": "28 Harp/Flute",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 17,
+    "name": "31 Symphonic Tutti",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 18,
+    "name": "32 Chamber Cello",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 19,
+    "name": "33 Trumpet Solo",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 20,
+    "name": "34 Fanfare Brass",
+    "category": "BRASS",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "brass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 21,
+    "name": "35 Cathedral Pipe",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 22,
+    "name": "36 Jazz Organ",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 23,
+    "name": "37 Harpsichord",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 24,
+    "name": "38 Celesta Bell",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 25,
+    "name": "41 Slap Bass JP",
+    "category": "BASS",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "bass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 26,
+    "name": "42 Fretless Bass",
+    "category": "BASS",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "bass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 27,
+    "name": "43 Moog Reso Bass",
+    "category": "BASS",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "bass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 28,
+    "name": "44 Pulse Lead 80",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 29,
+    "name": "45 Fifth Interval Lead",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 30,
+    "name": "46 Laser Gun Zap",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 31,
+    "name": "47 Wind Wave FX",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 32,
+    "name": "48 SciFi Siren",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 33,
+    "name": "51 Super Jupiter Brass",
+    "category": "BRASS",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "brass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 34,
+    "name": "52 Solina Strings",
+    "category": "STRINGS",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "strings"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 35,
+    "name": "53 Analog Brass II",
+    "category": "BRASS",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "brass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 36,
+    "name": "54 Pop Horn Section",
+    "category": "BRASS",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "brass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 37,
+    "name": "55 Wurly Tine",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 38,
+    "name": "56 Rotary Drawbar",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 39,
+    "name": "57 Marimba Mallet",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 40,
+    "name": "58 Vibraphone",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 41,
+    "name": "61 Heavy Modular Bass",
+    "category": "BASS",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "bass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 42,
+    "name": "62 Techno Acid Lead",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 43,
+    "name": "63 Power Chord Hit",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 44,
+    "name": "64 Rave Saw Stack",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 45,
+    "name": "65 Ambient Space Scape",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 46,
+    "name": "66 Metallic Hit",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 47,
+    "name": "67 Thunder Explosion",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 48,
+    "name": "68 Jupiter-8 Anthem",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 49,
+    "name": "71 Dual Layer Grand",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 50,
+    "name": "72 Split Bass/Brass",
+    "category": "BRASS",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "brass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 51,
+    "name": "73 Split Bass/Lead",
+    "category": "BASS",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "bass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 52,
+    "name": "74 Split Strings/Flute",
+    "category": "STRINGS",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "strings"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 53,
+    "name": "75 Arp Pluck Solo",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 54,
+    "name": "76 Solar Flare Sweep",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 55,
+    "name": "77 Reso Filter Scream",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 56,
+    "name": "78 Dream Pad JP",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 57,
+    "name": "81 Vintage Tine EP",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 58,
+    "name": "82 Honky Tonk JP",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 59,
+    "name": "83 Sitar Drone JP",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 60,
+    "name": "84 Koto Tremolo",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 61,
+    "name": "85 Timpani Hard Roll",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 62,
+    "name": "86 Noise Burst FX",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 63,
+    "name": "87 Helicopter Rotor",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 64,
+    "name": "88 Master Init 8",
+    "category": "SYNTH",
+    "tags": [
+      "jupiter-8",
+      "analog-flagship",
+      "synth"
+    ]
+  }
+]

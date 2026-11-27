@@ -1,0 +1,37 @@
+schema_version: 1.0.0
+manufacturer: Roland Corporation
+name: Roland MKS-50
+family: Alpha Juno Series
+category: 1U Rackmount Polyphonic Analog Synthesizer
+year: 1986
+voice_architecture:
+  voices: 6
+  engine: Alpha Juno DCO Engine with Chord Memory and PG-300 programmer support
+  filter_type: Roland IR3109 24dB Resonant Lowpass VCF + HPF
+  famous_patches: What The... (Hoover sound), Alpha Strings, Sub Bass
+midi_specs:
+  basic_channel: 1
+  model_id: '0x23'
+  sysex_id: '0x41'
+  handshake: false
+  pacing_delay_ms: 25
+parameters:
+- id: vcf_cutoff
+  name: VCF Cutoff
+  type: range
+  min: 0
+  max: 127
+  default: 80
+- id: vcf_resonance
+  name: VCF Resonance
+  type: range
+  min: 0
+  max: 127
+  default: 30
+- id: chorus
+  name: Analog BBD Chorus
+  type: enum
+  options:
+  - 'Off'
+  - 'On'
+  default: 'On'

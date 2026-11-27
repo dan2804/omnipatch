@@ -1,0 +1,174 @@
+schema_version: 1.0.0
+manufacturer: Roland Corporation
+name: Roland Juno-106
+family: Juno Series
+category: 6-Voice Polyphonic DCO Analog Synthesizer
+year: 1984
+voice_architecture:
+  voices: 6
+  oscillators_per_voice: 1 DCO + 1 Sub-Oscillator + Noise Generator
+  filter_type: Roland 80017A (IR3109 VCF + BA662 VCA) 24dB/oct 4-Pole Resonant Lowpass
+    + 4-position HPF
+  effects: Dual-mode Stereo Analog BBD Chorus (Chorus I, Chorus II, Chorus I+II rotary)
+  keyboard: 61 keys
+midi_specs:
+  basic_channel: 1
+  omni_mode: true
+  model_id: '0x32'
+  sysex_id: '0x41'
+  sysex_parameter_mapping: Full continuous slider SysEx control
+  handshake: false
+  pacing_delay_ms: 30
+parameters:
+- id: dco_range
+  name: DCO Range Octave
+  type: enum
+  options:
+  - 16'
+  - 8'
+  - 4'
+  default: 8'
+- id: dco_lfo_mod
+  name: DCO LFO Mod
+  type: range
+  min: 0
+  max: 127
+  default: 0
+- id: dco_pwm_mod
+  name: DCO PWM Mod Level
+  type: range
+  min: 0
+  max: 127
+  default: 64
+- id: dco_pwm_source
+  name: PWM Source
+  type: enum
+  options:
+  - Manual
+  - LFO
+  default: LFO
+- id: dco_pulse
+  name: Pulse Wave Switch
+  type: enum
+  options:
+  - 'Off'
+  - 'On'
+  default: 'On'
+- id: dco_saw
+  name: Sawtooth Wave Switch
+  type: enum
+  options:
+  - 'Off'
+  - 'On'
+  default: 'On'
+- id: sub_level
+  name: Sub-Oscillator Level
+  type: range
+  min: 0
+  max: 127
+  default: 64
+- id: noise_level
+  name: Noise Level
+  type: range
+  min: 0
+  max: 127
+  default: 0
+- id: hpf_cutoff
+  name: HPF Cutoff Position
+  type: enum
+  options:
+  - 0 (Bass Boost)
+  - '1'
+  - '2'
+  - '3'
+  default: 0 (Bass Boost)
+- id: vcf_cutoff
+  name: VCF Cutoff Frequency
+  type: range
+  min: 0
+  max: 127
+  default: 80
+- id: vcf_resonance
+  name: VCF Resonance
+  type: range
+  min: 0
+  max: 127
+  default: 30
+- id: vcf_env_mod
+  name: VCF Envelope Mod
+  type: range
+  min: 0
+  max: 127
+  default: 60
+- id: vcf_polarity
+  name: VCF Envelope Polarity
+  type: enum
+  options:
+  - Positive (+)
+  - Inverted (-)
+  default: Positive (+)
+- id: vcf_key_follow
+  name: VCF Keyboard Follow
+  type: range
+  min: 0
+  max: 100
+  unit: '%'
+  default: 100
+- id: vca_level
+  name: VCA Output Level
+  type: range
+  min: 0
+  max: 127
+  default: 100
+- id: vca_mode
+  name: VCA Gate Mode
+  type: enum
+  options:
+  - Gate
+  - Envelope
+  default: Envelope
+- id: chorus
+  name: Stereo BBD Chorus
+  type: enum
+  options:
+  - 'Off'
+  - Chorus I
+  - Chorus II
+  - Chorus I+II
+  default: Chorus I
+- id: lfo_rate
+  name: LFO Rate
+  type: range
+  min: 0
+  max: 127
+  default: 50
+- id: lfo_delay
+  name: LFO Delay Time
+  type: range
+  min: 0
+  max: 127
+  default: 20
+- id: env_attack
+  name: Envelope Attack Time
+  type: range
+  min: 0
+  max: 127
+  default: 10
+- id: env_decay
+  name: Envelope Decay Time
+  type: range
+  min: 0
+  max: 127
+  default: 50
+- id: env_sustain
+  name: Envelope Sustain Level
+  type: range
+  min: 0
+  max: 127
+  default: 85
+- id: env_release
+  name: Envelope Release Time
+  type: range
+  min: 0
+  max: 127
+  default: 35

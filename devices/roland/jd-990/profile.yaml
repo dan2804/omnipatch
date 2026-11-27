@@ -1,0 +1,60 @@
+schema_version: 1.0.0
+manufacturer: Roland Corporation
+name: Roland JD-990 Super JD
+family: JD Series
+category: Super JD Multi-Timbral Synthesizer Module
+year: 1993
+voice_architecture:
+  voices: 24
+  parts: 8
+  sound_engine: Super JD Synthesis (Vintage Oscillator Sync, Ring Modulation, Cross-Mod
+    FXM)
+  wave_rom: 'Expanded 6MB PCM ROM (including vintage Roland waveforms: Juno, Jupiter-8,
+    D-50 attacks)'
+  display: 320x80 backlit graphical LCD
+  expansion: SR-JV80 expansion slot + SO-PCM slot + PCM/DATA card slots
+midi_specs:
+  basic_channel: 1
+  model_id: '0x57'
+  sysex_id: '0x41'
+  handshake: false
+  pacing_delay_ms: 25
+parameters:
+- id: osc_sync
+  name: Oscillator Hard Sync (Tone 1->2, 3->4)
+  type: enum
+  options:
+  - 'Off'
+  - 'On'
+  default: 'Off'
+- id: ring_mod
+  name: Ring Modulation
+  type: enum
+  options:
+  - 'Off'
+  - 'On'
+  default: 'Off'
+- id: fxm_color
+  name: FXM Color (Frequency Cross-Mod)
+  type: range
+  min: 1
+  max: 4
+  default: 1
+- id: fxm_depth
+  name: FXM Depth
+  type: range
+  min: 0
+  max: 16
+  default: 0
+- id: tvf_cutoff
+  name: TVF Filter Cutoff
+  type: range
+  min: 0
+  max: 127
+  default: 80
+- id: tvf_resonance
+  name: TVF Resonance
+  type: range
+  min: 0
+  max: 127
+  default: 35
