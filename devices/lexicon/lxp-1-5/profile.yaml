@@ -1,0 +1,17 @@
+manufacturer: Lexicon
+model: Lexicon LXP-1 / LXP-5
+type: Compact Digital Reverb & Effects Module
+year: 1988
+midi:
+  channels: 16
+  cc_map:
+    decay: 74
+    delay: 82
+    mix: 91
+sysex:
+  header: F0 06 02
+  device_id_byte: 3
+  commands:
+    dump_prog: F0 06 02 01 [prog] F7
+banks:
+- Factory Programs

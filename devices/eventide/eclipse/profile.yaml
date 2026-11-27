@@ -1,0 +1,22 @@
+manufacturer: Eventide
+model: Eventide Eclipse
+type: 24-Bit Dual-Engine Effects Processor
+year: 2001
+midi:
+  channels: 16
+  cc_map:
+    block1_mix: 91
+    block2_mix: 92
+    encoder_a: 16
+    encoder_b: 17
+sysex:
+  header: F0 1C 03
+  device_id_byte: 3
+  commands:
+    request_program: F0 1C 03 01 [prog] F7
+banks:
+- Dual Engine Bank 1
+- Dual Engine Bank 2
+- Dual Engine Bank 3
+- Dual Engine Bank 4
+- Dual Engine Bank 5

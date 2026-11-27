@@ -1,0 +1,19 @@
+manufacturer: Doepfer
+model: Doepfer MS-404 / Dark Energy
+type: Analog Monophonic Synthesizer Module
+year: 1995
+midi:
+  channels: 16
+  cc_map:
+    vco_freq: 20
+    filter_cutoff: 74
+    filter_resonance: 71
+    vcf_env_amount: 77
+    lfo1_rate: 18
+sysex:
+  header: F0 00 20 20
+  device_id_byte: 4
+  commands:
+    dump_patch: F0 00 20 20 01 [prog] F7
+banks:
+- Factory Bank

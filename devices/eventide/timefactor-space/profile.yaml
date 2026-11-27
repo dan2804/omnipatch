@@ -1,0 +1,20 @@
+manufacturer: Eventide
+model: Eventide Space & TimeFactor
+type: Flagship Studio Stomp / Processor
+year: 2011
+midi:
+  channels: 16
+  cc_map:
+    decay: 74
+    size: 71
+    predelay: 18
+    low: 19
+    high: 20
+    mix: 91
+sysex:
+  header: F0 1C 04
+  device_id_byte: 3
+  commands:
+    request_preset: F0 1C 04 01 [prog] F7
+banks:
+- Factory Presets

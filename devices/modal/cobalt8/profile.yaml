@@ -1,0 +1,23 @@
+manufacturer: Modal
+model: Modal Cobalt8
+type: 8-Voice Extended Virtual Analog Synthesizer
+year: 2020
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    wave1_morph: 20
+    wave2_morph: 21
+    distort: 80
+sysex:
+  header: F0 00 21 27 02
+  device_id_byte: 4
+  commands:
+    request_patch: F0 00 21 27 02 01 [bank] [prog] F7
+banks:
+- Bank 1
+- Bank 2
+- Bank 3
+- Bank 4
+- Bank 5

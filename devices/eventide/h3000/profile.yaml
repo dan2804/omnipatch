@@ -1,0 +1,28 @@
+manufacturer: Eventide
+model: Eventide H3000 Ultra-Harmonizer
+type: Studio Pitch Harmonizer & Multi-Effects
+year: 1988
+midi:
+  channels: 16
+  cc_map:
+    soft_key_1: 16
+    soft_key_2: 17
+    soft_key_3: 18
+    soft_key_4: 19
+    data_wheel: 6
+sysex:
+  header: F0 1C 01
+  device_id_byte: 3
+  commands:
+    request_program: F0 1C 01 01 [prog_hi] [prog_lo] F7
+banks:
+- ROM Bank 000
+- ROM Bank 100
+- ROM Bank 200
+- ROM Bank 300
+- ROM Bank 400
+- ROM Bank 500
+- ROM Bank 600
+- ROM Bank 700
+- ROM Bank 800
+- ROM Bank 900

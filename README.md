@@ -26,12 +26,32 @@ OmniPatch is a high-performance, modular patch librarian and hardware editor wri
 
 ---
 
-## Supported Synthesizers (153 Production Profiles)
+## Supported Synthesizers (173 Production Profiles)
 
-OmniPatch ships with 153 comprehensive device profiles across 20 legendary synthesizer manufacturers:
+OmniPatch ships with 173 comprehensive device profiles across 27 legendary synthesizer manufacturers:
 
 | Synthesizer | Manufacturer | Architecture | Parameters | Presets | SysEx ID / Details |
 | :--- | :--- | :--- | :---: | :---: | :--- |
+| **Kurzweil K2000 / K2000R** | Kurzweil | V.A.S.T. Workstation Synthesizer | 5 | 200 | `0x07` (ID `0x00`) · Variable Architecture Synthesis Technology, 31 algorithms, DSP |
+| **Kurzweil K2500 / K2500R** | Kurzweil | 48-Voice V.A.S.T. Production Synthesizer | 5 | 300 | `0x07` (ID `0x00`) · KDFX studio effects, 48 voices, 200 programs + 100 setups |
+| **Kurzweil K2600 / K2600R** | Kurzweil | Triple Modular Processing V.A.S.T. Flagship | 5 | 300 | `0x07` (ID `0x00`) · Triple Modular processing, 8 sliders, dual ribbon controllers |
+| **Eventide H3000 Ultra-Harmonizer**| Eventide | Studio Pitch Harmonizer & Multi-Effects | 5 | 1,000 | `0x1C` (ID `0x01`) · MicroPitch (Steve Vai), diatonic shift, dual shift, 1,000 programs |
+| **Eventide DSP4000** | Eventide | Modular Multi-Effects Processor | 5 | 500 | `0x1C` (ID `0x02`) · Modular algorithmic architecture, pitch shifting, reverbs |
+| **Eventide Eclipse** | Eventide | 24-Bit Dual-Engine Effects Processor | 4 | 500 | `0x1C` (ID `0x03`) · 24-bit 96kHz dual DSP engines, classic Eventide algorithms |
+| **Eventide Space & TimeFactor** | Eventide | Flagship Studio Stomp / Processor | 6 | 100 | `0x1C` (ID `0x04`) · Blackhole, Shimmer, MangledVerb, Dual Delay, Band Delay |
+| **Lexicon PCM70** | Lexicon | Digital Effects Processor | 3 | 100 | `0x06` (ID `0x01`) · Concert Hall, Rich Plate, Tiled Room, Resonant Chords |
+| **Lexicon PCM80** | Lexicon | Dual-DSP Digital Effects Processor | 4 | 200 | `0x06` (ID `0x04`) · Dual DSP, spatial reverb, stereo multi-tap delay |
+| **Lexicon PCM90** | Lexicon | Dedicated Digital Reverberator | 4 | 250 | `0x06` (ID `0x05`) · Reference studio reverberator, 5 banks of halls, plates, rooms |
+| **Lexicon LXP-1 / LXP-5** | Lexicon | Compact Digital Reverb & Effects Module | 3 | 128 | `0x06` (ID `0x02`) · Compact 16-bit studio reverbs and pitch delays |
+| **Lexicon MPX-1** | Lexicon | Multiple Processor FX Synthesizer | 3 | 200 | `0x06` (ID `0x06`) · Dedicated reverb DSP + multi-effects DSP, 200 programs |
+| **Modal Argon8** | Modal Electronics | 8-Voice Wavetable Synthesizer | 5 | 500 | `0x00 0x21 0x27` · 32 high-res wavetables, 16-step morphing seq, 5 banks |
+| **Modal Cobalt8** | Modal Electronics | 8-Voice Extended Virtual Analog | 5 | 500 | `0x00 0x21 0x27` · 34 complex analog algorithms, 4-pole morphing filter, 5 banks |
+| **Modal Skulpt / CraftSynth** | Modal Electronics | Compact Virtual Analog / Wavetable | 4 | 128 | `0x00 0x21 0x27` · 4-voice portable virtual analog & wavetable synth |
+| **Modal 002** | Modal Electronics | 12-Voice Hybrid Polyphonic Synthesizer | 5 | 500 | `0x00 0x21 0x27` · NCO digital oscillators, discrete transistor ladder filter, 5 banks |
+| **JoMoX XBase 09 / AirBase 99** | JoMoX | Real Analog Drum Synthesizer | 6 | 128 | `0x33` (ID `0x01`) · Real discrete analog kick and snare circuits + sampled hats |
+| **Doepfer MS-404 / Dark Energy**| Doepfer | Analog Monophonic Synthesizer Module | 5 | 64 | `0x00 0x20 0x20` · Discrete transistor ladder 24dB filter, 2 LFOs, CV/Gate |
+| **DigiTech GSP 2101** | DigiTech | Dual Tube Guitar Preamp & Multi-FX | 4 | 200 | `0x00 0x00 0x1A` · Dual 12AX7 vacuum tubes, S-DISC processing, 200 programs |
+| **DigiTech Studio Quad / TSR-24**| DigiTech | 4-In 4-Out Digital Multi-Effects | 3 | 200 | `0x00 0x00 0x1A` · 4 discrete audio channels, flexible multi-FX routing |
 | **Alesis Andromeda A6** | Alesis | 16-Voice Discrete Analog Monster | 8 | 384 | `0x00 0x00 0x0E` · Discrete VCOs, dual filters (Moog ladder + SEM), ribbon |
 | **Alesis Ion** | Alesis | High-Resolution Virtual Analog Synthesizer | 5 | 512 | `0x00 0x00 0x0E` · 17 filter models, 3 continuous mod wheels, 8 banks |
 | **Alesis Micron** | Alesis | Compact Virtual Analog Synthesizer | 5 | 500 | `0x00 0x00 0x0E` · Ion sound engine, step seq, rhythm patterns, vocoder |
@@ -201,7 +221,7 @@ omnipatch/
 │   ├── omnipatch-midi/       # midir low-latency packet pacing, hardware throttling
 │   ├── omnipatch-profile/    # YAML parser, parameter mapping, validation engine
 │   └── omnipatch-sysex/      # Checksum calculators (Roland, E-MU, Casio, Waldorf)
-├── devices/                  # 153 Declarative YAML hardware profiles & factory presets
+├── devices/                  # 173 Declarative YAML hardware profiles & factory presets
 │   ├── access/               # Access Music (Virus A, B, C, TI, TI2, Indigo, Snow)
 │   ├── akai/                 # Akai Professional (AX60)
 │   ├── alesis/               # Alesis (Andromeda A6, Ion, Micron, QS Series, QuadraSynth, D4/DM5, HR-16)
@@ -209,10 +229,17 @@ omnipatch/
 │   ├── behringer/            # Behringer (Deepmind 12, Deepmind 12D, PRO-800)
 │   ├── casio/                # Casio Computer Co. (CZ-1, CZ-101, CZ-1000, CZ-230S, CZ-3000, CZ-5000)
 │   ├── clavia/               # Clavia Nord (Nord Lead 1, 2, 2X, 3, 4, Nord Rack)
+│   ├── digitech/             # DigiTech (GSP 2101 Tube Preamp, Studio Quad / TSR-24)
+│   ├── doepfer/              # Doepfer (MS-404, Dark Energy)
 │   ├── emu/                  # E-MU Systems (Orbit-3, Proteus family, SP-1200, Emax, Vintage, etc.)
 │   ├── ensoniq/              # Ensoniq (ESQ-1, SQ-80, VFX, TS-10, MR Rack)
+│   ├── eventide/             # Eventide (H3000 Ultra-Harmonizer, DSP4000, Eclipse, Space, TimeFactor)
+│   ├── jomox/                # JoMoX (XBase 09, AirBase 99)
 │   ├── kawai/                # Kawai (K1, K4, K5, K5000 Additive Flagship, XD-5)
 │   ├── korg/                 # Korg (M1, Wavestation, 01/W, Trinity, Triton, MS2000, microKORG, etc.)
+│   ├── kurzweil/             # Kurzweil (K2000, K2500, K2600 V.A.S.T. Workstations)
+│   ├── lexicon/              # Lexicon (PCM70, PCM80, PCM90, LXP-1/5, MPX-1)
+│   ├── modal/                # Modal Electronics (Argon8, Cobalt8, Skulpt, Modal 002)
 │   ├── moog/                 # Moog Music (Minimoog Voyager, Sub 37, Sub Phatty, Little Phatty, Minitaur)
 │   ├── novation/             # Novation (Bass Station II, Supernova II, Nova, K-Station, Peak)
 │   ├── oberheim/             # Oberheim (Matrix-1000, Matrix-6, Matrix-12/Xpander, OB-8, OB-X8)
