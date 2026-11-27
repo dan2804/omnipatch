@@ -1,0 +1,1386 @@
+[
+  {
+    "bank": "Group A",
+    "program": 1,
+    "name": "A1 OB-8 Giant Brass",
+    "category": "Brass",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Group A",
+    "program": 2,
+    "name": "A2 Classic Poly Saw",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group A",
+    "program": 3,
+    "name": "A3 8-Voice Unison Lead",
+    "category": "Lead",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Group A",
+    "program": 4,
+    "name": "A4 Vintage Strings",
+    "category": "Strings",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "strings"
+    ]
+  },
+  {
+    "bank": "Group A",
+    "program": 5,
+    "name": "A5 Reso Sync Solo",
+    "category": "Lead",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Group A",
+    "program": 6,
+    "name": "A6 Slap Bass",
+    "category": "Bass",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Group A",
+    "program": 7,
+    "name": "A7 Warm Pad Page 2",
+    "category": "Strings",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "strings"
+    ]
+  },
+  {
+    "bank": "Group A",
+    "program": 8,
+    "name": "A8 Sci-Fi Mod FX",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group B",
+    "program": 1,
+    "name": "B1 OB-8 Sound B1",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group B",
+    "program": 2,
+    "name": "B2 OB-8 Sound B2",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group B",
+    "program": 3,
+    "name": "B3 OB-8 Sound B3",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group B",
+    "program": 4,
+    "name": "B4 OB-8 Sound B4",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group B",
+    "program": 5,
+    "name": "B5 OB-8 Sound B5",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group B",
+    "program": 6,
+    "name": "B6 OB-8 Sound B6",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group B",
+    "program": 7,
+    "name": "B7 OB-8 Sound B7",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group B",
+    "program": 8,
+    "name": "B8 OB-8 Sound B8",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group C",
+    "program": 1,
+    "name": "C1 OB-8 Sound C1",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group C",
+    "program": 2,
+    "name": "C2 OB-8 Sound C2",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group C",
+    "program": 3,
+    "name": "C3 OB-8 Sound C3",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group C",
+    "program": 4,
+    "name": "C4 OB-8 Sound C4",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group C",
+    "program": 5,
+    "name": "C5 OB-8 Sound C5",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group C",
+    "program": 6,
+    "name": "C6 OB-8 Sound C6",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group C",
+    "program": 7,
+    "name": "C7 OB-8 Sound C7",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group C",
+    "program": 8,
+    "name": "C8 OB-8 Sound C8",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group D",
+    "program": 1,
+    "name": "D1 OB-8 Sound D1",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group D",
+    "program": 2,
+    "name": "D2 OB-8 Sound D2",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group D",
+    "program": 3,
+    "name": "D3 OB-8 Sound D3",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group D",
+    "program": 4,
+    "name": "D4 OB-8 Sound D4",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group D",
+    "program": 5,
+    "name": "D5 OB-8 Sound D5",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group D",
+    "program": 6,
+    "name": "D6 OB-8 Sound D6",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group D",
+    "program": 7,
+    "name": "D7 OB-8 Sound D7",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group D",
+    "program": 8,
+    "name": "D8 OB-8 Sound D8",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group E",
+    "program": 1,
+    "name": "E1 OB-8 Sound E1",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group E",
+    "program": 2,
+    "name": "E2 OB-8 Sound E2",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group E",
+    "program": 3,
+    "name": "E3 OB-8 Sound E3",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group E",
+    "program": 4,
+    "name": "E4 OB-8 Sound E4",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group E",
+    "program": 5,
+    "name": "E5 OB-8 Sound E5",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group E",
+    "program": 6,
+    "name": "E6 OB-8 Sound E6",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group E",
+    "program": 7,
+    "name": "E7 OB-8 Sound E7",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group E",
+    "program": 8,
+    "name": "E8 OB-8 Sound E8",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group F",
+    "program": 1,
+    "name": "F1 OB-8 Sound F1",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group F",
+    "program": 2,
+    "name": "F2 OB-8 Sound F2",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group F",
+    "program": 3,
+    "name": "F3 OB-8 Sound F3",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group F",
+    "program": 4,
+    "name": "F4 OB-8 Sound F4",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group F",
+    "program": 5,
+    "name": "F5 OB-8 Sound F5",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group F",
+    "program": 6,
+    "name": "F6 OB-8 Sound F6",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group F",
+    "program": 7,
+    "name": "F7 OB-8 Sound F7",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group F",
+    "program": 8,
+    "name": "F8 OB-8 Sound F8",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group G",
+    "program": 1,
+    "name": "G1 OB-8 Sound G1",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group G",
+    "program": 2,
+    "name": "G2 OB-8 Sound G2",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group G",
+    "program": 3,
+    "name": "G3 OB-8 Sound G3",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group G",
+    "program": 4,
+    "name": "G4 OB-8 Sound G4",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group G",
+    "program": 5,
+    "name": "G5 OB-8 Sound G5",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group G",
+    "program": 6,
+    "name": "G6 OB-8 Sound G6",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group G",
+    "program": 7,
+    "name": "G7 OB-8 Sound G7",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group G",
+    "program": 8,
+    "name": "G8 OB-8 Sound G8",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group H",
+    "program": 1,
+    "name": "H1 OB-8 Sound H1",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group H",
+    "program": 2,
+    "name": "H2 OB-8 Sound H2",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group H",
+    "program": 3,
+    "name": "H3 OB-8 Sound H3",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group H",
+    "program": 4,
+    "name": "H4 OB-8 Sound H4",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group H",
+    "program": 5,
+    "name": "H5 OB-8 Sound H5",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group H",
+    "program": 6,
+    "name": "H6 OB-8 Sound H6",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group H",
+    "program": 7,
+    "name": "H7 OB-8 Sound H7",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Group H",
+    "program": 8,
+    "name": "H8 OB-8 Sound H8",
+    "category": "Poly",
+    "tags": [
+      "curtis-vco",
+      "curtis-vcf",
+      "vintage-analog",
+      "poly"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 1,
+    "name": "Page 2 Sound 01",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 2,
+    "name": "Page 2 Sound 02",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 3,
+    "name": "Page 2 Sound 03",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 4,
+    "name": "Page 2 Sound 04",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 5,
+    "name": "Page 2 Sound 05",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 6,
+    "name": "Page 2 Sound 06",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 7,
+    "name": "Page 2 Sound 07",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 8,
+    "name": "Page 2 Sound 08",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 9,
+    "name": "Page 2 Sound 09",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 10,
+    "name": "Page 2 Sound 10",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 11,
+    "name": "Page 2 Sound 11",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 12,
+    "name": "Page 2 Sound 12",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 13,
+    "name": "Page 2 Sound 13",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 14,
+    "name": "Page 2 Sound 14",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 15,
+    "name": "Page 2 Sound 15",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 16,
+    "name": "Page 2 Sound 16",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 17,
+    "name": "Page 2 Sound 17",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 18,
+    "name": "Page 2 Sound 18",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 19,
+    "name": "Page 2 Sound 19",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 20,
+    "name": "Page 2 Sound 20",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 21,
+    "name": "Page 2 Sound 21",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 22,
+    "name": "Page 2 Sound 22",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 23,
+    "name": "Page 2 Sound 23",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 24,
+    "name": "Page 2 Sound 24",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 25,
+    "name": "Page 2 Sound 25",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 26,
+    "name": "Page 2 Sound 26",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 27,
+    "name": "Page 2 Sound 27",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 28,
+    "name": "Page 2 Sound 28",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 29,
+    "name": "Page 2 Sound 29",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 30,
+    "name": "Page 2 Sound 30",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 31,
+    "name": "Page 2 Sound 31",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 32,
+    "name": "Page 2 Sound 32",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 33,
+    "name": "Page 2 Sound 33",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 34,
+    "name": "Page 2 Sound 34",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 35,
+    "name": "Page 2 Sound 35",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 36,
+    "name": "Page 2 Sound 36",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 37,
+    "name": "Page 2 Sound 37",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 38,
+    "name": "Page 2 Sound 38",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 39,
+    "name": "Page 2 Sound 39",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 40,
+    "name": "Page 2 Sound 40",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 41,
+    "name": "Page 2 Sound 41",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 42,
+    "name": "Page 2 Sound 42",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 43,
+    "name": "Page 2 Sound 43",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 44,
+    "name": "Page 2 Sound 44",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 45,
+    "name": "Page 2 Sound 45",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 46,
+    "name": "Page 2 Sound 46",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 47,
+    "name": "Page 2 Sound 47",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 48,
+    "name": "Page 2 Sound 48",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 49,
+    "name": "Page 2 Sound 49",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 50,
+    "name": "Page 2 Sound 50",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 51,
+    "name": "Page 2 Sound 51",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 52,
+    "name": "Page 2 Sound 52",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 53,
+    "name": "Page 2 Sound 53",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 54,
+    "name": "Page 2 Sound 54",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 55,
+    "name": "Page 2 Sound 55",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  },
+  {
+    "bank": "Page 2 Presets",
+    "program": 56,
+    "name": "Page 2 Sound 56",
+    "category": "Modulation",
+    "tags": [
+      "page-2",
+      "extended-lfo",
+      "analog"
+    ]
+  }
+]

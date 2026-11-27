@@ -1,0 +1,27 @@
+manufacturer: Oberheim
+model: Oberheim OB-8
+type: 8-Voice Polyphonic Analog Synthesizer
+year: 1983
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    vco1_level: 20
+    vco2_level: 21
+    vcf_attack: 73
+sysex:
+  header: F0 10 01
+  device_id_byte: 3
+  commands:
+    dump_program: F0 10 01 01 [data...] F7
+banks:
+- Group A
+- Group B
+- Group C
+- Group D
+- Group E
+- Group F
+- Group G
+- Group H
+- Page 2 Presets

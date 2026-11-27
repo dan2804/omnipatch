@@ -1,0 +1,41 @@
+manufacturer: Moog
+model: Moog Sub 37 / Subsequent 37
+type: Paraphonic Analog Synthesizer
+year: 2014
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 19
+    filter_resonance: 21
+    multidrive: 18
+    filter_slope: 109
+    osc1_level: 15
+    osc2_level: 16
+    sub_osc_level: 17
+    glide: 5
+    filter_attack: 23
+    filter_decay: 24
+    filter_sustain: 25
+    filter_release: 26
+sysex:
+  header: F0 04 05
+  device_id_byte: 3
+  commands:
+    request_preset: F0 04 05 04 [bank] [prog] F7
+banks:
+- Bank 1
+- Bank 2
+- Bank 3
+- Bank 4
+- Bank 5
+- Bank 6
+- Bank 7
+- Bank 8
+- Bank 9
+- Bank 10
+- Bank 11
+- Bank 12
+- Bank 13
+- Bank 14
+- Bank 15
+- Bank 16

@@ -1,0 +1,23 @@
+manufacturer: Ensoniq
+model: Ensoniq MR Rack / MR-61
+type: 64-Voice Synthesizer Module
+year: 1996
+midi:
+  channels: 16
+  cc_map:
+    cutoff: 74
+    resonance: 71
+    reverb_send: 91
+    chorus_send: 93
+    envelope_decay: 75
+sysex:
+  header: F0 0F 0A
+  device_id_byte: 3
+  commands:
+    dump_sound: F0 0F 0A 01 [prog] F7
+banks:
+- Sound Set Bank 1
+- Sound Set Bank 2
+- Sound Set Bank 3
+- Sound Set Bank 4
+- Sound Set Bank 5

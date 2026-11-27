@@ -1,0 +1,20 @@
+manufacturer: Novation
+model: Novation K-Station / KS-4 / KS-5
+type: Liquid Analog Modeling Synthesizer
+year: 2002
+midi:
+  channels: 16
+  cc_map:
+    cutoff: 74
+    resonance: 71
+    overdrive: 80
+    lfo1_speed: 18
+    glide: 5
+sysex:
+  header: F0 00 20 29 01 10
+  device_id_byte: 5
+  commands:
+    request_prog: F0 00 20 29 01 10 40 [prog] F7
+banks:
+- Program Bank
+- Combi Bank

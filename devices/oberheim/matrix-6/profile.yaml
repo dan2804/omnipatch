@@ -1,0 +1,19 @@
+manufacturer: Oberheim
+model: Oberheim Matrix-6 / 6R
+type: Polyphonic Analog Synthesizer
+year: 1985
+midi:
+  channels: 16
+  cc_map:
+    cutoff: 74
+    resonance: 71
+    dco1_shape: 20
+    dco2_shape: 21
+    env1_release: 72
+sysex:
+  header: F0 10 06
+  device_id_byte: 3
+  commands:
+    request_patch: F0 10 06 01 [prog] F7
+banks:
+- Factory Bank

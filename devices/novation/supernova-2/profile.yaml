@@ -1,0 +1,23 @@
+manufacturer: Novation
+model: Novation Supernova / Supernova II
+type: Flagship Virtual Analog Synthesizer
+year: 2000
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    comb_filter: 79
+    osc1_level: 20
+    osc2_level: 21
+    delay_send: 91
+sysex:
+  header: F0 00 20 29 01 21
+  device_id_byte: 5
+  commands:
+    request_program: F0 00 20 29 01 21 40 [bank] [prog] F7
+banks:
+- Bank 1
+- Bank 2
+- Bank 3
+- Bank 4

@@ -26,12 +26,37 @@ OmniPatch is a high-performance, modular patch librarian and hardware editor wri
 
 ---
 
-## Supported Synthesizers (104 Production Profiles)
+## Supported Synthesizers (129 Production Profiles)
 
-OmniPatch ships with 104 comprehensive device profiles across 9 legendary synthesizer manufacturers:
+OmniPatch ships with 129 comprehensive device profiles across 14 legendary synthesizer manufacturers:
 
 | Synthesizer | Manufacturer | Architecture | Parameters | Presets | SysEx ID / Details |
 | :--- | :--- | :--- | :---: | :---: | :--- |
+| **Oberheim Matrix-1000** | Oberheim | 6-Voice 1U Analog Synthesizer | 5 | 1,000 | `0x10` (ID `0x06`) · 1,000 matrix modulation patches, CEM3396 analog VCF |
+| **Oberheim Matrix-6 / 6R** | Oberheim | Polyphonic Analog Synthesizer | 5 | 100 | `0x10` (ID `0x06`) · 100 memory patches, matrix modulation, CEM3396 |
+| **Oberheim Matrix-12 / Xpander** | Oberheim | Flagship Multi-Mode Analog Synthesizer | 5 | 100 | `0x10` (ID `0x02`) · 15-mode state-variable filter, CEM3374 discrete VCOs |
+| **Oberheim OB-8** | Oberheim | 8-Voice Polyphonic Analog Synthesizer | 5 | 120 | `0x10` (ID `0x01`) · Page 2 extended modulation, Curtis analog VCOs/VCFs |
+| **Oberheim OB-X8** | Oberheim | 8-Voice Pure Analog Synthesizer | 6 | 160 | `0x01` (ID `0x32`) · Pure discrete VCOs, classic OB-X, OB-Xa & OB-8 filters |
+| **Moog Minimoog Voyager** | Moog Music | Flagship Analog Monophonic Synthesizer | 12 | 896 | `0x04` (ID `0x01`) · Bob Moog continuous dual ladder filters, 3D touch surface, 7 banks |
+| **Moog Sub 37 / Subsequent 37** | Moog Music | Paraphonic Analog Synthesizer | 12 | 256 | `0x04` (ID `0x05`) · Duo-paraphonic, MultiDrive grit, looping envelopes, 16 banks |
+| **Moog Sub Phatty** | Moog Music | Analog Monophonic Synthesizer | 6 | 16 | `0x04` (ID `0x04`) · 25 keys, sub-oscillator, multidrive, 4 banks x 4 buttons |
+| **Moog Little Phatty / Slim Phatty**| Moog Music | Analog Monophonic Synthesizer | 6 | 100 | `0x04` (ID `0x02`) · Real analog ladder filter, overload circuit, Bob Moog design |
+| **Moog Minitaur / Sirin** | Moog Music | Analog Bass Synthesizer | 7 | 128 | `0x04` (ID `0x03`) · Legendary Taurus bass pedals sound engine, 8 banks |
+| **Clavia Nord Lead 1 / Rack** | Clavia Nord | Virtual Analog Synthesizer (1995) | 6 | 139 | `0x33` (ID `0x04`) · The original virtual analog pioneer, pitch stick, morph |
+| **Clavia Nord Lead 2 / Rack 2** | Clavia Nord | 16-Voice Virtual Analog Synthesizer | 5 | 396 | `0x33` (ID `0x04`) · 16 voices, 4-part multitimbral, FM synthesis, 4 banks |
+| **Clavia Nord Lead 2X / Rack 2X**| Clavia Nord | 20-Voice Virtual Analog Synthesizer | 5 | 792 | `0x33` (ID `0x04`) · 20 voices, 24-bit 96kHz DACs, 4 program & 4 perf banks |
+| **Clavia Nord Lead 3 / Rack 3** | Clavia Nord | Advanced Subtractive & FM Synthesizer | 5 | 1,024 | `0x33` (ID `0x06`) · Endless rotary LED encoders, 24-voice polyphony, 8 banks |
+| **Clavia Nord Lead 4 / Rack 4** | Clavia Nord | Performance Virtual Analog Synthesizer | 5 | 396 | `0x33` (ID `0x08`) · Wavetables, ladder filter emulations, crush FX, 4 banks |
+| **Novation Bass Station II** | Novation | Pure Analog Monophonic Synthesizer | 5 | 128 | `0x00 0x20 0x29` · Dual analog oscs, sub-osc, classic & acid filters, distortion |
+| **Novation Supernova II / Supernova**| Novation | Flagship Virtual Analog Synthesizer | 6 | 512 | `0x00 0x20 0x29` · 8-part multitimbral, 42-band vocoder, 56 simultaneous FX, 4 banks |
+| **Novation Nova / Nova II** | Novation | Desktop Virtual Analog Synthesizer | 6 | 256 | `0x00 0x20 0x29` · Desktop compact VA engine, polyphonic vocoder, 2 banks |
+| **Novation K-Station / KS-4 / KS-5**| Novation | Liquid Analog Modeling Synthesizer | 5 | 200 | `0x00 0x20 0x29` · Liquid analog engine, hypersaw, 100 progs + 100 combis |
+| **Novation Peak / Summit** | Novation | Flagship Hybrid Synthesizer | 6 | 512 | `0x00 0x20 0x29` · Oxford FPGA new-oxford oscs, analog multimode VCF, 4 banks |
+| **Ensoniq ESQ-1 / ESQ-M** | Ensoniq | Digital Wave Synth w/ Curtis Analog VCF | 5 | 120 | `0x0F` (ID `0x02`) · 3 digital oscs, CEM3379 analog VCF, 40 internal + 80 cart |
+| **Ensoniq SQ-80** | Ensoniq | Cross Wave Synthesizer | 5 | 120 | `0x0F` (ID `0x03`) · Cross-wave synthesis, CEM3379 analog filter, poly aftertouch |
+| **Ensoniq VFX / VFX-SD** | Ensoniq | Transwave Synthesizer Workstation | 5 | 120 | `0x0F` (ID `0x05`) · Dynamic Transwave synthesis, patch select buttons, dual 24-bit FX |
+| **Ensoniq TS-10 / TS-12** | Ensoniq | Performance Workstation w/ Hyper-Wave | 5 | 120 | `0x0F` (ID `0x08`) · Hyper-Wave wave sequencing, 32 voices, 73 dynamic effects |
+| **Ensoniq MR Rack / MR-61** | Ensoniq | 64-Voice Synthesizer Module | 5 | 473 | `0x0F` (ID `0x0A`) · 16-bit 44.1kHz wave ROM, 64 voices, Idea Pad, 5 sound banks |
 | **Waldorf Blofeld** | Waldorf Music | Desktop / Keyboard Wavetable & VA | 9 | 1,024 | `0x3E` (ID `0x13`) · 3 oscs, dual multi-mode & comb filters, 8 banks A-H |
 | **Waldorf Microwave I** | Waldorf Music | Hybrid Wavetable Synth w/ Curtis Analog VCF | 8 | 64 | `0x3E` (ID `0x00`) · CEM3389 24dB VCF/VCA, wavetables 1-30, Bank A & B |
 | **Waldorf Microwave II / XT** | Waldorf Music | DSP Wavetable Powerhouse Synth | 8 | 256 | `0x3E` (ID `0x0E`) · Digital multi-mode filters, speech synthesis, Bank A & B |
@@ -152,12 +177,17 @@ omnipatch/
 │   ├── omnipatch-midi/       # midir low-latency packet pacing, hardware throttling
 │   ├── omnipatch-profile/    # YAML parser, parameter mapping, validation engine
 │   └── omnipatch-sysex/      # Checksum calculators (Roland, E-MU, Casio, Waldorf)
-├── devices/                  # 104 Declarative YAML hardware profiles & factory presets
+├── devices/                  # 129 Declarative YAML hardware profiles & factory presets
 │   ├── access/               # Access Music GmbH (Virus A)
 │   ├── akai/                 # Akai Professional (AX60)
 │   ├── casio/                # Casio Computer Co. (CZ-1, CZ-101, CZ-1000, CZ-230S, CZ-3000, CZ-5000)
+│   ├── clavia/               # Clavia Nord (Nord Lead 1, 2, 2X, 3, 4, Nord Rack)
 │   ├── emu/                  # E-MU Systems (Orbit-3, Proteus family, SP-1200, Emax, Vintage, etc.)
+│   ├── ensoniq/              # Ensoniq (ESQ-1, SQ-80, VFX, TS-10, MR Rack)
 │   ├── korg/                 # Korg (M1, Wavestation, 01/W, Trinity, Triton, MS2000, microKORG, etc.)
+│   ├── moog/                 # Moog Music (Minimoog Voyager, Sub 37, Sub Phatty, Little Phatty, Minitaur)
+│   ├── novation/             # Novation (Bass Station II, Supernova II, Nova, K-Station, Peak)
+│   ├── oberheim/             # Oberheim (Matrix-1000, Matrix-6, Matrix-12/Xpander, OB-8, OB-X8)
 │   ├── roland/               # Roland Corporation (JV, JD, Juno, Jupiter, MKS, SC, MC, Fantom, etc.)
 │   ├── sequential/           # Sequential & DSI (Prophet-5, Prophet-6, OB-6, Evolver, P12, Mopho, etc.)
 │   ├── waldorf/              # Waldorf Music (Blofeld, Microwave I/XT, Pulse, Pulse 2, Q, Streichfett)

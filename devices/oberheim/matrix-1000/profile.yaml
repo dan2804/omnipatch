@@ -1,0 +1,28 @@
+manufacturer: Oberheim
+model: Oberheim Matrix-1000
+type: 6-Voice 1U Analog Synthesizer
+year: 1988
+midi:
+  channels: 16
+  cc_map:
+    cutoff: 74
+    resonance: 71
+    dco1_freq: 20
+    dco2_freq: 21
+    env1_decay: 75
+sysex:
+  header: F0 10 06
+  device_id_byte: 3
+  commands:
+    request_patch: F0 10 06 01 [patch_num] F7
+banks:
+- Bank 0
+- Bank 1
+- Bank 2
+- Bank 3
+- Bank 4
+- Bank 5
+- Bank 6
+- Bank 7
+- Bank 8
+- Bank 9

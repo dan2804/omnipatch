@@ -1,0 +1,32 @@
+manufacturer: Moog
+model: Moog Minimoog Voyager
+type: Flagship Analog Monophonic Synthesizer
+year: 2002
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    filter_spacing: 79
+    osc1_wave: 20
+    osc2_wave: 21
+    osc3_wave: 22
+    touch_surface_x: 16
+    touch_surface_y: 17
+    touch_surface_area: 18
+    filter_attack: 73
+    filter_decay: 75
+    filter_release: 72
+sysex:
+  header: F0 04 01
+  device_id_byte: 3
+  commands:
+    request_preset: F0 04 01 00 04 [bank] [prog] F7
+banks:
+- Bank A
+- Bank B
+- Bank C
+- Bank D
+- Bank E
+- Bank F
+- Bank G

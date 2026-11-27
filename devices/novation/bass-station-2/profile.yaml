@@ -1,0 +1,20 @@
+manufacturer: Novation
+model: Novation Bass Station II
+type: Pure Analog Monophonic Synthesizer
+year: 2013
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    distortion: 94
+    osc_filter_mod: 115
+    sub_osc_octave: 73
+sysex:
+  header: F0 00 20 29 00 33
+  device_id_byte: 5
+  commands:
+    dump_patch: F0 00 20 29 00 33 40 [prog] F7
+banks:
+- Factory Presets
+- User Presets

@@ -1,0 +1,22 @@
+manufacturer: Clavia
+model: Clavia Nord Lead 2 / Nord Rack 2
+type: 16-Voice Virtual Analog Synthesizer
+year: 1997
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    distortion: 80
+    fm_amount: 70
+    morph: 1
+sysex:
+  header: F0 33 04
+  device_id_byte: 3
+  commands:
+    dump_program: F0 33 04 01 [bank] [prog] F7
+banks:
+- User Bank
+- ROM Bank 1
+- ROM Bank 2
+- ROM Bank 3

@@ -1,0 +1,1282 @@
+[
+  {
+    "bank": "Internal Memory",
+    "program": 1,
+    "name": "ESQ 01: Brass 1",
+    "category": "Brass",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 2,
+    "name": "ESQ 02: Piano 1",
+    "category": "Keys",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 3,
+    "name": "ESQ 03: Strings 1",
+    "category": "Strings",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "strings"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 4,
+    "name": "ESQ 04: Bass 1",
+    "category": "Bass",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 5,
+    "name": "ESQ 05: Bell Voice",
+    "category": "Lead",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 6,
+    "name": "ESQ 06: Organ 1",
+    "category": "Keys",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 7,
+    "name": "ESQ 07: Analog Lead",
+    "category": "Lead",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 8,
+    "name": "ESQ 08: Voice Choir",
+    "category": "Strings",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "strings"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 9,
+    "name": "ESQ 09: Kalimba",
+    "category": "Lead",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 10,
+    "name": "ESQ 10: Synth Pad",
+    "category": "Strings",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "strings"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 11,
+    "name": "ESQ 11: Slap Bass",
+    "category": "Bass",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 12,
+    "name": "ESQ 12: Electric EP",
+    "category": "Lead",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 13,
+    "name": "ESQ 13: Flute Solo",
+    "category": "Lead",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 14,
+    "name": "ESQ 14: Space Drone",
+    "category": "Lead",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 15,
+    "name": "ESQ 15: Saw Ensemble",
+    "category": "Lead",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 16,
+    "name": "ESQ 16: Kick & Snare",
+    "category": "Lead",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 17,
+    "name": "ESQ 17: Brass 1",
+    "category": "Brass",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 18,
+    "name": "ESQ 18: Piano 1",
+    "category": "Keys",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 19,
+    "name": "ESQ 19: Strings 1",
+    "category": "Strings",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "strings"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 20,
+    "name": "ESQ 20: Bass 1",
+    "category": "Bass",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 21,
+    "name": "ESQ 21: Bell Voice",
+    "category": "Lead",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 22,
+    "name": "ESQ 22: Organ 1",
+    "category": "Keys",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 23,
+    "name": "ESQ 23: Analog Lead",
+    "category": "Lead",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 24,
+    "name": "ESQ 24: Voice Choir",
+    "category": "Strings",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "strings"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 25,
+    "name": "ESQ 25: Kalimba",
+    "category": "Lead",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 26,
+    "name": "ESQ 26: Synth Pad",
+    "category": "Strings",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "strings"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 27,
+    "name": "ESQ 27: Slap Bass",
+    "category": "Bass",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 28,
+    "name": "ESQ 28: Electric EP",
+    "category": "Lead",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 29,
+    "name": "ESQ 29: Flute Solo",
+    "category": "Lead",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 30,
+    "name": "ESQ 30: Space Drone",
+    "category": "Lead",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 31,
+    "name": "ESQ 31: Saw Ensemble",
+    "category": "Lead",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 32,
+    "name": "ESQ 32: Kick & Snare",
+    "category": "Lead",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 33,
+    "name": "ESQ 33: Brass 1",
+    "category": "Brass",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 34,
+    "name": "ESQ 34: Piano 1",
+    "category": "Keys",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 35,
+    "name": "ESQ 35: Strings 1",
+    "category": "Strings",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "strings"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 36,
+    "name": "ESQ 36: Bass 1",
+    "category": "Bass",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 37,
+    "name": "ESQ 37: Bell Voice",
+    "category": "Lead",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 38,
+    "name": "ESQ 38: Organ 1",
+    "category": "Keys",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 39,
+    "name": "ESQ 39: Analog Lead",
+    "category": "Lead",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Internal Memory",
+    "program": 40,
+    "name": "ESQ 40: Voice Choir",
+    "category": "Strings",
+    "tags": [
+      "curtis-cem3379",
+      "wavetable-hybrid",
+      "analog-vcf",
+      "strings"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 1,
+    "name": "Cart A 01: Brass 1",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 2,
+    "name": "Cart A 02: Piano 1",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 3,
+    "name": "Cart A 03: Strings 1",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 4,
+    "name": "Cart A 04: Bass 1",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 5,
+    "name": "Cart A 05: Bell Voice",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 6,
+    "name": "Cart A 06: Organ 1",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 7,
+    "name": "Cart A 07: Analog Lead",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 8,
+    "name": "Cart A 08: Voice Choir",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 9,
+    "name": "Cart A 09: Kalimba",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 10,
+    "name": "Cart A 10: Synth Pad",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 11,
+    "name": "Cart A 11: Slap Bass",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 12,
+    "name": "Cart A 12: Electric EP",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 13,
+    "name": "Cart A 13: Flute Solo",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 14,
+    "name": "Cart A 14: Space Drone",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 15,
+    "name": "Cart A 15: Saw Ensemble",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 16,
+    "name": "Cart A 16: Kick & Snare",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 17,
+    "name": "Cart A 17: Brass 1",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 18,
+    "name": "Cart A 18: Piano 1",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 19,
+    "name": "Cart A 19: Strings 1",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 20,
+    "name": "Cart A 20: Bass 1",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 21,
+    "name": "Cart A 21: Bell Voice",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 22,
+    "name": "Cart A 22: Organ 1",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 23,
+    "name": "Cart A 23: Analog Lead",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 24,
+    "name": "Cart A 24: Voice Choir",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 25,
+    "name": "Cart A 25: Kalimba",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 26,
+    "name": "Cart A 26: Synth Pad",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 27,
+    "name": "Cart A 27: Slap Bass",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 28,
+    "name": "Cart A 28: Electric EP",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 29,
+    "name": "Cart A 29: Flute Solo",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 30,
+    "name": "Cart A 30: Space Drone",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 31,
+    "name": "Cart A 31: Saw Ensemble",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 32,
+    "name": "Cart A 32: Kick & Snare",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 33,
+    "name": "Cart A 33: Brass 1",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 34,
+    "name": "Cart A 34: Piano 1",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 35,
+    "name": "Cart A 35: Strings 1",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 36,
+    "name": "Cart A 36: Bass 1",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 37,
+    "name": "Cart A 37: Bell Voice",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 38,
+    "name": "Cart A 38: Organ 1",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 39,
+    "name": "Cart A 39: Analog Lead",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart A",
+    "program": 40,
+    "name": "Cart A 40: Voice Choir",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 1,
+    "name": "Cart B 01: Brass 1",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 2,
+    "name": "Cart B 02: Piano 1",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 3,
+    "name": "Cart B 03: Strings 1",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 4,
+    "name": "Cart B 04: Bass 1",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 5,
+    "name": "Cart B 05: Bell Voice",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 6,
+    "name": "Cart B 06: Organ 1",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 7,
+    "name": "Cart B 07: Analog Lead",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 8,
+    "name": "Cart B 08: Voice Choir",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 9,
+    "name": "Cart B 09: Kalimba",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 10,
+    "name": "Cart B 10: Synth Pad",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 11,
+    "name": "Cart B 11: Slap Bass",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 12,
+    "name": "Cart B 12: Electric EP",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 13,
+    "name": "Cart B 13: Flute Solo",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 14,
+    "name": "Cart B 14: Space Drone",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 15,
+    "name": "Cart B 15: Saw Ensemble",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 16,
+    "name": "Cart B 16: Kick & Snare",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 17,
+    "name": "Cart B 17: Brass 1",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 18,
+    "name": "Cart B 18: Piano 1",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 19,
+    "name": "Cart B 19: Strings 1",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 20,
+    "name": "Cart B 20: Bass 1",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 21,
+    "name": "Cart B 21: Bell Voice",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 22,
+    "name": "Cart B 22: Organ 1",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 23,
+    "name": "Cart B 23: Analog Lead",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 24,
+    "name": "Cart B 24: Voice Choir",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 25,
+    "name": "Cart B 25: Kalimba",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 26,
+    "name": "Cart B 26: Synth Pad",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 27,
+    "name": "Cart B 27: Slap Bass",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 28,
+    "name": "Cart B 28: Electric EP",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 29,
+    "name": "Cart B 29: Flute Solo",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 30,
+    "name": "Cart B 30: Space Drone",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 31,
+    "name": "Cart B 31: Saw Ensemble",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 32,
+    "name": "Cart B 32: Kick & Snare",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 33,
+    "name": "Cart B 33: Brass 1",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 34,
+    "name": "Cart B 34: Piano 1",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 35,
+    "name": "Cart B 35: Strings 1",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 36,
+    "name": "Cart B 36: Bass 1",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 37,
+    "name": "Cart B 37: Bell Voice",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 38,
+    "name": "Cart B 38: Organ 1",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 39,
+    "name": "Cart B 39: Analog Lead",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  },
+  {
+    "bank": "Cart B",
+    "program": 40,
+    "name": "Cart B 40: Voice Choir",
+    "category": "Hybrid",
+    "tags": [
+      "cartridge",
+      "analog-vcf"
+    ]
+  }
+]

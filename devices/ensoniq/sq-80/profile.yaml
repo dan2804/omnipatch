@@ -1,0 +1,21 @@
+manufacturer: Ensoniq
+model: Ensoniq SQ-80
+type: Cross Wave Synthesizer
+year: 1987
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    osc1_wave: 20
+    osc2_wave: 21
+    osc3_wave: 22
+sysex:
+  header: F0 0F 03
+  device_id_byte: 3
+  commands:
+    dump_program: F0 0F 03 01 [prog] F7
+banks:
+- Internal Bank
+- Cart A
+- Cart B

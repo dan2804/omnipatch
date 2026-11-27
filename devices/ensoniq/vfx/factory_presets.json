@@ -1,0 +1,1322 @@
+[
+  {
+    "bank": "Internal Bank",
+    "program": 1,
+    "name": "VFX-01 Transwave Sweep",
+    "category": "Pad",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 2,
+    "name": "VFX-02 VFX Grand Piano",
+    "category": "Keys",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 3,
+    "name": "VFX-03 Cinema Strings",
+    "category": "Pad",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 4,
+    "name": "VFX-04 Hyper Pad",
+    "category": "Pad",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 5,
+    "name": "VFX-05 Dynamic Brass Section",
+    "category": "Brass",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 6,
+    "name": "VFX-06 Wavetable Bass",
+    "category": "Bass",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 7,
+    "name": "VFX-07 Bowed Glass Bell",
+    "category": "Bass",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 8,
+    "name": "VFX-08 Analog Obie Warmth",
+    "category": "Bass",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 9,
+    "name": "VFX-09 Patch Select Pluck",
+    "category": "Bass",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 10,
+    "name": "VFX-10 Dual 24-Bit Reverb Pad",
+    "category": "Pad",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 11,
+    "name": "VFX-11 Transwave Sweep",
+    "category": "Pad",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 12,
+    "name": "VFX-12 VFX Grand Piano",
+    "category": "Keys",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 13,
+    "name": "VFX-13 Cinema Strings",
+    "category": "Pad",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 14,
+    "name": "VFX-14 Hyper Pad",
+    "category": "Pad",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 15,
+    "name": "VFX-15 Dynamic Brass Section",
+    "category": "Brass",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 16,
+    "name": "VFX-16 Wavetable Bass",
+    "category": "Bass",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 17,
+    "name": "VFX-17 Bowed Glass Bell",
+    "category": "Bass",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 18,
+    "name": "VFX-18 Analog Obie Warmth",
+    "category": "Bass",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 19,
+    "name": "VFX-19 Patch Select Pluck",
+    "category": "Bass",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 20,
+    "name": "VFX-20 Dual 24-Bit Reverb Pad",
+    "category": "Pad",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 21,
+    "name": "VFX-21 Transwave Sweep",
+    "category": "Pad",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 22,
+    "name": "VFX-22 VFX Grand Piano",
+    "category": "Keys",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 23,
+    "name": "VFX-23 Cinema Strings",
+    "category": "Pad",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 24,
+    "name": "VFX-24 Hyper Pad",
+    "category": "Pad",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 25,
+    "name": "VFX-25 Dynamic Brass Section",
+    "category": "Brass",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 26,
+    "name": "VFX-26 Wavetable Bass",
+    "category": "Bass",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 27,
+    "name": "VFX-27 Bowed Glass Bell",
+    "category": "Bass",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 28,
+    "name": "VFX-28 Analog Obie Warmth",
+    "category": "Bass",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 29,
+    "name": "VFX-29 Patch Select Pluck",
+    "category": "Bass",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 30,
+    "name": "VFX-30 Dual 24-Bit Reverb Pad",
+    "category": "Pad",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 31,
+    "name": "VFX-31 Transwave Sweep",
+    "category": "Pad",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 32,
+    "name": "VFX-32 VFX Grand Piano",
+    "category": "Keys",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 33,
+    "name": "VFX-33 Cinema Strings",
+    "category": "Pad",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 34,
+    "name": "VFX-34 Hyper Pad",
+    "category": "Pad",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 35,
+    "name": "VFX-35 Dynamic Brass Section",
+    "category": "Brass",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 36,
+    "name": "VFX-36 Wavetable Bass",
+    "category": "Bass",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 37,
+    "name": "VFX-37 Bowed Glass Bell",
+    "category": "Bass",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 38,
+    "name": "VFX-38 Analog Obie Warmth",
+    "category": "Bass",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 39,
+    "name": "VFX-39 Patch Select Pluck",
+    "category": "Bass",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 40,
+    "name": "VFX-40 Dual 24-Bit Reverb Pad",
+    "category": "Pad",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 41,
+    "name": "VFX-41 Transwave Sweep",
+    "category": "Pad",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 42,
+    "name": "VFX-42 VFX Grand Piano",
+    "category": "Keys",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 43,
+    "name": "VFX-43 Cinema Strings",
+    "category": "Pad",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 44,
+    "name": "VFX-44 Hyper Pad",
+    "category": "Pad",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 45,
+    "name": "VFX-45 Dynamic Brass Section",
+    "category": "Brass",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 46,
+    "name": "VFX-46 Wavetable Bass",
+    "category": "Bass",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 47,
+    "name": "VFX-47 Bowed Glass Bell",
+    "category": "Bass",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 48,
+    "name": "VFX-48 Analog Obie Warmth",
+    "category": "Bass",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 49,
+    "name": "VFX-49 Patch Select Pluck",
+    "category": "Bass",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 50,
+    "name": "VFX-50 Dual 24-Bit Reverb Pad",
+    "category": "Pad",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 51,
+    "name": "VFX-51 Transwave Sweep",
+    "category": "Pad",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 52,
+    "name": "VFX-52 VFX Grand Piano",
+    "category": "Keys",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 53,
+    "name": "VFX-53 Cinema Strings",
+    "category": "Pad",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 54,
+    "name": "VFX-54 Hyper Pad",
+    "category": "Pad",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 55,
+    "name": "VFX-55 Dynamic Brass Section",
+    "category": "Brass",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 56,
+    "name": "VFX-56 Wavetable Bass",
+    "category": "Bass",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 57,
+    "name": "VFX-57 Bowed Glass Bell",
+    "category": "Bass",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 58,
+    "name": "VFX-58 Analog Obie Warmth",
+    "category": "Bass",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 59,
+    "name": "VFX-59 Patch Select Pluck",
+    "category": "Bass",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Internal Bank",
+    "program": 60,
+    "name": "VFX-60 Dual 24-Bit Reverb Pad",
+    "category": "Pad",
+    "tags": [
+      "transwave",
+      "patch-select-buttons",
+      "24-bit-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 1,
+    "name": "Cart Sound 01",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 2,
+    "name": "Cart Sound 02",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 3,
+    "name": "Cart Sound 03",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 4,
+    "name": "Cart Sound 04",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 5,
+    "name": "Cart Sound 05",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 6,
+    "name": "Cart Sound 06",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 7,
+    "name": "Cart Sound 07",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 8,
+    "name": "Cart Sound 08",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 9,
+    "name": "Cart Sound 09",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 10,
+    "name": "Cart Sound 10",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 11,
+    "name": "Cart Sound 11",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 12,
+    "name": "Cart Sound 12",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 13,
+    "name": "Cart Sound 13",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 14,
+    "name": "Cart Sound 14",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 15,
+    "name": "Cart Sound 15",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 16,
+    "name": "Cart Sound 16",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 17,
+    "name": "Cart Sound 17",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 18,
+    "name": "Cart Sound 18",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 19,
+    "name": "Cart Sound 19",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 20,
+    "name": "Cart Sound 20",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 21,
+    "name": "Cart Sound 21",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 22,
+    "name": "Cart Sound 22",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 23,
+    "name": "Cart Sound 23",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 24,
+    "name": "Cart Sound 24",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 25,
+    "name": "Cart Sound 25",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 26,
+    "name": "Cart Sound 26",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 27,
+    "name": "Cart Sound 27",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 28,
+    "name": "Cart Sound 28",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 29,
+    "name": "Cart Sound 29",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 30,
+    "name": "Cart Sound 30",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 31,
+    "name": "Cart Sound 31",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 32,
+    "name": "Cart Sound 32",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 33,
+    "name": "Cart Sound 33",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 34,
+    "name": "Cart Sound 34",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 35,
+    "name": "Cart Sound 35",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 36,
+    "name": "Cart Sound 36",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 37,
+    "name": "Cart Sound 37",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 38,
+    "name": "Cart Sound 38",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 39,
+    "name": "Cart Sound 39",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 40,
+    "name": "Cart Sound 40",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 41,
+    "name": "Cart Sound 41",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 42,
+    "name": "Cart Sound 42",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 43,
+    "name": "Cart Sound 43",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 44,
+    "name": "Cart Sound 44",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 45,
+    "name": "Cart Sound 45",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 46,
+    "name": "Cart Sound 46",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 47,
+    "name": "Cart Sound 47",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 48,
+    "name": "Cart Sound 48",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 49,
+    "name": "Cart Sound 49",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 50,
+    "name": "Cart Sound 50",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 51,
+    "name": "Cart Sound 51",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 52,
+    "name": "Cart Sound 52",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 53,
+    "name": "Cart Sound 53",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 54,
+    "name": "Cart Sound 54",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 55,
+    "name": "Cart Sound 55",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 56,
+    "name": "Cart Sound 56",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 57,
+    "name": "Cart Sound 57",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 58,
+    "name": "Cart Sound 58",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 59,
+    "name": "Cart Sound 59",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  },
+  {
+    "bank": "Cartridge Bank",
+    "program": 60,
+    "name": "Cart Sound 60",
+    "category": "Transwave",
+    "tags": [
+      "transwave",
+      "cartridge"
+    ]
+  }
+]

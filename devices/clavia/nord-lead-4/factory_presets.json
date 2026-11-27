@@ -1,0 +1,4754 @@
+[
+  {
+    "bank": "Bank 1",
+    "program": 1,
+    "name": "Nord 3 Rotary Lead",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 2,
+    "name": "Dual Filter Morph",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 3,
+    "name": "4-Operator FM Bell",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 4,
+    "name": "Liquid Resonant Solo",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 5,
+    "name": "Warm Poly Strings",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 6,
+    "name": "Punchy 4-Pole Bass",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 7,
+    "name": "Distorted Acid Line",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 8,
+    "name": "Sine-FM Electric Piano",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 9,
+    "name": "Bandpass Motion Pad",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 10,
+    "name": "Chord Memory Stabs",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 11,
+    "name": "Nord 3 Rotary Lead 11",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 12,
+    "name": "Dual Filter Morph 12",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 13,
+    "name": "4-Operator FM Bell 13",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 14,
+    "name": "Liquid Resonant Solo 14",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 15,
+    "name": "Warm Poly Strings 15",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 16,
+    "name": "Punchy 4-Pole Bass 16",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 17,
+    "name": "Distorted Acid Line 17",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 18,
+    "name": "Sine-FM Electric Piano 18",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 19,
+    "name": "Bandpass Motion Pad 19",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 20,
+    "name": "Chord Memory Stabs 20",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 21,
+    "name": "Nord 3 Rotary Lead 21",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 22,
+    "name": "Dual Filter Morph 22",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 23,
+    "name": "4-Operator FM Bell 23",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 24,
+    "name": "Liquid Resonant Solo 24",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 25,
+    "name": "Warm Poly Strings 25",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 26,
+    "name": "Punchy 4-Pole Bass 26",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 27,
+    "name": "Distorted Acid Line 27",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 28,
+    "name": "Sine-FM Electric Piano 28",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 29,
+    "name": "Bandpass Motion Pad 29",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 30,
+    "name": "Chord Memory Stabs 30",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 31,
+    "name": "Nord 3 Rotary Lead 31",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 32,
+    "name": "Dual Filter Morph 32",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 33,
+    "name": "4-Operator FM Bell 33",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 34,
+    "name": "Liquid Resonant Solo 34",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 35,
+    "name": "Warm Poly Strings 35",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 36,
+    "name": "Punchy 4-Pole Bass 36",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 37,
+    "name": "Distorted Acid Line 37",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 38,
+    "name": "Sine-FM Electric Piano 38",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 39,
+    "name": "Bandpass Motion Pad 39",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 40,
+    "name": "Chord Memory Stabs 40",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 41,
+    "name": "Nord 3 Rotary Lead 41",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 42,
+    "name": "Dual Filter Morph 42",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 43,
+    "name": "4-Operator FM Bell 43",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 44,
+    "name": "Liquid Resonant Solo 44",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 45,
+    "name": "Warm Poly Strings 45",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 46,
+    "name": "Punchy 4-Pole Bass 46",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 47,
+    "name": "Distorted Acid Line 47",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 48,
+    "name": "Sine-FM Electric Piano 48",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 49,
+    "name": "Bandpass Motion Pad 49",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 50,
+    "name": "Chord Memory Stabs 50",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 51,
+    "name": "Nord 3 Rotary Lead 51",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 52,
+    "name": "Dual Filter Morph 52",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 53,
+    "name": "4-Operator FM Bell 53",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 54,
+    "name": "Liquid Resonant Solo 54",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 55,
+    "name": "Warm Poly Strings 55",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 56,
+    "name": "Punchy 4-Pole Bass 56",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 57,
+    "name": "Distorted Acid Line 57",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 58,
+    "name": "Sine-FM Electric Piano 58",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 59,
+    "name": "Bandpass Motion Pad 59",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 60,
+    "name": "Chord Memory Stabs 60",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 61,
+    "name": "Nord 3 Rotary Lead 61",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 62,
+    "name": "Dual Filter Morph 62",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 63,
+    "name": "4-Operator FM Bell 63",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 64,
+    "name": "Liquid Resonant Solo 64",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 65,
+    "name": "Warm Poly Strings 65",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 66,
+    "name": "Punchy 4-Pole Bass 66",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 67,
+    "name": "Distorted Acid Line 67",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 68,
+    "name": "Sine-FM Electric Piano 68",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 69,
+    "name": "Bandpass Motion Pad 69",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 70,
+    "name": "Chord Memory Stabs 70",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 71,
+    "name": "Nord 3 Rotary Lead 71",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 72,
+    "name": "Dual Filter Morph 72",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 73,
+    "name": "4-Operator FM Bell 73",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 74,
+    "name": "Liquid Resonant Solo 74",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 75,
+    "name": "Warm Poly Strings 75",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 76,
+    "name": "Punchy 4-Pole Bass 76",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 77,
+    "name": "Distorted Acid Line 77",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 78,
+    "name": "Sine-FM Electric Piano 78",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 79,
+    "name": "Bandpass Motion Pad 79",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 80,
+    "name": "Chord Memory Stabs 80",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 81,
+    "name": "Nord 3 Rotary Lead 81",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 82,
+    "name": "Dual Filter Morph 82",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 83,
+    "name": "4-Operator FM Bell 83",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 84,
+    "name": "Liquid Resonant Solo 84",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 85,
+    "name": "Warm Poly Strings 85",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 86,
+    "name": "Punchy 4-Pole Bass 86",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 87,
+    "name": "Distorted Acid Line 87",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 88,
+    "name": "Sine-FM Electric Piano 88",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 89,
+    "name": "Bandpass Motion Pad 89",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 90,
+    "name": "Chord Memory Stabs 90",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 91,
+    "name": "Nord 3 Rotary Lead 91",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 92,
+    "name": "Dual Filter Morph 92",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 93,
+    "name": "4-Operator FM Bell 93",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 94,
+    "name": "Liquid Resonant Solo 94",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 95,
+    "name": "Warm Poly Strings 95",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 96,
+    "name": "Punchy 4-Pole Bass 96",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 97,
+    "name": "Distorted Acid Line 97",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 98,
+    "name": "Sine-FM Electric Piano 98",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 99,
+    "name": "Bandpass Motion Pad 99",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 1,
+    "name": "Nord 3 Rotary Lead",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 2,
+    "name": "Dual Filter Morph",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 3,
+    "name": "4-Operator FM Bell",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 4,
+    "name": "Liquid Resonant Solo",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 5,
+    "name": "Warm Poly Strings",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 6,
+    "name": "Punchy 4-Pole Bass",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 7,
+    "name": "Distorted Acid Line",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 8,
+    "name": "Sine-FM Electric Piano",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 9,
+    "name": "Bandpass Motion Pad",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 10,
+    "name": "Chord Memory Stabs",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 11,
+    "name": "Nord 3 Rotary Lead 11",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 12,
+    "name": "Dual Filter Morph 12",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 13,
+    "name": "4-Operator FM Bell 13",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 14,
+    "name": "Liquid Resonant Solo 14",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 15,
+    "name": "Warm Poly Strings 15",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 16,
+    "name": "Punchy 4-Pole Bass 16",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 17,
+    "name": "Distorted Acid Line 17",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 18,
+    "name": "Sine-FM Electric Piano 18",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 19,
+    "name": "Bandpass Motion Pad 19",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 20,
+    "name": "Chord Memory Stabs 20",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 21,
+    "name": "Nord 3 Rotary Lead 21",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 22,
+    "name": "Dual Filter Morph 22",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 23,
+    "name": "4-Operator FM Bell 23",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 24,
+    "name": "Liquid Resonant Solo 24",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 25,
+    "name": "Warm Poly Strings 25",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 26,
+    "name": "Punchy 4-Pole Bass 26",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 27,
+    "name": "Distorted Acid Line 27",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 28,
+    "name": "Sine-FM Electric Piano 28",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 29,
+    "name": "Bandpass Motion Pad 29",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 30,
+    "name": "Chord Memory Stabs 30",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 31,
+    "name": "Nord 3 Rotary Lead 31",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 32,
+    "name": "Dual Filter Morph 32",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 33,
+    "name": "4-Operator FM Bell 33",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 34,
+    "name": "Liquid Resonant Solo 34",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 35,
+    "name": "Warm Poly Strings 35",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 36,
+    "name": "Punchy 4-Pole Bass 36",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 37,
+    "name": "Distorted Acid Line 37",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 38,
+    "name": "Sine-FM Electric Piano 38",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 39,
+    "name": "Bandpass Motion Pad 39",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 40,
+    "name": "Chord Memory Stabs 40",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 41,
+    "name": "Nord 3 Rotary Lead 41",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 42,
+    "name": "Dual Filter Morph 42",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 43,
+    "name": "4-Operator FM Bell 43",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 44,
+    "name": "Liquid Resonant Solo 44",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 45,
+    "name": "Warm Poly Strings 45",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 46,
+    "name": "Punchy 4-Pole Bass 46",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 47,
+    "name": "Distorted Acid Line 47",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 48,
+    "name": "Sine-FM Electric Piano 48",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 49,
+    "name": "Bandpass Motion Pad 49",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 50,
+    "name": "Chord Memory Stabs 50",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 51,
+    "name": "Nord 3 Rotary Lead 51",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 52,
+    "name": "Dual Filter Morph 52",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 53,
+    "name": "4-Operator FM Bell 53",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 54,
+    "name": "Liquid Resonant Solo 54",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 55,
+    "name": "Warm Poly Strings 55",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 56,
+    "name": "Punchy 4-Pole Bass 56",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 57,
+    "name": "Distorted Acid Line 57",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 58,
+    "name": "Sine-FM Electric Piano 58",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 59,
+    "name": "Bandpass Motion Pad 59",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 60,
+    "name": "Chord Memory Stabs 60",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 61,
+    "name": "Nord 3 Rotary Lead 61",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 62,
+    "name": "Dual Filter Morph 62",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 63,
+    "name": "4-Operator FM Bell 63",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 64,
+    "name": "Liquid Resonant Solo 64",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 65,
+    "name": "Warm Poly Strings 65",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 66,
+    "name": "Punchy 4-Pole Bass 66",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 67,
+    "name": "Distorted Acid Line 67",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 68,
+    "name": "Sine-FM Electric Piano 68",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 69,
+    "name": "Bandpass Motion Pad 69",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 70,
+    "name": "Chord Memory Stabs 70",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 71,
+    "name": "Nord 3 Rotary Lead 71",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 72,
+    "name": "Dual Filter Morph 72",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 73,
+    "name": "4-Operator FM Bell 73",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 74,
+    "name": "Liquid Resonant Solo 74",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 75,
+    "name": "Warm Poly Strings 75",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 76,
+    "name": "Punchy 4-Pole Bass 76",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 77,
+    "name": "Distorted Acid Line 77",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 78,
+    "name": "Sine-FM Electric Piano 78",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 79,
+    "name": "Bandpass Motion Pad 79",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 80,
+    "name": "Chord Memory Stabs 80",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 81,
+    "name": "Nord 3 Rotary Lead 81",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 82,
+    "name": "Dual Filter Morph 82",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 83,
+    "name": "4-Operator FM Bell 83",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 84,
+    "name": "Liquid Resonant Solo 84",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 85,
+    "name": "Warm Poly Strings 85",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 86,
+    "name": "Punchy 4-Pole Bass 86",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 87,
+    "name": "Distorted Acid Line 87",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 88,
+    "name": "Sine-FM Electric Piano 88",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 89,
+    "name": "Bandpass Motion Pad 89",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 90,
+    "name": "Chord Memory Stabs 90",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 91,
+    "name": "Nord 3 Rotary Lead 91",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 92,
+    "name": "Dual Filter Morph 92",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 93,
+    "name": "4-Operator FM Bell 93",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 94,
+    "name": "Liquid Resonant Solo 94",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 95,
+    "name": "Warm Poly Strings 95",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 96,
+    "name": "Punchy 4-Pole Bass 96",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 97,
+    "name": "Distorted Acid Line 97",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 98,
+    "name": "Sine-FM Electric Piano 98",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 99,
+    "name": "Bandpass Motion Pad 99",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 1,
+    "name": "Nord 3 Rotary Lead",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 2,
+    "name": "Dual Filter Morph",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 3,
+    "name": "4-Operator FM Bell",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 4,
+    "name": "Liquid Resonant Solo",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 5,
+    "name": "Warm Poly Strings",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 6,
+    "name": "Punchy 4-Pole Bass",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 7,
+    "name": "Distorted Acid Line",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 8,
+    "name": "Sine-FM Electric Piano",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 9,
+    "name": "Bandpass Motion Pad",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 10,
+    "name": "Chord Memory Stabs",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 11,
+    "name": "Nord 3 Rotary Lead 11",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 12,
+    "name": "Dual Filter Morph 12",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 13,
+    "name": "4-Operator FM Bell 13",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 14,
+    "name": "Liquid Resonant Solo 14",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 15,
+    "name": "Warm Poly Strings 15",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 16,
+    "name": "Punchy 4-Pole Bass 16",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 17,
+    "name": "Distorted Acid Line 17",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 18,
+    "name": "Sine-FM Electric Piano 18",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 19,
+    "name": "Bandpass Motion Pad 19",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 20,
+    "name": "Chord Memory Stabs 20",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 21,
+    "name": "Nord 3 Rotary Lead 21",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 22,
+    "name": "Dual Filter Morph 22",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 23,
+    "name": "4-Operator FM Bell 23",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 24,
+    "name": "Liquid Resonant Solo 24",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 25,
+    "name": "Warm Poly Strings 25",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 26,
+    "name": "Punchy 4-Pole Bass 26",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 27,
+    "name": "Distorted Acid Line 27",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 28,
+    "name": "Sine-FM Electric Piano 28",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 29,
+    "name": "Bandpass Motion Pad 29",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 30,
+    "name": "Chord Memory Stabs 30",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 31,
+    "name": "Nord 3 Rotary Lead 31",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 32,
+    "name": "Dual Filter Morph 32",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 33,
+    "name": "4-Operator FM Bell 33",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 34,
+    "name": "Liquid Resonant Solo 34",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 35,
+    "name": "Warm Poly Strings 35",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 36,
+    "name": "Punchy 4-Pole Bass 36",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 37,
+    "name": "Distorted Acid Line 37",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 38,
+    "name": "Sine-FM Electric Piano 38",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 39,
+    "name": "Bandpass Motion Pad 39",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 40,
+    "name": "Chord Memory Stabs 40",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 41,
+    "name": "Nord 3 Rotary Lead 41",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 42,
+    "name": "Dual Filter Morph 42",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 43,
+    "name": "4-Operator FM Bell 43",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 44,
+    "name": "Liquid Resonant Solo 44",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 45,
+    "name": "Warm Poly Strings 45",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 46,
+    "name": "Punchy 4-Pole Bass 46",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 47,
+    "name": "Distorted Acid Line 47",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 48,
+    "name": "Sine-FM Electric Piano 48",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 49,
+    "name": "Bandpass Motion Pad 49",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 50,
+    "name": "Chord Memory Stabs 50",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 51,
+    "name": "Nord 3 Rotary Lead 51",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 52,
+    "name": "Dual Filter Morph 52",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 53,
+    "name": "4-Operator FM Bell 53",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 54,
+    "name": "Liquid Resonant Solo 54",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 55,
+    "name": "Warm Poly Strings 55",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 56,
+    "name": "Punchy 4-Pole Bass 56",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 57,
+    "name": "Distorted Acid Line 57",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 58,
+    "name": "Sine-FM Electric Piano 58",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 59,
+    "name": "Bandpass Motion Pad 59",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 60,
+    "name": "Chord Memory Stabs 60",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 61,
+    "name": "Nord 3 Rotary Lead 61",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 62,
+    "name": "Dual Filter Morph 62",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 63,
+    "name": "4-Operator FM Bell 63",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 64,
+    "name": "Liquid Resonant Solo 64",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 65,
+    "name": "Warm Poly Strings 65",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 66,
+    "name": "Punchy 4-Pole Bass 66",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 67,
+    "name": "Distorted Acid Line 67",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 68,
+    "name": "Sine-FM Electric Piano 68",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 69,
+    "name": "Bandpass Motion Pad 69",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 70,
+    "name": "Chord Memory Stabs 70",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 71,
+    "name": "Nord 3 Rotary Lead 71",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 72,
+    "name": "Dual Filter Morph 72",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 73,
+    "name": "4-Operator FM Bell 73",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 74,
+    "name": "Liquid Resonant Solo 74",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 75,
+    "name": "Warm Poly Strings 75",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 76,
+    "name": "Punchy 4-Pole Bass 76",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 77,
+    "name": "Distorted Acid Line 77",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 78,
+    "name": "Sine-FM Electric Piano 78",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 79,
+    "name": "Bandpass Motion Pad 79",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 80,
+    "name": "Chord Memory Stabs 80",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 81,
+    "name": "Nord 3 Rotary Lead 81",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 82,
+    "name": "Dual Filter Morph 82",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 83,
+    "name": "4-Operator FM Bell 83",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 84,
+    "name": "Liquid Resonant Solo 84",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 85,
+    "name": "Warm Poly Strings 85",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 86,
+    "name": "Punchy 4-Pole Bass 86",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 87,
+    "name": "Distorted Acid Line 87",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 88,
+    "name": "Sine-FM Electric Piano 88",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 89,
+    "name": "Bandpass Motion Pad 89",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 90,
+    "name": "Chord Memory Stabs 90",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 91,
+    "name": "Nord 3 Rotary Lead 91",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 92,
+    "name": "Dual Filter Morph 92",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 93,
+    "name": "4-Operator FM Bell 93",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 94,
+    "name": "Liquid Resonant Solo 94",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 95,
+    "name": "Warm Poly Strings 95",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 96,
+    "name": "Punchy 4-Pole Bass 96",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 97,
+    "name": "Distorted Acid Line 97",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 98,
+    "name": "Sine-FM Electric Piano 98",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 99,
+    "name": "Bandpass Motion Pad 99",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 1,
+    "name": "Nord 3 Rotary Lead",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 2,
+    "name": "Dual Filter Morph",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 3,
+    "name": "4-Operator FM Bell",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 4,
+    "name": "Liquid Resonant Solo",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 5,
+    "name": "Warm Poly Strings",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 6,
+    "name": "Punchy 4-Pole Bass",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 7,
+    "name": "Distorted Acid Line",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 8,
+    "name": "Sine-FM Electric Piano",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 9,
+    "name": "Bandpass Motion Pad",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 10,
+    "name": "Chord Memory Stabs",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 11,
+    "name": "Nord 3 Rotary Lead 11",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 12,
+    "name": "Dual Filter Morph 12",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 13,
+    "name": "4-Operator FM Bell 13",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 14,
+    "name": "Liquid Resonant Solo 14",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 15,
+    "name": "Warm Poly Strings 15",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 16,
+    "name": "Punchy 4-Pole Bass 16",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 17,
+    "name": "Distorted Acid Line 17",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 18,
+    "name": "Sine-FM Electric Piano 18",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 19,
+    "name": "Bandpass Motion Pad 19",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 20,
+    "name": "Chord Memory Stabs 20",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 21,
+    "name": "Nord 3 Rotary Lead 21",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 22,
+    "name": "Dual Filter Morph 22",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 23,
+    "name": "4-Operator FM Bell 23",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 24,
+    "name": "Liquid Resonant Solo 24",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 25,
+    "name": "Warm Poly Strings 25",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 26,
+    "name": "Punchy 4-Pole Bass 26",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 27,
+    "name": "Distorted Acid Line 27",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 28,
+    "name": "Sine-FM Electric Piano 28",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 29,
+    "name": "Bandpass Motion Pad 29",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 30,
+    "name": "Chord Memory Stabs 30",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 31,
+    "name": "Nord 3 Rotary Lead 31",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 32,
+    "name": "Dual Filter Morph 32",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 33,
+    "name": "4-Operator FM Bell 33",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 34,
+    "name": "Liquid Resonant Solo 34",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 35,
+    "name": "Warm Poly Strings 35",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 36,
+    "name": "Punchy 4-Pole Bass 36",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 37,
+    "name": "Distorted Acid Line 37",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 38,
+    "name": "Sine-FM Electric Piano 38",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 39,
+    "name": "Bandpass Motion Pad 39",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 40,
+    "name": "Chord Memory Stabs 40",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 41,
+    "name": "Nord 3 Rotary Lead 41",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 42,
+    "name": "Dual Filter Morph 42",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 43,
+    "name": "4-Operator FM Bell 43",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 44,
+    "name": "Liquid Resonant Solo 44",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 45,
+    "name": "Warm Poly Strings 45",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 46,
+    "name": "Punchy 4-Pole Bass 46",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 47,
+    "name": "Distorted Acid Line 47",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 48,
+    "name": "Sine-FM Electric Piano 48",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 49,
+    "name": "Bandpass Motion Pad 49",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 50,
+    "name": "Chord Memory Stabs 50",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 51,
+    "name": "Nord 3 Rotary Lead 51",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 52,
+    "name": "Dual Filter Morph 52",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 53,
+    "name": "4-Operator FM Bell 53",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 54,
+    "name": "Liquid Resonant Solo 54",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 55,
+    "name": "Warm Poly Strings 55",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 56,
+    "name": "Punchy 4-Pole Bass 56",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 57,
+    "name": "Distorted Acid Line 57",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 58,
+    "name": "Sine-FM Electric Piano 58",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 59,
+    "name": "Bandpass Motion Pad 59",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 60,
+    "name": "Chord Memory Stabs 60",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 61,
+    "name": "Nord 3 Rotary Lead 61",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 62,
+    "name": "Dual Filter Morph 62",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 63,
+    "name": "4-Operator FM Bell 63",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 64,
+    "name": "Liquid Resonant Solo 64",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 65,
+    "name": "Warm Poly Strings 65",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 66,
+    "name": "Punchy 4-Pole Bass 66",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 67,
+    "name": "Distorted Acid Line 67",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 68,
+    "name": "Sine-FM Electric Piano 68",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 69,
+    "name": "Bandpass Motion Pad 69",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 70,
+    "name": "Chord Memory Stabs 70",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 71,
+    "name": "Nord 3 Rotary Lead 71",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 72,
+    "name": "Dual Filter Morph 72",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 73,
+    "name": "4-Operator FM Bell 73",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 74,
+    "name": "Liquid Resonant Solo 74",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 75,
+    "name": "Warm Poly Strings 75",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 76,
+    "name": "Punchy 4-Pole Bass 76",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 77,
+    "name": "Distorted Acid Line 77",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 78,
+    "name": "Sine-FM Electric Piano 78",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 79,
+    "name": "Bandpass Motion Pad 79",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 80,
+    "name": "Chord Memory Stabs 80",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 81,
+    "name": "Nord 3 Rotary Lead 81",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 82,
+    "name": "Dual Filter Morph 82",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 83,
+    "name": "4-Operator FM Bell 83",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 84,
+    "name": "Liquid Resonant Solo 84",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 85,
+    "name": "Warm Poly Strings 85",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 86,
+    "name": "Punchy 4-Pole Bass 86",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 87,
+    "name": "Distorted Acid Line 87",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 88,
+    "name": "Sine-FM Electric Piano 88",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 89,
+    "name": "Bandpass Motion Pad 89",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 90,
+    "name": "Chord Memory Stabs 90",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 91,
+    "name": "Nord 3 Rotary Lead 91",
+    "category": "Lead",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 92,
+    "name": "Dual Filter Morph 92",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 93,
+    "name": "4-Operator FM Bell 93",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 94,
+    "name": "Liquid Resonant Solo 94",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 95,
+    "name": "Warm Poly Strings 95",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 96,
+    "name": "Punchy 4-Pole Bass 96",
+    "category": "Bass",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 97,
+    "name": "Distorted Acid Line 97",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 98,
+    "name": "Sine-FM Electric Piano 98",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 99,
+    "name": "Bandpass Motion Pad 99",
+    "category": "Pad",
+    "tags": [
+      "wavetable-va",
+      "ladder-filter-emulation",
+      "crush-fx",
+      "pad"
+    ]
+  }
+]
