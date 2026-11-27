@@ -1,0 +1,22 @@
+manufacturer: Elektron
+model: Elektron Syntakt
+type: 12-Track Drum Computer & Synthesizer
+year: 2022
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    analog_drive: 80
+    fx_delay_time: 82
+    fx_reverb_time: 83
+sysex:
+  header: F0 00 20 3C 03
+  device_id_byte: 3
+  commands:
+    dump_sound: F0 00 20 3C 03 01 [prog] F7
+banks:
+- Machine Bank 1
+- Machine Bank 2
+- Machine Bank 3
+- Machine Bank 4

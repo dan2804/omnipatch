@@ -1,0 +1,29 @@
+manufacturer: Moog
+model: Moog One (8/16 Voice)
+type: Flagship Polyphonic Analog Synthesizer
+year: 2018
+midi:
+  channels: 16
+  cc_map:
+    svf_cutoff: 74
+    svf_resonance: 71
+    ladder_cutoff: 79
+    ladder_resonance: 78
+    vco1_wave: 20
+    vco2_wave: 21
+    vco3_wave: 22
+    tri_timbral_balance: 16
+sysex:
+  header: F0 04 07
+  device_id_byte: 3
+  commands:
+    request_preset: F0 04 07 01 [bank] [prog] F7
+banks:
+- Bank 1
+- Bank 2
+- Bank 3
+- Bank 4
+- Bank 5
+- Bank 6
+- Bank 7
+- Bank 8

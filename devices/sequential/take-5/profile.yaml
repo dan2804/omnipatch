@@ -1,0 +1,20 @@
+manufacturer: Sequential
+model: Sequential Take 5
+type: 5-Voice Polyphonic Analog Synthesizer
+year: 2021
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    vintage_knob: 80
+    drive: 81
+    sub_level: 20
+sysex:
+  header: F0 01 34
+  device_id_byte: 3
+  commands:
+    request_program: F0 01 34 05 [bank] [prog] F7
+banks:
+- Factory Bank 1
+- Factory Bank 2

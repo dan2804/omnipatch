@@ -1,0 +1,26 @@
+manufacturer: Elektron
+model: Elektron Digitakt
+type: 8-Voice Drum Computer & Sampler
+year: 2017
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    sample_tune: 16
+    bit_reduction: 80
+    overdrive: 81
+sysex:
+  header: F0 00 20 3C
+  device_id_byte: 3
+  commands:
+    dump_pattern: F0 00 20 3C 01 [pat] F7
+banks:
+- Project Bank 1
+- Project Bank 2
+- Project Bank 3
+- Project Bank 4
+- Project Bank 5
+- Project Bank 6
+- Project Bank 7
+- Project Bank 8

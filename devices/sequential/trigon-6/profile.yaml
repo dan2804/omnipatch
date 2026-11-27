@@ -1,0 +1,25 @@
+manufacturer: Sequential
+model: Sequential Trigon-6
+type: 6-Voice 3-VCO Analog Synthesizer
+year: 2022
+midi:
+  channels: 16
+  cc_map:
+    ladder_cutoff: 74
+    ladder_resonance: 71
+    drive: 80
+    feedback: 81
+    vco1_shape: 20
+    vco2_shape: 21
+    vco3_shape: 22
+sysex:
+  header: F0 01 35
+  device_id_byte: 3
+  commands:
+    request_program: F0 01 35 05 [bank] [prog] F7
+banks:
+- Factory Bank 0
+- Factory Bank 1
+- Factory Bank 2
+- Factory Bank 3
+- Factory Bank 4

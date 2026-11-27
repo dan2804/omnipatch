@@ -1,0 +1,18 @@
+manufacturer: Moog
+model: Moog Grandmother
+type: Semi-Modular Analog Synthesizer
+year: 2018
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    reverb_mix: 91
+    glide: 5
+sysex:
+  header: F0 04 09
+  device_id_byte: 3
+  commands:
+    dump_patch: F0 04 09 01 [prog] F7
+banks:
+- Patch Book
