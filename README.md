@@ -26,12 +26,22 @@ OmniPatch is a high-performance, modular patch librarian and hardware editor wri
 
 ---
 
-## Supported Synthesizers (64 Production Profiles)
+## Supported Synthesizers (74 Production Profiles)
 
-OmniPatch ships with 64 comprehensive device profiles across 6 legendary synthesizer manufacturers:
+OmniPatch ships with 74 comprehensive device profiles across 7 legendary synthesizer manufacturers:
 
 | Synthesizer | Manufacturer | Architecture | Parameters | Presets | SysEx ID / Details |
 | :--- | :--- | :--- | :---: | :---: | :--- |
+| **Korg M1** | Korg | AI Synthesis Music Workstation Flagship | 10 | 150 | `0x42` (ID `0x19`) · Universe, Piano 16' (house piano staple), 100 Progs + Combis |
+| **Korg Wavestation** | Korg | Vector Synthesis & Wave Sequencing | 6 | 205 | `0x42` (ID `0x28`) · 2-axis vector joystick, dynamic rhythmic wave sequencing, Ski Jam |
+| **Korg 01/W** | Korg | AI2 Synthesis Workstation w/ Waveshaping | 5 | 400 | `0x42` (ID `0x36`) · 60 waveshaping tables, 200 Programs + 200 Combinations |
+| **Korg Trinity** | Korg | ACCESS Synthesis Workstation TouchView | 4 | 675 | `0x42` (ID `0x3B`) · 24MB PCM ROM, 320x240 TouchView LCD, Ribbon, Bank A/B/M |
+| **Korg Triton** | Korg | HI Synthesis Workstation & Sampler | 5 | 1,040 | `0x42` (ID `0x50`) · 512 Programs + 512 Combis, dual poly arps, 16 drum kits |
+| **Korg MS2000** | Korg | DSP Virtual Analog Synthesizer & Vocoder | 5 | 128 | `0x42` (ID `0x58`) · 71 DWGS waveforms, 3-track 16-step Motion Sequencer, 16-band Vocoder |
+| **Korg microKORG** | Korg | Compact Modeling Synthesizer / Vocoder | 5 | 128 | `0x42` (ID `0x58`) · Genre select dial, 8-band vocoder w/ gooseneck mic, DWGS waves |
+| **Korg Prophecy** | Korg | MOSS Solo Physical Modeling Synthesizer | 4 | 128 | `0x42` (ID `0x41`) · Monophonic acoustic modeling, ribbon controller, Prodigy rave lead |
+| **Korg Z1** | Korg | 12-Voice Polyphonic MOSS Modeling Synth | 5 | 288 | `0x42` (ID `0x46`) · 13 oscillator algorithms, X-Y touchpad, dual poly arpeggiator |
+| **Korg DW-8000** | Korg | Hybrid DWGS Synth w/ Analog NJM2069 VCF | 5 | 64 | `0x42` (ID `0x03`) · 16 sampled waveforms, 24dB resonant analog VCF, digital delay |
 | **Yamaha DX7** | Yamaha Corporation | 16-Voice 6-Operator Digital FM Flagship | 22 | 64 | `0x43` · 32 algorithms, 6 EGs, pure sine operators, E.Piano 1 & Bass 1 |
 | **Yamaha DX7II (FD/D)** | Yamaha Corporation | Dual 6-Op FM Synth w/ Fractional Scaling | 8 | 96 | `0x43` (ID `0x19`) · Dual/Split/Single, microtuning, stereo panning |
 | **Yamaha TX81Z** | Yamaha Corporation | 8-Voice 4-Op Multi-Waveform FM Rack | 14 | 160 | `0x43` (ID `0x7E`) · 8 waveforms (W1-W8), LatelyBass, 8-part multi |

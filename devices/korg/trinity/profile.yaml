@@ -1,0 +1,53 @@
+schema_version: 1.0.0
+manufacturer: Korg
+name: Korg Trinity
+family: Trinity Series
+category: ACCESS Synthesis Workstation with TouchView GUI
+year: 1995
+voice_architecture:
+  voices: 32
+  sound_engine: ACCESS (Advanced Combined Control Electronic Synthesis System) with
+    24MB PCM ROM
+  touchview: 320x240 large TouchView graphical user interface with Ribbon controller
+  effects: Dynamic Digital Multi-Effects with 8 Insert Effects, 2 Master Effects,
+    and Master EQ
+  expansion: PBS-TRI 8MB Flash ROM and Solo-TRI / MOSS 6-voice physical modeling board
+midi_specs:
+  basic_channel: 1
+  manufacturer_id: '0x42'
+  model_id: '0x3B'
+  handshake: false
+  pacing_delay_ms: 20
+parameters:
+- id: filter_cutoff
+  name: Resonant Filter Cutoff
+  type: range
+  min: 0
+  max: 99
+  default: 75
+- id: filter_resonance
+  name: Filter Resonance
+  type: range
+  min: 0
+  max: 99
+  default: 30
+- id: ribbon_assign
+  name: Ribbon Controller Target
+  type: enum
+  options:
+  - Pitch Bend
+  - Filter Cutoff
+  - Effect Depth
+  - LFO Speed
+  default: Filter Cutoff
+- id: insert_fx_type
+  name: Insert Effect 1 Type
+  type: enum
+  options:
+  - Stereo Compressor
+  - Overdrive/Wah
+  - Stereo Phaser
+  - Rotary Speaker
+  - Multitap Delay
+  - Chorus/Flanger
+  default: Stereo Compressor

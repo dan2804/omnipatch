@@ -1,0 +1,4202 @@
+[
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 0,
+    "name": "A00: Acoustic Piano 01",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-a",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 1,
+    "name": "A01: Dyno Tine EP",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-a",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 2,
+    "name": "A02: Rock Organ B3",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-a",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 3,
+    "name": "A03: Full Pipe Organ",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-a",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 4,
+    "name": "A04: Clavinet Funk",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-a",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 5,
+    "name": "A05: Harpsichord Baroque",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 6,
+    "name": "A06: Symphonic Strings",
+    "category": "STRINGS",
+    "tags": [
+      "01w",
+      "bank-a",
+      "strings"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 7,
+    "name": "A07: Warm Lush Pad",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 8,
+    "name": "A08: Solo Cello Dark",
+    "category": "STRINGS",
+    "tags": [
+      "01w",
+      "bank-a",
+      "strings"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 9,
+    "name": "A09: Pizzicato Section",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 10,
+    "name": "A10: Fanfare Trumpets",
+    "category": "BRASS",
+    "tags": [
+      "01w",
+      "bank-a",
+      "brass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 11,
+    "name": "A11: Warm French Horns",
+    "category": "BRASS",
+    "tags": [
+      "01w",
+      "bank-a",
+      "brass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 12,
+    "name": "A12: Orchestra Brass",
+    "category": "BRASS",
+    "tags": [
+      "01w",
+      "bank-a",
+      "brass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 13,
+    "name": "A13: Trombone Section",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 14,
+    "name": "A14: Acoustic Upright Bass",
+    "category": "BASS",
+    "tags": [
+      "01w",
+      "bank-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 15,
+    "name": "A15: Slap Funk Bass",
+    "category": "BASS",
+    "tags": [
+      "01w",
+      "bank-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 16,
+    "name": "A16: Fretless Bass Mwah",
+    "category": "BASS",
+    "tags": [
+      "01w",
+      "bank-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 17,
+    "name": "A17: Precision Pop Bass",
+    "category": "BASS",
+    "tags": [
+      "01w",
+      "bank-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 18,
+    "name": "A18: Moog Sub Bass",
+    "category": "BASS",
+    "tags": [
+      "01w",
+      "bank-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 19,
+    "name": "A19: Waveshaped Lead",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 20,
+    "name": "A20: Aggressive Reso 01",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 21,
+    "name": "A21: Super Saw Stack",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 22,
+    "name": "A22: Universe 01 Pad",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 23,
+    "name": "A23: Ether Vox Choir",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 24,
+    "name": "A24: Shakuhachi Flute",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 25,
+    "name": "A25: Pan Flute Andes",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 26,
+    "name": "A26: Indian Sitar Master",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 27,
+    "name": "A27: Caribbean Steel Drum",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 28,
+    "name": "A28: Concert Marimba",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 29,
+    "name": "A29: Vibraphone Jazz",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 30,
+    "name": "A30: Orchestra Hit 01",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 31,
+    "name": "A31: Techno Pulse Groove",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 32,
+    "name": "A32: Acoustic Piano 01 #2",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-a",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 33,
+    "name": "A33: Dyno Tine EP #2",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-a",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 34,
+    "name": "A34: Rock Organ B3 #2",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-a",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 35,
+    "name": "A35: Full Pipe Organ #2",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-a",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 36,
+    "name": "A36: Clavinet Funk #2",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-a",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 37,
+    "name": "A37: Harpsichord Baroque #2",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 38,
+    "name": "A38: Symphonic Strings #2",
+    "category": "STRINGS",
+    "tags": [
+      "01w",
+      "bank-a",
+      "strings"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 39,
+    "name": "A39: Warm Lush Pad #2",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 40,
+    "name": "A40: Solo Cello Dark #2",
+    "category": "STRINGS",
+    "tags": [
+      "01w",
+      "bank-a",
+      "strings"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 41,
+    "name": "A41: Pizzicato Section #2",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 42,
+    "name": "A42: Fanfare Trumpets #2",
+    "category": "BRASS",
+    "tags": [
+      "01w",
+      "bank-a",
+      "brass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 43,
+    "name": "A43: Warm French Horns #2",
+    "category": "BRASS",
+    "tags": [
+      "01w",
+      "bank-a",
+      "brass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 44,
+    "name": "A44: Orchestra Brass #2",
+    "category": "BRASS",
+    "tags": [
+      "01w",
+      "bank-a",
+      "brass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 45,
+    "name": "A45: Trombone Section #2",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 46,
+    "name": "A46: Acoustic Upright Bass #2",
+    "category": "BASS",
+    "tags": [
+      "01w",
+      "bank-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 47,
+    "name": "A47: Slap Funk Bass #2",
+    "category": "BASS",
+    "tags": [
+      "01w",
+      "bank-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 48,
+    "name": "A48: Fretless Bass Mwah #2",
+    "category": "BASS",
+    "tags": [
+      "01w",
+      "bank-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 49,
+    "name": "A49: Precision Pop Bass #2",
+    "category": "BASS",
+    "tags": [
+      "01w",
+      "bank-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 50,
+    "name": "A50: Moog Sub Bass #2",
+    "category": "BASS",
+    "tags": [
+      "01w",
+      "bank-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 51,
+    "name": "A51: Waveshaped Lead #2",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 52,
+    "name": "A52: Aggressive Reso 01 #2",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 53,
+    "name": "A53: Super Saw Stack #2",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 54,
+    "name": "A54: Universe 01 Pad #2",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 55,
+    "name": "A55: Ether Vox Choir #2",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 56,
+    "name": "A56: Shakuhachi Flute #2",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 57,
+    "name": "A57: Pan Flute Andes #2",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 58,
+    "name": "A58: Indian Sitar Master #2",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 59,
+    "name": "A59: Caribbean Steel Drum #2",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 60,
+    "name": "A60: Concert Marimba #2",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 61,
+    "name": "A61: Vibraphone Jazz #2",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 62,
+    "name": "A62: Orchestra Hit 01 #2",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 63,
+    "name": "A63: Techno Pulse Groove #2",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 64,
+    "name": "A64: Acoustic Piano 01 #3",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-a",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 65,
+    "name": "A65: Dyno Tine EP #3",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-a",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 66,
+    "name": "A66: Rock Organ B3 #3",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-a",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 67,
+    "name": "A67: Full Pipe Organ #3",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-a",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 68,
+    "name": "A68: Clavinet Funk #3",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-a",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 69,
+    "name": "A69: Harpsichord Baroque #3",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 70,
+    "name": "A70: Symphonic Strings #3",
+    "category": "STRINGS",
+    "tags": [
+      "01w",
+      "bank-a",
+      "strings"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 71,
+    "name": "A71: Warm Lush Pad #3",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 72,
+    "name": "A72: Solo Cello Dark #3",
+    "category": "STRINGS",
+    "tags": [
+      "01w",
+      "bank-a",
+      "strings"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 73,
+    "name": "A73: Pizzicato Section #3",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 74,
+    "name": "A74: Fanfare Trumpets #3",
+    "category": "BRASS",
+    "tags": [
+      "01w",
+      "bank-a",
+      "brass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 75,
+    "name": "A75: Warm French Horns #3",
+    "category": "BRASS",
+    "tags": [
+      "01w",
+      "bank-a",
+      "brass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 76,
+    "name": "A76: Orchestra Brass #3",
+    "category": "BRASS",
+    "tags": [
+      "01w",
+      "bank-a",
+      "brass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 77,
+    "name": "A77: Trombone Section #3",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 78,
+    "name": "A78: Acoustic Upright Bass #3",
+    "category": "BASS",
+    "tags": [
+      "01w",
+      "bank-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 79,
+    "name": "A79: Slap Funk Bass #3",
+    "category": "BASS",
+    "tags": [
+      "01w",
+      "bank-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 80,
+    "name": "A80: Fretless Bass Mwah #3",
+    "category": "BASS",
+    "tags": [
+      "01w",
+      "bank-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 81,
+    "name": "A81: Precision Pop Bass #3",
+    "category": "BASS",
+    "tags": [
+      "01w",
+      "bank-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 82,
+    "name": "A82: Moog Sub Bass #3",
+    "category": "BASS",
+    "tags": [
+      "01w",
+      "bank-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 83,
+    "name": "A83: Waveshaped Lead #3",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 84,
+    "name": "A84: Aggressive Reso 01 #3",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 85,
+    "name": "A85: Super Saw Stack #3",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 86,
+    "name": "A86: Universe 01 Pad #3",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 87,
+    "name": "A87: Ether Vox Choir #3",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 88,
+    "name": "A88: Shakuhachi Flute #3",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 89,
+    "name": "A89: Pan Flute Andes #3",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 90,
+    "name": "A90: Indian Sitar Master #3",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 91,
+    "name": "A91: Caribbean Steel Drum #3",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 92,
+    "name": "A92: Concert Marimba #3",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 93,
+    "name": "A93: Vibraphone Jazz #3",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 94,
+    "name": "A94: Orchestra Hit 01 #3",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 95,
+    "name": "A95: Techno Pulse Groove #3",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-a",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 96,
+    "name": "A96: Acoustic Piano 01 #4",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-a",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 97,
+    "name": "A97: Dyno Tine EP #4",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-a",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 98,
+    "name": "A98: Rock Organ B3 #4",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-a",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK A",
+    "program": 99,
+    "name": "A99: Full Pipe Organ #4",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-a",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 0,
+    "name": "B00: Acoustic Piano 01",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-b",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 1,
+    "name": "B01: Dyno Tine EP",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-b",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 2,
+    "name": "B02: Rock Organ B3",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-b",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 3,
+    "name": "B03: Full Pipe Organ",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-b",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 4,
+    "name": "B04: Clavinet Funk",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-b",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 5,
+    "name": "B05: Harpsichord Baroque",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 6,
+    "name": "B06: Symphonic Strings",
+    "category": "STRINGS",
+    "tags": [
+      "01w",
+      "bank-b",
+      "strings"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 7,
+    "name": "B07: Warm Lush Pad",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 8,
+    "name": "B08: Solo Cello Dark",
+    "category": "STRINGS",
+    "tags": [
+      "01w",
+      "bank-b",
+      "strings"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 9,
+    "name": "B09: Pizzicato Section",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 10,
+    "name": "B10: Fanfare Trumpets",
+    "category": "BRASS",
+    "tags": [
+      "01w",
+      "bank-b",
+      "brass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 11,
+    "name": "B11: Warm French Horns",
+    "category": "BRASS",
+    "tags": [
+      "01w",
+      "bank-b",
+      "brass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 12,
+    "name": "B12: Orchestra Brass",
+    "category": "BRASS",
+    "tags": [
+      "01w",
+      "bank-b",
+      "brass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 13,
+    "name": "B13: Trombone Section",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 14,
+    "name": "B14: Acoustic Upright Bass",
+    "category": "BASS",
+    "tags": [
+      "01w",
+      "bank-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 15,
+    "name": "B15: Slap Funk Bass",
+    "category": "BASS",
+    "tags": [
+      "01w",
+      "bank-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 16,
+    "name": "B16: Fretless Bass Mwah",
+    "category": "BASS",
+    "tags": [
+      "01w",
+      "bank-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 17,
+    "name": "B17: Precision Pop Bass",
+    "category": "BASS",
+    "tags": [
+      "01w",
+      "bank-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 18,
+    "name": "B18: Moog Sub Bass",
+    "category": "BASS",
+    "tags": [
+      "01w",
+      "bank-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 19,
+    "name": "B19: Waveshaped Lead",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 20,
+    "name": "B20: Aggressive Reso 01",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 21,
+    "name": "B21: Super Saw Stack",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 22,
+    "name": "B22: Universe 01 Pad",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 23,
+    "name": "B23: Ether Vox Choir",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 24,
+    "name": "B24: Shakuhachi Flute",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 25,
+    "name": "B25: Pan Flute Andes",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 26,
+    "name": "B26: Indian Sitar Master",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 27,
+    "name": "B27: Caribbean Steel Drum",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 28,
+    "name": "B28: Concert Marimba",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 29,
+    "name": "B29: Vibraphone Jazz",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 30,
+    "name": "B30: Orchestra Hit 01",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 31,
+    "name": "B31: Techno Pulse Groove",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 32,
+    "name": "B32: Acoustic Piano 01 #2",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-b",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 33,
+    "name": "B33: Dyno Tine EP #2",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-b",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 34,
+    "name": "B34: Rock Organ B3 #2",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-b",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 35,
+    "name": "B35: Full Pipe Organ #2",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-b",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 36,
+    "name": "B36: Clavinet Funk #2",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-b",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 37,
+    "name": "B37: Harpsichord Baroque #2",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 38,
+    "name": "B38: Symphonic Strings #2",
+    "category": "STRINGS",
+    "tags": [
+      "01w",
+      "bank-b",
+      "strings"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 39,
+    "name": "B39: Warm Lush Pad #2",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 40,
+    "name": "B40: Solo Cello Dark #2",
+    "category": "STRINGS",
+    "tags": [
+      "01w",
+      "bank-b",
+      "strings"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 41,
+    "name": "B41: Pizzicato Section #2",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 42,
+    "name": "B42: Fanfare Trumpets #2",
+    "category": "BRASS",
+    "tags": [
+      "01w",
+      "bank-b",
+      "brass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 43,
+    "name": "B43: Warm French Horns #2",
+    "category": "BRASS",
+    "tags": [
+      "01w",
+      "bank-b",
+      "brass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 44,
+    "name": "B44: Orchestra Brass #2",
+    "category": "BRASS",
+    "tags": [
+      "01w",
+      "bank-b",
+      "brass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 45,
+    "name": "B45: Trombone Section #2",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 46,
+    "name": "B46: Acoustic Upright Bass #2",
+    "category": "BASS",
+    "tags": [
+      "01w",
+      "bank-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 47,
+    "name": "B47: Slap Funk Bass #2",
+    "category": "BASS",
+    "tags": [
+      "01w",
+      "bank-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 48,
+    "name": "B48: Fretless Bass Mwah #2",
+    "category": "BASS",
+    "tags": [
+      "01w",
+      "bank-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 49,
+    "name": "B49: Precision Pop Bass #2",
+    "category": "BASS",
+    "tags": [
+      "01w",
+      "bank-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 50,
+    "name": "B50: Moog Sub Bass #2",
+    "category": "BASS",
+    "tags": [
+      "01w",
+      "bank-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 51,
+    "name": "B51: Waveshaped Lead #2",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 52,
+    "name": "B52: Aggressive Reso 01 #2",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 53,
+    "name": "B53: Super Saw Stack #2",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 54,
+    "name": "B54: Universe 01 Pad #2",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 55,
+    "name": "B55: Ether Vox Choir #2",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 56,
+    "name": "B56: Shakuhachi Flute #2",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 57,
+    "name": "B57: Pan Flute Andes #2",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 58,
+    "name": "B58: Indian Sitar Master #2",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 59,
+    "name": "B59: Caribbean Steel Drum #2",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 60,
+    "name": "B60: Concert Marimba #2",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 61,
+    "name": "B61: Vibraphone Jazz #2",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 62,
+    "name": "B62: Orchestra Hit 01 #2",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 63,
+    "name": "B63: Techno Pulse Groove #2",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 64,
+    "name": "B64: Acoustic Piano 01 #3",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-b",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 65,
+    "name": "B65: Dyno Tine EP #3",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-b",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 66,
+    "name": "B66: Rock Organ B3 #3",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-b",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 67,
+    "name": "B67: Full Pipe Organ #3",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-b",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 68,
+    "name": "B68: Clavinet Funk #3",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-b",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 69,
+    "name": "B69: Harpsichord Baroque #3",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 70,
+    "name": "B70: Symphonic Strings #3",
+    "category": "STRINGS",
+    "tags": [
+      "01w",
+      "bank-b",
+      "strings"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 71,
+    "name": "B71: Warm Lush Pad #3",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 72,
+    "name": "B72: Solo Cello Dark #3",
+    "category": "STRINGS",
+    "tags": [
+      "01w",
+      "bank-b",
+      "strings"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 73,
+    "name": "B73: Pizzicato Section #3",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 74,
+    "name": "B74: Fanfare Trumpets #3",
+    "category": "BRASS",
+    "tags": [
+      "01w",
+      "bank-b",
+      "brass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 75,
+    "name": "B75: Warm French Horns #3",
+    "category": "BRASS",
+    "tags": [
+      "01w",
+      "bank-b",
+      "brass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 76,
+    "name": "B76: Orchestra Brass #3",
+    "category": "BRASS",
+    "tags": [
+      "01w",
+      "bank-b",
+      "brass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 77,
+    "name": "B77: Trombone Section #3",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 78,
+    "name": "B78: Acoustic Upright Bass #3",
+    "category": "BASS",
+    "tags": [
+      "01w",
+      "bank-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 79,
+    "name": "B79: Slap Funk Bass #3",
+    "category": "BASS",
+    "tags": [
+      "01w",
+      "bank-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 80,
+    "name": "B80: Fretless Bass Mwah #3",
+    "category": "BASS",
+    "tags": [
+      "01w",
+      "bank-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 81,
+    "name": "B81: Precision Pop Bass #3",
+    "category": "BASS",
+    "tags": [
+      "01w",
+      "bank-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 82,
+    "name": "B82: Moog Sub Bass #3",
+    "category": "BASS",
+    "tags": [
+      "01w",
+      "bank-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 83,
+    "name": "B83: Waveshaped Lead #3",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 84,
+    "name": "B84: Aggressive Reso 01 #3",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 85,
+    "name": "B85: Super Saw Stack #3",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 86,
+    "name": "B86: Universe 01 Pad #3",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 87,
+    "name": "B87: Ether Vox Choir #3",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 88,
+    "name": "B88: Shakuhachi Flute #3",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 89,
+    "name": "B89: Pan Flute Andes #3",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 90,
+    "name": "B90: Indian Sitar Master #3",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 91,
+    "name": "B91: Caribbean Steel Drum #3",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 92,
+    "name": "B92: Concert Marimba #3",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 93,
+    "name": "B93: Vibraphone Jazz #3",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 94,
+    "name": "B94: Orchestra Hit 01 #3",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 95,
+    "name": "B95: Techno Pulse Groove #3",
+    "category": "SYNTH",
+    "tags": [
+      "01w",
+      "bank-b",
+      "synth"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 96,
+    "name": "B96: Acoustic Piano 01 #4",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-b",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 97,
+    "name": "B97: Dyno Tine EP #4",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-b",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 98,
+    "name": "B98: Rock Organ B3 #4",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-b",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "PROGRAM BANK B",
+    "program": 99,
+    "name": "B99: Full Pipe Organ #4",
+    "category": "KEYBOARD",
+    "tags": [
+      "01w",
+      "bank-b",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 0,
+    "name": "Combi A00: Acoustic Piano 01 Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 1,
+    "name": "Combi A01: Dyno Tine EP Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 2,
+    "name": "Combi A02: Rock Organ B3 Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 3,
+    "name": "Combi A03: Full Pipe Organ Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 4,
+    "name": "Combi A04: Clavinet Funk Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 5,
+    "name": "Combi A05: Harpsichord Baroque Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 6,
+    "name": "Combi A06: Symphonic Strings Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 7,
+    "name": "Combi A07: Warm Lush Pad Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 8,
+    "name": "Combi A08: Solo Cello Dark Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 9,
+    "name": "Combi A09: Pizzicato Section Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 10,
+    "name": "Combi A10: Fanfare Trumpets Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 11,
+    "name": "Combi A11: Warm French Horns Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 12,
+    "name": "Combi A12: Orchestra Brass Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 13,
+    "name": "Combi A13: Trombone Section Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 14,
+    "name": "Combi A14: Acoustic Upright Bass Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 15,
+    "name": "Combi A15: Slap Funk Bass Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 16,
+    "name": "Combi A16: Fretless Bass Mwah Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 17,
+    "name": "Combi A17: Precision Pop Bass Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 18,
+    "name": "Combi A18: Moog Sub Bass Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 19,
+    "name": "Combi A19: Waveshaped Lead Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 20,
+    "name": "Combi A20: Aggressive Reso 01 Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 21,
+    "name": "Combi A21: Super Saw Stack Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 22,
+    "name": "Combi A22: Universe 01 Pad Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 23,
+    "name": "Combi A23: Ether Vox Choir Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 24,
+    "name": "Combi A24: Shakuhachi Flute Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 25,
+    "name": "Combi A25: Pan Flute Andes Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 26,
+    "name": "Combi A26: Indian Sitar Master Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 27,
+    "name": "Combi A27: Caribbean Steel Drum Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 28,
+    "name": "Combi A28: Concert Marimba Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 29,
+    "name": "Combi A29: Vibraphone Jazz Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 30,
+    "name": "Combi A30: Orchestra Hit 01 Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 31,
+    "name": "Combi A31: Techno Pulse Groove Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 32,
+    "name": "Combi A32: Acoustic Piano 01 Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 33,
+    "name": "Combi A33: Dyno Tine EP Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 34,
+    "name": "Combi A34: Rock Organ B3 Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 35,
+    "name": "Combi A35: Full Pipe Organ Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 36,
+    "name": "Combi A36: Clavinet Funk Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 37,
+    "name": "Combi A37: Harpsichord Baroque Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 38,
+    "name": "Combi A38: Symphonic Strings Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 39,
+    "name": "Combi A39: Warm Lush Pad Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 40,
+    "name": "Combi A40: Solo Cello Dark Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 41,
+    "name": "Combi A41: Pizzicato Section Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 42,
+    "name": "Combi A42: Fanfare Trumpets Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 43,
+    "name": "Combi A43: Warm French Horns Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 44,
+    "name": "Combi A44: Orchestra Brass Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 45,
+    "name": "Combi A45: Trombone Section Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 46,
+    "name": "Combi A46: Acoustic Upright Bass Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 47,
+    "name": "Combi A47: Slap Funk Bass Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 48,
+    "name": "Combi A48: Fretless Bass Mwah Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 49,
+    "name": "Combi A49: Precision Pop Bass Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 50,
+    "name": "Combi A50: Moog Sub Bass Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 51,
+    "name": "Combi A51: Waveshaped Lead Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 52,
+    "name": "Combi A52: Aggressive Reso 01 Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 53,
+    "name": "Combi A53: Super Saw Stack Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 54,
+    "name": "Combi A54: Universe 01 Pad Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 55,
+    "name": "Combi A55: Ether Vox Choir Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 56,
+    "name": "Combi A56: Shakuhachi Flute Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 57,
+    "name": "Combi A57: Pan Flute Andes Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 58,
+    "name": "Combi A58: Indian Sitar Master Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 59,
+    "name": "Combi A59: Caribbean Steel Drum Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 60,
+    "name": "Combi A60: Concert Marimba Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 61,
+    "name": "Combi A61: Vibraphone Jazz Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 62,
+    "name": "Combi A62: Orchestra Hit 01 Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 63,
+    "name": "Combi A63: Techno Pulse Groove Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 64,
+    "name": "Combi A64: Acoustic Piano 01 Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 65,
+    "name": "Combi A65: Dyno Tine EP Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 66,
+    "name": "Combi A66: Rock Organ B3 Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 67,
+    "name": "Combi A67: Full Pipe Organ Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 68,
+    "name": "Combi A68: Clavinet Funk Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 69,
+    "name": "Combi A69: Harpsichord Baroque Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 70,
+    "name": "Combi A70: Symphonic Strings Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 71,
+    "name": "Combi A71: Warm Lush Pad Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 72,
+    "name": "Combi A72: Solo Cello Dark Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 73,
+    "name": "Combi A73: Pizzicato Section Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 74,
+    "name": "Combi A74: Fanfare Trumpets Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 75,
+    "name": "Combi A75: Warm French Horns Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 76,
+    "name": "Combi A76: Orchestra Brass Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 77,
+    "name": "Combi A77: Trombone Section Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 78,
+    "name": "Combi A78: Acoustic Upright Bass Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 79,
+    "name": "Combi A79: Slap Funk Bass Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 80,
+    "name": "Combi A80: Fretless Bass Mwah Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 81,
+    "name": "Combi A81: Precision Pop Bass Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 82,
+    "name": "Combi A82: Moog Sub Bass Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 83,
+    "name": "Combi A83: Waveshaped Lead Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 84,
+    "name": "Combi A84: Aggressive Reso 01 Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 85,
+    "name": "Combi A85: Super Saw Stack Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 86,
+    "name": "Combi A86: Universe 01 Pad Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 87,
+    "name": "Combi A87: Ether Vox Choir Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 88,
+    "name": "Combi A88: Shakuhachi Flute Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 89,
+    "name": "Combi A89: Pan Flute Andes Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 90,
+    "name": "Combi A90: Indian Sitar Master Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 91,
+    "name": "Combi A91: Caribbean Steel Drum Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 92,
+    "name": "Combi A92: Concert Marimba Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 93,
+    "name": "Combi A93: Vibraphone Jazz Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 94,
+    "name": "Combi A94: Orchestra Hit 01 Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 95,
+    "name": "Combi A95: Techno Pulse Groove Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 96,
+    "name": "Combi A96: Acoustic Piano 01 Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 97,
+    "name": "Combi A97: Dyno Tine EP Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 98,
+    "name": "Combi A98: Rock Organ B3 Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK A",
+    "program": 99,
+    "name": "Combi A99: Full Pipe Organ Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-a"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 0,
+    "name": "Combi B00: Acoustic Piano 01 Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 1,
+    "name": "Combi B01: Dyno Tine EP Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 2,
+    "name": "Combi B02: Rock Organ B3 Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 3,
+    "name": "Combi B03: Full Pipe Organ Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 4,
+    "name": "Combi B04: Clavinet Funk Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 5,
+    "name": "Combi B05: Harpsichord Baroque Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 6,
+    "name": "Combi B06: Symphonic Strings Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 7,
+    "name": "Combi B07: Warm Lush Pad Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 8,
+    "name": "Combi B08: Solo Cello Dark Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 9,
+    "name": "Combi B09: Pizzicato Section Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 10,
+    "name": "Combi B10: Fanfare Trumpets Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 11,
+    "name": "Combi B11: Warm French Horns Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 12,
+    "name": "Combi B12: Orchestra Brass Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 13,
+    "name": "Combi B13: Trombone Section Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 14,
+    "name": "Combi B14: Acoustic Upright Bass Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 15,
+    "name": "Combi B15: Slap Funk Bass Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 16,
+    "name": "Combi B16: Fretless Bass Mwah Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 17,
+    "name": "Combi B17: Precision Pop Bass Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 18,
+    "name": "Combi B18: Moog Sub Bass Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 19,
+    "name": "Combi B19: Waveshaped Lead Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 20,
+    "name": "Combi B20: Aggressive Reso 01 Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 21,
+    "name": "Combi B21: Super Saw Stack Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 22,
+    "name": "Combi B22: Universe 01 Pad Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 23,
+    "name": "Combi B23: Ether Vox Choir Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 24,
+    "name": "Combi B24: Shakuhachi Flute Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 25,
+    "name": "Combi B25: Pan Flute Andes Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 26,
+    "name": "Combi B26: Indian Sitar Master Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 27,
+    "name": "Combi B27: Caribbean Steel Drum Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 28,
+    "name": "Combi B28: Concert Marimba Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 29,
+    "name": "Combi B29: Vibraphone Jazz Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 30,
+    "name": "Combi B30: Orchestra Hit 01 Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 31,
+    "name": "Combi B31: Techno Pulse Groove Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 32,
+    "name": "Combi B32: Acoustic Piano 01 Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 33,
+    "name": "Combi B33: Dyno Tine EP Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 34,
+    "name": "Combi B34: Rock Organ B3 Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 35,
+    "name": "Combi B35: Full Pipe Organ Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 36,
+    "name": "Combi B36: Clavinet Funk Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 37,
+    "name": "Combi B37: Harpsichord Baroque Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 38,
+    "name": "Combi B38: Symphonic Strings Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 39,
+    "name": "Combi B39: Warm Lush Pad Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 40,
+    "name": "Combi B40: Solo Cello Dark Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 41,
+    "name": "Combi B41: Pizzicato Section Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 42,
+    "name": "Combi B42: Fanfare Trumpets Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 43,
+    "name": "Combi B43: Warm French Horns Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 44,
+    "name": "Combi B44: Orchestra Brass Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 45,
+    "name": "Combi B45: Trombone Section Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 46,
+    "name": "Combi B46: Acoustic Upright Bass Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 47,
+    "name": "Combi B47: Slap Funk Bass Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 48,
+    "name": "Combi B48: Fretless Bass Mwah Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 49,
+    "name": "Combi B49: Precision Pop Bass Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 50,
+    "name": "Combi B50: Moog Sub Bass Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 51,
+    "name": "Combi B51: Waveshaped Lead Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 52,
+    "name": "Combi B52: Aggressive Reso 01 Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 53,
+    "name": "Combi B53: Super Saw Stack Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 54,
+    "name": "Combi B54: Universe 01 Pad Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 55,
+    "name": "Combi B55: Ether Vox Choir Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 56,
+    "name": "Combi B56: Shakuhachi Flute Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 57,
+    "name": "Combi B57: Pan Flute Andes Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 58,
+    "name": "Combi B58: Indian Sitar Master Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 59,
+    "name": "Combi B59: Caribbean Steel Drum Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 60,
+    "name": "Combi B60: Concert Marimba Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 61,
+    "name": "Combi B61: Vibraphone Jazz Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 62,
+    "name": "Combi B62: Orchestra Hit 01 Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 63,
+    "name": "Combi B63: Techno Pulse Groove Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 64,
+    "name": "Combi B64: Acoustic Piano 01 Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 65,
+    "name": "Combi B65: Dyno Tine EP Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 66,
+    "name": "Combi B66: Rock Organ B3 Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 67,
+    "name": "Combi B67: Full Pipe Organ Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 68,
+    "name": "Combi B68: Clavinet Funk Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 69,
+    "name": "Combi B69: Harpsichord Baroque Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 70,
+    "name": "Combi B70: Symphonic Strings Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 71,
+    "name": "Combi B71: Warm Lush Pad Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 72,
+    "name": "Combi B72: Solo Cello Dark Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 73,
+    "name": "Combi B73: Pizzicato Section Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 74,
+    "name": "Combi B74: Fanfare Trumpets Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 75,
+    "name": "Combi B75: Warm French Horns Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 76,
+    "name": "Combi B76: Orchestra Brass Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 77,
+    "name": "Combi B77: Trombone Section Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 78,
+    "name": "Combi B78: Acoustic Upright Bass Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 79,
+    "name": "Combi B79: Slap Funk Bass Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 80,
+    "name": "Combi B80: Fretless Bass Mwah Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 81,
+    "name": "Combi B81: Precision Pop Bass Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 82,
+    "name": "Combi B82: Moog Sub Bass Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 83,
+    "name": "Combi B83: Waveshaped Lead Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 84,
+    "name": "Combi B84: Aggressive Reso 01 Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 85,
+    "name": "Combi B85: Super Saw Stack Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 86,
+    "name": "Combi B86: Universe 01 Pad Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 87,
+    "name": "Combi B87: Ether Vox Choir Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 88,
+    "name": "Combi B88: Shakuhachi Flute Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 89,
+    "name": "Combi B89: Pan Flute Andes Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 90,
+    "name": "Combi B90: Indian Sitar Master Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 91,
+    "name": "Combi B91: Caribbean Steel Drum Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 92,
+    "name": "Combi B92: Concert Marimba Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 93,
+    "name": "Combi B93: Vibraphone Jazz Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 94,
+    "name": "Combi B94: Orchestra Hit 01 Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 95,
+    "name": "Combi B95: Techno Pulse Groove Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 96,
+    "name": "Combi B96: Acoustic Piano 01 Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 97,
+    "name": "Combi B97: Dyno Tine EP Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 98,
+    "name": "Combi B98: Rock Organ B3 Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  },
+  {
+    "bank": "COMBINATION BANK B",
+    "program": 99,
+    "name": "Combi B99: Full Pipe Organ Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "01w",
+      "combi-b"
+    ]
+  }
+]

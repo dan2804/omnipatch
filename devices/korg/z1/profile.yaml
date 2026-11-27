@@ -1,0 +1,61 @@
+schema_version: 1.0.0
+manufacturer: Korg
+name: Korg Z1
+family: MOSS Series
+category: 12-Voice Polyphonic MOSS Physical Modeling Synthesizer
+year: 1997
+voice_architecture:
+  voices: 12
+  parts: 6
+  sound_engine: Polyphonic MOSS Architecture with 13 oscillator algorithms
+  touchpad: X-Y Touchpad Controller & 5 realtime sound modification knobs
+  arpeggiators: Dual Polyphonic Arpeggiators with dynamic user patterning
+midi_specs:
+  basic_channel: 1
+  manufacturer_id: '0x42'
+  model_id: '0x46'
+  handshake: false
+  pacing_delay_ms: 25
+parameters:
+- id: osc1_algorithm
+  name: Osc 1 MOSS Algorithm
+  type: enum
+  options:
+  - Standard
+  - Comb
+  - VPM
+  - Resonance
+  - Ring Mod
+  - Cross Mod
+  - Sync
+  - Organ
+  - Electric Piano
+  - Brass
+  - Reed
+  - Pluck
+  - Bowed
+  default: Standard
+- id: vcf_cutoff
+  name: Dual Filter Cutoff
+  type: range
+  min: 0
+  max: 99
+  default: 80
+- id: vcf_resonance
+  name: Dual Filter Resonance
+  type: range
+  min: 0
+  max: 99
+  default: 35
+- id: xy_pad_x
+  name: X-Y Pad X Coordinate
+  type: range
+  min: -63
+  max: 63
+  default: 0
+- id: xy_pad_y
+  name: X-Y Pad Y Coordinate
+  type: range
+  min: -63
+  max: 63
+  default: 0

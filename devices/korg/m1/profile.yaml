@@ -1,0 +1,94 @@
+schema_version: 1.0.0
+manufacturer: Korg
+name: Korg M1
+family: M Series
+category: AI Synthesis Music Workstation
+year: 1988
+voice_architecture:
+  voices: 16
+  oscillators: 1 or 2 Digital Multisound PCM Oscillators per voice (4MB 16-bit PCM
+    ROM)
+  filter_type: Digital Lowpass VDF (Variable Digital Filter) with Keyboard Tracking
+    & EG
+  amplifier: Digital VDA (Variable Digital Amplifier) with Key Tracking & EG
+  effects: Dual Multi-Effects Processors (Reverb, Early Reflections, Stereo Delay,
+    Chorus, Flanger, Tremolo, Equalizer, Exciter)
+  sequencer: 8-track 7,700-note sequencer (up to 10 songs and 100 patterns)
+  famous_patches: 00 Universe, 01 Piano 16' (the house piano that defined 90s dance
+    music), 16 E.Bass 1, 09 Pan Flute
+midi_specs:
+  basic_channel: 1
+  manufacturer_id: '0x42'
+  format_id: '0x19'
+  handshake: false
+  pacing_delay_ms: 30
+parameters:
+- id: vdf_cutoff
+  name: VDF Filter Cutoff
+  type: range
+  min: 0
+  max: 99
+  default: 80
+- id: vdf_eg_intensity
+  name: VDF EG Intensity
+  type: range
+  min: -99
+  max: 99
+  default: 40
+- id: vdf_attack_time
+  name: VDF EG Attack Time
+  type: range
+  min: 0
+  max: 99
+  default: 10
+- id: vdf_decay_time
+  name: VDF EG Decay Time
+  type: range
+  min: 0
+  max: 99
+  default: 50
+- id: vdf_release_time
+  name: VDF EG Release Time
+  type: range
+  min: 0
+  max: 99
+  default: 30
+- id: vda_attack_time
+  name: VDA EG Attack Time
+  type: range
+  min: 0
+  max: 99
+  default: 0
+- id: vda_decay_time
+  name: VDA EG Decay Time
+  type: range
+  min: 0
+  max: 99
+  default: 60
+- id: vda_release_time
+  name: VDA EG Release Time
+  type: range
+  min: 0
+  max: 99
+  default: 25
+- id: effect1_type
+  name: Effect 1 Type
+  type: enum
+  options:
+  - Hall Reverb
+  - Ensemble Hall
+  - Room Reverb
+  - Early Reflections
+  - Delay
+  - Chorus
+  - Flanger
+  - Rotary
+  - Exciter
+  default: Hall Reverb
+- id: effect1_mix
+  name: Effect 1 Dry/Wet Mix
+  type: range
+  min: 0
+  max: 100
+  unit: '%'
+  default: 40

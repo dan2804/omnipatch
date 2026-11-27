@@ -1,0 +1,706 @@
+[
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 1,
+    "name": "11 Brass Ensemble 1",
+    "category": "BRASS",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "brass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 2,
+    "name": "12 Brass Ensemble 2",
+    "category": "BRASS",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "brass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 3,
+    "name": "13 Horn Solo",
+    "category": "BRASS",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "brass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 4,
+    "name": "14 Trumpet Solo",
+    "category": "BRASS",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "brass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 5,
+    "name": "15 String Section 1",
+    "category": "STRINGS",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "strings"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 6,
+    "name": "16 String Section 2",
+    "category": "STRINGS",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "strings"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 7,
+    "name": "17 Solo Cello",
+    "category": "STRINGS",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "strings"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 8,
+    "name": "18 Solo Violin",
+    "category": "STRINGS",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "strings"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 9,
+    "name": "21 Electric Piano 1",
+    "category": "KEYBOARD",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 10,
+    "name": "22 Electric Piano 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 11,
+    "name": "23 Honky-Tonk",
+    "category": "SYNTH",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 12,
+    "name": "24 Clavinet 1",
+    "category": "KEYBOARD",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 13,
+    "name": "25 Harpsichord",
+    "category": "SYNTH",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 14,
+    "name": "26 Pipe Organ",
+    "category": "KEYBOARD",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 15,
+    "name": "27 Jazz Organ",
+    "category": "KEYBOARD",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 16,
+    "name": "28 Rock Organ",
+    "category": "KEYBOARD",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 17,
+    "name": "31 Slap Bass 1",
+    "category": "BASS",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "bass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 18,
+    "name": "32 Slap Bass 2",
+    "category": "BASS",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "bass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 19,
+    "name": "33 Synth Bass 1",
+    "category": "BASS",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "bass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 20,
+    "name": "34 Synth Bass 2",
+    "category": "BASS",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "bass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 21,
+    "name": "35 Fretless Bass",
+    "category": "BASS",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "bass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 22,
+    "name": "36 Wood Bass",
+    "category": "BASS",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "bass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 23,
+    "name": "37 Flute Solo",
+    "category": "SYNTH",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 24,
+    "name": "38 Pan Flute",
+    "category": "SYNTH",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 25,
+    "name": "41 DWGS Bell 1",
+    "category": "SYNTH",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 26,
+    "name": "42 DWGS Bell 2",
+    "category": "SYNTH",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 27,
+    "name": "43 Marimba",
+    "category": "SYNTH",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 28,
+    "name": "44 Vibes",
+    "category": "SYNTH",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 29,
+    "name": "45 Steel Drum",
+    "category": "SYNTH",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 30,
+    "name": "46 Koto",
+    "category": "SYNTH",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 31,
+    "name": "47 Sitar",
+    "category": "SYNTH",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 32,
+    "name": "48 Harmonica",
+    "category": "SYNTH",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 33,
+    "name": "51 Poly Synth 1",
+    "category": "SYNTH",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 34,
+    "name": "52 Poly Synth 2",
+    "category": "SYNTH",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 35,
+    "name": "53 Reso Sweep Lead",
+    "category": "SYNTH",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 36,
+    "name": "54 Sync Solo",
+    "category": "SYNTH",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 37,
+    "name": "55 Fifth Lead",
+    "category": "SYNTH",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 38,
+    "name": "56 Square Solo",
+    "category": "SYNTH",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 39,
+    "name": "57 Saw Stack Solo",
+    "category": "SYNTH",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 40,
+    "name": "58 Modular Brass",
+    "category": "BRASS",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "brass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 41,
+    "name": "61 Space Pad 1",
+    "category": "SYNTH",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 42,
+    "name": "62 Space Pad 2",
+    "category": "SYNTH",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 43,
+    "name": "63 Analog Strings",
+    "category": "STRINGS",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "strings"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 44,
+    "name": "64 Digital Chime",
+    "category": "SYNTH",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 45,
+    "name": "65 Crystal Bells",
+    "category": "SYNTH",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 46,
+    "name": "66 Metallic Hit",
+    "category": "SYNTH",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 47,
+    "name": "67 Windstorm FX",
+    "category": "SYNTH",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 48,
+    "name": "68 Sci-Fi Siren",
+    "category": "SYNTH",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 49,
+    "name": "71 Delay Echo Pluck",
+    "category": "SYNTH",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 50,
+    "name": "72 Delay Lead Solo",
+    "category": "SYNTH",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 51,
+    "name": "73 Slap Echo Bass",
+    "category": "BASS",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "bass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 52,
+    "name": "74 Rotary Delay Organ",
+    "category": "KEYBOARD",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 53,
+    "name": "75 Arpeggio Pluck",
+    "category": "SYNTH",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 54,
+    "name": "76 Synth Chime",
+    "category": "SYNTH",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 55,
+    "name": "77 Laser Zap Drop",
+    "category": "SYNTH",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 56,
+    "name": "78 Ocean Wave FX",
+    "category": "SYNTH",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 57,
+    "name": "81 Funky DWGS Clav",
+    "category": "KEYBOARD",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 58,
+    "name": "82 Fat Analog Horns",
+    "category": "BRASS",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "brass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 59,
+    "name": "83 Warm Cello Pad",
+    "category": "STRINGS",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "strings"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 60,
+    "name": "84 Sub Bass 8000",
+    "category": "BASS",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "bass"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 61,
+    "name": "85 Acid Squelch DW",
+    "category": "SYNTH",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 62,
+    "name": "86 Cybernetic Lead",
+    "category": "SYNTH",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 63,
+    "name": "87 Cathedral Tutti",
+    "category": "SYNTH",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "synth"
+    ]
+  },
+  {
+    "bank": "FACTORY PRESETS",
+    "program": 64,
+    "name": "88 DW-8000 Signature",
+    "category": "SYNTH",
+    "tags": [
+      "dw8000",
+      "dwgs-analog",
+      "synth"
+    ]
+  }
+]

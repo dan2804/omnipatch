@@ -1,0 +1,64 @@
+schema_version: 1.0.0
+manufacturer: Korg
+name: Korg Wavestation
+family: Wavestation Series
+category: Advanced Vector Synthesis & Wave Sequencing
+year: 1990
+voice_architecture:
+  voices: 32
+  oscillators: 4 Vector Oscillators (A, B, C, D) per patch with 2-axis Joystick dynamic
+    vector crossfading
+  wave_sequencing: Rhythmic Wave Sequencing (chains of up to 255 wave steps with programmable
+    duration, crossfade, and pitch)
+  waveforms: 365 PCM waveforms (16-bit 32kHz sampled waveforms, digital single-cycle
+    waves, vector transients)
+  effects: Dual 24-bit multi-effects processors (Overdrive, Stereo Delay, Chorus,
+    Stereo Flanger, Reverb, Pitch Shifter)
+  vector_joystick: Realtime X/Y Joystick with automated vector envelope recording
+    and looping
+midi_specs:
+  basic_channel: 1
+  manufacturer_id: '0x42'
+  model_id: '0x28'
+  handshake: false
+  pacing_delay_ms: 25
+parameters:
+- id: vector_pos_x
+  name: Vector Joystick X (A-C Balance)
+  type: range
+  min: -127
+  max: 127
+  default: 0
+- id: vector_pos_y
+  name: Vector Joystick Y (B-D Balance)
+  type: range
+  min: -127
+  max: 127
+  default: 0
+- id: wave_seq_sync
+  name: Wave Sequence MIDI Clock Sync
+  type: enum
+  options:
+  - Internal
+  - MIDI Clock
+  default: MIDI Clock
+- id: filter_cutoff
+  name: Lowpass Filter Cutoff
+  type: range
+  min: 0
+  max: 99
+  default: 85
+- id: fx1_mix
+  name: FX 1 Wet/Dry Mix
+  type: range
+  min: 0
+  max: 100
+  unit: '%'
+  default: 35
+- id: fx2_mix
+  name: FX 2 Wet/Dry Mix
+  type: range
+  min: 0
+  max: 100
+  unit: '%'
+  default: 25

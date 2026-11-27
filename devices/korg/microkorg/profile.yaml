@@ -1,0 +1,50 @@
+schema_version: 1.0.0
+manufacturer: Korg
+name: Korg microKORG
+family: Micro Series
+category: Compact Analog Modeling Synthesizer / Vocoder
+year: 2002
+voice_architecture:
+  voices: 4
+  oscillators: 2 Virtual Analog Oscillators with 71 DWGS waveforms
+  vocoder: 8-band Vocoder with condenser gooseneck microphone input
+  keyboard: 37 velocity-sensitive mini keys
+  filter: Multimode resonant filter (24dB LPF, 12dB LPF, 12dB BPF, 12dB HPF)
+  arpeggiator: Programmable 8-step arpeggiator
+midi_specs:
+  basic_channel: 1
+  manufacturer_id: '0x42'
+  model_id: '0x58'
+  handshake: false
+  pacing_delay_ms: 25
+parameters:
+- id: cutoff
+  name: Filter Cutoff Knob 1
+  type: range
+  min: 0
+  max: 127
+  default: 70
+- id: resonance
+  name: Filter Resonance Knob 2
+  type: range
+  min: 0
+  max: 127
+  default: 30
+- id: attack
+  name: Amp Attack Knob 3
+  type: range
+  min: 0
+  max: 127
+  default: 10
+- id: decay
+  name: Amp Decay Knob 4
+  type: range
+  min: 0
+  max: 127
+  default: 60
+- id: release
+  name: Amp Release Knob 5
+  type: range
+  min: 0
+  max: 127
+  default: 35

@@ -1,0 +1,65 @@
+schema_version: 1.0.0
+manufacturer: Korg
+name: Korg DW-8000
+family: DW Series
+category: Hybrid DWGS Synthesizer with Analog VCF
+year: 1985
+voice_architecture:
+  voices: 8
+  oscillators: 2 DWGS (Digital Waveform Generator System) oscillators per voice (16
+    sampled waveforms)
+  filter_type: NJM2069 24dB/oct 4-Pole Discrete Analog Resonant Lowpass VCF
+  delay: Built-in Digital Delay (up to 512ms delay time with feedback)
+  keyboard: 61 keys with Velocity and Aftertouch
+midi_specs:
+  basic_channel: 1
+  manufacturer_id: '0x42'
+  model_id: '0x03'
+  handshake: false
+  pacing_delay_ms: 30
+parameters:
+- id: osc1_waveform
+  name: Osc 1 DWGS Waveform
+  type: enum
+  options:
+  - '1: Sawtooth'
+  - '2: Square'
+  - '3: Pulse 1'
+  - '4: Pulse 2'
+  - '5: Sine'
+  - '6: Brass'
+  - '7: Strings'
+  - '8: Electric Piano'
+  - '9: Clavinet'
+  - '10: Acoustic Piano'
+  - '11: Bell'
+  - '12: Organ'
+  - '13: Acoustic Guitar'
+  - '14: Slap Bass'
+  - '15: Synth Bass'
+  - '16: White Noise'
+  default: '1: Sawtooth'
+- id: vcf_cutoff
+  name: VCF Analog Cutoff
+  type: range
+  min: 0
+  max: 63
+  default: 45
+- id: vcf_resonance
+  name: VCF Analog Resonance
+  type: range
+  min: 0
+  max: 31
+  default: 15
+- id: delay_time
+  name: Digital Delay Time
+  type: range
+  min: 0
+  max: 7
+  default: 4
+- id: delay_feedback
+  name: Delay Feedback Amount
+  type: range
+  min: 0
+  max: 15
+  default: 6

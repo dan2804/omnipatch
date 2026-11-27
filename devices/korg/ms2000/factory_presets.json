@@ -1,0 +1,1410 @@
+[
+  {
+    "bank": "BANK A",
+    "program": 1,
+    "name": "A01: Vintage MS Saw Lead",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK A",
+    "program": 2,
+    "name": "A02: Fat Acid TB Bass",
+    "category": "BASS",
+    "tags": [
+      "ms2000",
+      "bank-a",
+      "bass"
+    ]
+  },
+  {
+    "bank": "BANK A",
+    "program": 3,
+    "name": "A03: Poly PWM Strings",
+    "category": "PAD",
+    "tags": [
+      "ms2000",
+      "bank-a",
+      "pad"
+    ]
+  },
+  {
+    "bank": "BANK A",
+    "program": 4,
+    "name": "A04: 16-Band Robot Vox",
+    "category": "VOCODER",
+    "tags": [
+      "ms2000",
+      "bank-a",
+      "vocoder"
+    ]
+  },
+  {
+    "bank": "BANK A",
+    "program": 5,
+    "name": "A05: Techno Motion Arp",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK A",
+    "program": 6,
+    "name": "A06: Sub Low Sine 808",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK A",
+    "program": 7,
+    "name": "A07: Hardcore Square Solo",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK A",
+    "program": 8,
+    "name": "A08: Dual Sync Aggressor",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK A",
+    "program": 9,
+    "name": "A09: Warm Analog Brass",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK A",
+    "program": 10,
+    "name": "A10: Dreamy Space Pad",
+    "category": "PAD",
+    "tags": [
+      "ms2000",
+      "bank-a",
+      "pad"
+    ]
+  },
+  {
+    "bank": "BANK A",
+    "program": 11,
+    "name": "A11: DWGS Bell Bells",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK A",
+    "program": 12,
+    "name": "A12: Step Sequencer Hook",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK A",
+    "program": 13,
+    "name": "A13: Formant Filter Vowel",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK A",
+    "program": 14,
+    "name": "A14: Rotterdam Rave Stab",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK A",
+    "program": 15,
+    "name": "A15: Solina String Machine",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK A",
+    "program": 16,
+    "name": "A16: Electro Funk Clav",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-a",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK B",
+    "program": 1,
+    "name": "B01: Vintage MS Saw Lead v2",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-b",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK B",
+    "program": 2,
+    "name": "B02: Fat Acid TB Bass v2",
+    "category": "BASS",
+    "tags": [
+      "ms2000",
+      "bank-b",
+      "bass"
+    ]
+  },
+  {
+    "bank": "BANK B",
+    "program": 3,
+    "name": "B03: Poly PWM Strings v2",
+    "category": "PAD",
+    "tags": [
+      "ms2000",
+      "bank-b",
+      "pad"
+    ]
+  },
+  {
+    "bank": "BANK B",
+    "program": 4,
+    "name": "B04: 16-Band Robot Vox v2",
+    "category": "VOCODER",
+    "tags": [
+      "ms2000",
+      "bank-b",
+      "vocoder"
+    ]
+  },
+  {
+    "bank": "BANK B",
+    "program": 5,
+    "name": "B05: Techno Motion Arp v2",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-b",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK B",
+    "program": 6,
+    "name": "B06: Sub Low Sine 808 v2",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-b",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK B",
+    "program": 7,
+    "name": "B07: Hardcore Square Solo v2",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-b",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK B",
+    "program": 8,
+    "name": "B08: Dual Sync Aggressor v2",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-b",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK B",
+    "program": 9,
+    "name": "B09: Warm Analog Brass v2",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-b",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK B",
+    "program": 10,
+    "name": "B10: Dreamy Space Pad v2",
+    "category": "PAD",
+    "tags": [
+      "ms2000",
+      "bank-b",
+      "pad"
+    ]
+  },
+  {
+    "bank": "BANK B",
+    "program": 11,
+    "name": "B11: DWGS Bell Bells v2",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-b",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK B",
+    "program": 12,
+    "name": "B12: Step Sequencer Hook v2",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-b",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK B",
+    "program": 13,
+    "name": "B13: Formant Filter Vowel v2",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-b",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK B",
+    "program": 14,
+    "name": "B14: Rotterdam Rave Stab v2",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-b",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK B",
+    "program": 15,
+    "name": "B15: Solina String Machine v2",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-b",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK B",
+    "program": 16,
+    "name": "B16: Electro Funk Clav v2",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-b",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK C",
+    "program": 1,
+    "name": "C01: Vintage MS Saw Lead v3",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-c",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK C",
+    "program": 2,
+    "name": "C02: Fat Acid TB Bass v3",
+    "category": "BASS",
+    "tags": [
+      "ms2000",
+      "bank-c",
+      "bass"
+    ]
+  },
+  {
+    "bank": "BANK C",
+    "program": 3,
+    "name": "C03: Poly PWM Strings v3",
+    "category": "PAD",
+    "tags": [
+      "ms2000",
+      "bank-c",
+      "pad"
+    ]
+  },
+  {
+    "bank": "BANK C",
+    "program": 4,
+    "name": "C04: 16-Band Robot Vox v3",
+    "category": "VOCODER",
+    "tags": [
+      "ms2000",
+      "bank-c",
+      "vocoder"
+    ]
+  },
+  {
+    "bank": "BANK C",
+    "program": 5,
+    "name": "C05: Techno Motion Arp v3",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-c",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK C",
+    "program": 6,
+    "name": "C06: Sub Low Sine 808 v3",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-c",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK C",
+    "program": 7,
+    "name": "C07: Hardcore Square Solo v3",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-c",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK C",
+    "program": 8,
+    "name": "C08: Dual Sync Aggressor v3",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-c",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK C",
+    "program": 9,
+    "name": "C09: Warm Analog Brass v3",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-c",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK C",
+    "program": 10,
+    "name": "C10: Dreamy Space Pad v3",
+    "category": "PAD",
+    "tags": [
+      "ms2000",
+      "bank-c",
+      "pad"
+    ]
+  },
+  {
+    "bank": "BANK C",
+    "program": 11,
+    "name": "C11: DWGS Bell Bells v3",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-c",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK C",
+    "program": 12,
+    "name": "C12: Step Sequencer Hook v3",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-c",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK C",
+    "program": 13,
+    "name": "C13: Formant Filter Vowel v3",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-c",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK C",
+    "program": 14,
+    "name": "C14: Rotterdam Rave Stab v3",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-c",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK C",
+    "program": 15,
+    "name": "C15: Solina String Machine v3",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-c",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK C",
+    "program": 16,
+    "name": "C16: Electro Funk Clav v3",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-c",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK D",
+    "program": 1,
+    "name": "D01: Vintage MS Saw Lead v4",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-d",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK D",
+    "program": 2,
+    "name": "D02: Fat Acid TB Bass v4",
+    "category": "BASS",
+    "tags": [
+      "ms2000",
+      "bank-d",
+      "bass"
+    ]
+  },
+  {
+    "bank": "BANK D",
+    "program": 3,
+    "name": "D03: Poly PWM Strings v4",
+    "category": "PAD",
+    "tags": [
+      "ms2000",
+      "bank-d",
+      "pad"
+    ]
+  },
+  {
+    "bank": "BANK D",
+    "program": 4,
+    "name": "D04: 16-Band Robot Vox v4",
+    "category": "VOCODER",
+    "tags": [
+      "ms2000",
+      "bank-d",
+      "vocoder"
+    ]
+  },
+  {
+    "bank": "BANK D",
+    "program": 5,
+    "name": "D05: Techno Motion Arp v4",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-d",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK D",
+    "program": 6,
+    "name": "D06: Sub Low Sine 808 v4",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-d",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK D",
+    "program": 7,
+    "name": "D07: Hardcore Square Solo v4",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-d",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK D",
+    "program": 8,
+    "name": "D08: Dual Sync Aggressor v4",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-d",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK D",
+    "program": 9,
+    "name": "D09: Warm Analog Brass v4",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-d",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK D",
+    "program": 10,
+    "name": "D10: Dreamy Space Pad v4",
+    "category": "PAD",
+    "tags": [
+      "ms2000",
+      "bank-d",
+      "pad"
+    ]
+  },
+  {
+    "bank": "BANK D",
+    "program": 11,
+    "name": "D11: DWGS Bell Bells v4",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-d",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK D",
+    "program": 12,
+    "name": "D12: Step Sequencer Hook v4",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-d",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK D",
+    "program": 13,
+    "name": "D13: Formant Filter Vowel v4",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-d",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK D",
+    "program": 14,
+    "name": "D14: Rotterdam Rave Stab v4",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-d",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK D",
+    "program": 15,
+    "name": "D15: Solina String Machine v4",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-d",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK D",
+    "program": 16,
+    "name": "D16: Electro Funk Clav v4",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-d",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK E",
+    "program": 1,
+    "name": "E01: Vintage MS Saw Lead v5",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-e",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK E",
+    "program": 2,
+    "name": "E02: Fat Acid TB Bass v5",
+    "category": "BASS",
+    "tags": [
+      "ms2000",
+      "bank-e",
+      "bass"
+    ]
+  },
+  {
+    "bank": "BANK E",
+    "program": 3,
+    "name": "E03: Poly PWM Strings v5",
+    "category": "PAD",
+    "tags": [
+      "ms2000",
+      "bank-e",
+      "pad"
+    ]
+  },
+  {
+    "bank": "BANK E",
+    "program": 4,
+    "name": "E04: 16-Band Robot Vox v5",
+    "category": "VOCODER",
+    "tags": [
+      "ms2000",
+      "bank-e",
+      "vocoder"
+    ]
+  },
+  {
+    "bank": "BANK E",
+    "program": 5,
+    "name": "E05: Techno Motion Arp v5",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-e",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK E",
+    "program": 6,
+    "name": "E06: Sub Low Sine 808 v5",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-e",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK E",
+    "program": 7,
+    "name": "E07: Hardcore Square Solo v5",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-e",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK E",
+    "program": 8,
+    "name": "E08: Dual Sync Aggressor v5",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-e",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK E",
+    "program": 9,
+    "name": "E09: Warm Analog Brass v5",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-e",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK E",
+    "program": 10,
+    "name": "E10: Dreamy Space Pad v5",
+    "category": "PAD",
+    "tags": [
+      "ms2000",
+      "bank-e",
+      "pad"
+    ]
+  },
+  {
+    "bank": "BANK E",
+    "program": 11,
+    "name": "E11: DWGS Bell Bells v5",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-e",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK E",
+    "program": 12,
+    "name": "E12: Step Sequencer Hook v5",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-e",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK E",
+    "program": 13,
+    "name": "E13: Formant Filter Vowel v5",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-e",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK E",
+    "program": 14,
+    "name": "E14: Rotterdam Rave Stab v5",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-e",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK E",
+    "program": 15,
+    "name": "E15: Solina String Machine v5",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-e",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK E",
+    "program": 16,
+    "name": "E16: Electro Funk Clav v5",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-e",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK F",
+    "program": 1,
+    "name": "F01: Vintage MS Saw Lead v6",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-f",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK F",
+    "program": 2,
+    "name": "F02: Fat Acid TB Bass v6",
+    "category": "BASS",
+    "tags": [
+      "ms2000",
+      "bank-f",
+      "bass"
+    ]
+  },
+  {
+    "bank": "BANK F",
+    "program": 3,
+    "name": "F03: Poly PWM Strings v6",
+    "category": "PAD",
+    "tags": [
+      "ms2000",
+      "bank-f",
+      "pad"
+    ]
+  },
+  {
+    "bank": "BANK F",
+    "program": 4,
+    "name": "F04: 16-Band Robot Vox v6",
+    "category": "VOCODER",
+    "tags": [
+      "ms2000",
+      "bank-f",
+      "vocoder"
+    ]
+  },
+  {
+    "bank": "BANK F",
+    "program": 5,
+    "name": "F05: Techno Motion Arp v6",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-f",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK F",
+    "program": 6,
+    "name": "F06: Sub Low Sine 808 v6",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-f",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK F",
+    "program": 7,
+    "name": "F07: Hardcore Square Solo v6",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-f",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK F",
+    "program": 8,
+    "name": "F08: Dual Sync Aggressor v6",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-f",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK F",
+    "program": 9,
+    "name": "F09: Warm Analog Brass v6",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-f",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK F",
+    "program": 10,
+    "name": "F10: Dreamy Space Pad v6",
+    "category": "PAD",
+    "tags": [
+      "ms2000",
+      "bank-f",
+      "pad"
+    ]
+  },
+  {
+    "bank": "BANK F",
+    "program": 11,
+    "name": "F11: DWGS Bell Bells v6",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-f",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK F",
+    "program": 12,
+    "name": "F12: Step Sequencer Hook v6",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-f",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK F",
+    "program": 13,
+    "name": "F13: Formant Filter Vowel v6",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-f",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK F",
+    "program": 14,
+    "name": "F14: Rotterdam Rave Stab v6",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-f",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK F",
+    "program": 15,
+    "name": "F15: Solina String Machine v6",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-f",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK F",
+    "program": 16,
+    "name": "F16: Electro Funk Clav v6",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-f",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK G",
+    "program": 1,
+    "name": "G01: Vintage MS Saw Lead v7",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-g",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK G",
+    "program": 2,
+    "name": "G02: Fat Acid TB Bass v7",
+    "category": "BASS",
+    "tags": [
+      "ms2000",
+      "bank-g",
+      "bass"
+    ]
+  },
+  {
+    "bank": "BANK G",
+    "program": 3,
+    "name": "G03: Poly PWM Strings v7",
+    "category": "PAD",
+    "tags": [
+      "ms2000",
+      "bank-g",
+      "pad"
+    ]
+  },
+  {
+    "bank": "BANK G",
+    "program": 4,
+    "name": "G04: 16-Band Robot Vox v7",
+    "category": "VOCODER",
+    "tags": [
+      "ms2000",
+      "bank-g",
+      "vocoder"
+    ]
+  },
+  {
+    "bank": "BANK G",
+    "program": 5,
+    "name": "G05: Techno Motion Arp v7",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-g",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK G",
+    "program": 6,
+    "name": "G06: Sub Low Sine 808 v7",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-g",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK G",
+    "program": 7,
+    "name": "G07: Hardcore Square Solo v7",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-g",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK G",
+    "program": 8,
+    "name": "G08: Dual Sync Aggressor v7",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-g",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK G",
+    "program": 9,
+    "name": "G09: Warm Analog Brass v7",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-g",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK G",
+    "program": 10,
+    "name": "G10: Dreamy Space Pad v7",
+    "category": "PAD",
+    "tags": [
+      "ms2000",
+      "bank-g",
+      "pad"
+    ]
+  },
+  {
+    "bank": "BANK G",
+    "program": 11,
+    "name": "G11: DWGS Bell Bells v7",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-g",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK G",
+    "program": 12,
+    "name": "G12: Step Sequencer Hook v7",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-g",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK G",
+    "program": 13,
+    "name": "G13: Formant Filter Vowel v7",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-g",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK G",
+    "program": 14,
+    "name": "G14: Rotterdam Rave Stab v7",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-g",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK G",
+    "program": 15,
+    "name": "G15: Solina String Machine v7",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-g",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK G",
+    "program": 16,
+    "name": "G16: Electro Funk Clav v7",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-g",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK H",
+    "program": 1,
+    "name": "H01: Vintage MS Saw Lead v8",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-h",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK H",
+    "program": 2,
+    "name": "H02: Fat Acid TB Bass v8",
+    "category": "BASS",
+    "tags": [
+      "ms2000",
+      "bank-h",
+      "bass"
+    ]
+  },
+  {
+    "bank": "BANK H",
+    "program": 3,
+    "name": "H03: Poly PWM Strings v8",
+    "category": "PAD",
+    "tags": [
+      "ms2000",
+      "bank-h",
+      "pad"
+    ]
+  },
+  {
+    "bank": "BANK H",
+    "program": 4,
+    "name": "H04: 16-Band Robot Vox v8",
+    "category": "VOCODER",
+    "tags": [
+      "ms2000",
+      "bank-h",
+      "vocoder"
+    ]
+  },
+  {
+    "bank": "BANK H",
+    "program": 5,
+    "name": "H05: Techno Motion Arp v8",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-h",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK H",
+    "program": 6,
+    "name": "H06: Sub Low Sine 808 v8",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-h",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK H",
+    "program": 7,
+    "name": "H07: Hardcore Square Solo v8",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-h",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK H",
+    "program": 8,
+    "name": "H08: Dual Sync Aggressor v8",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-h",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK H",
+    "program": 9,
+    "name": "H09: Warm Analog Brass v8",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-h",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK H",
+    "program": 10,
+    "name": "H10: Dreamy Space Pad v8",
+    "category": "PAD",
+    "tags": [
+      "ms2000",
+      "bank-h",
+      "pad"
+    ]
+  },
+  {
+    "bank": "BANK H",
+    "program": 11,
+    "name": "H11: DWGS Bell Bells v8",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-h",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK H",
+    "program": 12,
+    "name": "H12: Step Sequencer Hook v8",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-h",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK H",
+    "program": 13,
+    "name": "H13: Formant Filter Vowel v8",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-h",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK H",
+    "program": 14,
+    "name": "H14: Rotterdam Rave Stab v8",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-h",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK H",
+    "program": 15,
+    "name": "H15: Solina String Machine v8",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-h",
+      "lead"
+    ]
+  },
+  {
+    "bank": "BANK H",
+    "program": 16,
+    "name": "H16: Electro Funk Clav v8",
+    "category": "LEAD",
+    "tags": [
+      "ms2000",
+      "bank-h",
+      "lead"
+    ]
+  }
+]

@@ -1,0 +1,52 @@
+schema_version: 1.0.0
+manufacturer: Korg
+name: Korg 01/W
+family: 01/W Series
+category: AI2 Synthesis Workstation with Waveshaping
+year: 1991
+voice_architecture:
+  voices: 32
+  engine: AI2 (Advanced Integrated Synthesis 2) with Waveshaping technology
+  waveshaping: 60 non-linear Waveshaping tables providing dynamic harmonics and distortion
+    control
+  multisounds: 6MB PCM ROM with 255 multisounds and 119 drum sounds
+  effects: Dual digital multi-effects systems (47 effects types with dynamic modulation)
+  sequencer: 16-track 48,000-note sequencer
+midi_specs:
+  basic_channel: 1
+  manufacturer_id: '0x42'
+  model_id: '0x36'
+  handshake: false
+  pacing_delay_ms: 25
+parameters:
+- id: waveshaping_type
+  name: Waveshaping Table
+  type: range
+  min: 0
+  max: 59
+  default: 1
+- id: waveshaping_amount
+  name: Waveshaping Intensity
+  type: range
+  min: 0
+  max: 99
+  default: 50
+- id: vdf_cutoff
+  name: VDF Lowpass Cutoff
+  type: range
+  min: 0
+  max: 99
+  default: 85
+- id: vdf_eg_intensity
+  name: VDF EG Intensity
+  type: range
+  min: -99
+  max: 99
+  default: 40
+- id: fx1_balance
+  name: FX 1 Wet/Dry Mix
+  type: range
+  min: 0
+  max: 100
+  unit: '%'
+  default: 30

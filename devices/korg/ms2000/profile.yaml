@@ -1,0 +1,65 @@
+schema_version: 1.0.0
+manufacturer: Korg
+name: Korg MS2000
+family: MS Series
+category: DSP Virtual Analog Synthesizer & Vocoder
+year: 2000
+voice_architecture:
+  voices: 4
+  timbres: 2
+  oscillators: 2 DSP Oscillators + Noise (Osc 1 includes 71 DWGS waveforms and Audio
+    In)
+  filter_type: Resonant Multimode Filter (12dB/24dB Lowpass, Bandpass, Highpass)
+  modulation_sequencer: 3-track 16-step Motion Sequencer for parameter animation
+  vocoder: 16-band Vocoder with Formant Shift and Formant Hold
+midi_specs:
+  basic_channel: 1
+  manufacturer_id: '0x42'
+  model_id: '0x58'
+  handshake: false
+  pacing_delay_ms: 25
+parameters:
+- id: osc1_wave
+  name: Osc 1 Waveform
+  type: enum
+  options:
+  - Saw
+  - Pulse
+  - Triangle
+  - Sin
+  - Vox Wave
+  - DWGS
+  - Noise
+  - Audio In
+  default: Saw
+- id: vcf_cutoff
+  name: Filter Cutoff
+  type: range
+  min: 0
+  max: 127
+  default: 75
+- id: vcf_resonance
+  name: Filter Resonance
+  type: range
+  min: 0
+  max: 127
+  default: 35
+- id: vcf_type
+  name: Filter Type Mode
+  type: enum
+  options:
+  - 24dB Lowpass
+  - 12dB Lowpass
+  - Bandpass
+  - Highpass
+  default: 24dB Lowpass
+- id: mod_seq_track1
+  name: Mod Sequencer Track 1 Target
+  type: enum
+  options:
+  - Pitch
+  - Cutoff
+  - Resonance
+  - Pan
+  - Osc 2 Tune
+  default: Cutoff

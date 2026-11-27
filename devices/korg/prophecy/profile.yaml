@@ -1,0 +1,49 @@
+schema_version: 1.0.0
+manufacturer: Korg
+name: Korg Prophecy
+family: MOSS Series
+category: MOSS Solo Physical Modeling Synthesizer
+year: 1995
+voice_architecture:
+  voices: 1
+  sound_engine: MOSS (Multi-Oscillator Synthesis System) with 7 oscillator models
+    (Standard, Comb Filter, VPM, Brass, Reed, Plucked String, Bowed String)
+  controller: Ribbon Controller & 5 Performance Editor Knobs
+  filters: Dual Resonant Multimode Digital Filters with Wave Shaping
+midi_specs:
+  basic_channel: 1
+  manufacturer_id: '0x42'
+  model_id: '0x41'
+  handshake: false
+  pacing_delay_ms: 25
+parameters:
+- id: moss_model
+  name: MOSS Oscillator Model
+  type: enum
+  options:
+  - Standard Analog
+  - Comb Filter
+  - VPM (FM)
+  - Brass Physical Model
+  - Reed Physical Model
+  - Plucked String
+  - Bowed String
+  default: Standard Analog
+- id: filter1_cutoff
+  name: Filter 1 Cutoff
+  type: range
+  min: 0
+  max: 127
+  default: 85
+- id: filter1_resonance
+  name: Filter 1 Resonance
+  type: range
+  min: 0
+  max: 99
+  default: 40
+- id: ribbon_control
+  name: Ribbon Mod Depth
+  type: range
+  min: 0
+  max: 127
+  default: 64

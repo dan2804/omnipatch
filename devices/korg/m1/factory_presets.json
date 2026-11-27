@@ -1,0 +1,1602 @@
+[
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 0,
+    "name": "00 Universe",
+    "category": "PAD",
+    "tags": [
+      "m1",
+      "program",
+      "pad"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 1,
+    "name": "01 Piano 16'",
+    "category": "KEYBOARD",
+    "tags": [
+      "m1",
+      "program",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 2,
+    "name": "02 Brass 1",
+    "category": "BRASS",
+    "tags": [
+      "m1",
+      "program",
+      "brass"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 3,
+    "name": "03 Ooh/Aah",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 4,
+    "name": "04 Guitar 1",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 5,
+    "name": "05 Bottles",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 6,
+    "name": "06 Lore",
+    "category": "PAD",
+    "tags": [
+      "m1",
+      "program",
+      "pad"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 7,
+    "name": "07 Symphony",
+    "category": "STRINGS",
+    "tags": [
+      "m1",
+      "program",
+      "strings"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 8,
+    "name": "08 Pole",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 9,
+    "name": "09 Pan Flute",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 10,
+    "name": "10 Drum Kit 1",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 11,
+    "name": "11 Pan Mallet",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 12,
+    "name": "12 E.Piano 1",
+    "category": "KEYBOARD",
+    "tags": [
+      "m1",
+      "program",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 13,
+    "name": "13 Flugel Horn",
+    "category": "BRASS",
+    "tags": [
+      "m1",
+      "program",
+      "brass"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 14,
+    "name": "14 White Vox",
+    "category": "PAD",
+    "tags": [
+      "m1",
+      "program",
+      "pad"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 15,
+    "name": "15 Magic Organ",
+    "category": "KEYBOARD",
+    "tags": [
+      "m1",
+      "program",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 16,
+    "name": "16 E.Bass 1",
+    "category": "BASS",
+    "tags": [
+      "m1",
+      "program",
+      "bass"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 17,
+    "name": "17 New Day",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 18,
+    "name": "18 Kalimba",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 19,
+    "name": "19 Digital Bell",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 20,
+    "name": "20 Clav",
+    "category": "KEYBOARD",
+    "tags": [
+      "m1",
+      "program",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 21,
+    "name": "21 Trumpet",
+    "category": "BRASS",
+    "tags": [
+      "m1",
+      "program",
+      "brass"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 22,
+    "name": "22 Nimbus",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 23,
+    "name": "23 E.Organ 1",
+    "category": "KEYBOARD",
+    "tags": [
+      "m1",
+      "program",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 24,
+    "name": "24 Pick Bass",
+    "category": "BASS",
+    "tags": [
+      "m1",
+      "program",
+      "bass"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 25,
+    "name": "25 Strings",
+    "category": "STRINGS",
+    "tags": [
+      "m1",
+      "program",
+      "strings"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 26,
+    "name": "26 Rhythm",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 27,
+    "name": "27 Voice Wave",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 28,
+    "name": "28 Daybreak",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 29,
+    "name": "29 Wood Block",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 30,
+    "name": "30 Synth Bass 1",
+    "category": "BASS",
+    "tags": [
+      "m1",
+      "program",
+      "bass"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 31,
+    "name": "31 Fretless 1",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 32,
+    "name": "32 Koto Trem",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 33,
+    "name": "33 Trombones",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 34,
+    "name": "34 Choir",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 35,
+    "name": "35 E.Guitar 1",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 36,
+    "name": "36 Slap Bass",
+    "category": "BASS",
+    "tags": [
+      "m1",
+      "program",
+      "bass"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 37,
+    "name": "37 Organ 2",
+    "category": "KEYBOARD",
+    "tags": [
+      "m1",
+      "program",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 38,
+    "name": "38 Soft Brass",
+    "category": "BRASS",
+    "tags": [
+      "m1",
+      "program",
+      "brass"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 39,
+    "name": "39 Harp",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 40,
+    "name": "40 Vibes",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 41,
+    "name": "41 Sax",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 42,
+    "name": "42 Oboe",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 43,
+    "name": "43 Sitar",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 44,
+    "name": "44 Flute",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 45,
+    "name": "45 Tub Bells",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 46,
+    "name": "46 Voices",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 47,
+    "name": "47 Dist Guitar",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 48,
+    "name": "48 Bass 2",
+    "category": "BASS",
+    "tags": [
+      "m1",
+      "program",
+      "bass"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 49,
+    "name": "49 Wire",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 50,
+    "name": "50 Solo Synth",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 51,
+    "name": "51 Glocken",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 52,
+    "name": "52 Church Org",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 53,
+    "name": "53 Mellow Brass",
+    "category": "BRASS",
+    "tags": [
+      "m1",
+      "program",
+      "brass"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 54,
+    "name": "54 Hammer",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 55,
+    "name": "55 M1 Lead",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 56,
+    "name": "56 Organ 3",
+    "category": "KEYBOARD",
+    "tags": [
+      "m1",
+      "program",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 57,
+    "name": "57 Pan Wave",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 58,
+    "name": "58 Accordion",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 59,
+    "name": "59 M1 Bass",
+    "category": "BASS",
+    "tags": [
+      "m1",
+      "program",
+      "bass"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 60,
+    "name": "60 Bell Ring",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 61,
+    "name": "61 French Horn",
+    "category": "BRASS",
+    "tags": [
+      "m1",
+      "program",
+      "brass"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 62,
+    "name": "62 Finger Bass",
+    "category": "BASS",
+    "tags": [
+      "m1",
+      "program",
+      "bass"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 63,
+    "name": "63 Clean Guitar",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 64,
+    "name": "64 12-String",
+    "category": "STRINGS",
+    "tags": [
+      "m1",
+      "program",
+      "strings"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 65,
+    "name": "65 Double Reed",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 66,
+    "name": "66 Clarinet",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 67,
+    "name": "67 Warm Strings",
+    "category": "STRINGS",
+    "tags": [
+      "m1",
+      "program",
+      "strings"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 68,
+    "name": "68 Analog Synth",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 69,
+    "name": "69 Marimba",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 70,
+    "name": "70 Synth Pad",
+    "category": "PAD",
+    "tags": [
+      "m1",
+      "program",
+      "pad"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 71,
+    "name": "71 Orchestra Hit",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 72,
+    "name": "72 Metal Bell",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 73,
+    "name": "73 Sine Lead",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 74,
+    "name": "74 Analog Pad",
+    "category": "PAD",
+    "tags": [
+      "m1",
+      "program",
+      "pad"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 75,
+    "name": "75 Mute Guitar",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 76,
+    "name": "76 Pipe Flute",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 77,
+    "name": "77 Perc Organ",
+    "category": "KEYBOARD",
+    "tags": [
+      "m1",
+      "program",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 78,
+    "name": "78 Synth Brass 2",
+    "category": "BRASS",
+    "tags": [
+      "m1",
+      "program",
+      "brass"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 79,
+    "name": "79 Acoustic Bass",
+    "category": "BASS",
+    "tags": [
+      "m1",
+      "program",
+      "bass"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 80,
+    "name": "80 Dream Pad",
+    "category": "PAD",
+    "tags": [
+      "m1",
+      "program",
+      "pad"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 81,
+    "name": "81 Whistle",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 82,
+    "name": "82 Harpsichord",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 83,
+    "name": "83 Tine EP",
+    "category": "KEYBOARD",
+    "tags": [
+      "m1",
+      "program",
+      "keyboard"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 84,
+    "name": "84 Rotary B3",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 85,
+    "name": "85 Pizzicato",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 86,
+    "name": "86 Space Lore",
+    "category": "PAD",
+    "tags": [
+      "m1",
+      "program",
+      "pad"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 87,
+    "name": "87 Cloud Nine",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 88,
+    "name": "88 Bell Pad",
+    "category": "PAD",
+    "tags": [
+      "m1",
+      "program",
+      "pad"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 89,
+    "name": "89 Cinema String",
+    "category": "STRINGS",
+    "tags": [
+      "m1",
+      "program",
+      "strings"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 90,
+    "name": "90 Slap Funk",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 91,
+    "name": "91 Hard Rock Lead",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 92,
+    "name": "92 Pop Brass",
+    "category": "BRASS",
+    "tags": [
+      "m1",
+      "program",
+      "brass"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 93,
+    "name": "93 Techno Bass",
+    "category": "BASS",
+    "tags": [
+      "m1",
+      "program",
+      "bass"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 94,
+    "name": "94 Square Wave",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 95,
+    "name": "95 Saw Stack",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 96,
+    "name": "96 Water Bell",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 97,
+    "name": "97 SciFi FX",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 98,
+    "name": "98 Wind Storm",
+    "category": "SYNTH",
+    "tags": [
+      "m1",
+      "program",
+      "synth"
+    ]
+  },
+  {
+    "bank": "INTERNAL PROGRAMS",
+    "program": 99,
+    "name": "99 M1 Universe II",
+    "category": "PAD",
+    "tags": [
+      "m1",
+      "program",
+      "pad"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 0,
+    "name": "00 Film Score",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 1,
+    "name": "01 Rock Pianos",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 2,
+    "name": "02 Big Band",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 3,
+    "name": "03 Vox Celeste",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 4,
+    "name": "04 Acoustic Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 5,
+    "name": "05 Organ & Brass",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 6,
+    "name": "06 Space Waves",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 7,
+    "name": "07 Symphony Tutti",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 8,
+    "name": "08 Analog Stack",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 9,
+    "name": "09 Pan & Bells",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 10,
+    "name": "10 Dance Split",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 11,
+    "name": "11 Techno Array",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 12,
+    "name": "12 Super M1 Layer",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 13,
+    "name": "13 Epic Cinema",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 14,
+    "name": "14 Cathedral Flutes",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 15,
+    "name": "15 Funk Jam",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 16,
+    "name": "16 Dynamic Touch",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 17,
+    "name": "17 M1 Anthem",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 18,
+    "name": "18 Global Fusion",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 19,
+    "name": "19 Midnight Pad",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 20,
+    "name": "20 Super Strings M1",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 21,
+    "name": "21 Jazz Club Trio",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 22,
+    "name": "22 Rock Stadium Lead",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 23,
+    "name": "23 Acoustic Horizon",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 24,
+    "name": "24 Brass Explosion",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 25,
+    "name": "25 Ambient Space Station",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 26,
+    "name": "26 Classic House Split",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 27,
+    "name": "27 Orchestral Overture",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 28,
+    "name": "28 Vocal Celestial",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 29,
+    "name": "29 World Village",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 30,
+    "name": "30 Solar Flares",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 31,
+    "name": "31 Tine EP & String",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 32,
+    "name": "32 Hardcore Rave Hit",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 33,
+    "name": "33 Latin Carnival",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 34,
+    "name": "34 Gospel Church B3",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 35,
+    "name": "35 Cyber Pluck Matrix",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 36,
+    "name": "36 Solina String Ensemble",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 37,
+    "name": "37 Hollywood Horns",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 38,
+    "name": "38 Reso Sweep Stack",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 39,
+    "name": "39 Crystal Bells Duo",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 40,
+    "name": "40 Deep Sub & Lead",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 41,
+    "name": "41 Pop Horn Section",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 42,
+    "name": "42 Cinema Strings Major",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 43,
+    "name": "43 Electric Harpsi Wave",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 44,
+    "name": "44 Dreaming Flute Pad",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 45,
+    "name": "45 Fretless & Vibes",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 46,
+    "name": "46 Overdrive Rock Band",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 47,
+    "name": "47 Percussion Storm",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 48,
+    "name": "48 Sci-Fi Soundstage",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  },
+  {
+    "bank": "INTERNAL COMBINATIONS",
+    "program": 49,
+    "name": "49 M1 Super Nova",
+    "category": "COMBINATION",
+    "tags": [
+      "m1",
+      "combination"
+    ]
+  }
+]

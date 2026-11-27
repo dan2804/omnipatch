@@ -1,0 +1,53 @@
+schema_version: 1.0.0
+manufacturer: Korg
+name: Korg Triton
+family: Triton Series
+category: HI Synthesis Music Workstation & Sampler
+year: 1999
+voice_architecture:
+  voices: 62
+  parts: 16
+  sound_engine: Hyper Integrated (HI) Synthesis with 32MB PCM ROM (425 multisounds
+    + 413 drum samples)
+  sampling: Open Sampling System (16-bit 48kHz mono/stereo with Time Slice, Time Stretch,
+    Crossfade Loop)
+  effects: 5 Insert Effects, 2 Master Effects, 1 Master 3-Band EQ (102 effects algorithms)
+  arpeggiators: Dual Polyphonic Arpeggiators with RPPR (Realtime Pattern Play/Recording)
+midi_specs:
+  basic_channel: 1
+  manufacturer_id: '0x42'
+  model_id: '0x50'
+  handshake: false
+  pacing_delay_ms: 20
+parameters:
+- id: filter_cutoff
+  name: Filter Cutoff Knob
+  type: range
+  min: 0
+  max: 127
+  default: 64
+- id: filter_resonance
+  name: Filter Resonance Knob
+  type: range
+  min: 0
+  max: 127
+  default: 32
+- id: env_attack
+  name: Attack Time Knob
+  type: range
+  min: 0
+  max: 127
+  default: 64
+- id: env_release
+  name: Release Time Knob
+  type: range
+  min: 0
+  max: 127
+  default: 64
+- id: arp_on_off
+  name: Dual Arpeggiator Switch
+  type: enum
+  options:
+  - 'Off'
+  - 'On'
+  default: 'Off'
