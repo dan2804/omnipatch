@@ -1,0 +1,30 @@
+manufacturer: Korg
+model: Korg Kronos / Nautilus
+type: 9-Engine Music Workstation Flagship
+year: 2011
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    vector_joystick_x: 16
+    vector_joystick_y: 17
+    ribbon: 18
+sysex:
+  header: F0 42 00 68
+  device_id_byte: 2
+  commands:
+    request_prog: F0 42 00 68 01 [bank] [prog] F7
+banks:
+- Program Bank 1
+- Program Bank 2
+- Program Bank 3
+- Program Bank 4
+- Program Bank 5
+- Program Bank 6
+- Program Bank 7
+- Program Bank 8
+- Program Bank 9
+- Program Bank 10
+- Program Bank 11
+- Program Bank 12

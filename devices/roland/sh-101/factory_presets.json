@@ -1,0 +1,834 @@
+[
+  {
+    "bank": "Factory Bank",
+    "program": 1,
+    "name": "SH-101 Patch 01: Classic 101 Square Bass",
+    "category": "Bass",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 2,
+    "name": "SH-101 Patch 02: Punchy Saw Lead",
+    "category": "Lead",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 3,
+    "name": "SH-101 Patch 03: Sub Octave Earthshaker",
+    "category": "Bass",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 4,
+    "name": "SH-101 Patch 04: Resonant Filter Whine",
+    "category": "Acid",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "acid"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 5,
+    "name": "SH-101 Patch 05: Rubber Pluck Bass",
+    "category": "Bass",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 6,
+    "name": "SH-101 Patch 06: Acid Reso Squeal",
+    "category": "Acid",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "acid"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 7,
+    "name": "SH-101 Patch 07: White Noise Wind FX",
+    "category": "Acid",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "acid"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 8,
+    "name": "SH-101 Patch 08: Fast Sequencer Lead",
+    "category": "Lead",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 9,
+    "name": "SH-101 Patch 09: Warm Analog Flute Solo",
+    "category": "Lead",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 10,
+    "name": "SH-101 Patch 10: Slap Attack Bass",
+    "category": "Bass",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 11,
+    "name": "SH-101 Patch 11: Syncopated Arp Sound",
+    "category": "Acid",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "acid"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 12,
+    "name": "SH-101 Patch 12: Bowed Saw Solo",
+    "category": "Lead",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 13,
+    "name": "SH-101 Patch 13: Classic 101 Square Bass",
+    "category": "Bass",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 14,
+    "name": "SH-101 Patch 14: Punchy Saw Lead",
+    "category": "Lead",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 15,
+    "name": "SH-101 Patch 15: Sub Octave Earthshaker",
+    "category": "Bass",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 16,
+    "name": "SH-101 Patch 16: Resonant Filter Whine",
+    "category": "Acid",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "acid"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 17,
+    "name": "SH-101 Patch 17: Rubber Pluck Bass",
+    "category": "Bass",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 18,
+    "name": "SH-101 Patch 18: Acid Reso Squeal",
+    "category": "Acid",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "acid"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 19,
+    "name": "SH-101 Patch 19: White Noise Wind FX",
+    "category": "Acid",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "acid"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 20,
+    "name": "SH-101 Patch 20: Fast Sequencer Lead",
+    "category": "Lead",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 21,
+    "name": "SH-101 Patch 21: Warm Analog Flute Solo",
+    "category": "Lead",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 22,
+    "name": "SH-101 Patch 22: Slap Attack Bass",
+    "category": "Bass",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 23,
+    "name": "SH-101 Patch 23: Syncopated Arp Sound",
+    "category": "Acid",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "acid"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 24,
+    "name": "SH-101 Patch 24: Bowed Saw Solo",
+    "category": "Lead",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 25,
+    "name": "SH-101 Patch 25: Classic 101 Square Bass",
+    "category": "Bass",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 26,
+    "name": "SH-101 Patch 26: Punchy Saw Lead",
+    "category": "Lead",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 27,
+    "name": "SH-101 Patch 27: Sub Octave Earthshaker",
+    "category": "Bass",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 28,
+    "name": "SH-101 Patch 28: Resonant Filter Whine",
+    "category": "Acid",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "acid"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 29,
+    "name": "SH-101 Patch 29: Rubber Pluck Bass",
+    "category": "Bass",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 30,
+    "name": "SH-101 Patch 30: Acid Reso Squeal",
+    "category": "Acid",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "acid"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 31,
+    "name": "SH-101 Patch 31: White Noise Wind FX",
+    "category": "Acid",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "acid"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 32,
+    "name": "SH-101 Patch 32: Fast Sequencer Lead",
+    "category": "Lead",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 33,
+    "name": "SH-101 Patch 33: Warm Analog Flute Solo",
+    "category": "Lead",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 34,
+    "name": "SH-101 Patch 34: Slap Attack Bass",
+    "category": "Bass",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 35,
+    "name": "SH-101 Patch 35: Syncopated Arp Sound",
+    "category": "Acid",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "acid"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 36,
+    "name": "SH-101 Patch 36: Bowed Saw Solo",
+    "category": "Lead",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 37,
+    "name": "SH-101 Patch 37: Classic 101 Square Bass",
+    "category": "Bass",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 38,
+    "name": "SH-101 Patch 38: Punchy Saw Lead",
+    "category": "Lead",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 39,
+    "name": "SH-101 Patch 39: Sub Octave Earthshaker",
+    "category": "Bass",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 40,
+    "name": "SH-101 Patch 40: Resonant Filter Whine",
+    "category": "Acid",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "acid"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 41,
+    "name": "SH-101 Patch 41: Rubber Pluck Bass",
+    "category": "Bass",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 42,
+    "name": "SH-101 Patch 42: Acid Reso Squeal",
+    "category": "Acid",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "acid"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 43,
+    "name": "SH-101 Patch 43: White Noise Wind FX",
+    "category": "Acid",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "acid"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 44,
+    "name": "SH-101 Patch 44: Fast Sequencer Lead",
+    "category": "Lead",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 45,
+    "name": "SH-101 Patch 45: Warm Analog Flute Solo",
+    "category": "Lead",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 46,
+    "name": "SH-101 Patch 46: Slap Attack Bass",
+    "category": "Bass",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 47,
+    "name": "SH-101 Patch 47: Syncopated Arp Sound",
+    "category": "Acid",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "acid"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 48,
+    "name": "SH-101 Patch 48: Bowed Saw Solo",
+    "category": "Lead",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 49,
+    "name": "SH-101 Patch 49: Classic 101 Square Bass",
+    "category": "Bass",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 50,
+    "name": "SH-101 Patch 50: Punchy Saw Lead",
+    "category": "Lead",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 51,
+    "name": "SH-101 Patch 51: Sub Octave Earthshaker",
+    "category": "Bass",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 52,
+    "name": "SH-101 Patch 52: Resonant Filter Whine",
+    "category": "Acid",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "acid"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 53,
+    "name": "SH-101 Patch 53: Rubber Pluck Bass",
+    "category": "Bass",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 54,
+    "name": "SH-101 Patch 54: Acid Reso Squeal",
+    "category": "Acid",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "acid"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 55,
+    "name": "SH-101 Patch 55: White Noise Wind FX",
+    "category": "Acid",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "acid"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 56,
+    "name": "SH-101 Patch 56: Fast Sequencer Lead",
+    "category": "Lead",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 57,
+    "name": "SH-101 Patch 57: Warm Analog Flute Solo",
+    "category": "Lead",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 58,
+    "name": "SH-101 Patch 58: Slap Attack Bass",
+    "category": "Bass",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 59,
+    "name": "SH-101 Patch 59: Syncopated Arp Sound",
+    "category": "Acid",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "acid"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 60,
+    "name": "SH-101 Patch 60: Bowed Saw Solo",
+    "category": "Lead",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 61,
+    "name": "SH-101 Patch 61: Classic 101 Square Bass",
+    "category": "Bass",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 62,
+    "name": "SH-101 Patch 62: Punchy Saw Lead",
+    "category": "Lead",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 63,
+    "name": "SH-101 Patch 63: Sub Octave Earthshaker",
+    "category": "Bass",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank",
+    "program": 64,
+    "name": "SH-101 Patch 64: Resonant Filter Whine",
+    "category": "Acid",
+    "tags": [
+      "cem3340",
+      "ir3109",
+      "analog-monosynth",
+      "sh-101",
+      "acid"
+    ]
+  }
+]

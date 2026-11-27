@@ -26,12 +26,36 @@ OmniPatch is a high-performance, modular patch librarian and hardware editor wri
 
 ---
 
-## Supported Synthesizers (173 Production Profiles)
+## Supported Synthesizers (197 Production Profiles)
 
-OmniPatch ships with 173 comprehensive device profiles across 27 legendary synthesizer manufacturers:
+OmniPatch ships with 197 comprehensive device profiles across 29 legendary synthesizer manufacturers:
 
 | Synthesizer | Manufacturer | Architecture | Parameters | Presets | SysEx ID / Details |
 | :--- | :--- | :--- | :---: | :---: | :--- |
+| **Roland TB-303 Bass Line** | Roland Corporation | Definitive Acid Synthesizer & Sequencer | 6 | 64 | `0x41` · Diode ladder filter, resonant slide/accent, 4 pattern groups |
+| **Roland TR-808 Rhythm Composer**| Roland Corporation | Analog Rhythm Composer Flagship | 5 | 64 | `0x41` · Bridged-T resonant kick, snappy snare, claps, congas, cowbell |
+| **Roland TR-909 Rhythm Composer**| Roland Corporation | Analog/Sample Hybrid Rhythm Composer | 5 | 96 | `0x41` · Punchy analog kick/snare + 6-bit sampled cymbals/hats, 6 banks |
+| **Roland TR-707 / TR-727** | Roland Corporation | Digital Rhythm Composer | 2 | 64 | `0x41` · Classic 80s Chicago house digital drums, 4 pattern banks |
+| **Roland SH-101** | Roland Corporation | Monophonic Analog Synthesizer | 5 | 64 | `0x41` · CEM3340 VCO, IR3109 cascade VCF, red/blue/grey classic |
+| **Roland System-8** | Roland Corporation | Plug-Out Synthesizer Flagship | 5 | 512 | `0x41` · ACB modeling, Jupiter-8, Juno-106, JX-3P plug-outs, 8 banks |
+| **Roland SE-02** | Roland Corporation | Analog Synthesizer Module | 6 | 384 | `0x41` · 3 discrete analog VCOs, ladder filter, Studio Electronics colab |
+| **Roland Integra-7** | Roland Corporation | SuperNATURAL Sound Module Flagship | 5 | 2,048 | `0x41` · 16 SuperNATURAL banks, all 12 SRX expansion boards built-in |
+| **Yamaha CS-80** | Yamaha Corporation | 8-Voice Polyphonic Analog Synthesizer | 5 | 48 | `0x43` · Dual 8-voice signal paths, polyphonic aftertouch, ribbon, Vangelis |
+| **Yamaha FS1R** | Yamaha Corporation | 8-Op Formant Shaping Synthesizer | 6 | 1,408 | `0x43` (ID `0x5E`) · 8-operator FM + 8 unvoiced formants, Fseq, 12 banks |
+| **Yamaha SY99** | Yamaha Corporation | Advanced RCM Hybrid Music Workstation | 3 | 144 | `0x43` (ID `0x2C`) · AFM 6-operator FM + AWM2 sample RAM, dual filters |
+| **Yamaha EX5 / EX7** | Yamaha Corporation | Extended Synthesis Flagship Workstation | 5 | 256 | `0x43` (ID `0x4C`) · AWM2, AN virtual analog, VL physical modeling, FDSP |
+| **Yamaha VL1 / VL70-m** | Yamaha Corporation | Virtual Acoustic Physical Modeling | 4 | 128 | `0x43` (ID `0x3C`) · Acoustic waveguide modeling of woodwinds, brass, strings |
+| **Korg Kronos / Nautilus** | Korg | 9-Engine Music Workstation Flagship | 5 | 1,536 | `0x42` (ID `0x68`) · SGX-2, EP-1, CX-3, MS-20EX, Polysix, AL-1, MOD-7, STR-1 |
+| **Korg minilogue xd** | Korg | 4-Voice Hybrid Analog Synthesizer | 6 | 500 | `0x42` (ID `0x51`) · 2 analog VCOs + Multi-Engine (VPM/User), 5 banks |
+| **Korg prologue 8 / 16** | Korg | Polyphonic Analog Synthesizer Flagship | 6 | 500 | `0x42` (ID `0x4B`) · Discrete analog VCOs + digital Multi Engine, 5 banks |
+| **Korg opsix** | Korg | Altered FM Synthesizer | 8 | 500 | `0x42` (ID `0x59`) · 6-operator matrix faders/knobs, 40 operator algorithms |
+| **Korg wavestate** | Korg | Wave Sequencing Synthesizer | 6 | 500 | `0x42` (ID `0x57`) · Wave Sequencing 2.0, Lanes (Sample, Timing, Pitch, Shape) |
+| **Korg modwave** | Korg | Wavetable Synthesizer | 5 | 500 | `0x42` (ID `0x5A`) · Wavetables, Kaoss Physics, Motion Sequencing 2.0, 5 banks |
+| **Korg KingKORG** | Korg | eXpanded Modeling Technology Synthesizer | 5 | 300 | `0x42` (ID `0x32`) · XMT modeling, vacuum tube overdrive, vintage filter models |
+| **Peavey DPM 3 / DPM V3** | Peavey | Digital Phase Modulation Synthesizer | 3 | 100 | `0x1B` (ID `0x00`) · 16-bit PCM synthesis, dual resonant digital filters |
+| **Peavey Spectrum Series** | Peavey | 1U Classic Sound Module (Bass/Synth/Organ)| 3 | 200 | `0x1B` (ID `0x01`) · Dedicated classic bass, synth, and organ sound modules |
+| **Dreadbox Typhon** | Dreadbox | Analog Monophonic Synth w/ Sinevibes | 6 | 128 | `0x00 0x21 0x44` · Pure analog signal path with Sinevibes digital stereo FX |
+| **Dreadbox Erebus** | Dreadbox | Paraphonic Analog Synthesizer | 4 | 64 | `0x00 0x21 0x44` · Dual analog VCOs, 2-pole lowpass filter, lo-fi delay |
 | **Kurzweil K2000 / K2000R** | Kurzweil | V.A.S.T. Workstation Synthesizer | 5 | 200 | `0x07` (ID `0x00`) · Variable Architecture Synthesis Technology, 31 algorithms, DSP |
 | **Kurzweil K2500 / K2500R** | Kurzweil | 48-Voice V.A.S.T. Production Synthesizer | 5 | 300 | `0x07` (ID `0x00`) · KDFX studio effects, 48 voices, 200 programs + 100 setups |
 | **Kurzweil K2600 / K2600R** | Kurzweil | Triple Modular Processing V.A.S.T. Flagship | 5 | 300 | `0x07` (ID `0x00`) · Triple Modular processing, 8 sliders, dual ribbon controllers |
@@ -221,7 +245,7 @@ omnipatch/
 │   ├── omnipatch-midi/       # midir low-latency packet pacing, hardware throttling
 │   ├── omnipatch-profile/    # YAML parser, parameter mapping, validation engine
 │   └── omnipatch-sysex/      # Checksum calculators (Roland, E-MU, Casio, Waldorf)
-├── devices/                  # 173 Declarative YAML hardware profiles & factory presets
+├── devices/                  # 197 Declarative YAML hardware profiles & factory presets
 │   ├── access/               # Access Music (Virus A, B, C, TI, TI2, Indigo, Snow)
 │   ├── akai/                 # Akai Professional (AX60)
 │   ├── alesis/               # Alesis (Andromeda A6, Ion, Micron, QS Series, QuadraSynth, D4/DM5, HR-16)
@@ -231,24 +255,26 @@ omnipatch/
 │   ├── clavia/               # Clavia Nord (Nord Lead 1, 2, 2X, 3, 4, Nord Rack)
 │   ├── digitech/             # DigiTech (GSP 2101 Tube Preamp, Studio Quad / TSR-24)
 │   ├── doepfer/              # Doepfer (MS-404, Dark Energy)
+│   ├── dreadbox/             # Dreadbox (Typhon, Erebus)
 │   ├── emu/                  # E-MU Systems (Orbit-3, Proteus family, SP-1200, Emax, Vintage, etc.)
 │   ├── ensoniq/              # Ensoniq (ESQ-1, SQ-80, VFX, TS-10, MR Rack)
 │   ├── eventide/             # Eventide (H3000 Ultra-Harmonizer, DSP4000, Eclipse, Space, TimeFactor)
 │   ├── jomox/                # JoMoX (XBase 09, AirBase 99)
 │   ├── kawai/                # Kawai (K1, K4, K5, K5000 Additive Flagship, XD-5)
-│   ├── korg/                 # Korg (M1, Wavestation, 01/W, Trinity, Triton, MS2000, microKORG, etc.)
+│   ├── korg/                 # Korg (Kronos, minilogue xd, prologue, opsix, wavestate, modwave, M1, Triton)
 │   ├── kurzweil/             # Kurzweil (K2000, K2500, K2600 V.A.S.T. Workstations)
 │   ├── lexicon/              # Lexicon (PCM70, PCM80, PCM90, LXP-1/5, MPX-1)
 │   ├── modal/                # Modal Electronics (Argon8, Cobalt8, Skulpt, Modal 002)
 │   ├── moog/                 # Moog Music (Minimoog Voyager, Sub 37, Sub Phatty, Little Phatty, Minitaur)
 │   ├── novation/             # Novation (Bass Station II, Supernova II, Nova, K-Station, Peak)
 │   ├── oberheim/             # Oberheim (Matrix-1000, Matrix-6, Matrix-12/Xpander, OB-8, OB-X8)
+│   ├── peavey/               # Peavey (DPM 3, Spectrum Series)
 │   ├── quasimidi/            # Quasimidi (Rave-O-Lution 309, Sirius, Polymorph, Technox)
-│   ├── roland/               # Roland Corporation (JV, JD, Juno, Jupiter, MKS, SC, MC, Fantom, etc.)
+│   ├── roland/               # Roland Corporation (TB-303, TR-808, TR-909, SH-101, Integra-7, System-8, JV, JD, Juno)
 │   ├── sequential/           # Sequential & DSI (Prophet-5, Prophet-6, OB-6, Evolver, P12, Mopho, etc.)
 │   ├── studio_electronics/   # Studio Electronics (SE-1, SE-1X)
 │   ├── waldorf/              # Waldorf Music (Blofeld, Microwave I/XT, Pulse, Pulse 2, Q, Streichfett)
-│   └── yamaha/               # Yamaha Corporation (DX7, DX7II, TX81Z, TX802, DX100, AN1x, CS1x, Motif)
+│   └── yamaha/               # Yamaha Corporation (CS-80, FS1R, SY99, EX5, VL1, DX7, DX7II, TX81Z, Motif)
 ├── preview/                  # Web Audio interactive studio prototypes & hardware editors
 │   ├── index.html            # Main Entry: Universal Windows 8 Metro UI Studio Hub (All 27 Synths)
 │   ├── metro_studio.html     # Universal Windows 8 Metro UI Studio (Collapsible Menus, Live Tiles)

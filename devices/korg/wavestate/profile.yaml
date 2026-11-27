@@ -1,0 +1,24 @@
+manufacturer: Korg
+model: Korg wavestate
+type: Wave Sequencing Synthesizer
+year: 2020
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    vector_x: 16
+    vector_y: 17
+    timing_mod: 18
+    sample_mod: 19
+sysex:
+  header: F0 42 00 01 57
+  device_id_byte: 2
+  commands:
+    request_performance: F0 42 00 01 57 10 [prog] F7
+banks:
+- Wavestate Bank 1
+- Wavestate Bank 2
+- Wavestate Bank 3
+- Wavestate Bank 4
+- Wavestate Bank 5

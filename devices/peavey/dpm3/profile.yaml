@@ -1,0 +1,17 @@
+manufacturer: Peavey
+model: Peavey DPM 3 / DPM V3
+type: Digital Phase Modulation Synthesizer
+year: 1989
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    env_decay: 75
+sysex:
+  header: F0 1B 00
+  device_id_byte: 2
+  commands:
+    dump_patch: F0 1B 00 01 [prog] F7
+banks:
+- Factory Bank

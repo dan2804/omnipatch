@@ -1,0 +1,19 @@
+manufacturer: Roland
+model: Roland SH-101
+type: Monophonic Analog Synthesizer
+year: 1982
+midi:
+  channels: 16
+  cc_map:
+    vco_range: 20
+    filter_cutoff: 74
+    filter_resonance: 71
+    env_depth: 77
+    decay: 75
+sysex:
+  header: F0 41 00
+  device_id_byte: 2
+  commands:
+    dump_patch: F0 41 00 05 [prog] F7
+banks:
+- Factory Bank

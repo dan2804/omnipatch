@@ -1,0 +1,21 @@
+manufacturer: Korg
+model: Korg KingKORG
+type: eXpanded Modeling Technology Synthesizer
+year: 2013
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    vacuum_tube_drive: 80
+    osc1_control: 20
+    osc2_control: 21
+sysex:
+  header: F0 42 00 01 32
+  device_id_byte: 2
+  commands:
+    request_program: F0 42 00 01 32 10 [prog] F7
+banks:
+- Category Bank 1
+- Category Bank 2
+- Category Bank 3

@@ -1,0 +1,23 @@
+manufacturer: Dreadbox
+model: Dreadbox Typhon
+type: Analog Monophonic Synthesizer w/ Sinevibes FX
+year: 2020
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    vco_blend: 20
+    fx1_param: 80
+    fx2_param: 81
+    fx3_param: 82
+sysex:
+  header: F0 00 21 44
+  device_id_byte: 3
+  commands:
+    request_preset: F0 00 21 44 01 [bank] [prog] F7
+banks:
+- Bank A
+- Bank B
+- Bank C
+- Bank D

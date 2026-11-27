@@ -1,0 +1,23 @@
+manufacturer: Roland
+model: Roland TB-303 Bass Line
+type: Analog Bass Synthesizer & Sequencer
+year: 1981
+midi:
+  channels: 16
+  cc_map:
+    tuning: 104
+    cutoff: 74
+    resonance: 71
+    env_mod: 12
+    decay: 75
+    accent: 16
+sysex:
+  header: F0 41 00
+  device_id_byte: 2
+  commands:
+    dump_pattern: F0 41 00 01 [pat] F7
+banks:
+- Pattern Group A
+- Pattern Group B
+- Pattern Group C
+- Pattern Group D

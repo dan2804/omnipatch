@@ -1,0 +1,24 @@
+manufacturer: Korg
+model: Korg prologue 8 / 16
+type: Polyphonic Analog Synthesizer Flagship
+year: 2018
+midi:
+  channels: 16
+  cc_map:
+    cutoff: 74
+    resonance: 71
+    multi_type: 20
+    multi_shape: 21
+    delay_time: 82
+    reverb_time: 83
+sysex:
+  header: F0 42 00 01 4B
+  device_id_byte: 2
+  commands:
+    request_program: F0 42 00 01 4B 10 [prog] F7
+banks:
+- Prologue Bank 1
+- Prologue Bank 2
+- Prologue Bank 3
+- Prologue Bank 4
+- Prologue Bank 5

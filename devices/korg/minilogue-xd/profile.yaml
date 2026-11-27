@@ -1,0 +1,24 @@
+manufacturer: Korg
+model: Korg minilogue xd
+type: 4-Voice Hybrid Analog Synthesizer
+year: 2019
+midi:
+  channels: 16
+  cc_map:
+    cutoff: 74
+    resonance: 71
+    multi_type: 20
+    multi_shape: 21
+    delay_time: 82
+    reverb_time: 83
+sysex:
+  header: F0 42 00 01 51
+  device_id_byte: 2
+  commands:
+    request_program: F0 42 00 01 51 10 [prog] F7
+banks:
+- Program Bank 1
+- Program Bank 2
+- Program Bank 3
+- Program Bank 4
+- Program Bank 5

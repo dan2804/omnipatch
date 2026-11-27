@@ -1,0 +1,23 @@
+manufacturer: Korg
+model: Korg modwave
+type: Wavetable Synthesizer
+year: 2021
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    kaoss_physics_x: 16
+    kaoss_physics_y: 17
+    motion_seq: 18
+sysex:
+  header: F0 42 00 01 5A
+  device_id_byte: 2
+  commands:
+    request_performance: F0 42 00 01 5A 10 [prog] F7
+banks:
+- Modwave Bank 1
+- Modwave Bank 2
+- Modwave Bank 3
+- Modwave Bank 4
+- Modwave Bank 5

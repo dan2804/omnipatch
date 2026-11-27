@@ -1,0 +1,19 @@
+manufacturer: Roland
+model: Roland TR-707 / TR-727
+type: Digital Rhythm Composer
+year: 1985
+midi:
+  channels: 16
+  cc_map:
+    volume: 7
+    flam: 16
+sysex:
+  header: F0 41 00
+  device_id_byte: 2
+  commands:
+    dump_pattern: F0 41 00 04 [pat] F7
+banks:
+- Pattern Bank 1
+- Pattern Bank 2
+- Pattern Bank 3
+- Pattern Bank 4

@@ -1,0 +1,20 @@
+manufacturer: Yamaha
+model: Yamaha EX5 / EX7
+type: Extended Synthesis Flagship Workstation
+year: 1998
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    scene_1: 16
+    scene_2: 17
+    ribbon: 18
+sysex:
+  header: F0 43 10 4C
+  device_id_byte: 2
+  commands:
+    request_voice: F0 43 10 4C 01 [bank] [prog] F7
+banks:
+- Preset Bank 1
+- Preset Bank 2

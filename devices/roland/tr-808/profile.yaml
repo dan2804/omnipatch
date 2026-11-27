@@ -1,0 +1,22 @@
+manufacturer: Roland
+model: Roland TR-808 Rhythm Composer
+type: Analog Rhythm Composer Flagship
+year: 1980
+midi:
+  channels: 16
+  cc_map:
+    bassdrum_tune: 20
+    bassdrum_decay: 21
+    snare_tone: 22
+    snare_snappy: 23
+    conga_tune: 24
+sysex:
+  header: F0 41 00
+  device_id_byte: 2
+  commands:
+    dump_pattern: F0 41 00 02 [pat] F7
+banks:
+- Pattern Bank 1
+- Pattern Bank 2
+- Pattern Bank 3
+- Pattern Bank 4

@@ -1,0 +1,30 @@
+manufacturer: Yamaha
+model: Yamaha FS1R
+type: 8-Operator Formant Shaping Synthesis Synthesizer
+year: 1998
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    formant_cutoff: 70
+    fm_variation: 16
+    knob_1: 17
+    knob_2: 18
+sysex:
+  header: F0 43 10 5E
+  device_id_byte: 2
+  commands:
+    request_voice: F0 43 10 5E 00 [bank] [prog] F7
+banks:
+- Voice Bank 1
+- Voice Bank 2
+- Voice Bank 3
+- Voice Bank 4
+- Voice Bank 5
+- Voice Bank 6
+- Voice Bank 7
+- Voice Bank 8
+- Performance Bank 1
+- Performance Bank 2
+- Performance Bank 3

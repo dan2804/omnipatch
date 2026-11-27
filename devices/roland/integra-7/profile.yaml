@@ -1,0 +1,34 @@
+manufacturer: Roland
+model: Roland Integra-7
+type: SuperNATURAL Sound Module Flagship
+year: 2012
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    reverb_send: 91
+    chorus_send: 93
+    mfx_control: 16
+sysex:
+  header: F0 41 10 00 00 64
+  device_id_byte: 2
+  commands:
+    request_sound: F0 41 10 00 00 64 11 [bank] [prog] F7
+banks:
+- SuperNATURAL Bank 1
+- SuperNATURAL Bank 2
+- SuperNATURAL Bank 3
+- SuperNATURAL Bank 4
+- SuperNATURAL Bank 5
+- SuperNATURAL Bank 6
+- SuperNATURAL Bank 7
+- SuperNATURAL Bank 8
+- SuperNATURAL Bank 9
+- SuperNATURAL Bank 10
+- SuperNATURAL Bank 11
+- SuperNATURAL Bank 12
+- SuperNATURAL Bank 13
+- SuperNATURAL Bank 14
+- SuperNATURAL Bank 15
+- SuperNATURAL Bank 16
