@@ -1,0 +1,6002 @@
+[
+  {
+    "bank": "Bank 1",
+    "program": 1,
+    "name": "Pulse 2 Initial",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 2,
+    "name": "Super Fat Bass",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 3,
+    "name": "Paraphonic Brass",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 4,
+    "name": "Drive Bass",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 5,
+    "name": "Classic PWM",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 6,
+    "name": "Unison Lead",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 7,
+    "name": "8-Voice Stabs",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 8,
+    "name": "Acid 303 Punch",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 9,
+    "name": "Sub Destroyer",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 10,
+    "name": "Wicked Sync",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 11,
+    "name": "Modern Electro",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 12,
+    "name": "Glide Monster",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 13,
+    "name": "Reso Funk",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 14,
+    "name": "Sub Pluck",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 15,
+    "name": "Aggro Lead",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 16,
+    "name": "VCF Noise Sweep",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 17,
+    "name": "Square Wave Punch",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 18,
+    "name": "Analog Chord Vibe",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 19,
+    "name": "Dark Modular Low",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 20,
+    "name": "Screaming 24dB Lead",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 21,
+    "name": "Pulse 2 Initial 21",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 22,
+    "name": "Super Fat Bass 22",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 23,
+    "name": "Paraphonic Brass 23",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 24,
+    "name": "Drive Bass 24",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 25,
+    "name": "Classic PWM 25",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 26,
+    "name": "Unison Lead 26",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 27,
+    "name": "8-Voice Stabs 27",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 28,
+    "name": "Acid 303 Punch 28",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 29,
+    "name": "Sub Destroyer 29",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 30,
+    "name": "Wicked Sync 30",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 31,
+    "name": "Modern Electro 31",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 32,
+    "name": "Glide Monster 32",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 33,
+    "name": "Reso Funk 33",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 34,
+    "name": "Sub Pluck 34",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 35,
+    "name": "Aggro Lead 35",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 36,
+    "name": "VCF Noise Sweep 36",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 37,
+    "name": "Square Wave Punch 37",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 38,
+    "name": "Analog Chord Vibe 38",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 39,
+    "name": "Dark Modular Low 39",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 40,
+    "name": "Screaming 24dB Lead 40",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 41,
+    "name": "Pulse 2 Initial 41",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 42,
+    "name": "Super Fat Bass 42",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 43,
+    "name": "Paraphonic Brass 43",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 44,
+    "name": "Drive Bass 44",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 45,
+    "name": "Classic PWM 45",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 46,
+    "name": "Unison Lead 46",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 47,
+    "name": "8-Voice Stabs 47",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 48,
+    "name": "Acid 303 Punch 48",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 49,
+    "name": "Sub Destroyer 49",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 50,
+    "name": "Wicked Sync 50",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 51,
+    "name": "Modern Electro 51",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 52,
+    "name": "Glide Monster 52",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 53,
+    "name": "Reso Funk 53",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 54,
+    "name": "Sub Pluck 54",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 55,
+    "name": "Aggro Lead 55",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 56,
+    "name": "VCF Noise Sweep 56",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 57,
+    "name": "Square Wave Punch 57",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 58,
+    "name": "Analog Chord Vibe 58",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 59,
+    "name": "Dark Modular Low 59",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 60,
+    "name": "Screaming 24dB Lead 60",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 61,
+    "name": "Pulse 2 Initial 61",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 62,
+    "name": "Super Fat Bass 62",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 63,
+    "name": "Paraphonic Brass 63",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 64,
+    "name": "Drive Bass 64",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 65,
+    "name": "Classic PWM 65",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 66,
+    "name": "Unison Lead 66",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 67,
+    "name": "8-Voice Stabs 67",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 68,
+    "name": "Acid 303 Punch 68",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 69,
+    "name": "Sub Destroyer 69",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 70,
+    "name": "Wicked Sync 70",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 71,
+    "name": "Modern Electro 71",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 72,
+    "name": "Glide Monster 72",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 73,
+    "name": "Reso Funk 73",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 74,
+    "name": "Sub Pluck 74",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 75,
+    "name": "Aggro Lead 75",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 76,
+    "name": "VCF Noise Sweep 76",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 77,
+    "name": "Square Wave Punch 77",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 78,
+    "name": "Analog Chord Vibe 78",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 79,
+    "name": "Dark Modular Low 79",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 80,
+    "name": "Screaming 24dB Lead 80",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 81,
+    "name": "Pulse 2 Initial 81",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 82,
+    "name": "Super Fat Bass 82",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 83,
+    "name": "Paraphonic Brass 83",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 84,
+    "name": "Drive Bass 84",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 85,
+    "name": "Classic PWM 85",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 86,
+    "name": "Unison Lead 86",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 87,
+    "name": "8-Voice Stabs 87",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 88,
+    "name": "Acid 303 Punch 88",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 89,
+    "name": "Sub Destroyer 89",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 90,
+    "name": "Wicked Sync 90",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 91,
+    "name": "Modern Electro 91",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 92,
+    "name": "Glide Monster 92",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 93,
+    "name": "Reso Funk 93",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 94,
+    "name": "Sub Pluck 94",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 95,
+    "name": "Aggro Lead 95",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 96,
+    "name": "VCF Noise Sweep 96",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 97,
+    "name": "Square Wave Punch 97",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 98,
+    "name": "Analog Chord Vibe 98",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 99,
+    "name": "Dark Modular Low 99",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 1",
+    "program": 100,
+    "name": "Screaming 24dB Lead 100",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 1,
+    "name": "Pulse 2 Initial",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 2,
+    "name": "Super Fat Bass",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 3,
+    "name": "Paraphonic Brass",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 4,
+    "name": "Drive Bass",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 5,
+    "name": "Classic PWM",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 6,
+    "name": "Unison Lead",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 7,
+    "name": "8-Voice Stabs",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 8,
+    "name": "Acid 303 Punch",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 9,
+    "name": "Sub Destroyer",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 10,
+    "name": "Wicked Sync",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 11,
+    "name": "Modern Electro",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 12,
+    "name": "Glide Monster",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 13,
+    "name": "Reso Funk",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 14,
+    "name": "Sub Pluck",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 15,
+    "name": "Aggro Lead",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 16,
+    "name": "VCF Noise Sweep",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 17,
+    "name": "Square Wave Punch",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 18,
+    "name": "Analog Chord Vibe",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 19,
+    "name": "Dark Modular Low",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 20,
+    "name": "Screaming 24dB Lead",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 21,
+    "name": "Pulse 2 Initial 21",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 22,
+    "name": "Super Fat Bass 22",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 23,
+    "name": "Paraphonic Brass 23",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 24,
+    "name": "Drive Bass 24",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 25,
+    "name": "Classic PWM 25",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 26,
+    "name": "Unison Lead 26",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 27,
+    "name": "8-Voice Stabs 27",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 28,
+    "name": "Acid 303 Punch 28",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 29,
+    "name": "Sub Destroyer 29",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 30,
+    "name": "Wicked Sync 30",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 31,
+    "name": "Modern Electro 31",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 32,
+    "name": "Glide Monster 32",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 33,
+    "name": "Reso Funk 33",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 34,
+    "name": "Sub Pluck 34",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 35,
+    "name": "Aggro Lead 35",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 36,
+    "name": "VCF Noise Sweep 36",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 37,
+    "name": "Square Wave Punch 37",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 38,
+    "name": "Analog Chord Vibe 38",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 39,
+    "name": "Dark Modular Low 39",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 40,
+    "name": "Screaming 24dB Lead 40",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 41,
+    "name": "Pulse 2 Initial 41",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 42,
+    "name": "Super Fat Bass 42",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 43,
+    "name": "Paraphonic Brass 43",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 44,
+    "name": "Drive Bass 44",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 45,
+    "name": "Classic PWM 45",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 46,
+    "name": "Unison Lead 46",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 47,
+    "name": "8-Voice Stabs 47",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 48,
+    "name": "Acid 303 Punch 48",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 49,
+    "name": "Sub Destroyer 49",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 50,
+    "name": "Wicked Sync 50",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 51,
+    "name": "Modern Electro 51",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 52,
+    "name": "Glide Monster 52",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 53,
+    "name": "Reso Funk 53",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 54,
+    "name": "Sub Pluck 54",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 55,
+    "name": "Aggro Lead 55",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 56,
+    "name": "VCF Noise Sweep 56",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 57,
+    "name": "Square Wave Punch 57",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 58,
+    "name": "Analog Chord Vibe 58",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 59,
+    "name": "Dark Modular Low 59",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 60,
+    "name": "Screaming 24dB Lead 60",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 61,
+    "name": "Pulse 2 Initial 61",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 62,
+    "name": "Super Fat Bass 62",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 63,
+    "name": "Paraphonic Brass 63",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 64,
+    "name": "Drive Bass 64",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 65,
+    "name": "Classic PWM 65",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 66,
+    "name": "Unison Lead 66",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 67,
+    "name": "8-Voice Stabs 67",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 68,
+    "name": "Acid 303 Punch 68",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 69,
+    "name": "Sub Destroyer 69",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 70,
+    "name": "Wicked Sync 70",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 71,
+    "name": "Modern Electro 71",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 72,
+    "name": "Glide Monster 72",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 73,
+    "name": "Reso Funk 73",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 74,
+    "name": "Sub Pluck 74",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 75,
+    "name": "Aggro Lead 75",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 76,
+    "name": "VCF Noise Sweep 76",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 77,
+    "name": "Square Wave Punch 77",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 78,
+    "name": "Analog Chord Vibe 78",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 79,
+    "name": "Dark Modular Low 79",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 80,
+    "name": "Screaming 24dB Lead 80",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 81,
+    "name": "Pulse 2 Initial 81",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 82,
+    "name": "Super Fat Bass 82",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 83,
+    "name": "Paraphonic Brass 83",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 84,
+    "name": "Drive Bass 84",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 85,
+    "name": "Classic PWM 85",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 86,
+    "name": "Unison Lead 86",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 87,
+    "name": "8-Voice Stabs 87",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 88,
+    "name": "Acid 303 Punch 88",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 89,
+    "name": "Sub Destroyer 89",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 90,
+    "name": "Wicked Sync 90",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 91,
+    "name": "Modern Electro 91",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 92,
+    "name": "Glide Monster 92",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 93,
+    "name": "Reso Funk 93",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 94,
+    "name": "Sub Pluck 94",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 95,
+    "name": "Aggro Lead 95",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 96,
+    "name": "VCF Noise Sweep 96",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 97,
+    "name": "Square Wave Punch 97",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 98,
+    "name": "Analog Chord Vibe 98",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 99,
+    "name": "Dark Modular Low 99",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 2",
+    "program": 100,
+    "name": "Screaming 24dB Lead 100",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 1,
+    "name": "Pulse 2 Initial",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 2,
+    "name": "Super Fat Bass",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 3,
+    "name": "Paraphonic Brass",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 4,
+    "name": "Drive Bass",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 5,
+    "name": "Classic PWM",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 6,
+    "name": "Unison Lead",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 7,
+    "name": "8-Voice Stabs",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 8,
+    "name": "Acid 303 Punch",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 9,
+    "name": "Sub Destroyer",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 10,
+    "name": "Wicked Sync",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 11,
+    "name": "Modern Electro",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 12,
+    "name": "Glide Monster",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 13,
+    "name": "Reso Funk",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 14,
+    "name": "Sub Pluck",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 15,
+    "name": "Aggro Lead",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 16,
+    "name": "VCF Noise Sweep",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 17,
+    "name": "Square Wave Punch",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 18,
+    "name": "Analog Chord Vibe",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 19,
+    "name": "Dark Modular Low",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 20,
+    "name": "Screaming 24dB Lead",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 21,
+    "name": "Pulse 2 Initial 21",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 22,
+    "name": "Super Fat Bass 22",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 23,
+    "name": "Paraphonic Brass 23",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 24,
+    "name": "Drive Bass 24",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 25,
+    "name": "Classic PWM 25",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 26,
+    "name": "Unison Lead 26",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 27,
+    "name": "8-Voice Stabs 27",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 28,
+    "name": "Acid 303 Punch 28",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 29,
+    "name": "Sub Destroyer 29",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 30,
+    "name": "Wicked Sync 30",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 31,
+    "name": "Modern Electro 31",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 32,
+    "name": "Glide Monster 32",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 33,
+    "name": "Reso Funk 33",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 34,
+    "name": "Sub Pluck 34",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 35,
+    "name": "Aggro Lead 35",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 36,
+    "name": "VCF Noise Sweep 36",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 37,
+    "name": "Square Wave Punch 37",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 38,
+    "name": "Analog Chord Vibe 38",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 39,
+    "name": "Dark Modular Low 39",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 40,
+    "name": "Screaming 24dB Lead 40",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 41,
+    "name": "Pulse 2 Initial 41",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 42,
+    "name": "Super Fat Bass 42",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 43,
+    "name": "Paraphonic Brass 43",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 44,
+    "name": "Drive Bass 44",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 45,
+    "name": "Classic PWM 45",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 46,
+    "name": "Unison Lead 46",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 47,
+    "name": "8-Voice Stabs 47",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 48,
+    "name": "Acid 303 Punch 48",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 49,
+    "name": "Sub Destroyer 49",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 50,
+    "name": "Wicked Sync 50",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 51,
+    "name": "Modern Electro 51",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 52,
+    "name": "Glide Monster 52",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 53,
+    "name": "Reso Funk 53",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 54,
+    "name": "Sub Pluck 54",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 55,
+    "name": "Aggro Lead 55",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 56,
+    "name": "VCF Noise Sweep 56",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 57,
+    "name": "Square Wave Punch 57",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 58,
+    "name": "Analog Chord Vibe 58",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 59,
+    "name": "Dark Modular Low 59",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 60,
+    "name": "Screaming 24dB Lead 60",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 61,
+    "name": "Pulse 2 Initial 61",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 62,
+    "name": "Super Fat Bass 62",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 63,
+    "name": "Paraphonic Brass 63",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 64,
+    "name": "Drive Bass 64",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 65,
+    "name": "Classic PWM 65",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 66,
+    "name": "Unison Lead 66",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 67,
+    "name": "8-Voice Stabs 67",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 68,
+    "name": "Acid 303 Punch 68",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 69,
+    "name": "Sub Destroyer 69",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 70,
+    "name": "Wicked Sync 70",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 71,
+    "name": "Modern Electro 71",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 72,
+    "name": "Glide Monster 72",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 73,
+    "name": "Reso Funk 73",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 74,
+    "name": "Sub Pluck 74",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 75,
+    "name": "Aggro Lead 75",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 76,
+    "name": "VCF Noise Sweep 76",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 77,
+    "name": "Square Wave Punch 77",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 78,
+    "name": "Analog Chord Vibe 78",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 79,
+    "name": "Dark Modular Low 79",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 80,
+    "name": "Screaming 24dB Lead 80",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 81,
+    "name": "Pulse 2 Initial 81",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 82,
+    "name": "Super Fat Bass 82",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 83,
+    "name": "Paraphonic Brass 83",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 84,
+    "name": "Drive Bass 84",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 85,
+    "name": "Classic PWM 85",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 86,
+    "name": "Unison Lead 86",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 87,
+    "name": "8-Voice Stabs 87",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 88,
+    "name": "Acid 303 Punch 88",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 89,
+    "name": "Sub Destroyer 89",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 90,
+    "name": "Wicked Sync 90",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 91,
+    "name": "Modern Electro 91",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 92,
+    "name": "Glide Monster 92",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 93,
+    "name": "Reso Funk 93",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 94,
+    "name": "Sub Pluck 94",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 95,
+    "name": "Aggro Lead 95",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 96,
+    "name": "VCF Noise Sweep 96",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 97,
+    "name": "Square Wave Punch 97",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 98,
+    "name": "Analog Chord Vibe 98",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 99,
+    "name": "Dark Modular Low 99",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 3",
+    "program": 100,
+    "name": "Screaming 24dB Lead 100",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 1,
+    "name": "Pulse 2 Initial",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 2,
+    "name": "Super Fat Bass",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 3,
+    "name": "Paraphonic Brass",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 4,
+    "name": "Drive Bass",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 5,
+    "name": "Classic PWM",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 6,
+    "name": "Unison Lead",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 7,
+    "name": "8-Voice Stabs",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 8,
+    "name": "Acid 303 Punch",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 9,
+    "name": "Sub Destroyer",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 10,
+    "name": "Wicked Sync",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 11,
+    "name": "Modern Electro",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 12,
+    "name": "Glide Monster",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 13,
+    "name": "Reso Funk",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 14,
+    "name": "Sub Pluck",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 15,
+    "name": "Aggro Lead",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 16,
+    "name": "VCF Noise Sweep",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 17,
+    "name": "Square Wave Punch",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 18,
+    "name": "Analog Chord Vibe",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 19,
+    "name": "Dark Modular Low",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 20,
+    "name": "Screaming 24dB Lead",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 21,
+    "name": "Pulse 2 Initial 21",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 22,
+    "name": "Super Fat Bass 22",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 23,
+    "name": "Paraphonic Brass 23",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 24,
+    "name": "Drive Bass 24",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 25,
+    "name": "Classic PWM 25",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 26,
+    "name": "Unison Lead 26",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 27,
+    "name": "8-Voice Stabs 27",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 28,
+    "name": "Acid 303 Punch 28",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 29,
+    "name": "Sub Destroyer 29",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 30,
+    "name": "Wicked Sync 30",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 31,
+    "name": "Modern Electro 31",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 32,
+    "name": "Glide Monster 32",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 33,
+    "name": "Reso Funk 33",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 34,
+    "name": "Sub Pluck 34",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 35,
+    "name": "Aggro Lead 35",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 36,
+    "name": "VCF Noise Sweep 36",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 37,
+    "name": "Square Wave Punch 37",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 38,
+    "name": "Analog Chord Vibe 38",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 39,
+    "name": "Dark Modular Low 39",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 40,
+    "name": "Screaming 24dB Lead 40",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 41,
+    "name": "Pulse 2 Initial 41",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 42,
+    "name": "Super Fat Bass 42",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 43,
+    "name": "Paraphonic Brass 43",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 44,
+    "name": "Drive Bass 44",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 45,
+    "name": "Classic PWM 45",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 46,
+    "name": "Unison Lead 46",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 47,
+    "name": "8-Voice Stabs 47",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 48,
+    "name": "Acid 303 Punch 48",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 49,
+    "name": "Sub Destroyer 49",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 50,
+    "name": "Wicked Sync 50",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 51,
+    "name": "Modern Electro 51",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 52,
+    "name": "Glide Monster 52",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 53,
+    "name": "Reso Funk 53",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 54,
+    "name": "Sub Pluck 54",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 55,
+    "name": "Aggro Lead 55",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 56,
+    "name": "VCF Noise Sweep 56",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 57,
+    "name": "Square Wave Punch 57",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 58,
+    "name": "Analog Chord Vibe 58",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 59,
+    "name": "Dark Modular Low 59",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 60,
+    "name": "Screaming 24dB Lead 60",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 61,
+    "name": "Pulse 2 Initial 61",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 62,
+    "name": "Super Fat Bass 62",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 63,
+    "name": "Paraphonic Brass 63",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 64,
+    "name": "Drive Bass 64",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 65,
+    "name": "Classic PWM 65",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 66,
+    "name": "Unison Lead 66",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 67,
+    "name": "8-Voice Stabs 67",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 68,
+    "name": "Acid 303 Punch 68",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 69,
+    "name": "Sub Destroyer 69",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 70,
+    "name": "Wicked Sync 70",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 71,
+    "name": "Modern Electro 71",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 72,
+    "name": "Glide Monster 72",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 73,
+    "name": "Reso Funk 73",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 74,
+    "name": "Sub Pluck 74",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 75,
+    "name": "Aggro Lead 75",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 76,
+    "name": "VCF Noise Sweep 76",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 77,
+    "name": "Square Wave Punch 77",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 78,
+    "name": "Analog Chord Vibe 78",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 79,
+    "name": "Dark Modular Low 79",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 80,
+    "name": "Screaming 24dB Lead 80",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 81,
+    "name": "Pulse 2 Initial 81",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 82,
+    "name": "Super Fat Bass 82",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 83,
+    "name": "Paraphonic Brass 83",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 84,
+    "name": "Drive Bass 84",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 85,
+    "name": "Classic PWM 85",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 86,
+    "name": "Unison Lead 86",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 87,
+    "name": "8-Voice Stabs 87",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 88,
+    "name": "Acid 303 Punch 88",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 89,
+    "name": "Sub Destroyer 89",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 90,
+    "name": "Wicked Sync 90",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 91,
+    "name": "Modern Electro 91",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 92,
+    "name": "Glide Monster 92",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 93,
+    "name": "Reso Funk 93",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 94,
+    "name": "Sub Pluck 94",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 95,
+    "name": "Aggro Lead 95",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 96,
+    "name": "VCF Noise Sweep 96",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 97,
+    "name": "Square Wave Punch 97",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 98,
+    "name": "Analog Chord Vibe 98",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 99,
+    "name": "Dark Modular Low 99",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 4",
+    "program": 100,
+    "name": "Screaming 24dB Lead 100",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 1,
+    "name": "Pulse 2 Initial",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 2,
+    "name": "Super Fat Bass",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 3,
+    "name": "Paraphonic Brass",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 4,
+    "name": "Drive Bass",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 5,
+    "name": "Classic PWM",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 6,
+    "name": "Unison Lead",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 7,
+    "name": "8-Voice Stabs",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 8,
+    "name": "Acid 303 Punch",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 9,
+    "name": "Sub Destroyer",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 10,
+    "name": "Wicked Sync",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 11,
+    "name": "Modern Electro",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 12,
+    "name": "Glide Monster",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 13,
+    "name": "Reso Funk",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 14,
+    "name": "Sub Pluck",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 15,
+    "name": "Aggro Lead",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 16,
+    "name": "VCF Noise Sweep",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 17,
+    "name": "Square Wave Punch",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 18,
+    "name": "Analog Chord Vibe",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 19,
+    "name": "Dark Modular Low",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 20,
+    "name": "Screaming 24dB Lead",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 21,
+    "name": "Pulse 2 Initial 21",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 22,
+    "name": "Super Fat Bass 22",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 23,
+    "name": "Paraphonic Brass 23",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 24,
+    "name": "Drive Bass 24",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 25,
+    "name": "Classic PWM 25",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 26,
+    "name": "Unison Lead 26",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 27,
+    "name": "8-Voice Stabs 27",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 28,
+    "name": "Acid 303 Punch 28",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 29,
+    "name": "Sub Destroyer 29",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 30,
+    "name": "Wicked Sync 30",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 31,
+    "name": "Modern Electro 31",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 32,
+    "name": "Glide Monster 32",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 33,
+    "name": "Reso Funk 33",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 34,
+    "name": "Sub Pluck 34",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 35,
+    "name": "Aggro Lead 35",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 36,
+    "name": "VCF Noise Sweep 36",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 37,
+    "name": "Square Wave Punch 37",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 38,
+    "name": "Analog Chord Vibe 38",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 39,
+    "name": "Dark Modular Low 39",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 40,
+    "name": "Screaming 24dB Lead 40",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 41,
+    "name": "Pulse 2 Initial 41",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 42,
+    "name": "Super Fat Bass 42",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 43,
+    "name": "Paraphonic Brass 43",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 44,
+    "name": "Drive Bass 44",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 45,
+    "name": "Classic PWM 45",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 46,
+    "name": "Unison Lead 46",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 47,
+    "name": "8-Voice Stabs 47",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 48,
+    "name": "Acid 303 Punch 48",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 49,
+    "name": "Sub Destroyer 49",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 50,
+    "name": "Wicked Sync 50",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 51,
+    "name": "Modern Electro 51",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 52,
+    "name": "Glide Monster 52",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 53,
+    "name": "Reso Funk 53",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 54,
+    "name": "Sub Pluck 54",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 55,
+    "name": "Aggro Lead 55",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 56,
+    "name": "VCF Noise Sweep 56",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 57,
+    "name": "Square Wave Punch 57",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 58,
+    "name": "Analog Chord Vibe 58",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 59,
+    "name": "Dark Modular Low 59",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 60,
+    "name": "Screaming 24dB Lead 60",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 61,
+    "name": "Pulse 2 Initial 61",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 62,
+    "name": "Super Fat Bass 62",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 63,
+    "name": "Paraphonic Brass 63",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 64,
+    "name": "Drive Bass 64",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 65,
+    "name": "Classic PWM 65",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 66,
+    "name": "Unison Lead 66",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 67,
+    "name": "8-Voice Stabs 67",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 68,
+    "name": "Acid 303 Punch 68",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 69,
+    "name": "Sub Destroyer 69",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 70,
+    "name": "Wicked Sync 70",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 71,
+    "name": "Modern Electro 71",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 72,
+    "name": "Glide Monster 72",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 73,
+    "name": "Reso Funk 73",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 74,
+    "name": "Sub Pluck 74",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 75,
+    "name": "Aggro Lead 75",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 76,
+    "name": "VCF Noise Sweep 76",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 77,
+    "name": "Square Wave Punch 77",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 78,
+    "name": "Analog Chord Vibe 78",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 79,
+    "name": "Dark Modular Low 79",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 80,
+    "name": "Screaming 24dB Lead 80",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 81,
+    "name": "Pulse 2 Initial 81",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 82,
+    "name": "Super Fat Bass 82",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 83,
+    "name": "Paraphonic Brass 83",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 84,
+    "name": "Drive Bass 84",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 85,
+    "name": "Classic PWM 85",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 86,
+    "name": "Unison Lead 86",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 87,
+    "name": "8-Voice Stabs 87",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 88,
+    "name": "Acid 303 Punch 88",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 89,
+    "name": "Sub Destroyer 89",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 90,
+    "name": "Wicked Sync 90",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 91,
+    "name": "Modern Electro 91",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 92,
+    "name": "Glide Monster 92",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 93,
+    "name": "Reso Funk 93",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 94,
+    "name": "Sub Pluck 94",
+    "category": "Bass",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 95,
+    "name": "Aggro Lead 95",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 96,
+    "name": "VCF Noise Sweep 96",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 97,
+    "name": "Square Wave Punch 97",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 98,
+    "name": "Analog Chord Vibe 98",
+    "category": "Paraphonic",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 99,
+    "name": "Dark Modular Low 99",
+    "category": "Arp",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Bank 5",
+    "program": 100,
+    "name": "Screaming 24dB Lead 100",
+    "category": "Lead",
+    "tags": [
+      "analog",
+      "paraphonic",
+      "drive",
+      "lead"
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+manufacturer: Sequential
+model: Dave Smith Instruments Prophet-6
+type: Discrete Polyphonic Analog Synthesizer
+year: 2015
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    highpass_cutoff: 79
+    highpass_resonance: 78
+    vco1_shape: 20
+    vco2_shape: 24
+    polymod_filter_env: 85
+    polymod_osc_2: 86
+    fx_mix: 91
+sysex:
+  header: F0 01 2D
+  device_id_byte: 3
+  commands:
+    request_program: F0 01 2D 05 [bank] [prog] F7
+banks:
+- Factory Bank 0
+- Factory Bank 1
+- Factory Bank 2
+- Factory Bank 3
+- Factory Bank 4

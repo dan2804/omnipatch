@@ -1,0 +1,4994 @@
+[
+  {
+    "bank": "Factory Bank 1",
+    "program": 1,
+    "name": "Main Evolver",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 2,
+    "name": "Sequenced Madness",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 3,
+    "name": "Feedback Scream",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 4,
+    "name": "Analog Sub Bass",
+    "category": "Bass",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 5,
+    "name": "Wavetable Morph",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 6,
+    "name": "Stereo Gated Arp",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 7,
+    "name": "Distorted Lead",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 8,
+    "name": "PPG Bell Sequence",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 9,
+    "name": "Curtis Lowpass",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 10,
+    "name": "Highpass Peak",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 11,
+    "name": "Industrial Rhythm",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 12,
+    "name": "Alien Landscape",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 13,
+    "name": "Matrix Sequence 4x16",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 14,
+    "name": "Heavy Drive Solo",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 15,
+    "name": "Dirty Modular",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 16,
+    "name": "Main Evolver 16",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 17,
+    "name": "Sequenced Madness 17",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 18,
+    "name": "Feedback Scream 18",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 19,
+    "name": "Analog Sub Bass 19",
+    "category": "Bass",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 20,
+    "name": "Wavetable Morph 20",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 21,
+    "name": "Stereo Gated Arp 21",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 22,
+    "name": "Distorted Lead 22",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 23,
+    "name": "PPG Bell Sequence 23",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 24,
+    "name": "Curtis Lowpass 24",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 25,
+    "name": "Highpass Peak 25",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 26,
+    "name": "Industrial Rhythm 26",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 27,
+    "name": "Alien Landscape 27",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 28,
+    "name": "Matrix Sequence 4x16 28",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 29,
+    "name": "Heavy Drive Solo 29",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 30,
+    "name": "Dirty Modular 30",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 31,
+    "name": "Main Evolver 31",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 32,
+    "name": "Sequenced Madness 32",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 33,
+    "name": "Feedback Scream 33",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 34,
+    "name": "Analog Sub Bass 34",
+    "category": "Bass",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 35,
+    "name": "Wavetable Morph 35",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 36,
+    "name": "Stereo Gated Arp 36",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 37,
+    "name": "Distorted Lead 37",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 38,
+    "name": "PPG Bell Sequence 38",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 39,
+    "name": "Curtis Lowpass 39",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 40,
+    "name": "Highpass Peak 40",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 41,
+    "name": "Industrial Rhythm 41",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 42,
+    "name": "Alien Landscape 42",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 43,
+    "name": "Matrix Sequence 4x16 43",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 44,
+    "name": "Heavy Drive Solo 44",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 45,
+    "name": "Dirty Modular 45",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 46,
+    "name": "Main Evolver 46",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 47,
+    "name": "Sequenced Madness 47",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 48,
+    "name": "Feedback Scream 48",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 49,
+    "name": "Analog Sub Bass 49",
+    "category": "Bass",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 50,
+    "name": "Wavetable Morph 50",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 51,
+    "name": "Stereo Gated Arp 51",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 52,
+    "name": "Distorted Lead 52",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 53,
+    "name": "PPG Bell Sequence 53",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 54,
+    "name": "Curtis Lowpass 54",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 55,
+    "name": "Highpass Peak 55",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 56,
+    "name": "Industrial Rhythm 56",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 57,
+    "name": "Alien Landscape 57",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 58,
+    "name": "Matrix Sequence 4x16 58",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 59,
+    "name": "Heavy Drive Solo 59",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 60,
+    "name": "Dirty Modular 60",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 61,
+    "name": "Main Evolver 61",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 62,
+    "name": "Sequenced Madness 62",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 63,
+    "name": "Feedback Scream 63",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 64,
+    "name": "Analog Sub Bass 64",
+    "category": "Bass",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 65,
+    "name": "Wavetable Morph 65",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 66,
+    "name": "Stereo Gated Arp 66",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 67,
+    "name": "Distorted Lead 67",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 68,
+    "name": "PPG Bell Sequence 68",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 69,
+    "name": "Curtis Lowpass 69",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 70,
+    "name": "Highpass Peak 70",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 71,
+    "name": "Industrial Rhythm 71",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 72,
+    "name": "Alien Landscape 72",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 73,
+    "name": "Matrix Sequence 4x16 73",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 74,
+    "name": "Heavy Drive Solo 74",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 75,
+    "name": "Dirty Modular 75",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 76,
+    "name": "Main Evolver 76",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 77,
+    "name": "Sequenced Madness 77",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 78,
+    "name": "Feedback Scream 78",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 79,
+    "name": "Analog Sub Bass 79",
+    "category": "Bass",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 80,
+    "name": "Wavetable Morph 80",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 81,
+    "name": "Stereo Gated Arp 81",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 82,
+    "name": "Distorted Lead 82",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 83,
+    "name": "PPG Bell Sequence 83",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 84,
+    "name": "Curtis Lowpass 84",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 85,
+    "name": "Highpass Peak 85",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 86,
+    "name": "Industrial Rhythm 86",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 87,
+    "name": "Alien Landscape 87",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 88,
+    "name": "Matrix Sequence 4x16 88",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 89,
+    "name": "Heavy Drive Solo 89",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 90,
+    "name": "Dirty Modular 90",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 91,
+    "name": "Main Evolver 91",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 92,
+    "name": "Sequenced Madness 92",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 93,
+    "name": "Feedback Scream 93",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 94,
+    "name": "Analog Sub Bass 94",
+    "category": "Bass",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 95,
+    "name": "Wavetable Morph 95",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 96,
+    "name": "Stereo Gated Arp 96",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 97,
+    "name": "Distorted Lead 97",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 98,
+    "name": "PPG Bell Sequence 98",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 99,
+    "name": "Curtis Lowpass 99",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 100,
+    "name": "Highpass Peak 100",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 101,
+    "name": "Industrial Rhythm 101",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 102,
+    "name": "Alien Landscape 102",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 103,
+    "name": "Matrix Sequence 4x16 103",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 104,
+    "name": "Heavy Drive Solo 104",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 105,
+    "name": "Dirty Modular 105",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 106,
+    "name": "Main Evolver 106",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 107,
+    "name": "Sequenced Madness 107",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 108,
+    "name": "Feedback Scream 108",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 109,
+    "name": "Analog Sub Bass 109",
+    "category": "Bass",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 110,
+    "name": "Wavetable Morph 110",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 111,
+    "name": "Stereo Gated Arp 111",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 112,
+    "name": "Distorted Lead 112",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 113,
+    "name": "PPG Bell Sequence 113",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 114,
+    "name": "Curtis Lowpass 114",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 115,
+    "name": "Highpass Peak 115",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 116,
+    "name": "Industrial Rhythm 116",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 117,
+    "name": "Alien Landscape 117",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 118,
+    "name": "Matrix Sequence 4x16 118",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 119,
+    "name": "Heavy Drive Solo 119",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 120,
+    "name": "Dirty Modular 120",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 121,
+    "name": "Main Evolver 121",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 122,
+    "name": "Sequenced Madness 122",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 123,
+    "name": "Feedback Scream 123",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 124,
+    "name": "Analog Sub Bass 124",
+    "category": "Bass",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 125,
+    "name": "Wavetable Morph 125",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 126,
+    "name": "Stereo Gated Arp 126",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 127,
+    "name": "Distorted Lead 127",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 128,
+    "name": "PPG Bell Sequence 128",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 1,
+    "name": "Main Evolver",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 2,
+    "name": "Sequenced Madness",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 3,
+    "name": "Feedback Scream",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 4,
+    "name": "Analog Sub Bass",
+    "category": "Bass",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 5,
+    "name": "Wavetable Morph",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 6,
+    "name": "Stereo Gated Arp",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 7,
+    "name": "Distorted Lead",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 8,
+    "name": "PPG Bell Sequence",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 9,
+    "name": "Curtis Lowpass",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 10,
+    "name": "Highpass Peak",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 11,
+    "name": "Industrial Rhythm",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 12,
+    "name": "Alien Landscape",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 13,
+    "name": "Matrix Sequence 4x16",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 14,
+    "name": "Heavy Drive Solo",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 15,
+    "name": "Dirty Modular",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 16,
+    "name": "Main Evolver 16",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 17,
+    "name": "Sequenced Madness 17",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 18,
+    "name": "Feedback Scream 18",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 19,
+    "name": "Analog Sub Bass 19",
+    "category": "Bass",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 20,
+    "name": "Wavetable Morph 20",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 21,
+    "name": "Stereo Gated Arp 21",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 22,
+    "name": "Distorted Lead 22",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 23,
+    "name": "PPG Bell Sequence 23",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 24,
+    "name": "Curtis Lowpass 24",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 25,
+    "name": "Highpass Peak 25",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 26,
+    "name": "Industrial Rhythm 26",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 27,
+    "name": "Alien Landscape 27",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 28,
+    "name": "Matrix Sequence 4x16 28",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 29,
+    "name": "Heavy Drive Solo 29",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 30,
+    "name": "Dirty Modular 30",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 31,
+    "name": "Main Evolver 31",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 32,
+    "name": "Sequenced Madness 32",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 33,
+    "name": "Feedback Scream 33",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 34,
+    "name": "Analog Sub Bass 34",
+    "category": "Bass",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 35,
+    "name": "Wavetable Morph 35",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 36,
+    "name": "Stereo Gated Arp 36",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 37,
+    "name": "Distorted Lead 37",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 38,
+    "name": "PPG Bell Sequence 38",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 39,
+    "name": "Curtis Lowpass 39",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 40,
+    "name": "Highpass Peak 40",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 41,
+    "name": "Industrial Rhythm 41",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 42,
+    "name": "Alien Landscape 42",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 43,
+    "name": "Matrix Sequence 4x16 43",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 44,
+    "name": "Heavy Drive Solo 44",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 45,
+    "name": "Dirty Modular 45",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 46,
+    "name": "Main Evolver 46",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 47,
+    "name": "Sequenced Madness 47",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 48,
+    "name": "Feedback Scream 48",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 49,
+    "name": "Analog Sub Bass 49",
+    "category": "Bass",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 50,
+    "name": "Wavetable Morph 50",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 51,
+    "name": "Stereo Gated Arp 51",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 52,
+    "name": "Distorted Lead 52",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 53,
+    "name": "PPG Bell Sequence 53",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 54,
+    "name": "Curtis Lowpass 54",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 55,
+    "name": "Highpass Peak 55",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 56,
+    "name": "Industrial Rhythm 56",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 57,
+    "name": "Alien Landscape 57",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 58,
+    "name": "Matrix Sequence 4x16 58",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 59,
+    "name": "Heavy Drive Solo 59",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 60,
+    "name": "Dirty Modular 60",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 61,
+    "name": "Main Evolver 61",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 62,
+    "name": "Sequenced Madness 62",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 63,
+    "name": "Feedback Scream 63",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 64,
+    "name": "Analog Sub Bass 64",
+    "category": "Bass",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 65,
+    "name": "Wavetable Morph 65",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 66,
+    "name": "Stereo Gated Arp 66",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 67,
+    "name": "Distorted Lead 67",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 68,
+    "name": "PPG Bell Sequence 68",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 69,
+    "name": "Curtis Lowpass 69",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 70,
+    "name": "Highpass Peak 70",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 71,
+    "name": "Industrial Rhythm 71",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 72,
+    "name": "Alien Landscape 72",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 73,
+    "name": "Matrix Sequence 4x16 73",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 74,
+    "name": "Heavy Drive Solo 74",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 75,
+    "name": "Dirty Modular 75",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 76,
+    "name": "Main Evolver 76",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 77,
+    "name": "Sequenced Madness 77",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 78,
+    "name": "Feedback Scream 78",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 79,
+    "name": "Analog Sub Bass 79",
+    "category": "Bass",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 80,
+    "name": "Wavetable Morph 80",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 81,
+    "name": "Stereo Gated Arp 81",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 82,
+    "name": "Distorted Lead 82",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 83,
+    "name": "PPG Bell Sequence 83",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 84,
+    "name": "Curtis Lowpass 84",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 85,
+    "name": "Highpass Peak 85",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 86,
+    "name": "Industrial Rhythm 86",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 87,
+    "name": "Alien Landscape 87",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 88,
+    "name": "Matrix Sequence 4x16 88",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 89,
+    "name": "Heavy Drive Solo 89",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 90,
+    "name": "Dirty Modular 90",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 91,
+    "name": "Main Evolver 91",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 92,
+    "name": "Sequenced Madness 92",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 93,
+    "name": "Feedback Scream 93",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 94,
+    "name": "Analog Sub Bass 94",
+    "category": "Bass",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 95,
+    "name": "Wavetable Morph 95",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 96,
+    "name": "Stereo Gated Arp 96",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 97,
+    "name": "Distorted Lead 97",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 98,
+    "name": "PPG Bell Sequence 98",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 99,
+    "name": "Curtis Lowpass 99",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 100,
+    "name": "Highpass Peak 100",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 101,
+    "name": "Industrial Rhythm 101",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 102,
+    "name": "Alien Landscape 102",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 103,
+    "name": "Matrix Sequence 4x16 103",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 104,
+    "name": "Heavy Drive Solo 104",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 105,
+    "name": "Dirty Modular 105",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 106,
+    "name": "Main Evolver 106",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 107,
+    "name": "Sequenced Madness 107",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 108,
+    "name": "Feedback Scream 108",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 109,
+    "name": "Analog Sub Bass 109",
+    "category": "Bass",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 110,
+    "name": "Wavetable Morph 110",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 111,
+    "name": "Stereo Gated Arp 111",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 112,
+    "name": "Distorted Lead 112",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 113,
+    "name": "PPG Bell Sequence 113",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 114,
+    "name": "Curtis Lowpass 114",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 115,
+    "name": "Highpass Peak 115",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 116,
+    "name": "Industrial Rhythm 116",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 117,
+    "name": "Alien Landscape 117",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 118,
+    "name": "Matrix Sequence 4x16 118",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 119,
+    "name": "Heavy Drive Solo 119",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 120,
+    "name": "Dirty Modular 120",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 121,
+    "name": "Main Evolver 121",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 122,
+    "name": "Sequenced Madness 122",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 123,
+    "name": "Feedback Scream 123",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 124,
+    "name": "Analog Sub Bass 124",
+    "category": "Bass",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 125,
+    "name": "Wavetable Morph 125",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 126,
+    "name": "Stereo Gated Arp 126",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 127,
+    "name": "Distorted Lead 127",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 128,
+    "name": "PPG Bell Sequence 128",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 1,
+    "name": "Main Evolver",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 2,
+    "name": "Sequenced Madness",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 3,
+    "name": "Feedback Scream",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 4,
+    "name": "Analog Sub Bass",
+    "category": "Bass",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 5,
+    "name": "Wavetable Morph",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 6,
+    "name": "Stereo Gated Arp",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 7,
+    "name": "Distorted Lead",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 8,
+    "name": "PPG Bell Sequence",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 9,
+    "name": "Curtis Lowpass",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 10,
+    "name": "Highpass Peak",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 11,
+    "name": "Industrial Rhythm",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 12,
+    "name": "Alien Landscape",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 13,
+    "name": "Matrix Sequence 4x16",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 14,
+    "name": "Heavy Drive Solo",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 15,
+    "name": "Dirty Modular",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 16,
+    "name": "Main Evolver 16",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 17,
+    "name": "Sequenced Madness 17",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 18,
+    "name": "Feedback Scream 18",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 19,
+    "name": "Analog Sub Bass 19",
+    "category": "Bass",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 20,
+    "name": "Wavetable Morph 20",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 21,
+    "name": "Stereo Gated Arp 21",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 22,
+    "name": "Distorted Lead 22",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 23,
+    "name": "PPG Bell Sequence 23",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 24,
+    "name": "Curtis Lowpass 24",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 25,
+    "name": "Highpass Peak 25",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 26,
+    "name": "Industrial Rhythm 26",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 27,
+    "name": "Alien Landscape 27",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 28,
+    "name": "Matrix Sequence 4x16 28",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 29,
+    "name": "Heavy Drive Solo 29",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 30,
+    "name": "Dirty Modular 30",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 31,
+    "name": "Main Evolver 31",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 32,
+    "name": "Sequenced Madness 32",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 33,
+    "name": "Feedback Scream 33",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 34,
+    "name": "Analog Sub Bass 34",
+    "category": "Bass",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 35,
+    "name": "Wavetable Morph 35",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 36,
+    "name": "Stereo Gated Arp 36",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 37,
+    "name": "Distorted Lead 37",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 38,
+    "name": "PPG Bell Sequence 38",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 39,
+    "name": "Curtis Lowpass 39",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 40,
+    "name": "Highpass Peak 40",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 41,
+    "name": "Industrial Rhythm 41",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 42,
+    "name": "Alien Landscape 42",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 43,
+    "name": "Matrix Sequence 4x16 43",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 44,
+    "name": "Heavy Drive Solo 44",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 45,
+    "name": "Dirty Modular 45",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 46,
+    "name": "Main Evolver 46",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 47,
+    "name": "Sequenced Madness 47",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 48,
+    "name": "Feedback Scream 48",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 49,
+    "name": "Analog Sub Bass 49",
+    "category": "Bass",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 50,
+    "name": "Wavetable Morph 50",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 51,
+    "name": "Stereo Gated Arp 51",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 52,
+    "name": "Distorted Lead 52",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 53,
+    "name": "PPG Bell Sequence 53",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 54,
+    "name": "Curtis Lowpass 54",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 55,
+    "name": "Highpass Peak 55",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 56,
+    "name": "Industrial Rhythm 56",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 57,
+    "name": "Alien Landscape 57",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 58,
+    "name": "Matrix Sequence 4x16 58",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 59,
+    "name": "Heavy Drive Solo 59",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 60,
+    "name": "Dirty Modular 60",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 61,
+    "name": "Main Evolver 61",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 62,
+    "name": "Sequenced Madness 62",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 63,
+    "name": "Feedback Scream 63",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 64,
+    "name": "Analog Sub Bass 64",
+    "category": "Bass",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 65,
+    "name": "Wavetable Morph 65",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 66,
+    "name": "Stereo Gated Arp 66",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 67,
+    "name": "Distorted Lead 67",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 68,
+    "name": "PPG Bell Sequence 68",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 69,
+    "name": "Curtis Lowpass 69",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 70,
+    "name": "Highpass Peak 70",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 71,
+    "name": "Industrial Rhythm 71",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 72,
+    "name": "Alien Landscape 72",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 73,
+    "name": "Matrix Sequence 4x16 73",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 74,
+    "name": "Heavy Drive Solo 74",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 75,
+    "name": "Dirty Modular 75",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 76,
+    "name": "Main Evolver 76",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 77,
+    "name": "Sequenced Madness 77",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 78,
+    "name": "Feedback Scream 78",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 79,
+    "name": "Analog Sub Bass 79",
+    "category": "Bass",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 80,
+    "name": "Wavetable Morph 80",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 81,
+    "name": "Stereo Gated Arp 81",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 82,
+    "name": "Distorted Lead 82",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 83,
+    "name": "PPG Bell Sequence 83",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 84,
+    "name": "Curtis Lowpass 84",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 85,
+    "name": "Highpass Peak 85",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 86,
+    "name": "Industrial Rhythm 86",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 87,
+    "name": "Alien Landscape 87",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 88,
+    "name": "Matrix Sequence 4x16 88",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 89,
+    "name": "Heavy Drive Solo 89",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 90,
+    "name": "Dirty Modular 90",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 91,
+    "name": "Main Evolver 91",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 92,
+    "name": "Sequenced Madness 92",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 93,
+    "name": "Feedback Scream 93",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 94,
+    "name": "Analog Sub Bass 94",
+    "category": "Bass",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 95,
+    "name": "Wavetable Morph 95",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 96,
+    "name": "Stereo Gated Arp 96",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 97,
+    "name": "Distorted Lead 97",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 98,
+    "name": "PPG Bell Sequence 98",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 99,
+    "name": "Curtis Lowpass 99",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 100,
+    "name": "Highpass Peak 100",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 101,
+    "name": "Industrial Rhythm 101",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 102,
+    "name": "Alien Landscape 102",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 103,
+    "name": "Matrix Sequence 4x16 103",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 104,
+    "name": "Heavy Drive Solo 104",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 105,
+    "name": "Dirty Modular 105",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 106,
+    "name": "Main Evolver 106",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 107,
+    "name": "Sequenced Madness 107",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 108,
+    "name": "Feedback Scream 108",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 109,
+    "name": "Analog Sub Bass 109",
+    "category": "Bass",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 110,
+    "name": "Wavetable Morph 110",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 111,
+    "name": "Stereo Gated Arp 111",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 112,
+    "name": "Distorted Lead 112",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 113,
+    "name": "PPG Bell Sequence 113",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 114,
+    "name": "Curtis Lowpass 114",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 115,
+    "name": "Highpass Peak 115",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 116,
+    "name": "Industrial Rhythm 116",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 117,
+    "name": "Alien Landscape 117",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 118,
+    "name": "Matrix Sequence 4x16 118",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 119,
+    "name": "Heavy Drive Solo 119",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 120,
+    "name": "Dirty Modular 120",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 121,
+    "name": "Main Evolver 121",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 122,
+    "name": "Sequenced Madness 122",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 123,
+    "name": "Feedback Scream 123",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 124,
+    "name": "Analog Sub Bass 124",
+    "category": "Bass",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 125,
+    "name": "Wavetable Morph 125",
+    "category": "FX",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 126,
+    "name": "Stereo Gated Arp 126",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 127,
+    "name": "Distorted Lead 127",
+    "category": "Lead",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 128,
+    "name": "PPG Bell Sequence 128",
+    "category": "Sequence",
+    "tags": [
+      "evolver",
+      "step-sequencer",
+      "feedback",
+      "curtis-vcf",
+      "sequence"
+    ]
+  }
+]

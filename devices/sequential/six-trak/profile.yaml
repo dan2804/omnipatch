@@ -1,0 +1,18 @@
+manufacturer: Sequential
+model: Sequential Circuits Six-Trak
+type: Multitimbral Analog Synthesizer
+year: 1984
+midi:
+  channels: 16
+  cc_map:
+    cutoff: 74
+    resonance: 71
+    osc_coarse: 20
+    glide: 5
+sysex:
+  header: F0 01 05
+  device_id_byte: 3
+  commands:
+    dump_program: F0 01 05 01 [data...] F7
+banks:
+- Factory Bank

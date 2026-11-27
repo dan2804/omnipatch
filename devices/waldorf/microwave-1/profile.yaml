@@ -1,0 +1,24 @@
+manufacturer: Waldorf
+model: Waldorf Microwave I
+type: Hybrid Wavetable Synthesizer
+year: 1989
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    wave1_position: 70
+    wave2_position: 79
+    envelope_attack: 73
+    envelope_decay: 75
+    envelope_sustain: 30
+    envelope_release: 72
+sysex:
+  header: F0 3E 00 00
+  device_id_byte: 2
+  commands:
+    request_sound: F0 3E 00 00 40 [sound_id] F7
+    send_sound: F0 3E 00 00 10 [data...] F7
+banks:
+- Bank A
+- Bank B

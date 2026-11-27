@@ -1,0 +1,1202 @@
+[
+  {
+    "bank": "Preset Bank",
+    "program": 0,
+    "name": "VS-00 Film Cue",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 1,
+    "name": "VS-01 Voices VS",
+    "category": "Pad",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 2,
+    "name": "VS-02 Plucked Vector",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 3,
+    "name": "VS-03 Bowed Bell",
+    "category": "Bell",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "bell"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 4,
+    "name": "VS-04 VS Brass",
+    "category": "Brass",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 5,
+    "name": "VS-05 Digital Wave Bass",
+    "category": "Bass",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 6,
+    "name": "VS-06 Space Harpsichord",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 7,
+    "name": "VS-07 Alien Breath",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 8,
+    "name": "VS-08 Glass Matrix",
+    "category": "Bell",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "bell"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 9,
+    "name": "VS-09 Lunar Choir",
+    "category": "Pad",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 10,
+    "name": "VS-10 Joystick Morph Pad",
+    "category": "Pad",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 11,
+    "name": "VS-11 Resonant Digital",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 12,
+    "name": "VS-12 Sync Vector Solo",
+    "category": "Lead",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 13,
+    "name": "VS-13 Subterranean Low",
+    "category": "Bass",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 14,
+    "name": "VS-14 Vocaloid Pad",
+    "category": "Pad",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 15,
+    "name": "VS-15 Celestial Waves",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 16,
+    "name": "VS-16 Metallic Pulse",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 17,
+    "name": "VS-17 Blade Runner Brass",
+    "category": "Brass",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 18,
+    "name": "VS-18 Vector Lead",
+    "category": "Lead",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 19,
+    "name": "VS-19 Dark Drone",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 20,
+    "name": "VS-20 Film Cue",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 21,
+    "name": "VS-21 Voices VS",
+    "category": "Pad",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 22,
+    "name": "VS-22 Plucked Vector",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 23,
+    "name": "VS-23 Bowed Bell",
+    "category": "Bell",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "bell"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 24,
+    "name": "VS-24 VS Brass",
+    "category": "Brass",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 25,
+    "name": "VS-25 Digital Wave Bass",
+    "category": "Bass",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 26,
+    "name": "VS-26 Space Harpsichord",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 27,
+    "name": "VS-27 Alien Breath",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 28,
+    "name": "VS-28 Glass Matrix",
+    "category": "Bell",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "bell"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 29,
+    "name": "VS-29 Lunar Choir",
+    "category": "Pad",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 30,
+    "name": "VS-30 Joystick Morph Pad",
+    "category": "Pad",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 31,
+    "name": "VS-31 Resonant Digital",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 32,
+    "name": "VS-32 Sync Vector Solo",
+    "category": "Lead",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 33,
+    "name": "VS-33 Subterranean Low",
+    "category": "Bass",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 34,
+    "name": "VS-34 Vocaloid Pad",
+    "category": "Pad",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 35,
+    "name": "VS-35 Celestial Waves",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 36,
+    "name": "VS-36 Metallic Pulse",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 37,
+    "name": "VS-37 Blade Runner Brass",
+    "category": "Brass",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 38,
+    "name": "VS-38 Vector Lead",
+    "category": "Lead",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 39,
+    "name": "VS-39 Dark Drone",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 40,
+    "name": "VS-40 Film Cue",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 41,
+    "name": "VS-41 Voices VS",
+    "category": "Pad",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 42,
+    "name": "VS-42 Plucked Vector",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 43,
+    "name": "VS-43 Bowed Bell",
+    "category": "Bell",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "bell"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 44,
+    "name": "VS-44 VS Brass",
+    "category": "Brass",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 45,
+    "name": "VS-45 Digital Wave Bass",
+    "category": "Bass",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 46,
+    "name": "VS-46 Space Harpsichord",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 47,
+    "name": "VS-47 Alien Breath",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 48,
+    "name": "VS-48 Glass Matrix",
+    "category": "Bell",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "bell"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 49,
+    "name": "VS-49 Lunar Choir",
+    "category": "Pad",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 50,
+    "name": "VS-50 Joystick Morph Pad",
+    "category": "Pad",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 51,
+    "name": "VS-51 Resonant Digital",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 52,
+    "name": "VS-52 Sync Vector Solo",
+    "category": "Lead",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 53,
+    "name": "VS-53 Subterranean Low",
+    "category": "Bass",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 54,
+    "name": "VS-54 Vocaloid Pad",
+    "category": "Pad",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 55,
+    "name": "VS-55 Celestial Waves",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 56,
+    "name": "VS-56 Metallic Pulse",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 57,
+    "name": "VS-57 Blade Runner Brass",
+    "category": "Brass",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 58,
+    "name": "VS-58 Vector Lead",
+    "category": "Lead",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 59,
+    "name": "VS-59 Dark Drone",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 60,
+    "name": "VS-60 Film Cue",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 61,
+    "name": "VS-61 Voices VS",
+    "category": "Pad",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 62,
+    "name": "VS-62 Plucked Vector",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 63,
+    "name": "VS-63 Bowed Bell",
+    "category": "Bell",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "bell"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 64,
+    "name": "VS-64 VS Brass",
+    "category": "Brass",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 65,
+    "name": "VS-65 Digital Wave Bass",
+    "category": "Bass",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 66,
+    "name": "VS-66 Space Harpsichord",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 67,
+    "name": "VS-67 Alien Breath",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 68,
+    "name": "VS-68 Glass Matrix",
+    "category": "Bell",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "bell"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 69,
+    "name": "VS-69 Lunar Choir",
+    "category": "Pad",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 70,
+    "name": "VS-70 Joystick Morph Pad",
+    "category": "Pad",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 71,
+    "name": "VS-71 Resonant Digital",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 72,
+    "name": "VS-72 Sync Vector Solo",
+    "category": "Lead",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 73,
+    "name": "VS-73 Subterranean Low",
+    "category": "Bass",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 74,
+    "name": "VS-74 Vocaloid Pad",
+    "category": "Pad",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 75,
+    "name": "VS-75 Celestial Waves",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 76,
+    "name": "VS-76 Metallic Pulse",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 77,
+    "name": "VS-77 Blade Runner Brass",
+    "category": "Brass",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 78,
+    "name": "VS-78 Vector Lead",
+    "category": "Lead",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 79,
+    "name": "VS-79 Dark Drone",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 80,
+    "name": "VS-80 Film Cue",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 81,
+    "name": "VS-81 Voices VS",
+    "category": "Pad",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 82,
+    "name": "VS-82 Plucked Vector",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 83,
+    "name": "VS-83 Bowed Bell",
+    "category": "Bell",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "bell"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 84,
+    "name": "VS-84 VS Brass",
+    "category": "Brass",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 85,
+    "name": "VS-85 Digital Wave Bass",
+    "category": "Bass",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 86,
+    "name": "VS-86 Space Harpsichord",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 87,
+    "name": "VS-87 Alien Breath",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 88,
+    "name": "VS-88 Glass Matrix",
+    "category": "Bell",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "bell"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 89,
+    "name": "VS-89 Lunar Choir",
+    "category": "Pad",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 90,
+    "name": "VS-90 Joystick Morph Pad",
+    "category": "Pad",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 91,
+    "name": "VS-91 Resonant Digital",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 92,
+    "name": "VS-92 Sync Vector Solo",
+    "category": "Lead",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 93,
+    "name": "VS-93 Subterranean Low",
+    "category": "Bass",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 94,
+    "name": "VS-94 Vocaloid Pad",
+    "category": "Pad",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 95,
+    "name": "VS-95 Celestial Waves",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 96,
+    "name": "VS-96 Metallic Pulse",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 97,
+    "name": "VS-97 Blade Runner Brass",
+    "category": "Brass",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 98,
+    "name": "VS-98 Vector Lead",
+    "category": "Lead",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Preset Bank",
+    "program": 99,
+    "name": "VS-99 Dark Drone",
+    "category": "Vector",
+    "tags": [
+      "vector-synthesis",
+      "cem3379",
+      "hybrid",
+      "vector"
+    ]
+  }
+]

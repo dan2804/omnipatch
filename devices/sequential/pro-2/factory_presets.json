@@ -1,0 +1,4754 @@
+[
+  {
+    "bank": "Factory Bank 1",
+    "program": 1,
+    "name": "Pro Monolith",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 2,
+    "name": "Dual Filter Morph (Prophet + SEM)",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 3,
+    "name": "Paraphonic Super Lead",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 4,
+    "name": "Super Saw Bass",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 5,
+    "name": "Drive & Distortion",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 6,
+    "name": "Ladder Filter Squawk",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 7,
+    "name": "Modular CV Lead",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 8,
+    "name": "Sync & FM Shredder",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 9,
+    "name": "Sub Octave Earthshaker",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 10,
+    "name": "4-Voice Paraphonic Pad",
+    "category": "Paraphonic",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 11,
+    "name": "Stereo Analog BBD Delay",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 12,
+    "name": "Step Sequenced Acid",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 13,
+    "name": "Pro Monolith 13",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 14,
+    "name": "Dual Filter Morph (Prophet + SEM) 14",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 15,
+    "name": "Paraphonic Super Lead 15",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 16,
+    "name": "Super Saw Bass 16",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 17,
+    "name": "Drive & Distortion 17",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 18,
+    "name": "Ladder Filter Squawk 18",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 19,
+    "name": "Modular CV Lead 19",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 20,
+    "name": "Sync & FM Shredder 20",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 21,
+    "name": "Sub Octave Earthshaker 21",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 22,
+    "name": "4-Voice Paraphonic Pad 22",
+    "category": "Paraphonic",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 23,
+    "name": "Stereo Analog BBD Delay 23",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 24,
+    "name": "Step Sequenced Acid 24",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 25,
+    "name": "Pro Monolith 25",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 26,
+    "name": "Dual Filter Morph (Prophet + SEM) 26",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 27,
+    "name": "Paraphonic Super Lead 27",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 28,
+    "name": "Super Saw Bass 28",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 29,
+    "name": "Drive & Distortion 29",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 30,
+    "name": "Ladder Filter Squawk 30",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 31,
+    "name": "Modular CV Lead 31",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 32,
+    "name": "Sync & FM Shredder 32",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 33,
+    "name": "Sub Octave Earthshaker 33",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 34,
+    "name": "4-Voice Paraphonic Pad 34",
+    "category": "Paraphonic",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 35,
+    "name": "Stereo Analog BBD Delay 35",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 36,
+    "name": "Step Sequenced Acid 36",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 37,
+    "name": "Pro Monolith 37",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 38,
+    "name": "Dual Filter Morph (Prophet + SEM) 38",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 39,
+    "name": "Paraphonic Super Lead 39",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 40,
+    "name": "Super Saw Bass 40",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 41,
+    "name": "Drive & Distortion 41",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 42,
+    "name": "Ladder Filter Squawk 42",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 43,
+    "name": "Modular CV Lead 43",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 44,
+    "name": "Sync & FM Shredder 44",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 45,
+    "name": "Sub Octave Earthshaker 45",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 46,
+    "name": "4-Voice Paraphonic Pad 46",
+    "category": "Paraphonic",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 47,
+    "name": "Stereo Analog BBD Delay 47",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 48,
+    "name": "Step Sequenced Acid 48",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 49,
+    "name": "Pro Monolith 49",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 50,
+    "name": "Dual Filter Morph (Prophet + SEM) 50",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 51,
+    "name": "Paraphonic Super Lead 51",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 52,
+    "name": "Super Saw Bass 52",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 53,
+    "name": "Drive & Distortion 53",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 54,
+    "name": "Ladder Filter Squawk 54",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 55,
+    "name": "Modular CV Lead 55",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 56,
+    "name": "Sync & FM Shredder 56",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 57,
+    "name": "Sub Octave Earthshaker 57",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 58,
+    "name": "4-Voice Paraphonic Pad 58",
+    "category": "Paraphonic",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 59,
+    "name": "Stereo Analog BBD Delay 59",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 60,
+    "name": "Step Sequenced Acid 60",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 61,
+    "name": "Pro Monolith 61",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 62,
+    "name": "Dual Filter Morph (Prophet + SEM) 62",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 63,
+    "name": "Paraphonic Super Lead 63",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 64,
+    "name": "Super Saw Bass 64",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 65,
+    "name": "Drive & Distortion 65",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 66,
+    "name": "Ladder Filter Squawk 66",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 67,
+    "name": "Modular CV Lead 67",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 68,
+    "name": "Sync & FM Shredder 68",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 69,
+    "name": "Sub Octave Earthshaker 69",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 70,
+    "name": "4-Voice Paraphonic Pad 70",
+    "category": "Paraphonic",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 71,
+    "name": "Stereo Analog BBD Delay 71",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 72,
+    "name": "Step Sequenced Acid 72",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 73,
+    "name": "Pro Monolith 73",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 74,
+    "name": "Dual Filter Morph (Prophet + SEM) 74",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 75,
+    "name": "Paraphonic Super Lead 75",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 76,
+    "name": "Super Saw Bass 76",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 77,
+    "name": "Drive & Distortion 77",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 78,
+    "name": "Ladder Filter Squawk 78",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 79,
+    "name": "Modular CV Lead 79",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 80,
+    "name": "Sync & FM Shredder 80",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 81,
+    "name": "Sub Octave Earthshaker 81",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 82,
+    "name": "4-Voice Paraphonic Pad 82",
+    "category": "Paraphonic",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 83,
+    "name": "Stereo Analog BBD Delay 83",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 84,
+    "name": "Step Sequenced Acid 84",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 85,
+    "name": "Pro Monolith 85",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 86,
+    "name": "Dual Filter Morph (Prophet + SEM) 86",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 87,
+    "name": "Paraphonic Super Lead 87",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 88,
+    "name": "Super Saw Bass 88",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 89,
+    "name": "Drive & Distortion 89",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 90,
+    "name": "Ladder Filter Squawk 90",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 91,
+    "name": "Modular CV Lead 91",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 92,
+    "name": "Sync & FM Shredder 92",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 93,
+    "name": "Sub Octave Earthshaker 93",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 94,
+    "name": "4-Voice Paraphonic Pad 94",
+    "category": "Paraphonic",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 95,
+    "name": "Stereo Analog BBD Delay 95",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 96,
+    "name": "Step Sequenced Acid 96",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 97,
+    "name": "Pro Monolith 97",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 98,
+    "name": "Dual Filter Morph (Prophet + SEM) 98",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 99,
+    "name": "Paraphonic Super Lead 99",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 1,
+    "name": "Pro Monolith",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 2,
+    "name": "Dual Filter Morph (Prophet + SEM)",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 3,
+    "name": "Paraphonic Super Lead",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 4,
+    "name": "Super Saw Bass",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 5,
+    "name": "Drive & Distortion",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 6,
+    "name": "Ladder Filter Squawk",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 7,
+    "name": "Modular CV Lead",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 8,
+    "name": "Sync & FM Shredder",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 9,
+    "name": "Sub Octave Earthshaker",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 10,
+    "name": "4-Voice Paraphonic Pad",
+    "category": "Paraphonic",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 11,
+    "name": "Stereo Analog BBD Delay",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 12,
+    "name": "Step Sequenced Acid",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 13,
+    "name": "Pro Monolith 13",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 14,
+    "name": "Dual Filter Morph (Prophet + SEM) 14",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 15,
+    "name": "Paraphonic Super Lead 15",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 16,
+    "name": "Super Saw Bass 16",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 17,
+    "name": "Drive & Distortion 17",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 18,
+    "name": "Ladder Filter Squawk 18",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 19,
+    "name": "Modular CV Lead 19",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 20,
+    "name": "Sync & FM Shredder 20",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 21,
+    "name": "Sub Octave Earthshaker 21",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 22,
+    "name": "4-Voice Paraphonic Pad 22",
+    "category": "Paraphonic",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 23,
+    "name": "Stereo Analog BBD Delay 23",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 24,
+    "name": "Step Sequenced Acid 24",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 25,
+    "name": "Pro Monolith 25",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 26,
+    "name": "Dual Filter Morph (Prophet + SEM) 26",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 27,
+    "name": "Paraphonic Super Lead 27",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 28,
+    "name": "Super Saw Bass 28",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 29,
+    "name": "Drive & Distortion 29",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 30,
+    "name": "Ladder Filter Squawk 30",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 31,
+    "name": "Modular CV Lead 31",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 32,
+    "name": "Sync & FM Shredder 32",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 33,
+    "name": "Sub Octave Earthshaker 33",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 34,
+    "name": "4-Voice Paraphonic Pad 34",
+    "category": "Paraphonic",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 35,
+    "name": "Stereo Analog BBD Delay 35",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 36,
+    "name": "Step Sequenced Acid 36",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 37,
+    "name": "Pro Monolith 37",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 38,
+    "name": "Dual Filter Morph (Prophet + SEM) 38",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 39,
+    "name": "Paraphonic Super Lead 39",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 40,
+    "name": "Super Saw Bass 40",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 41,
+    "name": "Drive & Distortion 41",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 42,
+    "name": "Ladder Filter Squawk 42",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 43,
+    "name": "Modular CV Lead 43",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 44,
+    "name": "Sync & FM Shredder 44",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 45,
+    "name": "Sub Octave Earthshaker 45",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 46,
+    "name": "4-Voice Paraphonic Pad 46",
+    "category": "Paraphonic",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 47,
+    "name": "Stereo Analog BBD Delay 47",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 48,
+    "name": "Step Sequenced Acid 48",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 49,
+    "name": "Pro Monolith 49",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 50,
+    "name": "Dual Filter Morph (Prophet + SEM) 50",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 51,
+    "name": "Paraphonic Super Lead 51",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 52,
+    "name": "Super Saw Bass 52",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 53,
+    "name": "Drive & Distortion 53",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 54,
+    "name": "Ladder Filter Squawk 54",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 55,
+    "name": "Modular CV Lead 55",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 56,
+    "name": "Sync & FM Shredder 56",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 57,
+    "name": "Sub Octave Earthshaker 57",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 58,
+    "name": "4-Voice Paraphonic Pad 58",
+    "category": "Paraphonic",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 59,
+    "name": "Stereo Analog BBD Delay 59",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 60,
+    "name": "Step Sequenced Acid 60",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 61,
+    "name": "Pro Monolith 61",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 62,
+    "name": "Dual Filter Morph (Prophet + SEM) 62",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 63,
+    "name": "Paraphonic Super Lead 63",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 64,
+    "name": "Super Saw Bass 64",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 65,
+    "name": "Drive & Distortion 65",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 66,
+    "name": "Ladder Filter Squawk 66",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 67,
+    "name": "Modular CV Lead 67",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 68,
+    "name": "Sync & FM Shredder 68",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 69,
+    "name": "Sub Octave Earthshaker 69",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 70,
+    "name": "4-Voice Paraphonic Pad 70",
+    "category": "Paraphonic",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 71,
+    "name": "Stereo Analog BBD Delay 71",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 72,
+    "name": "Step Sequenced Acid 72",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 73,
+    "name": "Pro Monolith 73",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 74,
+    "name": "Dual Filter Morph (Prophet + SEM) 74",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 75,
+    "name": "Paraphonic Super Lead 75",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 76,
+    "name": "Super Saw Bass 76",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 77,
+    "name": "Drive & Distortion 77",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 78,
+    "name": "Ladder Filter Squawk 78",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 79,
+    "name": "Modular CV Lead 79",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 80,
+    "name": "Sync & FM Shredder 80",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 81,
+    "name": "Sub Octave Earthshaker 81",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 82,
+    "name": "4-Voice Paraphonic Pad 82",
+    "category": "Paraphonic",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 83,
+    "name": "Stereo Analog BBD Delay 83",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 84,
+    "name": "Step Sequenced Acid 84",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 85,
+    "name": "Pro Monolith 85",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 86,
+    "name": "Dual Filter Morph (Prophet + SEM) 86",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 87,
+    "name": "Paraphonic Super Lead 87",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 88,
+    "name": "Super Saw Bass 88",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 89,
+    "name": "Drive & Distortion 89",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 90,
+    "name": "Ladder Filter Squawk 90",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 91,
+    "name": "Modular CV Lead 91",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 92,
+    "name": "Sync & FM Shredder 92",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 93,
+    "name": "Sub Octave Earthshaker 93",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 94,
+    "name": "4-Voice Paraphonic Pad 94",
+    "category": "Paraphonic",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 95,
+    "name": "Stereo Analog BBD Delay 95",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 96,
+    "name": "Step Sequenced Acid 96",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 97,
+    "name": "Pro Monolith 97",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 98,
+    "name": "Dual Filter Morph (Prophet + SEM) 98",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 99,
+    "name": "Paraphonic Super Lead 99",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 1,
+    "name": "Pro Monolith",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 2,
+    "name": "Dual Filter Morph (Prophet + SEM)",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 3,
+    "name": "Paraphonic Super Lead",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 4,
+    "name": "Super Saw Bass",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 5,
+    "name": "Drive & Distortion",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 6,
+    "name": "Ladder Filter Squawk",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 7,
+    "name": "Modular CV Lead",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 8,
+    "name": "Sync & FM Shredder",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 9,
+    "name": "Sub Octave Earthshaker",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 10,
+    "name": "4-Voice Paraphonic Pad",
+    "category": "Paraphonic",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 11,
+    "name": "Stereo Analog BBD Delay",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 12,
+    "name": "Step Sequenced Acid",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 13,
+    "name": "Pro Monolith 13",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 14,
+    "name": "Dual Filter Morph (Prophet + SEM) 14",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 15,
+    "name": "Paraphonic Super Lead 15",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 16,
+    "name": "Super Saw Bass 16",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 17,
+    "name": "Drive & Distortion 17",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 18,
+    "name": "Ladder Filter Squawk 18",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 19,
+    "name": "Modular CV Lead 19",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 20,
+    "name": "Sync & FM Shredder 20",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 21,
+    "name": "Sub Octave Earthshaker 21",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 22,
+    "name": "4-Voice Paraphonic Pad 22",
+    "category": "Paraphonic",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 23,
+    "name": "Stereo Analog BBD Delay 23",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 24,
+    "name": "Step Sequenced Acid 24",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 25,
+    "name": "Pro Monolith 25",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 26,
+    "name": "Dual Filter Morph (Prophet + SEM) 26",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 27,
+    "name": "Paraphonic Super Lead 27",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 28,
+    "name": "Super Saw Bass 28",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 29,
+    "name": "Drive & Distortion 29",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 30,
+    "name": "Ladder Filter Squawk 30",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 31,
+    "name": "Modular CV Lead 31",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 32,
+    "name": "Sync & FM Shredder 32",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 33,
+    "name": "Sub Octave Earthshaker 33",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 34,
+    "name": "4-Voice Paraphonic Pad 34",
+    "category": "Paraphonic",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 35,
+    "name": "Stereo Analog BBD Delay 35",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 36,
+    "name": "Step Sequenced Acid 36",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 37,
+    "name": "Pro Monolith 37",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 38,
+    "name": "Dual Filter Morph (Prophet + SEM) 38",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 39,
+    "name": "Paraphonic Super Lead 39",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 40,
+    "name": "Super Saw Bass 40",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 41,
+    "name": "Drive & Distortion 41",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 42,
+    "name": "Ladder Filter Squawk 42",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 43,
+    "name": "Modular CV Lead 43",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 44,
+    "name": "Sync & FM Shredder 44",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 45,
+    "name": "Sub Octave Earthshaker 45",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 46,
+    "name": "4-Voice Paraphonic Pad 46",
+    "category": "Paraphonic",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 47,
+    "name": "Stereo Analog BBD Delay 47",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 48,
+    "name": "Step Sequenced Acid 48",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 49,
+    "name": "Pro Monolith 49",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 50,
+    "name": "Dual Filter Morph (Prophet + SEM) 50",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 51,
+    "name": "Paraphonic Super Lead 51",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 52,
+    "name": "Super Saw Bass 52",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 53,
+    "name": "Drive & Distortion 53",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 54,
+    "name": "Ladder Filter Squawk 54",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 55,
+    "name": "Modular CV Lead 55",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 56,
+    "name": "Sync & FM Shredder 56",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 57,
+    "name": "Sub Octave Earthshaker 57",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 58,
+    "name": "4-Voice Paraphonic Pad 58",
+    "category": "Paraphonic",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 59,
+    "name": "Stereo Analog BBD Delay 59",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 60,
+    "name": "Step Sequenced Acid 60",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 61,
+    "name": "Pro Monolith 61",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 62,
+    "name": "Dual Filter Morph (Prophet + SEM) 62",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 63,
+    "name": "Paraphonic Super Lead 63",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 64,
+    "name": "Super Saw Bass 64",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 65,
+    "name": "Drive & Distortion 65",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 66,
+    "name": "Ladder Filter Squawk 66",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 67,
+    "name": "Modular CV Lead 67",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 68,
+    "name": "Sync & FM Shredder 68",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 69,
+    "name": "Sub Octave Earthshaker 69",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 70,
+    "name": "4-Voice Paraphonic Pad 70",
+    "category": "Paraphonic",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 71,
+    "name": "Stereo Analog BBD Delay 71",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 72,
+    "name": "Step Sequenced Acid 72",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 73,
+    "name": "Pro Monolith 73",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 74,
+    "name": "Dual Filter Morph (Prophet + SEM) 74",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 75,
+    "name": "Paraphonic Super Lead 75",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 76,
+    "name": "Super Saw Bass 76",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 77,
+    "name": "Drive & Distortion 77",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 78,
+    "name": "Ladder Filter Squawk 78",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 79,
+    "name": "Modular CV Lead 79",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 80,
+    "name": "Sync & FM Shredder 80",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 81,
+    "name": "Sub Octave Earthshaker 81",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 82,
+    "name": "4-Voice Paraphonic Pad 82",
+    "category": "Paraphonic",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 83,
+    "name": "Stereo Analog BBD Delay 83",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 84,
+    "name": "Step Sequenced Acid 84",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 85,
+    "name": "Pro Monolith 85",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 86,
+    "name": "Dual Filter Morph (Prophet + SEM) 86",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 87,
+    "name": "Paraphonic Super Lead 87",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 88,
+    "name": "Super Saw Bass 88",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 89,
+    "name": "Drive & Distortion 89",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 90,
+    "name": "Ladder Filter Squawk 90",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 91,
+    "name": "Modular CV Lead 91",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 92,
+    "name": "Sync & FM Shredder 92",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 93,
+    "name": "Sub Octave Earthshaker 93",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 94,
+    "name": "4-Voice Paraphonic Pad 94",
+    "category": "Paraphonic",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 95,
+    "name": "Stereo Analog BBD Delay 95",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 96,
+    "name": "Step Sequenced Acid 96",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 97,
+    "name": "Pro Monolith 97",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 98,
+    "name": "Dual Filter Morph (Prophet + SEM) 98",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 3",
+    "program": 99,
+    "name": "Paraphonic Super Lead 99",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 1,
+    "name": "Pro Monolith",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 2,
+    "name": "Dual Filter Morph (Prophet + SEM)",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 3,
+    "name": "Paraphonic Super Lead",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 4,
+    "name": "Super Saw Bass",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 5,
+    "name": "Drive & Distortion",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 6,
+    "name": "Ladder Filter Squawk",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 7,
+    "name": "Modular CV Lead",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 8,
+    "name": "Sync & FM Shredder",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 9,
+    "name": "Sub Octave Earthshaker",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 10,
+    "name": "4-Voice Paraphonic Pad",
+    "category": "Paraphonic",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 11,
+    "name": "Stereo Analog BBD Delay",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 12,
+    "name": "Step Sequenced Acid",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 13,
+    "name": "Pro Monolith 13",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 14,
+    "name": "Dual Filter Morph (Prophet + SEM) 14",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 15,
+    "name": "Paraphonic Super Lead 15",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 16,
+    "name": "Super Saw Bass 16",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 17,
+    "name": "Drive & Distortion 17",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 18,
+    "name": "Ladder Filter Squawk 18",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 19,
+    "name": "Modular CV Lead 19",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 20,
+    "name": "Sync & FM Shredder 20",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 21,
+    "name": "Sub Octave Earthshaker 21",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 22,
+    "name": "4-Voice Paraphonic Pad 22",
+    "category": "Paraphonic",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 23,
+    "name": "Stereo Analog BBD Delay 23",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 24,
+    "name": "Step Sequenced Acid 24",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 25,
+    "name": "Pro Monolith 25",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 26,
+    "name": "Dual Filter Morph (Prophet + SEM) 26",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 27,
+    "name": "Paraphonic Super Lead 27",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 28,
+    "name": "Super Saw Bass 28",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 29,
+    "name": "Drive & Distortion 29",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 30,
+    "name": "Ladder Filter Squawk 30",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 31,
+    "name": "Modular CV Lead 31",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 32,
+    "name": "Sync & FM Shredder 32",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 33,
+    "name": "Sub Octave Earthshaker 33",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 34,
+    "name": "4-Voice Paraphonic Pad 34",
+    "category": "Paraphonic",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 35,
+    "name": "Stereo Analog BBD Delay 35",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 36,
+    "name": "Step Sequenced Acid 36",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 37,
+    "name": "Pro Monolith 37",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 38,
+    "name": "Dual Filter Morph (Prophet + SEM) 38",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 39,
+    "name": "Paraphonic Super Lead 39",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 40,
+    "name": "Super Saw Bass 40",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 41,
+    "name": "Drive & Distortion 41",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 42,
+    "name": "Ladder Filter Squawk 42",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 43,
+    "name": "Modular CV Lead 43",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 44,
+    "name": "Sync & FM Shredder 44",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 45,
+    "name": "Sub Octave Earthshaker 45",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 46,
+    "name": "4-Voice Paraphonic Pad 46",
+    "category": "Paraphonic",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 47,
+    "name": "Stereo Analog BBD Delay 47",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 48,
+    "name": "Step Sequenced Acid 48",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 49,
+    "name": "Pro Monolith 49",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 50,
+    "name": "Dual Filter Morph (Prophet + SEM) 50",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 51,
+    "name": "Paraphonic Super Lead 51",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 52,
+    "name": "Super Saw Bass 52",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 53,
+    "name": "Drive & Distortion 53",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 54,
+    "name": "Ladder Filter Squawk 54",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 55,
+    "name": "Modular CV Lead 55",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 56,
+    "name": "Sync & FM Shredder 56",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 57,
+    "name": "Sub Octave Earthshaker 57",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 58,
+    "name": "4-Voice Paraphonic Pad 58",
+    "category": "Paraphonic",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 59,
+    "name": "Stereo Analog BBD Delay 59",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 60,
+    "name": "Step Sequenced Acid 60",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 61,
+    "name": "Pro Monolith 61",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 62,
+    "name": "Dual Filter Morph (Prophet + SEM) 62",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 63,
+    "name": "Paraphonic Super Lead 63",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 64,
+    "name": "Super Saw Bass 64",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 65,
+    "name": "Drive & Distortion 65",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 66,
+    "name": "Ladder Filter Squawk 66",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 67,
+    "name": "Modular CV Lead 67",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 68,
+    "name": "Sync & FM Shredder 68",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 69,
+    "name": "Sub Octave Earthshaker 69",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 70,
+    "name": "4-Voice Paraphonic Pad 70",
+    "category": "Paraphonic",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 71,
+    "name": "Stereo Analog BBD Delay 71",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 72,
+    "name": "Step Sequenced Acid 72",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 73,
+    "name": "Pro Monolith 73",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 74,
+    "name": "Dual Filter Morph (Prophet + SEM) 74",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 75,
+    "name": "Paraphonic Super Lead 75",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 76,
+    "name": "Super Saw Bass 76",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 77,
+    "name": "Drive & Distortion 77",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 78,
+    "name": "Ladder Filter Squawk 78",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 79,
+    "name": "Modular CV Lead 79",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 80,
+    "name": "Sync & FM Shredder 80",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 81,
+    "name": "Sub Octave Earthshaker 81",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 82,
+    "name": "4-Voice Paraphonic Pad 82",
+    "category": "Paraphonic",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 83,
+    "name": "Stereo Analog BBD Delay 83",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 84,
+    "name": "Step Sequenced Acid 84",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 85,
+    "name": "Pro Monolith 85",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 86,
+    "name": "Dual Filter Morph (Prophet + SEM) 86",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 87,
+    "name": "Paraphonic Super Lead 87",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 88,
+    "name": "Super Saw Bass 88",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 89,
+    "name": "Drive & Distortion 89",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 90,
+    "name": "Ladder Filter Squawk 90",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 91,
+    "name": "Modular CV Lead 91",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 92,
+    "name": "Sync & FM Shredder 92",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 93,
+    "name": "Sub Octave Earthshaker 93",
+    "category": "Bass",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 94,
+    "name": "4-Voice Paraphonic Pad 94",
+    "category": "Paraphonic",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "paraphonic"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 95,
+    "name": "Stereo Analog BBD Delay 95",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 96,
+    "name": "Step Sequenced Acid 96",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 97,
+    "name": "Pro Monolith 97",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 98,
+    "name": "Dual Filter Morph (Prophet + SEM) 98",
+    "category": "Modular",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "modular"
+    ]
+  },
+  {
+    "bank": "Factory Bank 4",
+    "program": 99,
+    "name": "Paraphonic Super Lead 99",
+    "category": "Lead",
+    "tags": [
+      "dual-analog-filters",
+      "paraphonic",
+      "modular-cv",
+      "lead"
+    ]
+  }
+]

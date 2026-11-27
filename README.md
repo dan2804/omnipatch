@@ -26,12 +26,30 @@ OmniPatch is a high-performance, modular patch librarian and hardware editor wri
 
 ---
 
-## Supported Synthesizers (86 Production Profiles)
+## Supported Synthesizers (104 Production Profiles)
 
-OmniPatch ships with 86 comprehensive device profiles across 7 legendary synthesizer manufacturers:
+OmniPatch ships with 104 comprehensive device profiles across 9 legendary synthesizer manufacturers:
 
 | Synthesizer | Manufacturer | Architecture | Parameters | Presets | SysEx ID / Details |
 | :--- | :--- | :--- | :---: | :---: | :--- |
+| **Waldorf Blofeld** | Waldorf Music | Desktop / Keyboard Wavetable & VA | 9 | 1,024 | `0x3E` (ID `0x13`) · 3 oscs, dual multi-mode & comb filters, 8 banks A-H |
+| **Waldorf Microwave I** | Waldorf Music | Hybrid Wavetable Synth w/ Curtis Analog VCF | 8 | 64 | `0x3E` (ID `0x00`) · CEM3389 24dB VCF/VCA, wavetables 1-30, Bank A & B |
+| **Waldorf Microwave II / XT** | Waldorf Music | DSP Wavetable Powerhouse Synth | 8 | 256 | `0x3E` (ID `0x0E`) · Digital multi-mode filters, speech synthesis, Bank A & B |
+| **Waldorf Pulse / Pulse Plus** | Waldorf Music | Monophonic 3-VCO Analog Monster | 8 | 100 | `0x3E` (ID `0x07`) · 3 analog VCOs, 24dB cascade VCF, 40 ROM + 60 RAM |
+| **Waldorf Pulse 2** | Waldorf Music | Analog Mono / Paraphonic Synthesizer | 9 | 500 | `0x3E` (ID `0x14`) · 3 analog oscillators, 8-voice paraphonic chords, drive |
+| **Waldorf Q / Q Rack / Q+** | Waldorf Music | Flagship Virtual Analog Synthesizer | 10 | 300 | `0x3E` (ID `0x0F`) · 3 oscs, dual multi-mode filters, comb filter, vocoder |
+| **Waldorf Streichfett** | Waldorf Music | Dedicated String & Choir Synthesizer | 8 | 12 | `0x3E` (ID `0x15`) · Solina/Crumar string ensemble, choir, animate/reverb FX |
+| **Sequential Prophet-5** | Sequential Circuits | Definitive 5-Voice Analog Polysynth | 12 | 200 | `0x01` (ID `0x02`) · SSM/Curtis analog VCOs/VCFs, Poly-Mod, Cars Sync II |
+| **Sequential Prophet 600** | Sequential Circuits | First Commercial MIDI Synthesizer | 6 | 100 | `0x01` (ID `0x02`) · Dual VCO CEM3340, CEM3372 filter/VCA, patches 00-99 |
+| **Sequential Prophet VS** | Sequential Circuits | Vector Synthesis Digital/Analog Hybrid | 7 | 100 | `0x01` (ID `0x0A`) · 4 digital oscs, vector joystick, Curtis CEM3379 analog VCF |
+| **Sequential Six-Trak** | Sequential Circuits | 6-Voice Multitimbral Analog Synthesizer | 4 | 100 | `0x01` (ID `0x05`) · 6 voices CEM3394 synth-on-a-chip, 100 memory patches |
+| **DSI Prophet '08 / Rev2** | Dave Smith Instruments | 8/16-Voice Modern Analog Polysynth | 10 | 256 | `0x01` (ID `0x23`) · Curtis analog DCOs & 2/4-pole lowpass VCF, 2 factory banks |
+| **DSI Prophet-6** | Dave Smith Instruments | Discrete Polyphonic Analog Synthesizer | 9 | 500 | `0x01` (ID `0x2D`) · Pure discrete VCOs/VCFs, Poly Mod, dual digital FX, 5 banks |
+| **DSI / Oberheim OB-6** | Dave Smith Instruments | Polyphonic Analog Synth w/ SEM Filter | 8 | 500 | `0x01` (ID `0x2E`) · Tom Oberheim SEM multi-mode continuous filter, 5 banks |
+| **DSI Prophet 12** | Dave Smith Instruments | 12-Voice Flagship Hybrid Synthesizer | 9 | 396 | `0x01` (ID `0x26`) · Digital wavetables, Character FX (Girth/Air/Hack), analog VCF |
+| **DSI Evolver** | Dave Smith Instruments | Hybrid Analog/Digital Synthesizer | 7 | 384 | `0x01` (ID `0x20`) · Dual analog + dual digital oscs, 4x16 step seq, feedback |
+| **DSI Mopho / Tetra** | Dave Smith Instruments | Analog Monophonic / Polyphonic Synth | 7 | 384 | `0x01` (ID `0x25`) · Curtis 4-pole lowpass, sub-oscillators, analog feedback |
+| **DSI Pro 2 / Pro 3** | Dave Smith Instruments | Flagship Paraphonic Hybrid Synthesizer | 8 | 396 | `0x01` (ID `0x2B`) · Dual analog filters (Prophet + SEM), 4-track sequencer, CV I/O |
 | **Roland JV-1080** | Roland Corporation | 64-Voice 16-Part Super JV Module | 6 | 640 | `0x6A` · 4 SR-JV80 slots, 40 EFX, User + PR-A/B/C + GM |
 | **Roland JV-2080** | Roland Corporation | 64-Voice 3U Module with 3 EFX | 5 | 768 | `0x6A` · 8 SR-JV80 slots, 320x80 LCD, 3 simultaneous EFX |
 | **Roland JD-800** | Roland Corporation | Programmable Synth w/ 69 Control Sliders | 5 | 64 | `0x3D` · 4 tone layers, multi-mode TVF, Pizzagogo & Strobe X |
@@ -134,12 +152,16 @@ omnipatch/
 │   ├── omnipatch-midi/       # midir low-latency packet pacing, hardware throttling
 │   ├── omnipatch-profile/    # YAML parser, parameter mapping, validation engine
 │   └── omnipatch-sysex/      # Checksum calculators (Roland, E-MU, Casio, Waldorf)
-├── devices/                  # 34 Declarative YAML hardware profiles & factory presets
+├── devices/                  # 104 Declarative YAML hardware profiles & factory presets
 │   ├── access/               # Access Music GmbH (Virus A)
 │   ├── akai/                 # Akai Professional (AX60)
 │   ├── casio/                # Casio Computer Co. (CZ-1, CZ-101, CZ-1000, CZ-230S, CZ-3000, CZ-5000)
 │   ├── emu/                  # E-MU Systems (Orbit-3, Proteus family, SP-1200, Emax, Vintage, etc.)
-│   └── roland/               # Roland Corporation (XV-5080, XV-3080, XV-5050, XP-80, Alpha Juno, D-110, W-30)
+│   ├── korg/                 # Korg (M1, Wavestation, 01/W, Trinity, Triton, MS2000, microKORG, etc.)
+│   ├── roland/               # Roland Corporation (JV, JD, Juno, Jupiter, MKS, SC, MC, Fantom, etc.)
+│   ├── sequential/           # Sequential & DSI (Prophet-5, Prophet-6, OB-6, Evolver, P12, Mopho, etc.)
+│   ├── waldorf/              # Waldorf Music (Blofeld, Microwave I/XT, Pulse, Pulse 2, Q, Streichfett)
+│   └── yamaha/               # Yamaha Corporation (DX7, DX7II, TX81Z, TX802, DX100, AN1x, CS1x, Motif)
 ├── preview/                  # Web Audio interactive studio prototypes & hardware editors
 │   ├── index.html            # Main Entry: Universal Windows 8 Metro UI Studio Hub (All 27 Synths)
 │   ├── metro_studio.html     # Universal Windows 8 Metro UI Studio (Collapsible Menus, Live Tiles)

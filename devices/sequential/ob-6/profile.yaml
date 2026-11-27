@@ -1,0 +1,26 @@
+manufacturer: Sequential
+model: Dave Smith Instruments / Sequential OB-6
+type: Polyphonic Analog Synthesizer
+year: 2016
+midi:
+  channels: 16
+  cc_map:
+    sem_filter_cutoff: 74
+    sem_filter_resonance: 71
+    sem_filter_mode: 79
+    osc1_shape: 20
+    osc2_shape: 24
+    xmod_filter_env: 85
+    xmod_osc_2: 86
+    effects_wet_dry: 91
+sysex:
+  header: F0 01 2E
+  device_id_byte: 3
+  commands:
+    request_program: F0 01 2E 05 [bank] [prog] F7
+banks:
+- Factory Bank 0
+- Factory Bank 1
+- Factory Bank 2
+- Factory Bank 3
+- Factory Bank 4

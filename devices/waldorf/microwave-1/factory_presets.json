@@ -1,0 +1,770 @@
+[
+  {
+    "bank": "Bank A",
+    "program": 1,
+    "name": "Fat Poly",
+    "category": "Synth",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A",
+    "program": 2,
+    "name": "PPG Bell",
+    "category": "Bell",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "bell"
+    ]
+  },
+  {
+    "bank": "Bank A",
+    "program": 3,
+    "name": "Reso Sweep",
+    "category": "Pad",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank A",
+    "program": 4,
+    "name": "Deep Bass",
+    "category": "Bass",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank A",
+    "program": 5,
+    "name": "Digital Dream",
+    "category": "Synth",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A",
+    "program": 6,
+    "name": "PPG Choir",
+    "category": "Synth",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A",
+    "program": 7,
+    "name": "Glass Voices",
+    "category": "Pad",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank A",
+    "program": 8,
+    "name": "Attack Bass",
+    "category": "Bass",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank A",
+    "program": 9,
+    "name": "Pluck String",
+    "category": "Synth",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A",
+    "program": 10,
+    "name": "Metallic Clang",
+    "category": "Synth",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A",
+    "program": 11,
+    "name": "Warm Pad",
+    "category": "Pad",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank A",
+    "program": 12,
+    "name": "Wave Sequence",
+    "category": "Synth",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A",
+    "program": 13,
+    "name": "Classic Brass",
+    "category": "Brass",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank A",
+    "program": 14,
+    "name": "Sync Lead",
+    "category": "Lead",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank A",
+    "program": 15,
+    "name": "Space Organ",
+    "category": "Synth",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A",
+    "program": 16,
+    "name": "Analog Brass",
+    "category": "Brass",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank A",
+    "program": 17,
+    "name": "Robot Voice",
+    "category": "Synth",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A",
+    "program": 18,
+    "name": "Wavetable Sweep",
+    "category": "Pad",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank A",
+    "program": 19,
+    "name": "Slap Bass",
+    "category": "Bass",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank A",
+    "program": 20,
+    "name": "Atmosphere",
+    "category": "Synth",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A",
+    "program": 21,
+    "name": "E-Piano",
+    "category": "Synth",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A",
+    "program": 22,
+    "name": "Solar Wind",
+    "category": "Synth",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A",
+    "program": 23,
+    "name": "Stab Brass",
+    "category": "Brass",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank A",
+    "program": 24,
+    "name": "Formant Vox",
+    "category": "Synth",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A",
+    "program": 25,
+    "name": "Wavetable Bass",
+    "category": "Bass",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank A",
+    "program": 26,
+    "name": "Square Lead",
+    "category": "Lead",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank A",
+    "program": 27,
+    "name": "Crystal Bell",
+    "category": "Bell",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "bell"
+    ]
+  },
+  {
+    "bank": "Bank A",
+    "program": 28,
+    "name": "Filter Drone",
+    "category": "Synth",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A",
+    "program": 29,
+    "name": "PWM Strings",
+    "category": "Synth",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A",
+    "program": 30,
+    "name": "Digi Flute",
+    "category": "Synth",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank A",
+    "program": 31,
+    "name": "Sub Bass",
+    "category": "Bass",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank A",
+    "program": 32,
+    "name": "Vocal Wave",
+    "category": "Synth",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B",
+    "program": 1,
+    "name": "Soft Brass",
+    "category": "Brass",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank B",
+    "program": 2,
+    "name": "Alien Landscape",
+    "category": "Synth",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B",
+    "program": 3,
+    "name": "Acid Bass",
+    "category": "Bass",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank B",
+    "program": 4,
+    "name": "Celestial",
+    "category": "Synth",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B",
+    "program": 5,
+    "name": "Harpsichord",
+    "category": "Synth",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B",
+    "program": 6,
+    "name": "Pulse Bass",
+    "category": "Bass",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank B",
+    "program": 7,
+    "name": "PPG Wave 2.2",
+    "category": "Synth",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B",
+    "program": 8,
+    "name": "Sci-Fi FX",
+    "category": "Synth",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B",
+    "program": 9,
+    "name": "Reso Brass",
+    "category": "Brass",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank B",
+    "program": 10,
+    "name": "Bell Pad",
+    "category": "Pad",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank B",
+    "program": 11,
+    "name": "Moog Bass",
+    "category": "Bass",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank B",
+    "program": 12,
+    "name": "Ethereal",
+    "category": "Synth",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B",
+    "program": 13,
+    "name": "Saw Lead",
+    "category": "Lead",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank B",
+    "program": 14,
+    "name": "Wavetable FX",
+    "category": "Synth",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B",
+    "program": 15,
+    "name": "Veloc Brass",
+    "category": "Brass",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank B",
+    "program": 16,
+    "name": "Chime Bell",
+    "category": "Bell",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "bell"
+    ]
+  },
+  {
+    "bank": "Bank B",
+    "program": 17,
+    "name": "Fuzz Bass",
+    "category": "Bass",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank B",
+    "program": 18,
+    "name": "Heaven Voices",
+    "category": "Pad",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank B",
+    "program": 19,
+    "name": "Horn Section",
+    "category": "Synth",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B",
+    "program": 20,
+    "name": "Cosmic Wind",
+    "category": "Synth",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B",
+    "program": 21,
+    "name": "Funk Bass",
+    "category": "Bass",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank B",
+    "program": 22,
+    "name": "Ambient Sweep",
+    "category": "Pad",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank B",
+    "program": 23,
+    "name": "Brass Hit",
+    "category": "Brass",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank B",
+    "program": 24,
+    "name": "Vibraphone",
+    "category": "Synth",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B",
+    "program": 25,
+    "name": "Hard Sync",
+    "category": "Synth",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B",
+    "program": 26,
+    "name": "Noise Drone",
+    "category": "Synth",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B",
+    "program": 27,
+    "name": "Poly Brass",
+    "category": "Brass",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Bank B",
+    "program": 28,
+    "name": "Glass Organ",
+    "category": "Synth",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "synth"
+    ]
+  },
+  {
+    "bank": "Bank B",
+    "program": 29,
+    "name": "Dark Bass",
+    "category": "Bass",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Bank B",
+    "program": 30,
+    "name": "Shimmer Pad",
+    "category": "Pad",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Bank B",
+    "program": 31,
+    "name": "Solo Lead",
+    "category": "Lead",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Bank B",
+    "program": 32,
+    "name": "Final Frontier",
+    "category": "Synth",
+    "tags": [
+      "wavetable",
+      "curtis-filter",
+      "analog-vcf",
+      "synth"
+    ]
+  }
+]

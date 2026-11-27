@@ -1,0 +1,23 @@
+manufacturer: Waldorf
+model: Waldorf Microwave II / XT
+type: DSP Wavetable Synthesizer
+year: 1998
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    wave1_position: 70
+    wave2_position: 79
+    wavetable_select: 64
+    filter_env_amount: 77
+    amp_attack: 73
+    amp_release: 72
+sysex:
+  header: F0 3E 0E 00
+  device_id_byte: 2
+  commands:
+    request_sound: F0 3E 0E 00 10 [bank] [prog] F7
+banks:
+- Bank A
+- Bank B

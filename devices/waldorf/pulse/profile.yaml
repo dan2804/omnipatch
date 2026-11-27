@@ -1,0 +1,23 @@
+manufacturer: Waldorf
+model: Waldorf Pulse / Pulse Plus
+type: Analog Monophonic Synthesizer
+year: 1995
+midi:
+  channels: 16
+  cc_map:
+    cutoff: 74
+    resonance: 71
+    vcf_env_amount: 77
+    vcf_decay: 75
+    glide_rate: 5
+    osc1_level: 20
+    osc2_level: 21
+    osc3_level: 22
+sysex:
+  header: F0 3E 07 00
+  device_id_byte: 2
+  commands:
+    request_sound: F0 3E 07 00 40 [prog] F7
+banks:
+- Factory ROM
+- User RAM

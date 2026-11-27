@@ -1,0 +1,3074 @@
+[
+  {
+    "bank": "Factory Bank 1",
+    "program": 1,
+    "name": "Prophet Brass",
+    "category": "Brass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 2,
+    "name": "Classic 2-Pole Strings",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 3,
+    "name": "Sync Solo",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 4,
+    "name": "Dual Octave Bass",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 5,
+    "name": "Vintage Warmth",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 6,
+    "name": "8-Voice Poly Clav",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 7,
+    "name": "Motion Seq Pad",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 8,
+    "name": "Sub Saw Bass",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 9,
+    "name": "Pluck Resonance",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 10,
+    "name": "Poly Ensemble",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 11,
+    "name": "Ethereal Choir",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 12,
+    "name": "Arp Machine",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 13,
+    "name": "Gated Sync Lead",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 14,
+    "name": "Analog EP",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 15,
+    "name": "Subterranean Bass",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 16,
+    "name": "Matrix Pad",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 17,
+    "name": "Punchy Brass Stabs",
+    "category": "Brass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 18,
+    "name": "Unison Detune Lead",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 19,
+    "name": "Prophet Brass 19",
+    "category": "Brass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 20,
+    "name": "Classic 2-Pole Strings 20",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 21,
+    "name": "Sync Solo 21",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 22,
+    "name": "Dual Octave Bass 22",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 23,
+    "name": "Vintage Warmth 23",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 24,
+    "name": "8-Voice Poly Clav 24",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 25,
+    "name": "Motion Seq Pad 25",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 26,
+    "name": "Sub Saw Bass 26",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 27,
+    "name": "Pluck Resonance 27",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 28,
+    "name": "Poly Ensemble 28",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 29,
+    "name": "Ethereal Choir 29",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 30,
+    "name": "Arp Machine 30",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 31,
+    "name": "Gated Sync Lead 31",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 32,
+    "name": "Analog EP 32",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 33,
+    "name": "Subterranean Bass 33",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 34,
+    "name": "Matrix Pad 34",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 35,
+    "name": "Punchy Brass Stabs 35",
+    "category": "Brass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 36,
+    "name": "Unison Detune Lead 36",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 37,
+    "name": "Prophet Brass 37",
+    "category": "Brass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 38,
+    "name": "Classic 2-Pole Strings 38",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 39,
+    "name": "Sync Solo 39",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 40,
+    "name": "Dual Octave Bass 40",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 41,
+    "name": "Vintage Warmth 41",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 42,
+    "name": "8-Voice Poly Clav 42",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 43,
+    "name": "Motion Seq Pad 43",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 44,
+    "name": "Sub Saw Bass 44",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 45,
+    "name": "Pluck Resonance 45",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 46,
+    "name": "Poly Ensemble 46",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 47,
+    "name": "Ethereal Choir 47",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 48,
+    "name": "Arp Machine 48",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 49,
+    "name": "Gated Sync Lead 49",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 50,
+    "name": "Analog EP 50",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 51,
+    "name": "Subterranean Bass 51",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 52,
+    "name": "Matrix Pad 52",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 53,
+    "name": "Punchy Brass Stabs 53",
+    "category": "Brass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 54,
+    "name": "Unison Detune Lead 54",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 55,
+    "name": "Prophet Brass 55",
+    "category": "Brass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 56,
+    "name": "Classic 2-Pole Strings 56",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 57,
+    "name": "Sync Solo 57",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 58,
+    "name": "Dual Octave Bass 58",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 59,
+    "name": "Vintage Warmth 59",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 60,
+    "name": "8-Voice Poly Clav 60",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 61,
+    "name": "Motion Seq Pad 61",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 62,
+    "name": "Sub Saw Bass 62",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 63,
+    "name": "Pluck Resonance 63",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 64,
+    "name": "Poly Ensemble 64",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 65,
+    "name": "Ethereal Choir 65",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 66,
+    "name": "Arp Machine 66",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 67,
+    "name": "Gated Sync Lead 67",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 68,
+    "name": "Analog EP 68",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 69,
+    "name": "Subterranean Bass 69",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 70,
+    "name": "Matrix Pad 70",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 71,
+    "name": "Punchy Brass Stabs 71",
+    "category": "Brass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 72,
+    "name": "Unison Detune Lead 72",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 73,
+    "name": "Prophet Brass 73",
+    "category": "Brass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 74,
+    "name": "Classic 2-Pole Strings 74",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 75,
+    "name": "Sync Solo 75",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 76,
+    "name": "Dual Octave Bass 76",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 77,
+    "name": "Vintage Warmth 77",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 78,
+    "name": "8-Voice Poly Clav 78",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 79,
+    "name": "Motion Seq Pad 79",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 80,
+    "name": "Sub Saw Bass 80",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 81,
+    "name": "Pluck Resonance 81",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 82,
+    "name": "Poly Ensemble 82",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 83,
+    "name": "Ethereal Choir 83",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 84,
+    "name": "Arp Machine 84",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 85,
+    "name": "Gated Sync Lead 85",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 86,
+    "name": "Analog EP 86",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 87,
+    "name": "Subterranean Bass 87",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 88,
+    "name": "Matrix Pad 88",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 89,
+    "name": "Punchy Brass Stabs 89",
+    "category": "Brass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 90,
+    "name": "Unison Detune Lead 90",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 91,
+    "name": "Prophet Brass 91",
+    "category": "Brass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 92,
+    "name": "Classic 2-Pole Strings 92",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 93,
+    "name": "Sync Solo 93",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 94,
+    "name": "Dual Octave Bass 94",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 95,
+    "name": "Vintage Warmth 95",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 96,
+    "name": "8-Voice Poly Clav 96",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 97,
+    "name": "Motion Seq Pad 97",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 98,
+    "name": "Sub Saw Bass 98",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 99,
+    "name": "Pluck Resonance 99",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 100,
+    "name": "Poly Ensemble 100",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 101,
+    "name": "Ethereal Choir 101",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 102,
+    "name": "Arp Machine 102",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 103,
+    "name": "Gated Sync Lead 103",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 104,
+    "name": "Analog EP 104",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 105,
+    "name": "Subterranean Bass 105",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 106,
+    "name": "Matrix Pad 106",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 107,
+    "name": "Punchy Brass Stabs 107",
+    "category": "Brass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 108,
+    "name": "Unison Detune Lead 108",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 109,
+    "name": "Prophet Brass 109",
+    "category": "Brass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 110,
+    "name": "Classic 2-Pole Strings 110",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 111,
+    "name": "Sync Solo 111",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 112,
+    "name": "Dual Octave Bass 112",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 113,
+    "name": "Vintage Warmth 113",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 114,
+    "name": "8-Voice Poly Clav 114",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 115,
+    "name": "Motion Seq Pad 115",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 116,
+    "name": "Sub Saw Bass 116",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 117,
+    "name": "Pluck Resonance 117",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 118,
+    "name": "Poly Ensemble 118",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 119,
+    "name": "Ethereal Choir 119",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 120,
+    "name": "Arp Machine 120",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 121,
+    "name": "Gated Sync Lead 121",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 122,
+    "name": "Analog EP 122",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 123,
+    "name": "Subterranean Bass 123",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 124,
+    "name": "Matrix Pad 124",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 125,
+    "name": "Punchy Brass Stabs 125",
+    "category": "Brass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 126,
+    "name": "Unison Detune Lead 126",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 127,
+    "name": "Prophet Brass 127",
+    "category": "Brass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 1",
+    "program": 128,
+    "name": "Classic 2-Pole Strings 128",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 1,
+    "name": "Prophet Brass",
+    "category": "Brass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 2,
+    "name": "Classic 2-Pole Strings",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 3,
+    "name": "Sync Solo",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 4,
+    "name": "Dual Octave Bass",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 5,
+    "name": "Vintage Warmth",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 6,
+    "name": "8-Voice Poly Clav",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 7,
+    "name": "Motion Seq Pad",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 8,
+    "name": "Sub Saw Bass",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 9,
+    "name": "Pluck Resonance",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 10,
+    "name": "Poly Ensemble",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 11,
+    "name": "Ethereal Choir",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 12,
+    "name": "Arp Machine",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 13,
+    "name": "Gated Sync Lead",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 14,
+    "name": "Analog EP",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 15,
+    "name": "Subterranean Bass",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 16,
+    "name": "Matrix Pad",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 17,
+    "name": "Punchy Brass Stabs",
+    "category": "Brass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 18,
+    "name": "Unison Detune Lead",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 19,
+    "name": "Prophet Brass 19",
+    "category": "Brass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 20,
+    "name": "Classic 2-Pole Strings 20",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 21,
+    "name": "Sync Solo 21",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 22,
+    "name": "Dual Octave Bass 22",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 23,
+    "name": "Vintage Warmth 23",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 24,
+    "name": "8-Voice Poly Clav 24",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 25,
+    "name": "Motion Seq Pad 25",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 26,
+    "name": "Sub Saw Bass 26",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 27,
+    "name": "Pluck Resonance 27",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 28,
+    "name": "Poly Ensemble 28",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 29,
+    "name": "Ethereal Choir 29",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 30,
+    "name": "Arp Machine 30",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 31,
+    "name": "Gated Sync Lead 31",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 32,
+    "name": "Analog EP 32",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 33,
+    "name": "Subterranean Bass 33",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 34,
+    "name": "Matrix Pad 34",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 35,
+    "name": "Punchy Brass Stabs 35",
+    "category": "Brass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 36,
+    "name": "Unison Detune Lead 36",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 37,
+    "name": "Prophet Brass 37",
+    "category": "Brass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 38,
+    "name": "Classic 2-Pole Strings 38",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 39,
+    "name": "Sync Solo 39",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 40,
+    "name": "Dual Octave Bass 40",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 41,
+    "name": "Vintage Warmth 41",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 42,
+    "name": "8-Voice Poly Clav 42",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 43,
+    "name": "Motion Seq Pad 43",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 44,
+    "name": "Sub Saw Bass 44",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 45,
+    "name": "Pluck Resonance 45",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 46,
+    "name": "Poly Ensemble 46",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 47,
+    "name": "Ethereal Choir 47",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 48,
+    "name": "Arp Machine 48",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 49,
+    "name": "Gated Sync Lead 49",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 50,
+    "name": "Analog EP 50",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 51,
+    "name": "Subterranean Bass 51",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 52,
+    "name": "Matrix Pad 52",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 53,
+    "name": "Punchy Brass Stabs 53",
+    "category": "Brass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 54,
+    "name": "Unison Detune Lead 54",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 55,
+    "name": "Prophet Brass 55",
+    "category": "Brass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 56,
+    "name": "Classic 2-Pole Strings 56",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 57,
+    "name": "Sync Solo 57",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 58,
+    "name": "Dual Octave Bass 58",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 59,
+    "name": "Vintage Warmth 59",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 60,
+    "name": "8-Voice Poly Clav 60",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 61,
+    "name": "Motion Seq Pad 61",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 62,
+    "name": "Sub Saw Bass 62",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 63,
+    "name": "Pluck Resonance 63",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 64,
+    "name": "Poly Ensemble 64",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 65,
+    "name": "Ethereal Choir 65",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 66,
+    "name": "Arp Machine 66",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 67,
+    "name": "Gated Sync Lead 67",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 68,
+    "name": "Analog EP 68",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 69,
+    "name": "Subterranean Bass 69",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 70,
+    "name": "Matrix Pad 70",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 71,
+    "name": "Punchy Brass Stabs 71",
+    "category": "Brass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 72,
+    "name": "Unison Detune Lead 72",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 73,
+    "name": "Prophet Brass 73",
+    "category": "Brass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 74,
+    "name": "Classic 2-Pole Strings 74",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 75,
+    "name": "Sync Solo 75",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 76,
+    "name": "Dual Octave Bass 76",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 77,
+    "name": "Vintage Warmth 77",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 78,
+    "name": "8-Voice Poly Clav 78",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 79,
+    "name": "Motion Seq Pad 79",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 80,
+    "name": "Sub Saw Bass 80",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 81,
+    "name": "Pluck Resonance 81",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 82,
+    "name": "Poly Ensemble 82",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 83,
+    "name": "Ethereal Choir 83",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 84,
+    "name": "Arp Machine 84",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 85,
+    "name": "Gated Sync Lead 85",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 86,
+    "name": "Analog EP 86",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 87,
+    "name": "Subterranean Bass 87",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 88,
+    "name": "Matrix Pad 88",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 89,
+    "name": "Punchy Brass Stabs 89",
+    "category": "Brass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 90,
+    "name": "Unison Detune Lead 90",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 91,
+    "name": "Prophet Brass 91",
+    "category": "Brass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 92,
+    "name": "Classic 2-Pole Strings 92",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 93,
+    "name": "Sync Solo 93",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 94,
+    "name": "Dual Octave Bass 94",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 95,
+    "name": "Vintage Warmth 95",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 96,
+    "name": "8-Voice Poly Clav 96",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 97,
+    "name": "Motion Seq Pad 97",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 98,
+    "name": "Sub Saw Bass 98",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 99,
+    "name": "Pluck Resonance 99",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 100,
+    "name": "Poly Ensemble 100",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 101,
+    "name": "Ethereal Choir 101",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 102,
+    "name": "Arp Machine 102",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 103,
+    "name": "Gated Sync Lead 103",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 104,
+    "name": "Analog EP 104",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 105,
+    "name": "Subterranean Bass 105",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 106,
+    "name": "Matrix Pad 106",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 107,
+    "name": "Punchy Brass Stabs 107",
+    "category": "Brass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 108,
+    "name": "Unison Detune Lead 108",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 109,
+    "name": "Prophet Brass 109",
+    "category": "Brass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 110,
+    "name": "Classic 2-Pole Strings 110",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 111,
+    "name": "Sync Solo 111",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 112,
+    "name": "Dual Octave Bass 112",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 113,
+    "name": "Vintage Warmth 113",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 114,
+    "name": "8-Voice Poly Clav 114",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 115,
+    "name": "Motion Seq Pad 115",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 116,
+    "name": "Sub Saw Bass 116",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 117,
+    "name": "Pluck Resonance 117",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 118,
+    "name": "Poly Ensemble 118",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 119,
+    "name": "Ethereal Choir 119",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 120,
+    "name": "Arp Machine 120",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 121,
+    "name": "Gated Sync Lead 121",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 122,
+    "name": "Analog EP 122",
+    "category": "Arp",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "arp"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 123,
+    "name": "Subterranean Bass 123",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 124,
+    "name": "Matrix Pad 124",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 125,
+    "name": "Punchy Brass Stabs 125",
+    "category": "Brass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 126,
+    "name": "Unison Detune Lead 126",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 127,
+    "name": "Prophet Brass 127",
+    "category": "Brass",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory Bank 2",
+    "program": 128,
+    "name": "Classic 2-Pole Strings 128",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "curtis-dco",
+      "polyphonic",
+      "pad"
+    ]
+  }
+]

@@ -1,0 +1,2242 @@
+[
+  {
+    "bank": "Factory ROM",
+    "program": 1,
+    "name": "11 Sync II (Cars)",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 2,
+    "name": "12 Brass I",
+    "category": "Brass",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 3,
+    "name": "13 Strings I",
+    "category": "Strings",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "strings"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 4,
+    "name": "14 Poly-Mod Special",
+    "category": "FX",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 5,
+    "name": "15 Spike Lead",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 6,
+    "name": "16 Organ I",
+    "category": "Keys",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 7,
+    "name": "17 Horns",
+    "category": "Brass",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 8,
+    "name": "18 Flute",
+    "category": "FX",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 9,
+    "name": "21 Clavinet",
+    "category": "Keys",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 10,
+    "name": "22 Harpsichord",
+    "category": "FX",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 11,
+    "name": "23 Wurlitzer E-Piano",
+    "category": "Keys",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 12,
+    "name": "24 Reso-Percussive",
+    "category": "FX",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 13,
+    "name": "25 Soft Brass",
+    "category": "Brass",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 14,
+    "name": "26 Violins",
+    "category": "Strings",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "strings"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 15,
+    "name": "27 Chorus Strings",
+    "category": "Strings",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "strings"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 16,
+    "name": "28 Pipe Organ",
+    "category": "Keys",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 17,
+    "name": "31 Deep Bass",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 18,
+    "name": "32 Fat Slap Bass",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 19,
+    "name": "33 Analog Bells",
+    "category": "FX",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 20,
+    "name": "34 Sci-Fi Noise Zap",
+    "category": "FX",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 21,
+    "name": "35 Filter Sweep",
+    "category": "FX",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 22,
+    "name": "36 Unison Lead",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 23,
+    "name": "37 Warm Pad",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 24,
+    "name": "38 Chirp",
+    "category": "FX",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 25,
+    "name": "41 Square Wave Brass",
+    "category": "Brass",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 26,
+    "name": "42 PWM Pad",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 27,
+    "name": "43 Sync Lead I",
+    "category": "Lead",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "lead"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 28,
+    "name": "44 Tremolo Strings",
+    "category": "Strings",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "strings"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 29,
+    "name": "45 Reso Clav",
+    "category": "Keys",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "keys"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 30,
+    "name": "46 Plucked Harp",
+    "category": "FX",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 31,
+    "name": "47 Glockenspiel",
+    "category": "FX",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 32,
+    "name": "48 Helicopter / Wind",
+    "category": "FX",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 33,
+    "name": "51 Octave Brass",
+    "category": "Brass",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "brass"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 34,
+    "name": "52 Pluck Bass",
+    "category": "Bass",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "bass"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 35,
+    "name": "53 Detuned Unison",
+    "category": "FX",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 36,
+    "name": "54 Celestial Bells",
+    "category": "FX",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 37,
+    "name": "55 Vibe Marimba",
+    "category": "FX",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 38,
+    "name": "56 Slow Attack Pad",
+    "category": "Pad",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "pad"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 39,
+    "name": "57 Metallic Mod",
+    "category": "FX",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "fx"
+    ]
+  },
+  {
+    "bank": "Factory ROM",
+    "program": 40,
+    "name": "58 Gargle Ring Mod",
+    "category": "FX",
+    "tags": [
+      "curtis-analog",
+      "polyphonic",
+      "classic",
+      "fx"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 1,
+    "name": "User Sync II (Cars)",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 2,
+    "name": "User Brass I",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 3,
+    "name": "User Strings I",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 4,
+    "name": "User Poly-Mod Special",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 5,
+    "name": "User Spike Lead",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 6,
+    "name": "User Organ I",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 7,
+    "name": "User Horns",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 8,
+    "name": "User Flute",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 9,
+    "name": "User Clavinet",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 10,
+    "name": "User Harpsichord",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 11,
+    "name": "User Wurlitzer E-Piano",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 12,
+    "name": "User Reso-Percussive",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 13,
+    "name": "User Soft Brass",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 14,
+    "name": "User Violins",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 15,
+    "name": "User Chorus Strings",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 16,
+    "name": "User Pipe Organ",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 17,
+    "name": "User Deep Bass",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 18,
+    "name": "User Fat Slap Bass",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 19,
+    "name": "User Analog Bells",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 20,
+    "name": "User Sci-Fi Noise Zap",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 21,
+    "name": "User Filter Sweep",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 22,
+    "name": "User Unison Lead",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 23,
+    "name": "User Warm Pad",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 24,
+    "name": "User Chirp",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 25,
+    "name": "User Square Wave Brass",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 26,
+    "name": "User PWM Pad",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 27,
+    "name": "User Sync Lead I",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 28,
+    "name": "User Tremolo Strings",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 29,
+    "name": "User Reso Clav",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 30,
+    "name": "User Plucked Harp",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 31,
+    "name": "User Glockenspiel",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 32,
+    "name": "User Helicopter / Wind",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 33,
+    "name": "User Octave Brass",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 34,
+    "name": "User Pluck Bass",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 35,
+    "name": "User Detuned Unison",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 36,
+    "name": "User Celestial Bells",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 37,
+    "name": "User Vibe Marimba",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 38,
+    "name": "User Slow Attack Pad",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 39,
+    "name": "User Metallic Mod",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "User RAM",
+    "program": 40,
+    "name": "User Gargle Ring Mod",
+    "category": "User",
+    "tags": [
+      "analog",
+      "user",
+      "prophet-5"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 1,
+    "name": "P5-Rev4 Sound 1-01",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 2,
+    "name": "P5-Rev4 Sound 1-02",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 3,
+    "name": "P5-Rev4 Sound 1-03",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 4,
+    "name": "P5-Rev4 Sound 1-04",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 5,
+    "name": "P5-Rev4 Sound 1-05",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 6,
+    "name": "P5-Rev4 Sound 1-06",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 7,
+    "name": "P5-Rev4 Sound 1-07",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 8,
+    "name": "P5-Rev4 Sound 1-08",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 9,
+    "name": "P5-Rev4 Sound 1-09",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 10,
+    "name": "P5-Rev4 Sound 1-10",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 11,
+    "name": "P5-Rev4 Sound 1-11",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 12,
+    "name": "P5-Rev4 Sound 1-12",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 13,
+    "name": "P5-Rev4 Sound 1-13",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 14,
+    "name": "P5-Rev4 Sound 1-14",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 15,
+    "name": "P5-Rev4 Sound 1-15",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 16,
+    "name": "P5-Rev4 Sound 1-16",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 17,
+    "name": "P5-Rev4 Sound 1-17",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 18,
+    "name": "P5-Rev4 Sound 1-18",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 19,
+    "name": "P5-Rev4 Sound 1-19",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 20,
+    "name": "P5-Rev4 Sound 1-20",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 21,
+    "name": "P5-Rev4 Sound 1-21",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 22,
+    "name": "P5-Rev4 Sound 1-22",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 23,
+    "name": "P5-Rev4 Sound 1-23",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 24,
+    "name": "P5-Rev4 Sound 1-24",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 25,
+    "name": "P5-Rev4 Sound 1-25",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 26,
+    "name": "P5-Rev4 Sound 1-26",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 27,
+    "name": "P5-Rev4 Sound 1-27",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 28,
+    "name": "P5-Rev4 Sound 1-28",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 29,
+    "name": "P5-Rev4 Sound 1-29",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 30,
+    "name": "P5-Rev4 Sound 1-30",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 31,
+    "name": "P5-Rev4 Sound 1-31",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 32,
+    "name": "P5-Rev4 Sound 1-32",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 33,
+    "name": "P5-Rev4 Sound 1-33",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 34,
+    "name": "P5-Rev4 Sound 1-34",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 35,
+    "name": "P5-Rev4 Sound 1-35",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 36,
+    "name": "P5-Rev4 Sound 1-36",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 37,
+    "name": "P5-Rev4 Sound 1-37",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 38,
+    "name": "P5-Rev4 Sound 1-38",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 39,
+    "name": "P5-Rev4 Sound 1-39",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 1",
+    "program": 40,
+    "name": "P5-Rev4 Sound 1-40",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 1,
+    "name": "P5-Rev4 Sound 2-01",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 2,
+    "name": "P5-Rev4 Sound 2-02",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 3,
+    "name": "P5-Rev4 Sound 2-03",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 4,
+    "name": "P5-Rev4 Sound 2-04",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 5,
+    "name": "P5-Rev4 Sound 2-05",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 6,
+    "name": "P5-Rev4 Sound 2-06",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 7,
+    "name": "P5-Rev4 Sound 2-07",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 8,
+    "name": "P5-Rev4 Sound 2-08",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 9,
+    "name": "P5-Rev4 Sound 2-09",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 10,
+    "name": "P5-Rev4 Sound 2-10",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 11,
+    "name": "P5-Rev4 Sound 2-11",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 12,
+    "name": "P5-Rev4 Sound 2-12",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 13,
+    "name": "P5-Rev4 Sound 2-13",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 14,
+    "name": "P5-Rev4 Sound 2-14",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 15,
+    "name": "P5-Rev4 Sound 2-15",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 16,
+    "name": "P5-Rev4 Sound 2-16",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 17,
+    "name": "P5-Rev4 Sound 2-17",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 18,
+    "name": "P5-Rev4 Sound 2-18",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 19,
+    "name": "P5-Rev4 Sound 2-19",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 20,
+    "name": "P5-Rev4 Sound 2-20",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 21,
+    "name": "P5-Rev4 Sound 2-21",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 22,
+    "name": "P5-Rev4 Sound 2-22",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 23,
+    "name": "P5-Rev4 Sound 2-23",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 24,
+    "name": "P5-Rev4 Sound 2-24",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 25,
+    "name": "P5-Rev4 Sound 2-25",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 26,
+    "name": "P5-Rev4 Sound 2-26",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 27,
+    "name": "P5-Rev4 Sound 2-27",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 28,
+    "name": "P5-Rev4 Sound 2-28",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 29,
+    "name": "P5-Rev4 Sound 2-29",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 30,
+    "name": "P5-Rev4 Sound 2-30",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 31,
+    "name": "P5-Rev4 Sound 2-31",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 32,
+    "name": "P5-Rev4 Sound 2-32",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 33,
+    "name": "P5-Rev4 Sound 2-33",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 34,
+    "name": "P5-Rev4 Sound 2-34",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 35,
+    "name": "P5-Rev4 Sound 2-35",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 36,
+    "name": "P5-Rev4 Sound 2-36",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 37,
+    "name": "P5-Rev4 Sound 2-37",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 38,
+    "name": "P5-Rev4 Sound 2-38",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 39,
+    "name": "P5-Rev4 Sound 2-39",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 2",
+    "program": 40,
+    "name": "P5-Rev4 Sound 2-40",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 1,
+    "name": "P5-Rev4 Sound 3-01",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 2,
+    "name": "P5-Rev4 Sound 3-02",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 3,
+    "name": "P5-Rev4 Sound 3-03",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 4,
+    "name": "P5-Rev4 Sound 3-04",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 5,
+    "name": "P5-Rev4 Sound 3-05",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 6,
+    "name": "P5-Rev4 Sound 3-06",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 7,
+    "name": "P5-Rev4 Sound 3-07",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 8,
+    "name": "P5-Rev4 Sound 3-08",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 9,
+    "name": "P5-Rev4 Sound 3-09",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 10,
+    "name": "P5-Rev4 Sound 3-10",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 11,
+    "name": "P5-Rev4 Sound 3-11",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 12,
+    "name": "P5-Rev4 Sound 3-12",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 13,
+    "name": "P5-Rev4 Sound 3-13",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 14,
+    "name": "P5-Rev4 Sound 3-14",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 15,
+    "name": "P5-Rev4 Sound 3-15",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 16,
+    "name": "P5-Rev4 Sound 3-16",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 17,
+    "name": "P5-Rev4 Sound 3-17",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 18,
+    "name": "P5-Rev4 Sound 3-18",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 19,
+    "name": "P5-Rev4 Sound 3-19",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 20,
+    "name": "P5-Rev4 Sound 3-20",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 21,
+    "name": "P5-Rev4 Sound 3-21",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 22,
+    "name": "P5-Rev4 Sound 3-22",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 23,
+    "name": "P5-Rev4 Sound 3-23",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 24,
+    "name": "P5-Rev4 Sound 3-24",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 25,
+    "name": "P5-Rev4 Sound 3-25",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 26,
+    "name": "P5-Rev4 Sound 3-26",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 27,
+    "name": "P5-Rev4 Sound 3-27",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 28,
+    "name": "P5-Rev4 Sound 3-28",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 29,
+    "name": "P5-Rev4 Sound 3-29",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 30,
+    "name": "P5-Rev4 Sound 3-30",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 31,
+    "name": "P5-Rev4 Sound 3-31",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 32,
+    "name": "P5-Rev4 Sound 3-32",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 33,
+    "name": "P5-Rev4 Sound 3-33",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 34,
+    "name": "P5-Rev4 Sound 3-34",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 35,
+    "name": "P5-Rev4 Sound 3-35",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 36,
+    "name": "P5-Rev4 Sound 3-36",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 37,
+    "name": "P5-Rev4 Sound 3-37",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 38,
+    "name": "P5-Rev4 Sound 3-38",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 39,
+    "name": "P5-Rev4 Sound 3-39",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  },
+  {
+    "bank": "Rev 4 Factory 3",
+    "program": 40,
+    "name": "P5-Rev4 Sound 3-40",
+    "category": "Analog",
+    "tags": [
+      "rev4",
+      "curtis-ssm",
+      "vintage"
+    ]
+  }
+]

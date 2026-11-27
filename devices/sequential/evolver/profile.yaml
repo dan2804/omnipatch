@@ -1,0 +1,23 @@
+manufacturer: Sequential
+model: Dave Smith Instruments Evolver
+type: Hybrid Synthesizer & Step Sequencer
+year: 2002
+midi:
+  channels: 16
+  cc_map:
+    analog_cutoff: 74
+    analog_resonance: 71
+    highpass_cutoff: 79
+    feedback_amount: 80
+    distortion: 81
+    delay_1_time: 82
+    delay_1_feedback: 83
+sysex:
+  header: F0 01 20
+  device_id_byte: 3
+  commands:
+    request_program: F0 01 20 05 [bank] [prog] F7
+banks:
+- Factory Bank 1
+- Factory Bank 2
+- Factory Bank 3

@@ -1,0 +1,21 @@
+manufacturer: Sequential
+model: Sequential Circuits Prophet VS
+type: Digital/Analog Vector Synthesizer
+year: 1986
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    joystick_x: 16
+    joystick_y: 17
+    filter_env_amount: 77
+    amp_attack: 73
+    amp_release: 72
+sysex:
+  header: F0 01 0A
+  device_id_byte: 3
+  commands:
+    request_program: F0 01 0A 01 [prog] F7
+banks:
+- Preset Bank
