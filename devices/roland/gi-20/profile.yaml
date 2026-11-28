@@ -1,0 +1,19 @@
+manufacturer: Roland
+model: GI-20
+type: GK-MIDI Guitar Interface
+year: 2003
+midi:
+  channels: 16
+  cc_map:
+    volume: 7
+    pan: 10
+    pitch_bend: 0
+sysex:
+  header: F0 41 10 00 59 12
+  device_id_byte: 2
+  commands:
+    request_patch: F0 41 10 00 59 11 [addr] [size] [chk] F7
+banks:
+- name: Memory Patches
+  type: RAM
+  size: 50

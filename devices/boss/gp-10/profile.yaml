@@ -1,0 +1,18 @@
+manufacturer: Boss
+model: GP-10
+type: Guitar Processor with Synth & Modeling
+year: 2014
+midi:
+  channels: 16
+  cc_map:
+    expression: 11
+    ctl: 80
+sysex:
+  header: F0 41 10 00 00 7A 12
+  device_id_byte: 2
+  commands:
+    request_patch: F0 41 10 00 00 7A 11 [addr] [size] [chk] F7
+banks:
+- name: Preset Patches
+  type: ROM
+  size: 99

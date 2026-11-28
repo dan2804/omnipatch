@@ -1,0 +1,20 @@
+manufacturer: Tc Helicon
+model: VoiceLive
+type: Professional Vocal Effects Processor
+year: 2004
+midi:
+  channels: 16
+  cc_map:
+    harmony_level: 16
+    lead_level: 7
+    reverb: 91
+    delay: 92
+sysex:
+  header: F0 00 20 1F
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 20 1F 00 [preset] F7
+banks:
+- name: Factory Vocal Presets
+  type: ROM
+  size: 99

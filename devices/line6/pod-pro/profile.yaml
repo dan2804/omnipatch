@@ -1,0 +1,26 @@
+manufacturer: Line6
+model: POD Pro
+type: Professional Rackmount Guitar Amp Modeler
+year: 2000
+midi:
+  channels: 16
+  cc_map:
+    drive: 80
+    bass: 81
+    mid: 82
+    treble: 83
+    presence: 84
+    volume: 7
+    delay_mix: 91
+sysex:
+  header: F0 00 01 0C 03
+  device_id_byte: 2
+  commands:
+    request_program: F0 00 01 0C 03 00 [prog] F7
+banks:
+- name: Preset Channel Bank
+  type: ROM
+  size: 36
+- name: User Program Bank
+  type: RAM
+  size: 128

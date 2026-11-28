@@ -1,0 +1,25 @@
+manufacturer: Boss
+model: SY-300
+type: Polyphonic Guitar Synthesizer
+year: 2015
+midi:
+  channels: 16
+  cc_map:
+    cutoff: 74
+    resonance: 71
+    expression: 11
+    ctl1: 80
+    ctl2: 81
+    ctl3: 82
+sysex:
+  header: F0 41 10 00 00 00 0A 12
+  device_id_byte: 2
+  commands:
+    request_patch: F0 41 10 00 00 00 0A 11 [addr] [size] [chk] F7
+banks:
+- name: Preset Patches
+  type: ROM
+  size: 70
+- name: User Patches
+  type: RAM
+  size: 99

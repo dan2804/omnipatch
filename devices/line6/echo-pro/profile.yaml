@@ -1,0 +1,21 @@
+manufacturer: Line6
+model: Echo Pro
+type: Studio Modeling Delay Processor
+year: 2001
+midi:
+  channels: 16
+  cc_map:
+    time: 16
+    repeats: 17
+    tweak: 18
+    tweez: 19
+    mix: 91
+sysex:
+  header: F0 00 01 0C 07
+  device_id_byte: 2
+  commands:
+    request_program: F0 00 01 0C 07 00 [prog] F7
+banks:
+- name: Preset Echo Bank
+  type: ROM
+  size: 128

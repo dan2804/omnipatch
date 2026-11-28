@@ -1,0 +1,24 @@
+manufacturer: Boss
+model: SY-1000
+type: Guitar Synthesizer & Modeling Processor
+year: 2020
+midi:
+  channels: 16
+  cc_map:
+    expression: 11
+    ctl1: 80
+    ctl2: 81
+    cutoff: 74
+    resonance: 71
+sysex:
+  header: F0 41 10 00 00 00 68 12
+  device_id_byte: 2
+  commands:
+    request_patch: F0 41 10 00 00 00 68 11 [addr] [size] [chk] F7
+banks:
+- name: Preset Sound Bank
+  type: ROM
+  size: 100
+- name: User Sound Bank
+  type: RAM
+  size: 100

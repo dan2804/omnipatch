@@ -1,0 +1,21 @@
+manufacturer: Line6
+model: Mod Pro
+type: Studio Modeling Modulation Processor
+year: 2001
+midi:
+  channels: 16
+  cc_map:
+    speed: 16
+    depth: 17
+    tweak: 18
+    tweez: 19
+    mix: 91
+sysex:
+  header: F0 00 01 0C 08
+  device_id_byte: 2
+  commands:
+    request_program: F0 00 01 0C 08 00 [prog] F7
+banks:
+- name: Preset Mod Bank
+  type: ROM
+  size: 128

@@ -1,0 +1,20 @@
+manufacturer: Yamaha
+model: WT11
+type: Wind Tone Generator (4-Op FM)
+year: 1988
+midi:
+  channels: 16
+  cc_map:
+    breath_ctrl: 2
+    pitch_bend: 0
+    volume: 7
+    pan: 10
+sysex:
+  header: F0 43 10 23
+  device_id_byte: 2
+  commands:
+    request_voice: F0 43 10 23 00 [voice] F7
+banks:
+- name: Preset Internal Voices
+  type: ROM
+  size: 128

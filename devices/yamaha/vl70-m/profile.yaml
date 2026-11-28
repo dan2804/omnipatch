@@ -1,0 +1,26 @@
+manufacturer: Yamaha
+model: VL70-m
+type: Virtual Acoustic Tone Generator
+year: 1996
+midi:
+  channels: 16
+  cc_map:
+    breath_ctrl: 2
+    pitch_bend: 0
+    volume: 7
+    pan: 10
+    reverb: 91
+    chorus: 93
+    variation: 94
+sysex:
+  header: F0 43 10 57
+  device_id_byte: 2
+  commands:
+    request_voice: F0 43 10 57 00 [bank] [prog] F7
+banks:
+- name: Custom Physical Models
+  type: ROM
+  size: 128
+- name: Internal Models
+  type: ROM
+  size: 128
