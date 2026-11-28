@@ -1,0 +1,14 @@
+[package]
+name = "metro-ui"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "Universal, cross-platform Windows 8 Metro / Modern UI engine with full-bleed saturated color blocks, live tiles, and panoramic hubs"
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+anyhow.workspace = true
+
+[dev-dependencies]

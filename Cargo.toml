@@ -6,6 +6,7 @@ members = [
     "crates/omnipatch-librarian",
     "crates/omnipatch-cli",
     "crates/omnipatch-desktop",
+    "crates/metro-ui",
 ]
 resolver = "2"
 

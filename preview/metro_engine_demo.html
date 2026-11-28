@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>juno 106 — Metro UI Engine</title>
+  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@200;300;400;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap');
+
+    * {
+      border-radius: 0px !important;
+      box-sizing: border-box;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+      user-select: none;
+      overflow-x: auto;
+      transition: background-color 0.15s ease, color 0.15s ease;
+    }
+
+    .font-mono-code { font-family: 'JetBrains Mono', monospace; }
+
+    /* Typography */
+    .metro-title-huge {
+      font-size: 52px;
+      font-weight: 200;
+      letter-spacing: -0.03em;
+      line-height: 1;
+    }
+
+    /* Vibrancy Modes */
+    body.mode-solid {
+      background-color: var(--page-bg);
+      color: #ffffff;
+    }
+    body.mode-solid .metro-col-surface {
+      background-color: var(--col-bg);
+      color: var(--col-text);
+    }
+    body.mode-solid .metro-card-panel {
+      background-color: rgba(0, 0, 0, 0.2);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    body.mode-light {
+      background-color: #f4f4f7;
+      color: #111116;
+    }
+    body.mode-light .metro-col-surface {
+      background-color: #ffffff;
+      color: #111116;
+      border-top: 8px solid var(--col-bg);
+      box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+    }
+    body.mode-light .metro-card-panel {
+      background-color: #f9f9fb;
+      border: 1px solid #e2e2e8;
+    }
+
+    body.mode-dark {
+      background-color: #0b0c10;
+      color: #ffffff;
+    }
+    body.mode-dark .metro-col-surface {
+      background-color: #13141c;
+      color: #ffffff;
+      border-top: 6px solid var(--col-bg);
+      border-bottom: 4px solid var(--col-bg);
+    }
+    body.mode-dark .metro-card-panel {
+      background-color: #1b1c26;
+      border: 1px solid #282a3a;
+    }
+
+    /* Sliders */
+    .metro-slider-bar {
+      height: 10px;
+      background: rgba(0, 0, 0, 0.35);
+      position: relative;
+      cursor: pointer;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .metro-slider-fill {
+      height: 100%;
+      background: #ffffff;
+      transition: width 0.05s ease;
+    }
+    .metro-slider-thumb {
+      width: 14px;
+      height: 26px;
+      background: #ffffff;
+      border: 2px solid #000000;
+      position: absolute;
+      top: -9px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+      pointer-events: none;
+    }
+
+    /* WinRT Toggle */
+    .metro-toggle-box {
+      width: 48px;
+      height: 22px;
+      border: 2px solid currentColor;
+      background: rgba(0, 0, 0, 0.25);
+      position: relative;
+      cursor: pointer;
+      transition: all 0.12s ease;
+    }
+    .metro-toggle-box .thumb {
+      width: 12px;
+      height: 14px;
+      background: #ffffff;
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      transition: all 0.12s cubic-bezier(0.1, 0.9, 0.2, 1);
+    }
+    .metro-toggle-box.is-on {
+      background: #ffffff;
+    }
+    .metro-toggle-box.is-on .thumb {
+      background: #000000;
+      left: 30px;
+    }
+
+    /* Tiles */
+    .metro-tile {
+      cursor: pointer;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 16px;
+      transition: transform 0.08s ease, outline 0.08s ease;
+    }
+    .metro-tile:hover {
+      outline: 3px solid #ffffff;
+      z-index: 10;
+    }
+    .metro-tile:active {
+      transform: perspective(600px) scale(0.97) rotateX(2deg);
+    }
+  </style>
+</head>
+<body class="mode-solid min-h-screen flex flex-col justify-between" id="metro-root" style="
+  --page-bg: #1c1527;
+  --accent: #ff5500;
+">
+
+  <!-- Multi-Stripe Accent Ribbon -->
+  <div class="h-1.5 w-full flex">
+    <span style="background-color: #e51400; flex: 1;"></span><span style="background-color: #ff5500; flex: 1;"></span><span style="background-color: #f59e0b; flex: 1;"></span><span style="background-color: #008a00; flex: 1;"></span><span style="background-color: #0078d7; flex: 1;"></span>
+  </div>
+
+  <!-- Header -->
+  <header class="px-8 py-3.5 bg-black/40 border-b border-white/10 flex flex-wrap items-center justify-between gap-4">
+    <div class="flex items-center gap-6">
+      <div class="flex items-center gap-2">
+        <span class="text-xs font-black uppercase tracking-widest px-2.5 py-1 text-black font-mono" style="background-color: #ff5500">ROLAND</span>
+        <span class="text-sm font-bold tracking-widest uppercase font-mono">METRO UI ENGINE</span>
+      </div>
+    </div>
+
+    <!-- Mode & View Switchers -->
+    <div class="flex items-center gap-3">
+      <div class="flex items-center border border-white/20 bg-black/30 p-0.5">
+        <button class="px-3 py-1 text-xs font-bold uppercase cursor-pointer bg-white text-black" onclick="setMode('solid')">Solid Color</button>
+        <button class="px-3 py-1 text-xs font-bold uppercase cursor-pointer opacity-70 hover:opacity-100" onclick="setMode('light')">Surface Light</button>
+        <button class="px-3 py-1 text-xs font-bold uppercase cursor-pointer opacity-70 hover:opacity-100" onclick="setMode('dark')">Neon Dark</button>
+      </div>
+
+      <div class="flex items-center border border-white/20 bg-black/30 p-0.5">
+        <button class="px-4 py-1 text-xs font-bold uppercase cursor-pointer bg-white text-black" id="tab-hub" onclick="switchView('hub')">Hub Panorama</button>
+        <button class="px-4 py-1 text-xs font-bold uppercase cursor-pointer opacity-70 hover:opacity-100" id="tab-tiles" onclick="switchView('tiles')">Start Screen Tiles</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Panoramic Canvas -->
+  <main class="flex-1 px-8 pt-5 pb-4 overflow-x-auto">
+    <div id="view-hub" class="space-y-6">
+      <div class="flex items-baseline justify-between border-b border-white/15 pb-4">
+        <div class="flex items-baseline gap-4">
+          <h1 class="metro-title-huge">juno 106</h1>
+          <span class="text-xl font-light font-mono uppercase opacity-90">polyphonic synthesizer</span>
+        </div>
+        <div class="bg-black/40 border-2 border-white px-5 py-2 flex items-center gap-4">
+          <span class="text-xs font-bold uppercase tracking-wider opacity-75">Active:</span>
+          <span class="text-base font-bold font-mono tracking-wide">A-11 STRING ENS 1</span>
+        </div>
+      </div>
+
+      <!-- Panoramic Columns -->
+      <div class="flex gap-6 pb-6 pt-1">
+        
+            <div class="metro-col-surface p-5 flex flex-col justify-between flex-shrink-0" style="--col-bg: #ff5500; --col-text: #ffffff; width: 320px;">
+              <div>
+                <div class="flex justify-between items-baseline mb-4 border-b border-current/30 pb-2">
+                  <h2 class="text-2xl font-light tracking-tight lowercase">dco oscillators</h2>
+                  <span class="text-xs font-mono font-bold uppercase opacity-80">dco 01</span>
+                </div>
+                <div class="space-y-4">
+                  
+                    <div>
+                      <span class="text-xs font-bold uppercase tracking-wider block mb-2 opacity-90">Octave Range</span>
+                      <div class="grid grid-cols-3 gap-1">
+                        <button class="py-2 text-xs font-bold cursor-pointer border-2 border-white bg-white text-black font-black">16'</button><button class="py-2 text-xs font-bold cursor-pointer border border-current bg-black/20 hover:bg-black/40">8'</button><button class="py-2 text-xs font-bold cursor-pointer border border-current bg-black/20 hover:bg-black/40">4'</button>
+                      </div>
+                    </div>
+                    
+                    <div class="flex items-center justify-between p-2.5 metro-card-panel">
+                      <span class="text-xs font-bold">Pulse Wave [ ⎍ ]</span>
+                      <div class="flex items-center gap-2">
+                        <div class="metro-toggle-box is-on" onclick="toggleSwitch(this)">
+                          <div class="thumb"></div>
+                        </div>
+                        <span class="text-xs font-bold uppercase">ON</span>
+                      </div>
+                    </div>
+                    
+                    <div class="flex items-center justify-between p-2.5 metro-card-panel">
+                      <span class="text-xs font-bold">Sawtooth Wave [ ⩘ ]</span>
+                      <div class="flex items-center gap-2">
+                        <div class="metro-toggle-box is-on" onclick="toggleSwitch(this)">
+                          <div class="thumb"></div>
+                        </div>
+                        <span class="text-xs font-bold uppercase">ON</span>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      <div class="flex justify-between text-xs font-bold mb-1">
+                        <span>Pulse Width Modulation</span>
+                        <span class="font-mono text-sm font-black" id="val-dco_pwm">64</span>
+                      </div>
+                      <div class="metro-slider-bar" onclick="setSlider(event, 'dco_pwm', 127)">
+                        <div class="metro-slider-fill" id="fill-dco_pwm" style="width: 50%;"></div>
+                        <div class="metro-slider-thumb" id="thumb-dco_pwm" style="left: calc(50% - 7px);"></div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      <div class="flex justify-between text-xs font-bold mb-1">
+                        <span>Sub-Oscillator Level</span>
+                        <span class="font-mono text-sm font-black" id="val-dco_sub">75</span>
+                      </div>
+                      <div class="metro-slider-bar" onclick="setSlider(event, 'dco_sub', 127)">
+                        <div class="metro-slider-fill" id="fill-dco_sub" style="width: 59%;"></div>
+                        <div class="metro-slider-thumb" id="thumb-dco_sub" style="left: calc(59% - 7px);"></div>
+                      </div>
+                    </div>
+                    
+                </div>
+              </div>
+              <div class="mt-4 pt-3 border-t border-current/20 flex justify-between text-[11px] font-mono opacity-80">
+                     <span>DCO SYNTH CORE</span>
+                     <span>6 VOICES</span>
+                   </div>
+            </div>
+            
+            <div class="metro-col-surface p-5 flex flex-col justify-between flex-shrink-0" style="--col-bg: #0078d7; --col-text: #ffffff; width: 320px;">
+              <div>
+                <div class="flex justify-between items-baseline mb-4 border-b border-current/30 pb-2">
+                  <h2 class="text-2xl font-light tracking-tight lowercase">filter & vcf</h2>
+                  <span class="text-xs font-mono font-bold uppercase opacity-80">ir3109</span>
+                </div>
+                <div class="space-y-4">
+                  
+                    <div>
+                      <span class="text-xs font-bold uppercase tracking-wider block mb-2 opacity-90">High-Pass Filter</span>
+                      <div class="grid grid-cols-4 gap-1">
+                        <button class="py-2 text-xs font-bold cursor-pointer border-2 border-white bg-white text-black font-black">0</button><button class="py-2 text-xs font-bold cursor-pointer border border-current bg-black/20 hover:bg-black/40">1</button><button class="py-2 text-xs font-bold cursor-pointer border border-current bg-black/20 hover:bg-black/40">2</button><button class="py-2 text-xs font-bold cursor-pointer border border-current bg-black/20 hover:bg-black/40">3</button>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      <div class="flex justify-between text-xs font-bold mb-1">
+                        <span>Cutoff Frequency (24dB)</span>
+                        <span class="font-mono text-sm font-black" id="val-vcf_cut">84</span>
+                      </div>
+                      <div class="metro-slider-bar" onclick="setSlider(event, 'vcf_cut', 127)">
+                        <div class="metro-slider-fill" id="fill-vcf_cut" style="width: 66%;"></div>
+                        <div class="metro-slider-thumb" id="thumb-vcf_cut" style="left: calc(66% - 7px);"></div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      <div class="flex justify-between text-xs font-bold mb-1">
+                        <span>Resonance (Self-Osc)</span>
+                        <span class="font-mono text-sm font-black" id="val-vcf_res">42</span>
+                      </div>
+                      <div class="metro-slider-bar" onclick="setSlider(event, 'vcf_res', 127)">
+                        <div class="metro-slider-fill" id="fill-vcf_res" style="width: 33%;"></div>
+                        <div class="metro-slider-thumb" id="thumb-vcf_res" style="left: calc(33% - 7px);"></div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      <div class="flex justify-between text-xs font-bold mb-1">
+                        <span>Envelope Modulation</span>
+                        <span class="font-mono text-sm font-black" id="val-vcf_env">70</span>
+                      </div>
+                      <div class="metro-slider-bar" onclick="setSlider(event, 'vcf_env', 127)">
+                        <div class="metro-slider-fill" id="fill-vcf_env" style="width: 55%;"></div>
+                        <div class="metro-slider-thumb" id="thumb-vcf_env" style="left: calc(55% - 7px);"></div>
+                      </div>
+                    </div>
+                    
+                </div>
+              </div>
+              <div class="mt-4 pt-3 border-t border-current/20 flex justify-between text-[11px] font-mono opacity-80">
+                     <span>ANALOG LOWPASS</span>
+                     <span>24 DB/OCT</span>
+                   </div>
+            </div>
+            
+            <div class="metro-col-surface p-5 flex flex-col justify-between flex-shrink-0" style="--col-bg: #f59e0b; --col-text: #000000; width: 340px;">
+              <div>
+                <div class="flex justify-between items-baseline mb-4 border-b border-current/30 pb-2">
+                  <h2 class="text-2xl font-light tracking-tight lowercase">envelope adsr</h2>
+                  <span class="text-xs font-mono font-bold uppercase opacity-80">transient</span>
+                </div>
+                <div class="space-y-4">
+                  
+                    <div>
+                      <div class="flex justify-between text-xs font-bold mb-1">
+                        <span>Attack Time</span>
+                        <span class="font-mono text-sm font-black" id="val-adsr_att">15ms</span>
+                      </div>
+                      <div class="metro-slider-bar" onclick="setSlider(event, 'adsr_att', 127)">
+                        <div class="metro-slider-fill" id="fill-adsr_att" style="width: 11%;"></div>
+                        <div class="metro-slider-thumb" id="thumb-adsr_att" style="left: calc(11% - 7px);"></div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      <div class="flex justify-between text-xs font-bold mb-1">
+                        <span>Decay Time</span>
+                        <span class="font-mono text-sm font-black" id="val-adsr_dec">65ms</span>
+                      </div>
+                      <div class="metro-slider-bar" onclick="setSlider(event, 'adsr_dec', 127)">
+                        <div class="metro-slider-fill" id="fill-adsr_dec" style="width: 51%;"></div>
+                        <div class="metro-slider-thumb" id="thumb-adsr_dec" style="left: calc(51% - 7px);"></div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      <div class="flex justify-between text-xs font-bold mb-1">
+                        <span>Sustain Level</span>
+                        <span class="font-mono text-sm font-black" id="val-adsr_sus">95</span>
+                      </div>
+                      <div class="metro-slider-bar" onclick="setSlider(event, 'adsr_sus', 127)">
+                        <div class="metro-slider-fill" id="fill-adsr_sus" style="width: 74%;"></div>
+                        <div class="metro-slider-thumb" id="thumb-adsr_sus" style="left: calc(74% - 7px);"></div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      <div class="flex justify-between text-xs font-bold mb-1">
+                        <span>Release Time</span>
+                        <span class="font-mono text-sm font-black" id="val-adsr_rel">45ms</span>
+                      </div>
+                      <div class="metro-slider-bar" onclick="setSlider(event, 'adsr_rel', 127)">
+                        <div class="metro-slider-fill" id="fill-adsr_rel" style="width: 35%;"></div>
+                        <div class="metro-slider-thumb" id="thumb-adsr_rel" style="left: calc(35% - 7px);"></div>
+                      </div>
+                    </div>
+                    
+                </div>
+              </div>
+              <div class="mt-4 pt-3 border-t border-current/20 flex justify-between text-[11px] font-mono opacity-80">
+                     <span>ANALOG GENERATOR</span>
+                     <span>SHAPE 01</span>
+                   </div>
+            </div>
+            
+            <div class="metro-col-surface p-5 flex flex-col justify-between flex-shrink-0" style="--col-bg: #008a00; --col-text: #ffffff; width: 360px;">
+              <div>
+                <div class="flex justify-between items-baseline mb-4 border-b border-current/30 pb-2">
+                  <h2 class="text-2xl font-light tracking-tight lowercase">phrase arpeggiator</h2>
+                  <span class="text-xs font-mono font-bold uppercase opacity-80">clock sync</span>
+                </div>
+                <div class="space-y-4">
+                  
+                    <div class="flex items-center justify-between p-2.5 metro-card-panel">
+                      <span class="text-xs font-bold">Arpeggiator Enable</span>
+                      <div class="flex items-center gap-2">
+                        <div class="metro-toggle-box is-on" onclick="toggleSwitch(this)">
+                          <div class="thumb"></div>
+                        </div>
+                        <span class="text-xs font-bold uppercase">ON</span>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      <span class="text-xs font-bold uppercase tracking-wider block mb-2 opacity-90">Motif Direction</span>
+                      <div class="grid grid-cols-4 gap-1">
+                        <button class="py-2 text-xs font-bold cursor-pointer border-2 border-white bg-white text-black font-black">UP</button><button class="py-2 text-xs font-bold cursor-pointer border border-current bg-black/20 hover:bg-black/40">DOWN</button><button class="py-2 text-xs font-bold cursor-pointer border border-current bg-black/20 hover:bg-black/40">U/D</button><button class="py-2 text-xs font-bold cursor-pointer border border-current bg-black/20 hover:bg-black/40">RANDOM</button>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      <div class="flex justify-between text-xs font-bold mb-1">
+                        <span>Clock Rate / Tempo</span>
+                        <span class="font-mono text-sm font-black" id="val-arp_rate">120BPM</span>
+                      </div>
+                      <div class="metro-slider-bar" onclick="setSlider(event, 'arp_rate', 240)">
+                        <div class="metro-slider-fill" id="fill-arp_rate" style="width: 40%;"></div>
+                        <div class="metro-slider-thumb" id="thumb-arp_rate" style="left: calc(40% - 7px);"></div>
+                      </div>
+                    </div>
+                    
+                    <div class="p-3 metro-card-panel">
+                      <div class="flex justify-between items-center mb-2">
+                        <span class="text-xs font-bold uppercase">16-Step Pattern</span>
+                        <span class="text-[10px] font-mono opacity-80">gate · velocity</span>
+                      </div>
+                      <div class="grid grid-cols-8 gap-1">
+                        <div class="p-2 border border-current text-center cursor-pointer bg-white text-black font-black">
+                             <div class="text-[10px]">1</div>
+                             <div class="h-6 mt-1 bg-current opacity-60"></div>
+                           </div><div class="p-2 border border-current text-center cursor-pointer bg-black/30 text-white font-bold">
+                             <div class="text-[10px]">2</div>
+                             <div class="h-6 mt-1 bg-current opacity-60"></div>
+                           </div><div class="p-2 border border-current text-center cursor-pointer bg-black/30 text-white font-bold">
+                             <div class="text-[10px]">3</div>
+                             <div class="h-6 mt-1 bg-current opacity-60"></div>
+                           </div><div class="p-2 border border-current text-center cursor-pointer bg-black/30 text-white font-bold">
+                             <div class="text-[10px]">4</div>
+                             <div class="h-6 mt-1 bg-current opacity-60"></div>
+                           </div><div class="p-2 border border-current text-center cursor-pointer bg-white text-black font-black">
+                             <div class="text-[10px]">5</div>
+                             <div class="h-6 mt-1 bg-current opacity-60"></div>
+                           </div><div class="p-2 border border-current text-center cursor-pointer bg-black/30 text-white font-bold">
+                             <div class="text-[10px]">6</div>
+                             <div class="h-6 mt-1 bg-current opacity-60"></div>
+                           </div><div class="p-2 border border-current text-center cursor-pointer bg-black/30 text-white font-bold">
+                             <div class="text-[10px]">7</div>
+                             <div class="h-6 mt-1 bg-current opacity-60"></div>
+                           </div><div class="p-2 border border-current text-center cursor-pointer bg-black/30 text-white font-bold">
+                             <div class="text-[10px]">8</div>
+                             <div class="h-6 mt-1 bg-current opacity-60"></div>
+                           </div><div class="p-2 border border-current text-center cursor-pointer bg-white text-black font-black">
+                             <div class="text-[10px]">9</div>
+                             <div class="h-6 mt-1 bg-current opacity-60"></div>
+                           </div><div class="p-2 border border-current text-center cursor-pointer bg-black/30 text-white font-bold">
+                             <div class="text-[10px]">10</div>
+                             <div class="h-6 mt-1 bg-current opacity-60"></div>
+                           </div><div class="p-2 border border-current text-center cursor-pointer bg-black/30 text-white font-bold">
+                             <div class="text-[10px]">11</div>
+                             <div class="h-6 mt-1 bg-current opacity-60"></div>
+                           </div><div class="p-2 border border-current text-center cursor-pointer bg-black/30 text-white font-bold">
+                             <div class="text-[10px]">12</div>
+                             <div class="h-6 mt-1 bg-current opacity-60"></div>
+                           </div><div class="p-2 border border-current text-center cursor-pointer bg-white text-black font-black">
+                             <div class="text-[10px]">13</div>
+                             <div class="h-6 mt-1 bg-current opacity-60"></div>
+                           </div><div class="p-2 border border-current text-center cursor-pointer bg-black/30 text-white font-bold">
+                             <div class="text-[10px]">14</div>
+                             <div class="h-6 mt-1 bg-current opacity-60"></div>
+                           </div><div class="p-2 border border-current text-center cursor-pointer bg-black/30 text-white font-bold">
+                             <div class="text-[10px]">15</div>
+                             <div class="h-6 mt-1 bg-current opacity-60"></div>
+                           </div><div class="p-2 border border-current text-center cursor-pointer bg-black/30 text-white font-bold">
+                             <div class="text-[10px]">16</div>
+                             <div class="h-6 mt-1 bg-current opacity-60"></div>
+                           </div>
+                      </div>
+                    </div>
+                    
+                </div>
+              </div>
+              <div class="mt-4 pt-3 border-t border-current/20 flex justify-between text-[11px] font-mono opacity-80">
+                     <span>STEP MATRIX</span>
+                     <span>16 STEPS</span>
+                   </div>
+            </div>
+            
+      </div>
+    </div>
+
+    <!-- Start Screen Live Tiles -->
+    <div id="view-tiles" class="hidden space-y-6 pb-6">
+      <div class="flex items-baseline gap-4 border-b border-white/15 pb-4">
+        <h1 class="metro-title-huge">start screen</h1>
+        <span class="text-xl font-light font-mono uppercase opacity-75">interactive live tiles</span>
+      </div>
+      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3.5 auto-rows-[140px]">
+        
+                <div class="metro-tile col-span-2" style="background-color: #ff5500; color: #ffffff;" onclick="">
+                  <div class="flex justify-between items-start">
+                    <span class="text-xs font-black uppercase tracking-widest bg-black text-white px-2 py-0.5 font-mono">ROLAND</span>
+                    <span class="text-[10px] font-mono font-bold opacity-75">2x1</span>
+                  </div>
+                  <div>
+                    
+                    <div class="text-2xl font-light leading-tight">Juno-106</div>
+                    <div class="text-xs opacity-90 mt-1">128 Patches · DCO Poly · IR3109</div>
+                  </div>
+                </div>
+                
+                <div class="metro-tile " style="background-color: #00a499; color: #000000;" onclick="">
+                  <div class="flex justify-between items-start">
+                    <span class="text-xs font-black uppercase tracking-widest bg-black text-white px-2 py-0.5 font-mono">YAMAHA</span>
+                    <span class="text-[10px] font-mono font-bold opacity-75">1x1</span>
+                  </div>
+                  <div>
+                    
+                    <div class="text-2xl font-light leading-tight">DX7-II FD</div>
+                    <div class="text-xs opacity-90 mt-1">32 Algs · 6-Op FM</div>
+                  </div>
+                </div>
+                
+                <div class="metro-tile " style="background-color: #d90429; color: #ffffff;" onclick="">
+                  <div class="flex justify-between items-start">
+                    <span class="text-xs font-black uppercase tracking-widest bg-black text-white px-2 py-0.5 font-mono">CLAVIA</span>
+                    <span class="text-[10px] font-mono font-bold opacity-75">1x1</span>
+                  </div>
+                  <div>
+                    
+                    <div class="text-2xl font-light leading-tight">Nord Lead 2X</div>
+                    <div class="text-xs opacity-90 mt-1">Virtual Analog Poly</div>
+                  </div>
+                </div>
+                
+                <div class="metro-tile " style="background-color: #ffe600; color: #000000;" onclick="">
+                  <div class="flex justify-between items-start">
+                    <span class="text-xs font-black uppercase tracking-widest bg-black text-white px-2 py-0.5 font-mono">E-MU</span>
+                    <span class="text-[10px] font-mono font-bold opacity-75">1x1</span>
+                  </div>
+                  <div>
+                    
+                    <div class="text-2xl font-light leading-tight">Orbit-3 / XL-1</div>
+                    <div class="text-xs opacity-90 mt-1">Z-Plane Morphing</div>
+                  </div>
+                </div>
+                
+      </div>
+    </div>
+  </main>
+
+  <script>
+    function setMode(mode) {
+      const r = document.getElementById('metro-root');
+      r.className = r.className.replace(/mode-(solid|light|dark)/g, '');
+      r.classList.add('mode-' + mode);
+    }
+
+    function switchView(view) {
+      const hub = document.getElementById('view-hub');
+      const tiles = document.getElementById('view-tiles');
+      if (view === 'hub') {
+        hub.classList.remove('hidden');
+        tiles.classList.add('hidden');
+      } else {
+        hub.classList.add('hidden');
+        tiles.classList.remove('hidden');
+      }
+    }
+
+    function toggleSwitch(el) {
+      el.classList.toggle('is-on');
+    }
+
+    function setSlider(e, id, max) {
+      const rect = e.currentTarget.getBoundingClientRect();
+      const pct = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
+      const val = Math.round(pct * max);
+      const fill = document.getElementById('fill-' + id);
+      const thumb = document.getElementById('thumb-' + id);
+      const label = document.getElementById('val-' + id);
+      if (fill) fill.style.width = (pct * 100) + '%';
+      if (thumb) thumb.style.left = 'calc(' + (pct * 100) + '% - 7px)';
+      if (label) label.innerText = val;
+    }
+  </script>
+</body>
+</html>
