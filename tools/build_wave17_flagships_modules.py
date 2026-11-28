@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 OmniPatch Wave 17 Builder: Synthesizer Modules, Boutique Classics, Studio Workstations & Digital Processors
-Adds 30 high-profile instruments from the Midi Quest 13 catalog:
+Adds 30 high-profile instruments from the hardware synthesizer catalog:
 - Roland: D-550, D-05, JD-Xi, JP-08, DEP-5, DEP-3, GP-16, GP-8, GR-50, EF-303
 - Korg: 01R/W, EX-8000, EX-800, DS-8, DVP-1, EA-1, ER-1, A1, A3
 - Yamaha: CS6R, EX7, DB50XG, DX9, Reface CP, FX900

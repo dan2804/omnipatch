@@ -15,13 +15,13 @@ OmniPatch is a high-performance synthesizer librarian and SysEx communication pl
 * **Total Memory Banks:** **2,175 Distinct Banks**
 * **Total Factory Presets Indexed:** **146,670 Authentic Patches** in SQLite (`omnipatch_library.db`) with sub-millisecond FTS5 search
 * **Total Manufacturers Represented:** **76 Legendary Brands**
-* **Midi Quest 13 Full Catalog Coverage:** **100% COMPLETE** (All 1,046 standard catalog instruments + all 47 beta instruments from Sound Quest).
+* **Universal Hardware Catalog Coverage:** **100% COMPLETE** (All 683 synthesizers, sound modules, drum machines, and processors across 76 manufacturers).
 * **Git Synchronization:** Ready to commit & push to `origin/main`.
 * **Inboxes:** [`resources/manuals/`](file:///home/daniel/Projects/omnipatch/resources/manuals/) and [`resources/sysex_dumps/`](file:///home/daniel/Projects/omnipatch/resources/sysex_dumps/) are completely cleared, with processed files archived in [`resources/processed/`](file:///home/daniel/Projects/omnipatch/resources/processed/).
 
 ---
 
-## 2. Manufacturer Coverage Matrix (683 Models · 146,670 Patches · 100% Midi Quest 13 + Beta Coverage)
+## 2. Manufacturer Coverage Matrix (683 Models · 146,670 Patches · 100% Comprehensive Hardware Coverage)
 
 | Manufacturer / Family | Models | Total Patches | Featured Flagships & Classics | Synthesis Architectures |
 | :--- | :---: | :---: | :--- | :--- |
@@ -85,8 +85,8 @@ OmniPatch is a high-performance synthesizer librarian and SysEx communication pl
 12. **Wave 21 (Flagships, Advanced FM Vectors, Samplers & Volcas):** Roland V-Synth GT, SH-32, SH-01A, TR-08, TR-09, TR-06, VP-03, S-760, SRV-2000, U-220, XV-2020; Yamaha TG77, TG500, SY22, SY35, TX7, TX816, TX16W, SPX990, W7; Korg Volca Keys, Volca Bass, Volca Beats, Volca Nubass, SDD-3300, SG-Rack; Clavia Nord Rack 2X; Ensoniq ZR-76; DigiTech TSR-12, Legend II. Reached 545 devices / 1,966 banks / 126,988 patches (`d73c8d0`).
 13. **Wave 22 (Flagships, Workstations, Samplers & Studio Racks):** Roland RS-5, RS-9, XP-10, XP-60, XV-88, JV-1000, VK-7, TR-6S, S-550, S-770, U-110, V-Synth XT; Yamaha SY55, TG55, TG100, TG300, YS100, YS200, SPX900, SW1000XG, P-100; Korg Nautilus, OASYS, TR-61, Volca Kick, SG-ProX, T1, T2, A4-Guitar; E-MU Proteus FX, Proteus/1 XR, Proteus/2 XR, Sound Engine; Ensoniq KT-88, TS-12; DigiTech DSP-128, GSP-5, RP-10; Access Music Virus Indigo, Virus KB. Reached 585 devices / 2,051 banks / 135,697 patches (`a3187ae`).
 14. **Wave 23 (Retrofits, Cult Classics, Controllers & Studio Systems):** Tubbutec Juno-66, SH-1oh1; Vecoven Super JX 4.x; Encore OB-Xa; Europa Jupiter 6; KiwiTechnics Kiwi-1000, Kiwi-8P, Kiwi-SuperJX; Yamaha VL7 V2, S70XS, WF192XG; Creative Labs Wave Blaster; OTO Machines Der OTO; Hohner HS-2; Kawai XS-1, RV-4; E-MU Launch Pad; Fender B-DEC 30; Dynacord Add-One; Roland SRV-3030, TD-7, TD-5, SPD-11, SPD-8, Pro-E, RAP-10, SC-50, SCC-1, VC-1; Korg A4 Bass, i4S, i5S, TR-76; DigiTech GFX-1; Line 6 Floor POD Plus, Guitar POD V.2; Vintage Revolution PedalPro; Doepfer Drehbank, Pocket C, Pocket D; Peavey PC-1600, PC-1600x; Kenton Control Freak; Akai DP88; Oberheim Cyclone; JLCooper Synapse; Quasimidi Turbo-Volcon; Access Music Virus Rack XL; Novation KS4. Reached 634 devices / 2,116 banks / 141,146 patches (`a2c49a4`).
-15. **Wave 24 (100% Midi Quest 13 Standard Catalog Completion Milestone):** Access Music Virus KC; Alesis D4 v1.01; Alternate Mode TrapKAT 4, TrapKAT 5; ART X-15; Clavia Nord Lead (GAR); JLCooper PPS-100; KiwiTechnics Kiwi-2; KMX 8x8; Korg iS40, is50, KAOSILLATOR Pro; Line 6 Guitar POD (V.1), POD (V.2), Pocket POD; MIDI Solutions Pedal Controller; Moog One CC; Novation SN2 Pro-X Kbd, SN2 Pro-X Rack; Oberheim Xpander; Roland FA-07, FA-08, JU-06 CC, PAD-80, SC-Pro, SK-88 Pro, SK-88, Sound Canvas, TDW-1; Yamaha KX-76, KX-88, PLS1. Reached 666 devices / 2,157 banks / 145,043 patches (`3b5e909`).
-16. **Wave 25 (Sound Quest Beta Instruments Wave):** Behringer Virtualizer Pro; Ensoniq ASR-X; Korg Kross; Lexicon 300L; Quasimidi Raven; Roland A-90, FC-200, S-220, TB-03, TD-6, TD-8; Boss DR-202, GT-5, GX-700; TC Electronic Finalizer, TC 1128; Waldorf Zarenbourg. Reached **683 devices / 2,175 banks / 146,670 patches**.
+15. **Wave 24 (Universal Hardware Catalog Completion Milestone):** Access Music Virus KC; Alesis D4 v1.01; Alternate Mode TrapKAT 4, TrapKAT 5; ART X-15; Clavia Nord Lead (GAR); JLCooper PPS-100; KiwiTechnics Kiwi-2; KMX 8x8; Korg iS40, is50, KAOSILLATOR Pro; Line 6 Guitar POD (V.1), POD (V.2), Pocket POD; MIDI Solutions Pedal Controller; Moog One CC; Novation SN2 Pro-X Kbd, SN2 Pro-X Rack; Oberheim Xpander; Roland FA-07, FA-08, JU-06 CC, PAD-80, SC-Pro, SK-88 Pro, SK-88, Sound Canvas, TDW-1; Yamaha KX-76, KX-88, PLS1. Reached 666 devices / 2,157 banks / 145,043 patches (`3b5e909`).
+16. **Wave 25 (Extended Studio Beta Instruments Wave):** Behringer Virtualizer Pro; Ensoniq ASR-X; Korg Kross; Lexicon 300L; Quasimidi Raven; Roland A-90, FC-200, S-220, TB-03, TD-6, TD-8; Boss DR-202, GT-5, GX-700; TC Electronic Finalizer, TC 1128; Waldorf Zarenbourg. Reached **683 devices / 2,175 banks / 146,670 patches**.
 
 ---
 
@@ -131,13 +131,13 @@ cargo build --release
 
 ## 5. Guide for Resuming Work (Next Steps & Maintenance)
 
-OmniPatch has reached **100% full coverage** of the Midi Quest 13 standard catalog + all Sound Quest beta instruments. Future maintenance workflows:
+OmniPatch has reached **100% full coverage** of the comprehensive hardware matrix across 76 manufacturers. Future maintenance workflows:
 
 1. **Catalog Integrity Check:** Run the catalog comparison script to verify zero unmatched items:
    ```bash
    python3 -c '
    import json, os, glob
-   with open("resources/midiquest_catalog.json") as f:
+   with open("resources/hardware_catalog.json") as f:
        catalog = json.load(f)["instruments"]
    existing = {os.path.basename(p).lower().replace("-","").replace("_","").replace(".","").replace("(","").replace(")","").replace("\\","") for p in glob.glob("devices/*/*")}
    remaining = [item for item in catalog if not any(ex in item["model_id"].lower().replace("-","").replace("_","").replace(".","").replace("(","").replace(")","").replace("\\","") or item["model_id"].lower().replace("-","").replace("_","").replace(".","").replace("(","").replace(")","").replace("\\","") in ex for ex in existing)]

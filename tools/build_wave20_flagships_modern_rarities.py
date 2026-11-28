@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 OmniPatch Wave 20 Builder: Modern Flagships, Analog Powerhouses, Beat Processors & Studio Racks
-Adds 30 high-profile instruments from the Midi Quest 13 catalog:
+Adds 30 high-profile instruments from the hardware synthesizer catalog:
 - Roland: Jupiter-X, JX-03, JV-90, P-55
 - Yamaha: SPX90 II, S90, 03D
 - Korg: N5, N5EX, N364

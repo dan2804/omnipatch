@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>E-MU Planet Earth 64-Voice World Sound Module &amp; Midi Quest 13 Editor</title>
+  <title>E-MU Planet Earth 64-Voice World Sound Module &amp; OmniPatch Studio Editor</title>
   <script src="tailwindcss.min.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -606,7 +606,7 @@
   </div>
 
   <!-- ========================================================================= -->
-  <!-- MIDI QUEST 13 COMPONENT SUB-VIEWS (TABBED WORKSPACE)                      -->
+  <!-- OMNIPATCH COMPONENT SUB-VIEWS (TABBED WORKSPACE)                      -->
   <!-- ========================================================================= -->
   <div class="w-full max-w-6xl mt-4 bg-zinc-900/95 border border-zinc-800 rounded-lg shadow-xl overflow-hidden flex flex-col">
     
@@ -650,7 +650,7 @@
           Bank Librarian (1,024)
         </button>
       </div>
-      <span class="text-[10px] text-zinc-500 font-mono whitespace-nowrap hidden 2xl:inline shrink-0">Midi Quest 13 &bull; Model 0x0F / 0x05 (Planet Earth)</span>
+      <span class="text-[10px] text-zinc-500 font-mono whitespace-nowrap hidden 2xl:inline shrink-0">OmniPatch Studio &bull; Model 0x0F / 0x05 (Planet Earth)</span>
     </div>
 
     <!-- ==================== TAB 1: PERFORMANCE CONSOLE ==================== -->
@@ -1086,7 +1086,7 @@
       }
     }
 
-    // Switch Tab in Midi Quest 13 View
+    // Switch Tab in OmniPatch Studio View
     function switchPETab(tabId) {
       const tabs = ['performance', 'preset', 'filter', 'lfos', 'arpeggiator', 'global', 'progmap', 'multimode', 'librarian'];
       tabs.forEach(t => {

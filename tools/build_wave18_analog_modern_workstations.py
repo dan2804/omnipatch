@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 OmniPatch Wave 18 Builder: Analog Classics, Modern Workstations, Grid Grooveboxes & Digital Consoles
-Adds 30 high-profile instruments from the Midi Quest 13 catalog:
+Adds 30 high-profile instruments from the hardware synthesizer catalog:
 - Studio Electronics: ATC-1, ATC-X
 - MFB: Tanzbär, Tanzbär Lite, Synth Lite II
 - Sequential: Prophet-10, Prophet T8, Prophet X

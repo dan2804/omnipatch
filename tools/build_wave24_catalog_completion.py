@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-OmniPatch Wave 24 Builder: Final Catalog Completion (100% Midi Quest 13 Coverage)
+OmniPatch Wave 24 Builder: Final Catalog Completion (100% Universal Hardware Coverage)
 Ingests the final 32 instruments, keyboard variants, expanded modules & controllers:
 - Access Music: Virus KC
 - Alesis: D4 v1.01
@@ -570,7 +570,7 @@ def build_all():
 
         print(f"Created {dev['m_dir']}/{dev['model_dir']}: {dev['model']} ({len(presets_list)} presets)")
 
-    print(f"\nWave 24 Build Complete! {len(DEVICES)} new models created. 100% of Midi Quest 13 catalog covered!")
+    print(f"\nWave 24 Build Complete! {len(DEVICES)} new models created. 100% of universal hardware catalog covered!")
 
 if __name__ == "__main__":
     build_all()

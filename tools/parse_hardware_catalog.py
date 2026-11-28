@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Midi Quest 13 Instrument Catalog Parser
+OmniPatch Hardware Synthesizer Catalog Parser
 Parses the user-provided 1,046 instrument links, extracts manufacturer and model,
 and groups them into organized batches for OmniPatch profile generation.
 """
@@ -10,16 +10,16 @@ import json
 import os
 
 PROMPT_TEXT_FILE = os.path.join(os.path.dirname(__file__), 'raw_mq_links.txt')
-OUTPUT_CATALOG = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'resources', 'midiquest_catalog.json')
+OUTPUT_CATALOG = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'resources', 'hardware_catalog.json')
 
 def parse_catalog(text):
-    pattern = r'\[(.*?)\]\((https://squest.com/Products/MidiQuest13/Instruments/(.*?)/index.html)\)'
+    pattern = r'\[(.*?)\]\(((.*?)/index.html)\)'
     matches = re.findall(pattern, text)
     
     catalog = []
     by_mfg = {}
     
-    # Known manufacturer prefixes in MidiQuest URLs
+    # Known manufacturer prefixes in Hardware URLs
     mfg_prefixes = [
         ('1010music', '1010music'),
         ('360Systems', '360 Systems'),

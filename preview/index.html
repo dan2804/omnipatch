@@ -2737,12 +2737,12 @@
     // SysEx Handlers
     function pullSysExDump() {
       const s = synthCatalog[currentSynthIdx];
-      alert(`Midi Quest 13: Dispatched SysEx Request [F0 18 ${s.sysexId.replace('0x','')} 00 00 01 F7] for ${s.name}.`);
+      alert(`OmniPatch Studio: Dispatched SysEx Request [F0 18 ${s.sysexId.replace('0x','')} 00 00 01 F7] for ${s.name}.`);
     }
     function commitSysExPatch() {
       const s = synthCatalog[currentSynthIdx];
       const p = s.presets[currentPresetIdx];
-      alert(`Midi Quest 13: Committed SysEx Preset Dump for [${p.id} ${p.name}] to ${s.name} edit buffer.`);
+      alert(`OmniPatch Studio: Committed SysEx Preset Dump for [${p.id} ${p.name}] to ${s.name} edit buffer.`);
     }
     function exportSysExPatchFile() {
       const s = synthCatalog[currentSynthIdx];

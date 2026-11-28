@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 OmniPatch Wave 19 Builder: Boutique Synths, Cult Modules, Studio Effects & Vintage Classics
-Adds 30 high-profile instruments from the Midi Quest 13 catalog:
+Adds 30 high-profile instruments from the hardware synthesizer catalog:
 - Studiologic: Sledge
 - Octave-Plateau: Voyetra-8
 - Marion Systems: ProSynth

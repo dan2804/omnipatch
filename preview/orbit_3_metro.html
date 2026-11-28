@@ -162,7 +162,7 @@
         <button onclick="switchMetroTab('layers')" id="tab-layers" class="text-zinc-400 hover:text-white pb-1 transition">4-Layer Voice Architecture</button>
         <button onclick="switchMetroTab('zplane')" id="tab-zplane" class="text-zinc-400 hover:text-white pb-1 transition">Z-Plane Filter Matrix</button>
         <button onclick="switchMetroTab('cords')" id="tab-cords" class="text-zinc-400 hover:text-white pb-1 transition">24-Cord Modulation</button>
-        <button onclick="switchMetroTab('sysex')" id="tab-sysex" class="text-zinc-400 hover:text-white pb-1 transition">SysEx & Midi Quest 13</button>
+        <button onclick="switchMetroTab('sysex')" id="tab-sysex" class="text-zinc-400 hover:text-white pb-1 transition">SysEx & Studio Integration</button>
       </nav>
     </div>
 
@@ -1040,7 +1040,7 @@
       });
     }
 
-    // SysEx Functions (Midi Quest 13 compatible)
+    // SysEx Functions (OmniPatch Universal Protocol compatible)
     function requestSysExDump() {
       alert("SysEx Request [F0 18 09 00 00 01 F7] dispatched via Web MIDI port.");
     }

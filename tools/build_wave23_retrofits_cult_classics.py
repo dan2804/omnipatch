@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 OmniPatch Wave 23 Builder: Retrofits, Cult Classics, Controllers & Studio Systems
-Adds 46 instruments, retrofits, and processors from the Midi Quest 13 catalog:
+Adds 46 instruments, retrofits, and processors from the hardware synthesizer catalog:
 - Tubbutec: Juno-66, SH-1oh1
 - Vecoven: Super JX 4.x
 - Encore: OB-Xa

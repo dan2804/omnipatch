@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 OmniPatch Wave 21 Builder: Flagships, Advanced FM Vectors, Samplers & Volcas
-Adds 30 high-profile instruments from the Midi Quest 13 catalog:
+Adds 30 high-profile instruments from the hardware synthesizer catalog:
 - Roland: V-Synth GT, SH-32, SH-01A, TR-08, TR-09, TR-06, VP-03, S-760, SRV-2000, U-220, XV-2020
 - Yamaha: TG77, TG500, SY22, SY35, TX7, TX816, TX16W, SPX990, W7
 - Korg: Volca Keys, Volca Bass, Volca Beats, Volca Nubass, SDD-3300, SG-Rack

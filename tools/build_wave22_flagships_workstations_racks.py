@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 OmniPatch Wave 22 Builder: Flagships, Workstations, Samplers & Studio Racks
-Adds 40 high-profile instruments from the Midi Quest 13 catalog:
+Adds 40 high-profile instruments from the hardware synthesizer catalog:
 - Roland: RS-5, RS-9, XP-10, XP-60, XV-88, JV-1000, VK-7, TR-6S, S-550, S-770, U-110, V-Synth XT
 - Yamaha: SY55, TG55, TG100, TG300, YS100, YS200, SPX900, SW1000XG, P-100
 - Korg: Nautilus, OASYS, TR-61, Volca Kick, SG-ProX, T1, T2, A4-Guitar

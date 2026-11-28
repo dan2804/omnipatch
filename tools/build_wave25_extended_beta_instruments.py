@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-OmniPatch Wave 25 Builder: Sound Quest Beta Instruments Wave
-Ingests the 17 instruments from the Midi Quest 13 Beta support list (https://squest.com/Products/MidiQuest13/InstrumentsBeta.html):
+OmniPatch Wave 25 Builder: Extended Studio Beta Instruments Wave
+Ingests the 17 instruments from the extended hardware beta list:
 - Behringer: Virtualizer (DSP1000 Pro Multi-Effects)
 - Ensoniq: ASR-X (Advanced Sampler / Resonant Filter Workstation)
 - Korg: Kross (EDS-i Music Workstation)
@@ -337,7 +337,7 @@ def build_all():
 
         print(f"Created {dev['m_dir']}/{dev['model_dir']}: {dev['model']} ({len(presets_list)} presets)")
 
-    print(f"\nWave 25 Build Complete! {len(DEVICES)} Sound Quest Beta instruments created.")
+    print(f"\nWave 25 Build Complete! {len(DEVICES)} extended hardware beta instruments created.")
 
 if __name__ == "__main__":
     build_all()

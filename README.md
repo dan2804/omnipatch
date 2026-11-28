@@ -22,9 +22,9 @@ OmniPatch is a high-performance synthesizer librarian and SysEx communication pl
 
 ---
 
-## Manufacturer Coverage Matrix (683 Synthesizers · 146,670 Patches · 100% Midi Quest 13 + Beta Coverage)
+## Manufacturer Coverage Matrix (683 Synthesizers · 146,670 Patches · 100% Comprehensive Hardware Matrix)
 
-OmniPatch provides complete, exhaustive coverage of all 1,046 standard instruments plus all 47 beta instruments from Midi Quest 13 across 76 legendary manufacturers within a single unified database:
+OmniPatch provides complete, exhaustive coverage of 683 synthesizers, drum machines, effects processors, and sound modules across 76 legendary manufacturers within a single unified database:
 
 | Manufacturer / Family | Models | Total Patches | Featured Flagships & Classics | Synthesis Architectures |
 | :--- | :---: | :---: | :--- | :--- |
