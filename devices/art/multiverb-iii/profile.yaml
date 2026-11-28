@@ -1,0 +1,19 @@
+manufacturer: Art
+model: Multiverb III
+type: Studio Multi-Effects Processor
+year: 1990
+midi:
+  channels: 16
+  cc_map:
+    mix: 91
+    bypass: 84
+    param1: 16
+sysex:
+  header: F0 1A 02 00
+  device_id_byte: 2
+  commands:
+    request_patch: F0 1A 02 00 01 [patch] F7
+banks:
+- name: Preset Programs
+  type: ROM
+  size: 200

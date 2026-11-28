@@ -1,0 +1,23 @@
+manufacturer: Kawai
+model: K1r
+type: VM Synthesizer Module
+year: 1988
+midi:
+  channels: 16
+  cc_map:
+    volume: 7
+    pan: 10
+    joystick_x: 16
+    joystick_y: 17
+sysex:
+  header: F0 40 00 20 00 02
+  device_id_byte: 2
+  commands:
+    request_patch: F0 40 00 20 00 02 00 [prog] F7
+banks:
+- name: Preset Singles
+  type: ROM
+  size: 64
+- name: Preset Multi
+  type: ROM
+  size: 32

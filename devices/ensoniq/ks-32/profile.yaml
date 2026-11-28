@@ -1,0 +1,20 @@
+manufacturer: Ensoniq
+model: KS-32
+type: Weighted Action Music Workstation
+year: 1992
+midi:
+  channels: 16
+  cc_map:
+    volume: 7
+    pan: 10
+    reverb: 91
+    chorus: 93
+sysex:
+  header: F0 0F 04 00
+  device_id_byte: 2
+  commands:
+    request_sound: F0 0F 04 00 01 [prog] F7
+banks:
+- name: Preset Sounds
+  type: ROM
+  size: 100

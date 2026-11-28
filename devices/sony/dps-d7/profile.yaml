@@ -1,0 +1,20 @@
+manufacturer: Sony
+model: DPS-D7
+type: Digital Delay Unit
+year: 1991
+midi:
+  channels: 16
+  cc_map:
+    delay_time: 16
+    feedback: 17
+    mix: 91
+    bypass: 84
+sysex:
+  header: F0 47 00 00 49
+  device_id_byte: 2
+  commands:
+    request_program: F0 47 00 00 49 01 [prog] F7
+banks:
+- name: Preset Delay Bank
+  type: ROM
+  size: 100

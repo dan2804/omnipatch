@@ -1,0 +1,20 @@
+manufacturer: Sony
+model: DPS-V77
+type: Studio Digital Multi-Effects Processor
+year: 1996
+midi:
+  channels: 16
+  cc_map:
+    mix: 91
+    bypass: 84
+    param1: 16
+    param2: 17
+sysex:
+  header: F0 47 00 00 50
+  device_id_byte: 2
+  commands:
+    request_program: F0 47 00 00 50 01 [prog] F7
+banks:
+- name: Preset Program Bank
+  type: ROM
+  size: 198

@@ -1,0 +1,24 @@
+manufacturer: Kiwitechnics
+model: Kiwi-3P
+type: JX-3P Modern Upgrade Synthesizer
+year: 2013
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    lfo1_rate: 16
+    lfo2_rate: 17
+    dco2_tune: 70
+sysex:
+  header: F0 00 21 16 02
+  device_id_byte: 2
+  commands:
+    request_patch: F0 00 21 16 02 01 [patch] F7
+banks:
+- name: Kiwi-3P Bank A
+  type: RAM
+  size: 128
+- name: Kiwi-3P Bank B
+  type: RAM
+  size: 128

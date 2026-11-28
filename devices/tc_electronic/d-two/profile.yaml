@@ -1,0 +1,20 @@
+manufacturer: Tc Electronic
+model: D-Two
+type: Multitap Rhythm Delay Processor
+year: 1999
+midi:
+  channels: 16
+  cc_map:
+    time: 16
+    feedback: 17
+    mix: 91
+    tap_tempo: 80
+sysex:
+  header: F0 00 20 1F 02
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 20 1F 02 01 [preset] F7
+banks:
+- name: Preset Rhythm Delays
+  type: ROM
+  size: 100

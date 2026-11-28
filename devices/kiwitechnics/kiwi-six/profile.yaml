@@ -1,0 +1,21 @@
+manufacturer: Kiwitechnics
+model: Kiwi-Six
+type: Polysix Modern Upgrade Synthesizer
+year: 2014
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    lfo1_rate: 16
+    lfo2_rate: 17
+    sub_osc: 70
+sysex:
+  header: F0 00 21 16 03
+  device_id_byte: 2
+  commands:
+    request_patch: F0 00 21 16 03 01 [patch] F7
+banks:
+- name: Kiwi-Six Preset Bank
+  type: RAM
+  size: 128

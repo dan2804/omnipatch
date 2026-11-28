@@ -1,0 +1,20 @@
+manufacturer: Kiwitechnics
+model: Kiwi-80
+type: JX-8P Modern Upgrade Synthesizer
+year: 2016
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    lfo1_rate: 16
+    cross_mod: 17
+sysex:
+  header: F0 00 21 16 04
+  device_id_byte: 2
+  commands:
+    request_patch: F0 00 21 16 04 01 [patch] F7
+banks:
+- name: Kiwi-80 Sounds
+  type: RAM
+  size: 128

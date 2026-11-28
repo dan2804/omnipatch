@@ -1,0 +1,31 @@
+manufacturer: Tc Electronic
+model: FireworX
+type: Modular Multi-Effects Processor
+year: 1998
+midi:
+  channels: 16
+  cc_map:
+    mix: 91
+    bypass: 84
+    modifier1: 16
+    modifier2: 17
+    modifier3: 18
+    modifier4: 19
+sysex:
+  header: F0 00 20 1F 01
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 20 1F 01 01 [preset] F7
+banks:
+- name: Factory Bank A
+  type: ROM
+  size: 100
+- name: Factory Bank B
+  type: ROM
+  size: 100
+- name: Factory Bank C
+  type: ROM
+  size: 100
+- name: User Bank
+  type: RAM
+  size: 100

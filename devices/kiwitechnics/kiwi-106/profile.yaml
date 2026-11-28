@@ -1,0 +1,31 @@
+manufacturer: Kiwitechnics
+model: Kiwi-106
+type: Juno-106 Modern Upgrade Synthesizer
+year: 2012
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    lfo1_rate: 16
+    lfo2_rate: 17
+    dco_pwm: 70
+    volume: 7
+sysex:
+  header: F0 00 21 16 01
+  device_id_byte: 2
+  commands:
+    request_patch: F0 00 21 16 01 01 [patch] F7
+banks:
+- name: Kiwi Bank 1
+  type: RAM
+  size: 128
+- name: Kiwi Bank 2
+  type: RAM
+  size: 128
+- name: Kiwi Bank 3
+  type: RAM
+  size: 128
+- name: Kiwi Bank 4
+  type: RAM
+  size: 128

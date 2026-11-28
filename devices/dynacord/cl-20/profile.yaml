@@ -1,0 +1,18 @@
+manufacturer: Dynacord
+model: CL-20
+type: Rotary Speaker Simulator
+year: 1982
+midi:
+  channels: 16
+  cc_map:
+    speed_slow_fast: 16
+    rotor_balance: 17
+sysex:
+  header: F0 27 00 01
+  device_id_byte: 2
+  commands:
+    sync: F8
+banks:
+- name: Rotary Profiles
+  type: ROM
+  size: 64
