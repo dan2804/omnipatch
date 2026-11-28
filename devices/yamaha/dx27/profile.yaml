@@ -1,0 +1,26 @@
+manufacturer: Yamaha
+model: Yamaha DX27
+type: 4-Operator FM Polyphonic Synthesizer
+year: 1985
+midi:
+  channels: 16
+  cc_map:
+    modulation: 1
+    volume: 7
+    data_entry: 6
+    sustain: 64
+sysex:
+  header: F0 43 00 03
+  device_id_byte: 2
+  commands:
+    request_preset: F0 43 20 03 00 00 F7
+banks:
+- name: Preset Bank 1
+  type: ROM
+  size: 96
+- name: Preset Bank 2
+  type: ROM
+  size: 96
+- name: User Bank
+  type: RAM
+  size: 24

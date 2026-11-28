@@ -1,0 +1,20 @@
+manufacturer: Clavia Nord
+model: Clavia Nord Micro Modular
+type: Compact DSP Virtual Modular Synthesizer
+year: 1999
+midi:
+  channels: 16
+  cc_map:
+    knob_1: 16
+    knob_2: 17
+    knob_3: 18
+    morph: 80
+sysex:
+  header: F0 33 00 02
+  device_id_byte: 2
+  commands:
+    request_preset: F0 33 00 02 01 00 F7
+banks:
+- name: Bank 1
+  type: RAM
+  size: 99

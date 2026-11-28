@@ -1,0 +1,32 @@
+manufacturer: Korg
+model: Korg KARMA
+type: Variable Performance Algorithmic Workstation (HI Synthesis)
+year: 2001
+midi:
+  channels: 16
+  cc_map:
+    cutoff: 74
+    resonance: 71
+    karma_scene: 80
+    karma_slider1: 81
+sysex:
+  header: F0 42 30 5E
+  device_id_byte: 2
+  commands:
+    request_preset: F0 42 30 5E 10 F7
+banks:
+- name: Program Bank A
+  type: RAM
+  size: 128
+- name: Program Bank B
+  type: RAM
+  size: 128
+- name: Program Bank C
+  type: RAM
+  size: 128
+- name: Program Bank D
+  type: RAM
+  size: 128
+- name: Program Bank E
+  type: RAM
+  size: 128

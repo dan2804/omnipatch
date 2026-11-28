@@ -1,0 +1,602 @@
+[
+  {
+    "number": 1,
+    "name": "MS800 Tone Memories 01",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 00 00 7F F7"
+  },
+  {
+    "number": 2,
+    "name": "MS800 Tone Memories 02",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 01 00 7F F7"
+  },
+  {
+    "number": 3,
+    "name": "MS800 Tone Memories 03",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 02 00 7F F7"
+  },
+  {
+    "number": 4,
+    "name": "MS800 Tone Memories 04",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 03 00 7F F7"
+  },
+  {
+    "number": 5,
+    "name": "MS800 Tone Memories 05",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 04 00 7F F7"
+  },
+  {
+    "number": 6,
+    "name": "MS800 Tone Memories 06",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 05 00 7F F7"
+  },
+  {
+    "number": 7,
+    "name": "MS800 Tone Memories 07",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 06 00 7F F7"
+  },
+  {
+    "number": 8,
+    "name": "MS800 Tone Memories 08",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 07 00 7F F7"
+  },
+  {
+    "number": 9,
+    "name": "MS800 Tone Memories 09",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 08 00 7F F7"
+  },
+  {
+    "number": 10,
+    "name": "MS800 Tone Memories 10",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 09 00 7F F7"
+  },
+  {
+    "number": 11,
+    "name": "MS800 Tone Memories 11",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 0A 00 7F F7"
+  },
+  {
+    "number": 12,
+    "name": "MS800 Tone Memories 12",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 0B 00 7F F7"
+  },
+  {
+    "number": 13,
+    "name": "MS800 Tone Memories 13",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 0C 00 7F F7"
+  },
+  {
+    "number": 14,
+    "name": "MS800 Tone Memories 14",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 0D 00 7F F7"
+  },
+  {
+    "number": 15,
+    "name": "MS800 Tone Memories 15",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 0E 00 7F F7"
+  },
+  {
+    "number": 16,
+    "name": "MS800 Tone Memories 16",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 0F 00 7F F7"
+  },
+  {
+    "number": 17,
+    "name": "MS800 Tone Memories 17",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 10 00 7F F7"
+  },
+  {
+    "number": 18,
+    "name": "MS800 Tone Memories 18",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 11 00 7F F7"
+  },
+  {
+    "number": 19,
+    "name": "MS800 Tone Memories 19",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 12 00 7F F7"
+  },
+  {
+    "number": 20,
+    "name": "MS800 Tone Memories 20",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 13 00 7F F7"
+  },
+  {
+    "number": 21,
+    "name": "MS800 Tone Memories 21",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 14 00 7F F7"
+  },
+  {
+    "number": 22,
+    "name": "MS800 Tone Memories 22",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 15 00 7F F7"
+  },
+  {
+    "number": 23,
+    "name": "MS800 Tone Memories 23",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 16 00 7F F7"
+  },
+  {
+    "number": 24,
+    "name": "MS800 Tone Memories 24",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 17 00 7F F7"
+  },
+  {
+    "number": 25,
+    "name": "MS800 Tone Memories 25",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 18 00 7F F7"
+  },
+  {
+    "number": 26,
+    "name": "MS800 Tone Memories 26",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 19 00 7F F7"
+  },
+  {
+    "number": 27,
+    "name": "MS800 Tone Memories 27",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 1A 00 7F F7"
+  },
+  {
+    "number": 28,
+    "name": "MS800 Tone Memories 28",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 1B 00 7F F7"
+  },
+  {
+    "number": 29,
+    "name": "MS800 Tone Memories 29",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 1C 00 7F F7"
+  },
+  {
+    "number": 30,
+    "name": "MS800 Tone Memories 30",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 1D 00 7F F7"
+  },
+  {
+    "number": 31,
+    "name": "MS800 Tone Memories 31",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 1E 00 7F F7"
+  },
+  {
+    "number": 32,
+    "name": "MS800 Tone Memories 32",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 1F 00 7F F7"
+  },
+  {
+    "number": 33,
+    "name": "MS800 Tone Memories 33",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 20 00 7F F7"
+  },
+  {
+    "number": 34,
+    "name": "MS800 Tone Memories 34",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 21 00 7F F7"
+  },
+  {
+    "number": 35,
+    "name": "MS800 Tone Memories 35",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 22 00 7F F7"
+  },
+  {
+    "number": 36,
+    "name": "MS800 Tone Memories 36",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 23 00 7F F7"
+  },
+  {
+    "number": 37,
+    "name": "MS800 Tone Memories 37",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 24 00 7F F7"
+  },
+  {
+    "number": 38,
+    "name": "MS800 Tone Memories 38",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 25 00 7F F7"
+  },
+  {
+    "number": 39,
+    "name": "MS800 Tone Memories 39",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 26 00 7F F7"
+  },
+  {
+    "number": 40,
+    "name": "MS800 Tone Memories 40",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 27 00 7F F7"
+  },
+  {
+    "number": 41,
+    "name": "MS800 Tone Memories 41",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 28 00 7F F7"
+  },
+  {
+    "number": 42,
+    "name": "MS800 Tone Memories 42",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 29 00 7F F7"
+  },
+  {
+    "number": 43,
+    "name": "MS800 Tone Memories 43",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 2A 00 7F F7"
+  },
+  {
+    "number": 44,
+    "name": "MS800 Tone Memories 44",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 2B 00 7F F7"
+  },
+  {
+    "number": 45,
+    "name": "MS800 Tone Memories 45",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 2C 00 7F F7"
+  },
+  {
+    "number": 46,
+    "name": "MS800 Tone Memories 46",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 2D 00 7F F7"
+  },
+  {
+    "number": 47,
+    "name": "MS800 Tone Memories 47",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 2E 00 7F F7"
+  },
+  {
+    "number": 48,
+    "name": "MS800 Tone Memories 48",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 2F 00 7F F7"
+  },
+  {
+    "number": 49,
+    "name": "MS800 Tone Memories 49",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 30 00 7F F7"
+  },
+  {
+    "number": 50,
+    "name": "MS800 Tone Memories 50",
+    "bank": "Tone Memories",
+    "category": "16-Bit British Wavetable Synthesizer Tones",
+    "tags": [
+      "cheetah",
+      "ms800",
+      "16-bit british wavetable synthesizer tones"
+    ],
+    "sysex_dump": "F0 23 00 00 31 00 7F F7"
+  }
+]

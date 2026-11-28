@@ -1,0 +1,770 @@
+[
+  {
+    "number": 1,
+    "name": "SH-201 Bank 01",
+    "bank": "Preset Bank",
+    "category": "Factory Supersaw, Feedback & VA Leads",
+    "tags": [
+      "roland",
+      "sh 201",
+      "factory supersaw, feedback & va leads"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 00 00 7F F7"
+  },
+  {
+    "number": 2,
+    "name": "SH-201 Bank 02",
+    "bank": "Preset Bank",
+    "category": "Factory Supersaw, Feedback & VA Leads",
+    "tags": [
+      "roland",
+      "sh 201",
+      "factory supersaw, feedback & va leads"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 01 00 7F F7"
+  },
+  {
+    "number": 3,
+    "name": "SH-201 Bank 03",
+    "bank": "Preset Bank",
+    "category": "Factory Supersaw, Feedback & VA Leads",
+    "tags": [
+      "roland",
+      "sh 201",
+      "factory supersaw, feedback & va leads"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 02 00 7F F7"
+  },
+  {
+    "number": 4,
+    "name": "SH-201 Bank 04",
+    "bank": "Preset Bank",
+    "category": "Factory Supersaw, Feedback & VA Leads",
+    "tags": [
+      "roland",
+      "sh 201",
+      "factory supersaw, feedback & va leads"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 03 00 7F F7"
+  },
+  {
+    "number": 5,
+    "name": "SH-201 Bank 05",
+    "bank": "Preset Bank",
+    "category": "Factory Supersaw, Feedback & VA Leads",
+    "tags": [
+      "roland",
+      "sh 201",
+      "factory supersaw, feedback & va leads"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 04 00 7F F7"
+  },
+  {
+    "number": 6,
+    "name": "SH-201 Bank 06",
+    "bank": "Preset Bank",
+    "category": "Factory Supersaw, Feedback & VA Leads",
+    "tags": [
+      "roland",
+      "sh 201",
+      "factory supersaw, feedback & va leads"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 05 00 7F F7"
+  },
+  {
+    "number": 7,
+    "name": "SH-201 Bank 07",
+    "bank": "Preset Bank",
+    "category": "Factory Supersaw, Feedback & VA Leads",
+    "tags": [
+      "roland",
+      "sh 201",
+      "factory supersaw, feedback & va leads"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 06 00 7F F7"
+  },
+  {
+    "number": 8,
+    "name": "SH-201 Bank 08",
+    "bank": "Preset Bank",
+    "category": "Factory Supersaw, Feedback & VA Leads",
+    "tags": [
+      "roland",
+      "sh 201",
+      "factory supersaw, feedback & va leads"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 07 00 7F F7"
+  },
+  {
+    "number": 9,
+    "name": "SH-201 Bank 09",
+    "bank": "Preset Bank",
+    "category": "Factory Supersaw, Feedback & VA Leads",
+    "tags": [
+      "roland",
+      "sh 201",
+      "factory supersaw, feedback & va leads"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 08 00 7F F7"
+  },
+  {
+    "number": 10,
+    "name": "SH-201 Bank 10",
+    "bank": "Preset Bank",
+    "category": "Factory Supersaw, Feedback & VA Leads",
+    "tags": [
+      "roland",
+      "sh 201",
+      "factory supersaw, feedback & va leads"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 09 00 7F F7"
+  },
+  {
+    "number": 11,
+    "name": "SH-201 Bank 11",
+    "bank": "Preset Bank",
+    "category": "Factory Supersaw, Feedback & VA Leads",
+    "tags": [
+      "roland",
+      "sh 201",
+      "factory supersaw, feedback & va leads"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 0A 00 7F F7"
+  },
+  {
+    "number": 12,
+    "name": "SH-201 Bank 12",
+    "bank": "Preset Bank",
+    "category": "Factory Supersaw, Feedback & VA Leads",
+    "tags": [
+      "roland",
+      "sh 201",
+      "factory supersaw, feedback & va leads"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 0B 00 7F F7"
+  },
+  {
+    "number": 13,
+    "name": "SH-201 Bank 13",
+    "bank": "Preset Bank",
+    "category": "Factory Supersaw, Feedback & VA Leads",
+    "tags": [
+      "roland",
+      "sh 201",
+      "factory supersaw, feedback & va leads"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 0C 00 7F F7"
+  },
+  {
+    "number": 14,
+    "name": "SH-201 Bank 14",
+    "bank": "Preset Bank",
+    "category": "Factory Supersaw, Feedback & VA Leads",
+    "tags": [
+      "roland",
+      "sh 201",
+      "factory supersaw, feedback & va leads"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 0D 00 7F F7"
+  },
+  {
+    "number": 15,
+    "name": "SH-201 Bank 15",
+    "bank": "Preset Bank",
+    "category": "Factory Supersaw, Feedback & VA Leads",
+    "tags": [
+      "roland",
+      "sh 201",
+      "factory supersaw, feedback & va leads"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 0E 00 7F F7"
+  },
+  {
+    "number": 16,
+    "name": "SH-201 Bank 16",
+    "bank": "Preset Bank",
+    "category": "Factory Supersaw, Feedback & VA Leads",
+    "tags": [
+      "roland",
+      "sh 201",
+      "factory supersaw, feedback & va leads"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 0F 00 7F F7"
+  },
+  {
+    "number": 17,
+    "name": "SH-201 Bank 17",
+    "bank": "Preset Bank",
+    "category": "Factory Supersaw, Feedback & VA Leads",
+    "tags": [
+      "roland",
+      "sh 201",
+      "factory supersaw, feedback & va leads"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 10 00 7F F7"
+  },
+  {
+    "number": 18,
+    "name": "SH-201 Bank 18",
+    "bank": "Preset Bank",
+    "category": "Factory Supersaw, Feedback & VA Leads",
+    "tags": [
+      "roland",
+      "sh 201",
+      "factory supersaw, feedback & va leads"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 11 00 7F F7"
+  },
+  {
+    "number": 19,
+    "name": "SH-201 Bank 19",
+    "bank": "Preset Bank",
+    "category": "Factory Supersaw, Feedback & VA Leads",
+    "tags": [
+      "roland",
+      "sh 201",
+      "factory supersaw, feedback & va leads"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 12 00 7F F7"
+  },
+  {
+    "number": 20,
+    "name": "SH-201 Bank 20",
+    "bank": "Preset Bank",
+    "category": "Factory Supersaw, Feedback & VA Leads",
+    "tags": [
+      "roland",
+      "sh 201",
+      "factory supersaw, feedback & va leads"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 13 00 7F F7"
+  },
+  {
+    "number": 21,
+    "name": "SH-201 Bank 21",
+    "bank": "Preset Bank",
+    "category": "Factory Supersaw, Feedback & VA Leads",
+    "tags": [
+      "roland",
+      "sh 201",
+      "factory supersaw, feedback & va leads"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 14 00 7F F7"
+  },
+  {
+    "number": 22,
+    "name": "SH-201 Bank 22",
+    "bank": "Preset Bank",
+    "category": "Factory Supersaw, Feedback & VA Leads",
+    "tags": [
+      "roland",
+      "sh 201",
+      "factory supersaw, feedback & va leads"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 15 00 7F F7"
+  },
+  {
+    "number": 23,
+    "name": "SH-201 Bank 23",
+    "bank": "Preset Bank",
+    "category": "Factory Supersaw, Feedback & VA Leads",
+    "tags": [
+      "roland",
+      "sh 201",
+      "factory supersaw, feedback & va leads"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 16 00 7F F7"
+  },
+  {
+    "number": 24,
+    "name": "SH-201 Bank 24",
+    "bank": "Preset Bank",
+    "category": "Factory Supersaw, Feedback & VA Leads",
+    "tags": [
+      "roland",
+      "sh 201",
+      "factory supersaw, feedback & va leads"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 17 00 7F F7"
+  },
+  {
+    "number": 25,
+    "name": "SH-201 Bank 25",
+    "bank": "Preset Bank",
+    "category": "Factory Supersaw, Feedback & VA Leads",
+    "tags": [
+      "roland",
+      "sh 201",
+      "factory supersaw, feedback & va leads"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 18 00 7F F7"
+  },
+  {
+    "number": 26,
+    "name": "SH-201 Bank 26",
+    "bank": "Preset Bank",
+    "category": "Factory Supersaw, Feedback & VA Leads",
+    "tags": [
+      "roland",
+      "sh 201",
+      "factory supersaw, feedback & va leads"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 19 00 7F F7"
+  },
+  {
+    "number": 27,
+    "name": "SH-201 Bank 27",
+    "bank": "Preset Bank",
+    "category": "Factory Supersaw, Feedback & VA Leads",
+    "tags": [
+      "roland",
+      "sh 201",
+      "factory supersaw, feedback & va leads"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 1A 00 7F F7"
+  },
+  {
+    "number": 28,
+    "name": "SH-201 Bank 28",
+    "bank": "Preset Bank",
+    "category": "Factory Supersaw, Feedback & VA Leads",
+    "tags": [
+      "roland",
+      "sh 201",
+      "factory supersaw, feedback & va leads"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 1B 00 7F F7"
+  },
+  {
+    "number": 29,
+    "name": "SH-201 Bank 29",
+    "bank": "Preset Bank",
+    "category": "Factory Supersaw, Feedback & VA Leads",
+    "tags": [
+      "roland",
+      "sh 201",
+      "factory supersaw, feedback & va leads"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 1C 00 7F F7"
+  },
+  {
+    "number": 30,
+    "name": "SH-201 Bank 30",
+    "bank": "Preset Bank",
+    "category": "Factory Supersaw, Feedback & VA Leads",
+    "tags": [
+      "roland",
+      "sh 201",
+      "factory supersaw, feedback & va leads"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 1D 00 7F F7"
+  },
+  {
+    "number": 31,
+    "name": "SH-201 Bank 31",
+    "bank": "Preset Bank",
+    "category": "Factory Supersaw, Feedback & VA Leads",
+    "tags": [
+      "roland",
+      "sh 201",
+      "factory supersaw, feedback & va leads"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 1E 00 7F F7"
+  },
+  {
+    "number": 32,
+    "name": "SH-201 Bank 32",
+    "bank": "Preset Bank",
+    "category": "Factory Supersaw, Feedback & VA Leads",
+    "tags": [
+      "roland",
+      "sh 201",
+      "factory supersaw, feedback & va leads"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 1F 00 7F F7"
+  },
+  {
+    "number": 33,
+    "name": "SH-201 User Bank 01",
+    "bank": "User Bank",
+    "category": "User Overwritable Performance Patches",
+    "tags": [
+      "roland",
+      "sh 201",
+      "user overwritable performance patches"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 00 00 7F F7"
+  },
+  {
+    "number": 34,
+    "name": "SH-201 User Bank 02",
+    "bank": "User Bank",
+    "category": "User Overwritable Performance Patches",
+    "tags": [
+      "roland",
+      "sh 201",
+      "user overwritable performance patches"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 01 00 7F F7"
+  },
+  {
+    "number": 35,
+    "name": "SH-201 User Bank 03",
+    "bank": "User Bank",
+    "category": "User Overwritable Performance Patches",
+    "tags": [
+      "roland",
+      "sh 201",
+      "user overwritable performance patches"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 02 00 7F F7"
+  },
+  {
+    "number": 36,
+    "name": "SH-201 User Bank 04",
+    "bank": "User Bank",
+    "category": "User Overwritable Performance Patches",
+    "tags": [
+      "roland",
+      "sh 201",
+      "user overwritable performance patches"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 03 00 7F F7"
+  },
+  {
+    "number": 37,
+    "name": "SH-201 User Bank 05",
+    "bank": "User Bank",
+    "category": "User Overwritable Performance Patches",
+    "tags": [
+      "roland",
+      "sh 201",
+      "user overwritable performance patches"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 04 00 7F F7"
+  },
+  {
+    "number": 38,
+    "name": "SH-201 User Bank 06",
+    "bank": "User Bank",
+    "category": "User Overwritable Performance Patches",
+    "tags": [
+      "roland",
+      "sh 201",
+      "user overwritable performance patches"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 05 00 7F F7"
+  },
+  {
+    "number": 39,
+    "name": "SH-201 User Bank 07",
+    "bank": "User Bank",
+    "category": "User Overwritable Performance Patches",
+    "tags": [
+      "roland",
+      "sh 201",
+      "user overwritable performance patches"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 06 00 7F F7"
+  },
+  {
+    "number": 40,
+    "name": "SH-201 User Bank 08",
+    "bank": "User Bank",
+    "category": "User Overwritable Performance Patches",
+    "tags": [
+      "roland",
+      "sh 201",
+      "user overwritable performance patches"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 07 00 7F F7"
+  },
+  {
+    "number": 41,
+    "name": "SH-201 User Bank 09",
+    "bank": "User Bank",
+    "category": "User Overwritable Performance Patches",
+    "tags": [
+      "roland",
+      "sh 201",
+      "user overwritable performance patches"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 08 00 7F F7"
+  },
+  {
+    "number": 42,
+    "name": "SH-201 User Bank 10",
+    "bank": "User Bank",
+    "category": "User Overwritable Performance Patches",
+    "tags": [
+      "roland",
+      "sh 201",
+      "user overwritable performance patches"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 09 00 7F F7"
+  },
+  {
+    "number": 43,
+    "name": "SH-201 User Bank 11",
+    "bank": "User Bank",
+    "category": "User Overwritable Performance Patches",
+    "tags": [
+      "roland",
+      "sh 201",
+      "user overwritable performance patches"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 0A 00 7F F7"
+  },
+  {
+    "number": 44,
+    "name": "SH-201 User Bank 12",
+    "bank": "User Bank",
+    "category": "User Overwritable Performance Patches",
+    "tags": [
+      "roland",
+      "sh 201",
+      "user overwritable performance patches"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 0B 00 7F F7"
+  },
+  {
+    "number": 45,
+    "name": "SH-201 User Bank 13",
+    "bank": "User Bank",
+    "category": "User Overwritable Performance Patches",
+    "tags": [
+      "roland",
+      "sh 201",
+      "user overwritable performance patches"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 0C 00 7F F7"
+  },
+  {
+    "number": 46,
+    "name": "SH-201 User Bank 14",
+    "bank": "User Bank",
+    "category": "User Overwritable Performance Patches",
+    "tags": [
+      "roland",
+      "sh 201",
+      "user overwritable performance patches"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 0D 00 7F F7"
+  },
+  {
+    "number": 47,
+    "name": "SH-201 User Bank 15",
+    "bank": "User Bank",
+    "category": "User Overwritable Performance Patches",
+    "tags": [
+      "roland",
+      "sh 201",
+      "user overwritable performance patches"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 0E 00 7F F7"
+  },
+  {
+    "number": 48,
+    "name": "SH-201 User Bank 16",
+    "bank": "User Bank",
+    "category": "User Overwritable Performance Patches",
+    "tags": [
+      "roland",
+      "sh 201",
+      "user overwritable performance patches"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 0F 00 7F F7"
+  },
+  {
+    "number": 49,
+    "name": "SH-201 User Bank 17",
+    "bank": "User Bank",
+    "category": "User Overwritable Performance Patches",
+    "tags": [
+      "roland",
+      "sh 201",
+      "user overwritable performance patches"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 10 00 7F F7"
+  },
+  {
+    "number": 50,
+    "name": "SH-201 User Bank 18",
+    "bank": "User Bank",
+    "category": "User Overwritable Performance Patches",
+    "tags": [
+      "roland",
+      "sh 201",
+      "user overwritable performance patches"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 11 00 7F F7"
+  },
+  {
+    "number": 51,
+    "name": "SH-201 User Bank 19",
+    "bank": "User Bank",
+    "category": "User Overwritable Performance Patches",
+    "tags": [
+      "roland",
+      "sh 201",
+      "user overwritable performance patches"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 12 00 7F F7"
+  },
+  {
+    "number": 52,
+    "name": "SH-201 User Bank 20",
+    "bank": "User Bank",
+    "category": "User Overwritable Performance Patches",
+    "tags": [
+      "roland",
+      "sh 201",
+      "user overwritable performance patches"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 13 00 7F F7"
+  },
+  {
+    "number": 53,
+    "name": "SH-201 User Bank 21",
+    "bank": "User Bank",
+    "category": "User Overwritable Performance Patches",
+    "tags": [
+      "roland",
+      "sh 201",
+      "user overwritable performance patches"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 14 00 7F F7"
+  },
+  {
+    "number": 54,
+    "name": "SH-201 User Bank 22",
+    "bank": "User Bank",
+    "category": "User Overwritable Performance Patches",
+    "tags": [
+      "roland",
+      "sh 201",
+      "user overwritable performance patches"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 15 00 7F F7"
+  },
+  {
+    "number": 55,
+    "name": "SH-201 User Bank 23",
+    "bank": "User Bank",
+    "category": "User Overwritable Performance Patches",
+    "tags": [
+      "roland",
+      "sh 201",
+      "user overwritable performance patches"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 16 00 7F F7"
+  },
+  {
+    "number": 56,
+    "name": "SH-201 User Bank 24",
+    "bank": "User Bank",
+    "category": "User Overwritable Performance Patches",
+    "tags": [
+      "roland",
+      "sh 201",
+      "user overwritable performance patches"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 17 00 7F F7"
+  },
+  {
+    "number": 57,
+    "name": "SH-201 User Bank 25",
+    "bank": "User Bank",
+    "category": "User Overwritable Performance Patches",
+    "tags": [
+      "roland",
+      "sh 201",
+      "user overwritable performance patches"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 18 00 7F F7"
+  },
+  {
+    "number": 58,
+    "name": "SH-201 User Bank 26",
+    "bank": "User Bank",
+    "category": "User Overwritable Performance Patches",
+    "tags": [
+      "roland",
+      "sh 201",
+      "user overwritable performance patches"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 19 00 7F F7"
+  },
+  {
+    "number": 59,
+    "name": "SH-201 User Bank 27",
+    "bank": "User Bank",
+    "category": "User Overwritable Performance Patches",
+    "tags": [
+      "roland",
+      "sh 201",
+      "user overwritable performance patches"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 1A 00 7F F7"
+  },
+  {
+    "number": 60,
+    "name": "SH-201 User Bank 28",
+    "bank": "User Bank",
+    "category": "User Overwritable Performance Patches",
+    "tags": [
+      "roland",
+      "sh 201",
+      "user overwritable performance patches"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 1B 00 7F F7"
+  },
+  {
+    "number": 61,
+    "name": "SH-201 User Bank 29",
+    "bank": "User Bank",
+    "category": "User Overwritable Performance Patches",
+    "tags": [
+      "roland",
+      "sh 201",
+      "user overwritable performance patches"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 1C 00 7F F7"
+  },
+  {
+    "number": 62,
+    "name": "SH-201 User Bank 30",
+    "bank": "User Bank",
+    "category": "User Overwritable Performance Patches",
+    "tags": [
+      "roland",
+      "sh 201",
+      "user overwritable performance patches"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 1D 00 7F F7"
+  },
+  {
+    "number": 63,
+    "name": "SH-201 User Bank 31",
+    "bank": "User Bank",
+    "category": "User Overwritable Performance Patches",
+    "tags": [
+      "roland",
+      "sh 201",
+      "user overwritable performance patches"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 1E 00 7F F7"
+  },
+  {
+    "number": 64,
+    "name": "SH-201 User Bank 32",
+    "bank": "User Bank",
+    "category": "User Overwritable Performance Patches",
+    "tags": [
+      "roland",
+      "sh 201",
+      "user overwritable performance patches"
+    ],
+    "sysex_dump": "F0 41 10 00 00 1E 00 1F 00 7F F7"
+  }
+]

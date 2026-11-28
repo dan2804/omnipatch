@@ -1,0 +1,23 @@
+manufacturer: Creamware
+model: Creamware Minimax ASB
+type: Authentic Sound Box Minimoog DSP Synthesizer
+year: 2005
+midi:
+  channels: 16
+  cc_map:
+    cutoff: 74
+    resonance: 71
+    filter_attack: 73
+    overload: 84
+sysex:
+  header: F0 00 20 48
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 20 48 01 00 F7
+banks:
+- name: ROM Presets
+  type: ROM
+  size: 128
+- name: RAM Presets
+  type: ROM
+  size: 128

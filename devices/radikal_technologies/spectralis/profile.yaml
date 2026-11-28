@@ -1,0 +1,23 @@
+manufacturer: Radikal Technologies
+model: Radikal Technologies Spectralis
+type: Hybrid Analog / DSP Groove Synthesizer
+year: 2004
+midi:
+  channels: 16
+  cc_map:
+    filterbank_band1: 16
+    filterbank_band2: 17
+    cutoff: 74
+    resonance: 71
+sysex:
+  header: F0 00 20 54
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 20 54 01 00 F7
+banks:
+- name: Synth Quicksounds
+  type: RAM
+  size: 128
+- name: Filterbank Sequences
+  type: RAM
+  size: 64

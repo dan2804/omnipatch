@@ -1,0 +1,29 @@
+manufacturer: MidiBox
+model: MidiBox SammichSID
+type: Dual-SID 6581/8580 Chiptune Hardware Synthesizer
+year: 2010
+midi:
+  channels: 16
+  cc_map:
+    cutoff: 74
+    resonance: 71
+    ring_mod: 82
+    sync: 80
+sysex:
+  header: F0 00 00 7E
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 00 7E 01 00 F7
+banks:
+- name: Bank 1
+  type: RAM
+  size: 128
+- name: Bank 2
+  type: RAM
+  size: 128
+- name: Bank 3
+  type: RAM
+  size: 128
+- name: Bank 4
+  type: RAM
+  size: 128

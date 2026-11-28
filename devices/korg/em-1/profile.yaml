@@ -1,0 +1,29 @@
+manufacturer: Korg
+model: Korg ElecTribe M (EM-1)
+type: Music Production Station (2 Synth + 8 Drum Parts)
+year: 2001
+midi:
+  channels: 16
+  cc_map:
+    cutoff: 74
+    resonance: 71
+    synth1_pitch: 16
+    synth2_pitch: 17
+sysex:
+  header: F0 42 30 55
+  device_id_byte: 2
+  commands:
+    request_preset: F0 42 30 55 10 F7
+banks:
+- name: Pattern Bank A
+  type: RAM
+  size: 64
+- name: Pattern Bank B
+  type: RAM
+  size: 64
+- name: Pattern Bank C
+  type: RAM
+  size: 64
+- name: Pattern Bank D
+  type: RAM
+  size: 64

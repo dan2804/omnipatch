@@ -1,0 +1,21 @@
+manufacturer: Moog Music
+model: Moog Slim Phatty
+type: Discrete Analog Monophonic Synthesizer Module
+year: 2011
+midi:
+  channels: 16
+  cc_map:
+    cutoff: 19
+    resonance: 21
+    filter_eg: 22
+    overload: 85
+    glide: 5
+sysex:
+  header: F0 04 05
+  device_id_byte: 2
+  commands:
+    request_preset: F0 04 05 01 00 F7
+banks:
+- name: Factory Preset Bank
+  type: ROM
+  size: 100

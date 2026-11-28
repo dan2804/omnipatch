@@ -1,0 +1,20 @@
+manufacturer: Kurzweil
+model: Kurzweil K150
+type: Additive Fourier Synthesis Audio Expander
+year: 1986
+midi:
+  channels: 16
+  cc_map:
+    volume: 7
+    pan: 10
+    harmonics_tilt: 16
+    sustain: 64
+sysex:
+  header: F0 07 00 01
+  device_id_byte: 2
+  commands:
+    request_preset: F0 07 00 01 01 00 F7
+banks:
+- name: Fourier Synthesis Bank
+  type: RAM
+  size: 186

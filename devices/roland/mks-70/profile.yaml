@@ -1,0 +1,29 @@
+manufacturer: Roland
+model: Roland MKS-70 Super JX
+type: 12-Voice Dual-DCO Analog Synthesizer Module
+year: 1986
+midi:
+  channels: 16
+  cc_map:
+    cutoff: 74
+    resonance: 71
+    chorus: 93
+    volume: 7
+sysex:
+  header: F0 41 36 00
+  device_id_byte: 2
+  commands:
+    request_preset: F0 41 36 00 24 20 01 F7
+banks:
+- name: Internal Memory Tone A
+  type: RAM
+  size: 50
+- name: Internal Memory Tone B
+  type: RAM
+  size: 50
+- name: Cartridge Memory Tone A
+  type: RAM
+  size: 50
+- name: Cartridge Memory Tone B
+  type: RAM
+  size: 50

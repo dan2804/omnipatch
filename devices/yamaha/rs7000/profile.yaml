@@ -1,0 +1,27 @@
+manufacturer: Yamaha
+model: Yamaha RS7000
+type: Integrated Music Production Workstation (AWM2 Engine)
+year: 2001
+midi:
+  channels: 16
+  cc_map:
+    cutoff: 74
+    resonance: 71
+    reverb: 91
+    variation: 94
+    lfo_speed: 76
+sysex:
+  header: F0 43 10 65
+  device_id_byte: 2
+  commands:
+    request_preset: F0 43 10 65 00 00 F7
+banks:
+- name: Preset Voices
+  type: ROM
+  size: 512
+- name: User Voices
+  type: RAM
+  size: 256
+- name: Drum Kits
+  type: RAM
+  size: 63

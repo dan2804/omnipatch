@@ -1,0 +1,30 @@
+manufacturer: Korg
+model: Korg ElecTribe MX (EMX-1)
+type: Valve Multi-Modeling Technology (MMT) Groove Synthesizer
+year: 2003
+midi:
+  channels: 16
+  cc_map:
+    cutoff: 74
+    resonance: 71
+    tube_gain: 85
+    glide: 5
+    mod_depth: 76
+sysex:
+  header: F0 42 30 63
+  device_id_byte: 2
+  commands:
+    request_preset: F0 42 30 63 10 F7
+banks:
+- name: Pattern Bank A
+  type: RAM
+  size: 64
+- name: Pattern Bank B
+  type: RAM
+  size: 64
+- name: Pattern Bank C
+  type: RAM
+  size: 64
+- name: Pattern Bank D
+  type: RAM
+  size: 64

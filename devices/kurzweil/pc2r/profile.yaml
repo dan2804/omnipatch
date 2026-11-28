@@ -1,0 +1,26 @@
+manufacturer: Kurzweil
+model: Kurzweil PC2R
+type: Performance Controller Sound Module
+year: 2000
+midi:
+  channels: 16
+  cc_map:
+    volume: 7
+    pan: 10
+    kdfx_reverb: 91
+    kdfx_chorus: 93
+sysex:
+  header: F0 07 00 02
+  device_id_byte: 2
+  commands:
+    request_preset: F0 07 00 02 01 00 F7
+banks:
+- name: Regular Programs
+  type: RAM
+  size: 256
+- name: Orchestral ROM
+  type: ROM
+  size: 128
+- name: User Programs
+  type: RAM
+  size: 128

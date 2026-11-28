@@ -1,0 +1,30 @@
+manufacturer: Yamaha
+model: Yamaha S30
+type: 64-Voice AWM2 Modular Synthesis Plug-in System Synthesizer
+year: 2000
+midi:
+  channels: 16
+  cc_map:
+    cutoff: 74
+    resonance: 71
+    reverb: 91
+    chorus: 93
+    assign_1: 16
+sysex:
+  header: F0 43 10 5B
+  device_id_byte: 2
+  commands:
+    request_preset: F0 43 10 5B 00 00 F7
+banks:
+- name: Preset Bank 1
+  type: ROM
+  size: 128
+- name: Preset Bank 2
+  type: ROM
+  size: 128
+- name: Internal User Bank
+  type: RAM
+  size: 128
+- name: Drum Kits
+  type: RAM
+  size: 8

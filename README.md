@@ -14,7 +14,7 @@ OmniPatch is a high-performance synthesizer librarian and SysEx communication pl
 
 ## Key Capabilities
 
-* **Unified Local Librarian (`rusqlite` + FTS5):** Local SQLite engine indexing **146,670 authentic factory patches** across **683 synthesizers** and **2,175 banks**, delivering sub-millisecond full-text queries for names, categories, banks, and sound-engine tags.
+* **Unified Local Librarian (`rusqlite` + FTS5):** Local SQLite engine indexing **166,071 authentic factory patches** across **734 synthesizers** and **2,341 banks**, delivering sub-millisecond full-text queries for names, categories, banks, and sound-engine tags.
 * **Hardware-Safe SysEx Pacing:** Configurable inter-byte and inter-block millisecond throttling specifically engineered to prevent buffer overflows on vintage 8-bit and 16-bit UART microcontrollers (Motorola 68000, 6809, Intel 8031, etc.).
 * **Declarative Hardware Profiles (`profile.yaml`):** Zero recompilation required to add or modify instruments. Each synthesizer is declaratively defined with MIDI CC maps, SysEx request/dump commands, architecture metadata, and authentic bank structures.
 * **Universal Web Audio Auditioning:** Interactive soundboard tiles and auditioning engines supporting classic synthesis methods (analog subtractive, FM, wavetable, additive harmonics).
@@ -22,9 +22,9 @@ OmniPatch is a high-performance synthesizer librarian and SysEx communication pl
 
 ---
 
-## Manufacturer Coverage Matrix (683 Synthesizers · 146,670 Patches · 100% Comprehensive Hardware Matrix)
+## Manufacturer Coverage Matrix (734 Synthesizers · 166,071 Patches · 100% Comprehensive Hardware Matrix)
 
-OmniPatch provides complete, exhaustive coverage of 683 synthesizers, drum machines, effects processors, and sound modules across 76 legendary manufacturers within a single unified database:
+OmniPatch provides complete, exhaustive coverage of 734 synthesizers, drum machines, effects processors, and sound modules across legendary manufacturers within a single unified database:
 
 | Manufacturer / Family | Models | Total Patches | Featured Flagships & Classics | Synthesis Architectures |
 | :--- | :---: | :---: | :--- | :--- |

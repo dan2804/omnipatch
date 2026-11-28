@@ -1,0 +1,23 @@
+manufacturer: Elka
+model: Elka Synthex
+type: 8-Voice Curtis Analog Polyphonic Synthesizer
+year: 1981
+midi:
+  channels: 16
+  cc_map:
+    cutoff: 74
+    resonance: 71
+    chorus: 93
+    ring_mod: 82
+sysex:
+  header: F0 2F 00
+  device_id_byte: 2
+  commands:
+    request_preset: F0 2F 00 01 00 F7
+banks:
+- name: Preset Bank
+  type: ROM
+  size: 40
+- name: User Bank
+  type: RAM
+  size: 40

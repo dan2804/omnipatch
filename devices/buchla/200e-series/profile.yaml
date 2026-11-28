@@ -1,0 +1,20 @@
+manufacturer: Buchla
+model: Buchla 200e Series
+type: Hybrid Modular Synthesizer System with Digital Patch Storage
+year: 2005
+midi:
+  channels: 16
+  cc_map:
+    timbre: 16
+    wavefold: 17
+    fm_index: 18
+    vactrol_decay: 75
+sysex:
+  header: F0 00 20 5E
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 20 5E 01 00 F7
+banks:
+- name: Preset Presets Bank
+  type: ROM
+  size: 64

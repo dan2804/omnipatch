@@ -36,9 +36,12 @@ impl PresetEntry {
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct DeviceProfile {
+    #[serde(alias = "model")]
     pub name: String,
     pub manufacturer: String,
+    #[serde(default, alias = "type")]
     pub category: String,
+    #[serde(default, alias = "year")]
     pub release_year: Option<u32>,
     
     #[serde(default)]

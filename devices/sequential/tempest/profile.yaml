@@ -1,0 +1,32 @@
+manufacturer: Sequential & DSI
+model: Dave Smith Instruments Tempest
+type: 6-Voice Discrete Analog Drum & Synth Machine
+year: 2011
+midi:
+  channels: 16
+  cc_map:
+    cutoff: 74
+    resonance: 71
+    analog_distortion: 84
+    compression: 85
+sysex:
+  header: F0 01 28
+  device_id_byte: 2
+  commands:
+    request_preset: F0 01 28 01 00 F7
+banks:
+- name: Project Bank A
+  type: RAM
+  size: 128
+- name: Project Bank B
+  type: RAM
+  size: 128
+- name: Project Bank C
+  type: RAM
+  size: 128
+- name: Project Bank D
+  type: RAM
+  size: 128
+- name: Project Bank E
+  type: RAM
+  size: 138
