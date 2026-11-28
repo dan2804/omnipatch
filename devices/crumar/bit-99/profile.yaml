@@ -1,0 +1,22 @@
+manufacturer: Crumar
+model: Crumar Bit 99
+type: 6-Voice Analog Synthesizer (Velocity Sensitive & Splits)
+year: 1985
+midi:
+  channels: 16
+  cc_map:
+    vcf_cutoff: 74
+    vcf_resonance: 71
+    dco_detune: 22
+    env_attack: 73
+    env_decay: 75
+    velocity_mod: 23
+sysex:
+  header: F0 27 00
+  device_id_byte: 2
+  commands:
+    request_preset: F0 27 00 01 [prog] F7
+banks:
+- name: Factory Programs
+  count: 75
+  description: Dynamic Velocity Analog Keys, Layered Pads & Synth Basses

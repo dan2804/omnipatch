@@ -1,0 +1,25 @@
+manufacturer: E-MU
+model: E-MU Procussion
+type: 32-Voice 1U Percussion Sound Module
+year: 1991
+midi:
+  channels: 16
+  cc_map:
+    pitch: 16
+    pitch_env: 17
+    decay: 75
+    filter_cutoff: 74
+    velocity_response: 20
+    pan: 10
+sysex:
+  header: F0 18 06
+  device_id_byte: 2
+  commands:
+    request_preset: F0 18 06 01 [kit] F7
+banks:
+- name: Factory Kits Bank 1
+  count: 64
+  description: Acoustic Rock, Jazz, Funk & Studio Drum Kits
+- name: Factory Kits Bank 2
+  count: 64
+  description: Latin, World, Orchestral & Electronic Percussion Kits

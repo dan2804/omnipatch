@@ -1,0 +1,33 @@
+manufacturer: Elektron
+model: Elektron Analog Keys
+type: 4-Voice Discrete Analog Synthesizer Keyboard
+year: 2014
+midi:
+  channels: 16
+  cc_map:
+    osc1_tune: 16
+    osc2_tune: 17
+    vcf_cutoff: 74
+    vcf_res: 71
+    overdrive: 18
+    env_attack: 73
+    env_decay: 75
+    joystick_x: 1
+sysex:
+  header: F0 00 20 3C 06
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 20 3C 06 50 [patch] F7
+banks:
+- name: Polyphonic Leads & Pads
+  count: 32
+  description: 4-Voice Warm Analog Polysynths & Lush Moving Sweeps
+- name: Punchy Analog Basses
+  count: 32
+  description: Dual Sub-Oscillator Basses & Acid Squelches
+- name: Split & Multitimbral Rigs
+  count: 32
+  description: Key-Split Performance Setups & 4-Voice Stacks
+- name: FX & Analog Soundscapes
+  count: 32
+  description: Cross-Modulated Drones, Resonant Sweeps & Noise Hits

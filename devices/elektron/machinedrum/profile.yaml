@@ -1,0 +1,33 @@
+manufacturer: Elektron
+model: Elektron Machinedrum SPS-1 / SPS-1UW
+type: 16-Track Digital Drum Synthesizer
+year: 2001
+midi:
+  channels: 16
+  cc_map:
+    pitch: 16
+    decay: 17
+    filter_freq: 18
+    filter_res: 19
+    lfo_speed: 20
+    lfo_depth: 21
+    delay_send: 22
+    reverb_send: 23
+sysex:
+  header: F0 00 20 3C 02
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 20 3C 02 52 [kit] F7
+banks:
+- name: TRX Electronic Kits
+  count: 32
+  description: Roland TR-808/909 Emulation & Modern Analog Models
+- name: EFM FM Percussion
+  count: 32
+  description: Feedback FM Metallic Percussion & Experimental Bells
+- name: E12 Sampled Beats
+  count: 32
+  description: Vintage 12-Bit Gritty Drum Machine Sample Kits
+- name: P-I Physical Acoustic
+  count: 32
+  description: Physical Modeling Snares, Toms, Bells & Resonators

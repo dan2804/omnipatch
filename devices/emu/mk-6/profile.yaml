@@ -1,0 +1,33 @@
+manufacturer: E-MU
+model: E-MU MK-6 Mo'Phatt Keys
+type: 64-Voice Hip Hop Synthesizer Keyboard
+year: 2001
+midi:
+  channels: 16
+  cc_map:
+    cutoff: 74
+    resonance: 71
+    attack: 73
+    release: 72
+    knob_1: 21
+    knob_2: 22
+    knob_3: 23
+    knob_4: 24
+sysex:
+  header: F0 18 0F
+  device_id_byte: 2
+  commands:
+    request_preset: F0 18 0F 55 05 [bank] [prog] F7
+banks:
+- name: User Bank
+  count: 128
+  description: User Urban Production Performance Patches
+- name: Preset Bank 1 - Urban Bass & Drums
+  count: 128
+  description: 808 Sub-Bass, 909 Kick Stabs, Hip Hop Snares & Hats
+- name: Preset Bank 2 - Urban Keys & Melodies
+  count: 128
+  description: Rhodes Mark V, Wurly, Whistle Leads & G-Funk Portas
+- name: Preset Bank 3 - Hits, Brass & Cuts
+  count: 128
+  description: Orchestra Hits, Turntable Scratches & Horn Sections

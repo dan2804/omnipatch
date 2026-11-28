@@ -1,0 +1,22 @@
+manufacturer: Akai
+model: Akai Timbre Wolf
+type: 4-Voice Discrete Analog Synthesizer
+year: 2014
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    resonance: 71
+    env_amount: 72
+    decay: 75
+    tuning: 16
+    voice_mode: 70
+sysex:
+  header: F0 47 00 32
+  device_id_byte: 2
+  commands:
+    request_preset: F0 47 00 32 01 [pattern] F7
+banks:
+- name: Factory Analog Presets & Patterns
+  count: 64
+  description: 4-Voice Poly Sequences, Unison Acid Basses & Round Leads

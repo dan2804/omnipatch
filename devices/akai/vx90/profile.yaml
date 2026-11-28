@@ -1,0 +1,22 @@
+manufacturer: Akai
+model: Akai VX90
+type: 6-Voice Analog Synthesizer Module (CEM 3394)
+year: 1986
+midi:
+  channels: 16
+  cc_map:
+    vco_freq: 16
+    pulse_width: 70
+    vcf_cutoff: 74
+    vcf_resonance: 71
+    vcf_env_depth: 72
+    vca_decay: 75
+sysex:
+  header: F0 47 00 14
+  device_id_byte: 2
+  commands:
+    request_preset: F0 47 00 14 01 [prog] F7
+banks:
+- name: Factory Programs Bank
+  count: 100
+  description: Vintage CEM Analog Poly Leads, Fat Brass, Basses & FX

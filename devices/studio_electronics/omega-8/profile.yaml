@@ -1,0 +1,26 @@
+manufacturer: Studio Electronics
+model: Studio Electronics Omega 8
+type: 8-Voice Discrete Multi-Filter Analog Synthesizer
+year: 2000
+midi:
+  channels: 16
+  cc_map:
+    osc1_freq: 16
+    osc2_detune: 17
+    vcf_cutoff: 74
+    vcf_resonance: 71
+    vcf_env_decay: 75
+    filter_type: 70
+    glide_rate: 5
+sysex:
+  header: F0 00 01 27 08
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 01 27 08 01 [prog] F7
+banks:
+- name: Moog Ladder Voice Bank
+  count: 64
+  description: Warm 24dB Minimoog Style Leads, Round Basses & Poly Stabs
+- name: Oberheim SEM Voice Bank
+  count: 64
+  description: Lush 12dB State Variable Sweeps, Airy Brass & Polys

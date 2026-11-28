@@ -1,0 +1,22 @@
+manufacturer: Akai
+model: Akai Rhythm Wolf
+type: Analog Drum Machine & Bass Synthesizer
+year: 2014
+midi:
+  channels: 16
+  cc_map:
+    bass_cutoff: 74
+    bass_resonance: 71
+    howl_overdrive: 70
+    snare_tune: 17
+    kick_tune: 16
+    hat_decay: 75
+sysex:
+  header: F0 47 00 31
+  device_id_byte: 2
+  commands:
+    request_preset: F0 47 00 31 01 [kit] F7
+banks:
+- name: Factory Drum Kits & Sequences
+  count: 64
+  description: Analog Bass Drums, Snappy Snares, Open/Closed Hats & Howl Bass

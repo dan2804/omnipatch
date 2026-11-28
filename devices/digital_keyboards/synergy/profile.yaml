@@ -1,0 +1,30 @@
+manufacturer: Digital Keyboards
+model: Digital Keyboards Synergy
+type: 32-Oscillator Additive & FM Synthesizer
+year: 1982
+midi:
+  channels: 16
+  cc_map:
+    brightness: 74
+    envelope_speed: 75
+    vibrato_depth: 1
+    chorus_rate: 76
+    master_volume: 7
+sysex:
+  header: F0 2B 01
+  device_id_byte: 2
+  commands:
+    request_preset: F0 2B 01 02 [cart] [prog] F7
+banks:
+- name: Wendy Carlos Cartridge 1
+  count: 24
+  description: Microtonal Tunings, Acoustic Orchestral Resonators & Bells
+- name: Wendy Carlos Cartridge 2
+  count: 24
+  description: Harmonic Flutes, Harps, Reed Instruments & Solo Horns
+- name: Factory Cartridge A
+  count: 24
+  description: Dynamic Additive Organs, Polyphonic Keys & Electric Basses
+- name: Factory Cartridge B
+  count: 24
+  description: Futuristic Sweeps, Space Chimes, Brass Stabs & Percussion

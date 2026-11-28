@@ -1,0 +1,33 @@
+manufacturer: Elektron
+model: Elektron Analog Rytm
+type: 8-Voice Hybrid Analog Drum Machine & Sampler
+year: 2014
+midi:
+  channels: 16
+  cc_map:
+    synth_tune: 16
+    synth_decay: 17
+    analog_overdrive: 18
+    vcf_cutoff: 19
+    vcf_res: 20
+    sample_tune: 21
+    delay_send: 22
+    reverb_send: 23
+sysex:
+  header: F0 00 20 3C 08
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 20 3C 08 51 [kit] F7
+banks:
+- name: Analog Bass Drums & Snares
+  count: 32
+  description: Deep Sub Kicks, Dual-VCO Snares & Analog Claps
+- name: Hybrid Drum Kits
+  count: 32
+  description: Combined Analog Voice + Digital Sample Layered Percussion
+- name: Overdriven Industrial Beats
+  count: 32
+  description: Saturated Master Distortion & Compressor Hits
+- name: Melodic Percussion & Chords
+  count: 32
+  description: Tuned Analog Toms, Metallic Hats & Cymbal Prones

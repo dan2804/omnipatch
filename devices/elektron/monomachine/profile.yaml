@@ -1,0 +1,33 @@
+manufacturer: Elektron
+model: Elektron Monomachine SFX-6 / SFX-60
+type: 6-Track Multi-Engine Synthesizer
+year: 2004
+midi:
+  channels: 16
+  cc_map:
+    pitch: 16
+    cutoff: 17
+    resonance: 18
+    attack: 19
+    decay: 20
+    lfo_depth: 21
+    delay_time: 22
+    delay_feedback: 23
+sysex:
+  header: F0 00 20 3C 03
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 20 3C 03 53 [kit] F7
+banks:
+- name: SuperWave Lead & Bass
+  count: 32
+  description: Multi-Saw Subtractive Leads, Acid Basses & Plucks
+- name: SID 6581 Chiptune
+  count: 32
+  description: Commodore 64 MOS SID Sound Chip Emulation Kits
+- name: DigiPRO Wavetable
+  count: 32
+  description: 12-Bit Digital Waveforms & User PCM Tables
+- name: FM+ Algorithms
+  count: 32
+  description: 4-Operator Frequency Modulation Experimental Timbres

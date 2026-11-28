@@ -1,0 +1,31 @@
+manufacturer: Ensoniq
+model: Ensoniq Halo
+type: 64-Voice Keyboard Workstation (Transwave ROM)
+year: 2002
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_res: 71
+    env_attack: 73
+    env_release: 72
+    chorus_send: 93
+    reverb_send: 91
+sysex:
+  header: F0 0F 08
+  device_id_byte: 2
+  commands:
+    request_preset: F0 0F 08 00 [bank] [prog] F7
+banks:
+- name: Preset Bank 1 - Keys & Organs
+  count: 128
+  description: Stereo Acoustic Pianos, Rhodes, Wurlys & B3 Tonewheels
+- name: Preset Bank 2 - Strings & Brass
+  count: 128
+  description: Orchestral String Sections, Brass Ensembles & Solo Reeds
+- name: Preset Bank 3 - Transwave Synths
+  count: 128
+  description: Dynamic Transwave Morphing Leads, Sweeps & Pads
+- name: Preset Bank 4 - Drums & FX
+  count: 128
+  description: Urban & Pop Drum Kits, Sound FX & Acoustic Percussion

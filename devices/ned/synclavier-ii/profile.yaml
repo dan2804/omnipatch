@@ -1,0 +1,25 @@
+manufacturer: New England Digital
+model: New England Digital Synclavier II
+type: Digital Additive & FM Synthesis Workstation
+year: 1980
+midi:
+  channels: 16
+  cc_map:
+    timbral_volume: 7
+    harmonic_decay: 75
+    mod_index: 1
+    fm_depth: 71
+    lfo_rate: 76
+    brightness: 74
+sysex:
+  header: F0 00 00 1B
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 00 1B 01 [timbre] F7
+banks:
+- name: Timbre Bank 1 - Iconic Additive Timbres
+  count: 64
+  description: Famous Michael Jackson / Frank Zappa Bells, Chimes & Hits
+- name: Timbre Bank 2 - FM Strings & Brass
+  count: 64
+  description: Crisp Digital FM Guitars, Plucks, Brass & Sci-Fi Effects

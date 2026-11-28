@@ -1,0 +1,35 @@
+manufacturer: Alesis
+model: Alesis QS8.1
+type: 64-Voice 88-Key Hammer Action Workstation
+year: 1999
+midi:
+  channels: 16
+  cc_map:
+    slider_1: 16
+    slider_2: 17
+    slider_3: 18
+    slider_4: 19
+    filter_cutoff: 74
+    filter_resonance: 71
+    reverb_send: 91
+sysex:
+  header: F0 00 00 0E 0E
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 00 0E 0E 05 [bank] [prog] F7
+banks:
+- name: User Bank
+  count: 128
+  description: User Programmable Patches
+- name: Preset Bank 1
+  count: 128
+  description: Master Grand Pianos, Wurlys & B3 Drawbars
+- name: Preset Bank 2
+  count: 128
+  description: Full Symphonic Orchestra & Choral Ensembles
+- name: Preset Bank 3
+  count: 128
+  description: Fat Analog Basses, Lead Synths & Pads
+- name: Preset Bank 4
+  count: 128
+  description: Alesis Drum Kits, Grooves & Soundscapes

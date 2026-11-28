@@ -1,0 +1,33 @@
+manufacturer: Alesis
+model: Alesis Fusion 6HD / 8HD
+type: Multi-Engine Workstation (VA, FM, Sample, Physical)
+year: 2005
+midi:
+  channels: 16
+  cc_map:
+    cutoff: 74
+    resonance: 71
+    mod_wheel: 1
+    knob_1: 16
+    knob_2: 17
+    knob_3: 18
+    knob_4: 19
+    reverb_send: 91
+sysex:
+  header: F0 00 00 0E 15
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 00 0E 15 01 [bank] [prog] F7
+banks:
+- name: Preset Bank A - Holy Grail Piano & Keys
+  count: 128
+  description: Grand Pianos, Rhodes, Wurlitzers & Organs
+- name: Preset Bank B - Synthesizer VA & FM
+  count: 128
+  description: Virtual Analog Leads, 6-Op FM Timbres & Basses
+- name: Preset Bank C - Physical Modeling & World
+  count: 128
+  description: Wind, Reed, Plucked String & Acoustic Resonators
+- name: Preset Bank D - Drums & Complex Arps
+  count: 128
+  description: Multitrack Drum Kits, Motion Pads & Step Sequences

@@ -108,9 +108,9 @@ def seed_database():
             with open(presets_path, 'r', encoding='utf-8') as f:
                 presets = json.load(f) or []
 
-            dev_name = prof.get('name', os.path.basename(root))
+            dev_name = prof.get('model') or prof.get('name') or os.path.basename(root)
             manufacturer = prof.get('manufacturer', 'Unknown')
-            category = prof.get('category', 'Synthesizer')
+            category = prof.get('type') or prof.get('category') or 'Synthesizer'
 
             # Insert Device
             cursor.execute(

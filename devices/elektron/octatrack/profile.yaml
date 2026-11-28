@@ -1,0 +1,33 @@
+manufacturer: Elektron
+model: Elektron Octatrack DPS-1
+type: 8-Track Dynamic Performance Sampler
+year: 2010
+midi:
+  channels: 16
+  cc_map:
+    crossfader: 48
+    pitch: 16
+    playback_rate: 17
+    filter_cutoff: 18
+    filter_res: 19
+    amp_vol: 20
+    reverb_send: 21
+    delay_send: 22
+sysex:
+  header: F0 00 20 3C 07
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 20 3C 07 50 [part] F7
+banks:
+- name: Live Remix Projects
+  count: 32
+  description: Realtime Time-Stretching & Granular Loop Remixes
+- name: Stereo Beat Production
+  count: 32
+  description: Multitrack Drum Loops & One-Shot Slice Sets
+- name: Stem Deconstruction
+  count: 32
+  description: Vocal Chop, Bassline & Synth Phrase Processing
+- name: Ambient Soundscapes
+  count: 32
+  description: Granular Tape Shifting & Generative Spatial Drones

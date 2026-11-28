@@ -1,0 +1,33 @@
+manufacturer: E-MU
+model: E-MU PK-6 Proteus Keys
+type: 64-Voice Keyboard Workstation (Proteus 2000 ROM)
+year: 2001
+midi:
+  channels: 16
+  cc_map:
+    cutoff: 74
+    resonance: 71
+    attack: 73
+    release: 72
+    knob_1: 21
+    knob_2: 22
+    knob_3: 23
+    knob_4: 24
+sysex:
+  header: F0 18 0F
+  device_id_byte: 2
+  commands:
+    request_preset: F0 18 0F 55 04 [bank] [prog] F7
+banks:
+- name: User Bank
+  count: 128
+  description: User Performance Programs & Multitimbral Setups
+- name: Preset Bank 1 - Keyboards & Acoustic
+  count: 128
+  description: Grand Pianos, Rhodes, Clavs, Organs & Acoustic Guitars
+- name: Preset Bank 2 - Orchestral & Woodwinds
+  count: 128
+  description: Solo Flutes, Cellos, Brass Ensembles & String Sections
+- name: Preset Bank 3 - Synths & Pads
+  count: 128
+  description: Analog Brass, Poly Sweeps, Vocal Choirs & Synth Textures

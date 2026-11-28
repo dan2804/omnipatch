@@ -1,0 +1,30 @@
+manufacturer: Waldorf
+model: Waldorf Micro Q
+type: 25-Voice Virtual Analog Rack Synthesizer
+year: 2000
+midi:
+  channels: 16
+  cc_map:
+    cutoff_1: 74
+    resonance_1: 71
+    cutoff_2: 72
+    pulse_width: 70
+    lfo_1_speed: 76
+    lfo_1_depth: 77
+    env_attack: 73
+    env_decay: 75
+sysex:
+  header: F0 3E 0E
+  device_id_byte: 2
+  commands:
+    request_preset: F0 3E 0E 00 00 [bank] [prog] F7
+banks:
+- name: Bank A - Leads & Basses
+  count: 100
+  description: Aggressive VA Saws, Sub Basses & Acid Resonance Leads
+- name: Bank B - Pads & Polys
+  count: 100
+  description: Lush Wavetable Sweeps, Moving Strings & Shimmering Pads
+- name: Bank C - Arps & Sequences
+  count: 100
+  description: Sync'd Step Arpeggiations, Drum Kits & Sound FX

@@ -1,0 +1,33 @@
+manufacturer: E-MU
+model: E-MU Mo'Phatt
+type: Urban Dance & Hip Hop Sound Module
+year: 2000
+midi:
+  channels: 16
+  cc_map:
+    cutoff: 74
+    resonance: 71
+    attack: 73
+    decay: 75
+    controller_a: 21
+    controller_b: 22
+    controller_c: 23
+    controller_d: 24
+sysex:
+  header: F0 18 0F
+  device_id_byte: 2
+  commands:
+    request_preset: F0 18 0F 55 01 [bank] [prog] F7
+banks:
+- name: User Bank 0
+  count: 128
+  description: User Editable Hip Hop & R&B Custom Patches
+- name: Preset Bank 1 - Basses & Beats
+  count: 128
+  description: Sub-Bass Bombs, 808 Booms & Gritty Hip Hop Drum Kits
+- name: Preset Bank 2 - Keys & Leads
+  count: 128
+  description: Lo-Fi Pianos, Vinyl Rhodes, Portamento Leads & Whistles
+- name: Preset Bank 3 - Hits & Stabs
+  count: 128
+  description: Brass Horn Sections, DJ Scratches, Vocal Hits & Chords

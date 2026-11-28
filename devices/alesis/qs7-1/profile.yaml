@@ -1,0 +1,35 @@
+manufacturer: Alesis
+model: Alesis QS7.1
+type: 64-Voice 76-Key Synthesizer (Enhanced Sliders & LCD)
+year: 1999
+midi:
+  channels: 16
+  cc_map:
+    slider_1: 16
+    slider_2: 17
+    slider_3: 18
+    slider_4: 19
+    filter_cutoff: 74
+    filter_resonance: 71
+    reverb_send: 91
+sysex:
+  header: F0 00 00 0E 0E
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 00 0E 0E 05 [bank] [prog] F7
+banks:
+- name: User Bank
+  count: 128
+  description: User Programmable Patches
+- name: Preset Bank 1
+  count: 128
+  description: Concert Acoustic Grands & Electric Pianos
+- name: Preset Bank 2
+  count: 128
+  description: Cinematic Strings, Woodwinds & French Horns
+- name: Preset Bank 3
+  count: 128
+  description: Analog Modular Emulations & Modern Synths
+- name: Preset Bank 4
+  count: 128
+  description: Studio Acoustic & Electronic Drum Kits
