@@ -1,0 +1,25 @@
+manufacturer: Yamaha
+model: CS2x
+type: Dance Performance Synthesizer
+year: 1998
+midi:
+  channels: 16
+  cc_map:
+    cutoff: 74
+    resonance: 71
+    attack: 73
+    decay: 72
+    assign1: 16
+    assign2: 17
+sysex:
+  header: F0 43 10 4B
+  device_id_byte: 2
+  commands:
+    request_perf: F0 43 10 4B 00 [perf] F7
+banks:
+- name: Performance Bank
+  type: ROM
+  size: 128
+- name: XG Synth Bank
+  type: ROM
+  size: 128

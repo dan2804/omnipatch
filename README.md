@@ -4,17 +4,17 @@
 
 [![Rust](https://img.shields.io/badge/rust-1.75%2B-orange.svg)](https://www.rust-lang.org/)
 [![Database](https://img.shields.io/badge/SQLite-FTS5%20Indexed-blue.svg)](https://www.sqlite.org/)
-[![Profiles](https://img.shields.io/badge/Synthesizers-305%20Hardware%20Profiles-success.svg)](devices/)
-[![Presets](https://img.shields.io/badge/Factory%20Presets-92%2C703%20Indexed-purple.svg)](omnipatch_library.db)
+[![Profiles](https://img.shields.io/badge/Synthesizers-335%20Hardware%20Profiles-success.svg)](devices/)
+[![Presets](https://img.shields.io/badge/Factory%20Presets-101%2C959%20Indexed-purple.svg)](omnipatch_library.db)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-OmniPatch is a high-performance synthesizer librarian and SysEx communication platform written in Rust. It bridges vintage analog, digital FM, wavetable, and modern flagship synthesizers into a unified, high-speed ecosystem with hardware-safe buffer throttling and instant full-text search across 92,000+ factory patches.
+OmniPatch is a high-performance synthesizer librarian and SysEx communication platform written in Rust. It bridges vintage analog, digital FM, wavetable, and modern flagship synthesizers into a unified, high-speed ecosystem with hardware-safe buffer throttling and instant full-text search across 100,000+ factory patches.
 
 ---
 
 ## Key Capabilities
 
-* **Unified Local Librarian (`rusqlite` + FTS5):** Local SQLite engine indexing **92,703 authentic factory patches** across **305 synthesizers** and **1,634 banks**, delivering sub-millisecond full-text queries for names, categories, banks, and sound-engine tags.
+* **Unified Local Librarian (`rusqlite` + FTS5):** Local SQLite engine indexing **101,959 authentic factory patches** across **335 synthesizers** and **1,697 banks**, delivering sub-millisecond full-text queries for names, categories, banks, and sound-engine tags.
 * **Hardware-Safe SysEx Pacing:** Configurable inter-byte and inter-block millisecond throttling specifically engineered to prevent buffer overflows on vintage 8-bit and 16-bit UART microcontrollers (Motorola 68000, 6809, Intel 8031, etc.).
 * **Declarative Hardware Profiles (`profile.yaml`):** Zero recompilation required to add or modify instruments. Each synthesizer is declaratively defined with MIDI CC maps, SysEx request/dump commands, architecture metadata, and authentic bank structures.
 * **Universal Web Audio Auditioning:** Interactive soundboard tiles and auditioning engines supporting classic synthesis methods (analog subtractive, FM, wavetable, additive harmonics).
@@ -22,16 +22,16 @@ OmniPatch is a high-performance synthesizer librarian and SysEx communication pl
 
 ---
 
-## Manufacturer Coverage Matrix (305 Synthesizers · 92,703 Patches)
+## Manufacturer Coverage Matrix (335 Synthesizers · 101,959 Patches)
 
 Instead of maintaining fragmented sysex tools, OmniPatch covers 48 legendary manufacturers within a single unified database:
 
 | Manufacturer / Family | Models | Total Patches | Featured Flagships & Classics | Synthesis Architectures |
 | :--- | :---: | :---: | :--- | :--- |
-| **Roland** | 67 | 23,236 | TB-303, TR-808/909, TR-606/505/626, CR-78, R-8/R-70, SPD-20, Jupiter-4/8, Juno-60/106, JV, JD, Integra-7, A-880/A-50/80 | Discrete Analog, DCO, ACB, Linear Arithmetic, RS-PCM, Human Rhythm, Super JV |
+| **Roland** | 78 | 26,564 | SC-88 Pro/8850/8820, SD-35/50, XP-30/50, JV-1010/880/80, TB-303, TR-808/909, R-8, Jupiter-4/8, Juno-60/106, Integra-7 | Super JV, Sound Canvas GS, Discrete Analog, DCO, ACB, Linear Arithmetic, RS-PCM, Human Rhythm |
+| **Korg** | 41 | 11,947 | Kronos/Nautilus, TR-Rack, X5D, X3, X2, 05R/W, NS5R, NX5R, X50, microX, T3, Radias, M3, 01/W, DSS-1, DW-6000, opsix | AI2 Workstations, Trinity ACCESS, MMT Multi-Modeling, HD-1 KARMA, NJM2069 Filter Sampler |
 | **E-MU Systems** | 21 | 9,784 | Proteus family, Orbit/Orbit-3, Morpheus, Audity 2000, Planet Earth, SP-1200, Emax I/II, Vintage Keys | Z-Plane Filter Morphing (14-Pole), 12-Bit Analog VCF Sampler, 64/128-Voice Extreme Digital |
-| **Korg** | 31 | 9,411 | Kronos/Nautilus, Radias, M3, 01/W, 03R/W, 707, DSS-1, DW-6000, Poly-61, DDD-1, DDD-5, S3, KPR-77, opsix | MMT Multi-Modeling, HD-1 KARMA, NJM2069 Resonant Analog Filter Sampler, Dynamic Digital Drums |
-| **Yamaha** | 27 | 5,561 | CS-80, RY30, RX5, RX7, RX11, CS6x, SY85, TG33, FB-01, V50, FS1R, DX1, DX5, DX7/DX7II, TX81Z, SY99, EX5 | AWM2 Rhythm Pitch-Wheel Mod, Vector Synthesis, 64-Voice AWM2, 4-Op & 8-Op FM, Virtual Acoustic |
+| **Yamaha** | 36 | 8,953 | Motif ES, Motif XF, MU100, MU128, MU1000, MU2000, MU80, MU50, CS2x, CS6x, CS-80, RY30, RX5, FS1R, DX1, DX7, VL1 | 128-Voice Studio XG (PLG Slots), Motif Mega Voice, AWM2 Rhythm Mod, Vector Synthesis, FM |
 | **Waldorf & PPG** | 12 | 5,148 | Waldorf Wave, Quantum/Iridium, Kyra, M, Microwave I/XT, Blofeld, Pulse 2, PPG Wave 2.2/2.3 | Wavetable, Analog VCF, FPGA 128-Voice Virtual Analog, Resonator, Kernel FM |
 | **Sequential & DSI** | 13 | 4,072 | Prophet-5, Prophet-6, Prophet VS, OB-6, Prophet 12, Trigon-6, Take 5, Evolver, Pro 2/3 | Discrete VCO/VCF, Vector Synthesis, SEM Filter, Curtis Analog DCO, Hybrid |
 | **Access Music** | 4 | 3,840 | Virus A, Virus B, Virus C, Virus TI / TI2 / Snow / Polar | Dual DSP Virtual Analog, Hypersaw, Wavetable, Formant/Grain Synthesis |
@@ -64,7 +64,7 @@ Instead of maintaining fragmented sysex tools, OmniPatch covers 48 legendary man
 OmniPatch stores all device definitions, memory banks, patch mappings, and SysEx dumps in an optimized local SQLite database (`omnipatch_library.db`).
 
 ### Direct SQLite / FTS5 Queries
-Because patches are indexed in an **FTS5 full-text search table**, searching through 92,700+ presets takes under 2 milliseconds:
+Because patches are indexed in an **FTS5 full-text search table**, searching through 101,950+ presets takes under 2 milliseconds:
 
 ```bash
 # Search for Vangelis / Blade Runner CS-80 presets
@@ -100,7 +100,7 @@ cargo build --release
 
 ### 2. Inspect Devices & Parameters
 ```bash
-# List all 305 loaded hardware profiles
+# List all 335 loaded hardware profiles
 ./target/release/omnipatch devices list --dir devices/
 
 # Inspect parameters and MIDI CC mapping for a specific synth
@@ -128,7 +128,7 @@ omnipatch/
 │   ├── omnipatch-midi/       # midir low-latency packet pacing, hardware throttling
 │   ├── omnipatch-profile/    # Declarative YAML parser, parameter mapping engine
 │   └── omnipatch-sysex/      # Checksum calculators (Roland, E-MU, Casio, Waldorf)
-├── devices/                  # 305 Declarative YAML hardware profiles & factory preset dumps
+├── devices/                  # 335 Declarative YAML hardware profiles & factory preset dumps
 │   ├── access/               # Access Music (Virus A, B, C, TI, TI2, Indigo, Snow)
 │   ├── akai/                 # Akai Professional (AX80, VX600, AX73, S950, S1000, AX60)
 │   ├── alesis/               # Alesis (Andromeda A6, SR-16, Ion, Micron, QS Series, QuadraSynth, D4/DM5, HR-16)

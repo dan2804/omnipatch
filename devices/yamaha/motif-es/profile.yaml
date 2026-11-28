@@ -1,0 +1,31 @@
+manufacturer: Yamaha
+model: Motif ES
+type: 128-Voice Mega-Voice Workstation
+year: 2003
+midi:
+  channels: 16
+  cc_map:
+    volume: 7
+    pan: 10
+    cutoff: 74
+    resonance: 71
+    knob1: 16
+    knob2: 17
+sysex:
+  header: F0 43 10 7F 00
+  device_id_byte: 2
+  commands:
+    request_voice: F0 43 10 7F 00 00 [bank] [prog] F7
+banks:
+- name: Preset Bank 1
+  type: ROM
+  size: 128
+- name: Preset Bank 2
+  type: ROM
+  size: 128
+- name: Preset Bank 3
+  type: ROM
+  size: 128
+- name: Preset Bank 4
+  type: ROM
+  size: 128

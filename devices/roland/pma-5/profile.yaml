@@ -1,0 +1,20 @@
+manufacturer: Roland
+model: PMA-5
+type: Personal Music Assistant Sound Module
+year: 1996
+midi:
+  channels: 16
+  cc_map:
+    volume: 7
+    pan: 10
+    reverb: 91
+    chorus: 93
+sysex:
+  header: F0 41 10 42 12
+  device_id_byte: 2
+  commands:
+    request_patch: F0 41 10 42 11 [addr] [size] [chk] F7
+banks:
+- name: PMA Tone Bank
+  type: ROM
+  size: 128

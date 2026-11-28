@@ -1,0 +1,24 @@
+manufacturer: Roland
+model: JV-80
+type: Multi-Timbral Synthesizer Keyboard
+year: 1992
+midi:
+  channels: 16
+  cc_map:
+    volume: 7
+    pan: 10
+    reverb: 91
+    chorus: 93
+    slider1: 16
+sysex:
+  header: F0 41 10 46 12
+  device_id_byte: 2
+  commands:
+    request_patch: F0 41 10 46 11 [addr] [size] [chk] F7
+banks:
+- name: Preset Bank A
+  type: ROM
+  size: 64
+- name: Preset Bank B
+  type: ROM
+  size: 64

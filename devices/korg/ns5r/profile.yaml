@@ -1,0 +1,24 @@
+manufacturer: Korg
+model: NS5R
+type: Sound Module with Graphic Display
+year: 1997
+midi:
+  channels: 16
+  cc_map:
+    volume: 7
+    pan: 10
+    reverb: 91
+    chorus: 93
+    cutoff: 74
+sysex:
+  header: F0 42 30 4C
+  device_id_byte: 2
+  commands:
+    request_prog: F0 42 30 4C 10 [prog] F7
+banks:
+- name: AI2 Program Bank
+  type: ROM
+  size: 128
+- name: GM/GS Sound Bank
+  type: ROM
+  size: 128

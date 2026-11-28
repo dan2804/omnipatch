@@ -1,0 +1,23 @@
+manufacturer: Korg
+model: T3
+type: 16-Track AI Music Workstation
+year: 1989
+midi:
+  channels: 16
+  cc_map:
+    volume: 7
+    pan: 10
+    reverb: 91
+    chorus: 93
+sysex:
+  header: F0 42 30 26
+  device_id_byte: 2
+  commands:
+    request_prog: F0 42 30 26 10 [prog] F7
+banks:
+- name: Internal Programs
+  type: ROM
+  size: 100
+- name: Internal Combinations
+  type: ROM
+  size: 100
