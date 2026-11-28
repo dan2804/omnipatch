@@ -1,0 +1,21 @@
+manufacturer: Tc Helicon
+model: VoicePro
+type: Flagship 8-Voice Vocal Processor
+year: 2005
+midi:
+  channels: 16
+  cc_map:
+    harmony_level: 16
+    lead_level: 17
+    formant_shift: 18
+    pitch_correct: 19
+    reverb_level: 91
+sysex:
+  header: F0 00 20 1F 11
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 20 1F 11 01 00 F7
+banks:
+- name: Studio Vocal Presets
+  type: ROM
+  size: 100

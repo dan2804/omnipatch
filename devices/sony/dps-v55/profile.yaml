@@ -1,0 +1,21 @@
+manufacturer: Sony
+model: DPS-V55
+type: 4-Channel Spatial Multi-Effects Processor
+year: 1998
+midi:
+  channels: 16
+  cc_map:
+    param1: 16
+    param2: 17
+    param3: 18
+    param4: 19
+    master_balance: 91
+sysex:
+  header: F0 47 00 00 05
+  device_id_byte: 2
+  commands:
+    request_preset: F0 47 00 00 05 01 00 F7
+banks:
+- name: Factory Presets
+  type: ROM
+  size: 100

@@ -1,0 +1,22 @@
+manufacturer: Marion Systems
+model: ProSynth
+type: Tom Oberheim 8-Voice Analog Synthesizer
+year: 1995
+midi:
+  channels: 16
+  cc_map:
+    vcf_cutoff: 74
+    vcf_resonance: 71
+    dco1_wave: 16
+    dco2_interval: 17
+    env1_attack: 73
+    env1_decay: 72
+sysex:
+  header: F0 00 20 0A 01
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 20 0A 01 00 F7
+banks:
+- name: Factory Presets
+  type: ROM
+  size: 100

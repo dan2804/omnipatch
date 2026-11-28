@@ -1,0 +1,22 @@
+manufacturer: Red Sound
+model: Dark Star
+type: Virtual Analog Synthesizer
+year: 1999
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    resonance: 71
+    osc1_wave: 16
+    osc2_detune: 17
+    lfo1_speed: 18
+    envelope_decay: 72
+sysex:
+  header: F0 00 20 3B 01
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 20 3B 01 00 F7
+banks:
+- name: Factory Presets
+  type: ROM
+  size: 64

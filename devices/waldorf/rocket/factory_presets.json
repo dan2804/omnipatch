@@ -1,0 +1,770 @@
+[
+  {
+    "number": 1,
+    "name": "Rocket Patch 01",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 00 F7"
+  },
+  {
+    "number": 2,
+    "name": "Rocket Patch 02",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 01 F7"
+  },
+  {
+    "number": 3,
+    "name": "Rocket Patch 03",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 02 F7"
+  },
+  {
+    "number": 4,
+    "name": "Rocket Patch 04",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 03 F7"
+  },
+  {
+    "number": 5,
+    "name": "Rocket Patch 05",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 04 F7"
+  },
+  {
+    "number": 6,
+    "name": "Rocket Patch 06",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 05 F7"
+  },
+  {
+    "number": 7,
+    "name": "Rocket Patch 07",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 06 F7"
+  },
+  {
+    "number": 8,
+    "name": "Rocket Patch 08",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 07 F7"
+  },
+  {
+    "number": 9,
+    "name": "Rocket Patch 09",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 08 F7"
+  },
+  {
+    "number": 10,
+    "name": "Rocket Patch 10",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 09 F7"
+  },
+  {
+    "number": 11,
+    "name": "Rocket Patch 11",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 0A F7"
+  },
+  {
+    "number": 12,
+    "name": "Rocket Patch 12",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 0B F7"
+  },
+  {
+    "number": 13,
+    "name": "Rocket Patch 13",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 0C F7"
+  },
+  {
+    "number": 14,
+    "name": "Rocket Patch 14",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 0D F7"
+  },
+  {
+    "number": 15,
+    "name": "Rocket Patch 15",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 0E F7"
+  },
+  {
+    "number": 16,
+    "name": "Rocket Patch 16",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 0F F7"
+  },
+  {
+    "number": 17,
+    "name": "Rocket Patch 17",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 10 F7"
+  },
+  {
+    "number": 18,
+    "name": "Rocket Patch 18",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 11 F7"
+  },
+  {
+    "number": 19,
+    "name": "Rocket Patch 19",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 12 F7"
+  },
+  {
+    "number": 20,
+    "name": "Rocket Patch 20",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 13 F7"
+  },
+  {
+    "number": 21,
+    "name": "Rocket Patch 21",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 14 F7"
+  },
+  {
+    "number": 22,
+    "name": "Rocket Patch 22",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 15 F7"
+  },
+  {
+    "number": 23,
+    "name": "Rocket Patch 23",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 16 F7"
+  },
+  {
+    "number": 24,
+    "name": "Rocket Patch 24",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 17 F7"
+  },
+  {
+    "number": 25,
+    "name": "Rocket Patch 25",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 18 F7"
+  },
+  {
+    "number": 26,
+    "name": "Rocket Patch 26",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 19 F7"
+  },
+  {
+    "number": 27,
+    "name": "Rocket Patch 27",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 1A F7"
+  },
+  {
+    "number": 28,
+    "name": "Rocket Patch 28",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 1B F7"
+  },
+  {
+    "number": 29,
+    "name": "Rocket Patch 29",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 1C F7"
+  },
+  {
+    "number": 30,
+    "name": "Rocket Patch 30",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 1D F7"
+  },
+  {
+    "number": 31,
+    "name": "Rocket Patch 31",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 1E F7"
+  },
+  {
+    "number": 32,
+    "name": "Rocket Patch 32",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 1F F7"
+  },
+  {
+    "number": 33,
+    "name": "Rocket Patch 33",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 20 F7"
+  },
+  {
+    "number": 34,
+    "name": "Rocket Patch 34",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 21 F7"
+  },
+  {
+    "number": 35,
+    "name": "Rocket Patch 35",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 22 F7"
+  },
+  {
+    "number": 36,
+    "name": "Rocket Patch 36",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 23 F7"
+  },
+  {
+    "number": 37,
+    "name": "Rocket Patch 37",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 24 F7"
+  },
+  {
+    "number": 38,
+    "name": "Rocket Patch 38",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 25 F7"
+  },
+  {
+    "number": 39,
+    "name": "Rocket Patch 39",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 26 F7"
+  },
+  {
+    "number": 40,
+    "name": "Rocket Patch 40",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 27 F7"
+  },
+  {
+    "number": 41,
+    "name": "Rocket Patch 41",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 28 F7"
+  },
+  {
+    "number": 42,
+    "name": "Rocket Patch 42",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 29 F7"
+  },
+  {
+    "number": 43,
+    "name": "Rocket Patch 43",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 2A F7"
+  },
+  {
+    "number": 44,
+    "name": "Rocket Patch 44",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 2B F7"
+  },
+  {
+    "number": 45,
+    "name": "Rocket Patch 45",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 2C F7"
+  },
+  {
+    "number": 46,
+    "name": "Rocket Patch 46",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 2D F7"
+  },
+  {
+    "number": 47,
+    "name": "Rocket Patch 47",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 2E F7"
+  },
+  {
+    "number": 48,
+    "name": "Rocket Patch 48",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 2F F7"
+  },
+  {
+    "number": 49,
+    "name": "Rocket Patch 49",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 30 F7"
+  },
+  {
+    "number": 50,
+    "name": "Rocket Patch 50",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 31 F7"
+  },
+  {
+    "number": 51,
+    "name": "Rocket Patch 51",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 32 F7"
+  },
+  {
+    "number": 52,
+    "name": "Rocket Patch 52",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 33 F7"
+  },
+  {
+    "number": 53,
+    "name": "Rocket Patch 53",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 34 F7"
+  },
+  {
+    "number": 54,
+    "name": "Rocket Patch 54",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 35 F7"
+  },
+  {
+    "number": 55,
+    "name": "Rocket Patch 55",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 36 F7"
+  },
+  {
+    "number": 56,
+    "name": "Rocket Patch 56",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 37 F7"
+  },
+  {
+    "number": 57,
+    "name": "Rocket Patch 57",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 38 F7"
+  },
+  {
+    "number": 58,
+    "name": "Rocket Patch 58",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 39 F7"
+  },
+  {
+    "number": 59,
+    "name": "Rocket Patch 59",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 3A F7"
+  },
+  {
+    "number": 60,
+    "name": "Rocket Patch 60",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 3B F7"
+  },
+  {
+    "number": 61,
+    "name": "Rocket Patch 61",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 3C F7"
+  },
+  {
+    "number": 62,
+    "name": "Rocket Patch 62",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 3D F7"
+  },
+  {
+    "number": 63,
+    "name": "Rocket Patch 63",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 3E F7"
+  },
+  {
+    "number": 64,
+    "name": "Rocket Patch 64",
+    "bank": "Factory Bank",
+    "category": "Multi-Saw / Pulse Paraphonic Synthesis",
+    "tags": [
+      "paraphonic",
+      "multi-saw / pulse paraphonic synthesis",
+      "rocket"
+    ],
+    "sysex_dump": "F0 3E 15 00 3F F7"
+  }
+]

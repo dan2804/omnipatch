@@ -1,0 +1,22 @@
+manufacturer: Meris
+model: Hedra
+type: 3-Voice Rhythmic Pitch Shifter
+year: 2019
+midi:
+  channels: 16
+  cc_map:
+    key_scale: 14
+    voice1_pitch: 16
+    voice2_pitch: 17
+    voice3_pitch: 18
+    delay_time: 19
+    mix: 91
+sysex:
+  header: F0 00 21 3D 02
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 21 3D 02 00 F7
+banks:
+- name: Factory Presets
+  type: ROM
+  size: 16

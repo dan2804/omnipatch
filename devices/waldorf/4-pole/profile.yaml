@@ -1,0 +1,22 @@
+manufacturer: Waldorf
+model: 4-Pole
+type: Analog Filter Module
+year: 1994
+midi:
+  channels: 16
+  cc_map:
+    cutoff: 74
+    resonance: 71
+    filter_type: 16
+    drive: 17
+    lfo_speed: 18
+    envelope_amount: 19
+sysex:
+  header: F0 3E 07 00
+  device_id_byte: 2
+  commands:
+    request_preset: F0 3E 07 00 00 F7
+banks:
+- name: Filter Presets
+  type: ROM
+  size: 64

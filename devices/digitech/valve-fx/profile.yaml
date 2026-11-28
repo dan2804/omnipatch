@@ -1,0 +1,21 @@
+manufacturer: Digitech
+model: Valve-FX
+type: Vacuum Tube Guitar Preamp & Multi-Effects
+year: 1995
+midi:
+  channels: 16
+  cc_map:
+    tube_gain: 16
+    bass: 17
+    mid: 18
+    treble: 19
+    reverb_mix: 91
+sysex:
+  header: F0 00 00 1A 0A
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 00 1A 0A 01 00 F7
+banks:
+- name: Factory Presets
+  type: ROM
+  size: 128

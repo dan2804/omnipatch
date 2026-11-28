@@ -1,0 +1,20 @@
+manufacturer: Ensoniq
+model: DP PRO
+type: 24-Bit Dual-Stereo Multi-Effects Processor
+year: 1998
+midi:
+  channels: 16
+  cc_map:
+    fx_param1: 16
+    fx_param2: 17
+    fx_param3: 18
+    master_wet: 91
+sysex:
+  header: F0 0F 06 00
+  device_id_byte: 2
+  commands:
+    request_preset: F0 0F 06 00 01 00 F7
+banks:
+- name: Factory Presets
+  type: ROM
+  size: 128

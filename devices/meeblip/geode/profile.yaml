@@ -1,0 +1,21 @@
+manufacturer: MeeBlip
+model: geode
+type: Digital/Analog Synthesizer
+year: 2019
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    resonance: 71
+    envelope_decay: 72
+    osc_morph: 16
+    sub_octave: 17
+sysex:
+  header: F0 00 20 6B 03
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 20 6B 03 00 F7
+banks:
+- name: Factory Patches
+  type: ROM
+  size: 16

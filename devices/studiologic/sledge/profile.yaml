@@ -1,0 +1,27 @@
+manufacturer: Studiologic
+model: Sledge
+type: Waldorf DSP Virtual Analog Synthesizer
+year: 2012
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    resonance: 71
+    osc1_wave: 16
+    osc2_semitone: 17
+    osc3_detune: 18
+    envelope_attack: 73
+    envelope_release: 72
+    lfo1_speed: 19
+sysex:
+  header: F0 00 20 2C 01
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 20 2C 01 00 F7
+banks:
+- name: Preset Bank 1
+  type: ROM
+  size: 128
+- name: Preset Bank 2
+  type: ROM
+  size: 128
