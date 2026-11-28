@@ -1,0 +1,386 @@
+[
+  {
+    "number": 1,
+    "name": "Brass 1",
+    "bank": "Factory Voices",
+    "category": "Pure 6-Operator 32-Algorithm DX7 Synthesis",
+    "tags": [
+      "desktop",
+      "pure 6-operator 32-algorithm dx7 synthesis",
+      "tx7"
+    ],
+    "sysex_dump": "F0 43 00 00 00 F7"
+  },
+  {
+    "number": 2,
+    "name": "Brass 2",
+    "bank": "Factory Voices",
+    "category": "Pure 6-Operator 32-Algorithm DX7 Synthesis",
+    "tags": [
+      "desktop",
+      "pure 6-operator 32-algorithm dx7 synthesis",
+      "tx7"
+    ],
+    "sysex_dump": "F0 43 00 00 01 F7"
+  },
+  {
+    "number": 3,
+    "name": "Brass 3",
+    "bank": "Factory Voices",
+    "category": "Pure 6-Operator 32-Algorithm DX7 Synthesis",
+    "tags": [
+      "desktop",
+      "pure 6-operator 32-algorithm dx7 synthesis",
+      "tx7"
+    ],
+    "sysex_dump": "F0 43 00 00 02 F7"
+  },
+  {
+    "number": 4,
+    "name": "Strings 1",
+    "bank": "Factory Voices",
+    "category": "Pure 6-Operator 32-Algorithm DX7 Synthesis",
+    "tags": [
+      "desktop",
+      "pure 6-operator 32-algorithm dx7 synthesis",
+      "tx7"
+    ],
+    "sysex_dump": "F0 43 00 00 03 F7"
+  },
+  {
+    "number": 5,
+    "name": "Strings 2",
+    "bank": "Factory Voices",
+    "category": "Pure 6-Operator 32-Algorithm DX7 Synthesis",
+    "tags": [
+      "desktop",
+      "pure 6-operator 32-algorithm dx7 synthesis",
+      "tx7"
+    ],
+    "sysex_dump": "F0 43 00 00 04 F7"
+  },
+  {
+    "number": 6,
+    "name": "Strings 3",
+    "bank": "Factory Voices",
+    "category": "Pure 6-Operator 32-Algorithm DX7 Synthesis",
+    "tags": [
+      "desktop",
+      "pure 6-operator 32-algorithm dx7 synthesis",
+      "tx7"
+    ],
+    "sysex_dump": "F0 43 00 00 05 F7"
+  },
+  {
+    "number": 7,
+    "name": "Bass 1",
+    "bank": "Factory Voices",
+    "category": "Pure 6-Operator 32-Algorithm DX7 Synthesis",
+    "tags": [
+      "desktop",
+      "pure 6-operator 32-algorithm dx7 synthesis",
+      "tx7"
+    ],
+    "sysex_dump": "F0 43 00 00 06 F7"
+  },
+  {
+    "number": 8,
+    "name": "Bass 2",
+    "bank": "Factory Voices",
+    "category": "Pure 6-Operator 32-Algorithm DX7 Synthesis",
+    "tags": [
+      "desktop",
+      "pure 6-operator 32-algorithm dx7 synthesis",
+      "tx7"
+    ],
+    "sysex_dump": "F0 43 00 00 07 F7"
+  },
+  {
+    "number": 9,
+    "name": "E.Piano 1",
+    "bank": "Factory Voices",
+    "category": "Pure 6-Operator 32-Algorithm DX7 Synthesis",
+    "tags": [
+      "desktop",
+      "pure 6-operator 32-algorithm dx7 synthesis",
+      "tx7"
+    ],
+    "sysex_dump": "F0 43 00 00 08 F7"
+  },
+  {
+    "number": 10,
+    "name": "E.Piano 2",
+    "bank": "Factory Voices",
+    "category": "Pure 6-Operator 32-Algorithm DX7 Synthesis",
+    "tags": [
+      "desktop",
+      "pure 6-operator 32-algorithm dx7 synthesis",
+      "tx7"
+    ],
+    "sysex_dump": "F0 43 00 00 09 F7"
+  },
+  {
+    "number": 11,
+    "name": "Guitar 1",
+    "bank": "Factory Voices",
+    "category": "Pure 6-Operator 32-Algorithm DX7 Synthesis",
+    "tags": [
+      "desktop",
+      "pure 6-operator 32-algorithm dx7 synthesis",
+      "tx7"
+    ],
+    "sysex_dump": "F0 43 00 00 0A F7"
+  },
+  {
+    "number": 12,
+    "name": "Guitar 2",
+    "bank": "Factory Voices",
+    "category": "Pure 6-Operator 32-Algorithm DX7 Synthesis",
+    "tags": [
+      "desktop",
+      "pure 6-operator 32-algorithm dx7 synthesis",
+      "tx7"
+    ],
+    "sysex_dump": "F0 43 00 00 0B F7"
+  },
+  {
+    "number": 13,
+    "name": "Clav 1",
+    "bank": "Factory Voices",
+    "category": "Pure 6-Operator 32-Algorithm DX7 Synthesis",
+    "tags": [
+      "desktop",
+      "pure 6-operator 32-algorithm dx7 synthesis",
+      "tx7"
+    ],
+    "sysex_dump": "F0 43 00 00 0C F7"
+  },
+  {
+    "number": 14,
+    "name": "Clav 2",
+    "bank": "Factory Voices",
+    "category": "Pure 6-Operator 32-Algorithm DX7 Synthesis",
+    "tags": [
+      "desktop",
+      "pure 6-operator 32-algorithm dx7 synthesis",
+      "tx7"
+    ],
+    "sysex_dump": "F0 43 00 00 0D F7"
+  },
+  {
+    "number": 15,
+    "name": "Harpsichord 1",
+    "bank": "Factory Voices",
+    "category": "Pure 6-Operator 32-Algorithm DX7 Synthesis",
+    "tags": [
+      "desktop",
+      "pure 6-operator 32-algorithm dx7 synthesis",
+      "tx7"
+    ],
+    "sysex_dump": "F0 43 00 00 0E F7"
+  },
+  {
+    "number": 16,
+    "name": "Harpsichord 2",
+    "bank": "Factory Voices",
+    "category": "Pure 6-Operator 32-Algorithm DX7 Synthesis",
+    "tags": [
+      "desktop",
+      "pure 6-operator 32-algorithm dx7 synthesis",
+      "tx7"
+    ],
+    "sysex_dump": "F0 43 00 00 0F F7"
+  },
+  {
+    "number": 17,
+    "name": "Organ 1",
+    "bank": "Factory Voices",
+    "category": "Pure 6-Operator 32-Algorithm DX7 Synthesis",
+    "tags": [
+      "desktop",
+      "pure 6-operator 32-algorithm dx7 synthesis",
+      "tx7"
+    ],
+    "sysex_dump": "F0 43 00 00 10 F7"
+  },
+  {
+    "number": 18,
+    "name": "Organ 2",
+    "bank": "Factory Voices",
+    "category": "Pure 6-Operator 32-Algorithm DX7 Synthesis",
+    "tags": [
+      "desktop",
+      "pure 6-operator 32-algorithm dx7 synthesis",
+      "tx7"
+    ],
+    "sysex_dump": "F0 43 00 00 11 F7"
+  },
+  {
+    "number": 19,
+    "name": "Organ 3",
+    "bank": "Factory Voices",
+    "category": "Pure 6-Operator 32-Algorithm DX7 Synthesis",
+    "tags": [
+      "desktop",
+      "pure 6-operator 32-algorithm dx7 synthesis",
+      "tx7"
+    ],
+    "sysex_dump": "F0 43 00 00 12 F7"
+  },
+  {
+    "number": 20,
+    "name": "Flute 1",
+    "bank": "Factory Voices",
+    "category": "Pure 6-Operator 32-Algorithm DX7 Synthesis",
+    "tags": [
+      "desktop",
+      "pure 6-operator 32-algorithm dx7 synthesis",
+      "tx7"
+    ],
+    "sysex_dump": "F0 43 00 00 13 F7"
+  },
+  {
+    "number": 21,
+    "name": "Flute 2",
+    "bank": "Factory Voices",
+    "category": "Pure 6-Operator 32-Algorithm DX7 Synthesis",
+    "tags": [
+      "desktop",
+      "pure 6-operator 32-algorithm dx7 synthesis",
+      "tx7"
+    ],
+    "sysex_dump": "F0 43 00 00 14 F7"
+  },
+  {
+    "number": 22,
+    "name": "Orchestra",
+    "bank": "Factory Voices",
+    "category": "Pure 6-Operator 32-Algorithm DX7 Synthesis",
+    "tags": [
+      "desktop",
+      "pure 6-operator 32-algorithm dx7 synthesis",
+      "tx7"
+    ],
+    "sysex_dump": "F0 43 00 00 15 F7"
+  },
+  {
+    "number": 23,
+    "name": "Syn-Lead 1",
+    "bank": "Factory Voices",
+    "category": "Pure 6-Operator 32-Algorithm DX7 Synthesis",
+    "tags": [
+      "desktop",
+      "pure 6-operator 32-algorithm dx7 synthesis",
+      "tx7"
+    ],
+    "sysex_dump": "F0 43 00 00 16 F7"
+  },
+  {
+    "number": 24,
+    "name": "Syn-Lead 2",
+    "bank": "Factory Voices",
+    "category": "Pure 6-Operator 32-Algorithm DX7 Synthesis",
+    "tags": [
+      "desktop",
+      "pure 6-operator 32-algorithm dx7 synthesis",
+      "tx7"
+    ],
+    "sysex_dump": "F0 43 00 00 17 F7"
+  },
+  {
+    "number": 25,
+    "name": "Voices 1",
+    "bank": "Factory Voices",
+    "category": "Pure 6-Operator 32-Algorithm DX7 Synthesis",
+    "tags": [
+      "desktop",
+      "pure 6-operator 32-algorithm dx7 synthesis",
+      "tx7"
+    ],
+    "sysex_dump": "F0 43 00 00 18 F7"
+  },
+  {
+    "number": 26,
+    "name": "Voices 2",
+    "bank": "Factory Voices",
+    "category": "Pure 6-Operator 32-Algorithm DX7 Synthesis",
+    "tags": [
+      "desktop",
+      "pure 6-operator 32-algorithm dx7 synthesis",
+      "tx7"
+    ],
+    "sysex_dump": "F0 43 00 00 19 F7"
+  },
+  {
+    "number": 27,
+    "name": "Marimba",
+    "bank": "Factory Voices",
+    "category": "Pure 6-Operator 32-Algorithm DX7 Synthesis",
+    "tags": [
+      "desktop",
+      "pure 6-operator 32-algorithm dx7 synthesis",
+      "tx7"
+    ],
+    "sysex_dump": "F0 43 00 00 1A F7"
+  },
+  {
+    "number": 28,
+    "name": "Vibe",
+    "bank": "Factory Voices",
+    "category": "Pure 6-Operator 32-Algorithm DX7 Synthesis",
+    "tags": [
+      "desktop",
+      "pure 6-operator 32-algorithm dx7 synthesis",
+      "tx7"
+    ],
+    "sysex_dump": "F0 43 00 00 1B F7"
+  },
+  {
+    "number": 29,
+    "name": "Steel Drum",
+    "bank": "Factory Voices",
+    "category": "Pure 6-Operator 32-Algorithm DX7 Synthesis",
+    "tags": [
+      "desktop",
+      "pure 6-operator 32-algorithm dx7 synthesis",
+      "tx7"
+    ],
+    "sysex_dump": "F0 43 00 00 1C F7"
+  },
+  {
+    "number": 30,
+    "name": "Timpani",
+    "bank": "Factory Voices",
+    "category": "Pure 6-Operator 32-Algorithm DX7 Synthesis",
+    "tags": [
+      "desktop",
+      "pure 6-operator 32-algorithm dx7 synthesis",
+      "tx7"
+    ],
+    "sysex_dump": "F0 43 00 00 1D F7"
+  },
+  {
+    "number": 31,
+    "name": "Take-off",
+    "bank": "Factory Voices",
+    "category": "Pure 6-Operator 32-Algorithm DX7 Synthesis",
+    "tags": [
+      "desktop",
+      "pure 6-operator 32-algorithm dx7 synthesis",
+      "tx7"
+    ],
+    "sysex_dump": "F0 43 00 00 1E F7"
+  },
+  {
+    "number": 32,
+    "name": "Master Tune",
+    "bank": "Factory Voices",
+    "category": "Pure 6-Operator 32-Algorithm DX7 Synthesis",
+    "tags": [
+      "desktop",
+      "pure 6-operator 32-algorithm dx7 synthesis",
+      "tx7"
+    ],
+    "sysex_dump": "F0 43 00 00 1F F7"
+  }
+]

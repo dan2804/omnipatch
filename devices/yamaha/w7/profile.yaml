@@ -1,0 +1,22 @@
+manufacturer: Yamaha
+model: W7
+type: 16-Track AWM2 Advanced Workstation
+year: 1994
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    resonance: 71
+    envelope_attack: 73
+    envelope_release: 72
+    reverb_send: 91
+    chorus_send: 93
+sysex:
+  header: F0 43 10 43
+  device_id_byte: 2
+  commands:
+    request_preset: F0 43 10 43 00 00 00 00 F7
+banks:
+- name: Preset Voices
+  type: ROM
+  size: 128

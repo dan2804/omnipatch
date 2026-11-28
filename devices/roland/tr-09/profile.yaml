@@ -1,0 +1,23 @@
+manufacturer: Roland
+model: TR-09
+type: Boutique Rhythm Composer
+year: 2016
+midi:
+  channels: 16
+  cc_map:
+    bd_tune: 20
+    bd_attack: 21
+    bd_decay: 22
+    sd_tune: 23
+    sd_snappy: 24
+    sd_decay: 25
+    ch_decay: 26
+sysex:
+  header: F0 41 10 00 00 00 2F 12
+  device_id_byte: 2
+  commands:
+    request_preset: F0 41 10 00 00 00 2F 11 00 00 00 00 01 00 7F F7
+banks:
+- name: Factory Patterns
+  type: ROM
+  size: 64

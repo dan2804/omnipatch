@@ -1,0 +1,25 @@
+manufacturer: Yamaha
+model: TG500
+type: 64-Voice 16-Part AWM2 Tone Generator
+year: 1992
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    resonance: 71
+    envelope_attack: 73
+    envelope_release: 72
+    reverb_send: 91
+    chorus_send: 93
+sysex:
+  header: F0 43 10 3C
+  device_id_byte: 2
+  commands:
+    request_preset: F0 43 10 3C 00 00 00 00 F7
+banks:
+- name: Preset Bank 1
+  type: ROM
+  size: 128
+- name: Preset Bank 2
+  type: ROM
+  size: 128

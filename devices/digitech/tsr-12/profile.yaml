@@ -1,0 +1,21 @@
+manufacturer: Digitech
+model: TSR-12
+type: 24-Bit True Stereo Digital Reverb & Effects
+year: 1994
+midi:
+  channels: 16
+  cc_map:
+    decay_time: 16
+    pre_delay: 17
+    fx_level: 91
+    chorus_depth: 18
+    flange_speed: 19
+sysex:
+  header: F0 00 00 1A 08
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 00 1A 08 01 00 F7
+banks:
+- name: Factory Presets
+  type: ROM
+  size: 99

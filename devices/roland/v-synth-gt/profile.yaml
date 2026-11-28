@@ -1,0 +1,26 @@
+manufacturer: Roland
+model: V-Synth GT
+type: Dual-Core Elastic Audio Synthesizer
+year: 2007
+midi:
+  channels: 16
+  cc_map:
+    time_trip_pad_x: 12
+    time_trip_pad_y: 13
+    filter_cutoff: 74
+    resonance: 71
+    ap_formant: 16
+    cosm1_param: 17
+    effects_level: 91
+sysex:
+  header: F0 41 10 00 00 24 12
+  device_id_byte: 2
+  commands:
+    request_preset: F0 41 10 00 00 24 11 00 00 00 00 01 00 7F F7
+banks:
+- name: Preset Bank 1
+  type: ROM
+  size: 128
+- name: Preset Bank 2
+  type: ROM
+  size: 128

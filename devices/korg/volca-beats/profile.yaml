@@ -1,0 +1,24 @@
+manufacturer: Korg
+model: Volca Beats
+type: Analogue Rhythm Machine
+year: 2013
+midi:
+  channels: 16
+  cc_map:
+    kick_click: 40
+    kick_pitch: 41
+    kick_decay: 42
+    snare_snappy: 43
+    snare_pitch: 44
+    snare_decay: 45
+    tom_decay: 46
+    hat_grain: 49
+sysex:
+  header: F0 42 30 00 01 2B
+  device_id_byte: 2
+  commands:
+    request_preset: F0 42 30 00 01 2B 10 F7
+banks:
+- name: Pattern Memory
+  type: ROM
+  size: 16

@@ -1,0 +1,25 @@
+manufacturer: Ensoniq
+model: ZR-76
+type: Music Workstation Synthesizer
+year: 1998
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    resonance: 71
+    envelope_attack: 73
+    envelope_release: 72
+    reverb_send: 91
+    chorus_send: 93
+sysex:
+  header: F0 0F 07 00
+  device_id_byte: 2
+  commands:
+    request_preset: F0 0F 07 00 01 00 F7
+banks:
+- name: SoundFinder Bank 1
+  type: ROM
+  size: 128
+- name: SoundFinder Bank 2
+  type: ROM
+  size: 128

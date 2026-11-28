@@ -1,0 +1,23 @@
+manufacturer: Clavia
+model: Nord Rack 2X
+type: 20-Voice Virtual Analog Rack Synthesizer
+year: 2003
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    resonance: 71
+    osc1_wave: 16
+    osc2_semitone: 17
+    osc2_wave: 18
+    envelope_attack: 73
+    envelope_decay: 72
+sysex:
+  header: F0 33 04
+  device_id_byte: 2
+  commands:
+    request_preset: F0 33 04 06 00 00 F7
+banks:
+- name: Bank 1
+  type: ROM
+  size: 100
