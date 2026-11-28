@@ -1,0 +1,22 @@
+manufacturer: DigiTech
+model: GFX-1
+type: Twin Tube Guitar Processor
+year: 1995
+midi:
+  channels: 16
+  cc_map:
+    gain: 16
+    master: 17
+    bass: 18
+    mid: 19
+    treble: 20
+    mix: 91
+sysex:
+  header: F0 00 00 1B 07
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 00 1B 07 01 00 F7
+banks:
+- name: Factory Presets
+  type: ROM
+  size: 99

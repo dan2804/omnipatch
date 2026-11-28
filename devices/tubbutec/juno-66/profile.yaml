@@ -1,0 +1,22 @@
+manufacturer: Tubbutec
+model: Juno-66
+type: Hardware MIDI Retrofit for Roland Juno-6 / 60
+year: 2014
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    portamento_time: 5
+    lfo_rate: 19
+    dco_detune: 94
+    bender: 1
+    chord_memory: 85
+sysex:
+  header: F0 00 21 23 01
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 21 23 01 01 00 F7
+banks:
+- name: Preset Bank
+  type: RAM
+  size: 64

@@ -1,0 +1,31 @@
+manufacturer: KiwiTechnics
+model: Kiwi-1000
+type: Hardware Engine Upgrade for Oberheim Matrix-1000
+year: 2017
+midi:
+  channels: 16
+  cc_map:
+    dco1_freq: 16
+    dco2_freq: 17
+    vcf_cutoff: 74
+    vcf_res: 71
+    lfo1_rate: 19
+    env1_attack: 73
+sysex:
+  header: F0 00 21 02 05
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 21 02 05 01 00 F7
+banks:
+- name: Flash Bank 1
+  type: RAM
+  size: 128
+- name: Flash Bank 2
+  type: RAM
+  size: 128
+- name: Flash Bank 3
+  type: RAM
+  size: 128
+- name: Flash Bank 4
+  type: RAM
+  size: 128

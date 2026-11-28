@@ -1,0 +1,25 @@
+manufacturer: Korg
+model: TR-76
+type: 76-Key HI Synthesis Music Workstation
+year: 2006
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    resonance: 71
+    eg_intensity: 79
+    eg_release: 72
+    knob_a: 16
+    knob_b: 17
+sysex:
+  header: F0 42 30 76
+  device_id_byte: 2
+  commands:
+    request_preset: F0 42 30 76 10 00 00 F7
+banks:
+- name: Bank A Programs
+  type: ROM
+  size: 128
+- name: Bank B Programs
+  type: ROM
+  size: 128

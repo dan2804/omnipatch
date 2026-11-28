@@ -1,0 +1,22 @@
+manufacturer: Roland
+model: SRV-3030
+type: 24-Bit 3D Spatial Digital Reverb Processor
+year: 1999
+midi:
+  channels: 16
+  cc_map:
+    rev_time: 16
+    pre_delay: 17
+    density: 18
+    rss_azimuth: 19
+    rss_elevation: 20
+    mix_balance: 91
+sysex:
+  header: F0 41 10 00 13 12
+  device_id_byte: 2
+  commands:
+    request_preset: F0 41 10 00 13 11 00 00 00 00 01 00 7F F7
+banks:
+- name: Preset Bank
+  type: ROM
+  size: 100

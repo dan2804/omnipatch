@@ -1,0 +1,23 @@
+manufacturer: Korg
+model: i4S
+type: Interactive Music Workstation
+year: 1994
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    reverb_depth: 91
+    chorus_depth: 93
+sysex:
+  header: F0 42 30 3E
+  device_id_byte: 2
+  commands:
+    request_preset: F0 42 30 3E 10 00 00 F7
+banks:
+- name: Bank A Programs
+  type: ROM
+  size: 64
+- name: Bank B Programs
+  type: ROM
+  size: 64

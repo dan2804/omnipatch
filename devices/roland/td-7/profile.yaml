@@ -1,0 +1,21 @@
+manufacturer: Roland
+model: TD-7
+type: Electronic Percussion Sound Module
+year: 1992
+midi:
+  channels: 16
+  cc_map:
+    pitch: 16
+    decay: 17
+    reverb_level: 91
+    chorus_level: 93
+    flange: 94
+sysex:
+  header: F0 41 10 4E 12
+  device_id_byte: 2
+  commands:
+    request_preset: F0 41 10 4E 11 00 00 00 00 01 00 7F F7
+banks:
+- name: Preset Kits
+  type: ROM
+  size: 32

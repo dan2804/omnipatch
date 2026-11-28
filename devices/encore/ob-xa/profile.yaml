@@ -1,0 +1,23 @@
+manufacturer: Encore Electronics
+model: Encore OB-Xa
+type: 120-Patch MIDI Retrofit for Oberheim OB-Xa
+year: 1999
+midi:
+  channels: 16
+  cc_map:
+    vcf_cutoff: 74
+    vcf_resonance: 71
+    lfo_speed: 19
+    filter_env_amt: 16
+sysex:
+  header: F0 00 20 1A 01
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 20 1A 01 01 00 F7
+banks:
+- name: Encore Bank A
+  type: RAM
+  size: 60
+- name: Encore Bank B
+  type: RAM
+  size: 60

@@ -1,0 +1,22 @@
+manufacturer: Europa
+model: Europa Jupiter 6
+type: Full Engine & Arp MIDI Upgrade for Roland Jupiter-6
+year: 2007
+midi:
+  channels: 16
+  cc_map:
+    vco1_range: 16
+    vco2_range: 17
+    cross_mod: 18
+    vcf_cutoff: 74
+    vcf_res: 71
+    arp_clock: 85
+sysex:
+  header: F0 41 10 06 12
+  device_id_byte: 2
+  commands:
+    request_preset: F0 41 10 06 11 00 00 00 00 01 00 7F F7
+banks:
+- name: Europa Presets
+  type: RAM
+  size: 96

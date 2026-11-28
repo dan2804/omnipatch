@@ -1,0 +1,48 @@
+manufacturer: Doepfer
+model: Drehbank
+type: 64-Knob MIDI Rotary Controller Console
+year: 1998
+midi:
+  channels: 16
+  cc_map:
+    knob_1: 1
+    knob_2: 2
+    knob_3: 3
+    knob_4: 4
+    knob_5: 5
+    knob_6: 6
+    knob_7: 7
+    knob_8: 8
+    knob_9: 9
+    knob_10: 10
+    knob_11: 11
+    knob_12: 12
+    knob_13: 13
+    knob_14: 14
+    knob_15: 15
+    knob_16: 16
+    knob_17: 17
+    knob_18: 18
+    knob_19: 19
+    knob_20: 20
+    knob_21: 21
+    knob_22: 22
+    knob_23: 23
+    knob_24: 24
+    knob_25: 25
+    knob_26: 26
+    knob_27: 27
+    knob_28: 28
+    knob_29: 29
+    knob_30: 30
+    knob_31: 31
+    knob_32: 32
+sysex:
+  header: F0 00 20 20 61
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 20 20 61 01 00 F7
+banks:
+- name: Bank Presets
+  type: RAM
+  size: 8

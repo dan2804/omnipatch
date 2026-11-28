@@ -1,0 +1,32 @@
+manufacturer: Peavey
+model: PC-1600
+type: Studio MIDI Fader Controller
+year: 1993
+midi:
+  channels: 16
+  cc_map:
+    fader_1: 1
+    fader_2: 2
+    fader_3: 3
+    fader_4: 4
+    fader_5: 5
+    fader_6: 6
+    fader_7: 7
+    fader_8: 8
+    fader_9: 9
+    fader_10: 10
+    fader_11: 11
+    fader_12: 12
+    fader_13: 13
+    fader_14: 14
+    fader_15: 15
+    fader_16: 16
+sysex:
+  header: F0 00 00 1B 40
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 00 1B 40 01 00 F7
+banks:
+- name: Preset Setups
+  type: RAM
+  size: 50

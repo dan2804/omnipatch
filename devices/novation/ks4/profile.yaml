@@ -1,0 +1,25 @@
+manufacturer: Novation
+model: KS4
+type: 49-Key Liquid Analog Synthesizer
+year: 2002
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 105
+    resonance: 106
+    osc1_semitone: 40
+    osc2_semitone: 47
+    lfo1_speed: 82
+    env_attack: 73
+sysex:
+  header: F0 00 20 29 01 32
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 20 29 01 32 01 00 F7
+banks:
+- name: Program Bank 1
+  type: RAM
+  size: 100
+- name: Program Bank 2
+  type: RAM
+  size: 100

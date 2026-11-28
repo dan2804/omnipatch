@@ -1,0 +1,31 @@
+manufacturer: KiwiTechnics
+model: Kiwi-SuperJX
+type: Hardware Engine Upgrade for Roland JX-10 / MKS-70
+year: 2018
+midi:
+  channels: 16
+  cc_map:
+    dco1_wave: 16
+    dco2_wave: 17
+    vcf_cutoff: 74
+    vcf_res: 71
+    lfo1_rate: 19
+    env1_attack: 73
+sysex:
+  header: F0 00 21 02 04
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 21 02 04 01 00 F7
+banks:
+- name: Kiwi SuperJX Bank 1
+  type: RAM
+  size: 128
+- name: Kiwi SuperJX Bank 2
+  type: RAM
+  size: 128
+- name: Kiwi SuperJX Bank 3
+  type: RAM
+  size: 128
+- name: Kiwi SuperJX Bank 4
+  type: RAM
+  size: 128

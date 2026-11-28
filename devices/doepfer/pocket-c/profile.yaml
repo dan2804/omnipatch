@@ -1,0 +1,32 @@
+manufacturer: Doepfer
+model: Pocket C
+type: Pocket MIDI Rotary Controller
+year: 2000
+midi:
+  channels: 16
+  cc_map:
+    knob_1: 1
+    knob_2: 2
+    knob_3: 3
+    knob_4: 4
+    knob_5: 5
+    knob_6: 6
+    knob_7: 7
+    knob_8: 8
+    knob_9: 9
+    knob_10: 10
+    knob_11: 11
+    knob_12: 12
+    knob_13: 13
+    knob_14: 14
+    knob_15: 15
+    knob_16: 16
+sysex:
+  header: F0 00 20 20 62
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 20 20 62 01 00 F7
+banks:
+- name: Control Templates
+  type: RAM
+  size: 16

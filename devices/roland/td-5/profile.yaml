@@ -1,0 +1,19 @@
+manufacturer: Roland
+model: TD-5
+type: V-Drums Percussion Brain
+year: 1994
+midi:
+  channels: 16
+  cc_map:
+    tune: 16
+    pan: 10
+    reverb_send: 91
+sysex:
+  header: F0 41 10 63 12
+  device_id_byte: 2
+  commands:
+    request_preset: F0 41 10 63 11 00 00 00 00 01 00 7F F7
+banks:
+- name: Preset Kits
+  type: ROM
+  size: 32
