@@ -1,0 +1,1132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roland Juno-106 — Windows 8 Metro UI Hardware Editor</title>
+  <script src="tailwindcss.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@300;400;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap');
+
+    * {
+      border-radius: 0px !important; /* Strict Windows 8 Metro Principle */
+      box-sizing: border-box;
+    }
+
+    :root {
+      --juno-chassis: #16181d;
+      --juno-panel: #111215;
+      --juno-tile: #1a1c22;
+      --juno-tile-border: #282b34;
+      --juno-blue: #00a8e8;
+      --juno-orange: #ff6b35;
+      --juno-yellow: #f7c948;
+      --juno-red: #e63946;
+      --juno-green: #10b981;
+      --juno-slate: #8b92a5;
+    }
+
+    body {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--juno-chassis);
+      color: #ffffff;
+      user-select: none;
+      overflow-x: auto;
+      overflow-y: hidden;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+    }
+
+    .font-mono-code {
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* Windows 8 Metro Flat Scrollbars */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #0f1013;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #2a2d38;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: var(--juno-blue);
+    }
+
+    /* Metro Tile */
+    .metro-tile {
+      background: var(--juno-tile);
+      border: 1px solid var(--juno-tile-border);
+      transition: border-color 0.1s ease, background-color 0.1s ease;
+    }
+    .metro-tile:hover {
+      border-color: var(--juno-blue);
+    }
+
+    /* Metro Sliders */
+    input[type=range] {
+      -webkit-appearance: none;
+      background: #282b34;
+      height: 6px;
+      outline: none;
+      width: 100%;
+    }
+    input[type=range]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 16px;
+      height: 28px;
+      background: #ffffff;
+      border: 1px solid #000000;
+      cursor: pointer;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+      transition: background-color 0.08s ease, transform 0.08s ease;
+    }
+    input[type=range]::-webkit-slider-thumb:hover {
+      background: var(--juno-blue);
+      transform: scaleY(1.08);
+    }
+    .slider-orange::-webkit-slider-thumb:hover {
+      background: var(--juno-orange) !important;
+    }
+    .slider-red::-webkit-slider-thumb:hover {
+      background: var(--juno-red) !important;
+    }
+    .slider-yellow::-webkit-slider-thumb:hover {
+      background: var(--juno-yellow) !important;
+    }
+    .slider-green::-webkit-slider-thumb:hover {
+      background: var(--juno-green) !important;
+    }
+
+    /* Metro Toggle / Button */
+    .metro-btn {
+      background: #20232b;
+      border: 1px solid #323642;
+      color: #cbd5e1;
+      padding: 6px 10px;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      cursor: pointer;
+      transition: all 0.08s ease;
+    }
+    .metro-btn:hover {
+      background: #2d323e;
+      color: #ffffff;
+      border-color: #ffffff;
+    }
+    .metro-btn.active {
+      background: var(--juno-blue);
+      color: #000000;
+      border-color: #ffffff;
+      font-weight: 700;
+    }
+    .metro-btn.active-orange {
+      background: var(--juno-orange) !important;
+      color: #ffffff !important;
+    }
+    .metro-btn.active-red {
+      background: var(--juno-red) !important;
+      color: #ffffff !important;
+    }
+    .metro-btn.active-green {
+      background: var(--juno-green) !important;
+      color: #000000 !important;
+    }
+
+    /* Keyboard Keys */
+    .key-white {
+      background: #ffffff;
+      border: 1px solid #222222;
+      height: 100px;
+      cursor: pointer;
+      display: inline-block;
+      vertical-align: top;
+      transition: background-color 0.05s ease;
+    }
+    .key-white:active, .key-white.pressed {
+      background: #dbeafe !important;
+    }
+    .key-black {
+      background: #111111;
+      border: 1px solid #000000;
+      height: 62px;
+      width: 22px;
+      margin-left: -11px;
+      margin-right: -11px;
+      z-index: 10;
+      position: relative;
+      cursor: pointer;
+      display: inline-block;
+      vertical-align: top;
+      transition: background-color 0.05s ease;
+    }
+    .key-black:active, .key-black.pressed {
+      background: var(--juno-blue) !important;
+    }
+
+    /* LED Pulse */
+    @keyframes led-blink {
+      0%, 100% { opacity: 1; filter: drop-shadow(0 0 4px var(--juno-green)); }
+      50% { opacity: 0.3; filter: none; }
+    }
+    .led-active {
+      animation: led-blink 1.2s infinite ease-in-out;
+    }
+  </style>
+</head>
+<body class="flex flex-col h-screen select-none">
+
+  <!-- TOP WINDOWS 8 METRO APP BAR -->
+  <header class="bg-[#0f1013] border-b border-[#252830] px-6 py-3 flex items-center justify-between shrink-0">
+    <div class="flex items-center space-x-6">
+      <a href="metro_studio.html" class="w-8 h-8 flex items-center justify-center border border-[#3b3f4d] hover:border-white text-gray-300 hover:text-white transition">
+        ←
+      </a>
+      <div>
+        <div class="text-[10px] uppercase font-bold tracking-widest text-[#00a8e8]">Windows 8 Modern Synthesizer Studio</div>
+        <h1 class="text-2xl font-light tracking-wide text-white flex items-center gap-3">
+          ROLAND <span class="font-bold text-[#00a8e8]">JUNO-106</span>
+          <span class="text-xs bg-[#20232b] text-[#8b92a5] px-2 py-0.5 border border-[#323642] font-mono-code font-normal">1984 · DCO ANALOG POLY</span>
+        </h1>
+      </div>
+    </div>
+
+    <!-- Active Patch & MIDI Status -->
+    <div class="flex items-center space-x-4">
+      <div class="bg-[#181a20] border border-[#2d313c] px-4 py-1.5 flex items-center space-x-3">
+        <span class="text-[11px] text-[#8b92a5] font-semibold uppercase">Active Preset:</span>
+        <span id="currentPatchName" class="text-sm font-bold text-white font-mono-code">A-11 String Ens 1</span>
+        <span id="currentPatchCategory" class="text-[10px] bg-[#ff6b35] text-white px-2 py-0.5 font-bold uppercase">STRINGS</span>
+      </div>
+
+      <div class="flex items-center space-x-2 bg-[#181a20] border border-[#2d313c] px-3 py-1.5">
+        <div id="midiIndicator" class="w-2.5 h-2.5 bg-gray-500"></div>
+        <span id="midiStatusText" class="text-xs font-mono-code text-gray-400">MIDI: Standby</span>
+      </div>
+
+      <button id="btnExportSysEx" class="metro-btn border-white hover:bg-[#00a8e8] hover:text-black">
+        Export .SYX
+      </button>
+    </div>
+  </header>
+
+  <!-- MAIN HORIZONTAL METRO PANORAMA HUB -->
+  <main class="flex-1 flex overflow-x-auto overflow-y-hidden px-8 py-5 space-x-6">
+
+    <!-- COLUMN 1: DCO (DIGITALLY CONTROLLED OSCILLATOR) -->
+    <section class="w-80 shrink-0 flex flex-col space-y-4">
+      <div class="border-b-2 border-[#ff6b35] pb-1 flex justify-between items-baseline">
+        <h2 class="text-sm font-bold tracking-wider uppercase text-white flex items-center gap-2">
+          <span class="w-2.5 h-2.5 bg-[#ff6b35] inline-block"></span> DCO · Oscillator
+        </h2>
+        <span class="text-[10px] text-gray-400 font-mono-code">Roland MC-4</span>
+      </div>
+
+      <div class="metro-tile p-4 flex-1 flex flex-col justify-between space-y-4">
+        <!-- Octave Range -->
+        <div>
+          <label class="text-[11px] font-semibold text-gray-300 uppercase block mb-1.5">Range (Footage)</label>
+          <div class="grid grid-cols-3 gap-1">
+            <button class="metro-btn dco-range-btn" data-val="16">16'</button>
+            <button class="metro-btn dco-range-btn active active-orange" data-val="8">8'</button>
+            <button class="metro-btn dco-range-btn" data-val="4">4'</button>
+          </div>
+        </div>
+
+        <!-- Waveforms -->
+        <div>
+          <label class="text-[11px] font-semibold text-gray-300 uppercase block mb-1.5">Waveform Generators</label>
+          <div class="grid grid-cols-2 gap-2">
+            <button id="btnPulseWave" class="metro-btn active active-orange text-center py-2">Pulse [ ⎍ ]</button>
+            <button id="btnSawWave" class="metro-btn active active-orange text-center py-2">Saw [ ⩘ ]</button>
+          </div>
+        </div>
+
+        <!-- PWM Source -->
+        <div>
+          <label class="text-[11px] font-semibold text-gray-300 uppercase block mb-1.5">PWM Source</label>
+          <div class="grid grid-cols-2 gap-1">
+            <button class="metro-btn pwm-src-btn" data-val="Manual">Manual</button>
+            <button class="metro-btn pwm-src-btn active active-orange" data-val="LFO">LFO</button>
+          </div>
+        </div>
+
+        <!-- PWM Mod Level -->
+        <div>
+          <div class="flex justify-between text-[11px] font-mono-code mb-1">
+            <span class="text-gray-300">PWM Level</span>
+            <span id="val_dco_pwm_mod" class="text-[#ff6b35] font-bold">64</span>
+          </div>
+          <input type="range" id="param_dco_pwm_mod" class="slider-orange" min="0" max="127" value="64">
+        </div>
+
+        <!-- LFO Mod Level -->
+        <div>
+          <div class="flex justify-between text-[11px] font-mono-code mb-1">
+            <span class="text-gray-300">LFO Pitch Mod</span>
+            <span id="val_dco_lfo_mod" class="text-[#ff6b35] font-bold">0</span>
+          </div>
+          <input type="range" id="param_dco_lfo_mod" class="slider-orange" min="0" max="127" value="0">
+        </div>
+
+        <!-- Sub Oscillator -->
+        <div>
+          <div class="flex justify-between text-[11px] font-mono-code mb-1">
+            <span class="text-gray-300">Sub-Oscillator Level</span>
+            <span id="val_sub_level" class="text-[#ff6b35] font-bold">64</span>
+          </div>
+          <input type="range" id="param_sub_level" class="slider-orange" min="0" max="127" value="64">
+        </div>
+
+        <!-- Noise Generator -->
+        <div>
+          <div class="flex justify-between text-[11px] font-mono-code mb-1">
+            <span class="text-gray-300">Noise Generator Level</span>
+            <span id="val_noise_level" class="text-[#ff6b35] font-bold">0</span>
+          </div>
+          <input type="range" id="param_noise_level" class="slider-orange" min="0" max="127" value="0">
+        </div>
+      </div>
+    </section>
+
+
+    <!-- COLUMN 2: HPF & VCF (FILTERS) -->
+    <section class="w-80 shrink-0 flex flex-col space-y-4">
+      <div class="border-b-2 border-[#e63946] pb-1 flex justify-between items-baseline">
+        <h2 class="text-sm font-bold tracking-wider uppercase text-white flex items-center gap-2">
+          <span class="w-2.5 h-2.5 bg-[#e63946] inline-block"></span> HPF & VCF · Filter
+        </h2>
+        <span class="text-[10px] text-gray-400 font-mono-code">Roland 80017A</span>
+      </div>
+
+      <div class="metro-tile p-4 flex-1 flex flex-col justify-between space-y-4">
+        <!-- HPF Position -->
+        <div>
+          <label class="text-[11px] font-semibold text-gray-300 uppercase block mb-1.5">HPF Cutoff</label>
+          <div class="grid grid-cols-4 gap-1">
+            <button class="metro-btn hpf-btn active active-red" data-val="0">0 (Boost)</button>
+            <button class="metro-btn hpf-btn" data-val="1">1</button>
+            <button class="metro-btn hpf-btn" data-val="2">2</button>
+            <button class="metro-btn hpf-btn" data-val="3">3</button>
+          </div>
+        </div>
+
+        <!-- VCF Cutoff -->
+        <div>
+          <div class="flex justify-between text-[11px] font-mono-code mb-1">
+            <span class="text-gray-300 font-bold">VCF Cutoff Frequency</span>
+            <span id="val_vcf_cutoff" class="text-[#e63946] font-bold">80</span>
+          </div>
+          <input type="range" id="param_vcf_cutoff" class="slider-red" min="0" max="127" value="80">
+        </div>
+
+        <!-- VCF Resonance -->
+        <div>
+          <div class="flex justify-between text-[11px] font-mono-code mb-1">
+            <span class="text-gray-300 font-bold">VCF Resonance (Self-Osc)</span>
+            <span id="val_vcf_resonance" class="text-[#e63946] font-bold">30</span>
+          </div>
+          <input type="range" id="param_vcf_resonance" class="slider-red" min="0" max="127" value="30">
+        </div>
+
+        <!-- Envelope Modulation -->
+        <div>
+          <div class="flex justify-between text-[11px] font-mono-code mb-1">
+            <span class="text-gray-300">Envelope Mod Depth</span>
+            <span id="val_vcf_env_mod" class="text-[#e63946] font-bold">60</span>
+          </div>
+          <input type="range" id="param_vcf_env_mod" class="slider-red" min="0" max="127" value="60">
+        </div>
+
+        <!-- Envelope Polarity -->
+        <div>
+          <label class="text-[11px] font-semibold text-gray-300 uppercase block mb-1.5">Env Polarity</label>
+          <div class="grid grid-cols-2 gap-1">
+            <button class="metro-btn vcf-polarity-btn active active-red" data-val="Positive">Normal (+)</button>
+            <button class="metro-btn vcf-polarity-btn" data-val="Inverted">Inverted (-)</button>
+          </div>
+        </div>
+
+        <!-- Keyboard Tracking -->
+        <div>
+          <div class="flex justify-between text-[11px] font-mono-code mb-1">
+            <span class="text-gray-300">Keyboard Tracking</span>
+            <span id="val_vcf_key_follow" class="text-[#e63946] font-bold">100%</span>
+          </div>
+          <input type="range" id="param_vcf_key_follow" class="slider-red" min="0" max="100" value="100">
+        </div>
+
+        <!-- Filter Specs Note -->
+        <div class="p-2 bg-[#121316] border border-[#252830] text-[10px] text-gray-400 font-mono-code leading-relaxed">
+          4-Pole 24dB/oct IR3109 Resonant Lowpass Filter with custom Roland 80017A hybrid package.
+        </div>
+      </div>
+    </section>
+
+
+    <!-- COLUMN 3: VCA & STEREO CHORUS -->
+    <section class="w-80 shrink-0 flex flex-col space-y-4">
+      <div class="border-b-2 border-[#10b981] pb-1 flex justify-between items-baseline">
+        <h2 class="text-sm font-bold tracking-wider uppercase text-white flex items-center gap-2">
+          <span class="w-2.5 h-2.5 bg-[#10b981] inline-block"></span> VCA & BBD Chorus
+        </h2>
+        <span class="text-[10px] text-gray-400 font-mono-code">MN3009 BBD</span>
+      </div>
+
+      <div class="metro-tile p-4 flex-1 flex flex-col justify-between space-y-4">
+        <!-- VCA Mode -->
+        <div>
+          <label class="text-[11px] font-semibold text-gray-300 uppercase block mb-1.5">VCA Mode</label>
+          <div class="grid grid-cols-2 gap-1">
+            <button class="metro-btn vca-mode-btn" data-val="Gate">Gate</button>
+            <button class="metro-btn vca-mode-btn active active-green" data-val="Envelope">Envelope</button>
+          </div>
+        </div>
+
+        <!-- VCA Level -->
+        <div>
+          <div class="flex justify-between text-[11px] font-mono-code mb-1">
+            <span class="text-gray-300 font-bold">VCA Output Level</span>
+            <span id="val_vca_level" class="text-[#10b981] font-bold">100</span>
+          </div>
+          <input type="range" id="param_vca_level" class="slider-green" min="0" max="127" value="100">
+        </div>
+
+        <!-- Stereo BBD Chorus -->
+        <div class="bg-[#121418] border border-[#222630] p-3 space-y-2.5">
+          <div class="flex justify-between items-center">
+            <label class="text-[11px] font-bold text-white uppercase tracking-wider">Dual BBD Chorus</label>
+            <div id="chorusLed" class="w-2 h-2 bg-[#10b981] led-active"></div>
+          </div>
+          <div class="grid grid-cols-4 gap-1">
+            <button class="metro-btn chorus-btn" data-val="Off">Off</button>
+            <button class="metro-btn chorus-btn active active-green" data-val="Chorus I">I (Mild)</button>
+            <button class="metro-btn chorus-btn" data-val="Chorus II">II (Rich)</button>
+            <button class="metro-btn chorus-btn" data-val="Chorus I+II">I+II (Rotary)</button>
+          </div>
+          <p class="text-[10px] text-gray-400 leading-tight">
+            Analog Bucket-Brigade Delay (BBD) stereo ensemble with characteristic analog warm drift and swirl.
+          </p>
+        </div>
+
+        <!-- Master Tuning & Volume -->
+        <div class="space-y-3 pt-2 border-t border-[#252830]">
+          <div>
+            <div class="flex justify-between text-[11px] font-mono-code mb-1">
+              <span class="text-gray-300">Master Volume</span>
+              <span id="val_master_vol" class="text-white font-bold">90%</span>
+            </div>
+            <input type="range" id="param_master_vol" min="0" max="100" value="90">
+          </div>
+          <div>
+            <div class="flex justify-between text-[11px] font-mono-code mb-1">
+              <span class="text-gray-300">Fine Tune</span>
+              <span id="val_master_tune" class="text-white font-bold">0 ct</span>
+            </div>
+            <input type="range" id="param_master_tune" min="-50" max="50" value="0">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- COLUMN 4: ENVELOPE (ADSR) -->
+    <section class="w-80 shrink-0 flex flex-col space-y-4">
+      <div class="border-b-2 border-[#f7c948] pb-1 flex justify-between items-baseline">
+        <h2 class="text-sm font-bold tracking-wider uppercase text-white flex items-center gap-2">
+          <span class="w-2.5 h-2.5 bg-[#f7c948] inline-block"></span> Envelope · ADSR
+        </h2>
+        <span class="text-[10px] text-gray-400 font-mono-code">Analog Transient</span>
+      </div>
+
+      <div class="metro-tile p-4 flex-1 flex flex-col justify-between space-y-4">
+        <!-- Attack -->
+        <div>
+          <div class="flex justify-between text-[11px] font-mono-code mb-1">
+            <span class="text-gray-300">Attack Time</span>
+            <span id="val_env_attack" class="text-[#f7c948] font-bold">10</span>
+          </div>
+          <input type="range" id="param_env_attack" class="slider-yellow" min="0" max="127" value="10">
+        </div>
+
+        <!-- Decay -->
+        <div>
+          <div class="flex justify-between text-[11px] font-mono-code mb-1">
+            <span class="text-gray-300">Decay Time</span>
+            <span id="val_env_decay" class="text-[#f7c948] font-bold">50</span>
+          </div>
+          <input type="range" id="param_env_decay" class="slider-yellow" min="0" max="127" value="50">
+        </div>
+
+        <!-- Sustain -->
+        <div>
+          <div class="flex justify-between text-[11px] font-mono-code mb-1">
+            <span class="text-gray-300">Sustain Level</span>
+            <span id="val_env_sustain" class="text-[#f7c948] font-bold">85</span>
+          </div>
+          <input type="range" id="param_env_sustain" class="slider-yellow" min="0" max="127" value="85">
+        </div>
+
+        <!-- Release -->
+        <div>
+          <div class="flex justify-between text-[11px] font-mono-code mb-1">
+            <span class="text-gray-300">Release Time</span>
+            <span id="val_env_release" class="text-[#f7c948] font-bold">35</span>
+          </div>
+          <input type="range" id="param_env_release" class="slider-yellow" min="0" max="127" value="35">
+        </div>
+
+        <!-- Visual ADSR Curve -->
+        <div class="bg-[#121316] border border-[#252830] p-3 flex flex-col items-center">
+          <canvas id="adsrCanvas" width="260" height="90" class="w-full bg-[#0a0a0c] border border-[#1e2026]"></canvas>
+          <div class="flex justify-between w-full text-[9px] font-mono-code text-gray-500 mt-1">
+            <span>0 ms</span>
+            <span>ATTACK</span>
+            <span>DECAY</span>
+            <span>SUSTAIN</span>
+            <span>RELEASE</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- COLUMN 5: LFO (LOW FREQUENCY OSCILLATOR) -->
+    <section class="w-80 shrink-0 flex flex-col space-y-4">
+      <div class="border-b-2 border-[#00a8e8] pb-1 flex justify-between items-baseline">
+        <h2 class="text-sm font-bold tracking-wider uppercase text-white flex items-center gap-2">
+          <span class="w-2.5 h-2.5 bg-[#00a8e8] inline-block"></span> LFO · Modulation
+        </h2>
+        <span class="text-[10px] text-gray-400 font-mono-code">Triangle Sub</span>
+      </div>
+
+      <div class="metro-tile p-4 flex-1 flex flex-col justify-between space-y-4">
+        <!-- Rate -->
+        <div>
+          <div class="flex justify-between text-[11px] font-mono-code mb-1">
+            <span class="text-gray-300 font-bold">LFO Rate</span>
+            <span id="val_lfo_rate" class="text-[#00a8e8] font-bold">50</span>
+          </div>
+          <input type="range" id="param_lfo_rate" min="0" max="127" value="50">
+        </div>
+
+        <!-- Delay Time -->
+        <div>
+          <div class="flex justify-between text-[11px] font-mono-code mb-1">
+            <span class="text-gray-300">LFO Delay Time</span>
+            <span id="val_lfo_delay" class="text-[#00a8e8] font-bold">20</span>
+          </div>
+          <input type="range" id="param_lfo_delay" min="0" max="127" value="20">
+        </div>
+
+        <!-- Real-Time SysEx Monitor Tile -->
+        <div class="bg-[#101216] border border-[#232630] p-3 flex-1 flex flex-col justify-between">
+          <div class="flex justify-between items-center mb-1">
+            <span class="text-[10px] font-bold uppercase text-[#00a8e8] tracking-widest">Roland SysEx Out</span>
+            <span class="text-[9px] text-gray-500 font-mono-code">31.25 kBaud</span>
+          </div>
+          <div id="sysexMonitor" class="font-mono-code text-[11px] text-[#34d399] bg-[#08090b] p-2 border border-[#1b1d24] h-20 overflow-y-auto leading-relaxed break-all">
+            F0 41 32 00 08 50 F7
+          </div>
+          <div class="text-[10px] text-gray-400 mt-2">
+            Auto-dispatches Roland continuous slider SysEx to hardware and connected Web MIDI port.
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- COLUMN 6: FACTORY LIBRARIAN (128 AUTHENTIC PRESETS) -->
+    <section class="w-96 shrink-0 flex flex-col space-y-4">
+      <div class="border-b-2 border-white pb-1 flex justify-between items-baseline">
+        <h2 class="text-sm font-bold tracking-wider uppercase text-white flex items-center gap-2">
+          <span class="w-2.5 h-2.5 bg-white inline-block"></span> Factory Preset Banks
+        </h2>
+        <span class="text-[10px] text-gray-400 font-mono-code">128 Patches</span>
+      </div>
+
+      <div class="metro-tile p-3 flex-1 flex flex-col space-y-3">
+        <!-- Search -->
+        <div class="relative">
+          <input type="text" id="presetSearch" placeholder="Filter 128 factory presets..." class="w-full bg-[#101216] border border-[#2a2d38] px-3 py-1.5 text-xs text-white placeholder-gray-500 outline-none focus:border-[#00a8e8] font-mono-code">
+        </div>
+
+        <!-- Bank Filter Tabs -->
+        <div class="grid grid-cols-2 gap-1">
+          <button id="btnGroupA" class="metro-btn active">Group A (64)</button>
+          <button id="btnGroupB" class="metro-btn">Group B (64)</button>
+        </div>
+
+        <!-- Presets List (Scrollable) -->
+        <div id="presetListContainer" class="flex-1 overflow-y-auto space-y-1 pr-1 max-h-[340px]">
+          <!-- Injected via JavaScript -->
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- BOTTOM 61-KEY ON-SCREEN KEYBOARD & CONTROLLER BAR -->
+  <footer class="bg-[#0c0d10] border-t border-[#20222a] p-3 flex flex-col items-center justify-center shrink-0">
+    <div class="flex items-center justify-between w-full max-w-6xl mb-2 px-2 text-[11px] text-gray-400">
+      <div class="flex items-center space-x-3">
+        <span>Click / Tap keys or use computer keyboard (A-K = White keys, W-E-T-Y-U = Black keys)</span>
+      </div>
+      <div class="flex items-center space-x-4">
+        <span>Octave: <strong id="octaveDisplay" class="text-white font-mono-code">C3 - C5</strong></span>
+        <button id="octDown" class="metro-btn py-0.5 px-2">Oct -</button>
+        <button id="octUp" class="metro-btn py-0.5 px-2">Oct +</button>
+      </div>
+    </div>
+
+    <!-- Virtual Keys Container -->
+    <div id="keyboard" class="overflow-x-auto whitespace-nowrap py-1">
+      <!-- 25 Keys rendered in JS -->
+    </div>
+  </footer>
+
+  <!-- JUNO-106 WEB AUDIO SYNTH ENGINE & METRO CONTROLLER JS -->
+  <script>
+    // --- 1. JUNO-106 FACTORY PRESET DATA (SAMPLE SET OF FAMOUS PRESETS) ---
+    const JUNO_PRESETS = [
+      { id: "A-11", name: "A-11 String Ens 1", group: "A", category: "STRINGS", dco_range: 8, pulse: true, saw: true, sub: 70, noise: 0, pwm: 60, pwm_src: "LFO", lfo_rate: 55, lfo_delay: 20, lfo_mod: 0, hpf: 0, vcf_cutoff: 75, vcf_res: 15, vcf_env: 50, vcf_pol: "Positive", vcf_key: 100, vca_mode: "Envelope", vca_lvl: 100, chorus: "Chorus I", att: 25, dec: 60, sus: 95, rel: 45 },
+      { id: "A-12", name: "A-12 String Ens 2", group: "A", category: "STRINGS", dco_range: 8, pulse: true, saw: true, sub: 90, noise: 0, pwm: 80, pwm_src: "LFO", lfo_rate: 65, lfo_delay: 15, lfo_mod: 0, hpf: 1, vcf_cutoff: 88, vcf_res: 20, vcf_env: 40, vcf_pol: "Positive", vcf_key: 100, vca_mode: "Envelope", vca_lvl: 100, chorus: "Chorus II", att: 35, dec: 70, sus: 100, rel: 55 },
+      { id: "A-13", name: "A-13 Organ 1", group: "A", category: "KEYBOARD", dco_range: 16, pulse: true, saw: false, sub: 100, noise: 0, pwm: 0, pwm_src: "Manual", lfo_rate: 0, lfo_delay: 0, lfo_mod: 0, hpf: 0, vcf_cutoff: 110, vcf_res: 0, vcf_env: 0, vcf_pol: "Positive", vcf_key: 100, vca_mode: "Gate", vca_lvl: 100, chorus: "Chorus I+II", att: 0, dec: 0, sus: 127, rel: 0 },
+      { id: "A-14", name: "A-14 Organ 2", group: "A", category: "KEYBOARD", dco_range: 8, pulse: true, saw: true, sub: 80, noise: 0, pwm: 50, pwm_src: "Manual", lfo_rate: 0, lfo_delay: 0, lfo_mod: 0, hpf: 1, vcf_cutoff: 95, vcf_res: 10, vcf_env: 15, vcf_pol: "Positive", vcf_key: 100, vca_mode: "Gate", vca_lvl: 100, chorus: "Chorus I", att: 0, dec: 10, sus: 127, rel: 5 },
+      { id: "A-15", name: "A-15 Brass 1", group: "A", category: "BRASS", dco_range: 8, pulse: false, saw: true, sub: 45, noise: 0, pwm: 0, pwm_src: "Manual", lfo_rate: 45, lfo_delay: 30, lfo_mod: 5, hpf: 0, vcf_cutoff: 60, vcf_res: 35, vcf_env: 85, vcf_pol: "Positive", vcf_key: 90, vca_mode: "Envelope", vca_lvl: 100, chorus: "Chorus I", att: 22, dec: 65, sus: 70, rel: 30 },
+      { id: "A-16", name: "A-16 Brass 2", group: "A", category: "BRASS", dco_range: 8, pulse: true, saw: true, sub: 60, noise: 0, pwm: 40, pwm_src: "LFO", lfo_rate: 50, lfo_delay: 20, lfo_mod: 8, hpf: 0, vcf_cutoff: 55, vcf_res: 40, vcf_env: 90, vcf_pol: "Positive", vcf_key: 90, vca_mode: "Envelope", vca_lvl: 100, chorus: "Chorus II", att: 28, dec: 75, sus: 75, rel: 35 },
+      { id: "A-17", name: "A-17 Flute", group: "A", category: "WIND", dco_range: 4, pulse: true, saw: false, sub: 0, noise: 15, pwm: 50, pwm_src: "Manual", lfo_rate: 60, lfo_delay: 35, lfo_mod: 12, hpf: 1, vcf_cutoff: 65, vcf_res: 10, vcf_env: 30, vcf_pol: "Positive", vcf_key: 100, vca_mode: "Envelope", vca_lvl: 90, chorus: "Off", att: 18, dec: 40, sus: 90, rel: 20 },
+      { id: "A-18", name: "A-18 Clav", group: "A", category: "KEYBOARD", dco_range: 8, pulse: true, saw: false, sub: 0, noise: 0, pwm: 95, pwm_src: "Manual", lfo_rate: 0, lfo_delay: 0, lfo_mod: 0, hpf: 2, vcf_cutoff: 75, vcf_res: 50, vcf_env: 90, vcf_pol: "Positive", vcf_key: 100, vca_mode: "Envelope", vca_lvl: 100, chorus: "Off", att: 0, dec: 45, sus: 0, rel: 15 },
+      { id: "A-21", name: "A-21 Bass 1", group: "A", category: "BASS", dco_range: 16, pulse: true, saw: true, sub: 110, noise: 0, pwm: 40, pwm_src: "Manual", lfo_rate: 0, lfo_delay: 0, lfo_mod: 0, hpf: 0, vcf_cutoff: 40, vcf_res: 55, vcf_env: 85, vcf_pol: "Positive", vcf_key: 60, vca_mode: "Envelope", vca_lvl: 110, chorus: "Off", att: 0, dec: 50, sus: 20, rel: 15 },
+      { id: "A-22", name: "A-22 Reso Bass", group: "A", category: "BASS", dco_range: 16, pulse: false, saw: true, sub: 85, noise: 0, pwm: 0, pwm_src: "Manual", lfo_rate: 0, lfo_delay: 0, lfo_mod: 0, hpf: 0, vcf_cutoff: 35, vcf_res: 95, vcf_env: 100, vcf_pol: "Positive", vcf_key: 80, vca_mode: "Envelope", vca_lvl: 110, chorus: "Off", att: 0, dec: 45, sus: 0, rel: 10 },
+      { id: "A-23", name: "A-23 Pluck Synth", group: "A", category: "SYNTH", dco_range: 8, pulse: true, saw: true, sub: 40, noise: 0, pwm: 70, pwm_src: "Manual", lfo_rate: 50, lfo_delay: 0, lfo_mod: 0, hpf: 0, vcf_cutoff: 45, vcf_res: 40, vcf_env: 90, vcf_pol: "Positive", vcf_key: 100, vca_mode: "Envelope", vca_lvl: 100, chorus: "Chorus I", att: 0, dec: 40, sus: 0, rel: 25 },
+      { id: "A-24", name: "A-24 Pad 1", group: "A", category: "PADS", dco_range: 8, pulse: true, saw: true, sub: 60, noise: 5, pwm: 60, pwm_src: "LFO", lfo_rate: 45, lfo_delay: 20, lfo_mod: 0, hpf: 1, vcf_cutoff: 70, vcf_res: 25, vcf_env: 55, vcf_pol: "Positive", vcf_key: 100, vca_mode: "Envelope", vca_lvl: 100, chorus: "Chorus II", att: 40, dec: 80, sus: 90, rel: 60 },
+      { id: "B-11", name: "B-11 Warm Poly Pad", group: "B", category: "PADS", dco_range: 8, pulse: true, saw: true, sub: 70, noise: 0, pwm: 65, pwm_src: "LFO", lfo_rate: 40, lfo_delay: 15, lfo_mod: 0, hpf: 0, vcf_cutoff: 68, vcf_res: 20, vcf_env: 65, vcf_pol: "Positive", vcf_key: 100, vca_mode: "Envelope", vca_lvl: 100, chorus: "Chorus I", att: 35, dec: 75, sus: 85, rel: 50 },
+      { id: "B-12", name: "B-12 Reso Lead", group: "B", category: "LEAD", dco_range: 8, pulse: false, saw: true, sub: 50, noise: 0, pwm: 0, pwm_src: "Manual", lfo_rate: 70, lfo_delay: 25, lfo_mod: 15, hpf: 0, vcf_cutoff: 80, vcf_res: 90, vcf_env: 50, vcf_pol: "Positive", vcf_key: 100, vca_mode: "Envelope", vca_lvl: 100, chorus: "Chorus I", att: 5, dec: 60, sus: 80, rel: 25 },
+      { id: "B-13", name: "B-13 Electro Bells", group: "B", category: "BELL", dco_range: 4, pulse: true, saw: false, sub: 0, noise: 0, pwm: 85, pwm_src: "Manual", lfo_rate: 80, lfo_delay: 0, lfo_mod: 0, hpf: 1, vcf_cutoff: 95, vcf_res: 75, vcf_env: 85, vcf_pol: "Positive", vcf_key: 100, vca_mode: "Envelope", vca_lvl: 90, chorus: "Chorus II", att: 0, dec: 70, sus: 0, rel: 50 },
+      { id: "B-14", name: "B-14 Fat Octa Bass", group: "B", category: "BASS", dco_range: 16, pulse: true, saw: true, sub: 127, noise: 0, pwm: 30, pwm_src: "Manual", lfo_rate: 0, lfo_delay: 0, lfo_mod: 0, hpf: 0, vcf_cutoff: 42, vcf_res: 50, vcf_env: 80, vcf_pol: "Positive", vcf_key: 70, vca_mode: "Envelope", vca_lvl: 120, chorus: "Off", att: 0, dec: 45, sus: 10, rel: 10 }
+    ];
+
+    // --- 2. ACTIVE SYNTH STATE ---
+    let state = {
+      dco_range: 8,
+      pulse: true,
+      saw: true,
+      pwm_src: "LFO",
+      pwm_mod: 64,
+      lfo_mod: 0,
+      sub_level: 64,
+      noise_level: 0,
+      hpf: 0,
+      vcf_cutoff: 80,
+      vcf_res: 30,
+      vcf_env: 60,
+      vcf_pol: "Positive",
+      vcf_key: 100,
+      vca_mode: "Envelope",
+      vca_level: 100,
+      chorus: "Chorus I",
+      lfo_rate: 50,
+      lfo_delay: 20,
+      env_attack: 10,
+      env_decay: 50,
+      env_sustain: 85,
+      env_release: 35,
+      master_vol: 0.9,
+      master_tune: 0
+    };
+
+    // --- 3. WEB AUDIO REAL-TIME ENGINE ---
+    let audioCtx = null;
+    let masterGain = null;
+    let chorusL = null;
+    let chorusR = null;
+    let activeVoices = {};
+
+    function initAudio() {
+      if (audioCtx) return;
+      const AudioContext = window.AudioContext || window.webkitAudioContext;
+      audioCtx = new AudioContext();
+
+      masterGain = audioCtx.createGain();
+      masterGain.gain.setValueAtTime(state.master_vol, audioCtx.currentTime);
+
+      // Simple Stereo Chorus using delay nodes
+      chorusL = audioCtx.createDelay();
+      chorusR = audioCtx.createDelay();
+      chorusL.delayTime.setValueAtTime(0.025, audioCtx.currentTime);
+      chorusR.delayTime.setValueAtTime(0.032, audioCtx.currentTime);
+
+      // Low Frequency Drift for BBD Chorus
+      const lfoChorus = audioCtx.createOscillator();
+      const lfoChorusGain = audioCtx.createGain();
+      lfoChorus.frequency.setValueAtTime(0.6, audioCtx.currentTime);
+      lfoChorusGain.gain.setValueAtTime(0.003, audioCtx.currentTime);
+      lfoChorus.connect(lfoChorusGain);
+      lfoChorusGain.connect(chorusL.delayTime);
+      lfoChorus.start();
+
+      masterGain.connect(audioCtx.destination);
+    }
+
+    function playNote(midiNote) {
+      initAudio();
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+      if (activeVoices[midiNote]) stopNote(midiNote);
+
+      const freq = 440 * Math.pow(2, (midiNote - 69 + (state.dco_range === 16 ? -12 : (state.dco_range === 4 ? 12 : 0))) / 12);
+
+      // Oscillators (Saw + Pulse/Square + Sub)
+      const oscSaw = audioCtx.createOscillator();
+      const oscPulse = audioCtx.createOscillator();
+      const oscSub = audioCtx.createOscillator();
+
+      oscSaw.type = "sawtooth";
+      oscPulse.type = "square";
+      oscSub.type = "square"; // Sub oscillator is 1 octave down square
+
+      oscSaw.frequency.setValueAtTime(freq, audioCtx.currentTime);
+      oscPulse.frequency.setValueAtTime(freq, audioCtx.currentTime);
+      oscSub.frequency.setValueAtTime(freq / 2, audioCtx.currentTime);
+
+      const sawGain = audioCtx.createGain();
+      const pulseGain = audioCtx.createGain();
+      const subGain = audioCtx.createGain();
+
+      sawGain.gain.value = state.saw ? 0.4 : 0.0;
+      pulseGain.gain.value = state.pulse ? 0.35 : 0.0;
+      subGain.gain.value = (state.sub_level / 127) * 0.4;
+
+      oscSaw.connect(sawGain);
+      oscPulse.connect(pulseGain);
+      oscSub.connect(subGain);
+
+      const oscMix = audioCtx.createGain();
+      sawGain.connect(oscMix);
+      pulseGain.connect(oscMix);
+      subGain.connect(oscMix);
+
+      // 4-Pole Low Pass Filter (24dB/oct)
+      const vcf = audioCtx.createBiquadFilter();
+      vcf.type = "lowpass";
+      const cutoffFreq = Math.min(18000, Math.max(40, (state.vcf_cutoff / 127) * 12000 + (midiNote * (state.vcf_key / 100) * 8)));
+      vcf.frequency.setValueAtTime(cutoffFreq, audioCtx.currentTime);
+      vcf.Q.setValueAtTime((state.vcf_res / 127) * 18, audioCtx.currentTime);
+
+      // Envelope Generator (ADSR)
+      const vca = audioCtx.createGain();
+      const now = audioCtx.currentTime;
+      const aTime = Math.max(0.005, (state.env_attack / 127) * 2.5);
+      const dTime = Math.max(0.01, (state.env_decay / 127) * 3.5);
+      const sLevel = (state.env_sustain / 127);
+      const rTime = Math.max(0.02, (state.env_release / 127) * 4.0);
+
+      vca.gain.setValueAtTime(0.0, now);
+      vca.gain.linearRampToValueAtTime((state.vca_level / 127) * 0.5, now + aTime);
+      vca.gain.linearRampToValueAtTime(sLevel * (state.vca_level / 127) * 0.5, now + aTime + dTime);
+
+      // Filter Envelope modulation
+      if (state.vcf_env > 0) {
+        const envDepth = (state.vcf_env / 127) * 6000 * (state.vcf_pol === "Inverted" ? -1 : 1);
+        vcf.frequency.linearRampToValueAtTime(Math.min(18000, Math.max(40, cutoffFreq + envDepth)), now + aTime);
+        vcf.frequency.linearRampToValueAtTime(Math.min(18000, Math.max(40, cutoffFreq + (envDepth * sLevel))), now + aTime + dTime);
+      }
+
+      oscMix.connect(vcf);
+      vcf.connect(vca);
+      vca.connect(masterGain);
+
+      oscSaw.start();
+      oscPulse.start();
+      oscSub.start();
+
+      activeVoices[midiNote] = {
+        oscSaw, oscPulse, oscSub, vcf, vca,
+        releaseTime: rTime
+      };
+    }
+
+    function stopNote(midiNote) {
+      if (!activeVoices[midiNote]) return;
+      const voice = activeVoices[midiNote];
+      const now = audioCtx.currentTime;
+      voice.vca.gain.cancelScheduledValues(now);
+      voice.vca.gain.setValueAtTime(voice.vca.gain.value, now);
+      voice.vca.gain.linearRampToValueAtTime(0.0, now + voice.releaseTime);
+
+      setTimeout(() => {
+        try {
+          voice.oscSaw.stop();
+          voice.oscPulse.stop();
+          voice.oscSub.stop();
+          voice.oscSaw.disconnect();
+          voice.oscPulse.disconnect();
+          voice.oscSub.disconnect();
+        } catch(e) {}
+      }, voice.releaseTime * 1000 + 100);
+
+      delete activeVoices[midiNote];
+    }
+
+    // --- 4. ROLAND SYSEX DISPATCH ENGINE ---
+    function sendSysEx(paramCode, value) {
+      const hexParam = paramCode.toString(16).padStart(2, '0').toUpperCase();
+      const hexVal = value.toString(16).padStart(2, '0').toUpperCase();
+      const sysexStr = `F0 41 32 00 ${hexParam} ${hexVal} F7`;
+
+      const monitor = document.getElementById("sysexMonitor");
+      monitor.textContent = sysexStr + "\n" + monitor.textContent.slice(0, 160);
+
+      // Send to Web MIDI output if available
+      if (midiOutput) {
+        try {
+          const bytes = [0xF0, 0x41, 0x32, 0x00, paramCode, value, 0xF7];
+          midiOutput.send(bytes);
+        } catch(e) {}
+      }
+    }
+
+    // --- 5. WEB MIDI HARDWARE BINDING ---
+    let midiAccess = null;
+    let midiOutput = null;
+
+    if (navigator.requestMIDIAccess) {
+      navigator.requestMIDIAccess({ sysex: true }).then(access => {
+        midiAccess = access;
+        document.getElementById("midiIndicator").className = "w-2.5 h-2.5 bg-emerald-500 shadow-sm";
+        document.getElementById("midiStatusText").textContent = "MIDI: Online";
+
+        for (let input of midiAccess.inputs.values()) {
+          input.onmidimessage = handleMIDIMessage;
+        }
+        for (let output of midiAccess.outputs.values()) {
+          midiOutput = output; // bind first available MIDI port
+          break;
+        }
+      }).catch(err => {
+        document.getElementById("midiStatusText").textContent = "MIDI: Web Audio (Local)";
+      });
+    }
+
+    function handleMIDIMessage(e) {
+      const [status, note, velocity] = e.data;
+      const cmd = status >> 4;
+      if (cmd === 9 && velocity > 0) { // Note On
+        playNote(note);
+        highlightKey(note, true);
+      } else if (cmd === 8 || (cmd === 9 && velocity === 0)) { // Note Off
+        stopNote(note);
+        highlightKey(note, false);
+      }
+    }
+
+    // --- 6. METRO UI DATA BINDINGS & ADSR CANVAS ---
+    function updateADSRCanvas() {
+      const canvas = document.getElementById("adsrCanvas");
+      const ctx = canvas.getContext("2d");
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      const w = canvas.width;
+      const h = canvas.height;
+      const pad = 10;
+
+      const a = (state.env_attack / 127) * 50;
+      const d = (state.env_decay / 127) * 50;
+      const s = h - pad - ((state.env_sustain / 127) * (h - 2 * pad));
+      const r = (state.env_release / 127) * 60;
+
+      ctx.strokeStyle = "#f7c948";
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.moveTo(pad, h - pad);
+      ctx.lineTo(pad + a, pad);
+      ctx.lineTo(pad + a + d, s);
+      ctx.lineTo(w - pad - r, s);
+      ctx.lineTo(w - pad, h - pad);
+      ctx.stroke();
+
+      // Shadow fill
+      ctx.fillStyle = "rgba(247, 201, 72, 0.15)";
+      ctx.lineTo(pad, h - pad);
+      ctx.fill();
+    }
+
+    function syncUI() {
+      document.getElementById("param_dco_pwm_mod").value = state.pwm_mod;
+      document.getElementById("val_dco_pwm_mod").textContent = state.pwm_mod;
+      document.getElementById("param_dco_lfo_mod").value = state.lfo_mod;
+      document.getElementById("val_dco_lfo_mod").textContent = state.lfo_mod;
+      document.getElementById("param_sub_level").value = state.sub_level;
+      document.getElementById("val_sub_level").textContent = state.sub_level;
+      document.getElementById("param_noise_level").value = state.noise_level;
+      document.getElementById("val_noise_level").textContent = state.noise_level;
+
+      document.getElementById("param_vcf_cutoff").value = state.vcf_cutoff;
+      document.getElementById("val_vcf_cutoff").textContent = state.vcf_cutoff;
+      document.getElementById("param_vcf_resonance").value = state.vcf_res;
+      document.getElementById("val_vcf_resonance").textContent = state.vcf_res;
+      document.getElementById("param_vcf_env_mod").value = state.vcf_env;
+      document.getElementById("val_vcf_env_mod").textContent = state.vcf_env;
+      document.getElementById("param_vcf_key_follow").value = state.vcf_key;
+      document.getElementById("val_vcf_key_follow").textContent = state.vcf_key + "%";
+
+      document.getElementById("param_vca_level").value = state.vca_level;
+      document.getElementById("val_vca_level").textContent = state.vca_level;
+
+      document.getElementById("param_env_attack").value = state.env_attack;
+      document.getElementById("val_env_attack").textContent = state.env_attack;
+      document.getElementById("param_env_decay").value = state.env_decay;
+      document.getElementById("val_env_decay").textContent = state.env_decay;
+      document.getElementById("param_env_sustain").value = state.env_sustain;
+      document.getElementById("val_env_sustain").textContent = state.env_sustain;
+      document.getElementById("param_env_release").value = state.env_release;
+      document.getElementById("val_env_release").textContent = state.env_release;
+
+      document.getElementById("param_lfo_rate").value = state.lfo_rate;
+      document.getElementById("val_lfo_rate").textContent = state.lfo_rate;
+      document.getElementById("param_lfo_delay").value = state.lfo_delay;
+      document.getElementById("val_lfo_delay").textContent = state.lfo_delay;
+
+      updateADSRCanvas();
+    }
+
+    // Event Listeners for Sliders
+    function bindSlider(id, stateKey, paramCode, suffix = "") {
+      const el = document.getElementById(id);
+      el.addEventListener("input", (e) => {
+        const val = parseInt(e.target.value);
+        state[stateKey] = val;
+        document.getElementById("val_" + stateKey).textContent = val + suffix;
+        sendSysEx(paramCode, val);
+        if (stateKey.startsWith("env_")) updateADSRCanvas();
+      });
+    }
+
+    bindSlider("param_dco_pwm_mod", "pwm_mod", 0x03);
+    bindSlider("param_dco_lfo_mod", "lfo_mod", 0x02);
+    bindSlider("param_sub_level", "sub_level", 0x05);
+    bindSlider("param_noise_level", "noise_level", 0x06);
+    bindSlider("param_vcf_cutoff", "vcf_cutoff", 0x08);
+    bindSlider("param_vcf_resonance", "vcf_res", 0x09);
+    bindSlider("param_vcf_env_mod", "vcf_env", 0x0A);
+    bindSlider("param_vcf_key_follow", "vcf_key", 0x0B, "%");
+    bindSlider("param_vca_level", "vca_level", 0x0C);
+    bindSlider("param_env_attack", "env_attack", 0x0E);
+    bindSlider("param_env_decay", "env_decay", 0x0F);
+    bindSlider("param_env_sustain", "env_sustain", 0x10);
+    bindSlider("param_env_release", "env_release", 0x11);
+    bindSlider("param_lfo_rate", "lfo_rate", 0x00);
+    bindSlider("param_lfo_delay", "lfo_delay", 0x01);
+
+    // Waveform Toggle Buttons
+    document.getElementById("btnPulseWave").addEventListener("click", () => {
+      state.pulse = !state.pulse;
+      document.getElementById("btnPulseWave").classList.toggle("active", state.pulse);
+      document.getElementById("btnPulseWave").classList.toggle("active-orange", state.pulse);
+      sendSysEx(0x04, (state.pulse ? 1 : 0) | (state.saw ? 2 : 0));
+    });
+    document.getElementById("btnSawWave").addEventListener("click", () => {
+      state.saw = !state.saw;
+      document.getElementById("btnSawWave").classList.toggle("active", state.saw);
+      document.getElementById("btnSawWave").classList.toggle("active-orange", state.saw);
+      sendSysEx(0x04, (state.pulse ? 1 : 0) | (state.saw ? 2 : 0));
+    });
+
+    // Chorus Mode Selection
+    document.querySelectorAll(".chorus-btn").forEach(btn => {
+      btn.addEventListener("click", (e) => {
+        document.querySelectorAll(".chorus-btn").forEach(b => b.classList.remove("active", "active-green"));
+        btn.classList.add("active", "active-green");
+        state.chorus = btn.getAttribute("data-val");
+        const led = document.getElementById("chorusLed");
+        if (state.chorus === "Off") {
+          led.className = "w-2 h-2 bg-gray-600";
+          sendSysEx(0x0D, 0);
+        } else {
+          led.className = "w-2 h-2 bg-[#10b981] led-active";
+          sendSysEx(0x0D, state.chorus === "Chorus I" ? 1 : (state.chorus === "Chorus II" ? 2 : 3));
+        }
+      });
+    });
+
+    // Preset Loader
+    function loadPreset(p) {
+      document.getElementById("currentPatchName").textContent = p.name;
+      document.getElementById("currentPatchCategory").textContent = p.category;
+
+      state.dco_range = p.dco_range;
+      state.pulse = p.pulse;
+      state.saw = p.saw;
+      state.sub_level = p.sub;
+      state.noise_level = p.noise;
+      state.pwm_mod = p.pwm;
+      state.pwm_src = p.pwm_src;
+      state.lfo_rate = p.lfo_rate;
+      state.lfo_delay = p.lfo_delay;
+      state.lfo_mod = p.lfo_mod;
+      state.hpf = p.hpf;
+      state.vcf_cutoff = p.vcf_cutoff;
+      state.vcf_res = p.vcf_res;
+      state.vcf_env = p.vcf_env;
+      state.vcf_pol = p.vcf_pol;
+      state.vcf_key = p.vcf_key;
+      state.vca_mode = p.vca_mode;
+      state.vca_level = p.vca_lvl;
+      state.chorus = p.chorus;
+      state.env_attack = p.att;
+      state.env_decay = p.dec;
+      state.env_sustain = p.sus;
+      state.env_release = p.rel;
+
+      syncUI();
+    }
+
+    // Populate Preset List
+    function renderPresetList(filter = "", group = "A") {
+      const container = document.getElementById("presetListContainer");
+      container.innerHTML = "";
+      const filtered = JUNO_PRESETS.filter(p => p.group === group && (filter === "" || p.name.toLowerCase().includes(filter.toLowerCase()) || p.category.toLowerCase().includes(filter.toLowerCase())));
+
+      filtered.forEach(p => {
+        const item = document.createElement("div");
+        item.className = "p-2 bg-[#15171d] hover:bg-[#20232b] border border-[#232630] cursor-pointer flex justify-between items-center transition";
+        item.innerHTML = `
+          <div>
+            <div class="text-xs font-bold text-white font-mono-code">${p.name}</div>
+            <div class="text-[9px] text-gray-400 uppercase">${p.category}</div>
+          </div>
+          <button class="metro-btn py-0.5 px-2 text-[9px] border-gray-600">LOAD</button>
+        `;
+        item.addEventListener("click", () => loadPreset(p));
+        container.appendChild(item);
+      });
+    }
+
+    document.getElementById("btnGroupA").addEventListener("click", () => {
+      document.getElementById("btnGroupA").classList.add("active");
+      document.getElementById("btnGroupB").classList.remove("active");
+      renderPresetList(document.getElementById("presetSearch").value, "A");
+    });
+    document.getElementById("btnGroupB").addEventListener("click", () => {
+      document.getElementById("btnGroupB").classList.add("active");
+      document.getElementById("btnGroupA").classList.remove("active");
+      renderPresetList(document.getElementById("presetSearch").value, "B");
+    });
+    document.getElementById("presetSearch").addEventListener("input", (e) => {
+      const activeGroup = document.getElementById("btnGroupA").classList.contains("active") ? "A" : "B";
+      renderPresetList(e.target.value, activeGroup);
+    });
+
+    // --- 7. VIRTUAL KEYBOARD BUILDER ---
+    let baseOctave = 48; // C3
+    function renderKeyboard() {
+      const kb = document.getElementById("keyboard");
+      kb.innerHTML = "";
+      const notes = [
+        { name: "C", isBlack: false }, { name: "C#", isBlack: true },
+        { name: "D", isBlack: false }, { name: "D#", isBlack: true },
+        { name: "E", isBlack: false },
+        { name: "F", isBlack: false }, { name: "F#", isBlack: true },
+        { name: "G", isBlack: false }, { name: "G#", isBlack: true },
+        { name: "A", isBlack: false }, { name: "A#", isBlack: true },
+        { name: "B", isBlack: false }
+      ];
+
+      for (let oct = 0; oct < 2; oct++) {
+        for (let i = 0; i < 12; i++) {
+          const midiNote = baseOctave + oct * 12 + i;
+          const noteInfo = notes[i];
+          const key = document.createElement("div");
+          key.className = noteInfo.isBlack ? "key-black" : "key-white w-9";
+          key.setAttribute("data-note", midiNote);
+
+          key.addEventListener("mousedown", () => { playNote(midiNote); key.classList.add("pressed"); });
+          key.addEventListener("mouseup", () => { stopNote(midiNote); key.classList.remove("pressed"); });
+          key.addEventListener("mouseleave", () => { stopNote(midiNote); key.classList.remove("pressed"); });
+
+          kb.appendChild(key);
+        }
+      }
+      // Final High C
+      const topC = document.createElement("div");
+      topC.className = "key-white w-9";
+      topC.setAttribute("data-note", baseOctave + 24);
+      topC.addEventListener("mousedown", () => { playNote(baseOctave + 24); topC.classList.add("pressed"); });
+      topC.addEventListener("mouseup", () => { stopNote(baseOctave + 24); topC.classList.remove("pressed"); });
+      topC.addEventListener("mouseleave", () => { stopNote(baseOctave + 24); topC.classList.remove("pressed"); });
+      kb.appendChild(topC);
+    }
+
+    function highlightKey(midiNote, isPressed) {
+      const el = document.querySelector(`[data-note="${midiNote}"]`);
+      if (el) {
+        if (isPressed) el.classList.add("pressed");
+        else el.classList.remove("pressed");
+      }
+    }
+
+    // Computer Keyboard play mapping
+    const KEY_MAP = {
+      'a': 48, 'w': 49, 's': 50, 'e': 51, 'd': 52, 'f': 53, 't': 54,
+      'g': 55, 'y': 56, 'h': 57, 'u': 58, 'j': 59, 'k': 60
+    };
+    window.addEventListener("keydown", (e) => {
+      if (e.target.tagName === "INPUT") return;
+      const note = KEY_MAP[e.key.toLowerCase()];
+      if (note && !activeVoices[note + (baseOctave - 48)]) {
+        const actualNote = note + (baseOctave - 48);
+        playNote(actualNote);
+        highlightKey(actualNote, true);
+      }
+    });
+    window.addEventListener("keyup", (e) => {
+      const note = KEY_MAP[e.key.toLowerCase()];
+      if (note) {
+        const actualNote = note + (baseOctave - 48);
+        stopNote(actualNote);
+        highlightKey(actualNote, false);
+      }
+    });
+
+    document.getElementById("octDown").addEventListener("click", () => {
+      if (baseOctave > 24) baseOctave -= 12;
+      renderKeyboard();
+    });
+    document.getElementById("octUp").addEventListener("click", () => {
+      if (baseOctave < 72) baseOctave += 12;
+      renderKeyboard();
+    });
+
+    // Export SysEx Button
+    document.getElementById("btnExportSysEx").addEventListener("click", () => {
+      const bytes = new Uint8Array([
+        0xF0, 0x41, 0x32, 0x00,
+        state.lfo_rate, state.lfo_delay, state.lfo_mod, state.pwm_mod,
+        (state.pulse ? 1 : 0) | (state.saw ? 2 : 0),
+        state.sub_level, state.noise_level, state.hpf,
+        state.vcf_cutoff, state.vcf_res, state.vcf_env,
+        state.vcf_key, state.vca_level,
+        state.chorus === "Off" ? 0 : (state.chorus === "Chorus I" ? 1 : 2),
+        state.env_attack, state.env_decay, state.env_sustain, state.env_release,
+        0xF7
+      ]);
+      const blob = new Blob([bytes], { type: "application/octet-stream" });
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = `${document.getElementById("currentPatchName").textContent.replace(/\s+/g, '_')}.syx`;
+      a.click();
+    });
+
+    // Init
+    syncUI();
+    renderPresetList("", "A");
+    renderKeyboard();
+  </script>
+</body>
+</html>
