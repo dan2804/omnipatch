@@ -1,0 +1,21 @@
+manufacturer: Yamaha
+model: RX11
+type: Digital Rhythm Programmer
+year: 1984
+midi:
+  channels: 16
+  cc_map:
+    volume: 7
+    pan: 10
+sysex:
+  header: F0 43 00 00
+  device_id_byte: 2
+  commands:
+    sync: F8
+banks:
+- name: Preset Drum Sounds
+  type: ROM
+  size: 29
+- name: Preset Patterns
+  type: ROM
+  size: 50

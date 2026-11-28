@@ -1,0 +1,22 @@
+manufacturer: Boss
+model: SE-70
+type: Super Multi-Effects Processor
+year: 1993
+midi:
+  channels: 16
+  cc_map:
+    input_level: 7
+    output_level: 8
+    fx_bypass: 84
+    mix: 91
+    param1: 16
+    param2: 17
+sysex:
+  header: F0 41 10 5B
+  device_id_byte: 2
+  commands:
+    request_program: F0 41 10 5B 11 [prog] F7
+banks:
+- name: Preset Program Bank
+  type: ROM
+  size: 100

@@ -1,0 +1,24 @@
+manufacturer: Roland
+model: R-8 / R-8M
+type: Human Rhythm Composer
+year: 1989
+midi:
+  channels: 16
+  cc_map:
+    volume: 7
+    pan: 10
+    pitch_bend: 0
+    decay: 72
+    nuance: 16
+sysex:
+  header: F0 41 10 28
+  device_id_byte: 2
+  commands:
+    request_patch: F0 41 10 28 11 [addr] [size] [chk] F7
+banks:
+- name: Preset Instrument Kit
+  type: ROM
+  size: 68
+- name: Feel Patches
+  type: ROM
+  size: 32

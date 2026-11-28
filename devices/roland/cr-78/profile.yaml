@@ -1,0 +1,22 @@
+manufacturer: Roland
+model: CR-78 CompuRhythm
+type: Classic Analog Rhythm Machine
+year: 1978
+midi:
+  channels: 16
+  cc_map:
+    tempo: 20
+    accent: 16
+    volume: 7
+sysex:
+  header: F0 41 00 00
+  device_id_byte: 2
+  commands:
+    clock: F8
+banks:
+- name: Preset Rhythms
+  type: ROM
+  size: 34
+- name: Drum Voices
+  type: ROM
+  size: 14

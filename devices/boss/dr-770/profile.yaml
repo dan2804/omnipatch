@@ -1,0 +1,24 @@
+manufacturer: Boss
+model: DR-770 Dr. Rhythm
+type: Advanced Drum Machine with DPAC
+year: 1999
+midi:
+  channels: 16
+  cc_map:
+    volume: 7
+    pan: 10
+    reverb_level: 91
+    flanger_level: 93
+    equalizer_gain: 80
+sysex:
+  header: F0 41 00 00 1E
+  device_id_byte: 2
+  commands:
+    request_kit: F0 41 00 00 1E 00 [kit] F7
+banks:
+- name: Preset Drum Kits
+  type: ROM
+  size: 64
+- name: Preset Patterns
+  type: ROM
+  size: 100

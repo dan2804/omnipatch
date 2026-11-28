@@ -1,0 +1,24 @@
+manufacturer: Boss
+model: DR-880 Dr. Rhythm
+type: Flagship Rhythm & Guitar/Bass Workstation
+year: 2004
+midi:
+  channels: 16
+  cc_map:
+    volume: 7
+    pan: 10
+    reverb_level: 91
+    chorus_level: 93
+    cosm_amp: 80
+sysex:
+  header: F0 41 00 00 75
+  device_id_byte: 2
+  commands:
+    request_kit: F0 41 00 00 75 00 [kit] F7
+banks:
+- name: Preset Drum/Bass Kits
+  type: ROM
+  size: 100
+- name: Preset Patterns
+  type: ROM
+  size: 100
