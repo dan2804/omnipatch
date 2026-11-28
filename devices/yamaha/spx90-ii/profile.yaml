@@ -1,0 +1,21 @@
+manufacturer: Yamaha
+model: SPX90 II
+type: Digital Multi-Effects Processor
+year: 1986
+midi:
+  channels: 16
+  cc_map:
+    param1: 16
+    param2: 17
+    param3: 18
+    param4: 19
+    balance: 91
+sysex:
+  header: F0 43 10 15
+  device_id_byte: 2
+  commands:
+    request_preset: F0 43 10 15 00 00 F7
+banks:
+- name: Factory Presets
+  type: ROM
+  size: 90

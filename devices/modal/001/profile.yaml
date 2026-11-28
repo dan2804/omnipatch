@@ -1,0 +1,22 @@
+manufacturer: Modal
+model: Modal 001
+type: 2-Voice Analog/Digital Hybrid Synthesizer
+year: 2015
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    resonance: 71
+    nco_wave: 16
+    transistor_drive: 17
+    sub_level: 18
+    envelope_decay: 72
+sysex:
+  header: F0 00 20 7D 01
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 20 7D 01 00 F7
+banks:
+- name: Factory Presets
+  type: ROM
+  size: 100

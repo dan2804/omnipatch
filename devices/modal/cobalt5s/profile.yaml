@@ -1,0 +1,22 @@
+manufacturer: Modal
+model: Cobalt5S
+type: 5-Voice Extended Virtual Analog Synthesizer
+year: 2022
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    resonance: 71
+    osc1_algorithm: 16
+    osc2_algorithm: 17
+    morph: 18
+    delay_send: 91
+sysex:
+  header: F0 00 20 7D 06
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 20 7D 06 00 F7
+banks:
+- name: Factory Presets
+  type: ROM
+  size: 128

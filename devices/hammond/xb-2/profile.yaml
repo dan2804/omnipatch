@@ -1,0 +1,22 @@
+manufacturer: Hammond
+model: XB-2
+type: Digital Drawbar Organ Keyboard
+year: 1991
+midi:
+  channels: 16
+  cc_map:
+    drawbar_16: 16
+    drawbar_8: 17
+    drawbar_4: 18
+    vibrato: 19
+    overdrive: 20
+    leslie_speed: 68
+sysex:
+  header: F0 55 00 10
+  device_id_byte: 2
+  commands:
+    request_preset: F0 55 00 10 01 00 F7
+banks:
+- name: Preset Combinations
+  type: ROM
+  size: 32

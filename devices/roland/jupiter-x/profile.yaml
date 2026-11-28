@@ -1,0 +1,26 @@
+manufacturer: Roland
+model: Jupiter-X
+type: Flagship Synthesizer Workstation
+year: 2019
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    resonance: 71
+    envelope_attack: 73
+    envelope_release: 72
+    drive: 94
+    chorus_level: 93
+    delay_send: 91
+sysex:
+  header: F0 41 10 00 00 00 5D 12
+  device_id_byte: 2
+  commands:
+    request_preset: F0 41 10 00 00 00 5D 11 00 00 00 00 01 00 7F F7
+banks:
+- name: ZEN-Core Model Bank
+  type: ROM
+  size: 128
+- name: Vintage Heritage Bank
+  type: ROM
+  size: 128

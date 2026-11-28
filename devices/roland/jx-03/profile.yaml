@@ -1,0 +1,23 @@
+manufacturer: Roland
+model: JX-03
+type: Boutique Polyphonic Synthesizer Module
+year: 2015
+midi:
+  channels: 16
+  cc_map:
+    dco1_wave: 16
+    dco2_wave: 17
+    dco2_tune: 18
+    cross_mod: 19
+    vcf_cutoff: 74
+    vcf_resonance: 71
+    chorus: 93
+sysex:
+  header: F0 41 10 00 00 00 1C 12
+  device_id_byte: 2
+  commands:
+    request_preset: F0 41 10 00 00 00 1C 11 00 00 00 00 01 00 7F F7
+banks:
+- name: Factory Presets
+  type: ROM
+  size: 64

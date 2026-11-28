@@ -1,0 +1,20 @@
+manufacturer: Lexicon
+model: Reflex
+type: Dynamic MIDI Reverberator
+year: 1995
+midi:
+  channels: 16
+  cc_map:
+    decay_time: 16
+    pre_delay: 17
+    fx_depth: 18
+    mix: 91
+sysex:
+  header: F0 06 05
+  device_id_byte: 2
+  commands:
+    request_preset: F0 06 05 01 00 F7
+banks:
+- name: Factory Presets
+  type: ROM
+  size: 64

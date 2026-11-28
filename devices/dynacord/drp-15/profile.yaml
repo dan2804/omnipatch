@@ -1,0 +1,21 @@
+manufacturer: Dynacord
+model: DRP 15
+type: High-End Studio Reverb & Effects Processor
+year: 1993
+midi:
+  channels: 16
+  cc_map:
+    rev_time: 16
+    pre_delay: 17
+    high_damp: 18
+    diffusion: 19
+    mix: 91
+sysex:
+  header: F0 00 00 2B 03
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 00 2B 03 01 00 F7
+banks:
+- name: Studio Presets
+  type: ROM
+  size: 128

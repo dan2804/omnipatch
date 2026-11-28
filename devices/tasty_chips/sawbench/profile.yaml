@@ -1,0 +1,21 @@
+manufacturer: Tasty Chips Electronics
+model: Sawbench
+type: Miniature Analog Synthesizer
+year: 2014
+midi:
+  channels: 16
+  cc_map:
+    cutoff: 74
+    resonance: 71
+    mod_speed: 16
+    mod_depth: 17
+    decay: 72
+sysex:
+  header: F0 00 21 40 01
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 21 40 01 00 F7
+banks:
+- name: Factory Presets
+  type: ROM
+  size: 16
