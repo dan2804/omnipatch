@@ -1,0 +1,20 @@
+manufacturer: Clavia Nord
+model: Clavia Nord Drum
+type: 4-Channel Virtual Analog Drum Synthesizer
+year: 2012
+midi:
+  channels: 16
+  cc_map:
+    pitch: 16
+    tone_decay: 17
+    noise_decay: 18
+    click_level: 19
+sysex:
+  header: F0 33 00 0F
+  device_id_byte: 2
+  commands:
+    request_preset: F0 33 00 0F 01 00 F7
+banks:
+- name: Factory Drum Bank
+  type: RAM
+  size: 99

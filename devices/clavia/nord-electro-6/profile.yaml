@@ -1,0 +1,41 @@
+manufacturer: Clavia Nord
+model: Clavia Nord Electro 6
+type: 3-Part Multitimbral Stage Piano, Organ & Sample Synth
+year: 2018
+midi:
+  channels: 16
+  cc_map:
+    organ_level: 16
+    piano_level: 17
+    synth_level: 18
+    rotary: 82
+sysex:
+  header: F0 33 00 19
+  device_id_byte: 2
+  commands:
+    request_preset: F0 33 00 19 01 00 F7
+banks:
+- name: Bank 1
+  type: RAM
+  size: 50
+- name: Bank 2
+  type: RAM
+  size: 50
+- name: Bank 3
+  type: RAM
+  size: 50
+- name: Bank 4
+  type: RAM
+  size: 50
+- name: Bank 5
+  type: RAM
+  size: 50
+- name: Bank 6
+  type: RAM
+  size: 50
+- name: Bank 7
+  type: RAM
+  size: 50
+- name: Bank 8
+  type: RAM
+  size: 50

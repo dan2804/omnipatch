@@ -1,0 +1,29 @@
+manufacturer: Clavia Nord
+model: Clavia Nord Stage 2 EX
+type: 1GB Piano Library, B3 Organ & Sample Synth Flagship
+year: 2015
+midi:
+  channels: 16
+  cc_map:
+    piano_vol: 16
+    organ_vol: 17
+    synth_cutoff: 74
+    compressor: 85
+sysex:
+  header: F0 33 00 13
+  device_id_byte: 2
+  commands:
+    request_preset: F0 33 00 13 01 00 F7
+banks:
+- name: Bank A
+  type: RAM
+  size: 100
+- name: Bank B
+  type: RAM
+  size: 100
+- name: Bank C
+  type: RAM
+  size: 100
+- name: Bank D
+  type: RAM
+  size: 100

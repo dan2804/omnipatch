@@ -1,0 +1,29 @@
+manufacturer: Clavia Nord
+model: Clavia Nord Organ 3
+type: Next-Gen Dual-Manual B3 Tonewheel & Pipe Organ System
+year: 2025
+midi:
+  channels: 16
+  cc_map:
+    upper_drawbars: 16
+    lower_drawbars: 17
+    rotary_speed: 82
+    leakage: 83
+sysex:
+  header: F0 33 00 20
+  device_id_byte: 2
+  commands:
+    request_preset: F0 33 00 20 01 00 F7
+banks:
+- name: Bank 1
+  type: RAM
+  size: 100
+- name: Bank 2
+  type: RAM
+  size: 100
+- name: Bank 3
+  type: RAM
+  size: 100
+- name: Bank 4
+  type: RAM
+  size: 100

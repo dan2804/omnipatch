@@ -1,0 +1,26 @@
+manufacturer: Clavia Nord
+model: Clavia Nord C2D
+type: Dual-Manual Combo Organ with Physical Drawbars
+year: 2012
+midi:
+  channels: 16
+  cc_map:
+    upper_drawbars: 16
+    lower_drawbars: 17
+    percussion_decay: 75
+    rotary: 82
+sysex:
+  header: F0 33 00 0C
+  device_id_byte: 2
+  commands:
+    request_preset: F0 33 00 0C 01 00 F7
+banks:
+- name: Bank A
+  type: RAM
+  size: 42
+- name: Bank B
+  type: RAM
+  size: 42
+- name: Bank C
+  type: RAM
+  size: 42

@@ -1,0 +1,41 @@
+manufacturer: Clavia Nord
+model: Clavia Nord Electro 5
+type: OLED Stage Piano, Organ & Sample Synth with Set List Mode
+year: 2015
+midi:
+  channels: 16
+  cc_map:
+    part_lower: 16
+    part_upper: 17
+    rotary_speed: 82
+    delay: 94
+sysex:
+  header: F0 33 00 15
+  device_id_byte: 2
+  commands:
+    request_preset: F0 33 00 15 01 00 F7
+banks:
+- name: Bank 1
+  type: RAM
+  size: 50
+- name: Bank 2
+  type: RAM
+  size: 50
+- name: Bank 3
+  type: RAM
+  size: 50
+- name: Bank 4
+  type: RAM
+  size: 50
+- name: Bank 5
+  type: RAM
+  size: 50
+- name: Bank 6
+  type: RAM
+  size: 50
+- name: Bank 7
+  type: RAM
+  size: 50
+- name: Bank 8
+  type: RAM
+  size: 50

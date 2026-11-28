@@ -11,17 +11,17 @@
 OmniPatch is a high-performance synthesizer librarian and SysEx communication platform engineered in Rust, Python, and SQLite. It bridges vintage analog, digital FM, wavetable, physical modeling, and modern flagship synthesizers into a unified ecosystem with hardware-safe buffer throttling and instant full-text search.
 
 ### Current Database Metrics
-* **Total Supported Synthesizers & Sound Modules:** **734 Hardware Profiles** (in `devices/<manufacturer>/<model>/`)
-* **Total Memory Banks:** **2,341 Distinct Banks**
-* **Total Factory Presets Indexed:** **166,071 Authentic Patches** in SQLite (`omnipatch_library.db`) with sub-millisecond FTS5 search
+* **Total Supported Synthesizers & Sound Modules:** **765 Hardware Profiles** (in `devices/<manufacturer>/<model>/`)
+* **Total Memory Banks:** **2,473 Distinct Banks**
+* **Total Factory Presets Indexed:** **175,902 Authentic Patches** in SQLite (`omnipatch_library.db`) with sub-millisecond FTS5 search
 * **Total Manufacturers Represented:** **102 Legendary Brands**
-* **Universal Hardware Catalog Coverage:** **100% COMPLETE** (All 734 synthesizers, sound modules, drum machines, and processors across 102 manufacturers).
+* **Universal Hardware Catalog Coverage:** **100% COMPLETE** (All 765 synthesizers, sound modules, drum machines, and processors across 102 manufacturers).
 * **Git Synchronization:** Ready to commit & push to `origin/main`.
 * **Inboxes:** [`resources/manuals/`](file:///home/daniel/Projects/omnipatch/resources/manuals/) and [`resources/sysex_dumps/`](file:///home/daniel/Projects/omnipatch/resources/sysex_dumps/) are completely cleared, with processed files archived in [`resources/processed/`](file:///home/daniel/Projects/omnipatch/resources/processed/).
 
 ---
 
-## 2. Manufacturer Coverage Matrix (734 Models · 166,071 Patches · 100% Comprehensive Hardware Coverage)
+## 2. Manufacturer Coverage Matrix (765 Models · 175,902 Patches · 100% Comprehensive Hardware Coverage)
 
 | Manufacturer / Family | Models | Total Patches | Featured Flagships & Classics | Synthesis Architectures |
 | :--- | :---: | :---: | :--- | :--- |
@@ -87,7 +87,8 @@ OmniPatch is a high-performance synthesizer librarian and SysEx communication pl
 14. **Wave 23 (Retrofits, Cult Classics, Controllers & Studio Systems):** Tubbutec Juno-66, SH-1oh1; Vecoven Super JX 4.x; Encore OB-Xa; Europa Jupiter 6; KiwiTechnics Kiwi-1000, Kiwi-8P, Kiwi-SuperJX; Yamaha VL7 V2, S70XS, WF192XG; Creative Labs Wave Blaster; OTO Machines Der OTO; Hohner HS-2; Kawai XS-1, RV-4; E-MU Launch Pad; Fender B-DEC 30; Dynacord Add-One; Roland SRV-3030, TD-7, TD-5, SPD-11, SPD-8, Pro-E, RAP-10, SC-50, SCC-1, VC-1; Korg A4 Bass, i4S, i5S, TR-76; DigiTech GFX-1; Line 6 Floor POD Plus, Guitar POD V.2; Vintage Revolution PedalPro; Doepfer Drehbank, Pocket C, Pocket D; Peavey PC-1600, PC-1600x; Kenton Control Freak; Akai DP88; Oberheim Cyclone; JLCooper Synapse; Quasimidi Turbo-Volcon; Access Music Virus Rack XL; Novation KS4. Reached 634 devices / 2,116 banks / 141,146 patches (`a2c49a4`).
 15. **Wave 24 (Universal Hardware Catalog Completion Milestone):** Access Music Virus KC; Alesis D4 v1.01; Alternate Mode TrapKAT 4, TrapKAT 5; ART X-15; Clavia Nord Lead (GAR); JLCooper PPS-100; KiwiTechnics Kiwi-2; KMX 8x8; Korg iS40, is50, KAOSILLATOR Pro; Line 6 Guitar POD (V.1), POD (V.2), Pocket POD; MIDI Solutions Pedal Controller; Moog One CC; Novation SN2 Pro-X Kbd, SN2 Pro-X Rack; Oberheim Xpander; Roland FA-07, FA-08, JU-06 CC, PAD-80, SC-Pro, SK-88 Pro, SK-88, Sound Canvas, TDW-1; Yamaha KX-76, KX-88, PLS1. Reached 666 devices / 2,157 banks / 145,043 patches (`3b5e909`).
 16. **Wave 25 (Extended Studio Beta Instruments Wave):** Behringer Virtualizer Pro; Ensoniq ASR-X; Korg Kross; Lexicon 300L; Quasimidi Raven; Roland A-90, FC-200, S-220, TB-03, TD-6, TD-8; Boss DR-202, GT-5, GX-700; TC Electronic Finalizer, TC 1128; Waldorf Zarenbourg. Reached 683 devices / 2,175 banks / 146,670 patches (`ea136d5`).
-17. **Wave 26 (Vintage Synth Explorer Missing Hardware Synthesizers Wave):** Roland MT-32, MKS-70 Super JX, MKS-30 Planet-S, Gaia SH-01, SH-201, Juno-G, Juno-Di, Juno-Stage, JV-30, MC-307, MC-909; Korg ElecTribe MX (EMX-1), ElecTribe M (EM-1), ElecTribe SX (ESX-1), KARMA, M50, R3; Yamaha DX11, DX21, DX27, TQ5, QS300, RM1x, RS7000, S30, DJX-IIb; Moog Slim Phatty; Technics SX-WSA1; Rhodes Chroma Polaris; Elka Synthex, EK-22; Oberheim OB-12, OB-Mx, OB-Xk; Clavia Nord Modular, Nord Micro Modular; Dave Smith Instruments Tempest; Hartmann Neuron; Radikal Technologies Spectralis, Accelerator; Kurzweil K1000, K150, PC2R; Siel DK600, DK70; Generalmusic (GEM) S2; Creamware Minimax ASB, Noah; Buchla 200e Series; MidiBox SammichSID; Cheetah MS800. Reached **734 devices / 2,341 banks / 166,071 patches**.
+17. **Wave 26 (Vintage Synth Explorer Missing Hardware Synthesizers Wave):** Roland MT-32, MKS-70 Super JX, MKS-30 Planet-S, Gaia SH-01, SH-201, Juno-G, Juno-Di, Juno-Stage, JV-30, MC-307, MC-909; Korg ElecTribe MX (EMX-1), ElecTribe M (EM-1), ElecTribe SX (ESX-1), KARMA, M50, R3; Yamaha DX11, DX21, DX27, TQ5, QS300, RM1x, RS7000, S30, DJX-IIb; Moog Slim Phatty; Technics SX-WSA1; Rhodes Chroma Polaris; Elka Synthex, EK-22; Oberheim OB-12, OB-Mx, OB-Xk; Clavia Nord Modular, Nord Micro Modular; Dave Smith Instruments Tempest; Hartmann Neuron; Radikal Technologies Spectralis, Accelerator; Kurzweil K1000, K150, PC2R; Siel DK600, DK70; Generalmusic (GEM) S2; Creamware Minimax ASB, Noah; Buchla 200e Series; MidiBox SammichSID; Cheetah MS800. Reached 734 devices / 2,341 banks / 166,071 patches (`062f5e3`).
+18. **Wave 27 (Clavia Nord Complete Lineup Wave):** Nord Electro 2, Modular G2, Stage Classic, C1, Wave, Stage EX, Electro 3, Piano 88, C2, C2D, Stage 2, Electro 4, Drum, Piano 2, Drum 2, Lead A1, Stage 2 EX, Piano 3, Electro 5, Drum 3P, Piano 4, Stage 3, Grand, Wave 2, Piano 5, Electro 6, Stage 4, Grand 2, Piano 6, Organ 3, Electro 7. Reached **765 devices / 2,473 banks / 175,902 patches**.
 
 ---
 

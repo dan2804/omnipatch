@@ -1,0 +1,23 @@
+manufacturer: Clavia Nord
+model: Clavia Nord Electro 3
+type: Electromechanical Stage Piano, Organ & Sample Synth
+year: 2009
+midi:
+  channels: 16
+  cc_map:
+    organ_drawbars: 16
+    sample_attack: 73
+    sample_release: 72
+    reverb: 91
+sysex:
+  header: F0 33 00 09
+  device_id_byte: 2
+  commands:
+    request_preset: F0 33 00 09 01 00 F7
+banks:
+- name: Bank 1
+  type: RAM
+  size: 64
+- name: Bank 2
+  type: RAM
+  size: 64
