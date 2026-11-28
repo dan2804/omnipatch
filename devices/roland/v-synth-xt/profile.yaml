@@ -1,0 +1,32 @@
+manufacturer: Roland
+model: V-Synth XT
+type: Rack Elastic Audio & Dual VC Workstation
+year: 2005
+midi:
+  channels: 16
+  cc_map:
+    time_trip_pad_x: 12
+    time_trip_pad_y: 13
+    filter_cutoff: 74
+    resonance: 71
+    cosm1_p1: 16
+    cosm2_p1: 17
+    fx_level: 91
+sysex:
+  header: F0 41 10 00 1E 12
+  device_id_byte: 2
+  commands:
+    request_preset: F0 41 10 00 1E 11 00 00 00 00 01 00 7F F7
+banks:
+- name: Internal Bank 1
+  type: RAM
+  size: 128
+- name: Internal Bank 2
+  type: RAM
+  size: 128
+- name: VC-1 D-50 Bank
+  type: ROM
+  size: 128
+- name: VC-2 Vocal Designer
+  type: ROM
+  size: 128

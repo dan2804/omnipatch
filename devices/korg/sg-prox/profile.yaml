@@ -1,0 +1,25 @@
+manufacturer: Korg
+model: SG-ProX
+type: Stage Piano and Master Controller
+year: 1997
+midi:
+  channels: 16
+  cc_map:
+    volume: 7
+    pan: 10
+    reverb_depth: 91
+    effect_depth: 93
+    slider_1: 16
+    slider_2: 17
+sysex:
+  header: F0 42 30 50
+  device_id_byte: 2
+  commands:
+    request_preset: F0 42 30 50 10 00 00 F7
+banks:
+- name: Preset Bank 1
+  type: ROM
+  size: 32
+- name: Preset Bank 2
+  type: ROM
+  size: 32

@@ -1,0 +1,31 @@
+manufacturer: Roland
+model: JV-1000
+type: 76-Key Music Workstation
+year: 1993
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    resonance: 71
+    tvf_envelope: 73
+    tva_release: 72
+    reverb_level: 91
+    chorus_level: 93
+sysex:
+  header: F0 41 10 46 12
+  device_id_byte: 2
+  commands:
+    request_preset: F0 41 10 46 11 00 00 00 00 01 00 7F F7
+banks:
+- name: Preset Bank A
+  type: ROM
+  size: 64
+- name: Preset Bank B
+  type: ROM
+  size: 64
+- name: Internal Bank
+  type: RAM
+  size: 64
+- name: User Bank
+  type: RAM
+  size: 64

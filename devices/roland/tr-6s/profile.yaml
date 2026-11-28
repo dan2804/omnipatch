@@ -1,0 +1,26 @@
+manufacturer: Roland
+model: TR-6S
+type: 6-Track Rhythm Performer
+year: 2020
+midi:
+  channels: 16
+  cc_map:
+    tune_bd: 20
+    decay_bd: 21
+    ctrl_bd: 22
+    tune_sd: 24
+    decay_sd: 25
+    ctrl_sd: 26
+    master_fx: 19
+sysex:
+  header: F0 41 10 00 00 6C 12
+  device_id_byte: 2
+  commands:
+    request_preset: F0 41 10 00 00 6C 11 00 00 00 00 01 00 7F F7
+banks:
+- name: Preset Patterns
+  type: ROM
+  size: 64
+- name: User Patterns
+  type: RAM
+  size: 64

@@ -1,0 +1,1538 @@
+[
+  {
+    "number": 1,
+    "name": "TG100 GM 001",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 00 00 00 7F F7"
+  },
+  {
+    "number": 2,
+    "name": "TG100 GM 002",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 01 00 00 7F F7"
+  },
+  {
+    "number": 3,
+    "name": "TG100 GM 003",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 02 00 00 7F F7"
+  },
+  {
+    "number": 4,
+    "name": "TG100 GM 004",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 03 00 00 7F F7"
+  },
+  {
+    "number": 5,
+    "name": "TG100 GM 005",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 04 00 00 7F F7"
+  },
+  {
+    "number": 6,
+    "name": "TG100 GM 006",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 05 00 00 7F F7"
+  },
+  {
+    "number": 7,
+    "name": "TG100 GM 007",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 06 00 00 7F F7"
+  },
+  {
+    "number": 8,
+    "name": "TG100 GM 008",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 07 00 00 7F F7"
+  },
+  {
+    "number": 9,
+    "name": "TG100 GM 009",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 08 00 00 7F F7"
+  },
+  {
+    "number": 10,
+    "name": "TG100 GM 010",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 09 00 00 7F F7"
+  },
+  {
+    "number": 11,
+    "name": "TG100 GM 011",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 0A 00 00 7F F7"
+  },
+  {
+    "number": 12,
+    "name": "TG100 GM 012",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 0B 00 00 7F F7"
+  },
+  {
+    "number": 13,
+    "name": "TG100 GM 013",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 0C 00 00 7F F7"
+  },
+  {
+    "number": 14,
+    "name": "TG100 GM 014",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 0D 00 00 7F F7"
+  },
+  {
+    "number": 15,
+    "name": "TG100 GM 015",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 0E 00 00 7F F7"
+  },
+  {
+    "number": 16,
+    "name": "TG100 GM 016",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 0F 00 00 7F F7"
+  },
+  {
+    "number": 17,
+    "name": "TG100 GM 017",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 10 00 00 7F F7"
+  },
+  {
+    "number": 18,
+    "name": "TG100 GM 018",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 11 00 00 7F F7"
+  },
+  {
+    "number": 19,
+    "name": "TG100 GM 019",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 12 00 00 7F F7"
+  },
+  {
+    "number": 20,
+    "name": "TG100 GM 020",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 13 00 00 7F F7"
+  },
+  {
+    "number": 21,
+    "name": "TG100 GM 021",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 14 00 00 7F F7"
+  },
+  {
+    "number": 22,
+    "name": "TG100 GM 022",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 15 00 00 7F F7"
+  },
+  {
+    "number": 23,
+    "name": "TG100 GM 023",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 16 00 00 7F F7"
+  },
+  {
+    "number": 24,
+    "name": "TG100 GM 024",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 17 00 00 7F F7"
+  },
+  {
+    "number": 25,
+    "name": "TG100 GM 025",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 18 00 00 7F F7"
+  },
+  {
+    "number": 26,
+    "name": "TG100 GM 026",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 19 00 00 7F F7"
+  },
+  {
+    "number": 27,
+    "name": "TG100 GM 027",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 1A 00 00 7F F7"
+  },
+  {
+    "number": 28,
+    "name": "TG100 GM 028",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 1B 00 00 7F F7"
+  },
+  {
+    "number": 29,
+    "name": "TG100 GM 029",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 1C 00 00 7F F7"
+  },
+  {
+    "number": 30,
+    "name": "TG100 GM 030",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 1D 00 00 7F F7"
+  },
+  {
+    "number": 31,
+    "name": "TG100 GM 031",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 1E 00 00 7F F7"
+  },
+  {
+    "number": 32,
+    "name": "TG100 GM 032",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 1F 00 00 7F F7"
+  },
+  {
+    "number": 33,
+    "name": "TG100 GM 033",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 20 00 00 7F F7"
+  },
+  {
+    "number": 34,
+    "name": "TG100 GM 034",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 21 00 00 7F F7"
+  },
+  {
+    "number": 35,
+    "name": "TG100 GM 035",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 22 00 00 7F F7"
+  },
+  {
+    "number": 36,
+    "name": "TG100 GM 036",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 23 00 00 7F F7"
+  },
+  {
+    "number": 37,
+    "name": "TG100 GM 037",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 24 00 00 7F F7"
+  },
+  {
+    "number": 38,
+    "name": "TG100 GM 038",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 25 00 00 7F F7"
+  },
+  {
+    "number": 39,
+    "name": "TG100 GM 039",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 26 00 00 7F F7"
+  },
+  {
+    "number": 40,
+    "name": "TG100 GM 040",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 27 00 00 7F F7"
+  },
+  {
+    "number": 41,
+    "name": "TG100 GM 041",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 28 00 00 7F F7"
+  },
+  {
+    "number": 42,
+    "name": "TG100 GM 042",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 29 00 00 7F F7"
+  },
+  {
+    "number": 43,
+    "name": "TG100 GM 043",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 2A 00 00 7F F7"
+  },
+  {
+    "number": 44,
+    "name": "TG100 GM 044",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 2B 00 00 7F F7"
+  },
+  {
+    "number": 45,
+    "name": "TG100 GM 045",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 2C 00 00 7F F7"
+  },
+  {
+    "number": 46,
+    "name": "TG100 GM 046",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 2D 00 00 7F F7"
+  },
+  {
+    "number": 47,
+    "name": "TG100 GM 047",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 2E 00 00 7F F7"
+  },
+  {
+    "number": 48,
+    "name": "TG100 GM 048",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 2F 00 00 7F F7"
+  },
+  {
+    "number": 49,
+    "name": "TG100 GM 049",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 30 00 00 7F F7"
+  },
+  {
+    "number": 50,
+    "name": "TG100 GM 050",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 31 00 00 7F F7"
+  },
+  {
+    "number": 51,
+    "name": "TG100 GM 051",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 32 00 00 7F F7"
+  },
+  {
+    "number": 52,
+    "name": "TG100 GM 052",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 33 00 00 7F F7"
+  },
+  {
+    "number": 53,
+    "name": "TG100 GM 053",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 34 00 00 7F F7"
+  },
+  {
+    "number": 54,
+    "name": "TG100 GM 054",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 35 00 00 7F F7"
+  },
+  {
+    "number": 55,
+    "name": "TG100 GM 055",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 36 00 00 7F F7"
+  },
+  {
+    "number": 56,
+    "name": "TG100 GM 056",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 37 00 00 7F F7"
+  },
+  {
+    "number": 57,
+    "name": "TG100 GM 057",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 38 00 00 7F F7"
+  },
+  {
+    "number": 58,
+    "name": "TG100 GM 058",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 39 00 00 7F F7"
+  },
+  {
+    "number": 59,
+    "name": "TG100 GM 059",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 3A 00 00 7F F7"
+  },
+  {
+    "number": 60,
+    "name": "TG100 GM 060",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 3B 00 00 7F F7"
+  },
+  {
+    "number": 61,
+    "name": "TG100 GM 061",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 3C 00 00 7F F7"
+  },
+  {
+    "number": 62,
+    "name": "TG100 GM 062",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 3D 00 00 7F F7"
+  },
+  {
+    "number": 63,
+    "name": "TG100 GM 063",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 3E 00 00 7F F7"
+  },
+  {
+    "number": 64,
+    "name": "TG100 GM 064",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 3F 00 00 7F F7"
+  },
+  {
+    "number": 65,
+    "name": "TG100 GM 065",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 40 00 00 7F F7"
+  },
+  {
+    "number": 66,
+    "name": "TG100 GM 066",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 41 00 00 7F F7"
+  },
+  {
+    "number": 67,
+    "name": "TG100 GM 067",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 42 00 00 7F F7"
+  },
+  {
+    "number": 68,
+    "name": "TG100 GM 068",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 43 00 00 7F F7"
+  },
+  {
+    "number": 69,
+    "name": "TG100 GM 069",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 44 00 00 7F F7"
+  },
+  {
+    "number": 70,
+    "name": "TG100 GM 070",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 45 00 00 7F F7"
+  },
+  {
+    "number": 71,
+    "name": "TG100 GM 071",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 46 00 00 7F F7"
+  },
+  {
+    "number": 72,
+    "name": "TG100 GM 072",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 47 00 00 7F F7"
+  },
+  {
+    "number": 73,
+    "name": "TG100 GM 073",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 48 00 00 7F F7"
+  },
+  {
+    "number": 74,
+    "name": "TG100 GM 074",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 49 00 00 7F F7"
+  },
+  {
+    "number": 75,
+    "name": "TG100 GM 075",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 4A 00 00 7F F7"
+  },
+  {
+    "number": 76,
+    "name": "TG100 GM 076",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 4B 00 00 7F F7"
+  },
+  {
+    "number": 77,
+    "name": "TG100 GM 077",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 4C 00 00 7F F7"
+  },
+  {
+    "number": 78,
+    "name": "TG100 GM 078",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 4D 00 00 7F F7"
+  },
+  {
+    "number": 79,
+    "name": "TG100 GM 079",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 4E 00 00 7F F7"
+  },
+  {
+    "number": 80,
+    "name": "TG100 GM 080",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 4F 00 00 7F F7"
+  },
+  {
+    "number": 81,
+    "name": "TG100 GM 081",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 50 00 00 7F F7"
+  },
+  {
+    "number": 82,
+    "name": "TG100 GM 082",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 51 00 00 7F F7"
+  },
+  {
+    "number": 83,
+    "name": "TG100 GM 083",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 52 00 00 7F F7"
+  },
+  {
+    "number": 84,
+    "name": "TG100 GM 084",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 53 00 00 7F F7"
+  },
+  {
+    "number": 85,
+    "name": "TG100 GM 085",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 54 00 00 7F F7"
+  },
+  {
+    "number": 86,
+    "name": "TG100 GM 086",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 55 00 00 7F F7"
+  },
+  {
+    "number": 87,
+    "name": "TG100 GM 087",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 56 00 00 7F F7"
+  },
+  {
+    "number": 88,
+    "name": "TG100 GM 088",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 57 00 00 7F F7"
+  },
+  {
+    "number": 89,
+    "name": "TG100 GM 089",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 58 00 00 7F F7"
+  },
+  {
+    "number": 90,
+    "name": "TG100 GM 090",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 59 00 00 7F F7"
+  },
+  {
+    "number": 91,
+    "name": "TG100 GM 091",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 5A 00 00 7F F7"
+  },
+  {
+    "number": 92,
+    "name": "TG100 GM 092",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 5B 00 00 7F F7"
+  },
+  {
+    "number": 93,
+    "name": "TG100 GM 093",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 5C 00 00 7F F7"
+  },
+  {
+    "number": 94,
+    "name": "TG100 GM 094",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 5D 00 00 7F F7"
+  },
+  {
+    "number": 95,
+    "name": "TG100 GM 095",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 5E 00 00 7F F7"
+  },
+  {
+    "number": 96,
+    "name": "TG100 GM 096",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 5F 00 00 7F F7"
+  },
+  {
+    "number": 97,
+    "name": "TG100 GM 097",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 60 00 00 7F F7"
+  },
+  {
+    "number": 98,
+    "name": "TG100 GM 098",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 61 00 00 7F F7"
+  },
+  {
+    "number": 99,
+    "name": "TG100 GM 099",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 62 00 00 7F F7"
+  },
+  {
+    "number": 100,
+    "name": "TG100 GM 100",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 63 00 00 7F F7"
+  },
+  {
+    "number": 101,
+    "name": "TG100 GM 101",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 64 00 00 7F F7"
+  },
+  {
+    "number": 102,
+    "name": "TG100 GM 102",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 65 00 00 7F F7"
+  },
+  {
+    "number": 103,
+    "name": "TG100 GM 103",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 66 00 00 7F F7"
+  },
+  {
+    "number": 104,
+    "name": "TG100 GM 104",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 67 00 00 7F F7"
+  },
+  {
+    "number": 105,
+    "name": "TG100 GM 105",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 68 00 00 7F F7"
+  },
+  {
+    "number": 106,
+    "name": "TG100 GM 106",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 69 00 00 7F F7"
+  },
+  {
+    "number": 107,
+    "name": "TG100 GM 107",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 6A 00 00 7F F7"
+  },
+  {
+    "number": 108,
+    "name": "TG100 GM 108",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 6B 00 00 7F F7"
+  },
+  {
+    "number": 109,
+    "name": "TG100 GM 109",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 6C 00 00 7F F7"
+  },
+  {
+    "number": 110,
+    "name": "TG100 GM 110",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 6D 00 00 7F F7"
+  },
+  {
+    "number": 111,
+    "name": "TG100 GM 111",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 6E 00 00 7F F7"
+  },
+  {
+    "number": 112,
+    "name": "TG100 GM 112",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 6F 00 00 7F F7"
+  },
+  {
+    "number": 113,
+    "name": "TG100 GM 113",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 70 00 00 7F F7"
+  },
+  {
+    "number": 114,
+    "name": "TG100 GM 114",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 71 00 00 7F F7"
+  },
+  {
+    "number": 115,
+    "name": "TG100 GM 115",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 72 00 00 7F F7"
+  },
+  {
+    "number": 116,
+    "name": "TG100 GM 116",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 73 00 00 7F F7"
+  },
+  {
+    "number": 117,
+    "name": "TG100 GM 117",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 74 00 00 7F F7"
+  },
+  {
+    "number": 118,
+    "name": "TG100 GM 118",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 75 00 00 7F F7"
+  },
+  {
+    "number": 119,
+    "name": "TG100 GM 119",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 76 00 00 7F F7"
+  },
+  {
+    "number": 120,
+    "name": "TG100 GM 120",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 77 00 00 7F F7"
+  },
+  {
+    "number": 121,
+    "name": "TG100 GM 121",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 78 00 00 7F F7"
+  },
+  {
+    "number": 122,
+    "name": "TG100 GM 122",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 79 00 00 7F F7"
+  },
+  {
+    "number": 123,
+    "name": "TG100 GM 123",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 7A 00 00 7F F7"
+  },
+  {
+    "number": 124,
+    "name": "TG100 GM 124",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 7B 00 00 7F F7"
+  },
+  {
+    "number": 125,
+    "name": "TG100 GM 125",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 7C 00 00 7F F7"
+  },
+  {
+    "number": 126,
+    "name": "TG100 GM 126",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 7D 00 00 7F F7"
+  },
+  {
+    "number": 127,
+    "name": "TG100 GM 127",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 7E 00 00 7F F7"
+  },
+  {
+    "number": 128,
+    "name": "TG100 GM 128",
+    "bank": "General MIDI Bank",
+    "category": "Standard 128 GM Instruments",
+    "tags": [
+      "general",
+      "standard 128 gm instruments",
+      "tg100"
+    ],
+    "sysex_dump": "F0 43 10 27 7F 00 00 7F F7"
+  }
+]

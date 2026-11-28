@@ -1,0 +1,25 @@
+manufacturer: Korg
+model: Volca Kick
+type: Analog Kick Generator
+year: 2016
+midi:
+  channels: 16
+  cc_map:
+    pitch: 40
+    bend_reverse: 41
+    bend_time: 42
+    pulse_colour: 43
+    pulse_level: 44
+    attack: 45
+    decay: 46
+    tone: 47
+    resonator: 48
+sysex:
+  header: F0 42 30 00 01 43
+  device_id_byte: 2
+  commands:
+    request_preset: F0 42 30 00 01 43 10 00 00 F7
+banks:
+- name: Factory Presets
+  type: ROM
+  size: 16

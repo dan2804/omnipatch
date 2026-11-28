@@ -1,0 +1,26 @@
+manufacturer: Korg
+model: A4 Guitar
+type: Guitar Multi-Effects Processor
+year: 1993
+midi:
+  channels: 16
+  cc_map:
+    drive: 16
+    tone: 17
+    level: 18
+    mod_speed: 19
+    mod_depth: 20
+    delay_time: 21
+    delay_level: 22
+sysex:
+  header: F0 42 30 42
+  device_id_byte: 2
+  commands:
+    request_preset: F0 42 30 42 10 00 00 F7
+banks:
+- name: Preset Bank 1
+  type: ROM
+  size: 30
+- name: Preset Bank 2
+  type: ROM
+  size: 30

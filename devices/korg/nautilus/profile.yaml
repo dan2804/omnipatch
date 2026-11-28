@@ -1,0 +1,26 @@
+manufacturer: Korg
+model: Nautilus
+type: 9-Engine Music Workstation
+year: 2020
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    resonance: 71
+    dynamics_knob: 16
+    tone_knob: 17
+    user_knob_1: 18
+    user_knob_2: 19
+    rt_control: 20
+sysex:
+  header: F0 42 30 00 01 1D
+  device_id_byte: 2
+  commands:
+    request_preset: F0 42 30 00 01 1D 10 00 00 F7
+banks:
+- name: HD-1 High Definition Bank
+  type: ROM
+  size: 128
+- name: EXi Synthesis Engines Bank
+  type: ROM
+  size: 128

@@ -1,0 +1,24 @@
+manufacturer: Ensoniq
+model: TS-12
+type: 76-Key Transwave Synthesizer Workstation
+year: 1993
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    mod_source: 1
+    timbre: 70
+    fx_dry_wet: 91
+sysex:
+  header: F0 0F 03 02
+  device_id_byte: 2
+  commands:
+    request_preset: F0 0F 03 02 01 00 F7
+banks:
+- name: Preset Bank 1
+  type: ROM
+  size: 60
+- name: Preset Bank 2
+  type: ROM
+  size: 60

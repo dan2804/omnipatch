@@ -1,0 +1,32 @@
+manufacturer: Roland
+model: XP-60
+type: 64-Voice Music Workstation
+year: 1998
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    resonance: 71
+    envelope_attack: 73
+    envelope_release: 72
+    efx_ctrl1: 12
+    efx_ctrl2: 13
+    mod_wheel: 1
+sysex:
+  header: F0 41 10 6A 12
+  device_id_byte: 2
+  commands:
+    request_preset: F0 41 10 6A 11 00 00 00 00 01 00 7F F7
+banks:
+- name: User Patches
+  type: RAM
+  size: 128
+- name: Preset Bank A
+  type: ROM
+  size: 128
+- name: Preset Bank B
+  type: ROM
+  size: 128
+- name: Preset Bank C
+  type: ROM
+  size: 128

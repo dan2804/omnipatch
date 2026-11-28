@@ -1,0 +1,22 @@
+manufacturer: Yamaha
+model: SPX900
+type: Professional Multi-Effects Processor
+year: 1988
+midi:
+  channels: 16
+  cc_map:
+    input_level: 7
+    balance: 10
+    param_1: 16
+    param_2: 17
+    param_3: 18
+    bypass: 80
+sysex:
+  header: F0 43 10 2C
+  device_id_byte: 2
+  commands:
+    request_preset: F0 43 20 2C 00 00 00 F7
+banks:
+- name: Factory Presets
+  type: ROM
+  size: 99

@@ -1,0 +1,26 @@
+manufacturer: Roland
+model: VK-7
+type: Virtual ToneWheel Combo Organ
+year: 1997
+midi:
+  channels: 16
+  cc_map:
+    drawbar_16: 12
+    drawbar_8: 13
+    drawbar_4: 14
+    drawbar_2: 15
+    rotary_speed: 68
+    overdrive_level: 16
+    vibrato_chorus: 17
+sysex:
+  header: F0 41 10 00 07 12
+  device_id_byte: 2
+  commands:
+    request_preset: F0 41 10 00 07 11 00 00 00 00 01 00 7F F7
+banks:
+- name: Preset Bank 1
+  type: ROM
+  size: 32
+- name: Preset Bank 2
+  type: ROM
+  size: 32

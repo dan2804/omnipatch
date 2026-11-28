@@ -1,0 +1,26 @@
+manufacturer: Korg
+model: OASYS
+type: Open Architecture Synthesis Studio
+year: 2005
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    resonance: 71
+    vector_joystick_x: 16
+    vector_joystick_y: 17
+    karma_slider_1: 18
+    karma_slider_2: 19
+    karma_slider_3: 20
+sysex:
+  header: F0 42 30 73
+  device_id_byte: 2
+  commands:
+    request_preset: F0 42 30 73 10 00 00 F7
+banks:
+- name: HD-1 PCM Programs
+  type: ROM
+  size: 128
+- name: AL-1 VA & CX-3 Organs
+  type: ROM
+  size: 128

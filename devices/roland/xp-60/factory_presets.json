@@ -1,0 +1,6146 @@
+[
+  {
+    "number": 1,
+    "name": "XP-60 User 001",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 00 00 00 7F F7"
+  },
+  {
+    "number": 2,
+    "name": "XP-60 User 002",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 01 00 00 7F F7"
+  },
+  {
+    "number": 3,
+    "name": "XP-60 User 003",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 02 00 00 7F F7"
+  },
+  {
+    "number": 4,
+    "name": "XP-60 User 004",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 03 00 00 7F F7"
+  },
+  {
+    "number": 5,
+    "name": "XP-60 User 005",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 04 00 00 7F F7"
+  },
+  {
+    "number": 6,
+    "name": "XP-60 User 006",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 05 00 00 7F F7"
+  },
+  {
+    "number": 7,
+    "name": "XP-60 User 007",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 06 00 00 7F F7"
+  },
+  {
+    "number": 8,
+    "name": "XP-60 User 008",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 07 00 00 7F F7"
+  },
+  {
+    "number": 9,
+    "name": "XP-60 User 009",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 08 00 00 7F F7"
+  },
+  {
+    "number": 10,
+    "name": "XP-60 User 010",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 09 00 00 7F F7"
+  },
+  {
+    "number": 11,
+    "name": "XP-60 User 011",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 0A 00 00 7F F7"
+  },
+  {
+    "number": 12,
+    "name": "XP-60 User 012",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 0B 00 00 7F F7"
+  },
+  {
+    "number": 13,
+    "name": "XP-60 User 013",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 0C 00 00 7F F7"
+  },
+  {
+    "number": 14,
+    "name": "XP-60 User 014",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 0D 00 00 7F F7"
+  },
+  {
+    "number": 15,
+    "name": "XP-60 User 015",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 0E 00 00 7F F7"
+  },
+  {
+    "number": 16,
+    "name": "XP-60 User 016",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 0F 00 00 7F F7"
+  },
+  {
+    "number": 17,
+    "name": "XP-60 User 017",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 10 00 00 7F F7"
+  },
+  {
+    "number": 18,
+    "name": "XP-60 User 018",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 11 00 00 7F F7"
+  },
+  {
+    "number": 19,
+    "name": "XP-60 User 019",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 12 00 00 7F F7"
+  },
+  {
+    "number": 20,
+    "name": "XP-60 User 020",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 13 00 00 7F F7"
+  },
+  {
+    "number": 21,
+    "name": "XP-60 User 021",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 14 00 00 7F F7"
+  },
+  {
+    "number": 22,
+    "name": "XP-60 User 022",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 15 00 00 7F F7"
+  },
+  {
+    "number": 23,
+    "name": "XP-60 User 023",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 16 00 00 7F F7"
+  },
+  {
+    "number": 24,
+    "name": "XP-60 User 024",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 17 00 00 7F F7"
+  },
+  {
+    "number": 25,
+    "name": "XP-60 User 025",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 18 00 00 7F F7"
+  },
+  {
+    "number": 26,
+    "name": "XP-60 User 026",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 19 00 00 7F F7"
+  },
+  {
+    "number": 27,
+    "name": "XP-60 User 027",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 1A 00 00 7F F7"
+  },
+  {
+    "number": 28,
+    "name": "XP-60 User 028",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 1B 00 00 7F F7"
+  },
+  {
+    "number": 29,
+    "name": "XP-60 User 029",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 1C 00 00 7F F7"
+  },
+  {
+    "number": 30,
+    "name": "XP-60 User 030",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 1D 00 00 7F F7"
+  },
+  {
+    "number": 31,
+    "name": "XP-60 User 031",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 1E 00 00 7F F7"
+  },
+  {
+    "number": 32,
+    "name": "XP-60 User 032",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 1F 00 00 7F F7"
+  },
+  {
+    "number": 33,
+    "name": "XP-60 User 033",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 20 00 00 7F F7"
+  },
+  {
+    "number": 34,
+    "name": "XP-60 User 034",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 21 00 00 7F F7"
+  },
+  {
+    "number": 35,
+    "name": "XP-60 User 035",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 22 00 00 7F F7"
+  },
+  {
+    "number": 36,
+    "name": "XP-60 User 036",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 23 00 00 7F F7"
+  },
+  {
+    "number": 37,
+    "name": "XP-60 User 037",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 24 00 00 7F F7"
+  },
+  {
+    "number": 38,
+    "name": "XP-60 User 038",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 25 00 00 7F F7"
+  },
+  {
+    "number": 39,
+    "name": "XP-60 User 039",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 26 00 00 7F F7"
+  },
+  {
+    "number": 40,
+    "name": "XP-60 User 040",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 27 00 00 7F F7"
+  },
+  {
+    "number": 41,
+    "name": "XP-60 User 041",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 28 00 00 7F F7"
+  },
+  {
+    "number": 42,
+    "name": "XP-60 User 042",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 29 00 00 7F F7"
+  },
+  {
+    "number": 43,
+    "name": "XP-60 User 043",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 2A 00 00 7F F7"
+  },
+  {
+    "number": 44,
+    "name": "XP-60 User 044",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 2B 00 00 7F F7"
+  },
+  {
+    "number": 45,
+    "name": "XP-60 User 045",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 2C 00 00 7F F7"
+  },
+  {
+    "number": 46,
+    "name": "XP-60 User 046",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 2D 00 00 7F F7"
+  },
+  {
+    "number": 47,
+    "name": "XP-60 User 047",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 2E 00 00 7F F7"
+  },
+  {
+    "number": 48,
+    "name": "XP-60 User 048",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 2F 00 00 7F F7"
+  },
+  {
+    "number": 49,
+    "name": "XP-60 User 049",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 30 00 00 7F F7"
+  },
+  {
+    "number": 50,
+    "name": "XP-60 User 050",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 31 00 00 7F F7"
+  },
+  {
+    "number": 51,
+    "name": "XP-60 User 051",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 32 00 00 7F F7"
+  },
+  {
+    "number": 52,
+    "name": "XP-60 User 052",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 33 00 00 7F F7"
+  },
+  {
+    "number": 53,
+    "name": "XP-60 User 053",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 34 00 00 7F F7"
+  },
+  {
+    "number": 54,
+    "name": "XP-60 User 054",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 35 00 00 7F F7"
+  },
+  {
+    "number": 55,
+    "name": "XP-60 User 055",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 36 00 00 7F F7"
+  },
+  {
+    "number": 56,
+    "name": "XP-60 User 056",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 37 00 00 7F F7"
+  },
+  {
+    "number": 57,
+    "name": "XP-60 User 057",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 38 00 00 7F F7"
+  },
+  {
+    "number": 58,
+    "name": "XP-60 User 058",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 39 00 00 7F F7"
+  },
+  {
+    "number": 59,
+    "name": "XP-60 User 059",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 3A 00 00 7F F7"
+  },
+  {
+    "number": 60,
+    "name": "XP-60 User 060",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 3B 00 00 7F F7"
+  },
+  {
+    "number": 61,
+    "name": "XP-60 User 061",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 3C 00 00 7F F7"
+  },
+  {
+    "number": 62,
+    "name": "XP-60 User 062",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 3D 00 00 7F F7"
+  },
+  {
+    "number": 63,
+    "name": "XP-60 User 063",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 3E 00 00 7F F7"
+  },
+  {
+    "number": 64,
+    "name": "XP-60 User 064",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 3F 00 00 7F F7"
+  },
+  {
+    "number": 65,
+    "name": "XP-60 User 065",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 40 00 00 7F F7"
+  },
+  {
+    "number": 66,
+    "name": "XP-60 User 066",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 41 00 00 7F F7"
+  },
+  {
+    "number": 67,
+    "name": "XP-60 User 067",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 42 00 00 7F F7"
+  },
+  {
+    "number": 68,
+    "name": "XP-60 User 068",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 43 00 00 7F F7"
+  },
+  {
+    "number": 69,
+    "name": "XP-60 User 069",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 44 00 00 7F F7"
+  },
+  {
+    "number": 70,
+    "name": "XP-60 User 070",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 45 00 00 7F F7"
+  },
+  {
+    "number": 71,
+    "name": "XP-60 User 071",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 46 00 00 7F F7"
+  },
+  {
+    "number": 72,
+    "name": "XP-60 User 072",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 47 00 00 7F F7"
+  },
+  {
+    "number": 73,
+    "name": "XP-60 User 073",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 48 00 00 7F F7"
+  },
+  {
+    "number": 74,
+    "name": "XP-60 User 074",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 49 00 00 7F F7"
+  },
+  {
+    "number": 75,
+    "name": "XP-60 User 075",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 4A 00 00 7F F7"
+  },
+  {
+    "number": 76,
+    "name": "XP-60 User 076",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 4B 00 00 7F F7"
+  },
+  {
+    "number": 77,
+    "name": "XP-60 User 077",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 4C 00 00 7F F7"
+  },
+  {
+    "number": 78,
+    "name": "XP-60 User 078",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 4D 00 00 7F F7"
+  },
+  {
+    "number": 79,
+    "name": "XP-60 User 079",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 4E 00 00 7F F7"
+  },
+  {
+    "number": 80,
+    "name": "XP-60 User 080",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 4F 00 00 7F F7"
+  },
+  {
+    "number": 81,
+    "name": "XP-60 User 081",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 50 00 00 7F F7"
+  },
+  {
+    "number": 82,
+    "name": "XP-60 User 082",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 51 00 00 7F F7"
+  },
+  {
+    "number": 83,
+    "name": "XP-60 User 083",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 52 00 00 7F F7"
+  },
+  {
+    "number": 84,
+    "name": "XP-60 User 084",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 53 00 00 7F F7"
+  },
+  {
+    "number": 85,
+    "name": "XP-60 User 085",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 54 00 00 7F F7"
+  },
+  {
+    "number": 86,
+    "name": "XP-60 User 086",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 55 00 00 7F F7"
+  },
+  {
+    "number": 87,
+    "name": "XP-60 User 087",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 56 00 00 7F F7"
+  },
+  {
+    "number": 88,
+    "name": "XP-60 User 088",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 57 00 00 7F F7"
+  },
+  {
+    "number": 89,
+    "name": "XP-60 User 089",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 58 00 00 7F F7"
+  },
+  {
+    "number": 90,
+    "name": "XP-60 User 090",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 59 00 00 7F F7"
+  },
+  {
+    "number": 91,
+    "name": "XP-60 User 091",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 5A 00 00 7F F7"
+  },
+  {
+    "number": 92,
+    "name": "XP-60 User 092",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 5B 00 00 7F F7"
+  },
+  {
+    "number": 93,
+    "name": "XP-60 User 093",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 5C 00 00 7F F7"
+  },
+  {
+    "number": 94,
+    "name": "XP-60 User 094",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 5D 00 00 7F F7"
+  },
+  {
+    "number": 95,
+    "name": "XP-60 User 095",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 5E 00 00 7F F7"
+  },
+  {
+    "number": 96,
+    "name": "XP-60 User 096",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 5F 00 00 7F F7"
+  },
+  {
+    "number": 97,
+    "name": "XP-60 User 097",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 60 00 00 7F F7"
+  },
+  {
+    "number": 98,
+    "name": "XP-60 User 098",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 61 00 00 7F F7"
+  },
+  {
+    "number": 99,
+    "name": "XP-60 User 099",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 62 00 00 7F F7"
+  },
+  {
+    "number": 100,
+    "name": "XP-60 User 100",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 63 00 00 7F F7"
+  },
+  {
+    "number": 101,
+    "name": "XP-60 User 101",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 64 00 00 7F F7"
+  },
+  {
+    "number": 102,
+    "name": "XP-60 User 102",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 65 00 00 7F F7"
+  },
+  {
+    "number": 103,
+    "name": "XP-60 User 103",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 66 00 00 7F F7"
+  },
+  {
+    "number": 104,
+    "name": "XP-60 User 104",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 67 00 00 7F F7"
+  },
+  {
+    "number": 105,
+    "name": "XP-60 User 105",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 68 00 00 7F F7"
+  },
+  {
+    "number": 106,
+    "name": "XP-60 User 106",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 69 00 00 7F F7"
+  },
+  {
+    "number": 107,
+    "name": "XP-60 User 107",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 6A 00 00 7F F7"
+  },
+  {
+    "number": 108,
+    "name": "XP-60 User 108",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 6B 00 00 7F F7"
+  },
+  {
+    "number": 109,
+    "name": "XP-60 User 109",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 6C 00 00 7F F7"
+  },
+  {
+    "number": 110,
+    "name": "XP-60 User 110",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 6D 00 00 7F F7"
+  },
+  {
+    "number": 111,
+    "name": "XP-60 User 111",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 6E 00 00 7F F7"
+  },
+  {
+    "number": 112,
+    "name": "XP-60 User 112",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 6F 00 00 7F F7"
+  },
+  {
+    "number": 113,
+    "name": "XP-60 User 113",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 70 00 00 7F F7"
+  },
+  {
+    "number": 114,
+    "name": "XP-60 User 114",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 71 00 00 7F F7"
+  },
+  {
+    "number": 115,
+    "name": "XP-60 User 115",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 72 00 00 7F F7"
+  },
+  {
+    "number": 116,
+    "name": "XP-60 User 116",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 73 00 00 7F F7"
+  },
+  {
+    "number": 117,
+    "name": "XP-60 User 117",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 74 00 00 7F F7"
+  },
+  {
+    "number": 118,
+    "name": "XP-60 User 118",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 75 00 00 7F F7"
+  },
+  {
+    "number": 119,
+    "name": "XP-60 User 119",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 76 00 00 7F F7"
+  },
+  {
+    "number": 120,
+    "name": "XP-60 User 120",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 77 00 00 7F F7"
+  },
+  {
+    "number": 121,
+    "name": "XP-60 User 121",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 78 00 00 7F F7"
+  },
+  {
+    "number": 122,
+    "name": "XP-60 User 122",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 79 00 00 7F F7"
+  },
+  {
+    "number": 123,
+    "name": "XP-60 User 123",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 7A 00 00 7F F7"
+  },
+  {
+    "number": 124,
+    "name": "XP-60 User 124",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 7B 00 00 7F F7"
+  },
+  {
+    "number": 125,
+    "name": "XP-60 User 125",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 7C 00 00 7F F7"
+  },
+  {
+    "number": 126,
+    "name": "XP-60 User 126",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 7D 00 00 7F F7"
+  },
+  {
+    "number": 127,
+    "name": "XP-60 User 127",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 7E 00 00 7F F7"
+  },
+  {
+    "number": 128,
+    "name": "XP-60 User 128",
+    "bank": "User Patches",
+    "category": "User Custom Creations",
+    "tags": [
+      "64-voice",
+      "user custom creations",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 7F 00 00 7F F7"
+  },
+  {
+    "number": 1,
+    "name": "XP-60 Preset A-001",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 00 00 00 7F F7"
+  },
+  {
+    "number": 2,
+    "name": "XP-60 Preset A-002",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 01 00 00 7F F7"
+  },
+  {
+    "number": 3,
+    "name": "XP-60 Preset A-003",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 02 00 00 7F F7"
+  },
+  {
+    "number": 4,
+    "name": "XP-60 Preset A-004",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 03 00 00 7F F7"
+  },
+  {
+    "number": 5,
+    "name": "XP-60 Preset A-005",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 04 00 00 7F F7"
+  },
+  {
+    "number": 6,
+    "name": "XP-60 Preset A-006",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 05 00 00 7F F7"
+  },
+  {
+    "number": 7,
+    "name": "XP-60 Preset A-007",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 06 00 00 7F F7"
+  },
+  {
+    "number": 8,
+    "name": "XP-60 Preset A-008",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 07 00 00 7F F7"
+  },
+  {
+    "number": 9,
+    "name": "XP-60 Preset A-009",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 08 00 00 7F F7"
+  },
+  {
+    "number": 10,
+    "name": "XP-60 Preset A-010",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 09 00 00 7F F7"
+  },
+  {
+    "number": 11,
+    "name": "XP-60 Preset A-011",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 0A 00 00 7F F7"
+  },
+  {
+    "number": 12,
+    "name": "XP-60 Preset A-012",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 0B 00 00 7F F7"
+  },
+  {
+    "number": 13,
+    "name": "XP-60 Preset A-013",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 0C 00 00 7F F7"
+  },
+  {
+    "number": 14,
+    "name": "XP-60 Preset A-014",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 0D 00 00 7F F7"
+  },
+  {
+    "number": 15,
+    "name": "XP-60 Preset A-015",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 0E 00 00 7F F7"
+  },
+  {
+    "number": 16,
+    "name": "XP-60 Preset A-016",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 0F 00 00 7F F7"
+  },
+  {
+    "number": 17,
+    "name": "XP-60 Preset A-017",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 10 00 00 7F F7"
+  },
+  {
+    "number": 18,
+    "name": "XP-60 Preset A-018",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 11 00 00 7F F7"
+  },
+  {
+    "number": 19,
+    "name": "XP-60 Preset A-019",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 12 00 00 7F F7"
+  },
+  {
+    "number": 20,
+    "name": "XP-60 Preset A-020",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 13 00 00 7F F7"
+  },
+  {
+    "number": 21,
+    "name": "XP-60 Preset A-021",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 14 00 00 7F F7"
+  },
+  {
+    "number": 22,
+    "name": "XP-60 Preset A-022",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 15 00 00 7F F7"
+  },
+  {
+    "number": 23,
+    "name": "XP-60 Preset A-023",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 16 00 00 7F F7"
+  },
+  {
+    "number": 24,
+    "name": "XP-60 Preset A-024",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 17 00 00 7F F7"
+  },
+  {
+    "number": 25,
+    "name": "XP-60 Preset A-025",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 18 00 00 7F F7"
+  },
+  {
+    "number": 26,
+    "name": "XP-60 Preset A-026",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 19 00 00 7F F7"
+  },
+  {
+    "number": 27,
+    "name": "XP-60 Preset A-027",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 1A 00 00 7F F7"
+  },
+  {
+    "number": 28,
+    "name": "XP-60 Preset A-028",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 1B 00 00 7F F7"
+  },
+  {
+    "number": 29,
+    "name": "XP-60 Preset A-029",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 1C 00 00 7F F7"
+  },
+  {
+    "number": 30,
+    "name": "XP-60 Preset A-030",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 1D 00 00 7F F7"
+  },
+  {
+    "number": 31,
+    "name": "XP-60 Preset A-031",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 1E 00 00 7F F7"
+  },
+  {
+    "number": 32,
+    "name": "XP-60 Preset A-032",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 1F 00 00 7F F7"
+  },
+  {
+    "number": 33,
+    "name": "XP-60 Preset A-033",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 20 00 00 7F F7"
+  },
+  {
+    "number": 34,
+    "name": "XP-60 Preset A-034",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 21 00 00 7F F7"
+  },
+  {
+    "number": 35,
+    "name": "XP-60 Preset A-035",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 22 00 00 7F F7"
+  },
+  {
+    "number": 36,
+    "name": "XP-60 Preset A-036",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 23 00 00 7F F7"
+  },
+  {
+    "number": 37,
+    "name": "XP-60 Preset A-037",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 24 00 00 7F F7"
+  },
+  {
+    "number": 38,
+    "name": "XP-60 Preset A-038",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 25 00 00 7F F7"
+  },
+  {
+    "number": 39,
+    "name": "XP-60 Preset A-039",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 26 00 00 7F F7"
+  },
+  {
+    "number": 40,
+    "name": "XP-60 Preset A-040",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 27 00 00 7F F7"
+  },
+  {
+    "number": 41,
+    "name": "XP-60 Preset A-041",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 28 00 00 7F F7"
+  },
+  {
+    "number": 42,
+    "name": "XP-60 Preset A-042",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 29 00 00 7F F7"
+  },
+  {
+    "number": 43,
+    "name": "XP-60 Preset A-043",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 2A 00 00 7F F7"
+  },
+  {
+    "number": 44,
+    "name": "XP-60 Preset A-044",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 2B 00 00 7F F7"
+  },
+  {
+    "number": 45,
+    "name": "XP-60 Preset A-045",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 2C 00 00 7F F7"
+  },
+  {
+    "number": 46,
+    "name": "XP-60 Preset A-046",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 2D 00 00 7F F7"
+  },
+  {
+    "number": 47,
+    "name": "XP-60 Preset A-047",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 2E 00 00 7F F7"
+  },
+  {
+    "number": 48,
+    "name": "XP-60 Preset A-048",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 2F 00 00 7F F7"
+  },
+  {
+    "number": 49,
+    "name": "XP-60 Preset A-049",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 30 00 00 7F F7"
+  },
+  {
+    "number": 50,
+    "name": "XP-60 Preset A-050",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 31 00 00 7F F7"
+  },
+  {
+    "number": 51,
+    "name": "XP-60 Preset A-051",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 32 00 00 7F F7"
+  },
+  {
+    "number": 52,
+    "name": "XP-60 Preset A-052",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 33 00 00 7F F7"
+  },
+  {
+    "number": 53,
+    "name": "XP-60 Preset A-053",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 34 00 00 7F F7"
+  },
+  {
+    "number": 54,
+    "name": "XP-60 Preset A-054",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 35 00 00 7F F7"
+  },
+  {
+    "number": 55,
+    "name": "XP-60 Preset A-055",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 36 00 00 7F F7"
+  },
+  {
+    "number": 56,
+    "name": "XP-60 Preset A-056",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 37 00 00 7F F7"
+  },
+  {
+    "number": 57,
+    "name": "XP-60 Preset A-057",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 38 00 00 7F F7"
+  },
+  {
+    "number": 58,
+    "name": "XP-60 Preset A-058",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 39 00 00 7F F7"
+  },
+  {
+    "number": 59,
+    "name": "XP-60 Preset A-059",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 3A 00 00 7F F7"
+  },
+  {
+    "number": 60,
+    "name": "XP-60 Preset A-060",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 3B 00 00 7F F7"
+  },
+  {
+    "number": 61,
+    "name": "XP-60 Preset A-061",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 3C 00 00 7F F7"
+  },
+  {
+    "number": 62,
+    "name": "XP-60 Preset A-062",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 3D 00 00 7F F7"
+  },
+  {
+    "number": 63,
+    "name": "XP-60 Preset A-063",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 3E 00 00 7F F7"
+  },
+  {
+    "number": 64,
+    "name": "XP-60 Preset A-064",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 3F 00 00 7F F7"
+  },
+  {
+    "number": 65,
+    "name": "XP-60 Preset A-065",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 40 00 00 7F F7"
+  },
+  {
+    "number": 66,
+    "name": "XP-60 Preset A-066",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 41 00 00 7F F7"
+  },
+  {
+    "number": 67,
+    "name": "XP-60 Preset A-067",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 42 00 00 7F F7"
+  },
+  {
+    "number": 68,
+    "name": "XP-60 Preset A-068",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 43 00 00 7F F7"
+  },
+  {
+    "number": 69,
+    "name": "XP-60 Preset A-069",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 44 00 00 7F F7"
+  },
+  {
+    "number": 70,
+    "name": "XP-60 Preset A-070",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 45 00 00 7F F7"
+  },
+  {
+    "number": 71,
+    "name": "XP-60 Preset A-071",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 46 00 00 7F F7"
+  },
+  {
+    "number": 72,
+    "name": "XP-60 Preset A-072",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 47 00 00 7F F7"
+  },
+  {
+    "number": 73,
+    "name": "XP-60 Preset A-073",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 48 00 00 7F F7"
+  },
+  {
+    "number": 74,
+    "name": "XP-60 Preset A-074",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 49 00 00 7F F7"
+  },
+  {
+    "number": 75,
+    "name": "XP-60 Preset A-075",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 4A 00 00 7F F7"
+  },
+  {
+    "number": 76,
+    "name": "XP-60 Preset A-076",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 4B 00 00 7F F7"
+  },
+  {
+    "number": 77,
+    "name": "XP-60 Preset A-077",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 4C 00 00 7F F7"
+  },
+  {
+    "number": 78,
+    "name": "XP-60 Preset A-078",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 4D 00 00 7F F7"
+  },
+  {
+    "number": 79,
+    "name": "XP-60 Preset A-079",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 4E 00 00 7F F7"
+  },
+  {
+    "number": 80,
+    "name": "XP-60 Preset A-080",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 4F 00 00 7F F7"
+  },
+  {
+    "number": 81,
+    "name": "XP-60 Preset A-081",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 50 00 00 7F F7"
+  },
+  {
+    "number": 82,
+    "name": "XP-60 Preset A-082",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 51 00 00 7F F7"
+  },
+  {
+    "number": 83,
+    "name": "XP-60 Preset A-083",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 52 00 00 7F F7"
+  },
+  {
+    "number": 84,
+    "name": "XP-60 Preset A-084",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 53 00 00 7F F7"
+  },
+  {
+    "number": 85,
+    "name": "XP-60 Preset A-085",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 54 00 00 7F F7"
+  },
+  {
+    "number": 86,
+    "name": "XP-60 Preset A-086",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 55 00 00 7F F7"
+  },
+  {
+    "number": 87,
+    "name": "XP-60 Preset A-087",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 56 00 00 7F F7"
+  },
+  {
+    "number": 88,
+    "name": "XP-60 Preset A-088",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 57 00 00 7F F7"
+  },
+  {
+    "number": 89,
+    "name": "XP-60 Preset A-089",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 58 00 00 7F F7"
+  },
+  {
+    "number": 90,
+    "name": "XP-60 Preset A-090",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 59 00 00 7F F7"
+  },
+  {
+    "number": 91,
+    "name": "XP-60 Preset A-091",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 5A 00 00 7F F7"
+  },
+  {
+    "number": 92,
+    "name": "XP-60 Preset A-092",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 5B 00 00 7F F7"
+  },
+  {
+    "number": 93,
+    "name": "XP-60 Preset A-093",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 5C 00 00 7F F7"
+  },
+  {
+    "number": 94,
+    "name": "XP-60 Preset A-094",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 5D 00 00 7F F7"
+  },
+  {
+    "number": 95,
+    "name": "XP-60 Preset A-095",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 5E 00 00 7F F7"
+  },
+  {
+    "number": 96,
+    "name": "XP-60 Preset A-096",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 5F 00 00 7F F7"
+  },
+  {
+    "number": 97,
+    "name": "XP-60 Preset A-097",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 60 00 00 7F F7"
+  },
+  {
+    "number": 98,
+    "name": "XP-60 Preset A-098",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 61 00 00 7F F7"
+  },
+  {
+    "number": 99,
+    "name": "XP-60 Preset A-099",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 62 00 00 7F F7"
+  },
+  {
+    "number": 100,
+    "name": "XP-60 Preset A-100",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 63 00 00 7F F7"
+  },
+  {
+    "number": 101,
+    "name": "XP-60 Preset A-101",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 64 00 00 7F F7"
+  },
+  {
+    "number": 102,
+    "name": "XP-60 Preset A-102",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 65 00 00 7F F7"
+  },
+  {
+    "number": 103,
+    "name": "XP-60 Preset A-103",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 66 00 00 7F F7"
+  },
+  {
+    "number": 104,
+    "name": "XP-60 Preset A-104",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 67 00 00 7F F7"
+  },
+  {
+    "number": 105,
+    "name": "XP-60 Preset A-105",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 68 00 00 7F F7"
+  },
+  {
+    "number": 106,
+    "name": "XP-60 Preset A-106",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 69 00 00 7F F7"
+  },
+  {
+    "number": 107,
+    "name": "XP-60 Preset A-107",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 6A 00 00 7F F7"
+  },
+  {
+    "number": 108,
+    "name": "XP-60 Preset A-108",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 6B 00 00 7F F7"
+  },
+  {
+    "number": 109,
+    "name": "XP-60 Preset A-109",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 6C 00 00 7F F7"
+  },
+  {
+    "number": 110,
+    "name": "XP-60 Preset A-110",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 6D 00 00 7F F7"
+  },
+  {
+    "number": 111,
+    "name": "XP-60 Preset A-111",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 6E 00 00 7F F7"
+  },
+  {
+    "number": 112,
+    "name": "XP-60 Preset A-112",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 6F 00 00 7F F7"
+  },
+  {
+    "number": 113,
+    "name": "XP-60 Preset A-113",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 70 00 00 7F F7"
+  },
+  {
+    "number": 114,
+    "name": "XP-60 Preset A-114",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 71 00 00 7F F7"
+  },
+  {
+    "number": 115,
+    "name": "XP-60 Preset A-115",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 72 00 00 7F F7"
+  },
+  {
+    "number": 116,
+    "name": "XP-60 Preset A-116",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 73 00 00 7F F7"
+  },
+  {
+    "number": 117,
+    "name": "XP-60 Preset A-117",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 74 00 00 7F F7"
+  },
+  {
+    "number": 118,
+    "name": "XP-60 Preset A-118",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 75 00 00 7F F7"
+  },
+  {
+    "number": 119,
+    "name": "XP-60 Preset A-119",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 76 00 00 7F F7"
+  },
+  {
+    "number": 120,
+    "name": "XP-60 Preset A-120",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 77 00 00 7F F7"
+  },
+  {
+    "number": 121,
+    "name": "XP-60 Preset A-121",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 78 00 00 7F F7"
+  },
+  {
+    "number": 122,
+    "name": "XP-60 Preset A-122",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 79 00 00 7F F7"
+  },
+  {
+    "number": 123,
+    "name": "XP-60 Preset A-123",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 7A 00 00 7F F7"
+  },
+  {
+    "number": 124,
+    "name": "XP-60 Preset A-124",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 7B 00 00 7F F7"
+  },
+  {
+    "number": 125,
+    "name": "XP-60 Preset A-125",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 7C 00 00 7F F7"
+  },
+  {
+    "number": 126,
+    "name": "XP-60 Preset A-126",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 7D 00 00 7F F7"
+  },
+  {
+    "number": 127,
+    "name": "XP-60 Preset A-127",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 7E 00 00 7F F7"
+  },
+  {
+    "number": 128,
+    "name": "XP-60 Preset A-128",
+    "bank": "Preset Bank A",
+    "category": "Pop & Contemporary Instruments",
+    "tags": [
+      "64-voice",
+      "pop & contemporary instruments",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 7F 00 00 7F F7"
+  },
+  {
+    "number": 1,
+    "name": "XP-60 Preset B-001",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 00 00 00 7F F7"
+  },
+  {
+    "number": 2,
+    "name": "XP-60 Preset B-002",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 01 00 00 7F F7"
+  },
+  {
+    "number": 3,
+    "name": "XP-60 Preset B-003",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 02 00 00 7F F7"
+  },
+  {
+    "number": 4,
+    "name": "XP-60 Preset B-004",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 03 00 00 7F F7"
+  },
+  {
+    "number": 5,
+    "name": "XP-60 Preset B-005",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 04 00 00 7F F7"
+  },
+  {
+    "number": 6,
+    "name": "XP-60 Preset B-006",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 05 00 00 7F F7"
+  },
+  {
+    "number": 7,
+    "name": "XP-60 Preset B-007",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 06 00 00 7F F7"
+  },
+  {
+    "number": 8,
+    "name": "XP-60 Preset B-008",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 07 00 00 7F F7"
+  },
+  {
+    "number": 9,
+    "name": "XP-60 Preset B-009",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 08 00 00 7F F7"
+  },
+  {
+    "number": 10,
+    "name": "XP-60 Preset B-010",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 09 00 00 7F F7"
+  },
+  {
+    "number": 11,
+    "name": "XP-60 Preset B-011",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 0A 00 00 7F F7"
+  },
+  {
+    "number": 12,
+    "name": "XP-60 Preset B-012",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 0B 00 00 7F F7"
+  },
+  {
+    "number": 13,
+    "name": "XP-60 Preset B-013",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 0C 00 00 7F F7"
+  },
+  {
+    "number": 14,
+    "name": "XP-60 Preset B-014",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 0D 00 00 7F F7"
+  },
+  {
+    "number": 15,
+    "name": "XP-60 Preset B-015",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 0E 00 00 7F F7"
+  },
+  {
+    "number": 16,
+    "name": "XP-60 Preset B-016",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 0F 00 00 7F F7"
+  },
+  {
+    "number": 17,
+    "name": "XP-60 Preset B-017",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 10 00 00 7F F7"
+  },
+  {
+    "number": 18,
+    "name": "XP-60 Preset B-018",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 11 00 00 7F F7"
+  },
+  {
+    "number": 19,
+    "name": "XP-60 Preset B-019",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 12 00 00 7F F7"
+  },
+  {
+    "number": 20,
+    "name": "XP-60 Preset B-020",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 13 00 00 7F F7"
+  },
+  {
+    "number": 21,
+    "name": "XP-60 Preset B-021",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 14 00 00 7F F7"
+  },
+  {
+    "number": 22,
+    "name": "XP-60 Preset B-022",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 15 00 00 7F F7"
+  },
+  {
+    "number": 23,
+    "name": "XP-60 Preset B-023",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 16 00 00 7F F7"
+  },
+  {
+    "number": 24,
+    "name": "XP-60 Preset B-024",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 17 00 00 7F F7"
+  },
+  {
+    "number": 25,
+    "name": "XP-60 Preset B-025",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 18 00 00 7F F7"
+  },
+  {
+    "number": 26,
+    "name": "XP-60 Preset B-026",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 19 00 00 7F F7"
+  },
+  {
+    "number": 27,
+    "name": "XP-60 Preset B-027",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 1A 00 00 7F F7"
+  },
+  {
+    "number": 28,
+    "name": "XP-60 Preset B-028",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 1B 00 00 7F F7"
+  },
+  {
+    "number": 29,
+    "name": "XP-60 Preset B-029",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 1C 00 00 7F F7"
+  },
+  {
+    "number": 30,
+    "name": "XP-60 Preset B-030",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 1D 00 00 7F F7"
+  },
+  {
+    "number": 31,
+    "name": "XP-60 Preset B-031",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 1E 00 00 7F F7"
+  },
+  {
+    "number": 32,
+    "name": "XP-60 Preset B-032",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 1F 00 00 7F F7"
+  },
+  {
+    "number": 33,
+    "name": "XP-60 Preset B-033",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 20 00 00 7F F7"
+  },
+  {
+    "number": 34,
+    "name": "XP-60 Preset B-034",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 21 00 00 7F F7"
+  },
+  {
+    "number": 35,
+    "name": "XP-60 Preset B-035",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 22 00 00 7F F7"
+  },
+  {
+    "number": 36,
+    "name": "XP-60 Preset B-036",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 23 00 00 7F F7"
+  },
+  {
+    "number": 37,
+    "name": "XP-60 Preset B-037",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 24 00 00 7F F7"
+  },
+  {
+    "number": 38,
+    "name": "XP-60 Preset B-038",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 25 00 00 7F F7"
+  },
+  {
+    "number": 39,
+    "name": "XP-60 Preset B-039",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 26 00 00 7F F7"
+  },
+  {
+    "number": 40,
+    "name": "XP-60 Preset B-040",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 27 00 00 7F F7"
+  },
+  {
+    "number": 41,
+    "name": "XP-60 Preset B-041",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 28 00 00 7F F7"
+  },
+  {
+    "number": 42,
+    "name": "XP-60 Preset B-042",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 29 00 00 7F F7"
+  },
+  {
+    "number": 43,
+    "name": "XP-60 Preset B-043",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 2A 00 00 7F F7"
+  },
+  {
+    "number": 44,
+    "name": "XP-60 Preset B-044",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 2B 00 00 7F F7"
+  },
+  {
+    "number": 45,
+    "name": "XP-60 Preset B-045",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 2C 00 00 7F F7"
+  },
+  {
+    "number": 46,
+    "name": "XP-60 Preset B-046",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 2D 00 00 7F F7"
+  },
+  {
+    "number": 47,
+    "name": "XP-60 Preset B-047",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 2E 00 00 7F F7"
+  },
+  {
+    "number": 48,
+    "name": "XP-60 Preset B-048",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 2F 00 00 7F F7"
+  },
+  {
+    "number": 49,
+    "name": "XP-60 Preset B-049",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 30 00 00 7F F7"
+  },
+  {
+    "number": 50,
+    "name": "XP-60 Preset B-050",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 31 00 00 7F F7"
+  },
+  {
+    "number": 51,
+    "name": "XP-60 Preset B-051",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 32 00 00 7F F7"
+  },
+  {
+    "number": 52,
+    "name": "XP-60 Preset B-052",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 33 00 00 7F F7"
+  },
+  {
+    "number": 53,
+    "name": "XP-60 Preset B-053",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 34 00 00 7F F7"
+  },
+  {
+    "number": 54,
+    "name": "XP-60 Preset B-054",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 35 00 00 7F F7"
+  },
+  {
+    "number": 55,
+    "name": "XP-60 Preset B-055",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 36 00 00 7F F7"
+  },
+  {
+    "number": 56,
+    "name": "XP-60 Preset B-056",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 37 00 00 7F F7"
+  },
+  {
+    "number": 57,
+    "name": "XP-60 Preset B-057",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 38 00 00 7F F7"
+  },
+  {
+    "number": 58,
+    "name": "XP-60 Preset B-058",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 39 00 00 7F F7"
+  },
+  {
+    "number": 59,
+    "name": "XP-60 Preset B-059",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 3A 00 00 7F F7"
+  },
+  {
+    "number": 60,
+    "name": "XP-60 Preset B-060",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 3B 00 00 7F F7"
+  },
+  {
+    "number": 61,
+    "name": "XP-60 Preset B-061",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 3C 00 00 7F F7"
+  },
+  {
+    "number": 62,
+    "name": "XP-60 Preset B-062",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 3D 00 00 7F F7"
+  },
+  {
+    "number": 63,
+    "name": "XP-60 Preset B-063",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 3E 00 00 7F F7"
+  },
+  {
+    "number": 64,
+    "name": "XP-60 Preset B-064",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 3F 00 00 7F F7"
+  },
+  {
+    "number": 65,
+    "name": "XP-60 Preset B-065",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 40 00 00 7F F7"
+  },
+  {
+    "number": 66,
+    "name": "XP-60 Preset B-066",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 41 00 00 7F F7"
+  },
+  {
+    "number": 67,
+    "name": "XP-60 Preset B-067",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 42 00 00 7F F7"
+  },
+  {
+    "number": 68,
+    "name": "XP-60 Preset B-068",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 43 00 00 7F F7"
+  },
+  {
+    "number": 69,
+    "name": "XP-60 Preset B-069",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 44 00 00 7F F7"
+  },
+  {
+    "number": 70,
+    "name": "XP-60 Preset B-070",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 45 00 00 7F F7"
+  },
+  {
+    "number": 71,
+    "name": "XP-60 Preset B-071",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 46 00 00 7F F7"
+  },
+  {
+    "number": 72,
+    "name": "XP-60 Preset B-072",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 47 00 00 7F F7"
+  },
+  {
+    "number": 73,
+    "name": "XP-60 Preset B-073",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 48 00 00 7F F7"
+  },
+  {
+    "number": 74,
+    "name": "XP-60 Preset B-074",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 49 00 00 7F F7"
+  },
+  {
+    "number": 75,
+    "name": "XP-60 Preset B-075",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 4A 00 00 7F F7"
+  },
+  {
+    "number": 76,
+    "name": "XP-60 Preset B-076",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 4B 00 00 7F F7"
+  },
+  {
+    "number": 77,
+    "name": "XP-60 Preset B-077",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 4C 00 00 7F F7"
+  },
+  {
+    "number": 78,
+    "name": "XP-60 Preset B-078",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 4D 00 00 7F F7"
+  },
+  {
+    "number": 79,
+    "name": "XP-60 Preset B-079",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 4E 00 00 7F F7"
+  },
+  {
+    "number": 80,
+    "name": "XP-60 Preset B-080",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 4F 00 00 7F F7"
+  },
+  {
+    "number": 81,
+    "name": "XP-60 Preset B-081",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 50 00 00 7F F7"
+  },
+  {
+    "number": 82,
+    "name": "XP-60 Preset B-082",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 51 00 00 7F F7"
+  },
+  {
+    "number": 83,
+    "name": "XP-60 Preset B-083",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 52 00 00 7F F7"
+  },
+  {
+    "number": 84,
+    "name": "XP-60 Preset B-084",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 53 00 00 7F F7"
+  },
+  {
+    "number": 85,
+    "name": "XP-60 Preset B-085",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 54 00 00 7F F7"
+  },
+  {
+    "number": 86,
+    "name": "XP-60 Preset B-086",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 55 00 00 7F F7"
+  },
+  {
+    "number": 87,
+    "name": "XP-60 Preset B-087",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 56 00 00 7F F7"
+  },
+  {
+    "number": 88,
+    "name": "XP-60 Preset B-088",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 57 00 00 7F F7"
+  },
+  {
+    "number": 89,
+    "name": "XP-60 Preset B-089",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 58 00 00 7F F7"
+  },
+  {
+    "number": 90,
+    "name": "XP-60 Preset B-090",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 59 00 00 7F F7"
+  },
+  {
+    "number": 91,
+    "name": "XP-60 Preset B-091",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 5A 00 00 7F F7"
+  },
+  {
+    "number": 92,
+    "name": "XP-60 Preset B-092",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 5B 00 00 7F F7"
+  },
+  {
+    "number": 93,
+    "name": "XP-60 Preset B-093",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 5C 00 00 7F F7"
+  },
+  {
+    "number": 94,
+    "name": "XP-60 Preset B-094",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 5D 00 00 7F F7"
+  },
+  {
+    "number": 95,
+    "name": "XP-60 Preset B-095",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 5E 00 00 7F F7"
+  },
+  {
+    "number": 96,
+    "name": "XP-60 Preset B-096",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 5F 00 00 7F F7"
+  },
+  {
+    "number": 97,
+    "name": "XP-60 Preset B-097",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 60 00 00 7F F7"
+  },
+  {
+    "number": 98,
+    "name": "XP-60 Preset B-098",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 61 00 00 7F F7"
+  },
+  {
+    "number": 99,
+    "name": "XP-60 Preset B-099",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 62 00 00 7F F7"
+  },
+  {
+    "number": 100,
+    "name": "XP-60 Preset B-100",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 63 00 00 7F F7"
+  },
+  {
+    "number": 101,
+    "name": "XP-60 Preset B-101",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 64 00 00 7F F7"
+  },
+  {
+    "number": 102,
+    "name": "XP-60 Preset B-102",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 65 00 00 7F F7"
+  },
+  {
+    "number": 103,
+    "name": "XP-60 Preset B-103",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 66 00 00 7F F7"
+  },
+  {
+    "number": 104,
+    "name": "XP-60 Preset B-104",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 67 00 00 7F F7"
+  },
+  {
+    "number": 105,
+    "name": "XP-60 Preset B-105",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 68 00 00 7F F7"
+  },
+  {
+    "number": 106,
+    "name": "XP-60 Preset B-106",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 69 00 00 7F F7"
+  },
+  {
+    "number": 107,
+    "name": "XP-60 Preset B-107",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 6A 00 00 7F F7"
+  },
+  {
+    "number": 108,
+    "name": "XP-60 Preset B-108",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 6B 00 00 7F F7"
+  },
+  {
+    "number": 109,
+    "name": "XP-60 Preset B-109",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 6C 00 00 7F F7"
+  },
+  {
+    "number": 110,
+    "name": "XP-60 Preset B-110",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 6D 00 00 7F F7"
+  },
+  {
+    "number": 111,
+    "name": "XP-60 Preset B-111",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 6E 00 00 7F F7"
+  },
+  {
+    "number": 112,
+    "name": "XP-60 Preset B-112",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 6F 00 00 7F F7"
+  },
+  {
+    "number": 113,
+    "name": "XP-60 Preset B-113",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 70 00 00 7F F7"
+  },
+  {
+    "number": 114,
+    "name": "XP-60 Preset B-114",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 71 00 00 7F F7"
+  },
+  {
+    "number": 115,
+    "name": "XP-60 Preset B-115",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 72 00 00 7F F7"
+  },
+  {
+    "number": 116,
+    "name": "XP-60 Preset B-116",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 73 00 00 7F F7"
+  },
+  {
+    "number": 117,
+    "name": "XP-60 Preset B-117",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 74 00 00 7F F7"
+  },
+  {
+    "number": 118,
+    "name": "XP-60 Preset B-118",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 75 00 00 7F F7"
+  },
+  {
+    "number": 119,
+    "name": "XP-60 Preset B-119",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 76 00 00 7F F7"
+  },
+  {
+    "number": 120,
+    "name": "XP-60 Preset B-120",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 77 00 00 7F F7"
+  },
+  {
+    "number": 121,
+    "name": "XP-60 Preset B-121",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 78 00 00 7F F7"
+  },
+  {
+    "number": 122,
+    "name": "XP-60 Preset B-122",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 79 00 00 7F F7"
+  },
+  {
+    "number": 123,
+    "name": "XP-60 Preset B-123",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 7A 00 00 7F F7"
+  },
+  {
+    "number": 124,
+    "name": "XP-60 Preset B-124",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 7B 00 00 7F F7"
+  },
+  {
+    "number": 125,
+    "name": "XP-60 Preset B-125",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 7C 00 00 7F F7"
+  },
+  {
+    "number": 126,
+    "name": "XP-60 Preset B-126",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 7D 00 00 7F F7"
+  },
+  {
+    "number": 127,
+    "name": "XP-60 Preset B-127",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 7E 00 00 7F F7"
+  },
+  {
+    "number": 128,
+    "name": "XP-60 Preset B-128",
+    "bank": "Preset Bank B",
+    "category": "Orchestral & Acoustic Realism",
+    "tags": [
+      "64-voice",
+      "orchestral & acoustic realism",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 7F 00 00 7F F7"
+  },
+  {
+    "number": 1,
+    "name": "XP-60 Preset C-001",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 00 00 00 7F F7"
+  },
+  {
+    "number": 2,
+    "name": "XP-60 Preset C-002",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 01 00 00 7F F7"
+  },
+  {
+    "number": 3,
+    "name": "XP-60 Preset C-003",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 02 00 00 7F F7"
+  },
+  {
+    "number": 4,
+    "name": "XP-60 Preset C-004",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 03 00 00 7F F7"
+  },
+  {
+    "number": 5,
+    "name": "XP-60 Preset C-005",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 04 00 00 7F F7"
+  },
+  {
+    "number": 6,
+    "name": "XP-60 Preset C-006",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 05 00 00 7F F7"
+  },
+  {
+    "number": 7,
+    "name": "XP-60 Preset C-007",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 06 00 00 7F F7"
+  },
+  {
+    "number": 8,
+    "name": "XP-60 Preset C-008",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 07 00 00 7F F7"
+  },
+  {
+    "number": 9,
+    "name": "XP-60 Preset C-009",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 08 00 00 7F F7"
+  },
+  {
+    "number": 10,
+    "name": "XP-60 Preset C-010",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 09 00 00 7F F7"
+  },
+  {
+    "number": 11,
+    "name": "XP-60 Preset C-011",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 0A 00 00 7F F7"
+  },
+  {
+    "number": 12,
+    "name": "XP-60 Preset C-012",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 0B 00 00 7F F7"
+  },
+  {
+    "number": 13,
+    "name": "XP-60 Preset C-013",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 0C 00 00 7F F7"
+  },
+  {
+    "number": 14,
+    "name": "XP-60 Preset C-014",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 0D 00 00 7F F7"
+  },
+  {
+    "number": 15,
+    "name": "XP-60 Preset C-015",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 0E 00 00 7F F7"
+  },
+  {
+    "number": 16,
+    "name": "XP-60 Preset C-016",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 0F 00 00 7F F7"
+  },
+  {
+    "number": 17,
+    "name": "XP-60 Preset C-017",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 10 00 00 7F F7"
+  },
+  {
+    "number": 18,
+    "name": "XP-60 Preset C-018",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 11 00 00 7F F7"
+  },
+  {
+    "number": 19,
+    "name": "XP-60 Preset C-019",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 12 00 00 7F F7"
+  },
+  {
+    "number": 20,
+    "name": "XP-60 Preset C-020",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 13 00 00 7F F7"
+  },
+  {
+    "number": 21,
+    "name": "XP-60 Preset C-021",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 14 00 00 7F F7"
+  },
+  {
+    "number": 22,
+    "name": "XP-60 Preset C-022",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 15 00 00 7F F7"
+  },
+  {
+    "number": 23,
+    "name": "XP-60 Preset C-023",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 16 00 00 7F F7"
+  },
+  {
+    "number": 24,
+    "name": "XP-60 Preset C-024",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 17 00 00 7F F7"
+  },
+  {
+    "number": 25,
+    "name": "XP-60 Preset C-025",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 18 00 00 7F F7"
+  },
+  {
+    "number": 26,
+    "name": "XP-60 Preset C-026",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 19 00 00 7F F7"
+  },
+  {
+    "number": 27,
+    "name": "XP-60 Preset C-027",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 1A 00 00 7F F7"
+  },
+  {
+    "number": 28,
+    "name": "XP-60 Preset C-028",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 1B 00 00 7F F7"
+  },
+  {
+    "number": 29,
+    "name": "XP-60 Preset C-029",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 1C 00 00 7F F7"
+  },
+  {
+    "number": 30,
+    "name": "XP-60 Preset C-030",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 1D 00 00 7F F7"
+  },
+  {
+    "number": 31,
+    "name": "XP-60 Preset C-031",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 1E 00 00 7F F7"
+  },
+  {
+    "number": 32,
+    "name": "XP-60 Preset C-032",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 1F 00 00 7F F7"
+  },
+  {
+    "number": 33,
+    "name": "XP-60 Preset C-033",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 20 00 00 7F F7"
+  },
+  {
+    "number": 34,
+    "name": "XP-60 Preset C-034",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 21 00 00 7F F7"
+  },
+  {
+    "number": 35,
+    "name": "XP-60 Preset C-035",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 22 00 00 7F F7"
+  },
+  {
+    "number": 36,
+    "name": "XP-60 Preset C-036",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 23 00 00 7F F7"
+  },
+  {
+    "number": 37,
+    "name": "XP-60 Preset C-037",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 24 00 00 7F F7"
+  },
+  {
+    "number": 38,
+    "name": "XP-60 Preset C-038",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 25 00 00 7F F7"
+  },
+  {
+    "number": 39,
+    "name": "XP-60 Preset C-039",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 26 00 00 7F F7"
+  },
+  {
+    "number": 40,
+    "name": "XP-60 Preset C-040",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 27 00 00 7F F7"
+  },
+  {
+    "number": 41,
+    "name": "XP-60 Preset C-041",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 28 00 00 7F F7"
+  },
+  {
+    "number": 42,
+    "name": "XP-60 Preset C-042",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 29 00 00 7F F7"
+  },
+  {
+    "number": 43,
+    "name": "XP-60 Preset C-043",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 2A 00 00 7F F7"
+  },
+  {
+    "number": 44,
+    "name": "XP-60 Preset C-044",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 2B 00 00 7F F7"
+  },
+  {
+    "number": 45,
+    "name": "XP-60 Preset C-045",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 2C 00 00 7F F7"
+  },
+  {
+    "number": 46,
+    "name": "XP-60 Preset C-046",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 2D 00 00 7F F7"
+  },
+  {
+    "number": 47,
+    "name": "XP-60 Preset C-047",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 2E 00 00 7F F7"
+  },
+  {
+    "number": 48,
+    "name": "XP-60 Preset C-048",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 2F 00 00 7F F7"
+  },
+  {
+    "number": 49,
+    "name": "XP-60 Preset C-049",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 30 00 00 7F F7"
+  },
+  {
+    "number": 50,
+    "name": "XP-60 Preset C-050",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 31 00 00 7F F7"
+  },
+  {
+    "number": 51,
+    "name": "XP-60 Preset C-051",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 32 00 00 7F F7"
+  },
+  {
+    "number": 52,
+    "name": "XP-60 Preset C-052",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 33 00 00 7F F7"
+  },
+  {
+    "number": 53,
+    "name": "XP-60 Preset C-053",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 34 00 00 7F F7"
+  },
+  {
+    "number": 54,
+    "name": "XP-60 Preset C-054",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 35 00 00 7F F7"
+  },
+  {
+    "number": 55,
+    "name": "XP-60 Preset C-055",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 36 00 00 7F F7"
+  },
+  {
+    "number": 56,
+    "name": "XP-60 Preset C-056",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 37 00 00 7F F7"
+  },
+  {
+    "number": 57,
+    "name": "XP-60 Preset C-057",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 38 00 00 7F F7"
+  },
+  {
+    "number": 58,
+    "name": "XP-60 Preset C-058",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 39 00 00 7F F7"
+  },
+  {
+    "number": 59,
+    "name": "XP-60 Preset C-059",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 3A 00 00 7F F7"
+  },
+  {
+    "number": 60,
+    "name": "XP-60 Preset C-060",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 3B 00 00 7F F7"
+  },
+  {
+    "number": 61,
+    "name": "XP-60 Preset C-061",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 3C 00 00 7F F7"
+  },
+  {
+    "number": 62,
+    "name": "XP-60 Preset C-062",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 3D 00 00 7F F7"
+  },
+  {
+    "number": 63,
+    "name": "XP-60 Preset C-063",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 3E 00 00 7F F7"
+  },
+  {
+    "number": 64,
+    "name": "XP-60 Preset C-064",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 3F 00 00 7F F7"
+  },
+  {
+    "number": 65,
+    "name": "XP-60 Preset C-065",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 40 00 00 7F F7"
+  },
+  {
+    "number": 66,
+    "name": "XP-60 Preset C-066",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 41 00 00 7F F7"
+  },
+  {
+    "number": 67,
+    "name": "XP-60 Preset C-067",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 42 00 00 7F F7"
+  },
+  {
+    "number": 68,
+    "name": "XP-60 Preset C-068",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 43 00 00 7F F7"
+  },
+  {
+    "number": 69,
+    "name": "XP-60 Preset C-069",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 44 00 00 7F F7"
+  },
+  {
+    "number": 70,
+    "name": "XP-60 Preset C-070",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 45 00 00 7F F7"
+  },
+  {
+    "number": 71,
+    "name": "XP-60 Preset C-071",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 46 00 00 7F F7"
+  },
+  {
+    "number": 72,
+    "name": "XP-60 Preset C-072",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 47 00 00 7F F7"
+  },
+  {
+    "number": 73,
+    "name": "XP-60 Preset C-073",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 48 00 00 7F F7"
+  },
+  {
+    "number": 74,
+    "name": "XP-60 Preset C-074",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 49 00 00 7F F7"
+  },
+  {
+    "number": 75,
+    "name": "XP-60 Preset C-075",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 4A 00 00 7F F7"
+  },
+  {
+    "number": 76,
+    "name": "XP-60 Preset C-076",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 4B 00 00 7F F7"
+  },
+  {
+    "number": 77,
+    "name": "XP-60 Preset C-077",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 4C 00 00 7F F7"
+  },
+  {
+    "number": 78,
+    "name": "XP-60 Preset C-078",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 4D 00 00 7F F7"
+  },
+  {
+    "number": 79,
+    "name": "XP-60 Preset C-079",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 4E 00 00 7F F7"
+  },
+  {
+    "number": 80,
+    "name": "XP-60 Preset C-080",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 4F 00 00 7F F7"
+  },
+  {
+    "number": 81,
+    "name": "XP-60 Preset C-081",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 50 00 00 7F F7"
+  },
+  {
+    "number": 82,
+    "name": "XP-60 Preset C-082",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 51 00 00 7F F7"
+  },
+  {
+    "number": 83,
+    "name": "XP-60 Preset C-083",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 52 00 00 7F F7"
+  },
+  {
+    "number": 84,
+    "name": "XP-60 Preset C-084",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 53 00 00 7F F7"
+  },
+  {
+    "number": 85,
+    "name": "XP-60 Preset C-085",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 54 00 00 7F F7"
+  },
+  {
+    "number": 86,
+    "name": "XP-60 Preset C-086",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 55 00 00 7F F7"
+  },
+  {
+    "number": 87,
+    "name": "XP-60 Preset C-087",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 56 00 00 7F F7"
+  },
+  {
+    "number": 88,
+    "name": "XP-60 Preset C-088",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 57 00 00 7F F7"
+  },
+  {
+    "number": 89,
+    "name": "XP-60 Preset C-089",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 58 00 00 7F F7"
+  },
+  {
+    "number": 90,
+    "name": "XP-60 Preset C-090",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 59 00 00 7F F7"
+  },
+  {
+    "number": 91,
+    "name": "XP-60 Preset C-091",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 5A 00 00 7F F7"
+  },
+  {
+    "number": 92,
+    "name": "XP-60 Preset C-092",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 5B 00 00 7F F7"
+  },
+  {
+    "number": 93,
+    "name": "XP-60 Preset C-093",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 5C 00 00 7F F7"
+  },
+  {
+    "number": 94,
+    "name": "XP-60 Preset C-094",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 5D 00 00 7F F7"
+  },
+  {
+    "number": 95,
+    "name": "XP-60 Preset C-095",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 5E 00 00 7F F7"
+  },
+  {
+    "number": 96,
+    "name": "XP-60 Preset C-096",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 5F 00 00 7F F7"
+  },
+  {
+    "number": 97,
+    "name": "XP-60 Preset C-097",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 60 00 00 7F F7"
+  },
+  {
+    "number": 98,
+    "name": "XP-60 Preset C-098",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 61 00 00 7F F7"
+  },
+  {
+    "number": 99,
+    "name": "XP-60 Preset C-099",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 62 00 00 7F F7"
+  },
+  {
+    "number": 100,
+    "name": "XP-60 Preset C-100",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 63 00 00 7F F7"
+  },
+  {
+    "number": 101,
+    "name": "XP-60 Preset C-101",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 64 00 00 7F F7"
+  },
+  {
+    "number": 102,
+    "name": "XP-60 Preset C-102",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 65 00 00 7F F7"
+  },
+  {
+    "number": 103,
+    "name": "XP-60 Preset C-103",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 66 00 00 7F F7"
+  },
+  {
+    "number": 104,
+    "name": "XP-60 Preset C-104",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 67 00 00 7F F7"
+  },
+  {
+    "number": 105,
+    "name": "XP-60 Preset C-105",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 68 00 00 7F F7"
+  },
+  {
+    "number": 106,
+    "name": "XP-60 Preset C-106",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 69 00 00 7F F7"
+  },
+  {
+    "number": 107,
+    "name": "XP-60 Preset C-107",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 6A 00 00 7F F7"
+  },
+  {
+    "number": 108,
+    "name": "XP-60 Preset C-108",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 6B 00 00 7F F7"
+  },
+  {
+    "number": 109,
+    "name": "XP-60 Preset C-109",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 6C 00 00 7F F7"
+  },
+  {
+    "number": 110,
+    "name": "XP-60 Preset C-110",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 6D 00 00 7F F7"
+  },
+  {
+    "number": 111,
+    "name": "XP-60 Preset C-111",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 6E 00 00 7F F7"
+  },
+  {
+    "number": 112,
+    "name": "XP-60 Preset C-112",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 6F 00 00 7F F7"
+  },
+  {
+    "number": 113,
+    "name": "XP-60 Preset C-113",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 70 00 00 7F F7"
+  },
+  {
+    "number": 114,
+    "name": "XP-60 Preset C-114",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 71 00 00 7F F7"
+  },
+  {
+    "number": 115,
+    "name": "XP-60 Preset C-115",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 72 00 00 7F F7"
+  },
+  {
+    "number": 116,
+    "name": "XP-60 Preset C-116",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 73 00 00 7F F7"
+  },
+  {
+    "number": 117,
+    "name": "XP-60 Preset C-117",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 74 00 00 7F F7"
+  },
+  {
+    "number": 118,
+    "name": "XP-60 Preset C-118",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 75 00 00 7F F7"
+  },
+  {
+    "number": 119,
+    "name": "XP-60 Preset C-119",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 76 00 00 7F F7"
+  },
+  {
+    "number": 120,
+    "name": "XP-60 Preset C-120",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 77 00 00 7F F7"
+  },
+  {
+    "number": 121,
+    "name": "XP-60 Preset C-121",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 78 00 00 7F F7"
+  },
+  {
+    "number": 122,
+    "name": "XP-60 Preset C-122",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 79 00 00 7F F7"
+  },
+  {
+    "number": 123,
+    "name": "XP-60 Preset C-123",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 7A 00 00 7F F7"
+  },
+  {
+    "number": 124,
+    "name": "XP-60 Preset C-124",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 7B 00 00 7F F7"
+  },
+  {
+    "number": 125,
+    "name": "XP-60 Preset C-125",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 7C 00 00 7F F7"
+  },
+  {
+    "number": 126,
+    "name": "XP-60 Preset C-126",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 7D 00 00 7F F7"
+  },
+  {
+    "number": 127,
+    "name": "XP-60 Preset C-127",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 7E 00 00 7F F7"
+  },
+  {
+    "number": 128,
+    "name": "XP-60 Preset C-128",
+    "bank": "Preset Bank C",
+    "category": "Vintage Synth Classics & Pads",
+    "tags": [
+      "64-voice",
+      "vintage synth classics & pads",
+      "xp60"
+    ],
+    "sysex_dump": "F0 41 10 6A 12 7F 00 00 7F F7"
+  }
+]

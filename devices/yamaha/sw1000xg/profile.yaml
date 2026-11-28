@@ -1,0 +1,26 @@
+manufacturer: Yamaha
+model: SW1000XG
+type: PCI Hardware XG Synthesizer
+year: 1998
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    resonance: 71
+    attack_time: 73
+    release_time: 72
+    variation_send: 94
+    reverb_send: 91
+    chorus_send: 93
+sysex:
+  header: F0 43 10 4C
+  device_id_byte: 2
+  commands:
+    request_preset: F0 43 10 4C 00 00 00 F7
+banks:
+- name: XG Normal Bank 1
+  type: ROM
+  size: 128
+- name: XG Normal Bank 2
+  type: ROM
+  size: 128

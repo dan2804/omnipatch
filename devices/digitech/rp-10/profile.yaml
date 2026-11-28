@@ -1,0 +1,21 @@
+manufacturer: DigiTech
+model: RP-10
+type: Guitar Effects Floor Controller
+year: 1994
+midi:
+  channels: 16
+  cc_map:
+    exp_pedal_1: 1
+    exp_pedal_2: 2
+    gain: 16
+    delay_level: 91
+    chorus_level: 93
+sysex:
+  header: F0 00 00 1B 06
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 00 1B 06 01 00 F7
+banks:
+- name: Factory Presets
+  type: ROM
+  size: 99
