@@ -1,0 +1,21 @@
+manufacturer: Roland
+model: EF-303
+type: Groove Effects & Step Modulator
+year: 2001
+midi:
+  channels: 16
+  cc_map:
+    step_rate: 16
+    cutoff: 74
+    resonance: 71
+    depth: 17
+    dry_wet: 91
+sysex:
+  header: F0 41 10 00 45 12
+  device_id_byte: 2
+  commands:
+    request_preset: F0 41 10 00 45 11 00 00 00 00 01 00 7F F7
+banks:
+- name: Factory Patterns
+  type: ROM
+  size: 64

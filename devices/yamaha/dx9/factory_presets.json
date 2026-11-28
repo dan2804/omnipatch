@@ -1,0 +1,231 @@
+{
+  "device": "DX9",
+  "banks": [
+    {
+      "name": "Internal Voices",
+      "type": "ROM",
+      "patches": [
+        {
+          "number": 1,
+          "name": "Electric Piano",
+          "category": "4-Operator 8-Algorithm FM",
+          "tags": [
+            "digital",
+            "4-operator 8-algorithm fm",
+            "dx9"
+          ],
+          "sysex_dump": "F0 43 00 02 00 F7"
+        },
+        {
+          "number": 2,
+          "name": "Brass 1",
+          "category": "4-Operator 8-Algorithm FM",
+          "tags": [
+            "digital",
+            "4-operator 8-algorithm fm",
+            "dx9"
+          ],
+          "sysex_dump": "F0 43 00 02 01 F7"
+        },
+        {
+          "number": 3,
+          "name": "Strings 1",
+          "category": "4-Operator 8-Algorithm FM",
+          "tags": [
+            "digital",
+            "4-operator 8-algorithm fm",
+            "dx9"
+          ],
+          "sysex_dump": "F0 43 00 02 02 F7"
+        },
+        {
+          "number": 4,
+          "name": "Pipe Organ",
+          "category": "4-Operator 8-Algorithm FM",
+          "tags": [
+            "digital",
+            "4-operator 8-algorithm fm",
+            "dx9"
+          ],
+          "sysex_dump": "F0 43 00 02 03 F7"
+        },
+        {
+          "number": 5,
+          "name": "Marimba",
+          "category": "4-Operator 8-Algorithm FM",
+          "tags": [
+            "digital",
+            "4-operator 8-algorithm fm",
+            "dx9"
+          ],
+          "sysex_dump": "F0 43 00 02 04 F7"
+        },
+        {
+          "number": 6,
+          "name": "Synth Bass 1",
+          "category": "4-Operator 8-Algorithm FM",
+          "tags": [
+            "digital",
+            "4-operator 8-algorithm fm",
+            "dx9"
+          ],
+          "sysex_dump": "F0 43 00 02 05 F7"
+        },
+        {
+          "number": 7,
+          "name": "Clarinet",
+          "category": "4-Operator 8-Algorithm FM",
+          "tags": [
+            "digital",
+            "4-operator 8-algorithm fm",
+            "dx9"
+          ],
+          "sysex_dump": "F0 43 00 02 06 F7"
+        },
+        {
+          "number": 8,
+          "name": "Flute",
+          "category": "4-Operator 8-Algorithm FM",
+          "tags": [
+            "digital",
+            "4-operator 8-algorithm fm",
+            "dx9"
+          ],
+          "sysex_dump": "F0 43 00 02 07 F7"
+        },
+        {
+          "number": 9,
+          "name": "Harpsichord",
+          "category": "4-Operator 8-Algorithm FM",
+          "tags": [
+            "digital",
+            "4-operator 8-algorithm fm",
+            "dx9"
+          ],
+          "sysex_dump": "F0 43 00 02 08 F7"
+        },
+        {
+          "number": 10,
+          "name": "Clavinet",
+          "category": "4-Operator 8-Algorithm FM",
+          "tags": [
+            "digital",
+            "4-operator 8-algorithm fm",
+            "dx9"
+          ],
+          "sysex_dump": "F0 43 00 02 09 F7"
+        },
+        {
+          "number": 11,
+          "name": "Jazz Organ",
+          "category": "4-Operator 8-Algorithm FM",
+          "tags": [
+            "digital",
+            "4-operator 8-algorithm fm",
+            "dx9"
+          ],
+          "sysex_dump": "F0 43 00 02 0A F7"
+        },
+        {
+          "number": 12,
+          "name": "Koto Pluck",
+          "category": "4-Operator 8-Algorithm FM",
+          "tags": [
+            "digital",
+            "4-operator 8-algorithm fm",
+            "dx9"
+          ],
+          "sysex_dump": "F0 43 00 02 0B F7"
+        },
+        {
+          "number": 13,
+          "name": "Chimes",
+          "category": "4-Operator 8-Algorithm FM",
+          "tags": [
+            "digital",
+            "4-operator 8-algorithm fm",
+            "dx9"
+          ],
+          "sysex_dump": "F0 43 00 02 0C F7"
+        },
+        {
+          "number": 14,
+          "name": "Space Sound",
+          "category": "4-Operator 8-Algorithm FM",
+          "tags": [
+            "digital",
+            "4-operator 8-algorithm fm",
+            "dx9"
+          ],
+          "sysex_dump": "F0 43 00 02 0D F7"
+        },
+        {
+          "number": 15,
+          "name": "Harmonica",
+          "category": "4-Operator 8-Algorithm FM",
+          "tags": [
+            "digital",
+            "4-operator 8-algorithm fm",
+            "dx9"
+          ],
+          "sysex_dump": "F0 43 00 02 0E F7"
+        },
+        {
+          "number": 16,
+          "name": "Acoustic Guitar",
+          "category": "4-Operator 8-Algorithm FM",
+          "tags": [
+            "digital",
+            "4-operator 8-algorithm fm",
+            "dx9"
+          ],
+          "sysex_dump": "F0 43 00 02 0F F7"
+        },
+        {
+          "number": 17,
+          "name": "Brass Fanfare",
+          "category": "4-Operator 8-Algorithm FM",
+          "tags": [
+            "digital",
+            "4-operator 8-algorithm fm",
+            "dx9"
+          ],
+          "sysex_dump": "F0 43 00 02 10 F7"
+        },
+        {
+          "number": 18,
+          "name": "Slap Bass",
+          "category": "4-Operator 8-Algorithm FM",
+          "tags": [
+            "digital",
+            "4-operator 8-algorithm fm",
+            "dx9"
+          ],
+          "sysex_dump": "F0 43 00 02 11 F7"
+        },
+        {
+          "number": 19,
+          "name": "Whistle",
+          "category": "4-Operator 8-Algorithm FM",
+          "tags": [
+            "digital",
+            "4-operator 8-algorithm fm",
+            "dx9"
+          ],
+          "sysex_dump": "F0 43 00 02 12 F7"
+        },
+        {
+          "number": 20,
+          "name": "Bell Chime",
+          "category": "4-Operator 8-Algorithm FM",
+          "tags": [
+            "digital",
+            "4-operator 8-algorithm fm",
+            "dx9"
+          ],
+          "sysex_dump": "F0 43 00 02 13 F7"
+        }
+      ]
+    }
+  ]
+}

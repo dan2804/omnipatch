@@ -1,0 +1,24 @@
+manufacturer: Yamaha
+model: DB50XG
+type: Wavetable XG Sound Module Daughterboard
+year: 1995
+midi:
+  channels: 16
+  cc_map:
+    volume: 7
+    pan: 10
+    expression: 11
+    filter_cutoff: 74
+    resonance: 71
+    reverb_send: 91
+    chorus_send: 93
+    variation_send: 94
+sysex:
+  header: F0 43 10 4C
+  device_id_byte: 2
+  commands:
+    request_preset: F0 43 10 4C 00 00 00 00 F7
+banks:
+- name: Capital XG Bank
+  type: ROM
+  size: 128

@@ -1,0 +1,1100 @@
+{
+  "device": "DEP-3",
+  "banks": [
+    {
+      "name": "Factory Presets",
+      "type": "ROM",
+      "patches": [
+        {
+          "number": 1,
+          "name": "DEP-3 Program 01",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 00 F7"
+        },
+        {
+          "number": 2,
+          "name": "DEP-3 Program 02",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 01 F7"
+        },
+        {
+          "number": 3,
+          "name": "DEP-3 Program 03",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 02 F7"
+        },
+        {
+          "number": 4,
+          "name": "DEP-3 Program 04",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 03 F7"
+        },
+        {
+          "number": 5,
+          "name": "DEP-3 Program 05",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 04 F7"
+        },
+        {
+          "number": 6,
+          "name": "DEP-3 Program 06",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 05 F7"
+        },
+        {
+          "number": 7,
+          "name": "DEP-3 Program 07",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 06 F7"
+        },
+        {
+          "number": 8,
+          "name": "DEP-3 Program 08",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 07 F7"
+        },
+        {
+          "number": 9,
+          "name": "DEP-3 Program 09",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 08 F7"
+        },
+        {
+          "number": 10,
+          "name": "DEP-3 Program 10",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 09 F7"
+        },
+        {
+          "number": 11,
+          "name": "DEP-3 Program 11",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 0A F7"
+        },
+        {
+          "number": 12,
+          "name": "DEP-3 Program 12",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 0B F7"
+        },
+        {
+          "number": 13,
+          "name": "DEP-3 Program 13",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 0C F7"
+        },
+        {
+          "number": 14,
+          "name": "DEP-3 Program 14",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 0D F7"
+        },
+        {
+          "number": 15,
+          "name": "DEP-3 Program 15",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 0E F7"
+        },
+        {
+          "number": 16,
+          "name": "DEP-3 Program 16",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 0F F7"
+        },
+        {
+          "number": 17,
+          "name": "DEP-3 Program 17",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 10 F7"
+        },
+        {
+          "number": 18,
+          "name": "DEP-3 Program 18",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 11 F7"
+        },
+        {
+          "number": 19,
+          "name": "DEP-3 Program 19",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 12 F7"
+        },
+        {
+          "number": 20,
+          "name": "DEP-3 Program 20",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 13 F7"
+        },
+        {
+          "number": 21,
+          "name": "DEP-3 Program 21",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 14 F7"
+        },
+        {
+          "number": 22,
+          "name": "DEP-3 Program 22",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 15 F7"
+        },
+        {
+          "number": 23,
+          "name": "DEP-3 Program 23",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 16 F7"
+        },
+        {
+          "number": 24,
+          "name": "DEP-3 Program 24",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 17 F7"
+        },
+        {
+          "number": 25,
+          "name": "DEP-3 Program 25",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 18 F7"
+        },
+        {
+          "number": 26,
+          "name": "DEP-3 Program 26",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 19 F7"
+        },
+        {
+          "number": 27,
+          "name": "DEP-3 Program 27",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 1A F7"
+        },
+        {
+          "number": 28,
+          "name": "DEP-3 Program 28",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 1B F7"
+        },
+        {
+          "number": 29,
+          "name": "DEP-3 Program 29",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 1C F7"
+        },
+        {
+          "number": 30,
+          "name": "DEP-3 Program 30",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 1D F7"
+        },
+        {
+          "number": 31,
+          "name": "DEP-3 Program 31",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 1E F7"
+        },
+        {
+          "number": 32,
+          "name": "DEP-3 Program 32",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 1F F7"
+        },
+        {
+          "number": 33,
+          "name": "DEP-3 Program 33",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 20 F7"
+        },
+        {
+          "number": 34,
+          "name": "DEP-3 Program 34",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 21 F7"
+        },
+        {
+          "number": 35,
+          "name": "DEP-3 Program 35",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 22 F7"
+        },
+        {
+          "number": 36,
+          "name": "DEP-3 Program 36",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 23 F7"
+        },
+        {
+          "number": 37,
+          "name": "DEP-3 Program 37",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 24 F7"
+        },
+        {
+          "number": 38,
+          "name": "DEP-3 Program 38",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 25 F7"
+        },
+        {
+          "number": 39,
+          "name": "DEP-3 Program 39",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 26 F7"
+        },
+        {
+          "number": 40,
+          "name": "DEP-3 Program 40",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 27 F7"
+        },
+        {
+          "number": 41,
+          "name": "DEP-3 Program 41",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 28 F7"
+        },
+        {
+          "number": 42,
+          "name": "DEP-3 Program 42",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 29 F7"
+        },
+        {
+          "number": 43,
+          "name": "DEP-3 Program 43",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 2A F7"
+        },
+        {
+          "number": 44,
+          "name": "DEP-3 Program 44",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 2B F7"
+        },
+        {
+          "number": 45,
+          "name": "DEP-3 Program 45",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 2C F7"
+        },
+        {
+          "number": 46,
+          "name": "DEP-3 Program 46",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 2D F7"
+        },
+        {
+          "number": 47,
+          "name": "DEP-3 Program 47",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 2E F7"
+        },
+        {
+          "number": 48,
+          "name": "DEP-3 Program 48",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 2F F7"
+        },
+        {
+          "number": 49,
+          "name": "DEP-3 Program 49",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 30 F7"
+        },
+        {
+          "number": 50,
+          "name": "DEP-3 Program 50",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 31 F7"
+        },
+        {
+          "number": 51,
+          "name": "DEP-3 Program 51",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 32 F7"
+        },
+        {
+          "number": 52,
+          "name": "DEP-3 Program 52",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 33 F7"
+        },
+        {
+          "number": 53,
+          "name": "DEP-3 Program 53",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 34 F7"
+        },
+        {
+          "number": 54,
+          "name": "DEP-3 Program 54",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 35 F7"
+        },
+        {
+          "number": 55,
+          "name": "DEP-3 Program 55",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 36 F7"
+        },
+        {
+          "number": 56,
+          "name": "DEP-3 Program 56",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 37 F7"
+        },
+        {
+          "number": 57,
+          "name": "DEP-3 Program 57",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 38 F7"
+        },
+        {
+          "number": 58,
+          "name": "DEP-3 Program 58",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 39 F7"
+        },
+        {
+          "number": 59,
+          "name": "DEP-3 Program 59",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 3A F7"
+        },
+        {
+          "number": 60,
+          "name": "DEP-3 Program 60",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 3B F7"
+        },
+        {
+          "number": 61,
+          "name": "DEP-3 Program 61",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 3C F7"
+        },
+        {
+          "number": 62,
+          "name": "DEP-3 Program 62",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 3D F7"
+        },
+        {
+          "number": 63,
+          "name": "DEP-3 Program 63",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 3E F7"
+        },
+        {
+          "number": 64,
+          "name": "DEP-3 Program 64",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 3F F7"
+        },
+        {
+          "number": 65,
+          "name": "DEP-3 Program 65",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 40 F7"
+        },
+        {
+          "number": 66,
+          "name": "DEP-3 Program 66",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 41 F7"
+        },
+        {
+          "number": 67,
+          "name": "DEP-3 Program 67",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 42 F7"
+        },
+        {
+          "number": 68,
+          "name": "DEP-3 Program 68",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 43 F7"
+        },
+        {
+          "number": 69,
+          "name": "DEP-3 Program 69",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 44 F7"
+        },
+        {
+          "number": 70,
+          "name": "DEP-3 Program 70",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 45 F7"
+        },
+        {
+          "number": 71,
+          "name": "DEP-3 Program 71",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 46 F7"
+        },
+        {
+          "number": 72,
+          "name": "DEP-3 Program 72",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 47 F7"
+        },
+        {
+          "number": 73,
+          "name": "DEP-3 Program 73",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 48 F7"
+        },
+        {
+          "number": 74,
+          "name": "DEP-3 Program 74",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 49 F7"
+        },
+        {
+          "number": 75,
+          "name": "DEP-3 Program 75",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 4A F7"
+        },
+        {
+          "number": 76,
+          "name": "DEP-3 Program 76",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 4B F7"
+        },
+        {
+          "number": 77,
+          "name": "DEP-3 Program 77",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 4C F7"
+        },
+        {
+          "number": 78,
+          "name": "DEP-3 Program 78",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 4D F7"
+        },
+        {
+          "number": 79,
+          "name": "DEP-3 Program 79",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 4E F7"
+        },
+        {
+          "number": 80,
+          "name": "DEP-3 Program 80",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 4F F7"
+        },
+        {
+          "number": 81,
+          "name": "DEP-3 Program 81",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 50 F7"
+        },
+        {
+          "number": 82,
+          "name": "DEP-3 Program 82",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 51 F7"
+        },
+        {
+          "number": 83,
+          "name": "DEP-3 Program 83",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 52 F7"
+        },
+        {
+          "number": 84,
+          "name": "DEP-3 Program 84",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 53 F7"
+        },
+        {
+          "number": 85,
+          "name": "DEP-3 Program 85",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 54 F7"
+        },
+        {
+          "number": 86,
+          "name": "DEP-3 Program 86",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 55 F7"
+        },
+        {
+          "number": 87,
+          "name": "DEP-3 Program 87",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 56 F7"
+        },
+        {
+          "number": 88,
+          "name": "DEP-3 Program 88",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 57 F7"
+        },
+        {
+          "number": 89,
+          "name": "DEP-3 Program 89",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 58 F7"
+        },
+        {
+          "number": 90,
+          "name": "DEP-3 Program 90",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 59 F7"
+        },
+        {
+          "number": 91,
+          "name": "DEP-3 Program 91",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 5A F7"
+        },
+        {
+          "number": 92,
+          "name": "DEP-3 Program 92",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 5B F7"
+        },
+        {
+          "number": 93,
+          "name": "DEP-3 Program 93",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 5C F7"
+        },
+        {
+          "number": 94,
+          "name": "DEP-3 Program 94",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 5D F7"
+        },
+        {
+          "number": 95,
+          "name": "DEP-3 Program 95",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 5E F7"
+        },
+        {
+          "number": 96,
+          "name": "DEP-3 Program 96",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 5F F7"
+        },
+        {
+          "number": 97,
+          "name": "DEP-3 Program 97",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 60 F7"
+        },
+        {
+          "number": 98,
+          "name": "DEP-3 Program 98",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 61 F7"
+        },
+        {
+          "number": 99,
+          "name": "DEP-3 Program 99",
+          "category": "Digital Reverb & Non-Linear Room",
+          "tags": [
+            "digital",
+            "digital reverb & non-linear room",
+            "dep3"
+          ],
+          "sysex_dump": "F0 41 10 13 12 62 F7"
+        }
+      ]
+    }
+  ]
+}

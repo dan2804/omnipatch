@@ -1,0 +1,24 @@
+manufacturer: Roland
+model: GP-16
+type: Guitar Effects Processor
+year: 1989
+midi:
+  channels: 16
+  cc_map:
+    distortion_drive: 16
+    filter_cutoff: 74
+    chorus_rate: 18
+    delay_time: 19
+    master_level: 7
+sysex:
+  header: F0 41 10 2A 12
+  device_id_byte: 2
+  commands:
+    request_preset: F0 41 10 2A 11 00 00 00 00 01 00 7F F7
+banks:
+- name: Group A
+  type: ROM
+  size: 64
+- name: Group B
+  type: ROM
+  size: 64

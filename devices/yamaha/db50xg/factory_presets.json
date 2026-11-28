@@ -1,0 +1,1419 @@
+{
+  "device": "DB50XG",
+  "banks": [
+    {
+      "name": "Capital XG Bank",
+      "type": "ROM",
+      "patches": [
+        {
+          "number": 1,
+          "name": "DB50XG Voice 001",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 00 F7"
+        },
+        {
+          "number": 2,
+          "name": "DB50XG Voice 002",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 01 F7"
+        },
+        {
+          "number": 3,
+          "name": "DB50XG Voice 003",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 02 F7"
+        },
+        {
+          "number": 4,
+          "name": "DB50XG Voice 004",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 03 F7"
+        },
+        {
+          "number": 5,
+          "name": "DB50XG Voice 005",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 04 F7"
+        },
+        {
+          "number": 6,
+          "name": "DB50XG Voice 006",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 05 F7"
+        },
+        {
+          "number": 7,
+          "name": "DB50XG Voice 007",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 06 F7"
+        },
+        {
+          "number": 8,
+          "name": "DB50XG Voice 008",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 07 F7"
+        },
+        {
+          "number": 9,
+          "name": "DB50XG Voice 009",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 08 F7"
+        },
+        {
+          "number": 10,
+          "name": "DB50XG Voice 010",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 09 F7"
+        },
+        {
+          "number": 11,
+          "name": "DB50XG Voice 011",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 0A F7"
+        },
+        {
+          "number": 12,
+          "name": "DB50XG Voice 012",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 0B F7"
+        },
+        {
+          "number": 13,
+          "name": "DB50XG Voice 013",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 0C F7"
+        },
+        {
+          "number": 14,
+          "name": "DB50XG Voice 014",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 0D F7"
+        },
+        {
+          "number": 15,
+          "name": "DB50XG Voice 015",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 0E F7"
+        },
+        {
+          "number": 16,
+          "name": "DB50XG Voice 016",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 0F F7"
+        },
+        {
+          "number": 17,
+          "name": "DB50XG Voice 017",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 10 F7"
+        },
+        {
+          "number": 18,
+          "name": "DB50XG Voice 018",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 11 F7"
+        },
+        {
+          "number": 19,
+          "name": "DB50XG Voice 019",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 12 F7"
+        },
+        {
+          "number": 20,
+          "name": "DB50XG Voice 020",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 13 F7"
+        },
+        {
+          "number": 21,
+          "name": "DB50XG Voice 021",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 14 F7"
+        },
+        {
+          "number": 22,
+          "name": "DB50XG Voice 022",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 15 F7"
+        },
+        {
+          "number": 23,
+          "name": "DB50XG Voice 023",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 16 F7"
+        },
+        {
+          "number": 24,
+          "name": "DB50XG Voice 024",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 17 F7"
+        },
+        {
+          "number": 25,
+          "name": "DB50XG Voice 025",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 18 F7"
+        },
+        {
+          "number": 26,
+          "name": "DB50XG Voice 026",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 19 F7"
+        },
+        {
+          "number": 27,
+          "name": "DB50XG Voice 027",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 1A F7"
+        },
+        {
+          "number": 28,
+          "name": "DB50XG Voice 028",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 1B F7"
+        },
+        {
+          "number": 29,
+          "name": "DB50XG Voice 029",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 1C F7"
+        },
+        {
+          "number": 30,
+          "name": "DB50XG Voice 030",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 1D F7"
+        },
+        {
+          "number": 31,
+          "name": "DB50XG Voice 031",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 1E F7"
+        },
+        {
+          "number": 32,
+          "name": "DB50XG Voice 032",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 1F F7"
+        },
+        {
+          "number": 33,
+          "name": "DB50XG Voice 033",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 20 F7"
+        },
+        {
+          "number": 34,
+          "name": "DB50XG Voice 034",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 21 F7"
+        },
+        {
+          "number": 35,
+          "name": "DB50XG Voice 035",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 22 F7"
+        },
+        {
+          "number": 36,
+          "name": "DB50XG Voice 036",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 23 F7"
+        },
+        {
+          "number": 37,
+          "name": "DB50XG Voice 037",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 24 F7"
+        },
+        {
+          "number": 38,
+          "name": "DB50XG Voice 038",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 25 F7"
+        },
+        {
+          "number": 39,
+          "name": "DB50XG Voice 039",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 26 F7"
+        },
+        {
+          "number": 40,
+          "name": "DB50XG Voice 040",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 27 F7"
+        },
+        {
+          "number": 41,
+          "name": "DB50XG Voice 041",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 28 F7"
+        },
+        {
+          "number": 42,
+          "name": "DB50XG Voice 042",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 29 F7"
+        },
+        {
+          "number": 43,
+          "name": "DB50XG Voice 043",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 2A F7"
+        },
+        {
+          "number": 44,
+          "name": "DB50XG Voice 044",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 2B F7"
+        },
+        {
+          "number": 45,
+          "name": "DB50XG Voice 045",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 2C F7"
+        },
+        {
+          "number": 46,
+          "name": "DB50XG Voice 046",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 2D F7"
+        },
+        {
+          "number": 47,
+          "name": "DB50XG Voice 047",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 2E F7"
+        },
+        {
+          "number": 48,
+          "name": "DB50XG Voice 048",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 2F F7"
+        },
+        {
+          "number": 49,
+          "name": "DB50XG Voice 049",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 30 F7"
+        },
+        {
+          "number": 50,
+          "name": "DB50XG Voice 050",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 31 F7"
+        },
+        {
+          "number": 51,
+          "name": "DB50XG Voice 051",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 32 F7"
+        },
+        {
+          "number": 52,
+          "name": "DB50XG Voice 052",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 33 F7"
+        },
+        {
+          "number": 53,
+          "name": "DB50XG Voice 053",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 34 F7"
+        },
+        {
+          "number": 54,
+          "name": "DB50XG Voice 054",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 35 F7"
+        },
+        {
+          "number": 55,
+          "name": "DB50XG Voice 055",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 36 F7"
+        },
+        {
+          "number": 56,
+          "name": "DB50XG Voice 056",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 37 F7"
+        },
+        {
+          "number": 57,
+          "name": "DB50XG Voice 057",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 38 F7"
+        },
+        {
+          "number": 58,
+          "name": "DB50XG Voice 058",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 39 F7"
+        },
+        {
+          "number": 59,
+          "name": "DB50XG Voice 059",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 3A F7"
+        },
+        {
+          "number": 60,
+          "name": "DB50XG Voice 060",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 3B F7"
+        },
+        {
+          "number": 61,
+          "name": "DB50XG Voice 061",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 3C F7"
+        },
+        {
+          "number": 62,
+          "name": "DB50XG Voice 062",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 3D F7"
+        },
+        {
+          "number": 63,
+          "name": "DB50XG Voice 063",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 3E F7"
+        },
+        {
+          "number": 64,
+          "name": "DB50XG Voice 064",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 3F F7"
+        },
+        {
+          "number": 65,
+          "name": "DB50XG Voice 065",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 40 F7"
+        },
+        {
+          "number": 66,
+          "name": "DB50XG Voice 066",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 41 F7"
+        },
+        {
+          "number": 67,
+          "name": "DB50XG Voice 067",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 42 F7"
+        },
+        {
+          "number": 68,
+          "name": "DB50XG Voice 068",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 43 F7"
+        },
+        {
+          "number": 69,
+          "name": "DB50XG Voice 069",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 44 F7"
+        },
+        {
+          "number": 70,
+          "name": "DB50XG Voice 070",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 45 F7"
+        },
+        {
+          "number": 71,
+          "name": "DB50XG Voice 071",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 46 F7"
+        },
+        {
+          "number": 72,
+          "name": "DB50XG Voice 072",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 47 F7"
+        },
+        {
+          "number": 73,
+          "name": "DB50XG Voice 073",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 48 F7"
+        },
+        {
+          "number": 74,
+          "name": "DB50XG Voice 074",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 49 F7"
+        },
+        {
+          "number": 75,
+          "name": "DB50XG Voice 075",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 4A F7"
+        },
+        {
+          "number": 76,
+          "name": "DB50XG Voice 076",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 4B F7"
+        },
+        {
+          "number": 77,
+          "name": "DB50XG Voice 077",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 4C F7"
+        },
+        {
+          "number": 78,
+          "name": "DB50XG Voice 078",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 4D F7"
+        },
+        {
+          "number": 79,
+          "name": "DB50XG Voice 079",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 4E F7"
+        },
+        {
+          "number": 80,
+          "name": "DB50XG Voice 080",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 4F F7"
+        },
+        {
+          "number": 81,
+          "name": "DB50XG Voice 081",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 50 F7"
+        },
+        {
+          "number": 82,
+          "name": "DB50XG Voice 082",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 51 F7"
+        },
+        {
+          "number": 83,
+          "name": "DB50XG Voice 083",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 52 F7"
+        },
+        {
+          "number": 84,
+          "name": "DB50XG Voice 084",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 53 F7"
+        },
+        {
+          "number": 85,
+          "name": "DB50XG Voice 085",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 54 F7"
+        },
+        {
+          "number": 86,
+          "name": "DB50XG Voice 086",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 55 F7"
+        },
+        {
+          "number": 87,
+          "name": "DB50XG Voice 087",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 56 F7"
+        },
+        {
+          "number": 88,
+          "name": "DB50XG Voice 088",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 57 F7"
+        },
+        {
+          "number": 89,
+          "name": "DB50XG Voice 089",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 58 F7"
+        },
+        {
+          "number": 90,
+          "name": "DB50XG Voice 090",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 59 F7"
+        },
+        {
+          "number": 91,
+          "name": "DB50XG Voice 091",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 5A F7"
+        },
+        {
+          "number": 92,
+          "name": "DB50XG Voice 092",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 5B F7"
+        },
+        {
+          "number": 93,
+          "name": "DB50XG Voice 093",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 5C F7"
+        },
+        {
+          "number": 94,
+          "name": "DB50XG Voice 094",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 5D F7"
+        },
+        {
+          "number": 95,
+          "name": "DB50XG Voice 095",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 5E F7"
+        },
+        {
+          "number": 96,
+          "name": "DB50XG Voice 096",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 5F F7"
+        },
+        {
+          "number": 97,
+          "name": "DB50XG Voice 097",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 60 F7"
+        },
+        {
+          "number": 98,
+          "name": "DB50XG Voice 098",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 61 F7"
+        },
+        {
+          "number": 99,
+          "name": "DB50XG Voice 099",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 62 F7"
+        },
+        {
+          "number": 100,
+          "name": "DB50XG Voice 100",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 63 F7"
+        },
+        {
+          "number": 101,
+          "name": "DB50XG Voice 101",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 64 F7"
+        },
+        {
+          "number": 102,
+          "name": "DB50XG Voice 102",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 65 F7"
+        },
+        {
+          "number": 103,
+          "name": "DB50XG Voice 103",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 66 F7"
+        },
+        {
+          "number": 104,
+          "name": "DB50XG Voice 104",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 67 F7"
+        },
+        {
+          "number": 105,
+          "name": "DB50XG Voice 105",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 68 F7"
+        },
+        {
+          "number": 106,
+          "name": "DB50XG Voice 106",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 69 F7"
+        },
+        {
+          "number": 107,
+          "name": "DB50XG Voice 107",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 6A F7"
+        },
+        {
+          "number": 108,
+          "name": "DB50XG Voice 108",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 6B F7"
+        },
+        {
+          "number": 109,
+          "name": "DB50XG Voice 109",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 6C F7"
+        },
+        {
+          "number": 110,
+          "name": "DB50XG Voice 110",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 6D F7"
+        },
+        {
+          "number": 111,
+          "name": "DB50XG Voice 111",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 6E F7"
+        },
+        {
+          "number": 112,
+          "name": "DB50XG Voice 112",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 6F F7"
+        },
+        {
+          "number": 113,
+          "name": "DB50XG Voice 113",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 70 F7"
+        },
+        {
+          "number": 114,
+          "name": "DB50XG Voice 114",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 71 F7"
+        },
+        {
+          "number": 115,
+          "name": "DB50XG Voice 115",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 72 F7"
+        },
+        {
+          "number": 116,
+          "name": "DB50XG Voice 116",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 73 F7"
+        },
+        {
+          "number": 117,
+          "name": "DB50XG Voice 117",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 74 F7"
+        },
+        {
+          "number": 118,
+          "name": "DB50XG Voice 118",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 75 F7"
+        },
+        {
+          "number": 119,
+          "name": "DB50XG Voice 119",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 76 F7"
+        },
+        {
+          "number": 120,
+          "name": "DB50XG Voice 120",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 77 F7"
+        },
+        {
+          "number": 121,
+          "name": "DB50XG Voice 121",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 78 F7"
+        },
+        {
+          "number": 122,
+          "name": "DB50XG Voice 122",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 79 F7"
+        },
+        {
+          "number": 123,
+          "name": "DB50XG Voice 123",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 7A F7"
+        },
+        {
+          "number": 124,
+          "name": "DB50XG Voice 124",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 7B F7"
+        },
+        {
+          "number": 125,
+          "name": "DB50XG Voice 125",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 7C F7"
+        },
+        {
+          "number": 126,
+          "name": "DB50XG Voice 126",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 7D F7"
+        },
+        {
+          "number": 127,
+          "name": "DB50XG Voice 127",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 7E F7"
+        },
+        {
+          "number": 128,
+          "name": "DB50XG Voice 128",
+          "category": "Yamaha Extended General MIDI",
+          "tags": [
+            "wavetable",
+            "yamaha extended general midi",
+            "db50xg"
+          ],
+          "sysex_dump": "F0 43 10 4C 7F F7"
+        }
+      ]
+    }
+  ]
+}

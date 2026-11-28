@@ -1,0 +1,1419 @@
+{
+  "device": "Classic Keys",
+  "banks": [
+    {
+      "name": "Preset Bank",
+      "type": "ROM",
+      "patches": [
+        {
+          "number": 1,
+          "name": "Classic Keys 001",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 00 F7"
+        },
+        {
+          "number": 2,
+          "name": "Classic Keys 002",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 01 F7"
+        },
+        {
+          "number": 3,
+          "name": "Classic Keys 003",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 02 F7"
+        },
+        {
+          "number": 4,
+          "name": "Classic Keys 004",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 03 F7"
+        },
+        {
+          "number": 5,
+          "name": "Classic Keys 005",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 04 F7"
+        },
+        {
+          "number": 6,
+          "name": "Classic Keys 006",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 05 F7"
+        },
+        {
+          "number": 7,
+          "name": "Classic Keys 007",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 06 F7"
+        },
+        {
+          "number": 8,
+          "name": "Classic Keys 008",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 07 F7"
+        },
+        {
+          "number": 9,
+          "name": "Classic Keys 009",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 08 F7"
+        },
+        {
+          "number": 10,
+          "name": "Classic Keys 010",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 09 F7"
+        },
+        {
+          "number": 11,
+          "name": "Classic Keys 011",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 0A F7"
+        },
+        {
+          "number": 12,
+          "name": "Classic Keys 012",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 0B F7"
+        },
+        {
+          "number": 13,
+          "name": "Classic Keys 013",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 0C F7"
+        },
+        {
+          "number": 14,
+          "name": "Classic Keys 014",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 0D F7"
+        },
+        {
+          "number": 15,
+          "name": "Classic Keys 015",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 0E F7"
+        },
+        {
+          "number": 16,
+          "name": "Classic Keys 016",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 0F F7"
+        },
+        {
+          "number": 17,
+          "name": "Classic Keys 017",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 10 F7"
+        },
+        {
+          "number": 18,
+          "name": "Classic Keys 018",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 11 F7"
+        },
+        {
+          "number": 19,
+          "name": "Classic Keys 019",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 12 F7"
+        },
+        {
+          "number": 20,
+          "name": "Classic Keys 020",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 13 F7"
+        },
+        {
+          "number": 21,
+          "name": "Classic Keys 021",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 14 F7"
+        },
+        {
+          "number": 22,
+          "name": "Classic Keys 022",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 15 F7"
+        },
+        {
+          "number": 23,
+          "name": "Classic Keys 023",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 16 F7"
+        },
+        {
+          "number": 24,
+          "name": "Classic Keys 024",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 17 F7"
+        },
+        {
+          "number": 25,
+          "name": "Classic Keys 025",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 18 F7"
+        },
+        {
+          "number": 26,
+          "name": "Classic Keys 026",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 19 F7"
+        },
+        {
+          "number": 27,
+          "name": "Classic Keys 027",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 1A F7"
+        },
+        {
+          "number": 28,
+          "name": "Classic Keys 028",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 1B F7"
+        },
+        {
+          "number": 29,
+          "name": "Classic Keys 029",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 1C F7"
+        },
+        {
+          "number": 30,
+          "name": "Classic Keys 030",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 1D F7"
+        },
+        {
+          "number": 31,
+          "name": "Classic Keys 031",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 1E F7"
+        },
+        {
+          "number": 32,
+          "name": "Classic Keys 032",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 1F F7"
+        },
+        {
+          "number": 33,
+          "name": "Classic Keys 033",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 20 F7"
+        },
+        {
+          "number": 34,
+          "name": "Classic Keys 034",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 21 F7"
+        },
+        {
+          "number": 35,
+          "name": "Classic Keys 035",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 22 F7"
+        },
+        {
+          "number": 36,
+          "name": "Classic Keys 036",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 23 F7"
+        },
+        {
+          "number": 37,
+          "name": "Classic Keys 037",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 24 F7"
+        },
+        {
+          "number": 38,
+          "name": "Classic Keys 038",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 25 F7"
+        },
+        {
+          "number": 39,
+          "name": "Classic Keys 039",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 26 F7"
+        },
+        {
+          "number": 40,
+          "name": "Classic Keys 040",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 27 F7"
+        },
+        {
+          "number": 41,
+          "name": "Classic Keys 041",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 28 F7"
+        },
+        {
+          "number": 42,
+          "name": "Classic Keys 042",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 29 F7"
+        },
+        {
+          "number": 43,
+          "name": "Classic Keys 043",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 2A F7"
+        },
+        {
+          "number": 44,
+          "name": "Classic Keys 044",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 2B F7"
+        },
+        {
+          "number": 45,
+          "name": "Classic Keys 045",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 2C F7"
+        },
+        {
+          "number": 46,
+          "name": "Classic Keys 046",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 2D F7"
+        },
+        {
+          "number": 47,
+          "name": "Classic Keys 047",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 2E F7"
+        },
+        {
+          "number": 48,
+          "name": "Classic Keys 048",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 2F F7"
+        },
+        {
+          "number": 49,
+          "name": "Classic Keys 049",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 30 F7"
+        },
+        {
+          "number": 50,
+          "name": "Classic Keys 050",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 31 F7"
+        },
+        {
+          "number": 51,
+          "name": "Classic Keys 051",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 32 F7"
+        },
+        {
+          "number": 52,
+          "name": "Classic Keys 052",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 33 F7"
+        },
+        {
+          "number": 53,
+          "name": "Classic Keys 053",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 34 F7"
+        },
+        {
+          "number": 54,
+          "name": "Classic Keys 054",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 35 F7"
+        },
+        {
+          "number": 55,
+          "name": "Classic Keys 055",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 36 F7"
+        },
+        {
+          "number": 56,
+          "name": "Classic Keys 056",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 37 F7"
+        },
+        {
+          "number": 57,
+          "name": "Classic Keys 057",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 38 F7"
+        },
+        {
+          "number": 58,
+          "name": "Classic Keys 058",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 39 F7"
+        },
+        {
+          "number": 59,
+          "name": "Classic Keys 059",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 3A F7"
+        },
+        {
+          "number": 60,
+          "name": "Classic Keys 060",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 3B F7"
+        },
+        {
+          "number": 61,
+          "name": "Classic Keys 061",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 3C F7"
+        },
+        {
+          "number": 62,
+          "name": "Classic Keys 062",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 3D F7"
+        },
+        {
+          "number": 63,
+          "name": "Classic Keys 063",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 3E F7"
+        },
+        {
+          "number": 64,
+          "name": "Classic Keys 064",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 3F F7"
+        },
+        {
+          "number": 65,
+          "name": "Classic Keys 065",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 40 F7"
+        },
+        {
+          "number": 66,
+          "name": "Classic Keys 066",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 41 F7"
+        },
+        {
+          "number": 67,
+          "name": "Classic Keys 067",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 42 F7"
+        },
+        {
+          "number": 68,
+          "name": "Classic Keys 068",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 43 F7"
+        },
+        {
+          "number": 69,
+          "name": "Classic Keys 069",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 44 F7"
+        },
+        {
+          "number": 70,
+          "name": "Classic Keys 070",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 45 F7"
+        },
+        {
+          "number": 71,
+          "name": "Classic Keys 071",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 46 F7"
+        },
+        {
+          "number": 72,
+          "name": "Classic Keys 072",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 47 F7"
+        },
+        {
+          "number": 73,
+          "name": "Classic Keys 073",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 48 F7"
+        },
+        {
+          "number": 74,
+          "name": "Classic Keys 074",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 49 F7"
+        },
+        {
+          "number": 75,
+          "name": "Classic Keys 075",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 4A F7"
+        },
+        {
+          "number": 76,
+          "name": "Classic Keys 076",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 4B F7"
+        },
+        {
+          "number": 77,
+          "name": "Classic Keys 077",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 4C F7"
+        },
+        {
+          "number": 78,
+          "name": "Classic Keys 078",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 4D F7"
+        },
+        {
+          "number": 79,
+          "name": "Classic Keys 079",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 4E F7"
+        },
+        {
+          "number": 80,
+          "name": "Classic Keys 080",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 4F F7"
+        },
+        {
+          "number": 81,
+          "name": "Classic Keys 081",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 50 F7"
+        },
+        {
+          "number": 82,
+          "name": "Classic Keys 082",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 51 F7"
+        },
+        {
+          "number": 83,
+          "name": "Classic Keys 083",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 52 F7"
+        },
+        {
+          "number": 84,
+          "name": "Classic Keys 084",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 53 F7"
+        },
+        {
+          "number": 85,
+          "name": "Classic Keys 085",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 54 F7"
+        },
+        {
+          "number": 86,
+          "name": "Classic Keys 086",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 55 F7"
+        },
+        {
+          "number": 87,
+          "name": "Classic Keys 087",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 56 F7"
+        },
+        {
+          "number": 88,
+          "name": "Classic Keys 088",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 57 F7"
+        },
+        {
+          "number": 89,
+          "name": "Classic Keys 089",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 58 F7"
+        },
+        {
+          "number": 90,
+          "name": "Classic Keys 090",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 59 F7"
+        },
+        {
+          "number": 91,
+          "name": "Classic Keys 091",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 5A F7"
+        },
+        {
+          "number": 92,
+          "name": "Classic Keys 092",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 5B F7"
+        },
+        {
+          "number": 93,
+          "name": "Classic Keys 093",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 5C F7"
+        },
+        {
+          "number": 94,
+          "name": "Classic Keys 094",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 5D F7"
+        },
+        {
+          "number": 95,
+          "name": "Classic Keys 095",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 5E F7"
+        },
+        {
+          "number": 96,
+          "name": "Classic Keys 096",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 5F F7"
+        },
+        {
+          "number": 97,
+          "name": "Classic Keys 097",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 60 F7"
+        },
+        {
+          "number": 98,
+          "name": "Classic Keys 098",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 61 F7"
+        },
+        {
+          "number": 99,
+          "name": "Classic Keys 099",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 62 F7"
+        },
+        {
+          "number": 100,
+          "name": "Classic Keys 100",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 63 F7"
+        },
+        {
+          "number": 101,
+          "name": "Classic Keys 101",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 64 F7"
+        },
+        {
+          "number": 102,
+          "name": "Classic Keys 102",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 65 F7"
+        },
+        {
+          "number": 103,
+          "name": "Classic Keys 103",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 66 F7"
+        },
+        {
+          "number": 104,
+          "name": "Classic Keys 104",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 67 F7"
+        },
+        {
+          "number": 105,
+          "name": "Classic Keys 105",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 68 F7"
+        },
+        {
+          "number": 106,
+          "name": "Classic Keys 106",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 69 F7"
+        },
+        {
+          "number": 107,
+          "name": "Classic Keys 107",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 6A F7"
+        },
+        {
+          "number": 108,
+          "name": "Classic Keys 108",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 6B F7"
+        },
+        {
+          "number": 109,
+          "name": "Classic Keys 109",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 6C F7"
+        },
+        {
+          "number": 110,
+          "name": "Classic Keys 110",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 6D F7"
+        },
+        {
+          "number": 111,
+          "name": "Classic Keys 111",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 6E F7"
+        },
+        {
+          "number": 112,
+          "name": "Classic Keys 112",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 6F F7"
+        },
+        {
+          "number": 113,
+          "name": "Classic Keys 113",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 70 F7"
+        },
+        {
+          "number": 114,
+          "name": "Classic Keys 114",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 71 F7"
+        },
+        {
+          "number": 115,
+          "name": "Classic Keys 115",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 72 F7"
+        },
+        {
+          "number": 116,
+          "name": "Classic Keys 116",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 73 F7"
+        },
+        {
+          "number": 117,
+          "name": "Classic Keys 117",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 74 F7"
+        },
+        {
+          "number": 118,
+          "name": "Classic Keys 118",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 75 F7"
+        },
+        {
+          "number": 119,
+          "name": "Classic Keys 119",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 76 F7"
+        },
+        {
+          "number": 120,
+          "name": "Classic Keys 120",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 77 F7"
+        },
+        {
+          "number": 121,
+          "name": "Classic Keys 121",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 78 F7"
+        },
+        {
+          "number": 122,
+          "name": "Classic Keys 122",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 79 F7"
+        },
+        {
+          "number": 123,
+          "name": "Classic Keys 123",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 7A F7"
+        },
+        {
+          "number": 124,
+          "name": "Classic Keys 124",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 7B F7"
+        },
+        {
+          "number": 125,
+          "name": "Classic Keys 125",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 7C F7"
+        },
+        {
+          "number": 126,
+          "name": "Classic Keys 126",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 7D F7"
+        },
+        {
+          "number": 127,
+          "name": "Classic Keys 127",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 7E F7"
+        },
+        {
+          "number": 128,
+          "name": "Classic Keys 128",
+          "category": "Sample-Playback Vintage Keyboards",
+          "tags": [
+            "vintage",
+            "sample-playback vintage keyboards",
+            "classic keys"
+          ],
+          "sysex_dump": "F0 18 07 00 7F F7"
+        }
+      ]
+    }
+  ]
+}

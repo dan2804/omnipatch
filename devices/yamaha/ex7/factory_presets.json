@@ -1,0 +1,2833 @@
+{
+  "device": "EX7",
+  "banks": [
+    {
+      "name": "Preset Bank 1",
+      "type": "ROM",
+      "patches": [
+        {
+          "number": 1,
+          "name": "EX7 Voice 1-001",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 00 F7"
+        },
+        {
+          "number": 2,
+          "name": "EX7 Voice 1-002",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 01 F7"
+        },
+        {
+          "number": 3,
+          "name": "EX7 Voice 1-003",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 02 F7"
+        },
+        {
+          "number": 4,
+          "name": "EX7 Voice 1-004",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 03 F7"
+        },
+        {
+          "number": 5,
+          "name": "EX7 Voice 1-005",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 04 F7"
+        },
+        {
+          "number": 6,
+          "name": "EX7 Voice 1-006",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 05 F7"
+        },
+        {
+          "number": 7,
+          "name": "EX7 Voice 1-007",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 06 F7"
+        },
+        {
+          "number": 8,
+          "name": "EX7 Voice 1-008",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 07 F7"
+        },
+        {
+          "number": 9,
+          "name": "EX7 Voice 1-009",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 08 F7"
+        },
+        {
+          "number": 10,
+          "name": "EX7 Voice 1-010",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 09 F7"
+        },
+        {
+          "number": 11,
+          "name": "EX7 Voice 1-011",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 0A F7"
+        },
+        {
+          "number": 12,
+          "name": "EX7 Voice 1-012",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 0B F7"
+        },
+        {
+          "number": 13,
+          "name": "EX7 Voice 1-013",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 0C F7"
+        },
+        {
+          "number": 14,
+          "name": "EX7 Voice 1-014",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 0D F7"
+        },
+        {
+          "number": 15,
+          "name": "EX7 Voice 1-015",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 0E F7"
+        },
+        {
+          "number": 16,
+          "name": "EX7 Voice 1-016",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 0F F7"
+        },
+        {
+          "number": 17,
+          "name": "EX7 Voice 1-017",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 10 F7"
+        },
+        {
+          "number": 18,
+          "name": "EX7 Voice 1-018",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 11 F7"
+        },
+        {
+          "number": 19,
+          "name": "EX7 Voice 1-019",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 12 F7"
+        },
+        {
+          "number": 20,
+          "name": "EX7 Voice 1-020",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 13 F7"
+        },
+        {
+          "number": 21,
+          "name": "EX7 Voice 1-021",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 14 F7"
+        },
+        {
+          "number": 22,
+          "name": "EX7 Voice 1-022",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 15 F7"
+        },
+        {
+          "number": 23,
+          "name": "EX7 Voice 1-023",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 16 F7"
+        },
+        {
+          "number": 24,
+          "name": "EX7 Voice 1-024",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 17 F7"
+        },
+        {
+          "number": 25,
+          "name": "EX7 Voice 1-025",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 18 F7"
+        },
+        {
+          "number": 26,
+          "name": "EX7 Voice 1-026",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 19 F7"
+        },
+        {
+          "number": 27,
+          "name": "EX7 Voice 1-027",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 1A F7"
+        },
+        {
+          "number": 28,
+          "name": "EX7 Voice 1-028",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 1B F7"
+        },
+        {
+          "number": 29,
+          "name": "EX7 Voice 1-029",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 1C F7"
+        },
+        {
+          "number": 30,
+          "name": "EX7 Voice 1-030",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 1D F7"
+        },
+        {
+          "number": 31,
+          "name": "EX7 Voice 1-031",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 1E F7"
+        },
+        {
+          "number": 32,
+          "name": "EX7 Voice 1-032",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 1F F7"
+        },
+        {
+          "number": 33,
+          "name": "EX7 Voice 1-033",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 20 F7"
+        },
+        {
+          "number": 34,
+          "name": "EX7 Voice 1-034",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 21 F7"
+        },
+        {
+          "number": 35,
+          "name": "EX7 Voice 1-035",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 22 F7"
+        },
+        {
+          "number": 36,
+          "name": "EX7 Voice 1-036",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 23 F7"
+        },
+        {
+          "number": 37,
+          "name": "EX7 Voice 1-037",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 24 F7"
+        },
+        {
+          "number": 38,
+          "name": "EX7 Voice 1-038",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 25 F7"
+        },
+        {
+          "number": 39,
+          "name": "EX7 Voice 1-039",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 26 F7"
+        },
+        {
+          "number": 40,
+          "name": "EX7 Voice 1-040",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 27 F7"
+        },
+        {
+          "number": 41,
+          "name": "EX7 Voice 1-041",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 28 F7"
+        },
+        {
+          "number": 42,
+          "name": "EX7 Voice 1-042",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 29 F7"
+        },
+        {
+          "number": 43,
+          "name": "EX7 Voice 1-043",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 2A F7"
+        },
+        {
+          "number": 44,
+          "name": "EX7 Voice 1-044",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 2B F7"
+        },
+        {
+          "number": 45,
+          "name": "EX7 Voice 1-045",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 2C F7"
+        },
+        {
+          "number": 46,
+          "name": "EX7 Voice 1-046",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 2D F7"
+        },
+        {
+          "number": 47,
+          "name": "EX7 Voice 1-047",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 2E F7"
+        },
+        {
+          "number": 48,
+          "name": "EX7 Voice 1-048",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 2F F7"
+        },
+        {
+          "number": 49,
+          "name": "EX7 Voice 1-049",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 30 F7"
+        },
+        {
+          "number": 50,
+          "name": "EX7 Voice 1-050",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 31 F7"
+        },
+        {
+          "number": 51,
+          "name": "EX7 Voice 1-051",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 32 F7"
+        },
+        {
+          "number": 52,
+          "name": "EX7 Voice 1-052",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 33 F7"
+        },
+        {
+          "number": 53,
+          "name": "EX7 Voice 1-053",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 34 F7"
+        },
+        {
+          "number": 54,
+          "name": "EX7 Voice 1-054",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 35 F7"
+        },
+        {
+          "number": 55,
+          "name": "EX7 Voice 1-055",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 36 F7"
+        },
+        {
+          "number": 56,
+          "name": "EX7 Voice 1-056",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 37 F7"
+        },
+        {
+          "number": 57,
+          "name": "EX7 Voice 1-057",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 38 F7"
+        },
+        {
+          "number": 58,
+          "name": "EX7 Voice 1-058",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 39 F7"
+        },
+        {
+          "number": 59,
+          "name": "EX7 Voice 1-059",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 3A F7"
+        },
+        {
+          "number": 60,
+          "name": "EX7 Voice 1-060",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 3B F7"
+        },
+        {
+          "number": 61,
+          "name": "EX7 Voice 1-061",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 3C F7"
+        },
+        {
+          "number": 62,
+          "name": "EX7 Voice 1-062",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 3D F7"
+        },
+        {
+          "number": 63,
+          "name": "EX7 Voice 1-063",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 3E F7"
+        },
+        {
+          "number": 64,
+          "name": "EX7 Voice 1-064",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 3F F7"
+        },
+        {
+          "number": 65,
+          "name": "EX7 Voice 1-065",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 40 F7"
+        },
+        {
+          "number": 66,
+          "name": "EX7 Voice 1-066",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 41 F7"
+        },
+        {
+          "number": 67,
+          "name": "EX7 Voice 1-067",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 42 F7"
+        },
+        {
+          "number": 68,
+          "name": "EX7 Voice 1-068",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 43 F7"
+        },
+        {
+          "number": 69,
+          "name": "EX7 Voice 1-069",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 44 F7"
+        },
+        {
+          "number": 70,
+          "name": "EX7 Voice 1-070",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 45 F7"
+        },
+        {
+          "number": 71,
+          "name": "EX7 Voice 1-071",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 46 F7"
+        },
+        {
+          "number": 72,
+          "name": "EX7 Voice 1-072",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 47 F7"
+        },
+        {
+          "number": 73,
+          "name": "EX7 Voice 1-073",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 48 F7"
+        },
+        {
+          "number": 74,
+          "name": "EX7 Voice 1-074",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 49 F7"
+        },
+        {
+          "number": 75,
+          "name": "EX7 Voice 1-075",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 4A F7"
+        },
+        {
+          "number": 76,
+          "name": "EX7 Voice 1-076",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 4B F7"
+        },
+        {
+          "number": 77,
+          "name": "EX7 Voice 1-077",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 4C F7"
+        },
+        {
+          "number": 78,
+          "name": "EX7 Voice 1-078",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 4D F7"
+        },
+        {
+          "number": 79,
+          "name": "EX7 Voice 1-079",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 4E F7"
+        },
+        {
+          "number": 80,
+          "name": "EX7 Voice 1-080",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 4F F7"
+        },
+        {
+          "number": 81,
+          "name": "EX7 Voice 1-081",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 50 F7"
+        },
+        {
+          "number": 82,
+          "name": "EX7 Voice 1-082",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 51 F7"
+        },
+        {
+          "number": 83,
+          "name": "EX7 Voice 1-083",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 52 F7"
+        },
+        {
+          "number": 84,
+          "name": "EX7 Voice 1-084",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 53 F7"
+        },
+        {
+          "number": 85,
+          "name": "EX7 Voice 1-085",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 54 F7"
+        },
+        {
+          "number": 86,
+          "name": "EX7 Voice 1-086",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 55 F7"
+        },
+        {
+          "number": 87,
+          "name": "EX7 Voice 1-087",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 56 F7"
+        },
+        {
+          "number": 88,
+          "name": "EX7 Voice 1-088",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 57 F7"
+        },
+        {
+          "number": 89,
+          "name": "EX7 Voice 1-089",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 58 F7"
+        },
+        {
+          "number": 90,
+          "name": "EX7 Voice 1-090",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 59 F7"
+        },
+        {
+          "number": 91,
+          "name": "EX7 Voice 1-091",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 5A F7"
+        },
+        {
+          "number": 92,
+          "name": "EX7 Voice 1-092",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 5B F7"
+        },
+        {
+          "number": 93,
+          "name": "EX7 Voice 1-093",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 5C F7"
+        },
+        {
+          "number": 94,
+          "name": "EX7 Voice 1-094",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 5D F7"
+        },
+        {
+          "number": 95,
+          "name": "EX7 Voice 1-095",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 5E F7"
+        },
+        {
+          "number": 96,
+          "name": "EX7 Voice 1-096",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 5F F7"
+        },
+        {
+          "number": 97,
+          "name": "EX7 Voice 1-097",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 60 F7"
+        },
+        {
+          "number": 98,
+          "name": "EX7 Voice 1-098",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 61 F7"
+        },
+        {
+          "number": 99,
+          "name": "EX7 Voice 1-099",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 62 F7"
+        },
+        {
+          "number": 100,
+          "name": "EX7 Voice 1-100",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 63 F7"
+        },
+        {
+          "number": 101,
+          "name": "EX7 Voice 1-101",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 64 F7"
+        },
+        {
+          "number": 102,
+          "name": "EX7 Voice 1-102",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 65 F7"
+        },
+        {
+          "number": 103,
+          "name": "EX7 Voice 1-103",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 66 F7"
+        },
+        {
+          "number": 104,
+          "name": "EX7 Voice 1-104",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 67 F7"
+        },
+        {
+          "number": 105,
+          "name": "EX7 Voice 1-105",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 68 F7"
+        },
+        {
+          "number": 106,
+          "name": "EX7 Voice 1-106",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 69 F7"
+        },
+        {
+          "number": 107,
+          "name": "EX7 Voice 1-107",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 6A F7"
+        },
+        {
+          "number": 108,
+          "name": "EX7 Voice 1-108",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 6B F7"
+        },
+        {
+          "number": 109,
+          "name": "EX7 Voice 1-109",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 6C F7"
+        },
+        {
+          "number": 110,
+          "name": "EX7 Voice 1-110",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 6D F7"
+        },
+        {
+          "number": 111,
+          "name": "EX7 Voice 1-111",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 6E F7"
+        },
+        {
+          "number": 112,
+          "name": "EX7 Voice 1-112",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 6F F7"
+        },
+        {
+          "number": 113,
+          "name": "EX7 Voice 1-113",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 70 F7"
+        },
+        {
+          "number": 114,
+          "name": "EX7 Voice 1-114",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 71 F7"
+        },
+        {
+          "number": 115,
+          "name": "EX7 Voice 1-115",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 72 F7"
+        },
+        {
+          "number": 116,
+          "name": "EX7 Voice 1-116",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 73 F7"
+        },
+        {
+          "number": 117,
+          "name": "EX7 Voice 1-117",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 74 F7"
+        },
+        {
+          "number": 118,
+          "name": "EX7 Voice 1-118",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 75 F7"
+        },
+        {
+          "number": 119,
+          "name": "EX7 Voice 1-119",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 76 F7"
+        },
+        {
+          "number": 120,
+          "name": "EX7 Voice 1-120",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 77 F7"
+        },
+        {
+          "number": 121,
+          "name": "EX7 Voice 1-121",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 78 F7"
+        },
+        {
+          "number": 122,
+          "name": "EX7 Voice 1-122",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 79 F7"
+        },
+        {
+          "number": 123,
+          "name": "EX7 Voice 1-123",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 7A F7"
+        },
+        {
+          "number": 124,
+          "name": "EX7 Voice 1-124",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 7B F7"
+        },
+        {
+          "number": 125,
+          "name": "EX7 Voice 1-125",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 7C F7"
+        },
+        {
+          "number": 126,
+          "name": "EX7 Voice 1-126",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 7D F7"
+        },
+        {
+          "number": 127,
+          "name": "EX7 Voice 1-127",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 7E F7"
+        },
+        {
+          "number": 128,
+          "name": "EX7 Voice 1-128",
+          "category": "AWM2 + AN + FDSP Voices",
+          "tags": [
+            "extended",
+            "awm2 + an + fdsp voices",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 7F F7"
+        }
+      ]
+    },
+    {
+      "name": "Preset Bank 2",
+      "type": "ROM",
+      "patches": [
+        {
+          "number": 1,
+          "name": "EX7 Voice 2-001",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 00 F7"
+        },
+        {
+          "number": 2,
+          "name": "EX7 Voice 2-002",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 01 F7"
+        },
+        {
+          "number": 3,
+          "name": "EX7 Voice 2-003",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 02 F7"
+        },
+        {
+          "number": 4,
+          "name": "EX7 Voice 2-004",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 03 F7"
+        },
+        {
+          "number": 5,
+          "name": "EX7 Voice 2-005",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 04 F7"
+        },
+        {
+          "number": 6,
+          "name": "EX7 Voice 2-006",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 05 F7"
+        },
+        {
+          "number": 7,
+          "name": "EX7 Voice 2-007",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 06 F7"
+        },
+        {
+          "number": 8,
+          "name": "EX7 Voice 2-008",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 07 F7"
+        },
+        {
+          "number": 9,
+          "name": "EX7 Voice 2-009",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 08 F7"
+        },
+        {
+          "number": 10,
+          "name": "EX7 Voice 2-010",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 09 F7"
+        },
+        {
+          "number": 11,
+          "name": "EX7 Voice 2-011",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 0A F7"
+        },
+        {
+          "number": 12,
+          "name": "EX7 Voice 2-012",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 0B F7"
+        },
+        {
+          "number": 13,
+          "name": "EX7 Voice 2-013",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 0C F7"
+        },
+        {
+          "number": 14,
+          "name": "EX7 Voice 2-014",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 0D F7"
+        },
+        {
+          "number": 15,
+          "name": "EX7 Voice 2-015",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 0E F7"
+        },
+        {
+          "number": 16,
+          "name": "EX7 Voice 2-016",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 0F F7"
+        },
+        {
+          "number": 17,
+          "name": "EX7 Voice 2-017",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 10 F7"
+        },
+        {
+          "number": 18,
+          "name": "EX7 Voice 2-018",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 11 F7"
+        },
+        {
+          "number": 19,
+          "name": "EX7 Voice 2-019",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 12 F7"
+        },
+        {
+          "number": 20,
+          "name": "EX7 Voice 2-020",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 13 F7"
+        },
+        {
+          "number": 21,
+          "name": "EX7 Voice 2-021",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 14 F7"
+        },
+        {
+          "number": 22,
+          "name": "EX7 Voice 2-022",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 15 F7"
+        },
+        {
+          "number": 23,
+          "name": "EX7 Voice 2-023",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 16 F7"
+        },
+        {
+          "number": 24,
+          "name": "EX7 Voice 2-024",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 17 F7"
+        },
+        {
+          "number": 25,
+          "name": "EX7 Voice 2-025",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 18 F7"
+        },
+        {
+          "number": 26,
+          "name": "EX7 Voice 2-026",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 19 F7"
+        },
+        {
+          "number": 27,
+          "name": "EX7 Voice 2-027",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 1A F7"
+        },
+        {
+          "number": 28,
+          "name": "EX7 Voice 2-028",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 1B F7"
+        },
+        {
+          "number": 29,
+          "name": "EX7 Voice 2-029",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 1C F7"
+        },
+        {
+          "number": 30,
+          "name": "EX7 Voice 2-030",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 1D F7"
+        },
+        {
+          "number": 31,
+          "name": "EX7 Voice 2-031",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 1E F7"
+        },
+        {
+          "number": 32,
+          "name": "EX7 Voice 2-032",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 1F F7"
+        },
+        {
+          "number": 33,
+          "name": "EX7 Voice 2-033",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 20 F7"
+        },
+        {
+          "number": 34,
+          "name": "EX7 Voice 2-034",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 21 F7"
+        },
+        {
+          "number": 35,
+          "name": "EX7 Voice 2-035",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 22 F7"
+        },
+        {
+          "number": 36,
+          "name": "EX7 Voice 2-036",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 23 F7"
+        },
+        {
+          "number": 37,
+          "name": "EX7 Voice 2-037",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 24 F7"
+        },
+        {
+          "number": 38,
+          "name": "EX7 Voice 2-038",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 25 F7"
+        },
+        {
+          "number": 39,
+          "name": "EX7 Voice 2-039",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 26 F7"
+        },
+        {
+          "number": 40,
+          "name": "EX7 Voice 2-040",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 27 F7"
+        },
+        {
+          "number": 41,
+          "name": "EX7 Voice 2-041",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 28 F7"
+        },
+        {
+          "number": 42,
+          "name": "EX7 Voice 2-042",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 29 F7"
+        },
+        {
+          "number": 43,
+          "name": "EX7 Voice 2-043",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 2A F7"
+        },
+        {
+          "number": 44,
+          "name": "EX7 Voice 2-044",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 2B F7"
+        },
+        {
+          "number": 45,
+          "name": "EX7 Voice 2-045",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 2C F7"
+        },
+        {
+          "number": 46,
+          "name": "EX7 Voice 2-046",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 2D F7"
+        },
+        {
+          "number": 47,
+          "name": "EX7 Voice 2-047",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 2E F7"
+        },
+        {
+          "number": 48,
+          "name": "EX7 Voice 2-048",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 2F F7"
+        },
+        {
+          "number": 49,
+          "name": "EX7 Voice 2-049",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 30 F7"
+        },
+        {
+          "number": 50,
+          "name": "EX7 Voice 2-050",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 31 F7"
+        },
+        {
+          "number": 51,
+          "name": "EX7 Voice 2-051",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 32 F7"
+        },
+        {
+          "number": 52,
+          "name": "EX7 Voice 2-052",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 33 F7"
+        },
+        {
+          "number": 53,
+          "name": "EX7 Voice 2-053",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 34 F7"
+        },
+        {
+          "number": 54,
+          "name": "EX7 Voice 2-054",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 35 F7"
+        },
+        {
+          "number": 55,
+          "name": "EX7 Voice 2-055",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 36 F7"
+        },
+        {
+          "number": 56,
+          "name": "EX7 Voice 2-056",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 37 F7"
+        },
+        {
+          "number": 57,
+          "name": "EX7 Voice 2-057",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 38 F7"
+        },
+        {
+          "number": 58,
+          "name": "EX7 Voice 2-058",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 39 F7"
+        },
+        {
+          "number": 59,
+          "name": "EX7 Voice 2-059",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 3A F7"
+        },
+        {
+          "number": 60,
+          "name": "EX7 Voice 2-060",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 3B F7"
+        },
+        {
+          "number": 61,
+          "name": "EX7 Voice 2-061",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 3C F7"
+        },
+        {
+          "number": 62,
+          "name": "EX7 Voice 2-062",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 3D F7"
+        },
+        {
+          "number": 63,
+          "name": "EX7 Voice 2-063",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 3E F7"
+        },
+        {
+          "number": 64,
+          "name": "EX7 Voice 2-064",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 3F F7"
+        },
+        {
+          "number": 65,
+          "name": "EX7 Voice 2-065",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 40 F7"
+        },
+        {
+          "number": 66,
+          "name": "EX7 Voice 2-066",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 41 F7"
+        },
+        {
+          "number": 67,
+          "name": "EX7 Voice 2-067",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 42 F7"
+        },
+        {
+          "number": 68,
+          "name": "EX7 Voice 2-068",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 43 F7"
+        },
+        {
+          "number": 69,
+          "name": "EX7 Voice 2-069",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 44 F7"
+        },
+        {
+          "number": 70,
+          "name": "EX7 Voice 2-070",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 45 F7"
+        },
+        {
+          "number": 71,
+          "name": "EX7 Voice 2-071",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 46 F7"
+        },
+        {
+          "number": 72,
+          "name": "EX7 Voice 2-072",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 47 F7"
+        },
+        {
+          "number": 73,
+          "name": "EX7 Voice 2-073",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 48 F7"
+        },
+        {
+          "number": 74,
+          "name": "EX7 Voice 2-074",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 49 F7"
+        },
+        {
+          "number": 75,
+          "name": "EX7 Voice 2-075",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 4A F7"
+        },
+        {
+          "number": 76,
+          "name": "EX7 Voice 2-076",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 4B F7"
+        },
+        {
+          "number": 77,
+          "name": "EX7 Voice 2-077",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 4C F7"
+        },
+        {
+          "number": 78,
+          "name": "EX7 Voice 2-078",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 4D F7"
+        },
+        {
+          "number": 79,
+          "name": "EX7 Voice 2-079",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 4E F7"
+        },
+        {
+          "number": 80,
+          "name": "EX7 Voice 2-080",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 4F F7"
+        },
+        {
+          "number": 81,
+          "name": "EX7 Voice 2-081",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 50 F7"
+        },
+        {
+          "number": 82,
+          "name": "EX7 Voice 2-082",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 51 F7"
+        },
+        {
+          "number": 83,
+          "name": "EX7 Voice 2-083",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 52 F7"
+        },
+        {
+          "number": 84,
+          "name": "EX7 Voice 2-084",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 53 F7"
+        },
+        {
+          "number": 85,
+          "name": "EX7 Voice 2-085",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 54 F7"
+        },
+        {
+          "number": 86,
+          "name": "EX7 Voice 2-086",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 55 F7"
+        },
+        {
+          "number": 87,
+          "name": "EX7 Voice 2-087",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 56 F7"
+        },
+        {
+          "number": 88,
+          "name": "EX7 Voice 2-088",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 57 F7"
+        },
+        {
+          "number": 89,
+          "name": "EX7 Voice 2-089",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 58 F7"
+        },
+        {
+          "number": 90,
+          "name": "EX7 Voice 2-090",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 59 F7"
+        },
+        {
+          "number": 91,
+          "name": "EX7 Voice 2-091",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 5A F7"
+        },
+        {
+          "number": 92,
+          "name": "EX7 Voice 2-092",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 5B F7"
+        },
+        {
+          "number": 93,
+          "name": "EX7 Voice 2-093",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 5C F7"
+        },
+        {
+          "number": 94,
+          "name": "EX7 Voice 2-094",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 5D F7"
+        },
+        {
+          "number": 95,
+          "name": "EX7 Voice 2-095",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 5E F7"
+        },
+        {
+          "number": 96,
+          "name": "EX7 Voice 2-096",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 5F F7"
+        },
+        {
+          "number": 97,
+          "name": "EX7 Voice 2-097",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 60 F7"
+        },
+        {
+          "number": 98,
+          "name": "EX7 Voice 2-098",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 61 F7"
+        },
+        {
+          "number": 99,
+          "name": "EX7 Voice 2-099",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 62 F7"
+        },
+        {
+          "number": 100,
+          "name": "EX7 Voice 2-100",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 63 F7"
+        },
+        {
+          "number": 101,
+          "name": "EX7 Voice 2-101",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 64 F7"
+        },
+        {
+          "number": 102,
+          "name": "EX7 Voice 2-102",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 65 F7"
+        },
+        {
+          "number": 103,
+          "name": "EX7 Voice 2-103",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 66 F7"
+        },
+        {
+          "number": 104,
+          "name": "EX7 Voice 2-104",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 67 F7"
+        },
+        {
+          "number": 105,
+          "name": "EX7 Voice 2-105",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 68 F7"
+        },
+        {
+          "number": 106,
+          "name": "EX7 Voice 2-106",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 69 F7"
+        },
+        {
+          "number": 107,
+          "name": "EX7 Voice 2-107",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 6A F7"
+        },
+        {
+          "number": 108,
+          "name": "EX7 Voice 2-108",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 6B F7"
+        },
+        {
+          "number": 109,
+          "name": "EX7 Voice 2-109",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 6C F7"
+        },
+        {
+          "number": 110,
+          "name": "EX7 Voice 2-110",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 6D F7"
+        },
+        {
+          "number": 111,
+          "name": "EX7 Voice 2-111",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 6E F7"
+        },
+        {
+          "number": 112,
+          "name": "EX7 Voice 2-112",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 6F F7"
+        },
+        {
+          "number": 113,
+          "name": "EX7 Voice 2-113",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 70 F7"
+        },
+        {
+          "number": 114,
+          "name": "EX7 Voice 2-114",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 71 F7"
+        },
+        {
+          "number": 115,
+          "name": "EX7 Voice 2-115",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 72 F7"
+        },
+        {
+          "number": 116,
+          "name": "EX7 Voice 2-116",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 73 F7"
+        },
+        {
+          "number": 117,
+          "name": "EX7 Voice 2-117",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 74 F7"
+        },
+        {
+          "number": 118,
+          "name": "EX7 Voice 2-118",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 75 F7"
+        },
+        {
+          "number": 119,
+          "name": "EX7 Voice 2-119",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 76 F7"
+        },
+        {
+          "number": 120,
+          "name": "EX7 Voice 2-120",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 77 F7"
+        },
+        {
+          "number": 121,
+          "name": "EX7 Voice 2-121",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 78 F7"
+        },
+        {
+          "number": 122,
+          "name": "EX7 Voice 2-122",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 79 F7"
+        },
+        {
+          "number": 123,
+          "name": "EX7 Voice 2-123",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 7A F7"
+        },
+        {
+          "number": 124,
+          "name": "EX7 Voice 2-124",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 7B F7"
+        },
+        {
+          "number": 125,
+          "name": "EX7 Voice 2-125",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 7C F7"
+        },
+        {
+          "number": 126,
+          "name": "EX7 Voice 2-126",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 7D F7"
+        },
+        {
+          "number": 127,
+          "name": "EX7 Voice 2-127",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 7E F7"
+        },
+        {
+          "number": 128,
+          "name": "EX7 Voice 2-128",
+          "category": "Extended Synthesis Workstation",
+          "tags": [
+            "extended",
+            "extended synthesis workstation",
+            "ex7"
+          ],
+          "sysex_dump": "F0 43 10 57 7F F7"
+        }
+      ]
+    }
+  ]
+}

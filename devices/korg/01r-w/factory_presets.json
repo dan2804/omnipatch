@@ -1,0 +1,2217 @@
+{
+  "device": "01R/W",
+  "banks": [
+    {
+      "name": "Bank A",
+      "type": "ROM",
+      "patches": [
+        {
+          "number": 1,
+          "name": "Universe",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 00 F7"
+        },
+        {
+          "number": 2,
+          "name": "Piano 16'",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 01 F7"
+        },
+        {
+          "number": 3,
+          "name": "Stereo Strings",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 02 F7"
+        },
+        {
+          "number": 4,
+          "name": "Trombone / Trumpet",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 03 F7"
+        },
+        {
+          "number": 5,
+          "name": "Fresh Air",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 04 F7"
+        },
+        {
+          "number": 6,
+          "name": "Whirly",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 05 F7"
+        },
+        {
+          "number": 7,
+          "name": "Nylon Guitar",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 06 F7"
+        },
+        {
+          "number": 8,
+          "name": "Fretless Bass",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 07 F7"
+        },
+        {
+          "number": 9,
+          "name": "Vocal Wave",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 08 F7"
+        },
+        {
+          "number": 10,
+          "name": "Slap Bass 01",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 09 F7"
+        },
+        {
+          "number": 11,
+          "name": "Super Brass",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 0A F7"
+        },
+        {
+          "number": 12,
+          "name": "Pan Flute",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 0B F7"
+        },
+        {
+          "number": 13,
+          "name": "Perc Organ",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 0C F7"
+        },
+        {
+          "number": 14,
+          "name": "Soft Bell",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 0D F7"
+        },
+        {
+          "number": 15,
+          "name": "Square Lead",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 0E F7"
+        },
+        {
+          "number": 16,
+          "name": "New Age",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 0F F7"
+        },
+        {
+          "number": 17,
+          "name": "Acoustic Guitar",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 10 F7"
+        },
+        {
+          "number": 18,
+          "name": "Finger Bass",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 11 F7"
+        },
+        {
+          "number": 19,
+          "name": "Angels Breath",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 12 F7"
+        },
+        {
+          "number": 20,
+          "name": "Rock Organ",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 13 F7"
+        },
+        {
+          "number": 21,
+          "name": "Solo Violin",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 14 F7"
+        },
+        {
+          "number": 22,
+          "name": "Muted Trumpet",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 15 F7"
+        },
+        {
+          "number": 23,
+          "name": "Bottle Blow",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 16 F7"
+        },
+        {
+          "number": 24,
+          "name": "Warm Pad",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 17 F7"
+        },
+        {
+          "number": 25,
+          "name": "Deep Pulse",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 18 F7"
+        },
+        {
+          "number": 26,
+          "name": "Harp Arp",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 19 F7"
+        },
+        {
+          "number": 27,
+          "name": "Clavinet Wave",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 1A F7"
+        },
+        {
+          "number": 28,
+          "name": "Acoustic Bass",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 1B F7"
+        },
+        {
+          "number": 29,
+          "name": "Choir Aahs",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 1C F7"
+        },
+        {
+          "number": 30,
+          "name": "Distortion Lead",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 1D F7"
+        },
+        {
+          "number": 31,
+          "name": "Orchestra Hit",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 1E F7"
+        },
+        {
+          "number": 32,
+          "name": "Woodwind Trio",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 1F F7"
+        },
+        {
+          "number": 33,
+          "name": "Bell Pad",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 20 F7"
+        },
+        {
+          "number": 34,
+          "name": "Synth Brass 1",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 21 F7"
+        },
+        {
+          "number": 35,
+          "name": "Funk Synth",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 22 F7"
+        },
+        {
+          "number": 36,
+          "name": "Magic Organ",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 23 F7"
+        },
+        {
+          "number": 37,
+          "name": "Mandolin",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 24 F7"
+        },
+        {
+          "number": 38,
+          "name": "Pick Bass",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 25 F7"
+        },
+        {
+          "number": 39,
+          "name": "Synthy Voices",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 26 F7"
+        },
+        {
+          "number": 40,
+          "name": "Solo Sax",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 27 F7"
+        },
+        {
+          "number": 41,
+          "name": "Accordion",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 28 F7"
+        },
+        {
+          "number": 42,
+          "name": "Reso Bass",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 29 F7"
+        },
+        {
+          "number": 43,
+          "name": "Night Sky",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 2A F7"
+        },
+        {
+          "number": 44,
+          "name": "Full Strings",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 2B F7"
+        },
+        {
+          "number": 45,
+          "name": "Brass Swell",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 2C F7"
+        },
+        {
+          "number": 46,
+          "name": "Vibe Wave",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 2D F7"
+        },
+        {
+          "number": 47,
+          "name": "Electric 12-String",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 2E F7"
+        },
+        {
+          "number": 48,
+          "name": "Sub Bass",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 2F F7"
+        },
+        {
+          "number": 49,
+          "name": "Voices 01",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 30 F7"
+        },
+        {
+          "number": 50,
+          "name": "Dance Lead",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 31 F7"
+        },
+        {
+          "number": 51,
+          "name": "Space Texture",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 32 F7"
+        },
+        {
+          "number": 52,
+          "name": "Clarinet",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 33 F7"
+        },
+        {
+          "number": 53,
+          "name": "Music Box",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 34 F7"
+        },
+        {
+          "number": 54,
+          "name": "Bright Brass",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 35 F7"
+        },
+        {
+          "number": 55,
+          "name": "Techno Pulse",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 36 F7"
+        },
+        {
+          "number": 56,
+          "name": "Rotary Drive",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 37 F7"
+        },
+        {
+          "number": 57,
+          "name": "Spanish Guitar",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 38 F7"
+        },
+        {
+          "number": 58,
+          "name": "Analog Bass",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 39 F7"
+        },
+        {
+          "number": 59,
+          "name": "Gospel Choir",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 3A F7"
+        },
+        {
+          "number": 60,
+          "name": "Screamin Lead",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 3B F7"
+        },
+        {
+          "number": 61,
+          "name": "Timpani Roll",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 3C F7"
+        },
+        {
+          "number": 62,
+          "name": "Oboe Solo",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 3D F7"
+        },
+        {
+          "number": 63,
+          "name": "Ambient Spark",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 3E F7"
+        },
+        {
+          "number": 64,
+          "name": "Fanfare Brass",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 3F F7"
+        },
+        {
+          "number": 65,
+          "name": "Modular Lead",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 40 F7"
+        },
+        {
+          "number": 66,
+          "name": "Vintage Drawbar",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 41 F7"
+        },
+        {
+          "number": 67,
+          "name": "Steel String",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 42 F7"
+        },
+        {
+          "number": 68,
+          "name": "Warm Reso Bass",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 43 F7"
+        },
+        {
+          "number": 69,
+          "name": "Vocal Morph",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 44 F7"
+        },
+        {
+          "number": 70,
+          "name": "Tenor Sax",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 45 F7"
+        },
+        {
+          "number": 71,
+          "name": "Church Chimes",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 46 F7"
+        },
+        {
+          "number": 72,
+          "name": "Syn Sweep",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 47 F7"
+        },
+        {
+          "number": 73,
+          "name": "Dawn Fog",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 48 F7"
+        },
+        {
+          "number": 74,
+          "name": "String Quartet",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 49 F7"
+        },
+        {
+          "number": 75,
+          "name": "Brite Horns",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 4A F7"
+        },
+        {
+          "number": 76,
+          "name": "Marimba 01",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 4B F7"
+        },
+        {
+          "number": 77,
+          "name": "Jazz Guitar",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 4C F7"
+        },
+        {
+          "number": 78,
+          "name": "Synth Sub",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 4D F7"
+        },
+        {
+          "number": 79,
+          "name": "Angelic Hymn",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 4E F7"
+        },
+        {
+          "number": 80,
+          "name": "Power Solo",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 4F F7"
+        },
+        {
+          "number": 81,
+          "name": "Tubular Bell",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 50 F7"
+        },
+        {
+          "number": 82,
+          "name": "Bassoon",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 51 F7"
+        },
+        {
+          "number": 83,
+          "name": "Ethereal Pad",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 52 F7"
+        },
+        {
+          "number": 84,
+          "name": "Attack Brass",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 53 F7"
+        },
+        {
+          "number": 85,
+          "name": "Acid Line",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 54 F7"
+        },
+        {
+          "number": 86,
+          "name": "Hammond Perc",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 55 F7"
+        },
+        {
+          "number": 87,
+          "name": "Sitar Drone",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 56 F7"
+        },
+        {
+          "number": 88,
+          "name": "Mini Bass",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 57 F7"
+        },
+        {
+          "number": 89,
+          "name": "St. Cathedral",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 58 F7"
+        },
+        {
+          "number": 90,
+          "name": "Rock Guitar",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 59 F7"
+        },
+        {
+          "number": 91,
+          "name": "Orchestra Perc",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 5A F7"
+        },
+        {
+          "number": 92,
+          "name": "Flute Vibrato",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 5B F7"
+        },
+        {
+          "number": 93,
+          "name": "Aurora Borealis",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 5C F7"
+        },
+        {
+          "number": 94,
+          "name": "Tutti Brass",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 5D F7"
+        },
+        {
+          "number": 95,
+          "name": "Fast Pulse",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 5E F7"
+        },
+        {
+          "number": 96,
+          "name": "CX-3 Organ",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 5F F7"
+        },
+        {
+          "number": 97,
+          "name": "Koto Pluck",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 60 F7"
+        },
+        {
+          "number": 98,
+          "name": "Moog Bass",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 61 F7"
+        },
+        {
+          "number": 99,
+          "name": "Heaven Voices",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 62 F7"
+        },
+        {
+          "number": 100,
+          "name": "Overdrive Solo",
+          "category": "AI2 Non-Linear Waveshaping",
+          "tags": [
+            "ai2",
+            "ai2 non-linear waveshaping",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 63 F7"
+        }
+      ]
+    },
+    {
+      "name": "Bank B",
+      "type": "ROM",
+      "patches": [
+        {
+          "number": 1,
+          "name": "01R/W Program B01",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 00 F7"
+        },
+        {
+          "number": 2,
+          "name": "01R/W Program B02",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 01 F7"
+        },
+        {
+          "number": 3,
+          "name": "01R/W Program B03",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 02 F7"
+        },
+        {
+          "number": 4,
+          "name": "01R/W Program B04",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 03 F7"
+        },
+        {
+          "number": 5,
+          "name": "01R/W Program B05",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 04 F7"
+        },
+        {
+          "number": 6,
+          "name": "01R/W Program B06",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 05 F7"
+        },
+        {
+          "number": 7,
+          "name": "01R/W Program B07",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 06 F7"
+        },
+        {
+          "number": 8,
+          "name": "01R/W Program B08",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 07 F7"
+        },
+        {
+          "number": 9,
+          "name": "01R/W Program B09",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 08 F7"
+        },
+        {
+          "number": 10,
+          "name": "01R/W Program B10",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 09 F7"
+        },
+        {
+          "number": 11,
+          "name": "01R/W Program B11",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 0A F7"
+        },
+        {
+          "number": 12,
+          "name": "01R/W Program B12",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 0B F7"
+        },
+        {
+          "number": 13,
+          "name": "01R/W Program B13",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 0C F7"
+        },
+        {
+          "number": 14,
+          "name": "01R/W Program B14",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 0D F7"
+        },
+        {
+          "number": 15,
+          "name": "01R/W Program B15",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 0E F7"
+        },
+        {
+          "number": 16,
+          "name": "01R/W Program B16",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 0F F7"
+        },
+        {
+          "number": 17,
+          "name": "01R/W Program B17",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 10 F7"
+        },
+        {
+          "number": 18,
+          "name": "01R/W Program B18",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 11 F7"
+        },
+        {
+          "number": 19,
+          "name": "01R/W Program B19",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 12 F7"
+        },
+        {
+          "number": 20,
+          "name": "01R/W Program B20",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 13 F7"
+        },
+        {
+          "number": 21,
+          "name": "01R/W Program B21",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 14 F7"
+        },
+        {
+          "number": 22,
+          "name": "01R/W Program B22",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 15 F7"
+        },
+        {
+          "number": 23,
+          "name": "01R/W Program B23",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 16 F7"
+        },
+        {
+          "number": 24,
+          "name": "01R/W Program B24",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 17 F7"
+        },
+        {
+          "number": 25,
+          "name": "01R/W Program B25",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 18 F7"
+        },
+        {
+          "number": 26,
+          "name": "01R/W Program B26",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 19 F7"
+        },
+        {
+          "number": 27,
+          "name": "01R/W Program B27",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 1A F7"
+        },
+        {
+          "number": 28,
+          "name": "01R/W Program B28",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 1B F7"
+        },
+        {
+          "number": 29,
+          "name": "01R/W Program B29",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 1C F7"
+        },
+        {
+          "number": 30,
+          "name": "01R/W Program B30",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 1D F7"
+        },
+        {
+          "number": 31,
+          "name": "01R/W Program B31",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 1E F7"
+        },
+        {
+          "number": 32,
+          "name": "01R/W Program B32",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 1F F7"
+        },
+        {
+          "number": 33,
+          "name": "01R/W Program B33",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 20 F7"
+        },
+        {
+          "number": 34,
+          "name": "01R/W Program B34",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 21 F7"
+        },
+        {
+          "number": 35,
+          "name": "01R/W Program B35",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 22 F7"
+        },
+        {
+          "number": 36,
+          "name": "01R/W Program B36",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 23 F7"
+        },
+        {
+          "number": 37,
+          "name": "01R/W Program B37",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 24 F7"
+        },
+        {
+          "number": 38,
+          "name": "01R/W Program B38",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 25 F7"
+        },
+        {
+          "number": 39,
+          "name": "01R/W Program B39",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 26 F7"
+        },
+        {
+          "number": 40,
+          "name": "01R/W Program B40",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 27 F7"
+        },
+        {
+          "number": 41,
+          "name": "01R/W Program B41",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 28 F7"
+        },
+        {
+          "number": 42,
+          "name": "01R/W Program B42",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 29 F7"
+        },
+        {
+          "number": 43,
+          "name": "01R/W Program B43",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 2A F7"
+        },
+        {
+          "number": 44,
+          "name": "01R/W Program B44",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 2B F7"
+        },
+        {
+          "number": 45,
+          "name": "01R/W Program B45",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 2C F7"
+        },
+        {
+          "number": 46,
+          "name": "01R/W Program B46",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 2D F7"
+        },
+        {
+          "number": 47,
+          "name": "01R/W Program B47",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 2E F7"
+        },
+        {
+          "number": 48,
+          "name": "01R/W Program B48",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 2F F7"
+        },
+        {
+          "number": 49,
+          "name": "01R/W Program B49",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 30 F7"
+        },
+        {
+          "number": 50,
+          "name": "01R/W Program B50",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 31 F7"
+        },
+        {
+          "number": 51,
+          "name": "01R/W Program B51",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 32 F7"
+        },
+        {
+          "number": 52,
+          "name": "01R/W Program B52",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 33 F7"
+        },
+        {
+          "number": 53,
+          "name": "01R/W Program B53",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 34 F7"
+        },
+        {
+          "number": 54,
+          "name": "01R/W Program B54",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 35 F7"
+        },
+        {
+          "number": 55,
+          "name": "01R/W Program B55",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 36 F7"
+        },
+        {
+          "number": 56,
+          "name": "01R/W Program B56",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 37 F7"
+        },
+        {
+          "number": 57,
+          "name": "01R/W Program B57",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 38 F7"
+        },
+        {
+          "number": 58,
+          "name": "01R/W Program B58",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 39 F7"
+        },
+        {
+          "number": 59,
+          "name": "01R/W Program B59",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 3A F7"
+        },
+        {
+          "number": 60,
+          "name": "01R/W Program B60",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 3B F7"
+        },
+        {
+          "number": 61,
+          "name": "01R/W Program B61",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 3C F7"
+        },
+        {
+          "number": 62,
+          "name": "01R/W Program B62",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 3D F7"
+        },
+        {
+          "number": 63,
+          "name": "01R/W Program B63",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 3E F7"
+        },
+        {
+          "number": 64,
+          "name": "01R/W Program B64",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 3F F7"
+        },
+        {
+          "number": 65,
+          "name": "01R/W Program B65",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 40 F7"
+        },
+        {
+          "number": 66,
+          "name": "01R/W Program B66",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 41 F7"
+        },
+        {
+          "number": 67,
+          "name": "01R/W Program B67",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 42 F7"
+        },
+        {
+          "number": 68,
+          "name": "01R/W Program B68",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 43 F7"
+        },
+        {
+          "number": 69,
+          "name": "01R/W Program B69",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 44 F7"
+        },
+        {
+          "number": 70,
+          "name": "01R/W Program B70",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 45 F7"
+        },
+        {
+          "number": 71,
+          "name": "01R/W Program B71",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 46 F7"
+        },
+        {
+          "number": 72,
+          "name": "01R/W Program B72",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 47 F7"
+        },
+        {
+          "number": 73,
+          "name": "01R/W Program B73",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 48 F7"
+        },
+        {
+          "number": 74,
+          "name": "01R/W Program B74",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 49 F7"
+        },
+        {
+          "number": 75,
+          "name": "01R/W Program B75",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 4A F7"
+        },
+        {
+          "number": 76,
+          "name": "01R/W Program B76",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 4B F7"
+        },
+        {
+          "number": 77,
+          "name": "01R/W Program B77",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 4C F7"
+        },
+        {
+          "number": 78,
+          "name": "01R/W Program B78",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 4D F7"
+        },
+        {
+          "number": 79,
+          "name": "01R/W Program B79",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 4E F7"
+        },
+        {
+          "number": 80,
+          "name": "01R/W Program B80",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 4F F7"
+        },
+        {
+          "number": 81,
+          "name": "01R/W Program B81",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 50 F7"
+        },
+        {
+          "number": 82,
+          "name": "01R/W Program B82",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 51 F7"
+        },
+        {
+          "number": 83,
+          "name": "01R/W Program B83",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 52 F7"
+        },
+        {
+          "number": 84,
+          "name": "01R/W Program B84",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 53 F7"
+        },
+        {
+          "number": 85,
+          "name": "01R/W Program B85",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 54 F7"
+        },
+        {
+          "number": 86,
+          "name": "01R/W Program B86",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 55 F7"
+        },
+        {
+          "number": 87,
+          "name": "01R/W Program B87",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 56 F7"
+        },
+        {
+          "number": 88,
+          "name": "01R/W Program B88",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 57 F7"
+        },
+        {
+          "number": 89,
+          "name": "01R/W Program B89",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 58 F7"
+        },
+        {
+          "number": 90,
+          "name": "01R/W Program B90",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 59 F7"
+        },
+        {
+          "number": 91,
+          "name": "01R/W Program B91",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 5A F7"
+        },
+        {
+          "number": 92,
+          "name": "01R/W Program B92",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 5B F7"
+        },
+        {
+          "number": 93,
+          "name": "01R/W Program B93",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 5C F7"
+        },
+        {
+          "number": 94,
+          "name": "01R/W Program B94",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 5D F7"
+        },
+        {
+          "number": 95,
+          "name": "01R/W Program B95",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 5E F7"
+        },
+        {
+          "number": 96,
+          "name": "01R/W Program B96",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 5F F7"
+        },
+        {
+          "number": 97,
+          "name": "01R/W Program B97",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 60 F7"
+        },
+        {
+          "number": 98,
+          "name": "01R/W Program B98",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 61 F7"
+        },
+        {
+          "number": 99,
+          "name": "01R/W Program B99",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 62 F7"
+        },
+        {
+          "number": 100,
+          "name": "01R/W Program B100",
+          "category": "AI2 Waveshaping Programs",
+          "tags": [
+            "ai2",
+            "ai2 waveshaping programs",
+            "01r/w"
+          ],
+          "sysex_dump": "F0 42 30 36 63 F7"
+        }
+      ]
+    }
+  ]
+}

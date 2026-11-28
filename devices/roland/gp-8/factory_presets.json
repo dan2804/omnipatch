@@ -1,0 +1,1425 @@
+{
+  "device": "GP-8",
+  "banks": [
+    {
+      "name": "Group A",
+      "type": "ROM",
+      "patches": [
+        {
+          "number": 1,
+          "name": "GP-8 Preset A01",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 00 F7"
+        },
+        {
+          "number": 2,
+          "name": "GP-8 Preset A02",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 01 F7"
+        },
+        {
+          "number": 3,
+          "name": "GP-8 Preset A03",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 02 F7"
+        },
+        {
+          "number": 4,
+          "name": "GP-8 Preset A04",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 03 F7"
+        },
+        {
+          "number": 5,
+          "name": "GP-8 Preset A05",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 04 F7"
+        },
+        {
+          "number": 6,
+          "name": "GP-8 Preset A06",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 05 F7"
+        },
+        {
+          "number": 7,
+          "name": "GP-8 Preset A07",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 06 F7"
+        },
+        {
+          "number": 8,
+          "name": "GP-8 Preset A08",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 07 F7"
+        },
+        {
+          "number": 9,
+          "name": "GP-8 Preset A09",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 08 F7"
+        },
+        {
+          "number": 10,
+          "name": "GP-8 Preset A10",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 09 F7"
+        },
+        {
+          "number": 11,
+          "name": "GP-8 Preset A11",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 0A F7"
+        },
+        {
+          "number": 12,
+          "name": "GP-8 Preset A12",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 0B F7"
+        },
+        {
+          "number": 13,
+          "name": "GP-8 Preset A13",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 0C F7"
+        },
+        {
+          "number": 14,
+          "name": "GP-8 Preset A14",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 0D F7"
+        },
+        {
+          "number": 15,
+          "name": "GP-8 Preset A15",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 0E F7"
+        },
+        {
+          "number": 16,
+          "name": "GP-8 Preset A16",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 0F F7"
+        },
+        {
+          "number": 17,
+          "name": "GP-8 Preset A17",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 10 F7"
+        },
+        {
+          "number": 18,
+          "name": "GP-8 Preset A18",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 11 F7"
+        },
+        {
+          "number": 19,
+          "name": "GP-8 Preset A19",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 12 F7"
+        },
+        {
+          "number": 20,
+          "name": "GP-8 Preset A20",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 13 F7"
+        },
+        {
+          "number": 21,
+          "name": "GP-8 Preset A21",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 14 F7"
+        },
+        {
+          "number": 22,
+          "name": "GP-8 Preset A22",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 15 F7"
+        },
+        {
+          "number": 23,
+          "name": "GP-8 Preset A23",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 16 F7"
+        },
+        {
+          "number": 24,
+          "name": "GP-8 Preset A24",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 17 F7"
+        },
+        {
+          "number": 25,
+          "name": "GP-8 Preset A25",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 18 F7"
+        },
+        {
+          "number": 26,
+          "name": "GP-8 Preset A26",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 19 F7"
+        },
+        {
+          "number": 27,
+          "name": "GP-8 Preset A27",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 1A F7"
+        },
+        {
+          "number": 28,
+          "name": "GP-8 Preset A28",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 1B F7"
+        },
+        {
+          "number": 29,
+          "name": "GP-8 Preset A29",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 1C F7"
+        },
+        {
+          "number": 30,
+          "name": "GP-8 Preset A30",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 1D F7"
+        },
+        {
+          "number": 31,
+          "name": "GP-8 Preset A31",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 1E F7"
+        },
+        {
+          "number": 32,
+          "name": "GP-8 Preset A32",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 1F F7"
+        },
+        {
+          "number": 33,
+          "name": "GP-8 Preset A33",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 20 F7"
+        },
+        {
+          "number": 34,
+          "name": "GP-8 Preset A34",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 21 F7"
+        },
+        {
+          "number": 35,
+          "name": "GP-8 Preset A35",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 22 F7"
+        },
+        {
+          "number": 36,
+          "name": "GP-8 Preset A36",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 23 F7"
+        },
+        {
+          "number": 37,
+          "name": "GP-8 Preset A37",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 24 F7"
+        },
+        {
+          "number": 38,
+          "name": "GP-8 Preset A38",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 25 F7"
+        },
+        {
+          "number": 39,
+          "name": "GP-8 Preset A39",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 26 F7"
+        },
+        {
+          "number": 40,
+          "name": "GP-8 Preset A40",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 27 F7"
+        },
+        {
+          "number": 41,
+          "name": "GP-8 Preset A41",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 28 F7"
+        },
+        {
+          "number": 42,
+          "name": "GP-8 Preset A42",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 29 F7"
+        },
+        {
+          "number": 43,
+          "name": "GP-8 Preset A43",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 2A F7"
+        },
+        {
+          "number": 44,
+          "name": "GP-8 Preset A44",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 2B F7"
+        },
+        {
+          "number": 45,
+          "name": "GP-8 Preset A45",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 2C F7"
+        },
+        {
+          "number": 46,
+          "name": "GP-8 Preset A46",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 2D F7"
+        },
+        {
+          "number": 47,
+          "name": "GP-8 Preset A47",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 2E F7"
+        },
+        {
+          "number": 48,
+          "name": "GP-8 Preset A48",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 2F F7"
+        },
+        {
+          "number": 49,
+          "name": "GP-8 Preset A49",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 30 F7"
+        },
+        {
+          "number": 50,
+          "name": "GP-8 Preset A50",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 31 F7"
+        },
+        {
+          "number": 51,
+          "name": "GP-8 Preset A51",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 32 F7"
+        },
+        {
+          "number": 52,
+          "name": "GP-8 Preset A52",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 33 F7"
+        },
+        {
+          "number": 53,
+          "name": "GP-8 Preset A53",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 34 F7"
+        },
+        {
+          "number": 54,
+          "name": "GP-8 Preset A54",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 35 F7"
+        },
+        {
+          "number": 55,
+          "name": "GP-8 Preset A55",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 36 F7"
+        },
+        {
+          "number": 56,
+          "name": "GP-8 Preset A56",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 37 F7"
+        },
+        {
+          "number": 57,
+          "name": "GP-8 Preset A57",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 38 F7"
+        },
+        {
+          "number": 58,
+          "name": "GP-8 Preset A58",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 39 F7"
+        },
+        {
+          "number": 59,
+          "name": "GP-8 Preset A59",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 3A F7"
+        },
+        {
+          "number": 60,
+          "name": "GP-8 Preset A60",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 3B F7"
+        },
+        {
+          "number": 61,
+          "name": "GP-8 Preset A61",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 3C F7"
+        },
+        {
+          "number": 62,
+          "name": "GP-8 Preset A62",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 3D F7"
+        },
+        {
+          "number": 63,
+          "name": "GP-8 Preset A63",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 3E F7"
+        },
+        {
+          "number": 64,
+          "name": "GP-8 Preset A64",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 3F F7"
+        }
+      ]
+    },
+    {
+      "name": "Group B",
+      "type": "ROM",
+      "patches": [
+        {
+          "number": 1,
+          "name": "GP-8 Preset B01",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 00 F7"
+        },
+        {
+          "number": 2,
+          "name": "GP-8 Preset B02",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 01 F7"
+        },
+        {
+          "number": 3,
+          "name": "GP-8 Preset B03",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 02 F7"
+        },
+        {
+          "number": 4,
+          "name": "GP-8 Preset B04",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 03 F7"
+        },
+        {
+          "number": 5,
+          "name": "GP-8 Preset B05",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 04 F7"
+        },
+        {
+          "number": 6,
+          "name": "GP-8 Preset B06",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 05 F7"
+        },
+        {
+          "number": 7,
+          "name": "GP-8 Preset B07",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 06 F7"
+        },
+        {
+          "number": 8,
+          "name": "GP-8 Preset B08",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 07 F7"
+        },
+        {
+          "number": 9,
+          "name": "GP-8 Preset B09",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 08 F7"
+        },
+        {
+          "number": 10,
+          "name": "GP-8 Preset B10",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 09 F7"
+        },
+        {
+          "number": 11,
+          "name": "GP-8 Preset B11",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 0A F7"
+        },
+        {
+          "number": 12,
+          "name": "GP-8 Preset B12",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 0B F7"
+        },
+        {
+          "number": 13,
+          "name": "GP-8 Preset B13",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 0C F7"
+        },
+        {
+          "number": 14,
+          "name": "GP-8 Preset B14",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 0D F7"
+        },
+        {
+          "number": 15,
+          "name": "GP-8 Preset B15",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 0E F7"
+        },
+        {
+          "number": 16,
+          "name": "GP-8 Preset B16",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 0F F7"
+        },
+        {
+          "number": 17,
+          "name": "GP-8 Preset B17",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 10 F7"
+        },
+        {
+          "number": 18,
+          "name": "GP-8 Preset B18",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 11 F7"
+        },
+        {
+          "number": 19,
+          "name": "GP-8 Preset B19",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 12 F7"
+        },
+        {
+          "number": 20,
+          "name": "GP-8 Preset B20",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 13 F7"
+        },
+        {
+          "number": 21,
+          "name": "GP-8 Preset B21",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 14 F7"
+        },
+        {
+          "number": 22,
+          "name": "GP-8 Preset B22",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 15 F7"
+        },
+        {
+          "number": 23,
+          "name": "GP-8 Preset B23",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 16 F7"
+        },
+        {
+          "number": 24,
+          "name": "GP-8 Preset B24",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 17 F7"
+        },
+        {
+          "number": 25,
+          "name": "GP-8 Preset B25",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 18 F7"
+        },
+        {
+          "number": 26,
+          "name": "GP-8 Preset B26",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 19 F7"
+        },
+        {
+          "number": 27,
+          "name": "GP-8 Preset B27",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 1A F7"
+        },
+        {
+          "number": 28,
+          "name": "GP-8 Preset B28",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 1B F7"
+        },
+        {
+          "number": 29,
+          "name": "GP-8 Preset B29",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 1C F7"
+        },
+        {
+          "number": 30,
+          "name": "GP-8 Preset B30",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 1D F7"
+        },
+        {
+          "number": 31,
+          "name": "GP-8 Preset B31",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 1E F7"
+        },
+        {
+          "number": 32,
+          "name": "GP-8 Preset B32",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 1F F7"
+        },
+        {
+          "number": 33,
+          "name": "GP-8 Preset B33",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 20 F7"
+        },
+        {
+          "number": 34,
+          "name": "GP-8 Preset B34",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 21 F7"
+        },
+        {
+          "number": 35,
+          "name": "GP-8 Preset B35",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 22 F7"
+        },
+        {
+          "number": 36,
+          "name": "GP-8 Preset B36",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 23 F7"
+        },
+        {
+          "number": 37,
+          "name": "GP-8 Preset B37",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 24 F7"
+        },
+        {
+          "number": 38,
+          "name": "GP-8 Preset B38",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 25 F7"
+        },
+        {
+          "number": 39,
+          "name": "GP-8 Preset B39",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 26 F7"
+        },
+        {
+          "number": 40,
+          "name": "GP-8 Preset B40",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 27 F7"
+        },
+        {
+          "number": 41,
+          "name": "GP-8 Preset B41",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 28 F7"
+        },
+        {
+          "number": 42,
+          "name": "GP-8 Preset B42",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 29 F7"
+        },
+        {
+          "number": 43,
+          "name": "GP-8 Preset B43",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 2A F7"
+        },
+        {
+          "number": 44,
+          "name": "GP-8 Preset B44",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 2B F7"
+        },
+        {
+          "number": 45,
+          "name": "GP-8 Preset B45",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 2C F7"
+        },
+        {
+          "number": 46,
+          "name": "GP-8 Preset B46",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 2D F7"
+        },
+        {
+          "number": 47,
+          "name": "GP-8 Preset B47",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 2E F7"
+        },
+        {
+          "number": 48,
+          "name": "GP-8 Preset B48",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 2F F7"
+        },
+        {
+          "number": 49,
+          "name": "GP-8 Preset B49",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 30 F7"
+        },
+        {
+          "number": 50,
+          "name": "GP-8 Preset B50",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 31 F7"
+        },
+        {
+          "number": 51,
+          "name": "GP-8 Preset B51",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 32 F7"
+        },
+        {
+          "number": 52,
+          "name": "GP-8 Preset B52",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 33 F7"
+        },
+        {
+          "number": 53,
+          "name": "GP-8 Preset B53",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 34 F7"
+        },
+        {
+          "number": 54,
+          "name": "GP-8 Preset B54",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 35 F7"
+        },
+        {
+          "number": 55,
+          "name": "GP-8 Preset B55",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 36 F7"
+        },
+        {
+          "number": 56,
+          "name": "GP-8 Preset B56",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 37 F7"
+        },
+        {
+          "number": 57,
+          "name": "GP-8 Preset B57",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 38 F7"
+        },
+        {
+          "number": 58,
+          "name": "GP-8 Preset B58",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 39 F7"
+        },
+        {
+          "number": 59,
+          "name": "GP-8 Preset B59",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 3A F7"
+        },
+        {
+          "number": 60,
+          "name": "GP-8 Preset B60",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 3B F7"
+        },
+        {
+          "number": 61,
+          "name": "GP-8 Preset B61",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 3C F7"
+        },
+        {
+          "number": 62,
+          "name": "GP-8 Preset B62",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 3D F7"
+        },
+        {
+          "number": 63,
+          "name": "GP-8 Preset B63",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 3E F7"
+        },
+        {
+          "number": 64,
+          "name": "GP-8 Preset B64",
+          "category": "Analog/Digital Hybrid Effects",
+          "tags": [
+            "guitar",
+            "analog/digital hybrid effects",
+            "gp8"
+          ],
+          "sysex_dump": "F0 41 10 18 12 3F F7"
+        }
+      ]
+    }
+  ]
+}

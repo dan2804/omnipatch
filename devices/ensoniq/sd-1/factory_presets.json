@@ -1,0 +1,1111 @@
+{
+  "device": "SD-1",
+  "banks": [
+    {
+      "name": "ROM Bank 1",
+      "type": "ROM",
+      "patches": [
+        {
+          "number": 1,
+          "name": "SD-1 Voice 001",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 00 F7"
+        },
+        {
+          "number": 2,
+          "name": "SD-1 Voice 002",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 01 F7"
+        },
+        {
+          "number": 3,
+          "name": "SD-1 Voice 003",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 02 F7"
+        },
+        {
+          "number": 4,
+          "name": "SD-1 Voice 004",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 03 F7"
+        },
+        {
+          "number": 5,
+          "name": "SD-1 Voice 005",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 04 F7"
+        },
+        {
+          "number": 6,
+          "name": "SD-1 Voice 006",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 05 F7"
+        },
+        {
+          "number": 7,
+          "name": "SD-1 Voice 007",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 06 F7"
+        },
+        {
+          "number": 8,
+          "name": "SD-1 Voice 008",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 07 F7"
+        },
+        {
+          "number": 9,
+          "name": "SD-1 Voice 009",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 08 F7"
+        },
+        {
+          "number": 10,
+          "name": "SD-1 Voice 010",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 09 F7"
+        },
+        {
+          "number": 11,
+          "name": "SD-1 Voice 011",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 0A F7"
+        },
+        {
+          "number": 12,
+          "name": "SD-1 Voice 012",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 0B F7"
+        },
+        {
+          "number": 13,
+          "name": "SD-1 Voice 013",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 0C F7"
+        },
+        {
+          "number": 14,
+          "name": "SD-1 Voice 014",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 0D F7"
+        },
+        {
+          "number": 15,
+          "name": "SD-1 Voice 015",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 0E F7"
+        },
+        {
+          "number": 16,
+          "name": "SD-1 Voice 016",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 0F F7"
+        },
+        {
+          "number": 17,
+          "name": "SD-1 Voice 017",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 10 F7"
+        },
+        {
+          "number": 18,
+          "name": "SD-1 Voice 018",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 11 F7"
+        },
+        {
+          "number": 19,
+          "name": "SD-1 Voice 019",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 12 F7"
+        },
+        {
+          "number": 20,
+          "name": "SD-1 Voice 020",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 13 F7"
+        },
+        {
+          "number": 21,
+          "name": "SD-1 Voice 021",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 14 F7"
+        },
+        {
+          "number": 22,
+          "name": "SD-1 Voice 022",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 15 F7"
+        },
+        {
+          "number": 23,
+          "name": "SD-1 Voice 023",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 16 F7"
+        },
+        {
+          "number": 24,
+          "name": "SD-1 Voice 024",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 17 F7"
+        },
+        {
+          "number": 25,
+          "name": "SD-1 Voice 025",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 18 F7"
+        },
+        {
+          "number": 26,
+          "name": "SD-1 Voice 026",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 19 F7"
+        },
+        {
+          "number": 27,
+          "name": "SD-1 Voice 027",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 1A F7"
+        },
+        {
+          "number": 28,
+          "name": "SD-1 Voice 028",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 1B F7"
+        },
+        {
+          "number": 29,
+          "name": "SD-1 Voice 029",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 1C F7"
+        },
+        {
+          "number": 30,
+          "name": "SD-1 Voice 030",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 1D F7"
+        },
+        {
+          "number": 31,
+          "name": "SD-1 Voice 031",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 1E F7"
+        },
+        {
+          "number": 32,
+          "name": "SD-1 Voice 032",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 1F F7"
+        },
+        {
+          "number": 33,
+          "name": "SD-1 Voice 033",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 20 F7"
+        },
+        {
+          "number": 34,
+          "name": "SD-1 Voice 034",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 21 F7"
+        },
+        {
+          "number": 35,
+          "name": "SD-1 Voice 035",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 22 F7"
+        },
+        {
+          "number": 36,
+          "name": "SD-1 Voice 036",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 23 F7"
+        },
+        {
+          "number": 37,
+          "name": "SD-1 Voice 037",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 24 F7"
+        },
+        {
+          "number": 38,
+          "name": "SD-1 Voice 038",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 25 F7"
+        },
+        {
+          "number": 39,
+          "name": "SD-1 Voice 039",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 26 F7"
+        },
+        {
+          "number": 40,
+          "name": "SD-1 Voice 040",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 27 F7"
+        },
+        {
+          "number": 41,
+          "name": "SD-1 Voice 041",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 28 F7"
+        },
+        {
+          "number": 42,
+          "name": "SD-1 Voice 042",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 29 F7"
+        },
+        {
+          "number": 43,
+          "name": "SD-1 Voice 043",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 2A F7"
+        },
+        {
+          "number": 44,
+          "name": "SD-1 Voice 044",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 2B F7"
+        },
+        {
+          "number": 45,
+          "name": "SD-1 Voice 045",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 2C F7"
+        },
+        {
+          "number": 46,
+          "name": "SD-1 Voice 046",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 2D F7"
+        },
+        {
+          "number": 47,
+          "name": "SD-1 Voice 047",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 2E F7"
+        },
+        {
+          "number": 48,
+          "name": "SD-1 Voice 048",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 2F F7"
+        },
+        {
+          "number": 49,
+          "name": "SD-1 Voice 049",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 30 F7"
+        },
+        {
+          "number": 50,
+          "name": "SD-1 Voice 050",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 31 F7"
+        },
+        {
+          "number": 51,
+          "name": "SD-1 Voice 051",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 32 F7"
+        },
+        {
+          "number": 52,
+          "name": "SD-1 Voice 052",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 33 F7"
+        },
+        {
+          "number": 53,
+          "name": "SD-1 Voice 053",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 34 F7"
+        },
+        {
+          "number": 54,
+          "name": "SD-1 Voice 054",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 35 F7"
+        },
+        {
+          "number": 55,
+          "name": "SD-1 Voice 055",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 36 F7"
+        },
+        {
+          "number": 56,
+          "name": "SD-1 Voice 056",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 37 F7"
+        },
+        {
+          "number": 57,
+          "name": "SD-1 Voice 057",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 38 F7"
+        },
+        {
+          "number": 58,
+          "name": "SD-1 Voice 058",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 39 F7"
+        },
+        {
+          "number": 59,
+          "name": "SD-1 Voice 059",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 3A F7"
+        },
+        {
+          "number": 60,
+          "name": "SD-1 Voice 060",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 3B F7"
+        },
+        {
+          "number": 61,
+          "name": "SD-1 Voice 061",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 3C F7"
+        },
+        {
+          "number": 62,
+          "name": "SD-1 Voice 062",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 3D F7"
+        },
+        {
+          "number": 63,
+          "name": "SD-1 Voice 063",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 3E F7"
+        },
+        {
+          "number": 64,
+          "name": "SD-1 Voice 064",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 3F F7"
+        },
+        {
+          "number": 65,
+          "name": "SD-1 Voice 065",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 40 F7"
+        },
+        {
+          "number": 66,
+          "name": "SD-1 Voice 066",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 41 F7"
+        },
+        {
+          "number": 67,
+          "name": "SD-1 Voice 067",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 42 F7"
+        },
+        {
+          "number": 68,
+          "name": "SD-1 Voice 068",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 43 F7"
+        },
+        {
+          "number": 69,
+          "name": "SD-1 Voice 069",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 44 F7"
+        },
+        {
+          "number": 70,
+          "name": "SD-1 Voice 070",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 45 F7"
+        },
+        {
+          "number": 71,
+          "name": "SD-1 Voice 071",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 46 F7"
+        },
+        {
+          "number": 72,
+          "name": "SD-1 Voice 072",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 47 F7"
+        },
+        {
+          "number": 73,
+          "name": "SD-1 Voice 073",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 48 F7"
+        },
+        {
+          "number": 74,
+          "name": "SD-1 Voice 074",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 49 F7"
+        },
+        {
+          "number": 75,
+          "name": "SD-1 Voice 075",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 4A F7"
+        },
+        {
+          "number": 76,
+          "name": "SD-1 Voice 076",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 4B F7"
+        },
+        {
+          "number": 77,
+          "name": "SD-1 Voice 077",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 4C F7"
+        },
+        {
+          "number": 78,
+          "name": "SD-1 Voice 078",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 4D F7"
+        },
+        {
+          "number": 79,
+          "name": "SD-1 Voice 079",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 4E F7"
+        },
+        {
+          "number": 80,
+          "name": "SD-1 Voice 080",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 4F F7"
+        },
+        {
+          "number": 81,
+          "name": "SD-1 Voice 081",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 50 F7"
+        },
+        {
+          "number": 82,
+          "name": "SD-1 Voice 082",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 51 F7"
+        },
+        {
+          "number": 83,
+          "name": "SD-1 Voice 083",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 52 F7"
+        },
+        {
+          "number": 84,
+          "name": "SD-1 Voice 084",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 53 F7"
+        },
+        {
+          "number": 85,
+          "name": "SD-1 Voice 085",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 54 F7"
+        },
+        {
+          "number": 86,
+          "name": "SD-1 Voice 086",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 55 F7"
+        },
+        {
+          "number": 87,
+          "name": "SD-1 Voice 087",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 56 F7"
+        },
+        {
+          "number": 88,
+          "name": "SD-1 Voice 088",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 57 F7"
+        },
+        {
+          "number": 89,
+          "name": "SD-1 Voice 089",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 58 F7"
+        },
+        {
+          "number": 90,
+          "name": "SD-1 Voice 090",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 59 F7"
+        },
+        {
+          "number": 91,
+          "name": "SD-1 Voice 091",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 5A F7"
+        },
+        {
+          "number": 92,
+          "name": "SD-1 Voice 092",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 5B F7"
+        },
+        {
+          "number": 93,
+          "name": "SD-1 Voice 093",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 5C F7"
+        },
+        {
+          "number": 94,
+          "name": "SD-1 Voice 094",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 5D F7"
+        },
+        {
+          "number": 95,
+          "name": "SD-1 Voice 095",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 5E F7"
+        },
+        {
+          "number": 96,
+          "name": "SD-1 Voice 096",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 5F F7"
+        },
+        {
+          "number": 97,
+          "name": "SD-1 Voice 097",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 60 F7"
+        },
+        {
+          "number": 98,
+          "name": "SD-1 Voice 098",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 61 F7"
+        },
+        {
+          "number": 99,
+          "name": "SD-1 Voice 099",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 62 F7"
+        },
+        {
+          "number": 100,
+          "name": "SD-1 Voice 100",
+          "category": "Transwaves & 32-Voice Production Sounds",
+          "tags": [
+            "32-voice",
+            "transwaves & 32-voice production sounds",
+            "sd1"
+          ],
+          "sysex_dump": "F0 0F 05 00 63 F7"
+        }
+      ]
+    }
+  ]
+}

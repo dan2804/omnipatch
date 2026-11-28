@@ -1,0 +1,21 @@
+manufacturer: Korg
+model: A3
+type: Guitar Performance Processor
+year: 1989
+midi:
+  channels: 16
+  cc_map:
+    overdrive: 16
+    compressor: 17
+    delay: 18
+    chorus: 19
+    master_balance: 91
+sysex:
+  header: F0 42 30 2B
+  device_id_byte: 2
+  commands:
+    request_preset: F0 42 30 2B 10 F7
+banks:
+- name: Factory Presets
+  type: ROM
+  size: 100

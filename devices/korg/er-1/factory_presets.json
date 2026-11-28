@@ -1,0 +1,715 @@
+{
+  "device": "ER-1",
+  "banks": [
+    {
+      "name": "Factory Patterns",
+      "type": "ROM",
+      "patches": [
+        {
+          "number": 1,
+          "name": "ER-1 Pattern 01",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 00 F7"
+        },
+        {
+          "number": 2,
+          "name": "ER-1 Pattern 02",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 01 F7"
+        },
+        {
+          "number": 3,
+          "name": "ER-1 Pattern 03",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 02 F7"
+        },
+        {
+          "number": 4,
+          "name": "ER-1 Pattern 04",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 03 F7"
+        },
+        {
+          "number": 5,
+          "name": "ER-1 Pattern 05",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 04 F7"
+        },
+        {
+          "number": 6,
+          "name": "ER-1 Pattern 06",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 05 F7"
+        },
+        {
+          "number": 7,
+          "name": "ER-1 Pattern 07",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 06 F7"
+        },
+        {
+          "number": 8,
+          "name": "ER-1 Pattern 08",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 07 F7"
+        },
+        {
+          "number": 9,
+          "name": "ER-1 Pattern 09",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 08 F7"
+        },
+        {
+          "number": 10,
+          "name": "ER-1 Pattern 10",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 09 F7"
+        },
+        {
+          "number": 11,
+          "name": "ER-1 Pattern 11",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 0A F7"
+        },
+        {
+          "number": 12,
+          "name": "ER-1 Pattern 12",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 0B F7"
+        },
+        {
+          "number": 13,
+          "name": "ER-1 Pattern 13",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 0C F7"
+        },
+        {
+          "number": 14,
+          "name": "ER-1 Pattern 14",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 0D F7"
+        },
+        {
+          "number": 15,
+          "name": "ER-1 Pattern 15",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 0E F7"
+        },
+        {
+          "number": 16,
+          "name": "ER-1 Pattern 16",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 0F F7"
+        },
+        {
+          "number": 17,
+          "name": "ER-1 Pattern 17",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 10 F7"
+        },
+        {
+          "number": 18,
+          "name": "ER-1 Pattern 18",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 11 F7"
+        },
+        {
+          "number": 19,
+          "name": "ER-1 Pattern 19",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 12 F7"
+        },
+        {
+          "number": 20,
+          "name": "ER-1 Pattern 20",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 13 F7"
+        },
+        {
+          "number": 21,
+          "name": "ER-1 Pattern 21",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 14 F7"
+        },
+        {
+          "number": 22,
+          "name": "ER-1 Pattern 22",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 15 F7"
+        },
+        {
+          "number": 23,
+          "name": "ER-1 Pattern 23",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 16 F7"
+        },
+        {
+          "number": 24,
+          "name": "ER-1 Pattern 24",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 17 F7"
+        },
+        {
+          "number": 25,
+          "name": "ER-1 Pattern 25",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 18 F7"
+        },
+        {
+          "number": 26,
+          "name": "ER-1 Pattern 26",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 19 F7"
+        },
+        {
+          "number": 27,
+          "name": "ER-1 Pattern 27",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 1A F7"
+        },
+        {
+          "number": 28,
+          "name": "ER-1 Pattern 28",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 1B F7"
+        },
+        {
+          "number": 29,
+          "name": "ER-1 Pattern 29",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 1C F7"
+        },
+        {
+          "number": 30,
+          "name": "ER-1 Pattern 30",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 1D F7"
+        },
+        {
+          "number": 31,
+          "name": "ER-1 Pattern 31",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 1E F7"
+        },
+        {
+          "number": 32,
+          "name": "ER-1 Pattern 32",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 1F F7"
+        },
+        {
+          "number": 33,
+          "name": "ER-1 Pattern 33",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 20 F7"
+        },
+        {
+          "number": 34,
+          "name": "ER-1 Pattern 34",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 21 F7"
+        },
+        {
+          "number": 35,
+          "name": "ER-1 Pattern 35",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 22 F7"
+        },
+        {
+          "number": 36,
+          "name": "ER-1 Pattern 36",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 23 F7"
+        },
+        {
+          "number": 37,
+          "name": "ER-1 Pattern 37",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 24 F7"
+        },
+        {
+          "number": 38,
+          "name": "ER-1 Pattern 38",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 25 F7"
+        },
+        {
+          "number": 39,
+          "name": "ER-1 Pattern 39",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 26 F7"
+        },
+        {
+          "number": 40,
+          "name": "ER-1 Pattern 40",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 27 F7"
+        },
+        {
+          "number": 41,
+          "name": "ER-1 Pattern 41",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 28 F7"
+        },
+        {
+          "number": 42,
+          "name": "ER-1 Pattern 42",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 29 F7"
+        },
+        {
+          "number": 43,
+          "name": "ER-1 Pattern 43",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 2A F7"
+        },
+        {
+          "number": 44,
+          "name": "ER-1 Pattern 44",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 2B F7"
+        },
+        {
+          "number": 45,
+          "name": "ER-1 Pattern 45",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 2C F7"
+        },
+        {
+          "number": 46,
+          "name": "ER-1 Pattern 46",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 2D F7"
+        },
+        {
+          "number": 47,
+          "name": "ER-1 Pattern 47",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 2E F7"
+        },
+        {
+          "number": 48,
+          "name": "ER-1 Pattern 48",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 2F F7"
+        },
+        {
+          "number": 49,
+          "name": "ER-1 Pattern 49",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 30 F7"
+        },
+        {
+          "number": 50,
+          "name": "ER-1 Pattern 50",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 31 F7"
+        },
+        {
+          "number": 51,
+          "name": "ER-1 Pattern 51",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 32 F7"
+        },
+        {
+          "number": 52,
+          "name": "ER-1 Pattern 52",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 33 F7"
+        },
+        {
+          "number": 53,
+          "name": "ER-1 Pattern 53",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 34 F7"
+        },
+        {
+          "number": 54,
+          "name": "ER-1 Pattern 54",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 35 F7"
+        },
+        {
+          "number": 55,
+          "name": "ER-1 Pattern 55",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 36 F7"
+        },
+        {
+          "number": 56,
+          "name": "ER-1 Pattern 56",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 37 F7"
+        },
+        {
+          "number": 57,
+          "name": "ER-1 Pattern 57",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 38 F7"
+        },
+        {
+          "number": 58,
+          "name": "ER-1 Pattern 58",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 39 F7"
+        },
+        {
+          "number": 59,
+          "name": "ER-1 Pattern 59",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 3A F7"
+        },
+        {
+          "number": 60,
+          "name": "ER-1 Pattern 60",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 3B F7"
+        },
+        {
+          "number": 61,
+          "name": "ER-1 Pattern 61",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 3C F7"
+        },
+        {
+          "number": 62,
+          "name": "ER-1 Pattern 62",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 3D F7"
+        },
+        {
+          "number": 63,
+          "name": "ER-1 Pattern 63",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 3E F7"
+        },
+        {
+          "number": 64,
+          "name": "ER-1 Pattern 64",
+          "category": "Electribe Drum Modeling & Audio In Slicer",
+          "tags": [
+            "electribe",
+            "electribe drum modeling & audio in slicer",
+            "er1"
+          ],
+          "sysex_dump": "F0 42 30 51 3F F7"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+manufacturer: Korg
+model: EA-1
+type: Electribe Analog Modeling Synthesizer
+year: 1999
+midi:
+  channels: 16
+  cc_map:
+    part1_cutoff: 74
+    part1_resonance: 71
+    part1_decay: 72
+    distortion: 94
+    delay_time: 16
+sysex:
+  header: F0 42 30 55
+  device_id_byte: 2
+  commands:
+    request_preset: F0 42 30 55 10 F7
+banks:
+- name: Factory Patterns
+  type: ROM
+  size: 64

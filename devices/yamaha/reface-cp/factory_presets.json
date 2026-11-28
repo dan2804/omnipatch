@@ -1,0 +1,715 @@
+{
+  "device": "Reface CP",
+  "banks": [
+    {
+      "name": "SCM Vintage Tones",
+      "type": "ROM",
+      "patches": [
+        {
+          "number": 1,
+          "name": "Reface CP Tone 01",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 00 F7"
+        },
+        {
+          "number": 2,
+          "name": "Reface CP Tone 02",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 01 F7"
+        },
+        {
+          "number": 3,
+          "name": "Reface CP Tone 03",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 02 F7"
+        },
+        {
+          "number": 4,
+          "name": "Reface CP Tone 04",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 03 F7"
+        },
+        {
+          "number": 5,
+          "name": "Reface CP Tone 05",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 04 F7"
+        },
+        {
+          "number": 6,
+          "name": "Reface CP Tone 06",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 05 F7"
+        },
+        {
+          "number": 7,
+          "name": "Reface CP Tone 07",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 06 F7"
+        },
+        {
+          "number": 8,
+          "name": "Reface CP Tone 08",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 07 F7"
+        },
+        {
+          "number": 9,
+          "name": "Reface CP Tone 09",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 08 F7"
+        },
+        {
+          "number": 10,
+          "name": "Reface CP Tone 10",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 09 F7"
+        },
+        {
+          "number": 11,
+          "name": "Reface CP Tone 11",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 0A F7"
+        },
+        {
+          "number": 12,
+          "name": "Reface CP Tone 12",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 0B F7"
+        },
+        {
+          "number": 13,
+          "name": "Reface CP Tone 13",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 0C F7"
+        },
+        {
+          "number": 14,
+          "name": "Reface CP Tone 14",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 0D F7"
+        },
+        {
+          "number": 15,
+          "name": "Reface CP Tone 15",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 0E F7"
+        },
+        {
+          "number": 16,
+          "name": "Reface CP Tone 16",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 0F F7"
+        },
+        {
+          "number": 17,
+          "name": "Reface CP Tone 17",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 10 F7"
+        },
+        {
+          "number": 18,
+          "name": "Reface CP Tone 18",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 11 F7"
+        },
+        {
+          "number": 19,
+          "name": "Reface CP Tone 19",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 12 F7"
+        },
+        {
+          "number": 20,
+          "name": "Reface CP Tone 20",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 13 F7"
+        },
+        {
+          "number": 21,
+          "name": "Reface CP Tone 21",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 14 F7"
+        },
+        {
+          "number": 22,
+          "name": "Reface CP Tone 22",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 15 F7"
+        },
+        {
+          "number": 23,
+          "name": "Reface CP Tone 23",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 16 F7"
+        },
+        {
+          "number": 24,
+          "name": "Reface CP Tone 24",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 17 F7"
+        },
+        {
+          "number": 25,
+          "name": "Reface CP Tone 25",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 18 F7"
+        },
+        {
+          "number": 26,
+          "name": "Reface CP Tone 26",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 19 F7"
+        },
+        {
+          "number": 27,
+          "name": "Reface CP Tone 27",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 1A F7"
+        },
+        {
+          "number": 28,
+          "name": "Reface CP Tone 28",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 1B F7"
+        },
+        {
+          "number": 29,
+          "name": "Reface CP Tone 29",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 1C F7"
+        },
+        {
+          "number": 30,
+          "name": "Reface CP Tone 30",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 1D F7"
+        },
+        {
+          "number": 31,
+          "name": "Reface CP Tone 31",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 1E F7"
+        },
+        {
+          "number": 32,
+          "name": "Reface CP Tone 32",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 1F F7"
+        },
+        {
+          "number": 33,
+          "name": "Reface CP Tone 33",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 20 F7"
+        },
+        {
+          "number": 34,
+          "name": "Reface CP Tone 34",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 21 F7"
+        },
+        {
+          "number": 35,
+          "name": "Reface CP Tone 35",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 22 F7"
+        },
+        {
+          "number": 36,
+          "name": "Reface CP Tone 36",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 23 F7"
+        },
+        {
+          "number": 37,
+          "name": "Reface CP Tone 37",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 24 F7"
+        },
+        {
+          "number": 38,
+          "name": "Reface CP Tone 38",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 25 F7"
+        },
+        {
+          "number": 39,
+          "name": "Reface CP Tone 39",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 26 F7"
+        },
+        {
+          "number": 40,
+          "name": "Reface CP Tone 40",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 27 F7"
+        },
+        {
+          "number": 41,
+          "name": "Reface CP Tone 41",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 28 F7"
+        },
+        {
+          "number": 42,
+          "name": "Reface CP Tone 42",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 29 F7"
+        },
+        {
+          "number": 43,
+          "name": "Reface CP Tone 43",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 2A F7"
+        },
+        {
+          "number": 44,
+          "name": "Reface CP Tone 44",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 2B F7"
+        },
+        {
+          "number": 45,
+          "name": "Reface CP Tone 45",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 2C F7"
+        },
+        {
+          "number": 46,
+          "name": "Reface CP Tone 46",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 2D F7"
+        },
+        {
+          "number": 47,
+          "name": "Reface CP Tone 47",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 2E F7"
+        },
+        {
+          "number": 48,
+          "name": "Reface CP Tone 48",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 2F F7"
+        },
+        {
+          "number": 49,
+          "name": "Reface CP Tone 49",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 30 F7"
+        },
+        {
+          "number": 50,
+          "name": "Reface CP Tone 50",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 31 F7"
+        },
+        {
+          "number": 51,
+          "name": "Reface CP Tone 51",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 32 F7"
+        },
+        {
+          "number": 52,
+          "name": "Reface CP Tone 52",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 33 F7"
+        },
+        {
+          "number": 53,
+          "name": "Reface CP Tone 53",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 34 F7"
+        },
+        {
+          "number": 54,
+          "name": "Reface CP Tone 54",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 35 F7"
+        },
+        {
+          "number": 55,
+          "name": "Reface CP Tone 55",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 36 F7"
+        },
+        {
+          "number": 56,
+          "name": "Reface CP Tone 56",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 37 F7"
+        },
+        {
+          "number": 57,
+          "name": "Reface CP Tone 57",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 38 F7"
+        },
+        {
+          "number": 58,
+          "name": "Reface CP Tone 58",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 39 F7"
+        },
+        {
+          "number": 59,
+          "name": "Reface CP Tone 59",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 3A F7"
+        },
+        {
+          "number": 60,
+          "name": "Reface CP Tone 60",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 3B F7"
+        },
+        {
+          "number": 61,
+          "name": "Reface CP Tone 61",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 3C F7"
+        },
+        {
+          "number": 62,
+          "name": "Reface CP Tone 62",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 3D F7"
+        },
+        {
+          "number": 63,
+          "name": "Reface CP Tone 63",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 3E F7"
+        },
+        {
+          "number": 64,
+          "name": "Reface CP Tone 64",
+          "category": "Spectral Component Modeling",
+          "tags": [
+            "electric",
+            "spectral component modeling",
+            "reface cp"
+          ],
+          "sysex_dump": "F0 43 10 7F 1C 05 3F F7"
+        }
+      ]
+    }
+  ]
+}

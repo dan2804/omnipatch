@@ -1,0 +1,715 @@
+{
+  "device": "EX-8000",
+  "banks": [
+    {
+      "name": "Factory Presets",
+      "type": "ROM",
+      "patches": [
+        {
+          "number": 1,
+          "name": "Acoustic Piano 1",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 00 F7"
+        },
+        {
+          "number": 2,
+          "name": "Electric Piano 1",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 01 F7"
+        },
+        {
+          "number": 3,
+          "name": "Electric Piano 2",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 02 F7"
+        },
+        {
+          "number": 4,
+          "name": "Clavinet",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 03 F7"
+        },
+        {
+          "number": 5,
+          "name": "Harpsichord",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 04 F7"
+        },
+        {
+          "number": 6,
+          "name": "Jazz Organ 1",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 05 F7"
+        },
+        {
+          "number": 7,
+          "name": "Pipe Organ 1",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 06 F7"
+        },
+        {
+          "number": 8,
+          "name": "Pipe Organ 2",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 07 F7"
+        },
+        {
+          "number": 9,
+          "name": "Strings 1",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 08 F7"
+        },
+        {
+          "number": 10,
+          "name": "Strings 2",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 09 F7"
+        },
+        {
+          "number": 11,
+          "name": "Brass 1",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 0A F7"
+        },
+        {
+          "number": 12,
+          "name": "Brass 2",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 0B F7"
+        },
+        {
+          "number": 13,
+          "name": "Trumpet",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 0C F7"
+        },
+        {
+          "number": 14,
+          "name": "Trombone",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 0D F7"
+        },
+        {
+          "number": 15,
+          "name": "French Horn",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 0E F7"
+        },
+        {
+          "number": 16,
+          "name": "Acoustic Guitar",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 0F F7"
+        },
+        {
+          "number": 17,
+          "name": "Electric Guitar",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 10 F7"
+        },
+        {
+          "number": 18,
+          "name": "Slap Bass 1",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 11 F7"
+        },
+        {
+          "number": 19,
+          "name": "Syn Bass 1",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 12 F7"
+        },
+        {
+          "number": 20,
+          "name": "Syn Bass 2",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 13 F7"
+        },
+        {
+          "number": 21,
+          "name": "Flute 1",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 14 F7"
+        },
+        {
+          "number": 22,
+          "name": "Clarinet",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 15 F7"
+        },
+        {
+          "number": 23,
+          "name": "Whistle",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 16 F7"
+        },
+        {
+          "number": 24,
+          "name": "Bell 1",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 17 F7"
+        },
+        {
+          "number": 25,
+          "name": "Bell 2",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 18 F7"
+        },
+        {
+          "number": 26,
+          "name": "Digital Pad 1",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 19 F7"
+        },
+        {
+          "number": 27,
+          "name": "Digital Pad 2",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 1A F7"
+        },
+        {
+          "number": 28,
+          "name": "Reso Sweep",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 1B F7"
+        },
+        {
+          "number": 29,
+          "name": "Syn Lead 1",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 1C F7"
+        },
+        {
+          "number": 30,
+          "name": "Syn Lead 2",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 1D F7"
+        },
+        {
+          "number": 31,
+          "name": "Cosmic Sound",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 1E F7"
+        },
+        {
+          "number": 32,
+          "name": "Alien Sweep",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 1F F7"
+        },
+        {
+          "number": 33,
+          "name": "Piano 2",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 20 F7"
+        },
+        {
+          "number": 34,
+          "name": "Dyno EP",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 21 F7"
+        },
+        {
+          "number": 35,
+          "name": "Funky Clav",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 22 F7"
+        },
+        {
+          "number": 36,
+          "name": "Drawbars",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 23 F7"
+        },
+        {
+          "number": 37,
+          "name": "Full Pipe",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 24 F7"
+        },
+        {
+          "number": 38,
+          "name": "Tremolo Organ",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 25 F7"
+        },
+        {
+          "number": 39,
+          "name": "Warm Strings",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 26 F7"
+        },
+        {
+          "number": 40,
+          "name": "Orchestra",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 27 F7"
+        },
+        {
+          "number": 41,
+          "name": "Synth Brass 3",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 28 F7"
+        },
+        {
+          "number": 42,
+          "name": "Brass Fanfare",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 29 F7"
+        },
+        {
+          "number": 43,
+          "name": "Harmon Mute",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 2A F7"
+        },
+        {
+          "number": 44,
+          "name": "Muted Horn",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 2B F7"
+        },
+        {
+          "number": 45,
+          "name": "Soft Horn",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 2C F7"
+        },
+        {
+          "number": 46,
+          "name": "12-String Pluck",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 2D F7"
+        },
+        {
+          "number": 47,
+          "name": "Lead Overdrive",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 2E F7"
+        },
+        {
+          "number": 48,
+          "name": "Thumb Bass",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 2F F7"
+        },
+        {
+          "number": 49,
+          "name": "Mini Moogish",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 30 F7"
+        },
+        {
+          "number": 50,
+          "name": "Hammer Bass",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 31 F7"
+        },
+        {
+          "number": 51,
+          "name": "Pan Flute DW",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 32 F7"
+        },
+        {
+          "number": 52,
+          "name": "Pan Pipes",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 33 F7"
+        },
+        {
+          "number": 53,
+          "name": "Chime Bell",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 34 F7"
+        },
+        {
+          "number": 54,
+          "name": "Glockenspiel",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 35 F7"
+        },
+        {
+          "number": 55,
+          "name": "Vibraphone",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 36 F7"
+        },
+        {
+          "number": 56,
+          "name": "Atmosphere",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 37 F7"
+        },
+        {
+          "number": 57,
+          "name": "Ethereal Sweep",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 38 F7"
+        },
+        {
+          "number": 58,
+          "name": "Reso Bass",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 39 F7"
+        },
+        {
+          "number": 59,
+          "name": "Square Lead",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 3A F7"
+        },
+        {
+          "number": 60,
+          "name": "Saw Sync",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 3B F7"
+        },
+        {
+          "number": 61,
+          "name": "Noise Blast",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 3C F7"
+        },
+        {
+          "number": 62,
+          "name": "Meteor Shower",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 3D F7"
+        },
+        {
+          "number": 63,
+          "name": "Star Drone",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 3E F7"
+        },
+        {
+          "number": 64,
+          "name": "Space Odyssey",
+          "category": "DWGS Wavetable & NJM2069 VCF",
+          "tags": [
+            "dwgs",
+            "dwgs wavetable & njm2069 vcf",
+            "ex8000"
+          ],
+          "sysex_dump": "F0 42 20 03 3F F7"
+        }
+      ]
+    }
+  ]
+}

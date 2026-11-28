@@ -1,0 +1,22 @@
+manufacturer: Yamaha
+model: Reface CP
+type: Electric Piano Modeling Synthesizer
+year: 2015
+midi:
+  channels: 16
+  cc_map:
+    type_select: 16
+    drive: 17
+    tremolo_depth: 18
+    chorus_depth: 19
+    delay_time: 20
+    reverb_depth: 91
+sysex:
+  header: F0 43 10 7F 1C 05
+  device_id_byte: 2
+  commands:
+    request_preset: F0 43 10 7F 1C 05 00 00 00 00 F7
+banks:
+- name: SCM Vintage Tones
+  type: ROM
+  size: 64

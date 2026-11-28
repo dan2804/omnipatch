@@ -1,0 +1,22 @@
+manufacturer: Roland
+model: DEP-5
+type: Digital Effects Processor
+year: 1986
+midi:
+  channels: 16
+  cc_map:
+    reverb_time: 16
+    pre_delay: 17
+    hf_damp: 18
+    eq_low: 19
+    eq_high: 20
+    effect_level: 91
+sysex:
+  header: F0 41 10 12 12
+  device_id_byte: 2
+  commands:
+    request_preset: F0 41 10 12 11 00 00 00 00 01 00 7F F7
+banks:
+- name: Factory Presets
+  type: ROM
+  size: 99

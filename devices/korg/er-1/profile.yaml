@@ -1,0 +1,21 @@
+manufacturer: Korg
+model: ER-1
+type: Electribe Rhythm Synthesizer
+year: 1999
+midi:
+  channels: 16
+  cc_map:
+    synth_pitch: 16
+    mod_depth: 17
+    mod_speed: 18
+    decay: 72
+    pan: 10
+sysex:
+  header: F0 42 30 51
+  device_id_byte: 2
+  commands:
+    request_preset: F0 42 30 51 10 F7
+banks:
+- name: Factory Patterns
+  type: ROM
+  size: 64

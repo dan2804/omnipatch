@@ -1,0 +1,2833 @@
+{
+  "device": "JD-Xi",
+  "banks": [
+    {
+      "name": "Digital Synth 1",
+      "type": "ROM",
+      "patches": [
+        {
+          "number": 1,
+          "name": "Digital Synth Patch 001",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 00 F7"
+        },
+        {
+          "number": 2,
+          "name": "Digital Synth Patch 002",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 01 F7"
+        },
+        {
+          "number": 3,
+          "name": "Digital Synth Patch 003",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 02 F7"
+        },
+        {
+          "number": 4,
+          "name": "Digital Synth Patch 004",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 03 F7"
+        },
+        {
+          "number": 5,
+          "name": "Digital Synth Patch 005",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 04 F7"
+        },
+        {
+          "number": 6,
+          "name": "Digital Synth Patch 006",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 05 F7"
+        },
+        {
+          "number": 7,
+          "name": "Digital Synth Patch 007",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 06 F7"
+        },
+        {
+          "number": 8,
+          "name": "Digital Synth Patch 008",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 07 F7"
+        },
+        {
+          "number": 9,
+          "name": "Digital Synth Patch 009",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 08 F7"
+        },
+        {
+          "number": 10,
+          "name": "Digital Synth Patch 010",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 09 F7"
+        },
+        {
+          "number": 11,
+          "name": "Digital Synth Patch 011",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 0A F7"
+        },
+        {
+          "number": 12,
+          "name": "Digital Synth Patch 012",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 0B F7"
+        },
+        {
+          "number": 13,
+          "name": "Digital Synth Patch 013",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 0C F7"
+        },
+        {
+          "number": 14,
+          "name": "Digital Synth Patch 014",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 0D F7"
+        },
+        {
+          "number": 15,
+          "name": "Digital Synth Patch 015",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 0E F7"
+        },
+        {
+          "number": 16,
+          "name": "Digital Synth Patch 016",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 0F F7"
+        },
+        {
+          "number": 17,
+          "name": "Digital Synth Patch 017",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 10 F7"
+        },
+        {
+          "number": 18,
+          "name": "Digital Synth Patch 018",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 11 F7"
+        },
+        {
+          "number": 19,
+          "name": "Digital Synth Patch 019",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 12 F7"
+        },
+        {
+          "number": 20,
+          "name": "Digital Synth Patch 020",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 13 F7"
+        },
+        {
+          "number": 21,
+          "name": "Digital Synth Patch 021",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 14 F7"
+        },
+        {
+          "number": 22,
+          "name": "Digital Synth Patch 022",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 15 F7"
+        },
+        {
+          "number": 23,
+          "name": "Digital Synth Patch 023",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 16 F7"
+        },
+        {
+          "number": 24,
+          "name": "Digital Synth Patch 024",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 17 F7"
+        },
+        {
+          "number": 25,
+          "name": "Digital Synth Patch 025",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 18 F7"
+        },
+        {
+          "number": 26,
+          "name": "Digital Synth Patch 026",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 19 F7"
+        },
+        {
+          "number": 27,
+          "name": "Digital Synth Patch 027",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 1A F7"
+        },
+        {
+          "number": 28,
+          "name": "Digital Synth Patch 028",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 1B F7"
+        },
+        {
+          "number": 29,
+          "name": "Digital Synth Patch 029",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 1C F7"
+        },
+        {
+          "number": 30,
+          "name": "Digital Synth Patch 030",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 1D F7"
+        },
+        {
+          "number": 31,
+          "name": "Digital Synth Patch 031",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 1E F7"
+        },
+        {
+          "number": 32,
+          "name": "Digital Synth Patch 032",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 1F F7"
+        },
+        {
+          "number": 33,
+          "name": "Digital Synth Patch 033",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 20 F7"
+        },
+        {
+          "number": 34,
+          "name": "Digital Synth Patch 034",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 21 F7"
+        },
+        {
+          "number": 35,
+          "name": "Digital Synth Patch 035",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 22 F7"
+        },
+        {
+          "number": 36,
+          "name": "Digital Synth Patch 036",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 23 F7"
+        },
+        {
+          "number": 37,
+          "name": "Digital Synth Patch 037",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 24 F7"
+        },
+        {
+          "number": 38,
+          "name": "Digital Synth Patch 038",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 25 F7"
+        },
+        {
+          "number": 39,
+          "name": "Digital Synth Patch 039",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 26 F7"
+        },
+        {
+          "number": 40,
+          "name": "Digital Synth Patch 040",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 27 F7"
+        },
+        {
+          "number": 41,
+          "name": "Digital Synth Patch 041",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 28 F7"
+        },
+        {
+          "number": 42,
+          "name": "Digital Synth Patch 042",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 29 F7"
+        },
+        {
+          "number": 43,
+          "name": "Digital Synth Patch 043",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 2A F7"
+        },
+        {
+          "number": 44,
+          "name": "Digital Synth Patch 044",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 2B F7"
+        },
+        {
+          "number": 45,
+          "name": "Digital Synth Patch 045",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 2C F7"
+        },
+        {
+          "number": 46,
+          "name": "Digital Synth Patch 046",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 2D F7"
+        },
+        {
+          "number": 47,
+          "name": "Digital Synth Patch 047",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 2E F7"
+        },
+        {
+          "number": 48,
+          "name": "Digital Synth Patch 048",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 2F F7"
+        },
+        {
+          "number": 49,
+          "name": "Digital Synth Patch 049",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 30 F7"
+        },
+        {
+          "number": 50,
+          "name": "Digital Synth Patch 050",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 31 F7"
+        },
+        {
+          "number": 51,
+          "name": "Digital Synth Patch 051",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 32 F7"
+        },
+        {
+          "number": 52,
+          "name": "Digital Synth Patch 052",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 33 F7"
+        },
+        {
+          "number": 53,
+          "name": "Digital Synth Patch 053",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 34 F7"
+        },
+        {
+          "number": 54,
+          "name": "Digital Synth Patch 054",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 35 F7"
+        },
+        {
+          "number": 55,
+          "name": "Digital Synth Patch 055",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 36 F7"
+        },
+        {
+          "number": 56,
+          "name": "Digital Synth Patch 056",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 37 F7"
+        },
+        {
+          "number": 57,
+          "name": "Digital Synth Patch 057",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 38 F7"
+        },
+        {
+          "number": 58,
+          "name": "Digital Synth Patch 058",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 39 F7"
+        },
+        {
+          "number": 59,
+          "name": "Digital Synth Patch 059",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 3A F7"
+        },
+        {
+          "number": 60,
+          "name": "Digital Synth Patch 060",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 3B F7"
+        },
+        {
+          "number": 61,
+          "name": "Digital Synth Patch 061",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 3C F7"
+        },
+        {
+          "number": 62,
+          "name": "Digital Synth Patch 062",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 3D F7"
+        },
+        {
+          "number": 63,
+          "name": "Digital Synth Patch 063",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 3E F7"
+        },
+        {
+          "number": 64,
+          "name": "Digital Synth Patch 064",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 3F F7"
+        },
+        {
+          "number": 65,
+          "name": "Digital Synth Patch 065",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 40 F7"
+        },
+        {
+          "number": 66,
+          "name": "Digital Synth Patch 066",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 41 F7"
+        },
+        {
+          "number": 67,
+          "name": "Digital Synth Patch 067",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 42 F7"
+        },
+        {
+          "number": 68,
+          "name": "Digital Synth Patch 068",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 43 F7"
+        },
+        {
+          "number": 69,
+          "name": "Digital Synth Patch 069",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 44 F7"
+        },
+        {
+          "number": 70,
+          "name": "Digital Synth Patch 070",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 45 F7"
+        },
+        {
+          "number": 71,
+          "name": "Digital Synth Patch 071",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 46 F7"
+        },
+        {
+          "number": 72,
+          "name": "Digital Synth Patch 072",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 47 F7"
+        },
+        {
+          "number": 73,
+          "name": "Digital Synth Patch 073",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 48 F7"
+        },
+        {
+          "number": 74,
+          "name": "Digital Synth Patch 074",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 49 F7"
+        },
+        {
+          "number": 75,
+          "name": "Digital Synth Patch 075",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 4A F7"
+        },
+        {
+          "number": 76,
+          "name": "Digital Synth Patch 076",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 4B F7"
+        },
+        {
+          "number": 77,
+          "name": "Digital Synth Patch 077",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 4C F7"
+        },
+        {
+          "number": 78,
+          "name": "Digital Synth Patch 078",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 4D F7"
+        },
+        {
+          "number": 79,
+          "name": "Digital Synth Patch 079",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 4E F7"
+        },
+        {
+          "number": 80,
+          "name": "Digital Synth Patch 080",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 4F F7"
+        },
+        {
+          "number": 81,
+          "name": "Digital Synth Patch 081",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 50 F7"
+        },
+        {
+          "number": 82,
+          "name": "Digital Synth Patch 082",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 51 F7"
+        },
+        {
+          "number": 83,
+          "name": "Digital Synth Patch 083",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 52 F7"
+        },
+        {
+          "number": 84,
+          "name": "Digital Synth Patch 084",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 53 F7"
+        },
+        {
+          "number": 85,
+          "name": "Digital Synth Patch 085",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 54 F7"
+        },
+        {
+          "number": 86,
+          "name": "Digital Synth Patch 086",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 55 F7"
+        },
+        {
+          "number": 87,
+          "name": "Digital Synth Patch 087",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 56 F7"
+        },
+        {
+          "number": 88,
+          "name": "Digital Synth Patch 088",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 57 F7"
+        },
+        {
+          "number": 89,
+          "name": "Digital Synth Patch 089",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 58 F7"
+        },
+        {
+          "number": 90,
+          "name": "Digital Synth Patch 090",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 59 F7"
+        },
+        {
+          "number": 91,
+          "name": "Digital Synth Patch 091",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 5A F7"
+        },
+        {
+          "number": 92,
+          "name": "Digital Synth Patch 092",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 5B F7"
+        },
+        {
+          "number": 93,
+          "name": "Digital Synth Patch 093",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 5C F7"
+        },
+        {
+          "number": 94,
+          "name": "Digital Synth Patch 094",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 5D F7"
+        },
+        {
+          "number": 95,
+          "name": "Digital Synth Patch 095",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 5E F7"
+        },
+        {
+          "number": 96,
+          "name": "Digital Synth Patch 096",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 5F F7"
+        },
+        {
+          "number": 97,
+          "name": "Digital Synth Patch 097",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 60 F7"
+        },
+        {
+          "number": 98,
+          "name": "Digital Synth Patch 098",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 61 F7"
+        },
+        {
+          "number": 99,
+          "name": "Digital Synth Patch 099",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 62 F7"
+        },
+        {
+          "number": 100,
+          "name": "Digital Synth Patch 100",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 63 F7"
+        },
+        {
+          "number": 101,
+          "name": "Digital Synth Patch 101",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 64 F7"
+        },
+        {
+          "number": 102,
+          "name": "Digital Synth Patch 102",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 65 F7"
+        },
+        {
+          "number": 103,
+          "name": "Digital Synth Patch 103",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 66 F7"
+        },
+        {
+          "number": 104,
+          "name": "Digital Synth Patch 104",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 67 F7"
+        },
+        {
+          "number": 105,
+          "name": "Digital Synth Patch 105",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 68 F7"
+        },
+        {
+          "number": 106,
+          "name": "Digital Synth Patch 106",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 69 F7"
+        },
+        {
+          "number": 107,
+          "name": "Digital Synth Patch 107",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 6A F7"
+        },
+        {
+          "number": 108,
+          "name": "Digital Synth Patch 108",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 6B F7"
+        },
+        {
+          "number": 109,
+          "name": "Digital Synth Patch 109",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 6C F7"
+        },
+        {
+          "number": 110,
+          "name": "Digital Synth Patch 110",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 6D F7"
+        },
+        {
+          "number": 111,
+          "name": "Digital Synth Patch 111",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 6E F7"
+        },
+        {
+          "number": 112,
+          "name": "Digital Synth Patch 112",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 6F F7"
+        },
+        {
+          "number": 113,
+          "name": "Digital Synth Patch 113",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 70 F7"
+        },
+        {
+          "number": 114,
+          "name": "Digital Synth Patch 114",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 71 F7"
+        },
+        {
+          "number": 115,
+          "name": "Digital Synth Patch 115",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 72 F7"
+        },
+        {
+          "number": 116,
+          "name": "Digital Synth Patch 116",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 73 F7"
+        },
+        {
+          "number": 117,
+          "name": "Digital Synth Patch 117",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 74 F7"
+        },
+        {
+          "number": 118,
+          "name": "Digital Synth Patch 118",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 75 F7"
+        },
+        {
+          "number": 119,
+          "name": "Digital Synth Patch 119",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 76 F7"
+        },
+        {
+          "number": 120,
+          "name": "Digital Synth Patch 120",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 77 F7"
+        },
+        {
+          "number": 121,
+          "name": "Digital Synth Patch 121",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 78 F7"
+        },
+        {
+          "number": 122,
+          "name": "Digital Synth Patch 122",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 79 F7"
+        },
+        {
+          "number": 123,
+          "name": "Digital Synth Patch 123",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 7A F7"
+        },
+        {
+          "number": 124,
+          "name": "Digital Synth Patch 124",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 7B F7"
+        },
+        {
+          "number": 125,
+          "name": "Digital Synth Patch 125",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 7C F7"
+        },
+        {
+          "number": 126,
+          "name": "Digital Synth Patch 126",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 7D F7"
+        },
+        {
+          "number": 127,
+          "name": "Digital Synth Patch 127",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 7E F7"
+        },
+        {
+          "number": 128,
+          "name": "Digital Synth Patch 128",
+          "category": "SuperNATURAL Synth",
+          "tags": [
+            "interactive",
+            "supernatural synth",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 7F F7"
+        }
+      ]
+    },
+    {
+      "name": "Analog & Drums",
+      "type": "ROM",
+      "patches": [
+        {
+          "number": 1,
+          "name": "Analog/Drum Patch 001",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 00 F7"
+        },
+        {
+          "number": 2,
+          "name": "Analog/Drum Patch 002",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 01 F7"
+        },
+        {
+          "number": 3,
+          "name": "Analog/Drum Patch 003",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 02 F7"
+        },
+        {
+          "number": 4,
+          "name": "Analog/Drum Patch 004",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 03 F7"
+        },
+        {
+          "number": 5,
+          "name": "Analog/Drum Patch 005",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 04 F7"
+        },
+        {
+          "number": 6,
+          "name": "Analog/Drum Patch 006",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 05 F7"
+        },
+        {
+          "number": 7,
+          "name": "Analog/Drum Patch 007",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 06 F7"
+        },
+        {
+          "number": 8,
+          "name": "Analog/Drum Patch 008",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 07 F7"
+        },
+        {
+          "number": 9,
+          "name": "Analog/Drum Patch 009",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 08 F7"
+        },
+        {
+          "number": 10,
+          "name": "Analog/Drum Patch 010",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 09 F7"
+        },
+        {
+          "number": 11,
+          "name": "Analog/Drum Patch 011",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 0A F7"
+        },
+        {
+          "number": 12,
+          "name": "Analog/Drum Patch 012",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 0B F7"
+        },
+        {
+          "number": 13,
+          "name": "Analog/Drum Patch 013",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 0C F7"
+        },
+        {
+          "number": 14,
+          "name": "Analog/Drum Patch 014",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 0D F7"
+        },
+        {
+          "number": 15,
+          "name": "Analog/Drum Patch 015",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 0E F7"
+        },
+        {
+          "number": 16,
+          "name": "Analog/Drum Patch 016",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 0F F7"
+        },
+        {
+          "number": 17,
+          "name": "Analog/Drum Patch 017",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 10 F7"
+        },
+        {
+          "number": 18,
+          "name": "Analog/Drum Patch 018",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 11 F7"
+        },
+        {
+          "number": 19,
+          "name": "Analog/Drum Patch 019",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 12 F7"
+        },
+        {
+          "number": 20,
+          "name": "Analog/Drum Patch 020",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 13 F7"
+        },
+        {
+          "number": 21,
+          "name": "Analog/Drum Patch 021",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 14 F7"
+        },
+        {
+          "number": 22,
+          "name": "Analog/Drum Patch 022",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 15 F7"
+        },
+        {
+          "number": 23,
+          "name": "Analog/Drum Patch 023",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 16 F7"
+        },
+        {
+          "number": 24,
+          "name": "Analog/Drum Patch 024",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 17 F7"
+        },
+        {
+          "number": 25,
+          "name": "Analog/Drum Patch 025",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 18 F7"
+        },
+        {
+          "number": 26,
+          "name": "Analog/Drum Patch 026",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 19 F7"
+        },
+        {
+          "number": 27,
+          "name": "Analog/Drum Patch 027",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 1A F7"
+        },
+        {
+          "number": 28,
+          "name": "Analog/Drum Patch 028",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 1B F7"
+        },
+        {
+          "number": 29,
+          "name": "Analog/Drum Patch 029",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 1C F7"
+        },
+        {
+          "number": 30,
+          "name": "Analog/Drum Patch 030",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 1D F7"
+        },
+        {
+          "number": 31,
+          "name": "Analog/Drum Patch 031",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 1E F7"
+        },
+        {
+          "number": 32,
+          "name": "Analog/Drum Patch 032",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 1F F7"
+        },
+        {
+          "number": 33,
+          "name": "Analog/Drum Patch 033",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 20 F7"
+        },
+        {
+          "number": 34,
+          "name": "Analog/Drum Patch 034",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 21 F7"
+        },
+        {
+          "number": 35,
+          "name": "Analog/Drum Patch 035",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 22 F7"
+        },
+        {
+          "number": 36,
+          "name": "Analog/Drum Patch 036",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 23 F7"
+        },
+        {
+          "number": 37,
+          "name": "Analog/Drum Patch 037",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 24 F7"
+        },
+        {
+          "number": 38,
+          "name": "Analog/Drum Patch 038",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 25 F7"
+        },
+        {
+          "number": 39,
+          "name": "Analog/Drum Patch 039",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 26 F7"
+        },
+        {
+          "number": 40,
+          "name": "Analog/Drum Patch 040",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 27 F7"
+        },
+        {
+          "number": 41,
+          "name": "Analog/Drum Patch 041",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 28 F7"
+        },
+        {
+          "number": 42,
+          "name": "Analog/Drum Patch 042",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 29 F7"
+        },
+        {
+          "number": 43,
+          "name": "Analog/Drum Patch 043",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 2A F7"
+        },
+        {
+          "number": 44,
+          "name": "Analog/Drum Patch 044",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 2B F7"
+        },
+        {
+          "number": 45,
+          "name": "Analog/Drum Patch 045",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 2C F7"
+        },
+        {
+          "number": 46,
+          "name": "Analog/Drum Patch 046",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 2D F7"
+        },
+        {
+          "number": 47,
+          "name": "Analog/Drum Patch 047",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 2E F7"
+        },
+        {
+          "number": 48,
+          "name": "Analog/Drum Patch 048",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 2F F7"
+        },
+        {
+          "number": 49,
+          "name": "Analog/Drum Patch 049",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 30 F7"
+        },
+        {
+          "number": 50,
+          "name": "Analog/Drum Patch 050",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 31 F7"
+        },
+        {
+          "number": 51,
+          "name": "Analog/Drum Patch 051",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 32 F7"
+        },
+        {
+          "number": 52,
+          "name": "Analog/Drum Patch 052",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 33 F7"
+        },
+        {
+          "number": 53,
+          "name": "Analog/Drum Patch 053",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 34 F7"
+        },
+        {
+          "number": 54,
+          "name": "Analog/Drum Patch 054",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 35 F7"
+        },
+        {
+          "number": 55,
+          "name": "Analog/Drum Patch 055",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 36 F7"
+        },
+        {
+          "number": 56,
+          "name": "Analog/Drum Patch 056",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 37 F7"
+        },
+        {
+          "number": 57,
+          "name": "Analog/Drum Patch 057",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 38 F7"
+        },
+        {
+          "number": 58,
+          "name": "Analog/Drum Patch 058",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 39 F7"
+        },
+        {
+          "number": 59,
+          "name": "Analog/Drum Patch 059",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 3A F7"
+        },
+        {
+          "number": 60,
+          "name": "Analog/Drum Patch 060",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 3B F7"
+        },
+        {
+          "number": 61,
+          "name": "Analog/Drum Patch 061",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 3C F7"
+        },
+        {
+          "number": 62,
+          "name": "Analog/Drum Patch 062",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 3D F7"
+        },
+        {
+          "number": 63,
+          "name": "Analog/Drum Patch 063",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 3E F7"
+        },
+        {
+          "number": 64,
+          "name": "Analog/Drum Patch 064",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 3F F7"
+        },
+        {
+          "number": 65,
+          "name": "Analog/Drum Patch 065",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 40 F7"
+        },
+        {
+          "number": 66,
+          "name": "Analog/Drum Patch 066",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 41 F7"
+        },
+        {
+          "number": 67,
+          "name": "Analog/Drum Patch 067",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 42 F7"
+        },
+        {
+          "number": 68,
+          "name": "Analog/Drum Patch 068",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 43 F7"
+        },
+        {
+          "number": 69,
+          "name": "Analog/Drum Patch 069",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 44 F7"
+        },
+        {
+          "number": 70,
+          "name": "Analog/Drum Patch 070",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 45 F7"
+        },
+        {
+          "number": 71,
+          "name": "Analog/Drum Patch 071",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 46 F7"
+        },
+        {
+          "number": 72,
+          "name": "Analog/Drum Patch 072",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 47 F7"
+        },
+        {
+          "number": 73,
+          "name": "Analog/Drum Patch 073",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 48 F7"
+        },
+        {
+          "number": 74,
+          "name": "Analog/Drum Patch 074",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 49 F7"
+        },
+        {
+          "number": 75,
+          "name": "Analog/Drum Patch 075",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 4A F7"
+        },
+        {
+          "number": 76,
+          "name": "Analog/Drum Patch 076",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 4B F7"
+        },
+        {
+          "number": 77,
+          "name": "Analog/Drum Patch 077",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 4C F7"
+        },
+        {
+          "number": 78,
+          "name": "Analog/Drum Patch 078",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 4D F7"
+        },
+        {
+          "number": 79,
+          "name": "Analog/Drum Patch 079",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 4E F7"
+        },
+        {
+          "number": 80,
+          "name": "Analog/Drum Patch 080",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 4F F7"
+        },
+        {
+          "number": 81,
+          "name": "Analog/Drum Patch 081",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 50 F7"
+        },
+        {
+          "number": 82,
+          "name": "Analog/Drum Patch 082",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 51 F7"
+        },
+        {
+          "number": 83,
+          "name": "Analog/Drum Patch 083",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 52 F7"
+        },
+        {
+          "number": 84,
+          "name": "Analog/Drum Patch 084",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 53 F7"
+        },
+        {
+          "number": 85,
+          "name": "Analog/Drum Patch 085",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 54 F7"
+        },
+        {
+          "number": 86,
+          "name": "Analog/Drum Patch 086",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 55 F7"
+        },
+        {
+          "number": 87,
+          "name": "Analog/Drum Patch 087",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 56 F7"
+        },
+        {
+          "number": 88,
+          "name": "Analog/Drum Patch 088",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 57 F7"
+        },
+        {
+          "number": 89,
+          "name": "Analog/Drum Patch 089",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 58 F7"
+        },
+        {
+          "number": 90,
+          "name": "Analog/Drum Patch 090",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 59 F7"
+        },
+        {
+          "number": 91,
+          "name": "Analog/Drum Patch 091",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 5A F7"
+        },
+        {
+          "number": 92,
+          "name": "Analog/Drum Patch 092",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 5B F7"
+        },
+        {
+          "number": 93,
+          "name": "Analog/Drum Patch 093",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 5C F7"
+        },
+        {
+          "number": 94,
+          "name": "Analog/Drum Patch 094",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 5D F7"
+        },
+        {
+          "number": 95,
+          "name": "Analog/Drum Patch 095",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 5E F7"
+        },
+        {
+          "number": 96,
+          "name": "Analog/Drum Patch 096",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 5F F7"
+        },
+        {
+          "number": 97,
+          "name": "Analog/Drum Patch 097",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 60 F7"
+        },
+        {
+          "number": 98,
+          "name": "Analog/Drum Patch 098",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 61 F7"
+        },
+        {
+          "number": 99,
+          "name": "Analog/Drum Patch 099",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 62 F7"
+        },
+        {
+          "number": 100,
+          "name": "Analog/Drum Patch 100",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 63 F7"
+        },
+        {
+          "number": 101,
+          "name": "Analog/Drum Patch 101",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 64 F7"
+        },
+        {
+          "number": 102,
+          "name": "Analog/Drum Patch 102",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 65 F7"
+        },
+        {
+          "number": 103,
+          "name": "Analog/Drum Patch 103",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 66 F7"
+        },
+        {
+          "number": 104,
+          "name": "Analog/Drum Patch 104",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 67 F7"
+        },
+        {
+          "number": 105,
+          "name": "Analog/Drum Patch 105",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 68 F7"
+        },
+        {
+          "number": 106,
+          "name": "Analog/Drum Patch 106",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 69 F7"
+        },
+        {
+          "number": 107,
+          "name": "Analog/Drum Patch 107",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 6A F7"
+        },
+        {
+          "number": 108,
+          "name": "Analog/Drum Patch 108",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 6B F7"
+        },
+        {
+          "number": 109,
+          "name": "Analog/Drum Patch 109",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 6C F7"
+        },
+        {
+          "number": 110,
+          "name": "Analog/Drum Patch 110",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 6D F7"
+        },
+        {
+          "number": 111,
+          "name": "Analog/Drum Patch 111",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 6E F7"
+        },
+        {
+          "number": 112,
+          "name": "Analog/Drum Patch 112",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 6F F7"
+        },
+        {
+          "number": 113,
+          "name": "Analog/Drum Patch 113",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 70 F7"
+        },
+        {
+          "number": 114,
+          "name": "Analog/Drum Patch 114",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 71 F7"
+        },
+        {
+          "number": 115,
+          "name": "Analog/Drum Patch 115",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 72 F7"
+        },
+        {
+          "number": 116,
+          "name": "Analog/Drum Patch 116",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 73 F7"
+        },
+        {
+          "number": 117,
+          "name": "Analog/Drum Patch 117",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 74 F7"
+        },
+        {
+          "number": 118,
+          "name": "Analog/Drum Patch 118",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 75 F7"
+        },
+        {
+          "number": 119,
+          "name": "Analog/Drum Patch 119",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 76 F7"
+        },
+        {
+          "number": 120,
+          "name": "Analog/Drum Patch 120",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 77 F7"
+        },
+        {
+          "number": 121,
+          "name": "Analog/Drum Patch 121",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 78 F7"
+        },
+        {
+          "number": 122,
+          "name": "Analog/Drum Patch 122",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 79 F7"
+        },
+        {
+          "number": 123,
+          "name": "Analog/Drum Patch 123",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 7A F7"
+        },
+        {
+          "number": 124,
+          "name": "Analog/Drum Patch 124",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 7B F7"
+        },
+        {
+          "number": 125,
+          "name": "Analog/Drum Patch 125",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 7C F7"
+        },
+        {
+          "number": 126,
+          "name": "Analog/Drum Patch 126",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 7D F7"
+        },
+        {
+          "number": 127,
+          "name": "Analog/Drum Patch 127",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 7E F7"
+        },
+        {
+          "number": 128,
+          "name": "Analog/Drum Patch 128",
+          "category": "Discrete Analog & PCM Kits",
+          "tags": [
+            "interactive",
+            "discrete analog & pcm kits",
+            "jdxi"
+          ],
+          "sysex_dump": "F0 41 10 00 00 00 0E 12 7F F7"
+        }
+      ]
+    }
+  ]
+}

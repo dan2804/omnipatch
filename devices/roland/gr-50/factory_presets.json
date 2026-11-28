@@ -1,0 +1,1425 @@
+{
+  "device": "GR-50",
+  "banks": [
+    {
+      "name": "Preset Bank 1",
+      "type": "ROM",
+      "patches": [
+        {
+          "number": 1,
+          "name": "GR-50 Patch 1-01",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 00 F7"
+        },
+        {
+          "number": 2,
+          "name": "GR-50 Patch 1-02",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 01 F7"
+        },
+        {
+          "number": 3,
+          "name": "GR-50 Patch 1-03",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 02 F7"
+        },
+        {
+          "number": 4,
+          "name": "GR-50 Patch 1-04",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 03 F7"
+        },
+        {
+          "number": 5,
+          "name": "GR-50 Patch 1-05",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 04 F7"
+        },
+        {
+          "number": 6,
+          "name": "GR-50 Patch 1-06",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 05 F7"
+        },
+        {
+          "number": 7,
+          "name": "GR-50 Patch 1-07",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 06 F7"
+        },
+        {
+          "number": 8,
+          "name": "GR-50 Patch 1-08",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 07 F7"
+        },
+        {
+          "number": 9,
+          "name": "GR-50 Patch 1-09",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 08 F7"
+        },
+        {
+          "number": 10,
+          "name": "GR-50 Patch 1-10",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 09 F7"
+        },
+        {
+          "number": 11,
+          "name": "GR-50 Patch 1-11",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 0A F7"
+        },
+        {
+          "number": 12,
+          "name": "GR-50 Patch 1-12",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 0B F7"
+        },
+        {
+          "number": 13,
+          "name": "GR-50 Patch 1-13",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 0C F7"
+        },
+        {
+          "number": 14,
+          "name": "GR-50 Patch 1-14",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 0D F7"
+        },
+        {
+          "number": 15,
+          "name": "GR-50 Patch 1-15",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 0E F7"
+        },
+        {
+          "number": 16,
+          "name": "GR-50 Patch 1-16",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 0F F7"
+        },
+        {
+          "number": 17,
+          "name": "GR-50 Patch 1-17",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 10 F7"
+        },
+        {
+          "number": 18,
+          "name": "GR-50 Patch 1-18",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 11 F7"
+        },
+        {
+          "number": 19,
+          "name": "GR-50 Patch 1-19",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 12 F7"
+        },
+        {
+          "number": 20,
+          "name": "GR-50 Patch 1-20",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 13 F7"
+        },
+        {
+          "number": 21,
+          "name": "GR-50 Patch 1-21",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 14 F7"
+        },
+        {
+          "number": 22,
+          "name": "GR-50 Patch 1-22",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 15 F7"
+        },
+        {
+          "number": 23,
+          "name": "GR-50 Patch 1-23",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 16 F7"
+        },
+        {
+          "number": 24,
+          "name": "GR-50 Patch 1-24",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 17 F7"
+        },
+        {
+          "number": 25,
+          "name": "GR-50 Patch 1-25",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 18 F7"
+        },
+        {
+          "number": 26,
+          "name": "GR-50 Patch 1-26",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 19 F7"
+        },
+        {
+          "number": 27,
+          "name": "GR-50 Patch 1-27",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 1A F7"
+        },
+        {
+          "number": 28,
+          "name": "GR-50 Patch 1-28",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 1B F7"
+        },
+        {
+          "number": 29,
+          "name": "GR-50 Patch 1-29",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 1C F7"
+        },
+        {
+          "number": 30,
+          "name": "GR-50 Patch 1-30",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 1D F7"
+        },
+        {
+          "number": 31,
+          "name": "GR-50 Patch 1-31",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 1E F7"
+        },
+        {
+          "number": 32,
+          "name": "GR-50 Patch 1-32",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 1F F7"
+        },
+        {
+          "number": 33,
+          "name": "GR-50 Patch 1-33",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 20 F7"
+        },
+        {
+          "number": 34,
+          "name": "GR-50 Patch 1-34",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 21 F7"
+        },
+        {
+          "number": 35,
+          "name": "GR-50 Patch 1-35",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 22 F7"
+        },
+        {
+          "number": 36,
+          "name": "GR-50 Patch 1-36",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 23 F7"
+        },
+        {
+          "number": 37,
+          "name": "GR-50 Patch 1-37",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 24 F7"
+        },
+        {
+          "number": 38,
+          "name": "GR-50 Patch 1-38",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 25 F7"
+        },
+        {
+          "number": 39,
+          "name": "GR-50 Patch 1-39",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 26 F7"
+        },
+        {
+          "number": 40,
+          "name": "GR-50 Patch 1-40",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 27 F7"
+        },
+        {
+          "number": 41,
+          "name": "GR-50 Patch 1-41",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 28 F7"
+        },
+        {
+          "number": 42,
+          "name": "GR-50 Patch 1-42",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 29 F7"
+        },
+        {
+          "number": 43,
+          "name": "GR-50 Patch 1-43",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 2A F7"
+        },
+        {
+          "number": 44,
+          "name": "GR-50 Patch 1-44",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 2B F7"
+        },
+        {
+          "number": 45,
+          "name": "GR-50 Patch 1-45",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 2C F7"
+        },
+        {
+          "number": 46,
+          "name": "GR-50 Patch 1-46",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 2D F7"
+        },
+        {
+          "number": 47,
+          "name": "GR-50 Patch 1-47",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 2E F7"
+        },
+        {
+          "number": 48,
+          "name": "GR-50 Patch 1-48",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 2F F7"
+        },
+        {
+          "number": 49,
+          "name": "GR-50 Patch 1-49",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 30 F7"
+        },
+        {
+          "number": 50,
+          "name": "GR-50 Patch 1-50",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 31 F7"
+        },
+        {
+          "number": 51,
+          "name": "GR-50 Patch 1-51",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 32 F7"
+        },
+        {
+          "number": 52,
+          "name": "GR-50 Patch 1-52",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 33 F7"
+        },
+        {
+          "number": 53,
+          "name": "GR-50 Patch 1-53",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 34 F7"
+        },
+        {
+          "number": 54,
+          "name": "GR-50 Patch 1-54",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 35 F7"
+        },
+        {
+          "number": 55,
+          "name": "GR-50 Patch 1-55",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 36 F7"
+        },
+        {
+          "number": 56,
+          "name": "GR-50 Patch 1-56",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 37 F7"
+        },
+        {
+          "number": 57,
+          "name": "GR-50 Patch 1-57",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 38 F7"
+        },
+        {
+          "number": 58,
+          "name": "GR-50 Patch 1-58",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 39 F7"
+        },
+        {
+          "number": 59,
+          "name": "GR-50 Patch 1-59",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 3A F7"
+        },
+        {
+          "number": 60,
+          "name": "GR-50 Patch 1-60",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 3B F7"
+        },
+        {
+          "number": 61,
+          "name": "GR-50 Patch 1-61",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 3C F7"
+        },
+        {
+          "number": 62,
+          "name": "GR-50 Patch 1-62",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 3D F7"
+        },
+        {
+          "number": 63,
+          "name": "GR-50 Patch 1-63",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 3E F7"
+        },
+        {
+          "number": 64,
+          "name": "GR-50 Patch 1-64",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 3F F7"
+        }
+      ]
+    },
+    {
+      "name": "Preset Bank 2",
+      "type": "ROM",
+      "patches": [
+        {
+          "number": 1,
+          "name": "GR-50 Patch 2-01",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 00 F7"
+        },
+        {
+          "number": 2,
+          "name": "GR-50 Patch 2-02",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 01 F7"
+        },
+        {
+          "number": 3,
+          "name": "GR-50 Patch 2-03",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 02 F7"
+        },
+        {
+          "number": 4,
+          "name": "GR-50 Patch 2-04",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 03 F7"
+        },
+        {
+          "number": 5,
+          "name": "GR-50 Patch 2-05",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 04 F7"
+        },
+        {
+          "number": 6,
+          "name": "GR-50 Patch 2-06",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 05 F7"
+        },
+        {
+          "number": 7,
+          "name": "GR-50 Patch 2-07",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 06 F7"
+        },
+        {
+          "number": 8,
+          "name": "GR-50 Patch 2-08",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 07 F7"
+        },
+        {
+          "number": 9,
+          "name": "GR-50 Patch 2-09",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 08 F7"
+        },
+        {
+          "number": 10,
+          "name": "GR-50 Patch 2-10",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 09 F7"
+        },
+        {
+          "number": 11,
+          "name": "GR-50 Patch 2-11",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 0A F7"
+        },
+        {
+          "number": 12,
+          "name": "GR-50 Patch 2-12",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 0B F7"
+        },
+        {
+          "number": 13,
+          "name": "GR-50 Patch 2-13",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 0C F7"
+        },
+        {
+          "number": 14,
+          "name": "GR-50 Patch 2-14",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 0D F7"
+        },
+        {
+          "number": 15,
+          "name": "GR-50 Patch 2-15",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 0E F7"
+        },
+        {
+          "number": 16,
+          "name": "GR-50 Patch 2-16",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 0F F7"
+        },
+        {
+          "number": 17,
+          "name": "GR-50 Patch 2-17",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 10 F7"
+        },
+        {
+          "number": 18,
+          "name": "GR-50 Patch 2-18",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 11 F7"
+        },
+        {
+          "number": 19,
+          "name": "GR-50 Patch 2-19",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 12 F7"
+        },
+        {
+          "number": 20,
+          "name": "GR-50 Patch 2-20",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 13 F7"
+        },
+        {
+          "number": 21,
+          "name": "GR-50 Patch 2-21",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 14 F7"
+        },
+        {
+          "number": 22,
+          "name": "GR-50 Patch 2-22",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 15 F7"
+        },
+        {
+          "number": 23,
+          "name": "GR-50 Patch 2-23",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 16 F7"
+        },
+        {
+          "number": 24,
+          "name": "GR-50 Patch 2-24",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 17 F7"
+        },
+        {
+          "number": 25,
+          "name": "GR-50 Patch 2-25",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 18 F7"
+        },
+        {
+          "number": 26,
+          "name": "GR-50 Patch 2-26",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 19 F7"
+        },
+        {
+          "number": 27,
+          "name": "GR-50 Patch 2-27",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 1A F7"
+        },
+        {
+          "number": 28,
+          "name": "GR-50 Patch 2-28",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 1B F7"
+        },
+        {
+          "number": 29,
+          "name": "GR-50 Patch 2-29",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 1C F7"
+        },
+        {
+          "number": 30,
+          "name": "GR-50 Patch 2-30",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 1D F7"
+        },
+        {
+          "number": 31,
+          "name": "GR-50 Patch 2-31",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 1E F7"
+        },
+        {
+          "number": 32,
+          "name": "GR-50 Patch 2-32",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 1F F7"
+        },
+        {
+          "number": 33,
+          "name": "GR-50 Patch 2-33",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 20 F7"
+        },
+        {
+          "number": 34,
+          "name": "GR-50 Patch 2-34",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 21 F7"
+        },
+        {
+          "number": 35,
+          "name": "GR-50 Patch 2-35",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 22 F7"
+        },
+        {
+          "number": 36,
+          "name": "GR-50 Patch 2-36",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 23 F7"
+        },
+        {
+          "number": 37,
+          "name": "GR-50 Patch 2-37",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 24 F7"
+        },
+        {
+          "number": 38,
+          "name": "GR-50 Patch 2-38",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 25 F7"
+        },
+        {
+          "number": 39,
+          "name": "GR-50 Patch 2-39",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 26 F7"
+        },
+        {
+          "number": 40,
+          "name": "GR-50 Patch 2-40",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 27 F7"
+        },
+        {
+          "number": 41,
+          "name": "GR-50 Patch 2-41",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 28 F7"
+        },
+        {
+          "number": 42,
+          "name": "GR-50 Patch 2-42",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 29 F7"
+        },
+        {
+          "number": 43,
+          "name": "GR-50 Patch 2-43",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 2A F7"
+        },
+        {
+          "number": 44,
+          "name": "GR-50 Patch 2-44",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 2B F7"
+        },
+        {
+          "number": 45,
+          "name": "GR-50 Patch 2-45",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 2C F7"
+        },
+        {
+          "number": 46,
+          "name": "GR-50 Patch 2-46",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 2D F7"
+        },
+        {
+          "number": 47,
+          "name": "GR-50 Patch 2-47",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 2E F7"
+        },
+        {
+          "number": 48,
+          "name": "GR-50 Patch 2-48",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 2F F7"
+        },
+        {
+          "number": 49,
+          "name": "GR-50 Patch 2-49",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 30 F7"
+        },
+        {
+          "number": 50,
+          "name": "GR-50 Patch 2-50",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 31 F7"
+        },
+        {
+          "number": 51,
+          "name": "GR-50 Patch 2-51",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 32 F7"
+        },
+        {
+          "number": 52,
+          "name": "GR-50 Patch 2-52",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 33 F7"
+        },
+        {
+          "number": 53,
+          "name": "GR-50 Patch 2-53",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 34 F7"
+        },
+        {
+          "number": 54,
+          "name": "GR-50 Patch 2-54",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 35 F7"
+        },
+        {
+          "number": 55,
+          "name": "GR-50 Patch 2-55",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 36 F7"
+        },
+        {
+          "number": 56,
+          "name": "GR-50 Patch 2-56",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 37 F7"
+        },
+        {
+          "number": 57,
+          "name": "GR-50 Patch 2-57",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 38 F7"
+        },
+        {
+          "number": 58,
+          "name": "GR-50 Patch 2-58",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 39 F7"
+        },
+        {
+          "number": 59,
+          "name": "GR-50 Patch 2-59",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 3A F7"
+        },
+        {
+          "number": 60,
+          "name": "GR-50 Patch 2-60",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 3B F7"
+        },
+        {
+          "number": 61,
+          "name": "GR-50 Patch 2-61",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 3C F7"
+        },
+        {
+          "number": 62,
+          "name": "GR-50 Patch 2-62",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 3D F7"
+        },
+        {
+          "number": 63,
+          "name": "GR-50 Patch 2-63",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 3E F7"
+        },
+        {
+          "number": 64,
+          "name": "GR-50 Patch 2-64",
+          "category": "LA Synthesis Tone",
+          "tags": [
+            "guitar",
+            "la synthesis tone",
+            "gr50"
+          ],
+          "sysex_dump": "F0 41 10 24 12 3F F7"
+        }
+      ]
+    }
+  ]
+}

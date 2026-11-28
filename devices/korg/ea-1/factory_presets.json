@@ -1,0 +1,715 @@
+{
+  "device": "EA-1",
+  "banks": [
+    {
+      "name": "Factory Patterns",
+      "type": "ROM",
+      "patches": [
+        {
+          "number": 1,
+          "name": "EA-1 Pattern 01",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 00 F7"
+        },
+        {
+          "number": 2,
+          "name": "EA-1 Pattern 02",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 01 F7"
+        },
+        {
+          "number": 3,
+          "name": "EA-1 Pattern 03",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 02 F7"
+        },
+        {
+          "number": 4,
+          "name": "EA-1 Pattern 04",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 03 F7"
+        },
+        {
+          "number": 5,
+          "name": "EA-1 Pattern 05",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 04 F7"
+        },
+        {
+          "number": 6,
+          "name": "EA-1 Pattern 06",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 05 F7"
+        },
+        {
+          "number": 7,
+          "name": "EA-1 Pattern 07",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 06 F7"
+        },
+        {
+          "number": 8,
+          "name": "EA-1 Pattern 08",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 07 F7"
+        },
+        {
+          "number": 9,
+          "name": "EA-1 Pattern 09",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 08 F7"
+        },
+        {
+          "number": 10,
+          "name": "EA-1 Pattern 10",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 09 F7"
+        },
+        {
+          "number": 11,
+          "name": "EA-1 Pattern 11",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 0A F7"
+        },
+        {
+          "number": 12,
+          "name": "EA-1 Pattern 12",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 0B F7"
+        },
+        {
+          "number": 13,
+          "name": "EA-1 Pattern 13",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 0C F7"
+        },
+        {
+          "number": 14,
+          "name": "EA-1 Pattern 14",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 0D F7"
+        },
+        {
+          "number": 15,
+          "name": "EA-1 Pattern 15",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 0E F7"
+        },
+        {
+          "number": 16,
+          "name": "EA-1 Pattern 16",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 0F F7"
+        },
+        {
+          "number": 17,
+          "name": "EA-1 Pattern 17",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 10 F7"
+        },
+        {
+          "number": 18,
+          "name": "EA-1 Pattern 18",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 11 F7"
+        },
+        {
+          "number": 19,
+          "name": "EA-1 Pattern 19",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 12 F7"
+        },
+        {
+          "number": 20,
+          "name": "EA-1 Pattern 20",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 13 F7"
+        },
+        {
+          "number": 21,
+          "name": "EA-1 Pattern 21",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 14 F7"
+        },
+        {
+          "number": 22,
+          "name": "EA-1 Pattern 22",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 15 F7"
+        },
+        {
+          "number": 23,
+          "name": "EA-1 Pattern 23",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 16 F7"
+        },
+        {
+          "number": 24,
+          "name": "EA-1 Pattern 24",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 17 F7"
+        },
+        {
+          "number": 25,
+          "name": "EA-1 Pattern 25",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 18 F7"
+        },
+        {
+          "number": 26,
+          "name": "EA-1 Pattern 26",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 19 F7"
+        },
+        {
+          "number": 27,
+          "name": "EA-1 Pattern 27",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 1A F7"
+        },
+        {
+          "number": 28,
+          "name": "EA-1 Pattern 28",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 1B F7"
+        },
+        {
+          "number": 29,
+          "name": "EA-1 Pattern 29",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 1C F7"
+        },
+        {
+          "number": 30,
+          "name": "EA-1 Pattern 30",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 1D F7"
+        },
+        {
+          "number": 31,
+          "name": "EA-1 Pattern 31",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 1E F7"
+        },
+        {
+          "number": 32,
+          "name": "EA-1 Pattern 32",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 1F F7"
+        },
+        {
+          "number": 33,
+          "name": "EA-1 Pattern 33",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 20 F7"
+        },
+        {
+          "number": 34,
+          "name": "EA-1 Pattern 34",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 21 F7"
+        },
+        {
+          "number": 35,
+          "name": "EA-1 Pattern 35",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 22 F7"
+        },
+        {
+          "number": 36,
+          "name": "EA-1 Pattern 36",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 23 F7"
+        },
+        {
+          "number": 37,
+          "name": "EA-1 Pattern 37",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 24 F7"
+        },
+        {
+          "number": 38,
+          "name": "EA-1 Pattern 38",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 25 F7"
+        },
+        {
+          "number": 39,
+          "name": "EA-1 Pattern 39",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 26 F7"
+        },
+        {
+          "number": 40,
+          "name": "EA-1 Pattern 40",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 27 F7"
+        },
+        {
+          "number": 41,
+          "name": "EA-1 Pattern 41",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 28 F7"
+        },
+        {
+          "number": 42,
+          "name": "EA-1 Pattern 42",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 29 F7"
+        },
+        {
+          "number": 43,
+          "name": "EA-1 Pattern 43",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 2A F7"
+        },
+        {
+          "number": 44,
+          "name": "EA-1 Pattern 44",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 2B F7"
+        },
+        {
+          "number": 45,
+          "name": "EA-1 Pattern 45",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 2C F7"
+        },
+        {
+          "number": 46,
+          "name": "EA-1 Pattern 46",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 2D F7"
+        },
+        {
+          "number": 47,
+          "name": "EA-1 Pattern 47",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 2E F7"
+        },
+        {
+          "number": 48,
+          "name": "EA-1 Pattern 48",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 2F F7"
+        },
+        {
+          "number": 49,
+          "name": "EA-1 Pattern 49",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 30 F7"
+        },
+        {
+          "number": 50,
+          "name": "EA-1 Pattern 50",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 31 F7"
+        },
+        {
+          "number": 51,
+          "name": "EA-1 Pattern 51",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 32 F7"
+        },
+        {
+          "number": 52,
+          "name": "EA-1 Pattern 52",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 33 F7"
+        },
+        {
+          "number": 53,
+          "name": "EA-1 Pattern 53",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 34 F7"
+        },
+        {
+          "number": 54,
+          "name": "EA-1 Pattern 54",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 35 F7"
+        },
+        {
+          "number": 55,
+          "name": "EA-1 Pattern 55",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 36 F7"
+        },
+        {
+          "number": 56,
+          "name": "EA-1 Pattern 56",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 37 F7"
+        },
+        {
+          "number": 57,
+          "name": "EA-1 Pattern 57",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 38 F7"
+        },
+        {
+          "number": 58,
+          "name": "EA-1 Pattern 58",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 39 F7"
+        },
+        {
+          "number": 59,
+          "name": "EA-1 Pattern 59",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 3A F7"
+        },
+        {
+          "number": 60,
+          "name": "EA-1 Pattern 60",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 3B F7"
+        },
+        {
+          "number": 61,
+          "name": "EA-1 Pattern 61",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 3C F7"
+        },
+        {
+          "number": 62,
+          "name": "EA-1 Pattern 62",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 3D F7"
+        },
+        {
+          "number": 63,
+          "name": "EA-1 Pattern 63",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 3E F7"
+        },
+        {
+          "number": 64,
+          "name": "EA-1 Pattern 64",
+          "category": "Electribe Dual-Part Analog Modeling",
+          "tags": [
+            "electribe",
+            "electribe dual-part analog modeling",
+            "ea1"
+          ],
+          "sysex_dump": "F0 42 30 55 3F F7"
+        }
+      ]
+    }
+  ]
+}

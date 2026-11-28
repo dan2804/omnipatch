@@ -1,0 +1,5661 @@
+{
+  "device": "XL-1",
+  "banks": [
+    {
+      "name": "Preset Bank 1",
+      "type": "ROM",
+      "patches": [
+        {
+          "number": 1,
+          "name": "XL-1 Lead 001",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 00 F7"
+        },
+        {
+          "number": 2,
+          "name": "XL-1 Lead 002",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 01 F7"
+        },
+        {
+          "number": 3,
+          "name": "XL-1 Lead 003",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 02 F7"
+        },
+        {
+          "number": 4,
+          "name": "XL-1 Lead 004",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 03 F7"
+        },
+        {
+          "number": 5,
+          "name": "XL-1 Lead 005",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 04 F7"
+        },
+        {
+          "number": 6,
+          "name": "XL-1 Lead 006",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 05 F7"
+        },
+        {
+          "number": 7,
+          "name": "XL-1 Lead 007",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 06 F7"
+        },
+        {
+          "number": 8,
+          "name": "XL-1 Lead 008",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 07 F7"
+        },
+        {
+          "number": 9,
+          "name": "XL-1 Lead 009",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 08 F7"
+        },
+        {
+          "number": 10,
+          "name": "XL-1 Lead 010",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 09 F7"
+        },
+        {
+          "number": 11,
+          "name": "XL-1 Lead 011",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 0A F7"
+        },
+        {
+          "number": 12,
+          "name": "XL-1 Lead 012",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 0B F7"
+        },
+        {
+          "number": 13,
+          "name": "XL-1 Lead 013",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 0C F7"
+        },
+        {
+          "number": 14,
+          "name": "XL-1 Lead 014",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 0D F7"
+        },
+        {
+          "number": 15,
+          "name": "XL-1 Lead 015",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 0E F7"
+        },
+        {
+          "number": 16,
+          "name": "XL-1 Lead 016",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 0F F7"
+        },
+        {
+          "number": 17,
+          "name": "XL-1 Lead 017",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 10 F7"
+        },
+        {
+          "number": 18,
+          "name": "XL-1 Lead 018",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 11 F7"
+        },
+        {
+          "number": 19,
+          "name": "XL-1 Lead 019",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 12 F7"
+        },
+        {
+          "number": 20,
+          "name": "XL-1 Lead 020",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 13 F7"
+        },
+        {
+          "number": 21,
+          "name": "XL-1 Lead 021",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 14 F7"
+        },
+        {
+          "number": 22,
+          "name": "XL-1 Lead 022",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 15 F7"
+        },
+        {
+          "number": 23,
+          "name": "XL-1 Lead 023",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 16 F7"
+        },
+        {
+          "number": 24,
+          "name": "XL-1 Lead 024",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 17 F7"
+        },
+        {
+          "number": 25,
+          "name": "XL-1 Lead 025",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 18 F7"
+        },
+        {
+          "number": 26,
+          "name": "XL-1 Lead 026",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 19 F7"
+        },
+        {
+          "number": 27,
+          "name": "XL-1 Lead 027",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 1A F7"
+        },
+        {
+          "number": 28,
+          "name": "XL-1 Lead 028",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 1B F7"
+        },
+        {
+          "number": 29,
+          "name": "XL-1 Lead 029",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 1C F7"
+        },
+        {
+          "number": 30,
+          "name": "XL-1 Lead 030",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 1D F7"
+        },
+        {
+          "number": 31,
+          "name": "XL-1 Lead 031",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 1E F7"
+        },
+        {
+          "number": 32,
+          "name": "XL-1 Lead 032",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 1F F7"
+        },
+        {
+          "number": 33,
+          "name": "XL-1 Lead 033",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 20 F7"
+        },
+        {
+          "number": 34,
+          "name": "XL-1 Lead 034",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 21 F7"
+        },
+        {
+          "number": 35,
+          "name": "XL-1 Lead 035",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 22 F7"
+        },
+        {
+          "number": 36,
+          "name": "XL-1 Lead 036",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 23 F7"
+        },
+        {
+          "number": 37,
+          "name": "XL-1 Lead 037",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 24 F7"
+        },
+        {
+          "number": 38,
+          "name": "XL-1 Lead 038",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 25 F7"
+        },
+        {
+          "number": 39,
+          "name": "XL-1 Lead 039",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 26 F7"
+        },
+        {
+          "number": 40,
+          "name": "XL-1 Lead 040",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 27 F7"
+        },
+        {
+          "number": 41,
+          "name": "XL-1 Lead 041",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 28 F7"
+        },
+        {
+          "number": 42,
+          "name": "XL-1 Lead 042",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 29 F7"
+        },
+        {
+          "number": 43,
+          "name": "XL-1 Lead 043",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 2A F7"
+        },
+        {
+          "number": 44,
+          "name": "XL-1 Lead 044",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 2B F7"
+        },
+        {
+          "number": 45,
+          "name": "XL-1 Lead 045",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 2C F7"
+        },
+        {
+          "number": 46,
+          "name": "XL-1 Lead 046",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 2D F7"
+        },
+        {
+          "number": 47,
+          "name": "XL-1 Lead 047",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 2E F7"
+        },
+        {
+          "number": 48,
+          "name": "XL-1 Lead 048",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 2F F7"
+        },
+        {
+          "number": 49,
+          "name": "XL-1 Lead 049",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 30 F7"
+        },
+        {
+          "number": 50,
+          "name": "XL-1 Lead 050",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 31 F7"
+        },
+        {
+          "number": 51,
+          "name": "XL-1 Lead 051",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 32 F7"
+        },
+        {
+          "number": 52,
+          "name": "XL-1 Lead 052",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 33 F7"
+        },
+        {
+          "number": 53,
+          "name": "XL-1 Lead 053",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 34 F7"
+        },
+        {
+          "number": 54,
+          "name": "XL-1 Lead 054",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 35 F7"
+        },
+        {
+          "number": 55,
+          "name": "XL-1 Lead 055",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 36 F7"
+        },
+        {
+          "number": 56,
+          "name": "XL-1 Lead 056",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 37 F7"
+        },
+        {
+          "number": 57,
+          "name": "XL-1 Lead 057",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 38 F7"
+        },
+        {
+          "number": 58,
+          "name": "XL-1 Lead 058",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 39 F7"
+        },
+        {
+          "number": 59,
+          "name": "XL-1 Lead 059",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 3A F7"
+        },
+        {
+          "number": 60,
+          "name": "XL-1 Lead 060",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 3B F7"
+        },
+        {
+          "number": 61,
+          "name": "XL-1 Lead 061",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 3C F7"
+        },
+        {
+          "number": 62,
+          "name": "XL-1 Lead 062",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 3D F7"
+        },
+        {
+          "number": 63,
+          "name": "XL-1 Lead 063",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 3E F7"
+        },
+        {
+          "number": 64,
+          "name": "XL-1 Lead 064",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 3F F7"
+        },
+        {
+          "number": 65,
+          "name": "XL-1 Lead 065",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 40 F7"
+        },
+        {
+          "number": 66,
+          "name": "XL-1 Lead 066",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 41 F7"
+        },
+        {
+          "number": 67,
+          "name": "XL-1 Lead 067",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 42 F7"
+        },
+        {
+          "number": 68,
+          "name": "XL-1 Lead 068",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 43 F7"
+        },
+        {
+          "number": 69,
+          "name": "XL-1 Lead 069",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 44 F7"
+        },
+        {
+          "number": 70,
+          "name": "XL-1 Lead 070",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 45 F7"
+        },
+        {
+          "number": 71,
+          "name": "XL-1 Lead 071",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 46 F7"
+        },
+        {
+          "number": 72,
+          "name": "XL-1 Lead 072",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 47 F7"
+        },
+        {
+          "number": 73,
+          "name": "XL-1 Lead 073",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 48 F7"
+        },
+        {
+          "number": 74,
+          "name": "XL-1 Lead 074",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 49 F7"
+        },
+        {
+          "number": 75,
+          "name": "XL-1 Lead 075",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 4A F7"
+        },
+        {
+          "number": 76,
+          "name": "XL-1 Lead 076",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 4B F7"
+        },
+        {
+          "number": 77,
+          "name": "XL-1 Lead 077",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 4C F7"
+        },
+        {
+          "number": 78,
+          "name": "XL-1 Lead 078",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 4D F7"
+        },
+        {
+          "number": 79,
+          "name": "XL-1 Lead 079",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 4E F7"
+        },
+        {
+          "number": 80,
+          "name": "XL-1 Lead 080",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 4F F7"
+        },
+        {
+          "number": 81,
+          "name": "XL-1 Lead 081",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 50 F7"
+        },
+        {
+          "number": 82,
+          "name": "XL-1 Lead 082",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 51 F7"
+        },
+        {
+          "number": 83,
+          "name": "XL-1 Lead 083",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 52 F7"
+        },
+        {
+          "number": 84,
+          "name": "XL-1 Lead 084",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 53 F7"
+        },
+        {
+          "number": 85,
+          "name": "XL-1 Lead 085",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 54 F7"
+        },
+        {
+          "number": 86,
+          "name": "XL-1 Lead 086",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 55 F7"
+        },
+        {
+          "number": 87,
+          "name": "XL-1 Lead 087",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 56 F7"
+        },
+        {
+          "number": 88,
+          "name": "XL-1 Lead 088",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 57 F7"
+        },
+        {
+          "number": 89,
+          "name": "XL-1 Lead 089",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 58 F7"
+        },
+        {
+          "number": 90,
+          "name": "XL-1 Lead 090",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 59 F7"
+        },
+        {
+          "number": 91,
+          "name": "XL-1 Lead 091",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 5A F7"
+        },
+        {
+          "number": 92,
+          "name": "XL-1 Lead 092",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 5B F7"
+        },
+        {
+          "number": 93,
+          "name": "XL-1 Lead 093",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 5C F7"
+        },
+        {
+          "number": 94,
+          "name": "XL-1 Lead 094",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 5D F7"
+        },
+        {
+          "number": 95,
+          "name": "XL-1 Lead 095",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 5E F7"
+        },
+        {
+          "number": 96,
+          "name": "XL-1 Lead 096",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 5F F7"
+        },
+        {
+          "number": 97,
+          "name": "XL-1 Lead 097",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 60 F7"
+        },
+        {
+          "number": 98,
+          "name": "XL-1 Lead 098",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 61 F7"
+        },
+        {
+          "number": 99,
+          "name": "XL-1 Lead 099",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 62 F7"
+        },
+        {
+          "number": 100,
+          "name": "XL-1 Lead 100",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 63 F7"
+        },
+        {
+          "number": 101,
+          "name": "XL-1 Lead 101",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 64 F7"
+        },
+        {
+          "number": 102,
+          "name": "XL-1 Lead 102",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 65 F7"
+        },
+        {
+          "number": 103,
+          "name": "XL-1 Lead 103",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 66 F7"
+        },
+        {
+          "number": 104,
+          "name": "XL-1 Lead 104",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 67 F7"
+        },
+        {
+          "number": 105,
+          "name": "XL-1 Lead 105",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 68 F7"
+        },
+        {
+          "number": 106,
+          "name": "XL-1 Lead 106",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 69 F7"
+        },
+        {
+          "number": 107,
+          "name": "XL-1 Lead 107",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 6A F7"
+        },
+        {
+          "number": 108,
+          "name": "XL-1 Lead 108",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 6B F7"
+        },
+        {
+          "number": 109,
+          "name": "XL-1 Lead 109",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 6C F7"
+        },
+        {
+          "number": 110,
+          "name": "XL-1 Lead 110",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 6D F7"
+        },
+        {
+          "number": 111,
+          "name": "XL-1 Lead 111",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 6E F7"
+        },
+        {
+          "number": 112,
+          "name": "XL-1 Lead 112",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 6F F7"
+        },
+        {
+          "number": 113,
+          "name": "XL-1 Lead 113",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 70 F7"
+        },
+        {
+          "number": 114,
+          "name": "XL-1 Lead 114",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 71 F7"
+        },
+        {
+          "number": 115,
+          "name": "XL-1 Lead 115",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 72 F7"
+        },
+        {
+          "number": 116,
+          "name": "XL-1 Lead 116",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 73 F7"
+        },
+        {
+          "number": 117,
+          "name": "XL-1 Lead 117",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 74 F7"
+        },
+        {
+          "number": 118,
+          "name": "XL-1 Lead 118",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 75 F7"
+        },
+        {
+          "number": 119,
+          "name": "XL-1 Lead 119",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 76 F7"
+        },
+        {
+          "number": 120,
+          "name": "XL-1 Lead 120",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 77 F7"
+        },
+        {
+          "number": 121,
+          "name": "XL-1 Lead 121",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 78 F7"
+        },
+        {
+          "number": 122,
+          "name": "XL-1 Lead 122",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 79 F7"
+        },
+        {
+          "number": 123,
+          "name": "XL-1 Lead 123",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 7A F7"
+        },
+        {
+          "number": 124,
+          "name": "XL-1 Lead 124",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 7B F7"
+        },
+        {
+          "number": 125,
+          "name": "XL-1 Lead 125",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 7C F7"
+        },
+        {
+          "number": 126,
+          "name": "XL-1 Lead 126",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 7D F7"
+        },
+        {
+          "number": 127,
+          "name": "XL-1 Lead 127",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 7E F7"
+        },
+        {
+          "number": 128,
+          "name": "XL-1 Lead 128",
+          "category": "Extreme Dance & Trance Leads",
+          "tags": [
+            "extreme",
+            "extreme dance & trance leads",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 7F F7"
+        }
+      ]
+    },
+    {
+      "name": "Preset Bank 2",
+      "type": "ROM",
+      "patches": [
+        {
+          "number": 1,
+          "name": "XL-1 Bass/Seq 001",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 00 F7"
+        },
+        {
+          "number": 2,
+          "name": "XL-1 Bass/Seq 002",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 01 F7"
+        },
+        {
+          "number": 3,
+          "name": "XL-1 Bass/Seq 003",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 02 F7"
+        },
+        {
+          "number": 4,
+          "name": "XL-1 Bass/Seq 004",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 03 F7"
+        },
+        {
+          "number": 5,
+          "name": "XL-1 Bass/Seq 005",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 04 F7"
+        },
+        {
+          "number": 6,
+          "name": "XL-1 Bass/Seq 006",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 05 F7"
+        },
+        {
+          "number": 7,
+          "name": "XL-1 Bass/Seq 007",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 06 F7"
+        },
+        {
+          "number": 8,
+          "name": "XL-1 Bass/Seq 008",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 07 F7"
+        },
+        {
+          "number": 9,
+          "name": "XL-1 Bass/Seq 009",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 08 F7"
+        },
+        {
+          "number": 10,
+          "name": "XL-1 Bass/Seq 010",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 09 F7"
+        },
+        {
+          "number": 11,
+          "name": "XL-1 Bass/Seq 011",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 0A F7"
+        },
+        {
+          "number": 12,
+          "name": "XL-1 Bass/Seq 012",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 0B F7"
+        },
+        {
+          "number": 13,
+          "name": "XL-1 Bass/Seq 013",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 0C F7"
+        },
+        {
+          "number": 14,
+          "name": "XL-1 Bass/Seq 014",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 0D F7"
+        },
+        {
+          "number": 15,
+          "name": "XL-1 Bass/Seq 015",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 0E F7"
+        },
+        {
+          "number": 16,
+          "name": "XL-1 Bass/Seq 016",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 0F F7"
+        },
+        {
+          "number": 17,
+          "name": "XL-1 Bass/Seq 017",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 10 F7"
+        },
+        {
+          "number": 18,
+          "name": "XL-1 Bass/Seq 018",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 11 F7"
+        },
+        {
+          "number": 19,
+          "name": "XL-1 Bass/Seq 019",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 12 F7"
+        },
+        {
+          "number": 20,
+          "name": "XL-1 Bass/Seq 020",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 13 F7"
+        },
+        {
+          "number": 21,
+          "name": "XL-1 Bass/Seq 021",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 14 F7"
+        },
+        {
+          "number": 22,
+          "name": "XL-1 Bass/Seq 022",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 15 F7"
+        },
+        {
+          "number": 23,
+          "name": "XL-1 Bass/Seq 023",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 16 F7"
+        },
+        {
+          "number": 24,
+          "name": "XL-1 Bass/Seq 024",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 17 F7"
+        },
+        {
+          "number": 25,
+          "name": "XL-1 Bass/Seq 025",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 18 F7"
+        },
+        {
+          "number": 26,
+          "name": "XL-1 Bass/Seq 026",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 19 F7"
+        },
+        {
+          "number": 27,
+          "name": "XL-1 Bass/Seq 027",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 1A F7"
+        },
+        {
+          "number": 28,
+          "name": "XL-1 Bass/Seq 028",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 1B F7"
+        },
+        {
+          "number": 29,
+          "name": "XL-1 Bass/Seq 029",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 1C F7"
+        },
+        {
+          "number": 30,
+          "name": "XL-1 Bass/Seq 030",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 1D F7"
+        },
+        {
+          "number": 31,
+          "name": "XL-1 Bass/Seq 031",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 1E F7"
+        },
+        {
+          "number": 32,
+          "name": "XL-1 Bass/Seq 032",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 1F F7"
+        },
+        {
+          "number": 33,
+          "name": "XL-1 Bass/Seq 033",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 20 F7"
+        },
+        {
+          "number": 34,
+          "name": "XL-1 Bass/Seq 034",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 21 F7"
+        },
+        {
+          "number": 35,
+          "name": "XL-1 Bass/Seq 035",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 22 F7"
+        },
+        {
+          "number": 36,
+          "name": "XL-1 Bass/Seq 036",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 23 F7"
+        },
+        {
+          "number": 37,
+          "name": "XL-1 Bass/Seq 037",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 24 F7"
+        },
+        {
+          "number": 38,
+          "name": "XL-1 Bass/Seq 038",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 25 F7"
+        },
+        {
+          "number": 39,
+          "name": "XL-1 Bass/Seq 039",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 26 F7"
+        },
+        {
+          "number": 40,
+          "name": "XL-1 Bass/Seq 040",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 27 F7"
+        },
+        {
+          "number": 41,
+          "name": "XL-1 Bass/Seq 041",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 28 F7"
+        },
+        {
+          "number": 42,
+          "name": "XL-1 Bass/Seq 042",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 29 F7"
+        },
+        {
+          "number": 43,
+          "name": "XL-1 Bass/Seq 043",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 2A F7"
+        },
+        {
+          "number": 44,
+          "name": "XL-1 Bass/Seq 044",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 2B F7"
+        },
+        {
+          "number": 45,
+          "name": "XL-1 Bass/Seq 045",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 2C F7"
+        },
+        {
+          "number": 46,
+          "name": "XL-1 Bass/Seq 046",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 2D F7"
+        },
+        {
+          "number": 47,
+          "name": "XL-1 Bass/Seq 047",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 2E F7"
+        },
+        {
+          "number": 48,
+          "name": "XL-1 Bass/Seq 048",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 2F F7"
+        },
+        {
+          "number": 49,
+          "name": "XL-1 Bass/Seq 049",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 30 F7"
+        },
+        {
+          "number": 50,
+          "name": "XL-1 Bass/Seq 050",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 31 F7"
+        },
+        {
+          "number": 51,
+          "name": "XL-1 Bass/Seq 051",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 32 F7"
+        },
+        {
+          "number": 52,
+          "name": "XL-1 Bass/Seq 052",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 33 F7"
+        },
+        {
+          "number": 53,
+          "name": "XL-1 Bass/Seq 053",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 34 F7"
+        },
+        {
+          "number": 54,
+          "name": "XL-1 Bass/Seq 054",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 35 F7"
+        },
+        {
+          "number": 55,
+          "name": "XL-1 Bass/Seq 055",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 36 F7"
+        },
+        {
+          "number": 56,
+          "name": "XL-1 Bass/Seq 056",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 37 F7"
+        },
+        {
+          "number": 57,
+          "name": "XL-1 Bass/Seq 057",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 38 F7"
+        },
+        {
+          "number": 58,
+          "name": "XL-1 Bass/Seq 058",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 39 F7"
+        },
+        {
+          "number": 59,
+          "name": "XL-1 Bass/Seq 059",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 3A F7"
+        },
+        {
+          "number": 60,
+          "name": "XL-1 Bass/Seq 060",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 3B F7"
+        },
+        {
+          "number": 61,
+          "name": "XL-1 Bass/Seq 061",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 3C F7"
+        },
+        {
+          "number": 62,
+          "name": "XL-1 Bass/Seq 062",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 3D F7"
+        },
+        {
+          "number": 63,
+          "name": "XL-1 Bass/Seq 063",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 3E F7"
+        },
+        {
+          "number": 64,
+          "name": "XL-1 Bass/Seq 064",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 3F F7"
+        },
+        {
+          "number": 65,
+          "name": "XL-1 Bass/Seq 065",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 40 F7"
+        },
+        {
+          "number": 66,
+          "name": "XL-1 Bass/Seq 066",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 41 F7"
+        },
+        {
+          "number": 67,
+          "name": "XL-1 Bass/Seq 067",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 42 F7"
+        },
+        {
+          "number": 68,
+          "name": "XL-1 Bass/Seq 068",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 43 F7"
+        },
+        {
+          "number": 69,
+          "name": "XL-1 Bass/Seq 069",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 44 F7"
+        },
+        {
+          "number": 70,
+          "name": "XL-1 Bass/Seq 070",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 45 F7"
+        },
+        {
+          "number": 71,
+          "name": "XL-1 Bass/Seq 071",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 46 F7"
+        },
+        {
+          "number": 72,
+          "name": "XL-1 Bass/Seq 072",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 47 F7"
+        },
+        {
+          "number": 73,
+          "name": "XL-1 Bass/Seq 073",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 48 F7"
+        },
+        {
+          "number": 74,
+          "name": "XL-1 Bass/Seq 074",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 49 F7"
+        },
+        {
+          "number": 75,
+          "name": "XL-1 Bass/Seq 075",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 4A F7"
+        },
+        {
+          "number": 76,
+          "name": "XL-1 Bass/Seq 076",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 4B F7"
+        },
+        {
+          "number": 77,
+          "name": "XL-1 Bass/Seq 077",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 4C F7"
+        },
+        {
+          "number": 78,
+          "name": "XL-1 Bass/Seq 078",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 4D F7"
+        },
+        {
+          "number": 79,
+          "name": "XL-1 Bass/Seq 079",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 4E F7"
+        },
+        {
+          "number": 80,
+          "name": "XL-1 Bass/Seq 080",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 4F F7"
+        },
+        {
+          "number": 81,
+          "name": "XL-1 Bass/Seq 081",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 50 F7"
+        },
+        {
+          "number": 82,
+          "name": "XL-1 Bass/Seq 082",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 51 F7"
+        },
+        {
+          "number": 83,
+          "name": "XL-1 Bass/Seq 083",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 52 F7"
+        },
+        {
+          "number": 84,
+          "name": "XL-1 Bass/Seq 084",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 53 F7"
+        },
+        {
+          "number": 85,
+          "name": "XL-1 Bass/Seq 085",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 54 F7"
+        },
+        {
+          "number": 86,
+          "name": "XL-1 Bass/Seq 086",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 55 F7"
+        },
+        {
+          "number": 87,
+          "name": "XL-1 Bass/Seq 087",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 56 F7"
+        },
+        {
+          "number": 88,
+          "name": "XL-1 Bass/Seq 088",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 57 F7"
+        },
+        {
+          "number": 89,
+          "name": "XL-1 Bass/Seq 089",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 58 F7"
+        },
+        {
+          "number": 90,
+          "name": "XL-1 Bass/Seq 090",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 59 F7"
+        },
+        {
+          "number": 91,
+          "name": "XL-1 Bass/Seq 091",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 5A F7"
+        },
+        {
+          "number": 92,
+          "name": "XL-1 Bass/Seq 092",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 5B F7"
+        },
+        {
+          "number": 93,
+          "name": "XL-1 Bass/Seq 093",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 5C F7"
+        },
+        {
+          "number": 94,
+          "name": "XL-1 Bass/Seq 094",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 5D F7"
+        },
+        {
+          "number": 95,
+          "name": "XL-1 Bass/Seq 095",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 5E F7"
+        },
+        {
+          "number": 96,
+          "name": "XL-1 Bass/Seq 096",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 5F F7"
+        },
+        {
+          "number": 97,
+          "name": "XL-1 Bass/Seq 097",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 60 F7"
+        },
+        {
+          "number": 98,
+          "name": "XL-1 Bass/Seq 098",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 61 F7"
+        },
+        {
+          "number": 99,
+          "name": "XL-1 Bass/Seq 099",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 62 F7"
+        },
+        {
+          "number": 100,
+          "name": "XL-1 Bass/Seq 100",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 63 F7"
+        },
+        {
+          "number": 101,
+          "name": "XL-1 Bass/Seq 101",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 64 F7"
+        },
+        {
+          "number": 102,
+          "name": "XL-1 Bass/Seq 102",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 65 F7"
+        },
+        {
+          "number": 103,
+          "name": "XL-1 Bass/Seq 103",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 66 F7"
+        },
+        {
+          "number": 104,
+          "name": "XL-1 Bass/Seq 104",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 67 F7"
+        },
+        {
+          "number": 105,
+          "name": "XL-1 Bass/Seq 105",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 68 F7"
+        },
+        {
+          "number": 106,
+          "name": "XL-1 Bass/Seq 106",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 69 F7"
+        },
+        {
+          "number": 107,
+          "name": "XL-1 Bass/Seq 107",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 6A F7"
+        },
+        {
+          "number": 108,
+          "name": "XL-1 Bass/Seq 108",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 6B F7"
+        },
+        {
+          "number": 109,
+          "name": "XL-1 Bass/Seq 109",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 6C F7"
+        },
+        {
+          "number": 110,
+          "name": "XL-1 Bass/Seq 110",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 6D F7"
+        },
+        {
+          "number": 111,
+          "name": "XL-1 Bass/Seq 111",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 6E F7"
+        },
+        {
+          "number": 112,
+          "name": "XL-1 Bass/Seq 112",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 6F F7"
+        },
+        {
+          "number": 113,
+          "name": "XL-1 Bass/Seq 113",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 70 F7"
+        },
+        {
+          "number": 114,
+          "name": "XL-1 Bass/Seq 114",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 71 F7"
+        },
+        {
+          "number": 115,
+          "name": "XL-1 Bass/Seq 115",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 72 F7"
+        },
+        {
+          "number": 116,
+          "name": "XL-1 Bass/Seq 116",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 73 F7"
+        },
+        {
+          "number": 117,
+          "name": "XL-1 Bass/Seq 117",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 74 F7"
+        },
+        {
+          "number": 118,
+          "name": "XL-1 Bass/Seq 118",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 75 F7"
+        },
+        {
+          "number": 119,
+          "name": "XL-1 Bass/Seq 119",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 76 F7"
+        },
+        {
+          "number": 120,
+          "name": "XL-1 Bass/Seq 120",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 77 F7"
+        },
+        {
+          "number": 121,
+          "name": "XL-1 Bass/Seq 121",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 78 F7"
+        },
+        {
+          "number": 122,
+          "name": "XL-1 Bass/Seq 122",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 79 F7"
+        },
+        {
+          "number": 123,
+          "name": "XL-1 Bass/Seq 123",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 7A F7"
+        },
+        {
+          "number": 124,
+          "name": "XL-1 Bass/Seq 124",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 7B F7"
+        },
+        {
+          "number": 125,
+          "name": "XL-1 Bass/Seq 125",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 7C F7"
+        },
+        {
+          "number": 126,
+          "name": "XL-1 Bass/Seq 126",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 7D F7"
+        },
+        {
+          "number": 127,
+          "name": "XL-1 Bass/Seq 127",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 7E F7"
+        },
+        {
+          "number": 128,
+          "name": "XL-1 Bass/Seq 128",
+          "category": "Techno Bass & Sequences",
+          "tags": [
+            "extreme",
+            "techno bass & sequences",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 7F F7"
+        }
+      ]
+    },
+    {
+      "name": "Preset Bank 3",
+      "type": "ROM",
+      "patches": [
+        {
+          "number": 1,
+          "name": "XL-1 Pad/SFX 001",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 00 F7"
+        },
+        {
+          "number": 2,
+          "name": "XL-1 Pad/SFX 002",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 01 F7"
+        },
+        {
+          "number": 3,
+          "name": "XL-1 Pad/SFX 003",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 02 F7"
+        },
+        {
+          "number": 4,
+          "name": "XL-1 Pad/SFX 004",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 03 F7"
+        },
+        {
+          "number": 5,
+          "name": "XL-1 Pad/SFX 005",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 04 F7"
+        },
+        {
+          "number": 6,
+          "name": "XL-1 Pad/SFX 006",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 05 F7"
+        },
+        {
+          "number": 7,
+          "name": "XL-1 Pad/SFX 007",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 06 F7"
+        },
+        {
+          "number": 8,
+          "name": "XL-1 Pad/SFX 008",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 07 F7"
+        },
+        {
+          "number": 9,
+          "name": "XL-1 Pad/SFX 009",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 08 F7"
+        },
+        {
+          "number": 10,
+          "name": "XL-1 Pad/SFX 010",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 09 F7"
+        },
+        {
+          "number": 11,
+          "name": "XL-1 Pad/SFX 011",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 0A F7"
+        },
+        {
+          "number": 12,
+          "name": "XL-1 Pad/SFX 012",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 0B F7"
+        },
+        {
+          "number": 13,
+          "name": "XL-1 Pad/SFX 013",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 0C F7"
+        },
+        {
+          "number": 14,
+          "name": "XL-1 Pad/SFX 014",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 0D F7"
+        },
+        {
+          "number": 15,
+          "name": "XL-1 Pad/SFX 015",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 0E F7"
+        },
+        {
+          "number": 16,
+          "name": "XL-1 Pad/SFX 016",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 0F F7"
+        },
+        {
+          "number": 17,
+          "name": "XL-1 Pad/SFX 017",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 10 F7"
+        },
+        {
+          "number": 18,
+          "name": "XL-1 Pad/SFX 018",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 11 F7"
+        },
+        {
+          "number": 19,
+          "name": "XL-1 Pad/SFX 019",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 12 F7"
+        },
+        {
+          "number": 20,
+          "name": "XL-1 Pad/SFX 020",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 13 F7"
+        },
+        {
+          "number": 21,
+          "name": "XL-1 Pad/SFX 021",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 14 F7"
+        },
+        {
+          "number": 22,
+          "name": "XL-1 Pad/SFX 022",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 15 F7"
+        },
+        {
+          "number": 23,
+          "name": "XL-1 Pad/SFX 023",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 16 F7"
+        },
+        {
+          "number": 24,
+          "name": "XL-1 Pad/SFX 024",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 17 F7"
+        },
+        {
+          "number": 25,
+          "name": "XL-1 Pad/SFX 025",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 18 F7"
+        },
+        {
+          "number": 26,
+          "name": "XL-1 Pad/SFX 026",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 19 F7"
+        },
+        {
+          "number": 27,
+          "name": "XL-1 Pad/SFX 027",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 1A F7"
+        },
+        {
+          "number": 28,
+          "name": "XL-1 Pad/SFX 028",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 1B F7"
+        },
+        {
+          "number": 29,
+          "name": "XL-1 Pad/SFX 029",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 1C F7"
+        },
+        {
+          "number": 30,
+          "name": "XL-1 Pad/SFX 030",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 1D F7"
+        },
+        {
+          "number": 31,
+          "name": "XL-1 Pad/SFX 031",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 1E F7"
+        },
+        {
+          "number": 32,
+          "name": "XL-1 Pad/SFX 032",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 1F F7"
+        },
+        {
+          "number": 33,
+          "name": "XL-1 Pad/SFX 033",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 20 F7"
+        },
+        {
+          "number": 34,
+          "name": "XL-1 Pad/SFX 034",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 21 F7"
+        },
+        {
+          "number": 35,
+          "name": "XL-1 Pad/SFX 035",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 22 F7"
+        },
+        {
+          "number": 36,
+          "name": "XL-1 Pad/SFX 036",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 23 F7"
+        },
+        {
+          "number": 37,
+          "name": "XL-1 Pad/SFX 037",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 24 F7"
+        },
+        {
+          "number": 38,
+          "name": "XL-1 Pad/SFX 038",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 25 F7"
+        },
+        {
+          "number": 39,
+          "name": "XL-1 Pad/SFX 039",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 26 F7"
+        },
+        {
+          "number": 40,
+          "name": "XL-1 Pad/SFX 040",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 27 F7"
+        },
+        {
+          "number": 41,
+          "name": "XL-1 Pad/SFX 041",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 28 F7"
+        },
+        {
+          "number": 42,
+          "name": "XL-1 Pad/SFX 042",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 29 F7"
+        },
+        {
+          "number": 43,
+          "name": "XL-1 Pad/SFX 043",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 2A F7"
+        },
+        {
+          "number": 44,
+          "name": "XL-1 Pad/SFX 044",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 2B F7"
+        },
+        {
+          "number": 45,
+          "name": "XL-1 Pad/SFX 045",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 2C F7"
+        },
+        {
+          "number": 46,
+          "name": "XL-1 Pad/SFX 046",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 2D F7"
+        },
+        {
+          "number": 47,
+          "name": "XL-1 Pad/SFX 047",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 2E F7"
+        },
+        {
+          "number": 48,
+          "name": "XL-1 Pad/SFX 048",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 2F F7"
+        },
+        {
+          "number": 49,
+          "name": "XL-1 Pad/SFX 049",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 30 F7"
+        },
+        {
+          "number": 50,
+          "name": "XL-1 Pad/SFX 050",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 31 F7"
+        },
+        {
+          "number": 51,
+          "name": "XL-1 Pad/SFX 051",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 32 F7"
+        },
+        {
+          "number": 52,
+          "name": "XL-1 Pad/SFX 052",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 33 F7"
+        },
+        {
+          "number": 53,
+          "name": "XL-1 Pad/SFX 053",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 34 F7"
+        },
+        {
+          "number": 54,
+          "name": "XL-1 Pad/SFX 054",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 35 F7"
+        },
+        {
+          "number": 55,
+          "name": "XL-1 Pad/SFX 055",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 36 F7"
+        },
+        {
+          "number": 56,
+          "name": "XL-1 Pad/SFX 056",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 37 F7"
+        },
+        {
+          "number": 57,
+          "name": "XL-1 Pad/SFX 057",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 38 F7"
+        },
+        {
+          "number": 58,
+          "name": "XL-1 Pad/SFX 058",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 39 F7"
+        },
+        {
+          "number": 59,
+          "name": "XL-1 Pad/SFX 059",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 3A F7"
+        },
+        {
+          "number": 60,
+          "name": "XL-1 Pad/SFX 060",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 3B F7"
+        },
+        {
+          "number": 61,
+          "name": "XL-1 Pad/SFX 061",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 3C F7"
+        },
+        {
+          "number": 62,
+          "name": "XL-1 Pad/SFX 062",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 3D F7"
+        },
+        {
+          "number": 63,
+          "name": "XL-1 Pad/SFX 063",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 3E F7"
+        },
+        {
+          "number": 64,
+          "name": "XL-1 Pad/SFX 064",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 3F F7"
+        },
+        {
+          "number": 65,
+          "name": "XL-1 Pad/SFX 065",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 40 F7"
+        },
+        {
+          "number": 66,
+          "name": "XL-1 Pad/SFX 066",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 41 F7"
+        },
+        {
+          "number": 67,
+          "name": "XL-1 Pad/SFX 067",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 42 F7"
+        },
+        {
+          "number": 68,
+          "name": "XL-1 Pad/SFX 068",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 43 F7"
+        },
+        {
+          "number": 69,
+          "name": "XL-1 Pad/SFX 069",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 44 F7"
+        },
+        {
+          "number": 70,
+          "name": "XL-1 Pad/SFX 070",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 45 F7"
+        },
+        {
+          "number": 71,
+          "name": "XL-1 Pad/SFX 071",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 46 F7"
+        },
+        {
+          "number": 72,
+          "name": "XL-1 Pad/SFX 072",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 47 F7"
+        },
+        {
+          "number": 73,
+          "name": "XL-1 Pad/SFX 073",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 48 F7"
+        },
+        {
+          "number": 74,
+          "name": "XL-1 Pad/SFX 074",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 49 F7"
+        },
+        {
+          "number": 75,
+          "name": "XL-1 Pad/SFX 075",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 4A F7"
+        },
+        {
+          "number": 76,
+          "name": "XL-1 Pad/SFX 076",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 4B F7"
+        },
+        {
+          "number": 77,
+          "name": "XL-1 Pad/SFX 077",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 4C F7"
+        },
+        {
+          "number": 78,
+          "name": "XL-1 Pad/SFX 078",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 4D F7"
+        },
+        {
+          "number": 79,
+          "name": "XL-1 Pad/SFX 079",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 4E F7"
+        },
+        {
+          "number": 80,
+          "name": "XL-1 Pad/SFX 080",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 4F F7"
+        },
+        {
+          "number": 81,
+          "name": "XL-1 Pad/SFX 081",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 50 F7"
+        },
+        {
+          "number": 82,
+          "name": "XL-1 Pad/SFX 082",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 51 F7"
+        },
+        {
+          "number": 83,
+          "name": "XL-1 Pad/SFX 083",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 52 F7"
+        },
+        {
+          "number": 84,
+          "name": "XL-1 Pad/SFX 084",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 53 F7"
+        },
+        {
+          "number": 85,
+          "name": "XL-1 Pad/SFX 085",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 54 F7"
+        },
+        {
+          "number": 86,
+          "name": "XL-1 Pad/SFX 086",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 55 F7"
+        },
+        {
+          "number": 87,
+          "name": "XL-1 Pad/SFX 087",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 56 F7"
+        },
+        {
+          "number": 88,
+          "name": "XL-1 Pad/SFX 088",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 57 F7"
+        },
+        {
+          "number": 89,
+          "name": "XL-1 Pad/SFX 089",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 58 F7"
+        },
+        {
+          "number": 90,
+          "name": "XL-1 Pad/SFX 090",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 59 F7"
+        },
+        {
+          "number": 91,
+          "name": "XL-1 Pad/SFX 091",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 5A F7"
+        },
+        {
+          "number": 92,
+          "name": "XL-1 Pad/SFX 092",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 5B F7"
+        },
+        {
+          "number": 93,
+          "name": "XL-1 Pad/SFX 093",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 5C F7"
+        },
+        {
+          "number": 94,
+          "name": "XL-1 Pad/SFX 094",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 5D F7"
+        },
+        {
+          "number": 95,
+          "name": "XL-1 Pad/SFX 095",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 5E F7"
+        },
+        {
+          "number": 96,
+          "name": "XL-1 Pad/SFX 096",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 5F F7"
+        },
+        {
+          "number": 97,
+          "name": "XL-1 Pad/SFX 097",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 60 F7"
+        },
+        {
+          "number": 98,
+          "name": "XL-1 Pad/SFX 098",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 61 F7"
+        },
+        {
+          "number": 99,
+          "name": "XL-1 Pad/SFX 099",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 62 F7"
+        },
+        {
+          "number": 100,
+          "name": "XL-1 Pad/SFX 100",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 63 F7"
+        },
+        {
+          "number": 101,
+          "name": "XL-1 Pad/SFX 101",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 64 F7"
+        },
+        {
+          "number": 102,
+          "name": "XL-1 Pad/SFX 102",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 65 F7"
+        },
+        {
+          "number": 103,
+          "name": "XL-1 Pad/SFX 103",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 66 F7"
+        },
+        {
+          "number": 104,
+          "name": "XL-1 Pad/SFX 104",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 67 F7"
+        },
+        {
+          "number": 105,
+          "name": "XL-1 Pad/SFX 105",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 68 F7"
+        },
+        {
+          "number": 106,
+          "name": "XL-1 Pad/SFX 106",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 69 F7"
+        },
+        {
+          "number": 107,
+          "name": "XL-1 Pad/SFX 107",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 6A F7"
+        },
+        {
+          "number": 108,
+          "name": "XL-1 Pad/SFX 108",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 6B F7"
+        },
+        {
+          "number": 109,
+          "name": "XL-1 Pad/SFX 109",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 6C F7"
+        },
+        {
+          "number": 110,
+          "name": "XL-1 Pad/SFX 110",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 6D F7"
+        },
+        {
+          "number": 111,
+          "name": "XL-1 Pad/SFX 111",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 6E F7"
+        },
+        {
+          "number": 112,
+          "name": "XL-1 Pad/SFX 112",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 6F F7"
+        },
+        {
+          "number": 113,
+          "name": "XL-1 Pad/SFX 113",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 70 F7"
+        },
+        {
+          "number": 114,
+          "name": "XL-1 Pad/SFX 114",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 71 F7"
+        },
+        {
+          "number": 115,
+          "name": "XL-1 Pad/SFX 115",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 72 F7"
+        },
+        {
+          "number": 116,
+          "name": "XL-1 Pad/SFX 116",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 73 F7"
+        },
+        {
+          "number": 117,
+          "name": "XL-1 Pad/SFX 117",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 74 F7"
+        },
+        {
+          "number": 118,
+          "name": "XL-1 Pad/SFX 118",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 75 F7"
+        },
+        {
+          "number": 119,
+          "name": "XL-1 Pad/SFX 119",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 76 F7"
+        },
+        {
+          "number": 120,
+          "name": "XL-1 Pad/SFX 120",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 77 F7"
+        },
+        {
+          "number": 121,
+          "name": "XL-1 Pad/SFX 121",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 78 F7"
+        },
+        {
+          "number": 122,
+          "name": "XL-1 Pad/SFX 122",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 79 F7"
+        },
+        {
+          "number": 123,
+          "name": "XL-1 Pad/SFX 123",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 7A F7"
+        },
+        {
+          "number": 124,
+          "name": "XL-1 Pad/SFX 124",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 7B F7"
+        },
+        {
+          "number": 125,
+          "name": "XL-1 Pad/SFX 125",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 7C F7"
+        },
+        {
+          "number": 126,
+          "name": "XL-1 Pad/SFX 126",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 7D F7"
+        },
+        {
+          "number": 127,
+          "name": "XL-1 Pad/SFX 127",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 7E F7"
+        },
+        {
+          "number": 128,
+          "name": "XL-1 Pad/SFX 128",
+          "category": "Rave Pads & SFX",
+          "tags": [
+            "extreme",
+            "rave pads & sfx",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 7F F7"
+        }
+      ]
+    },
+    {
+      "name": "Preset Bank 4",
+      "type": "ROM",
+      "patches": [
+        {
+          "number": 1,
+          "name": "XL-1 Electro 001",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 00 F7"
+        },
+        {
+          "number": 2,
+          "name": "XL-1 Electro 002",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 01 F7"
+        },
+        {
+          "number": 3,
+          "name": "XL-1 Electro 003",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 02 F7"
+        },
+        {
+          "number": 4,
+          "name": "XL-1 Electro 004",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 03 F7"
+        },
+        {
+          "number": 5,
+          "name": "XL-1 Electro 005",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 04 F7"
+        },
+        {
+          "number": 6,
+          "name": "XL-1 Electro 006",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 05 F7"
+        },
+        {
+          "number": 7,
+          "name": "XL-1 Electro 007",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 06 F7"
+        },
+        {
+          "number": 8,
+          "name": "XL-1 Electro 008",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 07 F7"
+        },
+        {
+          "number": 9,
+          "name": "XL-1 Electro 009",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 08 F7"
+        },
+        {
+          "number": 10,
+          "name": "XL-1 Electro 010",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 09 F7"
+        },
+        {
+          "number": 11,
+          "name": "XL-1 Electro 011",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 0A F7"
+        },
+        {
+          "number": 12,
+          "name": "XL-1 Electro 012",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 0B F7"
+        },
+        {
+          "number": 13,
+          "name": "XL-1 Electro 013",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 0C F7"
+        },
+        {
+          "number": 14,
+          "name": "XL-1 Electro 014",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 0D F7"
+        },
+        {
+          "number": 15,
+          "name": "XL-1 Electro 015",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 0E F7"
+        },
+        {
+          "number": 16,
+          "name": "XL-1 Electro 016",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 0F F7"
+        },
+        {
+          "number": 17,
+          "name": "XL-1 Electro 017",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 10 F7"
+        },
+        {
+          "number": 18,
+          "name": "XL-1 Electro 018",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 11 F7"
+        },
+        {
+          "number": 19,
+          "name": "XL-1 Electro 019",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 12 F7"
+        },
+        {
+          "number": 20,
+          "name": "XL-1 Electro 020",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 13 F7"
+        },
+        {
+          "number": 21,
+          "name": "XL-1 Electro 021",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 14 F7"
+        },
+        {
+          "number": 22,
+          "name": "XL-1 Electro 022",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 15 F7"
+        },
+        {
+          "number": 23,
+          "name": "XL-1 Electro 023",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 16 F7"
+        },
+        {
+          "number": 24,
+          "name": "XL-1 Electro 024",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 17 F7"
+        },
+        {
+          "number": 25,
+          "name": "XL-1 Electro 025",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 18 F7"
+        },
+        {
+          "number": 26,
+          "name": "XL-1 Electro 026",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 19 F7"
+        },
+        {
+          "number": 27,
+          "name": "XL-1 Electro 027",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 1A F7"
+        },
+        {
+          "number": 28,
+          "name": "XL-1 Electro 028",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 1B F7"
+        },
+        {
+          "number": 29,
+          "name": "XL-1 Electro 029",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 1C F7"
+        },
+        {
+          "number": 30,
+          "name": "XL-1 Electro 030",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 1D F7"
+        },
+        {
+          "number": 31,
+          "name": "XL-1 Electro 031",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 1E F7"
+        },
+        {
+          "number": 32,
+          "name": "XL-1 Electro 032",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 1F F7"
+        },
+        {
+          "number": 33,
+          "name": "XL-1 Electro 033",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 20 F7"
+        },
+        {
+          "number": 34,
+          "name": "XL-1 Electro 034",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 21 F7"
+        },
+        {
+          "number": 35,
+          "name": "XL-1 Electro 035",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 22 F7"
+        },
+        {
+          "number": 36,
+          "name": "XL-1 Electro 036",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 23 F7"
+        },
+        {
+          "number": 37,
+          "name": "XL-1 Electro 037",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 24 F7"
+        },
+        {
+          "number": 38,
+          "name": "XL-1 Electro 038",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 25 F7"
+        },
+        {
+          "number": 39,
+          "name": "XL-1 Electro 039",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 26 F7"
+        },
+        {
+          "number": 40,
+          "name": "XL-1 Electro 040",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 27 F7"
+        },
+        {
+          "number": 41,
+          "name": "XL-1 Electro 041",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 28 F7"
+        },
+        {
+          "number": 42,
+          "name": "XL-1 Electro 042",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 29 F7"
+        },
+        {
+          "number": 43,
+          "name": "XL-1 Electro 043",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 2A F7"
+        },
+        {
+          "number": 44,
+          "name": "XL-1 Electro 044",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 2B F7"
+        },
+        {
+          "number": 45,
+          "name": "XL-1 Electro 045",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 2C F7"
+        },
+        {
+          "number": 46,
+          "name": "XL-1 Electro 046",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 2D F7"
+        },
+        {
+          "number": 47,
+          "name": "XL-1 Electro 047",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 2E F7"
+        },
+        {
+          "number": 48,
+          "name": "XL-1 Electro 048",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 2F F7"
+        },
+        {
+          "number": 49,
+          "name": "XL-1 Electro 049",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 30 F7"
+        },
+        {
+          "number": 50,
+          "name": "XL-1 Electro 050",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 31 F7"
+        },
+        {
+          "number": 51,
+          "name": "XL-1 Electro 051",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 32 F7"
+        },
+        {
+          "number": 52,
+          "name": "XL-1 Electro 052",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 33 F7"
+        },
+        {
+          "number": 53,
+          "name": "XL-1 Electro 053",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 34 F7"
+        },
+        {
+          "number": 54,
+          "name": "XL-1 Electro 054",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 35 F7"
+        },
+        {
+          "number": 55,
+          "name": "XL-1 Electro 055",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 36 F7"
+        },
+        {
+          "number": 56,
+          "name": "XL-1 Electro 056",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 37 F7"
+        },
+        {
+          "number": 57,
+          "name": "XL-1 Electro 057",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 38 F7"
+        },
+        {
+          "number": 58,
+          "name": "XL-1 Electro 058",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 39 F7"
+        },
+        {
+          "number": 59,
+          "name": "XL-1 Electro 059",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 3A F7"
+        },
+        {
+          "number": 60,
+          "name": "XL-1 Electro 060",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 3B F7"
+        },
+        {
+          "number": 61,
+          "name": "XL-1 Electro 061",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 3C F7"
+        },
+        {
+          "number": 62,
+          "name": "XL-1 Electro 062",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 3D F7"
+        },
+        {
+          "number": 63,
+          "name": "XL-1 Electro 063",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 3E F7"
+        },
+        {
+          "number": 64,
+          "name": "XL-1 Electro 064",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 3F F7"
+        },
+        {
+          "number": 65,
+          "name": "XL-1 Electro 065",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 40 F7"
+        },
+        {
+          "number": 66,
+          "name": "XL-1 Electro 066",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 41 F7"
+        },
+        {
+          "number": 67,
+          "name": "XL-1 Electro 067",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 42 F7"
+        },
+        {
+          "number": 68,
+          "name": "XL-1 Electro 068",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 43 F7"
+        },
+        {
+          "number": 69,
+          "name": "XL-1 Electro 069",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 44 F7"
+        },
+        {
+          "number": 70,
+          "name": "XL-1 Electro 070",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 45 F7"
+        },
+        {
+          "number": 71,
+          "name": "XL-1 Electro 071",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 46 F7"
+        },
+        {
+          "number": 72,
+          "name": "XL-1 Electro 072",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 47 F7"
+        },
+        {
+          "number": 73,
+          "name": "XL-1 Electro 073",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 48 F7"
+        },
+        {
+          "number": 74,
+          "name": "XL-1 Electro 074",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 49 F7"
+        },
+        {
+          "number": 75,
+          "name": "XL-1 Electro 075",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 4A F7"
+        },
+        {
+          "number": 76,
+          "name": "XL-1 Electro 076",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 4B F7"
+        },
+        {
+          "number": 77,
+          "name": "XL-1 Electro 077",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 4C F7"
+        },
+        {
+          "number": 78,
+          "name": "XL-1 Electro 078",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 4D F7"
+        },
+        {
+          "number": 79,
+          "name": "XL-1 Electro 079",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 4E F7"
+        },
+        {
+          "number": 80,
+          "name": "XL-1 Electro 080",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 4F F7"
+        },
+        {
+          "number": 81,
+          "name": "XL-1 Electro 081",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 50 F7"
+        },
+        {
+          "number": 82,
+          "name": "XL-1 Electro 082",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 51 F7"
+        },
+        {
+          "number": 83,
+          "name": "XL-1 Electro 083",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 52 F7"
+        },
+        {
+          "number": 84,
+          "name": "XL-1 Electro 084",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 53 F7"
+        },
+        {
+          "number": 85,
+          "name": "XL-1 Electro 085",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 54 F7"
+        },
+        {
+          "number": 86,
+          "name": "XL-1 Electro 086",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 55 F7"
+        },
+        {
+          "number": 87,
+          "name": "XL-1 Electro 087",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 56 F7"
+        },
+        {
+          "number": 88,
+          "name": "XL-1 Electro 088",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 57 F7"
+        },
+        {
+          "number": 89,
+          "name": "XL-1 Electro 089",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 58 F7"
+        },
+        {
+          "number": 90,
+          "name": "XL-1 Electro 090",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 59 F7"
+        },
+        {
+          "number": 91,
+          "name": "XL-1 Electro 091",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 5A F7"
+        },
+        {
+          "number": 92,
+          "name": "XL-1 Electro 092",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 5B F7"
+        },
+        {
+          "number": 93,
+          "name": "XL-1 Electro 093",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 5C F7"
+        },
+        {
+          "number": 94,
+          "name": "XL-1 Electro 094",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 5D F7"
+        },
+        {
+          "number": 95,
+          "name": "XL-1 Electro 095",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 5E F7"
+        },
+        {
+          "number": 96,
+          "name": "XL-1 Electro 096",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 5F F7"
+        },
+        {
+          "number": 97,
+          "name": "XL-1 Electro 097",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 60 F7"
+        },
+        {
+          "number": 98,
+          "name": "XL-1 Electro 098",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 61 F7"
+        },
+        {
+          "number": 99,
+          "name": "XL-1 Electro 099",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 62 F7"
+        },
+        {
+          "number": 100,
+          "name": "XL-1 Electro 100",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 63 F7"
+        },
+        {
+          "number": 101,
+          "name": "XL-1 Electro 101",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 64 F7"
+        },
+        {
+          "number": 102,
+          "name": "XL-1 Electro 102",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 65 F7"
+        },
+        {
+          "number": 103,
+          "name": "XL-1 Electro 103",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 66 F7"
+        },
+        {
+          "number": 104,
+          "name": "XL-1 Electro 104",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 67 F7"
+        },
+        {
+          "number": 105,
+          "name": "XL-1 Electro 105",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 68 F7"
+        },
+        {
+          "number": 106,
+          "name": "XL-1 Electro 106",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 69 F7"
+        },
+        {
+          "number": 107,
+          "name": "XL-1 Electro 107",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 6A F7"
+        },
+        {
+          "number": 108,
+          "name": "XL-1 Electro 108",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 6B F7"
+        },
+        {
+          "number": 109,
+          "name": "XL-1 Electro 109",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 6C F7"
+        },
+        {
+          "number": 110,
+          "name": "XL-1 Electro 110",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 6D F7"
+        },
+        {
+          "number": 111,
+          "name": "XL-1 Electro 111",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 6E F7"
+        },
+        {
+          "number": 112,
+          "name": "XL-1 Electro 112",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 6F F7"
+        },
+        {
+          "number": 113,
+          "name": "XL-1 Electro 113",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 70 F7"
+        },
+        {
+          "number": 114,
+          "name": "XL-1 Electro 114",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 71 F7"
+        },
+        {
+          "number": 115,
+          "name": "XL-1 Electro 115",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 72 F7"
+        },
+        {
+          "number": 116,
+          "name": "XL-1 Electro 116",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 73 F7"
+        },
+        {
+          "number": 117,
+          "name": "XL-1 Electro 117",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 74 F7"
+        },
+        {
+          "number": 118,
+          "name": "XL-1 Electro 118",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 75 F7"
+        },
+        {
+          "number": 119,
+          "name": "XL-1 Electro 119",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 76 F7"
+        },
+        {
+          "number": 120,
+          "name": "XL-1 Electro 120",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 77 F7"
+        },
+        {
+          "number": 121,
+          "name": "XL-1 Electro 121",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 78 F7"
+        },
+        {
+          "number": 122,
+          "name": "XL-1 Electro 122",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 79 F7"
+        },
+        {
+          "number": 123,
+          "name": "XL-1 Electro 123",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 7A F7"
+        },
+        {
+          "number": 124,
+          "name": "XL-1 Electro 124",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 7B F7"
+        },
+        {
+          "number": 125,
+          "name": "XL-1 Electro 125",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 7C F7"
+        },
+        {
+          "number": 126,
+          "name": "XL-1 Electro 126",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 7D F7"
+        },
+        {
+          "number": 127,
+          "name": "XL-1 Electro 127",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 7E F7"
+        },
+        {
+          "number": 128,
+          "name": "XL-1 Electro 128",
+          "category": "Sub-Bass & Electro Hits",
+          "tags": [
+            "extreme",
+            "sub-bass & electro hits",
+            "xl1"
+          ],
+          "sysex_dump": "F0 18 0F 00 7F F7"
+        }
+      ]
+    }
+  ]
+}

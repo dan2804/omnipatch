@@ -1,0 +1,21 @@
+manufacturer: Korg
+model: EX-800
+type: Programmable Polyphonic Synthesizer Module
+year: 1984
+midi:
+  channels: 16
+  cc_map:
+    dco1_octave: 16
+    dco1_wave: 17
+    vcf_cutoff: 74
+    vcf_resonance: 71
+    chorus_on: 92
+sysex:
+  header: F0 42 20 02
+  device_id_byte: 2
+  commands:
+    request_preset: F0 42 20 02 10 F7
+banks:
+- name: Factory Presets
+  type: ROM
+  size: 64

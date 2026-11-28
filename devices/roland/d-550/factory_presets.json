@@ -1,0 +1,715 @@
+{
+  "device": "D-550",
+  "banks": [
+    {
+      "name": "Preset Bank 1",
+      "type": "ROM",
+      "patches": [
+        {
+          "number": 1,
+          "name": "Fantasia",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 00 F7"
+        },
+        {
+          "number": 2,
+          "name": "Digital Native Dance",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 01 F7"
+        },
+        {
+          "number": 3,
+          "name": "Soundtrack",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 02 F7"
+        },
+        {
+          "number": 4,
+          "name": "Atmosphere",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 03 F7"
+        },
+        {
+          "number": 5,
+          "name": "Nasty",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 04 F7"
+        },
+        {
+          "number": 6,
+          "name": "Future Pad",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 05 F7"
+        },
+        {
+          "number": 7,
+          "name": "Living Calliope",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 06 F7"
+        },
+        {
+          "number": 8,
+          "name": "Breathy Chiffer",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 07 F7"
+        },
+        {
+          "number": 9,
+          "name": "Looming Brass",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 08 F7"
+        },
+        {
+          "number": 10,
+          "name": "Arpeggiator",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 09 F7"
+        },
+        {
+          "number": 11,
+          "name": "Brite Bell",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 0A F7"
+        },
+        {
+          "number": 12,
+          "name": "Space Brass",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 0B F7"
+        },
+        {
+          "number": 13,
+          "name": "Rich Strings",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 0C F7"
+        },
+        {
+          "number": 14,
+          "name": "Harpsichord",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 0D F7"
+        },
+        {
+          "number": 15,
+          "name": "Staccato Heaven",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 0E F7"
+        },
+        {
+          "number": 16,
+          "name": "Night Flight",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 0F F7"
+        },
+        {
+          "number": 17,
+          "name": "Poly Brass",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 10 F7"
+        },
+        {
+          "number": 18,
+          "name": "Deep Mood",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 11 F7"
+        },
+        {
+          "number": 19,
+          "name": "Glass Synth",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 12 F7"
+        },
+        {
+          "number": 20,
+          "name": "Metallic Vibe",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 13 F7"
+        },
+        {
+          "number": 21,
+          "name": "Chorused Clav",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 14 F7"
+        },
+        {
+          "number": 22,
+          "name": "Pizzagogo",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 15 F7"
+        },
+        {
+          "number": 23,
+          "name": "Pan Flute",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 16 F7"
+        },
+        {
+          "number": 24,
+          "name": "Bells & Voices",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 17 F7"
+        },
+        {
+          "number": 25,
+          "name": "Indian Flute",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 18 F7"
+        },
+        {
+          "number": 26,
+          "name": "Steel Drum",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 19 F7"
+        },
+        {
+          "number": 27,
+          "name": "Log Drum",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 1A F7"
+        },
+        {
+          "number": 28,
+          "name": "Modern Harp",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 1B F7"
+        },
+        {
+          "number": 29,
+          "name": "Acoustic Piano",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 1C F7"
+        },
+        {
+          "number": 30,
+          "name": "Electric Piano 1",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 1D F7"
+        },
+        {
+          "number": 31,
+          "name": "Electric Piano 2",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 1E F7"
+        },
+        {
+          "number": 32,
+          "name": "Honky Tonk",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 1F F7"
+        },
+        {
+          "number": 33,
+          "name": "Marimba",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 20 F7"
+        },
+        {
+          "number": 34,
+          "name": "Vibraphone",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 21 F7"
+        },
+        {
+          "number": 35,
+          "name": "Xylophone",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 22 F7"
+        },
+        {
+          "number": 36,
+          "name": "Drawbar Organ",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 23 F7"
+        },
+        {
+          "number": 37,
+          "name": "Church Organ",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 24 F7"
+        },
+        {
+          "number": 38,
+          "name": "Rotary Organ",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 25 F7"
+        },
+        {
+          "number": 39,
+          "name": "Accordion",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 26 F7"
+        },
+        {
+          "number": 40,
+          "name": "Nylon Guitar",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 27 F7"
+        },
+        {
+          "number": 41,
+          "name": "12-String Guitar",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 28 F7"
+        },
+        {
+          "number": 42,
+          "name": "Slap Bass 1",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 29 F7"
+        },
+        {
+          "number": 43,
+          "name": "Slap Bass 2",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 2A F7"
+        },
+        {
+          "number": 44,
+          "name": "Acoustic Bass",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 2B F7"
+        },
+        {
+          "number": 45,
+          "name": "Fretless Bass",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 2C F7"
+        },
+        {
+          "number": 46,
+          "name": "Picked Bass",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 2D F7"
+        },
+        {
+          "number": 47,
+          "name": "Woodwind Lead",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 2E F7"
+        },
+        {
+          "number": 48,
+          "name": "Syn Lead 1",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 2F F7"
+        },
+        {
+          "number": 49,
+          "name": "Syn Lead 2",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 30 F7"
+        },
+        {
+          "number": 50,
+          "name": "Square Lead",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 31 F7"
+        },
+        {
+          "number": 51,
+          "name": "Warm Pad",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 32 F7"
+        },
+        {
+          "number": 52,
+          "name": "Strings Ensemble",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 33 F7"
+        },
+        {
+          "number": 53,
+          "name": "Slow Strings",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 34 F7"
+        },
+        {
+          "number": 54,
+          "name": "Orchestra Hit",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 35 F7"
+        },
+        {
+          "number": 55,
+          "name": "Laser Sweep",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 36 F7"
+        },
+        {
+          "number": 56,
+          "name": "Gong Hit",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 37 F7"
+        },
+        {
+          "number": 57,
+          "name": "Rain Drops",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 38 F7"
+        },
+        {
+          "number": 58,
+          "name": "Noise Sweep",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 39 F7"
+        },
+        {
+          "number": 59,
+          "name": "Wind Bells",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 3A F7"
+        },
+        {
+          "number": 60,
+          "name": "Jet Descent",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 3B F7"
+        },
+        {
+          "number": 61,
+          "name": "Subway Ambience",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 3C F7"
+        },
+        {
+          "number": 62,
+          "name": "Tension Drone",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 3D F7"
+        },
+        {
+          "number": 63,
+          "name": "Galaxy Pad",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 3E F7"
+        },
+        {
+          "number": 64,
+          "name": "Ethereal Echoes",
+          "category": "LA Synthesis",
+          "tags": [
+            "linear",
+            "la synthesis",
+            "d550"
+          ],
+          "sysex_dump": "F0 41 10 14 12 3F F7"
+        }
+      ]
+    }
+  ]
+}

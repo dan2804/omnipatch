@@ -123,37 +123,51 @@ def seed_database():
             # Normalize presets into a unified flat list of patch dicts
             patch_list = []
             if isinstance(presets, dict):
-                for bank_title, items in presets.items():
-                    if isinstance(items, list):
-                        for item_idx, item in enumerate(items):
+                if "banks" in presets and isinstance(presets["banks"], list):
+                    for b in presets["banks"]:
+                        b_name = b.get("name", "Factory ROM")
+                        patches_in_bank = b.get("patches", [])
+                        for item_idx, item in enumerate(patches_in_bank):
                             if isinstance(item, dict):
                                 patch_list.append({
                                     'name': item.get('name', f'Preset #{item_idx+1}'),
-                                    'bank': item.get('bank', bank_title),
-                                    'program': item.get('program', item.get('index', item_idx + 1)),
+                                    'bank': item.get('bank', b_name),
+                                    'program': item.get('number', item.get('program', item_idx + 1)),
                                     'category': item.get('category', ''),
                                     'tags': item.get('tags', [])
                                 })
-                            elif isinstance(item, str):
-                                name = item.strip()
-                                num = item_idx + 1
-                                if ':' in item:
-                                    prefix, rest = item.split(':', 1)
-                                    name = rest.strip()
-                                patch_list.append({
-                                    'name': name,
-                                    'bank': bank_title,
-                                    'program': num,
-                                    'category': 'SYNTH',
-                                    'tags': []
-                                })
+                else:
+                    for bank_title, items in presets.items():
+                        if isinstance(items, list):
+                            for item_idx, item in enumerate(items):
+                                if isinstance(item, dict):
+                                    patch_list.append({
+                                        'name': item.get('name', f'Preset #{item_idx+1}'),
+                                        'bank': item.get('bank', bank_title),
+                                        'program': item.get('program', item.get('number', item_idx + 1)),
+                                        'category': item.get('category', ''),
+                                        'tags': item.get('tags', [])
+                                    })
+                                elif isinstance(item, str):
+                                    name = item.strip()
+                                    num = item_idx + 1
+                                    if ':' in item:
+                                        prefix, rest = item.split(':', 1)
+                                        name = rest.strip()
+                                    patch_list.append({
+                                        'name': name,
+                                        'bank': bank_title,
+                                        'program': num,
+                                        'category': 'SYNTH',
+                                        'tags': []
+                                    })
             elif isinstance(presets, list):
                 for idx, p in enumerate(presets):
                     if isinstance(p, dict):
                         patch_list.append({
                             'name': p.get('name', f'Preset #{idx+1}'),
                             'bank': p.get('bank', 'Factory ROM'),
-                            'program': p.get('program', idx + 1),
+                            'program': p.get('program', p.get('number', idx + 1)),
                             'category': p.get('category', ''),
                             'tags': p.get('tags', [])
                         })

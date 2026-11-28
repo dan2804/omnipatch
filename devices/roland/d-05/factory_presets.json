@@ -1,0 +1,715 @@
+{
+  "device": "D-05",
+  "banks": [
+    {
+      "name": "Preset Bank 1",
+      "type": "ROM",
+      "patches": [
+        {
+          "number": 1,
+          "name": "Fantasia DCB",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 00 F7"
+        },
+        {
+          "number": 2,
+          "name": "Digital Native Dance",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 01 F7"
+        },
+        {
+          "number": 3,
+          "name": "Soundtrack Studio",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 02 F7"
+        },
+        {
+          "number": 4,
+          "name": "Atmosphere 2017",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 03 F7"
+        },
+        {
+          "number": 5,
+          "name": "Nasty Bass",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 04 F7"
+        },
+        {
+          "number": 6,
+          "name": "Future Horizon Pad",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 05 F7"
+        },
+        {
+          "number": 7,
+          "name": "Calliope Air",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 06 F7"
+        },
+        {
+          "number": 8,
+          "name": "Breathy Breath",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 07 F7"
+        },
+        {
+          "number": 9,
+          "name": "Looming Brass Poly",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 08 F7"
+        },
+        {
+          "number": 10,
+          "name": "Arp Seq Matrix",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 09 F7"
+        },
+        {
+          "number": 11,
+          "name": "Crystal Bell",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 0A F7"
+        },
+        {
+          "number": 12,
+          "name": "Super Space Brass",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 0B F7"
+        },
+        {
+          "number": 13,
+          "name": "Rich Studio Strings",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 0C F7"
+        },
+        {
+          "number": 14,
+          "name": "Stereo Harpsichord",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 0D F7"
+        },
+        {
+          "number": 15,
+          "name": "Staccato Heaven 2",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 0E F7"
+        },
+        {
+          "number": 16,
+          "name": "Midnight Flight",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 0F F7"
+        },
+        {
+          "number": 17,
+          "name": "Poly Brass 80s",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 10 F7"
+        },
+        {
+          "number": 18,
+          "name": "Deep LA Mood",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 11 F7"
+        },
+        {
+          "number": 19,
+          "name": "Glass Lead",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 12 F7"
+        },
+        {
+          "number": 20,
+          "name": "Metallic Vibe Pad",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 13 F7"
+        },
+        {
+          "number": 21,
+          "name": "Chorused Clavinet",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 14 F7"
+        },
+        {
+          "number": 22,
+          "name": "Pizzagogo Spark",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 15 F7"
+        },
+        {
+          "number": 23,
+          "name": "Pan Flute Solo",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 16 F7"
+        },
+        {
+          "number": 24,
+          "name": "Angelic Choir",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 17 F7"
+        },
+        {
+          "number": 25,
+          "name": "Bansuri Wood",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 18 F7"
+        },
+        {
+          "number": 26,
+          "name": "Caribbean Steel",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 19 F7"
+        },
+        {
+          "number": 27,
+          "name": "African Log Drum",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 1A F7"
+        },
+        {
+          "number": 28,
+          "name": "Celtic Harp",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 1B F7"
+        },
+        {
+          "number": 29,
+          "name": "Grand Concert Piano",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 1C F7"
+        },
+        {
+          "number": 30,
+          "name": "Classic EP Tremolo",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 1D F7"
+        },
+        {
+          "number": 31,
+          "name": "Dyno FM Piano",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 1E F7"
+        },
+        {
+          "number": 32,
+          "name": "Barroom Honky Tonk",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 1F F7"
+        },
+        {
+          "number": 33,
+          "name": "Studio Marimba",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 20 F7"
+        },
+        {
+          "number": 34,
+          "name": "Concert Vibraphone",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 21 F7"
+        },
+        {
+          "number": 35,
+          "name": "Orchestral Xylo",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 22 F7"
+        },
+        {
+          "number": 36,
+          "name": "Vintage Drawbar Organ",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 23 F7"
+        },
+        {
+          "number": 37,
+          "name": "Cathedral Organ",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 24 F7"
+        },
+        {
+          "number": 38,
+          "name": "Leslie Rotary Drive",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 25 F7"
+        },
+        {
+          "number": 39,
+          "name": "French Musette",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 26 F7"
+        },
+        {
+          "number": 40,
+          "name": "Classical Nylon",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 27 F7"
+        },
+        {
+          "number": 41,
+          "name": "Jangle 12-String",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 28 F7"
+        },
+        {
+          "number": 42,
+          "name": "Funk Slap Bass",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 29 F7"
+        },
+        {
+          "number": 43,
+          "name": "Thumb Slap 2",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 2A F7"
+        },
+        {
+          "number": 44,
+          "name": "Contrabass Pluck",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 2B F7"
+        },
+        {
+          "number": 45,
+          "name": "Jaco Fretless",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 2C F7"
+        },
+        {
+          "number": 46,
+          "name": "Rickenbacker Picked",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 2D F7"
+        },
+        {
+          "number": 47,
+          "name": "Oboe Solo",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 2E F7"
+        },
+        {
+          "number": 48,
+          "name": "Moogish Lead",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 2F F7"
+        },
+        {
+          "number": 49,
+          "name": "Saw Lead Pulse",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 30 F7"
+        },
+        {
+          "number": 50,
+          "name": "Chiff Lead Square",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 31 F7"
+        },
+        {
+          "number": 51,
+          "name": "Cloud Pad",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 32 F7"
+        },
+        {
+          "number": 52,
+          "name": "Analog Ensemble",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 33 F7"
+        },
+        {
+          "number": 53,
+          "name": "Cinematic Slow Strings",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 34 F7"
+        },
+        {
+          "number": 54,
+          "name": "Orchestral Crash",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 35 F7"
+        },
+        {
+          "number": 55,
+          "name": "Sci-Fi Zap Sweep",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 36 F7"
+        },
+        {
+          "number": 56,
+          "name": "Temple Gong",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 37 F7"
+        },
+        {
+          "number": 57,
+          "name": "Digital Rain",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 38 F7"
+        },
+        {
+          "number": 58,
+          "name": "Resonant White Noise",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 39 F7"
+        },
+        {
+          "number": 59,
+          "name": "Crystal Chimes",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 3A F7"
+        },
+        {
+          "number": 60,
+          "name": "Turbine Descent",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 3B F7"
+        },
+        {
+          "number": 61,
+          "name": "Tokyo Metro Ambience",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 3C F7"
+        },
+        {
+          "number": 62,
+          "name": "Suspense Drone",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 3D F7"
+        },
+        {
+          "number": 63,
+          "name": "Constellation",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 3E F7"
+        },
+        {
+          "number": 64,
+          "name": "Infinite Horizon",
+          "category": "DCB LA Synthesis",
+          "tags": [
+            "linear",
+            "dcb la synthesis",
+            "d05"
+          ],
+          "sysex_dump": "F0 41 10 00 00 3F 12 3F F7"
+        }
+      ]
+    }
+  ]
+}

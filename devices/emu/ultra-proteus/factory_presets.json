@@ -1,0 +1,5661 @@
+{
+  "device": "Ultra Proteus",
+  "banks": [
+    {
+      "name": "Preset Bank 1",
+      "type": "ROM",
+      "patches": [
+        {
+          "number": 1,
+          "name": "Ultra Proteus 1-001",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 00 F7"
+        },
+        {
+          "number": 2,
+          "name": "Ultra Proteus 1-002",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 01 F7"
+        },
+        {
+          "number": 3,
+          "name": "Ultra Proteus 1-003",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 02 F7"
+        },
+        {
+          "number": 4,
+          "name": "Ultra Proteus 1-004",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 03 F7"
+        },
+        {
+          "number": 5,
+          "name": "Ultra Proteus 1-005",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 04 F7"
+        },
+        {
+          "number": 6,
+          "name": "Ultra Proteus 1-006",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 05 F7"
+        },
+        {
+          "number": 7,
+          "name": "Ultra Proteus 1-007",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 06 F7"
+        },
+        {
+          "number": 8,
+          "name": "Ultra Proteus 1-008",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 07 F7"
+        },
+        {
+          "number": 9,
+          "name": "Ultra Proteus 1-009",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 08 F7"
+        },
+        {
+          "number": 10,
+          "name": "Ultra Proteus 1-010",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 09 F7"
+        },
+        {
+          "number": 11,
+          "name": "Ultra Proteus 1-011",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 0A F7"
+        },
+        {
+          "number": 12,
+          "name": "Ultra Proteus 1-012",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 0B F7"
+        },
+        {
+          "number": 13,
+          "name": "Ultra Proteus 1-013",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 0C F7"
+        },
+        {
+          "number": 14,
+          "name": "Ultra Proteus 1-014",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 0D F7"
+        },
+        {
+          "number": 15,
+          "name": "Ultra Proteus 1-015",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 0E F7"
+        },
+        {
+          "number": 16,
+          "name": "Ultra Proteus 1-016",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 0F F7"
+        },
+        {
+          "number": 17,
+          "name": "Ultra Proteus 1-017",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 10 F7"
+        },
+        {
+          "number": 18,
+          "name": "Ultra Proteus 1-018",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 11 F7"
+        },
+        {
+          "number": 19,
+          "name": "Ultra Proteus 1-019",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 12 F7"
+        },
+        {
+          "number": 20,
+          "name": "Ultra Proteus 1-020",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 13 F7"
+        },
+        {
+          "number": 21,
+          "name": "Ultra Proteus 1-021",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 14 F7"
+        },
+        {
+          "number": 22,
+          "name": "Ultra Proteus 1-022",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 15 F7"
+        },
+        {
+          "number": 23,
+          "name": "Ultra Proteus 1-023",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 16 F7"
+        },
+        {
+          "number": 24,
+          "name": "Ultra Proteus 1-024",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 17 F7"
+        },
+        {
+          "number": 25,
+          "name": "Ultra Proteus 1-025",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 18 F7"
+        },
+        {
+          "number": 26,
+          "name": "Ultra Proteus 1-026",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 19 F7"
+        },
+        {
+          "number": 27,
+          "name": "Ultra Proteus 1-027",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 1A F7"
+        },
+        {
+          "number": 28,
+          "name": "Ultra Proteus 1-028",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 1B F7"
+        },
+        {
+          "number": 29,
+          "name": "Ultra Proteus 1-029",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 1C F7"
+        },
+        {
+          "number": 30,
+          "name": "Ultra Proteus 1-030",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 1D F7"
+        },
+        {
+          "number": 31,
+          "name": "Ultra Proteus 1-031",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 1E F7"
+        },
+        {
+          "number": 32,
+          "name": "Ultra Proteus 1-032",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 1F F7"
+        },
+        {
+          "number": 33,
+          "name": "Ultra Proteus 1-033",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 20 F7"
+        },
+        {
+          "number": 34,
+          "name": "Ultra Proteus 1-034",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 21 F7"
+        },
+        {
+          "number": 35,
+          "name": "Ultra Proteus 1-035",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 22 F7"
+        },
+        {
+          "number": 36,
+          "name": "Ultra Proteus 1-036",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 23 F7"
+        },
+        {
+          "number": 37,
+          "name": "Ultra Proteus 1-037",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 24 F7"
+        },
+        {
+          "number": 38,
+          "name": "Ultra Proteus 1-038",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 25 F7"
+        },
+        {
+          "number": 39,
+          "name": "Ultra Proteus 1-039",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 26 F7"
+        },
+        {
+          "number": 40,
+          "name": "Ultra Proteus 1-040",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 27 F7"
+        },
+        {
+          "number": 41,
+          "name": "Ultra Proteus 1-041",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 28 F7"
+        },
+        {
+          "number": 42,
+          "name": "Ultra Proteus 1-042",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 29 F7"
+        },
+        {
+          "number": 43,
+          "name": "Ultra Proteus 1-043",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 2A F7"
+        },
+        {
+          "number": 44,
+          "name": "Ultra Proteus 1-044",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 2B F7"
+        },
+        {
+          "number": 45,
+          "name": "Ultra Proteus 1-045",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 2C F7"
+        },
+        {
+          "number": 46,
+          "name": "Ultra Proteus 1-046",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 2D F7"
+        },
+        {
+          "number": 47,
+          "name": "Ultra Proteus 1-047",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 2E F7"
+        },
+        {
+          "number": 48,
+          "name": "Ultra Proteus 1-048",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 2F F7"
+        },
+        {
+          "number": 49,
+          "name": "Ultra Proteus 1-049",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 30 F7"
+        },
+        {
+          "number": 50,
+          "name": "Ultra Proteus 1-050",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 31 F7"
+        },
+        {
+          "number": 51,
+          "name": "Ultra Proteus 1-051",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 32 F7"
+        },
+        {
+          "number": 52,
+          "name": "Ultra Proteus 1-052",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 33 F7"
+        },
+        {
+          "number": 53,
+          "name": "Ultra Proteus 1-053",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 34 F7"
+        },
+        {
+          "number": 54,
+          "name": "Ultra Proteus 1-054",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 35 F7"
+        },
+        {
+          "number": 55,
+          "name": "Ultra Proteus 1-055",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 36 F7"
+        },
+        {
+          "number": 56,
+          "name": "Ultra Proteus 1-056",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 37 F7"
+        },
+        {
+          "number": 57,
+          "name": "Ultra Proteus 1-057",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 38 F7"
+        },
+        {
+          "number": 58,
+          "name": "Ultra Proteus 1-058",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 39 F7"
+        },
+        {
+          "number": 59,
+          "name": "Ultra Proteus 1-059",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 3A F7"
+        },
+        {
+          "number": 60,
+          "name": "Ultra Proteus 1-060",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 3B F7"
+        },
+        {
+          "number": 61,
+          "name": "Ultra Proteus 1-061",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 3C F7"
+        },
+        {
+          "number": 62,
+          "name": "Ultra Proteus 1-062",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 3D F7"
+        },
+        {
+          "number": 63,
+          "name": "Ultra Proteus 1-063",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 3E F7"
+        },
+        {
+          "number": 64,
+          "name": "Ultra Proteus 1-064",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 3F F7"
+        },
+        {
+          "number": 65,
+          "name": "Ultra Proteus 1-065",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 40 F7"
+        },
+        {
+          "number": 66,
+          "name": "Ultra Proteus 1-066",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 41 F7"
+        },
+        {
+          "number": 67,
+          "name": "Ultra Proteus 1-067",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 42 F7"
+        },
+        {
+          "number": 68,
+          "name": "Ultra Proteus 1-068",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 43 F7"
+        },
+        {
+          "number": 69,
+          "name": "Ultra Proteus 1-069",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 44 F7"
+        },
+        {
+          "number": 70,
+          "name": "Ultra Proteus 1-070",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 45 F7"
+        },
+        {
+          "number": 71,
+          "name": "Ultra Proteus 1-071",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 46 F7"
+        },
+        {
+          "number": 72,
+          "name": "Ultra Proteus 1-072",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 47 F7"
+        },
+        {
+          "number": 73,
+          "name": "Ultra Proteus 1-073",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 48 F7"
+        },
+        {
+          "number": 74,
+          "name": "Ultra Proteus 1-074",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 49 F7"
+        },
+        {
+          "number": 75,
+          "name": "Ultra Proteus 1-075",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 4A F7"
+        },
+        {
+          "number": 76,
+          "name": "Ultra Proteus 1-076",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 4B F7"
+        },
+        {
+          "number": 77,
+          "name": "Ultra Proteus 1-077",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 4C F7"
+        },
+        {
+          "number": 78,
+          "name": "Ultra Proteus 1-078",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 4D F7"
+        },
+        {
+          "number": 79,
+          "name": "Ultra Proteus 1-079",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 4E F7"
+        },
+        {
+          "number": 80,
+          "name": "Ultra Proteus 1-080",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 4F F7"
+        },
+        {
+          "number": 81,
+          "name": "Ultra Proteus 1-081",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 50 F7"
+        },
+        {
+          "number": 82,
+          "name": "Ultra Proteus 1-082",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 51 F7"
+        },
+        {
+          "number": 83,
+          "name": "Ultra Proteus 1-083",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 52 F7"
+        },
+        {
+          "number": 84,
+          "name": "Ultra Proteus 1-084",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 53 F7"
+        },
+        {
+          "number": 85,
+          "name": "Ultra Proteus 1-085",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 54 F7"
+        },
+        {
+          "number": 86,
+          "name": "Ultra Proteus 1-086",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 55 F7"
+        },
+        {
+          "number": 87,
+          "name": "Ultra Proteus 1-087",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 56 F7"
+        },
+        {
+          "number": 88,
+          "name": "Ultra Proteus 1-088",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 57 F7"
+        },
+        {
+          "number": 89,
+          "name": "Ultra Proteus 1-089",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 58 F7"
+        },
+        {
+          "number": 90,
+          "name": "Ultra Proteus 1-090",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 59 F7"
+        },
+        {
+          "number": 91,
+          "name": "Ultra Proteus 1-091",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 5A F7"
+        },
+        {
+          "number": 92,
+          "name": "Ultra Proteus 1-092",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 5B F7"
+        },
+        {
+          "number": 93,
+          "name": "Ultra Proteus 1-093",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 5C F7"
+        },
+        {
+          "number": 94,
+          "name": "Ultra Proteus 1-094",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 5D F7"
+        },
+        {
+          "number": 95,
+          "name": "Ultra Proteus 1-095",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 5E F7"
+        },
+        {
+          "number": 96,
+          "name": "Ultra Proteus 1-096",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 5F F7"
+        },
+        {
+          "number": 97,
+          "name": "Ultra Proteus 1-097",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 60 F7"
+        },
+        {
+          "number": 98,
+          "name": "Ultra Proteus 1-098",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 61 F7"
+        },
+        {
+          "number": 99,
+          "name": "Ultra Proteus 1-099",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 62 F7"
+        },
+        {
+          "number": 100,
+          "name": "Ultra Proteus 1-100",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 63 F7"
+        },
+        {
+          "number": 101,
+          "name": "Ultra Proteus 1-101",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 64 F7"
+        },
+        {
+          "number": 102,
+          "name": "Ultra Proteus 1-102",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 65 F7"
+        },
+        {
+          "number": 103,
+          "name": "Ultra Proteus 1-103",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 66 F7"
+        },
+        {
+          "number": 104,
+          "name": "Ultra Proteus 1-104",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 67 F7"
+        },
+        {
+          "number": 105,
+          "name": "Ultra Proteus 1-105",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 68 F7"
+        },
+        {
+          "number": 106,
+          "name": "Ultra Proteus 1-106",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 69 F7"
+        },
+        {
+          "number": 107,
+          "name": "Ultra Proteus 1-107",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 6A F7"
+        },
+        {
+          "number": 108,
+          "name": "Ultra Proteus 1-108",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 6B F7"
+        },
+        {
+          "number": 109,
+          "name": "Ultra Proteus 1-109",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 6C F7"
+        },
+        {
+          "number": 110,
+          "name": "Ultra Proteus 1-110",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 6D F7"
+        },
+        {
+          "number": 111,
+          "name": "Ultra Proteus 1-111",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 6E F7"
+        },
+        {
+          "number": 112,
+          "name": "Ultra Proteus 1-112",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 6F F7"
+        },
+        {
+          "number": 113,
+          "name": "Ultra Proteus 1-113",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 70 F7"
+        },
+        {
+          "number": 114,
+          "name": "Ultra Proteus 1-114",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 71 F7"
+        },
+        {
+          "number": 115,
+          "name": "Ultra Proteus 1-115",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 72 F7"
+        },
+        {
+          "number": 116,
+          "name": "Ultra Proteus 1-116",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 73 F7"
+        },
+        {
+          "number": 117,
+          "name": "Ultra Proteus 1-117",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 74 F7"
+        },
+        {
+          "number": 118,
+          "name": "Ultra Proteus 1-118",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 75 F7"
+        },
+        {
+          "number": 119,
+          "name": "Ultra Proteus 1-119",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 76 F7"
+        },
+        {
+          "number": 120,
+          "name": "Ultra Proteus 1-120",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 77 F7"
+        },
+        {
+          "number": 121,
+          "name": "Ultra Proteus 1-121",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 78 F7"
+        },
+        {
+          "number": 122,
+          "name": "Ultra Proteus 1-122",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 79 F7"
+        },
+        {
+          "number": 123,
+          "name": "Ultra Proteus 1-123",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 7A F7"
+        },
+        {
+          "number": 124,
+          "name": "Ultra Proteus 1-124",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 7B F7"
+        },
+        {
+          "number": 125,
+          "name": "Ultra Proteus 1-125",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 7C F7"
+        },
+        {
+          "number": 126,
+          "name": "Ultra Proteus 1-126",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 7D F7"
+        },
+        {
+          "number": 127,
+          "name": "Ultra Proteus 1-127",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 7E F7"
+        },
+        {
+          "number": 128,
+          "name": "Ultra Proteus 1-128",
+          "category": "Z-Plane Morphing Patches",
+          "tags": [
+            "z-plane",
+            "z-plane morphing patches",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 7F F7"
+        }
+      ]
+    },
+    {
+      "name": "Preset Bank 2",
+      "type": "ROM",
+      "patches": [
+        {
+          "number": 1,
+          "name": "Ultra Proteus 2-001",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 00 F7"
+        },
+        {
+          "number": 2,
+          "name": "Ultra Proteus 2-002",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 01 F7"
+        },
+        {
+          "number": 3,
+          "name": "Ultra Proteus 2-003",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 02 F7"
+        },
+        {
+          "number": 4,
+          "name": "Ultra Proteus 2-004",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 03 F7"
+        },
+        {
+          "number": 5,
+          "name": "Ultra Proteus 2-005",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 04 F7"
+        },
+        {
+          "number": 6,
+          "name": "Ultra Proteus 2-006",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 05 F7"
+        },
+        {
+          "number": 7,
+          "name": "Ultra Proteus 2-007",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 06 F7"
+        },
+        {
+          "number": 8,
+          "name": "Ultra Proteus 2-008",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 07 F7"
+        },
+        {
+          "number": 9,
+          "name": "Ultra Proteus 2-009",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 08 F7"
+        },
+        {
+          "number": 10,
+          "name": "Ultra Proteus 2-010",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 09 F7"
+        },
+        {
+          "number": 11,
+          "name": "Ultra Proteus 2-011",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 0A F7"
+        },
+        {
+          "number": 12,
+          "name": "Ultra Proteus 2-012",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 0B F7"
+        },
+        {
+          "number": 13,
+          "name": "Ultra Proteus 2-013",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 0C F7"
+        },
+        {
+          "number": 14,
+          "name": "Ultra Proteus 2-014",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 0D F7"
+        },
+        {
+          "number": 15,
+          "name": "Ultra Proteus 2-015",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 0E F7"
+        },
+        {
+          "number": 16,
+          "name": "Ultra Proteus 2-016",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 0F F7"
+        },
+        {
+          "number": 17,
+          "name": "Ultra Proteus 2-017",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 10 F7"
+        },
+        {
+          "number": 18,
+          "name": "Ultra Proteus 2-018",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 11 F7"
+        },
+        {
+          "number": 19,
+          "name": "Ultra Proteus 2-019",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 12 F7"
+        },
+        {
+          "number": 20,
+          "name": "Ultra Proteus 2-020",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 13 F7"
+        },
+        {
+          "number": 21,
+          "name": "Ultra Proteus 2-021",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 14 F7"
+        },
+        {
+          "number": 22,
+          "name": "Ultra Proteus 2-022",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 15 F7"
+        },
+        {
+          "number": 23,
+          "name": "Ultra Proteus 2-023",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 16 F7"
+        },
+        {
+          "number": 24,
+          "name": "Ultra Proteus 2-024",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 17 F7"
+        },
+        {
+          "number": 25,
+          "name": "Ultra Proteus 2-025",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 18 F7"
+        },
+        {
+          "number": 26,
+          "name": "Ultra Proteus 2-026",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 19 F7"
+        },
+        {
+          "number": 27,
+          "name": "Ultra Proteus 2-027",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 1A F7"
+        },
+        {
+          "number": 28,
+          "name": "Ultra Proteus 2-028",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 1B F7"
+        },
+        {
+          "number": 29,
+          "name": "Ultra Proteus 2-029",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 1C F7"
+        },
+        {
+          "number": 30,
+          "name": "Ultra Proteus 2-030",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 1D F7"
+        },
+        {
+          "number": 31,
+          "name": "Ultra Proteus 2-031",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 1E F7"
+        },
+        {
+          "number": 32,
+          "name": "Ultra Proteus 2-032",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 1F F7"
+        },
+        {
+          "number": 33,
+          "name": "Ultra Proteus 2-033",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 20 F7"
+        },
+        {
+          "number": 34,
+          "name": "Ultra Proteus 2-034",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 21 F7"
+        },
+        {
+          "number": 35,
+          "name": "Ultra Proteus 2-035",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 22 F7"
+        },
+        {
+          "number": 36,
+          "name": "Ultra Proteus 2-036",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 23 F7"
+        },
+        {
+          "number": 37,
+          "name": "Ultra Proteus 2-037",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 24 F7"
+        },
+        {
+          "number": 38,
+          "name": "Ultra Proteus 2-038",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 25 F7"
+        },
+        {
+          "number": 39,
+          "name": "Ultra Proteus 2-039",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 26 F7"
+        },
+        {
+          "number": 40,
+          "name": "Ultra Proteus 2-040",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 27 F7"
+        },
+        {
+          "number": 41,
+          "name": "Ultra Proteus 2-041",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 28 F7"
+        },
+        {
+          "number": 42,
+          "name": "Ultra Proteus 2-042",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 29 F7"
+        },
+        {
+          "number": 43,
+          "name": "Ultra Proteus 2-043",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 2A F7"
+        },
+        {
+          "number": 44,
+          "name": "Ultra Proteus 2-044",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 2B F7"
+        },
+        {
+          "number": 45,
+          "name": "Ultra Proteus 2-045",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 2C F7"
+        },
+        {
+          "number": 46,
+          "name": "Ultra Proteus 2-046",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 2D F7"
+        },
+        {
+          "number": 47,
+          "name": "Ultra Proteus 2-047",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 2E F7"
+        },
+        {
+          "number": 48,
+          "name": "Ultra Proteus 2-048",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 2F F7"
+        },
+        {
+          "number": 49,
+          "name": "Ultra Proteus 2-049",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 30 F7"
+        },
+        {
+          "number": 50,
+          "name": "Ultra Proteus 2-050",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 31 F7"
+        },
+        {
+          "number": 51,
+          "name": "Ultra Proteus 2-051",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 32 F7"
+        },
+        {
+          "number": 52,
+          "name": "Ultra Proteus 2-052",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 33 F7"
+        },
+        {
+          "number": 53,
+          "name": "Ultra Proteus 2-053",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 34 F7"
+        },
+        {
+          "number": 54,
+          "name": "Ultra Proteus 2-054",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 35 F7"
+        },
+        {
+          "number": 55,
+          "name": "Ultra Proteus 2-055",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 36 F7"
+        },
+        {
+          "number": 56,
+          "name": "Ultra Proteus 2-056",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 37 F7"
+        },
+        {
+          "number": 57,
+          "name": "Ultra Proteus 2-057",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 38 F7"
+        },
+        {
+          "number": 58,
+          "name": "Ultra Proteus 2-058",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 39 F7"
+        },
+        {
+          "number": 59,
+          "name": "Ultra Proteus 2-059",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 3A F7"
+        },
+        {
+          "number": 60,
+          "name": "Ultra Proteus 2-060",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 3B F7"
+        },
+        {
+          "number": 61,
+          "name": "Ultra Proteus 2-061",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 3C F7"
+        },
+        {
+          "number": 62,
+          "name": "Ultra Proteus 2-062",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 3D F7"
+        },
+        {
+          "number": 63,
+          "name": "Ultra Proteus 2-063",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 3E F7"
+        },
+        {
+          "number": 64,
+          "name": "Ultra Proteus 2-064",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 3F F7"
+        },
+        {
+          "number": 65,
+          "name": "Ultra Proteus 2-065",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 40 F7"
+        },
+        {
+          "number": 66,
+          "name": "Ultra Proteus 2-066",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 41 F7"
+        },
+        {
+          "number": 67,
+          "name": "Ultra Proteus 2-067",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 42 F7"
+        },
+        {
+          "number": 68,
+          "name": "Ultra Proteus 2-068",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 43 F7"
+        },
+        {
+          "number": 69,
+          "name": "Ultra Proteus 2-069",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 44 F7"
+        },
+        {
+          "number": 70,
+          "name": "Ultra Proteus 2-070",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 45 F7"
+        },
+        {
+          "number": 71,
+          "name": "Ultra Proteus 2-071",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 46 F7"
+        },
+        {
+          "number": 72,
+          "name": "Ultra Proteus 2-072",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 47 F7"
+        },
+        {
+          "number": 73,
+          "name": "Ultra Proteus 2-073",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 48 F7"
+        },
+        {
+          "number": 74,
+          "name": "Ultra Proteus 2-074",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 49 F7"
+        },
+        {
+          "number": 75,
+          "name": "Ultra Proteus 2-075",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 4A F7"
+        },
+        {
+          "number": 76,
+          "name": "Ultra Proteus 2-076",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 4B F7"
+        },
+        {
+          "number": 77,
+          "name": "Ultra Proteus 2-077",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 4C F7"
+        },
+        {
+          "number": 78,
+          "name": "Ultra Proteus 2-078",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 4D F7"
+        },
+        {
+          "number": 79,
+          "name": "Ultra Proteus 2-079",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 4E F7"
+        },
+        {
+          "number": 80,
+          "name": "Ultra Proteus 2-080",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 4F F7"
+        },
+        {
+          "number": 81,
+          "name": "Ultra Proteus 2-081",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 50 F7"
+        },
+        {
+          "number": 82,
+          "name": "Ultra Proteus 2-082",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 51 F7"
+        },
+        {
+          "number": 83,
+          "name": "Ultra Proteus 2-083",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 52 F7"
+        },
+        {
+          "number": 84,
+          "name": "Ultra Proteus 2-084",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 53 F7"
+        },
+        {
+          "number": 85,
+          "name": "Ultra Proteus 2-085",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 54 F7"
+        },
+        {
+          "number": 86,
+          "name": "Ultra Proteus 2-086",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 55 F7"
+        },
+        {
+          "number": 87,
+          "name": "Ultra Proteus 2-087",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 56 F7"
+        },
+        {
+          "number": 88,
+          "name": "Ultra Proteus 2-088",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 57 F7"
+        },
+        {
+          "number": 89,
+          "name": "Ultra Proteus 2-089",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 58 F7"
+        },
+        {
+          "number": 90,
+          "name": "Ultra Proteus 2-090",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 59 F7"
+        },
+        {
+          "number": 91,
+          "name": "Ultra Proteus 2-091",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 5A F7"
+        },
+        {
+          "number": 92,
+          "name": "Ultra Proteus 2-092",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 5B F7"
+        },
+        {
+          "number": 93,
+          "name": "Ultra Proteus 2-093",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 5C F7"
+        },
+        {
+          "number": 94,
+          "name": "Ultra Proteus 2-094",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 5D F7"
+        },
+        {
+          "number": 95,
+          "name": "Ultra Proteus 2-095",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 5E F7"
+        },
+        {
+          "number": 96,
+          "name": "Ultra Proteus 2-096",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 5F F7"
+        },
+        {
+          "number": 97,
+          "name": "Ultra Proteus 2-097",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 60 F7"
+        },
+        {
+          "number": 98,
+          "name": "Ultra Proteus 2-098",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 61 F7"
+        },
+        {
+          "number": 99,
+          "name": "Ultra Proteus 2-099",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 62 F7"
+        },
+        {
+          "number": 100,
+          "name": "Ultra Proteus 2-100",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 63 F7"
+        },
+        {
+          "number": 101,
+          "name": "Ultra Proteus 2-101",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 64 F7"
+        },
+        {
+          "number": 102,
+          "name": "Ultra Proteus 2-102",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 65 F7"
+        },
+        {
+          "number": 103,
+          "name": "Ultra Proteus 2-103",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 66 F7"
+        },
+        {
+          "number": 104,
+          "name": "Ultra Proteus 2-104",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 67 F7"
+        },
+        {
+          "number": 105,
+          "name": "Ultra Proteus 2-105",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 68 F7"
+        },
+        {
+          "number": 106,
+          "name": "Ultra Proteus 2-106",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 69 F7"
+        },
+        {
+          "number": 107,
+          "name": "Ultra Proteus 2-107",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 6A F7"
+        },
+        {
+          "number": 108,
+          "name": "Ultra Proteus 2-108",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 6B F7"
+        },
+        {
+          "number": 109,
+          "name": "Ultra Proteus 2-109",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 6C F7"
+        },
+        {
+          "number": 110,
+          "name": "Ultra Proteus 2-110",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 6D F7"
+        },
+        {
+          "number": 111,
+          "name": "Ultra Proteus 2-111",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 6E F7"
+        },
+        {
+          "number": 112,
+          "name": "Ultra Proteus 2-112",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 6F F7"
+        },
+        {
+          "number": 113,
+          "name": "Ultra Proteus 2-113",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 70 F7"
+        },
+        {
+          "number": 114,
+          "name": "Ultra Proteus 2-114",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 71 F7"
+        },
+        {
+          "number": 115,
+          "name": "Ultra Proteus 2-115",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 72 F7"
+        },
+        {
+          "number": 116,
+          "name": "Ultra Proteus 2-116",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 73 F7"
+        },
+        {
+          "number": 117,
+          "name": "Ultra Proteus 2-117",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 74 F7"
+        },
+        {
+          "number": 118,
+          "name": "Ultra Proteus 2-118",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 75 F7"
+        },
+        {
+          "number": 119,
+          "name": "Ultra Proteus 2-119",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 76 F7"
+        },
+        {
+          "number": 120,
+          "name": "Ultra Proteus 2-120",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 77 F7"
+        },
+        {
+          "number": 121,
+          "name": "Ultra Proteus 2-121",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 78 F7"
+        },
+        {
+          "number": 122,
+          "name": "Ultra Proteus 2-122",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 79 F7"
+        },
+        {
+          "number": 123,
+          "name": "Ultra Proteus 2-123",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 7A F7"
+        },
+        {
+          "number": 124,
+          "name": "Ultra Proteus 2-124",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 7B F7"
+        },
+        {
+          "number": 125,
+          "name": "Ultra Proteus 2-125",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 7C F7"
+        },
+        {
+          "number": 126,
+          "name": "Ultra Proteus 2-126",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 7D F7"
+        },
+        {
+          "number": 127,
+          "name": "Ultra Proteus 2-127",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 7E F7"
+        },
+        {
+          "number": 128,
+          "name": "Ultra Proteus 2-128",
+          "category": "Z-Plane Acoustic & Hybrid",
+          "tags": [
+            "z-plane",
+            "z-plane acoustic & hybrid",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 7F F7"
+        }
+      ]
+    },
+    {
+      "name": "Preset Bank 3",
+      "type": "ROM",
+      "patches": [
+        {
+          "number": 1,
+          "name": "Ultra Proteus 3-001",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 00 F7"
+        },
+        {
+          "number": 2,
+          "name": "Ultra Proteus 3-002",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 01 F7"
+        },
+        {
+          "number": 3,
+          "name": "Ultra Proteus 3-003",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 02 F7"
+        },
+        {
+          "number": 4,
+          "name": "Ultra Proteus 3-004",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 03 F7"
+        },
+        {
+          "number": 5,
+          "name": "Ultra Proteus 3-005",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 04 F7"
+        },
+        {
+          "number": 6,
+          "name": "Ultra Proteus 3-006",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 05 F7"
+        },
+        {
+          "number": 7,
+          "name": "Ultra Proteus 3-007",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 06 F7"
+        },
+        {
+          "number": 8,
+          "name": "Ultra Proteus 3-008",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 07 F7"
+        },
+        {
+          "number": 9,
+          "name": "Ultra Proteus 3-009",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 08 F7"
+        },
+        {
+          "number": 10,
+          "name": "Ultra Proteus 3-010",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 09 F7"
+        },
+        {
+          "number": 11,
+          "name": "Ultra Proteus 3-011",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 0A F7"
+        },
+        {
+          "number": 12,
+          "name": "Ultra Proteus 3-012",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 0B F7"
+        },
+        {
+          "number": 13,
+          "name": "Ultra Proteus 3-013",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 0C F7"
+        },
+        {
+          "number": 14,
+          "name": "Ultra Proteus 3-014",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 0D F7"
+        },
+        {
+          "number": 15,
+          "name": "Ultra Proteus 3-015",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 0E F7"
+        },
+        {
+          "number": 16,
+          "name": "Ultra Proteus 3-016",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 0F F7"
+        },
+        {
+          "number": 17,
+          "name": "Ultra Proteus 3-017",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 10 F7"
+        },
+        {
+          "number": 18,
+          "name": "Ultra Proteus 3-018",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 11 F7"
+        },
+        {
+          "number": 19,
+          "name": "Ultra Proteus 3-019",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 12 F7"
+        },
+        {
+          "number": 20,
+          "name": "Ultra Proteus 3-020",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 13 F7"
+        },
+        {
+          "number": 21,
+          "name": "Ultra Proteus 3-021",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 14 F7"
+        },
+        {
+          "number": 22,
+          "name": "Ultra Proteus 3-022",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 15 F7"
+        },
+        {
+          "number": 23,
+          "name": "Ultra Proteus 3-023",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 16 F7"
+        },
+        {
+          "number": 24,
+          "name": "Ultra Proteus 3-024",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 17 F7"
+        },
+        {
+          "number": 25,
+          "name": "Ultra Proteus 3-025",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 18 F7"
+        },
+        {
+          "number": 26,
+          "name": "Ultra Proteus 3-026",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 19 F7"
+        },
+        {
+          "number": 27,
+          "name": "Ultra Proteus 3-027",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 1A F7"
+        },
+        {
+          "number": 28,
+          "name": "Ultra Proteus 3-028",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 1B F7"
+        },
+        {
+          "number": 29,
+          "name": "Ultra Proteus 3-029",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 1C F7"
+        },
+        {
+          "number": 30,
+          "name": "Ultra Proteus 3-030",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 1D F7"
+        },
+        {
+          "number": 31,
+          "name": "Ultra Proteus 3-031",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 1E F7"
+        },
+        {
+          "number": 32,
+          "name": "Ultra Proteus 3-032",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 1F F7"
+        },
+        {
+          "number": 33,
+          "name": "Ultra Proteus 3-033",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 20 F7"
+        },
+        {
+          "number": 34,
+          "name": "Ultra Proteus 3-034",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 21 F7"
+        },
+        {
+          "number": 35,
+          "name": "Ultra Proteus 3-035",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 22 F7"
+        },
+        {
+          "number": 36,
+          "name": "Ultra Proteus 3-036",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 23 F7"
+        },
+        {
+          "number": 37,
+          "name": "Ultra Proteus 3-037",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 24 F7"
+        },
+        {
+          "number": 38,
+          "name": "Ultra Proteus 3-038",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 25 F7"
+        },
+        {
+          "number": 39,
+          "name": "Ultra Proteus 3-039",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 26 F7"
+        },
+        {
+          "number": 40,
+          "name": "Ultra Proteus 3-040",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 27 F7"
+        },
+        {
+          "number": 41,
+          "name": "Ultra Proteus 3-041",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 28 F7"
+        },
+        {
+          "number": 42,
+          "name": "Ultra Proteus 3-042",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 29 F7"
+        },
+        {
+          "number": 43,
+          "name": "Ultra Proteus 3-043",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 2A F7"
+        },
+        {
+          "number": 44,
+          "name": "Ultra Proteus 3-044",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 2B F7"
+        },
+        {
+          "number": 45,
+          "name": "Ultra Proteus 3-045",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 2C F7"
+        },
+        {
+          "number": 46,
+          "name": "Ultra Proteus 3-046",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 2D F7"
+        },
+        {
+          "number": 47,
+          "name": "Ultra Proteus 3-047",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 2E F7"
+        },
+        {
+          "number": 48,
+          "name": "Ultra Proteus 3-048",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 2F F7"
+        },
+        {
+          "number": 49,
+          "name": "Ultra Proteus 3-049",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 30 F7"
+        },
+        {
+          "number": 50,
+          "name": "Ultra Proteus 3-050",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 31 F7"
+        },
+        {
+          "number": 51,
+          "name": "Ultra Proteus 3-051",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 32 F7"
+        },
+        {
+          "number": 52,
+          "name": "Ultra Proteus 3-052",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 33 F7"
+        },
+        {
+          "number": 53,
+          "name": "Ultra Proteus 3-053",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 34 F7"
+        },
+        {
+          "number": 54,
+          "name": "Ultra Proteus 3-054",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 35 F7"
+        },
+        {
+          "number": 55,
+          "name": "Ultra Proteus 3-055",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 36 F7"
+        },
+        {
+          "number": 56,
+          "name": "Ultra Proteus 3-056",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 37 F7"
+        },
+        {
+          "number": 57,
+          "name": "Ultra Proteus 3-057",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 38 F7"
+        },
+        {
+          "number": 58,
+          "name": "Ultra Proteus 3-058",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 39 F7"
+        },
+        {
+          "number": 59,
+          "name": "Ultra Proteus 3-059",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 3A F7"
+        },
+        {
+          "number": 60,
+          "name": "Ultra Proteus 3-060",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 3B F7"
+        },
+        {
+          "number": 61,
+          "name": "Ultra Proteus 3-061",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 3C F7"
+        },
+        {
+          "number": 62,
+          "name": "Ultra Proteus 3-062",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 3D F7"
+        },
+        {
+          "number": 63,
+          "name": "Ultra Proteus 3-063",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 3E F7"
+        },
+        {
+          "number": 64,
+          "name": "Ultra Proteus 3-064",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 3F F7"
+        },
+        {
+          "number": 65,
+          "name": "Ultra Proteus 3-065",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 40 F7"
+        },
+        {
+          "number": 66,
+          "name": "Ultra Proteus 3-066",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 41 F7"
+        },
+        {
+          "number": 67,
+          "name": "Ultra Proteus 3-067",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 42 F7"
+        },
+        {
+          "number": 68,
+          "name": "Ultra Proteus 3-068",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 43 F7"
+        },
+        {
+          "number": 69,
+          "name": "Ultra Proteus 3-069",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 44 F7"
+        },
+        {
+          "number": 70,
+          "name": "Ultra Proteus 3-070",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 45 F7"
+        },
+        {
+          "number": 71,
+          "name": "Ultra Proteus 3-071",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 46 F7"
+        },
+        {
+          "number": 72,
+          "name": "Ultra Proteus 3-072",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 47 F7"
+        },
+        {
+          "number": 73,
+          "name": "Ultra Proteus 3-073",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 48 F7"
+        },
+        {
+          "number": 74,
+          "name": "Ultra Proteus 3-074",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 49 F7"
+        },
+        {
+          "number": 75,
+          "name": "Ultra Proteus 3-075",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 4A F7"
+        },
+        {
+          "number": 76,
+          "name": "Ultra Proteus 3-076",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 4B F7"
+        },
+        {
+          "number": 77,
+          "name": "Ultra Proteus 3-077",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 4C F7"
+        },
+        {
+          "number": 78,
+          "name": "Ultra Proteus 3-078",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 4D F7"
+        },
+        {
+          "number": 79,
+          "name": "Ultra Proteus 3-079",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 4E F7"
+        },
+        {
+          "number": 80,
+          "name": "Ultra Proteus 3-080",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 4F F7"
+        },
+        {
+          "number": 81,
+          "name": "Ultra Proteus 3-081",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 50 F7"
+        },
+        {
+          "number": 82,
+          "name": "Ultra Proteus 3-082",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 51 F7"
+        },
+        {
+          "number": 83,
+          "name": "Ultra Proteus 3-083",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 52 F7"
+        },
+        {
+          "number": 84,
+          "name": "Ultra Proteus 3-084",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 53 F7"
+        },
+        {
+          "number": 85,
+          "name": "Ultra Proteus 3-085",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 54 F7"
+        },
+        {
+          "number": 86,
+          "name": "Ultra Proteus 3-086",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 55 F7"
+        },
+        {
+          "number": 87,
+          "name": "Ultra Proteus 3-087",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 56 F7"
+        },
+        {
+          "number": 88,
+          "name": "Ultra Proteus 3-088",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 57 F7"
+        },
+        {
+          "number": 89,
+          "name": "Ultra Proteus 3-089",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 58 F7"
+        },
+        {
+          "number": 90,
+          "name": "Ultra Proteus 3-090",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 59 F7"
+        },
+        {
+          "number": 91,
+          "name": "Ultra Proteus 3-091",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 5A F7"
+        },
+        {
+          "number": 92,
+          "name": "Ultra Proteus 3-092",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 5B F7"
+        },
+        {
+          "number": 93,
+          "name": "Ultra Proteus 3-093",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 5C F7"
+        },
+        {
+          "number": 94,
+          "name": "Ultra Proteus 3-094",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 5D F7"
+        },
+        {
+          "number": 95,
+          "name": "Ultra Proteus 3-095",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 5E F7"
+        },
+        {
+          "number": 96,
+          "name": "Ultra Proteus 3-096",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 5F F7"
+        },
+        {
+          "number": 97,
+          "name": "Ultra Proteus 3-097",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 60 F7"
+        },
+        {
+          "number": 98,
+          "name": "Ultra Proteus 3-098",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 61 F7"
+        },
+        {
+          "number": 99,
+          "name": "Ultra Proteus 3-099",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 62 F7"
+        },
+        {
+          "number": 100,
+          "name": "Ultra Proteus 3-100",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 63 F7"
+        },
+        {
+          "number": 101,
+          "name": "Ultra Proteus 3-101",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 64 F7"
+        },
+        {
+          "number": 102,
+          "name": "Ultra Proteus 3-102",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 65 F7"
+        },
+        {
+          "number": 103,
+          "name": "Ultra Proteus 3-103",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 66 F7"
+        },
+        {
+          "number": 104,
+          "name": "Ultra Proteus 3-104",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 67 F7"
+        },
+        {
+          "number": 105,
+          "name": "Ultra Proteus 3-105",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 68 F7"
+        },
+        {
+          "number": 106,
+          "name": "Ultra Proteus 3-106",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 69 F7"
+        },
+        {
+          "number": 107,
+          "name": "Ultra Proteus 3-107",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 6A F7"
+        },
+        {
+          "number": 108,
+          "name": "Ultra Proteus 3-108",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 6B F7"
+        },
+        {
+          "number": 109,
+          "name": "Ultra Proteus 3-109",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 6C F7"
+        },
+        {
+          "number": 110,
+          "name": "Ultra Proteus 3-110",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 6D F7"
+        },
+        {
+          "number": 111,
+          "name": "Ultra Proteus 3-111",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 6E F7"
+        },
+        {
+          "number": 112,
+          "name": "Ultra Proteus 3-112",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 6F F7"
+        },
+        {
+          "number": 113,
+          "name": "Ultra Proteus 3-113",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 70 F7"
+        },
+        {
+          "number": 114,
+          "name": "Ultra Proteus 3-114",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 71 F7"
+        },
+        {
+          "number": 115,
+          "name": "Ultra Proteus 3-115",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 72 F7"
+        },
+        {
+          "number": 116,
+          "name": "Ultra Proteus 3-116",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 73 F7"
+        },
+        {
+          "number": 117,
+          "name": "Ultra Proteus 3-117",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 74 F7"
+        },
+        {
+          "number": 118,
+          "name": "Ultra Proteus 3-118",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 75 F7"
+        },
+        {
+          "number": 119,
+          "name": "Ultra Proteus 3-119",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 76 F7"
+        },
+        {
+          "number": 120,
+          "name": "Ultra Proteus 3-120",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 77 F7"
+        },
+        {
+          "number": 121,
+          "name": "Ultra Proteus 3-121",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 78 F7"
+        },
+        {
+          "number": 122,
+          "name": "Ultra Proteus 3-122",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 79 F7"
+        },
+        {
+          "number": 123,
+          "name": "Ultra Proteus 3-123",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 7A F7"
+        },
+        {
+          "number": 124,
+          "name": "Ultra Proteus 3-124",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 7B F7"
+        },
+        {
+          "number": 125,
+          "name": "Ultra Proteus 3-125",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 7C F7"
+        },
+        {
+          "number": 126,
+          "name": "Ultra Proteus 3-126",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 7D F7"
+        },
+        {
+          "number": 127,
+          "name": "Ultra Proteus 3-127",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 7E F7"
+        },
+        {
+          "number": 128,
+          "name": "Ultra Proteus 3-128",
+          "category": "Morphing Textures & Pads",
+          "tags": [
+            "z-plane",
+            "morphing textures & pads",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 7F F7"
+        }
+      ]
+    },
+    {
+      "name": "Preset Bank 4",
+      "type": "ROM",
+      "patches": [
+        {
+          "number": 1,
+          "name": "Ultra Proteus 4-001",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 00 F7"
+        },
+        {
+          "number": 2,
+          "name": "Ultra Proteus 4-002",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 01 F7"
+        },
+        {
+          "number": 3,
+          "name": "Ultra Proteus 4-003",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 02 F7"
+        },
+        {
+          "number": 4,
+          "name": "Ultra Proteus 4-004",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 03 F7"
+        },
+        {
+          "number": 5,
+          "name": "Ultra Proteus 4-005",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 04 F7"
+        },
+        {
+          "number": 6,
+          "name": "Ultra Proteus 4-006",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 05 F7"
+        },
+        {
+          "number": 7,
+          "name": "Ultra Proteus 4-007",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 06 F7"
+        },
+        {
+          "number": 8,
+          "name": "Ultra Proteus 4-008",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 07 F7"
+        },
+        {
+          "number": 9,
+          "name": "Ultra Proteus 4-009",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 08 F7"
+        },
+        {
+          "number": 10,
+          "name": "Ultra Proteus 4-010",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 09 F7"
+        },
+        {
+          "number": 11,
+          "name": "Ultra Proteus 4-011",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 0A F7"
+        },
+        {
+          "number": 12,
+          "name": "Ultra Proteus 4-012",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 0B F7"
+        },
+        {
+          "number": 13,
+          "name": "Ultra Proteus 4-013",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 0C F7"
+        },
+        {
+          "number": 14,
+          "name": "Ultra Proteus 4-014",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 0D F7"
+        },
+        {
+          "number": 15,
+          "name": "Ultra Proteus 4-015",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 0E F7"
+        },
+        {
+          "number": 16,
+          "name": "Ultra Proteus 4-016",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 0F F7"
+        },
+        {
+          "number": 17,
+          "name": "Ultra Proteus 4-017",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 10 F7"
+        },
+        {
+          "number": 18,
+          "name": "Ultra Proteus 4-018",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 11 F7"
+        },
+        {
+          "number": 19,
+          "name": "Ultra Proteus 4-019",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 12 F7"
+        },
+        {
+          "number": 20,
+          "name": "Ultra Proteus 4-020",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 13 F7"
+        },
+        {
+          "number": 21,
+          "name": "Ultra Proteus 4-021",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 14 F7"
+        },
+        {
+          "number": 22,
+          "name": "Ultra Proteus 4-022",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 15 F7"
+        },
+        {
+          "number": 23,
+          "name": "Ultra Proteus 4-023",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 16 F7"
+        },
+        {
+          "number": 24,
+          "name": "Ultra Proteus 4-024",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 17 F7"
+        },
+        {
+          "number": 25,
+          "name": "Ultra Proteus 4-025",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 18 F7"
+        },
+        {
+          "number": 26,
+          "name": "Ultra Proteus 4-026",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 19 F7"
+        },
+        {
+          "number": 27,
+          "name": "Ultra Proteus 4-027",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 1A F7"
+        },
+        {
+          "number": 28,
+          "name": "Ultra Proteus 4-028",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 1B F7"
+        },
+        {
+          "number": 29,
+          "name": "Ultra Proteus 4-029",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 1C F7"
+        },
+        {
+          "number": 30,
+          "name": "Ultra Proteus 4-030",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 1D F7"
+        },
+        {
+          "number": 31,
+          "name": "Ultra Proteus 4-031",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 1E F7"
+        },
+        {
+          "number": 32,
+          "name": "Ultra Proteus 4-032",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 1F F7"
+        },
+        {
+          "number": 33,
+          "name": "Ultra Proteus 4-033",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 20 F7"
+        },
+        {
+          "number": 34,
+          "name": "Ultra Proteus 4-034",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 21 F7"
+        },
+        {
+          "number": 35,
+          "name": "Ultra Proteus 4-035",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 22 F7"
+        },
+        {
+          "number": 36,
+          "name": "Ultra Proteus 4-036",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 23 F7"
+        },
+        {
+          "number": 37,
+          "name": "Ultra Proteus 4-037",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 24 F7"
+        },
+        {
+          "number": 38,
+          "name": "Ultra Proteus 4-038",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 25 F7"
+        },
+        {
+          "number": 39,
+          "name": "Ultra Proteus 4-039",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 26 F7"
+        },
+        {
+          "number": 40,
+          "name": "Ultra Proteus 4-040",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 27 F7"
+        },
+        {
+          "number": 41,
+          "name": "Ultra Proteus 4-041",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 28 F7"
+        },
+        {
+          "number": 42,
+          "name": "Ultra Proteus 4-042",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 29 F7"
+        },
+        {
+          "number": 43,
+          "name": "Ultra Proteus 4-043",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 2A F7"
+        },
+        {
+          "number": 44,
+          "name": "Ultra Proteus 4-044",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 2B F7"
+        },
+        {
+          "number": 45,
+          "name": "Ultra Proteus 4-045",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 2C F7"
+        },
+        {
+          "number": 46,
+          "name": "Ultra Proteus 4-046",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 2D F7"
+        },
+        {
+          "number": 47,
+          "name": "Ultra Proteus 4-047",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 2E F7"
+        },
+        {
+          "number": 48,
+          "name": "Ultra Proteus 4-048",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 2F F7"
+        },
+        {
+          "number": 49,
+          "name": "Ultra Proteus 4-049",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 30 F7"
+        },
+        {
+          "number": 50,
+          "name": "Ultra Proteus 4-050",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 31 F7"
+        },
+        {
+          "number": 51,
+          "name": "Ultra Proteus 4-051",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 32 F7"
+        },
+        {
+          "number": 52,
+          "name": "Ultra Proteus 4-052",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 33 F7"
+        },
+        {
+          "number": 53,
+          "name": "Ultra Proteus 4-053",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 34 F7"
+        },
+        {
+          "number": 54,
+          "name": "Ultra Proteus 4-054",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 35 F7"
+        },
+        {
+          "number": 55,
+          "name": "Ultra Proteus 4-055",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 36 F7"
+        },
+        {
+          "number": 56,
+          "name": "Ultra Proteus 4-056",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 37 F7"
+        },
+        {
+          "number": 57,
+          "name": "Ultra Proteus 4-057",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 38 F7"
+        },
+        {
+          "number": 58,
+          "name": "Ultra Proteus 4-058",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 39 F7"
+        },
+        {
+          "number": 59,
+          "name": "Ultra Proteus 4-059",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 3A F7"
+        },
+        {
+          "number": 60,
+          "name": "Ultra Proteus 4-060",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 3B F7"
+        },
+        {
+          "number": 61,
+          "name": "Ultra Proteus 4-061",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 3C F7"
+        },
+        {
+          "number": 62,
+          "name": "Ultra Proteus 4-062",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 3D F7"
+        },
+        {
+          "number": 63,
+          "name": "Ultra Proteus 4-063",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 3E F7"
+        },
+        {
+          "number": 64,
+          "name": "Ultra Proteus 4-064",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 3F F7"
+        },
+        {
+          "number": 65,
+          "name": "Ultra Proteus 4-065",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 40 F7"
+        },
+        {
+          "number": 66,
+          "name": "Ultra Proteus 4-066",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 41 F7"
+        },
+        {
+          "number": 67,
+          "name": "Ultra Proteus 4-067",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 42 F7"
+        },
+        {
+          "number": 68,
+          "name": "Ultra Proteus 4-068",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 43 F7"
+        },
+        {
+          "number": 69,
+          "name": "Ultra Proteus 4-069",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 44 F7"
+        },
+        {
+          "number": 70,
+          "name": "Ultra Proteus 4-070",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 45 F7"
+        },
+        {
+          "number": 71,
+          "name": "Ultra Proteus 4-071",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 46 F7"
+        },
+        {
+          "number": 72,
+          "name": "Ultra Proteus 4-072",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 47 F7"
+        },
+        {
+          "number": 73,
+          "name": "Ultra Proteus 4-073",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 48 F7"
+        },
+        {
+          "number": 74,
+          "name": "Ultra Proteus 4-074",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 49 F7"
+        },
+        {
+          "number": 75,
+          "name": "Ultra Proteus 4-075",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 4A F7"
+        },
+        {
+          "number": 76,
+          "name": "Ultra Proteus 4-076",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 4B F7"
+        },
+        {
+          "number": 77,
+          "name": "Ultra Proteus 4-077",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 4C F7"
+        },
+        {
+          "number": 78,
+          "name": "Ultra Proteus 4-078",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 4D F7"
+        },
+        {
+          "number": 79,
+          "name": "Ultra Proteus 4-079",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 4E F7"
+        },
+        {
+          "number": 80,
+          "name": "Ultra Proteus 4-080",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 4F F7"
+        },
+        {
+          "number": 81,
+          "name": "Ultra Proteus 4-081",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 50 F7"
+        },
+        {
+          "number": 82,
+          "name": "Ultra Proteus 4-082",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 51 F7"
+        },
+        {
+          "number": 83,
+          "name": "Ultra Proteus 4-083",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 52 F7"
+        },
+        {
+          "number": 84,
+          "name": "Ultra Proteus 4-084",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 53 F7"
+        },
+        {
+          "number": 85,
+          "name": "Ultra Proteus 4-085",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 54 F7"
+        },
+        {
+          "number": 86,
+          "name": "Ultra Proteus 4-086",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 55 F7"
+        },
+        {
+          "number": 87,
+          "name": "Ultra Proteus 4-087",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 56 F7"
+        },
+        {
+          "number": 88,
+          "name": "Ultra Proteus 4-088",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 57 F7"
+        },
+        {
+          "number": 89,
+          "name": "Ultra Proteus 4-089",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 58 F7"
+        },
+        {
+          "number": 90,
+          "name": "Ultra Proteus 4-090",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 59 F7"
+        },
+        {
+          "number": 91,
+          "name": "Ultra Proteus 4-091",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 5A F7"
+        },
+        {
+          "number": 92,
+          "name": "Ultra Proteus 4-092",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 5B F7"
+        },
+        {
+          "number": 93,
+          "name": "Ultra Proteus 4-093",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 5C F7"
+        },
+        {
+          "number": 94,
+          "name": "Ultra Proteus 4-094",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 5D F7"
+        },
+        {
+          "number": 95,
+          "name": "Ultra Proteus 4-095",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 5E F7"
+        },
+        {
+          "number": 96,
+          "name": "Ultra Proteus 4-096",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 5F F7"
+        },
+        {
+          "number": 97,
+          "name": "Ultra Proteus 4-097",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 60 F7"
+        },
+        {
+          "number": 98,
+          "name": "Ultra Proteus 4-098",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 61 F7"
+        },
+        {
+          "number": 99,
+          "name": "Ultra Proteus 4-099",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 62 F7"
+        },
+        {
+          "number": 100,
+          "name": "Ultra Proteus 4-100",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 63 F7"
+        },
+        {
+          "number": 101,
+          "name": "Ultra Proteus 4-101",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 64 F7"
+        },
+        {
+          "number": 102,
+          "name": "Ultra Proteus 4-102",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 65 F7"
+        },
+        {
+          "number": 103,
+          "name": "Ultra Proteus 4-103",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 66 F7"
+        },
+        {
+          "number": 104,
+          "name": "Ultra Proteus 4-104",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 67 F7"
+        },
+        {
+          "number": 105,
+          "name": "Ultra Proteus 4-105",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 68 F7"
+        },
+        {
+          "number": 106,
+          "name": "Ultra Proteus 4-106",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 69 F7"
+        },
+        {
+          "number": 107,
+          "name": "Ultra Proteus 4-107",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 6A F7"
+        },
+        {
+          "number": 108,
+          "name": "Ultra Proteus 4-108",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 6B F7"
+        },
+        {
+          "number": 109,
+          "name": "Ultra Proteus 4-109",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 6C F7"
+        },
+        {
+          "number": 110,
+          "name": "Ultra Proteus 4-110",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 6D F7"
+        },
+        {
+          "number": 111,
+          "name": "Ultra Proteus 4-111",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 6E F7"
+        },
+        {
+          "number": 112,
+          "name": "Ultra Proteus 4-112",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 6F F7"
+        },
+        {
+          "number": 113,
+          "name": "Ultra Proteus 4-113",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 70 F7"
+        },
+        {
+          "number": 114,
+          "name": "Ultra Proteus 4-114",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 71 F7"
+        },
+        {
+          "number": 115,
+          "name": "Ultra Proteus 4-115",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 72 F7"
+        },
+        {
+          "number": 116,
+          "name": "Ultra Proteus 4-116",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 73 F7"
+        },
+        {
+          "number": 117,
+          "name": "Ultra Proteus 4-117",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 74 F7"
+        },
+        {
+          "number": 118,
+          "name": "Ultra Proteus 4-118",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 75 F7"
+        },
+        {
+          "number": 119,
+          "name": "Ultra Proteus 4-119",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 76 F7"
+        },
+        {
+          "number": 120,
+          "name": "Ultra Proteus 4-120",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 77 F7"
+        },
+        {
+          "number": 121,
+          "name": "Ultra Proteus 4-121",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 78 F7"
+        },
+        {
+          "number": 122,
+          "name": "Ultra Proteus 4-122",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 79 F7"
+        },
+        {
+          "number": 123,
+          "name": "Ultra Proteus 4-123",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 7A F7"
+        },
+        {
+          "number": 124,
+          "name": "Ultra Proteus 4-124",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 7B F7"
+        },
+        {
+          "number": 125,
+          "name": "Ultra Proteus 4-125",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 7C F7"
+        },
+        {
+          "number": 126,
+          "name": "Ultra Proteus 4-126",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 7D F7"
+        },
+        {
+          "number": 127,
+          "name": "Ultra Proteus 4-127",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 7E F7"
+        },
+        {
+          "number": 128,
+          "name": "Ultra Proteus 4-128",
+          "category": "Cinematic & Extreme Filters",
+          "tags": [
+            "z-plane",
+            "cinematic & extreme filters",
+            "ultra proteus"
+          ],
+          "sysex_dump": "F0 18 08 00 7F F7"
+        }
+      ]
+    }
+  ]
+}
