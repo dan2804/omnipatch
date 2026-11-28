@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omnipatch Metro - Vibrant Hardware Chroma</title>
+  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@200;300;400;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap');
+
+    * {
+      border-radius: 0px !important; /* Strict Windows 8 Metro Principle: Zero Curved Corners */
+      box-sizing: border-box;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+      user-select: none;
+      overflow-x: auto;
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    .font-mono-code {
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* Windows 8 Metro Typography */
+    .metro-title-huge {
+      font-size: 54px;
+      font-weight: 200; /* Segoe UI Light */
+      letter-spacing: -0.03em;
+      line-height: 1;
+    }
+    .metro-subtitle {
+      font-size: 22px;
+      font-weight: 300;
+      letter-spacing: -0.01em;
+      opacity: 0.9;
+    }
+
+    /* Windows 8 Metro Hub Horizontal Column */
+    .metro-column {
+      width: 320px;
+      flex-shrink: 0;
+      display: flex;
+      flex-direction: column;
+      transition: all 0.2s ease;
+    }
+
+    /* ============================================================
+       VIBRANCY MODES (The Secret to True Windows 8 Color)
+       ============================================================ */
+
+    /* MODE 1: FULL SOLID COLOR BLOCKS (True Windows 8 Saturated Immersion) */
+    body.mode-solid {
+      background-color: var(--page-bg, #1a1528);
+      color: #ffffff;
+    }
+    body.mode-solid .metro-column-1 { background-color: var(--c1); color: var(--c1-text, #ffffff); }
+    body.mode-solid .metro-column-2 { background-color: var(--c2); color: var(--c2-text, #ffffff); }
+    body.mode-solid .metro-column-3 { background-color: var(--c3); color: var(--c3-text, #ffffff); }
+    body.mode-solid .metro-column-4 { background-color: var(--c4); color: var(--c4-text, #ffffff); }
+    body.mode-solid .metro-column-5 { background-color: var(--c5); color: var(--c5-text, #ffffff); }
+
+    body.mode-solid .metro-card-panel {
+      background-color: rgba(0, 0, 0, 0.18);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+    }
+    body.mode-solid .metro-toggle-box {
+      border: 2px solid currentColor;
+      background: rgba(0, 0, 0, 0.25);
+    }
+    body.mode-solid .metro-toggle-box.is-on {
+      background: #ffffff;
+    }
+    body.mode-solid .metro-toggle-box.is-on .metro-thumb {
+      background: #000000;
+      left: 28px;
+    }
+
+    /* MODE 2: SURFACE RT LIGHT (Crisp White Canvas with Screaming Color Blocks) */
+    body.mode-light {
+      background-color: #f4f4f7;
+      color: #111116;
+    }
+    body.mode-light .metro-column-1 { background-color: #ffffff; border-top: 8px solid var(--c1); color: #111116; box-shadow: 0 4px 12px rgba(0,0,0,0.06); }
+    body.mode-light .metro-column-2 { background-color: #ffffff; border-top: 8px solid var(--c2); color: #111116; box-shadow: 0 4px 12px rgba(0,0,0,0.06); }
+    body.mode-light .metro-column-3 { background-color: #ffffff; border-top: 8px solid var(--c3); color: #111116; box-shadow: 0 4px 12px rgba(0,0,0,0.06); }
+    body.mode-light .metro-column-4 { background-color: #ffffff; border-top: 8px solid var(--c4); color: #111116; box-shadow: 0 4px 12px rgba(0,0,0,0.06); }
+    body.mode-light .metro-column-5 { background-color: #ffffff; border-top: 8px solid var(--c5); color: #111116; box-shadow: 0 4px 12px rgba(0,0,0,0.06); }
+    body.mode-light .metro-card-panel {
+      background-color: #f9f9fb;
+      border: 1px solid #e2e2e8;
+    }
+
+    /* MODE 3: NEON DARK CHROMA (Deep Pitch Background, Ultra-Saturated Glow) */
+    body.mode-dark {
+      background-color: #0b0c10;
+      color: #ffffff;
+    }
+    body.mode-dark .metro-column-1 { background-color: #13141c; border-top: 6px solid var(--c1); border-bottom: 4px solid var(--c1); }
+    body.mode-dark .metro-column-2 { background-color: #13141c; border-top: 6px solid var(--c2); border-bottom: 4px solid var(--c2); }
+    body.mode-dark .metro-column-3 { background-color: #13141c; border-top: 6px solid var(--c3); border-bottom: 4px solid var(--c3); }
+    body.mode-dark .metro-column-4 { background-color: #13141c; border-top: 6px solid var(--c4); border-bottom: 4px solid var(--c4); }
+    body.mode-dark .metro-column-5 { background-color: #13141c; border-top: 6px solid var(--c5); border-bottom: 4px solid var(--c5); }
+    body.mode-dark .metro-card-panel {
+      background-color: #1b1c26;
+      border: 1px solid #282a3a;
+    }
+
+    /* Windows 8 Live Tile (Mosaic Grid) */
+    .metro-tile {
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 16px;
+      transition: transform 0.08s ease, outline 0.08s ease;
+      transform-origin: center;
+    }
+    .metro-tile:hover {
+      outline: 3px solid #ffffff;
+      z-index: 20;
+    }
+    .metro-tile:active {
+      transform: perspective(600px) scale(0.97) rotateX(2deg);
+    }
+
+    /* Metro Slider Controls */
+    .metro-slider {
+      position: relative;
+      margin-top: 6px;
+      margin-bottom: 14px;
+    }
+    .metro-slider-bar {
+      height: 10px;
+      background: rgba(0, 0, 0, 0.35);
+      position: relative;
+      cursor: pointer;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .metro-slider-fill {
+      height: 100%;
+      background: #ffffff;
+      width: 50%;
+      transition: width 0.05s ease;
+    }
+    .metro-slider-thumb {
+      width: 14px;
+      height: 26px;
+      background: #ffffff;
+      border: 2px solid #000000;
+      position: absolute;
+      top: -9px;
+      left: calc(50% - 7px);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+      pointer-events: none;
+    }
+
+    /* Windows 8 Metro Toggle Switch */
+    .metro-toggle-box {
+      width: 48px;
+      height: 22px;
+      position: relative;
+      cursor: pointer;
+      transition: all 0.12s ease;
+    }
+    .metro-thumb {
+      width: 12px;
+      height: 14px;
+      background: #ffffff;
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      transition: all 0.12s cubic-bezier(0.1, 0.9, 0.2, 1);
+    }
+    .metro-toggle-box.is-on .metro-thumb {
+      left: 30px;
+    }
+
+    /* Bottom App Bar Circle Action */
+    .metro-appbar-btn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3px;
+      background: transparent;
+      border: none;
+      color: inherit;
+      cursor: pointer;
+      padding: 4px 10px;
+    }
+    .metro-appbar-btn .btn-circle {
+      width: 42px;
+      height: 42px;
+      border: 2px solid currentColor;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      transition: all 0.08s ease;
+    }
+    .metro-appbar-btn:hover .btn-circle {
+      background: #ffffff;
+      color: #000000;
+      border-color: #ffffff;
+    }
+
+    /* Roland 5-Color Hardware Rainbow Stripe */
+    .roland-rainbow {
+      height: 6px;
+      width: 100%;
+      display: flex;
+    }
+    .roland-rainbow span {
+      flex: 1;
+    }
+  </style>
+</head>
+<body class="mode-solid min-h-screen flex flex-col justify-between" id="app-body" style="
+  --page-bg: #1c1527;
+  --c1: #ff5500; /* Roland DCO Orange */
+  --c1-text: #ffffff;
+  --c2: #0078d7; /* Roland VCF Blue */
+  --c2-text: #ffffff;
+  --c3: #f59e0b; /* Roland ADSR Yellow */
+  --c3-text: #000000;
+  --c4: #008a00; /* Roland Chorus Emerald */
+  --c4-text: #ffffff;
+  --c5: #8a2be2; /* Roland LFO Violet */
+  --c5-text: #ffffff;
+">
+
+  <!-- ROLAND AUTHENTIC 5-STRIPE HARDWARE RAINBOW -->
+  <div class="roland-rainbow" id="hardware-rainbow">
+    <span style="background-color: #e51400;"></span>
+    <span style="background-color: #ff5500;"></span>
+    <span style="background-color: #f59e0b;"></span>
+    <span style="background-color: #008a00;"></span>
+    <span style="background-color: #0078d7;"></span>
+  </div>
+
+  <!-- ============================================================== -->
+  <!-- TOP METRO COMMAND BAR                                          -->
+  <!-- ============================================================== -->
+  <header class="px-8 py-3.5 bg-black/40 border-b border-white/10 flex flex-wrap items-center justify-between gap-4">
+    <div class="flex items-center gap-6">
+      <div class="flex items-center gap-2">
+        <span class="text-xs font-black uppercase tracking-widest px-2.5 py-1 text-black font-mono" id="hw-badge" style="background-color: var(--c1)">ROLAND</span>
+        <span class="text-sm font-bold tracking-widest uppercase font-mono">OMNIPATCH METRO</span>
+      </div>
+
+      <!-- HARDWARE PALETTE SWITCHER -->
+      <div class="flex items-center gap-1.5 flex-wrap">
+        <span class="text-[11px] font-bold uppercase opacity-75 mr-1">Hardware:</span>
+        <button class="px-3 py-1 font-bold text-xs uppercase cursor-pointer border-2 border-white text-white shadow-sm" style="background-color: #ff5500;" onclick="selectHardware('juno')">Juno-106 Rainbow</button>
+        <button class="px-3 py-1 font-bold text-xs uppercase cursor-pointer text-black" style="background-color: #00a499;" onclick="selectHardware('dx7')">DX7 FM Jade</button>
+        <button class="px-3 py-1 font-bold text-xs uppercase cursor-pointer text-white" style="background-color: #d90429;" onclick="selectHardware('nord')">Nord Fire Red</button>
+        <button class="px-3 py-1 font-bold text-xs uppercase cursor-pointer text-black" style="background-color: #ffe600;" onclick="selectHardware('orbit')">E-MU Acid Neon</button>
+        <button class="px-3 py-1 font-bold text-xs uppercase cursor-pointer text-white" style="background-color: #0284c7;" onclick="selectHardware('casio')">Casio Tri-Color</button>
+      </div>
+    </div>
+
+    <!-- VIBRANCY & VIEW CONTROLS -->
+    <div class="flex items-center gap-3">
+      <!-- Vibrancy Style Selector -->
+      <div class="flex items-center border border-white/20 bg-black/30 p-0.5">
+        <button class="px-3 py-1 text-xs font-bold uppercase cursor-pointer bg-white text-black" id="btn-mode-solid" onclick="setVibrancyMode('solid')">Solid Color</button>
+        <button class="px-3 py-1 text-xs font-bold uppercase cursor-pointer opacity-70 hover:opacity-100" id="btn-mode-light" onclick="setVibrancyMode('light')">Surface Light</button>
+        <button class="px-3 py-1 text-xs font-bold uppercase cursor-pointer opacity-70 hover:opacity-100" id="btn-mode-dark" onclick="setVibrancyMode('dark')">Neon Dark</button>
+      </div>
+
+      <!-- Hub vs Start Screen Tab -->
+      <div class="flex items-center border border-white/20 bg-black/30 p-0.5">
+        <button class="px-4 py-1 text-xs font-bold uppercase cursor-pointer bg-white text-black" id="tab-hub" onclick="switchView('hub')">Hub Panorama</button>
+        <button class="px-4 py-1 text-xs font-bold uppercase cursor-pointer opacity-70 hover:opacity-100" id="tab-tiles" onclick="switchView('tiles')">Start Screen Tiles</button>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- ============================================================== -->
+  <!-- MAIN PANORAMIC CANVAS                                          -->
+  <!-- ============================================================== -->
+  <main class="flex-1 px-8 pt-5 pb-4 overflow-x-auto">
+
+    <!-- ============================================================ -->
+    <!-- VIEW A: FULL VIBRANT COLOR-BLOCKED HUB PANORAMA              -->
+    <!-- ============================================================ -->
+    <div id="view-hub" class="space-y-6">
+
+      <!-- Hub Header Title -->
+      <div class="flex items-baseline justify-between border-b border-white/15 pb-4">
+        <div class="flex items-baseline gap-4">
+          <h1 class="metro-title-huge" id="title-name">juno 106</h1>
+          <span class="metro-subtitle font-mono uppercase" id="title-sub">polyphonic synthesizer</span>
+        </div>
+
+        <div class="flex items-center gap-3">
+          <div class="bg-black/40 border-2 border-white px-5 py-2 flex items-center gap-4">
+            <span class="text-xs font-bold uppercase tracking-wider opacity-75">Active Sound:</span>
+            <span class="text-base font-bold font-mono tracking-wide" id="active-patch-label">A-11 STRING ENS 1</span>
+            <button class="px-2.5 py-1 text-[11px] font-black uppercase text-black cursor-pointer shadow-md" style="background-color: var(--c1)" onclick="triggerAudition()">PLAY AUDITION</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Panoramic Columns -->
+      <div class="flex gap-6 pb-6 pt-1">
+
+        <!-- ======================================================== -->
+        <!-- COLUMN 1: DCO OSCILLATORS (Orange)                       -->
+        <!-- ======================================================== -->
+        <div class="metro-column metro-column-1 p-5 flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-baseline mb-4 border-b border-current/30 pb-2">
+              <h2 class="text-2xl font-light tracking-tight lowercase">dco oscillators</h2>
+              <span class="text-xs font-mono font-bold uppercase opacity-80">dco 01</span>
+            </div>
+
+            <!-- Octave Range -->
+            <div class="mb-5">
+              <span class="text-xs font-bold uppercase tracking-wider block mb-2 opacity-90">Octave Range (Footage)</span>
+              <div class="grid grid-cols-3 gap-1">
+                <button class="py-2 text-xs font-bold cursor-pointer border border-current bg-black/20 hover:bg-black/40">16'</button>
+                <button class="py-2 text-xs font-bold cursor-pointer border-2 border-white bg-white text-black font-black">8'</button>
+                <button class="py-2 text-xs font-bold cursor-pointer border border-current bg-black/20 hover:bg-black/40">4'</button>
+              </div>
+            </div>
+
+            <!-- Waveform Toggles -->
+            <div class="space-y-3 mb-5">
+              <div class="flex items-center justify-between p-2 metro-card-panel">
+                <span class="text-xs font-bold">Pulse Wave [ ⎍ ]</span>
+                <div class="metro-toggle-box is-on" onclick="toggleSwitch(this)">
+                  <div class="metro-thumb"></div>
+                </div>
+              </div>
+
+              <div class="flex items-center justify-between p-2 metro-card-panel">
+                <span class="text-xs font-bold">Sawtooth Wave [ ⩘ ]</span>
+                <div class="metro-toggle-box is-on" onclick="toggleSwitch(this)">
+                  <div class="metro-thumb"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sliders -->
+            <div class="space-y-3">
+              <div>
+                <div class="flex justify-between text-xs font-bold mb-1">
+                  <span>Pulse Width Modulation</span>
+                  <span class="font-mono text-sm font-black" id="val-pwm">64</span>
+                </div>
+                <div class="metro-slider-bar" onclick="setSliderClick(event, 'pwm', 127)">
+                  <div class="metro-slider-fill" id="fill-pwm" style="width: 50%;"></div>
+                  <div class="metro-slider-thumb" id="thumb-pwm" style="left: calc(50% - 7px);"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="flex justify-between text-xs font-bold mb-1">
+                  <span>Sub-Oscillator Level</span>
+                  <span class="font-mono text-sm font-black" id="val-sub">75</span>
+                </div>
+                <div class="metro-slider-bar" onclick="setSliderClick(event, 'sub', 127)">
+                  <div class="metro-slider-fill" id="fill-sub" style="width: 59%;"></div>
+                  <div class="metro-slider-thumb" id="thumb-sub" style="left: calc(59% - 7px);"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="flex justify-between text-xs font-bold mb-1">
+                  <span>Noise Generator</span>
+                  <span class="font-mono text-sm font-black" id="val-noise">0</span>
+                </div>
+                <div class="metro-slider-bar" onclick="setSliderClick(event, 'noise', 127)">
+                  <div class="metro-slider-fill" id="fill-noise" style="width: 0%;"></div>
+                  <div class="metro-slider-thumb" id="thumb-noise" style="left: calc(0% - 7px);"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-4 pt-3 border-t border-current/20 flex justify-between text-[11px] font-mono opacity-80">
+            <span>DCO SYNTH CORE</span>
+            <span>6 VOICES</span>
+          </div>
+        </div>
+
+
+        <!-- ======================================================== -->
+        <!-- COLUMN 2: VCF FILTERS & RESONANCE (Blue)                 -->
+        <!-- ======================================================== -->
+        <div class="metro-column metro-column-2 p-5 flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-baseline mb-4 border-b border-current/30 pb-2">
+              <h2 class="text-2xl font-light tracking-tight lowercase">filter & vcf</h2>
+              <span class="text-xs font-mono font-bold uppercase opacity-80">ir3109</span>
+            </div>
+
+            <!-- HPF Position -->
+            <div class="mb-5">
+              <span class="text-xs font-bold uppercase tracking-wider block mb-2 opacity-90">High-Pass Filter Position</span>
+              <div class="grid grid-cols-4 gap-1">
+                <button class="py-2 text-xs font-bold cursor-pointer border-2 border-white bg-white text-black font-black">0 (BASS)</button>
+                <button class="py-2 text-xs font-bold cursor-pointer border border-current bg-black/20 hover:bg-black/40">1</button>
+                <button class="py-2 text-xs font-bold cursor-pointer border border-current bg-black/20 hover:bg-black/40">2</button>
+                <button class="py-2 text-xs font-bold cursor-pointer border border-current bg-black/20 hover:bg-black/40">3</button>
+              </div>
+            </div>
+
+            <!-- Sliders -->
+            <div class="space-y-4">
+              <div>
+                <div class="flex justify-between text-xs font-bold mb-1">
+                  <span class="text-sm">Cutoff Frequency (24dB)</span>
+                  <span class="font-mono text-base font-black" id="val-cut">84</span>
+                </div>
+                <div class="metro-slider-bar" onclick="setSliderClick(event, 'cut', 127)">
+                  <div class="metro-slider-fill" id="fill-cut" style="width: 66%;"></div>
+                  <div class="metro-slider-thumb" id="thumb-cut" style="left: calc(66% - 7px);"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="flex justify-between text-xs font-bold mb-1">
+                  <span>Resonance (Self-Osc)</span>
+                  <span class="font-mono text-sm font-black" id="val-res">42</span>
+                </div>
+                <div class="metro-slider-bar" onclick="setSliderClick(event, 'res', 127)">
+                  <div class="metro-slider-fill" id="fill-res" style="width: 33%;"></div>
+                  <div class="metro-slider-thumb" id="thumb-res" style="left: calc(33% - 7px);"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="flex justify-between text-xs font-bold mb-1">
+                  <span>Envelope Modulation</span>
+                  <span class="font-mono text-sm font-black" id="val-env">70</span>
+                </div>
+                <div class="metro-slider-bar" onclick="setSliderClick(event, 'env', 127)">
+                  <div class="metro-slider-fill" id="fill-env" style="width: 55%;"></div>
+                  <div class="metro-slider-thumb" id="thumb-env" style="left: calc(55% - 7px);"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="flex justify-between text-xs font-bold mb-1">
+                  <span>Keyboard Tracking</span>
+                  <span class="font-mono text-sm font-black" id="val-key">100%</span>
+                </div>
+                <div class="metro-slider-bar" onclick="setSliderClick(event, 'key', 100)">
+                  <div class="metro-slider-fill" id="fill-key" style="width: 100%;"></div>
+                  <div class="metro-slider-thumb" id="thumb-key" style="left: calc(100% - 7px);"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-4 pt-3 border-t border-current/20 flex justify-between text-[11px] font-mono opacity-80">
+            <span>ANALOG LOWPASS</span>
+            <span>24 DB/OCT</span>
+          </div>
+        </div>
+
+
+        <!-- ======================================================== -->
+        <!-- COLUMN 3: ENVELOPE ADSR (Yellow/Amber)                  -->
+        <!-- ======================================================== -->
+        <div class="metro-column metro-column-3 p-5 flex flex-col justify-between" style="width: 340px;">
+          <div>
+            <div class="flex justify-between items-baseline mb-4 border-b border-current/30 pb-2">
+              <h2 class="text-2xl font-light tracking-tight lowercase">envelope adsr</h2>
+              <span class="text-xs font-mono font-bold uppercase opacity-80">transient</span>
+            </div>
+
+            <!-- Interactive Visual Curve -->
+            <div class="bg-black/25 p-3 border border-current/30 mb-4">
+              <canvas id="envCanvas" width="300" height="95" class="w-full"></canvas>
+              <div class="flex justify-between text-[10px] font-mono font-bold mt-1 uppercase opacity-80">
+                <span>Att</span>
+                <span>Dec</span>
+                <span>Sus</span>
+                <span>Rel</span>
+              </div>
+            </div>
+
+            <!-- ADSR Sliders -->
+            <div class="grid grid-cols-2 gap-3">
+              <div>
+                <div class="flex justify-between text-xs font-bold mb-1">
+                  <span>Attack</span>
+                  <span class="font-mono font-black" id="val-att">15</span>
+                </div>
+                <div class="metro-slider-bar" onclick="setSliderClick(event, 'att', 127)">
+                  <div class="metro-slider-fill" id="fill-att" style="width: 12%;"></div>
+                  <div class="metro-slider-thumb" id="thumb-att" style="left: calc(12% - 7px);"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="flex justify-between text-xs font-bold mb-1">
+                  <span>Decay</span>
+                  <span class="font-mono font-black" id="val-dec">65</span>
+                </div>
+                <div class="metro-slider-bar" onclick="setSliderClick(event, 'dec', 127)">
+                  <div class="metro-slider-fill" id="fill-dec" style="width: 51%;"></div>
+                  <div class="metro-slider-thumb" id="thumb-dec" style="left: calc(51% - 7px);"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="flex justify-between text-xs font-bold mb-1">
+                  <span>Sustain</span>
+                  <span class="font-mono font-black" id="val-sus">95</span>
+                </div>
+                <div class="metro-slider-bar" onclick="setSliderClick(event, 'sus', 127)">
+                  <div class="metro-slider-fill" id="fill-sus" style="width: 75%;"></div>
+                  <div class="metro-slider-thumb" id="thumb-sus" style="left: calc(75% - 7px);"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="flex justify-between text-xs font-bold mb-1">
+                  <span>Release</span>
+                  <span class="font-mono font-black" id="val-rel">45</span>
+                </div>
+                <div class="metro-slider-bar" onclick="setSliderClick(event, 'rel', 127)">
+                  <div class="metro-slider-fill" id="fill-rel" style="width: 35%;"></div>
+                  <div class="metro-slider-thumb" id="thumb-rel" style="left: calc(35% - 7px);"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-4 pt-3 border-t border-current/20 flex justify-between text-[11px] font-mono opacity-80">
+            <span>ANALOG GENERATOR</span>
+            <span>SHAPE 01</span>
+          </div>
+        </div>
+
+
+        <!-- ======================================================== -->
+        <!-- COLUMN 4: BBD CHORUS & VCA (Emerald Green)               -->
+        <!-- ======================================================== -->
+        <div class="metro-column metro-column-4 p-5 flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-baseline mb-4 border-b border-current/30 pb-2">
+              <h2 class="text-2xl font-light tracking-tight lowercase">bbd stereo chorus</h2>
+              <span class="text-xs font-mono font-bold uppercase opacity-80">mn3009</span>
+            </div>
+
+            <!-- Mode Selector -->
+            <div class="mb-5">
+              <span class="text-xs font-bold uppercase tracking-wider block mb-2 opacity-90">Analog Chorus Mode</span>
+              <div class="grid grid-cols-2 gap-2">
+                <button class="py-2.5 text-xs font-bold cursor-pointer border border-current bg-black/20 hover:bg-black/40">OFF</button>
+                <button class="py-2.5 text-xs font-bold cursor-pointer border-2 border-white bg-white text-black font-black">CHORUS I</button>
+                <button class="py-2.5 text-xs font-bold cursor-pointer border border-current bg-black/20 hover:bg-black/40">CHORUS II</button>
+                <button class="py-2.5 text-xs font-bold cursor-pointer border border-current bg-black/20 hover:bg-black/40">I + II (FAST)</button>
+              </div>
+            </div>
+
+            <!-- Master VCA Level -->
+            <div class="mb-5">
+              <div class="flex justify-between text-xs font-bold mb-1">
+                <span class="text-sm">VCA Master Level</span>
+                <span class="font-mono text-base font-black" id="val-vca">110</span>
+              </div>
+              <div class="metro-slider-bar" onclick="setSliderClick(event, 'vca', 127)">
+                <div class="metro-slider-fill" id="fill-vca" style="width: 86%;"></div>
+                <div class="metro-slider-thumb" id="thumb-vca" style="left: calc(86% - 7px);"></div>
+              </div>
+            </div>
+
+            <!-- Real-Time SysEx Feedback Box -->
+            <div>
+              <span class="text-xs font-bold uppercase tracking-wider block mb-1 opacity-90">SysEx Live Stream</span>
+              <div class="p-3 bg-black/40 border border-current/40 font-mono text-[11px] leading-relaxed">
+                <span class="font-bold">F0 41 32 00 08 4E F7</span><br>
+                <span class="opacity-75">F0 41 32 00 09 23 F7</span><br>
+                <span class="opacity-50">F0 41 32 00 0A 1F F7</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-4 pt-3 border-t border-current/20 flex justify-between text-[11px] font-mono opacity-80">
+            <span>DUAL BBD DELAY</span>
+            <span>STEREO SPREAD</span>
+          </div>
+        </div>
+
+
+        <!-- ======================================================== -->
+        <!-- COLUMN 5: LFO MODULATION (Violet / Purple)               -->
+        <!-- ======================================================== -->
+        <div class="metro-column metro-column-5 p-5 flex flex-col justify-between">
+          <div>
+            <div class="flex justify-between items-baseline mb-4 border-b border-current/30 pb-2">
+              <h2 class="text-2xl font-light tracking-tight lowercase">lfo modulation</h2>
+              <span class="text-xs font-mono font-bold uppercase opacity-80">tri / sine</span>
+            </div>
+
+            <div class="space-y-4">
+              <div>
+                <div class="flex justify-between text-xs font-bold mb-1">
+                  <span>LFO Rate (Speed)</span>
+                  <span class="font-mono text-sm font-black" id="val-lfor">52</span>
+                </div>
+                <div class="metro-slider-bar" onclick="setSliderClick(event, 'lfor', 127)">
+                  <div class="metro-slider-fill" id="fill-lfor" style="width: 41%;"></div>
+                  <div class="metro-slider-thumb" id="thumb-lfor" style="left: calc(41% - 7px);"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="flex justify-between text-xs font-bold mb-1">
+                  <span>LFO Delay Time</span>
+                  <span class="font-mono text-sm font-black" id="val-lfod">20</span>
+                </div>
+                <div class="metro-slider-bar" onclick="setSliderClick(event, 'lfod', 127)">
+                  <div class="metro-slider-fill" id="fill-lfod" style="width: 16%;"></div>
+                  <div class="metro-slider-thumb" id="thumb-lfod" style="left: calc(16% - 7px);"></div>
+                </div>
+              </div>
+
+              <!-- LFO Trigger Mode -->
+              <div class="p-3 metro-card-panel">
+                <span class="text-xs font-bold block mb-2 uppercase">LFO Auto-Trigger</span>
+                <div class="flex items-center justify-between">
+                  <span class="text-xs font-semibold">Key Sync</span>
+                  <div class="metro-toggle-box is-on" onclick="toggleSwitch(this)">
+                    <div class="metro-thumb"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-4 pt-3 border-t border-current/20 flex justify-between text-[11px] font-mono opacity-80">
+            <span>LOW FREQ OSC</span>
+            <span>0.1 - 30 HZ</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- ============================================================ -->
+    <!-- VIEW B: VIBRANT WINDOWS 8 START SCREEN TILES SYNTHESIZER     -->
+    <!-- ============================================================ -->
+    <div id="view-tiles" class="hidden space-y-6 pb-6">
+
+      <div class="flex items-baseline justify-between border-b border-white/15 pb-4">
+        <div class="flex items-baseline gap-4">
+          <h1 class="metro-title-huge">start screen</h1>
+          <span class="metro-subtitle font-mono uppercase">interactive live tiles</span>
+        </div>
+        <span class="text-xs font-mono font-bold bg-white text-black px-3 py-1">CLICK TILES TO PLAY OR EDIT</span>
+      </div>
+
+      <!-- MOSAIC GRID OF VIBRANT WINDOWS 8 LIVE TILES -->
+      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3.5 auto-rows-[140px]">
+
+        <!-- Roland Juno-106 Hero Tile (Wide 2x1 Bright Orange) -->
+        <div class="metro-tile col-span-2 text-white" style="background-color: var(--c1);" onclick="selectHardware('juno'); switchView('hub');">
+          <div class="flex justify-between items-start">
+            <span class="text-xs font-black uppercase tracking-widest bg-black text-white px-2 py-0.5 font-mono">ROLAND</span>
+            <span class="text-xs font-mono font-bold">ANALOG DCO</span>
+          </div>
+          <div>
+            <div class="text-3xl font-light leading-none">Juno-106</div>
+            <div class="text-xs font-semibold opacity-90 mt-1.5">128 Patches · IR3109 Filter · BBD Chorus</div>
+          </div>
+        </div>
+
+        <!-- Yamaha DX7-II Tile (Teal #00a499) -->
+        <div class="metro-tile text-black" style="background-color: #00a499;" onclick="selectHardware('dx7'); switchView('hub');">
+          <span class="text-xs font-mono font-black uppercase bg-black text-white px-1.5 py-0.5 w-max">YAMAHA</span>
+          <div>
+            <div class="text-xl font-bold leading-tight">DX7-II FD</div>
+            <div class="text-xs font-semibold opacity-90 mt-1">32 Algs · 6-Op FM</div>
+          </div>
+        </div>
+
+        <!-- Nord Lead 2X Tile (Fire Red #d90429) -->
+        <div class="metro-tile text-white" style="background-color: #d90429;" onclick="selectHardware('nord'); switchView('hub');">
+          <span class="text-xs font-mono font-bold uppercase bg-white text-black px-1.5 py-0.5 w-max">CLAVIA</span>
+          <div>
+            <div class="text-xl font-bold leading-tight">Nord Lead 2X</div>
+            <div class="text-xs opacity-90 mt-1">Virtual Analog Lead</div>
+          </div>
+        </div>
+
+        <!-- E-MU Orbit-3 (Acid Neon Yellow #ffe600) -->
+        <div class="metro-tile text-black" style="background-color: #ffe600;" onclick="selectHardware('orbit'); switchView('hub');">
+          <span class="text-xs font-mono font-black uppercase bg-black text-yellow-300 px-1.5 py-0.5 w-max">E-MU</span>
+          <div>
+            <div class="text-xl font-black leading-tight">Orbit-3 / XL-1</div>
+            <div class="text-xs font-bold opacity-90 mt-1">Z-Plane Morphing Filter</div>
+          </div>
+        </div>
+
+        <!-- Casio CZ-101 (Casio Cyan #0284c7) -->
+        <div class="metro-tile text-white" style="background-color: #0284c7;" onclick="selectHardware('casio'); switchView('hub');">
+          <span class="text-xs font-mono font-bold uppercase bg-black text-white px-1.5 py-0.5 w-max">CASIO</span>
+          <div>
+            <div class="text-xl font-bold leading-tight">CZ-101 / RZ-1</div>
+            <div class="text-xs opacity-90 mt-1">Phase Distortion & PCM</div>
+          </div>
+        </div>
+
+        <!-- Filter Cutoff Live Interactive Tile (Large 2x2 Roland Blue) -->
+        <div class="metro-tile col-span-2 row-span-2 text-white p-6" style="background-color: var(--c2);">
+          <div class="flex justify-between items-start">
+            <span class="text-xs font-black uppercase tracking-widest bg-black text-white px-2 py-0.5 font-mono">LIVE CONTROL</span>
+            <span class="text-xs font-mono font-bold">VCF RES</span>
+          </div>
+          <div class="my-auto">
+            <span class="text-xs uppercase font-bold opacity-80 block">Filter Cutoff (Tap to Audition)</span>
+            <div class="text-5xl font-light font-mono tracking-tight my-1" id="tile-cutoff-val">84</div>
+            <div class="metro-slider-bar mt-3" onclick="setSliderClick(event, 'cut', 127)">
+              <div class="metro-slider-fill" id="tile-fill-cut" style="width: 66%;"></div>
+              <div class="metro-slider-thumb" id="tile-thumb-cut" style="left: calc(66% - 7px);"></div>
+            </div>
+          </div>
+          <div class="flex justify-between text-xs font-mono opacity-80">
+            <span>RESONANCE: 42</span>
+            <span>24dB 4-POLE</span>
+          </div>
+        </div>
+
+        <!-- Moog Subsequent 37 (Warm Tangerine #ff9100) -->
+        <div class="metro-tile text-black" style="background-color: #ff9100;">
+          <span class="text-xs font-mono font-black uppercase bg-black text-white px-1.5 py-0.5 w-max">MOOG</span>
+          <div>
+            <div class="text-xl font-black leading-tight">Subsequent 37</div>
+            <div class="text-xs font-bold opacity-90 mt-1">Multidrive Ladder</div>
+          </div>
+        </div>
+
+        <!-- Sequential Prophet-5 (Plum Crimson #991b1b) -->
+        <div class="metro-tile text-white" style="background-color: #991b1b;">
+          <span class="text-xs font-mono font-bold uppercase bg-white text-black px-1.5 py-0.5 w-max">SEQUENTIAL</span>
+          <div>
+            <div class="text-xl font-bold leading-tight">Prophet-5 Rev 4</div>
+            <div class="text-xs opacity-90 mt-1">Curtis / SSM Poly</div>
+          </div>
+        </div>
+
+        <!-- Waldorf Microwave (Electric Gold #eab308) -->
+        <div class="metro-tile text-black" style="background-color: #eab308;">
+          <span class="text-xs font-mono font-black uppercase bg-black text-white px-1.5 py-0.5 w-max">WALDORF</span>
+          <div>
+            <div class="text-xl font-black leading-tight">Microwave II</div>
+            <div class="text-xs font-bold opacity-90 mt-1">ASIC Wavetable Poly</div>
+          </div>
+        </div>
+
+        <!-- Korg Minilogue (Emerald Green #059669) -->
+        <div class="metro-tile text-white" style="background-color: #059669;">
+          <span class="text-xs font-mono font-bold uppercase bg-black text-white px-1.5 py-0.5 w-max">KORG</span>
+          <div>
+            <div class="text-xl font-bold leading-tight">Minilogue XD</div>
+            <div class="text-xs opacity-90 mt-1">Hybrid Analog Synth</div>
+          </div>
+        </div>
+
+        <!-- Universal Librarian Search Tile (Wide 2x1 Electric Cobalt #1d4ed8) -->
+        <div class="metro-tile col-span-2 text-white" style="background-color: #1d4ed8;">
+          <div class="flex justify-between items-start">
+            <span class="text-xs font-bold uppercase tracking-widest bg-white text-black px-2 py-0.5 font-mono">SQLITE FTS5 SEARCH</span>
+            <span class="text-xs font-mono font-bold">198,171 PRESETS</span>
+          </div>
+          <div>
+            <div class="text-3xl font-light leading-none">Universal Librarian</div>
+            <div class="text-xs opacity-90 mt-1.5">Sub-millisecond query across all 861 instruments</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+
+  <!-- ============================================================== -->
+  <!-- VIBRANT WINDOWS 8 BOTTOM APP BAR                               -->
+  <!-- ============================================================== -->
+  <footer class="px-8 py-3 bg-black/60 border-t border-white/10 flex items-center justify-between">
+    <div class="flex items-center gap-1">
+      <button class="metro-appbar-btn" onclick="triggerAudition()">
+        <div class="btn-circle">▶</div>
+        <span class="text-[11px] font-bold lowercase">audition</span>
+      </button>
+      <button class="metro-appbar-btn">
+        <div class="btn-circle">💾</div>
+        <span class="text-[11px] font-bold lowercase">save</span>
+      </button>
+      <button class="metro-appbar-btn">
+        <div class="btn-circle">⤓</div>
+        <span class="text-[11px] font-bold lowercase">export .syx</span>
+      </button>
+      <button class="metro-appbar-btn">
+        <div class="btn-circle">⇄</div>
+        <span class="text-[11px] font-bold lowercase">compare a/b</span>
+      </button>
+    </div>
+
+    <div class="flex items-center gap-6">
+      <div class="flex items-center gap-1">
+        <button class="metro-appbar-btn" onclick="prevPatch()">
+          <div class="btn-circle">⏮</div>
+          <span class="text-[11px] font-bold lowercase">prev</span>
+        </button>
+        <button class="metro-appbar-btn" onclick="nextPatch()">
+          <div class="btn-circle">⏭</div>
+          <span class="text-[11px] font-bold lowercase">next</span>
+        </button>
+      </div>
+
+      <div class="px-4 py-2 border-2 border-white flex items-center gap-3 text-xs font-mono font-bold bg-black/40">
+        <span class="w-2.5 h-2.5 bg-emerald-400"></span>
+        <span>USB MIDI: <strong class="text-white">ONLINE</strong></span>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ============================================================== -->
+  <!-- LIVE JAVASCRIPT & WEB AUDIO ENGINE                             -->
+  <!-- ============================================================== -->
+  <script>
+    // --- VIBRANT HARDWARE PALETTES ---
+    const HARDWARE_CONFIGS = {
+      juno: {
+        badge: "ROLAND",
+        title: "juno 106",
+        sub: "polyphonic synthesizer",
+        patch: "A-11 STRING ENS 1",
+        rainbow: ["#e51400", "#ff5500", "#f59e0b", "#008a00", "#0078d7"],
+        pageBg: "#1c1527",
+        c1: "#ff5500", // Roland Flame Orange (DCO)
+        c1Text: "#ffffff",
+        c2: "#0078d7", // Roland Royal Cyan (VCF)
+        c2Text: "#ffffff",
+        c3: "#f59e0b", // Roland Warm Amber (ADSR)
+        c3Text: "#000000",
+        c4: "#008a00", // Roland Emerald (Chorus)
+        c4Text: "#ffffff",
+        c5: "#8a2be2", // Roland Violet (LFO)
+        c5Text: "#ffffff"
+      },
+      dx7: {
+        badge: "YAMAHA",
+        title: "dx7-ii fd",
+        sub: "6-operator digital fm",
+        patch: "PRESET 01 E.PIANO 1",
+        rainbow: ["#00a499", "#059669", "#10b981", "#d97706", "#0284c7"],
+        pageBg: "#0c1716",
+        c1: "#00a499", // Jade Teal
+        c1Text: "#000000",
+        c2: "#059669", // Emerald
+        c2Text: "#ffffff",
+        c3: "#d97706", // Amber
+        c3Text: "#ffffff",
+        c4: "#0284c7", // Sky Blue
+        c4Text: "#ffffff",
+        c5: "#7c3aed", // Digital Purple
+        c5Text: "#ffffff"
+      },
+      nord: {
+        badge: "CLAVIA",
+        title: "nord lead 2x",
+        sub: "virtual analog system",
+        patch: "01 POP SYNTH LEAD",
+        rainbow: ["#d90429", "#ef233c", "#f59e0b", "#d90429", "#111116"],
+        pageBg: "#1c0d10",
+        c1: "#d90429", // Nord Red
+        c1Text: "#ffffff",
+        c2: "#ff4d6d", // Salmon Coral
+        c2Text: "#000000",
+        c3: "#f59e0b", // Gold
+        c3Text: "#000000",
+        c4: "#b5179e", // Magenta
+        c4Text: "#ffffff",
+        c5: "#d90429", // Red
+        c5Text: "#ffffff"
+      },
+      orbit: {
+        badge: "E-MU",
+        title: "orbit-3 dance",
+        sub: "z-plane morphing synth",
+        patch: "001 PLANET DANCE HIT",
+        rainbow: ["#ffe600", "#10b981", "#a855f7", "#06b6d4", "#ec4899"],
+        pageBg: "#161608",
+        c1: "#ffe600", // Acid Yellow
+        c1Text: "#000000",
+        c2: "#10b981", // Acid Emerald
+        c2Text: "#000000",
+        c3: "#a855f7", // Techno Purple
+        c3Text: "#ffffff",
+        c4: "#06b6d4", // Electric Cyan
+        c4Text: "#000000",
+        c5: "#ec4899", // Hot Pink
+        c5Text: "#ffffff"
+      },
+      casio: {
+        badge: "CASIO",
+        title: "cz-101 / rz-1",
+        sub: "phase distortion & pcm",
+        patch: "01 SYNTH BRASS 1",
+        rainbow: ["#0284c7", "#ef4444", "#eab308", "#10b981", "#6366f1"],
+        pageBg: "#0c131a",
+        c1: "#0284c7", // Casio Blue
+        c1Text: "#ffffff",
+        c2: "#ef4444", // Casio Red
+        c2Text: "#ffffff",
+        c3: "#eab308", // Casio Yellow
+        c3Text: "#000000",
+        c4: "#10b981", // Casio Green
+        c4Text: "#ffffff",
+        c5: "#6366f1", // Casio Indigo
+        c5Text: "#ffffff"
+      }
+    };
+
+    let currentHardware = "juno";
+    let synthAudioCtx = null;
+
+    function selectHardware(key) {
+      currentHardware = key;
+      const hw = HARDWARE_CONFIGS[key];
+      const body = document.getElementById("app-body");
+
+      body.style.setProperty("--page-bg", hw.pageBg);
+      body.style.setProperty("--c1", hw.c1);
+      body.style.setProperty("--c1-text", hw.c1Text);
+      body.style.setProperty("--c2", hw.c2);
+      body.style.setProperty("--c2-text", hw.c2Text);
+      body.style.setProperty("--c3", hw.c3);
+      body.style.setProperty("--c3-text", hw.c3Text);
+      body.style.setProperty("--c4", hw.c4);
+      body.style.setProperty("--c4-text", hw.c4Text);
+      body.style.setProperty("--c5", hw.c5);
+      body.style.setProperty("--c5-text", hw.c5Text);
+
+      document.getElementById("hw-badge").innerText = hw.badge;
+      document.getElementById("title-name").innerText = hw.title;
+      document.getElementById("title-sub").innerText = hw.sub;
+      document.getElementById("active-patch-label").innerText = hw.patch;
+
+      // Update rainbow stripe
+      const rainbowSpans = document.querySelectorAll("#hardware-rainbow span");
+      hw.rainbow.forEach((col, idx) => {
+        if (rainbowSpans[idx]) rainbowSpans[idx].style.backgroundColor = col;
+      });
+
+      renderEnvelope();
+    }
+
+    function setVibrancyMode(mode) {
+      const body = document.getElementById("app-body");
+      body.className = body.className.replace(/mode-(solid|light|dark)/g, "");
+      body.classList.add("mode-" + mode);
+
+      ["solid", "light", "dark"].forEach(m => {
+        const btn = document.getElementById("btn-mode-" + m);
+        if (m === mode) {
+          btn.className = "px-3 py-1 text-xs font-bold uppercase cursor-pointer bg-white text-black";
+        } else {
+          btn.className = "px-3 py-1 text-xs font-bold uppercase cursor-pointer opacity-70 hover:opacity-100";
+        }
+      });
+
+      renderEnvelope();
+    }
+
+    function switchView(view) {
+      const hub = document.getElementById("view-hub");
+      const tiles = document.getElementById("view-tiles");
+      const tabHub = document.getElementById("tab-hub");
+      const tabTiles = document.getElementById("tab-tiles");
+
+      if (view === "hub") {
+        hub.classList.remove("hidden");
+        tiles.classList.add("hidden");
+        tabHub.className = "px-4 py-1 text-xs font-bold uppercase cursor-pointer bg-white text-black";
+        tabTiles.className = "px-4 py-1 text-xs font-bold uppercase cursor-pointer opacity-70 hover:opacity-100";
+      } else {
+        hub.classList.add("hidden");
+        tiles.classList.remove("hidden");
+        tabTiles.className = "px-4 py-1 text-xs font-bold uppercase cursor-pointer bg-white text-black";
+        tabHub.className = "px-4 py-1 text-xs font-bold uppercase cursor-pointer opacity-70 hover:opacity-100";
+      }
+    }
+
+    function toggleSwitch(el) {
+      el.classList.toggle("is-on");
+      playBeep(el.classList.contains("is-on") ? 520 : 380, 0.08);
+    }
+
+    function setSliderClick(e, param, maxVal) {
+      const rect = e.currentTarget.getBoundingClientRect();
+      const clickX = e.clientX - rect.left;
+      const pct = Math.max(0, Math.min(1, clickX / rect.width));
+      const val = Math.round(pct * maxVal);
+
+      // Update fill & thumb
+      const fill = document.getElementById("fill-" + param);
+      const thumb = document.getElementById("thumb-" + param);
+      const valLbl = document.getElementById("val-" + param);
+
+      if (fill) fill.style.width = (pct * 100) + "%";
+      if (thumb) thumb.style.left = `calc(${pct * 100}% - 7px)`;
+      if (valLbl) valLbl.innerText = (param === 'key') ? val + '%' : val;
+
+      if (param === 'cut') {
+        const tileVal = document.getElementById("tile-cutoff-val");
+        const tileFill = document.getElementById("tile-fill-cut");
+        const tileThumb = document.getElementById("tile-thumb-cut");
+        if (tileVal) tileVal.innerText = val;
+        if (tileFill) tileFill.style.width = (pct * 100) + "%";
+        if (tileThumb) tileThumb.style.left = `calc(${pct * 100}% - 7px)`;
+      }
+
+      if (['att', 'dec', 'sus', 'rel'].includes(param)) {
+        renderEnvelope();
+      }
+
+      // Audio feedback
+      playSliderTone(val, maxVal);
+    }
+
+    function renderEnvelope() {
+      const canvas = document.getElementById("envCanvas");
+      if (!canvas) return;
+      const ctx = canvas.getContext("2d");
+      const w = canvas.width;
+      const h = canvas.height;
+      ctx.clearRect(0, 0, w, h);
+
+      const attVal = parseInt(document.getElementById("val-att")?.innerText || "15");
+      const decVal = parseInt(document.getElementById("val-dec")?.innerText || "65");
+      const susVal = parseInt(document.getElementById("val-sus")?.innerText || "95");
+      const relVal = parseInt(document.getElementById("val-rel")?.innerText || "45");
+
+      const a = (attVal / 127) * 70;
+      const d = (decVal / 127) * 70;
+      const s = h - (susVal / 127 * (h - 20)) - 10;
+      const r = (relVal / 127) * 80;
+
+      ctx.strokeStyle = "#ffffff";
+      ctx.lineWidth = 3;
+      ctx.beginPath();
+      ctx.moveTo(8, h - 8);
+      ctx.lineTo(8 + a, 8);
+      ctx.lineTo(8 + a + d, s);
+      ctx.lineTo(w - 8 - r, s);
+      ctx.lineTo(w - 8, h - 8);
+      ctx.stroke();
+
+      ctx.fillStyle = "rgba(255, 255, 255, 0.25)";
+      ctx.lineTo(8, h - 8);
+      ctx.fill();
+    }
+
+    // --- LIVE WEB AUDIO FEEDBACK ---
+    function initAudio() {
+      if (!synthAudioCtx) {
+        synthAudioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      }
+      if (synthAudioCtx.state === 'suspended') {
+        synthAudioCtx.resume();
+      }
+    }
+
+    function playBeep(freq, dur) {
+      try {
+        initAudio();
+        const osc = synthAudioCtx.createOscillator();
+        const gain = synthAudioCtx.createGain();
+        osc.type = "sine";
+        osc.frequency.setValueAtTime(freq, synthAudioCtx.currentTime);
+        gain.gain.setValueAtTime(0.08, synthAudioCtx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.001, synthAudioCtx.currentTime + dur);
+        osc.connect(gain);
+        gain.connect(synthAudioCtx.destination);
+        osc.start();
+        osc.stop(synthAudioCtx.currentTime + dur);
+      } catch(e) {}
+    }
+
+    function playSliderTone(val, max) {
+      const freq = 120 + (val / max) * 440;
+      playBeep(freq, 0.05);
+    }
+
+    function triggerAudition() {
+      try {
+        initAudio();
+        const now = synthAudioCtx.currentTime;
+        const notes = [220, 277.18, 329.63, 440]; // A major chord
+
+        notes.forEach((freq, idx) => {
+          const osc = synthAudioCtx.createOscillator();
+          const filter = synthAudioCtx.createBiquadFilter();
+          const gain = synthAudioCtx.createGain();
+
+          osc.type = "sawtooth";
+          osc.frequency.setValueAtTime(freq, now);
+
+          const cutoff = parseInt(document.getElementById("val-cut")?.innerText || "84") / 127 * 4000 + 200;
+          filter.type = "lowpass";
+          filter.frequency.setValueAtTime(cutoff, now);
+          filter.Q.setValueAtTime(4.0, now);
+
+          gain.gain.setValueAtTime(0.001, now);
+          gain.gain.exponentialRampToValueAtTime(0.12, now + 0.04);
+          gain.gain.exponentialRampToValueAtTime(0.001, now + 1.2);
+
+          osc.connect(filter);
+          filter.connect(gain);
+          gain.connect(synthAudioCtx.destination);
+
+          osc.start(now + idx * 0.03);
+          osc.stop(now + 1.3);
+        });
+      } catch(e) {}
+    }
+
+    function prevPatch() {
+      playBeep(330, 0.06);
+    }
+    function nextPatch() {
+      playBeep(440, 0.06);
+    }
+
+    // Initialize
+    window.addEventListener("DOMContentLoaded", () => {
+      selectHardware('juno');
+      renderEnvelope();
+    });
+  </script>
+</body>
+</html>
