@@ -1,0 +1,1538 @@
+[
+  {
+    "number": 1,
+    "name": "Circuit Patch 001",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 00 F7"
+  },
+  {
+    "number": 2,
+    "name": "Circuit Patch 002",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 01 F7"
+  },
+  {
+    "number": 3,
+    "name": "Circuit Patch 003",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 02 F7"
+  },
+  {
+    "number": 4,
+    "name": "Circuit Patch 004",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 03 F7"
+  },
+  {
+    "number": 5,
+    "name": "Circuit Patch 005",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 04 F7"
+  },
+  {
+    "number": 6,
+    "name": "Circuit Patch 006",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 05 F7"
+  },
+  {
+    "number": 7,
+    "name": "Circuit Patch 007",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 06 F7"
+  },
+  {
+    "number": 8,
+    "name": "Circuit Patch 008",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 07 F7"
+  },
+  {
+    "number": 9,
+    "name": "Circuit Patch 009",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 08 F7"
+  },
+  {
+    "number": 10,
+    "name": "Circuit Patch 010",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 09 F7"
+  },
+  {
+    "number": 11,
+    "name": "Circuit Patch 011",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 0A F7"
+  },
+  {
+    "number": 12,
+    "name": "Circuit Patch 012",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 0B F7"
+  },
+  {
+    "number": 13,
+    "name": "Circuit Patch 013",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 0C F7"
+  },
+  {
+    "number": 14,
+    "name": "Circuit Patch 014",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 0D F7"
+  },
+  {
+    "number": 15,
+    "name": "Circuit Patch 015",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 0E F7"
+  },
+  {
+    "number": 16,
+    "name": "Circuit Patch 016",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 0F F7"
+  },
+  {
+    "number": 17,
+    "name": "Circuit Patch 017",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 10 F7"
+  },
+  {
+    "number": 18,
+    "name": "Circuit Patch 018",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 11 F7"
+  },
+  {
+    "number": 19,
+    "name": "Circuit Patch 019",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 12 F7"
+  },
+  {
+    "number": 20,
+    "name": "Circuit Patch 020",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 13 F7"
+  },
+  {
+    "number": 21,
+    "name": "Circuit Patch 021",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 14 F7"
+  },
+  {
+    "number": 22,
+    "name": "Circuit Patch 022",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 15 F7"
+  },
+  {
+    "number": 23,
+    "name": "Circuit Patch 023",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 16 F7"
+  },
+  {
+    "number": 24,
+    "name": "Circuit Patch 024",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 17 F7"
+  },
+  {
+    "number": 25,
+    "name": "Circuit Patch 025",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 18 F7"
+  },
+  {
+    "number": 26,
+    "name": "Circuit Patch 026",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 19 F7"
+  },
+  {
+    "number": 27,
+    "name": "Circuit Patch 027",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 1A F7"
+  },
+  {
+    "number": 28,
+    "name": "Circuit Patch 028",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 1B F7"
+  },
+  {
+    "number": 29,
+    "name": "Circuit Patch 029",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 1C F7"
+  },
+  {
+    "number": 30,
+    "name": "Circuit Patch 030",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 1D F7"
+  },
+  {
+    "number": 31,
+    "name": "Circuit Patch 031",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 1E F7"
+  },
+  {
+    "number": 32,
+    "name": "Circuit Patch 032",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 1F F7"
+  },
+  {
+    "number": 33,
+    "name": "Circuit Patch 033",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 20 F7"
+  },
+  {
+    "number": 34,
+    "name": "Circuit Patch 034",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 21 F7"
+  },
+  {
+    "number": 35,
+    "name": "Circuit Patch 035",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 22 F7"
+  },
+  {
+    "number": 36,
+    "name": "Circuit Patch 036",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 23 F7"
+  },
+  {
+    "number": 37,
+    "name": "Circuit Patch 037",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 24 F7"
+  },
+  {
+    "number": 38,
+    "name": "Circuit Patch 038",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 25 F7"
+  },
+  {
+    "number": 39,
+    "name": "Circuit Patch 039",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 26 F7"
+  },
+  {
+    "number": 40,
+    "name": "Circuit Patch 040",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 27 F7"
+  },
+  {
+    "number": 41,
+    "name": "Circuit Patch 041",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 28 F7"
+  },
+  {
+    "number": 42,
+    "name": "Circuit Patch 042",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 29 F7"
+  },
+  {
+    "number": 43,
+    "name": "Circuit Patch 043",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 2A F7"
+  },
+  {
+    "number": 44,
+    "name": "Circuit Patch 044",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 2B F7"
+  },
+  {
+    "number": 45,
+    "name": "Circuit Patch 045",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 2C F7"
+  },
+  {
+    "number": 46,
+    "name": "Circuit Patch 046",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 2D F7"
+  },
+  {
+    "number": 47,
+    "name": "Circuit Patch 047",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 2E F7"
+  },
+  {
+    "number": 48,
+    "name": "Circuit Patch 048",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 2F F7"
+  },
+  {
+    "number": 49,
+    "name": "Circuit Patch 049",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 30 F7"
+  },
+  {
+    "number": 50,
+    "name": "Circuit Patch 050",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 31 F7"
+  },
+  {
+    "number": 51,
+    "name": "Circuit Patch 051",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 32 F7"
+  },
+  {
+    "number": 52,
+    "name": "Circuit Patch 052",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 33 F7"
+  },
+  {
+    "number": 53,
+    "name": "Circuit Patch 053",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 34 F7"
+  },
+  {
+    "number": 54,
+    "name": "Circuit Patch 054",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 35 F7"
+  },
+  {
+    "number": 55,
+    "name": "Circuit Patch 055",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 36 F7"
+  },
+  {
+    "number": 56,
+    "name": "Circuit Patch 056",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 37 F7"
+  },
+  {
+    "number": 57,
+    "name": "Circuit Patch 057",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 38 F7"
+  },
+  {
+    "number": 58,
+    "name": "Circuit Patch 058",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 39 F7"
+  },
+  {
+    "number": 59,
+    "name": "Circuit Patch 059",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 3A F7"
+  },
+  {
+    "number": 60,
+    "name": "Circuit Patch 060",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 3B F7"
+  },
+  {
+    "number": 61,
+    "name": "Circuit Patch 061",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 3C F7"
+  },
+  {
+    "number": 62,
+    "name": "Circuit Patch 062",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 3D F7"
+  },
+  {
+    "number": 63,
+    "name": "Circuit Patch 063",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 3E F7"
+  },
+  {
+    "number": 64,
+    "name": "Circuit Patch 064",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 3F F7"
+  },
+  {
+    "number": 65,
+    "name": "Circuit Patch 065",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 40 F7"
+  },
+  {
+    "number": 66,
+    "name": "Circuit Patch 066",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 41 F7"
+  },
+  {
+    "number": 67,
+    "name": "Circuit Patch 067",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 42 F7"
+  },
+  {
+    "number": 68,
+    "name": "Circuit Patch 068",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 43 F7"
+  },
+  {
+    "number": 69,
+    "name": "Circuit Patch 069",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 44 F7"
+  },
+  {
+    "number": 70,
+    "name": "Circuit Patch 070",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 45 F7"
+  },
+  {
+    "number": 71,
+    "name": "Circuit Patch 071",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 46 F7"
+  },
+  {
+    "number": 72,
+    "name": "Circuit Patch 072",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 47 F7"
+  },
+  {
+    "number": 73,
+    "name": "Circuit Patch 073",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 48 F7"
+  },
+  {
+    "number": 74,
+    "name": "Circuit Patch 074",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 49 F7"
+  },
+  {
+    "number": 75,
+    "name": "Circuit Patch 075",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 4A F7"
+  },
+  {
+    "number": 76,
+    "name": "Circuit Patch 076",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 4B F7"
+  },
+  {
+    "number": 77,
+    "name": "Circuit Patch 077",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 4C F7"
+  },
+  {
+    "number": 78,
+    "name": "Circuit Patch 078",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 4D F7"
+  },
+  {
+    "number": 79,
+    "name": "Circuit Patch 079",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 4E F7"
+  },
+  {
+    "number": 80,
+    "name": "Circuit Patch 080",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 4F F7"
+  },
+  {
+    "number": 81,
+    "name": "Circuit Patch 081",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 50 F7"
+  },
+  {
+    "number": 82,
+    "name": "Circuit Patch 082",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 51 F7"
+  },
+  {
+    "number": 83,
+    "name": "Circuit Patch 083",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 52 F7"
+  },
+  {
+    "number": 84,
+    "name": "Circuit Patch 084",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 53 F7"
+  },
+  {
+    "number": 85,
+    "name": "Circuit Patch 085",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 54 F7"
+  },
+  {
+    "number": 86,
+    "name": "Circuit Patch 086",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 55 F7"
+  },
+  {
+    "number": 87,
+    "name": "Circuit Patch 087",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 56 F7"
+  },
+  {
+    "number": 88,
+    "name": "Circuit Patch 088",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 57 F7"
+  },
+  {
+    "number": 89,
+    "name": "Circuit Patch 089",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 58 F7"
+  },
+  {
+    "number": 90,
+    "name": "Circuit Patch 090",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 59 F7"
+  },
+  {
+    "number": 91,
+    "name": "Circuit Patch 091",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 5A F7"
+  },
+  {
+    "number": 92,
+    "name": "Circuit Patch 092",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 5B F7"
+  },
+  {
+    "number": 93,
+    "name": "Circuit Patch 093",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 5C F7"
+  },
+  {
+    "number": 94,
+    "name": "Circuit Patch 094",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 5D F7"
+  },
+  {
+    "number": 95,
+    "name": "Circuit Patch 095",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 5E F7"
+  },
+  {
+    "number": 96,
+    "name": "Circuit Patch 096",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 5F F7"
+  },
+  {
+    "number": 97,
+    "name": "Circuit Patch 097",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 60 F7"
+  },
+  {
+    "number": 98,
+    "name": "Circuit Patch 098",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 61 F7"
+  },
+  {
+    "number": 99,
+    "name": "Circuit Patch 099",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 62 F7"
+  },
+  {
+    "number": 100,
+    "name": "Circuit Patch 100",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 63 F7"
+  },
+  {
+    "number": 101,
+    "name": "Circuit Patch 101",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 64 F7"
+  },
+  {
+    "number": 102,
+    "name": "Circuit Patch 102",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 65 F7"
+  },
+  {
+    "number": 103,
+    "name": "Circuit Patch 103",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 66 F7"
+  },
+  {
+    "number": 104,
+    "name": "Circuit Patch 104",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 67 F7"
+  },
+  {
+    "number": 105,
+    "name": "Circuit Patch 105",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 68 F7"
+  },
+  {
+    "number": 106,
+    "name": "Circuit Patch 106",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 69 F7"
+  },
+  {
+    "number": 107,
+    "name": "Circuit Patch 107",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 6A F7"
+  },
+  {
+    "number": 108,
+    "name": "Circuit Patch 108",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 6B F7"
+  },
+  {
+    "number": 109,
+    "name": "Circuit Patch 109",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 6C F7"
+  },
+  {
+    "number": 110,
+    "name": "Circuit Patch 110",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 6D F7"
+  },
+  {
+    "number": 111,
+    "name": "Circuit Patch 111",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 6E F7"
+  },
+  {
+    "number": 112,
+    "name": "Circuit Patch 112",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 6F F7"
+  },
+  {
+    "number": 113,
+    "name": "Circuit Patch 113",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 70 F7"
+  },
+  {
+    "number": 114,
+    "name": "Circuit Patch 114",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 71 F7"
+  },
+  {
+    "number": 115,
+    "name": "Circuit Patch 115",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 72 F7"
+  },
+  {
+    "number": 116,
+    "name": "Circuit Patch 116",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 73 F7"
+  },
+  {
+    "number": 117,
+    "name": "Circuit Patch 117",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 74 F7"
+  },
+  {
+    "number": 118,
+    "name": "Circuit Patch 118",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 75 F7"
+  },
+  {
+    "number": 119,
+    "name": "Circuit Patch 119",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 76 F7"
+  },
+  {
+    "number": 120,
+    "name": "Circuit Patch 120",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 77 F7"
+  },
+  {
+    "number": 121,
+    "name": "Circuit Patch 121",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 78 F7"
+  },
+  {
+    "number": 122,
+    "name": "Circuit Patch 122",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 79 F7"
+  },
+  {
+    "number": 123,
+    "name": "Circuit Patch 123",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 7A F7"
+  },
+  {
+    "number": 124,
+    "name": "Circuit Patch 124",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 7B F7"
+  },
+  {
+    "number": 125,
+    "name": "Circuit Patch 125",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 7C F7"
+  },
+  {
+    "number": 126,
+    "name": "Circuit Patch 126",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 7D F7"
+  },
+  {
+    "number": 127,
+    "name": "Circuit Patch 127",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 7E F7"
+  },
+  {
+    "number": 128,
+    "name": "Circuit Patch 128",
+    "bank": "Nova Synth Engine",
+    "category": "Polyphonic Nova Sound Engine Patches",
+    "tags": [
+      "dual-synth",
+      "polyphonic nova sound engine patches",
+      "circuit"
+    ],
+    "sysex_dump": "F0 00 20 29 01 60 7F F7"
+  }
+]

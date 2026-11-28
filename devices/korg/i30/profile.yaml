@@ -1,0 +1,22 @@
+manufacturer: Korg
+model: i30
+type: Interactive Music Workstation
+year: 1998
+midi:
+  channels: 16
+  cc_map:
+    volume: 7
+    pan: 10
+    filter_cutoff: 74
+    resonance: 71
+    reverb_send: 91
+    chorus_send: 93
+sysex:
+  header: F0 42 30 4E
+  device_id_byte: 2
+  commands:
+    request_preset: F0 42 30 4E 10 F7
+banks:
+- name: User Programs
+  type: ROM
+  size: 128

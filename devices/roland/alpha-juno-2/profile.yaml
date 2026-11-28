@@ -1,0 +1,22 @@
+manufacturer: Roland
+model: Alpha Juno-2
+type: Analog Polyphonic Synthesizer
+year: 1985
+midi:
+  channels: 16
+  cc_map:
+    dco_wave: 16
+    dco_sub: 17
+    vcf_cutoff: 74
+    vcf_resonance: 71
+    chorus_rate: 93
+    envelope_time1: 73
+sysex:
+  header: F0 41 35 00 23 20 01
+  device_id_byte: 2
+  commands:
+    request_preset: F0 41 35 00 23 20 01 00 F7
+banks:
+- name: Preset Bank
+  type: ROM
+  size: 64

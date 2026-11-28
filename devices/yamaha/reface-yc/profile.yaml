@@ -1,0 +1,22 @@
+manufacturer: Yamaha
+model: Reface YC
+type: Combo Organ Modeling Synthesizer
+year: 2015
+midi:
+  channels: 16
+  cc_map:
+    wave_type: 16
+    drawbar_16: 17
+    drawbar_8: 18
+    drawbar_4: 19
+    percussion_on: 20
+    rotary_speed: 68
+sysex:
+  header: F0 43 10 7F 1C 04
+  device_id_byte: 2
+  commands:
+    request_preset: F0 43 10 7F 1C 04 00 00 00 00 F7
+banks:
+- name: Organ Tones
+  type: ROM
+  size: 64

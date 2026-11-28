@@ -1,0 +1,25 @@
+manufacturer: Roland
+model: Juno-DS
+type: Performance Synthesizer Workstation
+year: 2015
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    resonance: 71
+    envelope_attack: 73
+    envelope_release: 72
+    reverb_send: 91
+    chorus_send: 93
+sysex:
+  header: F0 41 10 00 00 00 1E 12
+  device_id_byte: 2
+  commands:
+    request_preset: F0 41 10 00 00 00 1E 11 00 00 00 00 01 00 7F F7
+banks:
+- name: Acoustic & Electric
+  type: ROM
+  size: 128
+- name: Synthesizer & Lead
+  type: ROM
+  size: 128

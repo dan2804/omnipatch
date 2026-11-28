@@ -1,0 +1,28 @@
+manufacturer: Korg
+model: Kaossilator Pro
+type: Dynamic Phrase Synthesizer & Loop Recorder
+year: 2010
+midi:
+  channels: 16
+  cc_map:
+    touch_x: 12
+    touch_y: 13
+    touch_gate: 14
+    loop_vol_a: 16
+    loop_vol_b: 17
+    fx_depth: 91
+sysex:
+  header: F0 42 30 00 01 0D
+  device_id_byte: 2
+  commands:
+    request_preset: F0 42 30 00 01 0D 10 F7
+banks:
+- name: Lead & Acoustic
+  type: ROM
+  size: 100
+- name: Bass & Chord
+  type: ROM
+  size: 100
+- name: Drum & SFX
+  type: ROM
+  size: 50

@@ -1,0 +1,22 @@
+manufacturer: Roland
+model: E-660
+type: Digital Parametric Equalizer
+year: 1988
+midi:
+  channels: 16
+  cc_map:
+    freq_low: 16
+    gain_low: 17
+    freq_mid: 18
+    gain_mid: 19
+    freq_high: 20
+    gain_high: 21
+sysex:
+  header: F0 41 10 21 12
+  device_id_byte: 2
+  commands:
+    request_preset: F0 41 10 21 11 00 00 00 00 01 00 7F F7
+banks:
+- name: Factory Presets
+  type: ROM
+  size: 99

@@ -1,0 +1,22 @@
+manufacturer: Studio Electronics
+model: ATC-X
+type: Quad-Filter Discrete Analog Synthesizer
+year: 2002
+midi:
+  channels: 16
+  cc_map:
+    filter_select: 16
+    vcf_cutoff: 74
+    vcf_resonance: 71
+    vcf_drive: 17
+    vco_cross_mod: 18
+    envelope_decay: 72
+sysex:
+  header: F0 00 00 55 02
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 00 55 02 00 F7
+banks:
+- name: Quad Filter Bank
+  type: ROM
+  size: 128

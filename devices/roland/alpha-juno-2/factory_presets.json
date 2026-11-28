@@ -1,0 +1,770 @@
+[
+  {
+    "number": 1,
+    "name": "Poly Brass 1",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 00 F7"
+  },
+  {
+    "number": 2,
+    "name": "Warm Strings 1",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 01 F7"
+  },
+  {
+    "number": 3,
+    "name": "Alpha Piano 1",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 02 F7"
+  },
+  {
+    "number": 4,
+    "name": "Electric Bass 1",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 03 F7"
+  },
+  {
+    "number": 5,
+    "name": "Sub Bass",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 04 F7"
+  },
+  {
+    "number": 6,
+    "name": "Analog Lead 1",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 05 F7"
+  },
+  {
+    "number": 7,
+    "name": "Square Lead",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 06 F7"
+  },
+  {
+    "number": 8,
+    "name": "PWM Poly",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 07 F7"
+  },
+  {
+    "number": 9,
+    "name": "Reso Sweep",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 08 F7"
+  },
+  {
+    "number": 10,
+    "name": "Chorused Clav",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 09 F7"
+  },
+  {
+    "number": 11,
+    "name": "Harpsichord",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 0A F7"
+  },
+  {
+    "number": 12,
+    "name": "Vibe Synth",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 0B F7"
+  },
+  {
+    "number": 13,
+    "name": "Flute Tone",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 0C F7"
+  },
+  {
+    "number": 14,
+    "name": "Bell Synth",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 0D F7"
+  },
+  {
+    "number": 15,
+    "name": "Sci-Fi Laser",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 0E F7"
+  },
+  {
+    "number": 16,
+    "name": "Space Wind",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 0F F7"
+  },
+  {
+    "number": 17,
+    "name": "Brass Hit",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 10 F7"
+  },
+  {
+    "number": 18,
+    "name": "Synth Strings 2",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 11 F7"
+  },
+  {
+    "number": 19,
+    "name": "Funky Slap",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 12 F7"
+  },
+  {
+    "number": 20,
+    "name": "Synth Organ",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 13 F7"
+  },
+  {
+    "number": 21,
+    "name": "Pipe Organ",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 14 F7"
+  },
+  {
+    "number": 22,
+    "name": "Marimba",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 15 F7"
+  },
+  {
+    "number": 23,
+    "name": "Steel Drums",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 16 F7"
+  },
+  {
+    "number": 24,
+    "name": "Acoustic Guitar",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 17 F7"
+  },
+  {
+    "number": 25,
+    "name": "Jazz Guitar",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 18 F7"
+  },
+  {
+    "number": 26,
+    "name": "Synth Pad 1",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 19 F7"
+  },
+  {
+    "number": 27,
+    "name": "Slow Brass",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 1A F7"
+  },
+  {
+    "number": 28,
+    "name": "Octave Saws",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 1B F7"
+  },
+  {
+    "number": 29,
+    "name": "Synth Bass 2",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 1C F7"
+  },
+  {
+    "number": 30,
+    "name": "Moogish Pluck",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 1D F7"
+  },
+  {
+    "number": 31,
+    "name": "Hoover Synth",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 1E F7"
+  },
+  {
+    "number": 32,
+    "name": "Alpha Sweep",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 1F F7"
+  },
+  {
+    "number": 33,
+    "name": "Brite Brass",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 20 F7"
+  },
+  {
+    "number": 34,
+    "name": "Night Flight",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 21 F7"
+  },
+  {
+    "number": 35,
+    "name": "Space Odyssey",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 22 F7"
+  },
+  {
+    "number": 36,
+    "name": "Filter Growl",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 23 F7"
+  },
+  {
+    "number": 37,
+    "name": "Acid Line",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 24 F7"
+  },
+  {
+    "number": 38,
+    "name": "Soft Pad",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 25 F7"
+  },
+  {
+    "number": 39,
+    "name": "Mellow Organ",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 26 F7"
+  },
+  {
+    "number": 40,
+    "name": "Chorused Strings",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 27 F7"
+  },
+  {
+    "number": 41,
+    "name": "Analog Bell",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 28 F7"
+  },
+  {
+    "number": 42,
+    "name": "Plucked Harp",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 29 F7"
+  },
+  {
+    "number": 43,
+    "name": "Reso Pulse",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 2A F7"
+  },
+  {
+    "number": 44,
+    "name": "Fast Sync",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 2B F7"
+  },
+  {
+    "number": 45,
+    "name": "Deep Sub",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 2C F7"
+  },
+  {
+    "number": 46,
+    "name": "Laser Harps",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 2D F7"
+  },
+  {
+    "number": 47,
+    "name": "Velo Strings",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 2E F7"
+  },
+  {
+    "number": 48,
+    "name": "Fat Brass 2",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 2F F7"
+  },
+  {
+    "number": 49,
+    "name": "Lead Synth 2",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 30 F7"
+  },
+  {
+    "number": 50,
+    "name": "Whistle Solo",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 31 F7"
+  },
+  {
+    "number": 51,
+    "name": "Staccato Poly",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 32 F7"
+  },
+  {
+    "number": 52,
+    "name": "Perc Organ",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 33 F7"
+  },
+  {
+    "number": 53,
+    "name": "Thumb Bass",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 34 F7"
+  },
+  {
+    "number": 54,
+    "name": "Poly Clav",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 35 F7"
+  },
+  {
+    "number": 55,
+    "name": "Sweep Lead",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 36 F7"
+  },
+  {
+    "number": 56,
+    "name": "Cosmic Drone",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 37 F7"
+  },
+  {
+    "number": 57,
+    "name": "Space Sirens",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 38 F7"
+  },
+  {
+    "number": 58,
+    "name": "Analog Universe",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 39 F7"
+  },
+  {
+    "number": 59,
+    "name": "Alien Voices",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 3A F7"
+  },
+  {
+    "number": 60,
+    "name": "Crystal Pluck",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 3B F7"
+  },
+  {
+    "number": 61,
+    "name": "Dream Pad",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 3C F7"
+  },
+  {
+    "number": 62,
+    "name": "Resonant Bass",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 3D F7"
+  },
+  {
+    "number": 63,
+    "name": "Power Brass",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 3E F7"
+  },
+  {
+    "number": 64,
+    "name": "Juno Finale",
+    "bank": "Preset Bank",
+    "category": "Alpha Dial DCO Analog Synthesizer",
+    "tags": [
+      "analog",
+      "alpha dial dco analog synthesizer",
+      "alpha juno2"
+    ],
+    "sysex_dump": "F0 41 35 00 23 20 01 3F F7"
+  }
+]

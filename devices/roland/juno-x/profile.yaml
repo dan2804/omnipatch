@@ -1,0 +1,25 @@
+manufacturer: Roland
+model: Juno-X
+type: Programmable Polyphonic Synthesizer
+year: 2022
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    resonance: 71
+    envelope_attack: 73
+    envelope_release: 72
+    chorus_mode: 93
+    drive: 94
+sysex:
+  header: F0 41 10 00 00 00 7A 12
+  device_id_byte: 2
+  commands:
+    request_preset: F0 41 10 00 00 00 7A 11 00 00 00 00 01 00 7F F7
+banks:
+- name: ZEN-Core Juno-X
+  type: ROM
+  size: 128
+- name: Legacy Juno-106 / 60
+  type: ROM
+  size: 128

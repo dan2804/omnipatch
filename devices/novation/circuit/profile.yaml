@@ -1,0 +1,23 @@
+manufacturer: Novation
+model: Circuit
+type: Dual-Synth & 4-Part Drum Groovebox
+year: 2015
+midi:
+  channels: 16
+  cc_map:
+    macro1: 16
+    macro2: 17
+    macro3: 18
+    macro4: 19
+    filter_cutoff: 74
+    delay_send: 91
+    reverb_send: 93
+sysex:
+  header: F0 00 20 29 01 60
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 20 29 01 60 40 00 F7
+banks:
+- name: Nova Synth Engine
+  type: ROM
+  size: 128

@@ -1,0 +1,22 @@
+manufacturer: MFB
+model: Synth Lite II
+type: Hybrid Digital/Analog Synthesizer
+year: 2005
+midi:
+  channels: 16
+  cc_map:
+    cutoff: 74
+    resonance: 71
+    dco1_octave: 16
+    dco2_semitone: 17
+    attack: 73
+    decay: 72
+sysex:
+  header: F0 00 20 49 03
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 20 49 03 00 F7
+banks:
+- name: Factory Presets
+  type: ROM
+  size: 64

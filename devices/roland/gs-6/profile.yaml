@@ -1,0 +1,21 @@
+manufacturer: Roland
+model: GS-6
+type: Digital Guitar Sound Processor
+year: 1989
+midi:
+  channels: 16
+  cc_map:
+    preamp_gain: 16
+    tone_low: 17
+    tone_high: 18
+    delay_level: 19
+    master_vol: 7
+sysex:
+  header: F0 41 10 28 12
+  device_id_byte: 2
+  commands:
+    request_preset: F0 41 10 28 11 00 00 00 00 01 00 7F F7
+banks:
+- name: Factory Programs
+  type: ROM
+  size: 64
