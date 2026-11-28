@@ -1,0 +1,22 @@
+manufacturer: Yamaha
+model: KX-76
+type: 76-Key Master MIDI Keyboard Controller
+year: 1985
+midi:
+  channels: 16
+  cc_map:
+    slider_1: 16
+    slider_2: 17
+    slider_3: 18
+    slider_4: 19
+    mod_wheel: 1
+    breath: 2
+sysex:
+  header: F0 43 10 1A
+  device_id_byte: 2
+  commands:
+    request_preset: F0 43 20 1A 00 00 00 F7
+banks:
+- name: Master Setups
+  type: RAM
+  size: 32

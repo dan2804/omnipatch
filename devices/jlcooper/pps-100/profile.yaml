@@ -1,0 +1,17 @@
+manufacturer: JLCooper Electronics
+model: PPS-100
+type: SMPTE / MIDI Event Synchronizer
+year: 1988
+midi:
+  channels: 16
+  cc_map:
+    cue_point: 32
+sysex:
+  header: F0 15 02
+  device_id_byte: 2
+  commands:
+    request_preset: F0 15 02 01 00 F7
+banks:
+- name: Cue Memories
+  type: RAM
+  size: 32

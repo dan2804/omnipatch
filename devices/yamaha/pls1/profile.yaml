@@ -1,0 +1,17 @@
+manufacturer: Yamaha
+model: PLS1
+type: Programmable Line Selector & Switcher
+year: 1988
+midi:
+  channels: 16
+  cc_map:
+    line_select: 32
+sysex:
+  header: F0 43 10 1C
+  device_id_byte: 2
+  commands:
+    request_preset: F0 43 20 1C 00 00 00 F7
+banks:
+- name: Switching Setups
+  type: RAM
+  size: 32

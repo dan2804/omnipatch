@@ -1,0 +1,19 @@
+manufacturer: MIDI Solutions
+model: Pedal Controller
+type: Continuous Controller Pedal Interface
+year: 1996
+midi:
+  channels: 16
+  cc_map:
+    expression: 11
+    volume: 7
+    cutoff: 74
+sysex:
+  header: F0 00 20 40
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 20 40 01 00 F7
+banks:
+- name: Pedal Profiles
+  type: RAM
+  size: 16

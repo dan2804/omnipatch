@@ -1,0 +1,22 @@
+manufacturer: Line 6
+model: Pocket POD
+type: Ultra-Portable Guitar Modeler & Multi-Effects
+year: 2007
+midi:
+  channels: 16
+  cc_map:
+    drive: 16
+    bass: 17
+    mid: 18
+    treble: 19
+    chan_vol: 7
+    delay: 91
+sysex:
+  header: F0 00 01 0C 06
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 01 0C 06 01 00 F7
+banks:
+- name: Artist Presets
+  type: ROM
+  size: 124

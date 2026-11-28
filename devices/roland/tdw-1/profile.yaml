@@ -1,0 +1,20 @@
+manufacturer: Roland
+model: TDW-1
+type: V-Drums TD-10 Wave & System Expansion
+year: 2000
+midi:
+  channels: 16
+  cc_map:
+    pitch: 16
+    decay: 17
+    snare_buzz: 18
+    reverb_send: 91
+sysex:
+  header: F0 41 10 00 0B 12
+  device_id_byte: 2
+  commands:
+    request_preset: F0 41 10 00 0B 11 00 00 00 00 01 00 7F F7
+banks:
+- name: Expansion Kits
+  type: ROM
+  size: 64

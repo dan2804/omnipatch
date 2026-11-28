@@ -1,0 +1,22 @@
+manufacturer: Line 6
+model: POD (V.2)
+type: Desktop Digital Guitar Modeler
+year: 2000
+midi:
+  channels: 16
+  cc_map:
+    drive: 16
+    bass: 17
+    mid: 18
+    treble: 19
+    channel_vol: 7
+    reverb: 91
+sysex:
+  header: F0 00 01 0C 01
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 01 0C 01 01 00 F7
+banks:
+- name: Channel Memories
+  type: RAM
+  size: 36

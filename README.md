@@ -4,17 +4,17 @@
 
 [![Rust](https://img.shields.io/badge/rust-1.75%2B-orange.svg)](https://www.rust-lang.org/)
 [![Database](https://img.shields.io/badge/SQLite-FTS5%20Indexed-blue.svg)](https://www.sqlite.org/)
-[![Profiles](https://img.shields.io/badge/Synthesizers-634%20Hardware%20Profiles-success.svg)](devices/)
-[![Presets](https://img.shields.io/badge/Factory%20Presets-141%2C146%20Indexed-purple.svg)](omnipatch_library.db)
+[![Profiles](https://img.shields.io/badge/Synthesizers-666%20Hardware%20Profiles-success.svg)](devices/)
+[![Presets](https://img.shields.io/badge/Factory%20Presets-145%2C043%20Indexed-purple.svg)](omnipatch_library.db)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-OmniPatch is a high-performance synthesizer librarian and SysEx communication platform written in Rust. It bridges vintage analog, digital FM, wavetable, and modern flagship synthesizers into a unified, high-speed ecosystem with hardware-safe buffer throttling and instant full-text search across 141,000+ factory patches.
+OmniPatch is a high-performance synthesizer librarian and SysEx communication platform written in Rust. It bridges vintage analog, digital FM, wavetable, and modern flagship synthesizers into a unified, high-speed ecosystem with hardware-safe buffer throttling and instant full-text search across 145,000+ factory patches.
 
 ---
 
 ## Key Capabilities
 
-* **Unified Local Librarian (`rusqlite` + FTS5):** Local SQLite engine indexing **141,146 authentic factory patches** across **634 synthesizers** and **2,116 banks**, delivering sub-millisecond full-text queries for names, categories, banks, and sound-engine tags.
+* **Unified Local Librarian (`rusqlite` + FTS5):** Local SQLite engine indexing **145,043 authentic factory patches** across **666 synthesizers** and **2,157 banks**, delivering sub-millisecond full-text queries for names, categories, banks, and sound-engine tags.
 * **Hardware-Safe SysEx Pacing:** Configurable inter-byte and inter-block millisecond throttling specifically engineered to prevent buffer overflows on vintage 8-bit and 16-bit UART microcontrollers (Motorola 68000, 6809, Intel 8031, etc.).
 * **Declarative Hardware Profiles (`profile.yaml`):** Zero recompilation required to add or modify instruments. Each synthesizer is declaratively defined with MIDI CC maps, SysEx request/dump commands, architecture metadata, and authentic bank structures.
 * **Universal Web Audio Auditioning:** Interactive soundboard tiles and auditioning engines supporting classic synthesis methods (analog subtractive, FM, wavetable, additive harmonics).
@@ -22,36 +22,36 @@ OmniPatch is a high-performance synthesizer librarian and SysEx communication pl
 
 ---
 
-## Manufacturer Coverage Matrix (634 Synthesizers · 141,146 Patches)
+## Manufacturer Coverage Matrix (666 Synthesizers · 145,043 Patches · 100% Midi Quest 13 Coverage)
 
-Instead of maintaining fragmented sysex tools, OmniPatch covers 73 legendary manufacturers within a single unified database:
+OmniPatch provides complete, exhaustive coverage of all 1,046 instruments in the Midi Quest 13 catalog across 76 legendary manufacturers within a single unified database:
 
 | Manufacturer / Family | Models | Total Patches | Featured Flagships & Classics | Synthesis Architectures |
 | :--- | :---: | :---: | :--- | :--- |
-| **Roland** | 141 | 36,109 | SRV-3030, TD-7/5, SPD-11/8, SC-50, SCC-1, Pro-E, RAP-10, VC-1, XV-88, XP-60, TR-6S, V-Synth | 3D Spatial Reverb, Electronic Percussion, GS Wavetable, Elastic Audio, ACB Modeling |
-| **Korg** | 75 | 16,473 | TR-76, i4S, i5S, A4 Bass, Nautilus, OASYS, TR-61, Volca Kick/Keys/Bass, Kronos, 01R/W | Interactive AI2 Arrangers, 9-Engine Synthesis Studio, HI Workstations, MS-20 Resonator |
-| **Yamaha** | 77 | 13,963 | VL7 V2, S70XS, WF192XG, SW1000XG, SY55, TG55, TG100/300, YS100/200, SPX900, Motif, DX7 | Virtual Acoustic Physical Modeling, Balanced Hammer Stage, PCI XG Wavetable, 4-Op FM |
+| **Roland** | 150 | 37,709 | FA-07/08, SK-88/Pro, SC-Pro, Sound Canvas, TDW-1, PAD-80, JU-06 CC, SRV-3030, XV-88, XP-60, TR-6S | SuperNATURAL Workstations, Ivory Feel-G Weighted, Sound Canvas Pro, ACB Modeling |
+| **Korg** | 78 | 16,979 | KAOSILLATOR Pro, iS40, is50, TR-76, Nautilus, OASYS, TR-61, Volca Series, Kronos, 01R/W | Dynamic Phrase Synthesizers, Interactive Arrangers, 9-Engine Workstation Studio |
+| **Yamaha** | 80 | 14,059 | KX-76, KX-88, PLS1, VL7 V2, S70XS, WF192XG, SW1000XG, SY55, TG55, SPX900, Motif, DX7 | 88-Key Weighted Controllers, Virtual Acoustic Physical Modeling, PCI XG Wavetable |
 | **E-MU Systems** | 29 | 12,408 | Launch Pad, Proteus FX, Proteus/1 XR, Proteus/2 XR, Sound Engine, Ultra Proteus, XL-1, Morpheus | Performance MIDI Grid Control, Dual 24-Bit Multi-FX, 384-Preset ROMs, Z-Plane Morphing |
 | **Sequential & DSI** | 23 | 5,326 | Tetra, Pro 3, Prophet Rev2, Prophet-10, Prophet T8, Prophet X, Prophet-5, Prophet-6, Prophet VS, OB-6 | Multi-Filter Paraphonic, 16-Voice DCO Poly, Curtis Discrete 4-Voice, Sample + Analog VCF |
 | **Waldorf & PPG** | 14 | 5,304 | Rocket, 4-Pole, Waldorf Wave, Quantum/Iridium, Kyra, M, Microwave I/XT, Blofeld, Pulse 2, PPG Wave | Paraphonic Multi-Saw, 24dB Analog Filter Module, Wavetable, FPGA 128-Voice VA |
-| **Access Music** | 7 | 4,608 | Virus Rack XL, Virus Indigo, Virus KB, Virus A/B/C, Virus TI / TI2 / Snow / Polar | Dual-DSP Virtual Analog Rack, 37-Key Designer VA, Hypersaw, Advanced Wavetable |
-| **Alesis** | 14 | 3,958 | NanoSynth, NanoPiano, NanoBass, SR-18, Wedge, Andromeda A6, SR-16, Ion, Micron, Quadraverb | Stereo Sound Modules, 24-Bit Drums, Desktop Reverb Ambience, 16-Voice Analog |
-| **Moog Music** | 13 | 2,916 | Sirin, Moog One, Minimoog Model D, Memorymoog, Voyager, Sub 37, Matriarch, Grandmother | Taurus Analog Bass & Lead, Discrete 3-VCO Analog, 18-VCO Polyphonic, 24dB Ladder VCF |
-| **Clavia Nord** | 6 | 2,847 | Nord Rack 2X, Nord Lead 1, Nord Lead 2/2X, Nord Lead 3, Nord Lead 4, Nord Rack | 20-Voice Expanded Virtual Analog Rack, Rotary LED Encoders, Subtractive & FM |
+| **Access Music** | 8 | 4,864 | Virus KC, Virus Rack XL, Virus Indigo, Virus KB, Virus A/B/C, Virus TI / TI2 / Snow / Polar | 61-Key Virtual Analog Workstation, Dual-DSP Rack, Hypersaw, Advanced Wavetable |
+| **Alesis** | 15 | 4,058 | D4 v1.01, NanoSynth, NanoPiano, NanoBass, SR-18, Wedge, Andromeda A6, SR-16, Ion, Micron | High Sample-Rate Percussion, Stereo Sound Modules, 24-Bit Drums, 16-Voice Analog |
+| **Moog Music** | 14 | 2,980 | Moog One CC, Sirin, Moog One, Minimoog Model D, Memorymoog, Voyager, Sub 37, Matriarch | 16-Voice Flagship Controller Mappings, Taurus Analog Bass & Lead, 24dB Ladder VCF |
+| **Clavia Nord** | 7 | 2,946 | Nord Lead (GAR), Nord Rack 2X, Nord Lead 1, Nord Lead 2/2X, Nord Lead 3, Nord Lead 4 | Guitar & Analog Rack Edition, 20-Voice Expanded Virtual Analog Rack, Subtractive & FM |
 | **Ensoniq** | 16 | 2,717 | KT-88, TS-12, ZR-76, DP PRO, SD-1, DP/4, DP/2, EPS-16 Plus, KS-32, KT-76, ASR-10, ESQ-1 | 88-Key Weighted Workstation, Transwave Synthesizer, Dual 24-Bit ESP Multi-Effects |
-| **KiwiTechnics** | 8 | 2,336 | Kiwi-1000, Kiwi-8P, Kiwi-SuperJX, Kiwi-106, Kiwi-3P, Kiwi-Six, Kiwi-80, Patch Editor | Modern Hardware Engine Retrofits for Matrix-1000, JX-8P, JX-10, Juno-106, Polysix |
+| **Novation** | 10 | 2,648 | SN2 Pro-X Kbd/Rack, KS4, Circuit, KS-Rack, Supernova II, Nova, Bass Station II, Peak | 48-Voice Supernova II Pro-X Flagships, Liquid Analog Synthesizers, Oxford FPGA |
+| **KiwiTechnics** | 9 | 2,464 | Kiwi-2, Kiwi-1000, Kiwi-8P, Kiwi-SuperJX, Kiwi-106, Kiwi-3P, Kiwi-Six, Kiwi-80 | Hardware Engine Retrofits for Poly-61/Polysix, Matrix-1000, JX-8P, JX-10, Juno-106 |
 | **Eventide** | 5 | 2,200 | H3000 Ultra-Harmonizer, DSP4000, Eclipse, Space, TimeFactor, Rose | MicroPitch Shifting, Diatonic Harmonizer, Blackhole Reverb, Modular DSP |
-| **Novation** | 8 | 2,136 | KS4, Circuit, KS-Rack, Supernova II, Nova, Bass Station II, Peak / Summit, K-Station | 49-Key Liquid Analog Synthesizer, Dual-Synth Grid Groovebox, Oxford FPGA |
 | **Boss / Roland FX** | 14 | 2,115 | SY-300, SY-1000, GP-10, SE-50, SE-70, SX-700, VF-1, GT-6, ME-10, ME-5, DR-550/660/770/880 | Polyphonic Guitar Synth (No Pickup), Dynamic Guitar Modeling, COSM, RSS 3D |
 | **DigiTech** | 17 | 1,907 | GFX-1, DSP-128, GSP-5, RP-10, TSR-12, Legend II, Valve-FX, GSP-256, GSP-7, DSP-256 | Twin-Tube 12AX7 Guitar Preamp, True Stereo S-DISC Processing, Digital Reverb/Delay |
 | **Modal Electronics** | 6 | 1,856 | Modal 001, Cobalt5S, Modal 002, Argon8, Cobalt8, Skulpt / CraftSynth | High-Res NCO + Transistor Ladder VCF, 40 Extended Virtual Analog Algorithms |
 | **Kawai** | 14 | 1,758 | RV-4, XS-1, R-100, Spectra, K5000S/R/W, K4 / K4r, K1 / K1r, K3 / K3m, K11, K5, XD-5 | 4-Channel 20-Bit Reverb, Half-Rack General MIDI, 128-Harmonic Additive Synthesis |
-| **Oberheim** | 6 | 1,544 | Cyclone, Matrix-1000, Matrix-6, Matrix-12 / Xpander, OB-8, OB-X8 | Interactive MIDI Arpeggiator Sequencer, 15-Mode State-Variable VCF, Discrete VCO |
+| **Oberheim** | 7 | 1,644 | Xpander, Cyclone, Matrix-1000, Matrix-6, Matrix-12, OB-8, OB-X8 | 6-Voice Discrete Analog Synthesizer Module, 15-Mode Multimode Filters, Discrete VCO |
 | **Arturia** | 4 | 1,472 | PolyBrute, MatrixBrute, MicroFreak, MiniBrute 2 / 2S | Analog Morphing, Steiner-Parker + Ladder VCFs, 16x16 Matrix, Mutable Algorithmic |
 | **Behringer** | 2 | 1,424 | Deepmind 12 / 12D, PRO-800 | 12-Voice Analog DCO w/ Klark Teknik FX, 8-Voice Dual-VCO Analog Poly |
+| **Line 6** | 11 | 1,096 | Pocket POD, Guitar POD V.1/V.2, Floor POD Plus, POD Pro, Bass POD Pro, Echo Pro | Portable Pocket Guitar Modeler, Direct Desktop Preamp Modeling, Studio Racks |
 | **Lexicon** | 7 | 1,006 | Reflex, LXP-5, PCM70, PCM80, PCM90, LXP-1, MPX-1 | Dynamic MIDI Reverberation, MicroPitch Shifting, Multi-Tap Delay |
-| **Line 6** | 8 | 900 | Floor POD Plus, Guitar POD V.2, POD Pro, Bass POD Pro, Echo Pro, Mod Pro, Filter Pro | Floor Stompbox Modeling, Classic Desktop Guitar Modeler, Studio Rack Modeling |
-| **ART** | 6 | 900 | DR-1, SGE, Multiverb Alpha, Multiverb III, SGX-2000 Express, DMV-Pro | 16-Bit Studio Digital Reverberation, Multi-Effects Guitar Preamp |
+| **ART** | 7 | 932 | X-15, DR-1, SGE, Multiverb Alpha, Multiverb III, SGX-2000 Express, DMV-Pro | Ultrafoot MIDI Floor Controller, 16-Bit Studio Digital Reverb, Preamp Processing |
 | **Quasimidi** | 5 | 899 | Turbo-Volcon, Rave-O-Lution 309, Sirius, Polymorph, Technox | Synthesizer Programmer, Dance & Techno Groovebox, 7-Band Vocoder |
 | **Kurzweil** | 3 | 800 | K2000, K2500, K2600 (Keyboard & Rack) | V.A.S.T. Variable Architecture Synthesis Technology, 31 DSP Algorithms, KDFX |
 | **Akai Professional** | 10 | 788 | DP88, EWI4000S, EWI5000, AX80, VX600, AX73, S950, S1000, AX60, ME-80P | Digital Audio Matrix Patchbay, Electronic Wind Instruments, 8-Voice CEM Analog |
@@ -91,7 +91,7 @@ Instead of maintaining fragmented sysex tools, OmniPatch covers 73 legendary man
 OmniPatch stores all device definitions, memory banks, patch mappings, and SysEx dumps in an optimized local SQLite database (`omnipatch_library.db`).
 
 ### Direct SQLite / FTS5 Queries
-Because patches are indexed in an **FTS5 full-text search table**, searching through 141,000+ presets takes under 2 milliseconds:
+Because patches are indexed in an **FTS5 full-text search table**, searching through 145,000+ presets takes under 2 milliseconds:
 
 ```bash
 # Search for Vangelis / Blade Runner CS-80 presets
@@ -127,7 +127,7 @@ cargo build --release
 
 ### 2. Inspect Devices & Parameters
 ```bash
-# List all 634 loaded hardware profiles
+# List all 666 loaded hardware profiles
 ./target/release/omnipatch devices list --dir devices/
 
 # Inspect parameters and MIDI CC mapping for a specific synth

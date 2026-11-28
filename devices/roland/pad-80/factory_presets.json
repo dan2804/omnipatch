@@ -1,0 +1,770 @@
+[
+  {
+    "number": 1,
+    "name": "PAD-80 Patch 01",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 00 00 00 7F F7"
+  },
+  {
+    "number": 2,
+    "name": "PAD-80 Patch 02",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 01 00 00 7F F7"
+  },
+  {
+    "number": 3,
+    "name": "PAD-80 Patch 03",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 02 00 00 7F F7"
+  },
+  {
+    "number": 4,
+    "name": "PAD-80 Patch 04",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 03 00 00 7F F7"
+  },
+  {
+    "number": 5,
+    "name": "PAD-80 Patch 05",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 04 00 00 7F F7"
+  },
+  {
+    "number": 6,
+    "name": "PAD-80 Patch 06",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 05 00 00 7F F7"
+  },
+  {
+    "number": 7,
+    "name": "PAD-80 Patch 07",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 06 00 00 7F F7"
+  },
+  {
+    "number": 8,
+    "name": "PAD-80 Patch 08",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 07 00 00 7F F7"
+  },
+  {
+    "number": 9,
+    "name": "PAD-80 Patch 09",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 08 00 00 7F F7"
+  },
+  {
+    "number": 10,
+    "name": "PAD-80 Patch 10",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 09 00 00 7F F7"
+  },
+  {
+    "number": 11,
+    "name": "PAD-80 Patch 11",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 0A 00 00 7F F7"
+  },
+  {
+    "number": 12,
+    "name": "PAD-80 Patch 12",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 0B 00 00 7F F7"
+  },
+  {
+    "number": 13,
+    "name": "PAD-80 Patch 13",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 0C 00 00 7F F7"
+  },
+  {
+    "number": 14,
+    "name": "PAD-80 Patch 14",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 0D 00 00 7F F7"
+  },
+  {
+    "number": 15,
+    "name": "PAD-80 Patch 15",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 0E 00 00 7F F7"
+  },
+  {
+    "number": 16,
+    "name": "PAD-80 Patch 16",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 0F 00 00 7F F7"
+  },
+  {
+    "number": 17,
+    "name": "PAD-80 Patch 17",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 10 00 00 7F F7"
+  },
+  {
+    "number": 18,
+    "name": "PAD-80 Patch 18",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 11 00 00 7F F7"
+  },
+  {
+    "number": 19,
+    "name": "PAD-80 Patch 19",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 12 00 00 7F F7"
+  },
+  {
+    "number": 20,
+    "name": "PAD-80 Patch 20",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 13 00 00 7F F7"
+  },
+  {
+    "number": 21,
+    "name": "PAD-80 Patch 21",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 14 00 00 7F F7"
+  },
+  {
+    "number": 22,
+    "name": "PAD-80 Patch 22",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 15 00 00 7F F7"
+  },
+  {
+    "number": 23,
+    "name": "PAD-80 Patch 23",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 16 00 00 7F F7"
+  },
+  {
+    "number": 24,
+    "name": "PAD-80 Patch 24",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 17 00 00 7F F7"
+  },
+  {
+    "number": 25,
+    "name": "PAD-80 Patch 25",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 18 00 00 7F F7"
+  },
+  {
+    "number": 26,
+    "name": "PAD-80 Patch 26",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 19 00 00 7F F7"
+  },
+  {
+    "number": 27,
+    "name": "PAD-80 Patch 27",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 1A 00 00 7F F7"
+  },
+  {
+    "number": 28,
+    "name": "PAD-80 Patch 28",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 1B 00 00 7F F7"
+  },
+  {
+    "number": 29,
+    "name": "PAD-80 Patch 29",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 1C 00 00 7F F7"
+  },
+  {
+    "number": 30,
+    "name": "PAD-80 Patch 30",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 1D 00 00 7F F7"
+  },
+  {
+    "number": 31,
+    "name": "PAD-80 Patch 31",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 1E 00 00 7F F7"
+  },
+  {
+    "number": 32,
+    "name": "PAD-80 Patch 32",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 1F 00 00 7F F7"
+  },
+  {
+    "number": 33,
+    "name": "PAD-80 Patch 33",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 20 00 00 7F F7"
+  },
+  {
+    "number": 34,
+    "name": "PAD-80 Patch 34",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 21 00 00 7F F7"
+  },
+  {
+    "number": 35,
+    "name": "PAD-80 Patch 35",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 22 00 00 7F F7"
+  },
+  {
+    "number": 36,
+    "name": "PAD-80 Patch 36",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 23 00 00 7F F7"
+  },
+  {
+    "number": 37,
+    "name": "PAD-80 Patch 37",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 24 00 00 7F F7"
+  },
+  {
+    "number": 38,
+    "name": "PAD-80 Patch 38",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 25 00 00 7F F7"
+  },
+  {
+    "number": 39,
+    "name": "PAD-80 Patch 39",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 26 00 00 7F F7"
+  },
+  {
+    "number": 40,
+    "name": "PAD-80 Patch 40",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 27 00 00 7F F7"
+  },
+  {
+    "number": 41,
+    "name": "PAD-80 Patch 41",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 28 00 00 7F F7"
+  },
+  {
+    "number": 42,
+    "name": "PAD-80 Patch 42",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 29 00 00 7F F7"
+  },
+  {
+    "number": 43,
+    "name": "PAD-80 Patch 43",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 2A 00 00 7F F7"
+  },
+  {
+    "number": 44,
+    "name": "PAD-80 Patch 44",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 2B 00 00 7F F7"
+  },
+  {
+    "number": 45,
+    "name": "PAD-80 Patch 45",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 2C 00 00 7F F7"
+  },
+  {
+    "number": 46,
+    "name": "PAD-80 Patch 46",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 2D 00 00 7F F7"
+  },
+  {
+    "number": 47,
+    "name": "PAD-80 Patch 47",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 2E 00 00 7F F7"
+  },
+  {
+    "number": 48,
+    "name": "PAD-80 Patch 48",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 2F 00 00 7F F7"
+  },
+  {
+    "number": 49,
+    "name": "PAD-80 Patch 49",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 30 00 00 7F F7"
+  },
+  {
+    "number": 50,
+    "name": "PAD-80 Patch 50",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 31 00 00 7F F7"
+  },
+  {
+    "number": 51,
+    "name": "PAD-80 Patch 51",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 32 00 00 7F F7"
+  },
+  {
+    "number": 52,
+    "name": "PAD-80 Patch 52",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 33 00 00 7F F7"
+  },
+  {
+    "number": 53,
+    "name": "PAD-80 Patch 53",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 34 00 00 7F F7"
+  },
+  {
+    "number": 54,
+    "name": "PAD-80 Patch 54",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 35 00 00 7F F7"
+  },
+  {
+    "number": 55,
+    "name": "PAD-80 Patch 55",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 36 00 00 7F F7"
+  },
+  {
+    "number": 56,
+    "name": "PAD-80 Patch 56",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 37 00 00 7F F7"
+  },
+  {
+    "number": 57,
+    "name": "PAD-80 Patch 57",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 38 00 00 7F F7"
+  },
+  {
+    "number": 58,
+    "name": "PAD-80 Patch 58",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 39 00 00 7F F7"
+  },
+  {
+    "number": 59,
+    "name": "PAD-80 Patch 59",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 3A 00 00 7F F7"
+  },
+  {
+    "number": 60,
+    "name": "PAD-80 Patch 60",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 3B 00 00 7F F7"
+  },
+  {
+    "number": 61,
+    "name": "PAD-80 Patch 61",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 3C 00 00 7F F7"
+  },
+  {
+    "number": 62,
+    "name": "PAD-80 Patch 62",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 3D 00 00 7F F7"
+  },
+  {
+    "number": 63,
+    "name": "PAD-80 Patch 63",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 3E 00 00 7F F7"
+  },
+  {
+    "number": 64,
+    "name": "PAD-80 Patch 64",
+    "bank": "Patch Memory",
+    "category": "Octapad II 8-Pad Percussion Maps",
+    "tags": [
+      "octapad",
+      "octapad ii 8-pad percussion maps",
+      "pad80"
+    ],
+    "sysex_dump": "F0 41 10 26 12 3F 00 00 7F F7"
+  }
+]

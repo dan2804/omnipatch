@@ -1,0 +1,23 @@
+manufacturer: Roland
+model: SK-88
+type: 61-Key Sound Canvas Keyboard
+year: 1997
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    resonance: 71
+    reverb_send: 91
+    chorus_send: 93
+sysex:
+  header: F0 41 10 42 12
+  device_id_byte: 2
+  commands:
+    request_preset: F0 41 10 42 11 00 00 00 00 01 00 7F F7
+banks:
+- name: SC Keyboard Tones 1
+  type: ROM
+  size: 128
+- name: SC Keyboard Tones 2
+  type: ROM
+  size: 128
