@@ -1,0 +1,24 @@
+manufacturer: Korg
+model: Korg DSM-1
+type: 3U 16-Voice Sampling Synthesizer Module
+year: 1987
+midi:
+  channels: 16
+  cc_map:
+    vcf_cutoff: 74
+    vcf_resonance: 71
+    attack: 73
+    decay: 75
+    individual_out: 16
+sysex:
+  header: F0 42 30 1A
+  device_id_byte: 2
+  commands:
+    request_preset: F0 42 30 1A 10 [prog] F7
+banks:
+- name: Harmonic Synthesis Library
+  count: 32
+  description: 16-Voice Additive Waveforms, Pipe Organs & Bell Harmonics
+- name: 12-Bit Sampled Library
+  count: 32
+  description: Orchestral Strings, Horn Stabs & Dynamic Percussion

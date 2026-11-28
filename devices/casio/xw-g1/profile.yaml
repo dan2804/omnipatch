@@ -1,0 +1,28 @@
+manufacturer: Casio
+model: Casio XW-G1
+type: Groove Synthesizer (VA Solo Synth & Looper)
+year: 2012
+midi:
+  channels: 16
+  cc_map:
+    cutoff: 74
+    resonance: 71
+    knob_1: 16
+    knob_2: 17
+    step_seq_tempo: 20
+    sample_loop: 21
+sysex:
+  header: F0 44 19 02
+  device_id_byte: 2
+  commands:
+    request_preset: F0 44 19 02 10 [bank] [prog] F7
+banks:
+- name: Groove Solo Synths
+  count: 100
+  description: Aggressive Club Leads, Acid Saws, Bass Bombs & FX
+- name: Phrase Looper & User PCM
+  count: 100
+  description: Realtime Sampled Phrases, Drum Kits & Slice Grooves
+- name: Interactive Step Sequences
+  count: 100
+  description: 16-Step Modular Sequences, Techno Arps & Patterns

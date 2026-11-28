@@ -1,0 +1,25 @@
+manufacturer: Roland
+model: Roland Jupiter-Xm
+type: Portable 4-Part + Drum ZEN-Core Synthesizer
+year: 2019
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_res: 71
+    osc_shape: 16
+    env_attack: 73
+    env_release: 72
+    i_arp: 17
+sysex:
+  header: F0 41 10 00 00 6A
+  device_id_byte: 2
+  commands:
+    request_preset: F0 41 10 00 00 6A 11 [scene] F7
+banks:
+- name: Jupiter & Juno Classic Scenes
+  count: 64
+  description: Authentic Jupiter-8, Juno-106 & JX-8P Multi-Layers
+- name: SH-101 & Modern VA Scenes
+  count: 64
+  description: Fast Snappy Monosynths, Sync Leads & I-Arpeggiator Sets

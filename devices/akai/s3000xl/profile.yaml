@@ -1,0 +1,24 @@
+manufacturer: Akai Professional
+model: Akai S3000XL / S2000 / S5000 / S6000
+type: 16-Bit / 24-Bit Flagship Studio Rack Sampler
+year: 1995
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    envelope_decay: 75
+    individual_out: 16
+    pan: 10
+sysex:
+  header: F0 47 00 05
+  device_id_byte: 2
+  commands:
+    request_preset: F0 47 00 05 10 [prog] F7
+banks:
+- name: Industry Standard Orchestral CD-ROM
+  count: 64
+  description: Legendary Akai S-Series Strings, French Horns & Flutes
+- name: Studio Master Keyboard & Synth Library
+  count: 64
+  description: Acoustic Grands, Vintage Analogs, Choirs & Drum Banks

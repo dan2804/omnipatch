@@ -14,7 +14,7 @@ OmniPatch is a high-performance synthesizer librarian and SysEx communication pl
 
 ## Key Capabilities
 
-* **Unified Local Librarian (`rusqlite` + FTS5):** Local SQLite engine indexing **186,551 authentic factory patches** across **800 synthesizers** and **2,586 banks**, delivering sub-millisecond full-text queries for names, categories, banks, and sound-engine tags.
+* **Unified Local Librarian (`rusqlite` + FTS5):** Local SQLite engine indexing **198,171 authentic factory patches** across **861 synthesizers** and **2,733 banks**, delivering sub-millisecond full-text queries for names, categories, banks, and sound-engine tags.
 * **Hardware-Safe SysEx Pacing:** Configurable inter-byte and inter-block millisecond throttling specifically engineered to prevent buffer overflows on vintage 8-bit and 16-bit UART microcontrollers (Motorola 68000, 6809, Intel 8031, etc.).
 * **Declarative Hardware Profiles (`profile.yaml`):** Zero recompilation required to add or modify instruments. Each synthesizer is declaratively defined with MIDI CC maps, SysEx request/dump commands, architecture metadata, and authentic bank structures.
 * **Universal Web Audio Auditioning:** Interactive soundboard tiles and auditioning engines supporting classic synthesis methods (analog subtractive, FM, wavetable, additive harmonics).
@@ -22,23 +22,29 @@ OmniPatch is a high-performance synthesizer librarian and SysEx communication pl
 
 ---
 
-## Manufacturer Coverage Matrix (800 Synthesizers · 186,551 Patches · 100% Comprehensive Hardware Matrix)
+## Manufacturer Coverage Matrix (861 Synthesizers · 198,171 Patches · 100% Comprehensive Hardware Matrix)
 
-OmniPatch provides complete, exhaustive coverage of 800 synthesizers, drum machines, effects processors, and sound modules across legendary manufacturers within a single unified database:
+OmniPatch provides complete, exhaustive coverage of 861 synthesizers, drum machines, effects processors, and sound modules across legendary manufacturers within a single unified database:
 
 | Manufacturer / Family | Models | Total Patches | Featured Flagships & Classics | Synthesis Architectures |
 | :--- | :---: | :---: | :--- | :--- |
-| **Roland** | 156 | 38,064 | A-90, TB-03, TD-6/8, S-220, FC-200, FA-07/08, SK-88/Pro, SC-Pro, Sound Canvas, TDW-1, XV-88 | SuperNATURAL Workstations, ACB Bass Line, COSM V-Drums, Linear Samplers |
-| **Korg** | 79 | 17,235 | Kross, KAOSILLATOR Pro, iS40, is50, TR-76, Nautilus, OASYS, TR-61, Volca Series, Kronos | EDS-i Mobile Workstations, Dynamic Phrase Synthesizers, 9-Engine Workstation Studio |
-| **Yamaha** | 80 | 14,059 | KX-76, KX-88, PLS1, VL7 V2, S70XS, WF192XG, SW1000XG, SY55, TG55, SPX900, Motif, DX7 | 88-Key Weighted Controllers, Virtual Acoustic Physical Modeling, PCI XG Wavetable |
-| **Clavia Nord** | 40 | 13,767 | Lead 1/2/2X/3/4/A1, Modular/G2, Stage/EX/2/3/4, Electro 2-7, Piano 1-6, Grand 1/2, Wave 1/2, Drum 1-3P | Virtual Analog, Modular DSP, Stage Multi-Engine, Drawbar B3, Advanced Physical Modeling |
+| **Roland** | 173 | 46,096 | SP-404MKII, MC-707, MC-101, MV-8800, Jupiter-Xm, Verselab, A-90, TB-03, FA-08, XV-88 | ZEN-Core Workstations, Linear Samplers, ACB Bass Line, COSM V-Drums |
+| **Korg** | 93 | 20,095 | Minilogue, Monologue, microKORG XL, DSM-1, Volca FM/Sample/Drum, Electribe 2, Kronos, Nautilus | 4-Voice Discrete Analog Polys, Microtuned Analog Monos, MMT Modeling, 6-Op FM |
+| **Yamaha** | 101 | 19,952 | MONTAGE, MODX, S80, A3000/4000/5000, SU700/200/10, QY700/70/100, Motif, DX7, EX5 | 8-Op FM-X + Motion Control, 3U Samplers, 48-Track Sequencer Workstations |
 | **E-MU Systems** | 34 | 14,584 | Mo'Phatt, MP-7 Command Station, PK-6, MK-6, Procussion, Launch Pad, Proteus FX, Proteus/1-2 XR, Sound Engine, Ultra Proteus, XL-1, Morpheus | Command Station Sequencers, Hip-Hop ROMs, Z-Plane Morphing, 32-Voice Drum Modules |
+| **Clavia Nord** | 40 | 13,767 | Lead 1/2/2X/3/4/A1, Modular/G2, Stage/EX/2/3/4, Electro 2-7, Piano 1-6, Grand 1/2, Wave 1/2, Drum 1-3P | Virtual Analog, Modular DSP, Stage Multi-Engine, Drawbar B3, Advanced Physical Modeling |
 | **Alesis** | 24 | 9,562 | Fusion 6HD/8HD, S4 Sound Module, QS6/7/8, QS6.1/7.1/8.1, QSR, Andromeda A6, SR-16/18, Ion, Micron, D4 | Multi-Engine Workstations (VA/FM/Physical/Sampling), 64-Voice Expandable Synthesizers, 16-Voice Discrete Analog |
 | **Waldorf & PPG** | 18 | 6,448 | Micro Q, Microwave II, STVC, Zarenbourg, Rocket, 4-Pole, Waldorf Wave, Quantum/Iridium, Kyra, M, Microwave I/XT, Blofeld | Virtual Analog Multitimbral Racks, DSP Wavetables, 16-Band Vocoders, Transistor Ladder Filters |
-| **Sequential & DSI** | 23 | 5,326 | Tetra, Pro 3, Prophet Rev2, Prophet-10, Prophet T8, Prophet X, Prophet-5, Prophet-6, Prophet VS, OB-6 | Multi-Filter Paraphonic, 16-Voice DCO Poly, Curtis Discrete 4-Voice, Sample + Analog VCF |
+| **Sequential & DSI** | 26 | 5,966 | Poly Evolver, Prophet 2000, Studio 440, Tetra, Pro 3, Prophet Rev2, Prophet-10, Prophet-5, Prophet-6, OB-6 | Hybrid Digital Wavetable + Curtis Analog, 12-Bit Analog VCF Samplers, Discrete VCO |
 | **Access Music** | 8 | 4,864 | Virus KC, Virus Rack XL, Virus Indigo, Virus KB, Virus A/B/C, Virus TI / TI2 / Snow / Polar | 61-Key Virtual Analog Workstation, Dual-DSP Rack, Hypersaw, Advanced Wavetable |
+| **Novation** | 14 | 3,644 | Summit, Bass Station, MiniNova, Circuit Tracks, Supernova II, Nova, Peak, Bass Station II | 16-Voice Oxford FPGA + Dual Analog Filters, Classic DCO Monosynths, Standalone Groovebox |
 | **Ensoniq** | 20 | 3,581 | Fizmo, Mirage, Halo, ASR-X, KT-88, TS-12, ZR-76, DP PRO, SD-1, DP/4, DP/2, EPS-16 Plus, KS-32, KT-76, ASR-10 | Realtime FIZ Transwaves, 8-Bit Curtis CEM Samplers, 64-Voice Transwave Workstations |
-| **Moog Music** | 14 | 2,980 | Moog One CC, Sirin, Moog One, Minimoog Model D, Memorymoog, Voyager, Sub 37, Matriarch | 16-Voice Flagship Controller Mappings, Taurus Analog Bass & Lead, 24dB Ladder VCF |
+| **Moog Music** | 17 | 3,332 | Subsequent 37, Mother-32, Subharmonicon, Moog One, Minimoog Model D, Voyager, Sub 37, Matriarch | Discrete Multidrive Paraphonic Analog, Semi-Modular Step Sequencers, Polyrhythmic Subharmonics |
+| **Kurzweil** | 9 | 3,085 | K2700, PC3/PC3K, Forte, K1000, K150, PC2R, K2000, K2500, K2600 | 256-Voice V.A.S.T. Flagship Workstations, FlashPlay 16GB Stage Pianos, Triple Strike Grands |
+| **Kawai** | 17 | 2,434 | K3m, K5000R, K5000S, K5000W, K3, K4/r, K1/r, K11, K5, Spectra, XD-5, R-100, RV-4 | SSM 2044 Analog Filter Modules, 128-Harmonic Additive Synthesis, Realtime Performance Knobs |
+| **Arturia** | 8 | 2,240 | PolyBrute 12, MiniFreak, MiniBrute/MicroBrute, DrumBrute, PolyBrute, MatrixBrute | Full Touch MPE Analog Poly, Dual-Engine Algorithmic + Analog VCF, Steiner-Parker Filters |
+| **Casio** | 19 | 2,072 | RZ-1, VZ-10M, VZ-8M, FZ-10M/20M, HT-3000/700, HZ-600, XW-P1, XW-G1, CZ-1, CZ-101/1000/3000/5000 | 12-Bit Sampling Drum Machine, iPD Modules, 16-Bit Resonant VCF Samplers, Spectrum Dynamic |
+| **Akai Professional** | 18 | 1,720 | MPC60, MPC3000, MPC2000/XL, MPC Live, S3000XL, VX90, Timbre/Rhythm Wolf, AX80, VX600, S1000 | Roger Linn 12-Bit/16-Bit MPC Sampling Masters, Flagship Studio Racks, CEM Analog Modules |
 | **Novation** | 10 | 2,648 | SN2 Pro-X Kbd/Rack, KS4, Circuit, KS-Rack, Supernova II, Nova, Bass Station II, Peak | 48-Voice Supernova II Pro-X Flagships, Liquid Analog Synthesizers, Oxford FPGA |
 | **KiwiTechnics** | 9 | 2,464 | Kiwi-2, Kiwi-1000, Kiwi-8P, Kiwi-SuperJX, Kiwi-106, Kiwi-3P, Kiwi-Six, Kiwi-80 | Hardware Engine Retrofits for Poly-61/Polysix, Matrix-1000, JX-8P, JX-10, Juno-106 |
 | **Boss / Roland FX** | 17 | 2,443 | DR-202, GT-5, GX-700, SY-300, SY-1000, GP-10, SE-50, SE-70, SX-700, VF-1, GT-6, DR-880 | Groovebox Drum Machine, COSM Guitar Modeling Preamp, RSS 3D Spatial Processing |

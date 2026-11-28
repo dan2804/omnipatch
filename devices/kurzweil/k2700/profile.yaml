@@ -1,0 +1,31 @@
+manufacturer: Kurzweil
+model: Kurzweil K2700
+type: 256-Voice V.A.S.T. Flagship Synthesizer Workstation
+year: 2021
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_res: 71
+    slider_1: 16
+    slider_2: 17
+    ribbon: 1
+    kdfx_depth: 91
+sysex:
+  header: F0 07 16 00
+  device_id_byte: 2
+  commands:
+    request_preset: F0 07 16 00 10 [bank] [prog] F7
+banks:
+- name: German 9ft Concert Grand
+  count: 128
+  description: High-Res Acoustic Piano with Optimized String Resonance
+- name: Expanded V.A.S.T. Synthesizers
+  count: 128
+  description: 32-Layer Variable Architecture DSP Algorithms & Leads
+- name: KB3 Tonewheel Organ Models
+  count: 128
+  description: Authentic B3 Organs with 9 Drawbars & Rotary Cabinets
+- name: FlashPlay Orchestral Ensembles
+  count: 128
+  description: Hollywood Strings, Brass Sections, Woodwinds & Drums

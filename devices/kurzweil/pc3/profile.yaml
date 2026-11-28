@@ -1,0 +1,32 @@
+manufacturer: Kurzweil
+model: Kurzweil PC3 / PC3K / PC3X
+type: 128-Voice Dynamic V.A.S.T. Performance Controller
+year: 2008
+midi:
+  channels: 16
+  cc_map:
+    slider_1: 16
+    slider_2: 17
+    slider_3: 18
+    slider_4: 19
+    filter_cutoff: 74
+    filter_resonance: 71
+    kdfx_send: 91
+sysex:
+  header: F0 07 14 00
+  device_id_byte: 2
+  commands:
+    request_preset: F0 07 14 00 10 [bank] [prog] F7
+banks:
+- name: Preset Bank 1 - Classic Keyboards
+  count: 128
+  description: Kurzweil Triple Strike Grand, Rhodes & Wurlys
+- name: Preset Bank 2 - Orchestral Strings
+  count: 128
+  description: Pioneering Kurzweil String Ensembles & Horns
+- name: Preset Bank 3 - VA1 Virtual Analog
+  count: 128
+  description: Discrete VA1 DSP Engine Saws, Chords & Basses
+- name: Preset Bank 4 - Drums & Sound FX
+  count: 128
+  description: Multitrack Drum Kits, World Percussion & Textures

@@ -1,0 +1,25 @@
+manufacturer: Novation
+model: Novation MiniNova / UltraNova
+type: 18-Voice Virtual Analog Synthesizer & Vocoder
+year: 2012
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    perform_1: 16
+    perform_2: 17
+    animate_1: 18
+    vocalstrip: 19
+sysex:
+  header: F0 00 20 29 01 01
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 20 29 01 01 01 [bank] [prog] F7
+banks:
+- name: Classic Synth & Dance
+  count: 128
+  description: Supernova Heritage Leads, Hypersaws, Acid Basses & Plucks
+- name: Vocoder & VocalStrip
+  count: 128
+  description: 12-Band Vocoders, Hard-Tune Formants & Robot Choirs

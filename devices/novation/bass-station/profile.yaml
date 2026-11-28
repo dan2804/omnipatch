@@ -1,0 +1,25 @@
+manufacturer: Novation
+model: Novation Bass Station (Original Keyboard & Rack)
+type: Classic Dual-DCO Analog Monophonic Synthesizer
+year: 1993
+midi:
+  channels: 16
+  cc_map:
+    vcf_cutoff: 74
+    vcf_resonance: 71
+    osc1_octave: 16
+    osc2_detune: 17
+    env_attack: 73
+    env_decay: 75
+sysex:
+  header: F0 00 20 29 01 00
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 20 29 01 00 01 [prog] F7
+banks:
+- name: Factory Analog Programs
+  count: 40
+  description: Classic 90s Rave Basses, TB-303 Acid Sweeps & Punchy Saws
+- name: User Memory Programs
+  count: 60
+  description: Screaming Resonance Leads, Sub Bass Bombs & Analog Plucks

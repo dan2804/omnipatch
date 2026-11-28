@@ -1,0 +1,25 @@
+manufacturer: Roland
+model: Roland MV-8000 / MV-8800
+type: Production Studio & Sampling Workstation
+year: 2003
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_res: 71
+    fader_1: 16
+    fader_2: 17
+    master_fx: 91
+    bpm: 20
+sysex:
+  header: F0 41 10 00 00 1E
+  device_id_byte: 2
+  commands:
+    request_preset: F0 41 10 00 00 1E 12 [prog] F7
+banks:
+- name: Master Studio Drum Kits
+  count: 64
+  description: High-Impact Hip Hop, Rock, Pop & Electronic Drum Sets
+- name: Multitimbral Instruments
+  count: 64
+  description: Sampled Acoustic Instruments, Synth Basses & Orchestral Stabs

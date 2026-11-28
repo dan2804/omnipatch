@@ -1,0 +1,25 @@
+manufacturer: Roland
+model: Roland Verselab MV-1
+type: All-in-One Song Production Studio
+year: 2021
+midi:
+  channels: 16
+  cc_map:
+    vocal_tune: 16
+    harmony_depth: 17
+    filter_cutoff: 74
+    filter_res: 71
+    compressor: 18
+    reverb: 91
+sysex:
+  header: F0 41 10 00 00 75
+  device_id_byte: 2
+  commands:
+    request_preset: F0 41 10 00 00 75 11 [preset] F7
+banks:
+- name: Vocal Production & Harmony
+  count: 64
+  description: Auto-Pitch Processing, Vocoders & Doubling Harmonies
+- name: Song Template Instrument Rigs
+  count: 64
+  description: Full Song Backing Rigs (Keys, Bass, Lead & TR Kits)

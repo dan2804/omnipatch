@@ -1,0 +1,25 @@
+manufacturer: Casio
+model: Casio RZ-1
+type: 12-Bit Sampling Drum Machine
+year: 1986
+midi:
+  channels: 16
+  cc_map:
+    volume: 7
+    pan: 10
+    pitch: 16
+    decay: 17
+    sample_start: 18
+    accent: 19
+sysex:
+  header: F0 44 00 00
+  device_id_byte: 2
+  commands:
+    request_preset: F0 44 00 00 70 [kit] F7
+banks:
+- name: Factory PCM Kits
+  count: 32
+  description: Classic 12-Bit Vintage Hip Hop Kick, Snare, Tom & Rim Hits
+- name: Sampled User Kits
+  count: 32
+  description: User 0.2s 12-Bit Sampling Slots & Lo-Fi Beatbox Performer

@@ -1,0 +1,33 @@
+manufacturer: Casio
+model: Casio XW-P1
+type: Performance Synthesizer (VA Solo Synth & HexLayer)
+year: 2012
+midi:
+  channels: 16
+  cc_map:
+    cutoff: 74
+    resonance: 71
+    knob_1: 16
+    knob_2: 17
+    knob_3: 18
+    knob_4: 19
+    slider_1: 20
+    slider_2: 21
+sysex:
+  header: F0 44 19 01
+  device_id_byte: 2
+  commands:
+    request_preset: F0 44 19 01 10 [bank] [prog] F7
+banks:
+- name: Solo Synthesizer (VA)
+  count: 100
+  description: 6-Oscillator Virtual Analog Leads, Sync Basses & Arps
+- name: HexLayer Multi-Timbral
+  count: 100
+  description: 6-Part Layered Evolving Drones, Epic Strings & Textures
+- name: Drawbar Organ Presets
+  count: 50
+  description: 9-Slider Realtime B3 Organ Drawbars & Rotary Cabinets
+- name: PCM Keyboards & Synths
+  count: 150
+  description: Acoustic Grand Pianos, Electric Keys, Brass & Drums

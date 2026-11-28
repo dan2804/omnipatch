@@ -1,0 +1,33 @@
+manufacturer: Yamaha
+model: Yamaha MONTAGE 6 / 7 / 8
+type: Flagship Synthesizer (Motion Control, FM-X & AWM2)
+year: 2016
+midi:
+  channels: 16
+  cc_map:
+    super_knob: 1
+    motion_seq: 16
+    cutoff: 74
+    resonance: 71
+    attack: 73
+    decay: 75
+    knob_1: 17
+    knob_2: 18
+sysex:
+  header: F0 43 00 7F 1C
+  device_id_byte: 2
+  commands:
+    request_preset: F0 43 00 7F 1C 00 [bank] [prog] F7
+banks:
+- name: CFX & Imperial Concert Grands
+  count: 128
+  description: Yamaha Flagship Acoustic Pianos with Damper Resonance
+- name: 8-Operator FM-X Algorithms
+  count: 128
+  description: High-Definition Frequency Modulation Complex Timbres
+- name: Motion Control Soundscapes
+  count: 128
+  description: Super Knob Morphing Textures, Pads & Dynamic Arps
+- name: Symphonic & Acoustic Ensembles
+  count: 128
+  description: Orchestral Strings, Horn Stabs, Guitars & Drums

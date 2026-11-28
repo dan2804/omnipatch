@@ -1,0 +1,26 @@
+manufacturer: Kawai
+model: Kawai K5000S
+type: Advanced Additive Synthesizer (16 Realtime Knobs)
+year: 1997
+midi:
+  channels: 16
+  cc_map:
+    harmonic_cutoff: 74
+    harmonic_res: 71
+    macro_1: 16
+    macro_2: 17
+    macro_3: 18
+    macro_4: 19
+    reverb: 91
+sysex:
+  header: F0 40 00 0B
+  device_id_byte: 2
+  commands:
+    request_preset: F0 40 00 0B 01 [bank] [prog] F7
+banks:
+- name: Performance Additive Programs
+  count: 128
+  description: Realtime Modulated Additive Sweeps, Sci-Fi Textures & Leads
+- name: Studio Keyboard Presets
+  count: 128
+  description: Bells, Glass Organs, Celli, Vocal Formants & Arpeggios

@@ -1,0 +1,24 @@
+manufacturer: Casio
+model: Casio VZ-8M
+type: 1U Interactive Phase Distortion Module (Guitar-MIDI)
+year: 1989
+midi:
+  channels: 16
+  cc_map:
+    brightness: 74
+    mod_wheel: 1
+    guitar_mode: 16
+    envelope_decay: 75
+    tremolo_depth: 92
+sysex:
+  header: F0 44 03 01
+  device_id_byte: 2
+  commands:
+    request_preset: F0 44 03 01 70 [prog] F7
+banks:
+- name: Guitar Synth Voices
+  count: 64
+  description: Optimized Multi-Channel Monophonic Voice Guitar Presets
+- name: Polyphonic Soundset
+  count: 64
+  description: 8-Voice Polyphonic iPD Brass, Bells, Strings & Leads

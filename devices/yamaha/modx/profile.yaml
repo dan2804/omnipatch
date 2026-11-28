@@ -1,0 +1,30 @@
+manufacturer: Yamaha
+model: Yamaha MODX 6 / 7 / 8
+type: 8-Op FM-X & AWM2 Music Synthesizer
+year: 2018
+midi:
+  channels: 16
+  cc_map:
+    super_knob: 1
+    motion_seq: 16
+    cutoff: 74
+    resonance: 71
+    attack: 73
+    decay: 75
+    knob_1: 17
+    knob_2: 18
+sysex:
+  header: F0 43 00 7F 1D
+  device_id_byte: 2
+  commands:
+    request_preset: F0 43 00 7F 1D 00 [bank] [prog] F7
+banks:
+- name: Concert Pianos & Keys
+  count: 128
+  description: Stereo Acoustic Grands, Vintage Rhodes, Wurlys & DX Tines
+- name: FM-X Modern Synthesis
+  count: 128
+  description: Electronic Basses, Screaming Leads, Bells & Glass Pads
+- name: Motion Sequence Beats & Pads
+  count: 128
+  description: Rhythmic Gated Sweeps, Groove Arps & Complex Layers

@@ -1,0 +1,25 @@
+manufacturer: Novation
+model: Novation Circuit Tracks
+type: Standalone Groovebox (Dual Poly Synths & 4 Drum Tracks)
+year: 2021
+midi:
+  channels: 16
+  cc_map:
+    macro_1: 16
+    macro_2: 17
+    macro_3: 18
+    macro_4: 19
+    filter_cutoff: 74
+    filter_resonance: 71
+sysex:
+  header: F0 00 20 29 01 03
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 20 29 01 03 01 [project] F7
+banks:
+- name: Synth 1 & Synth 2 Patches
+  count: 64
+  description: Nova Synth Engine Polys, Fat Basses & Plucked Arps
+- name: Drum Tracks & Samples
+  count: 64
+  description: Punchy 808/909 Drums, Percussion One-Shots & Hits

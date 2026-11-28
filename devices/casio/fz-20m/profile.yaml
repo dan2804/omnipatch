@@ -1,0 +1,24 @@
+manufacturer: Casio
+model: Casio FZ-20M
+type: 3U 16-Bit SCSI Sampler (Resonant Analog VCF)
+year: 1988
+midi:
+  channels: 16
+  cc_map:
+    vcf_cutoff: 74
+    vcf_resonance: 71
+    lfo_depth: 1
+    env_attack: 73
+    scsi_stream: 16
+sysex:
+  header: F0 44 01 01
+  device_id_byte: 2
+  commands:
+    request_preset: F0 44 01 01 10 [voice] F7
+banks:
+- name: Studio Master Library
+  count: 32
+  description: High-Density Orchestral Ensembles & Acoustic Instruments
+- name: Analog & Industrial Library
+  count: 32
+  description: Resonant Filtered Analog Sawtooths, Choirs & FX Stabs

@@ -1,0 +1,32 @@
+manufacturer: Roland
+model: Roland MC-707
+type: 8-Track Flagship Groovebox (ZEN-Core Synthesis)
+year: 2019
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_res: 71
+    track_fader: 7
+    fx_knob: 16
+    mod_wheel: 1
+    attack: 73
+    release: 72
+sysex:
+  header: F0 41 10 00 00 6B
+  device_id_byte: 2
+  commands:
+    request_preset: F0 41 10 00 00 6B 11 [track] [prog] F7
+banks:
+- name: ZEN-Core Poly Synths & Leads
+  count: 128
+  description: Multi-Oscillator Virtual Analog, Juno/Jupiter Models & Saws
+- name: Deep Basses & Acid Hooks
+  count: 128
+  description: TB-303 Emulations, SH-101 Basslines & Sub Bombs
+- name: Acoustic & Electric Keyboards
+  count: 128
+  description: SuperNATURAL Grands, Stage Rhodes, Wurlys & Organs
+- name: TR Drum Kits & Beats
+  count: 64
+  description: TR-808, TR-909, TR-707, TR-606 & Modern Trap Kits

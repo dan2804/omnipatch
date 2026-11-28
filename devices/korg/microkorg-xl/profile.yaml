@@ -1,0 +1,25 @@
+manufacturer: Korg
+model: Korg microKORG XL / XL+
+type: MMT Modeling Synthesizer & 16-Band Vocoder
+year: 2008
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    knob_1: 16
+    knob_2: 17
+    knob_3: 18
+    vocoder_level: 19
+sysex:
+  header: F0 42 30 00 01 03
+  device_id_byte: 2
+  commands:
+    request_preset: F0 42 30 00 01 03 10 [prog] F7
+banks:
+- name: Vintage & Modern Synth Programs
+  count: 64
+  description: MMT Virtual Analog Saws, Vintage Organs & Electric Pianos
+- name: 16-Band Vocoder & Lead Programs
+  count: 64
+  description: Formant Vocoders, Carrier Choirs & Aggressive Leads

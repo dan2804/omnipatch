@@ -1,0 +1,32 @@
+manufacturer: Moog Music
+model: Moog Subsequent 37 / Subsequent 25
+type: Paraphonic Analog Synthesizer (Multidrive Engine)
+year: 2017
+midi:
+  channels: 16
+  cc_map:
+    vcf_cutoff: 19
+    vcf_resonance: 21
+    multidrive: 18
+    vco1_freq: 16
+    vco2_detune: 17
+    filter_slope: 20
+    glide_rate: 5
+sysex:
+  header: F0 04 08 00
+  device_id_byte: 2
+  commands:
+    request_preset: F0 04 08 00 01 [bank] [prog] F7
+banks:
+- name: Punchy Bass & Leads Bank 1
+  count: 64
+  description: High-Headroom Discrete Analog Basses & Multidrive Saws
+- name: Paraphonic & Modulated Bank 2
+  count: 64
+  description: Dual-Voice Paraphonic Chords, Cross-Mod Sweeps & Arps
+- name: Vintage Minimoog Heritage Bank 3
+  count: 64
+  description: Warm 1970s Model D Style Leads, Round Basses & Flutes
+- name: Percussion & Sound FX Bank 4
+  count: 64
+  description: Analog Kicks, Snappy Percussion, Sci-Fi Sweeps & Drones

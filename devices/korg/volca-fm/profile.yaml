@@ -1,0 +1,26 @@
+manufacturer: Korg
+model: Korg Volca FM / FM2
+type: 6-Operator FM Synthesizer (Yamaha DX7 Compatible)
+year: 2016
+midi:
+  channels: 16
+  cc_map:
+    mod_attack: 40
+    mod_decay: 41
+    carrier_attack: 42
+    carrier_decay: 43
+    lfo_rate: 44
+    lfo_depth: 45
+    chorus_depth: 49
+sysex:
+  header: F0 42 30 00 01 2F
+  device_id_byte: 2
+  commands:
+    request_preset: F0 42 30 00 01 2F 10 [prog] F7
+banks:
+- name: Classic 6-Op FM Timbres
+  count: 32
+  description: DX Electric Pianos, Crisp Tubular Bells, Clavs & Plucks
+- name: Modern FM Sequences
+  count: 32
+  description: Evolving FM Pads, Metallic Hits, Growling Basses & Arps

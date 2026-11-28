@@ -1,0 +1,24 @@
+manufacturer: Sequential
+model: Sequential Circuits Prophet 2000 / 2002
+type: 12-Bit Sampler (Curtis CEM 3379 Analog VCF)
+year: 1985
+midi:
+  channels: 16
+  cc_map:
+    vcf_cutoff: 74
+    vcf_resonance: 71
+    attack: 73
+    decay: 75
+    lfo_depth: 1
+sysex:
+  header: F0 01 03
+  device_id_byte: 2
+  commands:
+    request_preset: F0 01 03 01 [preset] F7
+banks:
+- name: Factory Sound Library Disk 1
+  count: 32
+  description: 12-Bit Acoustic Grands, Rich Strings & Brass Ensembles
+- name: Factory Sound Library Disk 2
+  count: 32
+  description: Curtis Filtered Analog Synths, Slap Bass & Percussion

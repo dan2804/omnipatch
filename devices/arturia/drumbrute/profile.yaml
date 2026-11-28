@@ -1,0 +1,21 @@
+manufacturer: Arturia
+model: Arturia DrumBrute / DrumBrute Impact
+type: Pure Analog Drum Machine (Steiner-Parker Output Filter)
+year: 2016
+midi:
+  channels: 16
+  cc_map:
+    kick1_tune: 16
+    snare_snap: 17
+    filter_cutoff: 74
+    filter_resonance: 71
+    roller_strip: 18
+sysex:
+  header: F0 00 20 6B 02 01
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 20 6B 02 01 01 [pattern] F7
+banks:
+- name: Analog Drum Kits & Patterns
+  count: 64
+  description: Dual Analog Kicks, Snappy Snares, Rim, Claps & Color Saturation

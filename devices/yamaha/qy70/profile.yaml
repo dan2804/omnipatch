@@ -1,0 +1,24 @@
+manufacturer: Yamaha
+model: Yamaha QY70
+type: Portable 16-Track Walkman XG Workstation
+year: 1997
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_res: 71
+    reverb: 91
+    chorus: 93
+    tempo: 20
+sysex:
+  header: F0 43 10 4C
+  device_id_byte: 2
+  commands:
+    request_preset: F0 43 10 4C 00 01 [bank] [prog] F7
+banks:
+- name: Portable XG Instruments
+  count: 128
+  description: Compact AWM2 Acoustic Grands, Warm Strings & Basses
+- name: Portable Synth Voices
+  count: 128
+  description: Modern Techno Leads, Arps, Polysynths & Drum Kits

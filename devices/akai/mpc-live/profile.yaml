@@ -1,0 +1,28 @@
+manufacturer: Akai Professional
+model: Akai MPC Live / Live II / One / X
+type: Standalone Music Production Workstation
+year: 2017
+midi:
+  channels: 16
+  cc_map:
+    qlink_1: 16
+    qlink_2: 17
+    qlink_3: 18
+    qlink_4: 19
+    filter_cutoff: 74
+    filter_resonance: 71
+sysex:
+  header: F0 47 00 40
+  device_id_byte: 2
+  commands:
+    request_preset: F0 47 00 40 10 [prog] F7
+banks:
+- name: Modern Trap & Drill Drum Kits
+  count: 64
+  description: 808 Glides, Distorted Subs, Rolling Hi-Hats & Vocal Shouts
+- name: Boom Bap & Neo Soul Programs
+  count: 64
+  description: Vintage Vinyl Layered Drums, Rhodes Pianos & Plucked Basses
+- name: Plugin Instrument Presets (Hype/Tubesynth)
+  count: 128
+  description: Internal Synth Engines, Modern Leads, Pads & Basses

@@ -1,0 +1,24 @@
+manufacturer: Sequential
+model: Sequential Circuits Studio 440
+type: 12-Bit Sampling Drum Machine & Sequencer
+year: 1986
+midi:
+  channels: 16
+  cc_map:
+    pitch: 16
+    decay: 17
+    vcf_cutoff: 74
+    vcf_res: 71
+    pan: 10
+sysex:
+  header: F0 01 04
+  device_id_byte: 2
+  commands:
+    request_preset: F0 01 04 02 [seq] F7
+banks:
+- name: Sequential Studio Drum Kits
+  count: 32
+  description: Warm 12-Bit Analog-Filtered Kicks, Snares & Hi-Hats
+- name: Hip Hop & Electro Sets
+  count: 32
+  description: Punchy Street Beats, Bass Stabs & Sampled Chops

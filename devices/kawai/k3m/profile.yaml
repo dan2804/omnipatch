@@ -1,0 +1,25 @@
+manufacturer: Kawai
+model: Kawai K3m
+type: 2U 6-Voice Synthesizer Module (SSM 2044 Analog VCF)
+year: 1986
+midi:
+  channels: 16
+  cc_map:
+    vcf_cutoff: 74
+    vcf_resonance: 71
+    osc1_wave: 16
+    osc2_wave: 17
+    env_attack: 73
+    env_decay: 75
+sysex:
+  header: F0 40 00 00
+  device_id_byte: 2
+  commands:
+    request_preset: F0 40 00 00 01 [prog] F7
+banks:
+- name: Factory Internal Programs
+  count: 50
+  description: SSM 2044 Filter Warm Brass, String Pads & Bells
+- name: Factory Cartridge Programs
+  count: 50
+  description: Resonant Plucks, Synth Basslines & Acoustic Emulations

@@ -1,0 +1,32 @@
+manufacturer: Roland
+model: Roland SP-404 / SP-404SX / SP-404MKII
+type: Linear Wave Sampler & Multi-FX Workstation
+year: 2005
+midi:
+  channels: 16
+  cc_map:
+    ctrl_1: 16
+    ctrl_2: 17
+    ctrl_3: 18
+    roll: 19
+    hold: 64
+    fx_type: 80
+    fx_on_off: 81
+sysex:
+  header: F0 41 10 00 00 48
+  device_id_byte: 2
+  commands:
+    request_preset: F0 41 10 00 00 48 11 [bank] [pad] F7
+banks:
+- name: Bank A - Hip Hop Lo-Fi Kits
+  count: 16
+  description: Vinyl Sim Compressed Kicks, Crispy Snares & Chops
+- name: Bank B - Boom Bap & Breaks
+  count: 16
+  description: Raw Drum Breaks, Jazz Rhodes Chords & Bass One-Shots
+- name: Bank C - Synth Stabs & Vocal Chops
+  count: 16
+  description: Filtered Vocal Formants, Ambient Bells & Analog Saws
+- name: Bank D - Ambient Textures & FX
+  count: 16
+  description: Cassette Tape Wobble, Sub Drones & White Noise Sweeps

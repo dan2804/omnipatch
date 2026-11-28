@@ -1,0 +1,24 @@
+manufacturer: Akai Professional
+model: Akai MPC3000
+type: 16-Bit 44.1kHz Sampling Production Master (Roger Linn)
+year: 1993
+midi:
+  channels: 16
+  cc_map:
+    pad_pitch: 16
+    filter_cutoff: 74
+    filter_resonance: 71
+    decay: 17
+    pan: 10
+sysex:
+  header: F0 47 00 02
+  device_id_byte: 2
+  commands:
+    request_preset: F0 47 00 02 10 [seq] F7
+banks:
+- name: Flagship 16-Bit Studio Drum Kits
+  count: 64
+  description: Pristine High-Headroom Studio Drums, Percussion & Stabs
+- name: Analog Filter Dynamic Drum Sets
+  count: 64
+  description: Resonant Lowpass Filtered Breaks, 808 Subs & Vocal Chops

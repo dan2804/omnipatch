@@ -1,0 +1,24 @@
+manufacturer: Akai Professional
+model: Akai MPC2000 / MPC2000XL
+type: 16-Bit Classic MIDI Production Center
+year: 1997
+midi:
+  channels: 16
+  cc_map:
+    pad_pitch: 16
+    filter_cutoff: 74
+    filter_res: 71
+    slider_tune: 17
+    pan: 10
+sysex:
+  header: F0 47 00 03
+  device_id_byte: 2
+  commands:
+    request_preset: F0 47 00 03 10 [prog] F7
+banks:
+- name: Standard Hip Hop Program Banks
+  count: 64
+  description: Authentic 90s NYC Boom Bap Kicks, Snares, Hats & Cuts
+- name: R&B and Electronic Drum Programs
+  count: 64
+  description: Warm Clean Drum Kits, Percussion Loops & Synth Chords

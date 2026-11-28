@@ -1,0 +1,26 @@
+manufacturer: Yamaha
+model: Yamaha A5000
+type: 3U 128-Voice Flagship Sampler (6 Multi-FX Blocks)
+year: 1999
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    envelope_attack: 73
+    envelope_decay: 75
+    fx_block_1: 91
+    fx_block_2: 92
+    fx_block_3: 93
+sysex:
+  header: F0 43 00 58
+  device_id_byte: 2
+  commands:
+    request_preset: F0 43 00 58 10 [prog] F7
+banks:
+- name: Flagship Symphonic Soundset
+  count: 64
+  description: 128-Voice Concert Grand, Symphonic Orchestra & Solos
+- name: Electronic & Sound Design
+  count: 64
+  description: 6 Multi-FX Processing Rigs, Granular Textures & Breaks

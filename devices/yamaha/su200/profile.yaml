@@ -1,0 +1,24 @@
+manufacturer: Yamaha
+model: Yamaha SU200
+type: Loop Remix Sampler (Loop Track Play)
+year: 2000
+midi:
+  channels: 16
+  cc_map:
+    loop_track_play: 16
+    scratch_pad: 17
+    filter_cutoff: 74
+    filter_resonance: 71
+    bpm_sync: 20
+sysex:
+  header: F0 43 00 59
+  device_id_byte: 2
+  commands:
+    request_preset: F0 43 00 59 10 [bank] [pad] F7
+banks:
+- name: Dance & Breakbeat Bank
+  count: 24
+  description: Synced Drum Loops, Scratch Effects & Vocal Hooks
+- name: Hip Hop & Electro Bank
+  count: 24
+  description: Lo-Fi Vinyl Grooves, Sub Bass Loops & Synth Chords

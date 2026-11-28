@@ -1,0 +1,25 @@
+manufacturer: Yamaha
+model: Yamaha QY100
+type: Mobile Guitar/Vocal Workstation & XG Sequencer
+year: 2000
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_res: 71
+    amp_drive: 16
+    amp_type: 17
+    reverb: 91
+    chorus: 93
+sysex:
+  header: F0 43 10 4C
+  device_id_byte: 2
+  commands:
+    request_preset: F0 43 10 4C 00 02 [bank] [prog] F7
+banks:
+- name: XG Production Soundset
+  count: 128
+  description: Complete Songwriting Instruments, Rhythm Sections & Leads
+- name: Guitar & Bass Amp Presets
+  count: 64
+  description: Overdrive Stacks, Clean Tube Chime & Bass Modeling

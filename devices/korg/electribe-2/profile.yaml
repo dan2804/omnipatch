@@ -1,0 +1,25 @@
+manufacturer: Korg
+model: Korg Electribe 2 / Electribe 2 Sampler
+type: Music Production Station (Analog Modeling & Sampling)
+year: 2014
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    osc_edit: 16
+    fx_edit: 17
+    mod_speed: 76
+    mod_depth: 77
+sysex:
+  header: F0 42 30 00 01 23
+  device_id_byte: 2
+  commands:
+    request_preset: F0 42 30 00 01 23 10 [pattern] F7
+banks:
+- name: Electronic & House Patterns
+  count: 64
+  description: Four-on-the-Floor Club Beats, Acid Basses & Poly Stabs
+- name: Bass Music & Hip Hop Patterns
+  count: 64
+  description: Heavy 808s, Trap Drum Sequences & Melodic Chops

@@ -1,0 +1,26 @@
+manufacturer: Arturia
+model: Arturia MiniFreak
+type: 6-Voice Polyphonic Hybrid Synthesizer (Analog Filters)
+year: 2022
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    engine1_type: 16
+    engine2_type: 17
+    timbre: 18
+    shape: 19
+    matrix_amount: 20
+sysex:
+  header: F0 00 20 6B 02 02
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 20 6B 02 02 01 [bank] [prog] F7
+banks:
+- name: Factory Hybrid Polys
+  count: 128
+  description: Mutable Plaits Algorithms + Analog Ladder VCF Sweeps
+- name: Bass, Leads & Arpeggiators
+  count: 128
+  description: Noise Engineering Basses, Chords, FM Tines & Step Arps

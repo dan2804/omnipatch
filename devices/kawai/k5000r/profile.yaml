@@ -1,0 +1,28 @@
+manufacturer: Kawai
+model: Kawai K5000R
+type: 2U Advanced Additive Synthesis Module
+year: 1997
+midi:
+  channels: 16
+  cc_map:
+    harmonic_cutoff: 74
+    harmonic_res: 71
+    macro_1: 16
+    macro_2: 17
+    formant_filter: 18
+    reverb_send: 91
+sysex:
+  header: F0 40 00 0A
+  device_id_byte: 2
+  commands:
+    request_preset: F0 40 00 0A 01 [bank] [prog] F7
+banks:
+- name: Bank A - 128-Harmonic Additive
+  count: 128
+  description: Complex Additive Bells, Shimmering Pads & Evolving Timbres
+- name: Bank B - Additive Acoustic & Lead
+  count: 128
+  description: Solo Reeds, Flutes, Formant Choirs & Punchy Synths
+- name: Bank D - PCM Drum & Rhythm Kits
+  count: 64
+  description: Dynamic PCM Drum Kits, Electronic Percussion & Hits

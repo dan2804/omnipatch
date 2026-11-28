@@ -1,0 +1,24 @@
+manufacturer: Roland
+model: Roland MC-101
+type: 4-Track Portable Groovebox (ZEN-Core Synthesis)
+year: 2019
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_res: 71
+    ctrl_knob: 16
+    track_fader: 7
+    scatter: 17
+sysex:
+  header: F0 41 10 00 00 6C
+  device_id_byte: 2
+  commands:
+    request_preset: F0 41 10 00 00 6C 11 [track] [prog] F7
+banks:
+- name: Portable Synth Leads & Pads
+  count: 128
+  description: Juno Lush Chorus Pads, Synth Saws & Lead Stabs
+- name: Urban & Electronic Drums
+  count: 64
+  description: Signature TR Drum Soundsets & Modern Urban Percussion

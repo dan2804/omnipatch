@@ -1,0 +1,30 @@
+manufacturer: Casio
+model: Casio VZ-10M
+type: 2U Interactive Phase Distortion Synthesizer Module
+year: 1988
+midi:
+  channels: 16
+  cc_map:
+    vibrato_depth: 1
+    brightness: 74
+    envelope_decay: 75
+    mod_speed: 76
+    aftertouch: 16
+sysex:
+  header: F0 44 03 00
+  device_id_byte: 2
+  commands:
+    request_preset: F0 44 03 00 70 [bank] [prog] F7
+banks:
+- name: Preset Bank 1 - Keyboard & Acoustic
+  count: 64
+  description: Dynamic iPD Pianos, Clavinets, Marimbas & Harps
+- name: Preset Bank 2 - Organs & Brass
+  count: 64
+  description: Interactive FM Organs, Trumpet Sections & Horn Stabs
+- name: Preset Bank 3 - Digital Strings & Pads
+  count: 64
+  description: Rich Multi-Phase Strings, Airy Choir & Drones
+- name: Preset Bank 4 - Leads, Bass & FX
+  count: 64
+  description: Punchy Resonance Basses, Digital Bells & Sci-Fi Sweeps

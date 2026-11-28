@@ -1,0 +1,33 @@
+manufacturer: Novation
+model: Novation Summit
+type: 16-Voice Dual Oxford FPGA Synthesizer Flagship
+year: 2019
+midi:
+  channels: 16
+  cc_map:
+    vcf_cutoff: 74
+    vcf_resonance: 71
+    vcf_overdrive: 16
+    shape_mod: 17
+    env_attack: 73
+    env_decay: 75
+    delay_send: 92
+    reverb_send: 91
+sysex:
+  header: F0 00 20 29 01 02
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 20 29 01 02 01 [bank] [prog] F7
+banks:
+- name: Bank A - Dual-Layer Oxford Polys
+  count: 128
+  description: Lush 16-Voice Multi-Saw Pads, Warm Analog Brass & Leads
+- name: Bank B - FPGA Wavetable Textures
+  count: 128
+  description: Digital Oxford Wavetables, Glass Bells & Morphing Drones
+- name: Bank C - Basses & Acid Hooks
+  count: 128
+  description: Dual Analog Filter Overdriven Basses, Sub Punches & Plucks
+- name: Bank D - Splits & Performances
+  count: 128
+  description: Key-Split Performance Layers, Arpeggios & Motion Synths

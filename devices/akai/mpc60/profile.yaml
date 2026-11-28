@@ -1,0 +1,24 @@
+manufacturer: Akai Professional
+model: Akai MPC60 / MPC60-II
+type: 12-Bit Sampling Drum Machine & Sequencer (Roger Linn)
+year: 1988
+midi:
+  channels: 16
+  cc_map:
+    pad_pitch: 16
+    pad_decay: 17
+    pad_attack: 18
+    pan: 10
+    swing_amount: 19
+sysex:
+  header: F0 47 00 01
+  device_id_byte: 2
+  commands:
+    request_preset: F0 47 00 01 10 [seq] F7
+banks:
+- name: Roger Linn Signature Kits
+  count: 32
+  description: 12-Bit 40kHz Gritty Kicks, Crack Snares, Crisp Hats & Shakers
+- name: Golden Era Hip Hop Kits
+  count: 32
+  description: Sampled Vinyl Breaks, Chopped Chords, Sub Basses & Rimshots

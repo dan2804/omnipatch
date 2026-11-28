@@ -1,0 +1,28 @@
+manufacturer: Kurzweil
+model: Kurzweil Forte
+type: 16GB FlashPlay Stage Piano & V.A.S.T. Synthesizer
+year: 2014
+midi:
+  channels: 16
+  cc_map:
+    slider_1: 16
+    slider_2: 17
+    filter_cutoff: 74
+    filter_resonance: 71
+    reverb_send: 91
+    chorus_send: 93
+sysex:
+  header: F0 07 15 00
+  device_id_byte: 2
+  commands:
+    request_preset: F0 07 15 00 10 [bank] [prog] F7
+banks:
+- name: FlashPlay Concert Grands
+  count: 128
+  description: 16GB Zero-Load-Time German & Japanese Pianos
+- name: Stage Vintage Keyboards
+  count: 128
+  description: Electric Pianos, Clavinet D6 & Vintage Organs
+- name: V.A.S.T. Synth & Strings
+  count: 128
+  description: Dynamic Cascade DSP Polysynths, Pads & Strings

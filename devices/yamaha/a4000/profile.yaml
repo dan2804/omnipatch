@@ -1,0 +1,26 @@
+manufacturer: Yamaha
+model: Yamaha A4000
+type: 3U 64-Voice Professional Sampler (96 Filter Types)
+year: 1999
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    filter_resonance: 71
+    envelope_decay: 75
+    fx1_depth: 91
+    fx2_depth: 92
+    fx3_depth: 93
+    knob_1: 16
+sysex:
+  header: F0 43 00 57
+  device_id_byte: 2
+  commands:
+    request_preset: F0 43 00 57 10 [prog] F7
+banks:
+- name: Master Studio Library
+  count: 64
+  description: 96 Multimode Filter Ensembles, Vocal Choirs & Guitars
+- name: Synthesizer & Beat Library
+  count: 64
+  description: Complex Modulated Loop Slices, Sub-Basses & Synth Stabs
