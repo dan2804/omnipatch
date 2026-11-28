@@ -1,0 +1,22 @@
+manufacturer: Quasimidi
+model: Raven
+type: Dance & Techno Master Synthesizer Keyboard
+year: 1995
+midi:
+  channels: 16
+  cc_map:
+    filter_cutoff: 74
+    resonance: 71
+    envelope_attack: 73
+    envelope_decay: 72
+    reverb: 91
+    chorus: 93
+sysex:
+  header: F0 3F 00 01
+  device_id_byte: 2
+  commands:
+    request_preset: F0 3F 00 01 01 00 F7
+banks:
+- name: Preset Bank
+  type: ROM
+  size: 128

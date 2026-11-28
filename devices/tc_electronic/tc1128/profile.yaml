@@ -1,0 +1,32 @@
+manufacturer: TC Electronic
+model: TC 1128
+type: Programmable 28-Band Graphic Equalizer
+year: 1988
+midi:
+  channels: 16
+  cc_map:
+    band_1: 16
+    band_2: 17
+    band_3: 18
+    band_4: 19
+    band_5: 20
+    band_6: 21
+    band_7: 22
+    band_8: 23
+    band_9: 24
+    band_10: 25
+    band_11: 26
+    band_12: 27
+    band_13: 28
+    band_14: 29
+    band_15: 30
+    band_16: 31
+sysex:
+  header: F0 00 20 1F 02
+  device_id_byte: 2
+  commands:
+    request_preset: F0 00 20 1F 02 01 00 F7
+banks:
+- name: EQ Memories
+  type: RAM
+  size: 100
